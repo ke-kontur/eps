@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶РЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… СѓРїР»Р°С‚Сѓ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+ * Сведения о платежных документах, подтверждающих уплату таможенных платежей
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -36,7 +36,7 @@ public class PaymentConfirmDocsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Comment' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the 'Comment' element value. Примечание
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class PaymentConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comment' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the 'Comment' element value. Примечание
      * 
      * @param comment
      */
@@ -54,7 +54,7 @@ public class PaymentConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'TPORegNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўРџРћ
+     * Get the 'TPORegNumber' element value. Справочный номер ТПО
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class PaymentConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'TPORegNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўРџРћ
+     * Set the 'TPORegNumber' element value. Справочный номер ТПО
      * 
      * @param TPORegNumber
      */
@@ -72,7 +72,7 @@ public class PaymentConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРµ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРµ
+     * Get the 'DocID' element value. Регистрационный  номер таможенного документа, на основании которого осуществляется таможенное декларирование
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class PaymentConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРµ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРµ
+     * Set the 'DocID' element value. Регистрационный  номер таможенного документа, на основании которого осуществляется таможенное декларирование
      * 
      * @param docID
      */
@@ -90,7 +90,7 @@ public class PaymentConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PaymentDocument' element items. РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Get the list of 'PaymentDocument' element items. Платежный документ
      * 
      * @return list
      */
@@ -99,7 +99,7 @@ public class PaymentConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PaymentDocument' element items. РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Set the list of 'PaymentDocument' element items. Платежный документ
      * 
      * @param list
      */
@@ -108,7 +108,7 @@ public class PaymentConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Payer' element value. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Get the 'Payer' element value. Реквизиты плательщика
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class PaymentConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Payer' element value. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Set the 'Payer' element value. Реквизиты плательщика
      * 
      * @param payer
      */
@@ -126,7 +126,7 @@ public class PaymentConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class PaymentConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

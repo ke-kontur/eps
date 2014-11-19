@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РџР°СЃСЃР°Р¶РёСЂС‹
+ * Пассажиры
  */
 public class PassengersType
 {
@@ -14,7 +14,7 @@ public class PassengersType
     private List<String> additionalInfoList = new ArrayList<String>();
 
     /** 
-     * Get the 'TSMPPassenger' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїР°СЃСЃР°Р¶РёСЂРѕРІ, РїРµСЂРµРІРѕР·РёРјС‹С… РІ РўРЎРњРџ
+     * Get the 'TSMPPassenger' element value. Признак наличия пассажиров, перевозимых в ТСМП
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PassengersType
     }
 
     /** 
-     * Set the 'TSMPPassenger' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїР°СЃСЃР°Р¶РёСЂРѕРІ, РїРµСЂРµРІРѕР·РёРјС‹С… РІ РўРЎРњРџ
+     * Set the 'TSMPPassenger' element value. Признак наличия пассажиров, перевозимых в ТСМП
      * 
      * @param TSMPPassenger
      */
@@ -32,7 +32,7 @@ public class PassengersType
     }
 
     /** 
-     * Get the 'MemberCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ, РїРµСЂРµРІРѕР·РёРјС‹С… РІ РўРЎРњРџ
+     * Get the 'MemberCount' element value. Количество пассажиров, перевозимых в ТСМП
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PassengersType
     }
 
     /** 
-     * Set the 'MemberCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ, РїРµСЂРµРІРѕР·РёРјС‹С… РІ РўРЎРњРџ
+     * Set the 'MemberCount' element value. Количество пассажиров, перевозимых в ТСМП
      * 
      * @param memberCount
      */
@@ -50,7 +50,7 @@ public class PassengersType
     }
 
     /** 
-     * Get the list of 'AdditionalInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the list of 'AdditionalInfo' element items. Дополнительная информация
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class PassengersType
     }
 
     /** 
-     * Set the list of 'AdditionalInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the list of 'AdditionalInfo' element items. Дополнительная информация
      * 
      * @param list
      */

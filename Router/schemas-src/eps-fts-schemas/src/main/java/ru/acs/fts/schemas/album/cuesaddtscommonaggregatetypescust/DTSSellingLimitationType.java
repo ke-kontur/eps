@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРіСЂР°РЅРёС‡РµРЅРёСЏ РЅР° РїРѕР»СЊР·РѕРІР°РЅРёРµ С‚РѕРІР°СЂР°РјРё  Рё РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РїСЂРё РїСЂРѕРґР°Р¶Рµ С‚РѕРІР°СЂРѕРІ. РіСЂ.8
+ * Ограничения на пользование товарами  и обязательства при продаже товаров. гр.8
  */
 public class DTSSellingLimitationType
 {
@@ -14,7 +14,7 @@ public class DTSSellingLimitationType
     private List<String> limitationDescriptionList = new ArrayList<String>();
 
     /** 
-     * Get the 'Column8A' element value. Р“СЂР°С„Р° 8Р°
+     * Get the 'Column8A' element value. Графа 8а
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DTSSellingLimitationType
     }
 
     /** 
-     * Set the 'Column8A' element value. Р“СЂР°С„Р° 8Р°
+     * Set the 'Column8A' element value. Графа 8а
      * 
      * @param column8A
      */
@@ -32,7 +32,7 @@ public class DTSSellingLimitationType
     }
 
     /** 
-     * Get the 'Column8B' element value. Р“СЂР°С„Р° 8Р±
+     * Get the 'Column8B' element value. Графа 8б
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DTSSellingLimitationType
     }
 
     /** 
-     * Set the 'Column8B' element value. Р“СЂР°С„Р° 8Р±
+     * Set the 'Column8B' element value. Графа 8б
      * 
      * @param column8B
      */
@@ -50,7 +50,7 @@ public class DTSSellingLimitationType
     }
 
     /** 
-     * Get the list of 'limitationDescription' element items. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё. Р’РёРґ Рё СЃРѕРґРµСЂР¶Р°РЅРёРµ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ. Р Р°СЃС‡РµС‚ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the list of 'limitationDescription' element items. Подробности. Вид и содержание обязательств. Расчет стоимости
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class DTSSellingLimitationType
     }
 
     /** 
-     * Set the list of 'limitationDescription' element items. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё. Р’РёРґ Рё СЃРѕРґРµСЂР¶Р°РЅРёРµ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ. Р Р°СЃС‡РµС‚ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the list of 'limitationDescription' element items. Подробности. Вид и содержание обязательств. Расчет стоимости
      * 
      * @param list
      */

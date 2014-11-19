@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WarehouseCerti
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhTransportType;
 
 /** 
- * РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕРїРёСЃРё РґРѕРєСѓРјРµРЅС‚РѕРІ С‚Р°РјРѕР¶РµРЅРЅРѕРјСѓ РѕСЂРіР°РЅСѓ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРјСѓ РєРѕРЅС‚СЂРѕР»СЊ Р·Р° С„СѓРЅРєС†РёРѕРЅРёСЂРѕРІР°РЅРёРµРј РЎР’РҐ./РџРµСЂРµС‡РµРЅСЊ СЌР»РµРєС‚СЂРѕРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+ * Предоставление описи документов таможенному органу, осуществляющему контроль за функционированием СВХ./Перечень электронных документов
  */
 public class WHDocInventoryType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class WHDocInventoryType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'InventoryInstanceDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕРїРёСЃРё.
+     * Get the 'InventoryInstanceDate' element value. Дата предоставления описи.
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'InventoryInstanceDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕРїРёСЃРё.
+     * Set the 'InventoryInstanceDate' element value. Дата предоставления описи.
      * 
      * @param inventoryInstanceDate
      */
@@ -43,7 +43,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё
+     * Get the list of 'InventDocument' element items. Документ из описи
      * 
      * @return list
      */
@@ -52,7 +52,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InventDocument' element items. Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё
+     * Set the list of 'InventDocument' element items. Документ из описи
      * 
      * @param list
      */
@@ -61,7 +61,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Sender' element value. Отправитель
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Sender' element value. Отправитель
      * 
      * @param sender
      */
@@ -79,7 +79,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Receiver' element value. Получатель
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Receiver' element value. Получатель
      * 
      * @param receiver
      */
@@ -97,7 +97,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberDoc' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RegNumberDoc' element value. Регистрационный номер документа
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDoc' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RegNumberDoc' element value. Регистрационный номер документа
      * 
      * @param regNumberDoc
      */
@@ -115,7 +115,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'WarehouseLicense' element value. Р Р°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚ (СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ, СЂР°Р·СЂРµС€РµРЅРёРµ) СЃРєР»Р°РґР°, РЅР° РєРѕС‚РѕСЂС‹Р№ РїСЂРµРґРїРѕР»Р°РіР°РµС‚СЃСЏ РїРѕРјРµС‰РµРЅРёРµ С‚РѕРІР°СЂРѕРІ. РњРѕР¶РµС‚ Р±С‹С‚СЊ Р·Р°РїРѕР»РЅРµРЅРѕ РїСЂРё РїРѕРґР°С‡Рµ РѕРїРёСЃРё РїРµСЂРµРІРѕР·С‡РёРєРѕРј РІ РўРћ
+     * Get the 'WarehouseLicense' element value. Разрешительный документ (свидетельство, разрешение) склада, на который предполагается помещение товаров. Может быть заполнено при подаче описи перевозчиком в ТО
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'WarehouseLicense' element value. Р Р°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚ (СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ, СЂР°Р·СЂРµС€РµРЅРёРµ) СЃРєР»Р°РґР°, РЅР° РєРѕС‚РѕСЂС‹Р№ РїСЂРµРґРїРѕР»Р°РіР°РµС‚СЃСЏ РїРѕРјРµС‰РµРЅРёРµ С‚РѕРІР°СЂРѕРІ. РњРѕР¶РµС‚ Р±С‹С‚СЊ Р·Р°РїРѕР»РЅРµРЅРѕ РїСЂРё РїРѕРґР°С‡Рµ РѕРїРёСЃРё РїРµСЂРµРІРѕР·С‡РёРєРѕРј РІ РўРћ
+     * Set the 'WarehouseLicense' element value. Разрешительный документ (свидетельство, разрешение) склада, на который предполагается помещение товаров. Может быть заполнено при подаче описи перевозчиком в ТО
      * 
      * @param warehouseLicense
      */
@@ -133,7 +133,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Transports' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С…  СЃСЂРµРґСЃС‚РІ
+     * Get the list of 'Transports' element items. Описание транспортных  средств
      * 
      * @return list
      */
@@ -142,7 +142,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Transports' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С…  СЃСЂРµРґСЃС‚РІ
+     * Set the list of 'Transports' element items. Описание транспортных  средств
      * 
      * @param list
      */
@@ -151,7 +151,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsShipment' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… РЅР°РєР»Р°РґРЅС‹С… (С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёР№), РїСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹С… РїСЂРё РїРѕРјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРІ РЅР° РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ
+     * Get the list of 'GoodsShipment' element items. Описание товаро-транспортных накладных (товарных партий), представляемых при помещении товаров на временное хранение
      * 
      * @return list
      */
@@ -160,7 +160,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsShipment' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… РЅР°РєР»Р°РґРЅС‹С… (С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёР№), РїСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹С… РїСЂРё РїРѕРјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРІ РЅР° РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ
+     * Set the list of 'GoodsShipment' element items. Описание товаро-транспортных накладных (товарных партий), представляемых при помещении товаров на временное хранение
      * 
      * @param list
      */
@@ -169,7 +169,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class WHDocInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.CWDocType;
 
 /** 
- * Р¤РѕСЂРјСѓР»СЏСЂ РєРѕРЅС‚СЂРѕР»СЏ С‚РѕРІР°СЂРѕРІ 
+ * Формуляр контроля товаров 
  */
 public class CWFormularType extends CWDocType
 {
@@ -16,7 +16,7 @@ public class CWFormularType extends CWDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Document' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Get the list of 'Document' element items. Информация о представленных документах
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class CWFormularType extends CWDocType
     }
 
     /** 
-     * Set the list of 'Document' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Set the list of 'Document' element items. Информация о представленных документах
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class CWFormularType extends CWDocType
     }
 
     /** 
-     * Get the list of 'Commodity' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Get the list of 'Commodity' element items. Информация о товаре
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class CWFormularType extends CWDocType
     }
 
     /** 
-     * Set the list of 'Commodity' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Set the list of 'Commodity' element items. Информация о товаре
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class CWFormularType extends CWDocType
     }
 
     /** 
-     * Get the 'Header' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Р°С… РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'Header' element value. Информация о реквизитах документа
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class CWFormularType extends CWDocType
     }
 
     /** 
-     * Set the 'Header' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Р°С… РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'Header' element value. Информация о реквизитах документа
      * 
      * @param header
      */
@@ -70,7 +70,7 @@ public class CWFormularType extends CWDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class CWFormularType extends CWDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

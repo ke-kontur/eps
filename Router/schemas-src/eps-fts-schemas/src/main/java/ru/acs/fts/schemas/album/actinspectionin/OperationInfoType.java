@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕРїРµСЂР°С†РёРё (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё TechMarkCode = 001 Рё 002)
+ * Информация об операции (заполняется при TechMarkCode = 001 и 002)
  */
 public class OperationInfoType extends CustomsPersonType
 {
@@ -14,7 +14,7 @@ public class OperationInfoType extends CustomsPersonType
     private LocalDate operationDocDate;
 
     /** 
-     * Get the 'OperationDocCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р° 
+     * Get the 'OperationDocCode' element value. Тип документа 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class OperationInfoType extends CustomsPersonType
     }
 
     /** 
-     * Set the 'OperationDocCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р° 
+     * Set the 'OperationDocCode' element value. Тип документа 
      * 
      * @param operationDocCode
      */
@@ -32,7 +32,7 @@ public class OperationInfoType extends CustomsPersonType
     }
 
     /** 
-     * Get the 'OperationDocNum' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'OperationDocNum' element value. Номер документа
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class OperationInfoType extends CustomsPersonType
     }
 
     /** 
-     * Set the 'OperationDocNum' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'OperationDocNum' element value. Номер документа
      * 
      * @param operationDocNum
      */
@@ -50,7 +50,7 @@ public class OperationInfoType extends CustomsPersonType
     }
 
     /** 
-     * Get the 'OperationDocDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'OperationDocDate' element value. Дата документа
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class OperationInfoType extends CustomsPersonType
     }
 
     /** 
-     * Set the 'OperationDocDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'OperationDocDate' element value. Дата документа
      * 
      * @param operationDocDate
      */

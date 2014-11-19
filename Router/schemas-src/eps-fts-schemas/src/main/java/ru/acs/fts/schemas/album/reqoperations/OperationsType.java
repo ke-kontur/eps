@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.reqoperations;
 
 /** 
- * РџРµСЂРµС‡РµРЅСЊ РѕРїРµСЂР°С†РёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+ * Перечень операций в отношении товаров и транспортных средств
  */
 public class OperationsType
 {
@@ -10,7 +10,7 @@ public class OperationsType
     private String remark;
 
     /** 
-     * Get the 'Value' element value. Р—РЅР°С‡РµРЅРёРµ: 0 РёР»Рё false - РЅРµС‚, 1 РёР»Рё true - РґР°
+     * Get the 'Value' element value. Значение: 0 или false - нет, 1 или true - да
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class OperationsType
     }
 
     /** 
-     * Set the 'Value' element value. Р—РЅР°С‡РµРЅРёРµ: 0 РёР»Рё false - РЅРµС‚, 1 РёР»Рё true - РґР°
+     * Set the 'Value' element value. Значение: 0 или false - нет, 1 или true - да
      * 
      * @param value
      */
@@ -28,7 +28,7 @@ public class OperationsType
     }
 
     /** 
-     * Get the 'Remark' element value. РџРѕСЏСЃРЅРµРЅРёРµ Рє РїСЂРѕРІРѕРґРёРјС‹Рј РѕРїРµСЂР°С†РёСЏРј Рё/РёР»Рё РґРµС‚Р°Р»СЊРЅРѕРµ РѕРїРёСЃР°РЅРёРµ РєРѕРЅРєСЂРµС‚РЅС‹С… РґРµР№СЃС‚РІРёР№, РєРѕС‚РѕСЂС‹Рµ С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРѕРІРµСЃС‚Рё
+     * Get the 'Remark' element value. Пояснение к проводимым операциям и/или детальное описание конкретных действий, которые требуется провести
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class OperationsType
     }
 
     /** 
-     * Set the 'Remark' element value. РџРѕСЏСЃРЅРµРЅРёРµ Рє РїСЂРѕРІРѕРґРёРјС‹Рј РѕРїРµСЂР°С†РёСЏРј Рё/РёР»Рё РґРµС‚Р°Р»СЊРЅРѕРµ РѕРїРёСЃР°РЅРёРµ РєРѕРЅРєСЂРµС‚РЅС‹С… РґРµР№СЃС‚РІРёР№, РєРѕС‚РѕСЂС‹Рµ С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРѕРІРµСЃС‚Рё
+     * Set the 'Remark' element value. Пояснение к проводимым операциям и/или детальное описание конкретных действий, которые требуется провести
      * 
      * @param remark
      */

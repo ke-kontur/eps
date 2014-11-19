@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialact;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ, РєРѕС‚РѕСЂС‹Рµ Р±С‹Р»Рё Р·Р°СЏРІР»РµРЅС‹ РІ РґРѕРєСѓРјРµРЅС‚Р°С…, РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‚ РїРѕ С„Р°РєС‚Сѓ, РЅРѕ РѕС‚Р»РёС‡Р°СЋС‚СЃСЏ РїРѕ СЃРІРѕРёРј С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°Рј РѕС‚ СЃРІРµРґРµРЅРёР№, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Описание товаров, которые были заявлены в документах, присутствуют по факту, но отличаются по своим характеристикам от сведений, заявленных в товаросопроводительных документах
  */
 public class DiscrepantGoodsType extends ActGoodsType
 {
@@ -14,7 +14,7 @@ public class DiscrepantGoodsType extends ActGoodsType
     private BruttoVolQuantType bruttoVolQuant;
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DiscrepantGoodsType extends ActGoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -32,7 +32,7 @@ public class DiscrepantGoodsType extends ActGoodsType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'GoodsDescription' element value. Описание товара
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DiscrepantGoodsType extends ActGoodsType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'GoodsDescription' element value. Описание товара
      * 
      * @param goodsDescription
      */
@@ -50,7 +50,7 @@ public class DiscrepantGoodsType extends ActGoodsType
     }
 
     /** 
-     * Get the 'InvoiceCost' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the 'InvoiceCost' element value. Сведения о фактурной стоимости
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class DiscrepantGoodsType extends ActGoodsType
     }
 
     /** 
-     * Set the 'InvoiceCost' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the 'InvoiceCost' element value. Сведения о фактурной стоимости
      * 
      * @param invoiceCost
      */
@@ -68,7 +68,7 @@ public class DiscrepantGoodsType extends ActGoodsType
     }
 
     /** 
-     * Get the 'PlaceNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Get the 'PlaceNumber' element value. Количество грузовых мест
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class DiscrepantGoodsType extends ActGoodsType
     }
 
     /** 
-     * Set the 'PlaceNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Set the 'PlaceNumber' element value. Количество грузовых мест
      * 
      * @param placeNumber
      */
@@ -86,7 +86,7 @@ public class DiscrepantGoodsType extends ActGoodsType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'GoodsQuantity' element value. Количество товара в дополнительной единице измерения
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class DiscrepantGoodsType extends ActGoodsType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'GoodsQuantity' element value. Количество товара в дополнительной единице измерения
      * 
      * @param goodsQuantity
      */
@@ -104,7 +104,7 @@ public class DiscrepantGoodsType extends ActGoodsType
     }
 
     /** 
-     * Get the 'BruttoVolQuant' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ/РѕР±СЉРµРј
+     * Get the 'BruttoVolQuant' element value. Вес брутто/объем
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class DiscrepantGoodsType extends ActGoodsType
     }
 
     /** 
-     * Set the 'BruttoVolQuant' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ/РѕР±СЉРµРј
+     * Set the 'BruttoVolQuant' element value. Вес брутто/объем
      * 
      * @param bruttoVolQuant
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.shippingmanifest;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РјРµРґРёС†РёРЅСЃРєРѕРј РѕСЃРјРѕС‚СЂРµ РІРѕРґРёС‚РµР»СЏ
+ * Сведения о медицинском осмотре водителя
  */
 public class MedCheckType
 {
@@ -12,7 +12,7 @@ public class MedCheckType
     private String time;
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р°
+     * Get the 'Date' element value. Дата
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class MedCheckType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р°
+     * Set the 'Date' element value. Дата
      * 
      * @param date
      */
@@ -30,7 +30,7 @@ public class MedCheckType
     }
 
     /** 
-     * Get the 'Time' element value. Р’СЂРµРјСЏ
+     * Get the 'Time' element value. Время
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class MedCheckType
     }
 
     /** 
-     * Set the 'Time' element value. Р’СЂРµРјСЏ
+     * Set the 'Time' element value. Время
      * 
      * @param time
      */

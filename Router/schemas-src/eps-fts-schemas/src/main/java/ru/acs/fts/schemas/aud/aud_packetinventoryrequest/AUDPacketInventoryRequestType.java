@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDGTDIDType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РѕРїРёСЃРё РґРѕРєСѓРјРµРЅС‚РѕРІ РїРѕ РїР°РєРµС‚Сѓ (РїСЂРѕС†РµРґСѓСЂРµ), РєРѕС‚РѕСЂС‹Рµ С…СЂР°РЅСЏС‚СЊСЃСЏ РІ РђР®Р”
+ * Запрос описи документов по пакету (процедуре), которые храняться в АЮД
  */
 public class AUDPacketInventoryRequestType extends AUDBaseEnvelopeType
 {
@@ -14,7 +14,7 @@ public class AUDPacketInventoryRequestType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'AppliedProcessId' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР° (Р°СЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°)
+     * Get the 'AppliedProcessId' element value. Уникальный идентификатор процесса (архивный идентификатор пакета)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class AUDPacketInventoryRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'AppliedProcessId' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР° (Р°СЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°)
+     * Set the 'AppliedProcessId' element value. Уникальный идентификатор процесса (архивный идентификатор пакета)
      * 
      * @param appliedProcessId
      */
@@ -32,7 +32,7 @@ public class AUDPacketInventoryRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'AUD_GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ Р“РўР” Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ  РїСЂРё   СЂР°Р·РјРµС‰РµРЅРёРё  Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё  РїР°РєРµС‚Р°,  РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅРѕРіРѕ РґР»СЏ  С…СЂР°РЅРµРЅРёСЏ Р“РўР”
+     * Get the 'AUD_GTDID' element value. Регистрационный  номер ГТД заполняется  при   размещении  и предоставлении  пакета,  предназначенного для  хранения ГТД
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class AUDPacketInventoryRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'AUD_GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ Р“РўР” Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ  РїСЂРё   СЂР°Р·РјРµС‰РµРЅРёРё  Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё  РїР°РєРµС‚Р°,  РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅРѕРіРѕ РґР»СЏ  С…СЂР°РЅРµРЅРёСЏ Р“РўР”
+     * Set the 'AUD_GTDID' element value. Регистрационный  номер ГТД заполняется  при   размещении  и предоставлении  пакета,  предназначенного для  хранения ГТД
      * 
      * @param AUDGTDID
      */
@@ -50,7 +50,7 @@ public class AUDPacketInventoryRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class AUDPacketInventoryRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @param documentModeID
      */

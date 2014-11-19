@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonleaftypescust.TransportCategoryCodeType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.ConformanceCertificateType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+ * Сведения о транспортном средстве
  */
 public class PTSDataType extends AutomobileBaseType
 {
@@ -27,7 +27,7 @@ public class PTSDataType extends AutomobileBaseType
     private List<TransportColorListType> transportMeansColorList = new ArrayList<TransportColorListType>();
 
     /** 
-     * Get the 'Kind' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'Kind' element value. Тип транспортного средства
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'Kind' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'Kind' element value. Тип транспортного средства
      * 
      * @param kind
      */
@@ -45,7 +45,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'TransportCategoryCode' element value. РљР°С‚РµРіРѕСЂРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'TransportCategoryCode' element value. Категория транспортного средства
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'TransportCategoryCode' element value. РљР°С‚РµРіРѕСЂРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'TransportCategoryCode' element value. Категория транспортного средства
      * 
      * @param transportCategoryCode
      */
@@ -64,7 +64,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'TransportMeansColorCode' element value. РљРѕРґ С†РІРµС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'TransportMeansColorCode' element value. Код цвета транспортного средства
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'TransportMeansColorCode' element value. РљРѕРґ С†РІРµС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'TransportMeansColorCode' element value. Код цвета транспортного средства
      * 
      * @param transportMeansColorCode
      */
@@ -82,7 +82,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EngineModel' element value. РњРѕРґРµР»СЊ РґРІРёРіР°С‚РµР»СЏ
+     * Get the 'EngineModel' element value. Модель двигателя
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EngineModel' element value. РњРѕРґРµР»СЊ РґРІРёРіР°С‚РµР»СЏ
+     * Set the 'EngineModel' element value. Модель двигателя
      * 
      * @param engineModel
      */
@@ -100,7 +100,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EnginePowerKvtQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ РєРёР»РѕРІР°С‚С‚Р°С…
+     * Get the 'EnginePowerKvtQuanity' element value. Мощность двигателя в киловаттах
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EnginePowerKvtQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ РєРёР»РѕРІР°С‚С‚Р°С…
+     * Set the 'EnginePowerKvtQuanity' element value. Мощность двигателя в киловаттах
      * 
      * @param enginePowerKvtQuanity
      */
@@ -118,7 +118,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EnginePowerHpQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ Р»РѕС€Р°РґРёРЅС‹С… СЃРёР»Р°С…
+     * Get the 'EnginePowerHpQuanity' element value. Мощность двигателя в лошадиных силах
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EnginePowerHpQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ Р»РѕС€Р°РґРёРЅС‹С… СЃРёР»Р°С…
+     * Set the 'EnginePowerHpQuanity' element value. Мощность двигателя в лошадиных силах
      * 
      * @param enginePowerHpQuanity
      */
@@ -136,7 +136,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'MaxWeightQuantity' element value. Р Р°Р·СЂРµС€РµРЅРЅР°СЏ РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ РјР°СЃСЃР° РўРЎ РІ РєРі
+     * Get the 'MaxWeightQuantity' element value. Разрешенная максимальная масса ТС в кг
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'MaxWeightQuantity' element value. Р Р°Р·СЂРµС€РµРЅРЅР°СЏ РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ РјР°СЃСЃР° РўРЎ РІ РєРі
+     * Set the 'MaxWeightQuantity' element value. Разрешенная максимальная масса ТС в кг
      * 
      * @param maxWeightQuantity
      */
@@ -154,7 +154,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'MinWeightQuantity' element value. РњР°СЃСЃР° Р±РµР· РЅР°РіСЂСѓР·РєРё РІ РєРі
+     * Get the 'MinWeightQuantity' element value. Масса без нагрузки в кг
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'MinWeightQuantity' element value. РњР°СЃСЃР° Р±РµР· РЅР°РіСЂСѓР·РєРё РІ РєРі
+     * Set the 'MinWeightQuantity' element value. Масса без нагрузки в кг
      * 
      * @param minWeightQuantity
      */
@@ -172,7 +172,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EngineModeCode' element value. РљРѕРґ С‚РёРїР° РґРІРёРіР°С‚РµР»СЏ
+     * Get the 'EngineModeCode' element value. Код типа двигателя
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EngineModeCode' element value. РљРѕРґ С‚РёРїР° РґРІРёРіР°С‚РµР»СЏ
+     * Set the 'EngineModeCode' element value. Код типа двигателя
      * 
      * @param engineModeCode
      */
@@ -190,7 +190,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'Ekoclass' element value. Р­РєРѕР»РѕРіРёС‡РµСЃРєРёР№ РєР»Р°СЃСЃ ("0"-РЅСѓР»РµРІРѕР№, "1" - РїРµСЂРІС‹Р№, "2" - РІС‚РѕСЂРѕР№, "3" - С‚СЂРµС‚РёР№, "4" - С‡РµС‚РІРµСЂС‚С‹Р№, "5" - РїСЏС‚С‹Р№)
+     * Get the 'Ekoclass' element value. Экологический класс ("0"-нулевой, "1" - первый, "2" - второй, "3" - третий, "4" - четвертый, "5" - пятый)
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'Ekoclass' element value. Р­РєРѕР»РѕРіРёС‡РµСЃРєРёР№ РєР»Р°СЃСЃ ("0"-РЅСѓР»РµРІРѕР№, "1" - РїРµСЂРІС‹Р№, "2" - РІС‚РѕСЂРѕР№, "3" - С‚СЂРµС‚РёР№, "4" - С‡РµС‚РІРµСЂС‚С‹Р№, "5" - РїСЏС‚С‹Р№)
+     * Set the 'Ekoclass' element value. Экологический класс ("0"-нулевой, "1" - первый, "2" - второй, "3" - третий, "4" - четвертый, "5" - пятый)
      * 
      * @param ekoclass
      */
@@ -208,7 +208,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'SpecialMark' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
+     * Get the 'SpecialMark' element value. Особые отметки
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'SpecialMark' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
+     * Set the 'SpecialMark' element value. Особые отметки
      * 
      * @param specialMark
      */
@@ -226,7 +226,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'ConformanceCertificate' element value. Р РµРєРІРёР·РёС‚С‹ РћРґРѕР±СЂРµРЅРёСЏ С‚РёРїР° РўРЎ /РЎРµСЂС‚РёС„РёРєР°С‚Р° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Get the 'ConformanceCertificate' element value. Реквизиты Одобрения типа ТС /Сертификата соответствия
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'ConformanceCertificate' element value. Р РµРєРІРёР·РёС‚С‹ РћРґРѕР±СЂРµРЅРёСЏ С‚РёРїР° РўРЎ /РЎРµСЂС‚РёС„РёРєР°С‚Р° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Set the 'ConformanceCertificate' element value. Реквизиты Одобрения типа ТС /Сертификата соответствия
      * 
      * @param conformanceCertificate
      */
@@ -245,7 +245,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the list of 'TransportMeansColorList' element items. РЎРїРёСЃРѕРє С†РІРµС‚РѕРІ РўРЎ, С€Р°СЃСЃРё РўРЎ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РЅР°Р·РІР°РЅРёСЏРјРё РѕСЃРЅРѕРІРЅС‹С…  С†РІРµС‚РѕРІ,  РµСЃР»Рё С†РІРµС‚ - РјРЅРѕРіРѕС†РІРµС‚РЅС‹Р№.
+     * Get the list of 'TransportMeansColorList' element items. Список цветов ТС, шасси ТС. Заполняется названиями основных  цветов,  если цвет - многоцветный.
      * 
      * @return list
      */
@@ -254,7 +254,7 @@ public class PTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the list of 'TransportMeansColorList' element items. РЎРїРёСЃРѕРє С†РІРµС‚РѕРІ РўРЎ, С€Р°СЃСЃРё РўРЎ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РЅР°Р·РІР°РЅРёСЏРјРё РѕСЃРЅРѕРІРЅС‹С…  С†РІРµС‚РѕРІ,  РµСЃР»Рё С†РІРµС‚ - РјРЅРѕРіРѕС†РІРµС‚РЅС‹Р№.
+     * Set the list of 'TransportMeansColorList' element items. Список цветов ТС, шасси ТС. Заполняется названиями основных  цветов,  если цвет - многоцветный.
      * 
      * @param list
      */

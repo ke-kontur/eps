@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РїСЂРѕРґСѓРєС‚РѕРІ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+ * Описание продуктов переработки
  */
 public class ProcessingGoodsType
 {
@@ -15,7 +15,7 @@ public class ProcessingGoodsType
     private SupplementaryQuantityType processingGoodsQuantity;
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ProcessingGoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -33,7 +33,7 @@ public class ProcessingGoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Описание и характеристика товара
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class ProcessingGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Описание и характеристика товара
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class ProcessingGoodsType
     }
 
     /** 
-     * Get the 'ProcessingGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'ProcessingGoodsQuantity' element value. Количество товаров в единице измерения
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ProcessingGoodsType
     }
 
     /** 
-     * Set the 'ProcessingGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'ProcessingGoodsQuantity' element value. Количество товаров в единице измерения
      * 
      * @param processingGoodsQuantity
      */

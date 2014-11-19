@@ -18,7 +18,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsQuotaTyp
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ProcessingGoodsDeclarationType;
 
 /** 
- * РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ РљР”Рў. Р“СЂ. 31-47
+ * Товарная часть КДТ. Гр. 31-47
  */
 public class KTDinGoodsType extends CUESADGoodsItemType
 {
@@ -47,7 +47,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     private ChangeCodeType changeCode;
 
     /** 
-     * Get the 'OriginDigitCountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ.
+     * Get the 'OriginDigitCountryCode' element value. Цифровой код страны происхождения.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'OriginDigitCountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ.
+     * Set the 'OriginDigitCountryCode' element value. Цифровой код страны происхождения.
      * 
      * @param originDigitCountryCode
      */
@@ -65,7 +65,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'DestinationDigitCountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ.
+     * Get the 'DestinationDigitCountryCode' element value. Цифровой код страны назначения.
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'DestinationDigitCountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ.
+     * Set the 'DestinationDigitCountryCode' element value. Цифровой код страны назначения.
      * 
      * @param destinationDigitCountryCode
      */
@@ -84,7 +84,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'CustomsCostMethodCode' element value. РќРѕРјРµСЂ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё  Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰Р°РµРјС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ СЂРµР¶РёРјС‹, РїСЂРёРјРµРЅРёРјС‹Рµ Рє РІРІРѕР·РёРјС‹Рј С‚РѕРІР°СЂР°Рј
+     * Get the 'CustomsCostMethodCode' element value. Номер метода определения таможенной стоимости  Заполняется в соответствии с классификатором методов определения таможенной стоимости товаров, помещаемых под таможенные режимы, применимые к ввозимым товарам
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'CustomsCostMethodCode' element value. РќРѕРјРµСЂ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё  Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰Р°РµРјС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ СЂРµР¶РёРјС‹, РїСЂРёРјРµРЅРёРјС‹Рµ Рє РІРІРѕР·РёРјС‹Рј С‚РѕРІР°СЂР°Рј
+     * Set the 'CustomsCostMethodCode' element value. Номер метода определения таможенной стоимости  Заполняется в соответствии с классификатором методов определения таможенной стоимости товаров, помещаемых под таможенные режимы, применимые к ввозимым товарам
      * 
      * @param customsCostMethodCode
      */
@@ -102,7 +102,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'LanguageGoods' element value. РљРѕРґ СЏР·С‹РєР°  РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'LanguageGoods' element value. Код языка  описания товара
      * 
      * @return value
      */
@@ -111,7 +111,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'LanguageGoods' element value. РљРѕРґ СЏР·С‹РєР°  РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'LanguageGoods' element value. Код языка  описания товара
      * 
      * @param languageGoods
      */
@@ -120,7 +120,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'PreviousCustomsCost' element value. РџСЂРµРґС‹РґСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё, РіСЂ.45 РІС‚РѕСЂРѕР№ РїРѕРґСЂР°Р·РґРµР»
+     * Get the 'PreviousCustomsCost' element value. Предыдущее значение таможенной стоимости, гр.45 второй подраздел
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'PreviousCustomsCost' element value. РџСЂРµРґС‹РґСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё, РіСЂ.45 РІС‚РѕСЂРѕР№ РїРѕРґСЂР°Р·РґРµР»
+     * Set the 'PreviousCustomsCost' element value. Предыдущее значение таможенной стоимости, гр.45 второй подраздел
      * 
      * @param previousCustomsCost
      */
@@ -138,7 +138,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'KDTGoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РљР”Рў
+     * Get the 'KDTGoodsNumeric' element value. Порядковый номер товара по КДТ
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'KDTGoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РљР”Рў
+     * Set the 'KDTGoodsNumeric' element value. Порядковый номер товара по КДТ
      * 
      * @param KDTGoodsNumeric
      */
@@ -156,7 +156,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'KTDinPresentedDocument' element items. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ РіСЂ. 44
+     * Get the list of 'KTDinPresentedDocument' element items. КДТ. Внутренний формат. Представленные документы гр. 44
      * 
      * @return list
      */
@@ -165,7 +165,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'KTDinPresentedDocument' element items. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ РіСЂ. 44
+     * Set the list of 'KTDinPresentedDocument' element items. КДТ. Внутренний формат. Представленные документы гр. 44
      * 
      * @param list
      */
@@ -175,7 +175,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'KTDinPrecedingDocument' element items. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ РґРѕРєСѓРјРµРЅС‚С‹.
+     * Get the list of 'KTDinPrecedingDocument' element items. КДТ. Внутренний формат. Предшествующие документы.
      * 
      * @return list
      */
@@ -184,7 +184,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'KTDinPrecedingDocument' element items. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ РґРѕРєСѓРјРµРЅС‚С‹.
+     * Set the list of 'KTDinPrecedingDocument' element items. КДТ. Внутренний формат. Предшествующие документы.
      * 
      * @param list
      */
@@ -193,7 +193,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'KTDinCustomsPaymentCalculation' element items. РљРўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№.
+     * Get the list of 'KTDinCustomsPaymentCalculation' element items. КТД. Внутренний формат. Исчисление таможенных платежей.
      * 
      * @return list
      */
@@ -202,7 +202,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'KTDinCustomsPaymentCalculation' element items. РљРўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№.
+     * Set the list of 'KTDinCustomsPaymentCalculation' element items. КТД. Внутренний формат. Исчисление таможенных платежей.
      * 
      * @param list
      */
@@ -212,7 +212,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'KTDinAutomobile' element items. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ  РѕР± Р°РІС‚РѕРјРѕР±РёР»СЏС…. Р“СЂ. 31
+     * Get the list of 'KTDinAutomobile' element items. КДТ. Внутренний формат. Сведения  об автомобилях. Гр. 31
      * 
      * @return list
      */
@@ -221,7 +221,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'KTDinAutomobile' element items. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ  РѕР± Р°РІС‚РѕРјРѕР±РёР»СЏС…. Р“СЂ. 31
+     * Set the list of 'KTDinAutomobile' element items. КДТ. Внутренний формат. Сведения  об автомобилях. Гр. 31
      * 
      * @param list
      */
@@ -230,7 +230,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'KTDinGoodsOfficialMark' element items. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂСѓ.
+     * Get the list of 'KTDinGoodsOfficialMark' element items. КДТ. Внутренний формат. Служебные отметки по товару.
      * 
      * @return list
      */
@@ -239,7 +239,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'KTDinGoodsOfficialMark' element items. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂСѓ.
+     * Set the list of 'KTDinGoodsOfficialMark' element items. КДТ. Внутренний формат. Служебные отметки по товару.
      * 
      * @param list
      */
@@ -249,7 +249,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'ESADExcise' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РєС†РёР·РЅС‹С… РјР°СЂРєР°С…
+     * Get the list of 'ESADExcise' element items. Сведения об акцизных марках
      * 
      * @return list
      */
@@ -258,7 +258,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'ESADExcise' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РєС†РёР·РЅС‹С… РјР°СЂРєР°С…
+     * Set the list of 'ESADExcise' element items. Сведения об акцизных марках
      * 
      * @param list
      */
@@ -267,7 +267,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'KDTinCustomsConditions' element value. РЎРІРµРґРµРЅРёСЏ, СѓРєР°Р·С‹РІР°РµРјС‹Рµ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё Р”Рў РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ РєР°С‡РµСЃС‚РІРµ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° РїРѕР»СѓС‡РµРЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІСЌР»РµРјРµРЅС‚ 6 РіСЂ 31, РіСЂ 44
+     * Get the 'KDTinCustomsConditions' element value. Сведения, указываемые в случае, если ДТ используется в качестве заявления на получение разрешения на переработку товаровэлемент 6 гр 31, гр 44
      * 
      * @return value
      */
@@ -276,7 +276,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'KDTinCustomsConditions' element value. РЎРІРµРґРµРЅРёСЏ, СѓРєР°Р·С‹РІР°РµРјС‹Рµ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё Р”Рў РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ РєР°С‡РµСЃС‚РІРµ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° РїРѕР»СѓС‡РµРЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІСЌР»РµРјРµРЅС‚ 6 РіСЂ 31, РіСЂ 44
+     * Set the 'KDTinCustomsConditions' element value. Сведения, указываемые в случае, если ДТ используется в качестве заявления на получение разрешения на переработку товаровэлемент 6 гр 31, гр 44
      * 
      * @param KDTinCustomsConditions
      */
@@ -286,7 +286,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'KDTinGoodsOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё РІ С‚РѕРІР°СЂРЅРѕР№ С‡Р°СЃС‚Рё Р”Рў
+     * Get the 'KDTinGoodsOrganization' element value. Сведения об организации в товарной части ДТ
      * 
      * @return value
      */
@@ -295,7 +295,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'KDTinGoodsOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё РІ С‚РѕРІР°СЂРЅРѕР№ С‡Р°СЃС‚Рё Р”Рў
+     * Set the 'KDTinGoodsOrganization' element value. Сведения об организации в товарной части ДТ
      * 
      * @param KDTinGoodsOrganization
      */
@@ -305,7 +305,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADGoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ.
+     * Get the 'ESADGoodsPackaging' element value. Сведения о грузовых местах, поддонах и упаковке товаров.
      * 
      * @return value
      */
@@ -314,7 +314,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADGoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ.
+     * Set the 'ESADGoodsPackaging' element value. Сведения о грузовых местах, поддонах и упаковке товаров.
      * 
      * @param ESADGoodsPackaging
      */
@@ -323,7 +323,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADGoodsQuota' element value. РљРІРѕС‚Р°.
+     * Get the 'ESADGoodsQuota' element value. Квота.
      * 
      * @return value
      */
@@ -332,7 +332,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADGoodsQuota' element value. РљРІРѕС‚Р°.
+     * Set the 'ESADGoodsQuota' element value. Квота.
      * 
      * @param ESADGoodsQuota
      */
@@ -341,7 +341,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADContainer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С….
+     * Get the 'ESADContainer' element value. Сведения о контейнерах.
      * 
      * @return value
      */
@@ -350,7 +350,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADContainer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С….
+     * Set the 'ESADContainer' element value. Сведения о контейнерах.
      * 
      * @param ESADContainer
      */
@@ -359,7 +359,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'KTDinCustomsProcedure' element value. РџСЂРѕС†РµРґСѓСЂР°.
+     * Get the 'KTDinCustomsProcedure' element value. Процедура.
      * 
      * @return value
      */
@@ -368,7 +368,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'KTDinCustomsProcedure' element value. РџСЂРѕС†РµРґСѓСЂР°.
+     * Set the 'KTDinCustomsProcedure' element value. Процедура.
      * 
      * @param KTDinCustomsProcedure
      */
@@ -378,7 +378,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'ElectricalEnergReceived' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РїСЂРёРЅСЏС‚РѕР№ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё Р·Р° РѕС‚С‡РµС‚РЅС‹Р№ РїРµСЂРёРѕРґ. СЌР»РµРјРµРЅС‚ 9 Р“СЂ 31
+     * Get the list of 'ElectricalEnergReceived' element items. Сведения о количестве принятой электроэнергии за отчетный период. элемент 9 Гр 31
      * 
      * @return list
      */
@@ -387,7 +387,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'ElectricalEnergReceived' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РїСЂРёРЅСЏС‚РѕР№ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё Р·Р° РѕС‚С‡РµС‚РЅС‹Р№ РїРµСЂРёРѕРґ. СЌР»РµРјРµРЅС‚ 9 Р“СЂ 31
+     * Set the list of 'ElectricalEnergReceived' element items. Сведения о количестве принятой электроэнергии за отчетный период. элемент 9 Гр 31
      * 
      * @param list
      */
@@ -396,7 +396,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'ElectricalEnergGiven' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РїРµСЂРµРґР°РЅРЅРѕР№ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё Р·Р° РѕС‚С‡РµС‚РЅС‹Р№ РїРµСЂРёРѕРґ. СЌР»РµРјРµРЅС‚ 9 Р“СЂ 31
+     * Get the list of 'ElectricalEnergGiven' element items. Сведения о количестве переданной электроэнергии за отчетный период. элемент 9 Гр 31
      * 
      * @return list
      */
@@ -405,7 +405,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'ElectricalEnergGiven' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РїРµСЂРµРґР°РЅРЅРѕР№ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё Р·Р° РѕС‚С‡РµС‚РЅС‹Р№ РїРµСЂРёРѕРґ. СЌР»РµРјРµРЅС‚ 9 Р“СЂ 31
+     * Set the list of 'ElectricalEnergGiven' element items. Сведения о количестве переданной электроэнергии за отчетный период. элемент 9 Гр 31
      * 
      * @param list
      */
@@ -414,7 +414,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'SupplementaryGoodsQuantity1' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РѕСЃРЅРѕРІРЅРѕР№ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ СЌР»РµРјРµРЅС‚ 1 Р“СЂ.31
+     * Get the list of 'SupplementaryGoodsQuantity1' element items. Количество товара в единице измерения, отличной от основной и дополнительной элемент 1 Гр.31
      * 
      * @return list
      */
@@ -423,7 +423,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'SupplementaryGoodsQuantity1' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РѕСЃРЅРѕРІРЅРѕР№ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ СЌР»РµРјРµРЅС‚ 1 Р“СЂ.31
+     * Set the list of 'SupplementaryGoodsQuantity1' element items. Количество товара в единице измерения, отличной от основной и дополнительной элемент 1 Гр.31
      * 
      * @param list
      */
@@ -433,7 +433,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.  Р“СЂ.41
+     * Get the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения.  Гр.41
      * 
      * @return value
      */
@@ -442,7 +442,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.  Р“СЂ.41
+     * Set the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения.  Гр.41
      * 
      * @param supplementaryGoodsQuantity
      */
@@ -452,7 +452,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'ChangeCode' element value. РљРѕРґ РёР·РјРµРЅРµРЅРёР№ РіСЂ 45Р° РїСЂРё РЅР°Р»РёС‡РёРё РёР·РјРµРЅРµРЅРёР№ Рё (РёР»Рё) РґРѕРїРѕР»РЅРµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂР°
+     * Get the 'ChangeCode' element value. Код изменений гр 45а при наличии изменений и (или) дополнении сведений в отношении товара
      * 
      * @return value
      */
@@ -461,7 +461,7 @@ public class KTDinGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'ChangeCode' element value. РљРѕРґ РёР·РјРµРЅРµРЅРёР№ РіСЂ 45Р° РїСЂРё РЅР°Р»РёС‡РёРё РёР·РјРµРЅРµРЅРёР№ Рё (РёР»Рё) РґРѕРїРѕР»РЅРµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂР°
+     * Set the 'ChangeCode' element value. Код изменений гр 45а при наличии изменений и (или) дополнении сведений в отношении товара
      * 
      * @param changeCode
      */

@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РѕСЂРіР°РЅРёР·Р°С†РёРё
+ * Комплексный тип для описания организации
  */
 public class WHOrganizationBaseType extends OrganizationBaseType
 {
@@ -14,7 +14,7 @@ public class WHOrganizationBaseType extends OrganizationBaseType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ
+     * Get the 'Address' element value. Адрес
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class WHOrganizationBaseType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ
+     * Set the 'Address' element value. Адрес
      * 
      * @param address
      */
@@ -32,7 +32,7 @@ public class WHOrganizationBaseType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class WHOrganizationBaseType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @param identityCard
      */

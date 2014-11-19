@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import org.joda.time.LocalDate;
 
 /** 
- * Р РµРі. РЅРѕРјРµСЂ РњРџРћ
+ * Рег. номер МПО
  * 
  * Schema fragment(s) for this class:
  * <pre>

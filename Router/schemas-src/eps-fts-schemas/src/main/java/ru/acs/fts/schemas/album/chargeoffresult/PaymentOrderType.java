@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.exchangecommonaggregatetypescust.PaymentIndicationType;
 
 /** 
- * РџР»Р°С‚РµР¶РЅС‹Рµ РїРѕСЂСѓС‡РµРЅРёСЏ.
+ * Платежные поручения.
  */
 public class PaymentOrderType
 {
@@ -17,7 +17,7 @@ public class PaymentOrderType
     private PaymentIndicationType paymentIndication;
 
     /** 
-     * Get the 'PaymentID' element value. РќРѕРјРµСЂ РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
+     * Get the 'PaymentID' element value. Номер платежного поручения
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'PaymentID' element value. РќРѕРјРµСЂ РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
+     * Set the 'PaymentID' element value. Номер платежного поручения
      * 
      * @param paymentID
      */
@@ -35,7 +35,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РџРџ
+     * Get the 'CurrencyCode' element value. Код валюты ПП
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РџРџ
+     * Set the 'CurrencyCode' element value. Код валюты ПП
      * 
      * @param currencyCode
      */
@@ -53,7 +53,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Get the 'Balance' element value. РћСЃС‚Р°С‚РѕРє СЃСЂРµРґСЃС‚РІ РЅР° РџРџ РїРѕСЃР»Рµ СЃРїРёСЃР°РЅРёСЏ
+     * Get the 'Balance' element value. Остаток средств на ПП после списания
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'Balance' element value. РћСЃС‚Р°С‚РѕРє СЃСЂРµРґСЃС‚РІ РЅР° РџРџ РїРѕСЃР»Рµ СЃРїРёСЃР°РЅРёСЏ
+     * Set the 'Balance' element value. Остаток средств на ПП после списания
      * 
      * @param balance
      */
@@ -71,7 +71,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Get the 'ShortageAssets' element value. РЎСѓРјРјР° РЅРµС…РІР°С‚РєРё СЃСЂРµРґСЃС‚РІ РїРѕСЃР»Рµ СЃРїРёСЃР°РЅРёСЏ (С‚РѕР»СЊРєРѕ РґР»СЏ СЃС‚Р°С‚СѓСЃР° РѕС‚РІРµС‚Р° D)
+     * Get the 'ShortageAssets' element value. Сумма нехватки средств после списания (только для статуса ответа D)
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'ShortageAssets' element value. РЎСѓРјРјР° РЅРµС…РІР°С‚РєРё СЃСЂРµРґСЃС‚РІ РїРѕСЃР»Рµ СЃРїРёСЃР°РЅРёСЏ (С‚РѕР»СЊРєРѕ РґР»СЏ СЃС‚Р°С‚СѓСЃР° РѕС‚РІРµС‚Р° D)
+     * Set the 'ShortageAssets' element value. Сумма нехватки средств после списания (только для статуса ответа D)
      * 
      * @param shortageAssets
      */
@@ -89,7 +89,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Get the 'PaymentDate' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
+     * Get the 'PaymentDate' element value. Дата платежного поручения
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'PaymentDate' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
+     * Set the 'PaymentDate' element value. Дата платежного поручения
      * 
      * @param paymentDate
      */
@@ -107,7 +107,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Get the 'PaymentIndication' element value. РџСЂРёР·РЅР°РєРё РџРџ
+     * Get the 'PaymentIndication' element value. Признаки ПП
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'PaymentIndication' element value. РџСЂРёР·РЅР°РєРё РџРџ
+     * Set the 'PaymentIndication' element value. Признаки ПП
      * 
      * @param paymentIndication
      */

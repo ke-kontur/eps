@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёР±С‹С‚РёРё С‚РѕРІР°СЂРѕРІ
+ * Информация о прибытии товаров
  */
 public class GoodsArriveReportType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class GoodsArriveReportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ReqDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'ReqDate' element value. Дата формирования запроса
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'ReqDate' element value. Дата формирования запроса
      * 
      * @param reqDate
      */
@@ -40,7 +40,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReqTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'ReqTime' element value. Время формирования запроса
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'ReqTime' element value. Время формирования запроса
      * 
      * @param reqTime
      */
@@ -58,7 +58,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @param customs
      */
@@ -76,7 +76,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -94,7 +94,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the list of 'GoodsInfo' element items. Сведения о товарах
      * 
      * @return list
      */
@@ -103,7 +103,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the list of 'GoodsInfo' element items. Сведения о товарах
      * 
      * @param list
      */
@@ -112,7 +112,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TransportMeanArrive' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the list of 'TransportMeanArrive' element items. Описание транспортного средства
      * 
      * @return list
      */
@@ -121,7 +121,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TransportMeanArrive' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the list of 'TransportMeanArrive' element items. Описание транспортного средства
      * 
      * @param list
      */
@@ -130,7 +130,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class GoodsArriveReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

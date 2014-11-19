@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРїРёСЃР°РЅРёРё (Р·Р°РєР»СЋС‡РµРЅРёРё) РєРѕРЅС‚СЂР°РєС‚Р° (РґР°С‚Р°, РЅРѕРјРµСЂ, РјРµСЃС‚Рѕ)
+ * Сведения о подписании (заключении) контракта (дата, номер, место)
  */
 public class ContractRegistrationType extends DocumentBaseType
 {
     private String contractPlace;
 
     /** 
-     * Get the 'ContractPlace' element value. РњРµСЃС‚Рѕ Р·Р°РєР»СЋС‡РµРЅРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ContractPlace' element value. Место заключения контракта
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ContractRegistrationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ContractPlace' element value. РњРµСЃС‚Рѕ Р·Р°РєР»СЋС‡РµРЅРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ContractPlace' element value. Место заключения контракта
      * 
      * @param contractPlace
      */

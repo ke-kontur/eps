@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DriverInformationType;
 
 /** 
- * РџРµСЂРµРІРѕР·С‡РёРє / Р”РµСЂР¶Р°С‚РµР»СЊ РєРЅРёР¶РєРё РњР”Рџ
+ * Перевозчик / Держатель книжки МДП
  */
 public class TIRCarrierType extends CUOrganizationType
 {
@@ -13,7 +13,7 @@ public class TIRCarrierType extends CUOrganizationType
     private DriverInformationType CUDriverInformation;
 
     /** 
-     * Get the 'TIRHolderID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРµСЂР¶Р°С‚РµР»СЏ РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIRHolderID' element value. Идентификационный номер держателя книжки МДП
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TIRCarrierType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'TIRHolderID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРµСЂР¶Р°С‚РµР»СЏ РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIRHolderID' element value. Идентификационный номер держателя книжки МДП
      * 
      * @param TIRHolderID
      */
@@ -31,7 +31,7 @@ public class TIRCarrierType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'CUDriverInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРѕРґРёС‚РµР»Рµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'CUDriverInformation' element value. Информация о водителе транспортного средства
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TIRCarrierType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'CUDriverInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРѕРґРёС‚РµР»Рµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'CUDriverInformation' element value. Информация о водителе транспортного средства
      * 
      * @param CUDriverInformation
      */

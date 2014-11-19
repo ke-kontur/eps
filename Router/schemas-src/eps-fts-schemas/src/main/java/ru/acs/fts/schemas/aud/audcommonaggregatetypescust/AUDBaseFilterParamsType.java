@@ -8,7 +8,7 @@ public class AUDBaseFilterParamsType
     private AUDFilterOperatorType operator;
 
     /** 
-     * Get the 'Operator' element value. РСЃРїРѕР»СЊР·СѓРµРјС‹Р№ РѕРїРµСЂР°С‚РѕСЂ.
+     * Get the 'Operator' element value. Используемый оператор.
      * 
      * @return value
      */
@@ -17,7 +17,7 @@ public class AUDBaseFilterParamsType
     }
 
     /** 
-     * Set the 'Operator' element value. РСЃРїРѕР»СЊР·СѓРµРјС‹Р№ РѕРїРµСЂР°С‚РѕСЂ.
+     * Set the 'Operator' element value. Используемый оператор.
      * 
      * @param operator
      */

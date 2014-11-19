@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р Р°Р·СЂРµС€РµРЅРёРµ РЅР° РґРѕР±С‹С‡Сѓ (РІС‹Р»РѕРІ) РІРѕРґРЅС‹С… Р±РёРѕР»РѕРіРёС‡РµСЃРєРёС… СЂРµСЃСѓСЂСЃРѕРІ
+ * Разрешение на добычу (вылов) водных биологических ресурсов
  */
 public class PermissionExtractionType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class PermissionExtractionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'RegNumber' element value. Регистрационный номер разрешения
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'RegNumber' element value. Регистрационный номер разрешения
      * 
      * @param regNumber
      */
@@ -44,7 +44,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Get the 'GroundsIssuing' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РІС‹РґР°С‡Рё СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'GroundsIssuing' element value. Основание для выдачи разрешения
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Set the 'GroundsIssuing' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РІС‹РґР°С‡Рё СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'GroundsIssuing' element value. Основание для выдачи разрешения
      * 
      * @param groundsIssuing
      */
@@ -62,7 +62,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateIssued' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'DateIssued' element value. Дата выдачи разрешения
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateIssued' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'DateIssued' element value. Дата выдачи разрешения
      * 
      * @param dateIssued
      */
@@ -80,7 +80,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Get the 'NameManagement' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СѓРїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'NameManagement' element value. Наименование управления
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Set the 'NameManagement' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СѓРїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'NameManagement' element value. Наименование управления
      * 
      * @param nameManagement
      */
@@ -98,7 +98,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Get the 'KindFishing' element value. Р’РёРґ СЂС‹Р±РѕР»РѕРІСЃС‚РІР°
+     * Get the 'KindFishing' element value. Вид рыболовства
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Set the 'KindFishing' element value. Р’РёРґ СЂС‹Р±РѕР»РѕРІСЃС‚РІР°
+     * Set the 'KindFishing' element value. Вид рыболовства
      * 
      * @param kindFishing
      */
@@ -116,7 +116,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Get the 'UserInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СЊР·РѕРІР°С‚РµР»Рµ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРј РѕСЂРіР°РЅРёР·Р°С†РёСЋ Р»СЋР±РёС‚РµР»СЊСЃРєРѕРіРѕ Рё СЃРїРѕСЂС‚РёРІРЅРѕРіРѕ СЂС‹Р±РѕР»РѕРІСЃС‚РІР°
+     * Get the 'UserInfo' element value. Сведения о пользователе, осуществляющем организацию любительского и спортивного рыболовства
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Set the 'UserInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СЊР·РѕРІР°С‚РµР»Рµ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРј РѕСЂРіР°РЅРёР·Р°С†РёСЋ Р»СЋР±РёС‚РµР»СЊСЃРєРѕРіРѕ Рё СЃРїРѕСЂС‚РёРІРЅРѕРіРѕ СЂС‹Р±РѕР»РѕРІСЃС‚РІР°
+     * Set the 'UserInfo' element value. Сведения о пользователе, осуществляющем организацию любительского и спортивного рыболовства
      * 
      * @param userInfo
      */
@@ -134,7 +134,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ConditionsExtraction' element items. РЈСЃР»РѕРІРёСЏ РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕР»РѕРіРёС‡РµСЃРєРёС… СЂРµСЃСѓСЂСЃРѕРІ
+     * Get the list of 'ConditionsExtraction' element items. Условия добычи (вылова) водных биологических ресурсов
      * 
      * @return list
      */
@@ -143,7 +143,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ConditionsExtraction' element items. РЈСЃР»РѕРІРёСЏ РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РІРѕРґРЅС‹С… Р±РёРѕР»РѕРіРёС‡РµСЃРєРёС… СЂРµСЃСѓСЂСЃРѕРІ
+     * Set the list of 'ConditionsExtraction' element items. Условия добычи (вылова) водных биологических ресурсов
      * 
      * @param list
      */
@@ -152,7 +152,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonResponsibleProduction' element value. Р›РёС†Рѕ, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° РґРѕР±С‹С‡Сѓ (РІС‹Р»РѕРІ) РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ
+     * Get the 'PersonResponsibleProduction' element value. Лицо, ответственное за добычу (вылов) водных биоресурсов
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonResponsibleProduction' element value. Р›РёС†Рѕ, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° РґРѕР±С‹С‡Сѓ (РІС‹Р»РѕРІ) РІРѕРґРЅС‹С… Р±РёРѕСЂРµСЃСѓСЂСЃРѕРІ
+     * Set the 'PersonResponsibleProduction' element value. Лицо, ответственное за добычу (вылов) водных биоресурсов
      * 
      * @param personResponsibleProduction
      */
@@ -171,7 +171,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonResponsiblePerforming' element value. Р›РёС†Рѕ, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° РІС‹РїРѕР»РЅРµРЅРёРµ РїСЂРѕРіСЂР°РјРјС‹ (РїР»Р°РЅР°) СЂР°Р±РѕС‚С‹
+     * Get the 'PersonResponsiblePerforming' element value. Лицо, ответственное за выполнение программы (плана) работы
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonResponsiblePerforming' element value. Р›РёС†Рѕ, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° РІС‹РїРѕР»РЅРµРЅРёРµ РїСЂРѕРіСЂР°РјРјС‹ (РїР»Р°РЅР°) СЂР°Р±РѕС‚С‹
+     * Set the 'PersonResponsiblePerforming' element value. Лицо, ответственное за выполнение программы (плана) работы
      * 
      * @param personResponsiblePerforming
      */
@@ -190,7 +190,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Рѕ РІС‹РґР°РІС€РµРіРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Get the 'PersonSignature' element value. Подпись лицо выдавшего разрешение
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Рѕ РІС‹РґР°РІС€РµРіРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Set the 'PersonSignature' element value. Подпись лицо выдавшего разрешение
      * 
      * @param personSignature
      */
@@ -208,7 +208,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class PermissionExtractionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

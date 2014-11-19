@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ  Рѕ  СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°
+ * Информация  о  результате обработки документа
  */
 public class ResultInformationType
 {
@@ -16,7 +16,7 @@ public class ResultInformationType
     private ItemInfoType itemInfo;
 
     /** 
-     * Get the 'ResultSource' element value. РСЃС‚РѕС‡РЅРёРє РѕС€РёР±РєРё. РљРѕРґ РїРѕРґСЃРёСЃС‚РµРјС‹, РІРµСЂРЅСѓРІС€РµР№ РѕС€РёР±РєСѓ.
+     * Get the 'ResultSource' element value. Источник ошибки. Код подсистемы, вернувшей ошибку.
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'ResultSource' element value. РСЃС‚РѕС‡РЅРёРє РѕС€РёР±РєРё. РљРѕРґ РїРѕРґСЃРёСЃС‚РµРјС‹, РІРµСЂРЅСѓРІС€РµР№ РѕС€РёР±РєСѓ.
+     * Set the 'ResultSource' element value. Источник ошибки. Код подсистемы, вернувшей ошибку.
      * 
      * @param resultSource
      */
@@ -34,7 +34,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the 'ResultCode' element value. РљРѕРґ РѕС€РёР±РєРё.
+     * Get the 'ResultCode' element value. Код ошибки.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'ResultCode' element value. РљРѕРґ РѕС€РёР±РєРё.
+     * Set the 'ResultCode' element value. Код ошибки.
      * 
      * @param resultCode
      */
@@ -52,7 +52,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the list of 'ResultDescription' element items. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё.
+     * Get the list of 'ResultDescription' element items. Текстовое описание ошибки.
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the list of 'ResultDescription' element items. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё.
+     * Set the list of 'ResultDescription' element items. Текстовое описание ошибки.
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the 'ResultCategory' element value. РЎС‚РµРїРµРЅСЊ РєСЂРёС‚РёС‡РЅРѕСЃС‚Рё РѕС€РёР±РєРё. РљРѕРґ РёР»Рё РјРЅРµРјРѕРЅРёС‡РµСЃРєРѕРµ РѕРїРёСЃР°РЅРёРµ.
+     * Get the 'ResultCategory' element value. Степень критичности ошибки. Код или мнемоническое описание.
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'ResultCategory' element value. РЎС‚РµРїРµРЅСЊ РєСЂРёС‚РёС‡РЅРѕСЃС‚Рё РѕС€РёР±РєРё. РљРѕРґ РёР»Рё РјРЅРµРјРѕРЅРёС‡РµСЃРєРѕРµ РѕРїРёСЃР°РЅРёРµ.
+     * Set the 'ResultCategory' element value. Степень критичности ошибки. Код или мнемоническое описание.
      * 
      * @param resultCategory
      */
@@ -88,7 +88,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the 'ItemInfo' element value. РЎСЃС‹Р»РєР° РЅР° СЌР»РµРјРµРЅС‚ СЃ РѕС€РёР±РєРѕР№.
+     * Get the 'ItemInfo' element value. Ссылка на элемент с ошибкой.
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'ItemInfo' element value. РЎСЃС‹Р»РєР° РЅР° СЌР»РµРјРµРЅС‚ СЃ РѕС€РёР±РєРѕР№.
+     * Set the 'ItemInfo' element value. Ссылка на элемент с ошибкой.
      * 
      * @param itemInfo
      */

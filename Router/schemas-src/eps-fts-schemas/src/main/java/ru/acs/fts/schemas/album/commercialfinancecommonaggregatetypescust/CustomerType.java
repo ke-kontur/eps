@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё
+ * Реквизиты организации
  */
 public class CustomerType
 {
@@ -12,7 +12,7 @@ public class CustomerType
     private BankType bank;
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєР»РёРµРЅС‚Р°
+     * Get the 'OrganizationName' element value. Наименование клиента
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class CustomerType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєР»РёРµРЅС‚Р°
+     * Set the 'OrganizationName' element value. Наименование клиента
      * 
      * @param organizationName
      */
@@ -30,7 +30,7 @@ public class CustomerType
     }
 
     /** 
-     * Get the 'INN' element value. РРќРќ РєР»РёРµРЅС‚Р°
+     * Get the 'INN' element value. ИНН клиента
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class CustomerType
     }
 
     /** 
-     * Set the 'INN' element value. РРќРќ РєР»РёРµРЅС‚Р°
+     * Set the 'INN' element value. ИНН клиента
      * 
      * @param INN
      */
@@ -48,7 +48,7 @@ public class CustomerType
     }
 
     /** 
-     * Get the 'KPP' element value. РљРѕРґ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚ (РљРџРџ) РєР»РёРµРЅС‚Р°
+     * Get the 'KPP' element value. Код постановки на учет (КПП) клиента
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class CustomerType
     }
 
     /** 
-     * Set the 'KPP' element value. РљРѕРґ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚ (РљРџРџ) РєР»РёРµРЅС‚Р°
+     * Set the 'KPP' element value. Код постановки на учет (КПП) клиента
      * 
      * @param KPP
      */
@@ -66,7 +66,7 @@ public class CustomerType
     }
 
     /** 
-     * Get the 'Bank' element value. Р РµРєРІРёР·РёС‚С‹ Р±Р°РЅРєР° РєР»РёРµРЅС‚Р°
+     * Get the 'Bank' element value. Реквизиты банка клиента
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class CustomerType
     }
 
     /** 
-     * Set the 'Bank' element value. Р РµРєРІРёР·РёС‚С‹ Р±Р°РЅРєР° РєР»РёРµРЅС‚Р°
+     * Set the 'Bank' element value. Реквизиты банка клиента
      * 
      * @param bank
      */

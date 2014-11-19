@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РћСЂРіР°РЅРёР·Р°С†РёСЏ, РІС‹РґР°РІС€Р°СЏ РїСѓС‚РµРІРѕР№ Р»РёСЃС‚ 
+ * Организация, выдавшая путевой лист 
  */
 public class OrganizationCreatedManifestType
 {
@@ -14,7 +14,7 @@ public class OrganizationCreatedManifestType
     private AddressType address;
 
     /** 
-     * Get the 'PhoneNumber' element value. РўРµР»РµС„РѕРЅ РѕСЂРіР°РЅРёР·Р°С†РёРё 
+     * Get the 'PhoneNumber' element value. Телефон организации 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class OrganizationCreatedManifestType
     }
 
     /** 
-     * Set the 'PhoneNumber' element value. РўРµР»РµС„РѕРЅ РѕСЂРіР°РЅРёР·Р°С†РёРё 
+     * Set the 'PhoneNumber' element value. Телефон организации 
      * 
      * @param phoneNumber
      */
@@ -32,7 +32,7 @@ public class OrganizationCreatedManifestType
     }
 
     /** 
-     * Get the 'Organization' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РїСѓС‚РµРІРѕР№ Р»РёСЃС‚ 
+     * Get the 'Organization' element value. Реквизиты организации, выдавшей путевой лист 
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class OrganizationCreatedManifestType
     }
 
     /** 
-     * Set the 'Organization' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РїСѓС‚РµРІРѕР№ Р»РёСЃС‚ 
+     * Set the 'Organization' element value. Реквизиты организации, выдавшей путевой лист 
      * 
      * @param organization
      */
@@ -50,7 +50,7 @@ public class OrganizationCreatedManifestType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё 
+     * Get the 'Address' element value. Адрес организации 
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class OrganizationCreatedManifestType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё 
+     * Set the 'Address' element value. Адрес организации 
      * 
      * @param address
      */

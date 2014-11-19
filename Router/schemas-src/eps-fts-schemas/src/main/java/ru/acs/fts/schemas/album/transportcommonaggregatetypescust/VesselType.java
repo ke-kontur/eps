@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ СЃСѓРґРЅР°
+ * Реквизиты судна
  */
 public class VesselType
 {
@@ -11,7 +11,7 @@ public class VesselType
     private String nationalityCode;
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°
+     * Get the 'Name' element value. Наименование судна
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class VesselType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°
+     * Set the 'Name' element value. Наименование судна
      * 
      * @param name
      */
@@ -29,7 +29,7 @@ public class VesselType
     }
 
     /** 
-     * Get the 'Shipmaster' element value. Р¤Р°РјРёР»РёСЏ РєР°РїРёС‚Р°РЅР° СЃСѓРґРЅР°
+     * Get the 'Shipmaster' element value. Фамилия капитана судна
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class VesselType
     }
 
     /** 
-     * Set the 'Shipmaster' element value. Р¤Р°РјРёР»РёСЏ РєР°РїРёС‚Р°РЅР° СЃСѓРґРЅР°
+     * Set the 'Shipmaster' element value. Фамилия капитана судна
      * 
      * @param shipmaster
      */
@@ -47,7 +47,7 @@ public class VesselType
     }
 
     /** 
-     * Get the 'NationalityCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё СЃСѓРґРЅР°
+     * Get the 'NationalityCode' element value. Код страны принадлежности судна
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class VesselType
     }
 
     /** 
-     * Set the 'NationalityCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё СЃСѓРґРЅР°
+     * Set the 'NationalityCode' element value. Код страны принадлежности судна
      * 
      * @param nationalityCode
      */

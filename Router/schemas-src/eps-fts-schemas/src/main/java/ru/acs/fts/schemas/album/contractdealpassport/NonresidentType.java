@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.contractdealpassport;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ РЅРµСЂРµР·РёРґРµРЅС‚Р° (РЅРµСЂРµР·РёРґРµРЅС‚РѕРІ)
+ * Реквизиты нерезидента (нерезидентов)
  */
 public class NonresidentType
 {
@@ -11,7 +11,7 @@ public class NonresidentType
     private String countryName;
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЅРµСЂРµР·РёРґРµРЅС‚Р° РїРѕ РєРѕРЅС‚СЂР°РєС‚РЅРѕРјСѓ РґРѕРіРѕРІРѕСЂСѓ
+     * Get the 'Name' element value. Наименование нерезидента по контрактному договору
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class NonresidentType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЅРµСЂРµР·РёРґРµРЅС‚Р° РїРѕ РєРѕРЅС‚СЂР°РєС‚РЅРѕРјСѓ РґРѕРіРѕРІРѕСЂСѓ
+     * Set the 'Name' element value. Наименование нерезидента по контрактному договору
      * 
      * @param name
      */
@@ -29,7 +29,7 @@ public class NonresidentType
     }
 
     /** 
-     * Get the 'CountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryCode' element value. Цифровой код страны
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class NonresidentType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryCode' element value. Цифровой код страны
      * 
      * @param countryCode
      */
@@ -47,7 +47,7 @@ public class NonresidentType
     }
 
     /** 
-     * Get the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РјРµСЃС‚Р° РЅР°С…РѕР¶РґРµРЅРёСЏ / РјРµСЃС‚Р° Р¶РёС‚РµР»СЊСЃС‚РІР°.
+     * Get the 'CountryName' element value. Наименование страны места нахождения / места жительства.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class NonresidentType
     }
 
     /** 
-     * Set the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РјРµСЃС‚Р° РЅР°С…РѕР¶РґРµРЅРёСЏ / РјРµСЃС‚Р° Р¶РёС‚РµР»СЊСЃС‚РІР°.
+     * Set the 'CountryName' element value. Наименование страны места нахождения / места жительства.
      * 
      * @param countryName
      */

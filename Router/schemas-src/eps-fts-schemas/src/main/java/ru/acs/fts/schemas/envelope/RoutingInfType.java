@@ -7,7 +7,7 @@ import java.util.List;
 import org.joda.time.DateTime;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ РјР°СЂС€СЂСѓС‚РёР·Р°С†РёРё СЃРѕРѕР±С‰РµРЅРёР№
+ * Информация для маршрутизации сообщений
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -37,7 +37,7 @@ public class RoutingInfType
     private ConfirmationRequestType confirmationRequest;
 
     /** 
-     * Get the 'EnvelopeID' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєРѕРЅРІРµСЂС‚Р°
+     * Get the 'EnvelopeID' element value. Транспортный идентификатор конверта
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Set the 'EnvelopeID' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєРѕРЅРІРµСЂС‚Р°
+     * Set the 'EnvelopeID' element value. Транспортный идентификатор конверта
      * 
      * @param envelopeID
      */
@@ -55,7 +55,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Get the 'InitialEnvelopeID' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёСЃС…РѕРґРЅРѕРіРѕ РєРѕРЅРІРµСЂС‚Р°
+     * Get the 'InitialEnvelopeID' element value. Транспортный идентификатор исходного конверта
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Set the 'InitialEnvelopeID' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёСЃС…РѕРґРЅРѕРіРѕ РєРѕРЅРІРµСЂС‚Р°
+     * Set the 'InitialEnvelopeID' element value. Транспортный идентификатор исходного конверта
      * 
      * @param initialEnvelopeID
      */
@@ -73,7 +73,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Get the 'SenderInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ.
+     * Get the 'SenderInformation' element value. Информация об отправителе.
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Set the 'SenderInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ.
+     * Set the 'SenderInformation' element value. Информация об отправителе.
      * 
      * @param senderInformation
      */
@@ -91,7 +91,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Get the list of 'ReceiverInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ.
+     * Get the list of 'ReceiverInformation' element items. Информация о получателе.
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Set the list of 'ReceiverInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ.
+     * Set the list of 'ReceiverInformation' element items. Информация о получателе.
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Get the 'PreparationDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ. Р’СЂРµРјСЏ СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РїРѕ Р“СЂРёРЅРІРёС‡Сѓ.
+     * Get the 'PreparationDateTime' element value. Дата и время создания электронного сообщения. Время указывается по Гринвичу.
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Set the 'PreparationDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ. Р’СЂРµРјСЏ СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РїРѕ Р“СЂРёРЅРІРёС‡Сѓ.
+     * Set the 'PreparationDateTime' element value. Дата и время создания электронного сообщения. Время указывается по Гринвичу.
      * 
      * @param preparationDateTime
      */
@@ -127,7 +127,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Get the 'Priority' element value. РџСЂРёРѕСЂРёС‚РµС‚ СЃРѕРѕР±С‰РµРЅРёСЏ. (0 - РЅРёР·РєРёР№ - 9 - РІС‹СЃРѕРєРёР№). Р—РЅР°С‡РµРЅРёРµ РїРѕ СѓРјР»РѕС‡Р°РЅРёСЋ - 4
+     * Get the 'Priority' element value. Приоритет сообщения. (0 - низкий - 9 - высокий). Значение по умлочанию - 4
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Set the 'Priority' element value. РџСЂРёРѕСЂРёС‚РµС‚ СЃРѕРѕР±С‰РµРЅРёСЏ. (0 - РЅРёР·РєРёР№ - 9 - РІС‹СЃРѕРєРёР№). Р—РЅР°С‡РµРЅРёРµ РїРѕ СѓРјР»РѕС‡Р°РЅРёСЋ - 4
+     * Set the 'Priority' element value. Приоритет сообщения. (0 - низкий - 9 - высокий). Значение по умлочанию - 4
      * 
      * @param priority
      */
@@ -145,7 +145,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Get the 'Expiration' element value. Р’СЂРµРјСЏ Р¶РёР·РЅРё СЃРѕРѕР±С‰РµРЅРёСЏ  РІ РјРёРЅСѓС‚Р°С….
+     * Get the 'Expiration' element value. Время жизни сообщения  в минутах.
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Set the 'Expiration' element value. Р’СЂРµРјСЏ Р¶РёР·РЅРё СЃРѕРѕР±С‰РµРЅРёСЏ  РІ РјРёРЅСѓС‚Р°С….
+     * Set the 'Expiration' element value. Время жизни сообщения  в минутах.
      * 
      * @param expiration
      */
@@ -163,7 +163,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Get the 'ConfirmationRequest' element value. Р—Р°РїСЂРѕСЃ СѓРІРµРґРѕРјР»РµРЅРёР№
+     * Get the 'ConfirmationRequest' element value. Запрос уведомлений
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class RoutingInfType
     }
 
     /** 
-     * Set the 'ConfirmationRequest' element value. Р—Р°РїСЂРѕСЃ СѓРІРµРґРѕРјР»РµРЅРёР№
+     * Set the 'ConfirmationRequest' element value. Запрос уведомлений
      * 
      * @param confirmationRequest
      */

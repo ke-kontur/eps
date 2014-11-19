@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.guaranteestatusreq;
 
 /** 
- * РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
+ * Уникальный идентификатор
  */
 public class GuaranteeIDType
 {
@@ -10,7 +10,7 @@ public class GuaranteeIDType
     private String contractNumber;
 
     /** 
-     * Get the 'AdditionalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° РїСЂРё СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'AdditionalID' element value. Уникальный идентификатор, присваиваемый дополнению к договору поручительства при регистрации
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class GuaranteeIDType
     }
 
     /** 
-     * Set the 'AdditionalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° РїСЂРё СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'AdditionalID' element value. Уникальный идентификатор, присваиваемый дополнению к договору поручительства при регистрации
      * 
      * @param additionalID
      */
@@ -28,7 +28,7 @@ public class GuaranteeIDType
     }
 
     /** 
-     * Get the 'ContractNumber' element value. РќРѕРјРµСЂ РґРѕРіРѕРІРѕСЂР° РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
+     * Get the 'ContractNumber' element value. Номер договора поручительства
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class GuaranteeIDType
     }
 
     /** 
-     * Set the 'ContractNumber' element value. РќРѕРјРµСЂ РґРѕРіРѕРІРѕСЂР° РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
+     * Set the 'ContractNumber' element value. Номер договора поручительства
      * 
      * @param contractNumber
      */

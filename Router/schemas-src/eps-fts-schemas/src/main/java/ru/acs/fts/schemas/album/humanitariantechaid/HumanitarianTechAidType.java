@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.sqcommonaggregatetypescust.DocumentType;
 
 /** 
- * РЈРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ Рѕ РїСЂРёР·РЅР°РЅРёРё СЃСЂРµРґСЃС‚РІ, С‚РѕРІР°СЂРѕРІ, СЂР°Р±РѕС‚ Рё СѓСЃР»СѓРі РіСѓРјР°РЅРёС‚Р°СЂРЅРѕР№ РїРѕРјРѕС‰СЊСЋ/С‚РµС…РЅРёС‡РµСЃРєРѕР№ РїРѕРјРѕС‰СЊСЋ (СЃРѕРґРµР№СЃС‚РІРёРµРј)
+ * Удостоверение о признании средств, товаров, работ и услуг гуманитарной помощью/технической помощью (содействием)
  */
 public class HumanitarianTechAidType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class HumanitarianTechAidType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. РЈРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ Рѕ РїСЂРёР·РЅР°РЅРёРё СЃСЂРµРґСЃС‚РІ, С‚РѕРІР°СЂРѕРІ, СЂР°Р±РѕС‚ Рё СѓСЃР»СѓРі : 0 - РіСѓРјР°РЅРёС‚Р°СЂРЅРѕР№ РїРѕРјРѕС‰СЊСЋ; 1 - С‚РµС…РЅРёС‡РµСЃРєРѕР№ РїРѕРјРѕС‰СЊСЋ (СЃРѕРґРµР№СЃС‚РІРёРµРј)
+     * Get the 'DocSign' element value. Удостоверение о признании средств, товаров, работ и услуг : 0 - гуманитарной помощью; 1 - технической помощью (содействием)
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РЈРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ Рѕ РїСЂРёР·РЅР°РЅРёРё СЃСЂРµРґСЃС‚РІ, С‚РѕРІР°СЂРѕРІ, СЂР°Р±РѕС‚ Рё СѓСЃР»СѓРі : 0 - РіСѓРјР°РЅРёС‚Р°СЂРЅРѕР№ РїРѕРјРѕС‰СЊСЋ; 1 - С‚РµС…РЅРёС‡РµСЃРєРѕР№ РїРѕРјРѕС‰СЊСЋ (СЃРѕРґРµР№СЃС‚РІРёРµРј)
+     * Set the 'DocSign' element value. Удостоверение о признании средств, товаров, работ и услуг : 0 - гуманитарной помощью; 1 - технической помощью (содействием)
      * 
      * @param docSign
      */
@@ -44,7 +44,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Get the 'Donor' element value. Р”РѕРЅРѕСЂ
+     * Get the 'Donor' element value. Донор
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Set the 'Donor' element value. Р”РѕРЅРѕСЂ
+     * Set the 'Donor' element value. Донор
      * 
      * @param donor
      */
@@ -62,7 +62,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Get the 'CountryName' element value. РЎС‚СЂР°РЅР°
+     * Get the 'CountryName' element value. Страна
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Set the 'CountryName' element value. РЎС‚СЂР°РЅР°
+     * Set the 'CountryName' element value. Страна
      * 
      * @param countryName
      */
@@ -80,7 +80,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sum' element value. РЎСѓРјРјР° СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ Рѕ РїСЂРёР·РЅР°РЅРёРё СЃСЂРµРґСЃС‚РІ, С‚РѕРІР°СЂРѕРІ, СЂР°Р±РѕС‚ Рё СѓСЃР»СѓРі С‚РµС…РЅРёС‡РµСЃРєРѕР№ РїРѕРјРѕС‰СЊСЋ (СЃРѕРґРµР№СЃС‚РІРёРµРј)
+     * Get the 'Sum' element value. Сумма удостоверения о признании средств, товаров, работ и услуг технической помощью (содействием)
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sum' element value. РЎСѓРјРјР° СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ Рѕ РїСЂРёР·РЅР°РЅРёРё СЃСЂРµРґСЃС‚РІ, С‚РѕРІР°СЂРѕРІ, СЂР°Р±РѕС‚ Рё СѓСЃР»СѓРі С‚РµС…РЅРёС‡РµСЃРєРѕР№ РїРѕРјРѕС‰СЊСЋ (СЃРѕРґРµР№СЃС‚РІРёРµРј)
+     * Set the 'Sum' element value. Сумма удостоверения о признании средств, товаров, работ и услуг технической помощью (содействием)
      * 
      * @param sum
      */
@@ -98,7 +98,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Get the 'AidProjectReestrInfo' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ, РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРµРєС‚Р°/РїСЂРѕРіСЂР°РјРјС‹
+     * Get the 'AidProjectReestrInfo' element value. Регистрационный номер, наименование проекта/программы
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Set the 'AidProjectReestrInfo' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ, РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРµРєС‚Р°/РїСЂРѕРіСЂР°РјРјС‹
+     * Set the 'AidProjectReestrInfo' element value. Регистрационный номер, наименование проекта/программы
      * 
      * @param aidProjectReestrInfo
      */
@@ -116,7 +116,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConfirmationInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёРё
+     * Get the 'ConfirmationInfo' element value. Сведения об удостоверении
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConfirmationInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёРё
+     * Set the 'ConfirmationInfo' element value. Сведения об удостоверении
      * 
      * @param confirmationInfo
      */
@@ -134,7 +134,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…/СЂР°Р±РѕС‚Р°С…/СѓСЃР»СѓРіР°С…
+     * Get the list of 'Goods' element items. Сведения о товарах/работах/услугах
      * 
      * @return list
      */
@@ -143,7 +143,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…/СЂР°Р±РѕС‚Р°С…/СѓСЃР»СѓРіР°С…
+     * Set the list of 'Goods' element items. Сведения о товарах/работах/услугах
      * 
      * @param list
      */
@@ -152,7 +152,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Get the 'Recipient' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Recipient' element value. Получатель
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Set the 'Recipient' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Recipient' element value. Получатель
      * 
      * @param recipient
      */
@@ -170,7 +170,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Get the 'Supplier' element value. РџРѕСЃС‚Р°РІС‰РёРє
+     * Get the 'Supplier' element value. Поставщик
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Set the 'Supplier' element value. РџРѕСЃС‚Р°РІС‰РёРє
+     * Set the 'Supplier' element value. Поставщик
      * 
      * @param supplier
      */
@@ -188,7 +188,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. Р”РѕРіРѕРІРѕСЂ
+     * Get the 'Contract' element value. Договор
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. Р”РѕРіРѕРІРѕСЂ
+     * Set the 'Contract' element value. Договор
      * 
      * @param contract
      */
@@ -206,7 +206,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class HumanitarianTechAidType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

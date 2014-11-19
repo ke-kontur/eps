@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° 
+ * Описания транспортного средства 
  */
 public class TransportMeansType
 {
@@ -15,7 +15,7 @@ public class TransportMeansType
     private String activeTransportIdentifier;
 
     /** 
-     * Get the 'TransportKind' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°: 1 - Р°/Рј; 2 - Р¶/Рґ; 3 - Р°РІРёР°
+     * Get the 'TransportKind' element value. Тип транспортного средства: 1 - а/м; 2 - ж/д; 3 - авиа
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'TransportKind' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°: 1 - Р°/Рј; 2 - Р¶/Рґ; 3 - Р°РІРёР°
+     * Set the 'TransportKind' element value. Тип транспортного средства: 1 - а/м; 2 - ж/д; 3 - авиа
      * 
      * @param transportKind
      */
@@ -33,7 +33,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'TransportMark' element value. РњР°СЂРєРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'TransportMark' element value. Марки транспортного средства
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'TransportMark' element value. РњР°СЂРєРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'TransportMark' element value. Марки транспортного средства
      * 
      * @param transportMark
      */
@@ -51,7 +51,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the list of 'TransportRegNumber' element items. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРёС†РµРїР°/РїРѕР»СѓРїСЂРёС†РµРїР° 
+     * Get the list of 'TransportRegNumber' element items. Регистрационный номер прицепа/полуприцепа 
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the list of 'TransportRegNumber' element items. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРёС†РµРїР°/РїРѕР»СѓРїСЂРёС†РµРїР° 
+     * Set the list of 'TransportRegNumber' element items. Регистрационный номер прицепа/полуприцепа 
      * 
      * @param list
      */
@@ -69,7 +69,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'ActiveTransportIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°РєС‚РёРІРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ РїСЂРёС†РµРїРѕРІ, РїРѕР»СѓРїСЂРёС†РµРїРѕРІ Рё РґСЂ.
+     * Get the 'ActiveTransportIdentifier' element value. Идентификатор активного транспортного средства для прицепов, полуприцепов и др.
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'ActiveTransportIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°РєС‚РёРІРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ РїСЂРёС†РµРїРѕРІ, РїРѕР»СѓРїСЂРёС†РµРїРѕРІ Рё РґСЂ.
+     * Set the 'ActiveTransportIdentifier' element value. Идентификатор активного транспортного средства для прицепов, полуприцепов и др.
      * 
      * @param activeTransportIdentifier
      */

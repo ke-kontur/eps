@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°/РєРѕРЅС‚РµР№РЅРµСЂР° РґР»СЏ РїРµСЂРµРІРѕР·РєРё С‚РѕРІР°СЂР°
+ * Описание транспортного средства/контейнера для перевозки товара
  */
 public class TransportMeansType
 {
@@ -12,7 +12,7 @@ public class TransportMeansType
     private String moverIndicator;
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'Number' element value. Номер транспортного средства
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'Number' element value. Номер транспортного средства
      * 
      * @param number
      */
@@ -30,7 +30,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'ModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'ModeCode' element value. Код вида транспортного средства
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'ModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'ModeCode' element value. Код вида транспортного средства
      * 
      * @param modeCode
      */
@@ -48,7 +48,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'NationalityCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+     * Get the 'NationalityCode' element value. Код страны принадлежности транспорта
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'NationalityCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+     * Set the 'NationalityCode' element value. Код страны принадлежности транспорта
      * 
      * @param nationalityCode
      */
@@ -66,7 +66,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'MoverIndicator' element value. РџСЂРёР·РЅР°Рє РІРµРґСѓС‰РµРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'MoverIndicator' element value. Признак ведущего транспортного средства
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'MoverIndicator' element value. РџСЂРёР·РЅР°Рє РІРµРґСѓС‰РµРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'MoverIndicator' element value. Признак ведущего транспортного средства
      * 
      * @param moverIndicator
      */

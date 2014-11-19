@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ Рє СЃРµСЂРІРёСЃСѓ
+ * Запрос к сервису
  */
 public class BaseServiceRequestType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class BaseServiceRequestType extends BaseDocType
     private GTDIDType gtdRegNumber;
 
     /** 
-     * Get the 'AccelerationIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ СѓСЃРєРѕСЂРµРЅРЅРѕР№ РѕР±СЂР°Р±РѕС‚РєРё Р·Р°РїСЂРѕСЃР°. РЈСЃРєРѕСЂРµРЅРЅР°СЏ РѕР±СЂР°Р±РѕС‚РєР° РїСЂРёРјРµРЅСЏРµС‚СЃСЏ РІ РїСЂРѕС†РµСЃСЃРµ РѕС„РѕСЂРјР»РµРЅРёСЏ, РѕР±С‹С‡РЅР°СЏ РѕР±СЂР°Р±РѕС‚РєР° РїСЂРё РїРѕСЃС‚РєРѕРЅС‚СЂРѕР»Рµ
+     * Get the 'AccelerationIndicator' element value. Индикатор ускоренной обработки запроса. Ускоренная обработка применяется в процессе оформления, обычная обработка при постконтроле
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'AccelerationIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ СѓСЃРєРѕСЂРµРЅРЅРѕР№ РѕР±СЂР°Р±РѕС‚РєРё Р·Р°РїСЂРѕСЃР°. РЈСЃРєРѕСЂРµРЅРЅР°СЏ РѕР±СЂР°Р±РѕС‚РєР° РїСЂРёРјРµРЅСЏРµС‚СЃСЏ РІ РїСЂРѕС†РµСЃСЃРµ РѕС„РѕСЂРјР»РµРЅРёСЏ, РѕР±С‹С‡РЅР°СЏ РѕР±СЂР°Р±РѕС‚РєР° РїСЂРё РїРѕСЃС‚РєРѕРЅС‚СЂРѕР»Рµ
+     * Set the 'AccelerationIndicator' element value. Индикатор ускоренной обработки запроса. Ускоренная обработка применяется в процессе оформления, обычная обработка при постконтроле
      * 
      * @param accelerationIndicator
      */
@@ -39,7 +39,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Direction' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РґРІРёР¶РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ (РРњ - РёРјРїРѕСЂС‚, Р­Рљ - СЌРєСЃРїРѕСЂС‚, РўР  - С‚СЂР°РЅР·РёС‚)
+     * Get the 'Direction' element value. Направление движения товаров (ИМ - импорт, ЭК - экспорт, ТР - транзит)
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Direction' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РґРІРёР¶РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ (РРњ - РёРјРїРѕСЂС‚, Р­Рљ - СЌРєСЃРїРѕСЂС‚, РўР  - С‚СЂР°РЅР·РёС‚)
+     * Set the 'Direction' element value. Направление движения товаров (ИМ - импорт, ЭК - экспорт, ТР - транзит)
      * 
      * @param direction
      */
@@ -57,7 +57,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CalculationSettings' element items. РћРіСЂР°РЅРёС‡РёС‚РµР»СЊРЅС‹Рµ РєРѕСЌС„С„РёС†РёРµРЅС‚С‹. РќРµ РёСЃРїРѕР»СЊР·СѓСЋС‚СЃСЏ РїСЂРё Р·Р°РїСЂРѕСЃРµ РёР· СЃРёСЃС‚РµРјС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ
+     * Get the list of 'CalculationSettings' element items. Ограничительные коэффициенты. Не используются при запросе из системы таможенного оформления
      * 
      * @return list
      */
@@ -66,7 +66,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CalculationSettings' element items. РћРіСЂР°РЅРёС‡РёС‚РµР»СЊРЅС‹Рµ РєРѕСЌС„С„РёС†РёРµРЅС‚С‹. РќРµ РёСЃРїРѕР»СЊР·СѓСЋС‚СЃСЏ РїСЂРё Р·Р°РїСЂРѕСЃРµ РёР· СЃРёСЃС‚РµРјС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ
+     * Set the list of 'CalculationSettings' element items. Ограничительные коэффициенты. Не используются при запросе из системы таможенного оформления
      * 
      * @param list
      */
@@ -75,7 +75,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'Consignee' element value. Сведения о получателе товаров
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'Consignee' element value. Сведения о получателе товаров
      * 
      * @param consignee
      */
@@ -93,7 +93,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'Consignor' element value. Сведения об отправителе товаров
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'Consignor' element value. Сведения об отправителе товаров
      * 
      * @param consignor
      */
@@ -111,7 +111,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ РґРµРєР»Р°СЂР°РЅС‚Рµ/РїСЂРµРґСЃС‚Р°РІРёС‚РµР»Рµ
+     * Get the 'Declarant' element value. Сведения декларанте/представителе
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ РґРµРєР»Р°СЂР°РЅС‚Рµ/РїСЂРµРґСЃС‚Р°РІРёС‚РµР»Рµ
+     * Set the 'Declarant' element value. Сведения декларанте/представителе
      * 
      * @param declarant
      */
@@ -129,7 +129,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'FinancialAdjustingResponsiblePerson' element value. Р›РёС†Рѕ, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ
+     * Get the 'FinancialAdjustingResponsiblePerson' element value. Лицо, ответственное за финансовое урегулирование
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'FinancialAdjustingResponsiblePerson' element value. Р›РёС†Рѕ, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ
+     * Set the 'FinancialAdjustingResponsiblePerson' element value. Лицо, ответственное за финансовое урегулирование
      * 
      * @param financialAdjustingResponsiblePerson
      */
@@ -148,7 +148,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'GtdRegNumber' element value. РќРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё
+     * Get the 'GtdRegNumber' element value. Номер декларации
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class BaseServiceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'GtdRegNumber' element value. РќРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё
+     * Set the 'GtdRegNumber' element value. Номер декларации
      * 
      * @param gtdRegNumber
      */

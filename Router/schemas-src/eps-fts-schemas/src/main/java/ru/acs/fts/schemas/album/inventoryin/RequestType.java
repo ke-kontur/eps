@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ Рѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ 
+ * Запрос о представлении дополнительных документов 
  */
 public class RequestType
 {
@@ -27,7 +27,7 @@ public class RequestType
     private GTDIDType GTDNumber;
 
     /** 
-     * Get the 'RequestNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїСЂРѕСЃР° РїРѕ Р”Рў Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'RequestNumber' element value. Порядковый номер запроса по ДТ о предоставлении дополнительных документов
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class RequestType
     }
 
     /** 
-     * Set the 'RequestNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїСЂРѕСЃР° РїРѕ Р”Рў Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'RequestNumber' element value. Порядковый номер запроса по ДТ о предоставлении дополнительных документов
      * 
      * @param requestNumber
      */
@@ -45,7 +45,7 @@ public class RequestType
     }
 
     /** 
-     * Get the 'RequestDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'RequestDate' element value. Дата формирования запроса
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class RequestType
     }
 
     /** 
-     * Set the 'RequestDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'RequestDate' element value. Дата формирования запроса
      * 
      * @param requestDate
      */
@@ -63,7 +63,7 @@ public class RequestType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°РїСЂР°С€РёРІР°СЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the 'CustomsCode' element value. Код таможенного органа, запрашивающего документы
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class RequestType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°РїСЂР°С€РёРІР°СЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the 'CustomsCode' element value. Код таможенного органа, запрашивающего документы
      * 
      * @param customsCode
      */
@@ -81,7 +81,7 @@ public class RequestType
     }
 
     /** 
-     * Get the 'SubmitDate' element value. РЎСЂРѕРє РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'SubmitDate' element value. Срок представления документов
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class RequestType
     }
 
     /** 
-     * Set the 'SubmitDate' element value. РЎСЂРѕРє РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'SubmitDate' element value. Срок представления документов
      * 
      * @param submitDate
      */
@@ -99,7 +99,7 @@ public class RequestType
     }
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'SendDate' element value. Дата направления запроса
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class RequestType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'SendDate' element value. Дата направления запроса
      * 
      * @param sendDate
      */
@@ -117,7 +117,7 @@ public class RequestType
     }
 
     /** 
-     * Get the 'ReceiveDate' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'ReceiveDate' element value. Дата получения запроса
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class RequestType
     }
 
     /** 
-     * Set the 'ReceiveDate' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'ReceiveDate' element value. Дата получения запроса
      * 
      * @param receiveDate
      */
@@ -135,7 +135,7 @@ public class RequestType
     }
 
     /** 
-     * Get the 'PersonName' element value. Р¤РРћ Р»РёС†Р°, РїРѕР»СѓС‡РёРІС€РµРіРѕ / РїСЂРёРЅСЏРІС€РµРіРѕ Р·Р°РїСЂРѕСЃ
+     * Get the 'PersonName' element value. ФИО лица, получившего / принявшего запрос
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class RequestType
     }
 
     /** 
-     * Set the 'PersonName' element value. Р¤РРћ Р»РёС†Р°, РїРѕР»СѓС‡РёРІС€РµРіРѕ / РїСЂРёРЅСЏРІС€РµРіРѕ Р·Р°РїСЂРѕСЃ
+     * Set the 'PersonName' element value. ФИО лица, получившего / принявшего запрос
      * 
      * @param personName
      */
@@ -153,7 +153,7 @@ public class RequestType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РѕС„РѕСЂРјРёРІС€РµРµ Р·Р°РїСЂРѕСЃ.
+     * Get the 'CustomsPerson' element value. Должностное лицо, оформившее запрос.
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class RequestType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РѕС„РѕСЂРјРёРІС€РµРµ Р·Р°РїСЂРѕСЃ.
+     * Set the 'CustomsPerson' element value. Должностное лицо, оформившее запрос.
      * 
      * @param customsPerson
      */
@@ -171,7 +171,7 @@ public class RequestType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ
+     * Get the 'Address' element value. Адрес
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class RequestType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ
+     * Set the 'Address' element value. Адрес
      * 
      * @param address
      */
@@ -189,7 +189,7 @@ public class RequestType
     }
 
     /** 
-     * Get the list of 'RequestDocument' element items. Р”РѕРєСѓРјРµРЅС‚С‹
+     * Get the list of 'RequestDocument' element items. Документы
      * 
      * @return list
      */
@@ -198,7 +198,7 @@ public class RequestType
     }
 
     /** 
-     * Set the list of 'RequestDocument' element items. Р”РѕРєСѓРјРµРЅС‚С‹
+     * Set the list of 'RequestDocument' element items. Документы
      * 
      * @param list
      */
@@ -207,7 +207,7 @@ public class RequestType
     }
 
     /** 
-     * Get the list of 'Communication' element items. РЎСЂРµРґСЃС‚РІРѕ СЃРІСЏР·Рё
+     * Get the list of 'Communication' element items. Средство связи
      * 
      * @return list
      */
@@ -216,7 +216,7 @@ public class RequestType
     }
 
     /** 
-     * Set the list of 'Communication' element items. РЎСЂРµРґСЃС‚РІРѕ СЃРІСЏР·Рё
+     * Set the list of 'Communication' element items. Средство связи
      * 
      * @param list
      */
@@ -225,7 +225,7 @@ public class RequestType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'GTDNumber' element value. Справочный номер ДТ
      * 
      * @return value
      */
@@ -234,7 +234,7 @@ public class RequestType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'GTDNumber' element value. Справочный номер ДТ
      * 
      * @param GTDNumber
      */

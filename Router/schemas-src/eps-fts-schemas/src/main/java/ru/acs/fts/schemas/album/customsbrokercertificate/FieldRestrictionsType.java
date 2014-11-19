@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.customsbrokercertificate;
 
 /** 
- * РћРіСЂР°РЅРёС‡РµРЅРёСЏ СЃС„РµСЂС‹ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+ * Ограничения сферы деятельности
  */
 public class FieldRestrictionsType
 {
@@ -12,7 +12,7 @@ public class FieldRestrictionsType
     private String procedureRestriction;
 
     /** 
-     * Get the 'GoodsRestriction' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ РїРѕ РІРёРґР°Рј С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsRestriction' element value. Ограничения по видам товаров в соответствии с ТН ВЭД ТС
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class FieldRestrictionsType
     }
 
     /** 
-     * Set the 'GoodsRestriction' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ РїРѕ РІРёРґР°Рј С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsRestriction' element value. Ограничения по видам товаров в соответствии с ТН ВЭД ТС
      * 
      * @param goodsRestriction
      */
@@ -30,7 +30,7 @@ public class FieldRestrictionsType
     }
 
     /** 
-     * Get the 'TransportRestriction' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ РїРѕ РІРёРґР°Рј С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+     * Get the 'TransportRestriction' element value. Ограничения по видам транспорта
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class FieldRestrictionsType
     }
 
     /** 
-     * Set the 'TransportRestriction' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ РїРѕ РІРёРґР°Рј С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+     * Set the 'TransportRestriction' element value. Ограничения по видам транспорта
      * 
      * @param transportRestriction
      */
@@ -48,7 +48,7 @@ public class FieldRestrictionsType
     }
 
     /** 
-     * Get the 'RegionRestriction' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ РїРѕ СЂРµРіРёРѕРЅСѓ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Get the 'RegionRestriction' element value. Ограничения по региону деятельности
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class FieldRestrictionsType
     }
 
     /** 
-     * Set the 'RegionRestriction' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ РїРѕ СЂРµРіРёРѕРЅСѓ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Set the 'RegionRestriction' element value. Ограничения по региону деятельности
      * 
      * @param regionRestriction
      */
@@ -66,7 +66,7 @@ public class FieldRestrictionsType
     }
 
     /** 
-     * Get the 'ProcedureRestriction' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ РїРѕ РІРёРґР°Рј С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕРїРµСЂР°С†РёР№
+     * Get the 'ProcedureRestriction' element value. Ограничения по видам таможенных операций
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class FieldRestrictionsType
     }
 
     /** 
-     * Set the 'ProcedureRestriction' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ РїРѕ РІРёРґР°Рј С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕРїРµСЂР°С†РёР№
+     * Set the 'ProcedureRestriction' element value. Ограничения по видам таможенных операций
      * 
      * @param procedureRestriction
      */

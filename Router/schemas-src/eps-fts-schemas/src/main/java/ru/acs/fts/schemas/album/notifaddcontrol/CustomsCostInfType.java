@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё, С‚СЂРµР±СѓСЋС‰РёС… РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
+ * Сведения о таможенной стоимости, требующих подтверждения
  */
 public class CustomsCostInfType
 {
@@ -15,7 +15,7 @@ public class CustomsCostInfType
     private List<ReqDocumentType> reqDocumentList = new ArrayList<ReqDocumentType>();
 
     /** 
-     * Get the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'Position' element value. Порядковый номер
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class CustomsCostInfType
     }
 
     /** 
-     * Set the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'Position' element value. Порядковый номер
      * 
      * @param position
      */
@@ -33,7 +33,7 @@ public class CustomsCostInfType
     }
 
     /** 
-     * Get the list of 'CustCostInf' element items. РџРµСЂРµС‡РµРЅСЊ СЃРІРµРґРµРЅРёР№, С‚СЂРµР±СѓСЋС‰РёС… РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ/СѓС‚РѕС‡РЅРµРЅРёСЏ
+     * Get the list of 'CustCostInf' element items. Перечень сведений, требующих подтверждения/уточнения
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class CustomsCostInfType
     }
 
     /** 
-     * Set the list of 'CustCostInf' element items. РџРµСЂРµС‡РµРЅСЊ СЃРІРµРґРµРЅРёР№, С‚СЂРµР±СѓСЋС‰РёС… РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ/СѓС‚РѕС‡РЅРµРЅРёСЏ
+     * Set the list of 'CustCostInf' element items. Перечень сведений, требующих подтверждения/уточнения
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class CustomsCostInfType
     }
 
     /** 
-     * Get the list of 'Comment' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the list of 'Comment' element items. Примечание
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class CustomsCostInfType
     }
 
     /** 
-     * Set the list of 'Comment' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the list of 'Comment' element items. Примечание
      * 
      * @param list
      */
@@ -69,7 +69,7 @@ public class CustomsCostInfType
     }
 
     /** 
-     * Get the list of 'ReqDocuments' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the list of 'ReqDocuments' element items. Запрашиваемые документы
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class CustomsCostInfType
     }
 
     /** 
-     * Set the list of 'ReqDocuments' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the list of 'ReqDocuments' element items. Запрашиваемые документы
      * 
      * @param list
      */

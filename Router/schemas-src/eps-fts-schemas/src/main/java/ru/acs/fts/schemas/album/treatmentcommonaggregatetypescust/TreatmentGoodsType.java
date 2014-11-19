@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РўРѕРІР°СЂС‹ РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+ * Товары для переработки
  */
 public class TreatmentGoodsType
 {
@@ -13,7 +13,7 @@ public class TreatmentGoodsType
     private List<TreatProductsType> trGoodsItemList = new ArrayList<TreatProductsType>();
 
     /** 
-     * Get the list of 'TreatmentsGoodsInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рє РіСЂ. "РўРѕРІР°СЂС‹ РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё"
+     * Get the list of 'TreatmentsGoodsInfo' element items. Дополнительные сведения к гр. "Товары для переработки"
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class TreatmentGoodsType
     }
 
     /** 
-     * Set the list of 'TreatmentsGoodsInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рє РіСЂ. "РўРѕРІР°СЂС‹ РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё"
+     * Set the list of 'TreatmentsGoodsInfo' element items. Дополнительные сведения к гр. "Товары для переработки"
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class TreatmentGoodsType
     }
 
     /** 
-     * Get the list of 'TrGoodsItem' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Get the list of 'TrGoodsItem' element items. Описание товара для переработки
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class TreatmentGoodsType
     }
 
     /** 
-     * Set the list of 'TrGoodsItem' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Set the list of 'TrGoodsItem' element items. Описание товара для переработки
      * 
      * @param list
      */

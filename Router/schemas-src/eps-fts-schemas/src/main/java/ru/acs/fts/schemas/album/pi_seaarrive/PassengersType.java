@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂР°С…
+ * Сведения о пассажирах
  */
 public class PassengersType
 {
@@ -14,7 +14,7 @@ public class PassengersType
     private List<PassengerInfoType> passengerInfoList = new ArrayList<PassengerInfoType>();
 
     /** 
-     * Get the 'RFPassengersCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЂРѕСЃСЃРёР№СЃРєРёС… РіСЂР°Р¶РґР°РЅ
+     * Get the 'RFPassengersCount' element value. Количество российских граждан
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PassengersType
     }
 
     /** 
-     * Set the 'RFPassengersCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЂРѕСЃСЃРёР№СЃРєРёС… РіСЂР°Р¶РґР°РЅ
+     * Set the 'RFPassengersCount' element value. Количество российских граждан
      * 
      * @param RFPassengersCount
      */
@@ -32,7 +32,7 @@ public class PassengersType
     }
 
     /** 
-     * Get the 'ForeignPassengerCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… РіСЂР°Р¶РґР°РЅ
+     * Get the 'ForeignPassengerCount' element value. Количество иностранных граждан
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PassengersType
     }
 
     /** 
-     * Set the 'ForeignPassengerCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… РіСЂР°Р¶РґР°РЅ
+     * Set the 'ForeignPassengerCount' element value. Количество иностранных граждан
      * 
      * @param foreignPassengerCount
      */
@@ -50,7 +50,7 @@ public class PassengersType
     }
 
     /** 
-     * Get the list of 'PassengerInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂРµ
+     * Get the list of 'PassengerInfo' element items. Сведения о пассажире
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class PassengersType
     }
 
     /** 
-     * Set the list of 'PassengerInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂРµ
+     * Set the list of 'PassengerInfo' element items. Сведения о пассажире
      * 
      * @param list
      */

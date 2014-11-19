@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РћР±СЂР°С‰РµРЅРёРµ РЅР° РїСЂРѕРґР»РµРЅРёРµ СЃСЂРѕРєР°/РЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРµ/Р РµС€РµРЅРёРµ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° РїСЂРѕРІРµСЂРєРё
+ * Обращение на продление срока/на аннулирование/Решение о продлении срока проверки
  */
 public class ProlongCancelNotifType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class ProlongCancelNotifType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ProlongDate' element value. РќРѕРІС‹Р№ СЃСЂРѕРє 
+     * Get the 'ProlongDate' element value. Новый срок 
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProlongDate' element value. РќРѕРІС‹Р№ СЃСЂРѕРє 
+     * Set the 'ProlongDate' element value. Новый срок 
      * 
      * @param prolongDate
      */
@@ -40,7 +40,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РѕР±СЂР°С‰РµРЅРёРµ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР°; 2 - РѕР±СЂР°С‰РµРЅРёРµ РЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ; 3 - СЂРµС€РµРЅРёРµ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° РїСЂРѕРІРµСЂРєРё
+     * Get the 'DocSign' element value. Признак документа: 1 - обращение о продлении срока; 2 - обращение на аннулирование разрешения; 3 - решение о продлении срока проверки
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РѕР±СЂР°С‰РµРЅРёРµ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР°; 2 - РѕР±СЂР°С‰РµРЅРёРµ РЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ; 3 - СЂРµС€РµРЅРёРµ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° РїСЂРѕРІРµСЂРєРё
+     * Set the 'DocSign' element value. Признак документа: 1 - обращение о продлении срока; 2 - обращение на аннулирование разрешения; 3 - решение о продлении срока проверки
      * 
      * @param docSign
      */
@@ -58,7 +58,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Reasons' element items. РџСЂРёС‡РёРЅР°
+     * Get the list of 'Reasons' element items. Причина
      * 
      * @return list
      */
@@ -67,7 +67,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Reasons' element items. РџСЂРёС‡РёРЅР°
+     * Set the list of 'Reasons' element items. Причина
      * 
      * @param list
      */
@@ -76,7 +76,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ/РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
+     * Get the 'ApplicationRegNumber' element value. Регистрационный номер заявления на уничтожение/декларации на товары
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ/РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
+     * Set the 'ApplicationRegNumber' element value. Регистрационный номер заявления на уничтожение/декларации на товары
      * 
      * @param applicationRegNumber
      */
@@ -95,7 +95,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. Р—Р°СЏРІРёС‚РµР»СЊ
+     * Get the 'Applicant' element value. Заявитель
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. Р—Р°СЏРІРёС‚РµР»СЊ
+     * Set the 'Applicant' element value. Заявитель
      * 
      * @param applicant
      */
@@ -113,7 +113,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -131,7 +131,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -149,7 +149,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class ProlongCancelNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

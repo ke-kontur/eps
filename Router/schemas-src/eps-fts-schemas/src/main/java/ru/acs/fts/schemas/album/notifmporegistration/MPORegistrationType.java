@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.notifmporegistration;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРј РЅРѕРјРµСЂРµ РњРџРћ
+ * Сведения о регистрационном номере МПО
  */
 public class MPORegistrationType
 {
@@ -13,7 +13,7 @@ public class MPORegistrationType
     private String MPONumber;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class MPORegistrationType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
      * 
      * @param customsCode
      */
@@ -31,7 +31,7 @@ public class MPORegistrationType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RegistrationDate' element value. Дата регистрации документа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class MPORegistrationType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RegistrationDate' element value. Дата регистрации документа
      * 
      * @param registrationDate
      */
@@ -49,7 +49,7 @@ public class MPORegistrationType
     }
 
     /** 
-     * Get the 'MPO_Number' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РњРџРћ
+     * Get the 'MPO_Number' element value. Уникальный номер МПО
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class MPORegistrationType
     }
 
     /** 
-     * Set the 'MPO_Number' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РњРџРћ
+     * Set the 'MPO_Number' element value. Уникальный номер МПО
      * 
      * @param MPONumber
      */

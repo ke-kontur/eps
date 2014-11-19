@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.preliminaryorigincountry;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ, РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ 
+ * Сведения о товаре, необходимые для определения страны происхождения 
  */
 public class GoodsInfoOriginCountryType
 {
@@ -13,7 +13,7 @@ public class GoodsInfoOriginCountryType
     private DocumentBaseType contract;
 
     /** 
-     * Get the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ С‚РѕРІР°СЂР°
+     * Get the 'Manufacturer' element value. Производитель товара
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GoodsInfoOriginCountryType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ С‚РѕРІР°СЂР°
+     * Set the 'Manufacturer' element value. Производитель товара
      * 
      * @param manufacturer
      */
@@ -31,7 +31,7 @@ public class GoodsInfoOriginCountryType
     }
 
     /** 
-     * Get the 'PlaceManufactur' element value. РњРµСЃС‚Рѕ РїСЂРѕРёР·РІРѕРґСЃС‚РІР°
+     * Get the 'PlaceManufactur' element value. Место производства
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class GoodsInfoOriginCountryType
     }
 
     /** 
-     * Set the 'PlaceManufactur' element value. РњРµСЃС‚Рѕ РїСЂРѕРёР·РІРѕРґСЃС‚РІР°
+     * Set the 'PlaceManufactur' element value. Место производства
      * 
      * @param placeManufactur
      */
@@ -49,7 +49,7 @@ public class GoodsInfoOriginCountryType
     }
 
     /** 
-     * Get the 'Contract' element value. РљРѕРЅРєСЂРµС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РїСЂРёРЅСЏС‚Рѕ СЂРµС€РµРЅРёРµ.
+     * Get the 'Contract' element value. Конкретный документ, на основании которого принято решение.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class GoodsInfoOriginCountryType
     }
 
     /** 
-     * Set the 'Contract' element value. РљРѕРЅРєСЂРµС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РїСЂРёРЅСЏС‚Рѕ СЂРµС€РµРЅРёРµ.
+     * Set the 'Contract' element value. Конкретный документ, на основании которого принято решение.
      * 
      * @param contract
      */

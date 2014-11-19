@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.TransportOwnerType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃРґРµР»РєР°С… СЃ С€Р°СЃСЃРё РўРЎ
+ * Сведения о сделках с шасси ТС
  */
 public class ChassicBargainType
 {
@@ -20,7 +20,7 @@ public class ChassicBargainType
     private PersonBaseType newOwnerSign;
 
     /** 
-     * Get the 'SellingDate' element value. Р”Р°С‚Р° РїСЂРѕРґР°Р¶Рё
+     * Get the 'SellingDate' element value. Дата продажи
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class ChassicBargainType
     }
 
     /** 
-     * Set the 'SellingDate' element value. Р”Р°С‚Р° РїСЂРѕРґР°Р¶Рё
+     * Set the 'SellingDate' element value. Дата продажи
      * 
      * @param sellingDate
      */
@@ -38,7 +38,7 @@ public class ChassicBargainType
     }
 
     /** 
-     * Get the 'NewChassisOwner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІРѕРј СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ РўРЎ
+     * Get the 'NewChassisOwner' element value. Сведения о новом собственнике ТС
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ChassicBargainType
     }
 
     /** 
-     * Set the 'NewChassisOwner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІРѕРј СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ РўРЎ
+     * Set the 'NewChassisOwner' element value. Сведения о новом собственнике ТС
      * 
      * @param newChassisOwner
      */
@@ -56,7 +56,7 @@ public class ChassicBargainType
     }
 
     /** 
-     * Get the list of 'DocPropertyRights' element items. Р”РѕРєСѓРјРµРЅС‚ РЅР° РїСЂР°РІРѕ  СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
+     * Get the list of 'DocPropertyRights' element items. Документ на право  собственности
      * 
      * @return list
      */
@@ -65,7 +65,7 @@ public class ChassicBargainType
     }
 
     /** 
-     * Set the list of 'DocPropertyRights' element items. Р”РѕРєСѓРјРµРЅС‚ РЅР° РїСЂР°РІРѕ  СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
+     * Set the list of 'DocPropertyRights' element items. Документ на право  собственности
      * 
      * @param list
      */
@@ -74,7 +74,7 @@ public class ChassicBargainType
     }
 
     /** 
-     * Get the 'PrevOwnerSign' element value. РџРѕРґРїРёСЃСЊ РїСЂРµР¶РЅРµРіРѕ  СЃРѕР±СЃС‚РІРµРЅРЅРёРєР°
+     * Get the 'PrevOwnerSign' element value. Подпись прежнего  собственника
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class ChassicBargainType
     }
 
     /** 
-     * Set the 'PrevOwnerSign' element value. РџРѕРґРїРёСЃСЊ РїСЂРµР¶РЅРµРіРѕ  СЃРѕР±СЃС‚РІРµРЅРЅРёРєР°
+     * Set the 'PrevOwnerSign' element value. Подпись прежнего  собственника
      * 
      * @param prevOwnerSign
      */
@@ -92,7 +92,7 @@ public class ChassicBargainType
     }
 
     /** 
-     * Get the 'NewOwnerSign' element value. РџРѕРґРїРёСЃСЊ РЅР°СЃС‚РѕСЏС‰РµРіРѕ  СЃРѕР±СЃС‚РІРµРЅРЅРёРєР°
+     * Get the 'NewOwnerSign' element value. Подпись настоящего  собственника
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class ChassicBargainType
     }
 
     /** 
-     * Set the 'NewOwnerSign' element value. РџРѕРґРїРёСЃСЊ РЅР°СЃС‚РѕСЏС‰РµРіРѕ  СЃРѕР±СЃС‚РІРµРЅРЅРёРєР°
+     * Set the 'NewOwnerSign' element value. Подпись настоящего  собственника
      * 
      * @param newOwnerSign
      */

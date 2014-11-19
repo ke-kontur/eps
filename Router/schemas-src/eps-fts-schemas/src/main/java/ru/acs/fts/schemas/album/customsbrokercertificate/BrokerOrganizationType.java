@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё-С‚Р°РјРѕР¶РµРЅРЅРѕРј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»Рµ (Р±СЂРѕРєРµСЂРµ)
+ * Сведения об организации-таможенном представителе (брокере)
  */
 public class BrokerOrganizationType extends OrganizationBaseType
 {
@@ -16,7 +16,7 @@ public class BrokerOrganizationType extends OrganizationBaseType
     private AddressType factAddress;
 
     /** 
-     * Get the list of 'BranchDescriprion' element items. РћР±РѕСЃРѕР±Р»РµРЅРЅРѕРµ СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the list of 'BranchDescriprion' element items. Обособленное структурное подразделение организации
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class BrokerOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the list of 'BranchDescriprion' element items. РћР±РѕСЃРѕР±Р»РµРЅРЅРѕРµ СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the list of 'BranchDescriprion' element items. Обособленное структурное подразделение организации
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class BrokerOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'Address' element value. Адрес организации
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class BrokerOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'Address' element value. Адрес организации
      * 
      * @param address
      */
@@ -52,7 +52,7 @@ public class BrokerOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'FactAddress' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№  Р°РґСЂРµСЃ
+     * Get the 'FactAddress' element value. Фактический  адрес
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class BrokerOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'FactAddress' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№  Р°РґСЂРµСЃ
+     * Set the 'FactAddress' element value. Фактический  адрес
      * 
      * @param factAddress
      */

@@ -6,14 +6,14 @@ import java.util.List;
 import org.joda.time.LocalTime;
 
 /** 
- * РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "time" (РІСЂРµРјСЏ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+ * Параметры фильтра для значения типа "time" (время). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
  */
 public class AUDTimeFilterParamsType extends AUDBaseFilterParamsType
 {
     private List<LocalTime> filterValueList = new ArrayList<LocalTime>();
 
     /** 
-     * Get the list of 'FilterValue' element items. Р—РЅР°С‡РµРЅРёРµ С„РёР»СЊС‚СЂР° РґР»СЏ С‚РёРїР° "time" (РІСЂРµРјСЏ).
+     * Get the list of 'FilterValue' element items. Значение фильтра для типа "time" (время).
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class AUDTimeFilterParamsType extends AUDBaseFilterParamsType
     }
 
     /** 
-     * Set the list of 'FilterValue' element items. Р—РЅР°С‡РµРЅРёРµ С„РёР»СЊС‚СЂР° РґР»СЏ С‚РёРїР° "time" (РІСЂРµРјСЏ).
+     * Set the list of 'FilterValue' element items. Значение фильтра для типа "time" (время).
      * 
      * @param list
      */

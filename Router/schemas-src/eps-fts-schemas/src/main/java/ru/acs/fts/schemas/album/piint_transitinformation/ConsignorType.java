@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
+ * Грузоотправитель
  */
 public class ConsignorType extends OrganizationBaseType
 {
@@ -15,7 +15,7 @@ public class ConsignorType extends OrganizationBaseType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'ITN' element value. РРўРќ
+     * Get the 'ITN' element value. ИТН
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ConsignorType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'ITN' element value. РРўРќ
+     * Set the 'ITN' element value. ИТН
      * 
      * @param ITN
      */
@@ -33,7 +33,7 @@ public class ConsignorType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'Address' element value. Адрес организации / физического лица
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ConsignorType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'Address' element value. Адрес организации / физического лица
      * 
      * @param address
      */
@@ -51,7 +51,7 @@ public class ConsignorType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ConsignorType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @param identityCard
      */

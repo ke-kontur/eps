@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·РёРґРµРЅС‚Рµ
+ * Сведения о резиденте
  */
 public class ResidentType extends OrganizationBaseType
 {
@@ -14,7 +14,7 @@ public class ResidentType extends OrganizationBaseType
     private AddressType residentAddress;
 
     /** 
-     * Get the 'RegDate' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ Р·Р°РїРёСЃРё РІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРµСЃС‚СЂ
+     * Get the 'RegDate' element value. Дата внесения записи в государственный реестр
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ResidentType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'RegDate' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ Р·Р°РїРёСЃРё РІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРµСЃС‚СЂ
+     * Set the 'RegDate' element value. Дата внесения записи в государственный реестр
      * 
      * @param regDate
      */
@@ -32,7 +32,7 @@ public class ResidentType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'ResidentAddress' element value. РћРїРёСЃР°РЅРёРµ Р°РґСЂРµСЃР° СЂРµР·РёРґРµРЅС‚Р°
+     * Get the 'ResidentAddress' element value. Описание адреса резидента
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ResidentType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'ResidentAddress' element value. РћРїРёСЃР°РЅРёРµ Р°РґСЂРµСЃР° СЂРµР·РёРґРµРЅС‚Р°
+     * Set the 'ResidentAddress' element value. Описание адреса резидента
      * 
      * @param residentAddress
      */

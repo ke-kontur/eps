@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїСЂРµРґРµР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ/РќРµРѕР±С…РѕРґРёРјС‹Рµ РёР·РјРµРЅРµРЅРёСЏ РІ Р”Рў
+ * Определение таможенной стоимости товаров/Необходимые изменения в ДТ
  */
 public class ValuationCustCostType
 {
@@ -17,7 +17,7 @@ public class ValuationCustCostType
     private List<DeclarationChangesType> declarationChangeList = new ArrayList<DeclarationChangesType>();
 
     /** 
-     * Get the 'NumberGood' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Get the 'NumberGood' element value. Номер товара
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ValuationCustCostType
     }
 
     /** 
-     * Set the 'NumberGood' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Set the 'NumberGood' element value. Номер товара
      * 
      * @param numberGood
      */
@@ -35,7 +35,7 @@ public class ValuationCustCostType
     }
 
     /** 
-     * Get the 'ArtAgreement' element value. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё РЎРѕРіР»Р°С€РµРЅРёСЏ
+     * Get the 'ArtAgreement' element value. Номер статьи Соглашения
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ValuationCustCostType
     }
 
     /** 
-     * Set the 'ArtAgreement' element value. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё РЎРѕРіР»Р°С€РµРЅРёСЏ
+     * Set the 'ArtAgreement' element value. Номер статьи Соглашения
      * 
      * @param artAgreement
      */
@@ -53,7 +53,7 @@ public class ValuationCustCostType
     }
 
     /** 
-     * Get the 'CustCostGoods' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ
+     * Get the 'CustCostGoods' element value. Таможенная стоимость товаров
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ValuationCustCostType
     }
 
     /** 
-     * Set the 'CustCostGoods' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ
+     * Set the 'CustCostGoods' element value. Таможенная стоимость товаров
      * 
      * @param custCostGoods
      */
@@ -71,7 +71,7 @@ public class ValuationCustCostType
     }
 
     /** 
-     * Get the list of 'SourceInf' element items. РСЃС‚РѕС‡РЅРёРє РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the list of 'SourceInf' element items. Источник информации
      * 
      * @return list
      */
@@ -80,7 +80,7 @@ public class ValuationCustCostType
     }
 
     /** 
-     * Set the list of 'SourceInf' element items. РСЃС‚РѕС‡РЅРёРє РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the list of 'SourceInf' element items. Источник информации
      * 
      * @param list
      */
@@ -89,7 +89,7 @@ public class ValuationCustCostType
     }
 
     /** 
-     * Get the 'MethodNumber' element value. РќРѕРјРµСЂ РјРµС‚РѕРґР°
+     * Get the 'MethodNumber' element value. Номер метода
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class ValuationCustCostType
     }
 
     /** 
-     * Set the 'MethodNumber' element value. РќРѕРјРµСЂ РјРµС‚РѕРґР°
+     * Set the 'MethodNumber' element value. Номер метода
      * 
      * @param methodNumber
      */
@@ -107,7 +107,7 @@ public class ValuationCustCostType
     }
 
     /** 
-     * Get the list of 'DeclarationChanges' element items. РћРїРёСЃР°РЅРёРµ РЅРµРѕР±С…РѕРґРёРјС‹С… РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№) Р”Рў
+     * Get the list of 'DeclarationChanges' element items. Описание необходимых изменений (дополнений) ДТ
      * 
      * @return list
      */
@@ -116,7 +116,7 @@ public class ValuationCustCostType
     }
 
     /** 
-     * Set the list of 'DeclarationChanges' element items. РћРїРёСЃР°РЅРёРµ РЅРµРѕР±С…РѕРґРёРјС‹С… РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№) Р”Рў
+     * Set the list of 'DeclarationChanges' element items. Описание необходимых изменений (дополнений) ДТ
      * 
      * @param list
      */

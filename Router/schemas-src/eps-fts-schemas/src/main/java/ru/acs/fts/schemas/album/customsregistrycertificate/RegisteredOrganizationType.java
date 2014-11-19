@@ -7,14 +7,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUBranchDescriptionType
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅРѕР№ РІ РєР°С‡РµСЃС‚РІРµ РЈР­Рћ/С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРµСЂРµРІРѕР·С‡РёРєР°/РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ/РІР»Р°РґРµР»СЊС†Р° РњР‘Рў/РІР»Р°РґРµР»СЊС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРєР»Р°РґР°
+ * Сведения об организации, зарегистрированной в качестве УЭО/таможенного перевозчика/владельца СВХ/владельца МБТ/владельца таможенного склада
  */
 public class RegisteredOrganizationType extends CUOrganizationType
 {
     private List<CUBranchDescriptionType> branchDescriptionList = new ArrayList<CUBranchDescriptionType>();
 
     /** 
-     * Get the list of 'BranchDescription' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
+     * Get the list of 'BranchDescription' element items. Сведения об обособленном подразделении
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class RegisteredOrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Set the list of 'BranchDescription' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
+     * Set the list of 'BranchDescription' element items. Сведения об обособленном подразделении
      * 
      * @param list
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.actcommonform;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р›РёС†Рѕ, РІ РїСЂРёСЃСѓС‚СЃС‚РІРёРё РєРѕС‚РѕСЂРѕРіРѕ СЃРѕСЃС‚Р°РІР»РµРЅ Р°РєС‚
+ * Лицо, в присутствии которого составлен акт
  */
 public class PersonType extends PersonSignatureType
 {
     private String comment;
 
     /** 
-     * Get the 'Comment' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the 'Comment' element value. Примечание
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PersonType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'Comment' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the 'Comment' element value. Примечание
      * 
      * @param comment
      */

@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Р РµС€РµРЅРёРµ (СЂРµС€РµРЅРёСЏ) Рѕ СЃС‚СЂР°РЅРµ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё (РѕС‚РєР°Р·Рµ РІ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё) С‚Р°СЂРёС„РЅС‹С… РїСЂРµС„РµСЂРµРЅС†РёР№
+ * Решение (решения) о стране происхождения товаров и (или) предоставлении (отказе в предоставлении) тарифных преференций
  */
 public class ResolutionOrigCountryPreferenceType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ResolutionDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ
+     * Get the 'ResolutionDate' element value. Дата решения
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResolutionDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ
+     * Set the 'ResolutionDate' element value. Дата решения
      * 
      * @param resolutionDate
      */
@@ -42,7 +42,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° (С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)
+     * Get the 'OrganizationName' element value. Наименование декларанта (таможенного представителя)
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° (С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)
+     * Set the 'OrganizationName' element value. Наименование декларанта (таможенного представителя)
      * 
      * @param organizationName
      */
@@ -60,7 +60,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResolutionNumber' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ
+     * Get the 'ResolutionNumber' element value. Номер решения
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResolutionNumber' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ
+     * Set the 'ResolutionNumber' element value. Номер решения
      * 
      * @param resolutionNumber
      */
@@ -78,7 +78,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'GTDID' element value. Регистрационный номер ДТ
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'GTDID' element value. Регистрационный номер ДТ
      * 
      * @param GTDID
      */
@@ -96,7 +96,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @param customs
      */
@@ -114,7 +114,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Person' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ 
+     * Get the 'Person' element value. Должностное лицо 
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Person' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ 
+     * Set the 'Person' element value. Должностное лицо 
      * 
      * @param person
      */
@@ -132,7 +132,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ResolutionDescription' element items. Р РµС€РµРЅРёРµ
+     * Get the list of 'ResolutionDescription' element items. Решение
      * 
      * @return list
      */
@@ -141,7 +141,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ResolutionDescription' element items. Р РµС€РµРЅРёРµ
+     * Set the list of 'ResolutionDescription' element items. Решение
      * 
      * @param list
      */
@@ -151,7 +151,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class ResolutionOrigCountryPreferenceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

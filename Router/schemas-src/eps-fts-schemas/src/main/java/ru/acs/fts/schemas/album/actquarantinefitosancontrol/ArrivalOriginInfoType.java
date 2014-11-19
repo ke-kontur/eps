@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actquarantinefitosancontrol;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё Рё РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёРё РіСЂСѓР·Р°
+ * Сведения о прибытии и происхождении груза
  */
 public class ArrivalOriginInfoType
 {
@@ -10,7 +10,7 @@ public class ArrivalOriginInfoType
     private String regionName;
 
     /** 
-     * Get the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryName' element value. Наименование страны
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ArrivalOriginInfoType
     }
 
     /** 
-     * Set the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryName' element value. Наименование страны
      * 
      * @param countryName
      */
@@ -28,7 +28,7 @@ public class ArrivalOriginInfoType
     }
 
     /** 
-     * Get the 'RegionName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёРѕРЅР°
+     * Get the 'RegionName' element value. Наименование региона
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ArrivalOriginInfoType
     }
 
     /** 
-     * Set the 'RegionName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёРѕРЅР°
+     * Set the 'RegionName' element value. Наименование региона
      * 
      * @param regionName
      */

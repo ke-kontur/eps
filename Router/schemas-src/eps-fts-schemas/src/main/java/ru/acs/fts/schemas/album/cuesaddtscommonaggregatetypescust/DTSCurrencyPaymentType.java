@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ  РїРѕ СЃСѓРјРјРµ РѕРїР»Р°С‚С‹ РІ РІР°Р»СЋС‚Рµ
+ * Информация  по сумме оплаты в валюте
  */
 public class DTSCurrencyPaymentType
 {
@@ -13,7 +13,7 @@ public class DTSCurrencyPaymentType
     private String currencyQuantity;
 
     /** 
-     * Get the 'PositionsNumber' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё (РЅРѕРјРµСЂ РіСЂР°С„С‹ Р”РўРЎ, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ С‚Р°РєРёРµ СЃРІРµРґРµРЅРёСЏ)
+     * Get the 'PositionsNumber' element value. Номер позиции (номер графы ДТС, к которой относятся такие сведения)
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class DTSCurrencyPaymentType
     }
 
     /** 
-     * Set the 'PositionsNumber' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё (РЅРѕРјРµСЂ РіСЂР°С„С‹ Р”РўРЎ, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ С‚Р°РєРёРµ СЃРІРµРґРµРЅРёСЏ)
+     * Set the 'PositionsNumber' element value. Номер позиции (номер графы ДТС, к которой относятся такие сведения)
      * 
      * @param positionsNumber
      */
@@ -31,7 +31,7 @@ public class DTSCurrencyPaymentType
     }
 
     /** 
-     * Get the 'CurrencyAmount' element value. РЎСѓРјРјР° РІ РІР°Р»СЋС‚Рµ СЃС‡РµС‚Р° РїРѕ РїРѕР·РёС†РёРё
+     * Get the 'CurrencyAmount' element value. Сумма в валюте счета по позиции
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DTSCurrencyPaymentType
     }
 
     /** 
-     * Set the 'CurrencyAmount' element value. РЎСѓРјРјР° РІ РІР°Р»СЋС‚Рµ СЃС‡РµС‚Р° РїРѕ РїРѕР·РёС†РёРё
+     * Set the 'CurrencyAmount' element value. Сумма в валюте счета по позиции
      * 
      * @param currencyAmount
      */
@@ -49,7 +49,7 @@ public class DTSCurrencyPaymentType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ РїРѕ РїРѕР·РёС†РёРё, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚
+     * Get the 'CurrencyCode' element value. Трехзначный буквенный код валюты по позиции, в соответствии с классификатором валют
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DTSCurrencyPaymentType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ РїРѕ РїРѕР·РёС†РёРё, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚
+     * Set the 'CurrencyCode' element value. Трехзначный буквенный код валюты по позиции, в соответствии с классификатором валют
      * 
      * @param currencyCode
      */
@@ -67,7 +67,7 @@ public class DTSCurrencyPaymentType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ РїРѕ РїРѕР·РёС†РёРё
+     * Get the 'CurrencyRate' element value. Курс валюты по позиции
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class DTSCurrencyPaymentType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ РїРѕ РїРѕР·РёС†РёРё
+     * Set the 'CurrencyRate' element value. Курс валюты по позиции
      * 
      * @param currencyRate
      */
@@ -85,7 +85,7 @@ public class DTSCurrencyPaymentType
     }
 
     /** 
-     * Get the 'CurrencyQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РµРґРёРЅРёС† РІР°Р»СЋС‚С‹, РґР»СЏ РєРѕС‚РѕСЂРѕР№ СѓРєР°Р·Р°РЅ РєСѓСЂСЃ РґР»СЏ Р Р‘
+     * Get the 'CurrencyQuantity' element value. Количество единиц валюты, для которой указан курс для РБ
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class DTSCurrencyPaymentType
     }
 
     /** 
-     * Set the 'CurrencyQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РµРґРёРЅРёС† РІР°Р»СЋС‚С‹, РґР»СЏ РєРѕС‚РѕСЂРѕР№ СѓРєР°Р·Р°РЅ РєСѓСЂСЃ РґР»СЏ Р Р‘
+     * Set the 'CurrencyQuantity' element value. Количество единиц валюты, для которой указан курс для РБ
      * 
      * @param currencyQuantity
      */

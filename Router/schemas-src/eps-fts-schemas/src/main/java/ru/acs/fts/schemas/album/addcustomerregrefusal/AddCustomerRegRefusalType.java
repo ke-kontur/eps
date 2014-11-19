@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РћС‚РєР°Р· РІ РїСЂРёРЅСЏС‚РёРё РґРѕРїРѕР»РЅРµРЅРёСЏ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° РґРѕР»Р¶РЅРѕСЃС‚РЅС‹Рј Р»РёС†РѕРј.
+ * Отказ в принятии дополнения к договору поручительства должностным лицом.
  */
 public class AddCustomerRegRefusalType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RefusalDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РѕР± РѕС‚РєР°Р·Рµ.
+     * Get the 'RefusalDate' element value. Дата принятия решения об отказе.
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Set the 'RefusalDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РѕР± РѕС‚РєР°Р·Рµ.
+     * Set the 'RefusalDate' element value. Дата принятия решения об отказе.
      * 
      * @param refusalDate
      */
@@ -41,7 +41,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Get the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
+     * Get the 'GRN' element value. Cсылочный номер гарантии в транзите 
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Set the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
+     * Set the 'GRN' element value. Cсылочный номер гарантии в транзите 
      * 
      * @param GRN
      */
@@ -59,7 +59,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ.
+     * Get the 'DestinationCustoms' element value. Таможенный орган назначения.
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ.
+     * Set the 'DestinationCustoms' element value. Таможенный орган назначения.
      * 
      * @param destinationCustoms
      */
@@ -77,7 +77,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -95,7 +95,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RefuseReason' element items. РџСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
+     * Get the list of 'RefuseReason' element items. Причины отказа
      * 
      * @return list
      */
@@ -104,7 +104,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RefuseReason' element items. РџСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
+     * Set the list of 'RefuseReason' element items. Причины отказа
      * 
      * @param list
      */
@@ -113,7 +113,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalNumber' element value. РџСЂРёСЃРІРѕРµРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёСЏ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
+     * Get the 'AdditionalNumber' element value. Присвоенный номер дополнения к договору поручительства
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalNumber' element value. РџСЂРёСЃРІРѕРµРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёСЏ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
+     * Set the 'AdditionalNumber' element value. Присвоенный номер дополнения к договору поручительства
      * 
      * @param additionalNumber
      */
@@ -131,7 +131,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class AddCustomerRegRefusalType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

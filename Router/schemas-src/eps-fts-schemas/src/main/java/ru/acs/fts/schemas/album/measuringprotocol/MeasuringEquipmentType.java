@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.measuringprotocol;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃСЂРµРґСЃС‚РІРµ РёР·РјРµСЂРµРЅРёР№
+ * Сведения о средстве измерений
  */
 public class MeasuringEquipmentType
 {
@@ -11,7 +11,7 @@ public class MeasuringEquipmentType
     private VerificationType verification;
 
     /** 
-     * Get the 'EquipmentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё С‚РёРї СЃСЂРµРґСЃС‚РІР° РёР·РјРµСЂРµРЅРёР№
+     * Get the 'EquipmentName' element value. Наименование и тип средства измерений
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class MeasuringEquipmentType
     }
 
     /** 
-     * Set the 'EquipmentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё С‚РёРї СЃСЂРµРґСЃС‚РІР° РёР·РјРµСЂРµРЅРёР№
+     * Set the 'EquipmentName' element value. Наименование и тип средства измерений
      * 
      * @param equipmentName
      */
@@ -29,7 +29,7 @@ public class MeasuringEquipmentType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. Р—Р°РІРѕРґСЃРєРѕР№ РЅРѕРјРµСЂ
+     * Get the 'SerialNumber' element value. Заводской номер
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class MeasuringEquipmentType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. Р—Р°РІРѕРґСЃРєРѕР№ РЅРѕРјРµСЂ
+     * Set the 'SerialNumber' element value. Заводской номер
      * 
      * @param serialNumber
      */
@@ -47,7 +47,7 @@ public class MeasuringEquipmentType
     }
 
     /** 
-     * Get the 'Verification' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРІРµСЂРєРµ СЃСЂРµРґСЃС‚РІР° РёР·РјРµСЂРµРЅРёР№
+     * Get the 'Verification' element value. Сведения о поверке средства измерений
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class MeasuringEquipmentType
     }
 
     /** 
-     * Set the 'Verification' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРІРµСЂРєРµ СЃСЂРµРґСЃС‚РІР° РёР·РјРµСЂРµРЅРёР№
+     * Set the 'Verification' element value. Сведения о поверке средства измерений
      * 
      * @param verification
      */

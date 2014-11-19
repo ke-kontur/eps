@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Р›РёС†Рѕ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРµ РїРµСЂРµРІРѕР·РєСѓ С‚РѕРІР°СЂРѕРІ
+ * Лицо, осуществляющее перевозку товаров
  */
 public class CarrierType extends OrganizationBaseType
 {
@@ -14,7 +14,7 @@ public class CarrierType extends OrganizationBaseType
     private PersonBaseType representative;
 
     /** 
-     * Get the 'CarrierAddress' element value. РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ РїРµСЂРµРІРѕР·С‡РёРєР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹РјРё (РїРµСЂРµРІРѕР·РѕС‡РЅС‹РјРё) РґРѕРєСѓРјРµРЅС‚Р°РјРё
+     * Get the 'CarrierAddress' element value. Место нахождения перевозчика в соответствии с транспортными (перевозочными) документами
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'CarrierAddress' element value. РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ РїРµСЂРµРІРѕР·С‡РёРєР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹РјРё (РїРµСЂРµРІРѕР·РѕС‡РЅС‹РјРё) РґРѕРєСѓРјРµРЅС‚Р°РјРё
+     * Set the 'CarrierAddress' element value. Место нахождения перевозчика в соответствии с транспортными (перевозочными) документами
      * 
      * @param carrierAddress
      */
@@ -32,7 +32,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Representative' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ РїРµСЂРµРІРѕР·С‡РёРєР°
+     * Get the 'Representative' element value. Представитель перевозчика
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Representative' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ РїРµСЂРµРІРѕР·С‡РёРєР°
+     * Set the 'Representative' element value. Представитель перевозчика
      * 
      * @param representative
      */

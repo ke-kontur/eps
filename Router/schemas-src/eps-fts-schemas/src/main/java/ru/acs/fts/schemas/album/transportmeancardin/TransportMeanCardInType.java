@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.TransportManufact
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.TransportOwnerType;
 
 /** 
- * РљР°СЂС‚РѕС‡РєР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚
+ * Карточка транспортного средства. Внутренний формат
  */
 public class TransportMeanCardInType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class TransportMeanCardInType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў.  РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў РїСЂРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
+     * Get the 'GTDDocumentID' element value. Уникальный идентификатор ДТ.  Используется для привязки к ДТ при представлении отдельно от ДТ.
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў.  РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў РїСЂРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
+     * Set the 'GTDDocumentID' element value. Уникальный идентификатор ДТ.  Используется для привязки к ДТ при представлении отдельно от ДТ.
      * 
      * @param GTDDocumentID
      */
@@ -42,7 +42,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportOwner' element value. Р’Р»Р°РґРµР»РµС† РўРЎ. Р”Р»СЏ  С„РёР·РёС‡РµСЃРєРёС… Р»РёС† Р·Р°РїРѕР»РЅСЏСЋС‚СЃСЏ Р¤Р°РјРёР»РёСЏ, РРјСЏ, РћС‚С‡РµСЃС‚РІРѕ, РґР»СЏ СЋСЂРёРґРёС‡РµСЃРєРёС… - РќР°РёРјРµРЅРѕРІР°РЅРёРµ.
+     * Get the 'TransportOwner' element value. Владелец ТС. Для  физических лиц заполняются Фамилия, Имя, Отчество, для юридических - Наименование.
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportOwner' element value. Р’Р»Р°РґРµР»РµС† РўРЎ. Р”Р»СЏ  С„РёР·РёС‡РµСЃРєРёС… Р»РёС† Р·Р°РїРѕР»РЅСЏСЋС‚СЃСЏ Р¤Р°РјРёР»РёСЏ, РРјСЏ, РћС‚С‡РµСЃС‚РІРѕ, РґР»СЏ СЋСЂРёРґРёС‡РµСЃРєРёС… - РќР°РёРјРµРЅРѕРІР°РЅРёРµ.
+     * Set the 'TransportOwner' element value. Владелец ТС. Для  физических лиц заполняются Фамилия, Имя, Отчество, для юридических - Наименование.
      * 
      * @param transportOwner
      */
@@ -60,7 +60,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportManufacturer' element value. РР·РіРѕС‚РѕРІРёС‚РµР»СЊ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°.
+     * Get the 'TransportManufacturer' element value. Изготовитель транспортного средства.
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportManufacturer' element value. РР·РіРѕС‚РѕРІРёС‚РµР»СЊ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°.
+     * Set the 'TransportManufacturer' element value. Изготовитель транспортного средства.
      * 
      * @param transportManufacturer
      */
@@ -79,7 +79,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportCardOfficialMark' element value. РљР°СЂС‚РѕС‡РєР° РўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°.
+     * Get the 'TransportCardOfficialMark' element value. Карточка ТС. Внутренний формат. Отметки таможенного органа.
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportCardOfficialMark' element value. РљР°СЂС‚РѕС‡РєР° РўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°.
+     * Set the 'TransportCardOfficialMark' element value. Карточка ТС. Внутренний формат. Отметки таможенного органа.
      * 
      * @param transportCardOfficialMark
      */
@@ -98,7 +98,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportCardTechMark' element value. РљР°СЂС‚РѕС‡РєР° РўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёРµ РѕС‚РјРµС‚РєРё.
+     * Get the 'TransportCardTechMark' element value. Карточка ТС. Внутренний формат. Технологические отметки.
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportCardTechMark' element value. РљР°СЂС‚РѕС‡РєР° РўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёРµ РѕС‚РјРµС‚РєРё.
+     * Set the 'TransportCardTechMark' element value. Карточка ТС. Внутренний формат. Технологические отметки.
      * 
      * @param transportCardTechMark
      */
@@ -117,7 +117,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Get the 'ESADTransportMeanCard' element value. РљР°СЂС‚РѕС‡РєР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ.
+     * Get the 'ESADTransportMeanCard' element value. Карточка транспортного средства. Сведения о транспортном средстве.
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Set the 'ESADTransportMeanCard' element value. РљР°СЂС‚РѕС‡РєР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ.
+     * Set the 'ESADTransportMeanCard' element value. Карточка транспортного средства. Сведения о транспортном средстве.
      * 
      * @param ESADTransportMeanCard
      */
@@ -136,7 +136,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Get the 'Document' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ,РЅРѕРјРµСЂ Рё РґР°С‚Р° РґРѕРєСѓРјРµРЅС‚Р° (РўР”, РўРџРћ, РёРЅРѕР№ РґРѕРєСѓРјРµРЅС‚)
+     * Get the 'Document' element value. Наименование,номер и дата документа (ТД, ТПО, иной документ)
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Set the 'Document' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ,РЅРѕРјРµСЂ Рё РґР°С‚Р° РґРѕРєСѓРјРµРЅС‚Р° (РўР”, РўРџРћ, РёРЅРѕР№ РґРѕРєСѓРјРµРЅС‚)
+     * Set the 'Document' element value. Наименование,номер и дата документа (ТД, ТПО, иной документ)
      * 
      * @param document
      */
@@ -154,7 +154,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Get the 'CardNumber' element value. РЈС‡РµС‚РЅС‹Р№ РЅРѕРјРµСЂ РєР°СЂС‚РѕС‡РєРё (С„РѕСЂРјР°С‚ Р°РЅР°Р»РѕРіРёС‡РµРЅ С„РѕСЂРјР°С‚Сѓ РЅРѕРјРµСЂР° Р”Рў).
+     * Get the 'CardNumber' element value. Учетный номер карточки (формат аналогичен формату номера ДТ).
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Set the 'CardNumber' element value. РЈС‡РµС‚РЅС‹Р№ РЅРѕРјРµСЂ РєР°СЂС‚РѕС‡РєРё (С„РѕСЂРјР°С‚ Р°РЅР°Р»РѕРіРёС‡РµРЅ С„РѕСЂРјР°С‚Сѓ РЅРѕРјРµСЂР° Р”Рў).
+     * Set the 'CardNumber' element value. Учетный номер карточки (формат аналогичен формату номера ДТ).
      * 
      * @param cardNumber
      */
@@ -172,7 +172,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class TransportMeanCardInType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

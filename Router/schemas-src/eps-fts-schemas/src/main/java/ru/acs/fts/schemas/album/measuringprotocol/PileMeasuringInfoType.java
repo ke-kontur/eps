@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚С‹ РёР·РјРµСЂРµРЅРёР№ С€С‚Р°Р±РµР»СЏ
+ * Результаты измерений штабеля
  */
 public class PileMeasuringInfoType
 {
@@ -34,7 +34,7 @@ public class PileMeasuringInfoType
     private List<MeasuringResultsType> pileMeasuringResultList = new ArrayList<MeasuringResultsType>();
 
     /** 
-     * Get the 'PileSerialNumber' element value. РќРѕРјРµСЂ С€С‚Р°Р±РµР»СЏ
+     * Get the 'PileSerialNumber' element value. Номер штабеля
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'PileSerialNumber' element value. РќРѕРјРµСЂ С€С‚Р°Р±РµР»СЏ
+     * Set the 'PileSerialNumber' element value. Номер штабеля
      * 
      * @param pileSerialNumber
      */
@@ -52,7 +52,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'NominalLength' element value. РќРѕРјРёРЅР°Р»СЊРЅР°СЏ РґР»РёРЅР° Р±СЂРµРІРµРЅ С€С‚Р°Р±РµР»СЏ, СѓРєР°Р·Р°РЅРЅР°СЏ РІ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…, Рј
+     * Get the 'NominalLength' element value. Номинальная длина бревен штабеля, указанная в представленных документах, м
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'NominalLength' element value. РќРѕРјРёРЅР°Р»СЊРЅР°СЏ РґР»РёРЅР° Р±СЂРµРІРµРЅ С€С‚Р°Р±РµР»СЏ, СѓРєР°Р·Р°РЅРЅР°СЏ РІ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…, Рј
+     * Set the 'NominalLength' element value. Номинальная длина бревен штабеля, указанная в представленных документах, м
      * 
      * @param nominalLength
      */
@@ -70,7 +70,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'MeasuredLogsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р±СЂРµРІРµРЅ С€С‚Р°Р±РµР»СЏ, Сѓ РєРѕС‚РѕСЂС‹С… РёР·РјРµСЂСЏР»Р°СЃСЊ РёС… С„Р°РєС‚РёС‡РµСЃРєР°СЏ РґР»РёРЅР°
+     * Get the 'MeasuredLogsQuantity' element value. Количество бревен штабеля, у которых измерялась их фактическая длина
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'MeasuredLogsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р±СЂРµРІРµРЅ С€С‚Р°Р±РµР»СЏ, Сѓ РєРѕС‚РѕСЂС‹С… РёР·РјРµСЂСЏР»Р°СЃСЊ РёС… С„Р°РєС‚РёС‡РµСЃРєР°СЏ РґР»РёРЅР°
+     * Set the 'MeasuredLogsQuantity' element value. Количество бревен штабеля, у которых измерялась их фактическая длина
      * 
      * @param measuredLogsQuantity
      */
@@ -88,7 +88,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'LengthDifference' element value. Р Р°Р·РЅРѕСЃС‚СЊ РјРµР¶РґСѓ РЅР°РёР±РѕР»СЊС€РёРј  Рё РЅР°РёРјРµРЅСЊС€РёРј  Р·РЅР°С‡РµРЅРёСЏРјРё Сѓ РёР·РјРµСЂРµРЅРЅС‹С… РґР»РёРЅ Р±СЂРµРІРµРЅ, Рј
+     * Get the 'LengthDifference' element value. Разность между наибольшим  и наименьшим  значениями у измеренных длин бревен, м
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'LengthDifference' element value. Р Р°Р·РЅРѕСЃС‚СЊ РјРµР¶РґСѓ РЅР°РёР±РѕР»СЊС€РёРј  Рё РЅР°РёРјРµРЅСЊС€РёРј  Р·РЅР°С‡РµРЅРёСЏРјРё Сѓ РёР·РјРµСЂРµРЅРЅС‹С… РґР»РёРЅ Р±СЂРµРІРµРЅ, Рј
+     * Set the 'LengthDifference' element value. Разность между наибольшим  и наименьшим  значениями у измеренных длин бревен, м
      * 
      * @param lengthDifference
      */
@@ -106,7 +106,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'FactLength' element value. РР·РјРµСЂРµРЅРЅР°СЏ С„Р°РєС‚РёС‡РµСЃРєР°СЏ РґР»РёРЅР° С€С‚Р°Р±РµР»СЏ, Рј
+     * Get the 'FactLength' element value. Измеренная фактическая длина штабеля, м
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'FactLength' element value. РР·РјРµСЂРµРЅРЅР°СЏ С„Р°РєС‚РёС‡РµСЃРєР°СЏ РґР»РёРЅР° С€С‚Р°Р±РµР»СЏ, Рј
+     * Set the 'FactLength' element value. Измеренная фактическая длина штабеля, м
      * 
      * @param factLength
      */
@@ -124,7 +124,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'SideHeight1' element value. Р’С‹СЃРѕС‚Р° С€С‚Р°Р±РµР»СЏ, РёР·РјРµСЂРµРЅРЅР°СЏ СЃ РµРіРѕ РїРµСЂРІРѕР№ Р±РѕРєРѕРІРѕР№ СЃС‚РѕСЂРѕРЅС‹
+     * Get the 'SideHeight1' element value. Высота штабеля, измеренная с его первой боковой стороны
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'SideHeight1' element value. Р’С‹СЃРѕС‚Р° С€С‚Р°Р±РµР»СЏ, РёР·РјРµСЂРµРЅРЅР°СЏ СЃ РµРіРѕ РїРµСЂРІРѕР№ Р±РѕРєРѕРІРѕР№ СЃС‚РѕСЂРѕРЅС‹
+     * Set the 'SideHeight1' element value. Высота штабеля, измеренная с его первой боковой стороны
      * 
      * @param sideHeight1
      */
@@ -142,7 +142,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'SideHeight2' element value. Р’С‹СЃРѕС‚Р° С€С‚Р°Р±РµР»СЏ, РёР·РјРµСЂРµРЅРЅР°СЏ СЃ РµРіРѕ РІС‚РѕСЂРѕР№ Р±РѕРєРѕРІРѕР№ СЃС‚РѕСЂРѕРЅС‹
+     * Get the 'SideHeight2' element value. Высота штабеля, измеренная с его второй боковой стороны
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'SideHeight2' element value. Р’С‹СЃРѕС‚Р° С€С‚Р°Р±РµР»СЏ, РёР·РјРµСЂРµРЅРЅР°СЏ СЃ РµРіРѕ РІС‚РѕСЂРѕР№ Р±РѕРєРѕРІРѕР№ СЃС‚РѕСЂРѕРЅС‹
+     * Set the 'SideHeight2' element value. Высота штабеля, измеренная с его второй боковой стороны
      * 
      * @param sideHeight2
      */
@@ -160,7 +160,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'PileHeight' element value. РР·РјРµСЂРµРЅРЅР°СЏ РІС‹СЃРѕС‚Р° С€С‚Р°Р±РµР»СЏ, Рј
+     * Get the 'PileHeight' element value. Измеренная высота штабеля, м
      * 
      * @return value
      */
@@ -169,7 +169,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'PileHeight' element value. РР·РјРµСЂРµРЅРЅР°СЏ РІС‹СЃРѕС‚Р° С€С‚Р°Р±РµР»СЏ, Рј
+     * Set the 'PileHeight' element value. Измеренная высота штабеля, м
      * 
      * @param pileHeight
      */
@@ -178,7 +178,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'LowerLayerHeight' element value. РўРѕР»С‰РёРЅР° РЅРёР¶РЅРёС… РїРѕРґРєР»Р°РґРѕРє, Рј
+     * Get the 'LowerLayerHeight' element value. Толщина нижних подкладок, м
      * 
      * @return value
      */
@@ -187,7 +187,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'LowerLayerHeight' element value. РўРѕР»С‰РёРЅР° РЅРёР¶РЅРёС… РїРѕРґРєР»Р°РґРѕРє, Рј
+     * Set the 'LowerLayerHeight' element value. Толщина нижних подкладок, м
      * 
      * @param lowerLayerHeight
      */
@@ -196,7 +196,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'RubbishLayerHeight' element value. РўРѕР»С‰РёРЅР° СЃР»РѕСЏ РјСѓСЃРѕСЂР°, Рј
+     * Get the 'RubbishLayerHeight' element value. Толщина слоя мусора, м
      * 
      * @return value
      */
@@ -205,7 +205,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'RubbishLayerHeight' element value. РўРѕР»С‰РёРЅР° СЃР»РѕСЏ РјСѓСЃРѕСЂР°, Рј
+     * Set the 'RubbishLayerHeight' element value. Толщина слоя мусора, м
      * 
      * @param rubbishLayerHeight
      */
@@ -214,7 +214,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'InnerLayer' element value. РЎСѓРјРјР° СЃСЂРµРґРЅРёС… С‚РѕР»С‰РёРЅ РїСЂРѕРєР»Р°РґРѕРє, СѓР»РѕР¶РµРЅРЅС‹С… РІРЅСѓС‚СЂРё С€С‚Р°Р±РµР»СЏ Рё РїРѕРґ "С€Р°РїРєРѕР№", Рј
+     * Get the 'InnerLayer' element value. Сумма средних толщин прокладок, уложенных внутри штабеля и под "шапкой", м
      * 
      * @return value
      */
@@ -223,7 +223,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'InnerLayer' element value. РЎСѓРјРјР° СЃСЂРµРґРЅРёС… С‚РѕР»С‰РёРЅ РїСЂРѕРєР»Р°РґРѕРє, СѓР»РѕР¶РµРЅРЅС‹С… РІРЅСѓС‚СЂРё С€С‚Р°Р±РµР»СЏ Рё РїРѕРґ "С€Р°РїРєРѕР№", Рј
+     * Set the 'InnerLayer' element value. Сумма средних толщин прокладок, уложенных внутри штабеля и под "шапкой", м
      * 
      * @param innerLayer
      */
@@ -232,7 +232,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'PileHeightCalculated' element value. Р Р°СЃС‡РµС‚РЅР°СЏ РІС‹СЃРѕС‚Р° С€С‚Р°Р±РµР»СЏ, Рј
+     * Get the 'PileHeightCalculated' element value. Расчетная высота штабеля, м
      * 
      * @return value
      */
@@ -241,7 +241,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'PileHeightCalculated' element value. Р Р°СЃС‡РµС‚РЅР°СЏ РІС‹СЃРѕС‚Р° С€С‚Р°Р±РµР»СЏ, Рј
+     * Set the 'PileHeightCalculated' element value. Расчетная высота штабеля, м
      * 
      * @param pileHeightCalculated
      */
@@ -250,7 +250,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'PileWidth' element value. РР·РјРµСЂРµРЅРЅР°СЏ С€РёСЂРёРЅР° С€С‚Р°Р±РµР»СЏ, Рј
+     * Get the 'PileWidth' element value. Измеренная ширина штабеля, м
      * 
      * @return value
      */
@@ -259,7 +259,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'PileWidth' element value. РР·РјРµСЂРµРЅРЅР°СЏ С€РёСЂРёРЅР° С€С‚Р°Р±РµР»СЏ, Рј
+     * Set the 'PileWidth' element value. Измеренная ширина штабеля, м
      * 
      * @param pileWidth
      */
@@ -268,7 +268,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'BarkNominalVolume' element value. РР·РјРµСЂРµРЅРЅС‹Р№ СЃРєР»Р°РґРѕС‡РЅС‹Р№ РЅРѕРјРёРЅР°Р»СЊРЅС‹Р№ РѕР±СЉРµРј С€С‚Р°Р±РµР»СЏ СЃ СѓС‡РµС‚РѕРј РЅРѕРјРёРЅР°Р»СЊРЅРѕР№ РґР»РёРЅС‹ Р±СЂРµРІРµРЅ С€С‚Р°Р±РµР»СЏ, РѕР±СЉРµРјР° РёС… РєРѕСЂС‹ Рё РїСѓСЃС‚РѕС‚ РјРµР¶РґСѓ РЅРёРјРё 
+     * Get the 'BarkNominalVolume' element value. Измеренный складочный номинальный объем штабеля с учетом номинальной длины бревен штабеля, объема их коры и пустот между ними 
      * 
      * @return value
      */
@@ -277,7 +277,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'BarkNominalVolume' element value. РР·РјРµСЂРµРЅРЅС‹Р№ СЃРєР»Р°РґРѕС‡РЅС‹Р№ РЅРѕРјРёРЅР°Р»СЊРЅС‹Р№ РѕР±СЉРµРј С€С‚Р°Р±РµР»СЏ СЃ СѓС‡РµС‚РѕРј РЅРѕРјРёРЅР°Р»СЊРЅРѕР№ РґР»РёРЅС‹ Р±СЂРµРІРµРЅ С€С‚Р°Р±РµР»СЏ, РѕР±СЉРµРјР° РёС… РєРѕСЂС‹ Рё РїСѓСЃС‚РѕС‚ РјРµР¶РґСѓ РЅРёРјРё 
+     * Set the 'BarkNominalVolume' element value. Измеренный складочный номинальный объем штабеля с учетом номинальной длины бревен штабеля, объема их коры и пустот между ними 
      * 
      * @param barkNominalVolume
      */
@@ -286,7 +286,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'FactlVolumeVL' element value. РР·РјРµСЂРµРЅРЅС‹Р№ СЃРєР»Р°РґРѕС‡РЅС‹Р№ С„Р°РєС‚РёС‡РµСЃРєРёР№ РѕР±СЉРµРј С€С‚Р°Р±РµР»СЏ СЃ СѓС‡РµС‚РѕРј С„Р°РєС‚РёС‡РµСЃРєРѕР№ РґР»РёРЅС‹ С€С‚Р°Р±РµР»СЏ, РѕР±СЉРµРјР° РєРѕСЂС‹ Р±СЂРµРІРµРЅ Рё РїСѓСЃС‚РѕС‚ РјРµР¶РґСѓ РЅРёРјРё 
+     * Get the 'FactlVolumeVL' element value. Измеренный складочный фактический объем штабеля с учетом фактической длины штабеля, объема коры бревен и пустот между ними 
      * 
      * @return value
      */
@@ -295,7 +295,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'FactlVolumeVL' element value. РР·РјРµСЂРµРЅРЅС‹Р№ СЃРєР»Р°РґРѕС‡РЅС‹Р№ С„Р°РєС‚РёС‡РµСЃРєРёР№ РѕР±СЉРµРј С€С‚Р°Р±РµР»СЏ СЃ СѓС‡РµС‚РѕРј С„Р°РєС‚РёС‡РµСЃРєРѕР№ РґР»РёРЅС‹ С€С‚Р°Р±РµР»СЏ, РѕР±СЉРµРјР° РєРѕСЂС‹ Р±СЂРµРІРµРЅ Рё РїСѓСЃС‚РѕС‚ РјРµР¶РґСѓ РЅРёРјРё 
+     * Set the 'FactlVolumeVL' element value. Измеренный складочный фактический объем штабеля с учетом фактической длины штабеля, объема коры бревен и пустот между ними 
      * 
      * @param factlVolumeVL
      */
@@ -304,7 +304,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'WidthSpan' element value. Р”РёР°РїР°Р·РѕРЅ С‚РѕР»С‰РёРЅ Р±СЂРµРІРµРЅ, СЃРј
+     * Get the 'WidthSpan' element value. Диапазон толщин бревен, см
      * 
      * @return value
      */
@@ -313,7 +313,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'WidthSpan' element value. Р”РёР°РїР°Р·РѕРЅ С‚РѕР»С‰РёРЅ Р±СЂРµРІРµРЅ, СЃРј
+     * Set the 'WidthSpan' element value. Диапазон толщин бревен, см
      * 
      * @param widthSpan
      */
@@ -322,7 +322,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'LoadingForm' element value. Р¤РѕСЂРјР° РїРѕРіСЂСѓР·РєРё С€С‚Р°Р±РµР»СЏ
+     * Get the 'LoadingForm' element value. Форма погрузки штабеля
      * 
      * @return value
      */
@@ -331,7 +331,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'LoadingForm' element value. Р¤РѕСЂРјР° РїРѕРіСЂСѓР·РєРё С€С‚Р°Р±РµР»СЏ
+     * Set the 'LoadingForm' element value. Форма погрузки штабеля
      * 
      * @param loadingForm
      */
@@ -340,7 +340,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'WoodCoefficient' element value. РџСЂРёРЅСЏС‚РѕРµ С‚Р°Р±Р»РёС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РїРµСЂРµРІРѕРґРЅРѕРіРѕ РєРѕСЌС„С„РёС†РёРµРЅС‚Р° (РєРѕСЌС„С„РёС†РёРµРЅС‚Р° РїРѕР»РЅРѕРґСЂРµРІРµСЃРЅРѕСЃС‚Рё)
+     * Get the 'WoodCoefficient' element value. Принятое табличное значение переводного коэффициента (коэффициента полнодревесности)
      * 
      * @return value
      */
@@ -349,7 +349,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'WoodCoefficient' element value. РџСЂРёРЅСЏС‚РѕРµ С‚Р°Р±Р»РёС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РїРµСЂРµРІРѕРґРЅРѕРіРѕ РєРѕСЌС„С„РёС†РёРµРЅС‚Р° (РєРѕСЌС„С„РёС†РёРµРЅС‚Р° РїРѕР»РЅРѕРґСЂРµРІРµСЃРЅРѕСЃС‚Рё)
+     * Set the 'WoodCoefficient' element value. Принятое табличное значение переводного коэффициента (коэффициента полнодревесности)
      * 
      * @param woodCoefficient
      */
@@ -358,7 +358,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'BarkCoefficient' element value. РџСЂРёРЅСЏС‚РѕРµ С‚Р°Р±Р»РёС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚Р° РЅР° РєРѕСЂСѓ
+     * Get the 'BarkCoefficient' element value. Принятое табличное значение коэффициента на кору
      * 
      * @return value
      */
@@ -367,7 +367,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'BarkCoefficient' element value. РџСЂРёРЅСЏС‚РѕРµ С‚Р°Р±Р»РёС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚Р° РЅР° РєРѕСЂСѓ
+     * Set the 'BarkCoefficient' element value. Принятое табличное значение коэффициента на кору
      * 
      * @param barkCoefficient
      */
@@ -376,7 +376,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'NominalVolume' element value. РР·РјРµСЂРµРЅРЅС‹Р№ РїР»РѕС‚РЅС‹Р№ (РЅРѕРјРёРЅР°Р»СЊРЅС‹Р№) РѕР±СЉРµРј С€С‚Р°Р±РµР»СЏ СЃ СѓС‡РµС‚РѕРј РЅРѕРјРёРЅР°Р»СЊРЅРѕР№ РґР»РёРЅС‹ Р±СЂРµРІРµРЅ Р±РµР· СѓС‡РµС‚Р° РѕР±СЉРµРјР° РёС… РєРѕСЂС‹ Рё РїСѓСЃС‚РѕС‚ РјРµР¶РґСѓ РЅРёРјРё 
+     * Get the 'NominalVolume' element value. Измеренный плотный (номинальный) объем штабеля с учетом номинальной длины бревен без учета объема их коры и пустот между ними 
      * 
      * @return value
      */
@@ -385,7 +385,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'NominalVolume' element value. РР·РјРµСЂРµРЅРЅС‹Р№ РїР»РѕС‚РЅС‹Р№ (РЅРѕРјРёРЅР°Р»СЊРЅС‹Р№) РѕР±СЉРµРј С€С‚Р°Р±РµР»СЏ СЃ СѓС‡РµС‚РѕРј РЅРѕРјРёРЅР°Р»СЊРЅРѕР№ РґР»РёРЅС‹ Р±СЂРµРІРµРЅ Р±РµР· СѓС‡РµС‚Р° РѕР±СЉРµРјР° РёС… РєРѕСЂС‹ Рё РїСѓСЃС‚РѕС‚ РјРµР¶РґСѓ РЅРёРјРё 
+     * Set the 'NominalVolume' element value. Измеренный плотный (номинальный) объем штабеля с учетом номинальной длины бревен без учета объема их коры и пустот между ними 
      * 
      * @param nominalVolume
      */
@@ -394,7 +394,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the 'FactlVolumeVKL' element value. РР·РјРµСЂРµРЅРЅС‹Р№ С„Р°РєС‚РёС‡РµСЃРєРёР№ РѕР±СЉРµРј Р±СЂРµРІРµРЅ С€С‚Р°Р±РµР»СЏ СЃ СѓС‡РµС‚РѕРј С„Р°РєС‚РёС‡РµСЃРєРѕР№ РґР»РёРЅС‹ С€С‚Р°Р±РµР»СЏ Рё РѕР±СЉРµРјР° РєРѕСЂС‹ Р±СЂРµРІРµРЅ
+     * Get the 'FactlVolumeVKL' element value. Измеренный фактический объем бревен штабеля с учетом фактической длины штабеля и объема коры бревен
      * 
      * @return value
      */
@@ -403,7 +403,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the 'FactlVolumeVKL' element value. РР·РјРµСЂРµРЅРЅС‹Р№ С„Р°РєС‚РёС‡РµСЃРєРёР№ РѕР±СЉРµРј Р±СЂРµРІРµРЅ С€С‚Р°Р±РµР»СЏ СЃ СѓС‡РµС‚РѕРј С„Р°РєС‚РёС‡РµСЃРєРѕР№ РґР»РёРЅС‹ С€С‚Р°Р±РµР»СЏ Рё РѕР±СЉРµРјР° РєРѕСЂС‹ Р±СЂРµРІРµРЅ
+     * Set the 'FactlVolumeVKL' element value. Измеренный фактический объем бревен штабеля с учетом фактической длины штабеля и объема коры бревен
      * 
      * @param factlVolumeVKL
      */
@@ -412,7 +412,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the list of 'LogFactLength' element items. Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ РґР»РёРЅР° РёР·РјРµСЂРµРЅРЅРѕРіРѕ Р±СЂРµРІРЅР°
+     * Get the list of 'LogFactLength' element items. Фактическая длина измеренного бревна
      * 
      * @return list
      */
@@ -421,7 +421,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the list of 'LogFactLength' element items. Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ РґР»РёРЅР° РёР·РјРµСЂРµРЅРЅРѕРіРѕ Р±СЂРµРІРЅР°
+     * Set the list of 'LogFactLength' element items. Фактическая длина измеренного бревна
      * 
      * @param list
      */
@@ -430,7 +430,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Get the list of 'PileMeasuringResults' element items. РС‚РѕРіРѕРІС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№ РґР»СЏ С€С‚Р°Р±РµР»СЏ
+     * Get the list of 'PileMeasuringResults' element items. Итоговые значения измерений для штабеля
      * 
      * @return list
      */
@@ -439,7 +439,7 @@ public class PileMeasuringInfoType
     }
 
     /** 
-     * Set the list of 'PileMeasuringResults' element items. РС‚РѕРіРѕРІС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№ РґР»СЏ С€С‚Р°Р±РµР»СЏ
+     * Set the list of 'PileMeasuringResults' element items. Итоговые значения измерений для штабеля
      * 
      * @param list
      */

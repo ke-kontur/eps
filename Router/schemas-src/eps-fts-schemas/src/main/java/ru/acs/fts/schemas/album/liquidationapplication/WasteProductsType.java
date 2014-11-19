@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РћС‚С…РѕРґС‹, РїРѕР»СѓС‡РµРЅРЅС‹Рµ РёР· С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) СѓРїР°РєРѕРІРєРё
+ * Отходы, полученные из товаров и (или) упаковки
  */
 public class WasteProductsType
 {
@@ -19,7 +19,7 @@ public class WasteProductsType
     private List<ConsignmentType> consignmentList = new ArrayList<ConsignmentType>();
 
     /** 
-     * Get the list of 'WasteDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕС‚С…РѕРґР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ Р¤РµРґРµСЂР°Р»СЊРЅС‹Рј РєР»Р°СЃСЃРёС„РёРєР°С†РёРѕРЅРЅС‹Рј РєР°С‚Р°Р»РѕРіРѕРј РѕС‚С…РѕРґРѕРІ
+     * Get the list of 'WasteDescription' element items. Наименование отхода в соответствии с Федеральным классификационным каталогом отходов
      * 
      * @return list
      */
@@ -28,7 +28,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Set the list of 'WasteDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕС‚С…РѕРґР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ Р¤РµРґРµСЂР°Р»СЊРЅС‹Рј РєР»Р°СЃСЃРёС„РёРєР°С†РёРѕРЅРЅС‹Рј РєР°С‚Р°Р»РѕРіРѕРј РѕС‚С…РѕРґРѕРІ
+     * Set the list of 'WasteDescription' element items. Наименование отхода в соответствии с Федеральным классификационным каталогом отходов
      * 
      * @param list
      */
@@ -37,7 +37,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Get the 'WasteCode' element value. РљРѕРґ РѕС‚С…РѕРґР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ Р¤РµРґРµСЂР°Р»СЊРЅС‹Рј РєР»Р°СЃСЃРёС„РёРєР°С†РёРѕРЅРЅС‹Рј РєР°С‚Р°Р»РѕРіРѕРј РѕС‚С…РѕРґРѕРІ
+     * Get the 'WasteCode' element value. Код отхода в соответствии с Федеральным классификационным каталогом отходов
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Set the 'WasteCode' element value. РљРѕРґ РѕС‚С…РѕРґР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ Р¤РµРґРµСЂР°Р»СЊРЅС‹Рј РєР»Р°СЃСЃРёС„РёРєР°С†РёРѕРЅРЅС‹Рј РєР°С‚Р°Р»РѕРіРѕРј РѕС‚С…РѕРґРѕРІ
+     * Set the 'WasteCode' element value. Код отхода в соответствии с Федеральным классификационным каталогом отходов
      * 
      * @param wasteCode
      */
@@ -55,7 +55,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Get the list of 'LiquidationMethod' element items. РЎРїРѕСЃРѕР± СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+     * Get the list of 'LiquidationMethod' element items. Способ уничтожения
      * 
      * @return list
      */
@@ -64,7 +64,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Set the list of 'LiquidationMethod' element items. РЎРїРѕСЃРѕР± СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+     * Set the list of 'LiquidationMethod' element items. Способ уничтожения
      * 
      * @param list
      */
@@ -73,7 +73,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Get the 'WasteSign' element value. РџСЂРёР·РЅР°Рє РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РѕС‚С…РѕРґРѕРІ: 0 - С‚РѕРІР°СЂС‹; 1 - СѓРїР°РєРѕРІРєР°
+     * Get the 'WasteSign' element value. Признак происхождения отходов: 0 - товары; 1 - упаковка
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Set the 'WasteSign' element value. РџСЂРёР·РЅР°Рє РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РѕС‚С…РѕРґРѕРІ: 0 - С‚РѕРІР°СЂС‹; 1 - СѓРїР°РєРѕРІРєР°
+     * Set the 'WasteSign' element value. Признак происхождения отходов: 0 - товары; 1 - упаковка
      * 
      * @param wasteSign
      */
@@ -91,7 +91,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Get the 'WasteQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚С…РѕРґРѕРІ
+     * Get the 'WasteQuantity' element value. Количество отходов
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Set the 'WasteQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚С…РѕРґРѕРІ
+     * Set the 'WasteQuantity' element value. Количество отходов
      * 
      * @param wasteQuantity
      */
@@ -109,7 +109,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Get the list of 'PackingInformation' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ
+     * Get the list of 'PackingInformation' element items. Сведения об упаковке
      * 
      * @return list
      */
@@ -118,7 +118,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Set the list of 'PackingInformation' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ
+     * Set the list of 'PackingInformation' element items. Сведения об упаковке
      * 
      * @param list
      */
@@ -127,7 +127,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Get the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'Consignment' element items. Сведения о партии товаров
      * 
      * @return list
      */
@@ -136,7 +136,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Set the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'Consignment' element items. Сведения о партии товаров
      * 
      * @param list
      */

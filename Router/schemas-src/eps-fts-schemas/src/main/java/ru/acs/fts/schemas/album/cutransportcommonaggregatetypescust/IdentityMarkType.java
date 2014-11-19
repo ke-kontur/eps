@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust;
 
 /** 
- * РџР»РѕРјР±С‹ РёР»Рё РѕРїРѕР·РЅР°РІР°С‚РµР»СЊРЅС‹Рµ Р·РЅР°РєРё (С‡РёСЃР»Рѕ, РёРґРµРЅС‚РёС„РёРєР°С†РёСЏ)
+ * Пломбы или опознавательные знаки (число, идентификация)
  */
 public class IdentityMarkType
 {
@@ -10,7 +10,7 @@ public class IdentityMarkType
     private String markDescription;
 
     /** 
-     * Get the 'IdentityNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
+     * Get the 'IdentityNumber' element value. Количество
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class IdentityMarkType
     }
 
     /** 
-     * Set the 'IdentityNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
+     * Set the 'IdentityNumber' element value. Количество
      * 
      * @param identityNumber
      */
@@ -28,7 +28,7 @@ public class IdentityMarkType
     }
 
     /** 
-     * Get the 'MarkDescription' element value. РћРїРёСЃР°РЅРёРµ Рё РёРґРµРЅС‚РёС„РёРєР°С†РёСЏ 
+     * Get the 'MarkDescription' element value. Описание и идентификация 
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class IdentityMarkType
     }
 
     /** 
-     * Set the 'MarkDescription' element value. РћРїРёСЃР°РЅРёРµ Рё РёРґРµРЅС‚РёС„РёРєР°С†РёСЏ 
+     * Set the 'MarkDescription' element value. Описание и идентификация 
      * 
      * @param markDescription
      */

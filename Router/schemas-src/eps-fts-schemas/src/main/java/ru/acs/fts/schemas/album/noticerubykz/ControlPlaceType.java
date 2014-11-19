@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.noticerubykz;
 
 /** 
- * РљРѕРЅС‚СЂРѕР»СЊРЅС‹Р№ РїСѓРЅРєС‚
+ * Контрольный пункт
  */
 public class ControlPlaceType
 {
@@ -13,7 +13,7 @@ public class ControlPlaceType
     private String ID;
 
     /** 
-     * Get the 'OrgName' element value. РљРѕРґ РєРѕРЅС‚СЂРѕР»СЊРЅРѕРіРѕ РїСѓРЅРєС‚Р°
+     * Get the 'OrgName' element value. Код контрольного пункта
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ControlPlaceType
     }
 
     /** 
-     * Set the 'OrgName' element value. РљРѕРґ РєРѕРЅС‚СЂРѕР»СЊРЅРѕРіРѕ РїСѓРЅРєС‚Р°
+     * Set the 'OrgName' element value. Код контрольного пункта
      * 
      * @param orgName
      */
@@ -31,7 +31,7 @@ public class ControlPlaceType
     }
 
     /** 
-     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryCode' element value. Код страны
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ControlPlaceType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryCode' element value. Код страны
      * 
      * @param countryCode
      */
@@ -49,7 +49,7 @@ public class ControlPlaceType
     }
 
     /** 
-     * Get the 'OrgDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРЅС‚СЂРѕР»СЊРЅРѕРіРѕ РїСѓРЅРєС‚Р°
+     * Get the 'OrgDescription' element value. Наименование контрольного пункта
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ControlPlaceType
     }
 
     /** 
-     * Set the 'OrgDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРЅС‚СЂРѕР»СЊРЅРѕРіРѕ РїСѓРЅРєС‚Р°
+     * Set the 'OrgDescription' element value. Наименование контрольного пункта
      * 
      * @param orgDescription
      */
@@ -67,7 +67,7 @@ public class ControlPlaceType
     }
 
     /** 
-     * Get the 'RegionCode' element value. РљРѕРґ СЂРµРіРёРѕРЅР°
+     * Get the 'RegionCode' element value. Код региона
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class ControlPlaceType
     }
 
     /** 
-     * Set the 'RegionCode' element value. РљРѕРґ СЂРµРіРёРѕРЅР°
+     * Set the 'RegionCode' element value. Код региона
      * 
      * @param regionCode
      */
@@ -85,7 +85,7 @@ public class ControlPlaceType
     }
 
     /** 
-     * Get the 'ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
+     * Get the 'ID' element value. Идентификатор
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class ControlPlaceType
     }
 
     /** 
-     * Set the 'ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
+     * Set the 'ID' element value. Идентификатор
      * 
      * @param ID
      */

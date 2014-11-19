@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.sertifcommonaggregatetypescust.SertifOrgBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРµ СЃРµСЂС‚РёС„РёРєР°С†РёРё
+ * Сведения об органе сертификации
  */
 public class SertifOrganizationType extends SertifOrgBaseType
 {
@@ -15,7 +15,7 @@ public class SertifOrganizationType extends SertifOrgBaseType
     private CertificateOrgType certificateOrg;
 
     /** 
-     * Get the 'OrganizationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕСЂРіР°РЅР° СЃРµСЂС‚РёС„РёРєР°С†РёРё
+     * Get the 'OrganizationNumber' element value. Регистрационный номер органа сертификации
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class SertifOrganizationType extends SertifOrgBaseType
     }
 
     /** 
-     * Set the 'OrganizationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕСЂРіР°РЅР° СЃРµСЂС‚РёС„РёРєР°С†РёРё
+     * Set the 'OrganizationNumber' element value. Регистрационный номер органа сертификации
      * 
      * @param organizationNumber
      */
@@ -33,7 +33,7 @@ public class SertifOrganizationType extends SertifOrgBaseType
     }
 
     /** 
-     * Get the 'FieldOfAction' element value. РЎС„РµСЂР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Get the 'FieldOfAction' element value. Сфера деятельности
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class SertifOrganizationType extends SertifOrgBaseType
     }
 
     /** 
-     * Set the 'FieldOfAction' element value. РЎС„РµСЂР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Set the 'FieldOfAction' element value. Сфера деятельности
      * 
      * @param fieldOfAction
      */
@@ -51,7 +51,7 @@ public class SertifOrganizationType extends SertifOrgBaseType
     }
 
     /** 
-     * Get the 'CertificateDate' element value. Р”Р°С‚Р°  СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРіРѕ РЅРѕРјРµСЂР° Р°С‚С‚РµСЃС‚Р°С‚Р° Р°РєРєСЂРµРґРёС‚Р°С†РёРё
+     * Get the 'CertificateDate' element value. Дата  регистрационного номера аттестата аккредитации
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class SertifOrganizationType extends SertifOrgBaseType
     }
 
     /** 
-     * Set the 'CertificateDate' element value. Р”Р°С‚Р°  СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРіРѕ РЅРѕРјРµСЂР° Р°С‚С‚РµСЃС‚Р°С‚Р° Р°РєРєСЂРµРґРёС‚Р°С†РёРё
+     * Set the 'CertificateDate' element value. Дата  регистрационного номера аттестата аккредитации
      * 
      * @param certificateDate
      */
@@ -69,7 +69,7 @@ public class SertifOrganizationType extends SertifOrgBaseType
     }
 
     /** 
-     * Get the 'CertificateOrg' element value. РћСЂРіР°РЅ, Р°РєРєСЂРµРґРёС‚РѕРІР°РІС€РёР№ РѕСЂРіР°РЅ СЃРµСЂС‚РёС„РёРєР°С†РёРё
+     * Get the 'CertificateOrg' element value. Орган, аккредитовавший орган сертификации
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class SertifOrganizationType extends SertifOrgBaseType
     }
 
     /** 
-     * Set the 'CertificateOrg' element value. РћСЂРіР°РЅ, Р°РєРєСЂРµРґРёС‚РѕРІР°РІС€РёР№ РѕСЂРіР°РЅ СЃРµСЂС‚РёС„РёРєР°С†РёРё
+     * Set the 'CertificateOrg' element value. Орган, аккредитовавший орган сертификации
      * 
      * @param certificateOrg
      */

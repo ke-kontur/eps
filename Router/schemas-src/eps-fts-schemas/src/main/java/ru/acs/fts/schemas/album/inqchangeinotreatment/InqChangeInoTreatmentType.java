@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РћР±СЂР°С‰РµРЅРёРµ РЅР° РІРЅРµСЃРµРЅРёРµ РёР·РјРµРЅРµРЅРёР№ РІ РґРµР№СЃС‚РІСѓСЋС‰РµРµ СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
+ * Обращение на внесение изменений в действующее разрешение на переработку товаров вне таможенной территории
  */
 public class InqChangeInoTreatmentType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class InqChangeInoTreatmentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SendDate' element value. Дата направления
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class InqChangeInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SendDate' element value. Дата направления
      * 
      * @param sendDate
      */
@@ -39,7 +39,7 @@ public class InqChangeInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SendTime' element value. Время направления
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class InqChangeInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SendTime' element value. Время направления
      * 
      * @param sendTime
      */
@@ -57,7 +57,7 @@ public class InqChangeInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Get the 'Applicant' element value. Сведения о заявителе
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class InqChangeInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Set the 'Applicant' element value. Сведения о заявителе
      * 
      * @param applicant
      */
@@ -75,7 +75,7 @@ public class InqChangeInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Changes' element items. РћРїРёСЃР°РЅРёРµ РїСЂРµРґР»Р°РіР°РµРјС‹С… РёР·РјРµРЅРµРЅРёР№ РІ РґРµР№СЃС‚РІСѓСЋС‰РµРµ СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
+     * Get the list of 'Changes' element items. Описание предлагаемых изменений в действующее разрешение на переработку
      * 
      * @return list
      */
@@ -84,7 +84,7 @@ public class InqChangeInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Changes' element items. РћРїРёСЃР°РЅРёРµ РїСЂРµРґР»Р°РіР°РµРјС‹С… РёР·РјРµРЅРµРЅРёР№ РІ РґРµР№СЃС‚РІСѓСЋС‰РµРµ СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
+     * Set the list of 'Changes' element items. Описание предлагаемых изменений в действующее разрешение на переработку
      * 
      * @param list
      */
@@ -93,7 +93,7 @@ public class InqChangeInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class InqChangeInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @param customs
      */
@@ -111,7 +111,7 @@ public class InqChangeInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class InqChangeInoTreatmentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

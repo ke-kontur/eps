@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРѕРІР»Р°РґРµР»СЊС†Рµ
+ * Сведения о судовладельце
  */
 public class ShipownerType extends OrganizationBaseType
 {
@@ -13,7 +13,7 @@ public class ShipownerType extends OrganizationBaseType
     private AddressType locationPlace;
 
     /** 
-     * Get the 'PostalAddress' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ
+     * Get the 'PostalAddress' element value. Почтовый адрес
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ShipownerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'PostalAddress' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ
+     * Set the 'PostalAddress' element value. Почтовый адрес
      * 
      * @param postalAddress
      */
@@ -31,7 +31,7 @@ public class ShipownerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'LocationPlace' element value. РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ
+     * Get the 'LocationPlace' element value. Место нахождения
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ShipownerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'LocationPlace' element value. РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ
+     * Set the 'LocationPlace' element value. Место нахождения
      * 
      * @param locationPlace
      */

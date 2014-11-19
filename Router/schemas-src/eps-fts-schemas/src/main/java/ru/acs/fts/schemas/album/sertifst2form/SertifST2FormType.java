@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.sertifcommonaggregatetypescust.SertifOrgBaseType;
 
 /** 
- * РЎРµСЂС‚РёС„РёРєР°С‚ Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ РїРѕ С„РѕСЂРјРµ РЎРў-2
+ * Сертификат о происхождении товаров по форме СТ-2
  */
 public class SertifST2FormType extends BaseDocType
 {
@@ -30,7 +30,7 @@ public class SertifST2FormType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SertifNumber' element value. РќРѕРјРµСЂ Рё СЃРµСЂРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'SertifNumber' element value. Номер и серия сертификата
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'SertifNumber' element value. РќРѕРјРµСЂ Рё СЃРµСЂРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'SertifNumber' element value. Номер и серия сертификата
      * 
      * @param sertifNumber
      */
@@ -48,7 +48,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°. Р’ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ РЅРѕРјРµСЂР° СЃС‚Р°РІРёС‚СЃСЏ "Р±/РЅ"
+     * Get the 'RegNumber' element value. Регистрационный номер документа. В случае отсутствия номера ставится "б/н"
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°. Р’ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ РЅРѕРјРµСЂР° СЃС‚Р°РІРёС‚СЃСЏ "Р±/РЅ"
+     * Set the 'RegNumber' element value. Регистрационный номер документа. В случае отсутствия номера ставится "б/н"
      * 
      * @param regNumber
      */
@@ -66,7 +66,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹, РІ РєРѕС‚РѕСЂРѕР№ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'IssueCountryCode' element value. Код страны, в которой выдан сертификат
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹, РІ РєРѕС‚РѕСЂРѕР№ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'IssueCountryCode' element value. Код страны, в которой выдан сертификат
      * 
      * @param issueCountryCode
      */
@@ -84,7 +84,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹, РєСѓРґР° РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'DestinCountryCode' element value. Код страны, куда предоставляется сертификат
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹, РєСѓРґР° РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'DestinCountryCode' element value. Код страны, куда предоставляется сертификат
      * 
      * @param destinCountryCode
      */
@@ -102,7 +102,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TransportMeansRoute' element items. РЎСЂРµРґСЃС‚РІРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё СЃРІРµРґРµРЅРёСЏ Рѕ РјР°СЂС€СЂСѓС‚Рµ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІР°С… (РЅР°СЃРєРѕР»СЊРєРѕ СЌС‚Рѕ РёР·РІРµСЃС‚РЅРѕ)
+     * Get the list of 'TransportMeansRoute' element items. Средство транспорта и сведения о маршруте транспортировки товаров и транспортных средствах (насколько это известно)
      * 
      * @return list
      */
@@ -111,7 +111,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TransportMeansRoute' element items. РЎСЂРµРґСЃС‚РІРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё СЃРІРµРґРµРЅРёСЏ Рѕ РјР°СЂС€СЂСѓС‚Рµ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІР°С… (РЅР°СЃРєРѕР»СЊРєРѕ СЌС‚Рѕ РёР·РІРµСЃС‚РЅРѕ)
+     * Set the list of 'TransportMeansRoute' element items. Средство транспорта и сведения о маршруте транспортировки товаров и транспортных средствах (насколько это известно)
      * 
      * @param list
      */
@@ -120,7 +120,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'SpecialComments' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
+     * Get the list of 'SpecialComments' element items. Служебные отметки
      * 
      * @return list
      */
@@ -129,7 +129,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'SpecialComments' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
+     * Set the list of 'SpecialComments' element items. Служебные отметки
      * 
      * @param list
      */
@@ -138,7 +138,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'LNPSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕС‚С‚РёСЃРєР° РїРµС‡Р°С‚Рё
+     * Get the 'LNPSign' element value. Признак наличия оттиска печати
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'LNPSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕС‚С‚РёСЃРєР° РїРµС‡Р°С‚Рё
+     * Set the 'LNPSign' element value. Признак наличия оттиска печати
      * 
      * @param LNPSign
      */
@@ -156,7 +156,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ РєРѕС‚РѕСЂРѕР№ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'IssueCountryName' element value. Наименование страны в которой выдан сертификат
      * 
      * @return value
      */
@@ -165,7 +165,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ РєРѕС‚РѕСЂРѕР№ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'IssueCountryName' element value. Наименование страны в которой выдан сертификат
      * 
      * @param issueCountryName
      */
@@ -174,7 +174,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РґР»СЏ РєРѕС‚РѕСЂРѕР№ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'DestinCountryName' element value. Наименование страны для которой выдан сертификат
      * 
      * @return value
      */
@@ -183,7 +183,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РґР»СЏ РєРѕС‚РѕСЂРѕР№ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'DestinCountryName' element value. Наименование страны для которой выдан сертификат
      * 
      * @param destinCountryName
      */
@@ -192,7 +192,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'SenderInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРµ СЏРІР»СЏРµС‚СЃСЏ РѕС‚РїСЂР°РІРёС‚РµР»РµРј
+     * Get the 'SenderInformation' element value. Информация о лице, которое является отправителем
      * 
      * @return value
      */
@@ -201,7 +201,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'SenderInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРµ СЏРІР»СЏРµС‚СЃСЏ РѕС‚РїСЂР°РІРёС‚РµР»РµРј
+     * Set the 'SenderInformation' element value. Информация о лице, которое является отправителем
      * 
      * @param senderInformation
      */
@@ -210,7 +210,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'Recipient' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Get the 'Recipient' element value. Информация о получателе
      * 
      * @return value
      */
@@ -219,7 +219,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'Recipient' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Set the 'Recipient' element value. Информация о получателе
      * 
      * @param recipient
      */
@@ -228,7 +228,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'Importer' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё Р°РґСЂРµСЃ РёРјРїРѕСЂС‚РµСЂР°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РµСЃР»Рё РїРѕР»СѓС‡Р°С‚РµР»СЊ Рё РёРјРїРѕСЂС‚РµСЂ - СЂР°Р·РЅС‹Рµ СЋСЂРёРґРёС‡РµСЃРєРёРµ Р»РёС†Р°
+     * Get the 'Importer' element value. Наименование и адрес импортера. Заполняется если получатель и импортер - разные юридические лица
      * 
      * @return value
      */
@@ -237,7 +237,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'Importer' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё Р°РґСЂРµСЃ РёРјРїРѕСЂС‚РµСЂР°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РµСЃР»Рё РїРѕР»СѓС‡Р°С‚РµР»СЊ Рё РёРјРїРѕСЂС‚РµСЂ - СЂР°Р·РЅС‹Рµ СЋСЂРёРґРёС‡РµСЃРєРёРµ Р»РёС†Р°
+     * Set the 'Importer' element value. Наименование и адрес импортера. Заполняется если получатель и импортер - разные юридические лица
      * 
      * @param importer
      */
@@ -246,7 +246,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'SertifInf' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёРё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'SertifInf' element value. Сведения об удостоверении сертификата
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'SertifInf' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёРё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'SertifInf' element value. Сведения об удостоверении сертификата
      * 
      * @param sertifInf
      */
@@ -264,7 +264,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'AppDeclaration' element value. Р”РµРєР»Р°СЂР°С†РёСЏ Р·Р°СЏРІРёС‚РµР»СЏ
+     * Get the 'AppDeclaration' element value. Декларация заявителя
      * 
      * @return value
      */
@@ -273,7 +273,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'AppDeclaration' element value. Р”РµРєР»Р°СЂР°С†РёСЏ Р·Р°СЏРІРёС‚РµР»СЏ
+     * Set the 'AppDeclaration' element value. Декларация заявителя
      * 
      * @param appDeclaration
      */
@@ -282,7 +282,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the list of 'Goods' element items. Сведения о товарах
      * 
      * @return list
      */
@@ -291,7 +291,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the list of 'Goods' element items. Сведения о товарах
      * 
      * @param list
      */
@@ -300,7 +300,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExporterInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРµ СЏРІР»СЏРµС‚СЃСЏ СЌРєСЃРїРѕСЂС‚РµСЂРѕРј. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РµСЃР»Рё СЌРєСЃРїРѕСЂС‚РµСЂ Рё РѕС‚РїСЂР°РІРёС‚РµР»СЊ СЏРІР»СЏСЋС‚СЃСЏ СЂР°Р·РЅС‹РјРё СЋСЂРёРґРёС‡РµСЃРєРёРјРё Р»РёС†Р°РјРё
+     * Get the 'ExporterInformation' element value. Информация о лице, которое является экспортером. Заполняется если экспортер и отправитель являются разными юридическими лицами
      * 
      * @return value
      */
@@ -309,7 +309,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExporterInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРµ СЏРІР»СЏРµС‚СЃСЏ СЌРєСЃРїРѕСЂС‚РµСЂРѕРј. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РµСЃР»Рё СЌРєСЃРїРѕСЂС‚РµСЂ Рё РѕС‚РїСЂР°РІРёС‚РµР»СЊ СЏРІР»СЏСЋС‚СЃСЏ СЂР°Р·РЅС‹РјРё СЋСЂРёРґРёС‡РµСЃРєРёРјРё Р»РёС†Р°РјРё
+     * Set the 'ExporterInformation' element value. Информация о лице, которое является экспортером. Заполняется если экспортер и отправитель являются разными юридическими лицами
      * 
      * @param exporterInformation
      */
@@ -318,7 +318,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -327,7 +327,7 @@ public class SertifST2FormType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

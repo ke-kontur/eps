@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕСЃС‚Р°С‚РєР°С… РЅР° РїР»Р°С‚РµР¶РЅС‹С… РїРѕСЂСѓС‡РµРЅРёСЏС… СѓС‡Р°СЃС‚РЅРёРєР° Р’Р­Р”
+ * Информация об остатках на платежных поручениях участника ВЭД
  */
 public class AccBalanceInfoType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class AccBalanceInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'INN' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР° 
+     * Get the 'INN' element value. Индивидуальный номер налогоплательщика 
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class AccBalanceInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'INN' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР° 
+     * Set the 'INN' element value. Индивидуальный номер налогоплательщика 
      * 
      * @param INN
      */
@@ -35,7 +35,7 @@ public class AccBalanceInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'KPP' element value. РљРџРџ РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Get the 'KPP' element value. КПП плательщика
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class AccBalanceInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'KPP' element value. РљРџРџ РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Set the 'KPP' element value. КПП плательщика
      * 
      * @param KPP
      */
@@ -53,7 +53,7 @@ public class AccBalanceInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResponseStatus' element value. РЎС‚Р°С‚СѓСЃ РѕС‚РІРµС‚Р°.
+     * Get the 'ResponseStatus' element value. Статус ответа.
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class AccBalanceInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResponseStatus' element value. РЎС‚Р°С‚СѓСЃ РѕС‚РІРµС‚Р°.
+     * Set the 'ResponseStatus' element value. Статус ответа.
      * 
      * @param responseStatus
      */
@@ -71,7 +71,7 @@ public class AccBalanceInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PaymentOrder' element items. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
+     * Get the list of 'PaymentOrder' element items. Реквизиты платежного поручения
      * 
      * @return list
      */
@@ -80,7 +80,7 @@ public class AccBalanceInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PaymentOrder' element items. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
+     * Set the list of 'PaymentOrder' element items. Реквизиты платежного поручения
      * 
      * @param list
      */
@@ -89,7 +89,7 @@ public class AccBalanceInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class AccBalanceInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

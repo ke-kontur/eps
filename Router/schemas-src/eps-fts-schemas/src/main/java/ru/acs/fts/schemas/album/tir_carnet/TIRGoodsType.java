@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.tir_carnet;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.TDGoodsBaseType;
 
 /** 
- * РўРѕРІР°СЂС‹ РІ РєРЅРёР¶РєРµ РњР”Рџ
+ * Товары в книжке МДП
  */
 public class TIRGoodsType extends TDGoodsBaseType
 {
     private String TTNNumber;
 
     /** 
-     * Get the 'TTNNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'TTNNumber' element value. Номер товарно-транспортной накладной
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TIRGoodsType extends TDGoodsBaseType
     }
 
     /** 
-     * Set the 'TTNNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'TTNNumber' element value. Номер товарно-транспортной накладной
      * 
      * @param TTNNumber
      */

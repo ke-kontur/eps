@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.AddressType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
+ * Информация об организации
  */
 public class OrganizationInfoType extends OrganizationBaseType
 {
     private AddressType address;
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ
+     * Get the 'Address' element value. Адрес
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ
+     * Set the 'Address' element value. Адрес
      * 
      * @param address
      */

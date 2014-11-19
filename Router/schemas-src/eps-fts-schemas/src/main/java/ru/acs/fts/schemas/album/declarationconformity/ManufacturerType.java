@@ -7,14 +7,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUBranchDescriptionType
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РёР·РіРѕС‚РѕРІРёС‚РµР»Рµ
+ * Сведения о изготовителе
  */
 public class ManufacturerType extends OrganizationType
 {
     private List<CUBranchDescriptionType> branchList = new ArrayList<CUBranchDescriptionType>();
 
     /** 
-     * Get the list of 'Branch' element items. Р¤РёР»РёР°Р»
+     * Get the list of 'Branch' element items. Филиал
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class ManufacturerType extends OrganizationType
     }
 
     /** 
-     * Set the list of 'Branch' element items. Р¤РёР»РёР°Р»
+     * Set the list of 'Branch' element items. Филиал
      * 
      * @param list
      */

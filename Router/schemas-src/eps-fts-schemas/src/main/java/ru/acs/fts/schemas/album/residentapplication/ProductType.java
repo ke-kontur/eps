@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РўРѕРІР°СЂ
+ * Товар
  */
 public class ProductType
 {
@@ -23,7 +23,7 @@ public class ProductType
     private String quantityTotal;
 
     /** 
-     * Get the 'Number' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ 
+     * Get the 'Number' element value. Порядковый номер 
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class ProductType
     }
 
     /** 
-     * Set the 'Number' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ 
+     * Set the 'Number' element value. Порядковый номер 
      * 
      * @param number
      */
@@ -41,7 +41,7 @@ public class ProductType
     }
 
     /** 
-     * Get the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР° 
+     * Get the list of 'Name' element items. Наименование товара 
      * 
      * @return list
      */
@@ -50,7 +50,7 @@ public class ProductType
     }
 
     /** 
-     * Set the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР° 
+     * Set the list of 'Name' element items. Наименование товара 
      * 
      * @param list
      */
@@ -59,7 +59,7 @@ public class ProductType
     }
 
     /** 
-     * Get the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class ProductType
     }
 
     /** 
-     * Set the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param TNVEDCode
      */
@@ -77,7 +77,7 @@ public class ProductType
     }
 
     /** 
-     * Get the 'Status' element value. РЎС‚Р°С‚СѓСЃ: 0 - Р РћРЎ (Р РѕСЃСЃРёР№СЃРєРёР№); 1 - РРќ (РёРЅРѕСЃС‚СЂР°РЅРЅС‹Р№) 
+     * Get the 'Status' element value. Статус: 0 - РОС (Российский); 1 - ИН (иностранный) 
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class ProductType
     }
 
     /** 
-     * Set the 'Status' element value. РЎС‚Р°С‚СѓСЃ: 0 - Р РћРЎ (Р РѕСЃСЃРёР№СЃРєРёР№); 1 - РРќ (РёРЅРѕСЃС‚СЂР°РЅРЅС‹Р№) 
+     * Set the 'Status' element value. Статус: 0 - РОС (Российский); 1 - ИН (иностранный) 
      * 
      * @param status
      */
@@ -95,7 +95,7 @@ public class ProductType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierName' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'MeasureUnitQualifierName' element value. Название единицы измерения
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class ProductType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierName' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'MeasureUnitQualifierName' element value. Название единицы измерения
      * 
      * @param measureUnitQualifierName
      */
@@ -113,7 +113,7 @@ public class ProductType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ 
+     * Get the 'MeasureUnitQualifierCode' element value. Код единицы измерения 
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class ProductType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ 
+     * Set the 'MeasureUnitQualifierCode' element value. Код единицы измерения 
      * 
      * @param measureUnitQualifierCode
      */
@@ -131,7 +131,7 @@ public class ProductType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ СѓРєР°Р·Р°РЅРЅРѕР№ РµРґ. РёР·Рј. 
+     * Get the 'Quantity' element value. Количество в указанной ед. изм. 
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class ProductType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ СѓРєР°Р·Р°РЅРЅРѕР№ РµРґ. РёР·Рј. 
+     * Set the 'Quantity' element value. Количество в указанной ед. изм. 
      * 
      * @param quantity
      */
@@ -149,7 +149,7 @@ public class ProductType
     }
 
     /** 
-     * Get the 'QuantityChangesQ1' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ РєРІР°СЂС‚Р°Р»Рµ 1
+     * Get the 'QuantityChangesQ1' element value. Сведения о внесении изменений в квартале 1
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class ProductType
     }
 
     /** 
-     * Set the 'QuantityChangesQ1' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ РєРІР°СЂС‚Р°Р»Рµ 1
+     * Set the 'QuantityChangesQ1' element value. Сведения о внесении изменений в квартале 1
      * 
      * @param quantityChangesQ1
      */
@@ -167,7 +167,7 @@ public class ProductType
     }
 
     /** 
-     * Get the 'QuantityChangesQ2' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ РєРІР°СЂС‚Р°Р»Рµ 2
+     * Get the 'QuantityChangesQ2' element value. Сведения о внесении изменений в квартале 2
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class ProductType
     }
 
     /** 
-     * Set the 'QuantityChangesQ2' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ РєРІР°СЂС‚Р°Р»Рµ 2
+     * Set the 'QuantityChangesQ2' element value. Сведения о внесении изменений в квартале 2
      * 
      * @param quantityChangesQ2
      */
@@ -185,7 +185,7 @@ public class ProductType
     }
 
     /** 
-     * Get the 'QuantityChangesQ3' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ РєРІР°СЂС‚Р°Р»Рµ 3
+     * Get the 'QuantityChangesQ3' element value. Сведения о внесении изменений в квартале 3
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class ProductType
     }
 
     /** 
-     * Set the 'QuantityChangesQ3' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ РєРІР°СЂС‚Р°Р»Рµ 3
+     * Set the 'QuantityChangesQ3' element value. Сведения о внесении изменений в квартале 3
      * 
      * @param quantityChangesQ3
      */
@@ -203,7 +203,7 @@ public class ProductType
     }
 
     /** 
-     * Get the 'QuantityChangesQ4' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ РєРІР°СЂС‚Р°Р»Рµ 4
+     * Get the 'QuantityChangesQ4' element value. Сведения о внесении изменений в квартале 4
      * 
      * @return value
      */
@@ -212,7 +212,7 @@ public class ProductType
     }
 
     /** 
-     * Set the 'QuantityChangesQ4' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ РєРІР°СЂС‚Р°Р»Рµ 4
+     * Set the 'QuantityChangesQ4' element value. Сведения о внесении изменений в квартале 4
      * 
      * @param quantityChangesQ4
      */
@@ -221,7 +221,7 @@ public class ProductType
     }
 
     /** 
-     * Get the 'QuantityTotal' element value. Р’СЃРµРіРѕ
+     * Get the 'QuantityTotal' element value. Всего
      * 
      * @return value
      */
@@ -230,7 +230,7 @@ public class ProductType
     }
 
     /** 
-     * Set the 'QuantityTotal' element value. Р’СЃРµРіРѕ
+     * Set the 'QuantityTotal' element value. Всего
      * 
      * @param quantityTotal
      */

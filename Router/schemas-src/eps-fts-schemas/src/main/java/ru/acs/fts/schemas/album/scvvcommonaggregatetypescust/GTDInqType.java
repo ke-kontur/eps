@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РќРѕРјРµСЂ Р”Рў СЃ РїРѕСЂСЏРґРєРѕРІС‹РјРё РЅРѕРјРµСЂР°РјРё С‚РѕРІР°СЂРѕРІ.
+ * Номер ДТ с порядковыми номерами товаров.
  */
 public class GTDInqType extends GTDIDType
 {
     private List<String> goodsNumericList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'GoodsNumeric' element items. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Get the list of 'GoodsNumeric' element items. Номер товара по порядку
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class GTDInqType extends GTDIDType
     }
 
     /** 
-     * Set the list of 'GoodsNumeric' element items. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Set the list of 'GoodsNumeric' element items. Номер товара по порядку
      * 
      * @param list
      */

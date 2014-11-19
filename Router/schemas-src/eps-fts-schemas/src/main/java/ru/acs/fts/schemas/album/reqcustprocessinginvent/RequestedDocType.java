@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.reqcustprocessinginvent;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ РґРѕРєСѓРјРµРЅС‚
+ * Запрашиваемый документ
  */
 public class RequestedDocType extends DocumentBaseType
 {
@@ -20,7 +20,7 @@ public class RequestedDocType extends DocumentBaseType
     private String inventLineID;
 
     /** 
-     * Get the 'RequestPositionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ Р·Р°РїСЂРѕСЃРµ. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ РђРџРЎ "Р­Р»РµРєС‚СЂРѕРЅРЅРѕРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ СЃРІРµРґРµРЅРёР№"
+     * Get the 'RequestPositionID' element value. Идентификатор позиции в запросе. Используется в АПС "Электронное представление сведений"
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RequestPositionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ Р·Р°РїСЂРѕСЃРµ. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ РђРџРЎ "Р­Р»РµРєС‚СЂРѕРЅРЅРѕРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ СЃРІРµРґРµРЅРёР№"
+     * Set the 'RequestPositionID' element value. Идентификатор позиции в запросе. Используется в АПС "Электронное представление сведений"
      * 
      * @param requestPositionID
      */
@@ -38,7 +38,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocCode' element value. РљРѕРґ РІРёРґР° Р·Р°РїСЂР°С€РёРІР°РµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44)
+     * Get the 'DocCode' element value. Код вида запрашиваемого документа (заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44)
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocCode' element value. РљРѕРґ РІРёРґР° Р·Р°РїСЂР°С€РёРІР°РµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44)
+     * Set the 'DocCode' element value. Код вида запрашиваемого документа (заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44)
      * 
      * @param docCode
      */
@@ -56,7 +56,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ArchDeclID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р­Р»РµРєС‚СЂРѕРЅРЅРѕРј РђСЂС…РёРІРµ Р”РµРєР»Р°СЂР°РЅС‚Р°.
+     * Get the 'ArchDeclID' element value. Уникальный идентификатор декларанта в Электронном Архиве Декларанта.
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ArchDeclID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р­Р»РµРєС‚СЂРѕРЅРЅРѕРј РђСЂС…РёРІРµ Р”РµРєР»Р°СЂР°РЅС‚Р°.
+     * Set the 'ArchDeclID' element value. Уникальный идентификатор декларанта в Электронном Архиве Декларанта.
      * 
      * @param archDeclID
      */
@@ -74,7 +74,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'AarchID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р° (РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РїСЂРё Р·Р°РїСЂРѕСЃРµ РґРѕРєСѓРјРµРЅС‚Р° РёР· Р°СЂС…РёРІР°)
+     * Get the 'AarchID' element value. Уникальный идентификатор архива декларанта (используется при запросе документа из архива)
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'AarchID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР° РґРµРєР»Р°СЂР°РЅС‚Р° (РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РїСЂРё Р·Р°РїСЂРѕСЃРµ РґРѕРєСѓРјРµРЅС‚Р° РёР· Р°СЂС…РёРІР°)
+     * Set the 'AarchID' element value. Уникальный идентификатор архива декларанта (используется при запросе документа из архива)
      * 
      * @param aarchID
      */
@@ -92,7 +92,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ArchDocID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ (РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РїСЂРё Р·Р°РїСЂРѕСЃРµ РґРѕРєСѓРјРµРЅС‚Р° РёР· Р°СЂС…РёРІР°)
+     * Get the 'ArchDocID' element value. Уникальный идентификатор документа в архиве (используется при запросе документа из архива)
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ArchDocID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ (РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РїСЂРё Р·Р°РїСЂРѕСЃРµ РґРѕРєСѓРјРµРЅС‚Р° РёР· Р°СЂС…РёРІР°)
+     * Set the 'ArchDocID' element value. Уникальный идентификатор документа в архиве (используется при запросе документа из архива)
      * 
      * @param archDocID
      */
@@ -110,7 +110,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ADocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° (РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РїСЂРё Р·Р°РїСЂРѕСЃРµ РґРѕРєСѓРјРµРЅС‚Р° РёР· Р°СЂС…РёРІР°)
+     * Get the 'ADocumentID' element value. Уникальный идентификатор документа (используется при запросе документа из архива)
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ADocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° (РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РїСЂРё Р·Р°РїСЂРѕСЃРµ РґРѕРєСѓРјРµРЅС‚Р° РёР· Р°СЂС…РёРІР°)
+     * Set the 'ADocumentID' element value. Уникальный идентификатор документа (используется при запросе документа из архива)
      * 
      * @param ADocumentID
      */
@@ -128,7 +128,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ReqPurpose' element value. Р¦РµР»СЊ, РґР»СЏ РєРѕС‚РѕСЂРѕР№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'ReqPurpose' element value. Цель, для которой запрашивается документ
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ReqPurpose' element value. Р¦РµР»СЊ, РґР»СЏ РєРѕС‚РѕСЂРѕР№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'ReqPurpose' element value. Цель, для которой запрашивается документ
      * 
      * @param reqPurpose
      */
@@ -146,7 +146,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Note' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the 'Note' element value. Примечание
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Note' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the 'Note' element value. Примечание
      * 
      * @param note
      */
@@ -164,7 +164,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'RequestorName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, Р·Р°РїСЂР°С€РёРІР°СЋС‰РµРіРѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ Рё СЃРІРµРґРµРЅРёСЏ
+     * Get the 'RequestorName' element value. ФИО должностного лица, запрашивающего дополнительные документы и сведения
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RequestorName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, Р·Р°РїСЂР°С€РёРІР°СЋС‰РµРіРѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ Рё СЃРІРµРґРµРЅРёСЏ
+     * Set the 'RequestorName' element value. ФИО должностного лица, запрашивающего дополнительные документы и сведения
      * 
      * @param requestorName
      */
@@ -182,7 +182,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'InventLineID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃС‚СЂРѕРєРё РІ РѕРїРёСЃРё. GUID. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё Р·Р°РїСЂРѕСЃРµ РґРѕРєСѓРјРµРЅС‚Р° РёР· РѕРїРёСЃРё.
+     * Get the 'InventLineID' element value. Уникальный идентификатор строки в описи. GUID. Заполняется при запросе документа из описи.
      * 
      * @return value
      */
@@ -191,7 +191,7 @@ public class RequestedDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'InventLineID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃС‚СЂРѕРєРё РІ РѕРїРёСЃРё. GUID. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё Р·Р°РїСЂРѕСЃРµ РґРѕРєСѓРјРµРЅС‚Р° РёР· РѕРїРёСЃРё.
+     * Set the 'InventLineID' element value. Уникальный идентификатор строки в описи. GUID. Заполняется при запросе документа из описи.
      * 
      * @param inventLineID
      */

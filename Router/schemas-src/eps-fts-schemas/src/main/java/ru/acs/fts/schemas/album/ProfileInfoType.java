@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * РўРёРї, РѕРїРёСЃС‹РІР°СЋС‰РёР№ РџР /Р¦РџР 
+ * Тип, описывающий ПР/ЦПР
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -48,15 +48,15 @@ public class ProfileInfoType
     private String ID;
 
     /** 
-     * Get the 'DocumentSignCode' element value. РљРѕРґ РїСЂРёР·РЅР°РєР° РґРѕРєСѓРјРµРЅС‚Р°. Р’РѕР·РјРѕР¶РЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ:
-    11 вЂ“ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРёР№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 
-    12 вЂ“ СЂРµРіРёРѕРЅР°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 
-    13 вЂ“ Р·РѕРЅР°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°,
-    20 вЂ“ СЃСЂРѕС‡РЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°,
-    32 вЂ“ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР° РЅР° РѕСЃРЅРѕРІРµ РјРѕРґРµР»РµР№,
-    55 вЂ“ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Р№ Рє РїСЂРёРјРµРЅРµРЅРёСЋ,
-    77 вЂ“ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР° РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚РµРїРµРЅРё РІС‹Р±РѕСЂРѕС‡РЅРѕСЃС‚Рё,
-    88 вЂ“ Р·Р°РІРёСЃРёРјС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°.
+     * Get the 'DocumentSignCode' element value. Код признака документа. Возможные значения:
+    11 – общероссийский профиль риска, 
+    12 – региональный профиль риска, 
+    13 – зональный профиль риска,
+    20 – срочный профиль риска,
+    32 – профиль риска на основе моделей,
+    55 – профиль риска, обязательный к применению,
+    77 – профиль риска для определения степени выборочности,
+    88 – зависимый профиль риска.
      * 
      * @return value
      */
@@ -65,15 +65,15 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'DocumentSignCode' element value. РљРѕРґ РїСЂРёР·РЅР°РєР° РґРѕРєСѓРјРµРЅС‚Р°. Р’РѕР·РјРѕР¶РЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ:
-    11 вЂ“ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРёР№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 
-    12 вЂ“ СЂРµРіРёРѕРЅР°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 
-    13 вЂ“ Р·РѕРЅР°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°,
-    20 вЂ“ СЃСЂРѕС‡РЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°,
-    32 вЂ“ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР° РЅР° РѕСЃРЅРѕРІРµ РјРѕРґРµР»РµР№,
-    55 вЂ“ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Р№ Рє РїСЂРёРјРµРЅРµРЅРёСЋ,
-    77 вЂ“ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР° РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚РµРїРµРЅРё РІС‹Р±РѕСЂРѕС‡РЅРѕСЃС‚Рё,
-    88 вЂ“ Р·Р°РІРёСЃРёРјС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°.
+     * Set the 'DocumentSignCode' element value. Код признака документа. Возможные значения:
+    11 – общероссийский профиль риска, 
+    12 – региональный профиль риска, 
+    13 – зональный профиль риска,
+    20 – срочный профиль риска,
+    32 – профиль риска на основе моделей,
+    55 – профиль риска, обязательный к применению,
+    77 – профиль риска для определения степени выборочности,
+    88 – зависимый профиль риска.
      * 
      * @param documentSignCode
      */
@@ -82,7 +82,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the 'DivisionCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СЂР°Р·СЂР°Р±РѕС‚Р°РІС€РµРіРѕ РџР /РЎРџР 
+     * Get the 'DivisionCode' element value. Код таможенного органа, разработавшего ПР/СПР
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'DivisionCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СЂР°Р·СЂР°Р±РѕС‚Р°РІС€РµРіРѕ РџР /РЎРџР 
+     * Set the 'DivisionCode' element value. Код таможенного органа, разработавшего ПР/СПР
      * 
      * @param divisionCode
      */
@@ -100,7 +100,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the 'RegistryDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РџР /РЎРџР 
+     * Get the 'RegistryDate' element value. Дата регистрации ПР/СПР
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'RegistryDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РџР /РЎРџР 
+     * Set the 'RegistryDate' element value. Дата регистрации ПР/СПР
      * 
      * @param registryDate
      */
@@ -118,7 +118,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the 'SequenceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РџР /РЎРџР 
+     * Get the 'SequenceNumber' element value. Порядковый номер ПР/СПР
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'SequenceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РџР /РЎРџР 
+     * Set the 'SequenceNumber' element value. Порядковый номер ПР/СПР
      * 
      * @param sequenceNumber
      */
@@ -136,7 +136,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the 'VersionNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РџР /РЎРџР 
+     * Get the 'VersionNumber' element value. Порядковый номер версии ПР/СПР
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'VersionNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РџР /РЎРџР 
+     * Set the 'VersionNumber' element value. Порядковый номер версии ПР/СПР
      * 
      * @param versionNumber
      */
@@ -154,7 +154,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the 'CriterionCode' element value. РљРѕРґ С‚РёРїРѕРІРѕРіРѕ РєСЂРёС‚РµСЂРёСЏ
+     * Get the 'CriterionCode' element value. Код типового критерия
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'CriterionCode' element value. РљРѕРґ С‚РёРїРѕРІРѕРіРѕ РєСЂРёС‚РµСЂРёСЏ
+     * Set the 'CriterionCode' element value. Код типового критерия
      * 
      * @param criterionCode
      */
@@ -172,7 +172,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the 'ActivityCode' element value. РљРѕРґ РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ, РїРѕ РЅР°РїСЂР°РІР»РµРЅРёСЋ РєРѕС‚РѕСЂРѕРіРѕ РІС‹СЏРІР»РµРЅ СЂРёСЃРє
+     * Get the 'ActivityCode' element value. Код направления деятельности подразделения, по направлению которого выявлен риск
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'ActivityCode' element value. РљРѕРґ РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ, РїРѕ РЅР°РїСЂР°РІР»РµРЅРёСЋ РєРѕС‚РѕСЂРѕРіРѕ РІС‹СЏРІР»РµРЅ СЂРёСЃРє
+     * Set the 'ActivityCode' element value. Код направления деятельности подразделения, по направлению которого выявлен риск
      * 
      * @param activityCode
      */
@@ -190,7 +190,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the 'FormalizedType' element value. РџСЂРёР·РЅР°Рє С„РѕСЂРјР°Р»РёР·Р°С†РёРё. Р”РѕРїСѓСЃС‚РёРјС‹Рµ Р·РЅР°С‡РµРЅРёСЏ (Р±РёС‚РѕРІР°СЏ РјР°СЃРєР°): 0 - РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅ; 1 - С„РѕСЂРјР°Р»РёР·РѕРІР°РЅ; 2 - С„РѕСЂРјР°Р»РёР·РѕРІР°РЅ С‡Р°СЃС‚РёС‡РЅРѕ
+     * Get the 'FormalizedType' element value. Признак формализации. Допустимые значения (битовая маска): 0 - неформализован; 1 - формализован; 2 - формализован частично
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'FormalizedType' element value. РџСЂРёР·РЅР°Рє С„РѕСЂРјР°Р»РёР·Р°С†РёРё. Р”РѕРїСѓСЃС‚РёРјС‹Рµ Р·РЅР°С‡РµРЅРёСЏ (Р±РёС‚РѕРІР°СЏ РјР°СЃРєР°): 0 - РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅ; 1 - С„РѕСЂРјР°Р»РёР·РѕРІР°РЅ; 2 - С„РѕСЂРјР°Р»РёР·РѕРІР°РЅ С‡Р°СЃС‚РёС‡РЅРѕ
+     * Set the 'FormalizedType' element value. Признак формализации. Допустимые значения (битовая маска): 0 - неформализован; 1 - формализован; 2 - формализован частично
      * 
      * @param formalizedType
      */
@@ -208,7 +208,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РІРµСЂСЃРёРё РџР  (Р”Р°С‚Р° РІ С„РѕСЂРјР°С‚Рµ YYYY-MM-DD. РџРѕ СЃС‚Р°РЅРґР°СЂС‚Сѓ  С„РѕСЂРјР°С‚ ISO 8601.)
+     * Get the 'BeginDate' element value. Дата начала действия версии ПР (Дата в формате YYYY-MM-DD. По стандарту  формат ISO 8601.)
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РІРµСЂСЃРёРё РџР  (Р”Р°С‚Р° РІ С„РѕСЂРјР°С‚Рµ YYYY-MM-DD. РџРѕ СЃС‚Р°РЅРґР°СЂС‚Сѓ  С„РѕСЂРјР°С‚ ISO 8601.)
+     * Set the 'BeginDate' element value. Дата начала действия версии ПР (Дата в формате YYYY-MM-DD. По стандарту  формат ISO 8601.)
      * 
      * @param beginDate
      */
@@ -226,7 +226,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the 'PRNote' element value. РџСЂРёРјРµС‡Р°РЅРёРµ Рє РѕР±Р»Р°СЃС‚Рё СЂРёСЃРєР°
+     * Get the 'PRNote' element value. Примечание к области риска
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'PRNote' element value. РџСЂРёРјРµС‡Р°РЅРёРµ Рє РѕР±Р»Р°СЃС‚Рё СЂРёСЃРєР°
+     * Set the 'PRNote' element value. Примечание к области риска
      * 
      * @param PRNote
      */
@@ -244,7 +244,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the 'MinimizeMeasuresNote' element value. РќРµ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ. РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ РЎР’Р . РћРїРёСЃР°РЅРёРµ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° (СЂР°РЅРµРµ РёСЃРїРѕР»СЊР·РѕРІР°Р»РѕСЃСЊ РґР»СЏ РѕСЂРёРµРЅС‚РёСЂРѕРІРѕРє).
+     * Get the 'MinimizeMeasuresNote' element value. Не используется. Не заполняется в СВР. Описание профиля риска (ранее использовалось для ориентировок).
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'MinimizeMeasuresNote' element value. РќРµ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ. РќРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ РЎР’Р . РћРїРёСЃР°РЅРёРµ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° (СЂР°РЅРµРµ РёСЃРїРѕР»СЊР·РѕРІР°Р»РѕСЃСЊ РґР»СЏ РѕСЂРёРµРЅС‚РёСЂРѕРІРѕРє).
+     * Set the 'MinimizeMeasuresNote' element value. Не используется. Не заполняется в СВР. Описание профиля риска (ранее использовалось для ориентировок).
      * 
      * @param minimizeMeasuresNote
      */
@@ -262,7 +262,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the 'DescriptionMeasure' element value. РџСЂРёРјРµС‡Р°РЅРёРµ Рє РјРµСЂР°Рј (РїСЂРѕРёР·РІРѕР»СЊРЅС‹Р№ С‚РµРєСЃС‚)
+     * Get the 'DescriptionMeasure' element value. Примечание к мерам (произвольный текст)
      * 
      * @return value
      */
@@ -271,7 +271,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'DescriptionMeasure' element value. РџСЂРёРјРµС‡Р°РЅРёРµ Рє РјРµСЂР°Рј (РїСЂРѕРёР·РІРѕР»СЊРЅС‹Р№ С‚РµРєСЃС‚)
+     * Set the 'DescriptionMeasure' element value. Примечание к мерам (произвольный текст)
      * 
      * @param descriptionMeasure
      */
@@ -280,7 +280,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the list of 'MinimizeMeasuresInfo' element items. РќР°Р±РѕСЂ РёРЅС„РѕСЂРјР°С†РёРё Рѕ РєР°Р¶РґРѕР№ РјРµСЂРµ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ
+     * Get the list of 'MinimizeMeasuresInfo' element items. Набор информации о каждой мере по минимизации рисков
      * 
      * @return list
      */
@@ -289,7 +289,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the list of 'MinimizeMeasuresInfo' element items. РќР°Р±РѕСЂ РёРЅС„РѕСЂРјР°С†РёРё Рѕ РєР°Р¶РґРѕР№ РјРµСЂРµ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ
+     * Set the list of 'MinimizeMeasuresInfo' element items. Набор информации о каждой мере по минимизации рисков
      * 
      * @param list
      */
@@ -298,7 +298,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Get the 'ID' attribute value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РєРѕС‚РѕСЂС‹Р№ РїСЂРёСЃРІР°РёРІР°РµС‚СЃСЏ РїСЂРѕС„РёР»СЋ СЂРёСЃРєР° РІ РџР— "РЎР’Р  РЎРўРћ" СѓСЂРѕРІРЅСЏ Р РўРЈ, Р¤РўРЎ
+     * Get the 'ID' attribute value. Уникальный идентификатор, который присваивается профилю риска в ПЗ "СВР СТО" уровня РТУ, ФТС
      * 
      * @return value
      */
@@ -307,7 +307,7 @@ public class ProfileInfoType
     }
 
     /** 
-     * Set the 'ID' attribute value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РєРѕС‚РѕСЂС‹Р№ РїСЂРёСЃРІР°РёРІР°РµС‚СЃСЏ РїСЂРѕС„РёР»СЋ СЂРёСЃРєР° РІ РџР— "РЎР’Р  РЎРўРћ" СѓСЂРѕРІРЅСЏ Р РўРЈ, Р¤РўРЎ
+     * Set the 'ID' attribute value. Уникальный идентификатор, который присваивается профилю риска в ПЗ "СВР СТО" уровня РТУ, ФТС
      * 
      * @param ID
      */

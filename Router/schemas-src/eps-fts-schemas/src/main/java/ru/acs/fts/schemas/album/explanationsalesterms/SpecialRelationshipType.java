@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РѕСЃРѕР±С‹РјРё РѕС‚РЅРѕС€РµРЅРёСЏРјРё РџСЂРѕРґР°РІС†Р° Рё РїРѕРєСѓРїР°С‚РµР»СЏ
+ * Отличие вызвано особыми отношениями Продавца и покупателя
  */
 public class SpecialRelationshipType
 {
@@ -13,7 +13,7 @@ public class SpecialRelationshipType
     private String comments;
 
     /** 
-     * Get the 'Cooperation' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РґР»РёС‚РµР»СЊРЅРѕР№ РёСЃС‚РѕСЂРёРё СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР°
+     * Get the 'Cooperation' element value. Признак наличия длительной истории сотрудничества
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class SpecialRelationshipType
     }
 
     /** 
-     * Set the 'Cooperation' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РґР»РёС‚РµР»СЊРЅРѕР№ РёСЃС‚РѕСЂРёРё СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР°
+     * Set the 'Cooperation' element value. Признак наличия длительной истории сотрудничества
      * 
      * @param cooperation
      */
@@ -31,7 +31,7 @@ public class SpecialRelationshipType
     }
 
     /** 
-     * Get the 'Prepayment' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРѕРєСѓРїР°С‚РµР»СЊ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРѕРґР°РІС†Сѓ РїСЂРµРґРѕРїР»Р°С‚Сѓ
+     * Get the 'Prepayment' element value. Признак того, что покупатель предоставляет продавцу предоплату
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class SpecialRelationshipType
     }
 
     /** 
-     * Set the 'Prepayment' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРѕРєСѓРїР°С‚РµР»СЊ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРѕРґР°РІС†Сѓ РїСЂРµРґРѕРїР»Р°С‚Сѓ
+     * Set the 'Prepayment' element value. Признак того, что покупатель предоставляет продавцу предоплату
      * 
      * @param prepayment
      */
@@ -49,7 +49,7 @@ public class SpecialRelationshipType
     }
 
     /** 
-     * Get the 'ExtraDuty' element value. РџРѕРєСѓРїР°С‚РµР»СЊ РїСЂРёРЅРёРјР°РµС‚ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РїРѕ РѕР±СЉРµРјСѓ РїСЂРѕРґР°Р¶Рё С‚РѕРІР°СЂРѕРІ
+     * Get the 'ExtraDuty' element value. Покупатель принимает дополнительные обязательства по объему продажи товаров
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class SpecialRelationshipType
     }
 
     /** 
-     * Set the 'ExtraDuty' element value. РџРѕРєСѓРїР°С‚РµР»СЊ РїСЂРёРЅРёРјР°РµС‚ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РїРѕ РѕР±СЉРµРјСѓ РїСЂРѕРґР°Р¶Рё С‚РѕРІР°СЂРѕРІ
+     * Set the 'ExtraDuty' element value. Покупатель принимает дополнительные обязательства по объему продажи товаров
      * 
      * @param extraDuty
      */
@@ -67,7 +67,7 @@ public class SpecialRelationshipType
     }
 
     /** 
-     * Get the 'Other' element value. РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РёРЅС‹РјРё РѕСЃРѕР±С‹РјРё РѕС‚РЅРѕС€РµРЅРёСЏРјРё РїСЂРѕРґР°РІС†Р° Рё РїРѕРєСѓРїР°С‚РµР»СЏ
+     * Get the 'Other' element value. Отличие вызвано иными особыми отношениями продавца и покупателя
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class SpecialRelationshipType
     }
 
     /** 
-     * Set the 'Other' element value. РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РёРЅС‹РјРё РѕСЃРѕР±С‹РјРё РѕС‚РЅРѕС€РµРЅРёСЏРјРё РїСЂРѕРґР°РІС†Р° Рё РїРѕРєСѓРїР°С‚РµР»СЏ
+     * Set the 'Other' element value. Отличие вызвано иными особыми отношениями продавца и покупателя
      * 
      * @param other
      */
@@ -85,7 +85,7 @@ public class SpecialRelationshipType
     }
 
     /** 
-     * Get the 'Comments' element value. РРЅС‹Рµ (СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
+     * Get the 'Comments' element value. Иные (указать подробности)
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class SpecialRelationshipType
     }
 
     /** 
-     * Set the 'Comments' element value. РРЅС‹Рµ (СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
+     * Set the 'Comments' element value. Иные (указать подробности)
      * 
      * @param comments
      */

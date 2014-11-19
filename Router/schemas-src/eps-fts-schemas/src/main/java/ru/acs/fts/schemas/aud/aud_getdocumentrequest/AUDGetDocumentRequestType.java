@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDocumentDataPresenceInfoType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° РїРѕРёСЃРє Рё РёР·РІР»РµС‡РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° (РґРѕРєСѓРјРµРЅС‚РѕРІ) Р°СЂС…РёРІР°.
+ * Запрос на поиск и извлечение документа (документов) архива.
  */
 public class AUDGetDocumentRequestType extends AUDBaseEnvelopeType
 {
@@ -43,7 +43,7 @@ public class AUDGetDocumentRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentFilter' element value. РџР°СЂР°РјРµС‚СЂС‹ РїРѕРёСЃРєР° РґРѕРєСѓРјРµРЅС‚РѕРІ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј С„РёР»СЊС‚СЂРѕРІ. РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РІСЃРµС… Р·Р°РґР°РЅРЅС‹С… Р·РЅР°С‡РµРЅРёР№ С„РёР»СЊС‚СЂРѕРІ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ СЃ РїСЂРёРјРµРЅРµРЅРёРµРј Р»РѕРіРёС‡РµСЃРєРѕРіРѕ "Р" (РёСЃРєРѕРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ РґРѕР»Р¶РЅС‹ СѓРґРѕРІР»РµС‚РІРѕСЂСЏС‚СЊ РІСЃРµРј Р·Р°РґР°РЅРЅС‹Рј РєСЂРёС‚РµСЂРёСЏРј Рё С„РёР»СЊС‚СЂР°Рј).
+     * Get the 'DocumentFilter' element value. Параметры поиска документов с использованием фильтров. Использование всех заданных значений фильтров производится с применением логического "И" (искомые документы должны удовлетворять всем заданным критериям и фильтрам).
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class AUDGetDocumentRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentFilter' element value. РџР°СЂР°РјРµС‚СЂС‹ РїРѕРёСЃРєР° РґРѕРєСѓРјРµРЅС‚РѕРІ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј С„РёР»СЊС‚СЂРѕРІ. РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РІСЃРµС… Р·Р°РґР°РЅРЅС‹С… Р·РЅР°С‡РµРЅРёР№ С„РёР»СЊС‚СЂРѕРІ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ СЃ РїСЂРёРјРµРЅРµРЅРёРµРј Р»РѕРіРёС‡РµСЃРєРѕРіРѕ "Р" (РёСЃРєРѕРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ РґРѕР»Р¶РЅС‹ СѓРґРѕРІР»РµС‚РІРѕСЂСЏС‚СЊ РІСЃРµРј Р·Р°РґР°РЅРЅС‹Рј РєСЂРёС‚РµСЂРёСЏРј Рё С„РёР»СЊС‚СЂР°Рј).
+     * Set the 'DocumentFilter' element value. Параметры поиска документов с использованием фильтров. Использование всех заданных значений фильтров производится с применением логического "И" (искомые документы должны удовлетворять всем заданным критериям и фильтрам).
      * 
      * @param documentFilter
      */
@@ -71,7 +71,7 @@ public class AUDGetDocumentRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentArchiveIdRequestParams' element value. РџР°СЂР°РјРµС‚СЂС‹ Р·Р°РїСЂРѕСЃР° РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р°СЂС…РёРІРЅРѕРјСѓ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ.
+     * Get the 'DocumentArchiveIdRequestParams' element value. Параметры запроса документа по архивному идентификатору.
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class AUDGetDocumentRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentArchiveIdRequestParams' element value. РџР°СЂР°РјРµС‚СЂС‹ Р·Р°РїСЂРѕСЃР° РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р°СЂС…РёРІРЅРѕРјСѓ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ.
+     * Set the 'DocumentArchiveIdRequestParams' element value. Параметры запроса документа по архивному идентификатору.
      * 
      * @param documentArchiveIdRequestParams
      */
@@ -91,7 +91,7 @@ public class AUDGetDocumentRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentDataPresenceInfo' element value. РџСЂРёР·РЅР°РєРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РґРµР»СЊРЅС‹С… РґР°РЅРЅС‹С…, СЃРІСЏР·Р°РЅРЅС‹С… СЃ РґРѕРєСѓРјРµРЅС‚РѕРј.
+     * Get the 'DocumentDataPresenceInfo' element value. Признаки необходимости предоставления отдельных данных, связанных с документом.
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class AUDGetDocumentRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentDataPresenceInfo' element value. РџСЂРёР·РЅР°РєРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РґРµР»СЊРЅС‹С… РґР°РЅРЅС‹С…, СЃРІСЏР·Р°РЅРЅС‹С… СЃ РґРѕРєСѓРјРµРЅС‚РѕРј.
+     * Set the 'DocumentDataPresenceInfo' element value. Признаки необходимости предоставления отдельных данных, связанных с документом.
      * 
      * @param documentDataPresenceInfo
      */
@@ -110,7 +110,7 @@ public class AUDGetDocumentRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class AUDGetDocumentRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @param documentModeID
      */

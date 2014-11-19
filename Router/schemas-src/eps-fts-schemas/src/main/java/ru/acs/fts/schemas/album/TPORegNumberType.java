@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўРџРћ
+ * Справочный номер ТПО
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -24,7 +24,7 @@ public class TPORegNumberType
     private String docNumber;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class TPORegNumberType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
      * 
      * @param customsCode
      */
@@ -42,7 +42,7 @@ public class TPORegNumberType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RegistrationDate' element value. Дата регистрации документа
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class TPORegNumberType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RegistrationDate' element value. Дата регистрации документа
      * 
      * @param registrationDate
      */
@@ -60,7 +60,7 @@ public class TPORegNumberType
     }
 
     /** 
-     * Get the 'DocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё/С‚РёРїРѕРіСЂР°С„СЃРєРёР№ РЅРѕРјРµСЂ
+     * Get the 'DocNumber' element value. Номер документа по журналу регистрации/типографский номер
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class TPORegNumberType
     }
 
     /** 
-     * Set the 'DocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё/С‚РёРїРѕРіСЂР°С„СЃРєРёР№ РЅРѕРјРµСЂ
+     * Set the 'DocNumber' element value. Номер документа по журналу регистрации/типографский номер
      * 
      * @param docNumber
      */

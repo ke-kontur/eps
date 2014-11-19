@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚ РѕР±РЅРѕРІР»РµРЅРёСЏ Р‘Р”
+ * Результат обновления БД
  */
 public class UpdateDBResultType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class UpdateDBResultType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ResultCode' element value. Р РµР·СѓР»СЊС‚Р°С‚(РєРѕРґ)
+     * Get the 'ResultCode' element value. Результат(код)
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class UpdateDBResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResultCode' element value. Р РµР·СѓР»СЊС‚Р°С‚(РєРѕРґ)
+     * Set the 'ResultCode' element value. Результат(код)
      * 
      * @param resultCode
      */
@@ -34,7 +34,7 @@ public class UpdateDBResultType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ResultDescription' element items. РћРїРёСЃР°РЅРёРµ  
+     * Get the list of 'ResultDescription' element items. Описание  
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class UpdateDBResultType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ResultDescription' element items. РћРїРёСЃР°РЅРёРµ  
+     * Set the list of 'ResultDescription' element items. Описание  
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class UpdateDBResultType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RowResult' element items. Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё СЃС‚СЂРѕРєРё Р·Р°РїРёСЃРё
+     * Get the list of 'RowResult' element items. Результат обработки строки записи
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class UpdateDBResultType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RowResult' element items. Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё СЃС‚СЂРѕРєРё Р·Р°РїРёСЃРё
+     * Set the list of 'RowResult' element items. Результат обработки строки записи
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class UpdateDBResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class UpdateDBResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

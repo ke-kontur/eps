@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.realestateexcerpt;
 
 /** 
- * РљРѕР»РёС‡РµСЃС‚РІРѕ
+ * Количество
  */
 public class QuantityType
 {
@@ -11,7 +11,7 @@ public class QuantityType
     private String sheetQuantity;
 
     /** 
-     * Get the 'OriginalSign' element value. РџСЂРёР·РЅР°Рє РїРѕРґР»РёРЅРЅРѕСЃС‚Рё
+     * Get the 'OriginalSign' element value. Признак подлинности
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class QuantityType
     }
 
     /** 
-     * Set the 'OriginalSign' element value. РџСЂРёР·РЅР°Рє РїРѕРґР»РёРЅРЅРѕСЃС‚Рё
+     * Set the 'OriginalSign' element value. Признак подлинности
      * 
      * @param originalSign
      */
@@ -29,7 +29,7 @@ public class QuantityType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»-РІРѕ СЌРєР·РµРјРїР»СЏСЂРѕРІ
+     * Get the 'Quantity' element value. Кол-во экземпляров
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class QuantityType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»-РІРѕ СЌРєР·РµРјРїР»СЏСЂРѕРІ
+     * Set the 'Quantity' element value. Кол-во экземпляров
      * 
      * @param quantity
      */
@@ -47,7 +47,7 @@ public class QuantityType
     }
 
     /** 
-     * Get the 'SheetQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ
+     * Get the 'SheetQuantity' element value. Количество листов
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class QuantityType
     }
 
     /** 
-     * Set the 'SheetQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ
+     * Set the 'SheetQuantity' element value. Количество листов
      * 
      * @param sheetQuantity
      */

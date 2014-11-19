@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
+ * Сведения об организации
  */
 public class OrganizationType extends OrganizationBaseType
 {
@@ -12,7 +12,7 @@ public class OrganizationType extends OrganizationBaseType
     private ContactType contact;
 
     /** 
-     * Get the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ
+     * Get the 'OKPOID' element value. Код организации по ОКПО
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class OrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ
+     * Set the 'OKPOID' element value. Код организации по ОКПО
      * 
      * @param OKPOID
      */
@@ -30,7 +30,7 @@ public class OrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OKATOCode' element value. РљРѕРґ РћРљРђРўРћ
+     * Get the 'OKATOCode' element value. Код ОКАТО
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class OrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OKATOCode' element value. РљРѕРґ РћРљРђРўРћ
+     * Set the 'OKATOCode' element value. Код ОКАТО
      * 
      * @param OKATOCode
      */
@@ -48,7 +48,7 @@ public class OrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ 
+     * Get the 'Address' element value. Адрес 
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class OrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ 
+     * Set the 'Address' element value. Адрес 
      * 
      * @param address
      */
@@ -66,7 +66,7 @@ public class OrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'Contact' element value. Контактная информация
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class OrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'Contact' element value. Контактная информация
      * 
      * @param contact
      */

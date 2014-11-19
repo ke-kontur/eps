@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.residentapplication;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРѕРіР»Р°С€РµРЅРёРµ Рѕ РІРµРґРµРЅРёРё РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё 
+ * Соглашение о ведении деятельности 
  */
 public class ActivitiesAgreementType
 {
@@ -14,7 +14,7 @@ public class ActivitiesAgreementType
     private String numberOfPages;
 
     /** 
-     * Get the 'AgreementDate' element value. Р”Р°С‚Р° СЃРѕРіР»Р°С€РµРЅРёСЏ Рѕ РІРµРґРµРЅРёРё РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё 
+     * Get the 'AgreementDate' element value. Дата соглашения о ведении деятельности 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ActivitiesAgreementType
     }
 
     /** 
-     * Set the 'AgreementDate' element value. Р”Р°С‚Р° СЃРѕРіР»Р°С€РµРЅРёСЏ Рѕ РІРµРґРµРЅРёРё РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё 
+     * Set the 'AgreementDate' element value. Дата соглашения о ведении деятельности 
      * 
      * @param agreementDate
      */
@@ -32,7 +32,7 @@ public class ActivitiesAgreementType
     }
 
     /** 
-     * Get the 'AgreementPlace' element value. РњРµСЃС‚Рѕ Р·Р°РєР»СЋС‡РµРЅРёСЏ СЃРѕРіР»Р°С€РµРЅРёСЏ Рѕ РІРµРґРµРЅРёРё РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё 
+     * Get the 'AgreementPlace' element value. Место заключения соглашения о ведении деятельности 
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ActivitiesAgreementType
     }
 
     /** 
-     * Set the 'AgreementPlace' element value. РњРµСЃС‚Рѕ Р·Р°РєР»СЋС‡РµРЅРёСЏ СЃРѕРіР»Р°С€РµРЅРёСЏ Рѕ РІРµРґРµРЅРёРё РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё 
+     * Set the 'AgreementPlace' element value. Место заключения соглашения о ведении деятельности 
      * 
      * @param agreementPlace
      */
@@ -50,7 +50,7 @@ public class ActivitiesAgreementType
     }
 
     /** 
-     * Get the 'ActivitiesType' element value. РўРёРї РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё: 0 - РїСЂРѕРјС‹С€Р»РµРЅРЅРѕ-РїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅР°СЏ; 1 - С‚РµС…РЅРёРєРѕ-РІРЅРµРґСЂРµРЅС‡РµСЃРєР°СЏ 
+     * Get the 'ActivitiesType' element value. Тип деятельности: 0 - промышленно-производственная; 1 - технико-внедренческая 
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ActivitiesAgreementType
     }
 
     /** 
-     * Set the 'ActivitiesType' element value. РўРёРї РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё: 0 - РїСЂРѕРјС‹С€Р»РµРЅРЅРѕ-РїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅР°СЏ; 1 - С‚РµС…РЅРёРєРѕ-РІРЅРµРґСЂРµРЅС‡РµСЃРєР°СЏ 
+     * Set the 'ActivitiesType' element value. Тип деятельности: 0 - промышленно-производственная; 1 - технико-внедренческая 
      * 
      * @param activitiesType
      */
@@ -68,7 +68,7 @@ public class ActivitiesAgreementType
     }
 
     /** 
-     * Get the 'NumberOfPages' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ СЃРѕРіР»Р°С€РµРЅРёСЏ Рѕ РІРµРґРµРЅРёРё РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё 
+     * Get the 'NumberOfPages' element value. Количество листов соглашения о ведении деятельности 
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ActivitiesAgreementType
     }
 
     /** 
-     * Set the 'NumberOfPages' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ СЃРѕРіР»Р°С€РµРЅРёСЏ Рѕ РІРµРґРµРЅРёРё РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё 
+     * Set the 'NumberOfPages' element value. Количество листов соглашения о ведении деятельности 
      * 
      * @param numberOfPages
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.admin.statusupdaterequest;
 
 /** 
- * РЎРѕР±С‹С‚РёРµ
+ * Событие
  */
 public enum EventEnumeration {
     NO_EVENT, DIFF_RTU_EVENT

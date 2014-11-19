@@ -12,7 +12,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РџР»Р°С‚РµР¶РЅРѕРµ С‚СЂРµР±РѕРІР°РЅРёРµ
+ * Платежное требование
  */
 public class PaymentDemandType extends BaseDocType
 {
@@ -42,7 +42,7 @@ public class PaymentDemandType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PaymentAmount' element value. РЎСѓРјРјР°
+     * Get the 'PaymentAmount' element value. Сумма
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. РЎСѓРјРјР°
+     * Set the 'PaymentAmount' element value. Сумма
      * 
      * @param paymentAmount
      */
@@ -60,7 +60,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransactionKind' element value. Р’РёРґ РѕРїРµСЂР°С†РёРё. Р¤РёРєСЃРёСЂРѕРІР°РЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ "01"
+     * Get the 'TransactionKind' element value. Вид операции. Фиксированное значение "01"
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransactionKind' element value. Р’РёРґ РѕРїРµСЂР°С†РёРё. Р¤РёРєСЃРёСЂРѕРІР°РЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ "01"
+     * Set the 'TransactionKind' element value. Вид операции. Фиксированное значение "01"
      * 
      * @param transactionKind
      */
@@ -78,7 +78,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReceiptDateCollectBank' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РїРѕР»СѓС‡Р°С‚РµР»РµРј РІ РѕР±СЃР»СѓР¶РёРІР°СЋС‰РёР№ РµРіРѕ Р±Р°РЅРє 
+     * Get the 'ReceiptDateCollectBank' element value. Дата представления документов получателем в обслуживающий его банк 
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceiptDateCollectBank' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РїРѕР»СѓС‡Р°С‚РµР»РµРј РІ РѕР±СЃР»СѓР¶РёРІР°СЋС‰РёР№ РµРіРѕ Р±Р°РЅРє 
+     * Set the 'ReceiptDateCollectBank' element value. Дата представления документов получателем в обслуживающий его банк 
      * 
      * @param receiptDateCollectBank
      */
@@ -96,7 +96,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReceiptDate' element value. Р”Р°С‚Р° РїРѕСЃС‚СѓРїР»РµРЅРёСЏ СЂР°СЃС‡РµС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ Р±Р°РЅРє РїР»Р°С‚РµР»СЊС‰РёРєР°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РїР»Р°С‚РµР¶Р°С… РєР»РёРµРЅС‚Р° РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё  (РїРѕСЃС‚СѓРї. РІ Р±Р°РЅРє. РїР»Р°С‚)
+     * Get the 'ReceiptDate' element value. Дата поступления расчетного документа в банк плательщика. Заполняется при платежах клиента кредитной организации  (поступ. в банк. плат)
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceiptDate' element value. Р”Р°С‚Р° РїРѕСЃС‚СѓРїР»РµРЅРёСЏ СЂР°СЃС‡РµС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ Р±Р°РЅРє РїР»Р°С‚РµР»СЊС‰РёРєР°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РїР»Р°С‚РµР¶Р°С… РєР»РёРµРЅС‚Р° РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё  (РїРѕСЃС‚СѓРї. РІ Р±Р°РЅРє. РїР»Р°С‚)
+     * Set the 'ReceiptDate' element value. Дата поступления расчетного документа в банк плательщика. Заполняется при платежах клиента кредитной организации  (поступ. в банк. плат)
      * 
      * @param receiptDate
      */
@@ -114,7 +114,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'ChargeOffDate' element value. Р”Р°С‚Р° СЃРїРёСЃР°РЅРёСЏ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ СЃРѕ СЃС‡РµС‚Р° РїР»Р°С‚РµР»СЊС‰РёРєР°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РїР»Р°С‚РµР¶Р°С… РєР»РёРµРЅС‚Р° РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё (РЎРїРёСЃР°РЅРѕ СЃРѕ СЃС‡. РїР»Р°С‚.)
+     * Get the 'ChargeOffDate' element value. Дата списания денежных средств со счета плательщика. Заполняется при платежах клиента кредитной организации (Списано со сч. плат.)
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'ChargeOffDate' element value. Р”Р°С‚Р° СЃРїРёСЃР°РЅРёСЏ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ СЃРѕ СЃС‡РµС‚Р° РїР»Р°С‚РµР»СЊС‰РёРєР°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РїР»Р°С‚РµР¶Р°С… РєР»РёРµРЅС‚Р° РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё (РЎРїРёСЃР°РЅРѕ СЃРѕ СЃС‡. РїР»Р°С‚.)
+     * Set the 'ChargeOffDate' element value. Дата списания денежных средств со счета плательщика. Заполняется при платежах клиента кредитной организации (Списано со сч. плат.)
      * 
      * @param chargeOffDate
      */
@@ -132,7 +132,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'MaturiryDate' element value. РћРєРѕРЅС‡Р°РЅРёРµ СЃСЂРѕРєР° Р°РєС†РµРїС‚Р°
+     * Get the 'MaturiryDate' element value. Окончание срока акцепта
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'MaturiryDate' element value. РћРєРѕРЅС‡Р°РЅРёРµ СЃСЂРѕРєР° Р°РєС†РµРїС‚Р°
+     * Set the 'MaturiryDate' element value. Окончание срока акцепта
      * 
      * @param maturiryDate
      */
@@ -150,7 +150,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'AcceptanceAmount' element value. РЎСѓРјРјР° РёСЃС…РѕРґРЅРѕРіРѕ СЂР°СЃС‡РµС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РїСЂРµРґСЉСЏРІР»РµРЅРЅРѕРіРѕ Рє Р°РєС†РµРїС‚Сѓ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё С‡Р°СЃС‚РёС‡РЅРѕРј Р°РєС†РµРїС‚Рµ (РїРѕРјРёРјРѕ Р°РєС†РµРїС‚РѕРІР°РЅРЅРѕР№ СЃСѓРјРјС‹, РїРѕРґР»РµР¶Р°С‰РµР№ Рє РѕРїР»Р°С‚Рµ)
+     * Get the 'AcceptanceAmount' element value. Сумма исходного расчетного документа, предъявленного к акцепту. Заполняется при частичном акцепте (помимо акцептованной суммы, подлежащей к оплате)
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'AcceptanceAmount' element value. РЎСѓРјРјР° РёСЃС…РѕРґРЅРѕРіРѕ СЂР°СЃС‡РµС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РїСЂРµРґСЉСЏРІР»РµРЅРЅРѕРіРѕ Рє Р°РєС†РµРїС‚Сѓ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё С‡Р°СЃС‚РёС‡РЅРѕРј Р°РєС†РµРїС‚Рµ (РїРѕРјРёРјРѕ Р°РєС†РµРїС‚РѕРІР°РЅРЅРѕР№ СЃСѓРјРјС‹, РїРѕРґР»РµР¶Р°С‰РµР№ Рє РѕРїР»Р°С‚Рµ)
+     * Set the 'AcceptanceAmount' element value. Сумма исходного расчетного документа, предъявленного к акцепту. Заполняется при частичном акцепте (помимо акцептованной суммы, подлежащей к оплате)
      * 
      * @param acceptanceAmount
      */
@@ -168,7 +168,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocDispatchDate' element value. Р”Р°С‚Р° РѕС‚СЃС‹Р»РєРё (РІСЂСѓС‡РµРЅРёСЏ) РїР»Р°С‚РµР»СЊС‰РёРєСѓ РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅС‹С… РґРѕРіРѕРІРѕСЂРѕРј РґРѕРєСѓРјРµРЅС‚РѕРІ. РџСЂРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё СЌС‚Рё РґРѕРєСѓРјРµРЅС‚С‹ Р±С‹Р»Рё РѕС‚РѕСЃР»Р°РЅС‹ (РІСЂСѓС‡РµРЅС‹) РїРѕР»СѓС‡Р°С‚РµР»РµРј СЃСЂРµРґСЃС‚РІ РїР»Р°С‚РµР»СЊС‰РёРєСѓ
+     * Get the 'DocDispatchDate' element value. Дата отсылки (вручения) плательщику предусмотренных договором документов. Проставляется в случае, если эти документы были отосланы (вручены) получателем средств плательщику
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocDispatchDate' element value. Р”Р°С‚Р° РѕС‚СЃС‹Р»РєРё (РІСЂСѓС‡РµРЅРёСЏ) РїР»Р°С‚РµР»СЊС‰РёРєСѓ РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅС‹С… РґРѕРіРѕРІРѕСЂРѕРј РґРѕРєСѓРјРµРЅС‚РѕРІ. РџСЂРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё СЌС‚Рё РґРѕРєСѓРјРµРЅС‚С‹ Р±С‹Р»Рё РѕС‚РѕСЃР»Р°РЅС‹ (РІСЂСѓС‡РµРЅС‹) РїРѕР»СѓС‡Р°С‚РµР»РµРј СЃСЂРµРґСЃС‚РІ РїР»Р°С‚РµР»СЊС‰РёРєСѓ
+     * Set the 'DocDispatchDate' element value. Дата отсылки (вручения) плательщику предусмотренных договором документов. Проставляется в случае, если эти документы были отосланы (вручены) получателем средств плательщику
      * 
      * @param docDispatchDate
      */
@@ -186,7 +186,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'AcceptanceTerm' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РґР»СЏ Р°РєС†РµРїС‚Р°, СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕРіРѕ РґРѕРіРѕРІРѕСЂРѕРј, РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РїР»Р°С‚РµР¶ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ РїСЂРё СѓСЃР»РѕРІРёРё Р°РєС†РµРїС‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ С‚СЂРµР±РѕРІР°РЅРёСЏ РїР»Р°С‚РµР»СЊС‰РёРєРѕРј
+     * Get the 'AcceptanceTerm' element value. Количество дней для акцепта, установленного договором, в случае, если платеж производится при условии акцепта платежного требования плательщиком
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'AcceptanceTerm' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РґР»СЏ Р°РєС†РµРїС‚Р°, СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕРіРѕ РґРѕРіРѕРІРѕСЂРѕРј, РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РїР»Р°С‚РµР¶ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ РїСЂРё СѓСЃР»РѕРІРёРё Р°РєС†РµРїС‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ С‚СЂРµР±РѕРІР°РЅРёСЏ РїР»Р°С‚РµР»СЊС‰РёРєРѕРј
+     * Set the 'AcceptanceTerm' element value. Количество дней для акцепта, установленного договором, в случае, если платеж производится при условии акцепта платежного требования плательщиком
      * 
      * @param acceptanceTerm
      */
@@ -204,7 +204,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentCondition' element value. РЈСЃР»РѕРІРёРµ РѕРїР»Р°С‚С‹ Р°РєРєСЂРµРґРёС‚РёРІР° РёР»Рё РїР»Р°С‚РµР¶РЅРѕРіРѕ С‚СЂРµР±РѕРІР°РЅРёСЏ (1 - СЃ Р°РєС†РµРїС‚РѕРј, 2 - Р±РµР· Р°РєС†РµРїС‚Р°)
+     * Get the 'PaymentCondition' element value. Условие оплаты аккредитива или платежного требования (1 - с акцептом, 2 - без акцепта)
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentCondition' element value. РЈСЃР»РѕРІРёРµ РѕРїР»Р°С‚С‹ Р°РєРєСЂРµРґРёС‚РёРІР° РёР»Рё РїР»Р°С‚РµР¶РЅРѕРіРѕ С‚СЂРµР±РѕРІР°РЅРёСЏ (1 - СЃ Р°РєС†РµРїС‚РѕРј, 2 - Р±РµР· Р°РєС†РµРїС‚Р°)
+     * Set the 'PaymentCondition' element value. Условие оплаты аккредитива или платежного требования (1 - с акцептом, 2 - без акцепта)
      * 
      * @param paymentCondition
      */
@@ -222,7 +222,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'Priority' element value. РћС‡РµСЂРµРґРЅРѕСЃС‚СЊ РїР»Р°С‚РµР¶Р°
+     * Get the 'Priority' element value. Очередность платежа
      * 
      * @return value
      */
@@ -231,7 +231,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'Priority' element value. РћС‡РµСЂРµРґРЅРѕСЃС‚СЊ РїР»Р°С‚РµР¶Р°
+     * Set the 'Priority' element value. Очередность платежа
      * 
      * @param priority
      */
@@ -240,7 +240,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'Purpose' element value. РќР°Р·РЅР°С‡РµРЅРёРµ РїР»Р°С‚РµР¶Р°
+     * Get the 'Purpose' element value. Назначение платежа
      * 
      * @return value
      */
@@ -249,7 +249,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'Purpose' element value. РќР°Р·РЅР°С‡РµРЅРёРµ РїР»Р°С‚РµР¶Р°
+     * Set the 'Purpose' element value. Назначение платежа
      * 
      * @param purpose
      */
@@ -258,7 +258,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'ValueSpelledOut' element value. РЎСѓРјРјР° РїСЂРѕРїРёСЃСЊСЋ
+     * Get the 'ValueSpelledOut' element value. Сумма прописью
      * 
      * @return value
      */
@@ -267,7 +267,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'ValueSpelledOut' element value. РЎСѓРјРјР° РїСЂРѕРїРёСЃСЊСЋ
+     * Set the 'ValueSpelledOut' element value. Сумма прописью
      * 
      * @param valueSpelledOut
      */
@@ -276,7 +276,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° (0 - РЅРµ Р·Р°РїРѕР»РЅРµРЅРѕ, 1 - СЌР»РµРєС‚СЂРѕРЅРЅРѕ, 2 - РїРѕС‡С‚РѕР№, 3 - С‚РµР»РµРіСЂР°С„РѕРј)
+     * Get the 'PaymentModeCode' element value. Код вида платежа (0 - не заполнено, 1 - электронно, 2 - почтой, 3 - телеграфом)
      * 
      * @return value
      */
@@ -285,7 +285,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° (0 - РЅРµ Р·Р°РїРѕР»РЅРµРЅРѕ, 1 - СЌР»РµРєС‚СЂРѕРЅРЅРѕ, 2 - РїРѕС‡С‚РѕР№, 3 - С‚РµР»РµРіСЂР°С„РѕРј)
+     * Set the 'PaymentModeCode' element value. Код вида платежа (0 - не заполнено, 1 - электронно, 2 - почтой, 3 - телеграфом)
      * 
      * @param paymentModeCode
      */
@@ -294,7 +294,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'FinCardDate' element value. Р”Р°С‚Р° РїРѕРјРµС‰РµРЅРёСЏ РІ РєР°СЂС‚РѕС‚РµРєСѓ
+     * Get the 'FinCardDate' element value. Дата помещения в картотеку
      * 
      * @return value
      */
@@ -303,7 +303,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'FinCardDate' element value. Р”Р°С‚Р° РїРѕРјРµС‰РµРЅРёСЏ РІ РєР°СЂС‚РѕС‚РµРєСѓ
+     * Set the 'FinCardDate' element value. Дата помещения в картотеку
      * 
      * @param finCardDate
      */
@@ -312,7 +312,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentReference' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentReference' element value. Реквизиты документа
      * 
      * @return value
      */
@@ -321,7 +321,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentReference' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentReference' element value. Реквизиты документа
      * 
      * @param documentReference
      */
@@ -330,7 +330,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'Payer' element value. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Get the 'Payer' element value. Реквизиты плательщика
      * 
      * @return value
      */
@@ -339,7 +339,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'Payer' element value. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Set the 'Payer' element value. Реквизиты плательщика
      * 
      * @param payer
      */
@@ -348,7 +348,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'Payee' element value. Р РµРєРІРёР·РёС‚С‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
+     * Get the 'Payee' element value. Реквизиты получателя
      * 
      * @return value
      */
@@ -357,7 +357,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'Payee' element value. Р РµРєРІРёР·РёС‚С‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
+     * Set the 'Payee' element value. Реквизиты получателя
      * 
      * @param payee
      */
@@ -366,7 +366,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentConditionRef' element value. РЈСЃР»РѕРІРёРµ РѕРїР»Р°С‚С‹. РџСЂРё СЃРїРёСЃР°РЅРёРё СЃСЂРµРґСЃС‚РІ Р±РµР· Р°РєС†РµРїС‚Р° РїР»Р°С‚РµР»СЊС‰РёРєР° - СЃСЃС‹Р»РєР° РЅР° РЅРѕРјРµСЂ, РґР°С‚Сѓ РїСЂРёРЅСЏС‚РёСЏ Рё СЃС‚Р°С‚СЊСЋ Р·Р°РєРѕРЅР° РёР»Рё РЅРѕРјРµСЂ, РґР°С‚Сѓ Рё РїСѓРЅРєС‚ РґРѕРіРѕРІРѕСЂР° Рѕ РїСЂР°РІРµ Р±РµР·Р°РєС†РµРїС‚РЅРѕРіРѕ СЃРїРёСЃР°РЅРёСЏ
+     * Get the 'PaymentConditionRef' element value. Условие оплаты. При списании средств без акцепта плательщика - ссылка на номер, дату принятия и статью закона или номер, дату и пункт договора о праве безакцептного списания
      * 
      * @return value
      */
@@ -375,7 +375,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentConditionRef' element value. РЈСЃР»РѕРІРёРµ РѕРїР»Р°С‚С‹. РџСЂРё СЃРїРёСЃР°РЅРёРё СЃСЂРµРґСЃС‚РІ Р±РµР· Р°РєС†РµРїС‚Р° РїР»Р°С‚РµР»СЊС‰РёРєР° - СЃСЃС‹Р»РєР° РЅР° РЅРѕРјРµСЂ, РґР°С‚Сѓ РїСЂРёРЅСЏС‚РёСЏ Рё СЃС‚Р°С‚СЊСЋ Р·Р°РєРѕРЅР° РёР»Рё РЅРѕРјРµСЂ, РґР°С‚Сѓ Рё РїСѓРЅРєС‚ РґРѕРіРѕРІРѕСЂР° Рѕ РїСЂР°РІРµ Р±РµР·Р°РєС†РµРїС‚РЅРѕРіРѕ СЃРїРёСЃР°РЅРёСЏ
+     * Set the 'PaymentConditionRef' element value. Условие оплаты. При списании средств без акцепта плательщика - ссылка на номер, дату принятия и статью закона или номер, дату и пункт договора о праве безакцептного списания
      * 
      * @param paymentConditionRef
      */
@@ -384,7 +384,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DocumentSign' element items. РџРѕРґРїРёСЃРё
+     * Get the list of 'DocumentSign' element items. Подписи
      * 
      * @return list
      */
@@ -393,7 +393,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DocumentSign' element items. РџРѕРґРїРёСЃРё
+     * Set the list of 'DocumentSign' element items. Подписи
      * 
      * @param list
      */
@@ -402,7 +402,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RecipBankMark' element items. РћС‚РјРµС‚РєРё Р±Р°РЅРєР° РїРѕР»СѓС‡Р°С‚РµР»СЏ
+     * Get the list of 'RecipBankMark' element items. Отметки банка получателя
      * 
      * @return list
      */
@@ -411,7 +411,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RecipBankMark' element items. РћС‚РјРµС‚РєРё Р±Р°РЅРєР° РїРѕР»СѓС‡Р°С‚РµР»СЏ
+     * Set the list of 'RecipBankMark' element items. Отметки банка получателя
      * 
      * @param list
      */
@@ -420,7 +420,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PayBankMark' element items. РћС‚РјРµС‚РєРё Р±Р°РЅРєР° РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Get the list of 'PayBankMark' element items. Отметки банка плательщика
      * 
      * @return list
      */
@@ -429,7 +429,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PayBankMark' element items. РћС‚РјРµС‚РєРё Р±Р°РЅРєР° РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Set the list of 'PayBankMark' element items. Отметки банка плательщика
      * 
      * @param list
      */
@@ -438,7 +438,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PartPayment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‡Р°СЃС‚РёС‡РЅРѕРј РїР»Р°С‚РµР¶Рµ
+     * Get the list of 'PartPayment' element items. Сведения о частичном платеже
      * 
      * @return list
      */
@@ -447,7 +447,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PartPayment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‡Р°СЃС‚РёС‡РЅРѕРј РїР»Р°С‚РµР¶Рµ
+     * Set the list of 'PartPayment' element items. Сведения о частичном платеже
      * 
      * @param list
      */
@@ -456,7 +456,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -465,7 +465,7 @@ public class PaymentDemandType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

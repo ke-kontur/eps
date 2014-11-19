@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚ СЌРєСЃРїРµСЂС‚РёР·С‹
+ * Результат экспертизы
  */
 public class ResultsExaminationType
 {
@@ -16,7 +16,7 @@ public class ResultsExaminationType
     private List<String> sampleList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'NameProduction' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёР·РґРµР»РёР№ (РјР°С‚РµСЂРёР°Р»РѕРІ)
+     * Get the list of 'NameProduction' element items. Наименование изделий (материалов)
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class ResultsExaminationType
     }
 
     /** 
-     * Set the list of 'NameProduction' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёР·РґРµР»РёР№ (РјР°С‚РµСЂРёР°Р»РѕРІ)
+     * Set the list of 'NameProduction' element items. Наименование изделий (материалов)
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class ResultsExaminationType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ, С€С‚.
+     * Get the 'Quantity' element value. Количество, шт.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ResultsExaminationType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ, С€С‚.
+     * Set the 'Quantity' element value. Количество, шт.
      * 
      * @param quantity
      */
@@ -52,7 +52,7 @@ public class ResultsExaminationType
     }
 
     /** 
-     * Get the 'WeighQuantity' element value. РњР°СЃСЃР°, Рі
+     * Get the 'WeighQuantity' element value. Масса, г
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ResultsExaminationType
     }
 
     /** 
-     * Set the 'WeighQuantity' element value. РњР°СЃСЃР°, Рі
+     * Set the 'WeighQuantity' element value. Масса, г
      * 
      * @param weighQuantity
      */
@@ -70,7 +70,7 @@ public class ResultsExaminationType
     }
 
     /** 
-     * Get the list of 'NameMetal' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґСЂР°РіРѕС†РµРЅРЅРѕРіРѕ РјРµС‚Р°Р»Р»Р° (РЅРµРґСЂР°РіРјРµС‚Р°Р»Р»Р°)
+     * Get the list of 'NameMetal' element items. Наименование драгоценного металла (недрагметалла)
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class ResultsExaminationType
     }
 
     /** 
-     * Set the list of 'NameMetal' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґСЂР°РіРѕС†РµРЅРЅРѕРіРѕ РјРµС‚Р°Р»Р»Р° (РЅРµРґСЂР°РіРјРµС‚Р°Р»Р»Р°)
+     * Set the list of 'NameMetal' element items. Наименование драгоценного металла (недрагметалла)
      * 
      * @param list
      */
@@ -88,7 +88,7 @@ public class ResultsExaminationType
     }
 
     /** 
-     * Get the list of 'Sample' element items. РџСЂРѕР±Р°
+     * Get the list of 'Sample' element items. Проба
      * 
      * @return list
      */
@@ -97,7 +97,7 @@ public class ResultsExaminationType
     }
 
     /** 
-     * Set the list of 'Sample' element items. РџСЂРѕР±Р°
+     * Set the list of 'Sample' element items. Проба
      * 
      * @param list
      */

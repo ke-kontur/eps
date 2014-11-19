@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.billoflading;
 import org.joda.time.LocalDate;
 
 /** 
- * Р¤Р°РјРёР»РёСЏ.РРјСЏ.РћС‚С‡РµСЃС‚РІРѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° Рё РµРіРѕ РїРѕСЃС‚.
+ * Фамилия.Имя.Отчество должностного лица и его пост.
  */
 public class PersonNamePostTypeType
 {
@@ -13,7 +13,7 @@ public class PersonNamePostTypeType
     private LocalDate issueDate;
 
     /** 
-     * Get the 'PersonName' element value. Р¤Р°РјРёР»РёСЏ. РРјСЏ. РћС‚С‡РµСЃС‚РІРѕ.
+     * Get the 'PersonName' element value. Фамилия. Имя. Отчество.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PersonNamePostTypeType
     }
 
     /** 
-     * Set the 'PersonName' element value. Р¤Р°РјРёР»РёСЏ. РРјСЏ. РћС‚С‡РµСЃС‚РІРѕ.
+     * Set the 'PersonName' element value. Фамилия. Имя. Отчество.
      * 
      * @param personName
      */
@@ -31,7 +31,7 @@ public class PersonNamePostTypeType
     }
 
     /** 
-     * Get the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ.
+     * Get the 'PersonPost' element value. Должность.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class PersonNamePostTypeType
     }
 
     /** 
-     * Set the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ.
+     * Set the 'PersonPost' element value. Должность.
      * 
      * @param personPost
      */
@@ -49,7 +49,7 @@ public class PersonNamePostTypeType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ.
+     * Get the 'IssueDate' element value. Дата подписания.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class PersonNamePostTypeType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ.
+     * Set the 'IssueDate' element value. Дата подписания.
      * 
      * @param issueDate
      */

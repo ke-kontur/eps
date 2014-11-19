@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DeliveryTermsType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+ * Сведения о товаре
  */
 public class CUESADGoodsItemType extends GoodsItemBaseType
 {
@@ -34,7 +34,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     private List<GoodsSTZType> goodsSTZList = new ArrayList<GoodsSTZType>();
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ. Р“СЂ.33 РїРµСЂРІС‹Р№ СЂР°Р·РґРµР»
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС. Гр.33 первый раздел
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ. Р“СЂ.33 РїРµСЂРІС‹Р№ СЂР°Р·РґРµР»
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС. Гр.33 первый раздел
      * 
      * @param goodsTNVEDCode
      */
@@ -52,7 +52,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'GoodsClassificationCode' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё РєРѕРґР°: 1 - РѕР±С‰РёР№ "Рћ", 2 - С‚РѕРІР°СЂ СЃРїРёСЃРєР°. Р’ РѕСЃС‚Р°Р»СЊРЅС‹С… СЃР»СѓС‡Р°СЏС… РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
+     * Get the 'GoodsClassificationCode' element value. Особенность классификации кода: 1 - общий "О", 2 - товар списка. В остальных случаях не заполняется
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'GoodsClassificationCode' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё РєРѕРґР°: 1 - РѕР±С‰РёР№ "Рћ", 2 - С‚РѕРІР°СЂ СЃРїРёСЃРєР°. Р’ РѕСЃС‚Р°Р»СЊРЅС‹С… СЃР»СѓС‡Р°СЏС… РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
+     * Set the 'GoodsClassificationCode' element value. Особенность классификации кода: 1 - общий "О", 2 - товар списка. В остальных случаях не заполняется
      * 
      * @param goodsClassificationCode
      */
@@ -70,7 +70,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'AdditionalSign' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РїСЂРёР·РЅР°Рє РЅРµС‚Р°СЂРёС„РЅРѕРіРѕ СЂРµРіСѓР»РёСЂРѕРІР°РЅРёСЏ ("РЎ"). Р“СЂ.33 РІС‚РѕСЂРѕР№ СЂР°Р·РґРµР»
+     * Get the 'AdditionalSign' element value. Дополнительный признак нетарифного регулирования ("С"). Гр.33 второй раздел
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'AdditionalSign' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РїСЂРёР·РЅР°Рє РЅРµС‚Р°СЂРёС„РЅРѕРіРѕ СЂРµРіСѓР»РёСЂРѕРІР°РЅРёСЏ ("РЎ"). Р“СЂ.33 РІС‚РѕСЂРѕР№ СЂР°Р·РґРµР»
+     * Set the 'AdditionalSign' element value. Дополнительный признак нетарифного регулирования ("С"). Гр.33 второй раздел
      * 
      * @param additionalSign
      */
@@ -88,7 +88,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'IntellectPropertySign' element value. РџСЂРёР·РЅР°Рє РѕР±СЉРµРєС‚Р° РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё ("Р"). Р“СЂ.33 РІС‚РѕСЂРѕР№ СЂР°Р·РґРµР»  РІ Р”Рў
+     * Get the 'IntellectPropertySign' element value. Признак объекта интеллектуальной собственности ("И"). Гр.33 второй раздел  в ДТ
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'IntellectPropertySign' element value. РџСЂРёР·РЅР°Рє РѕР±СЉРµРєС‚Р° РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё ("Р"). Р“СЂ.33 РІС‚РѕСЂРѕР№ СЂР°Р·РґРµР»  РІ Р”Рў
+     * Set the 'IntellectPropertySign' element value. Признак объекта интеллектуальной собственности ("И"). Гр.33 второй раздел  в ДТ
      * 
      * @param intellectPropertySign
      */
@@ -106,7 +106,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the list of 'RestrictionSign' element items. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃРѕР±Р»СЋРґРµРЅРёСЏ Р·Р°РїСЂРµС‚РѕРІ Рё РѕРіСЂР°РЅРёС‡РµРЅРёР№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј. Р”Р»СЏ Р Рљ
+     * Get the list of 'RestrictionSign' element items. Буквенный код соблюдения запретов и ограничений в соответствии с классификатором. Для РК
      * 
      * @return list
      */
@@ -115,7 +115,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the list of 'RestrictionSign' element items. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃРѕР±Р»СЋРґРµРЅРёСЏ Р·Р°РїСЂРµС‚РѕРІ Рё РѕРіСЂР°РЅРёС‡РµРЅРёР№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј. Р”Р»СЏ Р Рљ
+     * Set the list of 'RestrictionSign' element items. Буквенный код соблюдения запретов и ограничений в соответствии с классификатором. Для РК
      * 
      * @param list
      */
@@ -124,7 +124,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'BeginPeriodDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР° (РћРџР”)
+     * Get the 'BeginPeriodDate' element value. Дата начала периода (ОПД)
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'BeginPeriodDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР° (РћРџР”)
+     * Set the 'BeginPeriodDate' element value. Дата начала периода (ОПД)
      * 
      * @param beginPeriodDate
      */
@@ -142,7 +142,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'EndPeriodDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР° (РћРџР”)
+     * Get the 'EndPeriodDate' element value. Дата окончания периода (ОПД)
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'EndPeriodDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР° (РћРџР”)
+     * Set the 'EndPeriodDate' element value. Дата окончания периода (ОПД)
      * 
      * @param endPeriodDate
      */
@@ -160,7 +160,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / "EU" / 00 (РЅРµРёР·РІРµСЃС‚РЅР°)  Р“СЂ.34
+     * Get the 'OriginCountryCode' element value. Код страны происхождения по классификатору стран мира / "EU" / 00 (неизвестна)  Гр.34
      * 
      * @return value
      */
@@ -169,7 +169,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / "EU" / 00 (РЅРµРёР·РІРµСЃС‚РЅР°)  Р“СЂ.34
+     * Set the 'OriginCountryCode' element value. Код страны происхождения по классификатору стран мира / "EU" / 00 (неизвестна)  Гр.34
      * 
      * @param originCountryCode
      */
@@ -178,7 +178,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'OriginCountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ / СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕРіРѕ СЃРѕСЋР·Р°
+     * Get the 'OriginCountryName' element value. Краткое название страны происхождения / экономического союза
      * 
      * @return value
      */
@@ -187,7 +187,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'OriginCountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ / СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕРіРѕ СЃРѕСЋР·Р°
+     * Set the 'OriginCountryName' element value. Краткое название страны происхождения / экономического союза
      * 
      * @param originCountryName
      */
@@ -196,7 +196,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'CustomsCostCorrectMethod' element value. РљРѕРґ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р“СЂ. 43
+     * Get the 'CustomsCostCorrectMethod' element value. Код метода определения таможенной стоимости. В соответствии с классификатором методов определения таможенной стоимости. Гр. 43
      * 
      * @return value
      */
@@ -205,7 +205,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'CustomsCostCorrectMethod' element value. РљРѕРґ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р“СЂ. 43
+     * Set the 'CustomsCostCorrectMethod' element value. Код метода определения таможенной стоимости. В соответствии с классификатором методов определения таможенной стоимости. Гр. 43
      * 
      * @param customsCostCorrectMethod
      */
@@ -214,7 +214,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'GoodsAddTNVEDCode' element value. РљРѕРґ  С‚РѕРІР°СЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'GoodsAddTNVEDCode' element value. Код  товара в соответствии с классификатором дополнительной таможенной информации
      * 
      * @return value
      */
@@ -223,7 +223,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'GoodsAddTNVEDCode' element value. РљРѕРґ  С‚РѕРІР°СЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'GoodsAddTNVEDCode' element value. Код  товара в соответствии с классификатором дополнительной таможенной информации
      * 
      * @param goodsAddTNVEDCode
      */
@@ -232,7 +232,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'DeliveryTime' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР° РїРѕСЃС‚Р°РІРєРё. (СЌР»РµРјРµРЅС‚ 7 РіСЂ. 31 Р”Рў)
+     * Get the 'DeliveryTime' element value. Дата начала периода поставки. (элемент 7 гр. 31 ДТ)
      * 
      * @return value
      */
@@ -241,7 +241,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'DeliveryTime' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР° РїРѕСЃС‚Р°РІРєРё. (СЌР»РµРјРµРЅС‚ 7 РіСЂ. 31 Р”Рў)
+     * Set the 'DeliveryTime' element value. Дата начала периода поставки. (элемент 7 гр. 31 ДТ)
      * 
      * @param deliveryTime
      */
@@ -250,7 +250,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'DeliveryTimeEND' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР° РїРѕСЃС‚Р°РІРєРё. (СЌР»РµРјРµРЅС‚ 7 РіСЂ. 31 Р”Рў)
+     * Get the 'DeliveryTimeEND' element value. Дата окончания периода поставки. (элемент 7 гр. 31 ДТ)
      * 
      * @return value
      */
@@ -259,7 +259,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'DeliveryTimeEND' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР° РїРѕСЃС‚Р°РІРєРё. (СЌР»РµРјРµРЅС‚ 7 РіСЂ. 31 Р”Рў)
+     * Set the 'DeliveryTimeEND' element value. Дата окончания периода поставки. (элемент 7 гр. 31 ДТ)
      * 
      * @param deliveryTimeEND
      */
@@ -268,7 +268,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'AdditionalSheetCount' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р»РёСЃС‚Р° (РїРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.3)
+     * Get the 'AdditionalSheetCount' element value. Порядковый номер листа (первый подраздел гр.3)
      * 
      * @return value
      */
@@ -277,7 +277,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'AdditionalSheetCount' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р»РёСЃС‚Р° (РїРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.3)
+     * Set the 'AdditionalSheetCount' element value. Порядковый номер листа (первый подраздел гр.3)
      * 
      * @param additionalSheetCount
      */
@@ -286,7 +286,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'QuantityFact' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ, С„Р°РєС‚РёС‡РµСЃРєРё РїРµСЂРµРґР°РЅРЅС‹С… РїРѕРєСѓРїР°С‚РµР»СЋ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃР»РѕРІРёСЏРјРё РїРѕСЃС‚Р°РІРєРё (СЌР»РµРјРµРЅС‚ 8 РіСЂ. 31 Р”Рў)
+     * Get the 'QuantityFact' element value. Количество товаров, фактически переданных покупателю в соответствии с условиями поставки (элемент 8 гр. 31 ДТ)
      * 
      * @return value
      */
@@ -295,7 +295,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'QuantityFact' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ, С„Р°РєС‚РёС‡РµСЃРєРё РїРµСЂРµРґР°РЅРЅС‹С… РїРѕРєСѓРїР°С‚РµР»СЋ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃР»РѕРІРёСЏРјРё РїРѕСЃС‚Р°РІРєРё (СЌР»РµРјРµРЅС‚ 8 РіСЂ. 31 Р”Рў)
+     * Set the 'QuantityFact' element value. Количество товаров, фактически переданных покупателю в соответствии с условиями поставки (элемент 8 гр. 31 ДТ)
      * 
      * @param quantityFact
      */
@@ -304,7 +304,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'OilField' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕСЂРѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°
+     * Get the 'OilField' element value. Сведения о месторождении товара
      * 
      * @return value
      */
@@ -313,7 +313,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'OilField' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕСЂРѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°
+     * Set the 'OilField' element value. Сведения о месторождении товара
      * 
      * @param oilField
      */
@@ -322,7 +322,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'TNVEDContract' element value. РљРѕРґ С‚РѕРІР°СЂР° РўРќ Р’Р­Р”, РґРµР№СЃС‚РІСѓСЋС‰РёР№ РЅР° РґР°С‚Сѓ Р·Р°РєР»СЋС‡РµРЅРёСЏ РєРѕРЅС‚СЂР°РєС‚РѕРІ СЃ РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»РµРј. Р”Р»СЏ Р Рљ
+     * Get the 'TNVEDContract' element value. Код товара ТН ВЭД, действующий на дату заключения контрактов с недропользователем. Для РК
      * 
      * @return value
      */
@@ -331,7 +331,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'TNVEDContract' element value. РљРѕРґ С‚РѕРІР°СЂР° РўРќ Р’Р­Р”, РґРµР№СЃС‚РІСѓСЋС‰РёР№ РЅР° РґР°С‚Сѓ Р·Р°РєР»СЋС‡РµРЅРёСЏ РєРѕРЅС‚СЂР°РєС‚РѕРІ СЃ РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»РµРј. Р”Р»СЏ Р Рљ
+     * Set the 'TNVEDContract' element value. Код товара ТН ВЭД, действующий на дату заключения контрактов с недропользователем. Для РК
      * 
      * @param TNVEDContract
      */
@@ -340,7 +340,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the list of 'CUESADDeliveryTerms' element items. РЈСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ. Р“СЂ.31 РїСЏС‚С‹Р№ РїРѕРґСЂР°Р·РґРµР»
+     * Get the list of 'CUESADDeliveryTerms' element items. Условия поставки товаров. Гр.31 пятый подраздел
      * 
      * @return list
      */
@@ -349,7 +349,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the list of 'CUESADDeliveryTerms' element items. РЈСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ. Р“СЂ.31 РїСЏС‚С‹Р№ РїРѕРґСЂР°Р·РґРµР»
+     * Set the list of 'CUESADDeliveryTerms' element items. Условия поставки товаров. Гр.31 пятый подраздел
      * 
      * @param list
      */
@@ -358,7 +358,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the list of 'GoodsGroupDescription' element items. РћРїРёСЃР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂРѕРІ / РћРїРёСЃР°РЅРёРµ РіСЂСѓРїРїС‹ С‚РѕРІР°СЂРѕРІ РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ СЃ РѕС‚Р»РёС‡Р°СЋС‰РёРјРёСЃСЏ РѕС‚ РґСЂСѓРіРёС… РіСЂСѓРїРї С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё
+     * Get the list of 'GoodsGroupDescription' element items. Описание и характеристика товаров / Описание группы товаров одного наименования с отличающимися от других групп характеристиками
      * 
      * @return list
      */
@@ -367,7 +367,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the list of 'GoodsGroupDescription' element items. РћРїРёСЃР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂРѕРІ / РћРїРёСЃР°РЅРёРµ РіСЂСѓРїРїС‹ С‚РѕРІР°СЂРѕРІ РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ СЃ РѕС‚Р»РёС‡Р°СЋС‰РёРјРёСЃСЏ РѕС‚ РґСЂСѓРіРёС… РіСЂСѓРїРї С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё
+     * Set the list of 'GoodsGroupDescription' element items. Описание и характеристика товаров / Описание группы товаров одного наименования с отличающимися от других групп характеристиками
      * 
      * @param list
      */
@@ -377,7 +377,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'Preferencii' element value. РџСЂРµС„РµСЂРµРЅС†РёРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р»СЊРіРѕС‚ РїРѕ СѓРїР»Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р“СЂ.36
+     * Get the 'Preferencii' element value. Преференции в соответствии с классификатором льгот по уплате таможенных платежей. Гр.36
      * 
      * @return value
      */
@@ -386,7 +386,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'Preferencii' element value. РџСЂРµС„РµСЂРµРЅС†РёРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р»СЊРіРѕС‚ РїРѕ СѓРїР»Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р“СЂ.36
+     * Set the 'Preferencii' element value. Преференции в соответствии с классификатором льгот по уплате таможенных платежей. Гр.36
      * 
      * @param preferencii
      */
@@ -395,7 +395,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the list of 'GoodsSTZ' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РЎРўР— РёР»Рё СЃРІРѕР±РѕРґРЅРѕРіРѕ СЃРєР»Р°РґР°. РіСЂ 31 Рї 11. Р”Р»СЏ Р Рљ Рё Р Р¤
+     * Get the list of 'GoodsSTZ' element items. Сведения о товарах, помещенных под таможенную процедуру СТЗ или свободного склада. гр 31 п 11. Для РК и РФ
      * 
      * @return list
      */
@@ -404,7 +404,7 @@ public class CUESADGoodsItemType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the list of 'GoodsSTZ' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РЎРўР— РёР»Рё СЃРІРѕР±РѕРґРЅРѕРіРѕ СЃРєР»Р°РґР°. РіСЂ 31 Рї 11. Р”Р»СЏ Р Рљ Рё Р Р¤
+     * Set the list of 'GoodsSTZ' element items. Сведения о товарах, помещенных под таможенную процедуру СТЗ или свободного склада. гр 31 п 11. Для РК и РФ
      * 
      * @param list
      */

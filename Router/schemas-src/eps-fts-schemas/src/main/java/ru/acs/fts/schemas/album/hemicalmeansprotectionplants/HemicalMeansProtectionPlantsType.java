@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· Р·Р°РєР»СЋС‡РµРЅРёР№ Рѕ С†РµР»РµСЃРѕРѕР±СЂР°Р·РЅРѕСЃС‚Рё РІРІРѕР·Р° РѕР±СЂР°Р·С†РѕРІ РЅРµР·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹С… С…РёРјРёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ Р·Р°С‰РёС‚С‹ СЂР°СЃС‚РµРЅРёР№ РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹С… Рё РїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅС‹С… РёСЃРїС‹С‚Р°РЅРёР№, Р° С‚Р°РєР¶Рµ РѕРіСЂР°РЅРёС‡РµРЅРЅРѕРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° РЅРµР·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹С… С…РёРјРёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ Р·Р°С‰РёС‚С‹ СЂР°СЃС‚РµРЅРёР№ РґР»СЏ Р»РёРєРІРёРґР°С†РёРё РѕС‡Р°РіРѕРІ РІС‹СЏРІР»РµРЅРЅРѕРіРѕ РєР°СЂР°РЅС‚РёРЅРЅРѕРіРѕ РІСЂРµРґРЅРѕРіРѕ РѕСЂРіР°РЅРёР·РјР°
+ * Сведения из заключений о целесообразности ввоза образцов незарегистрированных химических средств защиты растений для проведения регистрационных и производственных испытаний, а также ограниченного количества незарегистрированных химических средств защиты растений для ликвидации очагов выявленного карантинного вредного организма
  */
 public class HemicalMeansProtectionPlantsType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -37,7 +37,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Conclusion' element value. Р—Р°РєР»СЋС‡РµРЅРёРµ
+     * Get the 'Conclusion' element value. Заключение
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Conclusion' element value. Р—Р°РєР»СЋС‡РµРЅРёРµ
+     * Set the 'Conclusion' element value. Заключение
      * 
      * @param conclusion
      */
@@ -55,7 +55,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. Р—Р°СЏРІРёС‚РµР»СЊ
+     * Get the 'Applicant' element value. Заявитель
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. Р—Р°СЏРІРёС‚РµР»СЊ
+     * Set the 'Applicant' element value. Заявитель
      * 
      * @param applicant
      */
@@ -73,7 +73,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Get the 'ForeignTradeContract' element value. Р РµРєРІРёР·РёС‚С‹ РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ForeignTradeContract' element value. Реквизиты внешнеторгового контракта
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Set the 'ForeignTradeContract' element value. Р РµРєРІРёР·РёС‚С‹ РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ForeignTradeContract' element value. Реквизиты внешнеторгового контракта
      * 
      * @param foreignTradeContract
      */
@@ -91,7 +91,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'GoodsDescription' element value. Описание товара
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'GoodsDescription' element value. Описание товара
      * 
      * @param goodsDescription
      */
@@ -109,7 +109,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonConclusion' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Get the 'PersonConclusion' element value. Уполномоченное должностное лицо, подписавшее заключение
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonConclusion' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Set the 'PersonConclusion' element value. Уполномоченное должностное лицо, подписавшее заключение
      * 
      * @param personConclusion
      */
@@ -127,7 +127,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class HemicalMeansProtectionPlantsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

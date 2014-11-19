@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЂР°Р·СЂРµС€РµРЅРёСЏС… РљРѕРјРёСЃСЃРёРё РїРѕ СЌРєСЃРїРѕСЂС‚РЅРѕРјСѓ РєРѕРЅС‚СЂРѕР»СЋ Р Р¤ РЅР° РІСЂРµРјРµРЅРЅС‹Р№ РІС‹РІРѕР· РёР· Р Р¤ РєРѕРЅС‚СЂРѕР»РёСЂСѓРµРјС‹С… С‚РѕРІР°СЂРѕРІ Рё С‚РµС…РЅРѕР»РѕРіРёР№/РЅР° РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёРµ РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… РѕРїРµСЂР°С†РёР№/ Рѕ Р·Р°РєР»СЋС‡РµРЅРёСЏС… Р¤РЎРўР­Рљ Р РѕСЃСЃРёРё Рѕ РїСЂРёРјРµРЅРµРЅРёРё РјРµСЂ РЅРµС‚Р°СЂРёС„РЅРѕРіРѕ СЂРµРіСѓР»РёСЂРѕРІР°РЅРёСЏ/ Рѕ Р·Р°РєР»СЋС‡РµРЅРёСЏС… РѕСЂРіР°РЅРёР·Р°С†РёР№, РїРѕР»СѓС‡РёРІС€РёС… СЃРїРµС†РёР°Р»СЊРЅРѕРµ СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° РїСЂРѕРІРµРґРµРЅРёРµ РЅРµР·Р°РІРёСЃРёРјРѕР№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅРѕР№ СЌРєСЃРїРµСЂС‚РёР·С‹ С‚РѕРІР°СЂРѕРІ Рё С‚РµС…РЅРѕР»РѕРіРёР№ РІ С†РµР»СЏС… СЌРєСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+ * Сведения о разрешениях Комиссии по экспортному контролю РФ на временный вывоз из РФ контролируемых товаров и технологий/на осуществление внешнеэкономических операций/ о заключениях ФСТЭК России о применении мер нетарифного регулирования/ о заключениях организаций, получивших специальное разрешение на проведение независимой идентификационной экспертизы товаров и технологий в целях экспортного контроля
  */
 public class FsTekConclPermitType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class FsTekConclPermitType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -46,7 +46,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Описание товара
      * 
      * @return list
      */
@@ -55,7 +55,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Описание товара
      * 
      * @param list
      */
@@ -64,7 +64,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationCountry' element value. Страна назначения
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationCountry' element value. Страна назначения
      * 
      * @param destinationCountry
      */
@@ -82,7 +82,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Get the 'TermReturns' element value. РЎСЂРѕРє  РІРѕР·РІСЂР°С‚Р° С‚РѕРІР°СЂР°
+     * Get the 'TermReturns' element value. Срок  возврата товара
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Set the 'TermReturns' element value. РЎСЂРѕРє  РІРѕР·РІСЂР°С‚Р° С‚РѕРІР°СЂР°
+     * Set the 'TermReturns' element value. Срок  возврата товара
      * 
      * @param termReturns
      */
@@ -100,7 +100,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Get the 'Conslusions' element value. Р’С‹РІРѕРґС‹, СЃРѕРґРµСЂР¶Р°С‰РёРµСЃСЏ РІ Р·Р°РєР»СЋС‡РµРЅРёРё
+     * Get the 'Conslusions' element value. Выводы, содержащиеся в заключении
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Set the 'Conslusions' element value. Р’С‹РІРѕРґС‹, СЃРѕРґРµСЂР¶Р°С‰РёРµСЃСЏ РІ Р·Р°РєР»СЋС‡РµРЅРёРё
+     * Set the 'Conslusions' element value. Выводы, содержащиеся в заключении
      * 
      * @param conslusions
      */
@@ -118,7 +118,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Get the 'Authorization' element value. Р Р°Р·СЂРµС€РµРЅРёРµ/Р—Р°РєР»СЋС‡РµРЅРёРµ
+     * Get the 'Authorization' element value. Разрешение/Заключение
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Set the 'Authorization' element value. Р Р°Р·СЂРµС€РµРЅРёРµ/Р—Р°РєР»СЋС‡РµРЅРёРµ
+     * Set the 'Authorization' element value. Разрешение/Заключение
      * 
      * @param authorization
      */
@@ -136,7 +136,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. РљРѕРЅС‚СЂР°РєС‚
+     * Get the 'Contract' element value. Контракт
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. РљРѕРЅС‚СЂР°РєС‚
+     * Set the 'Contract' element value. Контракт
      * 
      * @param contract
      */
@@ -154,7 +154,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ СЂР°Р·СЂРµС€РµРЅРёРµ/Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Get the 'AuthorizedPerson' element value. Уполномоченное должностное лицо, подписавшее разрешение/заключение
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ СЂР°Р·СЂРµС€РµРЅРёРµ/Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Set the 'AuthorizedPerson' element value. Уполномоченное должностное лицо, подписавшее разрешение/заключение
      * 
      * @param authorizedPerson
      */
@@ -172,7 +172,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReleaseOrg' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Get the 'ReleaseOrg' element value. Наименование организации, выдавшей заключение
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReleaseOrg' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Set the 'ReleaseOrg' element value. Наименование организации, выдавшей заключение
      * 
      * @param releaseOrg
      */
@@ -190,7 +190,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РїРѕР»СѓС‡Р°С‚РµР»СЏ С‚РѕРІР°СЂР°
+     * Get the 'Consignee' element value. Наименование иностранного получателя товара
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РїРѕР»СѓС‡Р°С‚РµР»СЏ С‚РѕРІР°СЂР°
+     * Set the 'Consignee' element value. Наименование иностранного получателя товара
      * 
      * @param consignee
      */
@@ -208,7 +208,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. Р—Р°СЏРІРёС‚РµР»СЊ
+     * Get the 'Applicant' element value. Заявитель
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. Р—Р°СЏРІРёС‚РµР»СЊ
+     * Set the 'Applicant' element value. Заявитель
      * 
      * @param applicant
      */
@@ -226,7 +226,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class FsTekConclPermitType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

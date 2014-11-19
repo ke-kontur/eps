@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspection;
 
 /** 
- * РР·РјРµСЂРµРЅРёРµ СѓСЂРѕРІРЅСЏ СЂР°РґРёР°С†РёРё
+ * Измерение уровня радиации
  */
 public class RadiationType
 {
@@ -12,7 +12,7 @@ public class RadiationType
     private String deviceCertificate;
 
     /** 
-     * Get the 'RadValue' element value. РЈСЂРѕРІРµРЅСЊ СЂР°РґРёР°С†РёРѕРЅРЅРѕРіРѕ С„РѕРЅР° РІ РјРёРєСЂРѕСЂРµРЅС‚РіРµРЅР°С…
+     * Get the 'RadValue' element value. Уровень радиационного фона в микрорентгенах
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class RadiationType
     }
 
     /** 
-     * Set the 'RadValue' element value. РЈСЂРѕРІРµРЅСЊ СЂР°РґРёР°С†РёРѕРЅРЅРѕРіРѕ С„РѕРЅР° РІ РјРёРєСЂРѕСЂРµРЅС‚РіРµРЅР°С…
+     * Set the 'RadValue' element value. Уровень радиационного фона в микрорентгенах
      * 
      * @param radValue
      */
@@ -30,7 +30,7 @@ public class RadiationType
     }
 
     /** 
-     * Get the 'DeviceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРёР±РѕСЂР°, РєРѕС‚РѕСЂС‹Рј РїСЂРѕРІРѕРґРёР»РёСЃСЊ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'DeviceName' element value. Наименование прибора, которым проводились измерения
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class RadiationType
     }
 
     /** 
-     * Set the 'DeviceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРёР±РѕСЂР°, РєРѕС‚РѕСЂС‹Рј РїСЂРѕРІРѕРґРёР»РёСЃСЊ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'DeviceName' element value. Наименование прибора, которым проводились измерения
      * 
      * @param deviceName
      */
@@ -48,7 +48,7 @@ public class RadiationType
     }
 
     /** 
-     * Get the 'DeviceNumber' element value. РќРѕРјРµСЂ РїСЂРёР±РѕСЂР°, РєРѕС‚РѕСЂС‹Рј РїСЂРѕРІРѕРґРёР»РёСЃСЊ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'DeviceNumber' element value. Номер прибора, которым проводились измерения
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class RadiationType
     }
 
     /** 
-     * Set the 'DeviceNumber' element value. РќРѕРјРµСЂ РїСЂРёР±РѕСЂР°, РєРѕС‚РѕСЂС‹Рј РїСЂРѕРІРѕРґРёР»РёСЃСЊ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'DeviceNumber' element value. Номер прибора, которым проводились измерения
      * 
      * @param deviceNumber
      */
@@ -66,7 +66,7 @@ public class RadiationType
     }
 
     /** 
-     * Get the 'DeviceCertificate' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РїРѕРІРµСЂРєРµ РёСЃРїРѕР»СЊР·СѓРµРјРѕРіРѕ РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ
+     * Get the 'DeviceCertificate' element value. Свидетельство о поверке используемого оборудования
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class RadiationType
     }
 
     /** 
-     * Set the 'DeviceCertificate' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РїРѕРІРµСЂРєРµ РёСЃРїРѕР»СЊР·СѓРµРјРѕРіРѕ РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ
+     * Set the 'DeviceCertificate' element value. Свидетельство о поверке используемого оборудования
      * 
      * @param deviceCertificate
      */

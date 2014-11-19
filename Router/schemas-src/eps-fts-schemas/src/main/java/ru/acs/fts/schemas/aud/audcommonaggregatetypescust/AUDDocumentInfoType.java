@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°.
+ * Информация о документе архива.
  */
 public class AUDDocumentInfoType extends AUDArchiveDocumentInfoType
 {
@@ -13,7 +13,7 @@ public class AUDDocumentInfoType extends AUDArchiveDocumentInfoType
     private AUDAppliedDocumentWithBodyType appliedDocumentWithBody;
 
     /** 
-     * Get the 'IsActualDocumentIndicator' element value. РџСЂРёР·РЅР°Рє: СЏРІР»СЏРµС‚СЃСЏ Р»Рё РґРѕРєСѓРјРµРЅС‚ Р°РєС‚СѓР°Р»СЊРЅС‹Рј (true) РёР»Рё РЅРµС‚ (false).
+     * Get the 'IsActualDocumentIndicator' element value. Признак: является ли документ актуальным (true) или нет (false).
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AUDDocumentInfoType extends AUDArchiveDocumentInfoType
     }
 
     /** 
-     * Set the 'IsActualDocumentIndicator' element value. РџСЂРёР·РЅР°Рє: СЏРІР»СЏРµС‚СЃСЏ Р»Рё РґРѕРєСѓРјРµРЅС‚ Р°РєС‚СѓР°Р»СЊРЅС‹Рј (true) РёР»Рё РЅРµС‚ (false).
+     * Set the 'IsActualDocumentIndicator' element value. Признак: является ли документ актуальным (true) или нет (false).
      * 
      * @param isActualDocumentIndicator
      */
@@ -31,7 +31,7 @@ public class AUDDocumentInfoType extends AUDArchiveDocumentInfoType
     }
 
     /** 
-     * Get the 'ArchiveContainerDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°-РєРѕРЅС‚РµР№РЅРµСЂР°, СЃРѕРґРµСЂР¶Р°С‰РµРіРѕ РґР°РЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РґРѕРєСѓРјРµРЅС‚ Р±С‹Р» РїРµСЂРµРґР°РЅ РІ Р°СЂС…РёРІ РЅР° С…СЂР°РЅРµРЅРёРµ РЅРµ РІ РІРёРґРµ СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, Р° РІ СЃРѕСЃС‚Р°РІРµ РґРѕРєСѓРјРµРЅС‚Р°-РєРѕРЅС‚РµР№РЅРµСЂР° (РґРѕРєСѓРјРµРЅС‚Р° РІРёРґР° 'ED_Container').
+     * Get the 'ArchiveContainerDocumentId' element value. Архивный идентификатор документа-контейнера, содержащего данный документ. Указывается в случае, если документ был передан в архив на хранение не в виде самостоятельного документа, а в составе документа-контейнера (документа вида 'ED_Container').
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class AUDDocumentInfoType extends AUDArchiveDocumentInfoType
     }
 
     /** 
-     * Set the 'ArchiveContainerDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°-РєРѕРЅС‚РµР№РЅРµСЂР°, СЃРѕРґРµСЂР¶Р°С‰РµРіРѕ РґР°РЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РґРѕРєСѓРјРµРЅС‚ Р±С‹Р» РїРµСЂРµРґР°РЅ РІ Р°СЂС…РёРІ РЅР° С…СЂР°РЅРµРЅРёРµ РЅРµ РІ РІРёРґРµ СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, Р° РІ СЃРѕСЃС‚Р°РІРµ РґРѕРєСѓРјРµРЅС‚Р°-РєРѕРЅС‚РµР№РЅРµСЂР° (РґРѕРєСѓРјРµРЅС‚Р° РІРёРґР° 'ED_Container').
+     * Set the 'ArchiveContainerDocumentId' element value. Архивный идентификатор документа-контейнера, содержащего данный документ. Указывается в случае, если документ был передан в архив на хранение не в виде самостоятельного документа, а в составе документа-контейнера (документа вида 'ED_Container').
      * 
      * @param archiveContainerDocumentId
      */
@@ -49,7 +49,7 @@ public class AUDDocumentInfoType extends AUDArchiveDocumentInfoType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Рє РєРѕС‚РѕСЂРѕРјСѓ РѕС‚РЅРѕСЃРёС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚.
+     * Get the 'CustomsCode' element value. Код таможенного органа, к которому относится документ.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class AUDDocumentInfoType extends AUDArchiveDocumentInfoType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Рє РєРѕС‚РѕСЂРѕРјСѓ РѕС‚РЅРѕСЃРёС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚.
+     * Set the 'CustomsCode' element value. Код таможенного органа, к которому относится документ.
      * 
      * @param customsCode
      */
@@ -67,7 +67,7 @@ public class AUDDocumentInfoType extends AUDArchiveDocumentInfoType
     }
 
     /** 
-     * Get the 'DocumentSignatureEvidence' element value. Р”РѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІР° РїРѕРґР»РёРЅРЅРѕСЃС‚Рё  Р­Р¦Рџ РЅР° РґРѕРєСѓРјРµРЅС‚.
+     * Get the 'DocumentSignatureEvidence' element value. Доказательства подлинности  ЭЦП на документ.
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class AUDDocumentInfoType extends AUDArchiveDocumentInfoType
     }
 
     /** 
-     * Set the 'DocumentSignatureEvidence' element value. Р”РѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІР° РїРѕРґР»РёРЅРЅРѕСЃС‚Рё  Р­Р¦Рџ РЅР° РґРѕРєСѓРјРµРЅС‚.
+     * Set the 'DocumentSignatureEvidence' element value. Доказательства подлинности  ЭЦП на документ.
      * 
      * @param documentSignatureEvidence
      */
@@ -86,7 +86,7 @@ public class AUDDocumentInfoType extends AUDArchiveDocumentInfoType
     }
 
     /** 
-     * Get the 'AppliedDocumentWithBody' element value. РРЅС„РѕСЂРјР°С†РёСЏ РїСЂРёРєР»Р°РґРЅРѕР№ СЃРёСЃС‚РµРјС‹ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Рё, РІРѕР·РјРѕР¶РЅРѕ, С‚РµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'AppliedDocumentWithBody' element value. Информация прикладной системы о документе и, возможно, тело документа.
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class AUDDocumentInfoType extends AUDArchiveDocumentInfoType
     }
 
     /** 
-     * Set the 'AppliedDocumentWithBody' element value. РРЅС„РѕСЂРјР°С†РёСЏ РїСЂРёРєР»Р°РґРЅРѕР№ СЃРёСЃС‚РµРјС‹ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Рё, РІРѕР·РјРѕР¶РЅРѕ, С‚РµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'AppliedDocumentWithBody' element value. Информация прикладной системы о документе и, возможно, тело документа.
      * 
      * @param appliedDocumentWithBody
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUTransportMeansType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РїСЂРё РѕС‚РїСЂР°РІР»РµРЅРёРё/РїСЂРёР±С‹С‚РёРё. Р“СЂ. 18, 26 Р”Рў
+ * Транспортные средства при отправлении/прибытии. Гр. 18, 26 ДТ
  */
 public class ESADoutCUDepartureArrivalTransportType
         extends
@@ -19,7 +19,7 @@ public class ESADoutCUDepartureArrivalTransportType
     private List<TransportMeansBaseType> transportMeanList = new ArrayList<TransportMeansBaseType>();
 
     /** 
-     * Get the 'TransportMeansQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the 'TransportMeansQuantity' element value. Количество транспортных средств
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ESADoutCUDepartureArrivalTransportType
     }
 
     /** 
-     * Set the 'TransportMeansQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the 'TransportMeansQuantity' element value. Количество транспортных средств
      * 
      * @param transportMeansQuantity
      */
@@ -37,7 +37,7 @@ public class ESADoutCUDepartureArrivalTransportType
     }
 
     /** 
-     * Get the 'MethodTransport' element value. РЎРїРѕСЃРѕР± С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ РїСЂРё РїРµСЂРµРјРµС‰РµРЅРёРё РїРѕ Р»РёРЅРёСЏРј СЌР»РµРєС‚СЂРѕРїРµСЂРµРґР°С‡Рё РёР»Рё С‚СЂСѓР±РѕРїСЂРѕРІРѕРґРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј : 1- РіР°Р·РѕРїСЂРѕРІРѕРґ, 2 -РЅРµС„С‚РµРїСЂРѕРІРѕРґ, 3- РЅРµС„С‚РµРїСЂРѕРґСѓРєС‚РѕРїСЂРѕРІРѕРґ, 4- Р»РёРЅРёСЏ СЌР»РµРєС‚СЂРѕРїРµСЂРµРґР°С‡Рё
+     * Get the 'MethodTransport' element value. Способ транспортировки товаров при перемещении по линиям электропередачи или трубопроводным транспортом : 1- газопровод, 2 -нефтепровод, 3- нефтепродуктопровод, 4- линия электропередачи
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ESADoutCUDepartureArrivalTransportType
     }
 
     /** 
-     * Set the 'MethodTransport' element value. РЎРїРѕСЃРѕР± С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ РїСЂРё РїРµСЂРµРјРµС‰РµРЅРёРё РїРѕ Р»РёРЅРёСЏРј СЌР»РµРєС‚СЂРѕРїРµСЂРµРґР°С‡Рё РёР»Рё С‚СЂСѓР±РѕРїСЂРѕРІРѕРґРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј : 1- РіР°Р·РѕРїСЂРѕРІРѕРґ, 2 -РЅРµС„С‚РµРїСЂРѕРІРѕРґ, 3- РЅРµС„С‚РµРїСЂРѕРґСѓРєС‚РѕРїСЂРѕРІРѕРґ, 4- Р»РёРЅРёСЏ СЌР»РµРєС‚СЂРѕРїРµСЂРµРґР°С‡Рё
+     * Set the 'MethodTransport' element value. Способ транспортировки товаров при перемещении по линиям электропередачи или трубопроводным транспортом : 1- газопровод, 2 -нефтепровод, 3- нефтепродуктопровод, 4- линия электропередачи
      * 
      * @param methodTransport
      */
@@ -55,7 +55,7 @@ public class ESADoutCUDepartureArrivalTransportType
     }
 
     /** 
-     * Get the 'NameObject' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕР±СЉРµРєС‚Р°, РЅР° РєРѕС‚РѕСЂРѕРј СѓСЃС‚Р°РЅРѕРІР»РµРЅС‹ РїСЂРёР±РѕСЂС‹ СѓС‡РµС‚Р° С‚РѕРІР°СЂРѕРІ, РїРµСЂРµРјРµС‰Р°РµРјС‹С… РїРѕ Р»РёРЅРёСЏРј СЌР»РµРєС‚СЂРѕРїРµСЂРµРґР°С‡Рё РёР»Рё С‚СЂСѓР±РѕРїСЂРѕРІРѕРґРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј
+     * Get the 'NameObject' element value. Наименование объекта, на котором установлены приборы учета товаров, перемещаемых по линиям электропередачи или трубопроводным транспортом
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ESADoutCUDepartureArrivalTransportType
     }
 
     /** 
-     * Set the 'NameObject' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕР±СЉРµРєС‚Р°, РЅР° РєРѕС‚РѕСЂРѕРј СѓСЃС‚Р°РЅРѕРІР»РµРЅС‹ РїСЂРёР±РѕСЂС‹ СѓС‡РµС‚Р° С‚РѕРІР°СЂРѕРІ, РїРµСЂРµРјРµС‰Р°РµРјС‹С… РїРѕ Р»РёРЅРёСЏРј СЌР»РµРєС‚СЂРѕРїРµСЂРµРґР°С‡Рё РёР»Рё С‚СЂСѓР±РѕРїСЂРѕРІРѕРґРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј
+     * Set the 'NameObject' element value. Наименование объекта, на котором установлены приборы учета товаров, перемещаемых по линиям электропередачи или трубопроводным транспортом
      * 
      * @param nameObject
      */
@@ -73,7 +73,7 @@ public class ESADoutCUDepartureArrivalTransportType
     }
 
     /** 
-     * Get the list of 'TransportMeans' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the list of 'TransportMeans' element items. Описание транспортного средства
      * 
      * @return list
      */
@@ -82,7 +82,7 @@ public class ESADoutCUDepartureArrivalTransportType
     }
 
     /** 
-     * Set the list of 'TransportMeans' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the list of 'TransportMeans' element items. Описание транспортного средства
      * 
      * @param list
      */

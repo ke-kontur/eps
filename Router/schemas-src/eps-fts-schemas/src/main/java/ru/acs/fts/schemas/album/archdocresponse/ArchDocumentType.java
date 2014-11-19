@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.archdocresponse;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚ РёР· Р°СЂС…РёРІР°
+ * Документ из архива
  */
 public class ArchDocumentType
 {

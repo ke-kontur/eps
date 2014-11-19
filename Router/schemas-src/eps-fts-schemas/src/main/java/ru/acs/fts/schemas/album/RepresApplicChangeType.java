@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р—Р°СЏРІР»РµРЅРёРµ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ СЂРµРµСЃС‚СЂ С‚РѕРІР°СЂРѕРІ РґР»СЏ Р»РёС‡РЅРѕРіРѕ РїРѕР»СЊР·РѕРІР°РЅРёСЏ
+ * Заявление о внесении изменений в реестр товаров для личного пользования
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -51,7 +51,7 @@ public class RepresApplicChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'ChangeType' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё: 0 - С‚РµС…РЅРёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°, 1 - РѕРїРёСЃРєР°, 2 - РґРѕРїРѕР»РЅРµРЅРёРµ РЅРµРґРѕСЃС‚Р°СЋС‰РёС… СЃРІРµРґРµРЅРёР№
+     * Get the 'ChangeType' element value. Основание для корректировки: 0 - техническая ошибка, 1 - описка, 2 - дополнение недостающих сведений
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class RepresApplicChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'ChangeType' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё: 0 - С‚РµС…РЅРёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°, 1 - РѕРїРёСЃРєР°, 2 - РґРѕРїРѕР»РЅРµРЅРёРµ РЅРµРґРѕСЃС‚Р°СЋС‰РёС… СЃРІРµРґРµРЅРёР№
+     * Set the 'ChangeType' element value. Основание для корректировки: 0 - техническая ошибка, 1 - описка, 2 - дополнение недостающих сведений
      * 
      * @param changeType
      */
@@ -69,7 +69,7 @@ public class RepresApplicChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕРіРѕ СЂРµРµСЃС‚СЂР°
+     * Get the 'ApplicationRegNumber' element value. Регистрационный номер корректируемого реестра
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class RepresApplicChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕРіРѕ СЂРµРµСЃС‚СЂР°
+     * Set the 'ApplicationRegNumber' element value. Регистрационный номер корректируемого реестра
      * 
      * @param applicationRegNumber
      */
@@ -87,7 +87,7 @@ public class RepresApplicChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignment' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕСЂСЂРµС‚РёСЂСѓРµРјРѕР№ РїР°СЂС‚РёРё
+     * Get the 'Consignment' element value. Сведения о корретируемой партии
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class RepresApplicChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignment' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕСЂСЂРµС‚РёСЂСѓРµРјРѕР№ РїР°СЂС‚РёРё
+     * Set the 'Consignment' element value. Сведения о корретируемой партии
      * 
      * @param consignment
      */
@@ -105,7 +105,7 @@ public class RepresApplicChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class RepresApplicChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

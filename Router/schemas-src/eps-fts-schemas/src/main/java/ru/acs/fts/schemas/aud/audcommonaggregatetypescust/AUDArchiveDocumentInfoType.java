@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°, Р±РµР· С‚РµР»Р° РґРѕРєСѓРјРµРЅС‚Р°.
+ * Информация о документе архива, без тела документа.
  */
 public class AUDArchiveDocumentInfoType extends AUDArchivePutInfoType
 {
     private AUDArchiveDocumentIdWithVersionType archiveDocumentIdWithVersion;
 
     /** 
-     * Get the 'ArchiveDocumentIdWithVersion' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°СЂС…РёРІРЅРѕРј РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂРµ РґРѕРєСѓРјРµРЅС‚Р° Рё РЅРѕРјРµСЂРµ РІРµСЂСЃРёРё.
+     * Get the 'ArchiveDocumentIdWithVersion' element value. Информация об архивном идентификаторе документа и номере версии.
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class AUDArchiveDocumentInfoType extends AUDArchivePutInfoType
     }
 
     /** 
-     * Set the 'ArchiveDocumentIdWithVersion' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°СЂС…РёРІРЅРѕРј РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂРµ РґРѕРєСѓРјРµРЅС‚Р° Рё РЅРѕРјРµСЂРµ РІРµСЂСЃРёРё.
+     * Set the 'ArchiveDocumentIdWithVersion' element value. Информация об архивном идентификаторе документа и номере версии.
      * 
      * @param archiveDocumentIdWithVersion
      */

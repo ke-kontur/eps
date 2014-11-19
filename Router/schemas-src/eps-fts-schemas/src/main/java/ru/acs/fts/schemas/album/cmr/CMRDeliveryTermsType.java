@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё 
+ * Описание условий поставки 
  */
 public class CMRDeliveryTermsType
 {
@@ -14,7 +14,7 @@ public class CMRDeliveryTermsType
     private String termsDescription;
 
     /** 
-     * Get the list of 'DeliveryPlace' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р° РїРѕСЃС‚Р°РІРєРё
+     * Get the list of 'DeliveryPlace' element items. Наименование пункта поставки
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class CMRDeliveryTermsType
     }
 
     /** 
-     * Set the list of 'DeliveryPlace' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р° РїРѕСЃС‚Р°РІРєРё
+     * Set the list of 'DeliveryPlace' element items. Наименование пункта поставки
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class CMRDeliveryTermsType
     }
 
     /** 
-     * Get the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РїРѕ РРЅРєРѕС‚РµСЂРјСЃ
+     * Get the 'DeliveryTermsStringCode' element value. Код условий поставки по Инкотермс
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CMRDeliveryTermsType
     }
 
     /** 
-     * Set the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РїРѕ РРЅРєРѕС‚РµСЂРјСЃ
+     * Set the 'DeliveryTermsStringCode' element value. Код условий поставки по Инкотермс
      * 
      * @param deliveryTermsStringCode
      */
@@ -50,7 +50,7 @@ public class CMRDeliveryTermsType
     }
 
     /** 
-     * Get the 'TermsDescription' element value. РћРїРёСЃР°РЅРёРµ, РєРѕРјРјРµРЅС‚Р°СЂРёРё РїРѕ СѓСЃР»РѕРІРёСЏРј РїРѕСЃС‚Р°РІРєРё
+     * Get the 'TermsDescription' element value. Описание, комментарии по условиям поставки
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class CMRDeliveryTermsType
     }
 
     /** 
-     * Set the 'TermsDescription' element value. РћРїРёСЃР°РЅРёРµ, РєРѕРјРјРµРЅС‚Р°СЂРёРё РїРѕ СѓСЃР»РѕРІРёСЏРј РїРѕСЃС‚Р°РІРєРё
+     * Set the 'TermsDescription' element value. Описание, комментарии по условиям поставки
      * 
      * @param termsDescription
      */

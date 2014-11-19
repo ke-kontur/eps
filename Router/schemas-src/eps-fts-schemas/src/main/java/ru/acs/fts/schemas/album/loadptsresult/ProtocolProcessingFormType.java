@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.loadptsresult;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РїСЂРѕРІРµРґРµРЅРёСЏ С„РѕСЂРјР°С‚РЅРѕРіРѕ Рё СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ РїРѕ РєР°Р¶РґРѕРјСѓ Р±Р»Р°РЅРєСѓ. 
+ * Сведения о результатах проведения форматного и структурного контроля по каждому бланку. 
  */
 public class ProtocolProcessingFormType
 {
@@ -11,7 +11,7 @@ public class ProtocolProcessingFormType
     private String addInformation;
 
     /** 
-     * Get the 'MSG_Code' element value. РљРѕРґ СЃРѕРѕР±С‰РµРЅРёСЏ (РѕС€РёР±РєРё)
+     * Get the 'MSG_Code' element value. Код сообщения (ошибки)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ProtocolProcessingFormType
     }
 
     /** 
-     * Set the 'MSG_Code' element value. РљРѕРґ СЃРѕРѕР±С‰РµРЅРёСЏ (РѕС€РёР±РєРё)
+     * Set the 'MSG_Code' element value. Код сообщения (ошибки)
      * 
      * @param MSGCode
      */
@@ -29,7 +29,7 @@ public class ProtocolProcessingFormType
     }
 
     /** 
-     * Get the 'GUID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р±Р»Р°РЅРєР°
+     * Get the 'GUID' element value. Уникальный идентификатор бланка
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ProtocolProcessingFormType
     }
 
     /** 
-     * Set the 'GUID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р±Р»Р°РЅРєР°
+     * Set the 'GUID' element value. Уникальный идентификатор бланка
      * 
      * @param GUID
      */
@@ -47,7 +47,7 @@ public class ProtocolProcessingFormType
     }
 
     /** 
-     * Get the 'AddInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС€РёР±РєРµ (COMMENT)
+     * Get the 'AddInformation' element value. Дополнительная информация об ошибке (COMMENT)
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ProtocolProcessingFormType
     }
 
     /** 
-     * Set the 'AddInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС€РёР±РєРµ (COMMENT)
+     * Set the 'AddInformation' element value. Дополнительная информация об ошибке (COMMENT)
      * 
      * @param addInformation
      */

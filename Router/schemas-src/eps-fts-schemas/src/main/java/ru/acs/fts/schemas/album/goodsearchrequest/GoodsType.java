@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+ * Описание товара
  */
 public class GoodsType
 {
@@ -13,7 +13,7 @@ public class GoodsType
     private List<String> containerList = new ArrayList<String>();
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -31,7 +31,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'Container' element items. РљРѕРЅС‚РµР№РЅРµСЂ
+     * Get the list of 'Container' element items. Контейнер
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'Container' element items. РљРѕРЅС‚РµР№РЅРµСЂ
+     * Set the list of 'Container' element items. Контейнер
      * 
      * @param list
      */

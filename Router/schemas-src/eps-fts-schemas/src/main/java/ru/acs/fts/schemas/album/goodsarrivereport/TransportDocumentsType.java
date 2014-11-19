@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.goodsarrivereport;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Сведения о транспортных документах
  */
 public class TransportDocumentsType extends DocumentBaseType
 {
     private String documentModeCode;
 
     /** 
-     * Get the 'DocumentModeCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ.
+     * Get the 'DocumentModeCode' element value. Код вида документа в соответствии с Классификатором видов документов.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TransportDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ.
+     * Set the 'DocumentModeCode' element value. Код вида документа в соответствии с Классификатором видов документов.
      * 
      * @param documentModeCode
      */

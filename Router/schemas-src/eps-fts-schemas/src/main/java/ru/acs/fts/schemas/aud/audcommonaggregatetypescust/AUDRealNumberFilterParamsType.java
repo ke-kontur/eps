@@ -6,14 +6,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "real" (РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+ * Параметры фильтра для значения типа "real" (вещественное число). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
  */
 public class AUDRealNumberFilterParamsType extends AUDBaseFilterParamsType
 {
     private List<BigDecimal> filterValueList = new ArrayList<BigDecimal>();
 
     /** 
-     * Get the list of 'FilterValue' element items. Р—РЅР°С‡РµРЅРёРµ С„РёР»СЊС‚СЂР° РґР»СЏ С‚РёРїР° "real" (РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ).
+     * Get the list of 'FilterValue' element items. Значение фильтра для типа "real" (вещественное число).
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class AUDRealNumberFilterParamsType extends AUDBaseFilterParamsType
     }
 
     /** 
-     * Set the list of 'FilterValue' element items. Р—РЅР°С‡РµРЅРёРµ С„РёР»СЊС‚СЂР° РґР»СЏ С‚РёРїР° "real" (РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ).
+     * Set the list of 'FilterValue' element items. Значение фильтра для типа "real" (вещественное число).
      * 
      * @param list
      */

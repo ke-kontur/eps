@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р§РµРє РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ РѕРїР»Р°С‚С‹
+ * Чек подтверждения оплаты
  */
 public class PaymentConfirmationType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class PaymentConfirmationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NameOperator' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕРїРµСЂР°С‚РѕСЂР° С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Get the 'NameOperator' element value. Наименование оператора таможенных платежей
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'NameOperator' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕРїРµСЂР°С‚РѕСЂР° С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Set the 'NameOperator' element value. Наименование оператора таможенных платежей
      * 
      * @param nameOperator
      */
@@ -47,7 +47,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'OwnerEquipment' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°-СЌРјРёС‚РµРЅС‚Р°/РІР»Р°РґРµР»СЊС†Р° РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ
+     * Get the 'OwnerEquipment' element value. Наименование банка-эмитента/владельца оборудования
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'OwnerEquipment' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°-СЌРјРёС‚РµРЅС‚Р°/РІР»Р°РґРµР»СЊС†Р° РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ
+     * Set the 'OwnerEquipment' element value. Наименование банка-эмитента/владельца оборудования
      * 
      * @param ownerEquipment
      */
@@ -65,7 +65,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё
+     * Get the 'DocDate' element value. Дата проведения операции
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё
+     * Set the 'DocDate' element value. Дата проведения операции
      * 
      * @param docDate
      */
@@ -83,7 +83,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocTime' element value. Р’СЂРµРјСЏ РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё
+     * Get the 'DocTime' element value. Время проведения операции
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocTime' element value. Р’СЂРµРјСЏ РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё
+     * Set the 'DocTime' element value. Время проведения операции
      * 
      * @param docTime
      */
@@ -101,7 +101,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReportNumber' element value. РќРѕРјРµСЂ РѕС‚С‡РµС‚Р°
+     * Get the 'ReportNumber' element value. Номер отчета
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReportNumber' element value. РќРѕРјРµСЂ РѕС‚С‡РµС‚Р°
+     * Set the 'ReportNumber' element value. Номер отчета
      * 
      * @param reportNumber
      */
@@ -119,7 +119,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CheckNumber' element value. РќРѕРјРµСЂ С‡РµРєР°
+     * Get the 'CheckNumber' element value. Номер чека
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CheckNumber' element value. РќРѕРјРµСЂ С‡РµРєР°
+     * Set the 'CheckNumber' element value. Номер чека
      * 
      * @param checkNumber
      */
@@ -137,7 +137,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР°
+     * Get the 'TotalAmount' element value. Общая сумма
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР°
+     * Set the 'TotalAmount' element value. Общая сумма
      * 
      * @param totalAmount
      */
@@ -155,7 +155,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Completion' element value. РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ СѓСЃРїРµС€РЅРѕРіРѕ Р·Р°РІРµСЂС€РµРЅРёСЏ РёРЅРєР°СЃСЃР°С†РёРё
+     * Get the 'Completion' element value. Подтверждение успешного завершения инкассации
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Completion' element value. РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ СѓСЃРїРµС€РЅРѕРіРѕ Р·Р°РІРµСЂС€РµРЅРёСЏ РёРЅРєР°СЃСЃР°С†РёРё
+     * Set the 'Completion' element value. Подтверждение успешного завершения инкассации
      * 
      * @param completion
      */
@@ -173,7 +173,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РЅРё
+     * Get the 'CustomsInfo' element value. Сведения о таможни
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РЅРё
+     * Set the 'CustomsInfo' element value. Сведения о таможни
      * 
      * @param customsInfo
      */
@@ -191,7 +191,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TerminalInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РµСЂРјРёРЅР°Р»Рµ/Р±Р°РЅРєРѕРјР°С‚Рµ
+     * Get the 'TerminalInfo' element value. Сведения о терминале/банкомате
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TerminalInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РµСЂРјРёРЅР°Р»Рµ/Р±Р°РЅРєРѕРјР°С‚Рµ
+     * Set the 'TerminalInfo' element value. Сведения о терминале/банкомате
      * 
      * @param terminalInfo
      */
@@ -209,7 +209,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Payment' element value. РћРїР»Р°С‚Р°
+     * Get the 'Payment' element value. Оплата
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Payment' element value. РћРїР»Р°С‚Р°
+     * Set the 'Payment' element value. Оплата
      * 
      * @param payment
      */
@@ -227,7 +227,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'PayerInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
+     * Get the 'PayerInfo' element value. Сведения о плательщике
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'PayerInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
+     * Set the 'PayerInfo' element value. Сведения о плательщике
      * 
      * @param payerInfo
      */
@@ -245,7 +245,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'BasePayment' element value. РћСЃРЅРѕРІР°РЅРёРµ РїР»Р°С‚РµР¶Р°
+     * Get the 'BasePayment' element value. Основание платежа
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'BasePayment' element value. РћСЃРЅРѕРІР°РЅРёРµ РїР»Р°С‚РµР¶Р°
+     * Set the 'BasePayment' element value. Основание платежа
      * 
      * @param basePayment
      */
@@ -263,7 +263,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Paying' element items. РџР»Р°С‚РµР¶
+     * Get the list of 'Paying' element items. Платеж
      * 
      * @return list
      */
@@ -272,7 +272,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Paying' element items. РџР»Р°С‚РµР¶
+     * Set the list of 'Paying' element items. Платеж
      * 
      * @param list
      */
@@ -281,7 +281,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -290,7 +290,7 @@ public class PaymentConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

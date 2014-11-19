@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.oez_report;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
+ * Использование товаров
  */
 public class GoodsUsageType
 {
@@ -12,7 +12,7 @@ public class GoodsUsageType
     private DocumentBaseType confirmUsageDoc;
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Get the 'Quantity' element value. Количество товара
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class GoodsUsageType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Set the 'Quantity' element value. Количество товара
      * 
      * @param quantity
      */
@@ -30,7 +30,7 @@ public class GoodsUsageType
     }
 
     /** 
-     * Get the 'ConfirmUsageDoc' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ С„Р°РєС‚ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ
+     * Get the 'ConfirmUsageDoc' element value. Документ, подтверждающий факт использования
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class GoodsUsageType
     }
 
     /** 
-     * Set the 'ConfirmUsageDoc' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ С„Р°РєС‚ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ
+     * Set the 'ConfirmUsageDoc' element value. Документ, подтверждающий факт использования
      * 
      * @param confirmUsageDoc
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * РџСЂРѕС†РµРґСѓСЂР°
+ * Процедура
  */
 public class ESADCustomsProcedureType
 {
@@ -11,7 +11,7 @@ public class ESADCustomsProcedureType
     private String goodsTransferFeature;
 
     /** 
-     * Get the 'MainCustomsModeCode' element value. РљРѕРґ Р·Р°СЏРІР»СЏРµРјРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С…  РїСЂРѕС†РµРґСѓСЂ / "00" - РґР»СЏ РїСЂРёРїР°СЃРѕРІ
+     * Get the 'MainCustomsModeCode' element value. Код заявляемой таможенной процедуры в соответствии с классификатором видов таможенных  процедур / "00" - для припасов
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ESADCustomsProcedureType
     }
 
     /** 
-     * Set the 'MainCustomsModeCode' element value. РљРѕРґ Р·Р°СЏРІР»СЏРµРјРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С…  РїСЂРѕС†РµРґСѓСЂ / "00" - РґР»СЏ РїСЂРёРїР°СЃРѕРІ
+     * Set the 'MainCustomsModeCode' element value. Код заявляемой таможенной процедуры в соответствии с классификатором видов таможенных  процедур / "00" - для припасов
      * 
      * @param mainCustomsModeCode
      */
@@ -29,7 +29,7 @@ public class ESADCustomsProcedureType
     }
 
     /** 
-     * Get the 'PrecedingCustomsModeCode' element value. РљРѕРґ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРѕС†РµРґСѓСЂ / "00" - РґР»СЏ РїСЂРёРїР°СЃРѕРІ
+     * Get the 'PrecedingCustomsModeCode' element value. Код предшествующей таможенной процедуры в соответствии с классификатором видов таможенных процедур / "00" - для припасов
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ESADCustomsProcedureType
     }
 
     /** 
-     * Set the 'PrecedingCustomsModeCode' element value. РљРѕРґ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРѕС†РµРґСѓСЂ / "00" - РґР»СЏ РїСЂРёРїР°СЃРѕРІ
+     * Set the 'PrecedingCustomsModeCode' element value. Код предшествующей таможенной процедуры в соответствии с классификатором видов таможенных процедур / "00" - для припасов
      * 
      * @param precedingCustomsModeCode
      */
@@ -47,7 +47,7 @@ public class ESADCustomsProcedureType
     }
 
     /** 
-     * Get the 'GoodsTransferFeature' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Get the 'GoodsTransferFeature' element value. Особенность перемещения товаров в соответствии с классификатором особенностей перемещения товаров
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ESADCustomsProcedureType
     }
 
     /** 
-     * Set the 'GoodsTransferFeature' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Set the 'GoodsTransferFeature' element value. Особенность перемещения товаров в соответствии с классификатором особенностей перемещения товаров
      * 
      * @param goodsTransferFeature
      */

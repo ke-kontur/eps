@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· С‚РѕРІР°СЂРЅРѕРіРѕ Рё РєР°СЃСЃРѕРІРѕРіРѕ С‡РµРєР°
+ * Сведения из товарного и кассового чека
  */
 public class CashMemorandumType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class CashMemorandumType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ С‡РµРєР°
+     * Get the 'Number' element value. Номер чека
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ С‡РµРєР°
+     * Set the 'Number' element value. Номер чека
      * 
      * @param number
      */
@@ -44,7 +44,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Get the 'CreateDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ С‡РµРєР°
+     * Get the 'CreateDateTime' element value. Дата и время составления чека
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the 'CreateDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ С‡РµРєР°
+     * Set the 'CreateDateTime' element value. Дата и время составления чека
      * 
      * @param createDateTime
      */
@@ -62,7 +62,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Get the 'CashDeskNumber' element value. РќРѕРјРµСЂ РєР°СЃСЃС‹
+     * Get the 'CashDeskNumber' element value. Номер кассы
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the 'CashDeskNumber' element value. РќРѕРјРµСЂ РєР°СЃСЃС‹
+     * Set the 'CashDeskNumber' element value. Номер кассы
      * 
      * @param cashDeskNumber
      */
@@ -80,7 +80,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Get the 'CashPayment' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЂР°СЃС‡РµС‚ СЏРІР»СЏРµС‚СЃСЏ РЅР°Р»РёС‡РЅС‹Рј
+     * Get the 'CashPayment' element value. Признак того, что расчет является наличным
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the 'CashPayment' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЂР°СЃС‡РµС‚ СЏРІР»СЏРµС‚СЃСЏ РЅР°Р»РёС‡РЅС‹Рј
+     * Set the 'CashPayment' element value. Признак того, что расчет является наличным
      * 
      * @param cashPayment
      */
@@ -98,7 +98,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С‡РµРєР°
+     * Get the 'CurrencyCode' element value. Код валюты чека
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С‡РµРєР°
+     * Set the 'CurrencyCode' element value. Код валюты чека
      * 
      * @param currencyCode
      */
@@ -116,7 +116,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sum' element value. РћР±С‰Р°СЏ СЃСѓРјРјР°, СѓРїР»Р°С‡РµРЅРЅР°СЏ РїРѕРєСѓРїР°С‚РµР»РµРј
+     * Get the 'Sum' element value. Общая сумма, уплаченная покупателем
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sum' element value. РћР±С‰Р°СЏ СЃСѓРјРјР°, СѓРїР»Р°С‡РµРЅРЅР°СЏ РїРѕРєСѓРїР°С‚РµР»РµРј
+     * Set the 'Sum' element value. Общая сумма, уплаченная покупателем
      * 
      * @param sum
      */
@@ -134,7 +134,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Get the 'Change' element value. РЎРґР°С‡Р°
+     * Get the 'Change' element value. Сдача
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the 'Change' element value. РЎРґР°С‡Р°
+     * Set the 'Change' element value. Сдача
      * 
      * @param change
      */
@@ -152,7 +152,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customer' element value. РџРѕРєСѓРїР°С‚РµР»СЊ
+     * Get the 'Customer' element value. Покупатель
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customer' element value. РџРѕРєСѓРїР°С‚РµР»СЊ
+     * Set the 'Customer' element value. Покупатель
      * 
      * @param customer
      */
@@ -170,7 +170,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Get the 'Seller' element value. РџСЂРѕРґР°РІРµС†
+     * Get the 'Seller' element value. Продавец
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the 'Seller' element value. РџСЂРѕРґР°РІРµС†
+     * Set the 'Seller' element value. Продавец
      * 
      * @param seller
      */
@@ -188,7 +188,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Get the 'SellerSignature' element value. РџРѕРґРїРёСЃСЊ РїСЂРѕРґР°РІС†Р° (РєР°СЃСЃРёСЂР°)
+     * Get the 'SellerSignature' element value. Подпись продавца (кассира)
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the 'SellerSignature' element value. РџРѕРґРїРёСЃСЊ РїСЂРѕРґР°РІС†Р° (РєР°СЃСЃРёСЂР°)
+     * Set the 'SellerSignature' element value. Подпись продавца (кассира)
      * 
      * @param sellerSignature
      */
@@ -206,7 +206,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomerSignature' element value. РџРѕРґРїРёСЃСЊ РїРѕРєСѓРїР°С‚РµР»СЏ
+     * Get the 'CustomerSignature' element value. Подпись покупателя
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomerSignature' element value. РџРѕРґРїРёСЃСЊ РїРѕРєСѓРїР°С‚РµР»СЏ
+     * Set the 'CustomerSignature' element value. Подпись покупателя
      * 
      * @param customerSignature
      */
@@ -224,7 +224,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РўРѕРІР°СЂ
+     * Get the list of 'Goods' element items. Товар
      * 
      * @return list
      */
@@ -233,7 +233,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РўРѕРІР°СЂ
+     * Set the list of 'Goods' element items. Товар
      * 
      * @param list
      */
@@ -242,7 +242,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -251,7 +251,7 @@ public class CashMemorandumType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

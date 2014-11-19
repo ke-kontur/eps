@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.sanitarysertif;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРµ СЃРµСЂС‚РёС„РёРєР°С†РёРё
+ * Сведения об органе сертификации
  */
 public class SertifOrganizationType
 {
@@ -12,7 +12,7 @@ public class SertifOrganizationType
     private AddressType postalAddress;
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° СЃРµСЂС‚РёС„РёРєР°С†РёРё
+     * Get the 'OrganizationName' element value. Наименование органа сертификации
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class SertifOrganizationType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° СЃРµСЂС‚РёС„РёРєР°С†РёРё
+     * Set the 'OrganizationName' element value. Наименование органа сертификации
      * 
      * @param organizationName
      */

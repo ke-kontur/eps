@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Р›РёС†Рѕ,  РґР°СЋС‰РµРµ РїРѕСЏСЃРЅРµРЅРёСЏ
+ * Лицо,  дающее пояснения
  */
 public class ExplanationPersonType extends PersonBaseType
 {
@@ -13,7 +13,7 @@ public class ExplanationPersonType extends PersonBaseType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'PersonOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РєРѕС‚РѕСЂСѓСЋ  РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ Р»РёС†Рѕ
+     * Get the 'PersonOrganization' element value. Наименование организации, которую  представляет лицо
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ExplanationPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'PersonOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РєРѕС‚РѕСЂСѓСЋ  РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ Р»РёС†Рѕ
+     * Set the 'PersonOrganization' element value. Наименование организации, которую  представляет лицо
      * 
      * @param personOrganization
      */
@@ -31,7 +31,7 @@ public class ExplanationPersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ExplanationPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @param identityCard
      */

@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.ContactType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.ESADOrganizationInType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+ * Сведения о получателе товаров
  */
 public class KTDinConsigneeType extends ESADOrganizationInType
 {
@@ -15,7 +15,7 @@ public class KTDinConsigneeType extends ESADOrganizationInType
     private ContactType contact;
 
     /** 
-     * Get the 'ContractorIndicator' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№:1-РљРћРќРўР РђР“Р•РќРў; 2 - Р РђР—РќР«Р• РџРћ РЎРџРРЎРљРЈ.
+     * Get the 'ContractorIndicator' element value. Особенность указанных сведений:1-КОНТРАГЕНТ; 2 - РАЗНЫЕ ПО СПИСКУ.
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class KTDinConsigneeType extends ESADOrganizationInType
     }
 
     /** 
-     * Set the 'ContractorIndicator' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№:1-РљРћРќРўР РђР“Р•РќРў; 2 - Р РђР—РќР«Р• РџРћ РЎРџРРЎРљРЈ.
+     * Set the 'ContractorIndicator' element value. Особенность указанных сведений:1-КОНТРАГЕНТ; 2 - РАЗНЫЕ ПО СПИСКУ.
      * 
      * @param contractorIndicator
      */
@@ -33,7 +33,7 @@ public class KTDinConsigneeType extends ESADOrganizationInType
     }
 
     /** 
-     * Get the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
+     * Get the 'BranchDescription' element value. Сведения об обособленном подразделении.
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class KTDinConsigneeType extends ESADOrganizationInType
     }
 
     /** 
-     * Set the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
+     * Set the 'BranchDescription' element value. Сведения об обособленном подразделении.
      * 
      * @param branchDescription
      */
@@ -51,7 +51,7 @@ public class KTDinConsigneeType extends ESADOrganizationInType
     }
 
     /** 
-     * Get the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'Contact' element value. Контактная информация
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class KTDinConsigneeType extends ESADOrganizationInType
     }
 
     /** 
-     * Set the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'Contact' element value. Контактная информация
      * 
      * @param contact
      */

@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РћР±СЂР°С‰РµРЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№) РІ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РґРµРєР»Р°СЂР°С†РёСЋ
+ * Обращение декларанта о внесении изменений (дополнений) в таможенную декларацию
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -42,7 +42,7 @@ public class DeclChangeRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Reasons' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№)
+     * Get the list of 'Reasons' element items. Обоснование необходимости внесения изменений (дополнений)
      * 
      * @return list
      */
@@ -51,7 +51,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Reasons' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№)
+     * Set the list of 'Reasons' element items. Обоснование необходимости внесения изменений (дополнений)
      * 
      * @param list
      */
@@ -60,7 +60,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequestDate' element value. Р”Р°С‚Р° РѕР±СЂР°С‰РµРЅРёСЏ
+     * Get the 'RequestDate' element value. Дата обращения
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestDate' element value. Р”Р°С‚Р° РѕР±СЂР°С‰РµРЅРёСЏ
+     * Set the 'RequestDate' element value. Дата обращения
      * 
      * @param requestDate
      */
@@ -78,7 +78,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+     * Get the 'RegNumberDT' element value. Регистрационный номер таможенной декларации
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+     * Set the 'RegNumberDT' element value. Регистрационный номер таможенной декларации
      * 
      * @param regNumberDT
      */
@@ -96,7 +96,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ChangesDescription' element items. РћРїРёСЃР°РЅРёРµ РІРЅРѕСЃРёРјС‹С… РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№)
+     * Get the list of 'ChangesDescription' element items. Описание вносимых изменений (дополнений)
      * 
      * @return list
      */
@@ -105,7 +105,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ChangesDescription' element items. РћРїРёСЃР°РЅРёРµ РІРЅРѕСЃРёРјС‹С… РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№)
+     * Set the list of 'ChangesDescription' element items. Описание вносимых изменений (дополнений)
      * 
      * @param list
      */
@@ -114,7 +114,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
+     * Get the 'Declarant' element value. Сведения о декларанте
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
+     * Set the 'Declarant' element value. Сведения о декларанте
      * 
      * @param declarant
      */
@@ -132,7 +132,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -150,7 +150,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class DeclChangeRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
+ * Сведения о контракте
  */
 public class ContractType extends DocumentBaseType
 {
     private List<DocumentBaseType> supplementaryContractList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the list of 'SupplementaryContract' element items. Р”РѕРїРѕР»РЅРµРЅРёРµ (СЃРїРµС†РёС„РёРєР°С†РёСЏ) Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Get the list of 'SupplementaryContract' element items. Дополнение (спецификация) к контракту
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class ContractType extends DocumentBaseType
     }
 
     /** 
-     * Set the list of 'SupplementaryContract' element items. Р”РѕРїРѕР»РЅРµРЅРёРµ (СЃРїРµС†РёС„РёРєР°С†РёСЏ) Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Set the list of 'SupplementaryContract' element items. Дополнение (спецификация) к контракту
      * 
      * @param list
      */

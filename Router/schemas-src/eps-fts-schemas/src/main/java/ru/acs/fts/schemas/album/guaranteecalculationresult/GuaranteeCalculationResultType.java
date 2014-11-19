@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.guaranteecommonaggregatetypescust.TotalAmountType;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚ СЂР°СЃС‡РµС‚Р° СЃСѓРјРј РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
+ * Результат расчета сумм обеспечения уплаты таможенных пошлин, налогов
  */
 public class GuaranteeCalculationResultType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class GuaranteeCalculationResultType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentDateTime' element value. Дата и время формирования электронного документа.
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class GuaranteeCalculationResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentDateTime' element value. Дата и время формирования электронного документа.
      * 
      * @param documentDateTime
      */
@@ -36,7 +36,7 @@ public class GuaranteeCalculationResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalAmount' element value. РћР±С‰РёРµ СЃСѓРјРјС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ, СЂР°СЃСЃС‡РёС‚Р°РЅРЅС‹Рµ РїРѕ Р·Р°РїСЂРѕСЃСѓ
+     * Get the 'TotalAmount' element value. Общие суммы обеспечения, рассчитанные по запросу
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class GuaranteeCalculationResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalAmount' element value. РћР±С‰РёРµ СЃСѓРјРјС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ, СЂР°СЃСЃС‡РёС‚Р°РЅРЅС‹Рµ РїРѕ Р·Р°РїСЂРѕСЃСѓ
+     * Set the 'TotalAmount' element value. Общие суммы обеспечения, рассчитанные по запросу
      * 
      * @param totalAmount
      */
@@ -54,7 +54,7 @@ public class GuaranteeCalculationResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalDeltaAmount' element value. РћР±С‰РёРµ СЃСѓРјРјС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ, СЂР°СЃСЃС‡РёС‚Р°РЅРЅС‹Рµ РїРѕ Р·Р°РїСЂРѕСЃСѓ (Р·Р° РІС‹С‡РµС‚РѕРј СѓР¶Рµ СѓРїР»Р°С‡РµРЅРЅС‹С… СЃСѓРјРј)
+     * Get the 'TotalDeltaAmount' element value. Общие суммы обеспечения, рассчитанные по запросу (за вычетом уже уплаченных сумм)
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class GuaranteeCalculationResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalDeltaAmount' element value. РћР±С‰РёРµ СЃСѓРјРјС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ, СЂР°СЃСЃС‡РёС‚Р°РЅРЅС‹Рµ РїРѕ Р·Р°РїСЂРѕСЃСѓ (Р·Р° РІС‹С‡РµС‚РѕРј СѓР¶Рµ СѓРїР»Р°С‡РµРЅРЅС‹С… СЃСѓРјРј)
+     * Set the 'TotalDeltaAmount' element value. Общие суммы обеспечения, рассчитанные по запросу (за вычетом уже уплаченных сумм)
      * 
      * @param totalDeltaAmount
      */
@@ -72,7 +72,7 @@ public class GuaranteeCalculationResultType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsAmount' element items. Р РµР·СѓР»СЊС‚Р°С‚ СЂР°СЃС‡РµС‚Р° СЃСѓРјРј РѕР±РµСЃРїРµС‡РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂСѓ
+     * Get the list of 'GoodsAmount' element items. Результат расчета сумм обеспечения по товару
      * 
      * @return list
      */
@@ -81,7 +81,7 @@ public class GuaranteeCalculationResultType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsAmount' element items. Р РµР·СѓР»СЊС‚Р°С‚ СЂР°СЃС‡РµС‚Р° СЃСѓРјРј РѕР±РµСЃРїРµС‡РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂСѓ
+     * Set the list of 'GoodsAmount' element items. Результат расчета сумм обеспечения по товару
      * 
      * @param list
      */
@@ -90,7 +90,7 @@ public class GuaranteeCalculationResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class GuaranteeCalculationResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

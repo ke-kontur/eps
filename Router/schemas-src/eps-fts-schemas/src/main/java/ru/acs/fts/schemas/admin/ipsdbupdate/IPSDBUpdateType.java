@@ -5,7 +5,7 @@ import org.joda.time.DateTime;
 import ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType;
 
 /** 
- * РћР±РЅРѕРІР»РµРЅРёРµ СЃРїСЂР°РІРѕС‡РЅРёРєР° РРџРЎ Р’Р­Р”
+ * Обновление справочника ИПС ВЭД
  */
 public class IPSDBUpdateType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class IPSDBUpdateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CreateDateTime' element value. Р”Р°С‚Р°  Рё РІСЂРµРјСЏ  СЃРѕР·РґР°РЅРёСЏ  РІС‹РіСЂСѓР·РєРё
+     * Get the 'CreateDateTime' element value. Дата  и время  создания  выгрузки
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class IPSDBUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CreateDateTime' element value. Р”Р°С‚Р°  Рё РІСЂРµРјСЏ  СЃРѕР·РґР°РЅРёСЏ  РІС‹РіСЂСѓР·РєРё
+     * Set the 'CreateDateTime' element value. Дата  и время  создания  выгрузки
      * 
      * @param createDateTime
      */
@@ -32,7 +32,7 @@ public class IPSDBUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the 'IPSInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РРџРЎ Р’Р­Р”
+     * Get the 'IPSInfo' element value. Сведения об ИПС ВЭД
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class IPSDBUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'IPSInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РРџРЎ Р’Р­Р”
+     * Set the 'IPSInfo' element value. Сведения об ИПС ВЭД
      * 
      * @param IPSInfo
      */
@@ -50,7 +50,7 @@ public class IPSDBUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class IPSDBUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

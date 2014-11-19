@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.dtsin;
 import org.joda.time.LocalDate;
 
 /** 
- * РџСЂРёРЅСЏС‚РёРµ РїСЂРѕРјРµР¶СѓС‚РѕС‡РЅРѕРіРѕ СЂРµС€РµРЅРёСЏ РїРѕ РўРЎ.
+ * Принятие промежуточного решения по ТС.
  */
 public class IntermediateCustomsCostDecisionType
 {
@@ -15,7 +15,7 @@ public class IntermediateCustomsCostDecisionType
     private String decisionDescription;
 
     /** 
-     * Get the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the 'DecisionCode' element value. Код решения о таможенной стоимости
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class IntermediateCustomsCostDecisionType
     }
 
     /** 
-     * Set the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the 'DecisionCode' element value. Код решения о таможенной стоимости
      * 
      * @param decisionCode
      */
@@ -33,7 +33,7 @@ public class IntermediateCustomsCostDecisionType
     }
 
     /** 
-     * Get the 'Term' element value. РЎСЂРѕРє
+     * Get the 'Term' element value. Срок
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class IntermediateCustomsCostDecisionType
     }
 
     /** 
-     * Set the 'Term' element value. РЎСЂРѕРє
+     * Set the 'Term' element value. Срок
      * 
      * @param term
      */
@@ -51,7 +51,7 @@ public class IntermediateCustomsCostDecisionType
     }
 
     /** 
-     * Get the 'LNP' element value. Р›РќРџ
+     * Get the 'LNP' element value. ЛНП
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class IntermediateCustomsCostDecisionType
     }
 
     /** 
-     * Set the 'LNP' element value. Р›РќРџ
+     * Set the 'LNP' element value. ЛНП
      * 
      * @param LNP
      */
@@ -69,7 +69,7 @@ public class IntermediateCustomsCostDecisionType
     }
 
     /** 
-     * Get the 'DateInf' element value. Р”Р°С‚Р°
+     * Get the 'DateInf' element value. Дата
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class IntermediateCustomsCostDecisionType
     }
 
     /** 
-     * Set the 'DateInf' element value. Р”Р°С‚Р°
+     * Set the 'DateInf' element value. Дата
      * 
      * @param dateInf
      */
@@ -87,7 +87,7 @@ public class IntermediateCustomsCostDecisionType
     }
 
     /** 
-     * Get the 'DecisionDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ.
+     * Get the 'DecisionDescription' element value. Описание принятого решения.
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class IntermediateCustomsCostDecisionType
     }
 
     /** 
-     * Set the 'DecisionDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ.
+     * Set the 'DecisionDescription' element value. Описание принятого решения.
      * 
      * @param decisionDescription
      */

@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРµ СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё С‚РѕРІР°СЂРѕРІ, РїРµСЂРµРІРѕР·РёРјС‹С… Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј
+ * Предварительное уведомление о прибытии товаров, перевозимых автомобильным транспортном
  */
 public class PIAutoArriveType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class PIAutoArriveType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
+     * Get the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
+     * Set the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
      * 
      * @param PIURN
      */
@@ -39,7 +39,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'Exp_DTNumber' element value. РќРѕРјРµСЂ СЌРєСЃРїРѕСЂС‚РЅРѕР№ Р”Рў
+     * Get the 'Exp_DTNumber' element value. Номер экспортной ДТ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'Exp_DTNumber' element value. РќРѕРјРµСЂ СЌРєСЃРїРѕСЂС‚РЅРѕР№ Р”Рў
+     * Set the 'Exp_DTNumber' element value. Номер экспортной ДТ
      * 
      * @param expDTNumber
      */
@@ -57,7 +57,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'Exp_CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ СЌРєСЃРїРѕСЂС‚Р°
+     * Get the 'Exp_CountryCode' element value. Код страны экспорта
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'Exp_CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ СЌРєСЃРїРѕСЂС‚Р°
+     * Set the 'Exp_CountryCode' element value. Код страны экспорта
      * 
      * @param expCountryCode
      */
@@ -75,7 +75,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Get the 'Consignee' element value. Информация о получателе
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Set the 'Consignee' element value. Информация о получателе
      * 
      * @param consignee
      */
@@ -93,7 +93,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
+     * Get the 'Carrier' element value. Информация о перевозчике
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
+     * Set the 'Carrier' element value. Информация о перевозчике
      * 
      * @param carrier
      */
@@ -111,7 +111,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂР°
+     * Get the 'Consignor' element value. Информация об отправителе товара
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂР°
+     * Set the 'Consignor' element value. Информация об отправителе товара
      * 
      * @param consignor
      */
@@ -129,7 +129,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsInform' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјС‹С… С‚РѕРІР°СЂР°С…
+     * Get the 'GoodsInform' element value. Информация о перевозимых товарах
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsInform' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·РёРјС‹С… С‚РѕРІР°СЂР°С…
+     * Set the 'GoodsInform' element value. Информация о перевозимых товарах
      * 
      * @param goodsInform
      */
@@ -147,7 +147,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShippingInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ РіСЂСѓР·Р°
+     * Get the 'ShippingInformation' element value. Информация о перевозке груза
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShippingInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ РіСЂСѓР·Р°
+     * Set the 'ShippingInformation' element value. Информация о перевозке груза
      * 
      * @param shippingInformation
      */
@@ -166,7 +166,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'PI_DTNumber' element value. РќРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹ 
+     * Get the 'PI_DTNumber' element value. Номер предварительной декларации на товары 
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_DTNumber' element value. РќРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹ 
+     * Set the 'PI_DTNumber' element value. Номер предварительной декларации на товары 
      * 
      * @param PIDTNumber
      */
@@ -184,7 +184,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Уникальный идентификатор документа
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class PIAutoArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Уникальный идентификатор документа
      * 
      * @param documentModeID
      */

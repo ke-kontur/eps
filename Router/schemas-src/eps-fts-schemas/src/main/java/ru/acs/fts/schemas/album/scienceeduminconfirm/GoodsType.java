@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.scienceeduminconfirm;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+ * Сведения о товаре
  */
 public class GoodsType
 {
@@ -16,7 +16,7 @@ public class GoodsType
     private SupplementaryQuantityType supplementaryGoodsQuantity;
 
     /** 
-     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'GoodsDescription' element value. Описание товара
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'GoodsDescription' element value. Описание товара
      * 
      * @param goodsDescription
      */
@@ -34,7 +34,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Get the 'OriginCountry' element value. Страна происхождения
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Set the 'OriginCountry' element value. Страна происхождения
      * 
      * @param originCountry
      */
@@ -52,7 +52,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
+     * Get the 'Manufacturer' element value. Производитель
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
+     * Set the 'Manufacturer' element value. Производитель
      * 
      * @param manufacturer
      */
@@ -70,7 +70,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'ManufacturerCountry' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ
+     * Get the 'ManufacturerCountry' element value. Код страны производителя
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'ManufacturerCountry' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ
+     * Set the 'ManufacturerCountry' element value. Код страны производителя
      * 
      * @param manufacturerCountry
      */
@@ -88,7 +88,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РѕСЃРЅРѕРІРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'GoodsQuantity' element value. Количество товара в основной единице измерения
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РѕСЃРЅРѕРІРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'GoodsQuantity' element value. Количество товара в основной единице измерения
      * 
      * @param goodsQuantity
      */
@@ -106,7 +106,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения
      * 
      * @param supplementaryGoodsQuantity
      */

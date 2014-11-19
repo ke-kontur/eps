@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ РїРѕ С„РѕСЂРјРµ Р 61001
+ * Свидетельство о государственной регистрации физического лица в качестве индивидуального предпринимателя по форме Р61001
  */
 public class NaturalPersonRegistrationCertificateType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ Рё РґР°РЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RegistrationDate' element value. Дата государственной регистрации физического лица в качестве индивидуального предпринимателя и данные документа
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ Рё РґР°РЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RegistrationDate' element value. Дата государственной регистрации физического лица в качестве индивидуального предпринимателя и данные документа
      * 
      * @param registrationDate
      */
@@ -38,7 +38,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Businessman' element value. Р¤Р°РјРёР»РёСЏ, РёРјСЏ, РѕС‚С‡РµСЃС‚РІРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ
+     * Get the 'Businessman' element value. Фамилия, имя, отчество предпринимателя
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Businessman' element value. Р¤Р°РјРёР»РёСЏ, РёРјСЏ, РѕС‚С‡РµСЃС‚РІРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ
+     * Set the 'Businessman' element value. Фамилия, имя, отчество предпринимателя
      * 
      * @param businessman
      */
@@ -56,7 +56,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'RegistrationOrganization' element value. Наименование регистрирующего органа
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'RegistrationOrganization' element value. Наименование регистрирующего органа
      * 
      * @param registrationOrganization
      */
@@ -74,7 +74,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumberID' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё, РІРЅРѕСЃРёРјРѕР№ РІ Р•РґРёРЅС‹Р№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРµСЃС‚СЂ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹С… РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»РµР№
+     * Get the 'RegistrationNumberID' element value. Государственный регистрационный номер записи, вносимой в Единый государственный реестр индивидуальных предпринимателей
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumberID' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё, РІРЅРѕСЃРёРјРѕР№ РІ Р•РґРёРЅС‹Р№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРµСЃС‚СЂ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹С… РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»РµР№
+     * Set the 'RegistrationNumberID' element value. Государственный регистрационный номер записи, вносимой в Единый государственный реестр индивидуальных предпринимателей
      * 
      * @param registrationNumberID
      */
@@ -92,7 +92,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormName' element value. Р¤РѕСЂРјР°
+     * Get the 'FormName' element value. Форма
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormName' element value. Р¤РѕСЂРјР°
+     * Set the 'FormName' element value. Форма
      * 
      * @param formName
      */
@@ -110,7 +110,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'DocumentSignature' element value. Подпись уполномоченного лица регистрирующего органа
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'DocumentSignature' element value. Подпись уполномоченного лица регистрирующего органа
      * 
      * @param documentSignature
      */
@@ -128,7 +128,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Form' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Get the 'Form' element value. Серия и номер бланка
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Form' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Set the 'Form' element value. Серия и номер бланка
      * 
      * @param form
      */
@@ -146,7 +146,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class NaturalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

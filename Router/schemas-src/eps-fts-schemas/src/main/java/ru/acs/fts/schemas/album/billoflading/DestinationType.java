@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.billoflading;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РіСЂСѓР·Р° Р»РёР±Рѕ, РїСЂРё РЅР°Р»РёС‡РёРµ С‡Р°СЂС‚РµСЂР°, РјРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РёР»Рё РЅР°РїСЂР°РІР»РµРЅРёСЏ СЃСѓРґРЅР° 
+ * Место назначения груза либо, при наличие чартера, место назначения или направления судна 
  */
 public class DestinationType
 {
@@ -12,7 +12,7 @@ public class DestinationType
     private AddressType address;
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ  
+     * Get the 'Name' element value. Наименование места назначения  
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DestinationType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ  
+     * Set the 'Name' element value. Наименование места назначения  
      * 
      * @param name
      */
@@ -30,7 +30,7 @@ public class DestinationType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'Address' element value. Адрес места назначения
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DestinationType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'Address' element value. Адрес места назначения
      * 
      * @param address
      */

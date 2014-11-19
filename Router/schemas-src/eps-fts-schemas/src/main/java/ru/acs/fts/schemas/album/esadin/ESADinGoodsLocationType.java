@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUGoodsLocationPl
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUTransportType;
 
 /** 
- * Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 30 
+ * ДТ и ТД. Внутренний формат. Местонахождение товаров. Гр. 30 
  */
 public class ESADinGoodsLocationType
 {
@@ -21,7 +21,7 @@ public class ESADinGoodsLocationType
     private CUWarehousePlaceType goodsLocationWarehouse;
 
     /** 
-     * Get the 'ITN' element value. РРўРќ СЃСѓР±СЉРµРєС‚Р° Р’Р­Р”
+     * Get the 'ITN' element value. ИТН субъекта ВЭД
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Set the 'ITN' element value. РРўРќ СЃСѓР±СЉРµРєС‚Р° Р’Р­Р”
+     * Set the 'ITN' element value. ИТН субъекта ВЭД
      * 
      * @param ITN
      */
@@ -39,7 +39,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Get the 'InformationTypeCode' element value. РљРѕРґ РјРµСЃС‚Р° РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё c РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµСЃС‚ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Get the 'InformationTypeCode' element value. Код места нахождения товаров в соответствии c классификатором мест нахождения товаров
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Set the 'InformationTypeCode' element value. РљРѕРґ РјРµСЃС‚Р° РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё c РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµСЃС‚ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Set the 'InformationTypeCode' element value. Код места нахождения товаров в соответствии c классификатором мест нахождения товаров
      * 
      * @param informationTypeCode
      */
@@ -57,7 +57,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Get the 'CustomsOffice' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕСЂРіР°РЅРѕРІ, РїСЂРёРјРµРЅСЏРµРјС‹РјРё РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С… - С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
+     * Get the 'CustomsOffice' element value. Код таможенного органа в соответствии с классификаторами таможенных органов, применяемыми в государствах - членах Таможенного союза
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Set the 'CustomsOffice' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕСЂРіР°РЅРѕРІ, РїСЂРёРјРµРЅСЏРµРјС‹РјРё РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С… - С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
+     * Set the 'CustomsOffice' element value. Код таможенного органа в соответствии с классификаторами таможенных органов, применяемыми в государствах - членах Таможенного союза
      * 
      * @param customsOffice
      */
@@ -75,7 +75,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Get the 'CustomsCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsCountryCode' element value. Код страны таможенного органа
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Set the 'CustomsCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsCountryCode' element value. Код страны таможенного органа
      * 
      * @param customsCountryCode
      */
@@ -93,7 +93,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Get the 'LocationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё/РјРѕСЂСЃРєРѕРіРѕ (СЂРµС‡РЅРѕРіРѕ) РїРѕСЂС‚Р°
+     * Get the 'LocationName' element value. Наименование железнодорожной станции/морского (речного) порта
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Set the 'LocationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё/РјРѕСЂСЃРєРѕРіРѕ (СЂРµС‡РЅРѕРіРѕ) РїРѕСЂС‚Р°
+     * Set the 'LocationName' element value. Наименование железнодорожной станции/морского (речного) порта
      * 
      * @param locationName
      */
@@ -111,7 +111,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Get the 'Address' element value. Адрес местонахождения товаров
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Set the 'Address' element value. Адрес местонахождения товаров
      * 
      * @param address
      */
@@ -129,7 +129,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Get the 'GoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°
+     * Get the 'GoodsLocationPlace' element value. Сведения о местонахождении товара
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Set the 'GoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°
+     * Set the 'GoodsLocationPlace' element value. Сведения о местонахождении товара
      * 
      * @param goodsLocationPlace
      */
@@ -148,7 +148,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Get the 'Transport' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ - С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+     * Get the 'Transport' element value. Сведения о местонахождении товаров - транспортное средство
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Set the 'Transport' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ - С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+     * Set the 'Transport' element value. Сведения о местонахождении товаров - транспортное средство
      * 
      * @param transport
      */
@@ -166,7 +166,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Get the 'GoodsLocationWarehouse' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ: СЂР°Р·СЂРµС€РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЅР° РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ С‚РѕРІР°СЂРѕРІ, СЃРєР»Р°Рґ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ, С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЃРєР»Р°Рґ, СЃРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ, РјР°РіР°Р·РёРЅ Р±РµСЃРїРѕС€Р»РёРЅРЅРѕР№ С‚РѕСЂРіРѕРІР»Рё, РїРѕРјРµС‰РµРЅРёРµ, РѕС‚РєСЂС‹С‚С‹Рµ РїР»РѕС‰Р°РґРєРё Рё РёРЅС‹Рµ С‚РµСЂСЂРёС‚РѕСЂРёРё СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕРіРѕ РѕРїРµСЂР°С‚РѕСЂР°, СЃРєР»Р°Рґ С…СЂР°РЅРµРЅРёСЏ СЃРѕР±СЃС‚РІРµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ
+     * Get the 'GoodsLocationWarehouse' element value. Сведения о местонахождении товаров: разрешение таможенного органа на временное хранение товаров, склад временного хранения, таможенный склад, свободный склад, магазин беспошлинной торговли, помещение, открытые площадки и иные территории уполномоченного экономического оператора, склад хранения собственных товаров
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class ESADinGoodsLocationType
     }
 
     /** 
-     * Set the 'GoodsLocationWarehouse' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ: СЂР°Р·СЂРµС€РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЅР° РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ С‚РѕРІР°СЂРѕРІ, СЃРєР»Р°Рґ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ, С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЃРєР»Р°Рґ, СЃРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ, РјР°РіР°Р·РёРЅ Р±РµСЃРїРѕС€Р»РёРЅРЅРѕР№ С‚РѕСЂРіРѕРІР»Рё, РїРѕРјРµС‰РµРЅРёРµ, РѕС‚РєСЂС‹С‚С‹Рµ РїР»РѕС‰Р°РґРєРё Рё РёРЅС‹Рµ С‚РµСЂСЂРёС‚РѕСЂРёРё СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕРіРѕ РѕРїРµСЂР°С‚РѕСЂР°, СЃРєР»Р°Рґ С…СЂР°РЅРµРЅРёСЏ СЃРѕР±СЃС‚РІРµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ
+     * Set the 'GoodsLocationWarehouse' element value. Сведения о местонахождении товаров: разрешение таможенного органа на временное хранение товаров, склад временного хранения, таможенный склад, свободный склад, магазин беспошлинной торговли, помещение, открытые площадки и иные территории уполномоченного экономического оператора, склад хранения собственных товаров
      * 
      * @param goodsLocationWarehouse
      */

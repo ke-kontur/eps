@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРѕРІРµРґРµРЅРёСЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёР№ СЃ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅС‹РјРё РѕС‚РґРµР»Р°РјРё С‚Р°РјРѕР¶РЅРё
+ * Уведомление о необходимости проведения консультаций с функциональными отделами таможни
  */
 public class NotifConsultType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class NotifConsultType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SendDate' element value. Дата направления
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SendDate' element value. Дата направления
      * 
      * @param sendDate
      */
@@ -41,7 +41,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Get the 'Comments' element value. Комментарии
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Set the 'Comments' element value. Комментарии
      * 
      * @param comments
      */
@@ -59,7 +59,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CustomsSubUnit' element items. РЎС‚СЂСѓРєС‚СѓСЂРЅРѕРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ С‚Р°РјРѕР¶РЅРё
+     * Get the list of 'CustomsSubUnit' element items. Структурное подразделение таможни
      * 
      * @return list
      */
@@ -68,7 +68,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CustomsSubUnit' element items. РЎС‚СЂСѓРєС‚СѓСЂРЅРѕРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ С‚Р°РјРѕР¶РЅРё
+     * Set the list of 'CustomsSubUnit' element items. Структурное подразделение таможни
      * 
      * @param list
      */
@@ -77,7 +77,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -95,7 +95,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -113,7 +113,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'GTDNumber' element value. Справочный номер ДТ
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'GTDNumber' element value. Справочный номер ДТ
      * 
      * @param GTDNumber
      */
@@ -131,7 +131,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class NotifConsultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+ * Сведения о документе
  */
 public class InstrInfoType
 {
@@ -15,7 +15,7 @@ public class InstrInfoType
     private CustomsOfficerType customsOfficer;
 
     /** 
-     * Get the 'InstrDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'InstrDate' element value. Дата создания документа
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class InstrInfoType
     }
 
     /** 
-     * Set the 'InstrDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'InstrDate' element value. Дата создания документа
      * 
      * @param instrDate
      */
@@ -33,7 +33,7 @@ public class InstrInfoType
     }
 
     /** 
-     * Get the 'InstrTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'InstrTime' element value. Время создания документа
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class InstrInfoType
     }
 
     /** 
-     * Set the 'InstrTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'InstrTime' element value. Время создания документа
      * 
      * @param instrTime
      */
@@ -51,7 +51,7 @@ public class InstrInfoType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class InstrInfoType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -69,7 +69,7 @@ public class InstrInfoType
     }
 
     /** 
-     * Get the 'CustomsOfficer' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsOfficer' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class InstrInfoType
     }
 
     /** 
-     * Set the 'CustomsOfficer' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsOfficer' element value. Должностное лицо таможенного органа
      * 
      * @param customsOfficer
      */

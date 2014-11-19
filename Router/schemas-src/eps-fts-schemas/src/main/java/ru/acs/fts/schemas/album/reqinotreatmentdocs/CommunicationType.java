@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.reqinotreatmentdocs;
 
 /** 
- * РЎСЂРµРґСЃС‚РІРѕ СЃРІСЏР·Рё
+ * Средство связи
  */
 public class CommunicationType
 {
@@ -10,7 +10,7 @@ public class CommunicationType
     private String commNumberAddress;
 
     /** 
-     * Get the 'CommCode' element value. РљРѕРґ СЃСЂРµРґСЃС‚РІР° СЃРІСЏР·Рё: "1"-С‚РµР»РµС„РѕРЅ, "2"-С„Р°РєСЃ, "3"-С‚РµР»РµРєСЃ, "4"-С‚РµР»РµРіСЂР°С„, "5"-e-mail, "6"-РїРѕС‡С‚Р°
+     * Get the 'CommCode' element value. Код средства связи: "1"-телефон, "2"-факс, "3"-телекс, "4"-телеграф, "5"-e-mail, "6"-почта
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CommunicationType
     }
 
     /** 
-     * Set the 'CommCode' element value. РљРѕРґ СЃСЂРµРґСЃС‚РІР° СЃРІСЏР·Рё: "1"-С‚РµР»РµС„РѕРЅ, "2"-С„Р°РєСЃ, "3"-С‚РµР»РµРєСЃ, "4"-С‚РµР»РµРіСЂР°С„, "5"-e-mail, "6"-РїРѕС‡С‚Р°
+     * Set the 'CommCode' element value. Код средства связи: "1"-телефон, "2"-факс, "3"-телекс, "4"-телеграф, "5"-e-mail, "6"-почта
      * 
      * @param commCode
      */
@@ -28,7 +28,7 @@ public class CommunicationType
     }
 
     /** 
-     * Get the 'CommNumberAddress' element value. РќРѕРјРµСЂ СЃСЂРµРґСЃС‚РІР° СЃРІСЏР·Рё / Р°РґСЂРµСЃ
+     * Get the 'CommNumberAddress' element value. Номер средства связи / адрес
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CommunicationType
     }
 
     /** 
-     * Set the 'CommNumberAddress' element value. РќРѕРјРµСЂ СЃСЂРµРґСЃС‚РІР° СЃРІСЏР·Рё / Р°РґСЂРµСЃ
+     * Set the 'CommNumberAddress' element value. Номер средства связи / адрес
      * 
      * @param commNumberAddress
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.previousconviction;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕСЃС‚Р°РЅРѕРІРєРµ Р»РёС†Р° РЅР° СѓС‡РµС‚
+ * Сведения о постановке лица на учет
  */
 public class ResultInfoType
 {
@@ -14,7 +14,7 @@ public class ResultInfoType
     private LocalDate resultDate;
 
     /** 
-     * Get the 'OrgCode' element value. РљРѕРґ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ РёР· СЃРїСЂР°РІРѕС‡РЅРёРєР° "РЎРїРёСЃРѕРє РєРѕРґРѕРІ СЂРµРіРёРѕРЅР° Р¤РљРЈ "Р“РРђР¦ РњР’Р” Р РѕСЃСЃРёРё" 
+     * Get the 'OrgCode' element value. Код подразделения из справочника "Список кодов региона ФКУ "ГИАЦ МВД России" 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ResultInfoType
     }
 
     /** 
-     * Set the 'OrgCode' element value. РљРѕРґ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ РёР· СЃРїСЂР°РІРѕС‡РЅРёРєР° "РЎРїРёСЃРѕРє РєРѕРґРѕРІ СЂРµРіРёРѕРЅР° Р¤РљРЈ "Р“РРђР¦ РњР’Р” Р РѕСЃСЃРёРё" 
+     * Set the 'OrgCode' element value. Код подразделения из справочника "Список кодов региона ФКУ "ГИАЦ МВД России" 
      * 
      * @param orgCode
      */
@@ -32,7 +32,7 @@ public class ResultInfoType
     }
 
     /** 
-     * Get the 'OrgName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ
+     * Get the 'OrgName' element value. Наименование подразделения
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ResultInfoType
     }
 
     /** 
-     * Set the 'OrgName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ
+     * Set the 'OrgName' element value. Наименование подразделения
      * 
      * @param orgName
      */
@@ -50,7 +50,7 @@ public class ResultInfoType
     }
 
     /** 
-     * Get the 'ResultSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЃРІРµРґРµРЅРёР№ РІ СѓС‡РµС‚Рµ: 1 - РІ СЃР»СѓС‡Р°Рµ РЅР°Р»РёС‡РёСЏ СЃРІРµРґРµРЅРёР№ РІ СѓС‡РµС‚Рµ; 2 - РІ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ СЃРІРµРґРµРЅРёР№ РІ СѓС‡РµС‚Рµ; 3 - РІ СЃР»СѓС‡Р°Рµ РјРѕС‚РёРІРёСЂРѕРІР°РЅРЅРѕРіРѕ РѕС‚РєР°Р·Р° РІ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№
+     * Get the 'ResultSign' element value. Признак наличия сведений в учете: 1 - в случае наличия сведений в учете; 2 - в случае отсутствия сведений в учете; 3 - в случае мотивированного отказа в предоставлении сведений
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ResultInfoType
     }
 
     /** 
-     * Set the 'ResultSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЃРІРµРґРµРЅРёР№ РІ СѓС‡РµС‚Рµ: 1 - РІ СЃР»СѓС‡Р°Рµ РЅР°Р»РёС‡РёСЏ СЃРІРµРґРµРЅРёР№ РІ СѓС‡РµС‚Рµ; 2 - РІ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ СЃРІРµРґРµРЅРёР№ РІ СѓС‡РµС‚Рµ; 3 - РІ СЃР»СѓС‡Р°Рµ РјРѕС‚РёРІРёСЂРѕРІР°РЅРЅРѕРіРѕ РѕС‚РєР°Р·Р° РІ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№
+     * Set the 'ResultSign' element value. Признак наличия сведений в учете: 1 - в случае наличия сведений в учете; 2 - в случае отсутствия сведений в учете; 3 - в случае мотивированного отказа в предоставлении сведений
      * 
      * @param resultSign
      */
@@ -68,7 +68,7 @@ public class ResultInfoType
     }
 
     /** 
-     * Get the 'ResultDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ СЃРІРµРґРµРЅРёР№
+     * Get the 'ResultDate' element value. Дата предоставления сведений
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ResultInfoType
     }
 
     /** 
-     * Set the 'ResultDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ СЃРІРµРґРµРЅРёР№
+     * Set the 'ResultDate' element value. Дата предоставления сведений
      * 
      * @param resultDate
      */

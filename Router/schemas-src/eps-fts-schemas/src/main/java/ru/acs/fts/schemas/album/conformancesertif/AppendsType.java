@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.conformancesertif;
 
 /** 
- * РџСЂРёР»РѕР¶РµРЅРёСЏ
+ * Приложения
  */
 public class AppendsType
 {
@@ -10,7 +10,7 @@ public class AppendsType
     private String appendFormNumber;
 
     /** 
-     * Get the 'AppendNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїСЂРёР»РѕР¶РµРЅРёСЏ
+     * Get the 'AppendNumber' element value. Порядковый номер приложения
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AppendsType
     }
 
     /** 
-     * Set the 'AppendNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїСЂРёР»РѕР¶РµРЅРёСЏ
+     * Set the 'AppendNumber' element value. Порядковый номер приложения
      * 
      * @param appendNumber
      */
@@ -28,7 +28,7 @@ public class AppendsType
     }
 
     /** 
-     * Get the 'AppendFormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° РїСЂРёР»РѕР¶РµРЅРёСЏ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РЅР°Р»РёС‡РёСЏ РїСЂРёР»РѕР¶РµРЅРёСЏ)
+     * Get the 'AppendFormNumber' element value. Номер бланка приложения (заполняется в случае наличия приложения)
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AppendsType
     }
 
     /** 
-     * Set the 'AppendFormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° РїСЂРёР»РѕР¶РµРЅРёСЏ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РЅР°Р»РёС‡РёСЏ РїСЂРёР»РѕР¶РµРЅРёСЏ)
+     * Set the 'AppendFormNumber' element value. Номер бланка приложения (заполняется в случае наличия приложения)
      * 
      * @param appendFormNumber
      */

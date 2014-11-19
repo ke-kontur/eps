@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * РџРѕРєСѓРїР°С‚РµР»СЊ/РїСЂРѕРґР°РІРµС†
+ * Покупатель/продавец
  */
 public class BuyerSellerType
 {
@@ -10,7 +10,7 @@ public class BuyerSellerType
     private String seller;
 
     /** 
-     * Get the 'Buyer' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СѓСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё Р±С‹Р»Рё РїСЂРµРґР»РѕР¶РµРЅС‹ РїРѕРєСѓРїР°С‚РµР»РµРј
+     * Get the 'Buyer' element value. Признак того, что условия поставки были предложены покупателем
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class BuyerSellerType
     }
 
     /** 
-     * Set the 'Buyer' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СѓСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё Р±С‹Р»Рё РїСЂРµРґР»РѕР¶РµРЅС‹ РїРѕРєСѓРїР°С‚РµР»РµРј
+     * Set the 'Buyer' element value. Признак того, что условия поставки были предложены покупателем
      * 
      * @param buyer
      */
@@ -28,7 +28,7 @@ public class BuyerSellerType
     }
 
     /** 
-     * Get the 'Seller' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СѓСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё Р±С‹Р»Рё РїСЂРµРґР»РѕР¶РµРЅС‹ РїСЂРѕРґР°РІС†РѕРј
+     * Get the 'Seller' element value. Признак того, что условия поставки были предложены продавцом
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class BuyerSellerType
     }
 
     /** 
-     * Set the 'Seller' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СѓСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё Р±С‹Р»Рё РїСЂРµРґР»РѕР¶РµРЅС‹ РїСЂРѕРґР°РІС†РѕРј
+     * Set the 'Seller' element value. Признак того, что условия поставки были предложены продавцом
      * 
      * @param seller
      */

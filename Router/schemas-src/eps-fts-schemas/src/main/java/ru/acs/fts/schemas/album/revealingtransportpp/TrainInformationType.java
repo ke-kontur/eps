@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕРј С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
+ * Сведения о железнодорожном транспорте
  */
 public class TrainInformationType
 {
@@ -13,7 +13,7 @@ public class TrainInformationType
     private List<String> wagonNumberList = new ArrayList<String>();
 
     /** 
-     * Get the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ.
+     * Get the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TrainInformationType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ.
+     * Set the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров.
      * 
      * @param transportModeCode
      */
@@ -31,7 +31,7 @@ public class TrainInformationType
     }
 
     /** 
-     * Get the list of 'WagonNumber' element items. РќРѕРјРµСЂ РІР°РіРѕРЅР°
+     * Get the list of 'WagonNumber' element items. Номер вагона
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class TrainInformationType
     }
 
     /** 
-     * Set the list of 'WagonNumber' element items. РќРѕРјРµСЂ РІР°РіРѕРЅР°
+     * Set the list of 'WagonNumber' element items. Номер вагона
      * 
      * @param list
      */

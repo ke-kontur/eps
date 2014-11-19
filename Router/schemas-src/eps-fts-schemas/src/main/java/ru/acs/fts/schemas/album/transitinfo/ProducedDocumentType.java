@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.transitinfo;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РџСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ (СЃРµСЂС‚РёС„РёРєР°С‚С‹).
+ * Представляемые документы (сертификаты).
  */
 public class ProducedDocumentType extends DocumentBaseType
 {
     private String documentKind;
 
     /** 
-     * Get the 'DocumentKind' element value. РўРёРї РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentKind' element value. Тип представленного документа.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ProducedDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentKind' element value. РўРёРї РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentKind' element value. Тип представленного документа.
      * 
      * @param documentKind
      */

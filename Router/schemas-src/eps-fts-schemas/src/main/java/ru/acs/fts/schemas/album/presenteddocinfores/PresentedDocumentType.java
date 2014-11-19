@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.presenteddocinfores;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С…  РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Информация о разрешительных  документах
  */
 public class PresentedDocumentType extends DocumentBaseType
 {
     private String documentKind;
 
     /** 
-     * Get the 'DocumentKind' element value. РўРёРї РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentKind' element value. Тип представленного документа.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PresentedDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentKind' element value. РўРёРї РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentKind' element value. Тип представленного документа.
      * 
      * @param documentKind
      */

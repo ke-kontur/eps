@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.measuringprotocol;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚С‹ РёР·РјРµСЂРµРЅРёР№
+ * Результаты измерений
  */
 public class MeasuringDetailsType
 {
@@ -13,7 +13,7 @@ public class MeasuringDetailsType
     private String averageValue;
 
     /** 
-     * Get the 'BarkSign' element value. РџСЂРёР·РЅР°Рє РїСЂРѕРІРµРґРµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№ Р»РµСЃРѕРјР°С‚РµСЂРёР°Р»РѕРІ СЃ РєРѕСЂРѕР№
+     * Get the 'BarkSign' element value. Признак проведения измерений лесоматериалов с корой
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class MeasuringDetailsType
     }
 
     /** 
-     * Set the 'BarkSign' element value. РџСЂРёР·РЅР°Рє РїСЂРѕРІРµРґРµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№ Р»РµСЃРѕРјР°С‚РµСЂРёР°Р»РѕРІ СЃ РєРѕСЂРѕР№
+     * Set the 'BarkSign' element value. Признак проведения измерений лесоматериалов с корой
      * 
      * @param barkSign
      */
@@ -31,7 +31,7 @@ public class MeasuringDetailsType
     }
 
     /** 
-     * Get the 'MeasureSign' element value. РР·РјРµСЂРµРЅРёРµ РґРёР°РјРµС‚СЂР°: 1 - РІРµСЂС…РЅРµРіРѕ; 2 - СЃСЂРµРґРёРЅРЅРѕРіРѕ; 3 - РЅРёР¶РЅРµРіРѕ
+     * Get the 'MeasureSign' element value. Измерение диаметра: 1 - верхнего; 2 - срединного; 3 - нижнего
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class MeasuringDetailsType
     }
 
     /** 
-     * Set the 'MeasureSign' element value. РР·РјРµСЂРµРЅРёРµ РґРёР°РјРµС‚СЂР°: 1 - РІРµСЂС…РЅРµРіРѕ; 2 - СЃСЂРµРґРёРЅРЅРѕРіРѕ; 3 - РЅРёР¶РЅРµРіРѕ
+     * Set the 'MeasureSign' element value. Измерение диаметра: 1 - верхнего; 2 - срединного; 3 - нижнего
      * 
      * @param measureSign
      */
@@ -49,7 +49,7 @@ public class MeasuringDetailsType
     }
 
     /** 
-     * Get the 'FirstMeasureValue' element value. Р—РЅР°С‡РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РїРµСЂРІРѕРіРѕ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'FirstMeasureValue' element value. Значение результата первого измерения
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class MeasuringDetailsType
     }
 
     /** 
-     * Set the 'FirstMeasureValue' element value. Р—РЅР°С‡РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РїРµСЂРІРѕРіРѕ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'FirstMeasureValue' element value. Значение результата первого измерения
      * 
      * @param firstMeasureValue
      */
@@ -67,7 +67,7 @@ public class MeasuringDetailsType
     }
 
     /** 
-     * Get the 'SecondMeasureValue' element value. Р—РЅР°С‡РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РІС‚РѕСЂРѕРіРѕ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'SecondMeasureValue' element value. Значение результата второго измерения
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class MeasuringDetailsType
     }
 
     /** 
-     * Set the 'SecondMeasureValue' element value. Р—РЅР°С‡РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РІС‚РѕСЂРѕРіРѕ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'SecondMeasureValue' element value. Значение результата второго измерения
      * 
      * @param secondMeasureValue
      */
@@ -85,7 +85,7 @@ public class MeasuringDetailsType
     }
 
     /** 
-     * Get the 'AverageValue' element value. РЎСЂРµРґРЅРµРµ Р·РЅР°С‡РµРЅРёРµ (С‚РѕР»С‰РёРЅР° Р±СЂРµРІРЅР°)
+     * Get the 'AverageValue' element value. Среднее значение (толщина бревна)
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class MeasuringDetailsType
     }
 
     /** 
-     * Set the 'AverageValue' element value. РЎСЂРµРґРЅРµРµ Р·РЅР°С‡РµРЅРёРµ (С‚РѕР»С‰РёРЅР° Р±СЂРµРІРЅР°)
+     * Set the 'AverageValue' element value. Среднее значение (толщина бревна)
      * 
      * @param averageValue
      */

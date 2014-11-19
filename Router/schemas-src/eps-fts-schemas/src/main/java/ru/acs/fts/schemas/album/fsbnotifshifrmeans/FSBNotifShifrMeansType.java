@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ РёР· РЅРѕС‚РёС„РёРєР°С†РёР№ Рѕ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°С… С‚РѕРІР°СЂРѕРІ (РїСЂРѕРґСѓРєС†РёРё), СЃРѕРґРµСЂР¶Р°С‰РёС… С€РёС„СЂРѕРІР°Р»СЊРЅС‹Рµ (РєСЂРёРїС‚РѕРіСЂР°С„РёС‡РµСЃРєРёРµ) СЃСЂРµРґСЃС‚РІР°
+ * Ответ на запрос сведений из нотификаций о характеристиках товаров (продукции), содержащих шифровальные (криптографические) средства
  */
 public class FSBNotifShifrMeansType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @param isCanceled
      */
@@ -43,7 +43,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -61,7 +61,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР° (РїСЂРѕРґСѓРєС†РёРё)
+     * Get the list of 'GoodsDescription' element items. Наименование товара (продукции)
      * 
      * @return list
      */
@@ -70,7 +70,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР° (РїСЂРѕРґСѓРєС†РёРё)
+     * Set the list of 'GoodsDescription' element items. Наименование товара (продукции)
      * 
      * @param list
      */
@@ -79,7 +79,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotificationDuration' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РЅРѕС‚РёС„РёРєР°С†РёРё
+     * Get the 'NotificationDuration' element value. Срок действия нотификации
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotificationDuration' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РЅРѕС‚РёС„РёРєР°С†РёРё
+     * Set the 'NotificationDuration' element value. Срок действия нотификации
      * 
      * @param notificationDuration
      */
@@ -97,7 +97,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotificationDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ РЅРѕС‚РёС„РёРєР°С†РёРё
+     * Get the 'NotificationDate' element value. Дата принятия нотификации
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotificationDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ РЅРѕС‚РёС„РёРєР°С†РёРё
+     * Set the 'NotificationDate' element value. Дата принятия нотификации
      * 
      * @param notificationDate
      */
@@ -115,7 +115,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер документа
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер документа
      * 
      * @param documentNumber
      */
@@ -133,7 +133,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'Manufacturer' element value. Р РµРєРІРёР·РёС‚С‹ С„РёСЂРјС‹ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ С‚РѕРІР°СЂР° (РїСЂРѕРґСѓРєС†РёРё)
+     * Get the 'Manufacturer' element value. Реквизиты фирмы производителя товара (продукции)
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. Р РµРєРІРёР·РёС‚С‹ С„РёСЂРјС‹ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ С‚РѕРІР°СЂР° (РїСЂРѕРґСѓРєС†РёРё)
+     * Set the 'Manufacturer' element value. Реквизиты фирмы производителя товара (продукции)
      * 
      * @param manufacturer
      */
@@ -151,7 +151,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicantDetails' element value. Р РµРєРІРёР·РёС‚С‹ Р·Р°СЏРІРёС‚РµР»СЏ
+     * Get the 'ApplicantDetails' element value. Реквизиты заявителя
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicantDetails' element value. Р РµРєРІРёР·РёС‚С‹ Р·Р°СЏРІРёС‚РµР»СЏ
+     * Set the 'ApplicantDetails' element value. Реквизиты заявителя
      * 
      * @param applicantDetails
      */
@@ -169,7 +169,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ РЅРѕС‚РёС„РёРєР°С†РёСЋ
+     * Get the 'AuthorizedPerson' element value. Уполномоченное должностное лицо, подписавшее нотификацию
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ РЅРѕС‚РёС„РёРєР°С†РёСЋ
+     * Set the 'AuthorizedPerson' element value. Уполномоченное должностное лицо, подписавшее нотификацию
      * 
      * @param authorizedPerson
      */
@@ -187,7 +187,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class FSBNotifShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.cardcommonaggregatetypes;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё. Р‘Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ
+ * Реквизиты организации. Базовый класс
  */
 public class OrganizationBaseType extends RFOrganizationFeaturesType
 {
     private String organizationName;
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'OrganizationName' element value. Наименование организации
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class OrganizationBaseType extends RFOrganizationFeaturesType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'OrganizationName' element value. Наименование организации
      * 
      * @param organizationName
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.notifgoodswharrive;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ: С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЃРєР»Р°Рґ, СЃРєР»Р°Рґ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ, СЃРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ, СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅС‹Рµ
+ * Сведения о местонахождении товаров: таможенный склад, склад временного хранения, свободный склад, склад получателя, иные
  */
 public class GoodsLocationWarehouseType extends DocumentBaseType
 {
     private String documentModeCode;
 
     /** 
-     * Get the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:1-Р›РёС†РµРЅР·РёСЏ 2-РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+     * Get the 'DocumentModeCode' element value. Тип документа:1-Лицензия 2-Свидетельство
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class GoodsLocationWarehouseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:1-Р›РёС†РµРЅР·РёСЏ 2-РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+     * Set the 'DocumentModeCode' element value. Тип документа:1-Лицензия 2-Свидетельство
      * 
      * @param documentModeCode
      */

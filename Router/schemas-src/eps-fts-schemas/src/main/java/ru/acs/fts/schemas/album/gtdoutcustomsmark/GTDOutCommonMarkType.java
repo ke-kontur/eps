@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.gtdoutcustomsmark;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.RUESADCommonOfficialMarkType;
 
 /** 
- * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Р”Рў 
+ * Служебные отметки ДТ 
  */
 public class GTDOutCommonMarkType extends RUESADCommonOfficialMarkType
 {
@@ -14,7 +14,7 @@ public class GTDOutCommonMarkType extends RUESADCommonOfficialMarkType
     private String guaranteeFoundation;
 
     /** 
-     * Get the 'StageDescription' element value. РћРїРёСЃР°РЅРёРµ СЌС‚Р°РїР°.
+     * Get the 'StageDescription' element value. Описание этапа.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class GTDOutCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'StageDescription' element value. РћРїРёСЃР°РЅРёРµ СЌС‚Р°РїР°.
+     * Set the 'StageDescription' element value. Описание этапа.
      * 
      * @param stageDescription
      */
@@ -32,7 +32,7 @@ public class GTDOutCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'IdentifierDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РёРїР° РїСЂРёРјРµС‡Р°РЅРёСЏ
+     * Get the 'IdentifierDescription' element value. Описание типа примечания
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class GTDOutCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'IdentifierDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РёРїР° РїСЂРёРјРµС‡Р°РЅРёСЏ
+     * Set the 'IdentifierDescription' element value. Описание типа примечания
      * 
      * @param identifierDescription
      */
@@ -50,7 +50,7 @@ public class GTDOutCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'PaymentWayCode' element value. РљРѕРґ СЃРїРѕСЃРѕР±Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
+     * Get the 'PaymentWayCode' element value. Код способа обеспечения уплаты в соответствии с классификатором способов обеспечения уплаты таможенных пошлин, налогов
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class GTDOutCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'PaymentWayCode' element value. РљРѕРґ СЃРїРѕСЃРѕР±Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
+     * Set the 'PaymentWayCode' element value. Код способа обеспечения уплаты в соответствии с классификатором способов обеспечения уплаты таможенных пошлин, налогов
      * 
      * @param paymentWayCode
      */
@@ -68,7 +68,7 @@ public class GTDOutCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'GuaranteeFoundation' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С…  РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ, СЃРїРµС†РёР°Р»СЊРЅС‹С…, Р°РЅС‚РёРґРµРјРїРёРЅРіРѕРІС‹С…, РєРѕРјРїРµРЅСЃР°С†РёРѕРЅРЅС‹С… РїРѕС€Р»РёРЅ
+     * Get the 'GuaranteeFoundation' element value. Основание предоставления обеспечения уплаты таможенных  пошлин, налогов, специальных, антидемпинговых, компенсационных пошлин
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class GTDOutCommonMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'GuaranteeFoundation' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С…  РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ, СЃРїРµС†РёР°Р»СЊРЅС‹С…, Р°РЅС‚РёРґРµРјРїРёРЅРіРѕРІС‹С…, РєРѕРјРїРµРЅСЃР°С†РёРѕРЅРЅС‹С… РїРѕС€Р»РёРЅ
+     * Set the 'GuaranteeFoundation' element value. Основание предоставления обеспечения уплаты таможенных  пошлин, налогов, специальных, антидемпинговых, компенсационных пошлин
      * 
      * @param guaranteeFoundation
      */

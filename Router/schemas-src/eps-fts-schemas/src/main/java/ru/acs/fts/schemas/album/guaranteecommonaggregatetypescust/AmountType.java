@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.guaranteecommonaggregatetypescust;
 
 /** 
- * Р”РµРЅРµР¶РЅР°СЏ СЃСѓРјРјР° Рё РєРѕРґ РІР°Р»СЋС‚С‹
+ * Денежная сумма и код валюты
  */
 public class AmountType
 {
@@ -10,7 +10,7 @@ public class AmountType
     private String currencyCode;
 
     /** 
-     * Get the 'Amount' element value. РЎСѓРјРјР°.
+     * Get the 'Amount' element value. Сумма.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AmountType
     }
 
     /** 
-     * Set the 'Amount' element value. РЎСѓРјРјР°.
+     * Set the 'Amount' element value. Сумма.
      * 
      * @param amount
      */
@@ -28,7 +28,7 @@ public class AmountType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚.
+     * Get the 'CurrencyCode' element value. Буквенный код валюты в соответствии с Классификатором валют.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AmountType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚.
+     * Set the 'CurrencyCode' element value. Буквенный код валюты в соответствии с Классификатором валют.
      * 
      * @param currencyCode
      */

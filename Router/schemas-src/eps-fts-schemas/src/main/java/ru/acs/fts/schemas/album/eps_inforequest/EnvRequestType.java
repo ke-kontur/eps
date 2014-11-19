@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.eps_inforequest;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° РїРµСЂРµРґР°С‡Сѓ СЃРѕРѕР±С‰РµРЅРёСЏ
+ * Запрос на передачу сообщения
  */
 public class EnvRequestType
 {
     private String envelopeID;
 
     /** 
-     * Get the 'EnvelopeID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'EnvelopeID' element value. Идентификатор сообщения
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class EnvRequestType
     }
 
     /** 
-     * Set the 'EnvelopeID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'EnvelopeID' element value. Идентификатор сообщения
      * 
      * @param envelopeID
      */

@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєРµ
+ * Сведения о налогоплательщике
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -25,7 +25,7 @@ public class TaxPayerType extends CUOrganizationType
     private AddressType factAddress;
 
     /** 
-     * Get the 'FactAddress' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
+     * Get the 'FactAddress' element value. Фактический адрес
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class TaxPayerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'FactAddress' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
+     * Set the 'FactAddress' element value. Фактический адрес
      * 
      * @param factAddress
      */

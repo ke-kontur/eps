@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsQuotaTyp
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.ESADElectricalEnergyQuantityType;
 
 /** 
- * РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ. Р“СЂ. 31-47
+ * Товарная часть. Гр. 31-47
  */
 public class ESADGoodsType extends ESADGoodsItemType
 {
@@ -27,7 +27,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     private List<SupplementaryQuantityType> supplementaryGoodsQuantity1List = new ArrayList<SupplementaryQuantityType>();
 
     /** 
-     * Get the 'AdditionalSheetCount' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р»РёСЃС‚Р°
+     * Get the 'AdditionalSheetCount' element value. Порядковый номер листа
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Set the 'AdditionalSheetCount' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р»РёСЃС‚Р°
+     * Set the 'AdditionalSheetCount' element value. Порядковый номер листа
      * 
      * @param additionalSheetCount
      */
@@ -45,7 +45,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Get the 'FormNumber' element value. Р РµР·РµСЂРІ. РЈС‡РµС‚РЅС‹Р№ РЅРѕРјРµСЂ Р±Р»Р°РЅРєР° (РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ СЃР»СѓС‡Р°СЏ FKSIGN='1')
+     * Get the 'FormNumber' element value. Резерв. Учетный номер бланка (не заполняется для случая FKSIGN='1')
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Set the 'FormNumber' element value. Р РµР·РµСЂРІ. РЈС‡РµС‚РЅС‹Р№ РЅРѕРјРµСЂ Р±Р»Р°РЅРєР° (РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ СЃР»СѓС‡Р°СЏ FKSIGN='1')
+     * Set the 'FormNumber' element value. Резерв. Учетный номер бланка (не заполняется для случая FKSIGN='1')
      * 
      * @param formNumber
      */
@@ -63,7 +63,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Get the 'FKSIGN' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё Р”Рў : "1"-Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ Р”Рў  (РІ С‚РѕРј С‡РёСЃР»Рµ РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ) РІ СЃР»СѓС‡Р°Рµ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё, СЃРІСЏР·Р°РЅРЅРѕР№ СЃ РґРѕР±Р°РІР»РµРЅРёРµРј РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ (РЅР°РїСЂРёРјРµСЂ, РІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РїСЂРёРЅСЏС‚РѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅС‹Рј РѕСЂРіР°РЅРѕРј СЂРµС€РµРЅРёСЏ Рѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РўРќ Р’Р­Р” РўРЎ С‚РѕРІР°СЂ, СЂР°РЅРµРµ Р·Р°СЏРІР»РµРЅРЅС‹Р№ РєР°Рє РѕРґРёРЅ, СЂР°Р·Р±РёРІР°РµС‚СЃСЏ РЅР° РЅРµСЃРєРѕР»СЊРєРѕ).
+     * Get the 'FKSIGN' element value. Признак корректировки ДТ : "1"-заполняется при внесении изменений в ДТ  (в том числе после выпуска товаров) в случае корректировки, связанной с добавлением наименований товаров (например, в результате принятого таможенным органом решения о классификации товаров в соответствии с ТН ВЭД ТС товар, ранее заявленный как один, разбивается на несколько).
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Set the 'FKSIGN' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё Р”Рў : "1"-Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ Р”Рў  (РІ С‚РѕРј С‡РёСЃР»Рµ РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ) РІ СЃР»СѓС‡Р°Рµ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё, СЃРІСЏР·Р°РЅРЅРѕР№ СЃ РґРѕР±Р°РІР»РµРЅРёРµРј РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ (РЅР°РїСЂРёРјРµСЂ, РІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РїСЂРёРЅСЏС‚РѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅС‹Рј РѕСЂРіР°РЅРѕРј СЂРµС€РµРЅРёСЏ Рѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РўРќ Р’Р­Р” РўРЎ С‚РѕРІР°СЂ, СЂР°РЅРµРµ Р·Р°СЏРІР»РµРЅРЅС‹Р№ РєР°Рє РѕРґРёРЅ, СЂР°Р·Р±РёРІР°РµС‚СЃСЏ РЅР° РЅРµСЃРєРѕР»СЊРєРѕ).
+     * Set the 'FKSIGN' element value. Признак корректировки ДТ : "1"-заполняется при внесении изменений в ДТ  (в том числе после выпуска товаров) в случае корректировки, связанной с добавлением наименований товаров (например, в результате принятого таможенным органом решения о классификации товаров в соответствии с ТН ВЭД ТС товар, ранее заявленный как один, разбивается на несколько).
      * 
      * @param FKSIGN
      */
@@ -81,7 +81,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADContainer' element value. ESAD. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С….
+     * Get the 'ESADContainer' element value. ESAD. Сведения о контейнерах.
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADContainer' element value. ESAD. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С….
+     * Set the 'ESADContainer' element value. ESAD. Сведения о контейнерах.
      * 
      * @param ESADContainer
      */
@@ -99,7 +99,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADCustomsProcedure' element value. РџСЂРѕС†РµРґСѓСЂР°.
+     * Get the 'ESADCustomsProcedure' element value. Процедура.
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADCustomsProcedure' element value. РџСЂРѕС†РµРґСѓСЂР°.
+     * Set the 'ESADCustomsProcedure' element value. Процедура.
      * 
      * @param ESADCustomsProcedure
      */
@@ -118,7 +118,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADGoodsQuota' element value. РљРІРѕС‚Р°.
+     * Get the 'ESADGoodsQuota' element value. Квота.
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADGoodsQuota' element value. РљРІРѕС‚Р°.
+     * Set the 'ESADGoodsQuota' element value. Квота.
      * 
      * @param ESADGoodsQuota
      */
@@ -136,7 +136,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'ESADElectricalEnergyQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё. Р Р°СЃРїРѕСЂСЏР¶РµРЅРёРµ Р“РўРљ Р Р¤ 350-СЂ РѕС‚ 23.05.2002Рі.
+     * Get the list of 'ESADElectricalEnergyQuantity' element items. Количество поставленной электроэнергии. Распоряжение ГТК РФ 350-р от 23.05.2002г.
      * 
      * @return list
      */
@@ -145,7 +145,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'ESADElectricalEnergyQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёРё. Р Р°СЃРїРѕСЂСЏР¶РµРЅРёРµ Р“РўРљ Р Р¤ 350-СЂ РѕС‚ 23.05.2002Рі.
+     * Set the list of 'ESADElectricalEnergyQuantity' element items. Количество поставленной электроэнергии. Распоряжение ГТК РФ 350-р от 23.05.2002г.
      * 
      * @param list
      */
@@ -155,7 +155,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Get the 'ESADGoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ.
+     * Get the 'ESADGoodsPackaging' element value. Сведения о грузовых местах, поддонах и упаковке товаров.
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Set the 'ESADGoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ.
+     * Set the 'ESADGoodsPackaging' element value. Сведения о грузовых местах, поддонах и упаковке товаров.
      * 
      * @param ESADGoodsPackaging
      */
@@ -173,7 +173,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.
+     * Get the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения.
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.
+     * Set the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения.
      * 
      * @param supplementaryGoodsQuantity
      */
@@ -192,7 +192,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'SupplementaryGoodsQuantity1' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РѕСЃРЅРѕРІРЅРѕР№ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ (1)
+     * Get the list of 'SupplementaryGoodsQuantity1' element items. Количество товара в единице измерения, отличной от основной и дополнительной (1)
      * 
      * @return list
      */
@@ -201,7 +201,7 @@ public class ESADGoodsType extends ESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'SupplementaryGoodsQuantity1' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РѕСЃРЅРѕРІРЅРѕР№ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ (1)
+     * Set the list of 'SupplementaryGoodsQuantity1' element items. Количество товара в единице измерения, отличной от основной и дополнительной (1)
      * 
      * @param list
      */

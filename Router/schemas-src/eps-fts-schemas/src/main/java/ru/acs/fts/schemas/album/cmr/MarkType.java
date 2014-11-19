@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cmr;
 
 /** 
- * РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
+ * Отметки о прохождении товарами таможенного и иных видов государственного контроля.
  */
 public class MarkType
 {
@@ -11,7 +11,7 @@ public class MarkType
     private String resultControl;
 
     /** 
-     * Get the 'MarkSing' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕС‚РјРµС‚РєРё
+     * Get the 'MarkSing' element value. Признак наличия отметки
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class MarkType
     }
 
     /** 
-     * Set the 'MarkSing' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕС‚РјРµС‚РєРё
+     * Set the 'MarkSing' element value. Признак наличия отметки
      * 
      * @param markSing
      */
@@ -29,7 +29,7 @@ public class MarkType
     }
 
     /** 
-     * Get the 'MarkKind' element value. РўРёРї РѕС‚РјРµС‚РєРё
+     * Get the 'MarkKind' element value. Тип отметки
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class MarkType
     }
 
     /** 
-     * Set the 'MarkKind' element value. РўРёРї РѕС‚РјРµС‚РєРё
+     * Set the 'MarkKind' element value. Тип отметки
      * 
      * @param markKind
      */
@@ -47,7 +47,7 @@ public class MarkType
     }
 
     /** 
-     * Get the 'ResultControl' element value. Р РµР·СѓР»СЊС‚Р°С‚ РїСЂРѕС…РѕР¶РґРµРЅРёСЏ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'ResultControl' element value. Результат прохождения контроля
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class MarkType
     }
 
     /** 
-     * Set the 'ResultControl' element value. Р РµР·СѓР»СЊС‚Р°С‚ РїСЂРѕС…РѕР¶РґРµРЅРёСЏ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'ResultControl' element value. Результат прохождения контроля
      * 
      * @param resultControl
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.responsemca;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р—Р°РіРѕР»РѕРІРѕРє РґРѕРєСѓРјРµРЅС‚Р°
+ * Заголовок документа
  */
 public class DocumentHeadType extends DocumentBaseType
 {
@@ -12,7 +12,7 @@ public class DocumentHeadType extends DocumentBaseType
     private String organizationName;
 
     /** 
-     * Get the 'VisibleFlag' element value. РџСЂРёР·РЅР°Рє РІРёРґРёРјРѕСЃС‚Рё
+     * Get the 'VisibleFlag' element value. Признак видимости
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DocumentHeadType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'VisibleFlag' element value. РџСЂРёР·РЅР°Рє РІРёРґРёРјРѕСЃС‚Рё
+     * Set the 'VisibleFlag' element value. Признак видимости
      * 
      * @param visibleFlag
      */
@@ -30,7 +30,7 @@ public class DocumentHeadType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'OrganizationName' element value. Наименование организации, выдавшей документ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DocumentHeadType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'OrganizationName' element value. Наименование организации, выдавшей документ
      * 
      * @param organizationName
      */

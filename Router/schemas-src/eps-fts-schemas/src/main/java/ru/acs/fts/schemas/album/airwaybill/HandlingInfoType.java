@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РѕР±СЂР°Р±РѕС‚РєРµ РіСЂСѓР·Р°
+ * Информация по обработке груза
  */
 public class HandlingInfoType
 {
@@ -15,7 +15,7 @@ public class HandlingInfoType
     private OrganizationType notificationOrg;
 
     /** 
-     * Get the 'ServiceInfoCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'ServiceInfoCode' element value. Код информации
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Set the 'ServiceInfoCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'ServiceInfoCode' element value. Код информации
      * 
      * @param serviceInfoCode
      */
@@ -33,7 +33,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Get the list of 'InfoDescription' element items. РЎРїРµС†РёР°Р»СЊРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ Рё РґСЂСѓРіР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the list of 'InfoDescription' element items. Специальные требования и другая информация
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Set the list of 'InfoDescription' element items. РЎРїРµС†РёР°Р»СЊРЅС‹Рµ С‚СЂРµР±РѕРІР°РЅРёСЏ Рё РґСЂСѓРіР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the list of 'InfoDescription' element items. Специальные требования и другая информация
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Get the 'NotificationOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ РёР»Рё Р»РёС†Рѕ РґР»СЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё РіСЂСѓР·Р°
+     * Get the 'NotificationOrg' element value. Организация или лицо для уведомления о прибытии груза
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class HandlingInfoType
     }
 
     /** 
-     * Set the 'NotificationOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ РёР»Рё Р»РёС†Рѕ РґР»СЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё РіСЂСѓР·Р°
+     * Set the 'NotificationOrg' element value. Организация или лицо для уведомления о прибытии груза
      * 
      * @param notificationOrg
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РџР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ, РЅР° РєРѕС‚РѕСЂС‹С… Р±С‹Р»Рё РІС‹СЏРІР»РµРЅС‹ СЂРёСЃРєРё
+ * Партии товаров, на которых были выявлены риски
  */
 public class ConsignmentsType
 {
@@ -13,7 +13,7 @@ public class ConsignmentsType
     private List<ConsignmentType> consignmentList = new ArrayList<ConsignmentType>();
 
     /** 
-     * Get the list of 'ProfileRef' element items. РЎСЃС‹Р»РєРё РЅР° РџР /РЎРџР , РєРѕС‚РѕСЂС‹Рµ СЃСЂР°Р±РѕС‚Р°Р»Рё РЅР° РўРЎ РІ С†РµР»РѕРј (С‚.Рµ. РЅР° РІСЃРµ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ)
+     * Get the list of 'ProfileRef' element items. Ссылки на ПР/СПР, которые сработали на ТС в целом (т.е. на все партии товаров)
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the list of 'ProfileRef' element items. РЎСЃС‹Р»РєРё РЅР° РџР /РЎРџР , РєРѕС‚РѕСЂС‹Рµ СЃСЂР°Р±РѕС‚Р°Р»Рё РЅР° РўРЎ РІ С†РµР»РѕРј (С‚.Рµ. РЅР° РІСЃРµ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ)
+     * Set the list of 'ProfileRef' element items. Ссылки на ПР/СПР, которые сработали на ТС в целом (т.е. на все партии товаров)
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the list of 'Consignment' element items. РџР°СЂС‚РёСЏ С‚РѕРІР°СЂРѕРІ, РЅР° РєРѕС‚РѕСЂРѕР№ Р±С‹Р»Рё РІС‹СЏРІР»РµРЅС‹ СЂРёСЃРєРё
+     * Get the list of 'Consignment' element items. Партия товаров, на которой были выявлены риски
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the list of 'Consignment' element items. РџР°СЂС‚РёСЏ С‚РѕРІР°СЂРѕРІ, РЅР° РєРѕС‚РѕСЂРѕР№ Р±С‹Р»Рё РІС‹СЏРІР»РµРЅС‹ СЂРёСЃРєРё
+     * Set the list of 'Consignment' element items. Партия товаров, на которой были выявлены риски
      * 
      * @param list
      */

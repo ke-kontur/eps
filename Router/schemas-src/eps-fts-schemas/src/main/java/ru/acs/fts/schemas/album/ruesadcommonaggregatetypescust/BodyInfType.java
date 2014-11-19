@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * РљСѓР·РѕРІ
+ * Кузов
  */
 public class BodyInfType
 {
@@ -11,7 +11,7 @@ public class BodyInfType
     private String doorsNumber;
 
     /** 
-     * Get the 'BodyNumber' element value. РќРѕРјРµСЂ РєСѓР·РѕРІР°
+     * Get the 'BodyNumber' element value. Номер кузова
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class BodyInfType
     }
 
     /** 
-     * Set the 'BodyNumber' element value. РќРѕРјРµСЂ РєСѓР·РѕРІР°
+     * Set the 'BodyNumber' element value. Номер кузова
      * 
      * @param bodyNumber
      */
@@ -29,7 +29,7 @@ public class BodyInfType
     }
 
     /** 
-     * Get the 'BodyKind' element value. РўРёРї РєСѓР·РѕРІР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ СЃРѕРіР»Р°СЃРЅРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ ATD_KZV.DBF)
+     * Get the 'BodyKind' element value. Тип кузова (заполняется согласно справочнику ATD_KZV.DBF)
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class BodyInfType
     }
 
     /** 
-     * Set the 'BodyKind' element value. РўРёРї РєСѓР·РѕРІР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ СЃРѕРіР»Р°СЃРЅРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ ATD_KZV.DBF)
+     * Set the 'BodyKind' element value. Тип кузова (заполняется согласно справочнику ATD_KZV.DBF)
      * 
      * @param bodyKind
      */
@@ -47,7 +47,7 @@ public class BodyInfType
     }
 
     /** 
-     * Get the 'DoorsNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРІРµСЂРµР№
+     * Get the 'DoorsNumber' element value. Количество дверей
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class BodyInfType
     }
 
     /** 
-     * Set the 'DoorsNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРІРµСЂРµР№
+     * Set the 'DoorsNumber' element value. Количество дверей
      * 
      * @param doorsNumber
      */

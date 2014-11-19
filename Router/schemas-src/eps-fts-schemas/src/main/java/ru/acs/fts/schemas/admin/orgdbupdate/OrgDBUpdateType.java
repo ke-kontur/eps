@@ -5,7 +5,7 @@ import org.joda.time.DateTime;
 import ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType;
 
 /** 
- * Р—Р°РіСЂСѓР·РєР° СЃРїСЂР°РІРѕС‡РЅРёРєР° РѕСЂРіР°РЅРёР·Р°С†РёР№ / С‚РѕС‡РµРє РїРѕРґРєР»СЋС‡РµРЅРёСЏ
+ * Загрузка справочника организаций / точек подключения
  */
 public class OrgDBUpdateType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class OrgDBUpdateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CreateDateTime' element value. Р”Р°С‚Р°  Рё РІСЂРµРјСЏ  СЃРѕР·РґР°РЅРёСЏ  РІС‹РіСЂСѓР·РєРё
+     * Get the 'CreateDateTime' element value. Дата  и время  создания  выгрузки
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class OrgDBUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CreateDateTime' element value. Р”Р°С‚Р°  Рё РІСЂРµРјСЏ  СЃРѕР·РґР°РЅРёСЏ  РІС‹РіСЂСѓР·РєРё
+     * Set the 'CreateDateTime' element value. Дата  и время  создания  выгрузки
      * 
      * @param createDateTime
      */
@@ -32,7 +32,7 @@ public class OrgDBUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrgInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'OrgInfo' element value. Информация об организации
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class OrgDBUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrgInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'OrgInfo' element value. Информация об организации
      * 
      * @param orgInfo
      */
@@ -50,7 +50,7 @@ public class OrgDBUpdateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class OrgDBUpdateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

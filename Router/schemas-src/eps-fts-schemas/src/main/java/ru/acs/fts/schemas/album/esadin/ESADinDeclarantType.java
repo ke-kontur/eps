@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.ContactType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.ESADOrganizationInType;
 
 /** 
- * Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ/РїСЂРµРґСЃС‚Р°РІРёС‚РµР»Рµ.
+ * ДТ и ТД. Внутренний формат. Сведения о декларанте/представителе.
  */
 public class ESADinDeclarantType extends ESADOrganizationInType
 {
@@ -14,7 +14,7 @@ public class ESADinDeclarantType extends ESADOrganizationInType
     private ContactType contact;
 
     /** 
-     * Get the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
+     * Get the 'BranchDescription' element value. Сведения об обособленном подразделении.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ESADinDeclarantType extends ESADOrganizationInType
     }
 
     /** 
-     * Set the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
+     * Set the 'BranchDescription' element value. Сведения об обособленном подразделении.
      * 
      * @param branchDescription
      */
@@ -32,7 +32,7 @@ public class ESADinDeclarantType extends ESADOrganizationInType
     }
 
     /** 
-     * Get the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'Contact' element value. Контактная информация
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ESADinDeclarantType extends ESADOrganizationInType
     }
 
     /** 
-     * Set the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'Contact' element value. Контактная информация
      * 
      * @param contact
      */

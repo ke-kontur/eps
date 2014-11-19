@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.pp_revealedrisks;
 
 /** 
- * РЎСЃС‹Р»РєРё РЅР° РџР /РЎРџР , РєРѕС‚РѕСЂС‹Рµ СЃСЂР°Р±РѕС‚Р°Р»Рё РЅР° РўРЎ РІ С†РµР»РѕРј (С‚.Рµ. РЅР° РІСЃРµ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ)
+ * Ссылки на ПР/СПР, которые сработали на ТС в целом (т.е. на все партии товаров)
  */
 public class ProfileRefType
 {
     private String URI;
 
     /** 
-     * Get the 'URI' attribute value. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ #ID
+     * Get the 'URI' attribute value. Указывается #ID
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class ProfileRefType
     }
 
     /** 
-     * Set the 'URI' attribute value. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ #ID
+     * Set the 'URI' attribute value. Указывается #ID
      * 
      * @param URI
      */

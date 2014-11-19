@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.rznmedizd;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРµ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ
+ * Регистрационное удостоверение
  */
 public class RZNMedizdType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class RZNMedizdType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class RZNMedizdType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -34,7 +34,7 @@ public class RZNMedizdType extends BaseDocType
     }
 
     /** 
-     * Get the 'Application' element value. РџСЂРёР»РѕР¶РµРЅРёРµ
+     * Get the 'Application' element value. Приложение
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class RZNMedizdType extends BaseDocType
     }
 
     /** 
-     * Set the 'Application' element value. РџСЂРёР»РѕР¶РµРЅРёРµ
+     * Set the 'Application' element value. Приложение
      * 
      * @param application
      */
@@ -52,7 +52,7 @@ public class RZNMedizdType extends BaseDocType
     }
 
     /** 
-     * Get the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёСЏ
+     * Get the 'Registration' element value. Регистрация
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class RZNMedizdType extends BaseDocType
     }
 
     /** 
-     * Set the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёСЏ
+     * Set the 'Registration' element value. Регистрация
      * 
      * @param registration
      */
@@ -70,7 +70,7 @@ public class RZNMedizdType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicantOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ-Р·Р°СЏРІРёС‚РµР»СЊ
+     * Get the 'ApplicantOrg' element value. Организация-заявитель
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class RZNMedizdType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicantOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ-Р·Р°СЏРІРёС‚РµР»СЊ
+     * Set the 'ApplicantOrg' element value. Организация-заявитель
      * 
      * @param applicantOrg
      */
@@ -88,7 +88,7 @@ public class RZNMedizdType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ РёР·РґРµР»РёСЏ РјРµРґРёС†РёРЅСЃРєРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'GoodsDescription' element value. Описание изделия медицинского назначения
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class RZNMedizdType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ РёР·РґРµР»РёСЏ РјРµРґРёС†РёРЅСЃРєРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'GoodsDescription' element value. Описание изделия медицинского назначения
      * 
      * @param goodsDescription
      */
@@ -106,7 +106,7 @@ public class RZNMedizdType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class RZNMedizdType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

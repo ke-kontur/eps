@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРѕРґРёС‚РµР»СЏС…
+ * Информация о водителях
  */
 public class DriverInformationType extends PersonBaseType
 {
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ РІРѕРґРёС‚РµР»СЏ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность водителя
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DriverInformationType extends PersonBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ РІРѕРґРёС‚РµР»СЏ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность водителя
      * 
      * @param identityCard
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.mpo_declaration;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С†РµР»РѕСЃС‚РЅРѕСЃС‚Рё СѓРїР°РєРѕРІРєРё
+ * Сведения о целостности упаковки
  */
 public class PackingStateType
 {
@@ -10,7 +10,7 @@ public class PackingStateType
     private String remark;
 
     /** 
-     * Get the 'Value' element value. Р—РЅР°С‡РµРЅРёРµ: 0 РёР»Рё false - РЅР°СЂСѓС€РµРЅР°, 1 РёР»Рё true - С†РµР»РѕСЃС‚РЅР°
+     * Get the 'Value' element value. Значение: 0 или false - нарушена, 1 или true - целостна
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class PackingStateType
     }
 
     /** 
-     * Set the 'Value' element value. Р—РЅР°С‡РµРЅРёРµ: 0 РёР»Рё false - РЅР°СЂСѓС€РµРЅР°, 1 РёР»Рё true - С†РµР»РѕСЃС‚РЅР°
+     * Set the 'Value' element value. Значение: 0 или false - нарушена, 1 или true - целостна
      * 
      * @param value
      */
@@ -28,7 +28,7 @@ public class PackingStateType
     }
 
     /** 
-     * Get the 'Remark' element value. РџРѕСЏСЃРЅРµРЅРёРµ
+     * Get the 'Remark' element value. Пояснение
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class PackingStateType
     }
 
     /** 
-     * Set the 'Remark' element value. РџРѕСЏСЃРЅРµРЅРёРµ
+     * Set the 'Remark' element value. Пояснение
      * 
      * @param remark
      */

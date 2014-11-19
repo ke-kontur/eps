@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.eps_docresponse;
 
 /** 
- * Р—Р°РїСЂРѕС€РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+ * Запрошенный документ
  */
 public class DocResponseType
 {
@@ -10,7 +10,7 @@ public class DocResponseType
     private DocResponseBodyType docResponseBody;
 
     /** 
-     * Get the 'RequestPositionID' element value. РРґРµС‚РЅРёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ РёСЃС…РѕРґРЅРѕРј Р·Р°РїСЂРѕСЃРµ
+     * Get the 'RequestPositionID' element value. Идетнификатор позиции в исходном запросе
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DocResponseType
     }
 
     /** 
-     * Set the 'RequestPositionID' element value. РРґРµС‚РЅРёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ РёСЃС…РѕРґРЅРѕРј Р·Р°РїСЂРѕСЃРµ
+     * Set the 'RequestPositionID' element value. Идетнификатор позиции в исходном запросе
      * 
      * @param requestPositionID
      */
@@ -28,7 +28,7 @@ public class DocResponseType
     }
 
     /** 
-     * Get the 'DocResponseBody' element value. РўРµР»Рѕ Р·Р°РїСЂРѕС€РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocResponseBody' element value. Тело запрошенного документа
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DocResponseType
     }
 
     /** 
-     * Set the 'DocResponseBody' element value. РўРµР»Рѕ Р·Р°РїСЂРѕС€РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocResponseBody' element value. Тело запрошенного документа
      * 
      * @param docResponseBody
      */

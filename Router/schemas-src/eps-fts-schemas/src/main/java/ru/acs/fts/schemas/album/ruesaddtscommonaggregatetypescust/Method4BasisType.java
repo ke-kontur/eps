@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 
 /** 
- * РћСЃРЅРѕРІР° РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 4 РіСЂ. Рђ (11)
+ * Основа для расчета таможенной стоимости по методу 4 гр. А (11)
  */
 public class Method4BasisType
 {
     private String identicalDealRoublePrice;
 
     /** 
-     * Get the 'IdenticalDealRoublePrice' element value. Р¦РµРЅР° РµРґРёРЅРёС†С‹ РѕС†РµРЅРёРІР°РµРјС‹С…, РёРґРµРЅС‚РёС‡РЅС‹С… РёР»Рё РѕРґРЅРѕСЂРѕРґРЅС‹С… С‚РѕРІР°СЂРѕРІ  РІ СЂСѓР±Р»СЏС…. 11.
+     * Get the 'IdenticalDealRoublePrice' element value. Цена единицы оцениваемых, идентичных или однородных товаров  в рублях. 11.
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class Method4BasisType
     }
 
     /** 
-     * Set the 'IdenticalDealRoublePrice' element value. Р¦РµРЅР° РµРґРёРЅРёС†С‹ РѕС†РµРЅРёРІР°РµРјС‹С…, РёРґРµРЅС‚РёС‡РЅС‹С… РёР»Рё РѕРґРЅРѕСЂРѕРґРЅС‹С… С‚РѕРІР°СЂРѕРІ  РІ СЂСѓР±Р»СЏС…. 11.
+     * Set the 'IdenticalDealRoublePrice' element value. Цена единицы оцениваемых, идентичных или однородных товаров  в рублях. 11.
      * 
      * @param identicalDealRoublePrice
      */

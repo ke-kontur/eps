@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЃС‚Р°С‚РєРµ РєРІРѕС‚С‹ РІ РґРµРЅРµР¶РЅРѕРј РІС‹СЂР°Р¶РµРЅРёРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РєРІРѕС‚Р° СѓСЃС‚Р°РЅРѕРІР»РµРЅР° РІ РґРµРЅРµР¶РЅРѕРј РІС‹СЂР°Р¶РµРЅРёРё
+ * Сведения об остатке квоты в денежном выражении. Заполняется в случае, если квота установлена в денежном выражении
  */
 public class ESADCurrencyQuotaType
 {
@@ -11,7 +11,7 @@ public class ESADCurrencyQuotaType
     private String quotaCurrencyName;
 
     /** 
-     * Get the 'QuotaCurrencyQuantity' element value. РћСЃС‚Р°С‚РѕРє РєРІРѕС‚С‹ РІ РІР°Р»СЋС‚Рµ
+     * Get the 'QuotaCurrencyQuantity' element value. Остаток квоты в валюте
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ESADCurrencyQuotaType
     }
 
     /** 
-     * Set the 'QuotaCurrencyQuantity' element value. РћСЃС‚Р°С‚РѕРє РєРІРѕС‚С‹ РІ РІР°Р»СЋС‚Рµ
+     * Set the 'QuotaCurrencyQuantity' element value. Остаток квоты в валюте
      * 
      * @param quotaCurrencyQuantity
      */
@@ -29,7 +29,7 @@ public class ESADCurrencyQuotaType
     }
 
     /** 
-     * Get the 'QuotaCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РєРІРѕС‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РєРѕРґРѕРІ РІР°Р»СЋС‚
+     * Get the 'QuotaCurrencyCode' element value. Цифровой код валюты квоты в соответствии с классификатором кодов валют
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ESADCurrencyQuotaType
     }
 
     /** 
-     * Set the 'QuotaCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РєРІРѕС‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РєРѕРґРѕРІ РІР°Р»СЋС‚
+     * Set the 'QuotaCurrencyCode' element value. Цифровой код валюты квоты в соответствии с классификатором кодов валют
      * 
      * @param quotaCurrencyCode
      */
@@ -47,7 +47,7 @@ public class ESADCurrencyQuotaType
     }
 
     /** 
-     * Get the 'QuotaCurrencyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІР°Р»СЋС‚С‹ РєРІРѕС‚С‹
+     * Get the 'QuotaCurrencyName' element value. Наименование валюты квоты
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ESADCurrencyQuotaType
     }
 
     /** 
-     * Set the 'QuotaCurrencyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІР°Р»СЋС‚С‹ РєРІРѕС‚С‹
+     * Set the 'QuotaCurrencyName' element value. Наименование валюты квоты
      * 
      * @param quotaCurrencyName
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.admin.int_dtresponce;
 import ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚ РїРѕРёСЃРєР° Р”Рў
+ * Результат поиска ДТ
  */
 public class INTDTResponseType extends BaseDocType
 {
@@ -49,7 +49,7 @@ public class INTDTResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class INTDTResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

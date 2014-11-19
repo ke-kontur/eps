@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РћРїРёСЃСЊ РґРѕРєСѓРјРµРЅС‚РѕРІ
+ * Опись документов
  */
 public class InventoryType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class InventoryType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NumberOfInvent' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕРїРёСЃРµР№ Рє Р”Рў
+     * Get the 'NumberOfInvent' element value. Количество описей к ДТ
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'NumberOfInvent' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕРїРёСЃРµР№ Рє Р”Рў
+     * Set the 'NumberOfInvent' element value. Количество описей к ДТ
      * 
      * @param numberOfInvent
      */
@@ -36,7 +36,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'RefPackageDocID' element value. РЎСЃС‹Р»РєР° РЅР° РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ РїР°РєРµС‚Рµ
+     * Get the 'RefPackageDocID' element value. Ссылка на идентификатор документа в пакете
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'RefPackageDocID' element value. РЎСЃС‹Р»РєР° РЅР° РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ РїР°РєРµС‚Рµ
+     * Set the 'RefPackageDocID' element value. Ссылка на идентификатор документа в пакете
      * 
      * @param refPackageDocID
      */
@@ -54,7 +54,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў.  РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў РїСЂРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РѕРїРёСЃРё РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
+     * Get the 'GTDDocumentID' element value. Уникальный идентификатор ДТ.  Используется для привязки к ДТ при представлении описи отдельно от ДТ.
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў.  РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў РїСЂРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РѕРїРёСЃРё РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
+     * Set the 'GTDDocumentID' element value. Уникальный идентификатор ДТ.  Используется для привязки к ДТ при представлении описи отдельно от ДТ.
      * 
      * @param GTDDocumentID
      */
@@ -72,7 +72,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїРѕРґР°СЋС‰РµРј РґРѕРєСѓРјРµРЅС‚(С‹)
+     * Get the 'GTDPerson' element value. Сведения о лице, подающем документ(ы)
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїРѕРґР°СЋС‰РµРј РґРѕРєСѓРјРµРЅС‚(С‹)
+     * Set the 'GTDPerson' element value. Сведения о лице, подающем документ(ы)
      * 
      * @param GTDPerson
      */
@@ -90,7 +90,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'InventoryInstance' element value. Р­РєР·РµРјРїР»СЏСЂ РѕРїРёСЃРё
+     * Get the 'InventoryInstance' element value. Экземпляр описи
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'InventoryInstance' element value. Р­РєР·РµРјРїР»СЏСЂ РѕРїРёСЃРё
+     * Set the 'InventoryInstance' element value. Экземпляр описи
      * 
      * @param inventoryInstance
      */
@@ -108,7 +108,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё  РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РїРѕСЃР»Рµ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў
+     * Get the 'GTDNumber' element value. Справочный номер ДТ Заполняется при  предоставлении документов после регистрации ДТ
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё  РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РїРѕСЃР»Рµ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў
+     * Set the 'GTDNumber' element value. Справочный номер ДТ Заполняется при  предоставлении документов после регистрации ДТ
      * 
      * @param GTDNumber
      */
@@ -126,7 +126,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class InventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

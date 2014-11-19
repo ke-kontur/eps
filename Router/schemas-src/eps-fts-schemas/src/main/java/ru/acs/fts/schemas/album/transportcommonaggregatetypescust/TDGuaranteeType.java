@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * РћР±РµСЃРїРµС‡РµРЅРёРµ
+ * Обеспечение
  */
 public class TDGuaranteeType
 {
@@ -13,7 +13,7 @@ public class TDGuaranteeType
     private LocalDate issueDate;
 
     /** 
-     * Get the 'MeasureCode' element value. РљРѕРґ РјРµСЂС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Get the 'MeasureCode' element value. Код меры обеспечения
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Set the 'MeasureCode' element value. РљРѕРґ РјРµСЂС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Set the 'MeasureCode' element value. Код меры обеспечения
      * 
      * @param measureCode
      */
@@ -31,7 +31,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер документа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер документа
      * 
      * @param documentNumber
      */
@@ -49,7 +49,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IssueDate' element value. Дата документа
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class TDGuaranteeType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IssueDate' element value. Дата документа
      * 
      * @param issueDate
      */

@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІРѕ Рѕ РїРѕРґР°С‡Рµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё Рё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РЅРµРѕР±С…РѕРґРёРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ Рё СЃРІРµРґРµРЅРёР№
+ * Обязательство о подаче таможенной декларации и представлении необходимых документов и сведений
  */
 public class GTDObligationType extends BaseDocType
 {
@@ -37,7 +37,7 @@ public class GTDObligationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DateSign' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ РґРµРєР»Р°СЂР°РЅС‚РѕРј РёР»Рё С‚Р°РјРѕР¶РµРЅРЅС‹Рј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµРј
+     * Get the 'DateSign' element value. Дата подписания декларантом или таможенным представителем
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateSign' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ РґРµРєР»Р°СЂР°РЅС‚РѕРј РёР»Рё С‚Р°РјРѕР¶РµРЅРЅС‹Рј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµРј
+     * Set the 'DateSign' element value. Дата подписания декларантом или таможенным представителем
      * 
      * @param dateSign
      */
@@ -55,7 +55,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsUsagePurpose' element value. Р¦РµР»СЊ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Get the 'GoodsUsagePurpose' element value. Цель использования товаров
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsUsagePurpose' element value. Р¦РµР»СЊ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Set the 'GoodsUsagePurpose' element value. Цель использования товаров
      * 
      * @param goodsUsagePurpose
      */
@@ -73,7 +73,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsDirection' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ (РРњ, Р­Рљ)
+     * Get the 'GoodsDirection' element value. Направление перемещения товаров (ИМ, ЭК)
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsDirection' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ (РРњ, Р­Рљ)
+     * Set the 'GoodsDirection' element value. Направление перемещения товаров (ИМ, ЭК)
      * 
      * @param goodsDirection
      */
@@ -91,7 +91,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalGoodsQuantity' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
+     * Get the 'TotalGoodsQuantity' element value. Всего наименований товаров
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalGoodsQuantity' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
+     * Set the 'TotalGoodsQuantity' element value. Всего наименований товаров
      * 
      * @param totalGoodsQuantity
      */
@@ -109,7 +109,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
+     * Get the 'CurrencyRate' element value. Курс валюты
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
+     * Set the 'CurrencyRate' element value. Курс валюты
      * 
      * @param currencyRate
      */
@@ -127,7 +127,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°
+     * Get the 'CurrencyCode' element value. Код валюты цены договора
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°
+     * Set the 'CurrencyCode' element value. Код валюты цены договора
      * 
      * @param currencyCode
      */
@@ -145,7 +145,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContainerSign' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє: 1 - РµСЃР»Рё РїРµСЂРµРІРѕР·РєР° С‚РѕРІР°СЂРѕРІ (С…РѕС‚СЏ Р±С‹ РѕРґРЅРѕРіРѕ РёР· РЅРёС…) С‡РµСЂРµР· С‚Р°Рј. РіСЂР°РЅРёС†Сѓ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ (РїСЂРѕРёР·РІРѕРґРёР»Р°СЃСЊ) РІ РєРѕРЅС‚РµР№РЅРµСЂРµ; 0 - РІ РёРЅС‹С… СЃР»СѓС‡Р°СЏС… (РІ С‚РѕРј С‡РёСЃР»Рµ, РµСЃР»Рё СЃРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ РЅРµРёР·РІРµСЃС‚РЅС‹)
+     * Get the 'ContainerSign' element value. Признак контейнерных перевозок: 1 - если перевозка товаров (хотя бы одного из них) через там. границу производится (производилась) в контейнере; 0 - в иных случаях (в том числе, если сведения о перевозке неизвестны)
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContainerSign' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє: 1 - РµСЃР»Рё РїРµСЂРµРІРѕР·РєР° С‚РѕРІР°СЂРѕРІ (С…РѕС‚СЏ Р±С‹ РѕРґРЅРѕРіРѕ РёР· РЅРёС…) С‡РµСЂРµР· С‚Р°Рј. РіСЂР°РЅРёС†Сѓ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ (РїСЂРѕРёР·РІРѕРґРёР»Р°СЃСЊ) РІ РєРѕРЅС‚РµР№РЅРµСЂРµ; 0 - РІ РёРЅС‹С… СЃР»СѓС‡Р°СЏС… (РІ С‚РѕРј С‡РёСЃР»Рµ, РµСЃР»Рё СЃРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ РЅРµРёР·РІРµСЃС‚РЅС‹)
+     * Set the 'ContainerSign' element value. Признак контейнерных перевозок: 1 - если перевозка товаров (хотя бы одного из них) через там. границу производится (производилась) в контейнере; 0 - в иных случаях (в том числе, если сведения о перевозке неизвестны)
      * 
      * @param containerSign
      */
@@ -163,7 +163,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'FilledPerson' element value. Р”Р°РЅРЅС‹Рµ Р»РёС†Р°, РїРѕРґР°СЋС‰РµРіРѕ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІРѕ
+     * Get the 'FilledPerson' element value. Данные лица, подающего обязательство
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'FilledPerson' element value. Р”Р°РЅРЅС‹Рµ Р»РёС†Р°, РїРѕРґР°СЋС‰РµРіРѕ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІРѕ
+     * Set the 'FilledPerson' element value. Данные лица, подающего обязательство
      * 
      * @param filledPerson
      */
@@ -181,7 +181,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Simplification' element items. РСЃРїРѕР»СЊР·СѓРµРјРѕРµ СѓРїСЂРѕС‰РµРЅРёРµ
+     * Get the list of 'Simplification' element items. Используемое упрощение
      * 
      * @return list
      */
@@ -190,7 +190,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Simplification' element items. РСЃРїРѕР»СЊР·СѓРµРјРѕРµ СѓРїСЂРѕС‰РµРЅРёРµ
+     * Set the list of 'Simplification' element items. Используемое упрощение
      * 
      * @param list
      */
@@ -199,7 +199,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsName' element value. Наименование таможенного органа
      * 
      * @return value
      */
@@ -208,7 +208,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsName' element value. Наименование таможенного органа
      * 
      * @param customsName
      */
@@ -217,7 +217,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ESADCustomsProcedure' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР°
+     * Get the 'ESADCustomsProcedure' element value. Таможенная процедура
      * 
      * @return value
      */
@@ -226,7 +226,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ESADCustomsProcedure' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР°
+     * Set the 'ESADCustomsProcedure' element value. Таможенная процедура
      * 
      * @param ESADCustomsProcedure
      */
@@ -236,7 +236,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ObligationGoods' element items. РўРѕРІР°СЂС‹, Рѕ РІС‹РїСѓСЃРєРµ РєРѕС‚РѕСЂС‹С… РїСЂРѕСЃРёС‚ РѕСЃСѓС‰РµСЃС‚РІРёС‚СЊ РґРµРєР»Р°СЂР°РЅС‚
+     * Get the list of 'ObligationGoods' element items. Товары, о выпуске которых просит осуществить декларант
      * 
      * @return list
      */
@@ -245,7 +245,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ObligationGoods' element items. РўРѕРІР°СЂС‹, Рѕ РІС‹РїСѓСЃРєРµ РєРѕС‚РѕСЂС‹С… РїСЂРѕСЃРёС‚ РѕСЃСѓС‰РµСЃС‚РІРёС‚СЊ РґРµРєР»Р°СЂР°РЅС‚
+     * Set the list of 'ObligationGoods' element items. Товары, о выпуске которых просит осуществить декларант
      * 
      * @param list
      */
@@ -254,7 +254,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ObligationDeclarant' element value. Р—Р°СЏРІРёС‚РµР»СЊ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР°
+     * Get the 'ObligationDeclarant' element value. Заявитель обязательства
      * 
      * @return value
      */
@@ -263,7 +263,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ObligationDeclarant' element value. Р—Р°СЏРІРёС‚РµР»СЊ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР°
+     * Set the 'ObligationDeclarant' element value. Заявитель обязательства
      * 
      * @param obligationDeclarant
      */
@@ -272,7 +272,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'InfoCustomsPay' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РµСЃРїРµС‡РµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ, РµСЃР»Рё РїСЂРѕРёР·РІРµРґРµРЅР° СѓРїР»Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅС‹С…   РїР»Р°С‚РµР¶РµР№  РёР»Рё С‚СЂРµР±СѓРµС‚СЃСЏ  РѕР±РµСЃРїРµС‡РµРЅРёРµ СѓРїР»Р°С‚С‹ РїСЂРёС‡РёС‚Р°СЋС‰РёС…СЃСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІ РёРЅРѕРј СЃР»СѓС‡Р°Рµ - РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ)
+     * Get the 'InfoCustomsPay' element value. Сведения об обеспечении таможенных платежей (заполняется, если произведена уплата таможенных   платежей  или требуется  обеспечение уплаты причитающихся таможенных платежей, в ином случае - не заполняется)
      * 
      * @return value
      */
@@ -281,7 +281,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'InfoCustomsPay' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РµСЃРїРµС‡РµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ, РµСЃР»Рё РїСЂРѕРёР·РІРµРґРµРЅР° СѓРїР»Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅС‹С…   РїР»Р°С‚РµР¶РµР№  РёР»Рё С‚СЂРµР±СѓРµС‚СЃСЏ  РѕР±РµСЃРїРµС‡РµРЅРёРµ СѓРїР»Р°С‚С‹ РїСЂРёС‡РёС‚Р°СЋС‰РёС…СЃСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІ РёРЅРѕРј СЃР»СѓС‡Р°Рµ - РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ)
+     * Set the 'InfoCustomsPay' element value. Сведения об обеспечении таможенных платежей (заполняется, если произведена уплата таможенных   платежей  или требуется  обеспечение уплаты причитающихся таможенных платежей, в ином случае - не заполняется)
      * 
      * @param infoCustomsPay
      */
@@ -290,7 +290,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TradeCountry' element value. РўРѕСЂРіСѓСЋС‰Р°СЏ СЃС‚СЂР°РЅР°
+     * Get the 'TradeCountry' element value. Торгующая страна
      * 
      * @return value
      */
@@ -299,7 +299,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TradeCountry' element value. РўРѕСЂРіСѓСЋС‰Р°СЏ СЃС‚СЂР°РЅР°
+     * Set the 'TradeCountry' element value. Торгующая страна
      * 
      * @param tradeCountry
      */
@@ -308,7 +308,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DepartureCountry' element value. Страна отправления
      * 
      * @return value
      */
@@ -317,7 +317,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DepartureCountry' element value. Страна отправления
      * 
      * @param departureCountry
      */
@@ -326,7 +326,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Get the 'OriginCountry' element value. Страна происхождения
      * 
      * @return value
      */
@@ -335,7 +335,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Set the 'OriginCountry' element value. Страна происхождения
      * 
      * @param originCountry
      */
@@ -344,7 +344,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationCountry' element value. Страна назначения
      * 
      * @return value
      */
@@ -353,7 +353,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationCountry' element value. Страна назначения
      * 
      * @param destinationCountry
      */
@@ -362,7 +362,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Transport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+     * Get the list of 'Transport' element items. Транспортное средство
      * 
      * @return list
      */
@@ -371,7 +371,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Transport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+     * Set the list of 'Transport' element items. Транспортное средство
      * 
      * @param list
      */
@@ -380,7 +380,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'Consignor' element value. Сведения об отправителе товаров
      * 
      * @return value
      */
@@ -389,7 +389,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'Consignor' element value. Сведения об отправителе товаров
      * 
      * @param consignor
      */
@@ -398,7 +398,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'Consignee' element value. Сведения о получателе товаров
      * 
      * @return value
      */
@@ -407,7 +407,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'Consignee' element value. Сведения о получателе товаров
      * 
      * @param consignee
      */
@@ -416,7 +416,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustBroker' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Get the 'CustBroker' element value. Таможенный представитель
      * 
      * @return value
      */
@@ -425,7 +425,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustBroker' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Set the 'CustBroker' element value. Таможенный представитель
      * 
      * @param custBroker
      */
@@ -434,7 +434,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PresentedDocuments' element items. РџСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the list of 'PresentedDocuments' element items. Представляемые документы
      * 
      * @return list
      */
@@ -443,7 +443,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PresentedDocuments' element items. РџСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the list of 'PresentedDocuments' element items. Представляемые документы
      * 
      * @param list
      */
@@ -452,7 +452,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -461,7 +461,7 @@ public class GTDObligationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

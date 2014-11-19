@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Р”Р°РЅРЅС‹Рµ Р·Р°РїСЂРѕСЃР° РЅР° РїРѕРёСЃРє РёРЅС„РѕСЂРјР°С†РёРё Рѕ СЂР°Р·СЂРµС€РµРЅРёРё
+ * Данные запроса на поиск информации о разрешении
  */
 public class CheckRequestDataType
 {
@@ -14,7 +14,7 @@ public class CheckRequestDataType
     private AutoTrainType autoTrain;
 
     /** 
-     * Get the 'Post' element value. РџРѕСЃС‚
+     * Get the 'Post' element value. Пост
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class CheckRequestDataType
     }
 
     /** 
-     * Set the 'Post' element value. РџРѕСЃС‚
+     * Set the 'Post' element value. Пост
      * 
      * @param post
      */
@@ -32,7 +32,7 @@ public class CheckRequestDataType
     }
 
     /** 
-     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Get the 'Carrier' element value. Перевозчик
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CheckRequestDataType
     }
 
     /** 
-     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Set the 'Carrier' element value. Перевозчик
      * 
      * @param carrier
      */
@@ -50,7 +50,7 @@ public class CheckRequestDataType
     }
 
     /** 
-     * Get the 'AutoTrain' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ (Р°РІС‚РѕРїРѕРµР·Рґ)
+     * Get the 'AutoTrain' element value. Сведения о транспортном средстве (автопоезд)
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class CheckRequestDataType
     }
 
     /** 
-     * Set the 'AutoTrain' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ (Р°РІС‚РѕРїРѕРµР·Рґ)
+     * Set the 'AutoTrain' element value. Сведения о транспортном средстве (автопоезд)
      * 
      * @param autoTrain
      */

@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ СЃС‚Р°С‚РёСЃС‚РёС‡РµСЃРєРѕР№ С„РѕСЂРјС‹ (Р»РёС†Рѕ, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РїСЂРµРґРѕСЃС‚Р°РІР»СЏС‚СЊ СЃС‚Р°С‚РёСЃС‚РёС‡РµСЃРєСѓСЋ С„РѕСЂРјСѓ РѕС‚ РёРјРµРЅРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°)
+ * Сведения о лице, ответственное за предоставление статистической формы (лицо, уполномоченное предоставлять статистическую форму от имени юридического лица)
  */
 public class ProvidePersonType extends PersonBaseType
 {
@@ -17,7 +17,7 @@ public class ProvidePersonType extends PersonBaseType
     private AddressType address;
 
     /** 
-     * Get the 'ExecutionDate' element value. Р”Р°С‚Р° Р·Р°РїРѕР»РЅРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'ExecutionDate' element value. Дата заполнения документа
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ProvidePersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'ExecutionDate' element value. Р”Р°С‚Р° Р·Р°РїРѕР»РЅРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'ExecutionDate' element value. Дата заполнения документа
      * 
      * @param executionDate
      */
@@ -35,7 +35,7 @@ public class ProvidePersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'ContactPhone' element value. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР° (РєРѕРґ, РЅРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°).
+     * Get the 'ContactPhone' element value. Номер телефона (код, номер телефона).
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ProvidePersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'ContactPhone' element value. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР° (РєРѕРґ, РЅРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°).
+     * Set the 'ContactPhone' element value. Номер телефона (код, номер телефона).
      * 
      * @param contactPhone
      */
@@ -53,7 +53,7 @@ public class ProvidePersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'Email' element value. РђРґСЂРµСЃ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹
+     * Get the 'Email' element value. Адрес электронной почты
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ProvidePersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'Email' element value. РђРґСЂРµСЃ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹
+     * Set the 'Email' element value. Адрес электронной почты
      * 
      * @param email
      */
@@ -71,7 +71,7 @@ public class ProvidePersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё Р·Р°СЏРІРёС‚РµР»СЏ
+     * Get the 'OrganizationName' element value. Наименование организации заявителя
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class ProvidePersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё Р·Р°СЏРІРёС‚РµР»СЏ
+     * Set the 'OrganizationName' element value. Наименование организации заявителя
      * 
      * @param organizationName
      */
@@ -89,7 +89,7 @@ public class ProvidePersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'Address' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ
+     * Get the 'Address' element value. Почтовый адрес
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class ProvidePersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'Address' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ
+     * Set the 'Address' element value. Почтовый адрес
      * 
      * @param address
      */

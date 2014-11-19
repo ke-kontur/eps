@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.staticform;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsInfoType
 {
@@ -19,7 +19,7 @@ public class GoodsInfoType
     private SupplementaryQuantityType supplementaryQuantity;
 
     /** 
-     * Get the 'CustCostCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С†РµРЅС‹ С‚РѕРІР°СЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚.
+     * Get the 'CustCostCurrencyCode' element value. Код валюты цены товара в соответствии с Классификатором валют.
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'CustCostCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С†РµРЅС‹ С‚РѕРІР°СЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚.
+     * Set the 'CustCostCurrencyCode' element value. Код валюты цены товара в соответствии с Классификатором валют.
      * 
      * @param custCostCurrencyCode
      */
@@ -37,7 +37,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -55,7 +55,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂРѕРІ.
+     * Get the 'GoodsDescription' element value. Наименование (торговое, коммерческое или иное традиционное наименование) товаров.
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂРѕРІ.
+     * Set the 'GoodsDescription' element value. Наименование (торговое, коммерческое или иное традиционное наименование) товаров.
      * 
      * @param goodsDescription
      */
@@ -73,7 +73,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі).
+     * Get the 'NetWeightQuantity' element value. Вес товара, нетто (кг).
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі).
+     * Set the 'NetWeightQuantity' element value. Вес товара, нетто (кг).
      * 
      * @param netWeightQuantity
      */
@@ -91,7 +91,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'InvoicedCost' element value. Р¦РµРЅР° С‚РѕРІР°СЂР°.
+     * Get the 'InvoicedCost' element value. Цена товара.
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'InvoicedCost' element value. Р¦РµРЅР° С‚РѕРІР°СЂР°.
+     * Set the 'InvoicedCost' element value. Цена товара.
      * 
      * @param invoicedCost
      */
@@ -109,7 +109,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'StatisticalCostRUB' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ (РІ СЂСѓР±Р»СЏС…)
+     * Get the 'StatisticalCostRUB' element value. Статистическая стоимость (в рублях)
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'StatisticalCostRUB' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ (РІ СЂСѓР±Р»СЏС…)
+     * Set the 'StatisticalCostRUB' element value. Статистическая стоимость (в рублях)
      * 
      * @param statisticalCostRUB
      */
@@ -127,7 +127,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'StatisticalCostUSD' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ (РІ РґРѕР»Р»Р°СЂР°С… РЎРЁРђ)
+     * Get the 'StatisticalCostUSD' element value. Статистическая стоимость (в долларах США)
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'StatisticalCostUSD' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ (РІ РґРѕР»Р»Р°СЂР°С… РЎРЁРђ)
+     * Set the 'StatisticalCostUSD' element value. Статистическая стоимость (в долларах США)
      * 
      * @param statisticalCostUSD
      */
@@ -145,7 +145,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Get the 'OriginCountry' element value. Страна происхождения
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'OriginCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Set the 'OriginCountry' element value. Страна происхождения
      * 
      * @param originCountry
      */
@@ -163,7 +163,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения
      * 
      * @param supplementaryQuantity
      */

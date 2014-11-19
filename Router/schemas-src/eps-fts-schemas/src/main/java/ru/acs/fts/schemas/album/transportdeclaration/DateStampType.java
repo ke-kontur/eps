@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ, СѓРєР°Р·Р°РЅРЅС‹Рµ РЅР° РєР°Р»РµРЅРґР°СЂРЅРѕРј С€С‚РµРјРїРµР»Рµ
+ * Сведения, указанные на календарном штемпеле
  */
 public class DateStampType
 {
@@ -16,7 +16,7 @@ public class DateStampType
     private PersonSignatureType officer;
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ С€С‚РµРјРїРµР»СЏ
+     * Get the 'Date' element value. Дата проставления штемпеля
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class DateStampType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ С€С‚РµРјРїРµР»СЏ
+     * Set the 'Date' element value. Дата проставления штемпеля
      * 
      * @param date
      */
@@ -34,7 +34,7 @@ public class DateStampType
     }
 
     /** 
-     * Get the 'RWStation' element value. Р–Р” СЃС‚Р°РЅС†РёСЏ РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ С€С‚РµРјРїРµР»СЏ
+     * Get the 'RWStation' element value. ЖД станция проставления штемпеля
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class DateStampType
     }
 
     /** 
-     * Set the 'RWStation' element value. Р–Р” СЃС‚Р°РЅС†РёСЏ РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ С€С‚РµРјРїРµР»СЏ
+     * Set the 'RWStation' element value. ЖД станция проставления штемпеля
      * 
      * @param RWStation
      */
@@ -52,7 +52,7 @@ public class DateStampType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class DateStampType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -70,7 +70,7 @@ public class DateStampType
     }
 
     /** 
-     * Get the 'Officer' element value. РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ СЂР°Р±РѕС‚РЅРёРє СЃС‚Р°РЅС†РёРё
+     * Get the 'Officer' element value. Ответственный работник станции
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class DateStampType
     }
 
     /** 
-     * Set the 'Officer' element value. РћС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Р№ СЂР°Р±РѕС‚РЅРёРє СЃС‚Р°РЅС†РёРё
+     * Set the 'Officer' element value. Ответственный работник станции
      * 
      * @param officer
      */

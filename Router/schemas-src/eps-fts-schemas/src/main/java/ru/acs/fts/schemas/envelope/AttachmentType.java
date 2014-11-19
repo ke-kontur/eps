@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.envelope;
 import org.joda.time.DateTime;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёСЃРѕРµРґРёРЅРµРЅРёРё
+ * Сведения о присоединении
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -26,7 +26,7 @@ public class AttachmentType
     private FileSignatureType fileSignature;
 
     /** 
-     * Get the 'Name' element value. РРјСЏ РїСЂРёСЃРѕРµРґРёРЅРµРЅРЅРѕРіРѕ С„Р°Р№Р»Р°.
+     * Get the 'Name' element value. Имя присоединенного файла.
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class AttachmentType
     }
 
     /** 
-     * Set the 'Name' element value. РРјСЏ РїСЂРёСЃРѕРµРґРёРЅРµРЅРЅРѕРіРѕ С„Р°Р№Р»Р°.
+     * Set the 'Name' element value. Имя присоединенного файла.
      * 
      * @param name
      */
@@ -44,7 +44,7 @@ public class AttachmentType
     }
 
     /** 
-     * Get the 'ModificationDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ РїСЂРёСЃРѕРµРґРёРЅРµРЅРЅРѕРіРѕ С„Р°Р№Р»Р°.
+     * Get the 'ModificationDateTime' element value. Дата и время последнего изменения присоединенного файла.
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class AttachmentType
     }
 
     /** 
-     * Set the 'ModificationDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ РїСЂРёСЃРѕРµРґРёРЅРµРЅРЅРѕРіРѕ С„Р°Р№Р»Р°.
+     * Set the 'ModificationDateTime' element value. Дата и время последнего изменения присоединенного файла.
      * 
      * @param modificationDateTime
      */
@@ -62,7 +62,7 @@ public class AttachmentType
     }
 
     /** 
-     * Get the 'FileReference' element value. РЎСЃС‹Р»РєР° РЅР° РїСЂРёРєСЂРµРїР»РµРЅРЅС‹Р№ С„Р°Р№Р»
+     * Get the 'FileReference' element value. Ссылка на прикрепленный файл
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class AttachmentType
     }
 
     /** 
-     * Set the 'FileReference' element value. РЎСЃС‹Р»РєР° РЅР° РїСЂРёРєСЂРµРїР»РµРЅРЅС‹Р№ С„Р°Р№Р»
+     * Set the 'FileReference' element value. Ссылка на прикрепленный файл
      * 
      * @param fileReference
      */
@@ -80,7 +80,7 @@ public class AttachmentType
     }
 
     /** 
-     * Get the 'FileSignature' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р­Р¦Рџ РїСЂРёСЃРѕРµРґРёРЅРµРЅРЅРѕРіРѕ С„Р°Р№Р»Р°
+     * Get the 'FileSignature' element value. Информация о ЭЦП присоединенного файла
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class AttachmentType
     }
 
     /** 
-     * Set the 'FileSignature' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р­Р¦Рџ РїСЂРёСЃРѕРµРґРёРЅРµРЅРЅРѕРіРѕ С„Р°Р№Р»Р°
+     * Set the 'FileSignature' element value. Информация о ЭЦП присоединенного файла
      * 
      * @param fileSignature
      */

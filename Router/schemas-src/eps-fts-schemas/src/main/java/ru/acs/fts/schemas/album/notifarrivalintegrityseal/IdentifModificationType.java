@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РќР°СЂСѓС€РµРЅРёРµ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+ * Нарушение средств идентификации
  */
 public class IdentifModificationType
 {
@@ -16,7 +16,7 @@ public class IdentifModificationType
     private List<ModifiedIdentifyMeanType> modifiedIdentifyMeanList = new ArrayList<ModifiedIdentifyMeanType>();
 
     /** 
-     * Get the 'ModificationInfo' element value. РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅРѕРіРѕ С„Р°РєС‚Р° РЅР°СЂСѓС€РµРЅРёСЏ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Get the 'ModificationInfo' element value. Описание выявленного факта нарушения средств идентификации
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class IdentifModificationType
     }
 
     /** 
-     * Set the 'ModificationInfo' element value. РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅРѕРіРѕ С„Р°РєС‚Р° РЅР°СЂСѓС€РµРЅРёСЏ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Set the 'ModificationInfo' element value. Описание выявленного факта нарушения средств идентификации
      * 
      * @param modificationInfo
      */
@@ -34,7 +34,7 @@ public class IdentifModificationType
     }
 
     /** 
-     * Get the list of 'Container' element items. РќРѕРјРµСЂ (РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ) РєРѕРЅС‚РµР№РЅРµСЂР°(РѕРІ), РЅР° РєРѕС‚РѕСЂС‹С… РЅР°СЂСѓС€РµРЅС‹ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Get the list of 'Container' element items. Номер (идентификатор) контейнера(ов), на которых нарушены средства идентификации
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class IdentifModificationType
     }
 
     /** 
-     * Set the list of 'Container' element items. РќРѕРјРµСЂ (РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ) РєРѕРЅС‚РµР№РЅРµСЂР°(РѕРІ), РЅР° РєРѕС‚РѕСЂС‹С… РЅР°СЂСѓС€РµРЅС‹ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Set the list of 'Container' element items. Номер (идентификатор) контейнера(ов), на которых нарушены средства идентификации
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class IdentifModificationType
     }
 
     /** 
-     * Get the list of 'TransportMean' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ, РЅР° РєРѕС‚РѕСЂРѕРј РЅР°СЂСѓС€РµРЅС‹ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Get the list of 'TransportMean' element items. Транспортное средство, на котором нарушены средства идентификации
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class IdentifModificationType
     }
 
     /** 
-     * Set the list of 'TransportMean' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ, РЅР° РєРѕС‚РѕСЂРѕРј РЅР°СЂСѓС€РµРЅС‹ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Set the list of 'TransportMean' element items. Транспортное средство, на котором нарушены средства идентификации
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class IdentifModificationType
     }
 
     /** 
-     * Get the list of 'ModifiedIdentifyMean' element items. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РЅР°СЂСѓС€РµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Get the list of 'ModifiedIdentifyMean' element items. Характеристика нарушенного средства идентификации
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class IdentifModificationType
     }
 
     /** 
-     * Set the list of 'ModifiedIdentifyMean' element items. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РЅР°СЂСѓС€РµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Set the list of 'ModifiedIdentifyMean' element items. Характеристика нарушенного средства идентификации
      * 
      * @param list
      */

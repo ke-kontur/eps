@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РћСЂРіР°РЅРёР·Р°С†РёСЏ РїРµСЂРµСЂР°Р±РѕС‚С‡РёРє
+ * Организация переработчик
  */
 public class ProcOrganizationType extends OrganizationBaseType
 {
@@ -22,7 +22,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     private WasteProductsType wasteProducts;
 
     /** 
-     * Get the 'Phone' element value. РўРµР»РµС„РѕРЅ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'Phone' element value. Телефон иностранной организации
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Phone' element value. РўРµР»РµС„РѕРЅ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'Phone' element value. Телефон иностранной организации
      * 
      * @param phone
      */
@@ -40,7 +40,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Fax' element value. РќРѕРјРµСЂ С„Р°РєСЃР°.
+     * Get the 'Fax' element value. Номер факса.
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Fax' element value. РќРѕРјРµСЂ С„Р°РєСЃР°.
+     * Set the 'Fax' element value. Номер факса.
      * 
      * @param fax
      */
@@ -58,7 +58,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Telex' element value. РќРѕРјРµСЂ С‚РµР»РµРєСЃР°.
+     * Get the 'Telex' element value. Номер телекса.
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Telex' element value. РќРѕРјРµСЂ С‚РµР»РµРєСЃР°.
+     * Set the 'Telex' element value. Номер телекса.
      * 
      * @param telex
      */
@@ -76,7 +76,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the list of 'FactoryPlace' element items. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ РїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅС‹С…  РјРѕС‰РЅРѕСЃС‚РµР№ 
+     * Get the list of 'FactoryPlace' element items. Местонахождение производственных  мощностей 
      * 
      * @return list
      */
@@ -85,7 +85,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the list of 'FactoryPlace' element items. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ РїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅС‹С…  РјРѕС‰РЅРѕСЃС‚РµР№ 
+     * Set the list of 'FactoryPlace' element items. Местонахождение производственных  мощностей 
      * 
      * @param list
      */
@@ -94,7 +94,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ 
+     * Get the 'Address' element value. Адрес 
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ 
+     * Set the 'Address' element value. Адрес 
      * 
      * @param address
      */
@@ -112,7 +112,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the list of 'Contract' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
+     * Get the list of 'Contract' element items. Сведения о контракте
      * 
      * @return list
      */
@@ -121,7 +121,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the list of 'Contract' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
+     * Set the list of 'Contract' element items. Сведения о контракте
      * 
      * @param list
      */
@@ -130,7 +130,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'TrResult' element value. РџСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Get the 'TrResult' element value. Продукты переработки
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'TrResult' element value. РџСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Set the 'TrResult' element value. Продукты переработки
      * 
      * @param trResult
      */
@@ -148,7 +148,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'WasteProducts' element value. РћС‚С…РѕРґС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Get the 'WasteProducts' element value. Отходы переработки
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class ProcOrganizationType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'WasteProducts' element value. РћС‚С…РѕРґС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Set the 'WasteProducts' element value. Отходы переработки
      * 
      * @param wasteProducts
      */

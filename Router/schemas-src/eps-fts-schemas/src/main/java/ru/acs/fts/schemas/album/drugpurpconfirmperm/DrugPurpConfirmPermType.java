@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РЅР°СЂРєРѕС‚РёС‡РµСЃРєРёС… Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ РІС‹РІРѕР·РёРјС‹С… РёР· Р Р¤ Рё РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹С… РґР»СЏ РѕРєР°Р·Р°РЅРёСЏ РіСѓРјР°РЅРёС‚Р°СЂРЅРѕР№ РїРѕРјРѕС‰Рё (СЃРѕРґРµР№СЃС‚РІРёСЏ) РёР»Рё РїРѕРјРѕС‰Рё РїСЂРё Р§РЎ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РџСЂР°РІРёР»Р°РјРё РІС‹РІРѕР·Р° РЅР°СЂРєРѕС‚РёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ Рё РїСЃРёС…РѕС‚СЂРѕРїРЅС‹С… РІРµС‰РµСЃС‚РІ, РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹С… РґР»СЏ РѕРєР°Р·Р°РЅРёСЏ РіСѓРјР°РЅРёС‚Р°СЂРЅРѕР№ РїРѕРјРѕС‰Рё (СЃРѕРґРµР№СЃС‚РІРёСЏ) РёР»Рё РїРѕРјРѕС‰Рё РїСЂРё Р§РЎ
+ * Подтверждения целевого назначения наркотических лекарственных средств вывозимых из РФ и предназначенных для оказания гуманитарной помощи (содействия) или помощи при ЧС в соответствии с Правилами вывоза наркотических средств и психотропных веществ, предназначенных для оказания гуманитарной помощи (содействия) или помощи при ЧС
  */
 public class DrugPurpConfirmPermType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Purpose' element value. Р¦РµР»СЊ РІРІРѕР·Р°/РІС‹РІРѕР·Р°
+     * Get the 'Purpose' element value. Цель ввоза/вывоза
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Set the 'Purpose' element value. Р¦РµР»СЊ РІРІРѕР·Р°/РІС‹РІРѕР·Р°
+     * Set the 'Purpose' element value. Цель ввоза/вывоза
      * 
      * @param purpose
      */
@@ -40,7 +40,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Get the 'SheetsCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІ РїСЂРёР»РѕР¶РµРЅРёРё
+     * Get the 'SheetsCount' element value. Количество листов в приложении
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Set the 'SheetsCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІ РїСЂРёР»РѕР¶РµРЅРёРё
+     * Set the 'SheetsCount' element value. Количество листов в приложении
      * 
      * @param sheetsCount
      */
@@ -58,7 +58,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -76,7 +76,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicantOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ-Р·Р°СЏРІРёС‚РµР»СЊ
+     * Get the 'ApplicantOrg' element value. Организация-заявитель
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicantOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ-Р·Р°СЏРІРёС‚РµР»СЊ
+     * Set the 'ApplicantOrg' element value. Организация-заявитель
      * 
      * @param applicantOrg
      */
@@ -94,7 +94,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Get the 'Permission' element value. Р Р°Р·СЂРµС€РµРЅРёРµ
+     * Get the 'Permission' element value. Разрешение
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Set the 'Permission' element value. Р Р°Р·СЂРµС€РµРЅРёРµ
+     * Set the 'Permission' element value. Разрешение
      * 
      * @param permission
      */
@@ -112,7 +112,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Get the 'ItemDescription' element value. РћРїРёСЃР°РЅРёРµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'ItemDescription' element value. Описание лекарственного средства
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Set the 'ItemDescription' element value. РћРїРёСЃР°РЅРёРµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'ItemDescription' element value. Описание лекарственного средства
      * 
      * @param itemDescription
      */
@@ -130,7 +130,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Get the 'AuthorizedPerson' element value. Должностное лицо, подписавшее разрешение
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Set the 'AuthorizedPerson' element value. Должностное лицо, подписавшее разрешение
      * 
      * @param authorizedPerson
      */
@@ -148,7 +148,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -166,7 +166,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class DrugPurpConfirmPermType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

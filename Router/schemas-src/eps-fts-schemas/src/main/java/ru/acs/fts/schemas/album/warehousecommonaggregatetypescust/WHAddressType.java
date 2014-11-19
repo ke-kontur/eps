@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ Р°РґСЂРµСЃР° РѕСЂРіР°РЅРёР·Р°С†РёРё
+ * Комплексный тип для адреса организации
  */
 public class WHAddressType extends AddressType
 {
     private String addressLine;
 
     /** 
-     * Get the 'AddressLine' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°РґСЂРµСЃРµ РѕСЂРіР°РЅРёР·Р°С†РёРё РІ РІРёРґРµ РѕРґРЅРѕР№ СЃС‚СЂРѕРєРё
+     * Get the 'AddressLine' element value. Информация об адресе организации в виде одной строки
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class WHAddressType extends AddressType
     }
 
     /** 
-     * Set the 'AddressLine' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°РґСЂРµСЃРµ РѕСЂРіР°РЅРёР·Р°С†РёРё РІ РІРёРґРµ РѕРґРЅРѕР№ СЃС‚СЂРѕРєРё
+     * Set the 'AddressLine' element value. Информация об адресе организации в виде одной строки
      * 
      * @param addressLine
      */

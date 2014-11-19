@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust;
 
 /** 
- * РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ СЃР»РѕР¶РµРЅРёСЏ Рё (РёР»Рё) СЂРµР·РµСЂРІРЅРѕРјСѓ РјРµС‚РѕРґСѓ РЅР° РµРіРѕ РѕСЃРЅРѕРІРµ (5,6)
+ * Подробности расчета таможенной стоимости по методу сложения и (или) резервному методу на его основе (5,6)
  */
 public class DTSMethod56Type
 {
     private Method56BasisType method56Basis;
 
     /** 
-     * Get the 'Method56Basis' element value. РћСЃРЅРѕРІР° СЂР°СЃС‡РµС‚Р° РґР»СЏ РјРµС‚РѕРґР° 5,6 РіСЂ. Рђ (11-17)
+     * Get the 'Method56Basis' element value. Основа расчета для метода 5,6 гр. А (11-17)
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class DTSMethod56Type
     }
 
     /** 
-     * Set the 'Method56Basis' element value. РћСЃРЅРѕРІР° СЂР°СЃС‡РµС‚Р° РґР»СЏ РјРµС‚РѕРґР° 5,6 РіСЂ. Рђ (11-17)
+     * Set the 'Method56Basis' element value. Основа расчета для метода 5,6 гр. А (11-17)
      * 
      * @param method56Basis
      */

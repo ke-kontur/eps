@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 15, 15Р°, 17,17Р°, 18, 19, 21, 25, 26, 29  -Р”Рў/ Р“СЂ. 15, 17, 18, 19, 21, 25, 26, 29 , 53, 55- РўР”
+ * Сведения о перевозке товаров. Гр. 15, 15а, 17,17а, 18, 19, 21, 25, 26, 29  -ДТ/ Гр. 15, 17, 18, 19, 21, 25, 26, 29 , 53, 55- ТД
  */
 public class ESADConsigmentType
 {
@@ -21,7 +21,7 @@ public class ESADConsigmentType
     private List<CUCustomsType> borderCustomsOfficeList = new ArrayList<CUCustomsType>();
 
     /** 
-     * Get the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє. Р“СЂ.19 
+     * Get the 'ContainerIndicator' element value. Признак контейнерных перевозок. Гр.19 
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Set the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє. Р“СЂ.19 
+     * Set the 'ContainerIndicator' element value. Признак контейнерных перевозок. Гр.19 
      * 
      * @param containerIndicator
      */
@@ -39,7 +39,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Get the 'DispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° .РіСЂ 15, РїРѕРґСЂР°Р·РґРµР» a 
+     * Get the 'DispatchCountryCode' element value. Страна отправления. Буквенный код по  классификатору стран мира .гр 15, подраздел a 
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Set the 'DispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° .РіСЂ 15, РїРѕРґСЂР°Р·РґРµР» a 
+     * Set the 'DispatchCountryCode' element value. Страна отправления. Буквенный код по  классификатору стран мира .гр 15, подраздел a 
      * 
      * @param dispatchCountryCode
      */
@@ -57,7 +57,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Get the 'RBDispatchCountryCode' element value. РљРѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅ, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ. Р“СЂ.15,  РїРѕРґСЂР°Р·РґРµР» b
+     * Get the 'RBDispatchCountryCode' element value. Код административно-территориального деления страны отправления в соответствии с классификатором административно-территориального деления стран, применяемым в Республике Беларусь. Гр.15,  подраздел b
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Set the 'RBDispatchCountryCode' element value. РљРѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅ, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ. Р“СЂ.15,  РїРѕРґСЂР°Р·РґРµР» b
+     * Set the 'RBDispatchCountryCode' element value. Код административно-территориального деления страны отправления в соответствии с классификатором административно-территориального деления стран, применяемым в Республике Беларусь. Гр.15,  подраздел b
      * 
      * @param RBDispatchCountryCode
      */
@@ -75,7 +75,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Get the 'DispatchCountryName' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ. Р“СЂ.15
+     * Get the 'DispatchCountryName' element value. Страна отправления. Краткое наименование. Гр.15
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Set the 'DispatchCountryName' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ. Р“СЂ.15
+     * Set the 'DispatchCountryName' element value. Страна отправления. Краткое наименование. Гр.15
      * 
      * @param dispatchCountryName
      */
@@ -93,7 +93,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Get the 'DestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / 00 (РЅРµРёР·РІРµСЃС‚РЅР°). Р“СЂ 17, РїРѕРґСЂР°Р·РґРµР» a
+     * Get the 'DestinationCountryCode' element value. Страна назначения. Буквенный код по классификатору стран мира / 00 (неизвестна). Гр 17, подраздел a
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Set the 'DestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / 00 (РЅРµРёР·РІРµСЃС‚РЅР°). Р“СЂ 17, РїРѕРґСЂР°Р·РґРµР» a
+     * Set the 'DestinationCountryCode' element value. Страна назначения. Буквенный код по классификатору стран мира / 00 (неизвестна). Гр 17, подраздел a
      * 
      * @param destinationCountryCode
      */
@@ -111,7 +111,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Get the 'DestinationCountryName' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р“СЂ.17 РќР°РёРјРµРЅРѕРІР°РЅРёРµ / РќР•РР—Р’Р•РЎРўРќРђ
+     * Get the 'DestinationCountryName' element value. Страна назначения. Гр.17 Наименование / НЕИЗВЕСТНА
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Set the 'DestinationCountryName' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р“СЂ.17 РќР°РёРјРµРЅРѕРІР°РЅРёРµ / РќР•РР—Р’Р•РЎРўРќРђ
+     * Set the 'DestinationCountryName' element value. Страна назначения. Гр.17 Наименование / НЕИЗВЕСТНА
      * 
      * @param destinationCountryName
      */
@@ -129,7 +129,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Get the 'RBDestinationCountryCode' element value. РљРѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅ, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ. Р“СЂ.17,  РїРѕРґСЂР°Р·РґРµР» b
+     * Get the 'RBDestinationCountryCode' element value. Код административно-территориального деления страны назначения в соответствии с классификатором административно-территориального деления стран, применяемым в Республике Беларусь. Гр.17,  подраздел b
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Set the 'RBDestinationCountryCode' element value. РљРѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅ, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ. Р“СЂ.17,  РїРѕРґСЂР°Р·РґРµР» b
+     * Set the 'RBDestinationCountryCode' element value. Код административно-территориального деления страны назначения в соответствии с классификатором административно-территориального деления стран, применяемым в Республике Беларусь. Гр.17,  подраздел b
      * 
      * @param RBDestinationCountryCode
      */
@@ -147,7 +147,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Get the 'DeliveryCustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ РїСЂРё С‚СЂР°РЅР·РёС‚Рµ.РіСЂ.53 РўР”.
+     * Get the 'DeliveryCustomsOffice' element value. Таможенный орган назначения при транзите.гр.53 ТД.
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Set the 'DeliveryCustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ РїСЂРё С‚СЂР°РЅР·РёС‚Рµ.РіСЂ.53 РўР”.
+     * Set the 'DeliveryCustomsOffice' element value. Таможенный орган назначения при транзите.гр.53 ТД.
      * 
      * @param deliveryCustomsOffice
      */
@@ -165,7 +165,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Get the list of 'BorderCustomsOffice' element items. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РІСЉРµР·РґР°/РІС‹РµР·РґР°. Р“СЂ.29
+     * Get the list of 'BorderCustomsOffice' element items. Таможенный орган въезда/выезда. Гр.29
      * 
      * @return list
      */
@@ -174,7 +174,7 @@ public class ESADConsigmentType
     }
 
     /** 
-     * Set the list of 'BorderCustomsOffice' element items. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РІСЉРµР·РґР°/РІС‹РµР·РґР°. Р“СЂ.29
+     * Set the list of 'BorderCustomsOffice' element items. Таможенный орган въезда/выезда. Гр.29
      * 
      * @param list
      */

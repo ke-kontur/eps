@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.packinglist;
 
 /** 
- * РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° РїРѕ РІРёРґР°Рј РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚
+ * Количество мест товара по видам грузовых  мест
  */
 public class PlacesGoodsQuantityType extends PlacesQuantityType
 {
     private String placesPartQuantity;
 
     /** 
-     * Get the 'PlacesPartQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, С‡Р°СЃС‚РёС‡РЅРѕ Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј
+     * Get the 'PlacesPartQuantity' element value. Количество грузовых мест, частично занятых товаром
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class PlacesGoodsQuantityType extends PlacesQuantityType
     }
 
     /** 
-     * Set the 'PlacesPartQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, С‡Р°СЃС‚РёС‡РЅРѕ Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј
+     * Set the 'PlacesPartQuantity' element value. Количество грузовых мест, частично занятых товаром
      * 
      * @param placesPartQuantity
      */

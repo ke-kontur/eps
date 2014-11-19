@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Р”РўРЎ
+ * Служебные отметки ДТС
  */
 public class DTSOutCustomsMarkType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DTSDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”РўРЎ, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё.
+     * Get the 'DTSDocumentID' element value. Уникальный идентификатор ДТС, к которой относятся служебные отметки.
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTSDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”РўРЎ, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё.
+     * Set the 'DTSDocumentID' element value. Уникальный идентификатор ДТС, к которой относятся служебные отметки.
      * 
      * @param DTSDocumentID
      */
@@ -38,7 +38,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Comments' element items. РљРѕРјРµРЅС‚Р°СЂРёР№.
+     * Get the list of 'Comments' element items. Коментарий.
      * 
      * @return list
      */
@@ -47,7 +47,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Comments' element items. РљРѕРјРµРЅС‚Р°СЂРёР№.
+     * Set the list of 'Comments' element items. Коментарий.
      * 
      * @param list
      */
@@ -56,7 +56,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Р”РўРЎ.
+     * Get the 'GTDDocumentID' element value. Уникальный идентификатор ДТ, к которой относятся служебные отметки ДТС.
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Р”РўРЎ.
+     * Set the 'GTDDocumentID' element value. Уникальный идентификатор ДТ, к которой относятся служебные отметки ДТС.
      * 
      * @param GTDDocumentID
      */
@@ -74,7 +74,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTSOutCostDecision' element value. Р РµС€РµРЅРёРµ РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Р”РўРЎ
+     * Get the 'DTSOutCostDecision' element value. Решение по таможенной стоимости ДТС
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTSOutCostDecision' element value. Р РµС€РµРЅРёРµ РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Р”РўРЎ
+     * Set the 'DTSOutCostDecision' element value. Решение по таможенной стоимости ДТС
      * 
      * @param DTSOutCostDecision
      */
@@ -92,7 +92,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTSOutRecallDecision' element value. Р РµС€РµРЅРёРµ РѕР± Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРё РёР»Рё РѕС‚Р·С‹РІРµ Р”РўРЎ
+     * Get the 'DTSOutRecallDecision' element value. Решение об аннулировании или отзыве ДТС
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTSOutRecallDecision' element value. Р РµС€РµРЅРёРµ РѕР± Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРё РёР»Рё РѕС‚Р·С‹РІРµ Р”РўРЎ
+     * Set the 'DTSOutRecallDecision' element value. Решение об аннулировании или отзыве ДТС
      * 
      * @param DTSOutRecallDecision
      */
@@ -110,7 +110,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DTSOutMarks' element items. РћС‚РјРµС‚РєРё РёРЅСЃРїРµРєС‚РѕСЂР°
+     * Get the list of 'DTSOutMarks' element items. Отметки инспектора
      * 
      * @return list
      */
@@ -119,7 +119,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DTSOutMarks' element items. РћС‚РјРµС‚РєРё РёРЅСЃРїРµРєС‚РѕСЂР°
+     * Set the list of 'DTSOutMarks' element items. Отметки инспектора
      * 
      * @param list
      */
@@ -128,7 +128,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DTSOutGoodsMark' element items. Р РµС€РµРЅРёРµ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Рё СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј
+     * Get the list of 'DTSOutGoodsMark' element items. Решение о таможенной стоимости и служебные отметки по товарам
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DTSOutGoodsMark' element items. Р РµС€РµРЅРёРµ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё Рё СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј
+     * Set the list of 'DTSOutGoodsMark' element items. Решение о таможенной стоимости и служебные отметки по товарам
      * 
      * @param list
      */
@@ -146,7 +146,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class DTSOutCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * РљР°РєСѓСЋ С‡Р°СЃС‚СЊ С†РµРЅС‹ СЃРґРµР»РєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё
+ * Какую часть цены сделки составляет стоимость доставки
  */
 public class PercentageDeliveryType
 {
@@ -17,7 +17,7 @@ public class PercentageDeliveryType
     private String more90percent;
 
     /** 
-     * Get the 'Less3percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РјРµРЅРµРµ 3% С†РµРЅС‹ СЃРґРµР»РєРё
+     * Get the 'Less3percent' element value. Признак того, что стоимость доставки составляет менее 3% цены сделки
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Set the 'Less3percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РјРµРЅРµРµ 3% С†РµРЅС‹ СЃРґРµР»РєРё
+     * Set the 'Less3percent' element value. Признак того, что стоимость доставки составляет менее 3% цены сделки
      * 
      * @param less3percent
      */
@@ -35,7 +35,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Get the 'About3_5percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 3% РґРѕ 5%
+     * Get the 'About3_5percent' element value. Признак того, что стоимость доставки составляет примерно от 3% до 5%
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Set the 'About3_5percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 3% РґРѕ 5%
+     * Set the 'About3_5percent' element value. Признак того, что стоимость доставки составляет примерно от 3% до 5%
      * 
      * @param about35percent
      */
@@ -53,7 +53,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Get the 'About5_10percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 5% РґРѕ 10%
+     * Get the 'About5_10percent' element value. Признак того, что стоимость доставки составляет примерно от 5% до 10%
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Set the 'About5_10percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 5% РґРѕ 10%
+     * Set the 'About5_10percent' element value. Признак того, что стоимость доставки составляет примерно от 5% до 10%
      * 
      * @param about510percent
      */
@@ -71,7 +71,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Get the 'About10_20percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 10% РґРѕ 20%
+     * Get the 'About10_20percent' element value. Признак того, что стоимость доставки составляет примерно от 10% до 20%
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Set the 'About10_20percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 10% РґРѕ 20%
+     * Set the 'About10_20percent' element value. Признак того, что стоимость доставки составляет примерно от 10% до 20%
      * 
      * @param about1020percent
      */
@@ -89,7 +89,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Get the 'About20_30percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 20% РґРѕ 30%
+     * Get the 'About20_30percent' element value. Признак того, что стоимость доставки составляет примерно от 20% до 30%
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Set the 'About20_30percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 20% РґРѕ 30%
+     * Set the 'About20_30percent' element value. Признак того, что стоимость доставки составляет примерно от 20% до 30%
      * 
      * @param about2030percent
      */
@@ -107,7 +107,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Get the 'About30_50percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 30% РґРѕ 50%
+     * Get the 'About30_50percent' element value. Признак того, что стоимость доставки составляет примерно от 30% до 50%
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Set the 'About30_50percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 30% РґРѕ 50%
+     * Set the 'About30_50percent' element value. Признак того, что стоимость доставки составляет примерно от 30% до 50%
      * 
      * @param about3050percent
      */
@@ -125,7 +125,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Get the 'About50_70percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 50% РґРѕ 70%
+     * Get the 'About50_70percent' element value. Признак того, что стоимость доставки составляет примерно от 50% до 70%
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Set the 'About50_70percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 50% РґРѕ 70%
+     * Set the 'About50_70percent' element value. Признак того, что стоимость доставки составляет примерно от 50% до 70%
      * 
      * @param about5070percent
      */
@@ -143,7 +143,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Get the 'About70_90percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 70% РґРѕ 90%
+     * Get the 'About70_90percent' element value. Признак того, что стоимость доставки составляет примерно от 70% до 90%
      * 
      * @return value
      */
@@ -152,7 +152,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Set the 'About70_90percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРёРјРµСЂРЅРѕ РѕС‚ 70% РґРѕ 90%
+     * Set the 'About70_90percent' element value. Признак того, что стоимость доставки составляет примерно от 70% до 90%
      * 
      * @param about7090percent
      */
@@ -161,7 +161,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Get the 'More90percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ Р±РѕР»РµРµ 90%
+     * Get the 'More90percent' element value. Признак того, что стоимость доставки составляет более 90%
      * 
      * @return value
      */
@@ -170,7 +170,7 @@ public class PercentageDeliveryType
     }
 
     /** 
-     * Set the 'More90percent' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё СЃРѕСЃС‚Р°РІР»СЏРµС‚ Р±РѕР»РµРµ 90%
+     * Set the 'More90percent' element value. Признак того, что стоимость доставки составляет более 90%
      * 
      * @param more90percent
      */

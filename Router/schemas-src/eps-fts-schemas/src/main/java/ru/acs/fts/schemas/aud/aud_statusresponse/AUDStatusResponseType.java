@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.aud.aud_statusresponse;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 
 /** 
- * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РёРЅС„РѕСЂРјР°С†РёРё Рѕ СЃС‚Р°С‚СѓСЃРµ С„СѓРЅРєС†РёРѕРЅРёСЂРѕРІР°РЅРёСЏ СЃРёСЃС‚РµРјС‹.
+ * Ответ на запрос информации о статусе функционирования системы.
  */
 public class AUDStatusResponseType extends AUDBaseEnvelopeType
 {
@@ -12,7 +12,7 @@ public class AUDStatusResponseType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'TestModeIndicator' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃРёСЃС‚РµРјР° С„СѓРЅРєС†РёРѕРЅРёСЂСѓРµС‚ РІ С‚РµСЃС‚РѕРІРѕРј СЂРµР¶РёРјРµ.
+     * Get the 'TestModeIndicator' element value. Признак того, что система функционирует в тестовом режиме.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class AUDStatusResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'TestModeIndicator' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЃРёСЃС‚РµРјР° С„СѓРЅРєС†РёРѕРЅРёСЂСѓРµС‚ РІ С‚РµСЃС‚РѕРІРѕРј СЂРµР¶РёРјРµ.
+     * Set the 'TestModeIndicator' element value. Признак того, что система функционирует в тестовом режиме.
      * 
      * @param testModeIndicator
      */
@@ -30,7 +30,7 @@ public class AUDStatusResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class AUDStatusResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @param documentModeID
      */

@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADContainerType;
 
 /** 
- * РўРѕРІР°СЂ РѕС‚РіСЂСѓР·РѕС‡РЅРѕР№ СЃРїРµС†РёС„РёРєР°С†РёРё
+ * Товар отгрузочной спецификации
  */
 public class GoodsType
 {
@@ -33,7 +33,7 @@ public class GoodsType
     private DocumentBaseType qualityDocument;
 
     /** 
-     * Get the 'Description' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С‚РµРєСЃС‚РѕРІРѕРµ
+     * Get the 'Description' element value. Описание товара текстовое
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Description' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С‚РµРєСЃС‚РѕРІРѕРµ
+     * Set the 'Description' element value. Описание товара текстовое
      * 
      * @param description
      */
@@ -51,7 +51,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodMarking' element value. РњР°СЂРєР° РёР»Рё РјРѕРґРµР»СЊ
+     * Get the 'GoodMarking' element value. Марка или модель
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodMarking' element value. РњР°СЂРєР° РёР»Рё РјРѕРґРµР»СЊ
+     * Set the 'GoodMarking' element value. Марка или модель
      * 
      * @param goodMarking
      */
@@ -69,7 +69,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Articul' element value. РђСЂС‚РёРєСѓР»
+     * Get the 'Articul' element value. Артикул
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Articul' element value. РђСЂС‚РёРєСѓР»
+     * Set the 'Articul' element value. Артикул
      * 
      * @param articul
      */
@@ -87,7 +87,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Code' element value. РљРѕРґ С‚РѕРІР°СЂР°
+     * Get the 'Code' element value. Код товара
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Code' element value. РљРѕРґ С‚РѕРІР°СЂР°
+     * Set the 'Code' element value. Код товара
      * 
      * @param code
      */
@@ -105,7 +105,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'TNVED' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'TNVED' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'TNVED' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'TNVED' element value. Код товара по ТН ВЭД ТС
      * 
      * @param TNVED
      */
@@ -123,7 +123,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'PakageNumber' element items. РќРѕРјРµСЂ РіСЂСѓР·РѕРІРѕРіРѕ РјРµСЃС‚Р°
+     * Get the list of 'PakageNumber' element items. Номер грузового места
      * 
      * @return list
      */
@@ -132,7 +132,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'PakageNumber' element items. РќРѕРјРµСЂ РіСЂСѓР·РѕРІРѕРіРѕ РјРµСЃС‚Р°
+     * Set the list of 'PakageNumber' element items. Номер грузового места
      * 
      * @param list
      */
@@ -141,7 +141,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Dimensions' element value. Р Р°Р·РјРµСЂС‹
+     * Get the 'Dimensions' element value. Размеры
      * 
      * @return value
      */
@@ -150,7 +150,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Dimensions' element value. Р Р°Р·РјРµСЂС‹
+     * Set the 'Dimensions' element value. Размеры
      * 
      * @param dimensions
      */
@@ -159,7 +159,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'Quantity' element value. Количество товара в единицах измерения
      * 
      * @return value
      */
@@ -168,7 +168,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'Quantity' element value. Количество товара в единицах измерения
      * 
      * @param quantity
      */
@@ -177,7 +177,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'MeasureUnitQualifierCode' element value. Код единицы измерения
      * 
      * @return value
      */
@@ -186,7 +186,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'MeasureUnitQualifierCode' element value. Код единицы измерения
      * 
      * @param measureUnitQualifierCode
      */
@@ -195,7 +195,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierName' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'MeasureUnitQualifierName' element value. Название единицы измерения
      * 
      * @return value
      */
@@ -204,7 +204,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierName' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'MeasureUnitQualifierName' element value. Название единицы измерения
      * 
      * @param measureUnitQualifierName
      */
@@ -213,7 +213,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
+     * Get the 'CurrencyCode' element value. Код валюты
      * 
      * @return value
      */
@@ -222,7 +222,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
+     * Set the 'CurrencyCode' element value. Код валюты
      * 
      * @param currencyCode
      */
@@ -231,7 +231,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Price' element value. Р¦РµРЅР° С‚РѕРІР°СЂР°
+     * Get the 'Price' element value. Цена товара
      * 
      * @return value
      */
@@ -240,7 +240,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Price' element value. Р¦РµРЅР° С‚РѕРІР°СЂР°
+     * Set the 'Price' element value. Цена товара
      * 
      * @param price
      */
@@ -249,7 +249,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
+     * Get the 'Cost' element value. Стоимость товара
      * 
      * @return value
      */
@@ -258,7 +258,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
+     * Set the 'Cost' element value. Стоимость товара
      * 
      * @param cost
      */
@@ -267,7 +267,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Notes' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'Notes' element value. Дополнительная информация
      * 
      * @return value
      */
@@ -276,7 +276,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Notes' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'Notes' element value. Дополнительная информация
      * 
      * @param notes
      */
@@ -285,7 +285,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Weight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ Рё Р±СЂСѓС‚С‚Рѕ РІ РєРі
+     * Get the 'Weight' element value. Вес нетто и брутто в кг
      * 
      * @return value
      */
@@ -294,7 +294,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Weight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ Рё Р±СЂСѓС‚С‚Рѕ РІ РєРі
+     * Set the 'Weight' element value. Вес нетто и брутто в кг
      * 
      * @param weight
      */
@@ -303,7 +303,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Transport' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
+     * Get the 'Transport' element value. Информация о транспорте
      * 
      * @return value
      */
@@ -312,7 +312,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Transport' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
+     * Set the 'Transport' element value. Информация о транспорте
      * 
      * @param transport
      */
@@ -321,7 +321,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Place' element value. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Get the 'Place' element value. Описание грузовых мест
      * 
      * @return value
      */
@@ -330,7 +330,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Place' element value. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Set the 'Place' element value. Описание грузовых мест
      * 
      * @param place
      */
@@ -339,7 +339,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'QualityDocument' element value. Р”РѕРєСѓРјРµРЅС‚ Рѕ РєР°С‡РµСЃС‚РІРµ
+     * Get the 'QualityDocument' element value. Документ о качестве
      * 
      * @return value
      */
@@ -348,7 +348,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'QualityDocument' element value. Р”РѕРєСѓРјРµРЅС‚ Рѕ РєР°С‡РµСЃС‚РІРµ
+     * Set the 'QualityDocument' element value. Документ о качестве
      * 
      * @param qualityDocument
      */

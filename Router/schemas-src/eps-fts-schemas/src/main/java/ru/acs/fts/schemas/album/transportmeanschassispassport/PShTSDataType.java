@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AutomobileBaseType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.ConformanceCertificateType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С€Р°СЃСЃРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+ * Сведения о шасси транспортного средства
  */
 public class PShTSDataType extends AutomobileBaseType
 {
@@ -22,7 +22,7 @@ public class PShTSDataType extends AutomobileBaseType
     private List<TransportColorListType> chassisColorList = new ArrayList<TransportColorListType>();
 
     /** 
-     * Get the 'EngineModel' element value. РњРѕРґРµР»СЊ РґРІРёРіР°С‚РµР»СЏ
+     * Get the 'EngineModel' element value. Модель двигателя
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EngineModel' element value. РњРѕРґРµР»СЊ РґРІРёРіР°С‚РµР»СЏ
+     * Set the 'EngineModel' element value. Модель двигателя
      * 
      * @param engineModel
      */
@@ -40,7 +40,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EnginePowerKvtQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ РєРёР»РѕРІР°С‚С‚Р°С…
+     * Get the 'EnginePowerKvtQuanity' element value. Мощность двигателя в киловаттах
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EnginePowerKvtQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ РєРёР»РѕРІР°С‚С‚Р°С…
+     * Set the 'EnginePowerKvtQuanity' element value. Мощность двигателя в киловаттах
      * 
      * @param enginePowerKvtQuanity
      */
@@ -58,7 +58,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EnginePowerHpQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ Р»РѕС€Р°РґРёРЅС‹С… СЃРёР»Р°С…
+     * Get the 'EnginePowerHpQuanity' element value. Мощность двигателя в лошадиных силах
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EnginePowerHpQuanity' element value. РњРѕС‰РЅРѕСЃС‚СЊ РґРІРёРіР°С‚РµР»СЏ РІ Р»РѕС€Р°РґРёРЅС‹С… СЃРёР»Р°С…
+     * Set the 'EnginePowerHpQuanity' element value. Мощность двигателя в лошадиных силах
      * 
      * @param enginePowerHpQuanity
      */
@@ -76,7 +76,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'EngineModeCode' element value. РљРѕРґ С‚РёРїР° РґРІРёРіР°С‚РµР»СЏ
+     * Get the 'EngineModeCode' element value. Код типа двигателя
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'EngineModeCode' element value. РљРѕРґ С‚РёРїР° РґРІРёРіР°С‚РµР»СЏ
+     * Set the 'EngineModeCode' element value. Код типа двигателя
      * 
      * @param engineModeCode
      */
@@ -94,7 +94,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'ColorCode' element value. РљРѕРґ С†РІРµС‚Р° РєР°Р±РёРЅС‹, РєСѓР·РѕРІР°
+     * Get the 'ColorCode' element value. Код цвета кабины, кузова
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'ColorCode' element value. РљРѕРґ С†РІРµС‚Р° РєР°Р±РёРЅС‹, РєСѓР·РѕРІР°
+     * Set the 'ColorCode' element value. Код цвета кабины, кузова
      * 
      * @param colorCode
      */
@@ -112,7 +112,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'ColorName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С†РІРµС‚Р° РєР°Р±РёРЅС‹, РєСѓР·РѕРІР°
+     * Get the 'ColorName' element value. Наименование цвета кабины, кузова
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'ColorName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С†РІРµС‚Р° РєР°Р±РёРЅС‹, РєСѓР·РѕРІР°
+     * Set the 'ColorName' element value. Наименование цвета кабины, кузова
      * 
      * @param colorName
      */
@@ -130,7 +130,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'Ekoclass' element value. Р­РєРѕР»РѕРіРёС‡РµСЃРєРёР№ РєР»Р°СЃСЃ ("0"-РЅСѓР»РµРІРѕР№, "1" - РїРµСЂРІС‹Р№, "2" - РІС‚РѕСЂРѕР№, "3" - С‚СЂРµС‚РёР№, "4" - С‡РµС‚РІРµСЂС‚С‹Р№, "5" - РїСЏС‚С‹Р№)
+     * Get the 'Ekoclass' element value. Экологический класс ("0"-нулевой, "1" - первый, "2" - второй, "3" - третий, "4" - четвертый, "5" - пятый)
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'Ekoclass' element value. Р­РєРѕР»РѕРіРёС‡РµСЃРєРёР№ РєР»Р°СЃСЃ ("0"-РЅСѓР»РµРІРѕР№, "1" - РїРµСЂРІС‹Р№, "2" - РІС‚РѕСЂРѕР№, "3" - С‚СЂРµС‚РёР№, "4" - С‡РµС‚РІРµСЂС‚С‹Р№, "5" - РїСЏС‚С‹Р№)
+     * Set the 'Ekoclass' element value. Экологический класс ("0"-нулевой, "1" - первый, "2" - второй, "3" - третий, "4" - четвертый, "5" - пятый)
      * 
      * @param ekoclass
      */
@@ -148,7 +148,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'ConformanceCertificate' element value. Р РµРєРІРёР·РёС‚С‹ РћРґРѕР±СЂРµРЅРёСЏ С‚РёРїР° РўРЎ /РЎРµСЂС‚РёС„РёРєР°С‚Р° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Get the 'ConformanceCertificate' element value. Реквизиты Одобрения типа ТС /Сертификата соответствия
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'ConformanceCertificate' element value. Р РµРєРІРёР·РёС‚С‹ РћРґРѕР±СЂРµРЅРёСЏ С‚РёРїР° РўРЎ /РЎРµСЂС‚РёС„РёРєР°С‚Р° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Set the 'ConformanceCertificate' element value. Реквизиты Одобрения типа ТС /Сертификата соответствия
      * 
      * @param conformanceCertificate
      */
@@ -167,7 +167,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Get the list of 'ChassisColorList' element items. РЎРїРёСЃРѕРє С†РІРµС‚РѕРІ С€Р°СЃСЃРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РЅР°Р·РІР°РЅРёСЏРјРё РѕСЃРЅРѕРІРЅС‹С…  С†РІРµС‚РѕРІ,  РµСЃР»Рё С†РІРµС‚ - РјРЅРѕРіРѕС†РІРµС‚РЅС‹Р№.
+     * Get the list of 'ChassisColorList' element items. Список цветов шасси. Заполняется названиями основных  цветов,  если цвет - многоцветный.
      * 
      * @return list
      */
@@ -176,7 +176,7 @@ public class PShTSDataType extends AutomobileBaseType
     }
 
     /** 
-     * Set the list of 'ChassisColorList' element items. РЎРїРёСЃРѕРє С†РІРµС‚РѕРІ С€Р°СЃСЃРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РЅР°Р·РІР°РЅРёСЏРјРё РѕСЃРЅРѕРІРЅС‹С…  С†РІРµС‚РѕРІ,  РµСЃР»Рё С†РІРµС‚ - РјРЅРѕРіРѕС†РІРµС‚РЅС‹Р№.
+     * Set the list of 'ChassisColorList' element items. Список цветов шасси. Заполняется названиями основных  цветов,  если цвет - многоцветный.
      * 
      * @param list
      */

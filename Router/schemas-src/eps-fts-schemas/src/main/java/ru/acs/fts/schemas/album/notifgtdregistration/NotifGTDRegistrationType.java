@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р° РІ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+ * Уведомление о регистрации документа в таможенном органе
  */
 public class NotifGTDRegistrationType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'RegistrationDate' element value. Дата регистрации
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'RegistrationDate' element value. Дата регистрации
      * 
      * @param registrationDate
      */
@@ -39,7 +39,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationTime' element value. Р’СЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'RegistrationTime' element value. Время регистрации
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationTime' element value. Р’СЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'RegistrationTime' element value. Время регистрации
      * 
      * @param registrationTime
      */
@@ -57,7 +57,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє СѓРІРµРґРѕРјР»РµРЅРёСЏ: 0 - Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў; 1 - Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рё Р”Рў; 2 - РёРЅРѕРµ
+     * Get the 'DocSign' element value. Признак уведомления: 0 - о регистрации ДТ; 1 - о регистрации Обязательства о подачи ДТ; 2 - иное
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє СѓРІРµРґРѕРјР»РµРЅРёСЏ: 0 - Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў; 1 - Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рё Р”Рў; 2 - РёРЅРѕРµ
+     * Set the 'DocSign' element value. Признак уведомления: 0 - о регистрации ДТ; 1 - о регистрации Обязательства о подачи ДТ; 2 - иное
      * 
      * @param docSign
      */
@@ -75,7 +75,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Get the 'Comments' element value. Комментарии
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Set the 'Comments' element value. Комментарии
      * 
      * @param comments
      */
@@ -93,7 +93,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -111,7 +111,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'GTDID' element value. Регистрационный номер документа
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'GTDID' element value. Регистрационный номер документа
      * 
      * @param GTDID
      */
@@ -129,7 +129,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
+     * Get the 'CustomsPersonSignature' element value. Подпись должностного лица
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
+     * Set the 'CustomsPersonSignature' element value. Подпись должностного лица
      * 
      * @param customsPersonSignature
      */
@@ -148,7 +148,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class NotifGTDRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

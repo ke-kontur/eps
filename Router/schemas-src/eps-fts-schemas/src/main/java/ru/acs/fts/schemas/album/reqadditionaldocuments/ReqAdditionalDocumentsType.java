@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ Рѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+ * Запрос о представлении дополнительных документов
  */
 public class ReqAdditionalDocumentsType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NumberDoc' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'NumberDoc' element value. Номер документа
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Set the 'NumberDoc' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'NumberDoc' element value. Номер документа
      * 
      * @param numberDoc
      */
@@ -43,7 +43,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateDoc' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DateDoc' element value. Дата документа
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateDoc' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DateDoc' element value. Дата документа
      * 
      * @param dateDoc
      */
@@ -61,7 +61,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Term' element value. РЎСЂРѕРє РїСЂРµРґСЃС‚Р°РІРёС‚СЊ  РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the 'Term' element value. Срок представить  дополнительные документы
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Term' element value. РЎСЂРѕРє РїСЂРµРґСЃС‚Р°РІРёС‚СЊ  РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the 'Term' element value. Срок представить  дополнительные документы
      * 
      * @param term
      */
@@ -79,7 +79,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -97,7 +97,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ
+     * Get the 'PersonSignature' element value. Подпись
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ
+     * Set the 'PersonSignature' element value. Подпись
      * 
      * @param personSignature
      */
@@ -115,7 +115,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ListDocuments' element items. РЎРїРёСЃРѕРє Р·Р°РїСЂР°С€РёРІР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the list of 'ListDocuments' element items. Список запрашиваемых документов
      * 
      * @return list
      */
@@ -124,7 +124,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ListDocuments' element items. РЎРїРёСЃРѕРє Р·Р°РїСЂР°С€РёРІР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the list of 'ListDocuments' element items. Список запрашиваемых документов
      * 
      * @param list
      */
@@ -133,7 +133,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Delcarant' element value. Р”РµРєР»Р°СЂР°РЅС‚
+     * Get the 'Delcarant' element value. Декларант
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Delcarant' element value. Р”РµРєР»Р°СЂР°РЅС‚
+     * Set the 'Delcarant' element value. Декларант
      * 
      * @param delcarant
      */
@@ -151,7 +151,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў
+     * Get the 'GTDID' element value. Номер ДТ
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў
+     * Set the 'GTDID' element value. Номер ДТ
      * 
      * @param GTDID
      */
@@ -169,7 +169,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class ReqAdditionalDocumentsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.goodscomponentlist;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРјРїРѕРЅРµРЅС‚Рµ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕРіРѕ Р±Р»РѕРєР°
+ * Сведения о компоненте функционального блока
  */
 public class MechUnitPartType
         extends
@@ -11,7 +11,7 @@ public class MechUnitPartType
     private String serviceID;
 
     /** 
-     * Get the 'ServiceID' element value. РЎР»СѓР¶РµР±РЅС‹Р№ РЅРѕРјРµСЂ РєРѕРјРїРѕРЅРµРЅС‚Р°
+     * Get the 'ServiceID' element value. Служебный номер компонента
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class MechUnitPartType
     }
 
     /** 
-     * Set the 'ServiceID' element value. РЎР»СѓР¶РµР±РЅС‹Р№ РЅРѕРјРµСЂ РєРѕРјРїРѕРЅРµРЅС‚Р°
+     * Set the 'ServiceID' element value. Служебный номер компонента
      * 
      * @param serviceID
      */

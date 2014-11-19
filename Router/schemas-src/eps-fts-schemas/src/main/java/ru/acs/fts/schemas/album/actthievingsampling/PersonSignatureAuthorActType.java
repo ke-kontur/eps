@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.actthievingsampling;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РџРѕРґРїРёСЃСЊ Р»РёС†Р°, СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ Р°РєС‚
+ * Подпись лица, составившего акт
  */
 public class PersonSignatureAuthorActType extends PersonSignatureType
 {
     private String LNP;
 
     /** 
-     * Get the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'LNP' element value. ЛНП должностного лица таможенного органа
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PersonSignatureAuthorActType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'LNP' element value. ЛНП должностного лица таможенного органа
      * 
      * @param LNP
      */

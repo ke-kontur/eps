@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsType
 {
@@ -21,7 +21,7 @@ public class GoodsType
     private List<PresentedDocumentsType> presentedDocumentList = new ArrayList<PresentedDocumentsType>();
 
     /** 
-     * Get the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Get the 'GoodsNumeric' element value. Порядковый номер товара
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Set the 'GoodsNumeric' element value. Порядковый номер товара
      * 
      * @param goodsNumeric
      */
@@ -39,7 +39,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @return list
      */
@@ -48,7 +48,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @param list
      */
@@ -57,7 +57,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” 
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД 
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” 
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД 
      * 
      * @param goodsTNVEDCode
      */
@@ -75,7 +75,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РІР°Р»СЋС‚Рµ СЃС‡РµС‚Р° (СЃРґРµР»РєРё)
+     * Get the 'GoodsCost' element value. Стоимость товара в валюте счета (сделки)
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РІР°Р»СЋС‚Рµ СЃС‡РµС‚Р° (СЃРґРµР»РєРё)
+     * Set the 'GoodsCost' element value. Стоимость товара в валюте счета (сделки)
      * 
      * @param goodsCost
      */
@@ -93,7 +93,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GrossWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ, РєРі
+     * Get the 'GrossWeight' element value. Вес товара, брутто, кг
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GrossWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ, РєРі
+     * Set the 'GrossWeight' element value. Вес товара, брутто, кг
      * 
      * @param grossWeight
      */
@@ -111,7 +111,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsCostEuro' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РµРІСЂРѕ
+     * Get the 'GoodsCostEuro' element value. Стоимость товара в евро
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsCostEuro' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РµРІСЂРѕ
+     * Set the 'GoodsCostEuro' element value. Стоимость товара в евро
      * 
      * @param goodsCostEuro
      */
@@ -129,7 +129,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsCostRuble' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ СЂСѓР±Р»СЏС…
+     * Get the 'GoodsCostRuble' element value. Стоимость товара в рублях
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsCostRuble' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ СЂСѓР±Р»СЏС…
+     * Set the 'GoodsCostRuble' element value. Стоимость товара в рублях
      * 
      * @param goodsCostRuble
      */
@@ -147,7 +147,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'GoodsQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РѕСЃРЅРѕРІРЅРѕР№ (РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№) РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the list of 'GoodsQuantity' element items. Количество товара в основной (дополнительной) единице измерения
      * 
      * @return list
      */
@@ -156,7 +156,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РѕСЃРЅРѕРІРЅРѕР№ (РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№) РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the list of 'GoodsQuantity' element items. Количество товара в основной (дополнительной) единице измерения
      * 
      * @param list
      */
@@ -165,7 +165,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'PresentedDocuments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Get the list of 'PresentedDocuments' element items. Сведения о представляемых документах
      * 
      * @return list
      */
@@ -174,7 +174,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'PresentedDocuments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Set the list of 'PresentedDocuments' element items. Сведения о представляемых документах
      * 
      * @param list
      */

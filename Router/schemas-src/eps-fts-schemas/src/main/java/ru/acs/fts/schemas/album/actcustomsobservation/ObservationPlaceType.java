@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 
 /** 
- * РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ 
+ * Место проведения таможенного наблюдения 
  */
 public class ObservationPlaceType extends CUCustomsType
 {
@@ -18,7 +18,7 @@ public class ObservationPlaceType extends CUCustomsType
     private WarehousePlaceType warehousePlace;
 
     /** 
-     * Get the 'InformationTypeCode' element value. РўРёРї РёРЅС„РѕСЂРјР°С†РёРё: 11- РЎР’РҐ;  21- РўРЎ; 25 - РЎРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ; 31- РЎРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ; 41 - РЎРєР»Р°Рґ С…СЂР°РЅРµРЅРёСЏ СЃРѕР±СЃС‚РІРµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ (РґР»СЏ Р Рљ); 52 - РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (РґР»СЏ Р Рљ); 60 - РџРѕРјРµС‰РµРЅРёРµ (РїР»РѕС‰Р°РґРєРё) РЈР­Рћ; 72 - Р—РўРљ (РґР»СЏ Р Р‘); 91 - РђРґСЂРµСЃ РјРµСЃС‚Р° С…СЂР°РЅРµРЅРёСЏ  (РґР»СЏ Р Р‘); 99 - РРЅРѕРµ РјРµСЃС‚Рѕ Р’РҐ, 80- РћР­Р—
+     * Get the 'InformationTypeCode' element value. Тип информации: 11- СВХ;  21- ТС; 25 - Свободный склад; 31- Склад получателя; 41 - Склад хранения собственных товаров (для РК); 52 - Транспортное средство (для РК); 60 - Помещение (площадки) УЭО; 72 - ЗТК (для РБ); 91 - Адрес места хранения  (для РБ); 99 - Иное место ВХ, 80- ОЭЗ
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ObservationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Set the 'InformationTypeCode' element value. РўРёРї РёРЅС„РѕСЂРјР°С†РёРё: 11- РЎР’РҐ;  21- РўРЎ; 25 - РЎРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ; 31- РЎРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ; 41 - РЎРєР»Р°Рґ С…СЂР°РЅРµРЅРёСЏ СЃРѕР±СЃС‚РІРµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ (РґР»СЏ Р Рљ); 52 - РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (РґР»СЏ Р Рљ); 60 - РџРѕРјРµС‰РµРЅРёРµ (РїР»РѕС‰Р°РґРєРё) РЈР­Рћ; 72 - Р—РўРљ (РґР»СЏ Р Р‘); 91 - РђРґСЂРµСЃ РјРµСЃС‚Р° С…СЂР°РЅРµРЅРёСЏ  (РґР»СЏ Р Р‘); 99 - РРЅРѕРµ РјРµСЃС‚Рѕ Р’РҐ, 80- РћР­Р—
+     * Set the 'InformationTypeCode' element value. Тип информации: 11- СВХ;  21- ТС; 25 - Свободный склад; 31- Склад получателя; 41 - Склад хранения собственных товаров (для РК); 52 - Транспортное средство (для РК); 60 - Помещение (площадки) УЭО; 72 - ЗТК (для РБ); 91 - Адрес места хранения  (для РБ); 99 - Иное место ВХ, 80- ОЭЗ
      * 
      * @param informationTypeCode
      */
@@ -36,7 +36,7 @@ public class ObservationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Get the 'InspPlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РґРѕСЃРјРѕС‚СЂР°, РЎР’РҐ, Р¶/Рґ СЃС‚Р°РЅС†РёРё
+     * Get the 'InspPlaceName' element value. Наименование места досмотра, СВХ, ж/д станции
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ObservationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Set the 'InspPlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РґРѕСЃРјРѕС‚СЂР°, РЎР’РҐ, Р¶/Рґ СЃС‚Р°РЅС†РёРё
+     * Set the 'InspPlaceName' element value. Наименование места досмотра, СВХ, ж/д станции
      * 
      * @param inspPlaceName
      */
@@ -54,7 +54,7 @@ public class ObservationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Get the list of 'InspPlaceDesc' element items. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°. РРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјРµСЃС‚Рµ РґРѕСЃРјРѕС‚СЂР°
+     * Get the list of 'InspPlaceDesc' element items. Описание места проведения досмотра. Иная информация о месте досмотра
      * 
      * @return list
      */
@@ -63,7 +63,7 @@ public class ObservationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Set the list of 'InspPlaceDesc' element items. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°. РРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјРµСЃС‚Рµ РґРѕСЃРјРѕС‚СЂР°
+     * Set the list of 'InspPlaceDesc' element items. Описание места проведения досмотра. Иная информация о месте досмотра
      * 
      * @param list
      */
@@ -72,7 +72,7 @@ public class ObservationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ 
+     * Get the 'Address' element value. Адрес 
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ObservationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ 
+     * Set the 'Address' element value. Адрес 
      * 
      * @param address
      */
@@ -90,7 +90,7 @@ public class ObservationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Get the 'WarehousePlace' element value. РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
+     * Get the 'WarehousePlace' element value. Место погрузки/разгрузки. Сведения о лицензии/ свидетельстве склада.
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ObservationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Set the 'WarehousePlace' element value. РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
+     * Set the 'WarehousePlace' element value. Место погрузки/разгрузки. Сведения о лицензии/ свидетельстве склада.
      * 
      * @param warehousePlace
      */

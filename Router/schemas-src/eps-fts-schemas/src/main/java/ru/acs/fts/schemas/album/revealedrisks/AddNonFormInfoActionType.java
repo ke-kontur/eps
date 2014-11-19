@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ - СѓСЂРѕРІРµРЅСЊ РјРµСЂС‹
+ * Дополнительная неформализованная информация - уровень меры
  */
 public class AddNonFormInfoActionType
 {
@@ -16,7 +16,7 @@ public class AddNonFormInfoActionType
     private String pointCode;
 
     /** 
-     * Get the 'InformationCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё: 0 - Р РµР·РµСЂРІ; 1- РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹ РЅРµРїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹ РІ СЃРёР»Сѓ РѕР±СЉРµРєС‚РёРІРЅС‹С… РїСЂРёС‡РёРЅ, РїСЂРёРјРµРЅРµРЅРёСЏ РЅРµ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё, РѕРїСЂРµРґРµР»РµРЅРЅС‹РјРё РІ РїСЂРѕС„РёР»Рµ СЂРёСЃРєР°, Р»РёР±Рѕ РЅРµ РІ РїРѕР»РЅРѕРј РѕР±СЉРµРјРµ; 2 - РћС‚РјРµС‚РєР° Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ
+     * Get the 'InformationCode' element value. Код информации: 0 - Резерв; 1- Описание причины неприменения меры в силу объективных причин, применения не в соответствии с характеристиками, определенными в профиле риска, либо не в полном объеме; 2 - Отметка о результатах применения мер
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class AddNonFormInfoActionType
     }
 
     /** 
-     * Set the 'InformationCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё: 0 - Р РµР·РµСЂРІ; 1- РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹ РЅРµРїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹ РІ СЃРёР»Сѓ РѕР±СЉРµРєС‚РёРІРЅС‹С… РїСЂРёС‡РёРЅ, РїСЂРёРјРµРЅРµРЅРёСЏ РЅРµ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё, РѕРїСЂРµРґРµР»РµРЅРЅС‹РјРё РІ РїСЂРѕС„РёР»Рµ СЂРёСЃРєР°, Р»РёР±Рѕ РЅРµ РІ РїРѕР»РЅРѕРј РѕР±СЉРµРјРµ; 2 - РћС‚РјРµС‚РєР° Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ
+     * Set the 'InformationCode' element value. Код информации: 0 - Резерв; 1- Описание причины неприменения меры в силу объективных причин, применения не в соответствии с характеристиками, определенными в профиле риска, либо не в полном объеме; 2 - Отметка о результатах применения мер
      * 
      * @param informationCode
      */
@@ -34,7 +34,7 @@ public class AddNonFormInfoActionType
     }
 
     /** 
-     * Get the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'LineNumber' element value. Порядковый номер строки информации
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class AddNonFormInfoActionType
     }
 
     /** 
-     * Set the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'LineNumber' element value. Порядковый номер строки информации
      * 
      * @param lineNumber
      */
@@ -52,7 +52,7 @@ public class AddNonFormInfoActionType
     }
 
     /** 
-     * Get the 'ViolationsCode' element value. РљРѕРґ С‚РёРїР° РІС‹СЏРІР»РµРЅРЅРѕРіРѕ РЅР°СЂСѓС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІР°
+     * Get the 'ViolationsCode' element value. Код типа выявленного нарушения таможенного законодательства
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class AddNonFormInfoActionType
     }
 
     /** 
-     * Set the 'ViolationsCode' element value. РљРѕРґ С‚РёРїР° РІС‹СЏРІР»РµРЅРЅРѕРіРѕ РЅР°СЂСѓС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІР°
+     * Set the 'ViolationsCode' element value. Код типа выявленного нарушения таможенного законодательства
      * 
      * @param violationsCode
      */
@@ -70,7 +70,7 @@ public class AddNonFormInfoActionType
     }
 
     /** 
-     * Get the list of 'TypicalName' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ (РЅРµРїСЂРёРјРµРЅРµРЅРёСЏ) РјРµСЂ
+     * Get the list of 'TypicalName' element items. Обоснование применения (неприменения) мер
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class AddNonFormInfoActionType
     }
 
     /** 
-     * Set the list of 'TypicalName' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ (РЅРµРїСЂРёРјРµРЅРµРЅРёСЏ) РјРµСЂ
+     * Set the list of 'TypicalName' element items. Обоснование применения (неприменения) мер
      * 
      * @param list
      */
@@ -88,7 +88,7 @@ public class AddNonFormInfoActionType
     }
 
     /** 
-     * Get the 'PointCode' element value. Р­С‚Р°Рї РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕРІРµСЂРєРё РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїСЂРѕС„РёР»СЏРј СЂРёСЃРєР° 
+     * Get the 'PointCode' element value. Этап проведения проверки на соответствие профилям риска 
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class AddNonFormInfoActionType
     }
 
     /** 
-     * Set the 'PointCode' element value. Р­С‚Р°Рї РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕРІРµСЂРєРё РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїСЂРѕС„РёР»СЏРј СЂРёСЃРєР° 
+     * Set the 'PointCode' element value. Этап проведения проверки на соответствие профилям риска 
      * 
      * @param pointCode
      */

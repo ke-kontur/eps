@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.TIRIDType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+ * Запрос на предоставление предварительной информации
  */
 public class ReqPIInformType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class ReqPIInformType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsCode' element value. Код таможенного органа
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ReqPIInformType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsCode' element value. Код таможенного органа
      * 
      * @param customsCode
      */
@@ -61,7 +61,7 @@ public class ReqPIInformType extends BaseDocType
     }
 
     /** 
-     * Get the 'TIR_ID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIR_ID' element value. Номер книжки МДП
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ReqPIInformType extends BaseDocType
     }
 
     /** 
-     * Set the 'TIR_ID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIR_ID' element value. Номер книжки МДП
      * 
      * @param TIRID
      */
@@ -89,7 +89,7 @@ public class ReqPIInformType extends BaseDocType
     }
 
     /** 
-     * Get the 'PI_RegID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїСЂР°С€РёРІР°РµРјРѕР№ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё.
+     * Get the 'PI_RegID' element value. Идентификатор запрашиваемой предварительной информации.
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class ReqPIInformType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_RegID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїСЂР°С€РёРІР°РµРјРѕР№ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё.
+     * Set the 'PI_RegID' element value. Идентификатор запрашиваемой предварительной информации.
      * 
      * @param PIRegID
      */
@@ -108,7 +108,7 @@ public class ReqPIInformType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ReqPIInformType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.eps_envresponse;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РџРѕРІС‚РѕСЂ СЃРѕРѕР±С‰РµРЅРёСЏ РїРѕ Р·Р°РїСЂРѕСЃСѓ.
+ * Повтор сообщения по запросу.
  */
 public class EPSEnvResponseType extends BaseDocType
 {
@@ -12,7 +12,7 @@ public class EPSEnvResponseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'EnvData' element value. Р—Р°РїСЂРѕС€РµРЅРЅРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ
+     * Get the 'EnvData' element value. Запрошенное сообщение
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class EPSEnvResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'EnvData' element value. Р—Р°РїСЂРѕС€РµРЅРЅРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ
+     * Set the 'EnvData' element value. Запрошенное сообщение
      * 
      * @param envData
      */
@@ -30,7 +30,7 @@ public class EPSEnvResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class EPSEnvResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

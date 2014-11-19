@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РёР·РґРµР»РёСЏ РјРµРґРёС†РёРЅСЃРєРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+ * Описание изделия медицинского назначения
  */
 public class GoodsDescriptionType
 {
@@ -16,7 +16,7 @@ public class GoodsDescriptionType
     private SecurityClassType _Class;
 
     /** 
-     * Get the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёР·РґРµР»РёСЏ РјРµРґРёС†РёРЅСЃРєРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the list of 'GoodsName' element items. Наименование изделия медицинского назначения
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёР·РґРµР»РёСЏ РјРµРґРёС†РёРЅСЃРєРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the list of 'GoodsName' element items. Наименование изделия медицинского назначения
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the list of 'Producer' element items. РћСЂРіР°РЅРёР·Р°С†РёСЏ-РёР·РіРѕС‚РѕРІРёС‚РµР»СЊ
+     * Get the list of 'Producer' element items. Организация-изготовитель
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the list of 'Producer' element items. РћСЂРіР°РЅРёР·Р°С†РёСЏ-РёР·РіРѕС‚РѕРІРёС‚РµР»СЊ
+     * Set the list of 'Producer' element items. Организация-изготовитель
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'OKP' element value. РљРѕРґ РћРљРџ
+     * Get the 'OKP' element value. Код ОКП
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'OKP' element value. РљРѕРґ РћРљРџ
+     * Set the 'OKP' element value. Код ОКП
      * 
      * @param OKP
      */
@@ -70,7 +70,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'Category' element value. РљР°С‚РµРіРѕСЂРёСЏ РРњРќ
+     * Get the 'Category' element value. Категория ИМН
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'Category' element value. РљР°С‚РµРіРѕСЂРёСЏ РРњРќ
+     * Set the 'Category' element value. Категория ИМН
      * 
      * @param category
      */
@@ -88,7 +88,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'Class' element value. РљР»Р°СЃСЃ Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё
+     * Get the 'Class' element value. Класс безопасности
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'Class' element value. РљР»Р°СЃСЃ Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё
+     * Set the 'Class' element value. Класс безопасности
      * 
      * @param _class
      */

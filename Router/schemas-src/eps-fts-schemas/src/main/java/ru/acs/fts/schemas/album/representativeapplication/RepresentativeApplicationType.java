@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.WarehousePlaceType;
 
 /** 
- * Р—Р°СЏРІР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ, РёСЃРїРѕР»СЊР·СѓРµРјРѕРµ РІ РєР°С‡РµСЃС‚РІРµ РїР°СЃСЃР°Р¶РёСЂСЃРєРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё/Р РµРµСЃС‚СЂ РІРѕР·РІСЂР°С‰Р°РµРјС‹С… С‚РѕРІР°СЂРѕРІ
+ * Заявление таможенного представителя, используемое в качестве пассажирской таможенной декларации/Реестр возвращаемых товаров
  */
 public class RepresentativeApplicationType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class RepresentativeApplicationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°
+     * Get the 'DestinationCountry' element value. Страна назначения. Буквенный код по классификатору стран мира
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°
+     * Set the 'DestinationCountry' element value. Страна назначения. Буквенный код по классификатору стран мира
      * 
      * @param destinationCountry
      */
@@ -40,7 +40,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalGoodsNumber' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
+     * Get the 'TotalGoodsNumber' element value. Всего наименований товаров
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalGoodsNumber' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
+     * Set the 'TotalGoodsNumber' element value. Всего наименований товаров
      * 
      * @param totalGoodsNumber
      */
@@ -58,7 +58,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Representative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Get the 'Representative' element value. Таможенный представитель
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Representative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Set the 'Representative' element value. Таможенный представитель
      * 
      * @param representative
      */
@@ -76,7 +76,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationSign' element value. РўРёРї СЂРµРµСЃС‚СЂР°: 0 - СЂРµРµСЃС‚СЂ РґРѕСЃС‚Р°РІР»СЏРµРјС‹С… С‚РѕРІР°СЂРѕРІ, 1- СЂРµРµСЃС‚СЂ РІРѕР·РІСЂР°С‰Р°РµРјС‹С… С‚РѕРІР°СЂРѕРІ 
+     * Get the 'ApplicationSign' element value. Тип реестра: 0 - реестр доставляемых товаров, 1- реестр возвращаемых товаров 
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationSign' element value. РўРёРї СЂРµРµСЃС‚СЂР°: 0 - СЂРµРµСЃС‚СЂ РґРѕСЃС‚Р°РІР»СЏРµРјС‹С… С‚РѕРІР°СЂРѕРІ, 1- СЂРµРµСЃС‚СЂ РІРѕР·РІСЂР°С‰Р°РµРјС‹С… С‚РѕРІР°СЂРѕРІ 
+     * Set the 'ApplicationSign' element value. Тип реестра: 0 - реестр доставляемых товаров, 1- реестр возвращаемых товаров 
      * 
      * @param applicationSign
      */
@@ -94,7 +94,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РёСЃС…РѕРґРЅРѕРіРѕ СЂРµРµСЃС‚СЂР°, РµСЃР»Рё С‚РѕРІР°СЂС‹ РІРѕР·РІСЂР°С‰Р°РµРјС‹Рµ
+     * Get the 'ApplicationRegNumber' element value. Регистрационный номер исходного реестра, если товары возвращаемые
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РёСЃС…РѕРґРЅРѕРіРѕ СЂРµРµСЃС‚СЂР°, РµСЃР»Рё С‚РѕРІР°СЂС‹ РІРѕР·РІСЂР°С‰Р°РµРјС‹Рµ
+     * Set the 'ApplicationRegNumber' element value. Регистрационный номер исходного реестра, если товары возвращаемые
      * 
      * @param applicationRegNumber
      */
@@ -112,7 +112,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'WarehousePlace' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё РЎР’РҐ, РЅР° РєРѕС‚РѕСЂРѕРј СЂР°Р·РјРµС‰РµРЅС‹ С‚РѕРІР°СЂС‹
+     * Get the 'WarehousePlace' element value. Номер лицензии СВХ, на котором размещены товары
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'WarehousePlace' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё РЎР’РҐ, РЅР° РєРѕС‚РѕСЂРѕРј СЂР°Р·РјРµС‰РµРЅС‹ С‚РѕРІР°СЂС‹
+     * Set the 'WarehousePlace' element value. Номер лицензии СВХ, на котором размещены товары
      * 
      * @param warehousePlace
      */
@@ -130,7 +130,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЂС‚РёРё
+     * Get the list of 'Consignment' element items. Сведения о партии
      * 
      * @return list
      */
@@ -139,7 +139,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЂС‚РёРё
+     * Set the list of 'Consignment' element items. Сведения о партии
      * 
      * @param list
      */
@@ -148,7 +148,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class RepresentativeApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

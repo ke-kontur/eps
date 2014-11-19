@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportGoodsBaseType;
 import ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.TRPackingInfoType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
+ * Описание товаров
  */
 public class GoodsType extends TransportGoodsBaseType
 {
@@ -22,7 +22,7 @@ public class GoodsType extends TransportGoodsBaseType
     private List<TRPackingInfoType> packingInfoList = new ArrayList<TRPackingInfoType>();
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -40,7 +40,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'PlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°
+     * Get the 'PlacesQuantity' element value. Общее количество грузовых мест товара
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'PlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°
+     * Set the 'PlacesQuantity' element value. Общее количество грузовых мест товара
      * 
      * @param placesQuantity
      */
@@ -58,7 +58,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @param grossWeightQuantity
      */
@@ -76,7 +76,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'Dimensions' element value. Р Р°Р·РјРµСЂС‹ РіСЂСѓР·Р°
+     * Get the 'Dimensions' element value. Размеры груза
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'Dimensions' element value. Р Р°Р·РјРµСЂС‹ РіСЂСѓР·Р°
+     * Set the 'Dimensions' element value. Размеры груза
      * 
      * @param dimensions
      */
@@ -94,7 +94,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»-РІРѕ С‚РѕРІР°СЂР° (РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ)
+     * Get the 'SupplementaryGoodsQuantity' element value. Кол-во товара (в дополнительной единице измерения)
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»-РІРѕ С‚РѕРІР°СЂР° (РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ)
+     * Set the 'SupplementaryGoodsQuantity' element value. Кол-во товара (в дополнительной единице измерения)
      * 
      * @param supplementaryGoodsQuantity
      */
@@ -113,7 +113,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'BillofLading' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅРѕСЃР°РјРµРЅС‚Р° РЅР° РіСЂСѓР· (С‚РѕРІР°СЂ), РїРѕРґР»РµР¶Р°С‰РёР№ РІС‹РіСЂСѓР·РєРµ РІ РїРѕСЂС‚Сѓ РїСЂРёС…РѕРґР°
+     * Get the 'BillofLading' element value. Реквизиты коносамента на груз (товар), подлежащий выгрузке в порту прихода
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'BillofLading' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅРѕСЃР°РјРµРЅС‚Р° РЅР° РіСЂСѓР· (С‚РѕРІР°СЂ), РїРѕРґР»РµР¶Р°С‰РёР№ РІС‹РіСЂСѓР·РєРµ РІ РїРѕСЂС‚Сѓ РїСЂРёС…РѕРґР°
+     * Set the 'BillofLading' element value. Реквизиты коносамента на груз (товар), подлежащий выгрузке в порту прихода
      * 
      * @param billofLading
      */
@@ -131,7 +131,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the list of 'PlacesInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
+     * Get the list of 'PlacesInfo' element items. Сведения о грузовых местах
      * 
      * @return list
      */
@@ -140,7 +140,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the list of 'PlacesInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
+     * Set the list of 'PlacesInfo' element items. Сведения о грузовых местах
      * 
      * @param list
      */
@@ -149,7 +149,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the list of 'PackingInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'PackingInfo' element items. Сведения об упаковке товаров
      * 
      * @return list
      */
@@ -158,7 +158,7 @@ public class GoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the list of 'PackingInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'PackingInfo' element items. Сведения об упаковке товаров
      * 
      * @param list
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅР°С‡Р°Р»Рµ РїСЂРѕРІРµСЂРєРё Р”Рў.
+ * Уведомление о начале проверки ДТ.
  */
 public class NotifGTDExaminationStartType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ControlStartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїСЂРѕРІРµСЂРєРё
+     * Get the 'ControlStartDate' element value. Дата начала проверки
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Set the 'ControlStartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїСЂРѕРІРµСЂРєРё
+     * Set the 'ControlStartDate' element value. Дата начала проверки
      * 
      * @param controlStartDate
      */
@@ -38,7 +38,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Get the 'ControlStartTime' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° РїСЂРѕРІРµСЂРєРё
+     * Get the 'ControlStartTime' element value. Время начала проверки
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Set the 'ControlStartTime' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° РїСЂРѕРІРµСЂРєРё
+     * Set the 'ControlStartTime' element value. Время начала проверки
      * 
      * @param controlStartTime
      */
@@ -56,7 +56,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
+     * Get the 'Comments' element value. Комментарий
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
+     * Set the 'Comments' element value. Комментарий
      * 
      * @param comments
      */
@@ -74,7 +74,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -92,7 +92,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -110,7 +110,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocID' element value. Регистрационный номер документа
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocID' element value. Регистрационный номер документа
      * 
      * @param docID
      */
@@ -128,7 +128,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class NotifGTDExaminationStartType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

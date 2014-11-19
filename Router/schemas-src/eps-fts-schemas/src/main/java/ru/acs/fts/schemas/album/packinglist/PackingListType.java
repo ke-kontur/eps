@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РЈРїР°РєРѕРІРѕС‡РЅС‹Р№ Р»РёСЃС‚
+ * Упаковочный лист
  */
 public class PackingListType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class PackingListType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ (РµСЃР»Рё РІ РѕРїРёСЃР°РЅРёРё С‚РѕРІР°СЂРѕРІ РЅРµС‚ РґР°РЅРЅС‹С…, С‚Рѕ Р·РЅР°С‡РµРЅРёРµ РІРІРѕРґРёС‚СЃСЏ РІСЂСѓС‡РЅСѓСЋ - РёРЅР°С‡Рµ - СЃСѓРјРјР° РІРµСЃР° Р±СЂСѓС‚С‚Рѕ РїРѕ С‚РѕРІР°СЂР°Рј)
+     * Get the 'GrossWeightQuantity' element value. Общий вес брутто товаров (если в описании товаров нет данных, то значение вводится вручную - иначе - сумма веса брутто по товарам)
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ (РµСЃР»Рё РІ РѕРїРёСЃР°РЅРёРё С‚РѕРІР°СЂРѕРІ РЅРµС‚ РґР°РЅРЅС‹С…, С‚Рѕ Р·РЅР°С‡РµРЅРёРµ РІРІРѕРґРёС‚СЃСЏ РІСЂСѓС‡РЅСѓСЋ - РёРЅР°С‡Рµ - СЃСѓРјРјР° РІРµСЃР° Р±СЂСѓС‚С‚Рѕ РїРѕ С‚РѕРІР°СЂР°Рј)
+     * Set the 'GrossWeightQuantity' element value. Общий вес брутто товаров (если в описании товаров нет данных, то значение вводится вручную - иначе - сумма веса брутто по товарам)
      * 
      * @param grossWeightQuantity
      */
@@ -41,7 +41,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ РЅРµС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ (РµСЃР»Рё РІ РѕРїРёСЃР°РЅРёРё С‚РѕРІР°СЂРѕРІ РЅРµС‚ РґР°РЅРЅС‹С…, С‚Рѕ Р·РЅР°С‡РµРЅРёРµ РІРІРѕРґРёС‚СЃСЏ РІСЂСѓС‡РЅСѓСЋ - РёРЅР°С‡Рµ - СЃСѓРјРјР° РІРµСЃР° РЅРµС‚С‚Рѕ РїРѕ С‚РѕРІР°СЂР°Рј)
+     * Get the 'NetWeightQuantity' element value. Общий вес нетто товаров (если в описании товаров нет данных, то значение вводится вручную - иначе - сумма веса нетто по товарам)
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ РЅРµС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ (РµСЃР»Рё РІ РѕРїРёСЃР°РЅРёРё С‚РѕРІР°СЂРѕРІ РЅРµС‚ РґР°РЅРЅС‹С…, С‚Рѕ Р·РЅР°С‡РµРЅРёРµ РІРІРѕРґРёС‚СЃСЏ РІСЂСѓС‡РЅСѓСЋ - РёРЅР°С‡Рµ - СЃСѓРјРјР° РІРµСЃР° РЅРµС‚С‚Рѕ РїРѕ С‚РѕРІР°СЂР°Рј)
+     * Set the 'NetWeightQuantity' element value. Общий вес нетто товаров (если в описании товаров нет данных, то значение вводится вручную - иначе - сумма веса нетто по товарам)
      * 
      * @param netWeightQuantity
      */
@@ -59,7 +59,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»Рµ
+     * Get the 'Consignor' element value. Сведения о грузоотправителе
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»Рµ
+     * Set the 'Consignor' element value. Сведения о грузоотправителе
      * 
      * @param consignor
      */
@@ -77,7 +77,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Get the 'Consignee' element value. Информация о грузополучателе
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Set the 'Consignee' element value. Информация о грузополучателе
      * 
      * @param consignee
      */
@@ -95,7 +95,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeliveryTerms' element value. РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'DeliveryTerms' element value. Описание условий поставки контракта
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeliveryTerms' element value. РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'DeliveryTerms' element value. Описание условий поставки контракта
      * 
      * @param deliveryTerms
      */
@@ -113,7 +113,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'Goods' element items. Описание грузовых мест товаров
      * 
      * @return list
      */
@@ -122,7 +122,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'Goods' element items. Описание грузовых мест товаров
      * 
      * @param list
      */
@@ -131,7 +131,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TransportMeans' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ РїРµСЂРµРІРѕР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'TransportMeans' element items. Описание транспортного средства для перевозки товаров
      * 
      * @return list
      */
@@ -140,7 +140,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TransportMeans' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ РїРµСЂРµРІРѕР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'TransportMeans' element items. Описание транспортного средства для перевозки товаров
      * 
      * @param list
      */
@@ -149,7 +149,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TotalPlacesQuantity' element items. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ РїРѕ РІРёРґР°Рј РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚
+     * Get the list of 'TotalPlacesQuantity' element items. Общее количество мест по видам грузовых  мест
      * 
      * @return list
      */
@@ -158,7 +158,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TotalPlacesQuantity' element items. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ РїРѕ РІРёРґР°Рј РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚
+     * Set the list of 'TotalPlacesQuantity' element items. Общее количество мест по видам грузовых  мест
      * 
      * @param list
      */
@@ -167,7 +167,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class PackingListType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

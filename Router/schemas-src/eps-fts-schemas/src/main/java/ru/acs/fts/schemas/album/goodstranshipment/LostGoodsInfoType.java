@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.PackingInformationType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓС‚СЂР°С‚Рµ (РѕС‚СЃСѓС‚СЃС‚РІРёРё/СѓРЅРёС‡С‚РѕР¶РµРЅРёРё) С‡Р°СЃС‚Рё С‚РѕРІР°СЂР°
+ * Информация об утрате (отсутствии/уничтожении) части товара
  */
 public class LostGoodsInfoType
 {
@@ -20,7 +20,7 @@ public class LostGoodsInfoType
     private SupplementaryQuantityType lostGoodsQuantity;
 
     /** 
-     * Get the 'GoodsNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РўР”/РњР”Рџ.
+     * Get the 'GoodsNumber' element value. Порядковый номер товара по ТД/МДП.
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РўР”/РњР”Рџ.
+     * Set the 'GoodsNumber' element value. Порядковый номер товара по ТД/МДП.
      * 
      * @param goodsNumber
      */
@@ -38,7 +38,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @return list
      */
@@ -47,7 +47,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @param list
      */
@@ -56,7 +56,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Get the 'PackageKindSequence' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРёРґР° СѓРїР°РєРѕРІРєРё, СѓС‚СЂР°С‡РµРЅРЅРѕР№ С‡Р°СЃС‚Рё С‚РѕРІР°СЂР°
+     * Get the 'PackageKindSequence' element value. Порядковый номер вида упаковки, утраченной части товара
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Set the 'PackageKindSequence' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРёРґР° СѓРїР°РєРѕРІРєРё, СѓС‚СЂР°С‡РµРЅРЅРѕР№ С‡Р°СЃС‚Рё С‚РѕРІР°СЂР°
+     * Set the 'PackageKindSequence' element value. Порядковый номер вида упаковки, утраченной части товара
      * 
      * @param packageKindSequence
      */
@@ -74,7 +74,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Get the 'AbsenceKind' element value. Р’РёРґ СѓС‚СЂР°С‚С‹ С‚РѕРІР°СЂР° РёР»Рё РµРіРѕ С‡Р°СЃС‚Рё: 1 - РЈС‚РµСЂСЏРЅ; 2 - РЈРЅРёС‡С‚РѕР¶РµРЅ; 3 - Р§Р°СЃС‚РёС‡РЅРѕ СѓС‚РµСЂСЏРЅ, С‡Р°СЃС‚РёС‡РЅРѕ СѓРЅРёС‡С‚РѕР¶РµРЅ
+     * Get the 'AbsenceKind' element value. Вид утраты товара или его части: 1 - Утерян; 2 - Уничтожен; 3 - Частично утерян, частично уничтожен
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Set the 'AbsenceKind' element value. Р’РёРґ СѓС‚СЂР°С‚С‹ С‚РѕРІР°СЂР° РёР»Рё РµРіРѕ С‡Р°СЃС‚Рё: 1 - РЈС‚РµСЂСЏРЅ; 2 - РЈРЅРёС‡С‚РѕР¶РµРЅ; 3 - Р§Р°СЃС‚РёС‡РЅРѕ СѓС‚РµСЂСЏРЅ, С‡Р°СЃС‚РёС‡РЅРѕ СѓРЅРёС‡С‚РѕР¶РµРЅ
+     * Set the 'AbsenceKind' element value. Вид утраты товара или его части: 1 - Утерян; 2 - Уничтожен; 3 - Частично утерян, частично уничтожен
      * 
      * @param absenceKind
      */
@@ -92,7 +92,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Get the 'GrossMass' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ СѓС‚СЂР°С‡РµРЅРЅРѕР№ С‡Р°СЃС‚Рё С‚РѕРІР°СЂР°.
+     * Get the 'GrossMass' element value. Вес брутто утраченной части товара.
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Set the 'GrossMass' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ СѓС‚СЂР°С‡РµРЅРЅРѕР№ С‡Р°СЃС‚Рё С‚РѕРІР°СЂР°.
+     * Set the 'GrossMass' element value. Вес брутто утраченной части товара.
      * 
      * @param grossMass
      */
@@ -110,7 +110,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Get the 'LostPackages' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‚СЂР°С‡РµРЅРЅС‹С… СѓРїР°РєРѕРІРєР°С…
+     * Get the 'LostPackages' element value. Сведения об утраченных упаковках
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Set the 'LostPackages' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‚СЂР°С‡РµРЅРЅС‹С… СѓРїР°РєРѕРІРєР°С…
+     * Set the 'LostPackages' element value. Сведения об утраченных упаковках
      * 
      * @param lostPackages
      */
@@ -128,7 +128,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Get the 'LostGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓС‚СЂР°С‡РµРЅРЅРѕР№ С‡Р°СЃС‚Рё С‚РѕРІР°СЂР°.
+     * Get the 'LostGoodsQuantity' element value. Количество утраченной части товара.
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class LostGoodsInfoType
     }
 
     /** 
-     * Set the 'LostGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓС‚СЂР°С‡РµРЅРЅРѕР№ С‡Р°СЃС‚Рё С‚РѕРІР°СЂР°.
+     * Set the 'LostGoodsQuantity' element value. Количество утраченной части товара.
      * 
      * @param lostGoodsQuantity
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
+ * Сведения о грузовых местах, и упаковке товаров
  */
 public class GoodsPackagingType
 {
@@ -15,7 +15,7 @@ public class GoodsPackagingType
     private List<PackingInformationType> packingInformationList = new ArrayList<PackingInformationType>();
 
     /** 
-     * Get the 'PakageQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.
+     * Get the 'PakageQuantity' element value. Количество грузовых мест.
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class GoodsPackagingType
     }
 
     /** 
-     * Set the 'PakageQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.
+     * Set the 'PakageQuantity' element value. Количество грузовых мест.
      * 
      * @param pakageQuantity
      */
@@ -33,7 +33,7 @@ public class GoodsPackagingType
     }
 
     /** 
-     * Get the 'CargoCode' element value. РљРѕРґ РІРёРґР° РіСЂСѓР·Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ.
+     * Get the 'CargoCode' element value. Код вида груза в соответствии с  классификатором видов груза, упаковки и упаковочных материалов.
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsPackagingType
     }
 
     /** 
-     * Set the 'CargoCode' element value. РљРѕРґ РІРёРґР° РіСЂСѓР·Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ.
+     * Set the 'CargoCode' element value. Код вида груза в соответствии с  классификатором видов груза, упаковки и упаковочных материалов.
      * 
      * @param cargoCode
      */
@@ -51,7 +51,7 @@ public class GoodsPackagingType
     }
 
     /** 
-     * Get the 'CargoDescription' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РіСЂСѓР·Р°.
+     * Get the 'CargoDescription' element value. Описание вида груза.
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class GoodsPackagingType
     }
 
     /** 
-     * Set the 'CargoDescription' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РіСЂСѓР·Р°.
+     * Set the 'CargoDescription' element value. Описание вида груза.
      * 
      * @param cargoDescription
      */
@@ -69,7 +69,7 @@ public class GoodsPackagingType
     }
 
     /** 
-     * Get the list of 'PackingInformation' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ. РљРѕРґ, РљРѕР»РёС‡РµСЃС‚РІРѕ. РњР°СЂРєРёСЂРѕРІРєР°
+     * Get the list of 'PackingInformation' element items. Сведения об упаковке товаров. Код, Количество. Маркировка
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class GoodsPackagingType
     }
 
     /** 
-     * Set the list of 'PackingInformation' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ. РљРѕРґ, РљРѕР»РёС‡РµСЃС‚РІРѕ. РњР°СЂРєРёСЂРѕРІРєР°
+     * Set the list of 'PackingInformation' element items. Сведения об упаковке товаров. Код, Количество. Маркировка
      * 
      * @param list
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.customsbrokercertificate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
+ * Сведения об обособленном подразделении.
  */
 public class BranchDescriptionType
 {
@@ -13,7 +13,7 @@ public class BranchDescriptionType
     private AddressType address;
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ.
+     * Get the 'OrganizationName' element value. Наименование обособленного подразделения.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class BranchDescriptionType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ.
+     * Set the 'OrganizationName' element value. Наименование обособленного подразделения.
      * 
      * @param organizationName
      */
@@ -31,7 +31,7 @@ public class BranchDescriptionType
     }
 
     /** 
-     * Get the 'KPP' element value. РљРџРџ (РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚) РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ.
+     * Get the 'KPP' element value. КПП (Код причины постановки на учет) обособленного подразделения.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class BranchDescriptionType
     }
 
     /** 
-     * Set the 'KPP' element value. РљРџРџ (РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚) РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ.
+     * Set the 'KPP' element value. КПП (Код причины постановки на учет) обособленного подразделения.
      * 
      * @param KPP
      */
@@ -49,7 +49,7 @@ public class BranchDescriptionType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Get the 'Address' element value. Адрес организации.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class BranchDescriptionType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Set the 'Address' element value. Адрес организации.
      * 
      * @param address
      */

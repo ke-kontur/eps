@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Р“Р°СЂР°РЅС‚РёСЏ
+ * Гарантия
  */
 public class CUGuaranteeType
 {
@@ -16,7 +16,7 @@ public class CUGuaranteeType
     private String BIC;
 
     /** 
-     * Get the 'PaymentWayCode' element value. РљРѕРґ СЃРїРѕСЃРѕР±РѕРІ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
+     * Get the 'PaymentWayCode' element value. Код способов обеспечения уплаты в соответствии с классификатором способов обеспечения уплаты таможенных пошлин, налогов
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class CUGuaranteeType
     }
 
     /** 
-     * Set the 'PaymentWayCode' element value. РљРѕРґ СЃРїРѕСЃРѕР±РѕРІ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
+     * Set the 'PaymentWayCode' element value. Код способов обеспечения уплаты в соответствии с классификатором способов обеспечения уплаты таможенных пошлин, налогов
      * 
      * @param paymentWayCode
      */
@@ -34,7 +34,7 @@ public class CUGuaranteeType
     }
 
     /** 
-     * Get the 'Amount' element value. РЎСѓРјРјР°
+     * Get the 'Amount' element value. Сумма
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CUGuaranteeType
     }
 
     /** 
-     * Set the 'Amount' element value. РЎСѓРјРјР°
+     * Set the 'Amount' element value. Сумма
      * 
      * @param amount
      */
@@ -52,7 +52,7 @@ public class CUGuaranteeType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер документа
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class CUGuaranteeType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер документа
      * 
      * @param documentNumber
      */
@@ -70,7 +70,7 @@ public class CUGuaranteeType
     }
 
     /** 
-     * Get the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentDate' element value. Дата документа
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class CUGuaranteeType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentDate' element value. Дата документа
      * 
      * @param documentDate
      */
@@ -88,7 +88,7 @@ public class CUGuaranteeType
     }
 
     /** 
-     * Get the 'UNP' element value. РЈС‡РµС‚РЅС‹Р№ РЅРѕРјРµСЂ РїР»Р°С‚РµР»СЊС‰РёРєР° (РЈРќРџ)
+     * Get the 'UNP' element value. Учетный номер плательщика (УНП)
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class CUGuaranteeType
     }
 
     /** 
-     * Set the 'UNP' element value. РЈС‡РµС‚РЅС‹Р№ РЅРѕРјРµСЂ РїР»Р°С‚РµР»СЊС‰РёРєР° (РЈРќРџ)
+     * Set the 'UNP' element value. Учетный номер плательщика (УНП)
      * 
      * @param UNP
      */
@@ -106,7 +106,7 @@ public class CUGuaranteeType
     }
 
     /** 
-     * Get the 'BIC' element value. Р‘Р°РЅРєРѕРІСЃРєРёР№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РєРѕРґ РёР»Рё РЅРµР±Р°РЅРєРѕРІСЃРєРёР№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РєРѕРґ РєСЂРµРґРёС‚РЅРѕ-С„РёРЅР°РЅСЃРѕРІРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'BIC' element value. Банковский идентификационный код или небанковский идентификационный код кредитно-финансовой организации
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class CUGuaranteeType
     }
 
     /** 
-     * Set the 'BIC' element value. Р‘Р°РЅРєРѕРІСЃРєРёР№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РєРѕРґ РёР»Рё РЅРµР±Р°РЅРєРѕРІСЃРєРёР№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РєРѕРґ РєСЂРµРґРёС‚РЅРѕ-С„РёРЅР°РЅСЃРѕРІРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'BIC' element value. Банковский идентификационный код или небанковский идентификационный код кредитно-финансовой организации
      * 
      * @param BIC
      */

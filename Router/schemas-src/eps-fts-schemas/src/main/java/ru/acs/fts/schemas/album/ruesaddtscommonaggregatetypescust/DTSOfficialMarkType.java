@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- *  Р”РўРЎ. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё.
+ *  ДТС. Служебные отметки.
  */
 public class DTSOfficialMarkType
 {
@@ -16,7 +16,7 @@ public class DTSOfficialMarkType
     private String timeInf;
 
     /** 
-     * Get the 'MarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕС‚РјРµС‚РєРё 
+     * Get the 'MarkIdentifier' element value. Идентификатор отметки 
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class DTSOfficialMarkType
     }
 
     /** 
-     * Set the 'MarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕС‚РјРµС‚РєРё 
+     * Set the 'MarkIdentifier' element value. Идентификатор отметки 
      * 
      * @param markIdentifier
      */
@@ -34,7 +34,7 @@ public class DTSOfficialMarkType
     }
 
     /** 
-     * Get the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ 
+     * Get the 'MarkDescription' element value. Служебная запись 
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class DTSOfficialMarkType
     }
 
     /** 
-     * Set the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ 
+     * Set the 'MarkDescription' element value. Служебная запись 
      * 
      * @param markDescription
      */
@@ -52,7 +52,7 @@ public class DTSOfficialMarkType
     }
 
     /** 
-     * Get the 'PersonName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, РІРЅРµСЃС€РµРіРѕ РѕС‚РјРµС‚РєСѓ
+     * Get the 'PersonName' element value. ФИО должностного лица, внесшего отметку
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class DTSOfficialMarkType
     }
 
     /** 
-     * Set the 'PersonName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, РІРЅРµСЃС€РµРіРѕ РѕС‚РјРµС‚РєСѓ
+     * Set the 'PersonName' element value. ФИО должностного лица, внесшего отметку
      * 
      * @param personName
      */
@@ -70,7 +70,7 @@ public class DTSOfficialMarkType
     }
 
     /** 
-     * Get the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, РІРЅРµСЃС€РµРіРѕ РѕС‚РјРµС‚РєСѓ
+     * Get the 'LNP' element value. ЛНП должностного лица, внесшего отметку
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class DTSOfficialMarkType
     }
 
     /** 
-     * Set the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, РІРЅРµСЃС€РµРіРѕ РѕС‚РјРµС‚РєСѓ
+     * Set the 'LNP' element value. ЛНП должностного лица, внесшего отметку
      * 
      * @param LNP
      */
@@ -88,7 +88,7 @@ public class DTSOfficialMarkType
     }
 
     /** 
-     * Get the 'DateInf' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё
+     * Get the 'DateInf' element value. Дата внесения служебной отметки
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class DTSOfficialMarkType
     }
 
     /** 
-     * Set the 'DateInf' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё
+     * Set the 'DateInf' element value. Дата внесения служебной отметки
      * 
      * @param dateInf
      */
@@ -106,7 +106,7 @@ public class DTSOfficialMarkType
     }
 
     /** 
-     * Get the 'TimeInf' element value. Р’СЂРµРјСЏ РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё
+     * Get the 'TimeInf' element value. Время внесения служебной отметки
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class DTSOfficialMarkType
     }
 
     /** 
-     * Set the 'TimeInf' element value. Р’СЂРµРјСЏ РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё
+     * Set the 'TimeInf' element value. Время внесения служебной отметки
      * 
      * @param timeInf
      */

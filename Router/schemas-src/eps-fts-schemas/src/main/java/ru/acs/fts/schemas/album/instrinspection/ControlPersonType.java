@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.ContactType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ
+ * Сведения о должностном лице
  */
 public class ControlPersonType extends PersonBaseType
 {
     private ContactType contact;
 
     /** 
-     * Get the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'Contact' element value. Контактная информация
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ControlPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'Contact' element value. Контактная информация
      * 
      * @param contact
      */

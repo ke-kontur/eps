@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РЎР°РЅРёС‚Р°СЂРЅРѕ-РєР°СЂР°РЅС‚РёРЅРЅС‹Р№ РєРѕРЅС‚СЂРѕР»СЊ 
+ * Санитарно-карантинный контроль 
  */
 public class RPNDecisionType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class RPNDecisionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'DecisionDate' element value. Дата принятия решения
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'DecisionDate' element value. Дата принятия решения
      * 
      * @param decisionDate
      */
@@ -42,7 +42,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'DecisionTime' element value. Время принятия решения
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'DecisionTime' element value. Время принятия решения
      * 
      * @param decisionTime
      */
@@ -60,7 +60,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Decision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ
+     * Get the 'Decision' element value. Принятое решение
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Decision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ
+     * Set the 'Decision' element value. Принятое решение
      * 
      * @param decision
      */
@@ -78,7 +78,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'KppName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРїСѓСЃРєРЅРѕРіРѕ РїСѓРЅРєС‚Р°
+     * Get the 'KppName' element value. Наименование пропускного пункта
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'KppName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРїСѓСЃРєРЅРѕРіРѕ РїСѓРЅРєС‚Р°
+     * Set the 'KppName' element value. Наименование пропускного пункта
      * 
      * @param kppName
      */
@@ -96,7 +96,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Transport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ РїРµСЂРµРІРѕР·РєРё
+     * Get the 'Transport' element value. Транспортное средство международной перевозки
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Transport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ РїРµСЂРµРІРѕР·РєРё
+     * Set the 'Transport' element value. Транспортное средство международной перевозки
      * 
      * @param transport
      */
@@ -114,7 +114,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'GoodsDescription' element value. Описание товара
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'GoodsDescription' element value. Описание товара
      * 
      * @param goodsDescription
      */
@@ -132,7 +132,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ С‚РѕРІР°СЂР°
+     * Get the 'Consignor' element value. Отправитель товара
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ С‚РѕРІР°СЂР°
+     * Set the 'Consignor' element value. Отправитель товара
      * 
      * @param consignor
      */
@@ -150,7 +150,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ С‚РѕРІР°СЂР°
+     * Get the 'Consignee' element value. Получатель товара
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ С‚РѕРІР°СЂР°
+     * Set the 'Consignee' element value. Получатель товара
      * 
      * @param consignee
      */
@@ -168,7 +168,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Officer' element value. РРЅСЃРїРµРєС‚РѕСЂ
+     * Get the 'Officer' element value. Инспектор
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Officer' element value. РРЅСЃРїРµРєС‚РѕСЂ
+     * Set the 'Officer' element value. Инспектор
      * 
      * @param officer
      */
@@ -186,7 +186,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class RPNDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

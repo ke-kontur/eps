@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.instrinspection;
 import org.joda.time.LocalDate;
 
 /** 
- * РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+ * Номер профиля риска
  */
 public class RiskProfileType
 {
@@ -15,7 +15,7 @@ public class RiskProfileType
     private String riskProfileNumberVersion;
 
     /** 
-     * Get the 'RiskProfileKind' element value. РљРѕРґ РІРёРґР° РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РїСЂРѕС„РёР»РµР№ СЂРёСЃРєРѕРІ
+     * Get the 'RiskProfileKind' element value. Код вида профиля риска в соответствии с Классификатором видов профилей рисков
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class RiskProfileType
     }
 
     /** 
-     * Set the 'RiskProfileKind' element value. РљРѕРґ РІРёРґР° РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РїСЂРѕС„РёР»РµР№ СЂРёСЃРєРѕРІ
+     * Set the 'RiskProfileKind' element value. Код вида профиля риска в соответствии с Классификатором видов профилей рисков
      * 
      * @param riskProfileKind
      */
@@ -33,7 +33,7 @@ public class RiskProfileType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ РєРѕС‚РѕСЂРѕРіРѕ СѓС‚РІРµСЂРґРёР»Рѕ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°
+     * Get the 'CustomsCode' element value. Код таможенного органа, должностное лицо которого утвердило профиль риска
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class RiskProfileType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ РєРѕС‚РѕСЂРѕРіРѕ СѓС‚РІРµСЂРґРёР»Рѕ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°
+     * Set the 'CustomsCode' element value. Код таможенного органа, должностное лицо которого утвердило профиль риска
      * 
      * @param customsCode
      */
@@ -51,7 +51,7 @@ public class RiskProfileType
     }
 
     /** 
-     * Get the 'RegistryDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РџР 
+     * Get the 'RegistryDate' element value. Дата регистрации ПР
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class RiskProfileType
     }
 
     /** 
-     * Set the 'RegistryDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РџР 
+     * Set the 'RegistryDate' element value. Дата регистрации ПР
      * 
      * @param registryDate
      */
@@ -69,7 +69,7 @@ public class RiskProfileType
     }
 
     /** 
-     * Get the 'SequenceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РџР 
+     * Get the 'SequenceNumber' element value. Порядковый номер ПР
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class RiskProfileType
     }
 
     /** 
-     * Set the 'SequenceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РџР 
+     * Set the 'SequenceNumber' element value. Порядковый номер ПР
      * 
      * @param sequenceNumber
      */
@@ -87,7 +87,7 @@ public class RiskProfileType
     }
 
     /** 
-     * Get the 'RiskProfileNumberVersion' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Get the 'RiskProfileNumberVersion' element value. Порядковый номер версии профиля риска
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class RiskProfileType
     }
 
     /** 
-     * Set the 'RiskProfileNumberVersion' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Set the 'RiskProfileNumberVersion' element value. Порядковый номер версии профиля риска
      * 
      * @param riskProfileNumberVersion
      */

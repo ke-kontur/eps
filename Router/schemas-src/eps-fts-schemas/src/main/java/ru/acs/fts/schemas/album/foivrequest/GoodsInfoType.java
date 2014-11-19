@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.foivrequest;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GoodsBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+ * Сведения о товаре
  */
 public class GoodsInfoType extends GoodsBaseType
 {
@@ -15,7 +15,7 @@ public class GoodsInfoType extends GoodsBaseType
     private PackingInfoType packingInfo;
 
     /** 
-     * Get the 'NameENG' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР° РЅР° Р°РЅРіР»РёР№СЃРєРѕРј СЏР·С‹РєРµ
+     * Get the 'NameENG' element value. Наименование товара на английском языке
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class GoodsInfoType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'NameENG' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР° РЅР° Р°РЅРіР»РёР№СЃРєРѕРј СЏР·С‹РєРµ
+     * Set the 'NameENG' element value. Наименование товара на английском языке
      * 
      * @param nameENG
      */
@@ -33,7 +33,7 @@ public class GoodsInfoType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'ProductGuid' element value. Р“Р»РѕР±Р°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕРґСѓРєС†РёРё, РєРѕС‚РѕСЂРѕРјСѓ РѕС‚РЅРѕСЃРёС‚СЃСЏ РґР°РЅРЅС‹Р№ РІРёРґ РїСЂРѕРґСѓРєС†РёРё
+     * Get the 'ProductGuid' element value. Глобальный идентификатор продукции, которому относится данный вид продукции
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsInfoType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'ProductGuid' element value. Р“Р»РѕР±Р°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕРґСѓРєС†РёРё, РєРѕС‚РѕСЂРѕРјСѓ РѕС‚РЅРѕСЃРёС‚СЃСЏ РґР°РЅРЅС‹Р№ РІРёРґ РїСЂРѕРґСѓРєС†РёРё
+     * Set the 'ProductGuid' element value. Глобальный идентификатор продукции, которому относится данный вид продукции
      * 
      * @param productGuid
      */
@@ -51,7 +51,7 @@ public class GoodsInfoType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'UUID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃСѓС‰РЅРѕСЃС‚Рё
+     * Get the 'UUID' element value. Идентификатор сущности
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class GoodsInfoType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'UUID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃСѓС‰РЅРѕСЃС‚Рё
+     * Set the 'UUID' element value. Идентификатор сущности
      * 
      * @param UUID
      */
@@ -69,7 +69,7 @@ public class GoodsInfoType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
+     * Get the 'Quantity' element value. Количество
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class GoodsInfoType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
+     * Set the 'Quantity' element value. Количество
      * 
      * @param quantity
      */
@@ -87,7 +87,7 @@ public class GoodsInfoType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'PackingInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ.
+     * Get the 'PackingInfo' element value. Сведения об упаковке товаров.
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class GoodsInfoType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'PackingInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ.
+     * Set the 'PackingInfo' element value. Сведения об упаковке товаров.
      * 
      * @param packingInfo
      */

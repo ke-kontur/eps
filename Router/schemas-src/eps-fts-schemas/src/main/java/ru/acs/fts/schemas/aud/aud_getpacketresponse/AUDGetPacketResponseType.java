@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDPacketInfoWithDocumentsType;
 
 /** 
- * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РЅР° РёР·РІР»РµС‡РµРЅРёРµ РїР°РєРµС‚Р° (РїР°РєРµС‚РѕРІ) РґРѕРєСѓРјРµРЅС‚РѕРІ Р°СЂС…РёРІР°.
+ * Ответ на запрос на извлечение пакета (пакетов) документов архива.
  */
 public class AUDGetPacketResponseType extends AUDBaseEnvelopeType
 {
@@ -15,7 +15,7 @@ public class AUDGetPacketResponseType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the list of 'PacketInfoWithDocuments' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°РєРµС‚Рµ Р°СЂС…РёРІР° Рё РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°С….
+     * Get the list of 'PacketInfoWithDocuments' element items. Информация о пакете архива и его документах.
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class AUDGetPacketResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the list of 'PacketInfoWithDocuments' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°РєРµС‚Рµ Р°СЂС…РёРІР° Рё РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°С….
+     * Set the list of 'PacketInfoWithDocuments' element items. Информация о пакете архива и его документах.
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class AUDGetPacketResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class AUDGetPacketResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @param documentModeID
      */

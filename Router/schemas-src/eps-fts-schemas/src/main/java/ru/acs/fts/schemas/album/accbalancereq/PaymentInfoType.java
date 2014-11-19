@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.accbalancereq;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶РЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ (РµСЃР»Рё Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РѕСЃС‚Р°С‚РѕРє РЅР° РєРѕРЅРєСЂРµС‚РЅРѕР№ РџРџ)
+ * Сведения о платежном документе (если запрашивается остаток на конкретной ПП)
  */
 public class PaymentInfoType
 {
@@ -13,7 +13,7 @@ public class PaymentInfoType
     private String amount;
 
     /** 
-     * Get the 'ID' element value. РќРѕРјРµСЂ РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'ID' element value. Номер платежного документа
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'ID' element value. РќРѕРјРµСЂ РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'ID' element value. Номер платежного документа
      * 
      * @param ID
      */
@@ -31,7 +31,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IssueDate' element value. Дата платежного документа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IssueDate' element value. Дата платежного документа
      * 
      * @param issueDate
      */
@@ -49,7 +49,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Get the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'Amount' element value. Общая сумма платежного документа.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class PaymentInfoType
     }
 
     /** 
-     * Set the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'Amount' element value. Общая сумма платежного документа.
      * 
      * @param amount
      */

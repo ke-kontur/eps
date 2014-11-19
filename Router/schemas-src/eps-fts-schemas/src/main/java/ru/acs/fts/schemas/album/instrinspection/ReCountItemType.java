@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.instrinspection;
 
 /** 
- * РџРµСЂРµСЃС‡РµС‚ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРµРґРјРµС‚РѕРІ РІ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
+ * Пересчет количества предметов в грузовых местах
  */
 public class ReCountItemType
 {
@@ -10,7 +10,7 @@ public class ReCountItemType
     private Choice choice;
 
     /** 
-     * Get the 'ReCountGoods' element value. РџРµСЂРµСЃС‡РµС‚ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРµРґРјРµС‚РѕРІ РІ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚Р°С…
+     * Get the 'ReCountGoods' element value. Пересчет количества предметов в грузовых  местах
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ReCountItemType
     }
 
     /** 
-     * Set the 'ReCountGoods' element value. РџРµСЂРµСЃС‡РµС‚ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРµРґРјРµС‚РѕРІ РІ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚Р°С…
+     * Set the 'ReCountGoods' element value. Пересчет количества предметов в грузовых  местах
      * 
      * @param reCountGoods
      */
@@ -78,7 +78,7 @@ public class ReCountItemType
         }
 
         /** 
-         * Get the 'SelectPackFlag' element value. РџРµСЂРµСЃС‡РµС‚ РІС‹Р±РѕСЂРѕС‡РЅРѕ
+         * Get the 'SelectPackFlag' element value. Пересчет выборочно
          * 
          * @return value
          */
@@ -87,7 +87,7 @@ public class ReCountItemType
         }
 
         /** 
-         * Set the 'SelectPackFlag' element value. РџРµСЂРµСЃС‡РµС‚ РІС‹Р±РѕСЂРѕС‡РЅРѕ
+         * Set the 'SelectPackFlag' element value. Пересчет выборочно
          * 
          * @param selectPackFlag
          */
@@ -106,7 +106,7 @@ public class ReCountItemType
         }
 
         /** 
-         * Get the 'FullCountFlag' element value. РџРµСЂРµСЃС‡РµС‚ РІРѕ РІСЃРµС… РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
+         * Get the 'FullCountFlag' element value. Пересчет во всех грузовых местах
          * 
          * @return value
          */
@@ -115,7 +115,7 @@ public class ReCountItemType
         }
 
         /** 
-         * Set the 'FullCountFlag' element value. РџРµСЂРµСЃС‡РµС‚ РІРѕ РІСЃРµС… РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
+         * Set the 'FullCountFlag' element value. Пересчет во всех грузовых местах
          * 
          * @param fullCountFlag
          */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust;
 
 /** 
- * РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ РІС‹С‡РёС‚Р°РЅРёСЏ Рё (РёР»Рё) СЂРµР·РµСЂРІРЅРѕРјСѓ РјРµС‚РѕРґСѓ РЅР° РµРіРѕ РѕСЃРЅРѕРІРµ (4,6)
+ * Подробности расчета таможенной стоимости по методу вычитания и (или) резервному методу на его основе (4,6)
  */
 public class DTSMethod46Type
 {
@@ -11,7 +11,7 @@ public class DTSMethod46Type
     private DTSSupplementaryQuantityType declaratedGoodsQuantity;
 
     /** 
-     * Get the 'Method46Basis' element value. РћСЃРЅРѕРІР° РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 4,6 РіСЂ. Рђ (11)
+     * Get the 'Method46Basis' element value. Основа для расчета таможенной стоимости по методу 4,6 гр. А (11)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DTSMethod46Type
     }
 
     /** 
-     * Set the 'Method46Basis' element value. РћСЃРЅРѕРІР° РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 4,6 РіСЂ. Рђ (11)
+     * Set the 'Method46Basis' element value. Основа для расчета таможенной стоимости по методу 4,6 гр. А (11)
      * 
      * @param method46Basis
      */
@@ -29,7 +29,7 @@ public class DTSMethod46Type
     }
 
     /** 
-     * Get the 'Method46Deduction' element value. Р’С‹С‡РµС‚С‹ СЃСѓРјРј, РєРѕС‚РѕСЂС‹Рµ РІРѕС€Р»Рё РІ СЂР°Р·РґРµР» Рђ РіСЂ. Р‘ (12-16)
+     * Get the 'Method46Deduction' element value. Вычеты сумм, которые вошли в раздел А гр. Б (12-16)
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class DTSMethod46Type
     }
 
     /** 
-     * Set the 'Method46Deduction' element value. Р’С‹С‡РµС‚С‹ СЃСѓРјРј, РєРѕС‚РѕСЂС‹Рµ РІРѕС€Р»Рё РІ СЂР°Р·РґРµР» Рђ РіСЂ. Р‘ (12-16)
+     * Set the 'Method46Deduction' element value. Вычеты сумм, которые вошли в раздел А гр. Б (12-16)
      * 
      * @param method46Deduction
      */
@@ -47,7 +47,7 @@ public class DTSMethod46Type
     }
 
     /** 
-     * Get the 'DeclaratedGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС†РµРЅРёРІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ
+     * Get the 'DeclaratedGoodsQuantity' element value. Количество оцениваемых товаров
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class DTSMethod46Type
     }
 
     /** 
-     * Set the 'DeclaratedGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕС†РµРЅРёРІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ
+     * Set the 'DeclaratedGoodsQuantity' element value. Количество оцениваемых товаров
      * 
      * @param declaratedGoodsQuantity
      */

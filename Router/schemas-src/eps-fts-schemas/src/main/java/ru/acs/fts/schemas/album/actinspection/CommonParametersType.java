@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspection;
 
 /** 
- * РћР±С‰РёРµ РїР°СЂР°РјРµС‚СЂС‹
+ * Общие параметры
  */
 public class CommonParametersType
 {
@@ -15,7 +15,7 @@ public class CommonParametersType
     private String numberOfPhoto;
 
     /** 
-     * Get the 'Model' element value. РњР°СЂРєР°, РјРѕРґРµР»СЊ (РїРѕР»РЅРѕСЃС‚СЊСЋ)
+     * Get the 'Model' element value. Марка, модель (полностью)
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Set the 'Model' element value. РњР°СЂРєР°, РјРѕРґРµР»СЊ (РїРѕР»РЅРѕСЃС‚СЊСЋ)
+     * Set the 'Model' element value. Марка, модель (полностью)
      * 
      * @param model
      */
@@ -33,7 +33,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Get the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (VIN) С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'VINID' element value. Идентификационный номер (VIN) транспортного средства
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Set the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (VIN) С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'VINID' element value. Идентификационный номер (VIN) транспортного средства
      * 
      * @param VINID
      */
@@ -51,7 +51,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Get the 'EngineModel' element value. РњРѕРґРµР»СЊ РґРІРёРіР°С‚РµР»СЏ
+     * Get the 'EngineModel' element value. Модель двигателя
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Set the 'EngineModel' element value. РњРѕРґРµР»СЊ РґРІРёРіР°С‚РµР»СЏ
+     * Set the 'EngineModel' element value. Модель двигателя
      * 
      * @param engineModel
      */
@@ -69,7 +69,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Get the 'EngineNumber' element value. РќРѕРјРµСЂ РґРІРёРіР°С‚РµР»СЏ
+     * Get the 'EngineNumber' element value. Номер двигателя
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Set the 'EngineNumber' element value. РќРѕРјРµСЂ РґРІРёРіР°С‚РµР»СЏ
+     * Set the 'EngineNumber' element value. Номер двигателя
      * 
      * @param engineNumber
      */
@@ -87,7 +87,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Get the 'CapstanNumber' element value. Р§РёСЃР»Рѕ РѕСЃРµР№
+     * Get the 'CapstanNumber' element value. Число осей
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Set the 'CapstanNumber' element value. Р§РёСЃР»Рѕ РѕСЃРµР№
+     * Set the 'CapstanNumber' element value. Число осей
      * 
      * @param capstanNumber
      */
@@ -105,7 +105,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Get the 'WheelSize' element value. Р Р°Р·РјРµСЂРЅРѕСЃС‚СЊ РєРѕР»РµСЃ (СѓРєР°Р·Р°РЅРЅР°СЏ РЅР° Р±РѕРєРѕРІРёРЅРµ РїРѕРєСЂС‹С€РєРё)
+     * Get the 'WheelSize' element value. Размерность колес (указанная на боковине покрышки)
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Set the 'WheelSize' element value. Р Р°Р·РјРµСЂРЅРѕСЃС‚СЊ РєРѕР»РµСЃ (СѓРєР°Р·Р°РЅРЅР°СЏ РЅР° Р±РѕРєРѕРІРёРЅРµ РїРѕРєСЂС‹С€РєРё)
+     * Set the 'WheelSize' element value. Размерность колес (указанная на боковине покрышки)
      * 
      * @param wheelSize
      */
@@ -123,7 +123,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Get the 'NumberOfPhoto' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёР»Р°РіР°РµРјС‹С… С„РѕС‚РѕРіСЂР°С„РёР№
+     * Get the 'NumberOfPhoto' element value. Количество прилагаемых фотографий
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class CommonParametersType
     }
 
     /** 
-     * Set the 'NumberOfPhoto' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёР»Р°РіР°РµРјС‹С… С„РѕС‚РѕРіСЂР°С„РёР№
+     * Set the 'NumberOfPhoto' element value. Количество прилагаемых фотографий
      * 
      * @param numberOfPhoto
      */

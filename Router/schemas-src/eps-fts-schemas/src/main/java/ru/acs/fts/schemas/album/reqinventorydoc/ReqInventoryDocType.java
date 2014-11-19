@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ Рѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё СЌР»РµРєС‚СЂРѕРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+ * Запрос о представлении электронных документов
  */
 public class ReqInventoryDocType extends BaseDocType
 {
@@ -32,7 +32,7 @@ public class ReqInventoryDocType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RequestNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїСЂРѕСЃР° РїРѕ Р”Рў Рѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'RequestNumber' element value. Порядковый номер запроса по ДТ о представлении дополнительных документов
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїСЂРѕСЃР° РїРѕ Р”Рў Рѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'RequestNumber' element value. Порядковый номер запроса по ДТ о представлении дополнительных документов
      * 
      * @param requestNumber
      */
@@ -50,7 +50,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'SendDate' element value. Дата направления запроса
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'SendDate' element value. Дата направления запроса
      * 
      * @param sendDate
      */
@@ -68,7 +68,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'SendTime' element value. Время направления запроса
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'SendTime' element value. Время направления запроса
      * 
      * @param sendTime
      */
@@ -86,7 +86,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequestDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'RequestDate' element value. Дата формирования запроса
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'RequestDate' element value. Дата формирования запроса
      * 
      * @param requestDate
      */
@@ -104,7 +104,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequestTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'RequestTime' element value. Время формирования запроса
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'RequestTime' element value. Время формирования запроса
      * 
      * @param requestTime
      */
@@ -122,7 +122,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateLimit' element value. РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'DateLimit' element value. Срок предоставления документов
      * 
      * @return value
      */
@@ -131,7 +131,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateLimit' element value. РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'DateLimit' element value. Срок предоставления документов
      * 
      * @param dateLimit
      */
@@ -140,7 +140,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationSourceSystemID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° Р•РџР“РЈ
+     * Get the 'ApplicationSourceSystemID' element value. Идентификатор заявления на ЕПГУ
      * 
      * @return value
      */
@@ -149,7 +149,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationSourceSystemID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° Р•РџР“РЈ
+     * Set the 'ApplicationSourceSystemID' element value. Идентификатор заявления на ЕПГУ
      * 
      * @param applicationSourceSystemID
      */
@@ -158,7 +158,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°СЏРІРєРё РІ РђРџРЎ "Р­Р»РµРєС‚СЂРѕРЅРЅС‹Рµ Р“РѕСЃСѓСЃР»СѓРіРё-2"
+     * Get the 'ApplicationID' element value. Идентификатор заявки в АПС "Электронные Госуслуги-2"
      * 
      * @return value
      */
@@ -167,7 +167,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°СЏРІРєРё РІ РђРџРЎ "Р­Р»РµРєС‚СЂРѕРЅРЅС‹Рµ Р“РѕСЃСѓСЃР»СѓРіРё-2"
+     * Set the 'ApplicationID' element value. Идентификатор заявки в АПС "Электронные Госуслуги-2"
      * 
      * @param applicationID
      */
@@ -176,7 +176,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. Р—Р°РїСЂРѕСЃ Рѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РЅРµРґРѕСЃС‚Р°СЋС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ Рё СЃРІРµРґРµРЅРёР№: 1 - РІ СЃР»СѓС‡Р°Рµ РїРѕРґР°С‡Рё Р·Р°СЏРІР»РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ; 0 - РёРЅРѕРµ
+     * Get the 'DocSign' element value. Запрос о представлении недостающих документов и сведений: 1 - в случае подачи заявления на уничтожение; 0 - иное
      * 
      * @return value
      */
@@ -185,7 +185,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. Р—Р°РїСЂРѕСЃ Рѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РЅРµРґРѕСЃС‚Р°СЋС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ Рё СЃРІРµРґРµРЅРёР№: 1 - РІ СЃР»СѓС‡Р°Рµ РїРѕРґР°С‡Рё Р·Р°СЏРІР»РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ; 0 - РёРЅРѕРµ
+     * Set the 'DocSign' element value. Запрос о представлении недостающих документов и сведений: 1 - в случае подачи заявления на уничтожение; 0 - иное
      * 
      * @param docSign
      */
@@ -194,7 +194,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Communication' element items. РЎСЂРµРґСЃС‚РІРѕ СЃРІСЏР·Рё
+     * Get the list of 'Communication' element items. Средство связи
      * 
      * @return list
      */
@@ -203,7 +203,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Communication' element items. РЎСЂРµРґСЃС‚РІРѕ СЃРІСЏР·Рё
+     * Set the list of 'Communication' element items. Средство связи
      * 
      * @param list
      */
@@ -212,7 +212,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RequestedDoc' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Get the list of 'RequestedDoc' element items. Запрашиваемый документ
      * 
      * @return list
      */
@@ -221,7 +221,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RequestedDoc' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Set the list of 'RequestedDoc' element items. Запрашиваемый документ
      * 
      * @param list
      */
@@ -230,7 +230,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -239,7 +239,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -248,7 +248,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -257,7 +257,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -266,7 +266,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'GTDNumber' element value. Справочный номер ДТ
      * 
      * @return value
      */
@@ -275,7 +275,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'GTDNumber' element value. Справочный номер ДТ
      * 
      * @param GTDNumber
      */
@@ -284,7 +284,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'OEZ_RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІРІРѕР·Рµ/РІС‹РІРѕР·Рµ С‚РѕРІР°СЂРѕРІ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РћР­Р—/Р—Р°СЏРІР»РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ
+     * Get the 'OEZ_RegistrationNumber' element value. Регистрационный номер уведомления о ввозе/вывозе товаров на территорию ОЭЗ/Заявления на уничтожение
      * 
      * @return value
      */
@@ -293,7 +293,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'OEZ_RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІРІРѕР·Рµ/РІС‹РІРѕР·Рµ С‚РѕРІР°СЂРѕРІ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РћР­Р—/Р—Р°СЏРІР»РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ
+     * Set the 'OEZ_RegistrationNumber' element value. Регистрационный номер уведомления о ввозе/вывозе товаров на территорию ОЭЗ/Заявления на уничтожение
      * 
      * @param OEZRegistrationNumber
      */
@@ -303,7 +303,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -312,7 +312,7 @@ public class ReqInventoryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

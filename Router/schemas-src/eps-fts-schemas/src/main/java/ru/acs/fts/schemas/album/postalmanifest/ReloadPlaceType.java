@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.postalmanifest;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РіСЂСѓР·РѕРІС‹С… Рё РёРЅС‹С… РѕРїРµСЂР°С†РёР№
+ * Место проведения грузовых и иных операций
  */
 public class ReloadPlaceType extends CustomsType
 {
     private String reloadPlaceDescription;
 
     /** 
-     * Get the 'ReloadPlaceDescription' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РіСЂСѓР·РѕРІС‹С… Рё РёРЅС‹С… РѕРїРµСЂР°С†РёР№
+     * Get the 'ReloadPlaceDescription' element value. Место проведения грузовых и иных операций
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ReloadPlaceType extends CustomsType
     }
 
     /** 
-     * Set the 'ReloadPlaceDescription' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РіСЂСѓР·РѕРІС‹С… Рё РёРЅС‹С… РѕРїРµСЂР°С†РёР№
+     * Set the 'ReloadPlaceDescription' element value. Место проведения грузовых и иных операций
      * 
      * @param reloadPlaceDescription
      */

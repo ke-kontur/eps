@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.FlightInfoType
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.RoutigInfoType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± СѓР±С‹С‚РёРё РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+ * Сведения об убытии воздушного судна
  */
 public class DepartureInfoType extends FlightInfoType
 {
@@ -15,7 +15,7 @@ public class DepartureInfoType extends FlightInfoType
     private List<RoutigInfoType> routeInfoList = new ArrayList<RoutigInfoType>();
 
     /** 
-     * Get the 'EstimatedFlightTime' element value. Р Р°СЃС‡РµС‚РЅРѕРµ РІСЂРµРјСЏ РІС‹Р»РµС‚Р° СЂРµР№СЃР°
+     * Get the 'EstimatedFlightTime' element value. Расчетное время вылета рейса
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class DepartureInfoType extends FlightInfoType
     }
 
     /** 
-     * Set the 'EstimatedFlightTime' element value. Р Р°СЃС‡РµС‚РЅРѕРµ РІСЂРµРјСЏ РІС‹Р»РµС‚Р° СЂРµР№СЃР°
+     * Set the 'EstimatedFlightTime' element value. Расчетное время вылета рейса
      * 
      * @param estimatedFlightTime
      */
@@ -33,7 +33,7 @@ public class DepartureInfoType extends FlightInfoType
     }
 
     /** 
-     * Get the list of 'RouteInfo' element items. РњР°СЂС€СЂСѓС‚ СЃР»РµРґРѕРІР°РЅРёСЏ
+     * Get the list of 'RouteInfo' element items. Маршрут следования
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class DepartureInfoType extends FlightInfoType
     }
 
     /** 
-     * Set the list of 'RouteInfo' element items. РњР°СЂС€СЂСѓС‚ СЃР»РµРґРѕРІР°РЅРёСЏ
+     * Set the list of 'RouteInfo' element items. Маршрут следования
      * 
      * @param list
      */

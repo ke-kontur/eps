@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°
+ * Описание документа
  */
 public class DescriptionDocumentType extends DocumentBaseType
 {
@@ -15,7 +15,7 @@ public class DescriptionDocumentType extends DocumentBaseType
     private LocalDate documentEndActionsDate;
 
     /** 
-     * Get the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44
+     * Get the 'PresentedDocumentModeCode' element value. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class DescriptionDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44
+     * Set the 'PresentedDocumentModeCode' element value. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44
      * 
      * @param presentedDocumentModeCode
      */
@@ -33,7 +33,7 @@ public class DescriptionDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'GoodsPostiton' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the 'GoodsPostiton' element value. Номер товара в документе
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class DescriptionDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'GoodsPostiton' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the 'GoodsPostiton' element value. Номер товара в документе
      * 
      * @param goodsPostiton
      */
@@ -51,7 +51,7 @@ public class DescriptionDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocumentBeginActionsDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentBeginActionsDate' element value. Дата начала действия документа
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class DescriptionDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentBeginActionsDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentBeginActionsDate' element value. Дата начала действия документа
      * 
      * @param documentBeginActionsDate
      */
@@ -69,7 +69,7 @@ public class DescriptionDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocumentEndActionsDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentEndActionsDate' element value. Дата окончания действия документа
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class DescriptionDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentEndActionsDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentEndActionsDate' element value. Дата окончания действия документа
      * 
      * @param documentEndActionsDate
      */

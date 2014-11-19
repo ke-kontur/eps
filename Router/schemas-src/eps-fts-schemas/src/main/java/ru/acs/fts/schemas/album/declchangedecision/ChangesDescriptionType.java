@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РЅРµРѕР±С…РѕРґРёРјС‹С… РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№)
+ * Описание необходимых изменений (дополнений)
  */
 public class ChangesDescriptionType
 {
@@ -14,7 +14,7 @@ public class ChangesDescriptionType
     private List<ChangeDetailsType> changeDetailList = new ArrayList<ChangeDetailsType>();
 
     /** 
-     * Get the 'DeclRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё
+     * Get the 'DeclRegNumber' element value. Регистрационный номер декларации
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Set the 'DeclRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё
+     * Set the 'DeclRegNumber' element value. Регистрационный номер декларации
      * 
      * @param declRegNumber
      */
@@ -32,7 +32,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Get the list of 'ChangeDetails' element items. РР·РјРµРЅРµРЅРёРµ
+     * Get the list of 'ChangeDetails' element items. Изменение
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Set the list of 'ChangeDetails' element items. РР·РјРµРЅРµРЅРёРµ
+     * Set the list of 'ChangeDetails' element items. Изменение
      * 
      * @param list
      */

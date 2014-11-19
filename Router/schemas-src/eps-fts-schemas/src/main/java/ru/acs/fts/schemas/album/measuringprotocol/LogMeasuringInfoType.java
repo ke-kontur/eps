@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РёР·РјРµСЂРµРЅРёСЏС… Р±СЂРµРІРЅР° РјРµС‚РѕРґРѕРј РєРѕРЅС†РµРІС‹С… СЃРµС‡РµРЅРёР№, СЃСЂРµРґРёРЅРЅРѕРіРѕ СЃРµС‡РµРЅРёСЏ, СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј С‚Р°Р±Р»РёС† РѕР±СЉРµРјРѕРІ Р“РћРЎРў 2708
+ * Сведения об измерениях бревна методом концевых сечений, срединного сечения, с использованием таблиц объемов ГОСТ 2708
  */
 public class LogMeasuringInfoType
 {
@@ -19,7 +19,7 @@ public class LogMeasuringInfoType
     private TabularValuesType tabularValues;
 
     /** 
-     * Get the 'LogSerialNumber' element value. РќРѕРјРµСЂ Р±СЂРµРІРЅР° РїРѕ РїРѕСЂСЏРґРєСѓ РёР·РјРµСЂСЏРµРјРѕРіРѕ СЃРѕСЂС‚РёРјРµРЅС‚Р°
+     * Get the 'LogSerialNumber' element value. Номер бревна по порядку измеряемого сортимента
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Set the 'LogSerialNumber' element value. РќРѕРјРµСЂ Р±СЂРµРІРЅР° РїРѕ РїРѕСЂСЏРґРєСѓ РёР·РјРµСЂСЏРµРјРѕРіРѕ СЃРѕСЂС‚РёРјРµРЅС‚Р°
+     * Set the 'LogSerialNumber' element value. Номер бревна по порядку измеряемого сортимента
      * 
      * @param logSerialNumber
      */
@@ -37,7 +37,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Get the 'FactLength' element value. РР·РјРµСЂРµРЅРЅР°СЏ С„Р°РєС‚РёС‡РµСЃРєР°СЏ РґР»РёРЅР°, Рј
+     * Get the 'FactLength' element value. Измеренная фактическая длина, м
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Set the 'FactLength' element value. РР·РјРµСЂРµРЅРЅР°СЏ С„Р°РєС‚РёС‡РµСЃРєР°СЏ РґР»РёРЅР°, Рј
+     * Set the 'FactLength' element value. Измеренная фактическая длина, м
      * 
      * @param factLength
      */
@@ -55,7 +55,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Get the 'FactVolume' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ РѕР±СЉРµРј Р±СЂРµРІРЅР° (СЃ СѓС‡РµС‚РѕРј РєРѕСЂС‹)
+     * Get the 'FactVolume' element value. Фактический объем бревна (с учетом коры)
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Set the 'FactVolume' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ РѕР±СЉРµРј Р±СЂРµРІРЅР° (СЃ СѓС‡РµС‚РѕРј РєРѕСЂС‹)
+     * Set the 'FactVolume' element value. Фактический объем бревна (с учетом коры)
      * 
      * @param factVolume
      */
@@ -73,7 +73,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Get the 'NominalVolume' element value. РќРѕРјРёРЅР°Р»СЊРЅС‹Р№ РѕР±СЉРµРј Р±СЂРµРІРЅР° (Р±РµР· СѓС‡РµС‚Р° РєРѕСЂС‹) / РќРѕРјРёРЅР°Р»СЊРЅС‹Р№ РѕР±СЉРµРј Р±СЂРµРІРЅР° СЃ РїСЂРёРјРµРЅРµРЅРёРµРј С‚Р°Р±Р»РёС† РѕР±СЉРµРјРѕРІ 1 Р“РћРЎРў2708
+     * Get the 'NominalVolume' element value. Номинальный объем бревна (без учета коры) / Номинальный объем бревна с применением таблиц объемов 1 ГОСТ2708
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Set the 'NominalVolume' element value. РќРѕРјРёРЅР°Р»СЊРЅС‹Р№ РѕР±СЉРµРј Р±СЂРµРІРЅР° (Р±РµР· СѓС‡РµС‚Р° РєРѕСЂС‹) / РќРѕРјРёРЅР°Р»СЊРЅС‹Р№ РѕР±СЉРµРј Р±СЂРµРІРЅР° СЃ РїСЂРёРјРµРЅРµРЅРёРµРј С‚Р°Р±Р»РёС† РѕР±СЉРµРјРѕРІ 1 Р“РћРЎРў2708
+     * Set the 'NominalVolume' element value. Номинальный объем бревна (без учета коры) / Номинальный объем бревна с применением таблиц объемов 1 ГОСТ2708
      * 
      * @param nominalVolume
      */
@@ -91,7 +91,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Get the 'NominalVolume2' element value. РќРѕРјРёРЅР°Р»СЊРЅС‹Р№ РѕР±СЉРµРј Р±СЂРµРІРЅР° СЃ РїСЂРёРјРµРЅРµРЅРёРµРј С‚Р°Р±Р»РёС† РѕР±СЉРµРјРѕРІ 4 Р“РћРЎРў2708
+     * Get the 'NominalVolume2' element value. Номинальный объем бревна с применением таблиц объемов 4 ГОСТ2708
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Set the 'NominalVolume2' element value. РќРѕРјРёРЅР°Р»СЊРЅС‹Р№ РѕР±СЉРµРј Р±СЂРµРІРЅР° СЃ РїСЂРёРјРµРЅРµРЅРёРµРј С‚Р°Р±Р»РёС† РѕР±СЉРµРјРѕРІ 4 Р“РћРЎРў2708
+     * Set the 'NominalVolume2' element value. Номинальный объем бревна с применением таблиц объемов 4 ГОСТ2708
      * 
      * @param nominalVolume2
      */
@@ -109,7 +109,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Get the 'LogRise' element value. РЎР±РµРі
+     * Get the 'LogRise' element value. Сбег
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Set the 'LogRise' element value. РЎР±РµРі
+     * Set the 'LogRise' element value. Сбег
      * 
      * @param logRise
      */
@@ -127,7 +127,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Get the list of 'MeasuringDetails' element items. Р РµР·СѓР»СЊС‚Р°С‚С‹ РёР·РјРµСЂРµРЅРёР№
+     * Get the list of 'MeasuringDetails' element items. Результаты измерений
      * 
      * @return list
      */
@@ -136,7 +136,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Set the list of 'MeasuringDetails' element items. Р РµР·СѓР»СЊС‚Р°С‚С‹ РёР·РјРµСЂРµРЅРёР№
+     * Set the list of 'MeasuringDetails' element items. Результаты измерений
      * 
      * @param list
      */
@@ -145,7 +145,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Get the 'TabularValues' element value. РўР°Р±Р»РёС‡РЅС‹Рµ РґР°РЅРЅС‹Рµ
+     * Get the 'TabularValues' element value. Табличные данные
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class LogMeasuringInfoType
     }
 
     /** 
-     * Set the 'TabularValues' element value. РўР°Р±Р»РёС‡РЅС‹Рµ РґР°РЅРЅС‹Рµ
+     * Set the 'TabularValues' element value. Табличные данные
      * 
      * @param tabularValues
      */

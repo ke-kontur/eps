@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РўРёРї, РѕРїРёСЃС‹РІР°СЋС‰РёР№ РїР°СЂС‚РёСЋ, РЅР° РєРѕС‚РѕСЂРѕР№ РІС‹СЏРІР»РµРЅ РџР /Р¦РџР 
+ * Тип, описывающий партию, на которой выявлен ПР/ЦПР
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -25,7 +25,7 @@ public class ConsignmentType
     private List<GoodsType> goodList = new ArrayList<GoodsType>();
 
     /** 
-     * Get the 'ConsigmentNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. РџСЂРёРјРµС‡Р°РЅРёРµ: Р”Р»СЏ СЂРµРµСЃС‚СЂРѕРІ СЌРєСЃРїСЂРµСЃСЃ-РіСЂСѓР·РѕРІ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїР°СЂС‚РёРё РёР· РґРѕРєСѓРјРµРЅС‚Р°-Р·Р°РїСЂРѕСЃР°; РґР»СЏ Р”Рў, РњРџРћ РІСЃРµРіРґР° СЂР°РІРµРЅ 1.
+     * Get the 'ConsigmentNumber' element value. Порядковый номер товарной партии. Примечание: Для реестров экспресс-грузов заполняется порядковый номер партии из документа-запроса; для ДТ, МПО всегда равен 1.
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'ConsigmentNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. РџСЂРёРјРµС‡Р°РЅРёРµ: Р”Р»СЏ СЂРµРµСЃС‚СЂРѕРІ СЌРєСЃРїСЂРµСЃСЃ-РіСЂСѓР·РѕРІ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїР°СЂС‚РёРё РёР· РґРѕРєСѓРјРµРЅС‚Р°-Р·Р°РїСЂРѕСЃР°; РґР»СЏ Р”Рў, РњРџРћ РІСЃРµРіРґР° СЂР°РІРµРЅ 1.
+     * Set the 'ConsigmentNumber' element value. Порядковый номер товарной партии. Примечание: Для реестров экспресс-грузов заполняется порядковый номер партии из документа-запроса; для ДТ, МПО всегда равен 1.
      * 
      * @param consigmentNumber
      */
@@ -43,7 +43,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'ProfileRef' element items. РЎСЃС‹Р»РєРё РЅР° РџР /Р¦РџР , РєРѕС‚РѕСЂС‹Рµ СЃСЂР°Р±РѕС‚Р°Р»Рё РЅР° РєРѕРЅРєСЂРµС‚РЅСѓСЋ С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ
+     * Get the list of 'ProfileRef' element items. Ссылки на ПР/ЦПР, которые сработали на конкретную товарную партию
      * 
      * @return list
      */
@@ -52,7 +52,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'ProfileRef' element items. РЎСЃС‹Р»РєРё РЅР° РџР /Р¦РџР , РєРѕС‚РѕСЂС‹Рµ СЃСЂР°Р±РѕС‚Р°Р»Рё РЅР° РєРѕРЅРєСЂРµС‚РЅСѓСЋ С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ
+     * Set the list of 'ProfileRef' element items. Ссылки на ПР/ЦПР, которые сработали на конкретную товарную партию
      * 
      * @param list
      */
@@ -61,7 +61,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РўРѕРІР°СЂС‹, РЅР° РєРѕС‚РѕСЂС‹С… РІС‹СЏРІР»РµРЅС‹ СЂРёСЃРєРё
+     * Get the list of 'Goods' element items. Товары, на которых выявлены риски
      * 
      * @return list
      */
@@ -70,7 +70,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РўРѕРІР°СЂС‹, РЅР° РєРѕС‚РѕСЂС‹С… РІС‹СЏРІР»РµРЅС‹ СЂРёСЃРєРё
+     * Set the list of 'Goods' element items. Товары, на которых выявлены риски
      * 
      * @param list
      */

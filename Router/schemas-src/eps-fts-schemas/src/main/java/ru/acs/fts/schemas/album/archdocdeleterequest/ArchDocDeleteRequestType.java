@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.archdocdeleterequest;
 import ru.acs.fts.schemas.album.electronicarchivecommonaggregatetypescust.ArchBaseDocType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° СѓРґР°Р»РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° РёР· Р°СЂС…РёРІР°
+ * Запрос на удаление документа из архива
  */
 public class ArchDocDeleteRequestType extends ArchBaseDocType
 {
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ArchDocDeleteRequestType extends ArchBaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

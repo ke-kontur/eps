@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РўРµРєСЃС‚ РђРєС‚Р°
+ * Текст Акта
  */
 public class TextActType
 {
     private List<String> paragraphList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'Paragraph' element items. РђР±Р·Р°С† С‚РµРєСЃС‚Р°
+     * Get the list of 'Paragraph' element items. Абзац текста
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class TextActType
     }
 
     /** 
-     * Set the list of 'Paragraph' element items. РђР±Р·Р°С† С‚РµРєСЃС‚Р°
+     * Set the list of 'Paragraph' element items. Абзац текста
      * 
      * @param list
      */

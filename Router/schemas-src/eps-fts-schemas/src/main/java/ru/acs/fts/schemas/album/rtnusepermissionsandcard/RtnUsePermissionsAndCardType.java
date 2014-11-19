@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё СЂР°Р·СЂРµС€РµРЅРёР№, СЃРїРµС†СЂР°Р·СЂРµС€РµРЅРёР№, РєР°СЂС‚РѕС‡РµРє РґРѕРїСѓСЃРєР° Рё Р»РёС†РµРЅР·РёРѕРЅРЅС‹С… РєР°СЂС‚РѕС‡РµРє
+ * Сведения об использовании разрешений, спецразрешений, карточек допуска и лицензионных карточек
  */
 public class RtnUsePermissionsAndCardType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'InspectionDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'InspectionDateTime' element value. Дата/время начала контроля
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspectionDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'InspectionDateTime' element value. Дата/время начала контроля
      * 
      * @param inspectionDateTime
      */
@@ -47,7 +47,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'DispatchLocation' element value. РњРµСЃС‚Рѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DispatchLocation' element value. Место отправления
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'DispatchLocation' element value. РњРµСЃС‚Рѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DispatchLocation' element value. Место отправления
      * 
      * @param dispatchLocation
      */
@@ -65,7 +65,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationLocation' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationLocation' element value. Место назначения
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationLocation' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationLocation' element value. Место назначения
      * 
      * @param destinationLocation
      */
@@ -83,7 +83,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'Decision' element value. Р РµС€РµРЅРёРµ, РїСЂРёРЅСЏС‚РѕРµ РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј РєРѕРЅС‚СЂРѕР»СЏ (PASS - РџСЂРѕРїСѓСЃС‚РёС‚СЊ РўРЎ Рє РґР°Р»СЊРЅРµР№С€РµРјСѓ РґРІРёР¶РµРЅРёСЋ; WAIT - РќРµ РїСЂРѕРїСѓСЃРєР°С‚СЊ РґРѕ СѓСЃС‚СЂР°РЅРµРЅРёСЏ РЅР°СЂСѓС€РµРЅРёР№)
+     * Get the 'Decision' element value. Решение, принятое по результатам контроля (PASS - Пропустить ТС к дальнейшему движению; WAIT - Не пропускать до устранения нарушений)
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'Decision' element value. Р РµС€РµРЅРёРµ, РїСЂРёРЅСЏС‚РѕРµ РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј РєРѕРЅС‚СЂРѕР»СЏ (PASS - РџСЂРѕРїСѓСЃС‚РёС‚СЊ РўРЎ Рє РґР°Р»СЊРЅРµР№С€РµРјСѓ РґРІРёР¶РµРЅРёСЋ; WAIT - РќРµ РїСЂРѕРїСѓСЃРєР°С‚СЊ РґРѕ СѓСЃС‚СЂР°РЅРµРЅРёСЏ РЅР°СЂСѓС€РµРЅРёР№)
+     * Set the 'Decision' element value. Решение, принятое по результатам контроля (PASS - Пропустить ТС к дальнейшему движению; WAIT - Не пропускать до устранения нарушений)
      * 
      * @param decision
      */
@@ -101,7 +101,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'EndDateTime' element value. Дата/время принятия решения
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'EndDateTime' element value. Дата/время принятия решения
      * 
      * @param endDateTime
      */
@@ -119,7 +119,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'PenaltySum' element value. РЎСѓРјРјР° С€С‚СЂР°С„Р°
+     * Get the 'PenaltySum' element value. Сумма штрафа
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'PenaltySum' element value. РЎСѓРјРјР° С€С‚СЂР°С„Р°
+     * Set the 'PenaltySum' element value. Сумма штрафа
      * 
      * @param penaltySum
      */
@@ -137,7 +137,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'IsPaid' element value. РћС‚РјРµС‚РєР° РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р°
+     * Get the 'IsPaid' element value. Отметка об оплате штрафа
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsPaid' element value. РћС‚РјРµС‚РєР° РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р°
+     * Set the 'IsPaid' element value. Отметка об оплате штрафа
      * 
      * @param isPaid
      */
@@ -155,7 +155,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'RemovalDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ, РєРѕРіРґР° РЅР°СЂСѓС€РµРЅРёСЏ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ СѓСЃС‚СЂР°РЅРµРЅС‹ РїРѕ РїСЂРµРґРїРёСЃР°РЅРёСЋ
+     * Get the 'RemovalDateTime' element value. Дата/время, когда нарушения должны быть устранены по предписанию
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'RemovalDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ, РєРѕРіРґР° РЅР°СЂСѓС€РµРЅРёСЏ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ СѓСЃС‚СЂР°РЅРµРЅС‹ РїРѕ РїСЂРµРґРїРёСЃР°РЅРёСЋ
+     * Set the 'RemovalDateTime' element value. Дата/время, когда нарушения должны быть устранены по предписанию
      * 
      * @param removalDateTime
      */
@@ -173,7 +173,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExecutionDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ СѓСЃС‚Р°РЅРѕРІРєРё РѕС‚РјРµС‚РєРё Рѕ РІС‹РїРѕР»РЅРµРЅРёРё РїСЂРµРґРїРёСЃР°РЅРёСЏ
+     * Get the 'ExecutionDateTime' element value. Дата/время установки отметки о выполнении предписания
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExecutionDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ СѓСЃС‚Р°РЅРѕРІРєРё РѕС‚РјРµС‚РєРё Рѕ РІС‹РїРѕР»РЅРµРЅРёРё РїСЂРµРґРїРёСЃР°РЅРёСЏ
+     * Set the 'ExecutionDateTime' element value. Дата/время установки отметки о выполнении предписания
      * 
      * @param executionDateTime
      */
@@ -191,7 +191,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'Driver' element value. Р’РѕРґРёС‚РµР»СЊ
+     * Get the 'Driver' element value. Водитель
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'Driver' element value. Р’РѕРґРёС‚РµР»СЊ
+     * Set the 'Driver' element value. Водитель
      * 
      * @param driver
      */
@@ -209,7 +209,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'TSInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РўРЎ
+     * Get the 'TSInfo' element value. Информация о ТС
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'TSInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РўРЎ
+     * Set the 'TSInfo' element value. Информация о ТС
      * 
      * @param TSInfo
      */
@@ -227,7 +227,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReturnActNumber' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРёРѕСЃС‚Р°РЅРѕРІРєРµ РґРІРёР¶РµРЅРёСЏ
+     * Get the 'ReturnActNumber' element value. Номер решения о приостановке движения
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReturnActNumber' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРёРѕСЃС‚Р°РЅРѕРІРєРµ РґРІРёР¶РµРЅРёСЏ
+     * Set the 'ReturnActNumber' element value. Номер решения о приостановке движения
      * 
      * @param returnActNumber
      */
@@ -245,7 +245,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProtocolNumber' element value. РќРѕРјРµСЂ РїСЂРѕС‚РѕРєРѕР»Р°
+     * Get the 'ProtocolNumber' element value. Номер протокола
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProtocolNumber' element value. РќРѕРјРµСЂ РїСЂРѕС‚РѕРєРѕР»Р°
+     * Set the 'ProtocolNumber' element value. Номер протокола
      * 
      * @param protocolNumber
      */
@@ -263,7 +263,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'DirectionNumber' element value. РќРѕРјРµСЂ РїСЂРµРґРїРёСЃР°РЅРёСЏ
+     * Get the 'DirectionNumber' element value. Номер предписания
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'DirectionNumber' element value. РќРѕРјРµСЂ РїСЂРµРґРїРёСЃР°РЅРёСЏ
+     * Set the 'DirectionNumber' element value. Номер предписания
      * 
      * @param directionNumber
      */
@@ -281,7 +281,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResolutionNumber' element value. РќРѕРјРµСЂ РїРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ
+     * Get the 'ResolutionNumber' element value. Номер постановления
      * 
      * @return value
      */
@@ -290,7 +290,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResolutionNumber' element value. РќРѕРјРµСЂ РїРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ
+     * Set the 'ResolutionNumber' element value. Номер постановления
      * 
      * @param resolutionNumber
      */
@@ -299,7 +299,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -308,7 +308,7 @@ public class RtnUsePermissionsAndCardType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

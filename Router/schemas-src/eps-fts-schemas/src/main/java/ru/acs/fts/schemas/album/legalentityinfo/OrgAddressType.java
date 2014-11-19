@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.legalentityinfo;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± Р°РґСЂРµСЃРµ (РјРµСЃС‚Рµ РЅР°С…РѕР¶РґРµРЅРёСЏ) РїРѕСЃС‚РѕСЏРЅРЅРѕ РґРµР№СЃС‚РІСѓСЋС‰РµРіРѕ РёСЃРїРѕР»РЅРёС‚РµР»СЊРЅРѕРіРѕ РѕСЂРіР°РЅР° СЋСЂ. Р»РёС†Р°
+ * Сведения об адресе (месте нахождения) постоянно действующего исполнительного органа юр. лица
  */
 public class OrgAddressType extends AddressType
 {
@@ -14,7 +14,7 @@ public class OrgAddressType extends AddressType
     private RecordDataType recordData;
 
     /** 
-     * Get the 'KLADRCode' element value. РљРѕРґ Р°РґСЂРµСЃР° РїРѕ РљР›РђР”Р 
+     * Get the 'KLADRCode' element value. Код адреса по КЛАДР
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class OrgAddressType extends AddressType
     }
 
     /** 
-     * Set the 'KLADRCode' element value. РљРѕРґ Р°РґСЂРµСЃР° РїРѕ РљР›РђР”Р 
+     * Set the 'KLADRCode' element value. Код адреса по КЛАДР
      * 
      * @param KLADRCode
      */
@@ -32,7 +32,7 @@ public class OrgAddressType extends AddressType
     }
 
     /** 
-     * Get the 'SubjectCode' element value. РљРѕРґ СЃСѓР±СЉРµРєС‚Р° Р Р¤
+     * Get the 'SubjectCode' element value. Код субъекта РФ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class OrgAddressType extends AddressType
     }
 
     /** 
-     * Set the 'SubjectCode' element value. РљРѕРґ СЃСѓР±СЉРµРєС‚Р° Р Р¤
+     * Set the 'SubjectCode' element value. Код субъекта РФ
      * 
      * @param subjectCode
      */
@@ -50,7 +50,7 @@ public class OrgAddressType extends AddressType
     }
 
     /** 
-     * Get the 'ImpossibleContact' element value. РџСЂРёР·РЅР°Рє РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёСЏ СЃ СЋСЂРёРґРёС‡РµСЃРєРёРј Р»РёС†РѕРј РїРѕ СЃРѕРґРµСЂР¶Р°С‰РµРјСѓСЃСЏ РІ Р•Р“Р Р®Р› Р°РґСЂРµСЃСѓ: 0 - РµСЃР»Рё СЋСЂ. Р»РёС†Рѕ РЅРµ СЂР°СЃРїРѕР»Р°РіР°РµС‚СЃСЏ РїРѕ Р°РґСЂРµСЃСѓ, СѓРєР°Р·Р°РЅРЅРѕРјСѓ РїСЂРё РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё; 1 - РµСЃР»Рё Р°РґСЂРµСЃ, СѓРєР°Р·Р°РЅРЅС‹Р№ СЋСЂ. Р»РёС†РѕРј РїСЂРё РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё, РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚
+     * Get the 'ImpossibleContact' element value. Признак невозможности взаимодействия с юридическим лицом по содержащемуся в ЕГРЮЛ адресу: 0 - если юр. лицо не располагается по адресу, указанному при государственной регистрации; 1 - если адрес, указанный юр. лицом при государственной регистрации, не существует
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class OrgAddressType extends AddressType
     }
 
     /** 
-     * Set the 'ImpossibleContact' element value. РџСЂРёР·РЅР°Рє РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёСЏ СЃ СЋСЂРёРґРёС‡РµСЃРєРёРј Р»РёС†РѕРј РїРѕ СЃРѕРґРµСЂР¶Р°С‰РµРјСѓСЃСЏ РІ Р•Р“Р Р®Р› Р°РґСЂРµСЃСѓ: 0 - РµСЃР»Рё СЋСЂ. Р»РёС†Рѕ РЅРµ СЂР°СЃРїРѕР»Р°РіР°РµС‚СЃСЏ РїРѕ Р°РґСЂРµСЃСѓ, СѓРєР°Р·Р°РЅРЅРѕРјСѓ РїСЂРё РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё; 1 - РµСЃР»Рё Р°РґСЂРµСЃ, СѓРєР°Р·Р°РЅРЅС‹Р№ СЋСЂ. Р»РёС†РѕРј РїСЂРё РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё, РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚
+     * Set the 'ImpossibleContact' element value. Признак невозможности взаимодействия с юридическим лицом по содержащемуся в ЕГРЮЛ адресу: 0 - если юр. лицо не располагается по адресу, указанному при государственной регистрации; 1 - если адрес, указанный юр. лицом при государственной регистрации, не существует
      * 
      * @param impossibleContact
      */
@@ -68,7 +68,7 @@ public class OrgAddressType extends AddressType
     }
 
     /** 
-     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Get the 'RecordData' element value. Сведения о записи
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class OrgAddressType extends AddressType
     }
 
     /** 
-     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Set the 'RecordData' element value. Сведения о записи
      * 
      * @param recordData
      */

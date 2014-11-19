@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.semcommonaggregatetypescust.RiskProfilesType;
 import ru.acs.fts.schemas.album.semcommonaggregatetypescust.SettingsType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РїРѕ СЃРµСЂРІРёСЃСѓ NI
+ * Запрос по сервису NI
  */
 public class SEMNIRequestType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class SEMNIRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ConnectionId' element value. РЎС‚СЂРѕРєР° РїРѕРґРєР»СЋС‡РµРЅРёСЏ Рє Р‘Р”
+     * Get the 'ConnectionId' element value. Строка подключения к БД
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class SEMNIRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConnectionId' element value. РЎС‚СЂРѕРєР° РїРѕРґРєР»СЋС‡РµРЅРёСЏ Рє Р‘Р”
+     * Set the 'ConnectionId' element value. Строка подключения к БД
      * 
      * @param connectionId
      */
@@ -39,7 +39,7 @@ public class SEMNIRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateStart' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р°
+     * Get the 'DateStart' element value. Дата начала
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class SEMNIRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateStart' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р°
+     * Set the 'DateStart' element value. Дата начала
      * 
      * @param dateStart
      */
@@ -57,7 +57,7 @@ public class SEMNIRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateStop' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ
+     * Get the 'DateStop' element value. Дата окончания
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class SEMNIRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateStop' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ
+     * Set the 'DateStop' element value. Дата окончания
      * 
      * @param dateStop
      */
@@ -75,7 +75,7 @@ public class SEMNIRequestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CalculationSettings' element items. РћРіСЂР°РЅРёС‡РёС‚РµР»СЊРЅС‹Рµ РєРѕСЌС„С„РёС†РёРµРЅС‚С‹. РќРµ РёСЃРїРѕР»СЊР·СѓСЋС‚СЃСЏ РїСЂРё Р·Р°РїСЂРѕСЃРµ РёР· СЃРёСЃС‚РµРјС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ
+     * Get the list of 'CalculationSettings' element items. Ограничительные коэффициенты. Не используются при запросе из системы таможенного оформления
      * 
      * @return list
      */
@@ -84,7 +84,7 @@ public class SEMNIRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CalculationSettings' element items. РћРіСЂР°РЅРёС‡РёС‚РµР»СЊРЅС‹Рµ РєРѕСЌС„С„РёС†РёРµРЅС‚С‹. РќРµ РёСЃРїРѕР»СЊР·СѓСЋС‚СЃСЏ РїСЂРё Р·Р°РїСЂРѕСЃРµ РёР· СЃРёСЃС‚РµРјС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ
+     * Set the list of 'CalculationSettings' element items. Ограничительные коэффициенты. Не используются при запросе из системы таможенного оформления
      * 
      * @param list
      */
@@ -93,7 +93,7 @@ public class SEMNIRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'SURProfile' element value. РџСЂРѕС„РёР»СЊ СЂРёСЃРєР°
+     * Get the 'SURProfile' element value. Профиль риска
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class SEMNIRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'SURProfile' element value. РџСЂРѕС„РёР»СЊ СЂРёСЃРєР°
+     * Set the 'SURProfile' element value. Профиль риска
      * 
      * @param SURProfile
      */
@@ -111,7 +111,7 @@ public class SEMNIRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class SEMNIRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

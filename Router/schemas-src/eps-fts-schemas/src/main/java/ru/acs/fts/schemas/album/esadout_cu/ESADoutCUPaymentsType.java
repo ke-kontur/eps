@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUDelayPaymentsType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‡РёРІР°РµРјС‹С… РїР»Р°С‚РµР¶Р°С…, РїР»Р°С‚РµР¶РЅС‹С… РїРѕСЂСѓС‡РµРЅРёСЏС…, РѕС‚СЃСЂРѕС‡РєРµ РїР»Р°С‚РµР¶РµР№. Р“СЂ. 48, Р’
+ * Сведения об уплачиваемых платежах, платежных поручениях, отсрочке платежей. Гр. 48, В
  */
 public class ESADoutCUPaymentsType
 {
@@ -14,7 +14,7 @@ public class ESADoutCUPaymentsType
     private List<CUDelayPaymentsType> CUDelayPaymentList = new ArrayList<CUDelayPaymentsType>();
 
     /** 
-     * Get the list of 'ESADout_CUCustomsPayment' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‚Рµ. Р“СЂ. Р’
+     * Get the list of 'ESADout_CUCustomsPayment' element items. Сведения об уплате. Гр. В
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class ESADoutCUPaymentsType
     }
 
     /** 
-     * Set the list of 'ESADout_CUCustomsPayment' element items. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‚Рµ. Р“СЂ. Р’
+     * Set the list of 'ESADout_CUCustomsPayment' element items. Сведения об уплате. Гр. В
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class ESADoutCUPaymentsType
     }
 
     /** 
-     * Get the list of 'CUDelayPayments' element items. РћС‚СЃСЂРѕС‡РєР° РїР»Р°С‚РµР¶РµР№ РіСЂ.48
+     * Get the list of 'CUDelayPayments' element items. Отсрочка платежей гр.48
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class ESADoutCUPaymentsType
     }
 
     /** 
-     * Set the list of 'CUDelayPayments' element items. РћС‚СЃСЂРѕС‡РєР° РїР»Р°С‚РµР¶РµР№ РіСЂ.48
+     * Set the list of 'CUDelayPayments' element items. Отсрочка платежей гр.48
      * 
      * @param list
      */

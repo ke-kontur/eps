@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.postalmanifest;
 import org.joda.time.LocalDate;
 
 /** 
- * Р–РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹Р№ С‚СЂР°РЅСЃРїРѕСЂС‚/РђРІС‚РѕС‚СЂР°РЅСЃРїРѕСЂС‚
+ * Железнодорожный транспорт/Автотранспорт
  */
 public class RWTransportType
 {
@@ -15,7 +15,7 @@ public class RWTransportType
     private String sealID;
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SendDate' element value. Дата отправления
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class RWTransportType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SendDate' element value. Дата отправления
      * 
      * @param sendDate
      */
@@ -33,7 +33,7 @@ public class RWTransportType
     }
 
     /** 
-     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SendTime' element value. Время отправления
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class RWTransportType
     }
 
     /** 
-     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SendTime' element value. Время отправления
      * 
      * @param sendTime
      */
@@ -51,7 +51,7 @@ public class RWTransportType
     }
 
     /** 
-     * Get the 'TransportNumber' element value. РќРѕРјРµСЂ РїРѕРµР·РґР°/Р°РІС‚РѕРјРѕР±РёР»СЏ
+     * Get the 'TransportNumber' element value. Номер поезда/автомобиля
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class RWTransportType
     }
 
     /** 
-     * Set the 'TransportNumber' element value. РќРѕРјРµСЂ РїРѕРµР·РґР°/Р°РІС‚РѕРјРѕР±РёР»СЏ
+     * Set the 'TransportNumber' element value. Номер поезда/автомобиля
      * 
      * @param transportNumber
      */
@@ -69,7 +69,7 @@ public class RWTransportType
     }
 
     /** 
-     * Get the 'Direction' element value. РќР°РїСЂР°РІР»РµРЅРёРµ
+     * Get the 'Direction' element value. Направление
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class RWTransportType
     }
 
     /** 
-     * Set the 'Direction' element value. РќР°РїСЂР°РІР»РµРЅРёРµ
+     * Set the 'Direction' element value. Направление
      * 
      * @param direction
      */
@@ -87,7 +87,7 @@ public class RWTransportType
     }
 
     /** 
-     * Get the 'SealID' element value. РќРѕРјРµСЂ РїРµС‡Р°С‚Рё
+     * Get the 'SealID' element value. Номер печати
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class RWTransportType
     }
 
     /** 
-     * Set the 'SealID' element value. РќРѕРјРµСЂ РїРµС‡Р°С‚Рё
+     * Set the 'SealID' element value. Номер печати
      * 
      * @param sealID
      */

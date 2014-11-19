@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РўРѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ РјР°РіР°Р·РёРЅР° РЅР° Р±РѕСЂС‚Сѓ Р’РЎ
+ * Товарно-транспортная накладная магазина на борту ВС
  */
 public class AirShoppingWaybillType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class AirShoppingWaybillType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegNumberWaybill' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№ РјР°РіР°Р·РёРЅР°
+     * Get the 'RegNumberWaybill' element value. Регистрационный номер накладной магазина
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberWaybill' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№ РјР°РіР°Р·РёРЅР°
+     * Set the 'RegNumberWaybill' element value. Регистрационный номер накладной магазина
      * 
      * @param regNumberWaybill
      */
@@ -41,7 +41,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RateListCurrency' element items. РЎРїРёСЃРѕРє РєСѓСЂСЃРѕРІ РІР°Р»СЋС‚
+     * Get the list of 'RateListCurrency' element items. Список курсов валют
      * 
      * @return list
      */
@@ -50,7 +50,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RateListCurrency' element items. РЎРїРёСЃРѕРє РєСѓСЂСЃРѕРІ РІР°Р»СЋС‚
+     * Set the list of 'RateListCurrency' element items. Список курсов валют
      * 
      * @param list
      */
@@ -59,7 +59,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ContainerInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Get the list of 'ContainerInfo' element items. Сведения о контейнере
      * 
      * @return list
      */
@@ -68,7 +68,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ContainerInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Set the list of 'ContainerInfo' element items. Сведения о контейнере
      * 
      * @param list
      */
@@ -77,7 +77,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
+     * Get the 'Carrier' element value. Сведения о перевозчике
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
+     * Set the 'Carrier' element value. Сведения о перевозчике
      * 
      * @param carrier
      */
@@ -95,7 +95,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsMovement' element value. РћРїРёСЃР°РЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'GoodsMovement' element value. Описание перемещения товара
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsMovement' element value. РћРїРёСЃР°РЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'GoodsMovement' element value. Описание перемещения товара
      * 
      * @param goodsMovement
      */
@@ -113,7 +113,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'Person' element value. РЎРІРµРґРµРЅРёСЏ  Рѕ Р»РёС†Рµ СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ РЅР°РєР»Р°РґРЅСѓСЋ
+     * Get the 'Person' element value. Сведения  о лице составившего накладную
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'Person' element value. РЎРІРµРґРµРЅРёСЏ  Рѕ Р»РёС†Рµ СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ РЅР°РєР»Р°РґРЅСѓСЋ
+     * Set the 'Person' element value. Сведения  о лице составившего накладную
      * 
      * @param person
      */
@@ -131,7 +131,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Get the 'GoodsInfo' element value. Сведения о товаре
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Set the 'GoodsInfo' element value. Сведения о товаре
      * 
      * @param goodsInfo
      */
@@ -149,7 +149,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the 'Comments' element value. Примечание
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the 'Comments' element value. Примечание
      * 
      * @param comments
      */
@@ -167,7 +167,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'CheckingItemFightingDamage' element value. РџСЂРѕРІРµСЂРєР° РЅР° РїСЂРµРґРјРµС‚ Р±РѕСЏ Рё РїРѕСЂС‡Рё
+     * Get the 'CheckingItemFightingDamage' element value. Проверка на предмет боя и порчи
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'CheckingItemFightingDamage' element value. РџСЂРѕРІРµСЂРєР° РЅР° РїСЂРµРґРјРµС‚ Р±РѕСЏ Рё РїРѕСЂС‡Рё
+     * Set the 'CheckingItemFightingDamage' element value. Проверка на предмет боя и порчи
      * 
      * @param checkingItemFightingDamage
      */
@@ -186,7 +186,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class AirShoppingWaybillType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

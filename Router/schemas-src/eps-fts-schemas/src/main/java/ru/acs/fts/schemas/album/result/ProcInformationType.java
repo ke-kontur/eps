@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕС†РµСЃСЃРµ РґР»СЏ РєРѕС‚РѕСЂРѕРіРѕ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ СЃС‚Р°С‚СѓСЃ/РёСЃС‚РѕСЂРёСЏ
+ * Информация о процессе для которого запрашивается статус/история
  */
 public class ProcInformationType
 {
@@ -15,7 +15,7 @@ public class ProcInformationType
     private List<EventListType> eventList = new ArrayList<EventListType>();
 
     /** 
-     * Get the 'ProcState' element value. РўРµРєСѓС‰РёР№ СЃС‚Р°С‚СѓСЃ РїСЂРѕС†РµСЃСЃР°
+     * Get the 'ProcState' element value. Текущий статус процесса
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ProcInformationType
     }
 
     /** 
-     * Set the 'ProcState' element value. РўРµРєСѓС‰РёР№ СЃС‚Р°С‚СѓСЃ РїСЂРѕС†РµСЃСЃР°
+     * Set the 'ProcState' element value. Текущий статус процесса
      * 
      * @param procState
      */
@@ -33,7 +33,7 @@ public class ProcInformationType
     }
 
     /** 
-     * Get the 'ProcessID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°, РґР»СЏ РєРѕС‚РѕСЂРѕРіРѕ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ СЃС‚Р°С‚СѓСЃ / РёСЃС‚РѕСЂРёСЏ
+     * Get the 'ProcessID' element value. Идентификатор процесса, для которого запрашивается статус / история
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ProcInformationType
     }
 
     /** 
-     * Set the 'ProcessID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°, РґР»СЏ РєРѕС‚РѕСЂРѕРіРѕ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ СЃС‚Р°С‚СѓСЃ / РёСЃС‚РѕСЂРёСЏ
+     * Set the 'ProcessID' element value. Идентификатор процесса, для которого запрашивается статус / история
      * 
      * @param processID
      */
@@ -51,7 +51,7 @@ public class ProcInformationType
     }
 
     /** 
-     * Get the 'StateDescription' element value. РћРїРёСЃР°РЅРёРµ СЃС‚Р°С‚СѓСЃРЅРѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ
+     * Get the 'StateDescription' element value. Описание статусного состояния
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ProcInformationType
     }
 
     /** 
-     * Set the 'StateDescription' element value. РћРїРёСЃР°РЅРёРµ СЃС‚Р°С‚СѓСЃРЅРѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ
+     * Set the 'StateDescription' element value. Описание статусного состояния
      * 
      * @param stateDescription
      */
@@ -69,7 +69,7 @@ public class ProcInformationType
     }
 
     /** 
-     * Get the list of 'EventList' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРѕР±С‹С‚РёСЏС… / СЃРѕРѕР±С‰РµРЅРёСЏС…
+     * Get the list of 'EventList' element items. Информация о событиях / сообщениях
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class ProcInformationType
     }
 
     /** 
-     * Set the list of 'EventList' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРѕР±С‹С‚РёСЏС… / СЃРѕРѕР±С‰РµРЅРёСЏС…
+     * Set the list of 'EventList' element items. Информация о событиях / сообщениях
      * 
      * @param list
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.transportmeancardin;
 import org.joda.time.LocalDate;
 
 /** 
- * РљР°СЂС‚РѕС‡РєР° РўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёРµ РѕС‚РјРµС‚РєРё.
+ * Карточка ТС. Внутренний формат. Технологические отметки.
  */
 public class TransportCardTechMarkType
 {
@@ -18,7 +18,7 @@ public class TransportCardTechMarkType
     private String PTSOutDateTime;
 
     /** 
-     * Get the 'DateOut' element value. Р”Р°С‚Р° РІС‹РіСЂСѓР·РєРё Р·Р°РїРёСЃРё.
+     * Get the 'DateOut' element value. Дата выгрузки записи.
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Set the 'DateOut' element value. Р”Р°С‚Р° РІС‹РіСЂСѓР·РєРё Р·Р°РїРёСЃРё.
+     * Set the 'DateOut' element value. Дата выгрузки записи.
      * 
      * @param dateOut
      */
@@ -36,7 +36,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Get the 'TimeOut' element value. Р’СЂРµРјСЏ РІС‹РіСЂСѓР·РєРё Р·Р°РїРёСЃРё.
+     * Get the 'TimeOut' element value. Время выгрузки записи.
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Set the 'TimeOut' element value. Р’СЂРµРјСЏ РІС‹РіСЂСѓР·РєРё Р·Р°РїРёСЃРё.
+     * Set the 'TimeOut' element value. Время выгрузки записи.
      * 
      * @param timeOut
      */
@@ -54,7 +54,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Get the 'ModificationDate' element value. Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµРіРѕ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ РґРѕРєСѓРјРµРЅС‚.
+     * Get the 'ModificationDate' element value. Дата последнего внесения изменений в документ.
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Set the 'ModificationDate' element value. Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµРіРѕ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ РґРѕРєСѓРјРµРЅС‚.
+     * Set the 'ModificationDate' element value. Дата последнего внесения изменений в документ.
      * 
      * @param modificationDate
      */
@@ -72,7 +72,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Get the 'ModificationTime' element value. Р’СЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ Р”РўРЎ.
+     * Get the 'ModificationTime' element value. Время последнего внесения изменений в ДТС.
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Set the 'ModificationTime' element value. Р’СЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ Р”РўРЎ.
+     * Set the 'ModificationTime' element value. Время последнего внесения изменений в ДТС.
      * 
      * @param modificationTime
      */
@@ -90,7 +90,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Get the 'ModificationIndicator' element value. РџСЂРёР·РЅР°Рє РјРѕРґРёС„РёРєР°С†РёРё Р·Р°РїРёСЃРё.
+     * Get the 'ModificationIndicator' element value. Признак модификации записи.
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Set the 'ModificationIndicator' element value. РџСЂРёР·РЅР°Рє РјРѕРґРёС„РёРєР°С†РёРё Р·Р°РїРёСЃРё.
+     * Set the 'ModificationIndicator' element value. Признак модификации записи.
      * 
      * @param modificationIndicator
      */
@@ -108,7 +108,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Get the 'PacketControlIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ РїР°РєРµС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
+     * Get the 'PacketControlIndicator' element value. Индикатор пакетного контроля.
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Set the 'PacketControlIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ РїР°РєРµС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
+     * Set the 'PacketControlIndicator' element value. Индикатор пакетного контроля.
      * 
      * @param packetControlIndicator
      */
@@ -126,7 +126,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Get the 'PTSUseDateTime' element value. Р”Р°С‚Р° /РІСЂРµРјСЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Р±Р»Р°РЅРєР° РџРўРЎ/РџРЁРўРЎ
+     * Get the 'PTSUseDateTime' element value. Дата /время использования бланка ПТС/ПШТС
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Set the 'PTSUseDateTime' element value. Р”Р°С‚Р° /РІСЂРµРјСЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Р±Р»Р°РЅРєР° РџРўРЎ/РџРЁРўРЎ
+     * Set the 'PTSUseDateTime' element value. Дата /время использования бланка ПТС/ПШТС
      * 
      * @param PTSUseDateTime
      */
@@ -144,7 +144,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Get the 'PTSOutDateTime' element value. Р”Р°С‚Р° /РІСЂРµРјСЏ РІС‹РіСЂСѓР·РєРё РґР»СЏ РїРµСЂРµРґР°С‡Рё РІ РїРѕРґСЃРёСЃС‚РµРјСѓ СѓС‡РµС‚Р° Р±Р»Р°РЅРєРѕРІ РџРўРЎ/РџРЁРўРЎ
+     * Get the 'PTSOutDateTime' element value. Дата /время выгрузки для передачи в подсистему учета бланков ПТС/ПШТС
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class TransportCardTechMarkType
     }
 
     /** 
-     * Set the 'PTSOutDateTime' element value. Р”Р°С‚Р° /РІСЂРµРјСЏ РІС‹РіСЂСѓР·РєРё РґР»СЏ РїРµСЂРµРґР°С‡Рё РІ РїРѕРґСЃРёСЃС‚РµРјСѓ СѓС‡РµС‚Р° Р±Р»Р°РЅРєРѕРІ РџРўРЎ/РџРЁРўРЎ
+     * Set the 'PTSOutDateTime' element value. Дата /время выгрузки для передачи в подсистему учета бланков ПТС/ПШТС
      * 
      * @param PTSOutDateTime
      */

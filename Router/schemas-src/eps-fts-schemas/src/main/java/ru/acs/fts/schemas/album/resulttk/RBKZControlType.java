@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· Р»РёСЃС‚Р° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+ * Сведения из листа транспортного контроля
  */
 public class RBKZControlType
 {
@@ -26,7 +26,7 @@ public class RBKZControlType
     private UsingPassType passOG;
 
     /** 
-     * Get the 'IsTG' element value. РџСЂРёР·РЅР°Рє С‚СЏР¶РµР»РѕРІРµСЃРЅРѕРіРѕ РіСЂСѓР·Р°
+     * Get the 'IsTG' element value. Признак тяжеловесного груза
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'IsTG' element value. РџСЂРёР·РЅР°Рє С‚СЏР¶РµР»РѕРІРµСЃРЅРѕРіРѕ РіСЂСѓР·Р°
+     * Set the 'IsTG' element value. Признак тяжеловесного груза
      * 
      * @param isTG
      */
@@ -44,7 +44,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the 'IsKG' element value. РџСЂРёР·РЅР°Рє РєСЂСѓРїРЅРѕ-РіР°Р±Р°СЂРёС‚РЅРѕРіРѕ РіСЂСѓР·Р°
+     * Get the 'IsKG' element value. Признак крупно-габаритного груза
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'IsKG' element value. РџСЂРёР·РЅР°Рє РєСЂСѓРїРЅРѕ-РіР°Р±Р°СЂРёС‚РЅРѕРіРѕ РіСЂСѓР·Р°
+     * Set the 'IsKG' element value. Признак крупно-габаритного груза
      * 
      * @param isKG
      */
@@ -62,7 +62,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the 'IsOG' element value. РџСЂРёР·РЅР°Рє РѕРїР°СЃРЅРѕРіРѕ РіСЂСѓР·Р°
+     * Get the 'IsOG' element value. Признак опасного груза
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'IsOG' element value. РџСЂРёР·РЅР°Рє РѕРїР°СЃРЅРѕРіРѕ РіСЂСѓР·Р°
+     * Set the 'IsOG' element value. Признак опасного груза
      * 
      * @param isOG
      */
@@ -80,7 +80,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the 'AccountCode' element value. РќРѕРјРµСЂ СѓС‡РµС‚РЅРѕРіРѕ С‚Р°Р»РѕРЅР°
+     * Get the 'AccountCode' element value. Номер учетного талона
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'AccountCode' element value. РќРѕРјРµСЂ СѓС‡РµС‚РЅРѕРіРѕ С‚Р°Р»РѕРЅР°
+     * Set the 'AccountCode' element value. Номер учетного талона
      * 
      * @param accountCode
      */
@@ -98,7 +98,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the 'PermitSeries' element value. РЎРµСЂРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ (FREE - Р‘(Р±РµСЃРїР»Р°С‚РЅС‹Р№); PAID - Рџ(РїР»Р°С‚РЅС‹Р№))
+     * Get the 'PermitSeries' element value. Серия разрешения (FREE - Б(бесплатный); PAID - П(платный))
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'PermitSeries' element value. РЎРµСЂРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ (FREE - Р‘(Р±РµСЃРїР»Р°С‚РЅС‹Р№); PAID - Рџ(РїР»Р°С‚РЅС‹Р№))
+     * Set the 'PermitSeries' element value. Серия разрешения (FREE - Б(бесплатный); PAID - П(платный))
      * 
      * @param permitSeries
      */
@@ -116,7 +116,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the 'Currency' element value. Р’Р°Р»СЋС‚Р°
+     * Get the 'Currency' element value. Валюта
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'Currency' element value. Р’Р°Р»СЋС‚Р°
+     * Set the 'Currency' element value. Валюта
      * 
      * @param currency
      */
@@ -134,7 +134,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the 'TransitPermit' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРѕРµР·РґРєСѓ
+     * Get the 'TransitPermit' element value. Наличие разрешения на поездку
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'TransitPermit' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРѕРµР·РґРєСѓ
+     * Set the 'TransitPermit' element value. Наличие разрешения на поездку
      * 
      * @param transitPermit
      */
@@ -152,7 +152,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the 'RoadCheck' element value. РљРІРёС‚Р°РЅС†РёСЏ РѕР± РѕРїР»Р°С‚Рµ РґРѕСЂРѕР¶РЅС‹С… СЃР±РѕСЂРѕРІ
+     * Get the 'RoadCheck' element value. Квитанция об оплате дорожных сборов
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'RoadCheck' element value. РљРІРёС‚Р°РЅС†РёСЏ РѕР± РѕРїР»Р°С‚Рµ РґРѕСЂРѕР¶РЅС‹С… СЃР±РѕСЂРѕРІ
+     * Set the 'RoadCheck' element value. Квитанция об оплате дорожных сборов
      * 
      * @param roadCheck
      */
@@ -170,7 +170,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the 'PenaltyCheck' element value. РљРІРёС‚Р°РЅС†РёСЏ РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р°
+     * Get the 'PenaltyCheck' element value. Квитанция об оплате штрафа
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'PenaltyCheck' element value. РљРІРёС‚Р°РЅС†РёСЏ РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р°
+     * Set the 'PenaltyCheck' element value. Квитанция об оплате штрафа
      * 
      * @param penaltyCheck
      */
@@ -188,7 +188,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the 'Resolution' element value. РџРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ
+     * Get the 'Resolution' element value. Постановление
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'Resolution' element value. РџРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ
+     * Set the 'Resolution' element value. Постановление
      * 
      * @param resolution
      */
@@ -206,7 +206,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the list of 'Suitability' element items. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёР№/РґРѕРєСѓРјРµРЅС‚РѕРІ РѕР± РѕРїР»Р°С‚Рµ/СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїР°СЂР°РјРµС‚СЂР°Рј, СѓРєР°Р·Р°РЅРЅС‹Рј РІ СЂР°Р·СЂРµС€РµРЅРёРё
+     * Get the list of 'Suitability' element items. Наличие разрешений/документов об оплате/соответствие параметрам, указанным в разрешении
      * 
      * @return list
      */
@@ -215,7 +215,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the list of 'Suitability' element items. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёР№/РґРѕРєСѓРјРµРЅС‚РѕРІ РѕР± РѕРїР»Р°С‚Рµ/СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїР°СЂР°РјРµС‚СЂР°Рј, СѓРєР°Р·Р°РЅРЅС‹Рј РІ СЂР°Р·СЂРµС€РµРЅРёРё
+     * Set the list of 'Suitability' element items. Наличие разрешений/документов об оплате/соответствие параметрам, указанным в разрешении
      * 
      * @param list
      */
@@ -224,7 +224,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the 'PassTG' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РўР“
+     * Get the 'PassTG' element value. Наличие разрешения на перевозку ТГ
      * 
      * @return value
      */
@@ -233,7 +233,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'PassTG' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РўР“
+     * Set the 'PassTG' element value. Наличие разрешения на перевозку ТГ
      * 
      * @param passTG
      */
@@ -242,7 +242,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the 'PassKG' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РљР“
+     * Get the 'PassKG' element value. Наличие разрешения на перевозку КГ
      * 
      * @return value
      */
@@ -251,7 +251,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'PassKG' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РљР“
+     * Set the 'PassKG' element value. Наличие разрешения на перевозку КГ
      * 
      * @param passKG
      */
@@ -260,7 +260,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Get the 'PassOG' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РћР“
+     * Get the 'PassOG' element value. Наличие разрешения на перевозку ОГ
      * 
      * @return value
      */
@@ -269,7 +269,7 @@ public class RBKZControlType
     }
 
     /** 
-     * Set the 'PassOG' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РћР“
+     * Set the 'PassOG' element value. Наличие разрешения на перевозку ОГ
      * 
      * @param passOG
      */

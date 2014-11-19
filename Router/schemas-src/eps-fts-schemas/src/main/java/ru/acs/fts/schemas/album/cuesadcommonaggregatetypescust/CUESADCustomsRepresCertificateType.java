@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РёР№ Рѕ РІРєР»СЋС‡РµРЅРёРё Р»РёС†Р°  РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
+ * Документ, свидетельствующий о включении лица  в Реестр таможенных представителей
  */
 public class CUESADCustomsRepresCertificateType extends DocumentBaseType
 {
     private String documentModeCode;
 
     /** 
-     * Get the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:2 - СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ  РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ (Р±СЂРѕРєРµСЂР°); 3 - СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ
+     * Get the 'DocumentModeCode' element value. Тип документа:2 - свидетельство таможенного  представителя (брокера); 3 - свидетельство таможенного представителя
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CUESADCustomsRepresCertificateType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:2 - СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ  РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ (Р±СЂРѕРєРµСЂР°); 3 - СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ
+     * Set the 'DocumentModeCode' element value. Тип документа:2 - свидетельство таможенного  представителя (брокера); 3 - свидетельство таможенного представителя
      * 
      * @param documentModeCode
      */

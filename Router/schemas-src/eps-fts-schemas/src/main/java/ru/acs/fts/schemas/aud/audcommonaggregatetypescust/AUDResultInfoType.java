@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё.
+ * Информация о результате обработки.
  */
 public class AUDResultInfoType
 {
@@ -10,7 +10,7 @@ public class AUDResultInfoType
     private String description;
 
     /** 
-     * Get the 'ResultCode' element value. РљРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё.
+     * Get the 'ResultCode' element value. Код результата обработки.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AUDResultInfoType
     }
 
     /** 
-     * Set the 'ResultCode' element value. РљРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё.
+     * Set the 'ResultCode' element value. Код результата обработки.
      * 
      * @param resultCode
      */
@@ -28,7 +28,7 @@ public class AUDResultInfoType
     }
 
     /** 
-     * Get the 'Description' element value. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё.
+     * Get the 'Description' element value. Текстовое описание результата обработки.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AUDResultInfoType
     }
 
     /** 
-     * Set the 'Description' element value. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё.
+     * Set the 'Description' element value. Текстовое описание результата обработки.
      * 
      * @param description
      */

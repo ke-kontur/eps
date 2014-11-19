@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * ESAD.РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+ * ESAD.Представленные документы
  */
 public class CUPresentedDocumentsType extends CUESADPresentedDocumentsType
 {
@@ -11,7 +11,7 @@ public class CUPresentedDocumentsType extends CUESADPresentedDocumentsType
     private String regNumberDocument;
 
     /** 
-     * Get the 'TIRPageNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р»РёСЃС‚Р° РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIRPageNumber' element value. Порядковый номер листа книжки МДП
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CUPresentedDocumentsType extends CUESADPresentedDocumentsType
     }
 
     /** 
-     * Set the 'TIRPageNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р»РёСЃС‚Р° РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIRPageNumber' element value. Порядковый номер листа книжки МДП
      * 
      * @param TIRPageNumber
      */
@@ -29,7 +29,7 @@ public class CUPresentedDocumentsType extends CUESADPresentedDocumentsType
     }
 
     /** 
-     * Get the 'TIRHolderID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРµСЂР¶Р°С‚РµР»СЏ РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIRHolderID' element value. Идентификационный номер держателя книжки МДП
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class CUPresentedDocumentsType extends CUESADPresentedDocumentsType
     }
 
     /** 
-     * Set the 'TIRHolderID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРµСЂР¶Р°С‚РµР»СЏ РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIRHolderID' element value. Идентификационный номер держателя книжки МДП
      * 
      * @param TIRHolderID
      */
@@ -47,7 +47,7 @@ public class CUPresentedDocumentsType extends CUESADPresentedDocumentsType
     }
 
     /** 
-     * Get the 'RegNumberDocument' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, СЃ РєРѕС‚РѕСЂС‹Рј РѕРЅ Р±С‹Р» РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅ. Р”Р»СЏ Р Р‘  
+     * Get the 'RegNumberDocument' element value. Регистрационный номер таможенного документа, с которым он был первоначально предоставлен. Для РБ  
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class CUPresentedDocumentsType extends CUESADPresentedDocumentsType
     }
 
     /** 
-     * Set the 'RegNumberDocument' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, СЃ РєРѕС‚РѕСЂС‹Рј РѕРЅ Р±С‹Р» РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅ. Р”Р»СЏ Р Р‘  
+     * Set the 'RegNumberDocument' element value. Регистрационный номер таможенного документа, с которым он был первоначально предоставлен. Для РБ  
      * 
      * @param regNumberDocument
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+ * Сведения о товаре
  */
 public class GoodsType
 {
@@ -23,7 +23,7 @@ public class GoodsType
     private AddressType origin;
 
     /** 
-     * Get the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ  РІРІРѕР·РёРјРѕРіРѕ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsName' element items. Наименование  ввозимого товара
      * 
      * @return list
      */
@@ -32,7 +32,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ  РІРІРѕР·РёРјРѕРіРѕ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsName' element items. Наименование  ввозимого товара
      * 
      * @param list
      */
@@ -41,7 +41,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'TotalWeigh' element value. РћР±С‰РёР№ РІРµСЃ С‚РѕРІР°СЂР°
+     * Get the 'TotalWeigh' element value. Общий вес товара
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'TotalWeigh' element value. РћР±С‰РёР№ РІРµСЃ С‚РѕРІР°СЂР°
+     * Set the 'TotalWeigh' element value. Общий вес товара
      * 
      * @param totalWeigh
      */
@@ -59,7 +59,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'MeasureUnitWeigh' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РІРµСЃ 
+     * Get the 'MeasureUnitWeigh' element value. Единица измерения вес 
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'MeasureUnitWeigh' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РІРµСЃ 
+     * Set the 'MeasureUnitWeigh' element value. Единица измерения вес 
      * 
      * @param measureUnitWeigh
      */
@@ -77,7 +77,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'PackagesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚. 
+     * Get the 'PackagesQuantity' element value. Количество мест. 
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'PackagesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚. 
+     * Set the 'PackagesQuantity' element value. Количество мест. 
      * 
      * @param packagesQuantity
      */
@@ -95,7 +95,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Mark' element value. РњР°СЂРєРёСЂРѕРІРєР° С‚РѕРІР°СЂР°
+     * Get the 'Mark' element value. Маркировка товара
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Mark' element value. РњР°СЂРєРёСЂРѕРІРєР° С‚РѕРІР°СЂР°
+     * Set the 'Mark' element value. Маркировка товара
      * 
      * @param mark
      */
@@ -113,7 +113,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'MethodTransportation' element value. РЎРїРѕСЃРѕР± С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРєРё
+     * Get the 'MethodTransportation' element value. Способ транспортироки
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'MethodTransportation' element value. РЎРїРѕСЃРѕР± С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРєРё
+     * Set the 'MethodTransportation' element value. Способ транспортироки
      * 
      * @param methodTransportation
      */
@@ -131,7 +131,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'SenderStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SenderStation' element value. Станция отправления
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'SenderStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SenderStation' element value. Станция отправления
      * 
      * @param senderStation
      */
@@ -149,7 +149,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'RecipientStation' element value. РЎС‚Р°РЅС†РёСЏ РїСЂРёР±С‹С‚РёСЏ
+     * Get the 'RecipientStation' element value. Станция прибытия
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'RecipientStation' element value. РЎС‚Р°РЅС†РёСЏ РїСЂРёР±С‹С‚РёСЏ
+     * Set the 'RecipientStation' element value. Станция прибытия
      * 
      * @param recipientStation
      */
@@ -167,7 +167,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Volume' element value. РћР±СЉРµРј
+     * Get the 'Volume' element value. Объем
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Volume' element value. РћР±СЉРµРј
+     * Set the 'Volume' element value. Объем
      * 
      * @param volume
      */
@@ -185,7 +185,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'MeasureUnitVolume' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РѕР±СЉРµРјР°
+     * Get the 'MeasureUnitVolume' element value. Единица измерения объема
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'MeasureUnitVolume' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РѕР±СЉРµРјР°
+     * Set the 'MeasureUnitVolume' element value. Единица измерения объема
      * 
      * @param measureUnitVolume
      */
@@ -203,7 +203,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Origin' element value. РџСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'Origin' element value. Происхождение товара
      * 
      * @return value
      */
@@ -212,7 +212,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Origin' element value. РџСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'Origin' element value. Происхождение товара
      * 
      * @param origin
      */

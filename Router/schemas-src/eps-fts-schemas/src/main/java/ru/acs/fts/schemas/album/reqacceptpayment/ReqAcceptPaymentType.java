@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РўСЂРµР±РѕРІР°РЅРёРµ Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ Рѕ РїРѕСЃС‚СѓРїР»РµРЅРёРё РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ РЅР° СЃС‡РµС‚ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+ * Требование о предоставлении сведений о поступлении денежных средств на счет таможенного органа
  */
 public class ReqAcceptPaymentType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class ReqAcceptPaymentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SendDate' element value. Дата направления
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ReqAcceptPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SendDate' element value. Дата направления
      * 
      * @param sendDate
      */
@@ -35,7 +35,7 @@ public class ReqAcceptPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Requestor' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р»РёС†Рµ, РЅР°РїСЂР°РІР»СЏСЋС‰РµРј С‚СЂРµР±РѕРІР°РЅРёРµ
+     * Get the 'Requestor' element value. Информация о лице, направляющем требование
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ReqAcceptPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Requestor' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р»РёС†Рµ, РЅР°РїСЂР°РІР»СЏСЋС‰РµРј С‚СЂРµР±РѕРІР°РЅРёРµ
+     * Set the 'Requestor' element value. Информация о лице, направляющем требование
      * 
      * @param requestor
      */
@@ -53,7 +53,7 @@ public class ReqAcceptPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'GTDNumber' element value. Справочный номер ДТ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ReqAcceptPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'GTDNumber' element value. Справочный номер ДТ
      * 
      * @param GTDNumber
      */
@@ -71,7 +71,7 @@ public class ReqAcceptPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class ReqAcceptPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

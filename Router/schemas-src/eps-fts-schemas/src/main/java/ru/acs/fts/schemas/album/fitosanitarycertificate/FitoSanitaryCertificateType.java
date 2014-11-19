@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р¤РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅС‹Р№ СЃРµСЂС‚РёС„РёРєР°С‚
+ * Фитосанитарный сертификат
  */
 public class FitoSanitaryCertificateType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CertNumber' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'CertNumber' element value. Номер сертификата
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertNumber' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'CertNumber' element value. Номер сертификата
      * 
      * @param certNumber
      */
@@ -40,7 +40,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AddDeclaration' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РґРµРєР»Р°СЂР°С†РёСЏ
+     * Get the list of 'AddDeclaration' element items. Дополнительная декларация
      * 
      * @return list
      */
@@ -49,7 +49,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AddDeclaration' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РґРµРєР»Р°СЂР°С†РёСЏ
+     * Set the list of 'AddDeclaration' element items. Дополнительная декларация
      * 
      * @param list
      */
@@ -58,7 +58,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'OrganizationQuarantine' element items. РћСЂРіР°РЅРёР·Р°С†РёРё(СЏРј) РїРѕ РєР°СЂР°РЅС‚РёРЅСѓ Рё Р·Р°С‰РёС‚Рµ СЂР°СЃС‚РµРЅРёР№ (СЃС‚СЂР°РЅС‹)
+     * Get the list of 'OrganizationQuarantine' element items. Организации(ям) по карантину и защите растений (страны)
      * 
      * @return list
      */
@@ -67,7 +67,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'OrganizationQuarantine' element items. РћСЂРіР°РЅРёР·Р°С†РёРё(СЏРј) РїРѕ РєР°СЂР°РЅС‚РёРЅСѓ Рё Р·Р°С‰РёС‚Рµ СЂР°СЃС‚РµРЅРёР№ (СЃС‚СЂР°РЅС‹)
+     * Set the list of 'OrganizationQuarantine' element items. Организации(ям) по карантину и защите растений (страны)
      * 
      * @param list
      */
@@ -77,7 +77,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DescriptionConsignment' element value. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
+     * Get the 'DescriptionConsignment' element value. Описание груза
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DescriptionConsignment' element value. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
+     * Set the 'DescriptionConsignment' element value. Описание груза
      * 
      * @param descriptionConsignment
      */
@@ -96,7 +96,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Desinfestation' element value. РћР±РµР·Р·Р°СЂР°Р¶РёРІР°РЅРёРµ
+     * Get the 'Desinfestation' element value. Обеззараживание
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Desinfestation' element value. РћР±РµР·Р·Р°СЂР°Р¶РёРІР°РЅРёРµ
+     * Set the 'Desinfestation' element value. Обеззараживание
      * 
      * @param desinfestation
      */
@@ -114,7 +114,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'PlaceIssue' element value. РњРµСЃС‚Рѕ РІС‹РґР°С‡Рё
+     * Get the 'PlaceIssue' element value. Место выдачи
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'PlaceIssue' element value. РњРµСЃС‚Рѕ РІС‹РґР°С‡Рё
+     * Set the 'PlaceIssue' element value. Место выдачи
      * 
      * @param placeIssue
      */
@@ -132,7 +132,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° Р¤РµРґРµСЂР°Р»СЊРЅРѕР№ СЃР»СѓР¶Р±С‹ РїРѕ РІРµС‚РµСЂРёРЅР°СЂРЅРѕРјСѓ Рё С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРјСѓ РЅР°РґР·РѕСЂСѓ
+     * Get the 'PersonSignature' element value. Подпись уполномоченного должностного лица Федеральной службы по ветеринарному и фитосанитарному надзору
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° Р¤РµРґРµСЂР°Р»СЊРЅРѕР№ СЃР»СѓР¶Р±С‹ РїРѕ РІРµС‚РµСЂРёРЅР°СЂРЅРѕРјСѓ Рё С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРјСѓ РЅР°РґР·РѕСЂСѓ
+     * Set the 'PersonSignature' element value. Подпись уполномоченного должностного лица Федеральной службы по ветеринарному и фитосанитарному надзору
      * 
      * @param personSignature
      */
@@ -150,7 +150,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class FitoSanitaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ СЃС‚РѕСЂРѕРЅС‹ РєРѕРЅС‚СЂР°РєС‚Р°
+ * Реквизиты иностранной стороны контракта
  */
 public class ForeignPersonType
 {
@@ -13,7 +13,7 @@ public class ForeignPersonType
     private AddressType postalAddress;
 
     /** 
-     * Get the 'Phone' element value. РўРµР»РµС„РѕРЅ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'Phone' element value. Телефон иностранной организации
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ForeignPersonType
     }
 
     /** 
-     * Set the 'Phone' element value. РўРµР»РµС„РѕРЅ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'Phone' element value. Телефон иностранной организации
      * 
      * @param phone
      */
@@ -31,7 +31,7 @@ public class ForeignPersonType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Get the 'OrganizationName' element value. Наименование организации.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ForeignPersonType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Set the 'OrganizationName' element value. Наименование организации.
      * 
      * @param organizationName
      */
@@ -49,7 +49,7 @@ public class ForeignPersonType
     }
 
     /** 
-     * Get the 'PostalAddress' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ
+     * Get the 'PostalAddress' element value. Почтовый адрес
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ForeignPersonType
     }
 
     /** 
-     * Set the 'PostalAddress' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ
+     * Set the 'PostalAddress' element value. Почтовый адрес
      * 
      * @param postalAddress
      */

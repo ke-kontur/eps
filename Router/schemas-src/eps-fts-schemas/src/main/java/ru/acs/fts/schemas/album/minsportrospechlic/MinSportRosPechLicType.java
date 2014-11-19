@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РґРѕРєСѓРјРµРЅС‚РѕРІ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РјР°С‚РµСЂРёР°Р»РѕРІ
+ * Ответ на запрос документов о подтверждении целевого назначения материалов
  */
 public class MinSportRosPechLicType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class MinSportRosPechLicType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РѕС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ СЃРїСЂР°РІРєРё (Р РѕСЃРїРµС‡Р°С‚СЊ); 2 - РѕС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РїРёСЃСЊРјР° (РњРёРЅСЃРїРѕСЂС‚С‚СѓСЂРёР·Рј Р РѕСЃСЃРёРё); 3 - РѕС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РЅР° РїРѕР»СѓС‡РµРЅРёРµ РёР·РјРµРЅРµРЅРёР№
+     * Get the 'DocSign' element value. Признак документа: 1 - ответ на запрос справки (Роспечать); 2 - ответ на запрос письма (Минспорттуризм России); 3 - ответ на запрос на получение изменений
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class MinSportRosPechLicType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РѕС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ СЃРїСЂР°РІРєРё (Р РѕСЃРїРµС‡Р°С‚СЊ); 2 - РѕС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РїРёСЃСЊРјР° (РњРёРЅСЃРїРѕСЂС‚С‚СѓСЂРёР·Рј Р РѕСЃСЃРёРё); 3 - РѕС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РЅР° РїРѕР»СѓС‡РµРЅРёРµ РёР·РјРµРЅРµРЅРёР№
+     * Set the 'DocSign' element value. Признак документа: 1 - ответ на запрос справки (Роспечать); 2 - ответ на запрос письма (Минспорттуризм России); 3 - ответ на запрос на получение изменений
      * 
      * @param docSign
      */
@@ -33,7 +33,7 @@ public class MinSportRosPechLicType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Document' element items. Р”РѕРєСѓРјРµРЅС‚
+     * Get the list of 'Document' element items. Документ
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class MinSportRosPechLicType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Document' element items. Р”РѕРєСѓРјРµРЅС‚
+     * Set the list of 'Document' element items. Документ
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class MinSportRosPechLicType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class MinSportRosPechLicType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

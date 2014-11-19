@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentOrganizationType;
 
 /** 
- * Р Р°Р·СЂРµС€РµРЅРёРµ С‚Р°РјРѕР¶РЅРё РЅР° РїРµСЂРµРґР°С‡Сѓ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ РёРЅРѕРјСѓ Р»РёС†Сѓ
+ * Разрешение таможни на передачу разрешения на переработку иному лицу
  */
 public class PermitPropertiesType extends TreatmentOrganizationType
 {
@@ -13,7 +13,7 @@ public class PermitPropertiesType extends TreatmentOrganizationType
     private LocalDate date;
 
     /** 
-     * Get the 'PermitNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'PermitNumber' element value. Номер разрешения
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PermitPropertiesType extends TreatmentOrganizationType
     }
 
     /** 
-     * Set the 'PermitNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'PermitNumber' element value. Номер разрешения
      * 
      * @param permitNumber
      */
@@ -31,7 +31,7 @@ public class PermitPropertiesType extends TreatmentOrganizationType
     }
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'Date' element value. Дата разрешения
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class PermitPropertiesType extends TreatmentOrganizationType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'Date' element value. Дата разрешения
      * 
      * @param date
      */

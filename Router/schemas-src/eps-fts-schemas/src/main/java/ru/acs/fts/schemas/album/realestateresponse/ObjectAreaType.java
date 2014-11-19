@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.realestateresponse;
 
 /** 
- * РџР»РѕС‰Р°РґСЊ РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
+ * Площадь объекта недвижимости
  */
 public class ObjectAreaType
 {
@@ -11,7 +11,7 @@ public class ObjectAreaType
     private String areaText;
 
     /** 
-     * Get the 'AreaValue' element value. РџР»РѕС‰Р°РґСЊ РѕР±СЉРµРєС‚Р°
+     * Get the 'AreaValue' element value. Площадь объекта
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ObjectAreaType
     }
 
     /** 
-     * Set the 'AreaValue' element value. РџР»РѕС‰Р°РґСЊ РѕР±СЉРµРєС‚Р°
+     * Set the 'AreaValue' element value. Площадь объекта
      * 
      * @param areaValue
      */
@@ -29,7 +29,7 @@ public class ObjectAreaType
     }
 
     /** 
-     * Get the 'AreaUnit' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РїР»РѕС‰Р°РґРё
+     * Get the 'AreaUnit' element value. Единица измерения площади
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ObjectAreaType
     }
 
     /** 
-     * Set the 'AreaUnit' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РїР»РѕС‰Р°РґРё
+     * Set the 'AreaUnit' element value. Единица измерения площади
      * 
      * @param areaUnit
      */
@@ -47,7 +47,7 @@ public class ObjectAreaType
     }
 
     /** 
-     * Get the 'AreaText' element value. Р—РЅР°С‡РµРЅРёРµ РїР»РѕС‰Р°РґРё С‚РµРєСЃС‚РѕРј
+     * Get the 'AreaText' element value. Значение площади текстом
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ObjectAreaType
     }
 
     /** 
-     * Set the 'AreaText' element value. Р—РЅР°С‡РµРЅРёРµ РїР»РѕС‰Р°РґРё С‚РµРєСЃС‚РѕРј
+     * Set the 'AreaText' element value. Значение площади текстом
      * 
      * @param areaText
      */

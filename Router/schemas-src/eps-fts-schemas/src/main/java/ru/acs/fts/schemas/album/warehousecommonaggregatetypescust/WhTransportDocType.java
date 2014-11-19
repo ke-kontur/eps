@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№, РёСЃРїРѕР»СЊР·СѓРµРјС‹Р№ РїСЂРё РѕРїРёСЃР°РЅРёРё С‚РѕРІР°СЂРѕРІ РЅР° РІСЂРµРјРµРЅРЅРѕРј С…СЂР°РЅРµРЅРёРё
+ * Комплексный тип для описания товаро-транспортной накладной, используемый при описании товаров на временном хранении
  */
 public class WhTransportDocType extends WhPresentDocType
 {
@@ -15,7 +15,7 @@ public class WhTransportDocType extends WhPresentDocType
     private ConsigneeType consignee;
 
     /** 
-     * Get the list of 'CompletteList' element items. РќРѕРјРµСЂР° СЃРІСЏР·Р°РЅРЅС‹С… РўРўРќ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РїР°СЂС‚РёРё РєРѕРјРїР»РµРєС‚РЅС‹С… (РЅР°СЃС‹РїРЅС‹С…, РЅР°Р»РёРІРЅС‹С…) С‚РѕРІР°СЂРѕРІ, СЃР»РµРґСѓСЋС‰РёС… РїРѕ РЅРµСЃРєРѕР»СЊРєРёРј РЅР°РєР»Р°РґРЅС‹Рј
+     * Get the list of 'CompletteList' element items. Номера связанных ТТН. Заполняется в случае партии комплектных (насыпных, наливных) товаров, следующих по нескольким накладным
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class WhTransportDocType extends WhPresentDocType
     }
 
     /** 
-     * Set the list of 'CompletteList' element items. РќРѕРјРµСЂР° СЃРІСЏР·Р°РЅРЅС‹С… РўРўРќ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РїР°СЂС‚РёРё РєРѕРјРїР»РµРєС‚РЅС‹С… (РЅР°СЃС‹РїРЅС‹С…, РЅР°Р»РёРІРЅС‹С…) С‚РѕРІР°СЂРѕРІ, СЃР»РµРґСѓСЋС‰РёС… РїРѕ РЅРµСЃРєРѕР»СЊРєРёРј РЅР°РєР»Р°РґРЅС‹Рј
+     * Set the list of 'CompletteList' element items. Номера связанных ТТН. Заполняется в случае партии комплектных (насыпных, наливных) товаров, следующих по нескольким накладным
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class WhTransportDocType extends WhPresentDocType
     }
 
     /** 
-     * Get the 'CustomNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'CustomNumber' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class WhTransportDocType extends WhPresentDocType
     }
 
     /** 
-     * Set the 'CustomNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'CustomNumber' element value. Регистрационный номер
      * 
      * @param customNumber
      */
@@ -51,7 +51,7 @@ public class WhTransportDocType extends WhPresentDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Consignor' element value. Отправитель
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class WhTransportDocType extends WhPresentDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Consignor' element value. Отправитель
      * 
      * @param consignor
      */
@@ -69,7 +69,7 @@ public class WhTransportDocType extends WhPresentDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Consignee' element value. Получатель
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class WhTransportDocType extends WhPresentDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Consignee' element value. Получатель
      * 
      * @param consignee
      */

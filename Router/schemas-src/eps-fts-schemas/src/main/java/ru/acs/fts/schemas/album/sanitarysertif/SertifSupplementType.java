@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РџСЂРёР»РѕР¶РµРЅРёРµ Рє СЃР°РЅРёС‚Р°СЂРЅРѕ-СЌРїРёРґРµРјРёРѕР»РѕРіРёС‡РµСЃРєРѕРјСѓ Р·Р°РєР»СЋС‡РµРЅРёСЋ
+ * Приложение к санитарно-эпидемиологическому заключению
  */
 public class SertifSupplementType
 {
     private List<String> supplementTextList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'SupplementText' element items. РўРµРєСЃС‚ РїСЂРёР»РѕР¶РµРЅРёСЏ
+     * Get the list of 'SupplementText' element items. Текст приложения
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class SertifSupplementType
     }
 
     /** 
-     * Set the list of 'SupplementText' element items. РўРµРєСЃС‚ РїСЂРёР»РѕР¶РµРЅРёСЏ
+     * Set the list of 'SupplementText' element items. Текст приложения
      * 
      * @param list
      */

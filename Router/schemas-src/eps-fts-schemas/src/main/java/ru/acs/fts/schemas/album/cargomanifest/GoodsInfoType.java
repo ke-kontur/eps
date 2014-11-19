@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AWBNumberType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AirportType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РіСЂСѓР·Рµ
+ * Информация о грузе
  */
 public class GoodsInfoType extends AWBNumberType
 {
@@ -48,7 +48,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'PlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚, РїСЂРёРЅСЏС‚С‹С… Рє РїРµСЂРµРІРѕР·РєРµ / РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° РїРѕ РЅР°РєР»Р°РґРЅРѕР№ РїСЂРё РїРѕР»РЅРѕР№ Р·Р°РіСЂСѓР·РєРµ С‚РѕРІР°СЂР°
+     * Get the 'PlacesQuantity' element value. Количество мест, принятых к перевозке / Количество мест товара по накладной при полной загрузке товара
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'PlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚, РїСЂРёРЅСЏС‚С‹С… Рє РїРµСЂРµРІРѕР·РєРµ / РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° РїРѕ РЅР°РєР»Р°РґРЅРѕР№ РїСЂРё РїРѕР»РЅРѕР№ Р·Р°РіСЂСѓР·РєРµ С‚РѕРІР°СЂР°
+     * Set the 'PlacesQuantity' element value. Количество мест, принятых к перевозке / Количество мест товара по накладной при полной загрузке товара
      * 
      * @param placesQuantity
      */
@@ -66,7 +66,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'WeightUnitQualifierCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РІРµСЃР° С‚РѕРІР°СЂР° (РєРёР»РѕРіСЂР°РјРјС‹ РёР»Рё С„СѓРЅС‚С‹)
+     * Get the 'WeightUnitQualifierCode' element value. Код измерения веса товара (килограммы или фунты)
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'WeightUnitQualifierCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РІРµСЃР° С‚РѕРІР°СЂР° (РєРёР»РѕРіСЂР°РјРјС‹ РёР»Рё С„СѓРЅС‚С‹)
+     * Set the 'WeightUnitQualifierCode' element value. Код измерения веса товара (килограммы или фунты)
      * 
      * @param weightUnitQualifierCode
      */
@@ -84,7 +84,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ
+     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ
+     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто
      * 
      * @param grossWeightQuantity
      */
@@ -102,7 +102,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'GoodsDescription' element value. Описание товара
      * 
      * @return value
      */
@@ -111,7 +111,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'GoodsDescription' element value. Описание товара
      * 
      * @param goodsDescription
      */
@@ -120,7 +120,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'GoodsCommodityCode' element value. РљРѕРґ  С‚РѕРІР°СЂР° РїРѕ С‚РѕРІР°СЂРЅРѕР№ РЅРѕРјРµРЅРєР»Р°С‚СѓСЂРµ
+     * Get the 'GoodsCommodityCode' element value. Код  товара по товарной номенклатуре
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'GoodsCommodityCode' element value. РљРѕРґ  С‚РѕРІР°СЂР° РїРѕ С‚РѕРІР°СЂРЅРѕР№ РЅРѕРјРµРЅРєР»Р°С‚СѓСЂРµ
+     * Set the 'GoodsCommodityCode' element value. Код  товара по товарной номенклатуре
      * 
      * @param goodsCommodityCode
      */
@@ -138,7 +138,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'OriginAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РїРѕРіСЂСѓР·РєРё  (РёР·  РЅР°РєР»Р°РґРЅРѕР№)
+     * Get the 'OriginAirport' element value. Аэропорт погрузки  (из  накладной)
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'OriginAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РїРѕРіСЂСѓР·РєРё  (РёР·  РЅР°РєР»Р°РґРЅРѕР№)
+     * Set the 'OriginAirport' element value. Аэропорт погрузки  (из  накладной)
      * 
      * @param originAirport
      */
@@ -156,7 +156,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'DestimationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestimationAirport' element value. Аэропорт назначения
      * 
      * @return value
      */
@@ -165,7 +165,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'DestimationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestimationAirport' element value. Аэропорт назначения
      * 
      * @param destimationAirport
      */
@@ -174,7 +174,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'VolumeInfo' element value. РћР±СЉРµРј С‚РѕРІР°СЂР°
+     * Get the 'VolumeInfo' element value. Объем товара
      * 
      * @return value
      */
@@ -183,7 +183,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'VolumeInfo' element value. РћР±СЉРµРј С‚РѕРІР°СЂР°
+     * Set the 'VolumeInfo' element value. Объем товара
      * 
      * @param volumeInfo
      */
@@ -192,7 +192,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'DensityGroup' element value. Р“СЂСѓРїРїР° РѕР±СЉРµРјРЅРѕРіРѕ РІРµСЃР°
+     * Get the 'DensityGroup' element value. Группа объемного веса
      * 
      * @return value
      */
@@ -201,7 +201,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'DensityGroup' element value. Р“СЂСѓРїРїР° РѕР±СЉРµРјРЅРѕРіРѕ РІРµСЃР°
+     * Set the 'DensityGroup' element value. Группа объемного веса
      * 
      * @param densityGroup
      */
@@ -210,7 +210,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'TotalConsigmentPieces' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РµРј РєРѕР»РёС‡РµСЃС‚РІРµ С‚РѕРІР°СЂР° РїРѕ РЅР°РєР»Р°РґРЅРѕР№ РїСЂРё С‡Р°СЃС‚РёС‡РЅРѕР№ РїРѕРіСЂСѓР·РєРµ
+     * Get the 'TotalConsigmentPieces' element value. Сведения об общем количестве товара по накладной при частичной погрузке
      * 
      * @return value
      */
@@ -219,7 +219,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'TotalConsigmentPieces' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РµРј РєРѕР»РёС‡РµСЃС‚РІРµ С‚РѕРІР°СЂР° РїРѕ РЅР°РєР»Р°РґРЅРѕР№ РїСЂРё С‡Р°СЃС‚РёС‡РЅРѕР№ РїРѕРіСЂСѓР·РєРµ
+     * Set the 'TotalConsigmentPieces' element value. Сведения об общем количестве товара по накладной при частичной погрузке
      * 
      * @param totalConsigmentPieces
      */
@@ -229,7 +229,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the list of 'HandlingRequirement' element items. РўСЂРµР±РѕРІР°РЅРёСЏ РїРѕ РѕР±СЂР°Р±РѕС‚РєРµ РіСЂСѓР·Р°
+     * Get the list of 'HandlingRequirement' element items. Требования по обработке груза
      * 
      * @return list
      */
@@ -238,7 +238,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the list of 'HandlingRequirement' element items. РўСЂРµР±РѕРІР°РЅРёСЏ РїРѕ РѕР±СЂР°Р±РѕС‚РєРµ РіСЂСѓР·Р°
+     * Set the list of 'HandlingRequirement' element items. Требования по обработке груза
      * 
      * @param list
      */
@@ -247,7 +247,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the list of 'DimensionsInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РіР°Р±Р°СЂРёС‚Р°С…  РіСЂСѓР·Р°
+     * Get the list of 'DimensionsInfo' element items. Информация о габаритах  груза
      * 
      * @return list
      */
@@ -256,7 +256,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the list of 'DimensionsInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РіР°Р±Р°СЂРёС‚Р°С…  РіСЂСѓР·Р°
+     * Set the list of 'DimensionsInfo' element items. Информация о габаритах  груза
      * 
      * @param list
      */
@@ -265,7 +265,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'MovementInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕСЃР»РµРґСѓСЋС‰РµРј РїРµСЂРµРјРµС‰РµРЅРёРё РіСЂСѓР·Р°
+     * Get the 'MovementInfo' element value. Информация о последующем перемещении груза
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'MovementInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕСЃР»РµРґСѓСЋС‰РµРј РїРµСЂРµРјРµС‰РµРЅРёРё РіСЂСѓР·Р°
+     * Set the 'MovementInfo' element value. Информация о последующем перемещении груза
      * 
      * @param movementInfo
      */
@@ -283,7 +283,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'OtherServiceInfo' element value. РџСЂРѕС‡Р°СЏ СЃР»СѓР¶РµР±РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'OtherServiceInfo' element value. Прочая служебная информация
      * 
      * @return value
      */
@@ -292,7 +292,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'OtherServiceInfo' element value. РџСЂРѕС‡Р°СЏ СЃР»СѓР¶РµР±РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'OtherServiceInfo' element value. Прочая служебная информация
      * 
      * @param otherServiceInfo
      */
@@ -301,7 +301,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'CustomsInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ С‚Р°РјРѕР¶РЅРё
+     * Get the 'CustomsInfo' element value. Информация для таможни
      * 
      * @return value
      */
@@ -310,7 +310,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'CustomsInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ С‚Р°РјРѕР¶РЅРё
+     * Set the 'CustomsInfo' element value. Информация для таможни
      * 
      * @param customsInfo
      */
@@ -319,7 +319,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Get the 'DTInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р”Рў
+     * Get the 'DTInfo' element value. Сведения о ДТ
      * 
      * @return value
      */
@@ -328,7 +328,7 @@ public class GoodsInfoType extends AWBNumberType
     }
 
     /** 
-     * Set the 'DTInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р”Рў
+     * Set the 'DTInfo' element value. Сведения о ДТ
      * 
      * @param DTInfo
      */

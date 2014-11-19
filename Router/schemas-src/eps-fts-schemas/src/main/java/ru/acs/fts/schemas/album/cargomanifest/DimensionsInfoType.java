@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cargomanifest;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DimensionsType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РіР°Р±Р°СЂРёС‚Р°С…  РіСЂСѓР·Р°
+ * Информация о габаритах  груза
  */
 public class DimensionsInfoType
 {
@@ -14,7 +14,7 @@ public class DimensionsInfoType
     private DimensionsType dimensions;
 
     /** 
-     * Get the 'WeightCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РІРµСЃР° 
+     * Get the 'WeightCode' element value. Код измерения веса 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DimensionsInfoType
     }
 
     /** 
-     * Set the 'WeightCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РІРµСЃР° 
+     * Set the 'WeightCode' element value. Код измерения веса 
      * 
      * @param weightCode
      */
@@ -50,7 +50,7 @@ public class DimensionsInfoType
     }
 
     /** 
-     * Get the 'WeightQuantity' element value. Р’РµСЃ 
+     * Get the 'WeightQuantity' element value. Вес 
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class DimensionsInfoType
     }
 
     /** 
-     * Set the 'WeightQuantity' element value. Р’РµСЃ 
+     * Set the 'WeightQuantity' element value. Вес 
      * 
      * @param weightQuantity
      */
@@ -68,7 +68,7 @@ public class DimensionsInfoType
     }
 
     /** 
-     * Get the 'Dimensions' element value. Р“Р°Р±Р°СЂРёС‚С‹
+     * Get the 'Dimensions' element value. Габариты
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class DimensionsInfoType
     }
 
     /** 
-     * Set the 'Dimensions' element value. Р“Р°Р±Р°СЂРёС‚С‹
+     * Set the 'Dimensions' element value. Габариты
      * 
      * @param dimensions
      */

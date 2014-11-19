@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import org.joda.time.LocalTime;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё СЃРѕРѕР±С‰РµРЅРёСЏ  РЅР°  РІРЅРµС€РЅРµРј С€Р»СЋР·Рµ
+ * Результат обработки сообщения  на  внешнем шлюзе
  */
 public class ResultType
 {
@@ -109,7 +109,7 @@ public class ResultType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ResultType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 import org.joda.time.DateTime;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґР°С‚Рµ Рё РІСЂРµРјРµРЅРё СЂР°Р·РјРµС‰РµРЅРёСЏ РІ Р°СЂС…РёРІРµ.
+ * Информация о дате и времени размещения в архиве.
  */
 public class AUDArchivePutInfoType
 {
     private DateTime putDateTime;
 
     /** 
-     * Get the 'PutDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЂР°Р·РјРµС‰РµРЅРёСЏ РІ Р°СЂС…РёРІРµ.
+     * Get the 'PutDateTime' element value. Дата и время размещения в архиве.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AUDArchivePutInfoType
     }
 
     /** 
-     * Set the 'PutDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЂР°Р·РјРµС‰РµРЅРёСЏ РІ Р°СЂС…РёРІРµ.
+     * Set the 'PutDateTime' element value. Дата и время размещения в архиве.
      * 
      * @param putDateTime
      */

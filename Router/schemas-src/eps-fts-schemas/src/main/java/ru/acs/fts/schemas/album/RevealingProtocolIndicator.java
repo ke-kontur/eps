@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РљРѕРЅРєСЂРµС‚РЅС‹Р№ РёРЅРґРёРєР°С‚РѕСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+ * Конкретный индикатор профиля риска
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -38,7 +38,7 @@ public class RevealingProtocolIndicator
     private List<ConsignmentAlertedInformation> consignmentAlertedInformationList = new ArrayList<ConsignmentAlertedInformation>();
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРґРёРєР°С‚РѕСЂР° РџР 
+     * Get the 'Name' element value. Наименование индикатора ПР
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class RevealingProtocolIndicator
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРґРёРєР°С‚РѕСЂР° РџР 
+     * Set the 'Name' element value. Наименование индикатора ПР
      * 
      * @param name
      */
@@ -56,7 +56,7 @@ public class RevealingProtocolIndicator
     }
 
     /** 
-     * Get the 'Description' element value. РћРїРёСЃР°РЅРёРµ РёРЅРґРёРєР°С‚РѕСЂР° РџР 
+     * Get the 'Description' element value. Описание индикатора ПР
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class RevealingProtocolIndicator
     }
 
     /** 
-     * Set the 'Description' element value. РћРїРёСЃР°РЅРёРµ РёРЅРґРёРєР°С‚РѕСЂР° РџР 
+     * Set the 'Description' element value. Описание индикатора ПР
      * 
      * @param description
      */
@@ -74,7 +74,7 @@ public class RevealingProtocolIndicator
     }
 
     /** 
-     * Get the 'Value' element value. Р—РЅР°С‡РµРЅРёРµ РёРЅРґРёРєР°С‚РѕСЂР° РІ РџР 
+     * Get the 'Value' element value. Значение индикатора в ПР
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class RevealingProtocolIndicator
     }
 
     /** 
-     * Set the 'Value' element value. Р—РЅР°С‡РµРЅРёРµ РёРЅРґРёРєР°С‚РѕСЂР° РІ РџР 
+     * Set the 'Value' element value. Значение индикатора в ПР
      * 
      * @param value
      */
@@ -92,7 +92,7 @@ public class RevealingProtocolIndicator
     }
 
     /** 
-     * Get the 'AlertedSign' element value. РџСЂРёР·РЅР°Рє СЃСЂР°РІРЅРµРЅРёСЏ (true - СЃРѕРІРїР°РґРµРЅРёРµ, false - РЅРµСЃРѕРІРїР°РґРµРЅРёРµ). РћР±С‰РёР№ РґР»СЏ РІСЃРµС… Р·РЅР°С‡РµРЅРёР№ РёР· РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'AlertedSign' element value. Признак сравнения (true - совпадение, false - несовпадение). Общий для всех значений из документа
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class RevealingProtocolIndicator
     }
 
     /** 
-     * Set the 'AlertedSign' element value. РџСЂРёР·РЅР°Рє СЃСЂР°РІРЅРµРЅРёСЏ (true - СЃРѕРІРїР°РґРµРЅРёРµ, false - РЅРµСЃРѕРІРїР°РґРµРЅРёРµ). РћР±С‰РёР№ РґР»СЏ РІСЃРµС… Р·РЅР°С‡РµРЅРёР№ РёР· РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'AlertedSign' element value. Признак сравнения (true - совпадение, false - несовпадение). Общий для всех значений из документа
      * 
      * @param alertedSign
      */
@@ -135,7 +135,7 @@ public class RevealingProtocolIndicator
     }
 
     /** 
-     * Get the list of 'AlertedInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ РёР· Р”Рў Рѕ СЃСЂР°РІРЅРµРЅРёРё Р·РЅР°С‡РµРЅРёР№ Рё РІС‹СЃС‚Р°РІР»РµРЅРёСЏ РїСЂРёР·РЅР°РєР° СЃСЂР°Р±Р°С‚С‹РІР°РЅРёСЏ
+     * Get the list of 'AlertedInformation' element items. Информация из ДТ о сравнении значений и выставления признака срабатывания
      * 
      * @return list
      */
@@ -144,7 +144,7 @@ public class RevealingProtocolIndicator
     }
 
     /** 
-     * Set the list of 'AlertedInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ РёР· Р”Рў Рѕ СЃСЂР°РІРЅРµРЅРёРё Р·РЅР°С‡РµРЅРёР№ Рё РІС‹СЃС‚Р°РІР»РµРЅРёСЏ РїСЂРёР·РЅР°РєР° СЃСЂР°Р±Р°С‚С‹РІР°РЅРёСЏ
+     * Set the list of 'AlertedInformation' element items. Информация из ДТ о сравнении значений и выставления признака срабатывания
      * 
      * @param list
      */
@@ -183,7 +183,7 @@ public class RevealingProtocolIndicator
         consignmentAlertedInformationList = list;
     }
     /** 
-     * РРЅС„РѕСЂРјР°С†РёСЏ РёР· РўР”/СѓРІРµРґРѕРјР»РµРЅРёСЏ РџРџ/РґРѕРєСѓРјРµРЅС‚Р° РџР Рѕ СЃСЂР°РІРЅРµРЅРёРё Р·РЅР°С‡РµРЅРёР№ Рё РІС‹СЃС‚Р°РІР»РµРЅРёСЏ РїСЂРёР·РЅР°РєР° СЃСЂР°Р±Р°С‚С‹РІР°РЅРёСЏ
+     * Информация из ТД/уведомления ПП/документа ПИ о сравнении значений и выставления признака срабатывания
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -205,7 +205,7 @@ public class RevealingProtocolIndicator
         private List<RevealingProtocolAlertedInfo> alertedInformationList = new ArrayList<RevealingProtocolAlertedInfo>();
 
         /** 
-         * Get the 'LotID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєРѕРЅРєСЂРµС‚РЅРѕР№ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ
+         * Get the 'LotID' element value. Идентификатор конкретной партии товаров
          * 
          * @return value
          */
@@ -214,7 +214,7 @@ public class RevealingProtocolIndicator
         }
 
         /** 
-         * Set the 'LotID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєРѕРЅРєСЂРµС‚РЅРѕР№ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ
+         * Set the 'LotID' element value. Идентификатор конкретной партии товаров
          * 
          * @param lotID
          */
@@ -223,7 +223,7 @@ public class RevealingProtocolIndicator
         }
 
         /** 
-         * Get the 'AlertedSign' element value. РџСЂРёР·РЅР°Рє СЃСЂР°РІРЅРµРЅРёСЏ (true - СЃРѕРІРїР°РґРµРЅРёРµ, false - РЅРµСЃРѕРІРїР°РґРµРЅРёРµ). РћР±С‰РёР№ РґР»СЏ РІСЃРµС… Р·РЅР°С‡РµРЅРёР№ РёР· С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚Р°Р° РґРѕРєСѓРјРµРЅС‚Р° (РџРџ)
+         * Get the 'AlertedSign' element value. Признак сравнения (true - совпадение, false - несовпадение). Общий для всех значений из товарной партаа документа (ПП)
          * 
          * @return value
          */
@@ -232,7 +232,7 @@ public class RevealingProtocolIndicator
         }
 
         /** 
-         * Set the 'AlertedSign' element value. РџСЂРёР·РЅР°Рє СЃСЂР°РІРЅРµРЅРёСЏ (true - СЃРѕРІРїР°РґРµРЅРёРµ, false - РЅРµСЃРѕРІРїР°РґРµРЅРёРµ). РћР±С‰РёР№ РґР»СЏ РІСЃРµС… Р·РЅР°С‡РµРЅРёР№ РёР· С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚Р°Р° РґРѕРєСѓРјРµРЅС‚Р° (РџРџ)
+         * Set the 'AlertedSign' element value. Признак сравнения (true - совпадение, false - несовпадение). Общий для всех значений из товарной партаа документа (ПП)
          * 
          * @param alertedSign
          */
@@ -241,7 +241,7 @@ public class RevealingProtocolIndicator
         }
 
         /** 
-         * Get the list of 'AlertedInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ РёР· Р”Рў Рѕ СЃСЂР°РІРЅРµРЅРёРё Р·РЅР°С‡РµРЅРёР№ Рё РІС‹СЃС‚Р°РІР»РµРЅРёСЏ РїСЂРёР·РЅР°РєР° СЃСЂР°Р±Р°С‚С‹РІР°РЅРёСЏ
+         * Get the list of 'AlertedInformation' element items. Информация из ДТ о сравнении значений и выставления признака срабатывания
          * 
          * @return list
          */
@@ -250,7 +250,7 @@ public class RevealingProtocolIndicator
         }
 
         /** 
-         * Set the list of 'AlertedInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ РёР· Р”Рў Рѕ СЃСЂР°РІРЅРµРЅРёРё Р·РЅР°С‡РµРЅРёР№ Рё РІС‹СЃС‚Р°РІР»РµРЅРёСЏ РїСЂРёР·РЅР°РєР° СЃСЂР°Р±Р°С‚С‹РІР°РЅРёСЏ
+         * Set the list of 'AlertedInformation' element items. Информация из ДТ о сравнении значений и выставления признака срабатывания
          * 
          * @param list
          */

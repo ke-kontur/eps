@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р“СЂСѓРїРїР° РёРЅРґРёРєР°С‚РѕСЂРѕРІ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+ * Группа индикаторов профиля риска
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -23,7 +23,7 @@ public class RevealingProtocolGroup
     private List<RevealingProtocolIndicator> indicatorList = new ArrayList<RevealingProtocolIndicator>();
 
     /** 
-     * Get the 'AlertedSign' element value. РџСЂРёР·РЅР°Рє СЃСЂР°Р±Р°С‚С‹РІР°РЅРёСЏ РїРѕ РІСЃРµР№ РіСЂСѓРїРїРµ (true- СЃСЂР°Р±РѕР°С‚Р»Рѕ, false - РЅРµ СЃСЂР°Р±РѕС‚Р°Р»Рѕ)
+     * Get the 'AlertedSign' element value. Признак срабатывания по всей группе (true- срабоатло, false - не сработало)
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class RevealingProtocolGroup
     }
 
     /** 
-     * Set the 'AlertedSign' element value. РџСЂРёР·РЅР°Рє СЃСЂР°Р±Р°С‚С‹РІР°РЅРёСЏ РїРѕ РІСЃРµР№ РіСЂСѓРїРїРµ (true- СЃСЂР°Р±РѕР°С‚Р»Рѕ, false - РЅРµ СЃСЂР°Р±РѕС‚Р°Р»Рѕ)
+     * Set the 'AlertedSign' element value. Признак срабатывания по всей группе (true- срабоатло, false - не сработало)
      * 
      * @param alertedSign
      */
@@ -41,7 +41,7 @@ public class RevealingProtocolGroup
     }
 
     /** 
-     * Get the list of 'Indicators' element items. РРЅРґРёРєР°С‚РѕСЂС‹ РіСЂСѓРїРїС‹
+     * Get the list of 'Indicators' element items. Индикаторы группы
      * 
      * @return list
      */
@@ -50,7 +50,7 @@ public class RevealingProtocolGroup
     }
 
     /** 
-     * Set the list of 'Indicators' element items. РРЅРґРёРєР°С‚РѕСЂС‹ РіСЂСѓРїРїС‹
+     * Set the list of 'Indicators' element items. Индикаторы группы
      * 
      * @param list
      */

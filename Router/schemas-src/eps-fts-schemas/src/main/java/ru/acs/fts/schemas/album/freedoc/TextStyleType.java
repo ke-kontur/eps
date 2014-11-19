@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.freedoc;
 
 /** 
- * РЎС‚РёР»Рё С‚РµРєСЃС‚Р°
+ * Стили текста
  */
 public enum TextStyleType {
     BOLD("Bold"), ITALIC("Italic"), NORMAL("Normal");

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р”РѕР±Р°РІРѕС‡РЅС‹Рµ Р»РёСЃС‚С‹
+ * Добавочные листы
  */
 public class GoodsType
 {
@@ -14,7 +14,7 @@ public class GoodsType
     private CustomsMarcType customsMark;
 
     /** 
-     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ / СЃРїРёСЃРєСѓ / РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў ( РґР»СЏ РљРўРЎ, Р”РўРЎ)
+     * Get the 'GoodsNumeric' element value. Номер товара по документу / списку / номер товара по ДТ ( для КТС, ДТС)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ / СЃРїРёСЃРєСѓ / РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў ( РґР»СЏ РљРўРЎ, Р”РўРЎ)
+     * Set the 'GoodsNumeric' element value. Номер товара по документу / списку / номер товара по ДТ ( для КТС, ДТС)
      * 
      * @param goodsNumeric
      */
@@ -32,7 +32,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'PaymentCalculation' element items. РСЃС‡РёСЃР»РµРЅРёРµ РїР»Р°С‚РµР¶РµР№
+     * Get the list of 'PaymentCalculation' element items. Исчисление платежей
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'PaymentCalculation' element items. РСЃС‡РёСЃР»РµРЅРёРµ РїР»Р°С‚РµР¶РµР№
+     * Set the list of 'PaymentCalculation' element items. Исчисление платежей
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'CustomsMark' element value. Р”РѕР±Р°РІРѕС‡РЅС‹Рµ Р»РёСЃС‚С‹
+     * Get the 'CustomsMark' element value. Добавочные листы
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'CustomsMark' element value. Р”РѕР±Р°РІРѕС‡РЅС‹Рµ Р»РёСЃС‚С‹
+     * Set the 'CustomsMark' element value. Добавочные листы
      * 
      * @param customsMark
      */

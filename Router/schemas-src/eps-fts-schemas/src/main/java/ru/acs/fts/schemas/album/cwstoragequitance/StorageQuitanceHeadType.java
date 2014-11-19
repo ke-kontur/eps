@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.AISTSDocumentIDType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Р°С… РґРѕРєСѓРјРµРЅС‚Р°
+ * Информация о реквизитах документа
  */
 public class StorageQuitanceHeadType
 {
@@ -17,7 +17,7 @@ public class StorageQuitanceHeadType
     private GTDIDType GTDNumber;
 
     /** 
-     * Get the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР°
+     * Get the 'CustomsModeCode' element value. Код таможенного режима
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class StorageQuitanceHeadType
     }
 
     /** 
-     * Set the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР°
+     * Set the 'CustomsModeCode' element value. Код таможенного режима
      * 
      * @param customsModeCode
      */
@@ -35,7 +35,7 @@ public class StorageQuitanceHeadType
     }
 
     /** 
-     * Get the 'OrderNumberOfEdition' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЂРµРґР°РєС†РёРё СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'OrderNumberOfEdition' element value. Порядковый номер редакции электронного документа
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class StorageQuitanceHeadType
     }
 
     /** 
-     * Set the 'OrderNumberOfEdition' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЂРµРґР°РєС†РёРё СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'OrderNumberOfEdition' element value. Порядковый номер редакции электронного документа
      * 
      * @param orderNumberOfEdition
      */
@@ -53,7 +53,7 @@ public class StorageQuitanceHeadType
     }
 
     /** 
-     * Get the 'StorageQuitanceNumber' element value. РќРѕРјРµСЂ СЃРєР»Р°РґСЃРєРѕР№ РєРІРёС‚Р°РЅС†РёРё
+     * Get the 'StorageQuitanceNumber' element value. Номер складской квитанции
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class StorageQuitanceHeadType
     }
 
     /** 
-     * Set the 'StorageQuitanceNumber' element value. РќРѕРјРµСЂ СЃРєР»Р°РґСЃРєРѕР№ РєРІРёС‚Р°РЅС†РёРё
+     * Set the 'StorageQuitanceNumber' element value. Номер складской квитанции
      * 
      * @param storageQuitanceNumber
      */
@@ -72,7 +72,7 @@ public class StorageQuitanceHeadType
     }
 
     /** 
-     * Get the 'PriorStorageQuitanceNumber' element value. РќРѕРјРµСЂ РїСЂРµРґС‹РґСѓС‰РµР№ СЃРєР»Р°РґСЃРєРѕР№ РєРІРёС‚Р°РЅС†РёРё
+     * Get the 'PriorStorageQuitanceNumber' element value. Номер предыдущей складской квитанции
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class StorageQuitanceHeadType
     }
 
     /** 
-     * Set the 'PriorStorageQuitanceNumber' element value. РќРѕРјРµСЂ РїСЂРµРґС‹РґСѓС‰РµР№ СЃРєР»Р°РґСЃРєРѕР№ РєРІРёС‚Р°РЅС†РёРё
+     * Set the 'PriorStorageQuitanceNumber' element value. Номер предыдущей складской квитанции
      * 
      * @param priorStorageQuitanceNumber
      */
@@ -91,7 +91,7 @@ public class StorageQuitanceHeadType
     }
 
     /** 
-     * Get the 'NextStorageQuitanceNumber' element value. РќРѕРјРµСЂ СЃР»РµРґСѓСЋС‰РµР№ СЃРєР»Р°РґСЃРєРѕР№ РєРІРёС‚Р°РЅС†РёРё
+     * Get the 'NextStorageQuitanceNumber' element value. Номер следующей складской квитанции
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class StorageQuitanceHeadType
     }
 
     /** 
-     * Set the 'NextStorageQuitanceNumber' element value. РќРѕРјРµСЂ СЃР»РµРґСѓСЋС‰РµР№ СЃРєР»Р°РґСЃРєРѕР№ РєРІРёС‚Р°РЅС†РёРё
+     * Set the 'NextStorageQuitanceNumber' element value. Номер следующей складской квитанции
      * 
      * @param nextStorageQuitanceNumber
      */
@@ -110,7 +110,7 @@ public class StorageQuitanceHeadType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. РќРѕРјРµСЂ Р”Рў
+     * Get the 'GTDNumber' element value. Номер ДТ
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class StorageQuitanceHeadType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. РќРѕРјРµСЂ Р”Рў
+     * Set the 'GTDNumber' element value. Номер ДТ
      * 
      * @param GTDNumber
      */

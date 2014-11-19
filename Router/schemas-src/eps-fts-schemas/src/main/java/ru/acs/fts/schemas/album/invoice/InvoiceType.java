@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РРЅРІРѕР№СЃ 
+ * Инвойс 
  */
 public class InvoiceType extends BaseDocType
 {
@@ -43,7 +43,7 @@ public class InvoiceType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CurrencyRate' element value. РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ РєСѓСЂСЃ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ РёРЅРІРѕР№СЃР° РЅР° РґР°С‚Сѓ РёРЅРІРѕР№СЃР°. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё РёРЅРІРѕР№СЃ РІ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚Рµ, РєСѓСЂСЃ  РєРѕС‚РѕСЂРѕР№ РЅРµ СЂР°РІРµРЅ РєСѓСЂСЃС‹ Р¦Р‘.
+     * Get the 'CurrencyRate' element value. Установленный курс иностранной валюты инвойса на дату инвойса. Указывается, если инвойс в иностранной валюте, курс  которой не равен курсы ЦБ.
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ РєСѓСЂСЃ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ РёРЅРІРѕР№СЃР° РЅР° РґР°С‚Сѓ РёРЅРІРѕР№СЃР°. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё РёРЅРІРѕР№СЃ РІ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚Рµ, РєСѓСЂСЃ  РєРѕС‚РѕСЂРѕР№ РЅРµ СЂР°РІРµРЅ РєСѓСЂСЃС‹ Р¦Р‘.
+     * Set the 'CurrencyRate' element value. Установленный курс иностранной валюты инвойса на дату инвойса. Указывается, если инвойс в иностранной валюте, курс  которой не равен курсы ЦБ.
      * 
      * @param currencyRate
      */
@@ -61,7 +61,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ РёРЅРІРѕР№СЃР°. 
+     * Get the 'CurrencyCode' element value. Код иностранной валюты инвойса. 
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ РёРЅРІРѕР№СЃР°. 
+     * Set the 'CurrencyCode' element value. Код иностранной валюты инвойса. 
      * 
      * @param currencyCode
      */
@@ -79,7 +79,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'PlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°
+     * Get the 'PlacesQuantity' element value. Общее количество грузовых мест товара
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'PlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°
+     * Set the 'PlacesQuantity' element value. Общее количество грузовых мест товара
      * 
      * @param placesQuantity
      */
@@ -97,7 +97,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'PlacesDescription' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ (РєРѕСЂРѕР±РѕРє, СѓРїР°РєРѕРІРѕРє, РїР°Р»Р»РµС‚ Рё С‚.Рґ.)
+     * Get the 'PlacesDescription' element value. Описание вида грузовых мест (коробок, упаковок, паллет и т.д.)
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'PlacesDescription' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ (РєРѕСЂРѕР±РѕРє, СѓРїР°РєРѕРІРѕРє, РїР°Р»Р»РµС‚ Рё С‚.Рґ.)
+     * Set the 'PlacesDescription' element value. Описание вида грузовых мест (коробок, упаковок, паллет и т.д.)
      * 
      * @param placesDescription
      */
@@ -115,7 +115,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ (РµСЃР»Рё РІ РѕРїРёСЃР°РЅРёРё С‚РѕРІР°СЂРѕРІ РЅРµС‚ РґР°РЅРЅС‹С…, С‚Рѕ Р·РЅР°С‡РµРЅРёРµ РІРІРѕРґРёС‚СЃСЏ РІСЂСѓС‡РЅСѓСЋ - РёРЅР°С‡Рµ - СЃСѓРјРјР° РІРµСЃР° Р±СЂСѓС‚С‚Рѕ РїРѕ С‚РѕРІР°СЂР°Рј)
+     * Get the 'GrossWeightQuantity' element value. Общий вес брутто товаров (если в описании товаров нет данных, то значение вводится вручную - иначе - сумма веса брутто по товарам)
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ (РµСЃР»Рё РІ РѕРїРёСЃР°РЅРёРё С‚РѕРІР°СЂРѕРІ РЅРµС‚ РґР°РЅРЅС‹С…, С‚Рѕ Р·РЅР°С‡РµРЅРёРµ РІРІРѕРґРёС‚СЃСЏ РІСЂСѓС‡РЅСѓСЋ - РёРЅР°С‡Рµ - СЃСѓРјРјР° РІРµСЃР° Р±СЂСѓС‚С‚Рѕ РїРѕ С‚РѕРІР°СЂР°Рј)
+     * Set the 'GrossWeightQuantity' element value. Общий вес брутто товаров (если в описании товаров нет данных, то значение вводится вручную - иначе - сумма веса брутто по товарам)
      * 
      * @param grossWeightQuantity
      */
@@ -133,7 +133,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ РЅРµС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ (РµСЃР»Рё РІ РѕРїРёСЃР°РЅРёРё С‚РѕРІР°СЂРѕРІ РЅРµС‚ РґР°РЅРЅС‹С…, С‚Рѕ Р·РЅР°С‡РµРЅРёРµ РІРІРѕРґРёС‚СЃСЏ РІСЂСѓС‡РЅСѓСЋ - РёРЅР°С‡Рµ - СЃСѓРјРјР° РІРµСЃР° РЅРµС‚С‚Рѕ РїРѕ С‚РѕРІР°СЂР°Рј)
+     * Get the 'NetWeightQuantity' element value. Общий вес нетто товаров (если в описании товаров нет данных, то значение вводится вручную - иначе - сумма веса нетто по товарам)
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ РЅРµС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ (РµСЃР»Рё РІ РѕРїРёСЃР°РЅРёРё С‚РѕРІР°СЂРѕРІ РЅРµС‚ РґР°РЅРЅС‹С…, С‚Рѕ Р·РЅР°С‡РµРЅРёРµ РІРІРѕРґРёС‚СЃСЏ РІСЂСѓС‡РЅСѓСЋ - РёРЅР°С‡Рµ - СЃСѓРјРјР° РІРµСЃР° РЅРµС‚С‚Рѕ РїРѕ С‚РѕРІР°СЂР°Рј)
+     * Set the 'NetWeightQuantity' element value. Общий вес нетто товаров (если в описании товаров нет данных, то значение вводится вручную - иначе - сумма веса нетто по товарам)
      * 
      * @param netWeightQuantity
      */
@@ -151,7 +151,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'GCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Get the 'GCost' element value. Общая стоимость товаров по инвойсу
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'GCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Set the 'GCost' element value. Общая стоимость товаров по инвойсу
      * 
      * @param GCost
      */
@@ -169,7 +169,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Discount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЃРєРёРґРєРё РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Get the 'Discount' element value. Общая сумма скидки по инвойсу
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Discount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЃРєРёРґРєРё РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Set the 'Discount' element value. Общая сумма скидки по инвойсу
      * 
      * @param discount
      */
@@ -187,7 +187,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DiscountPercentage' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЃРєРёРґРєРё РїРѕ РёРЅРІРѕР№СЃСѓ, %
+     * Get the 'DiscountPercentage' element value. Общая сумма скидки по инвойсу, %
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DiscountPercentage' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЃРєРёРґРєРё РїРѕ РёРЅРІРѕР№СЃСѓ, %
+     * Set the 'DiscountPercentage' element value. Общая сумма скидки по инвойсу, %
      * 
      * @param discountPercentage
      */
@@ -205,7 +205,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportCharges' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЂР°СЃС…РѕРґРѕРІ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Get the 'TransportCharges' element value. Общая сумма транспортных расходов по инвойсу
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportCharges' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЂР°СЃС…РѕРґРѕРІ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Set the 'TransportCharges' element value. Общая сумма транспортных расходов по инвойсу
      * 
      * @param transportCharges
      */
@@ -223,7 +223,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'InsuranceCharges' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЂР°СЃС…РѕРґРѕРІ РїРѕ СЃС‚СЂР°С…РѕРІР°РЅРёСЋ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Get the 'InsuranceCharges' element value. Общая сумма расходов по страхованию по инвойсу
      * 
      * @return value
      */
@@ -232,7 +232,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'InsuranceCharges' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° СЂР°СЃС…РѕРґРѕРІ РїРѕ СЃС‚СЂР°С…РѕРІР°РЅРёСЋ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Set the 'InsuranceCharges' element value. Общая сумма расходов по страхованию по инвойсу
      * 
      * @param insuranceCharges
      */
@@ -241,7 +241,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'OtherCharges' element value. РЎСѓРјРјР° РїСЂРѕС‡РёС… СЂР°СЃС…РѕРґРѕРІ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Get the 'OtherCharges' element value. Сумма прочих расходов по инвойсу
      * 
      * @return value
      */
@@ -250,7 +250,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'OtherCharges' element value. РЎСѓРјРјР° РїСЂРѕС‡РёС… СЂР°СЃС…РѕРґРѕРІ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Set the 'OtherCharges' element value. Сумма прочих расходов по инвойсу
      * 
      * @param otherCharges
      */
@@ -259,7 +259,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РїРѕ РёРЅРІРѕР№СЃСѓ СЃ СѓС‡РµС‚РѕРј СЂР°СЃС…РѕРґРѕРІ Рё СЃРєРёРґРєРё
+     * Get the 'TotalCost' element value. Общая стоимость по инвойсу с учетом расходов и скидки
      * 
      * @return value
      */
@@ -268,7 +268,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РїРѕ РёРЅРІРѕР№СЃСѓ СЃ СѓС‡РµС‚РѕРј СЂР°СЃС…РѕРґРѕРІ Рё СЃРєРёРґРєРё
+     * Set the 'TotalCost' element value. Общая стоимость по инвойсу с учетом расходов и скидки
      * 
      * @param totalCost
      */
@@ -277,7 +277,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentPeriod' element value. РЎСЂРѕРє РѕРїР»Р°С‚С‹
+     * Get the 'PaymentPeriod' element value. Срок оплаты
      * 
      * @return value
      */
@@ -286,7 +286,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentPeriod' element value. РЎСЂРѕРє РѕРїР»Р°С‚С‹
+     * Set the 'PaymentPeriod' element value. Срок оплаты
      * 
      * @param paymentPeriod
      */
@@ -295,7 +295,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Buyer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРєСѓРїР°С‚РµР»Рµ
+     * Get the 'Buyer' element value. Сведения о покупателе
      * 
      * @return value
      */
@@ -304,7 +304,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Buyer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРєСѓРїР°С‚РµР»Рµ
+     * Set the 'Buyer' element value. Сведения о покупателе
      * 
      * @param buyer
      */
@@ -313,7 +313,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Seler' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ
+     * Get the 'Seler' element value. Сведения о продавце
      * 
      * @return value
      */
@@ -322,7 +322,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Seler' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ
+     * Set the 'Seler' element value. Сведения о продавце
      * 
      * @param seler
      */
@@ -331,7 +331,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ Рё РµРіРѕ Р°РґСЂРµСЃ
+     * Get the 'Consignor' element value. Грузоотправитель и его адрес
      * 
      * @return value
      */
@@ -340,7 +340,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ Рё РµРіРѕ Р°РґСЂРµСЃ
+     * Set the 'Consignor' element value. Грузоотправитель и его адрес
      * 
      * @param consignor
      */
@@ -349,7 +349,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Consignee' element value. Грузополучатель
      * 
      * @return value
      */
@@ -358,7 +358,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Consignee' element value. Грузополучатель
      * 
      * @param consignee
      */
@@ -367,7 +367,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InvoiceGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… РёРЅРІРѕР№СЃР°
+     * Get the list of 'InvoiceGoods' element items. Сведения о товарах инвойса
      * 
      * @return list
      */
@@ -376,7 +376,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InvoiceGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… РёРЅРІРѕР№СЃР°
+     * Set the list of 'InvoiceGoods' element items. Сведения о товарах инвойса
      * 
      * @param list
      */
@@ -385,7 +385,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeliveryTerms' element value. РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё
+     * Get the 'DeliveryTerms' element value. Описание условий поставки
      * 
      * @return value
      */
@@ -394,7 +394,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeliveryTerms' element value. РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё
+     * Set the 'DeliveryTerms' element value. Описание условий поставки
      * 
      * @param deliveryTerms
      */
@@ -403,7 +403,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TransportMeans' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ РїРµСЂРµРІРѕР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'TransportMeans' element items. Описание транспортного средства для перевозки товаров
      * 
      * @return list
      */
@@ -412,7 +412,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TransportMeans' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РґР»СЏ РїРµСЂРµРІРѕР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'TransportMeans' element items. Описание транспортного средства для перевозки товаров
      * 
      * @param list
      */
@@ -421,7 +421,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РёРЅРІРѕР№СЃР°
+     * Get the 'Registration' element value. Регистрационные данные инвойса
      * 
      * @return value
      */
@@ -430,7 +430,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РёРЅРІРѕР№СЃР°
+     * Set the 'Registration' element value. Регистрационные данные инвойса
      * 
      * @param registration
      */
@@ -439,7 +439,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. Р”Р°С‚Р° Рё РЅРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'Contract' element value. Дата и номер контракта
      * 
      * @return value
      */
@@ -448,7 +448,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. Р”Р°С‚Р° Рё РЅРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'Contract' element value. Дата и номер контракта
      * 
      * @param contract
      */
@@ -457,7 +457,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Enclosure' element items. Р”Р°С‚Р° Рё РЅРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёР№, РёР·РјРµРЅРµРЅРёР№, РїСЂРёР»РѕР¶РµРЅРёР№, СЃРїРµС†РёС„РёРєР°С†РёР№
+     * Get the list of 'Enclosure' element items. Дата и номер дополнений, изменений, приложений, спецификаций
      * 
      * @return list
      */
@@ -466,7 +466,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Enclosure' element items. Р”Р°С‚Р° Рё РЅРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёР№, РёР·РјРµРЅРµРЅРёР№, РїСЂРёР»РѕР¶РµРЅРёР№, СЃРїРµС†РёС„РёРєР°С†РёР№
+     * Set the list of 'Enclosure' element items. Дата и номер дополнений, изменений, приложений, спецификаций
      * 
      * @param list
      */
@@ -475,7 +475,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
+     * Get the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
      * 
      * @return value
      */
@@ -484,7 +484,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
+     * Set the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
      * 
      * @param mark
      */
@@ -493,7 +493,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -502,7 +502,7 @@ public class InvoiceType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

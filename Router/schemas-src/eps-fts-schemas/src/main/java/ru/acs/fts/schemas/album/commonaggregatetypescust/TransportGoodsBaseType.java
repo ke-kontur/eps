@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ. Р‘Р°Р·РѕРІС‹Р№
+ * Описание товаров. Базовый
  */
 public class TransportGoodsBaseType
 {
@@ -13,7 +13,7 @@ public class TransportGoodsBaseType
     private List<String> goodsDescriptionList = new ArrayList<String>();
 
     /** 
-     * Get the 'GoodsMarking' element value. РќРѕРјРµСЂ Рё РјР°СЂРєР° РіСЂСѓР·Р°
+     * Get the 'GoodsMarking' element value. Номер и марка груза
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsMarking' element value. РќРѕРјРµСЂ Рё РјР°СЂРєР° РіСЂСѓР·Р°
+     * Set the 'GoodsMarking' element value. Номер и марка груза
      * 
      * @param goodsMarking
      */
@@ -31,7 +31,7 @@ public class TransportGoodsBaseType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіСЂСѓР·Р°
+     * Get the list of 'GoodsDescription' element items. Наименование груза
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class TransportGoodsBaseType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіСЂСѓР·Р°
+     * Set the list of 'GoodsDescription' element items. Наименование груза
      * 
      * @param list
      */

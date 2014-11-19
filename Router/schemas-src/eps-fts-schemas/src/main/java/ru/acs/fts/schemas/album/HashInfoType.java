@@ -18,7 +18,7 @@ public class HashInfoType
     private String hashMean;
 
     /** 
-     * Get the 'Hash' element value. РҐСЌС€-СЃСѓРјРјР° РґР»СЏ РЅРµС„РѕСЂРј. РёРЅРґРёРєР°С‚РѕСЂР°
+     * Get the 'Hash' element value. Хэш-сумма для неформ. индикатора
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class HashInfoType
     }
 
     /** 
-     * Set the 'Hash' element value. РҐСЌС€-СЃСѓРјРјР° РґР»СЏ РЅРµС„РѕСЂРј. РёРЅРґРёРєР°С‚РѕСЂР°
+     * Set the 'Hash' element value. Хэш-сумма для неформ. индикатора
      * 
      * @param hash
      */
@@ -36,7 +36,7 @@ public class HashInfoType
     }
 
     /** 
-     * Get the 'HashMean' element value. Р—РЅР°С‡РµРЅРёРµ РЅРµС„РѕСЂРј. РёРЅРґРёРєР°С‚РѕСЂР°, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РµРµ С…СЌС€-СЃСѓРјРјРµ
+     * Get the 'HashMean' element value. Значение неформ. индикатора, соответствующее хэш-сумме
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class HashInfoType
     }
 
     /** 
-     * Set the 'HashMean' element value. Р—РЅР°С‡РµРЅРёРµ РЅРµС„РѕСЂРј. РёРЅРґРёРєР°С‚РѕСЂР°, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РµРµ С…СЌС€-СЃСѓРјРјРµ
+     * Set the 'HashMean' element value. Значение неформ. индикатора, соответствующее хэш-сумме
      * 
      * @param hashMean
      */

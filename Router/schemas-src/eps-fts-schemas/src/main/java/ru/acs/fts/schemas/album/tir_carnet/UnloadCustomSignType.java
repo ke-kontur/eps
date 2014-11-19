@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ С‚Р°РјРѕР¶РЅРё,РїСЂРёРЅРёРјР°СЋС‰РµР№ С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ.
+ * Реквизиты таможни,принимающей товарную партию.
  */
 public class UnloadCustomSignType
 {
@@ -14,7 +14,7 @@ public class UnloadCustomSignType
     private CustomsPersonType person;
 
     /** 
-     * Get the 'CustComments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№ Рє РїРѕР»СѓС‡РµРЅРёСЋ РіСЂСѓР·Р°.
+     * Get the 'CustComments' element value. Комментарий к получению груза.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class UnloadCustomSignType
     }
 
     /** 
-     * Set the 'CustComments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№ Рє РїРѕР»СѓС‡РµРЅРёСЋ РіСЂСѓР·Р°.
+     * Set the 'CustComments' element value. Комментарий к получению груза.
      * 
      * @param custComments
      */
@@ -32,7 +32,7 @@ public class UnloadCustomSignType
     }
 
     /** 
-     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class UnloadCustomSignType
     }
 
     /** 
-     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @param customs
      */
@@ -50,7 +50,7 @@ public class UnloadCustomSignType
     }
 
     /** 
-     * Get the 'Person' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Person' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class UnloadCustomSignType
     }
 
     /** 
-     * Set the 'Person' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Person' element value. Должностное лицо таможенного органа
      * 
      * @param person
      */

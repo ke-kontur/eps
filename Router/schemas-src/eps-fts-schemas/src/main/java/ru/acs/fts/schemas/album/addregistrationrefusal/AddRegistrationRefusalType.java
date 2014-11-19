@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РћС‚РєР°Р· РїРѕ РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° 
+ * Отказ по дополнению к договору поручительства 
  */
 public class AddRegistrationRefusalType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class AddRegistrationRefusalType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RefusalDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ РѕР± РѕС‚РєР°Р·Рµ.
+     * Get the 'RefusalDate' element value. Дата решения об отказе.
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class AddRegistrationRefusalType extends BaseDocType
     }
 
     /** 
-     * Set the 'RefusalDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ РѕР± РѕС‚РєР°Р·Рµ.
+     * Set the 'RefusalDate' element value. Дата решения об отказе.
      * 
      * @param refusalDate
      */
@@ -34,7 +34,7 @@ public class AddRegistrationRefusalType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RefuseReason' element items. РџСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
+     * Get the list of 'RefuseReason' element items. Причины отказа
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class AddRegistrationRefusalType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RefuseReason' element items. РџСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
+     * Set the list of 'RefuseReason' element items. Причины отказа
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class AddRegistrationRefusalType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class AddRegistrationRefusalType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.notifarrivalintegrityseal;
 
 /** 
- * РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РЅР°СЂСѓС€РµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+ * Характеристика нарушенного средства идентификации
  */
 public class ModifiedIdentifyMeanType
 {
@@ -13,7 +13,7 @@ public class ModifiedIdentifyMeanType
     private String identDesc;
 
     /** 
-     * Get the 'IdentMeanState' element value. РЎС‚Р°С‚СѓСЃ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё 1 - СЃСЂРµРґСЃС‚РІРѕ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РґРѕ РЅР°С‡Р°Р»Р° РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° 2 - СЃСЂРµРґСЃС‚РІРѕ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РїРѕСЃР»Рµ РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РЅР°Р»РѕР¶РµРЅРЅС‹Рµ)
+     * Get the 'IdentMeanState' element value. Статус средства идентификации 1 - средство идентификации до начала проведения таможенного досмотра 2 - средство идентификации после проведения таможенного досмотра (наложенные)
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ModifiedIdentifyMeanType
     }
 
     /** 
-     * Set the 'IdentMeanState' element value. РЎС‚Р°С‚СѓСЃ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё 1 - СЃСЂРµРґСЃС‚РІРѕ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РґРѕ РЅР°С‡Р°Р»Р° РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° 2 - СЃСЂРµРґСЃС‚РІРѕ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РїРѕСЃР»Рµ РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РЅР°Р»РѕР¶РµРЅРЅС‹Рµ)
+     * Set the 'IdentMeanState' element value. Статус средства идентификации 1 - средство идентификации до начала проведения таможенного досмотра 2 - средство идентификации после проведения таможенного досмотра (наложенные)
      * 
      * @param identMeanState
      */
@@ -31,7 +31,7 @@ public class ModifiedIdentifyMeanType
     }
 
     /** 
-     * Get the 'IdentNumber' element value. РќРѕРјРµСЂ РЅР°Р»РѕР¶РµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Get the 'IdentNumber' element value. Номер наложенного средства идентификации
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ModifiedIdentifyMeanType
     }
 
     /** 
-     * Set the 'IdentNumber' element value. РќРѕРјРµСЂ РЅР°Р»РѕР¶РµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Set the 'IdentNumber' element value. Номер наложенного средства идентификации
      * 
      * @param identNumber
      */
@@ -49,7 +49,7 @@ public class ModifiedIdentifyMeanType
     }
 
     /** 
-     * Get the 'IdentBreakFlag' element value. РџСЂРёР·РЅР°Рє РЅР°СЂСѓС€РµРЅРёСЏ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Get the 'IdentBreakFlag' element value. Признак нарушения средств идентификации
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ModifiedIdentifyMeanType
     }
 
     /** 
-     * Set the 'IdentBreakFlag' element value. РџСЂРёР·РЅР°Рє РЅР°СЂСѓС€РµРЅРёСЏ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Set the 'IdentBreakFlag' element value. Признак нарушения средств идентификации
      * 
      * @param identBreakFlag
      */
@@ -67,7 +67,7 @@ public class ModifiedIdentifyMeanType
     }
 
     /** 
-     * Get the 'IdentKind' element value. Р’РёРґ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё: 1 - РїР»РѕРјР±Р°, 2 - РїРµС‡Р°С‚СЊ, 3 - РёРЅРѕРµ
+     * Get the 'IdentKind' element value. Вид средств идентификации: 1 - пломба, 2 - печать, 3 - иное
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class ModifiedIdentifyMeanType
     }
 
     /** 
-     * Set the 'IdentKind' element value. Р’РёРґ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё: 1 - РїР»РѕРјР±Р°, 2 - РїРµС‡Р°С‚СЊ, 3 - РёРЅРѕРµ
+     * Set the 'IdentKind' element value. Вид средств идентификации: 1 - пломба, 2 - печать, 3 - иное
      * 
      * @param identKind
      */
@@ -85,7 +85,7 @@ public class ModifiedIdentifyMeanType
     }
 
     /** 
-     * Get the 'IdentDesc' element value. РџСЂРёРјРµС‡Р°РЅРёРµ РїРѕ СЃСЂРµРґСЃС‚РІСѓ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Get the 'IdentDesc' element value. Примечание по средству идентификации
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class ModifiedIdentifyMeanType
     }
 
     /** 
-     * Set the 'IdentDesc' element value. РџСЂРёРјРµС‡Р°РЅРёРµ РїРѕ СЃСЂРµРґСЃС‚РІСѓ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Set the 'IdentDesc' element value. Примечание по средству идентификации
      * 
      * @param identDesc
      */

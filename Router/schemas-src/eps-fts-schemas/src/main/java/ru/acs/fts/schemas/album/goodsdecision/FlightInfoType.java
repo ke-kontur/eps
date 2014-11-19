@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.goodsdecision;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
+ * Сведения о рейсе
  */
 public class FlightInfoType
 {
@@ -17,7 +17,7 @@ public class FlightInfoType
     private AirportInfoType arrivalAirport;
 
     /** 
-     * Get the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
+     * Get the 'FlightNumber' element value. Номер рейса
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
+     * Set the 'FlightNumber' element value. Номер рейса
      * 
      * @param flightNumber
      */
@@ -35,7 +35,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Get the 'Mark' element value. РњР°СЂРєР° РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+     * Get the 'Mark' element value. Марка воздушного судна
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'Mark' element value. РњР°СЂРєР° РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+     * Set the 'Mark' element value. Марка воздушного судна
      * 
      * @param mark
      */
@@ -53,7 +53,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Get the 'AirPlaneRegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+     * Get the 'AirPlaneRegNum' element value. Регистрационный номер воздушного судна
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'AirPlaneRegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+     * Set the 'AirPlaneRegNum' element value. Регистрационный номер воздушного судна
      * 
      * @param airPlaneRegNum
      */
@@ -71,7 +71,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Get the 'FlightDate' element value. Р”Р°С‚Р° СЂРµР№СЃР°
+     * Get the 'FlightDate' element value. Дата рейса
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'FlightDate' element value. Р”Р°С‚Р° СЂРµР№СЃР°
+     * Set the 'FlightDate' element value. Дата рейса
      * 
      * @param flightDate
      */
@@ -89,7 +89,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Get the 'FlightTime' element value. Р’СЂРµРјСЏ РІС‹Р»РµС‚Р° СЂРµР№СЃР°
+     * Get the 'FlightTime' element value. Время вылета рейса
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'FlightTime' element value. Р’СЂРµРјСЏ РІС‹Р»РµС‚Р° СЂРµР№СЃР°
+     * Set the 'FlightTime' element value. Время вылета рейса
      * 
      * @param flightTime
      */
@@ -107,7 +107,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Get the 'DepatureAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РІС‹Р»РµС‚Р°
+     * Get the 'DepatureAirport' element value. Аэропорт вылета
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'DepatureAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РІС‹Р»РµС‚Р°
+     * Set the 'DepatureAirport' element value. Аэропорт вылета
      * 
      * @param depatureAirport
      */
@@ -125,7 +125,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Get the 'ArrivalAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РїСЂРёР»РµС‚Р°
+     * Get the 'ArrivalAirport' element value. Аэропорт прилета
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class FlightInfoType
     }
 
     /** 
-     * Set the 'ArrivalAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РїСЂРёР»РµС‚Р°
+     * Set the 'ArrivalAirport' element value. Аэропорт прилета
      * 
      * @param arrivalAirport
      */

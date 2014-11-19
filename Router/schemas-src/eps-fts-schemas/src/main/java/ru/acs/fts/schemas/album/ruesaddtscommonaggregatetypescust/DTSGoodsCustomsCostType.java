@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.AdditionalData
 import ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSCurrencyPaymentType;
 
 /** 
- * РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РїРѕ С‚РѕРІР°СЂСѓ.
+ * Таможенная стоимость по товару.
  */
 public class DTSGoodsCustomsCostType
 {
@@ -25,7 +25,7 @@ public class DTSGoodsCustomsCostType
     private List<AdditionalDataType> additionalDataList = new ArrayList<AdditionalDataType>();
 
     /** 
-     * Get the 'SheetNumber' element value. РќРѕРјРµСЂ Р»РёСЃС‚Р°
+     * Get the 'SheetNumber' element value. Номер листа
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Set the 'SheetNumber' element value. РќРѕРјРµСЂ Р»РёСЃС‚Р°
+     * Set the 'SheetNumber' element value. Номер листа
      * 
      * @param sheetNumber
      */
@@ -43,7 +43,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Get the 'SheetGoodsSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РЅР° Р»РёСЃС‚Рµ
+     * Get the 'SheetGoodsSerialNumber' element value. Порядковый номер товара на листе
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Set the 'SheetGoodsSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РЅР° Р»РёСЃС‚Рµ
+     * Set the 'SheetGoodsSerialNumber' element value. Порядковый номер товара на листе
      * 
      * @param sheetGoodsSerialNumber
      */
@@ -61,7 +61,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Get the 'MethodNumberCode' element value. РќРѕРјРµСЂ РјРµС‚РѕРґР°. (Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰Р°РµРјС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ СЂРµР¶РёРјС‹, РїСЂРёРјРµРЅРёРјС‹Рµ Рє РІРІРѕР·РёРјС‹Рј С‚РѕРІР°СЂР°Рј.)
+     * Get the 'MethodNumberCode' element value. Номер метода. (Заполняется в соответствии с классификатором методов определения таможенной стоимости товаров, помещаемых под таможенные режимы, применимые к ввозимым товарам.)
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Set the 'MethodNumberCode' element value. РќРѕРјРµСЂ РјРµС‚РѕРґР°. (Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰Р°РµРјС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ СЂРµР¶РёРјС‹, РїСЂРёРјРµРЅРёРјС‹Рµ Рє РІРІРѕР·РёРјС‹Рј С‚РѕРІР°СЂР°Рј.)
+     * Set the 'MethodNumberCode' element value. Номер метода. (Заполняется в соответствии с классификатором методов определения таможенной стоимости товаров, помещаемых под таможенные режимы, применимые к ввозимым товарам.)
      * 
      * @param methodNumberCode
      */
@@ -79,7 +79,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Get the 'BaseMethodNumberCode' element value. РќРѕРјРµСЂ Р±Р°Р·РѕРІРѕРіРѕ РјРµС‚РѕРґР° 
+     * Get the 'BaseMethodNumberCode' element value. Номер базового метода 
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Set the 'BaseMethodNumberCode' element value. РќРѕРјРµСЂ Р±Р°Р·РѕРІРѕРіРѕ РјРµС‚РѕРґР° 
+     * Set the 'BaseMethodNumberCode' element value. Номер базового метода 
      * 
      * @param baseMethodNumberCode
      */
@@ -97,7 +97,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Get the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў/СЃРїРёСЃРєСѓ 
+     * Get the 'GTDGoodsNumber' element value. Номер товара по ДТ/списку 
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Set the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў/СЃРїРёСЃРєСѓ 
+     * Set the 'GTDGoodsNumber' element value. Номер товара по ДТ/списку 
      * 
      * @param GTDGoodsNumber
      */
@@ -115,7 +115,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -133,7 +133,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Get the 'NationalDeclaredCustomsCost' element value. Р—Р°СЏРІР»РµРЅРЅР°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ
+     * Get the 'NationalDeclaredCustomsCost' element value. Заявленная таможенная стоимость в национальной валюте
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Set the 'NationalDeclaredCustomsCost' element value. Р—Р°СЏРІР»РµРЅРЅР°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ
+     * Set the 'NationalDeclaredCustomsCost' element value. Заявленная таможенная стоимость в национальной валюте
      * 
      * @param nationalDeclaredCustomsCost
      */
@@ -152,7 +152,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Get the 'DollarDeclaredCustomsCost' element value. Р—Р°СЏРІР»РµРЅРЅР°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ РґРѕР»Р»Р°СЂР°С… РЎРЁРђ
+     * Get the 'DollarDeclaredCustomsCost' element value. Заявленная таможенная стоимость в долларах США
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Set the 'DollarDeclaredCustomsCost' element value. Р—Р°СЏРІР»РµРЅРЅР°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ РґРѕР»Р»Р°СЂР°С… РЎРЁРђ
+     * Set the 'DollarDeclaredCustomsCost' element value. Заявленная таможенная стоимость в долларах США
      * 
      * @param dollarDeclaredCustomsCost
      */
@@ -170,7 +170,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Get the 'GoodsAddTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'GoodsAddTNVEDCode' element value. Код товара по классификатору дополнительной таможенной информации
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Set the 'GoodsAddTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'GoodsAddTNVEDCode' element value. Код товара по классификатору дополнительной таможенной информации
      * 
      * @param goodsAddTNVEDCode
      */
@@ -188,7 +188,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Get the 'CustomsCostCalculation' element value. Р Р°СЃС‡РµС‚ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
+     * Get the 'CustomsCostCalculation' element value. Расчет таможенной стоимости.
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Set the 'CustomsCostCalculation' element value. Р Р°СЃС‡РµС‚ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
+     * Set the 'CustomsCostCalculation' element value. Расчет таможенной стоимости.
      * 
      * @param customsCostCalculation
      */
@@ -207,7 +207,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Get the list of 'DTSCurrencyPayment' element items. РРЅС„РѕСЂРјР°С†РёСЏ  РїРѕ СЃСѓРјРјРµ РѕРїР»Р°С‚С‹ РІ РІР°Р»СЋС‚Рµ.
+     * Get the list of 'DTSCurrencyPayment' element items. Информация  по сумме оплаты в валюте.
      * 
      * @return list
      */
@@ -216,7 +216,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Set the list of 'DTSCurrencyPayment' element items. РРЅС„РѕСЂРјР°С†РёСЏ  РїРѕ СЃСѓРјРјРµ РѕРїР»Р°С‚С‹ РІ РІР°Р»СЋС‚Рµ.
+     * Set the list of 'DTSCurrencyPayment' element items. Информация  по сумме оплаты в валюте.
      * 
      * @param list
      */
@@ -225,7 +225,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Get the list of 'AdditionalData' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ. РљСЂРѕРјРµ РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅРѕР№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёС… РіСЂР°С„Р°С….
+     * Get the list of 'AdditionalData' element items. Дополнительная информация. Кроме предусмотренной в соответствующих графах.
      * 
      * @return list
      */
@@ -234,7 +234,7 @@ public class DTSGoodsCustomsCostType
     }
 
     /** 
-     * Set the list of 'AdditionalData' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ. РљСЂРѕРјРµ РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅРѕР№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёС… РіСЂР°С„Р°С….
+     * Set the list of 'AdditionalData' element items. Дополнительная информация. Кроме предусмотренной в соответствующих графах.
      * 
      * @param list
      */

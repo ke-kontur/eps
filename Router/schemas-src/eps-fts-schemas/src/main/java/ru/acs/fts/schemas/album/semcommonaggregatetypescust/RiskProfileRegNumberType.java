@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.semcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * РР” РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+ * ИД профиля риска
  */
 public class RiskProfileRegNumberType
 {
@@ -15,7 +15,7 @@ public class RiskProfileRegNumberType
     private String versionNumber;
 
     /** 
-     * Get the 'DivisionCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СЂР°Р·СЂР°Р±РѕС‚Р°РІС€РµРіРѕ РџР /РЎРџР 
+     * Get the 'DivisionCode' element value. Код таможенного органа, разработавшего ПР/СПР
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class RiskProfileRegNumberType
     }
 
     /** 
-     * Set the 'DivisionCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СЂР°Р·СЂР°Р±РѕС‚Р°РІС€РµРіРѕ РџР /РЎРџР 
+     * Set the 'DivisionCode' element value. Код таможенного органа, разработавшего ПР/СПР
      * 
      * @param divisionCode
      */
@@ -33,7 +33,7 @@ public class RiskProfileRegNumberType
     }
 
     /** 
-     * Get the 'DocumentSignCode' element value. РљРѕРґ РїСЂРёР·РЅР°РєР° РґРѕРєСѓРјРµРЅС‚Р°. Р’РѕР·РјРѕР¶РЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ: 11 - РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРёР№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 12 - СЂРµРіРёРѕРЅР°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 13 - Р·РѕРЅР°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 55 - РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Р№ Рє РїСЂРёРјРµРЅРµРЅРёСЋ, 20 - СЃСЂРѕС‡РЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°
+     * Get the 'DocumentSignCode' element value. Код признака документа. Возможные значения: 11 - общероссийский профиль риска, 12 - региональный профиль риска, 13 - зональный профиль риска, 55 - профиль риска, обязательный к применению, 20 - срочный профиль риска
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class RiskProfileRegNumberType
     }
 
     /** 
-     * Set the 'DocumentSignCode' element value. РљРѕРґ РїСЂРёР·РЅР°РєР° РґРѕРєСѓРјРµРЅС‚Р°. Р’РѕР·РјРѕР¶РЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ: 11 - РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРёР№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 12 - СЂРµРіРёРѕРЅР°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 13 - Р·РѕРЅР°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 55 - РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Р№ Рє РїСЂРёРјРµРЅРµРЅРёСЋ, 20 - СЃСЂРѕС‡РЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°
+     * Set the 'DocumentSignCode' element value. Код признака документа. Возможные значения: 11 - общероссийский профиль риска, 12 - региональный профиль риска, 13 - зональный профиль риска, 55 - профиль риска, обязательный к применению, 20 - срочный профиль риска
      * 
      * @param documentSignCode
      */
@@ -51,7 +51,7 @@ public class RiskProfileRegNumberType
     }
 
     /** 
-     * Get the 'RegistryDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РџР /РЎРџР 
+     * Get the 'RegistryDate' element value. Дата регистрации ПР/СПР
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class RiskProfileRegNumberType
     }
 
     /** 
-     * Set the 'RegistryDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РџР /РЎРџР 
+     * Set the 'RegistryDate' element value. Дата регистрации ПР/СПР
      * 
      * @param registryDate
      */
@@ -69,7 +69,7 @@ public class RiskProfileRegNumberType
     }
 
     /** 
-     * Get the 'SequenceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РџР /РЎРџР 
+     * Get the 'SequenceNumber' element value. Порядковый номер ПР/СПР
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class RiskProfileRegNumberType
     }
 
     /** 
-     * Set the 'SequenceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РџР /РЎРџР 
+     * Set the 'SequenceNumber' element value. Порядковый номер ПР/СПР
      * 
      * @param sequenceNumber
      */
@@ -87,7 +87,7 @@ public class RiskProfileRegNumberType
     }
 
     /** 
-     * Get the 'VersionNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РџР /РЎРџР 
+     * Get the 'VersionNumber' element value. Порядковый номер версии ПР/СПР
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class RiskProfileRegNumberType
     }
 
     /** 
-     * Set the 'VersionNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РџР /РЎРџР 
+     * Set the 'VersionNumber' element value. Порядковый номер версии ПР/СПР
      * 
      * @param versionNumber
      */

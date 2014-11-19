@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADCustomsRepr
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADFilledPersonType;
 
 /** 
- * Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ РєРѕРїРёСЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
+ * Электронная копия корректировки декларации на товары
  */
 public class KDToutCUType extends BaseDocType
 {
@@ -31,7 +31,7 @@ public class KDToutCUType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'KDTNumber' element value. РќРѕРјРµСЂ РљР”Рў РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Get the 'KDTNumber' element value. Номер КДТ по порядку
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'KDTNumber' element value. РќРѕРјРµСЂ РљР”Рў РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Set the 'KDTNumber' element value. Номер КДТ по порядку
      * 
      * @param KDTNumber
      */
@@ -49,7 +49,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsProcedure' element value. РРњ, Р­Рљ. Р›РµРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.1 РљР”Рў
+     * Get the 'CustomsProcedure' element value. ИМ, ЭК. Левый подраздел гр.1 КДТ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsProcedure' element value. РРњ, Р­Рљ. Р›РµРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.1 РљР”Рў
+     * Set the 'CustomsProcedure' element value. ИМ, ЭК. Левый подраздел гр.1 КДТ
      * 
      * @param customsProcedure
      */
@@ -67,7 +67,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРѕС†РµРґСѓСЂ РіСЂ. 1. РІС‚РѕСЂРѕР№ РїРѕРґСЂР°Р·РґРµР» Р”Рў. РџРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ РїРµСЂРІРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»Р° РіСЂ. 37/В«00В» вЂ“ РґР»СЏ РїСЂРёРїР°СЃРѕРІ
+     * Get the 'CustomsModeCode' element value. Код таможенной процедуры в соответствии с классификатором видов таможенных процедур гр. 1. второй подраздел ДТ. Первый элемент первого подраздела гр. 37/«00» – для припасов
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРѕС†РµРґСѓСЂ РіСЂ. 1. РІС‚РѕСЂРѕР№ РїРѕРґСЂР°Р·РґРµР» Р”Рў. РџРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ РїРµСЂРІРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»Р° РіСЂ. 37/В«00В» вЂ“ РґР»СЏ РїСЂРёРїР°СЃРѕРІ
+     * Set the 'CustomsModeCode' element value. Код таможенной процедуры в соответствии с классификатором видов таможенных процедур гр. 1. второй подраздел ДТ. Первый элемент первого подраздела гр. 37/«00» – для припасов
      * 
      * @param customsModeCode
      */
@@ -85,7 +85,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarationKind' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Get the 'DeclarationKind' element value. Код особенности декларирования товаров по классификатору особенностей таможенного декларирования товаров
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationKind' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Set the 'DeclarationKind' element value. Код особенности декларирования товаров по классификатору особенностей таможенного декларирования товаров
      * 
      * @param declarationKind
      */
@@ -103,7 +103,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'SubsoilSign' element value. РџСЂРёР·РЅР°Рє РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»СЏ. Р”Р»СЏ Р Рљ
+     * Get the 'SubsoilSign' element value. Признак недропользователя. Для РК
      * 
      * @return value
      */
@@ -112,7 +112,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'SubsoilSign' element value. РџСЂРёР·РЅР°Рє РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»СЏ. Р”Р»СЏ Р Рљ
+     * Set the 'SubsoilSign' element value. Признак недропользователя. Для РК
      * 
      * @param subsoilSign
      */
@@ -121,7 +121,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'LanguageCUESAD' element value. РљРѕРґ СЏР·С‹РєР° Р·Р°РїРѕР»РЅРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'LanguageCUESAD' element value. Код языка заполнения документа
      * 
      * @return value
      */
@@ -130,7 +130,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'LanguageCUESAD' element value. РљРѕРґ СЏР·С‹РєР° Р·Р°РїРѕР»РЅРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'LanguageCUESAD' element value. Код языка заполнения документа
      * 
      * @param languageCUESAD
      */
@@ -139,7 +139,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'ElectronicDocumentSign' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РљР”Рў РІ С„РѕСЂРјРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° "Р­Р”"
+     * Get the 'ElectronicDocumentSign' element value. Признак использования КДТ в форме электронного документа "ЭД"
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'ElectronicDocumentSign' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РљР”Рў РІ С„РѕСЂРјРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° "Р­Р”"
+     * Set the 'ElectronicDocumentSign' element value. Признак использования КДТ в форме электронного документа "ЭД"
      * 
      * @param electronicDocumentSign
      */
@@ -157,7 +157,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberDoc' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СЃРёСЃС‚РµРјРѕР№ (СЂРµРіР»Р°РјРµРЅС‚РѕРј) СѓС‡РµС‚Р° РёСЃС…РѕРґСЏС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ  РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ
+     * Get the 'RegNumberDoc' element value. Исходящий номер регистрации документов в соответствии с системой (регламентом) учета исходящих документов декларанта или таможенного представителя  в Республике Беларусь
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDoc' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СЃРёСЃС‚РµРјРѕР№ (СЂРµРіР»Р°РјРµРЅС‚РѕРј) СѓС‡РµС‚Р° РёСЃС…РѕРґСЏС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ  РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ
+     * Set the 'RegNumberDoc' element value. Исходящий номер регистрации документов в соответствии с системой (регламентом) учета исходящих документов декларанта или таможенного представителя  в Республике Беларусь
      * 
      * @param regNumberDoc
      */
@@ -175,7 +175,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExecutionDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ (РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ)
+     * Get the 'ExecutionDate' element value. Дата составления (представления)
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExecutionDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ (РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ)
+     * Set the 'ExecutionDate' element value. Дата составления (представления)
      * 
      * @param executionDate
      */
@@ -193,7 +193,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'SecurityLabelCode' element value. РљРѕРґ Р·Р°С‰РёС‚РЅРѕР№ РЅР°РєР»РµР№РєРё РґР»СЏ Р Рљ
+     * Get the 'SecurityLabelCode' element value. Код защитной наклейки для РК
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'SecurityLabelCode' element value. РљРѕРґ Р·Р°С‰РёС‚РЅРѕР№ РЅР°РєР»РµР№РєРё РґР»СЏ Р Рљ
+     * Set the 'SecurityLabelCode' element value. Код защитной наклейки для РК
      * 
      * @param securityLabelCode
      */
@@ -211,7 +211,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'KDToutGoodsShipment' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the 'KDToutGoodsShipment' element value. Сведения о товарной партии
      * 
      * @return value
      */
@@ -220,7 +220,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'KDToutGoodsShipment' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the 'KDToutGoodsShipment' element value. Сведения о товарной партии
      * 
      * @param KDToutGoodsShipment
      */
@@ -229,7 +229,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'GtdRegistryNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'GtdRegistryNumber' element value. Регистрационный номер ДТ
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'GtdRegistryNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'GtdRegistryNumber' element value. Регистрационный номер ДТ
      * 
      * @param gtdRegistryNumber
      */
@@ -247,7 +247,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'FilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РґРѕРєСѓРјРµРЅС‚ (Р”Рў)
+     * Get the 'FilledPerson' element value. Сведения о лице, заполнившем документ (ДТ)
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'FilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РґРѕРєСѓРјРµРЅС‚ (Р”Рў)
+     * Set the 'FilledPerson' element value. Сведения о лице, заполнившем документ (ДТ)
      * 
      * @param filledPerson
      */
@@ -265,7 +265,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsRepresentative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Get the 'CustomsRepresentative' element value. Таможенный представитель
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsRepresentative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Set the 'CustomsRepresentative' element value. Таможенный представитель
      * 
      * @param customsRepresentative
      */
@@ -284,7 +284,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'KDTFilledInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРѕР»РЅРµРЅРёРё РљР”Рў
+     * Get the 'KDTFilledInfo' element value. Сведения о заполнении КДТ
      * 
      * @return value
      */
@@ -293,7 +293,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'KDTFilledInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРѕР»РЅРµРЅРёРё РљР”Рў
+     * Set the 'KDTFilledInfo' element value. Сведения о заполнении КДТ
      * 
      * @param KDTFilledInfo
      */
@@ -302,7 +302,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'ChangeCode' element value. РљРѕРґ РёР·РјРµРЅРµРЅРёР№ РіСЂ 45Р° РїСЂРё РѕС‚СЃСѓС‚СЃС‚РІРёРё РёР·РјРµРЅРµРЅРёР№ Рё (РёР»Рё) РґРѕРїРѕР»РЅРµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'ChangeCode' element value. Код изменений гр 45а при отсутствии изменений и (или) дополнении сведений в отношении товаров
      * 
      * @return value
      */
@@ -311,7 +311,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'ChangeCode' element value. РљРѕРґ РёР·РјРµРЅРµРЅРёР№ РіСЂ 45Р° РїСЂРё РѕС‚СЃСѓС‚СЃС‚РІРёРё РёР·РјРµРЅРµРЅРёР№ Рё (РёР»Рё) РґРѕРїРѕР»РЅРµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'ChangeCode' element value. Код изменений гр 45а при отсутствии изменений и (или) дополнении сведений в отношении товаров
      * 
      * @param changeCode
      */
@@ -320,7 +320,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°. РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа. Код документа в Альбоме форматов
      * 
      * @return value
      */
@@ -329,7 +329,7 @@ public class KDToutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°. РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа. Код документа в Альбоме форматов
      * 
      * @param documentModeID
      */

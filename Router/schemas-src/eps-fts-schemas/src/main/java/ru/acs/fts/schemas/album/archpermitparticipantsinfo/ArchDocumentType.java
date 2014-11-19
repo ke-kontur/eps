@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.archpermitparticipantsinfo;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚ Р°СЂС…РёРІР°
+ * Документ архива
  */
 public class ArchDocumentType
 {
@@ -10,7 +10,7 @@ public class ArchDocumentType
     private String archDocumentID;
 
     /** 
-     * Get the 'ArchDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
+     * Get the 'ArchDocID' element value. Идентификатор документа в архиве
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ArchDocumentType
     }
 
     /** 
-     * Set the 'ArchDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
+     * Set the 'ArchDocID' element value. Идентификатор документа в архиве
      * 
      * @param archDocID
      */
@@ -28,7 +28,7 @@ public class ArchDocumentType
     }
 
     /** 
-     * Get the 'ArchDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'ArchDocumentID' element value. Уникальный идентификатор документа
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ArchDocumentType
     }
 
     /** 
-     * Set the 'ArchDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'ArchDocumentID' element value. Уникальный идентификатор документа
      * 
      * @param archDocumentID
      */

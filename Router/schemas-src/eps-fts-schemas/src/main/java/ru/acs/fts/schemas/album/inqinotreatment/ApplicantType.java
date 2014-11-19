@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 import ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatmentOrganizationType;
 
 /** 
- * Р—Р°СЏРІРёС‚РµР»СЊ
+ * Заявитель
  */
 public class ApplicantType
 {
@@ -16,7 +16,7 @@ public class ApplicantType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'ApplicantsBoss' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'ApplicantsBoss' element value. Руководитель организации
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ApplicantType
     }
 
     /** 
-     * Set the 'ApplicantsBoss' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'ApplicantsBoss' element value. Руководитель организации
      * 
      * @param applicantsBoss
      */
@@ -34,7 +34,7 @@ public class ApplicantType
     }
 
     /** 
-     * Get the 'AccountantGeneralApp' element value. Р“Р»Р°РІРЅС‹Р№ Р±СѓС…РіР°Р»С‚РµСЂ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'AccountantGeneralApp' element value. Главный бухгалтер организации
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ApplicantType
     }
 
     /** 
-     * Set the 'AccountantGeneralApp' element value. Р“Р»Р°РІРЅС‹Р№ Р±СѓС…РіР°Р»С‚РµСЂ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'AccountantGeneralApp' element value. Главный бухгалтер организации
      * 
      * @param accountantGeneralApp
      */
@@ -52,7 +52,7 @@ public class ApplicantType
     }
 
     /** 
-     * Get the 'OrganizationInfo' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊ
+     * Get the 'OrganizationInfo' element value. Индивидуальный предприниматель
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ApplicantType
     }
 
     /** 
-     * Set the 'OrganizationInfo' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊ
+     * Set the 'OrganizationInfo' element value. Индивидуальный предприниматель
      * 
      * @param organizationInfo
      */
@@ -70,7 +70,7 @@ public class ApplicantType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ApplicantType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @param identityCard
      */

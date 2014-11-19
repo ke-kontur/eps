@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РЎРѕРѕР±С‰РµРЅРёРµ Рѕ С„Р°РєС‚Рµ РІС‹РїСѓСЃРєР° Р”Рў
+ * Сообщение о факте выпуска ДТ
  */
 public class FactIssueDTMCAType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class FactIssueDTMCAType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IssueDecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ Рѕ РІС‹РїСѓСЃРєРµ Р”Рў
+     * Get the 'IssueDecisionCode' element value. Код решения о выпуске ДТ
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class FactIssueDTMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ Рѕ РІС‹РїСѓСЃРєРµ Р”Рў
+     * Set the 'IssueDecisionCode' element value. Код решения о выпуске ДТ
      * 
      * @param issueDecisionCode
      */
@@ -35,7 +35,7 @@ public class FactIssueDTMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDecisionDate' element value. Р”Р°С‚Р° РІС‹РїСѓСЃРєР° Р”Рў
+     * Get the 'IssueDecisionDate' element value. Дата выпуска ДТ
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class FactIssueDTMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDecisionDate' element value. Р”Р°С‚Р° РІС‹РїСѓСЃРєР° Р”Рў
+     * Set the 'IssueDecisionDate' element value. Дата выпуска ДТ
      * 
      * @param issueDecisionDate
      */
@@ -53,7 +53,7 @@ public class FactIssueDTMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDecisionTime' element value. Р’СЂРµРјСЏ РІС‹РїСѓСЃРєР° Р”Рў
+     * Get the 'IssueDecisionTime' element value. Время выпуска ДТ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class FactIssueDTMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDecisionTime' element value. Р’СЂРµРјСЏ РІС‹РїСѓСЃРєР° Р”Рў
+     * Set the 'IssueDecisionTime' element value. Время выпуска ДТ
      * 
      * @param issueDecisionTime
      */
@@ -71,7 +71,7 @@ public class FactIssueDTMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'DTRegNumber' element value. Регистрационные номер ДТ
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class FactIssueDTMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'DTRegNumber' element value. Регистрационные номер ДТ
      * 
      * @param DTRegNumber
      */
@@ -89,7 +89,7 @@ public class FactIssueDTMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class FactIssueDTMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.noticecustunion;
 
 /** 
- * Р’С‹СЏРІР»РµРЅРЅРѕРµ РЅР°СЂСѓС€РµРЅРёРµ
+ * Выявленное нарушение
  */
 public class ViolationType
 {
@@ -11,7 +11,7 @@ public class ViolationType
     private String controlStatusName;
 
     /** 
-     * Get the 'NodeNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РЅР°СЂСѓС€РµРЅРёСЏ
+     * Get the 'NodeNumber' element value. Порядковый номер нарушения
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ViolationType
     }
 
     /** 
-     * Set the 'NodeNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РЅР°СЂСѓС€РµРЅРёСЏ
+     * Set the 'NodeNumber' element value. Порядковый номер нарушения
      * 
      * @param nodeNumber
      */
@@ -29,7 +29,7 @@ public class ViolationType
     }
 
     /** 
-     * Get the 'ViolationName' element value. РўРµРєСЃС‚ РЅР°СЂСѓС€РµРЅРёСЏ
+     * Get the 'ViolationName' element value. Текст нарушения
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ViolationType
     }
 
     /** 
-     * Set the 'ViolationName' element value. РўРµРєСЃС‚ РЅР°СЂСѓС€РµРЅРёСЏ
+     * Set the 'ViolationName' element value. Текст нарушения
      * 
      * @param violationName
      */
@@ -47,7 +47,7 @@ public class ViolationType
     }
 
     /** 
-     * Get the 'ControlStatusName' element value. РћС‚РјРµС‚РєР° РѕР± СѓСЃС‚СЂР°РЅРµРЅРёРё РЅР°СЂСѓС€РµРЅРёСЏ
+     * Get the 'ControlStatusName' element value. Отметка об устранении нарушения
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ViolationType
     }
 
     /** 
-     * Set the 'ControlStatusName' element value. РћС‚РјРµС‚РєР° РѕР± СѓСЃС‚СЂР°РЅРµРЅРёРё РЅР°СЂСѓС€РµРЅРёСЏ
+     * Set the 'ControlStatusName' element value. Отметка об устранении нарушения
      * 
      * @param controlStatusName
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Р РµС€РµРЅРёСЏ РїРѕ РјРµСЂР°Рј РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°, РїСЂРёРЅСЏС‚С‹Рµ РёРЅСЃРїРµРєС‚РѕСЂР°РјРё СЃС‚СЂСѓРєС‚СѓСЂРЅС‹С… РёР»Рё РєРѕРѕСЂРґРёРЅРёСЂСѓСЋС‰РµРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёР№ С‚Р°РјРѕР¶РЅРё
+ * Решения по мерам по минимизации риска, принятые инспекторами структурных или координирующего подразделений таможни
  */
 public class MeasureDecisionsType
 {
@@ -35,7 +35,7 @@ public class MeasureDecisionsType
     private List<DecisionDescriptionType> decisionDescriptionList = new ArrayList<DecisionDescriptionType>();
 
     /** 
-     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РІС‹СЏРІР»РµРЅ СЂРёСЃРє.
+     * Get the 'GoodsNumeric' element value. Номер товара по ДТ, по которому выявлен риск.
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РІС‹СЏРІР»РµРЅ СЂРёСЃРє.
+     * Set the 'GoodsNumeric' element value. Номер товара по ДТ, по которому выявлен риск.
      * 
      * @param goodsNumeric
      */
@@ -53,7 +53,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'RiskProfileRegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°  (РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё)
+     * Get the 'RiskProfileRegDate' element value. Дата регистрации профиля риска  (ориентировки)
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'RiskProfileRegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°  (РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё)
+     * Set the 'RiskProfileRegDate' element value. Дата регистрации профиля риска  (ориентировки)
      * 
      * @param riskProfileRegDate
      */
@@ -71,7 +71,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'RiskProfileNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° (РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё)
+     * Get the 'RiskProfileNumber' element value. Порядковый номер профиля риска (ориентировки)
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'RiskProfileNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° (РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё)
+     * Set the 'RiskProfileNumber' element value. Порядковый номер профиля риска (ориентировки)
      * 
      * @param riskProfileNumber
      */
@@ -89,7 +89,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'RiskProfileNumberVersion' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° (РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё)
+     * Get the 'RiskProfileNumberVersion' element value. Порядковый номер версии профиля риска (ориентировки)
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'RiskProfileNumberVersion' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° (РѕСЂРёРµРЅС‚РёСЂРѕРІРєРё)
+     * Set the 'RiskProfileNumberVersion' element value. Порядковый номер версии профиля риска (ориентировки)
      * 
      * @param riskProfileNumberVersion
      */
@@ -107,7 +107,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'TerrActionCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'TerrActionCode' element value. Код вида документа
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'TerrActionCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'TerrActionCode' element value. Код вида документа
      * 
      * @param terrActionCode
      */
@@ -125,7 +125,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'CustomCode' element value. РљРѕРґ РўРћ, РІ РєРѕС‚РѕСЂРѕРј Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅ РџР  
+     * Get the 'CustomCode' element value. Код ТО, в котором зарегистрирован ПР 
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'CustomCode' element value. РљРѕРґ РўРћ, РІ РєРѕС‚РѕСЂРѕРј Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅ РџР  
+     * Set the 'CustomCode' element value. Код ТО, в котором зарегистрирован ПР 
      * 
      * @param customCode
      */
@@ -143,7 +143,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'RiskActionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'RiskActionDate' element value. Дата принятия решения
      * 
      * @return value
      */
@@ -152,7 +152,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'RiskActionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'RiskActionDate' element value. Дата принятия решения
      * 
      * @param riskActionDate
      */
@@ -161,7 +161,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'RiskActionTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'RiskActionTime' element value. Время принятия решения
      * 
      * @return value
      */
@@ -170,7 +170,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'RiskActionTime' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'RiskActionTime' element value. Время принятия решения
      * 
      * @param riskActionTime
      */
@@ -179,7 +179,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'MeasureCode' element value. РљРѕРґ РјРµСЂС‹ РЅР° РѕСЃРЅРѕРІР°РЅРёРё, РєРѕС‚РѕСЂРѕР№ Р±С‹Р»Рѕ СЃС„РѕСЂРјРёСЂРѕРІР°РЅРѕ РЅР°РїСЂР°РІР»РµРЅРёРµ РІ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅС‹Р№ РѕС‚РґРµР» РґР»СЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'MeasureCode' element value. Код меры на основании, которой было сформировано направление в функциональный отдел для принятия решения
      * 
      * @return value
      */
@@ -188,7 +188,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'MeasureCode' element value. РљРѕРґ РјРµСЂС‹ РЅР° РѕСЃРЅРѕРІР°РЅРёРё, РєРѕС‚РѕСЂРѕР№ Р±С‹Р»Рѕ СЃС„РѕСЂРјРёСЂРѕРІР°РЅРѕ РЅР°РїСЂР°РІР»РµРЅРёРµ РІ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅС‹Р№ РѕС‚РґРµР» РґР»СЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'MeasureCode' element value. Код меры на основании, которой было сформировано направление в функциональный отдел для принятия решения
      * 
      * @param measureCode
      */
@@ -197,7 +197,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'DecisionCustomCode' element value. РљРѕРґ РўРћ
+     * Get the 'DecisionCustomCode' element value. Код ТО
      * 
      * @return value
      */
@@ -206,7 +206,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'DecisionCustomCode' element value. РљРѕРґ РўРћ
+     * Set the 'DecisionCustomCode' element value. Код ТО
      * 
      * @param decisionCustomCode
      */
@@ -215,7 +215,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'DecisionSign' element value. РџСЂРёР·РЅР°Рє РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РїСЂРѕС„РёР»РµРј СЂРёСЃРєР°
+     * Get the 'DecisionSign' element value. Признак применения мер по минимизации рисков в соответствии с профилем риска
      * 
      * @return value
      */
@@ -224,7 +224,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'DecisionSign' element value. РџСЂРёР·РЅР°Рє РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РїСЂРѕС„РёР»РµРј СЂРёСЃРєР°
+     * Set the 'DecisionSign' element value. Признак применения мер по минимизации рисков в соответствии с профилем риска
      * 
      * @param decisionSign
      */
@@ -233,7 +233,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'DecisionAcceptCode' element value. РљРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РїСЂРёРјРµРЅРµРЅРёСЏ РїСЂСЏРјС‹С… РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ (RSKRMERA.DBF)
+     * Get the 'DecisionAcceptCode' element value. Код результатов применения прямых мер по минимизации рисков (RSKRMERA.DBF)
      * 
      * @return value
      */
@@ -242,7 +242,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'DecisionAcceptCode' element value. РљРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РїСЂРёРјРµРЅРµРЅРёСЏ РїСЂСЏРјС‹С… РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ (RSKRMERA.DBF)
+     * Set the 'DecisionAcceptCode' element value. Код результатов применения прямых мер по минимизации рисков (RSKRMERA.DBF)
      * 
      * @param decisionAcceptCode
      */
@@ -251,7 +251,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'DecisionDeclineCode' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёС‡РёРЅС‹ РЅРµРїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹
+     * Get the 'DecisionDeclineCode' element value. Обоснование причины неприменения меры
      * 
      * @return value
      */
@@ -260,7 +260,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'DecisionDeclineCode' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёС‡РёРЅС‹ РЅРµРїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹
+     * Set the 'DecisionDeclineCode' element value. Обоснование причины неприменения меры
      * 
      * @param decisionDeclineCode
      */
@@ -269,7 +269,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'DecisionDeclineReasonCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ РЅРµРїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РґР»СЏ СЃР»СѓС‡Р°СЏ РѕР±РѕСЃРЅРѕРІР°РЅРёСЏ РЅР°Р»РёС‡РёСЏ РѕР±СЉРµРєС‚РёРІРЅС‹С… РїСЂРёС‡РёРЅ РЅРµРїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹ (РїРѕР»Рµ DecisionDeclineCode='04')
+     * Get the 'DecisionDeclineReasonCode' element value. Код причины неприменения меры. Указывается для случая обоснования наличия объективных причин неприменения меры (поле DecisionDeclineCode='04')
      * 
      * @return value
      */
@@ -278,7 +278,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'DecisionDeclineReasonCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ РЅРµРїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РґР»СЏ СЃР»СѓС‡Р°СЏ РѕР±РѕСЃРЅРѕРІР°РЅРёСЏ РЅР°Р»РёС‡РёСЏ РѕР±СЉРµРєС‚РёРІРЅС‹С… РїСЂРёС‡РёРЅ РЅРµРїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹ (РїРѕР»Рµ DecisionDeclineCode='04')
+     * Set the 'DecisionDeclineReasonCode' element value. Код причины неприменения меры. Указывается для случая обоснования наличия объективных причин неприменения меры (поле DecisionDeclineCode='04')
      * 
      * @param decisionDeclineReasonCode
      */
@@ -287,7 +287,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'Mandatory' element value. РџСЂРёР·РЅР°Рє РѕР±СЏР·Р°С‚РµР»СЊРЅРѕСЃС‚Рё РїСЂРёРјРµРЅРµРЅРёСЏ РїСЂСЏРјС‹С… РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ
+     * Get the 'Mandatory' element value. Признак обязательности применения прямых мер по минимизации рисков
      * 
      * @return value
      */
@@ -296,7 +296,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'Mandatory' element value. РџСЂРёР·РЅР°Рє РѕР±СЏР·Р°С‚РµР»СЊРЅРѕСЃС‚Рё РїСЂРёРјРµРЅРµРЅРёСЏ РїСЂСЏРјС‹С… РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ
+     * Set the 'Mandatory' element value. Признак обязательности применения прямых мер по минимизации рисков
      * 
      * @param mandatory
      */
@@ -305,7 +305,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'PointCode' element value. Р­С‚Р°Рї РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕРІРµСЂРєРё РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїСЂРѕС„РёР»СЏРј СЂРёСЃРєР°
+     * Get the 'PointCode' element value. Этап проведения проверки на соответствие профилям риска
      * 
      * @return value
      */
@@ -314,7 +314,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'PointCode' element value. Р­С‚Р°Рї РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРѕРІРµСЂРєРё РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїСЂРѕС„РёР»СЏРј СЂРёСЃРєР°
+     * Set the 'PointCode' element value. Этап проведения проверки на соответствие профилям риска
      * 
      * @param pointCode
      */
@@ -348,7 +348,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'PersonName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'PersonName' element value. ФИО должностного лица таможенного органа
      * 
      * @return value
      */
@@ -357,7 +357,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'PersonName' element value. Р¤РРћ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'PersonName' element value. ФИО должностного лица таможенного органа
      * 
      * @param personName
      */
@@ -376,7 +376,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'LNP' element value. ЛНП должностного лица таможенного органа
      * 
      * @return value
      */
@@ -385,7 +385,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'LNP' element value. ЛНП должностного лица таможенного органа
      * 
      * @param LNP
      */
@@ -395,7 +395,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the list of 'DecisionArticles' element items. Р”РµР»Р° РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅС‹С… РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏС…, СѓРіРѕР»РѕРІРЅС‹Рµ РґРµР»Р°
+     * Get the list of 'DecisionArticles' element items. Дела об административных правонарушениях, уголовные дела
      * 
      * @return list
      */
@@ -404,7 +404,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the list of 'DecisionArticles' element items. Р”РµР»Р° РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅС‹С… РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏС…, СѓРіРѕР»РѕРІРЅС‹Рµ РґРµР»Р°
+     * Set the list of 'DecisionArticles' element items. Дела об административных правонарушениях, уголовные дела
      * 
      * @param list
      */
@@ -413,7 +413,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Get the list of 'DecisionDescription' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°СЂСѓС€РµРЅРёРё
+     * Get the list of 'DecisionDescription' element items. Сведения о нарушении
      * 
      * @return list
      */
@@ -422,7 +422,7 @@ public class MeasureDecisionsType
     }
 
     /** 
-     * Set the list of 'DecisionDescription' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°СЂСѓС€РµРЅРёРё
+     * Set the list of 'DecisionDescription' element items. Сведения о нарушении
      * 
      * @param list
      */

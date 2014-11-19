@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 
 /** 
- * РњРµС‚РѕРґ РІС‹С‡РёС‚Р°РЅРёСЏ. (4)
+ * Метод вычитания. (4)
  */
 public class DTSMethod4Type
 {
@@ -10,7 +10,7 @@ public class DTSMethod4Type
     private Method4DeductionType method4Deduction;
 
     /** 
-     * Get the 'Method4Basis' element value. РћСЃРЅРѕРІР° РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 4 РіСЂ. Рђ (11)
+     * Get the 'Method4Basis' element value. Основа для расчета таможенной стоимости по методу 4 гр. А (11)
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DTSMethod4Type
     }
 
     /** 
-     * Set the 'Method4Basis' element value. РћСЃРЅРѕРІР° РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 4 РіСЂ. Рђ (11)
+     * Set the 'Method4Basis' element value. Основа для расчета таможенной стоимости по методу 4 гр. А (11)
      * 
      * @param method4Basis
      */
@@ -28,7 +28,7 @@ public class DTSMethod4Type
     }
 
     /** 
-     * Get the 'Method4Deduction' element value. Р’С‹С‡РµС‚С‹ СЃСѓРјРј, РєРѕС‚РѕСЂС‹Рµ РІРѕС€Р»Рё РІ СЂР°Р·РґРµР» Рђ РіСЂ. Р‘ (12-17)
+     * Get the 'Method4Deduction' element value. Вычеты сумм, которые вошли в раздел А гр. Б (12-17)
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DTSMethod4Type
     }
 
     /** 
-     * Set the 'Method4Deduction' element value. Р’С‹С‡РµС‚С‹ СЃСѓРјРј, РєРѕС‚РѕСЂС‹Рµ РІРѕС€Р»Рё РІ СЂР°Р·РґРµР» Рђ РіСЂ. Р‘ (12-17)
+     * Set the 'Method4Deduction' element value. Вычеты сумм, которые вошли в раздел А гр. Б (12-17)
      * 
      * @param method4Deduction
      */

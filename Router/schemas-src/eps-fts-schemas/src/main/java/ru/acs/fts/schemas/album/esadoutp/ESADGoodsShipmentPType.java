@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADMainContractTermsType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё.
+ * Сведения о товарной партии.
  */
 public class ESADGoodsShipmentPType
 {
@@ -31,7 +31,7 @@ public class ESADGoodsShipmentPType
     private List<ConfirmingOrganizationType> confirmingOrganizationList = new ArrayList<ConfirmingOrganizationType>();
 
     /** 
-     * Get the 'OriginCountryName' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°. РќР°РёРјРµРЅРѕРІР°РЅРёРµ / СЂР°Р·РЅС‹Рµ / РЅРµРёР·РІРµСЃС‚РЅР°.
+     * Get the 'OriginCountryName' element value. Страна происхождения товара. Наименование / разные / неизвестна.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'OriginCountryName' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°. РќР°РёРјРµРЅРѕРІР°РЅРёРµ / СЂР°Р·РЅС‹Рµ / РЅРµРёР·РІРµСЃС‚РЅР°.
+     * Set the 'OriginCountryName' element value. Страна происхождения товара. Наименование / разные / неизвестна.
      * 
      * @param originCountryName
      */
@@ -49,7 +49,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'TotalPackageNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.
+     * Get the 'TotalPackageNumber' element value. Общее количество грузовых мест.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'TotalPackageNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.
+     * Set the 'TotalPackageNumber' element value. Общее количество грузовых мест.
      * 
      * @param totalPackageNumber
      */
@@ -67,7 +67,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'TotalCustCost' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚РѕРёРјРѕСЃС‚Рё/РѕР±С‰Р°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Get the 'TotalCustCost' element value. Сведения о стоимости/общая таможенная стоимость
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'TotalCustCost' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚РѕРёРјРѕСЃС‚Рё/РѕР±С‰Р°СЏ С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Set the 'TotalCustCost' element value. Сведения о стоимости/общая таможенная стоимость
      * 
      * @param totalCustCost
      */
@@ -85,7 +85,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'CustCostCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
+     * Get the 'CustCostCurrencyCode' element value. Цифровой код валюты таможенной стоимости.
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'CustCostCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
+     * Set the 'CustCostCurrencyCode' element value. Цифровой код валюты таможенной стоимости.
      * 
      * @param custCostCurrencyCode
      */
@@ -103,7 +103,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'TotalGrossWeight' element value. РћР±С‰РёР№ РІРµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'TotalGrossWeight' element value. Общий вес товара брутто (кг)
      * 
      * @return value
      */
@@ -112,7 +112,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'TotalGrossWeight' element value. РћР±С‰РёР№ РІРµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'TotalGrossWeight' element value. Общий вес товара брутто (кг)
      * 
      * @param totalGrossWeight
      */
@@ -121,7 +121,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'ConsignmentIdentifier' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРµСЂРµРІРѕР·РєРё
+     * Get the 'ConsignmentIdentifier' element value. Уникальный номер перевозки
      * 
      * @return value
      */
@@ -130,7 +130,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'ConsignmentIdentifier' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРµСЂРµРІРѕР·РєРё
+     * Set the 'ConsignmentIdentifier' element value. Уникальный номер перевозки
      * 
      * @param consignmentIdentifier
      */
@@ -139,7 +139,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'DepartureCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DepartureCustomsCode' element value. Код таможенного органа отправления
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'DepartureCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DepartureCustomsCode' element value. Код таможенного органа отправления
      * 
      * @param departureCustomsCode
      */
@@ -157,7 +157,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'BorderCustomsOffice' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РІС‹РІРѕР·Р°
+     * Get the 'BorderCustomsOffice' element value. Код таможенного органа вывоза
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'BorderCustomsOffice' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РІС‹РІРѕР·Р°
+     * Set the 'BorderCustomsOffice' element value. Код таможенного органа вывоза
      * 
      * @param borderCustomsOffice
      */
@@ -175,7 +175,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'ESADoutConsignorP' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'ESADoutConsignorP' element value. Сведения об отправителе товаров
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'ESADoutConsignorP' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'ESADoutConsignorP' element value. Сведения об отправителе товаров
      * 
      * @param ESADoutConsignorP
      */
@@ -193,7 +193,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'ESADoutConsigneeP' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'ESADoutConsigneeP' element value. Сведения о получателе товаров
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'ESADoutConsigneeP' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'ESADoutConsigneeP' element value. Сведения о получателе товаров
      * 
      * @param ESADoutConsigneeP
      */
@@ -211,7 +211,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'ESADoutCarrierP' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'ESADoutCarrierP' element value. Сведения о перевозчике товаров
      * 
      * @return value
      */
@@ -220,7 +220,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'ESADoutCarrierP' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'ESADoutCarrierP' element value. Сведения о перевозчике товаров
      * 
      * @param ESADoutCarrierP
      */
@@ -229,7 +229,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'ESADoutDeclarantP' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'ESADoutDeclarantP' element value. Сведения о декларанте товаров
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'ESADoutDeclarantP' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'ESADoutDeclarantP' element value. Сведения о декларанте товаров
      * 
      * @param ESADoutDeclarantP
      */
@@ -247,7 +247,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'ESADoutMainContractTermsP' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓСЃР»РѕРІРёСЏС… СЃРґРµР»РєРё
+     * Get the 'ESADoutMainContractTermsP' element value. Сведения об условиях сделки
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'ESADoutMainContractTermsP' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓСЃР»РѕРІРёСЏС… СЃРґРµР»РєРё
+     * Set the 'ESADoutMainContractTermsP' element value. Сведения об условиях сделки
      * 
      * @param ESADoutMainContractTermsP
      */
@@ -266,7 +266,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'ESADoutConsigmenP' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'ESADoutConsigmenP' element value. Сведения о перевозке товаров
      * 
      * @return value
      */
@@ -275,7 +275,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'ESADoutConsigmenP' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'ESADoutConsigmenP' element value. Сведения о перевозке товаров
      * 
      * @param ESADoutConsigmenP
      */
@@ -284,7 +284,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the list of 'ESADoutGoodsP' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Get the list of 'ESADoutGoodsP' element items. Сведения о товаре
      * 
      * @return list
      */
@@ -293,7 +293,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the list of 'ESADoutGoodsP' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Set the list of 'ESADoutGoodsP' element items. Сведения о товаре
      * 
      * @param list
      */
@@ -302,7 +302,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the 'CustomsPaymentsP' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё Рє СѓРїР»Р°С‚Рµ
+     * Get the 'CustomsPaymentsP' element value. Таможенные платежи к уплате
      * 
      * @return value
      */
@@ -311,7 +311,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the 'CustomsPaymentsP' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё Рє СѓРїР»Р°С‚Рµ
+     * Set the 'CustomsPaymentsP' element value. Таможенные платежи к уплате
      * 
      * @param customsPaymentsP
      */
@@ -320,7 +320,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the list of 'TransportDocument' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Get the list of 'TransportDocument' element items. Информация о транспортных документах
      * 
      * @return list
      */
@@ -329,7 +329,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the list of 'TransportDocument' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Set the list of 'TransportDocument' element items. Информация о транспортных документах
      * 
      * @param list
      */
@@ -338,7 +338,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Get the list of 'ConfirmingOrganization' element items. РЈРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№
+     * Get the list of 'ConfirmingOrganization' element items. Удостоверяющий
      * 
      * @return list
      */
@@ -347,7 +347,7 @@ public class ESADGoodsShipmentPType
     }
 
     /** 
-     * Set the list of 'ConfirmingOrganization' element items. РЈРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№
+     * Set the list of 'ConfirmingOrganization' element items. Удостоверяющий
      * 
      * @param list
      */

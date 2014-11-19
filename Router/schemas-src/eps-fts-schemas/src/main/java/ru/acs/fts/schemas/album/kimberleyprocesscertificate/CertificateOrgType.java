@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РћСЂРіР°РЅ СЃРµСЂС‚РёС„РёРєР°С†РёРё
+ * Орган сертификации
  */
 public class CertificateOrgType extends OrganizationType
 {
     private DocumentBaseType licenseDocument;
 
     /** 
-     * Get the 'LicenseDocument' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ РїСЂР°РІРѕ РЅР° РІС‹РґР°С‡Сѓ СЃРµСЂС‚РёС„РёРєР°С‚РѕРІ
+     * Get the 'LicenseDocument' element value. Документ, подтверждающий право на выдачу сертификатов
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class CertificateOrgType extends OrganizationType
     }
 
     /** 
-     * Set the 'LicenseDocument' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ РїСЂР°РІРѕ РЅР° РІС‹РґР°С‡Сѓ СЃРµСЂС‚РёС„РёРєР°С‚РѕРІ
+     * Set the 'LicenseDocument' element value. Документ, подтверждающий право на выдачу сертификатов
      * 
      * @param licenseDocument
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С… РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ, РѕС„РѕСЂРјР»СЏРµРјРѕРіРѕ РїСЂРё РІРІРѕР·Рµ Рё РІС‹РІРѕР·Рµ РґСЂР°РіРѕС†РµРЅРЅС‹С… РєР°РјРЅРµР№, Рё РѕС†РµРЅРєРё СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ, СЃРѕРґРµСЂР¶Р°С‰РёС… РґСЂР°РіРѕС†РµРЅРЅС‹Рµ РјРµС‚Р°Р»Р»С‹ Рё РґСЂР°РіРѕС†РµРЅРЅС‹Рµ РєР°РјРЅРё, РІРІРѕР·РёРјС‹С…(РІС‹РІРѕР·РёРјС‹С…) РЅР°(СЃ) С‚РµСЂСЂРёС‚РѕСЂРёСЋ(РёРё) РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
+ * Ответ на запрос сведений о документах государственного контроля, оформляемого при ввозе и вывозе драгоценных камней, и оценки стоимости товаров, содержащих драгоценные металлы и драгоценные камни, ввозимых(вывозимых) на(с) территорию(ии) государства - члена Таможенного союза
  */
 public class MinFinMetalStoneInOutType extends BaseDocType
 {
@@ -34,7 +34,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @param isCanceled
      */
@@ -52,7 +52,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -70,7 +70,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РіРѕСЃРєРѕРЅС‚СЂРѕР»СЊ Рё РѕС†РµРЅРєР° СЃС‚РѕРёРјРѕСЃС‚Рё РґСЂР°РіРѕС†РµРЅРЅС‹С… РјРµС‚Р°Р»Р»РѕРІ, СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјС‹С… РёР· РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°; 2 - РіРѕСЃРєРѕРЅС‚СЂРѕР»СЊ, РѕС„РѕСЂРјР»СЏРµРјС‹Р№ РїСЂРё РІРІРѕР·Рµ Рё РІС‹РІРѕР·Рµ РґСЂР°РіРѕС†РµРЅРЅС‹С… РєР°РјРЅРµР№; 3 - РіРѕСЃРєРѕРЅС‚СЂРѕР»СЊ Рё РѕС†РµРЅРєР° СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ, СЃРѕРґРµСЂР¶Р°С‰РёС… РґСЂР°РіРѕС†РµРЅРЅС‹Рµ РјРµС‚Р°Р»Р»С‹ Рё РґСЂР°РіРѕС†РµРЅРЅС‹Рµ РєР°РјРЅРё, РІС‹РІРѕР·РёРјС‹С… СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р° ; 4 - РіРѕСЃРєРѕРЅС‚СЂРѕР»СЊ С‚РѕРІР°СЂРѕРІ, СЃРѕРґРµСЂР¶Р°С‰РёС… РґСЂР°РіРѕС†РµРЅРЅС‹Рµ РјРµС‚Р°Р»Р»С‹ Рё РґСЂР°РіРѕС†РµРЅРЅС‹Рµ РєР°РјРЅРё, РІРІРѕР·РёРјС‹С… РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
+     * Get the 'DocSign' element value. Признак документа: 1 - госконтроль и оценка стоимости драгоценных металлов, экспортируемых из Таможенного союза; 2 - госконтроль, оформляемый при ввозе и вывозе драгоценных камней; 3 - госконтроль и оценка стоимости товаров, содержащих драгоценные металлы и драгоценные камни, вывозимых с территории государства - члена Таможенного союза ; 4 - госконтроль товаров, содержащих драгоценные металлы и драгоценные камни, ввозимых на территорию государства - члена Таможенного союза
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РіРѕСЃРєРѕРЅС‚СЂРѕР»СЊ Рё РѕС†РµРЅРєР° СЃС‚РѕРёРјРѕСЃС‚Рё РґСЂР°РіРѕС†РµРЅРЅС‹С… РјРµС‚Р°Р»Р»РѕРІ, СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјС‹С… РёР· РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°; 2 - РіРѕСЃРєРѕРЅС‚СЂРѕР»СЊ, РѕС„РѕСЂРјР»СЏРµРјС‹Р№ РїСЂРё РІРІРѕР·Рµ Рё РІС‹РІРѕР·Рµ РґСЂР°РіРѕС†РµРЅРЅС‹С… РєР°РјРЅРµР№; 3 - РіРѕСЃРєРѕРЅС‚СЂРѕР»СЊ Рё РѕС†РµРЅРєР° СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ, СЃРѕРґРµСЂР¶Р°С‰РёС… РґСЂР°РіРѕС†РµРЅРЅС‹Рµ РјРµС‚Р°Р»Р»С‹ Рё РґСЂР°РіРѕС†РµРЅРЅС‹Рµ РєР°РјРЅРё, РІС‹РІРѕР·РёРјС‹С… СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р° ; 4 - РіРѕСЃРєРѕРЅС‚СЂРѕР»СЊ С‚РѕРІР°СЂРѕРІ, СЃРѕРґРµСЂР¶Р°С‰РёС… РґСЂР°РіРѕС†РµРЅРЅС‹Рµ РјРµС‚Р°Р»Р»С‹ Рё РґСЂР°РіРѕС†РµРЅРЅС‹Рµ РєР°РјРЅРё, РІРІРѕР·РёРјС‹С… РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РіРѕСЃСѓРґР°СЂСЃС‚РІР° - С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
+     * Set the 'DocSign' element value. Признак документа: 1 - госконтроль и оценка стоимости драгоценных металлов, экспортируемых из Таможенного союза; 2 - госконтроль, оформляемый при ввозе и вывозе драгоценных камней; 3 - госконтроль и оценка стоимости товаров, содержащих драгоценные металлы и драгоценные камни, вывозимых с территории государства - члена Таможенного союза ; 4 - госконтроль товаров, содержащих драгоценные металлы и драгоценные камни, ввозимых на территорию государства - члена Таможенного союза
      * 
      * @param docSign
      */
@@ -88,7 +88,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'ControlResult' element value. Р РµР·СѓР»СЊС‚Р°С‚С‹ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'ControlResult' element value. Результаты государственного контроля
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'ControlResult' element value. Р РµР·СѓР»СЊС‚Р°С‚С‹ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'ControlResult' element value. Результаты государственного контроля
      * 
      * @param controlResult
      */
@@ -106,7 +106,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'ControlDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РіРѕСЃРєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'ControlDate' element value. Дата проведения госконтроля
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'ControlDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РіРѕСЃРєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'ControlDate' element value. Дата проведения госконтроля
      * 
      * @param controlDate
      */
@@ -124,7 +124,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalPrice' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РїР°СЂС‚РёРё
+     * Get the 'TotalPrice' element value. Стоимость партии
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalPrice' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РїР°СЂС‚РёРё
+     * Set the 'TotalPrice' element value. Стоимость партии
      * 
      * @param totalPrice
      */
@@ -142,7 +142,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalWeight' element value. РћР±С‰Р°СЏ РјР°СЃСЃР° РїР°СЂС‚РёРё
+     * Get the 'TotalWeight' element value. Общая масса партии
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalWeight' element value. РћР±С‰Р°СЏ РјР°СЃСЃР° РїР°СЂС‚РёРё
+     * Set the 'TotalWeight' element value. Общая масса партии
      * 
      * @param totalWeight
      */
@@ -160,7 +160,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'PlaceCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚
+     * Get the 'PlaceCount' element value. Количество мест
      * 
      * @return value
      */
@@ -169,7 +169,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'PlaceCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚
+     * Set the 'PlaceCount' element value. Количество мест
      * 
      * @param placeCount
      */
@@ -178,7 +178,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'Act' element value. РђРєС‚ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'Act' element value. Акт государственного контроля
      * 
      * @return value
      */
@@ -187,7 +187,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'Act' element value. РђРєС‚ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'Act' element value. Акт государственного контроля
      * 
      * @param act
      */
@@ -196,7 +196,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. РљРѕРЅС‚СЂР°РєС‚
+     * Get the 'Contract' element value. Контракт
      * 
      * @return value
      */
@@ -205,7 +205,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. РљРѕРЅС‚СЂР°РєС‚
+     * Set the 'Contract' element value. Контракт
      * 
      * @param contract
      */
@@ -214,7 +214,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'License' element value. Р›РёС†РµРЅР·РёСЏ
+     * Get the 'License' element value. Лицензия
      * 
      * @return value
      */
@@ -223,7 +223,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'License' element value. Р›РёС†РµРЅР·РёСЏ
+     * Set the 'License' element value. Лицензия
      * 
      * @param license
      */
@@ -232,7 +232,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'Certificate' element value. РЎРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'Certificate' element value. Сертификат
      * 
      * @return value
      */
@@ -241,7 +241,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'Certificate' element value. РЎРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'Certificate' element value. Сертификат
      * 
      * @param certificate
      */
@@ -250,7 +250,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'Specification' element value. РЎРїРµС†РёС„РёРєР°С†РёСЏ
+     * Get the 'Specification' element value. Спецификация
      * 
      * @return value
      */
@@ -259,7 +259,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'Specification' element value. РЎРїРµС†РёС„РёРєР°С†РёСЏ
+     * Set the 'Specification' element value. Спецификация
      * 
      * @param specification
      */
@@ -268,7 +268,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'Invoice' element value. РРЅРІРѕР№СЃ
+     * Get the 'Invoice' element value. Инвойс
      * 
      * @return value
      */
@@ -277,7 +277,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'Invoice' element value. РРЅРІРѕР№СЃ
+     * Set the 'Invoice' element value. Инвойс
      * 
      * @param invoice
      */
@@ -286,7 +286,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProductDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'ProductDescription' element value. Описание товара
      * 
      * @return value
      */
@@ -295,7 +295,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProductDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'ProductDescription' element value. Описание товара
      * 
      * @param productDescription
      */
@@ -304,7 +304,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'OwnerOrg' element value. РЎРѕР±СЃС‚РІРµРЅРЅРёРє
+     * Get the 'OwnerOrg' element value. Собственник
      * 
      * @return value
      */
@@ -313,7 +313,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'OwnerOrg' element value. РЎРѕР±СЃС‚РІРµРЅРЅРёРє
+     * Set the 'OwnerOrg' element value. Собственник
      * 
      * @param ownerOrg
      */
@@ -322,7 +322,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'Exporter' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ-СЌРєСЃРїРѕСЂС‚РµСЂ
+     * Get the 'Exporter' element value. Организация-экспортер
      * 
      * @return value
      */
@@ -331,7 +331,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'Exporter' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ-СЌРєСЃРїРѕСЂС‚РµСЂ
+     * Set the 'Exporter' element value. Организация-экспортер
      * 
      * @param exporter
      */
@@ -340,7 +340,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'Importer' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ-РёРјРїРѕСЂС‚РµСЂ
+     * Get the 'Importer' element value. Организация-импортер
      * 
      * @return value
      */
@@ -349,7 +349,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'Importer' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ-РёРјРїРѕСЂС‚РµСЂ
+     * Set the 'Importer' element value. Организация-импортер
      * 
      * @param importer
      */
@@ -358,7 +358,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'CargoHandler' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ (РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ)
+     * Get the 'CargoHandler' element value. Грузополучатель (грузоотправитель)
      * 
      * @return value
      */
@@ -367,7 +367,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'CargoHandler' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ (РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ)
+     * Set the 'CargoHandler' element value. Грузополучатель (грузоотправитель)
      * 
      * @param cargoHandler
      */
@@ -376,7 +376,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'ControlOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё РіРѕСЃРєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'ControlOrganization' element value. Наименование организации госконтроля
      * 
      * @return value
      */
@@ -385,7 +385,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'ControlOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё РіРѕСЃРєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'ControlOrganization' element value. Наименование организации госконтроля
      * 
      * @param controlOrganization
      */
@@ -394,7 +394,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -403,7 +403,7 @@ public class MinFinMetalStoneInOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р”Рў Рё РґРѕРєСѓРјРµРЅС‚Рµ РїРѕ Р·Р°РїСЂРѕСЃСѓ
+ * Информация о ДТ и документе по запросу
  */
 public class RequestMCAType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class RequestMCAType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'TransitDirectionCode' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ
+     * Get the 'TransitDirectionCode' element value. Направление перемещения
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransitDirectionCode' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ
+     * Set the 'TransitDirectionCode' element value. Направление перемещения
      * 
      * @param transitDirectionCode
      */
@@ -44,7 +44,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РґРѕРіРѕРІРѕСЂР° (Р±СѓРєРІРµРЅРЅС‹Р№)
+     * Get the 'CurrencyCode' element value. Код валюты договора (буквенный)
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РґРѕРіРѕРІРѕСЂР° (Р±СѓРєРІРµРЅРЅС‹Р№)
+     * Set the 'CurrencyCode' element value. Код валюты договора (буквенный)
      * 
      * @param currencyCode
      */
@@ -62,7 +62,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentsFact' element value. Р¤Р°РєС‚ РЅР°Р»РёС‡РёСЏ РІ Р”РўРЎ Р»РёС†РµРЅР·РёРѕРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Get the 'PaymentsFact' element value. Факт наличия в ДТС лицензионных платежей
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentsFact' element value. Р¤Р°РєС‚ РЅР°Р»РёС‡РёСЏ РІ Р”РўРЎ Р»РёС†РµРЅР·РёРѕРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Set the 'PaymentsFact' element value. Факт наличия в ДТС лицензионных платежей
      * 
      * @param paymentsFact
      */
@@ -80,7 +80,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'OtherPaymentsFact' element value. Р¤Р°РєС‚ РЅР°Р»РёС‡РёСЏ РІ Р”Рў РёРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Get the 'OtherPaymentsFact' element value. Факт наличия в ДТ иных платежей
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'OtherPaymentsFact' element value. Р¤Р°РєС‚ РЅР°Р»РёС‡РёСЏ РІ Р”Рў РёРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Set the 'OtherPaymentsFact' element value. Факт наличия в ДТ иных платежей
      * 
      * @param otherPaymentsFact
      */
@@ -98,7 +98,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'VendorInfo' element value. РћРїРёСЃР°РЅРёРµ РїСЂРѕРґР°РІС†Р°
+     * Get the 'VendorInfo' element value. Описание продавца
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'VendorInfo' element value. РћРїРёСЃР°РЅРёРµ РїСЂРѕРґР°РІС†Р°
+     * Set the 'VendorInfo' element value. Описание продавца
      * 
      * @param vendorInfo
      */
@@ -116,7 +116,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'DTRegNumber' element value. Регистрационный номер ДТ
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'DTRegNumber' element value. Регистрационный номер ДТ
      * 
      * @param DTRegNumber
      */
@@ -134,7 +134,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consigner' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ С‚РѕРІР°СЂР°
+     * Get the 'Consigner' element value. Отправитель товара
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consigner' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ С‚РѕРІР°СЂР°
+     * Set the 'Consigner' element value. Отправитель товара
      * 
      * @param consigner
      */
@@ -152,7 +152,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ С‚РѕРІР°СЂР°
+     * Get the 'Consignee' element value. Получатель товара
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ С‚РѕРІР°СЂР°
+     * Set the 'Consignee' element value. Получатель товара
      * 
      * @param consignee
      */
@@ -170,7 +170,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractHolder' element value. РљРѕРЅС‚СЂР°РєС‚РѕРґРµСЂР¶Р°С‚РµР»СЊ
+     * Get the 'ContractHolder' element value. Контрактодержатель
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractHolder' element value. РљРѕРЅС‚СЂР°РєС‚РѕРґРµСЂР¶Р°С‚РµР»СЊ
+     * Set the 'ContractHolder' element value. Контрактодержатель
      * 
      * @param contractHolder
      */
@@ -188,7 +188,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'Buyer' element value. РџРѕРєСѓРїР°С‚РµР»СЊ
+     * Get the 'Buyer' element value. Покупатель
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'Buyer' element value. РџРѕРєСѓРїР°С‚РµР»СЊ
+     * Set the 'Buyer' element value. Покупатель
      * 
      * @param buyer
      */
@@ -206,7 +206,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ITSInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїРѕР·РёС†РёРё РїРѕ Р·Р°РїСЂРѕСЃСѓ
+     * Get the list of 'ITSInfo' element items. Информация о товарной позиции по запросу
      * 
      * @return list
      */
@@ -215,7 +215,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ITSInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїРѕР·РёС†РёРё РїРѕ Р·Р°РїСЂРѕСЃСѓ
+     * Set the list of 'ITSInfo' element items. Информация о товарной позиции по запросу
      * 
      * @param list
      */
@@ -224,7 +224,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -233,7 +233,7 @@ public class RequestMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

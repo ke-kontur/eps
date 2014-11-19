@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚С‹ СЃРїРёСЃР°РЅРёСЏ СЃСЂРµРґСЃС‚РІ СЃ Р»РёС†РµРІРѕРіРѕ СЃС‡РµС‚Р° СѓС‡Р°СЃС‚РЅРёРєР° Р’Р­Р”
+ * Результаты списания средств с лицевого счета участника ВЭД
  */
 public class ChargeOffResultType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class ChargeOffResultType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ Р·Р°РїСЂРѕСЃ.
+     * Get the 'CustomsCode' element value. Код таможенного органа, осуществляющего запрос.
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ChargeOffResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ Р·Р°РїСЂРѕСЃ.
+     * Set the 'CustomsCode' element value. Код таможенного органа, осуществляющего запрос.
      * 
      * @param customsCode
      */
@@ -37,7 +37,7 @@ public class ChargeOffResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResponseStatus' element value. РЎРїРёСЃРѕРє СЃС‚Р°С‚СѓСЃРѕРІ РѕС‚РІРµС‚Р°.
+     * Get the 'ResponseStatus' element value. Список статусов ответа.
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ChargeOffResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResponseStatus' element value. РЎРїРёСЃРѕРє СЃС‚Р°С‚СѓСЃРѕРІ РѕС‚РІРµС‚Р°.
+     * Set the 'ResponseStatus' element value. Список статусов ответа.
      * 
      * @param responseStatus
      */
@@ -55,7 +55,7 @@ public class ChargeOffResultType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PaymentOrder' element items. РџР»Р°С‚РµР¶РЅС‹Рµ РїРѕСЂСѓС‡РµРЅРёСЏ
+     * Get the list of 'PaymentOrder' element items. Платежные поручения
      * 
      * @return list
      */
@@ -64,7 +64,7 @@ public class ChargeOffResultType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PaymentOrder' element items. РџР»Р°С‚РµР¶РЅС‹Рµ РїРѕСЂСѓС‡РµРЅРёСЏ
+     * Set the list of 'PaymentOrder' element items. Платежные поручения
      * 
      * @param list
      */
@@ -73,7 +73,7 @@ public class ChargeOffResultType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ListCurrency' element items. РЎРїРёСЃРѕРє РІР°Р»СЋС‚, РїРѕ РєРѕС‚РѕСЂС‹Рј РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ СЃСЂРµРґСЃС‚РІ РїСЂРё СЃРїРёСЃР°РЅРёРё СЃСЂРµРґСЃС‚РІ (С‚РѕР»СЊРєРѕ РґР»СЏ СЃС‚Р°С‚СѓСЃР° D)
+     * Get the list of 'ListCurrency' element items. Список валют, по которым недостаточно средств при списании средств (только для статуса D)
      * 
      * @return list
      */
@@ -82,7 +82,7 @@ public class ChargeOffResultType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ListCurrency' element items. РЎРїРёСЃРѕРє РІР°Р»СЋС‚, РїРѕ РєРѕС‚РѕСЂС‹Рј РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ СЃСЂРµРґСЃС‚РІ РїСЂРё СЃРїРёСЃР°РЅРёРё СЃСЂРµРґСЃС‚РІ (С‚РѕР»СЊРєРѕ РґР»СЏ СЃС‚Р°С‚СѓСЃР° D)
+     * Set the list of 'ListCurrency' element items. Список валют, по которым недостаточно средств при списании средств (только для статуса D)
      * 
      * @param list
      */
@@ -91,7 +91,7 @@ public class ChargeOffResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў, РґР»СЏ РєРѕС‚РѕСЂРѕР№ РїСЂРѕРІРѕРґРёР»РѕСЃСЊ СЃРїРёСЃР°РЅРёРµ СЃСЂРµРґСЃС‚РІ
+     * Get the 'GTDID' element value. Номер ДТ, для которой проводилось списание средств
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class ChargeOffResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў, РґР»СЏ РєРѕС‚РѕСЂРѕР№ РїСЂРѕРІРѕРґРёР»РѕСЃСЊ СЃРїРёСЃР°РЅРёРµ СЃСЂРµРґСЃС‚РІ
+     * Set the 'GTDID' element value. Номер ДТ, для которой проводилось списание средств
      * 
      * @param GTDID
      */
@@ -109,7 +109,7 @@ public class ChargeOffResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ChargeOffResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

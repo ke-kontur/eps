@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ktsin;
 import org.joda.time.LocalDate;
 
 /** 
- * РљРўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РѕР±С‰РёРµ.
+ * КТС. Внутренний формат. Служебные отметки общие.
  */
 public class KTSinCommonOfficialMarkType
 {
@@ -18,7 +18,7 @@ public class KTSinCommonOfficialMarkType
     private String timeInf;
 
     /** 
-     * Get the 'RecordSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё 
+     * Get the 'RecordSerialNumber' element value. Порядковый номер записи 
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'RecordSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё 
+     * Set the 'RecordSerialNumber' element value. Порядковый номер записи 
      * 
      * @param recordSerialNumber
      */
@@ -36,7 +36,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'ColumnCode' element value. РќРѕРјРµСЂ РіСЂР°С„С‹
+     * Get the 'ColumnCode' element value. Номер графы
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'ColumnCode' element value. РќРѕРјРµСЂ РіСЂР°С„С‹
+     * Set the 'ColumnCode' element value. Номер графы
      * 
      * @param columnCode
      */
@@ -54,7 +54,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'OfficialRecord' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ 
+     * Get the 'OfficialRecord' element value. Служебная запись 
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'OfficialRecord' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ 
+     * Set the 'OfficialRecord' element value. Служебная запись 
      * 
      * @param officialRecord
      */
@@ -72,7 +72,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'ReserveMarkIdentifier' element value. Р РµР·РµСЂРІ - РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё
+     * Get the 'ReserveMarkIdentifier' element value. Резерв - Идентификатор проставленной технологической отметки
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'ReserveMarkIdentifier' element value. Р РµР·РµСЂРІ - РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё
+     * Set the 'ReserveMarkIdentifier' element value. Резерв - Идентификатор проставленной технологической отметки
      * 
      * @param reserveMarkIdentifier
      */
@@ -90,7 +90,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'PersonName' element value. Р¤РРћ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
+     * Get the 'PersonName' element value. ФИО инспектора, заверившего запись
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'PersonName' element value. Р¤РРћ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
+     * Set the 'PersonName' element value. ФИО инспектора, заверившего запись
      * 
      * @param personName
      */
@@ -108,7 +108,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'LNP' element value. РќРѕРјРµСЂ Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
+     * Get the 'LNP' element value. Номер ЛНП инспектора, заверившего запись
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'LNP' element value. РќРѕРјРµСЂ Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
+     * Set the 'LNP' element value. Номер ЛНП инспектора, заверившего запись
      * 
      * @param LNP
      */
@@ -126,7 +126,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'DateInf' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃРё / РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё.
+     * Get the 'DateInf' element value. Дата подписи / внесения служебной отметки.
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'DateInf' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃРё / РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё.
+     * Set the 'DateInf' element value. Дата подписи / внесения служебной отметки.
      * 
      * @param dateInf
      */
@@ -144,7 +144,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'TimeInf' element value. Р’СЂРµРјСЏ РїРѕРґРїРёСЃРё / РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё.
+     * Get the 'TimeInf' element value. Время подписи / внесения служебной отметки.
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class KTSinCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'TimeInf' element value. Р’СЂРµРјСЏ РїРѕРґРїРёСЃРё / РІРЅРµСЃРµРЅРёСЏ СЃР»СѓР¶РµР±РЅРѕР№ РѕС‚РјРµС‚РєРё.
+     * Set the 'TimeInf' element value. Время подписи / внесения служебной отметки.
      * 
      * @param timeInf
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.represapplicstatinfo;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+ * Регистрационный номер документа
  */
 public class DocIDType
 {
@@ -40,7 +40,7 @@ public class DocIDType
     }
 
     /** 
-     * Get the 'DTRegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂРµРµСЃС‚СЂР° С‚РѕРІР°СЂРѕРІ
+     * Get the 'DTRegNum' element value. Регистрационный номер реестра товаров
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class DocIDType
     }
 
     /** 
-     * Set the 'DTRegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂРµРµСЃС‚СЂР° С‚РѕРІР°СЂРѕРІ
+     * Set the 'DTRegNum' element value. Регистрационный номер реестра товаров
      * 
      * @param DTRegNum
      */
@@ -68,7 +68,7 @@ public class DocIDType
     }
 
     /** 
-     * Get the 'MPORegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РњРџРћ
+     * Get the 'MPORegNum' element value. Регистрационный номер МПО
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class DocIDType
     }
 
     /** 
-     * Set the 'MPORegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РњРџРћ
+     * Set the 'MPORegNum' element value. Регистрационный номер МПО
      * 
      * @param MPORegNum
      */

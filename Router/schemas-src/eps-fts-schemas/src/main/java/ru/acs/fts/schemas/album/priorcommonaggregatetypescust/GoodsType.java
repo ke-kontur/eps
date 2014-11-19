@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GoodsBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsType extends GoodsBaseType
 {
@@ -20,7 +20,7 @@ public class GoodsType extends GoodsBaseType
     private GoodsPackagingType goodsPackaging;
 
     /** 
-     * Get the list of 'ContainerNumbers' element items. РќРѕРјРµСЂР° РєРѕРЅС‚РµР№РЅРµСЂРѕРІ
+     * Get the list of 'ContainerNumbers' element items. Номера контейнеров
      * 
      * @return list
      */
@@ -29,7 +29,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the list of 'ContainerNumbers' element items. РќРѕРјРµСЂР° РєРѕРЅС‚РµР№РЅРµСЂРѕРІ
+     * Set the list of 'ContainerNumbers' element items. Номера контейнеров
      * 
      * @param list
      */
@@ -38,7 +38,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°.
+     * Get the 'OriginCountryCode' element value. Буквенный код страны происхождения товара.
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°.
+     * Set the 'OriginCountryCode' element value. Буквенный код страны происхождения товара.
      * 
      * @param originCountryCode
      */
@@ -56,7 +56,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'InvoicedCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Get the 'InvoicedCost' element value. Фактурная стоимость
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'InvoicedCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Set the 'InvoicedCost' element value. Фактурная стоимость
      * 
      * @param invoicedCost
      */
@@ -74,7 +74,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹
+     * Get the 'CurrencyCode' element value. Буквенный код валюты
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹
+     * Set the 'CurrencyCode' element value. Буквенный код валюты
      * 
      * @param currencyCode
      */
@@ -92,7 +92,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
+     * Get the 'CurrencyRate' element value. Курс валюты
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
+     * Set the 'CurrencyRate' element value. Курс валюты
      * 
      * @param currencyRate
      */
@@ -110,7 +110,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsMeasureQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'GoodsMeasureQuantity' element value. Количество товара в дополнительных единицах измерения
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsMeasureQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'GoodsMeasureQuantity' element value. Количество товара в дополнительных единицах измерения
      * 
      * @param goodsMeasureQuantity
      */
@@ -129,7 +129,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the list of 'PresentedDocuments' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ Рё РєРѕРјРјРµСЂС‡РµСЃРєРёРµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the list of 'PresentedDocuments' element items. Транспортные и коммерческие документы
      * 
      * @return list
      */
@@ -138,7 +138,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the list of 'PresentedDocuments' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ Рё РєРѕРјРјРµСЂС‡РµСЃРєРёРµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the list of 'PresentedDocuments' element items. Транспортные и коммерческие документы
      * 
      * @param list
      */
@@ -147,7 +147,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'GoodsPackaging' element value. Сведения о грузовых местах, и упаковке товаров
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'GoodsPackaging' element value. Сведения о грузовых местах, и упаковке товаров
      * 
      * @param goodsPackaging
      */

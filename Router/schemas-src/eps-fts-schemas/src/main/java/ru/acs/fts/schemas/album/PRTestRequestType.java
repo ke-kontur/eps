@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ РџР /РџРџР /Р¦РџР /РџР¦РџР 
+ * Запрос на тестирование ПР/ППР/ЦПР/ПЦПР
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -46,7 +46,7 @@ public class PRTestRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'UserName' element value. РРјСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, РѕС‚РїСЂР°РІРёРІС€РµРіРѕ Р·Р°РїСЂРѕСЃ РЅР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ РёР· РљРџРЎ В«Р’РµРґРµРЅРёРµ Р‘Р”РџР В»
+     * Get the 'UserName' element value. Имя пользователя, отправившего запрос на тестирование из КПС «Ведение БДПР»
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class PRTestRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'UserName' element value. РРјСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, РѕС‚РїСЂР°РІРёРІС€РµРіРѕ Р·Р°РїСЂРѕСЃ РЅР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ РёР· РљРџРЎ В«Р’РµРґРµРЅРёРµ Р‘Р”РџР В»
+     * Set the 'UserName' element value. Имя пользователя, отправившего запрос на тестирование из КПС «Ведение БДПР»
      * 
      * @param userName
      */
@@ -64,7 +64,7 @@ public class PRTestRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'TestName' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РµСЃС‚Р°, Р·Р°РґР°РІР°РµРјС‹Р№ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј
+     * Get the 'TestName' element value. Уникальный идентификатор теста, задаваемый пользователем
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class PRTestRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'TestName' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РµСЃС‚Р°, Р·Р°РґР°РІР°РµРјС‹Р№ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј
+     * Set the 'TestName' element value. Уникальный идентификатор теста, задаваемый пользователем
      * 
      * @param testName
      */
@@ -82,7 +82,7 @@ public class PRTestRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'TestComment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№ Рє С‚РµСЃС‚Сѓ, Р·Р°РґР°РІР°РµРјС‹Р№ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј
+     * Get the 'TestComment' element value. Комментарий к тесту, задаваемый пользователем
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class PRTestRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'TestComment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№ Рє С‚РµСЃС‚Сѓ, Р·Р°РґР°РІР°РµРјС‹Р№ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј
+     * Set the 'TestComment' element value. Комментарий к тесту, задаваемый пользователем
      * 
      * @param testComment
      */
@@ -100,7 +100,7 @@ public class PRTestRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsCode' element value. Код таможенного органа
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class PRTestRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsCode' element value. Код таможенного органа
      * 
      * @param customsCode
      */
@@ -118,7 +118,7 @@ public class PRTestRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'UserSubdivisionCode' element value. РљРѕРґ СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, РѕС‚РїСЂР°РІРёРІС€РµРіРѕ Р·Р°РїСЂРѕСЃ РЅР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ РёР· РљРџРЎ Р’РµРґРµРЅРёРµ Р‘Р”РџР 
+     * Get the 'UserSubdivisionCode' element value. Код структурного подразделения пользователя, отправившего запрос на тестирование из КПС Ведение БДПР
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class PRTestRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'UserSubdivisionCode' element value. РљРѕРґ СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, РѕС‚РїСЂР°РІРёРІС€РµРіРѕ Р·Р°РїСЂРѕСЃ РЅР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ РёР· РљРџРЎ Р’РµРґРµРЅРёРµ Р‘Р”РџР 
+     * Set the 'UserSubdivisionCode' element value. Код структурного подразделения пользователя, отправившего запрос на тестирование из КПС Ведение БДПР
      * 
      * @param userSubdivisionCode
      */
@@ -172,7 +172,7 @@ public class PRTestRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class PRTestRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
      * 
      * @param documentModeID
      */
@@ -189,7 +189,7 @@ public class PRTestRequestType extends BaseDocType
         this.documentModeID = documentModeID;
     }
     /** 
-     * РџРµСЂРёРѕРґС‹ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ
+     * Периоды тестирования
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -209,7 +209,7 @@ public class PRTestRequestType extends BaseDocType
         private LocalDate testEnd;
 
         /** 
-         * Get the 'TestStart' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РґР°С‚Рµ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў
+         * Get the 'TestStart' element value. Дата начала периода тестирования, соответствует дате регистрации ДТ
          * 
          * @return value
          */
@@ -218,7 +218,7 @@ public class PRTestRequestType extends BaseDocType
         }
 
         /** 
-         * Set the 'TestStart' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РґР°С‚Рµ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў
+         * Set the 'TestStart' element value. Дата начала периода тестирования, соответствует дате регистрации ДТ
          * 
          * @param testStart
          */
@@ -227,7 +227,7 @@ public class PRTestRequestType extends BaseDocType
         }
 
         /** 
-         * Get the 'TestEnd' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РґР°С‚Рµ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў
+         * Get the 'TestEnd' element value. Дата окончания периода тестирования, соответствует дате регистрации ДТ
          * 
          * @return value
          */
@@ -236,7 +236,7 @@ public class PRTestRequestType extends BaseDocType
         }
 
         /** 
-         * Set the 'TestEnd' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РґР°С‚Рµ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў
+         * Set the 'TestEnd' element value. Дата окончания периода тестирования, соответствует дате регистрации ДТ
          * 
          * @param testEnd
          */
@@ -296,7 +296,7 @@ public class PRTestRequestType extends BaseDocType
         }
 
         /** 
-         * Get the 'DTNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў/РўР”/РџРџ/РґРѕРєСѓРјРµРЅС‚Р° Р’РҐ/СЂРµРµСЃС‚СЂР° СЌРєСЃРїСЂРµСЃСЃ-РіСЂСѓР·РѕРІ, РїРѕ РєРѕС‚РѕСЂРѕР№ РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРѕРІРµСЃС‚Рё С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РїСЂРё Р·Р°РїСЂРѕСЃРµ РґРµС‚Р°Р»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё РїРѕ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЋ РєРѕРЅРєСЂРµС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+         * Get the 'DTNumber' element value. Регистрационный номер ДТ/ТД/ПП/документа ВХ/реестра экспресс-грузов, по которой необходимо провести тестирование. Заполняется только при запросе детальной информации по тестированию конкретного документа
          * 
          * @return value
          */
@@ -305,7 +305,7 @@ public class PRTestRequestType extends BaseDocType
         }
 
         /** 
-         * Set the 'DTNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў/РўР”/РџРџ/РґРѕРєСѓРјРµРЅС‚Р° Р’РҐ/СЂРµРµСЃС‚СЂР° СЌРєСЃРїСЂРµСЃСЃ-РіСЂСѓР·РѕРІ, РїРѕ РєРѕС‚РѕСЂРѕР№ РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРѕРІРµСЃС‚Рё С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РїСЂРё Р·Р°РїСЂРѕСЃРµ РґРµС‚Р°Р»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё РїРѕ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЋ РєРѕРЅРєСЂРµС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+         * Set the 'DTNumber' element value. Регистрационный номер ДТ/ТД/ПП/документа ВХ/реестра экспресс-грузов, по которой необходимо провести тестирование. Заполняется только при запросе детальной информации по тестированию конкретного документа
          * 
          * @param DTNumber
          */
@@ -324,7 +324,7 @@ public class PRTestRequestType extends BaseDocType
         }
 
         /** 
-         * Get the 'ServiceInfo' element value. РЎР»СѓР¶РµР±РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РџР
+         * Get the 'ServiceInfo' element value. Служебная информация по ПИ
          * 
          * @return value
          */
@@ -333,7 +333,7 @@ public class PRTestRequestType extends BaseDocType
         }
 
         /** 
-         * Set the 'ServiceInfo' element value. РЎР»СѓР¶РµР±РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РџР
+         * Set the 'ServiceInfo' element value. Служебная информация по ПИ
          * 
          * @param serviceInfo
          */
@@ -352,7 +352,7 @@ public class PRTestRequestType extends BaseDocType
         }
 
         /** 
-         * Get the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ. Р•СЃР»Рё РЅРµС‚СЂРµРі. РЅРѕРјРµСЂР° РўР” РґР»СЏ С‚СЂР°РЅР·РёС‚Р°
+         * Get the 'TIRID' element value. Номер книжки МДП. Если нетрег. номера ТД для транзита
          * 
          * @return value
          */
@@ -361,7 +361,7 @@ public class PRTestRequestType extends BaseDocType
         }
 
         /** 
-         * Set the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ. Р•СЃР»Рё РЅРµС‚СЂРµРі. РЅРѕРјРµСЂР° РўР” РґР»СЏ С‚СЂР°РЅР·РёС‚Р°
+         * Set the 'TIRID' element value. Номер книжки МДП. Если нетрег. номера ТД для транзита
          * 
          * @param TIRID
          */

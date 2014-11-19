@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ/СЂРµРєРІРёР·РёС‚Р°С… РўРћ, РІ Р·РѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґСЏС‚СЃСЏ С‚РѕРІР°СЂС‹/РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ РўРћ
+ * Запрос сведений о местонахождении товаров/реквизитах ТО, в зоне деятельности которого находятся товары/Уведомление о необходимости предоставления товаров в ТО
  */
 public class ReqGoodsPresentType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class ReqGoodsPresentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ReqDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'ReqDate' element value. Дата формирования запроса
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'ReqDate' element value. Дата формирования запроса
      * 
      * @param reqDate
      */
@@ -39,7 +39,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReqTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'ReqTime' element value. Время формирования запроса
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'ReqTime' element value. Время формирования запроса
      * 
      * @param reqTime
      */
@@ -57,7 +57,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - Р·Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ; 2 - Р·Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ Рѕ СЂРµРєРІРёР·РёС‚Р°С… РўРћ, РІ Р·РѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґСЏС‚СЃСЏ С‚РѕРІР°СЂС‹; 3 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ РўРћ
+     * Get the 'DocSign' element value. Признак документа: 1 - запрос сведений о местонахождении товаров; 2 - запрос сведений о реквизитах ТО, в зоне деятельности которого находятся товары; 3 - уведомление о необходимости предоставления товаров в ТО
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - Р·Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ; 2 - Р·Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ Рѕ СЂРµРєРІРёР·РёС‚Р°С… РўРћ, РІ Р·РѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґСЏС‚СЃСЏ С‚РѕРІР°СЂС‹; 3 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ РўРћ
+     * Set the 'DocSign' element value. Признак документа: 1 - запрос сведений о местонахождении товаров; 2 - запрос сведений о реквизитах ТО, в зоне деятельности которого находятся товары; 3 - уведомление о необходимости предоставления товаров в ТО
      * 
      * @param docSign
      */
@@ -75,7 +75,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @param customs
      */
@@ -93,7 +93,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -111,7 +111,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў
+     * Get the 'GTDID' element value. Номер ДТ
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў
+     * Set the 'GTDID' element value. Номер ДТ
      * 
      * @param GTDID
      */
@@ -129,7 +129,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class ReqGoodsPresentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

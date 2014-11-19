@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.shippingmanifest;
 import org.joda.time.LocalDate;
 
 /** 
- * Р›РёС†РµРЅР·РёРѕРЅРЅР°СЏ РєР°СЂС‚РѕС‡РєР° РІРѕРґРёС‚РµР»СЏ 
+ * Лицензионная карточка водителя 
  */
 public class DriverLicensingCardType
 {
@@ -13,7 +13,7 @@ public class DriverLicensingCardType
     private LocalDate date;
 
     /** 
-     * Get the 'Type' element value. Р’РёРґ Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё 
+     * Get the 'Type' element value. Вид лицензионной карточки 
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class DriverLicensingCardType
     }
 
     /** 
-     * Set the 'Type' element value. Р’РёРґ Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё 
+     * Set the 'Type' element value. Вид лицензионной карточки 
      * 
      * @param type
      */
@@ -31,7 +31,7 @@ public class DriverLicensingCardType
     }
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё 
+     * Get the 'Number' element value. Номер лицензионной карточки 
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DriverLicensingCardType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё 
+     * Set the 'Number' element value. Номер лицензионной карточки 
      * 
      * @param number
      */
@@ -49,7 +49,7 @@ public class DriverLicensingCardType
     }
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё 
+     * Get the 'Date' element value. Дата лицензионной карточки 
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DriverLicensingCardType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё 
+     * Set the 'Date' element value. Дата лицензионной карточки 
      * 
      * @param date
      */

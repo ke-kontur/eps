@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… РёРЅРІРѕР№СЃР°
+ * Сведения о товарах инвойса
  */
 public class InvoiceGoodsType
 {
@@ -28,7 +28,7 @@ public class InvoiceGoodsType
     private AdditionalGoodsDescriptionType additionalGoodsDescription;
 
     /** 
-     * Get the 'GoodMarking' element value. РђСЂС‚РёРєСѓР» (РєРѕРґ С‚РѕРІР°СЂР°, РЅРѕРјРµСЂ РїРѕ РєР°С‚Р°Р»РѕРіСѓ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ) 
+     * Get the 'GoodMarking' element value. Артикул (код товара, номер по каталогу производителя) 
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'GoodMarking' element value. РђСЂС‚РёРєСѓР» (РєРѕРґ С‚РѕРІР°СЂР°, РЅРѕРјРµСЂ РїРѕ РєР°С‚Р°Р»РѕРіСѓ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ) 
+     * Set the 'GoodMarking' element value. Артикул (код товара, номер по каталогу производителя) 
      * 
      * @param goodMarking
      */
@@ -46,7 +46,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'GoodsCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'GoodsCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsCode
      */
@@ -64,7 +64,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'SupplementaryQualifierName' element value. РќР°Р·РІР°РЅРёРµ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РїСЂРё РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РµРµ СѓРєР°Р·Р°РЅРёСЏ
+     * Get the 'SupplementaryQualifierName' element value. Название дополнительной единицы измерения при возможности ее указания
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'SupplementaryQualifierName' element value. РќР°Р·РІР°РЅРёРµ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РїСЂРё РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РµРµ СѓРєР°Р·Р°РЅРёСЏ
+     * Set the 'SupplementaryQualifierName' element value. Название дополнительной единицы измерения при возможности ее указания
      * 
      * @param supplementaryQualifierName
      */
@@ -82,7 +82,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С‚РµРєСЃС‚РѕРІРѕРµ (СЃРѕРґРµСЂР¶РёС‚ РЅР°Р·РІР°РЅРёРµ РјР°СЂРѕРє, РјРѕРґРµР»РµР№ С‚РѕРІР°СЂРѕРІ Рё/РёР»Рё РёС… РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Рµ РЅРѕРјРµСЂР° - РїСЂРёРєР°Р· Р“РўРљ Р Р¤ РѕС‚ 13.05.03 в„–500)
+     * Get the list of 'GoodsDescription' element items. Описание товара текстовое (содержит название марок, моделей товаров и/или их индивидуальные номера - приказ ГТК РФ от 13.05.03 №500)
      * 
      * @return list
      */
@@ -91,7 +91,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С‚РµРєСЃС‚РѕРІРѕРµ (СЃРѕРґРµСЂР¶РёС‚ РЅР°Р·РІР°РЅРёРµ РјР°СЂРѕРє, РјРѕРґРµР»РµР№ С‚РѕРІР°СЂРѕРІ Рё/РёР»Рё РёС… РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Рµ РЅРѕРјРµСЂР° - РїСЂРёРєР°Р· Р“РўРљ Р Р¤ РѕС‚ 13.05.03 в„–500)
+     * Set the list of 'GoodsDescription' element items. Описание товара текстовое (содержит название марок, моделей товаров и/или их индивидуальные номера - приказ ГТК РФ от 13.05.03 №500)
      * 
      * @param list
      */
@@ -100,7 +100,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, СѓСЃР»СѓРі Р±РµР· СѓРєР°Р·Р°РЅРёСЏ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ 
+     * Get the 'GoodsQuantity' element value. Количество товара, услуг без указания единицы измерения 
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, СѓСЃР»СѓРі Р±РµР· СѓРєР°Р·Р°РЅРёСЏ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ 
+     * Set the 'GoodsQuantity' element value. Количество товара, услуг без указания единицы измерения 
      * 
      * @param goodsQuantity
      */
@@ -118,7 +118,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierName' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РїСЂРё РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РµРµ СѓРєР°Р·Р°РЅРёСЏ
+     * Get the 'MeasureUnitQualifierName' element value. Название единицы измерения при возможности ее указания
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierName' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РїСЂРё РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РµРµ СѓРєР°Р·Р°РЅРёСЏ
+     * Set the 'MeasureUnitQualifierName' element value. Название единицы измерения при возможности ее указания
      * 
      * @param measureUnitQualifierName
      */
@@ -136,7 +136,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @param grossWeightQuantity
      */
@@ -154,7 +154,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
+     * Get the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
+     * Set the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
      * 
      * @param netWeightQuantity
      */
@@ -172,7 +172,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'Price' element value. Р¦РµРЅР° С‚РѕРІР°СЂР°/СѓСЃР»СѓРіРё
+     * Get the 'Price' element value. Цена товара/услуги
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'Price' element value. Р¦РµРЅР° С‚РѕРІР°СЂР°/СѓСЃР»СѓРіРё
+     * Set the 'Price' element value. Цена товара/услуги
      * 
      * @param price
      */
@@ -190,7 +190,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'TotalCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РІСЃРµРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° РїРѕСЃС‚Р°РІР»СЏРµРјРѕРіРѕ (РѕС‚РіСЂСѓР¶РµРЅРЅРѕРіРѕ) РїРѕ СЃС‡РµС‚Сѓ - С„Р°РєС‚СѓСЂРµ С‚РѕРІР°СЂР° (РІС‹РїРѕР»РЅРµРЅРЅС‹С… СЂР°Р±РѕС‚, РѕРєР°Р·Р°РЅРЅС‹С… СѓСЃР»СѓРі) Р±РµР· РЅР°Р»РѕРіР°
+     * Get the 'TotalCost' element value. Стоимость всего количества поставляемого (отгруженного) по счету - фактуре товара (выполненных работ, оказанных услуг) без налога
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'TotalCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РІСЃРµРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° РїРѕСЃС‚Р°РІР»СЏРµРјРѕРіРѕ (РѕС‚РіСЂСѓР¶РµРЅРЅРѕРіРѕ) РїРѕ СЃС‡РµС‚Сѓ - С„Р°РєС‚СѓСЂРµ С‚РѕРІР°СЂР° (РІС‹РїРѕР»РЅРµРЅРЅС‹С… СЂР°Р±РѕС‚, РѕРєР°Р·Р°РЅРЅС‹С… СѓСЃР»СѓРі) Р±РµР· РЅР°Р»РѕРіР°
+     * Set the 'TotalCost' element value. Стоимость всего количества поставляемого (отгруженного) по счету - фактуре товара (выполненных работ, оказанных услуг) без налога
      * 
      * @param totalCost
      */
@@ -208,7 +208,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'Discount' element value. CСѓРјРјР° СЃРєРёРґРєРё
+     * Get the 'Discount' element value. Cумма скидки
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'Discount' element value. CСѓРјРјР° СЃРєРёРґРєРё
+     * Set the 'Discount' element value. Cумма скидки
      * 
      * @param discount
      */
@@ -226,7 +226,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'DiscountPercentage' element value. РЎСѓРјРјР° СЃРєРёРґРєРё, %
+     * Get the 'DiscountPercentage' element value. Сумма скидки, %
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'DiscountPercentage' element value. РЎСѓРјРјР° СЃРєРёРґРєРё, %
+     * Set the 'DiscountPercentage' element value. Сумма скидки, %
      * 
      * @param discountPercentage
      */
@@ -244,7 +244,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, СѓРєР°Р·С‹РІР°СЋС‚СЃСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ, СЃС‚СЂР°РЅРѕР№ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РєРѕС‚РѕСЂС‹С… РЅРµ СЏРІР»СЏРµС‚СЃСЏ Р РѕСЃСЃРёР№СЃРєР°СЏ Р¤РµРґРµСЂР°С†РёСЏ. 
+     * Get the 'OriginCountryCode' element value. Код страны происхождения, указываются в отношении товаров, страной происхождения которых не является Российская Федерация. 
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, СѓРєР°Р·С‹РІР°СЋС‚СЃСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ, СЃС‚СЂР°РЅРѕР№ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РєРѕС‚РѕСЂС‹С… РЅРµ СЏРІР»СЏРµС‚СЃСЏ Р РѕСЃСЃРёР№СЃРєР°СЏ Р¤РµРґРµСЂР°С†РёСЏ. 
+     * Set the 'OriginCountryCode' element value. Код страны происхождения, указываются в отношении товаров, страной происхождения которых не является Российская Федерация. 
      * 
      * @param originCountryCode
      */
@@ -262,7 +262,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'ServiceCharges' element value. Р’С‹С‡РµС‚С‹ (СЂР°СЃС…РѕРґС‹ РЅР° СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРѕ, РІРѕР·РІРµРґРµРЅРёРµ, СЃР±РѕСЂРєСѓ, РјРѕРЅС‚Р°Р¶, РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ РёР»Рё РѕРєР°Р·Р°РЅРёРµ С‚РµС…РЅРёС‡РµСЃРєРѕРіРѕ СЃРѕРґРµР№СЃС‚РІРёСЏ, РїСЂРѕРёР·РІРѕРґРёРјС‹Рµ РїРѕСЃР»Рµ РїСЂРёР±С‹С‚РёСЏ РЅР° РўР°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўРЎ)
+     * Get the 'ServiceCharges' element value. Вычеты (расходы на строительство, возведение, сборку, монтаж, обслуживание или оказание технического содействия, производимые после прибытия на Таможенную территорию ТС)
      * 
      * @return value
      */
@@ -271,7 +271,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'ServiceCharges' element value. Р’С‹С‡РµС‚С‹ (СЂР°СЃС…РѕРґС‹ РЅР° СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРѕ, РІРѕР·РІРµРґРµРЅРёРµ, СЃР±РѕСЂРєСѓ, РјРѕРЅС‚Р°Р¶, РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ РёР»Рё РѕРєР°Р·Р°РЅРёРµ С‚РµС…РЅРёС‡РµСЃРєРѕРіРѕ СЃРѕРґРµР№СЃС‚РІРёСЏ, РїСЂРѕРёР·РІРѕРґРёРјС‹Рµ РїРѕСЃР»Рµ РїСЂРёР±С‹С‚РёСЏ РЅР° РўР°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўРЎ)
+     * Set the 'ServiceCharges' element value. Вычеты (расходы на строительство, возведение, сборку, монтаж, обслуживание или оказание технического содействия, производимые после прибытия на Таможенную территорию ТС)
      * 
      * @param serviceCharges
      */
@@ -280,7 +280,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'TransportCharges' element value. Р’С‹С‡РµС‚С‹ (СЂР°СЃС…РѕРґС‹ РїРѕ РїРµСЂРµРІРѕР·РєРµ (С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ) С‚РѕРІР°СЂРѕРІ РїРѕСЃР»Рµ РёС… РїСЂРёР±С‹С‚РёСЏ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўРЎ)
+     * Get the 'TransportCharges' element value. Вычеты (расходы по перевозке (транспортировке) товаров после их прибытия на таможенную территорию ТС)
      * 
      * @return value
      */
@@ -289,7 +289,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'TransportCharges' element value. Р’С‹С‡РµС‚С‹ (СЂР°СЃС…РѕРґС‹ РїРѕ РїРµСЂРµРІРѕР·РєРµ (С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ) С‚РѕРІР°СЂРѕРІ РїРѕСЃР»Рµ РёС… РїСЂРёР±С‹С‚РёСЏ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўРЎ)
+     * Set the 'TransportCharges' element value. Вычеты (расходы по перевозке (транспортировке) товаров после их прибытия на таможенную территорию ТС)
      * 
      * @param transportCharges
      */
@@ -298,7 +298,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the list of 'OtherCharges' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕС‡РёС… СЂР°СЃС…РѕРґР°С…
+     * Get the list of 'OtherCharges' element items. Информация о прочих расходах
      * 
      * @return list
      */
@@ -307,7 +307,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the list of 'OtherCharges' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕС‡РёС… СЂР°СЃС…РѕРґР°С…
+     * Set the list of 'OtherCharges' element items. Информация о прочих расходах
      * 
      * @param list
      */
@@ -316,7 +316,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Get the 'AdditionalGoodsDescription' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'AdditionalGoodsDescription' element value. Дополнительные характеристики товаров
      * 
      * @return value
      */
@@ -325,7 +325,7 @@ public class InvoiceGoodsType
     }
 
     /** 
-     * Set the 'AdditionalGoodsDescription' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'AdditionalGoodsDescription' element value. Дополнительные характеристики товаров
      * 
      * @param additionalGoodsDescription
      */

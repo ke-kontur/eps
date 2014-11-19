@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.PackingInformationType;
 
 /** 
- * РђРўР” - СЃРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєР°С…
+ * АТД - сведения об упаковках
  */
 public class InspPackageType extends PackingInformationType
 {
@@ -15,7 +15,7 @@ public class InspPackageType extends PackingInformationType
     private List<String> packDestructDescList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'PackageDescription' element items. РћРїРёСЃР°РЅРёРµ СѓРїР°РєРѕРІРєРё Рё СЂР°СЃС„Р°СЃРѕРІРєРё С‚РѕРІР°СЂР°
+     * Get the list of 'PackageDescription' element items. Описание упаковки и расфасовки товара
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class InspPackageType extends PackingInformationType
     }
 
     /** 
-     * Set the list of 'PackageDescription' element items. РћРїРёСЃР°РЅРёРµ СѓРїР°РєРѕРІРєРё Рё СЂР°СЃС„Р°СЃРѕРІРєРё С‚РѕРІР°СЂР°
+     * Set the list of 'PackageDescription' element items. Описание упаковки и расфасовки товара
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class InspPackageType extends PackingInformationType
     }
 
     /** 
-     * Get the 'PackDestructFlag' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїРѕРІСЂРµР¶РґРµРЅРёР№ С‚РѕРІР°СЂРѕРІ Рё СѓРїР°РєРѕРІРєРё 0 - РїРѕРІСЂРµР¶РґРµРЅРёР№ РЅРµС‚ 1 - РїРѕРІСЂРµР¶РґРµРЅРёСЏ РµСЃС‚СЊ
+     * Get the 'PackDestructFlag' element value. Признак наличия повреждений товаров и упаковки 0 - повреждений нет 1 - повреждения есть
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class InspPackageType extends PackingInformationType
     }
 
     /** 
-     * Set the 'PackDestructFlag' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїРѕРІСЂРµР¶РґРµРЅРёР№ С‚РѕРІР°СЂРѕРІ Рё СѓРїР°РєРѕРІРєРё 0 - РїРѕРІСЂРµР¶РґРµРЅРёР№ РЅРµС‚ 1 - РїРѕРІСЂРµР¶РґРµРЅРёСЏ РµСЃС‚СЊ
+     * Set the 'PackDestructFlag' element value. Признак наличия повреждений товаров и упаковки 0 - повреждений нет 1 - повреждения есть
      * 
      * @param packDestructFlag
      */
@@ -51,7 +51,7 @@ public class InspPackageType extends PackingInformationType
     }
 
     /** 
-     * Get the list of 'PackDestructDesc' element items. РћРїРёСЃР°РЅРёРµ РїРѕРІСЂРµР¶РґРµРЅРёР№ СѓРїР°РєРѕРІРєРё
+     * Get the list of 'PackDestructDesc' element items. Описание повреждений упаковки
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class InspPackageType extends PackingInformationType
     }
 
     /** 
-     * Set the list of 'PackDestructDesc' element items. РћРїРёСЃР°РЅРёРµ РїРѕРІСЂРµР¶РґРµРЅРёР№ СѓРїР°РєРѕРІРєРё
+     * Set the list of 'PackDestructDesc' element items. Описание повреждений упаковки
      * 
      * @param list
      */

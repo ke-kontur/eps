@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspectionin;
 
 /** 
- * РЎС‚Р°С‚СЊРё РљРћРђРџ РїРѕ РєРѕС‚РѕСЂС‹Рј РІС‹СЏРІР»РµРЅС‹ РїСЂРёР·РЅР°РєРё РђРџ.  РћР±С‰Р°СЏ РѕРїРёСЃР°С‚РµР»СЊРЅР°СЏ С‡Р°СЃС‚СЊ Р°РєС‚Р° РґРѕСЃРјРѕС‚СЂР°, РѕС‚РЅРѕСЃСЏС‰Р°СЏСЃСЏ РєРѕ РІСЃРµРј С‚РѕРІР°СЂР°Рј
+ * Статьи КОАП по которым выявлены признаки АП.  Общая описательная часть акта досмотра, относящаяся ко всем товарам
  */
 public class LawDecisionType
 {
@@ -13,7 +13,7 @@ public class LawDecisionType
     private String priznInfo;
 
     /** 
-     * Get the 'ArticleNumber' element value. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё РљРѕРђРџ Р Р¤, РїСЂРµРґСѓСЃРјР°С‚СЂРёРІР°СЋС‰РµР№ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚СЊ Р·Р° СЃРѕРІРµСЂС€РµРЅРёРµ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕРіРѕ РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏ (РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ PriznInfo = "false")
+     * Get the 'ArticleNumber' element value. Номер статьи КоАП РФ, предусматривающей ответственность за совершение административного правонарушения (для значения PriznInfo = "false")
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class LawDecisionType
     }
 
     /** 
-     * Set the 'ArticleNumber' element value. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё РљРѕРђРџ Р Р¤, РїСЂРµРґСѓСЃРјР°С‚СЂРёРІР°СЋС‰РµР№ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚СЊ Р·Р° СЃРѕРІРµСЂС€РµРЅРёРµ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕРіРѕ РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏ (РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ PriznInfo = "false")
+     * Set the 'ArticleNumber' element value. Номер статьи КоАП РФ, предусматривающей ответственность за совершение административного правонарушения (для значения PriznInfo = "false")
      * 
      * @param articleNumber
      */
@@ -31,7 +31,7 @@ public class LawDecisionType
     }
 
     /** 
-     * Get the 'ArticlePartNumber' element value. РќРѕРјРµСЂ С‡Р°СЃС‚Рё СЃС‚Р°С‚СЊРё РљРѕРђРџ Р Р¤  (РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ PriznInfo = "false")
+     * Get the 'ArticlePartNumber' element value. Номер части статьи КоАП РФ  (для значения PriznInfo = "false")
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class LawDecisionType
     }
 
     /** 
-     * Set the 'ArticlePartNumber' element value. РќРѕРјРµСЂ С‡Р°СЃС‚Рё СЃС‚Р°С‚СЊРё РљРѕРђРџ Р Р¤  (РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ PriznInfo = "false")
+     * Set the 'ArticlePartNumber' element value. Номер части статьи КоАП РФ  (для значения PriznInfo = "false")
      * 
      * @param articlePartNumber
      */
@@ -49,7 +49,7 @@ public class LawDecisionType
     }
 
     /** 
-     * Get the 'DecisionDesc' element value. РџСЂРёРјРµС‡Р°РЅРёРµ РїРѕ РїСЂРёРЅСЏС‚С‹Рј СЂРµС€РµРЅРёСЏРј (PriznInfo = "true"). РћР±С‰Р°СЏ РѕРїРёСЃР°С‚РµР»СЊРЅР°СЏ С‡Р°СЃС‚СЊ Р°РєС‚Р° РґРѕСЃРјРѕС‚СЂР°, РѕС‚РЅРѕСЃСЏС‰Р°СЏСЃСЏ РєРѕ РІСЃРµРј С‚РѕРІР°СЂР°Рј (PriznInfo = "false")
+     * Get the 'DecisionDesc' element value. Примечание по принятым решениям (PriznInfo = "true"). Общая описательная часть акта досмотра, относящаяся ко всем товарам (PriznInfo = "false")
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class LawDecisionType
     }
 
     /** 
-     * Set the 'DecisionDesc' element value. РџСЂРёРјРµС‡Р°РЅРёРµ РїРѕ РїСЂРёРЅСЏС‚С‹Рј СЂРµС€РµРЅРёСЏРј (PriznInfo = "true"). РћР±С‰Р°СЏ РѕРїРёСЃР°С‚РµР»СЊРЅР°СЏ С‡Р°СЃС‚СЊ Р°РєС‚Р° РґРѕСЃРјРѕС‚СЂР°, РѕС‚РЅРѕСЃСЏС‰Р°СЏСЃСЏ РєРѕ РІСЃРµРј С‚РѕРІР°СЂР°Рј (PriznInfo = "false")
+     * Set the 'DecisionDesc' element value. Примечание по принятым решениям (PriznInfo = "true"). Общая описательная часть акта досмотра, относящаяся ко всем товарам (PriznInfo = "false")
      * 
      * @param decisionDesc
      */
@@ -67,7 +67,7 @@ public class LawDecisionType
     }
 
     /** 
-     * Get the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё
+     * Get the 'RecordNumber' element value. Порядковый номер записи
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class LawDecisionType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё
+     * Set the 'RecordNumber' element value. Порядковый номер записи
      * 
      * @param recordNumber
      */
@@ -85,7 +85,7 @@ public class LawDecisionType
     }
 
     /** 
-     * Get the 'PriznInfo' element value. РџСЂРёР·РЅР°Рє РёРЅС„РѕСЂРјР°С†РёРё: false - РїСЂРёРјРµС‡Р°РЅРёСЏ РїРѕ РїСЂРёРЅСЏС‚С‹Рј СЂРµС€РµРЅРёСЏРј; true - РѕР±С‰Р°СЏ РѕРїРёСЃР°С‚РµР»СЊРЅР°СЏ С‡Р°СЃС‚СЊ Р°РєС‚Р° РґРѕСЃРјРѕС‚СЂР°, РѕС‚РЅРѕСЃСЏС‰Р°СЏСЃСЏ РєРѕ РІСЃРµРј С‚РѕРІР°СЂР°Рј
+     * Get the 'PriznInfo' element value. Признак информации: false - примечания по принятым решениям; true - общая описательная часть акта досмотра, относящаяся ко всем товарам
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class LawDecisionType
     }
 
     /** 
-     * Set the 'PriznInfo' element value. РџСЂРёР·РЅР°Рє РёРЅС„РѕСЂРјР°С†РёРё: false - РїСЂРёРјРµС‡Р°РЅРёСЏ РїРѕ РїСЂРёРЅСЏС‚С‹Рј СЂРµС€РµРЅРёСЏРј; true - РѕР±С‰Р°СЏ РѕРїРёСЃР°С‚РµР»СЊРЅР°СЏ С‡Р°СЃС‚СЊ Р°РєС‚Р° РґРѕСЃРјРѕС‚СЂР°, РѕС‚РЅРѕСЃСЏС‰Р°СЏСЃСЏ РєРѕ РІСЃРµРј С‚РѕРІР°СЂР°Рј
+     * Set the 'PriznInfo' element value. Признак информации: false - примечания по принятым решениям; true - общая описательная часть акта досмотра, относящаяся ко всем товарам
      * 
      * @param priznInfo
      */

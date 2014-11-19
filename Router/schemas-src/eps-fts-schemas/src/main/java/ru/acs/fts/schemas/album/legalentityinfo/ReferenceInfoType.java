@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.legalentityinfo;
 
 /** 
- * РЎРїСЂР°РІРѕС‡РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+ * Справочная информация
  */
 public class ReferenceInfoType
 {
@@ -10,7 +10,7 @@ public class ReferenceInfoType
     private String name;
 
     /** 
-     * Get the 'Code' element value. РљРѕРґ РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ
+     * Get the 'Code' element value. Код по справочнику
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ReferenceInfoType
     }
 
     /** 
-     * Set the 'Code' element value. РљРѕРґ РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ
+     * Set the 'Code' element value. Код по справочнику
      * 
      * @param code
      */
@@ -28,7 +28,7 @@ public class ReferenceInfoType
     }
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
+     * Get the 'Name' element value. Наименование
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ReferenceInfoType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
+     * Set the 'Name' element value. Наименование
      * 
      * @param name
      */

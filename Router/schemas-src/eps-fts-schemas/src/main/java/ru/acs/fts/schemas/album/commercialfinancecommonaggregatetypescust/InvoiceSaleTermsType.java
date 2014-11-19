@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 
 /** 
- * РЎСЂРѕРє РѕРїР»Р°С‚С‹ РїРѕ РёРЅРІРѕР№СЃСѓ
+ * Срок оплаты по инвойсу
  */
 public class InvoiceSaleTermsType
 {
@@ -10,7 +10,7 @@ public class InvoiceSaleTermsType
     private String saleTermsDescription;
 
     /** 
-     * Get the 'SaleTermsCode' element value. РљРѕРґ СЃСЂРѕРєР° РѕРїР»Р°С‚С‹ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Get the 'SaleTermsCode' element value. Код срока оплаты по инвойсу
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class InvoiceSaleTermsType
     }
 
     /** 
-     * Set the 'SaleTermsCode' element value. РљРѕРґ СЃСЂРѕРєР° РѕРїР»Р°С‚С‹ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Set the 'SaleTermsCode' element value. Код срока оплаты по инвойсу
      * 
      * @param saleTermsCode
      */
@@ -28,7 +28,7 @@ public class InvoiceSaleTermsType
     }
 
     /** 
-     * Get the 'SaleTermsDescription' element value. РћРїРёСЃР°РЅРёРµ СЃСЂРѕРєР° РѕРїР»Р°С‚С‹ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Get the 'SaleTermsDescription' element value. Описание срока оплаты по инвойсу
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class InvoiceSaleTermsType
     }
 
     /** 
-     * Set the 'SaleTermsDescription' element value. РћРїРёСЃР°РЅРёРµ СЃСЂРѕРєР° РѕРїР»Р°С‚С‹ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Set the 'SaleTermsDescription' element value. Описание срока оплаты по инвойсу
      * 
      * @param saleTermsDescription
      */

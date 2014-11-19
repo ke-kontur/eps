@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.veterinarycertificate;
 import org.joda.time.LocalDate;
 
 /** 
- * РћР±СЂР°Р±РѕС‚РєР°
+ * Обработка
  */
 public class ProcessingType
 {
@@ -12,7 +12,7 @@ public class ProcessingType
     private LocalDate dateProcessing;
 
     /** 
-     * Get the 'NameProcessing' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕР±СЂР°Р±РѕС‚РєРё
+     * Get the 'NameProcessing' element value. Наименование обработки
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ProcessingType
     }
 
     /** 
-     * Set the 'NameProcessing' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕР±СЂР°Р±РѕС‚РєРё
+     * Set the 'NameProcessing' element value. Наименование обработки
      * 
      * @param nameProcessing
      */
@@ -30,7 +30,7 @@ public class ProcessingType
     }
 
     /** 
-     * Get the 'DateProcessing' element value. Р”Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё
+     * Get the 'DateProcessing' element value. Дата обработки
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ProcessingType
     }
 
     /** 
-     * Set the 'DateProcessing' element value. Р”Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё
+     * Set the 'DateProcessing' element value. Дата обработки
      * 
      * @param dateProcessing
      */

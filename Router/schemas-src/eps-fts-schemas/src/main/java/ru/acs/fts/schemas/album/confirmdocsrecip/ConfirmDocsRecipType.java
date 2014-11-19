@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.exchangecommonaggregatetypescust.RecipDocumentType;
 
 /** 
- * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РїРѕР»СѓС‡РµРЅРёСЏ РґРѕР»Р¶РЅРѕСЃС‚РЅС‹Рј Р»РёС†РѕРј С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° СЌР»РµРєС‚СЂРѕРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+ * Подтверждение получения должностным лицом таможенного органа электронных документов
  */
 public class ConfirmDocsRecipType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SendDate' element value. Дата направления
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SendDate' element value. Дата направления
      * 
      * @param sendDate
      */
@@ -41,7 +41,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Get the 'Comments' element value. Комментарии
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Set the 'Comments' element value. Комментарии
      * 
      * @param comments
      */
@@ -59,7 +59,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the 'NumberOfDocs' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СѓС‡РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ.
+     * Get the 'NumberOfDocs' element value. Количество полученных документов.
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'NumberOfDocs' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СѓС‡РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ.
+     * Set the 'NumberOfDocs' element value. Количество полученных документов.
      * 
      * @param numberOfDocs
      */
@@ -77,7 +77,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RecipDoc' element items. РџРѕР»СѓС‡РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Get the list of 'RecipDoc' element items. Полученный документ
      * 
      * @return list
      */
@@ -86,7 +86,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RecipDoc' element items. РџРѕР»СѓС‡РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Set the list of 'RecipDoc' element items. Полученный документ
      * 
      * @param list
      */
@@ -95,7 +95,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -113,7 +113,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -131,7 +131,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class ConfirmDocsRecipType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

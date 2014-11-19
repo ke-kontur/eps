@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Р—Р°СЏРІРєР° РѕС‚ Р°РґРјРёРЅРёСЃС‚СЂР°С†РёРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° 
+ * Заявка от администрации транспортного средства 
  */
 public class ApplicationAdminTransportType extends BaseDocType
 {
@@ -30,7 +30,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Aim' element value. Р¦РµР»СЊ РїСЂРёР±С‹С‚РёСЏ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+     * Get the 'Aim' element value. Цель прибытия на таможенную территорию Российской Федерации
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Aim' element value. Р¦РµР»СЊ РїСЂРёР±С‹С‚РёСЏ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+     * Set the 'Aim' element value. Цель прибытия на таможенную территорию Российской Федерации
      * 
      * @param aim
      */
@@ -48,7 +48,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Volume' element value. РћР±СЉРµРј (РІ РѕСЃРЅРѕРІРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ) С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёС… РєРѕРЅСЃС‚СЂСѓРєС‚РёРІРЅС‹С… РµРјРєРѕСЃС‚РµР№ Рё РїР»РѕС‰Р°РґРё СЃРїРµС†РёР°Р»СЊРЅРѕ РІС‹РґРµР»РµРЅРЅС‹С… С€С‚Р°С‚РЅС‹С… РјРµСЃС‚, РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹С… РґР»СЏ С…СЂР°РЅРµРЅРёСЏ РїСЂРёРїР°СЃРѕРІ РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Get the 'Volume' element value. Объем (в основных единицах измерения) технологических конструктивных емкостей и площади специально выделенных штатных мест, предназначенных для хранения припасов на транспортном средстве
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Volume' element value. РћР±СЉРµРј (РІ РѕСЃРЅРѕРІРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ) С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёС… РєРѕРЅСЃС‚СЂСѓРєС‚РёРІРЅС‹С… РµРјРєРѕСЃС‚РµР№ Рё РїР»РѕС‰Р°РґРё СЃРїРµС†РёР°Р»СЊРЅРѕ РІС‹РґРµР»РµРЅРЅС‹С… С€С‚Р°С‚РЅС‹С… РјРµСЃС‚, РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹С… РґР»СЏ С…СЂР°РЅРµРЅРёСЏ РїСЂРёРїР°СЃРѕРІ РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Set the 'Volume' element value. Объем (в основных единицах измерения) технологических конструктивных емкостей и площади специально выделенных штатных мест, предназначенных для хранения припасов на транспортном средстве
      * 
      * @param volume
      */
@@ -66,7 +66,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РѕР±СЉРµРјР°
+     * Get the 'MeasureUnitQualifierName' element value. Наименование единицы измерения объема
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РѕР±СЉРµРјР°
+     * Set the 'MeasureUnitQualifierName' element value. Наименование единицы измерения объема
      * 
      * @param measureUnitQualifierName
      */
@@ -84,7 +84,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'QuantityStore' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРїР°СЃРѕРІ, РЅР°С…РѕРґСЏС‰РёС…СЃСЏ РЅР° Р±РѕСЂС‚Сѓ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РЅР° РјРѕРјРµРЅС‚ РїРѕРґР°С‡Рё Р·Р°СЏРІР»РµРЅРёСЏ;
+     * Get the 'QuantityStore' element value. Количество припасов, находящихся на борту транспортного средства на момент подачи заявления;
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'QuantityStore' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРїР°СЃРѕРІ, РЅР°С…РѕРґСЏС‰РёС…СЃСЏ РЅР° Р±РѕСЂС‚Сѓ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РЅР° РјРѕРјРµРЅС‚ РїРѕРґР°С‡Рё Р·Р°СЏРІР»РµРЅРёСЏ;
+     * Set the 'QuantityStore' element value. Количество припасов, находящихся на борту транспортного средства на момент подачи заявления;
      * 
      * @param quantityStore
      */
@@ -102,7 +102,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Route' element items. РџСЂРµРґРїРѕР»Р°РіР°РµРјРѕРіРѕ РјР°СЂС€СЂСѓС‚Р° СЃР»РµРґРѕРІР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕСЃР»Рµ СѓР±С‹С‚РёСЏ СЃ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+     * Get the list of 'Route' element items. Предполагаемого маршрута следования транспортного средства после убытия с таможенной территории Российской Федерации
      * 
      * @return list
      */
@@ -111,7 +111,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Route' element items. РџСЂРµРґРїРѕР»Р°РіР°РµРјРѕРіРѕ РјР°СЂС€СЂСѓС‚Р° СЃР»РµРґРѕРІР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕСЃР»Рµ СѓР±С‹С‚РёСЏ СЃ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+     * Set the list of 'Route' element items. Предполагаемого маршрута следования транспортного средства после убытия с таможенной территории Российской Федерации
      * 
      * @param list
      */
@@ -120,7 +120,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'QuantityOperation' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРїР°СЃРѕРІ, РЅРµРѕР±С…РѕРґРёРјС‹С… РґР»СЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СЌРєСЃРїР»СѓР°С‚Р°С†РёРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'QuantityOperation' element value. Количество припасов, необходимых для обеспечения эксплуатации транспортного средства
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'QuantityOperation' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРїР°СЃРѕРІ, РЅРµРѕР±С…РѕРґРёРјС‹С… РґР»СЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СЌРєСЃРїР»СѓР°С‚Р°С†РёРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'QuantityOperation' element value. Количество припасов, необходимых для обеспечения эксплуатации транспортного средства
      * 
      * @param quantityOperation
      */
@@ -138,7 +138,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'FilingDate' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё Р·Р°СЏРІРєРё
+     * Get the 'FilingDate' element value. Дата подачи заявки
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'FilingDate' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё Р·Р°СЏРІРєРё
+     * Set the 'FilingDate' element value. Дата подачи заявки
      * 
      * @param filingDate
      */
@@ -156,7 +156,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'MeasureUnitOperation' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРёРїР°СЃРѕРІ, РЅРµРѕР±С…РѕРґРёРјС‹С… РґР»СЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СЌРєСЃРїР»СѓР°С‚Р°С†РёРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'MeasureUnitOperation' element value. Наименование единицы измерения количества припасов, необходимых для обеспечения эксплуатации транспортного средства
      * 
      * @return value
      */
@@ -165,7 +165,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'MeasureUnitOperation' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРёРїР°СЃРѕРІ, РЅРµРѕР±С…РѕРґРёРјС‹С… РґР»СЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СЌРєСЃРїР»СѓР°С‚Р°С†РёРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'MeasureUnitOperation' element value. Наименование единицы измерения количества припасов, необходимых для обеспечения эксплуатации транспортного средства
      * 
      * @param measureUnitOperation
      */
@@ -174,7 +174,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'MeasureUnitStore' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРїР°СЃРѕРІ, РЅР°С…РѕРґСЏС‰РёС…СЃСЏ РЅР° Р±РѕСЂС‚Сѓ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РЅР° РјРѕРјРµРЅС‚ РїРѕРґР°С‡Рё Р·Р°СЏРІР»РµРЅРёСЏ
+     * Get the 'MeasureUnitStore' element value. Наименование единицы измерения количество припасов, находящихся на борту транспортного средства на момент подачи заявления
      * 
      * @return value
      */
@@ -183,7 +183,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'MeasureUnitStore' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРїР°СЃРѕРІ, РЅР°С…РѕРґСЏС‰РёС…СЃСЏ РЅР° Р±РѕСЂС‚Сѓ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РЅР° РјРѕРјРµРЅС‚ РїРѕРґР°С‡Рё Р·Р°СЏРІР»РµРЅРёСЏ
+     * Set the 'MeasureUnitStore' element value. Наименование единицы измерения количество припасов, находящихся на борту транспортного средства на момент подачи заявления
      * 
      * @param measureUnitStore
      */
@@ -192,7 +192,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdminTransport' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С†РёРё С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+     * Get the 'AdminTransport' element value. Сведения об администрации транспорта
      * 
      * @return value
      */
@@ -201,7 +201,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdminTransport' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С†РёРё С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+     * Set the 'AdminTransport' element value. Сведения об администрации транспорта
      * 
      * @param adminTransport
      */
@@ -210,7 +210,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportMeans' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Get the 'TransportMeans' element value. Сведения о транспортном средстве
      * 
      * @return value
      */
@@ -219,7 +219,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportMeans' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Set the 'TransportMeans' element value. Сведения о транспортном средстве
      * 
      * @param transportMeans
      */
@@ -228,7 +228,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ForeignCustomer' element value. Р›РёС†Рѕ, РЅРѕРјРёРЅРёСЂРѕРІР°РЅРЅРѕРµ РёРЅРѕСЃС‚СЂР°РЅРЅС‹Рј Р·Р°РєР°Р·С‡РёРєРѕРј РЅР° РїРѕСЃС‚Р°РІРєСѓ РїСЂРёРїР°СЃРѕРІ
+     * Get the 'ForeignCustomer' element value. Лицо, номинированное иностранным заказчиком на поставку припасов
      * 
      * @return value
      */
@@ -237,7 +237,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ForeignCustomer' element value. Р›РёС†Рѕ, РЅРѕРјРёРЅРёСЂРѕРІР°РЅРЅРѕРµ РёРЅРѕСЃС‚СЂР°РЅРЅС‹Рј Р·Р°РєР°Р·С‡РёРєРѕРј РЅР° РїРѕСЃС‚Р°РІРєСѓ РїСЂРёРїР°СЃРѕРІ
+     * Set the 'ForeignCustomer' element value. Лицо, номинированное иностранным заказчиком на поставку припасов
      * 
      * @param foreignCustomer
      */
@@ -246,7 +246,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Translator' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РµРј РїРµСЂРµРІРѕРґ Р·Р°СЏРІРєРё РЅР° СЂСѓСЃСЃРєРёР№ СЏР·С‹Рє РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РѕРЅР° РїСЂРµРґСЃС‚Р°РІР»РµРЅР° РЅР° РёРЅРѕСЃС‚СЂР°РЅРЅРѕРј СЏР·С‹РєРµ
+     * Get the 'Translator' element value. Сведения о лице, осуществившем перевод заявки на русский язык в случае, если она представлена на иностранном языке
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Translator' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РµРј РїРµСЂРµРІРѕРґ Р·Р°СЏРІРєРё РЅР° СЂСѓСЃСЃРєРёР№ СЏР·С‹Рє РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РѕРЅР° РїСЂРµРґСЃС‚Р°РІР»РµРЅР° РЅР° РёРЅРѕСЃС‚СЂР°РЅРЅРѕРј СЏР·С‹РєРµ
+     * Set the 'Translator' element value. Сведения о лице, осуществившем перевод заявки на русский язык в случае, если она представлена на иностранном языке
      * 
      * @param translator
      */
@@ -264,7 +264,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -273,7 +273,7 @@ public class ApplicationAdminTransportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

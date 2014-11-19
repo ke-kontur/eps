@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°/ РўСЂРµР±РѕРІР°РЅРёРµ Рѕ РїСЂРµРґСЉСЏРІР»РµРЅРёРё С‚РѕРІР°СЂРѕРІ 
+ * Уведомление о проведении таможенного досмотра/ Требование о предъявлении товаров 
  */
 public class NotifInspectionReqGoodsType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Otherwise' element value. РРЅС‹Рµ СЃР»СѓС‡Р°Рё
+     * Get the 'Otherwise' element value. Иные случаи
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Otherwise' element value. РРЅС‹Рµ СЃР»СѓС‡Р°Рё
+     * Set the 'Otherwise' element value. Иные случаи
      * 
      * @param otherwise
      */
@@ -47,7 +47,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotifReqDate' element value. Р”Р°С‚Р° СѓРІРµРґРѕРјР»РµРЅРёСЏ/С‚СЂРµР±РѕРІР°РЅРёСЏ
+     * Get the 'NotifReqDate' element value. Дата уведомления/требования
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotifReqDate' element value. Р”Р°С‚Р° СѓРІРµРґРѕРјР»РµРЅРёСЏ/С‚СЂРµР±РѕРІР°РЅРёСЏ
+     * Set the 'NotifReqDate' element value. Дата уведомления/требования
      * 
      * @param notifReqDate
      */
@@ -65,7 +65,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°
+     * Get the 'InspDate' element value. Дата проведения досмотра
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°
+     * Set the 'InspDate' element value. Дата проведения досмотра
      * 
      * @param inspDate
      */
@@ -83,7 +83,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspTime' element value. Р’СЂРµРјСЏ РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°
+     * Get the 'InspTime' element value. Время проведения досмотра
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspTime' element value. Р’СЂРµРјСЏ РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°
+     * Set the 'InspTime' element value. Время проведения досмотра
      * 
      * @param inspTime
      */
@@ -101,7 +101,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'IdentificationGoods' element value. РРЅС„РѕСЂРјР°С†РёСЏ, РёРґРµРЅС‚РёС„РёС†РёСЂСѓСЋС‰Р°СЏ С‚РѕРІР°СЂС‹
+     * Get the 'IdentificationGoods' element value. Информация, идентифицирующая товары
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'IdentificationGoods' element value. РРЅС„РѕСЂРјР°С†РёСЏ, РёРґРµРЅС‚РёС„РёС†РёСЂСѓСЋС‰Р°СЏ С‚РѕРІР°СЂС‹
+     * Set the 'IdentificationGoods' element value. Информация, идентифицирующая товары
      * 
      * @param identificationGoods
      */
@@ -119,7 +119,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Presence' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРёСЃСѓС‚СЃС‚РІРёРµ РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј РґРѕСЃРјРѕС‚СЂРµ
+     * Get the 'Presence' element value. Признак того, что требуется присутствие при таможенном досмотре
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Presence' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРёСЃСѓС‚СЃС‚РІРёРµ РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј РґРѕСЃРјРѕС‚СЂРµ
+     * Set the 'Presence' element value. Признак того, что требуется присутствие при таможенном досмотре
      * 
      * @param presence
      */
@@ -137,7 +137,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentKind' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°: 0- СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°, 1 - С‚СЂРµР±РѕРІР°РЅРёРµ Рѕ РїСЂРµРґСЉСЏРІР»РµРЅРёРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'DocumentKind' element value. Тип документа: 0- уведомление о проведении таможенного досмотра, 1 - требование о предъявлении товаров
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentKind' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°: 0- СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРѕРІРµРґРµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°, 1 - С‚СЂРµР±РѕРІР°РЅРёРµ Рѕ РїСЂРµРґСЉСЏРІР»РµРЅРёРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'DocumentKind' element value. Тип документа: 0- уведомление о проведении таможенного досмотра, 1 - требование о предъявлении товаров
      * 
      * @param documentKind
      */
@@ -155,7 +155,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -173,7 +173,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocID' element value. Регистрационный номер документа
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocID' element value. Регистрационный номер документа
      * 
      * @param docID
      */
@@ -191,7 +191,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InspectionPlace' element items. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°)
+     * Get the list of 'InspectionPlace' element items. Место проведения таможенного досмотра (осмотра)
      * 
      * @return list
      */
@@ -200,7 +200,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InspectionPlace' element items. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°)
+     * Set the list of 'InspectionPlace' element items. Место проведения таможенного досмотра (осмотра)
      * 
      * @param list
      */
@@ -209,7 +209,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -227,7 +227,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DirectionNotifReq' element value. РџСЂРё РЅР°РїСЂР°РІР»РµРЅРёРё СѓРІРµРґРѕРјР»РµРЅРёСЏ/С‚СЂРµР±РѕРІР°РЅРёСЏ РїРѕ РїРѕС‡С‚Рµ РёР»Рё РёРЅС‹Рј СЃРїРѕСЃРѕР±РѕРј
+     * Get the 'DirectionNotifReq' element value. При направлении уведомления/требования по почте или иным способом
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DirectionNotifReq' element value. РџСЂРё РЅР°РїСЂР°РІР»РµРЅРёРё СѓРІРµРґРѕРјР»РµРЅРёСЏ/С‚СЂРµР±РѕРІР°РЅРёСЏ РїРѕ РїРѕС‡С‚Рµ РёР»Рё РёРЅС‹Рј СЃРїРѕСЃРѕР±РѕРј
+     * Set the 'DirectionNotifReq' element value. При направлении уведомления/требования по почте или иным способом
      * 
      * @param directionNotifReq
      */
@@ -245,7 +245,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ, РёРЅРѕРј Р»РёС†Рµ, РѕР±Р»Р°РґР°СЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, Рё РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№.
+     * Get the 'Declarant' element value. Сведения о декларанте, ином лице, обладающем полномочиями в отношении товаров и (или) транспортных средств, и их представителей.
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ, РёРЅРѕРј Р»РёС†Рµ, РѕР±Р»Р°РґР°СЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, Рё РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№.
+     * Set the 'Declarant' element value. Сведения о декларанте, ином лице, обладающем полномочиями в отношении товаров и (или) транспортных средств, и их представителей.
      * 
      * @param declarant
      */
@@ -263,7 +263,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class NotifInspectionReqGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

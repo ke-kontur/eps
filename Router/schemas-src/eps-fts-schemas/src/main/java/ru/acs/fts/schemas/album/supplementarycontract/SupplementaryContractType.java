@@ -12,7 +12,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationWBankType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р”РѕРїРѕР»РЅРµРЅРёРµ (РїСЂРёР»РѕР¶РµРЅРёРµ) Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
+ * Дополнение (приложение) к контракту
  */
 public class SupplementaryContractType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class SupplementaryContractType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер документа
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер документа
      * 
      * @param documentNumber
      */
@@ -46,7 +46,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IssueDate' element value. Дата составления документа
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IssueDate' element value. Дата составления документа
      * 
      * @param issueDate
      */
@@ -64,7 +64,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ContractRegistration' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РєРѕРЅС‚СЂР°РєС‚Р°, Рє РєРѕС‚РѕСЂРѕРјСѓ РѕС‚РЅРѕСЃРёС‚СЃСЏ РґРѕРїРѕР»РЅРµРЅРёРµ (РґР°С‚Р°, РЅРѕРјРµСЂ, РјРµСЃС‚Рѕ)
+     * Get the list of 'ContractRegistration' element items. Сведения о регистрации контракта, к которому относится дополнение (дата, номер, место)
      * 
      * @return list
      */
@@ -73,7 +73,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ContractRegistration' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РєРѕРЅС‚СЂР°РєС‚Р°, Рє РєРѕС‚РѕСЂРѕРјСѓ РѕС‚РЅРѕСЃРёС‚СЃСЏ РґРѕРїРѕР»РЅРµРЅРёРµ (РґР°С‚Р°, РЅРѕРјРµСЂ, РјРµСЃС‚Рѕ)
+     * Set the list of 'ContractRegistration' element items. Сведения о регистрации контракта, к которому относится дополнение (дата, номер, место)
      * 
      * @param list
      */
@@ -82,7 +82,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractDescription' element value. РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ContractDescription' element value. Описание условий контракта
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractDescription' element value. РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ContractDescription' element value. Описание условий контракта
      * 
      * @param contractDescription
      */
@@ -101,7 +101,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'SupContractDeliveryTerms' element items. РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РєРѕРЅС‚СЂР°РєС‚Р° (РёР»Рё РІ СЃРїРµС†РёС„РёРєР°С†РёРё Рє РєРѕРЅС‚СЂР°РєС‚Сѓ)
+     * Get the list of 'SupContractDeliveryTerms' element items. Описание условий поставки контракта (или в спецификации к контракту)
      * 
      * @return list
      */
@@ -110,7 +110,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'SupContractDeliveryTerms' element items. РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РєРѕРЅС‚СЂР°РєС‚Р° (РёР»Рё РІ СЃРїРµС†РёС„РёРєР°С†РёРё Рє РєРѕРЅС‚СЂР°РєС‚Сѓ)
+     * Set the list of 'SupContractDeliveryTerms' element items. Описание условий поставки контракта (или в спецификации к контракту)
      * 
      * @param list
      */
@@ -120,7 +120,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ContractSpecification' element items. РЎРїРµС†РёС„РёРєР°С†РёСЏ Рє РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Get the list of 'ContractSpecification' element items. Спецификация к дополнению к контракту
      * 
      * @return list
      */
@@ -129,7 +129,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ContractSpecification' element items. РЎРїРµС†РёС„РёРєР°С†РёСЏ Рє РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Set the list of 'ContractSpecification' element items. Спецификация к дополнению к контракту
      * 
      * @param list
      */
@@ -139,7 +139,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'RussianPerson' element value. РћРїРёСЃР°РЅРёРµ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚РѕРґРµСЂР¶Р°С‚РµР»СЏ
+     * Get the 'RussianPerson' element value. Описание российского контрактодержателя
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'RussianPerson' element value. РћРїРёСЃР°РЅРёРµ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚РѕРґРµСЂР¶Р°С‚РµР»СЏ
+     * Set the 'RussianPerson' element value. Описание российского контрактодержателя
      * 
      * @param russianPerson
      */
@@ -157,7 +157,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'ForeignPerson' element value. Р РµРєРІРёР·РёС‚С‹ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ СЃС‚РѕСЂРѕРЅС‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ForeignPerson' element value. Реквизиты иностранной стороны контракта
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'ForeignPerson' element value. Р РµРєРІРёР·РёС‚С‹ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ СЃС‚РѕСЂРѕРЅС‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ForeignPerson' element value. Реквизиты иностранной стороны контракта
      * 
      * @param foreignPerson
      */
@@ -175,7 +175,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ContractSignedPerson' element items. Р›РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ РґРѕРєСѓРјРµРЅС‚
+     * Get the list of 'ContractSignedPerson' element items. Лицо, подписавшее документ
      * 
      * @return list
      */
@@ -184,7 +184,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ContractSignedPerson' element items. Р›РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ РґРѕРєСѓРјРµРЅС‚
+     * Set the list of 'ContractSignedPerson' element items. Лицо, подписавшее документ
      * 
      * @param list
      */
@@ -193,7 +193,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class SupplementaryContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

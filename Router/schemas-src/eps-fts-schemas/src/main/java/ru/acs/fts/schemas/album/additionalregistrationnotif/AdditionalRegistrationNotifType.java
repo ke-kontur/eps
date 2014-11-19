@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРїРѕР»РЅРµРЅРёСЏ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° 
+ * Уведомление о регистрации дополнения к договору поручительства 
  */
 public class AdditionalRegistrationNotifType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class AdditionalRegistrationNotifType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ.
+     * Get the 'RegDate' element value. Дата формирования уведомления.
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class AdditionalRegistrationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ.
+     * Set the 'RegDate' element value. Дата формирования уведомления.
      * 
      * @param regDate
      */
@@ -35,7 +35,7 @@ public class AdditionalRegistrationNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
+     * Get the 'GRN' element value. Cсылочный номер гарантии в транзите 
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class AdditionalRegistrationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
+     * Set the 'GRN' element value. Cсылочный номер гарантии в транзите 
      * 
      * @param GRN
      */
@@ -53,7 +53,7 @@ public class AdditionalRegistrationNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° РїСЂРё СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'AdditionalID' element value. Уникальный идентификатор, присваиваемый дополнению к договору поручительства при регистрации
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class AdditionalRegistrationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РїСЂРёСЃРІР°РёРІР°РµРјС‹Р№ РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР° РїСЂРё СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'AdditionalID' element value. Уникальный идентификатор, присваиваемый дополнению к договору поручительства при регистрации
      * 
      * @param additionalID
      */
@@ -71,7 +71,7 @@ public class AdditionalRegistrationNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalNumber' element value. РџСЂРёСЃРІРѕРµРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёСЏ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
+     * Get the 'AdditionalNumber' element value. Присвоенный номер дополнения к договору поручительства
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class AdditionalRegistrationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalNumber' element value. РџСЂРёСЃРІРѕРµРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРїРѕР»РЅРµРЅРёСЏ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
+     * Set the 'AdditionalNumber' element value. Присвоенный номер дополнения к договору поручительства
      * 
      * @param additionalNumber
      */
@@ -89,7 +89,7 @@ public class AdditionalRegistrationNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class AdditionalRegistrationNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

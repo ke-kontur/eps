@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РђРєС‚ СЌРєСЃРїРµСЂС‚РёР·С‹
+ * Акт экспертизы
  */
 public class ActExpertiseType extends BaseDocType
 {
@@ -27,7 +27,7 @@ public class ActExpertiseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NameCommission' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРјРёСЃСЃРёРё
+     * Get the 'NameCommission' element value. Наименование комиссии
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the 'NameCommission' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРјРёСЃСЃРёРё
+     * Set the 'NameCommission' element value. Наименование комиссии
      * 
      * @param nameCommission
      */
@@ -45,7 +45,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Get the 'Authority' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, РЅР°Р·РЅР°С‡РёРІС€РµРіРѕ СЌРєСЃРїРµСЂС‚РёР·Сѓ
+     * Get the 'Authority' element value. Наименование органа, назначившего экспертизу
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Authority' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, РЅР°Р·РЅР°С‡РёРІС€РµРіРѕ СЌРєСЃРїРµСЂС‚РёР·Сѓ
+     * Set the 'Authority' element value. Наименование органа, назначившего экспертизу
      * 
      * @param authority
      */
@@ -63,7 +63,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Production' element items. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РёР·РґРµР»РёСЏ (РјР°С‚РµСЂРёР°Р»С‹)
+     * Get the list of 'Production' element items. Представленные изделия (материалы)
      * 
      * @return list
      */
@@ -72,7 +72,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Production' element items. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РёР·РґРµР»РёСЏ (РјР°С‚РµСЂРёР°Р»С‹)
+     * Set the list of 'Production' element items. Представленные изделия (материалы)
      * 
      * @param list
      */
@@ -81,7 +81,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Questions' element items. РџРѕСЃС‚Р°РІР»РµРЅРЅС‹Рµ РІРѕРїСЂРѕСЃС‹
+     * Get the list of 'Questions' element items. Поставленные вопросы
      * 
      * @return list
      */
@@ -90,7 +90,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Questions' element items. РџРѕСЃС‚Р°РІР»РµРЅРЅС‹Рµ РІРѕРїСЂРѕСЃС‹
+     * Set the list of 'Questions' element items. Поставленные вопросы
      * 
      * @param list
      */
@@ -99,7 +99,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Get the 'MethodExpertise' element value. РњРµС‚РѕРґ РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Get the 'MethodExpertise' element value. Метод проведения экспертизы
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the 'MethodExpertise' element value. РњРµС‚РѕРґ РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Set the 'MethodExpertise' element value. Метод проведения экспертизы
      * 
      * @param methodExpertise
      */
@@ -117,7 +117,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Get the 'Article' element value. РЎС‚Р°С‚СЊСЏ РЈРџРљ Р Р¤
+     * Get the 'Article' element value. Статья УПК РФ
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Article' element value. РЎС‚Р°С‚СЊСЏ РЈРџРљ Р Р¤
+     * Set the 'Article' element value. Статья УПК РФ
      * 
      * @param article
      */
@@ -135,7 +135,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Get the 'ChiefInspection' element value. РќР°С‡Р°Р»СЊРЅРёРє РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ РёРЅСЃРїРµРєС†РёРё РїСЂРѕР±РёСЂРЅРѕРіРѕ РЅР°РґР·РѕСЂР°
+     * Get the 'ChiefInspection' element value. Начальник государственной инспекции пробирного надзора
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ChiefInspection' element value. РќР°С‡Р°Р»СЊРЅРёРє РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ РёРЅСЃРїРµРєС†РёРё РїСЂРѕР±РёСЂРЅРѕРіРѕ РЅР°РґР·РѕСЂР°
+     * Set the 'ChiefInspection' element value. Начальник государственной инспекции пробирного надзора
      * 
      * @param chiefInspection
      */
@@ -153,7 +153,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ListCommission' element items. Р›РёСЃС‚ РєРѕРјРёСЃСЃРёРё
+     * Get the list of 'ListCommission' element items. Лист комиссии
      * 
      * @return list
      */
@@ -162,7 +162,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ListCommission' element items. Р›РёСЃС‚ РєРѕРјРёСЃСЃРёРё
+     * Set the list of 'ListCommission' element items. Лист комиссии
      * 
      * @param list
      */
@@ -171,7 +171,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Get the 'Resolution' element value. РџРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ
+     * Get the 'Resolution' element value. Постановление
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Resolution' element value. РџРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ
+     * Set the 'Resolution' element value. Постановление
      * 
      * @param resolution
      */
@@ -189,7 +189,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Get the 'Receipt' element value. РљРІРёС‚Р°РЅС†РёСЏ
+     * Get the 'Receipt' element value. Квитанция
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Receipt' element value. РљРІРёС‚Р°РЅС†РёСЏ
+     * Set the 'Receipt' element value. Квитанция
      * 
      * @param receipt
      */
@@ -207,7 +207,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ResultsExamination' element items. Р РµР·СѓР»СЊС‚Р°С‚ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Get the list of 'ResultsExamination' element items. Результат экспертизы
      * 
      * @return list
      */
@@ -216,7 +216,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ResultsExamination' element items. Р РµР·СѓР»СЊС‚Р°С‚ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Set the list of 'ResultsExamination' element items. Результат экспертизы
      * 
      * @param list
      */
@@ -225,7 +225,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CommissionSignature' element items. РџРѕРґРїРёСЃСЊ РєРѕРјРёСЃСЃРёРё
+     * Get the list of 'CommissionSignature' element items. Подпись комиссии
      * 
      * @return list
      */
@@ -234,7 +234,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CommissionSignature' element items. РџРѕРґРїРёСЃСЊ РєРѕРјРёСЃСЃРёРё
+     * Set the list of 'CommissionSignature' element items. Подпись комиссии
      * 
      * @param list
      */
@@ -243,7 +243,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -252,7 +252,7 @@ public class ActExpertiseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

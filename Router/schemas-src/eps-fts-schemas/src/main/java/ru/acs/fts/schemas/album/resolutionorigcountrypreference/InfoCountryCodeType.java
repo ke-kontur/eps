@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РЎРџ
+ * Сведения о СП
  */
 public class InfoCountryCodeType
 {
@@ -17,7 +17,7 @@ public class InfoCountryCodeType
     private List<DocumentBaseType> documentCountryCodeList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the list of 'GoodsNumber' element items. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Get the list of 'GoodsNumber' element items. Номер товара по ДТ
      * 
      * @return list
      */
@@ -26,7 +26,7 @@ public class InfoCountryCodeType
     }
 
     /** 
-     * Set the list of 'GoodsNumber' element items. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Set the list of 'GoodsNumber' element items. Номер товара по ДТ
      * 
      * @param list
      */
@@ -35,7 +35,7 @@ public class InfoCountryCodeType
     }
 
     /** 
-     * Get the 'DeclCountryCode' element value. Р—Р°СЏРІР»РµРЅРЅС‹Р№ РєРѕРґ РЎРџ
+     * Get the 'DeclCountryCode' element value. Заявленный код СП
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class InfoCountryCodeType
     }
 
     /** 
-     * Set the 'DeclCountryCode' element value. Р—Р°СЏРІР»РµРЅРЅС‹Р№ РєРѕРґ РЎРџ
+     * Set the 'DeclCountryCode' element value. Заявленный код СП
      * 
      * @param declCountryCode
      */
@@ -53,7 +53,7 @@ public class InfoCountryCodeType
     }
 
     /** 
-     * Get the 'AdjCountryCode' element value. РЎРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°РЅРЅС‹Р№ РєРѕРґ РЎРџ
+     * Get the 'AdjCountryCode' element value. Скорректированный код СП
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class InfoCountryCodeType
     }
 
     /** 
-     * Set the 'AdjCountryCode' element value. РЎРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°РЅРЅС‹Р№ РєРѕРґ РЎРџ
+     * Set the 'AdjCountryCode' element value. Скорректированный код СП
      * 
      * @param adjCountryCode
      */
@@ -71,7 +71,7 @@ public class InfoCountryCodeType
     }
 
     /** 
-     * Get the list of 'RationaleDecision' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
+     * Get the list of 'RationaleDecision' element items. Обоснование принятого решения
      * 
      * @return list
      */
@@ -80,7 +80,7 @@ public class InfoCountryCodeType
     }
 
     /** 
-     * Set the list of 'RationaleDecision' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
+     * Set the list of 'RationaleDecision' element items. Обоснование принятого решения
      * 
      * @param list
      */
@@ -89,7 +89,7 @@ public class InfoCountryCodeType
     }
 
     /** 
-     * Get the list of 'DocumentCountryCode' element items. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РµРіРѕ Р·Р°СЏРІР»РµРЅРЅСѓСЋ РЎРџ
+     * Get the list of 'DocumentCountryCode' element items. Реквизиты документа, подтверждающего заявленную СП
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class InfoCountryCodeType
     }
 
     /** 
-     * Set the list of 'DocumentCountryCode' element items. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РµРіРѕ Р·Р°СЏРІР»РµРЅРЅСѓСЋ РЎРџ
+     * Set the list of 'DocumentCountryCode' element items. Реквизиты документа, подтверждающего заявленную СП
      * 
      * @param list
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.semcommonaggregatetypescust.BaseServiceRequestTy
 import ru.acs.fts.schemas.album.semcommonaggregatetypescust.GoodsType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РїРѕ РЅР°Р»РёС‡РёСЋ РѕР±СЉРµРєС‚РѕРІ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
+ * Запрос по наличию объектов интеллектуальной собственности
  */
 public class SEMOISRequestType extends BaseServiceRequestType
 {
@@ -15,7 +15,7 @@ public class SEMOISRequestType extends BaseServiceRequestType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Goods' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the list of 'Goods' element items. Информация о товарах
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class SEMOISRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the list of 'Goods' element items. Информация о товарах
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class SEMOISRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class SEMOISRequestType extends BaseServiceRequestType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

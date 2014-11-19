@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅР°СЂСѓС€РµРЅРёРё РІС‹РІРѕР·Р° С‚РѕРІР°СЂРѕРІ СЃ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
+ * Уведомление о нарушении вывоза товаров с таможенной территории Таможенного союза
  */
 public class PINotifViolationType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class PINotifViolationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ViolationNumber' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ
+     * Get the 'ViolationNumber' element value. Исходящий номер уведомления
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ViolationNumber' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ
+     * Set the 'ViolationNumber' element value. Исходящий номер уведомления
      * 
      * @param violationNumber
      */
@@ -41,7 +41,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ViolationTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
+     * Get the 'ViolationTime' element value. Время создания уведомления
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ViolationTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
+     * Set the 'ViolationTime' element value. Время создания уведомления
      * 
      * @param violationTime
      */
@@ -59,7 +59,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ViolationDate' element value. Р”Р°С‚Р°  СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
+     * Get the 'ViolationDate' element value. Дата  создания уведомления
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ViolationDate' element value. Р”Р°С‚Р°  СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
+     * Set the 'ViolationDate' element value. Дата  создания уведомления
      * 
      * @param violationDate
      */
@@ -77,7 +77,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїР°РєРµС‚Р° СЌР»РµРєС‚СЂРѕРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'URN' element value. Уникальный идентификационный номер пакета электронных документов
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїР°РєРµС‚Р° СЌР»РµРєС‚СЂРѕРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'URN' element value. Уникальный идентификационный номер пакета электронных документов
      * 
      * @param URN
      */
@@ -95,7 +95,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ViolationInfo' element items. РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅС‹С… РЅР°СЂСѓС€РµРЅРёР№ Рё РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№.
+     * Get the list of 'ViolationInfo' element items. Описание выявленных нарушений и несоответствий.
      * 
      * @return list
      */
@@ -104,7 +104,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ViolationInfo' element items. РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅС‹С… РЅР°СЂСѓС€РµРЅРёР№ Рё РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№.
+     * Set the list of 'ViolationInfo' element items. Описание выявленных нарушений и несоответствий.
      * 
      * @param list
      */
@@ -113,7 +113,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -131,7 +131,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -149,7 +149,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class PINotifViolationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

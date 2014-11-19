@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р”Рў Рё РўР”. Р’РЅРµС€РЅРёР№ С„РѕСЂРјР°С‚. РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё С‚РѕРІР°СЂР°. Р“СЂ.27.
+ * ДТ и ТД. Внешний формат. Место погрузки/разгрузки товара. Гр.27.
  */
 public class ESADLoadingPlaceType
 {
@@ -19,7 +19,7 @@ public class ESADLoadingPlaceType
     private List<LoadingPlaceOtherType> loadingPlaceOtherList = new ArrayList<LoadingPlaceOtherType>();
 
     /** 
-     * Get the 'InformationTypeCode' element value. РўРёРї РёРЅС„РѕСЂРјР°С†РёРё: 11- РЎР’РҐ;  21- РўРЎ; 25 - РЎРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ; 31- РЎРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ; 39 - РЎРєР»Р°Рґ РёРЅРѕР№; 59 - РРЅРѕРµ РјРµСЃС‚Рѕ
+     * Get the 'InformationTypeCode' element value. Тип информации: 11- СВХ;  21- ТС; 25 - Свободный склад; 31- Склад получателя; 39 - Склад иной; 59 - Иное место
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ESADLoadingPlaceType
     }
 
     /** 
-     * Set the 'InformationTypeCode' element value. РўРёРї РёРЅС„РѕСЂРјР°С†РёРё: 11- РЎР’РҐ;  21- РўРЎ; 25 - РЎРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ; 31- РЎРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ; 39 - РЎРєР»Р°Рґ РёРЅРѕР№; 59 - РРЅРѕРµ РјРµСЃС‚Рѕ
+     * Set the 'InformationTypeCode' element value. Тип информации: 11- СВХ;  21- ТС; 25 - Свободный склад; 31- Склад получателя; 39 - Склад иной; 59 - Иное место
      * 
      * @param informationTypeCode
      */
@@ -62,7 +62,7 @@ public class ESADLoadingPlaceType
     }
 
     /** 
-     * Get the 'LoadingPlaceWarehouse' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
+     * Get the 'LoadingPlaceWarehouse' element value. Сведения о месте погрузки/разгрузки. Сведения о лицензии/ свидетельстве склада.
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class ESADLoadingPlaceType
     }
 
     /** 
-     * Set the 'LoadingPlaceWarehouse' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
+     * Set the 'LoadingPlaceWarehouse' element value. Сведения о месте погрузки/разгрузки. Сведения о лицензии/ свидетельстве склада.
      * 
      * @param loadingPlaceWarehouse
      */
@@ -91,7 +91,7 @@ public class ESADLoadingPlaceType
     }
 
     /** 
-     * Get the 'LoadingPlaseConsignee' element value. РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё /СЂР°Р·РіСЂСѓР·РєРё. РљРѕРґ РўРћ РµСЃР»Рё РІР»Р°РґРµР»СЊС†РµРј СЃРєР»Р°РґР° СЏРІР»СЏРµС‚СЃСЏ РўРћ /  РєРѕРґ РўРћ, РµСЃР»Рё С…СЂР°РЅРµРЅРёРµ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РЅР° СЃРєР»Р°РґРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ.
+     * Get the 'LoadingPlaseConsignee' element value. Место погрузки /разгрузки. Код ТО если владельцем склада является ТО /  код ТО, если хранение осуществляется на складе получателя.
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class ESADLoadingPlaceType
     }
 
     /** 
-     * Set the 'LoadingPlaseConsignee' element value. РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё /СЂР°Р·РіСЂСѓР·РєРё. РљРѕРґ РўРћ РµСЃР»Рё РІР»Р°РґРµР»СЊС†РµРј СЃРєР»Р°РґР° СЏРІР»СЏРµС‚СЃСЏ РўРћ /  РєРѕРґ РўРћ, РµСЃР»Рё С…СЂР°РЅРµРЅРёРµ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РЅР° СЃРєР»Р°РґРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ.
+     * Set the 'LoadingPlaseConsignee' element value. Место погрузки /разгрузки. Код ТО если владельцем склада является ТО /  код ТО, если хранение осуществляется на складе получателя.
      * 
      * @param loadingPlaseConsignee
      */
@@ -120,7 +120,7 @@ public class ESADLoadingPlaceType
     }
 
     /** 
-     * Get the list of 'LoadingPlaceOther' element items. РРЅРѕРµ РјРµСЃС‚Рѕ РІС‹РіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ.
+     * Get the list of 'LoadingPlaceOther' element items. Иное место выгрузки товаров.
      * 
      * @return list
      */
@@ -129,7 +129,7 @@ public class ESADLoadingPlaceType
     }
 
     /** 
-     * Set the list of 'LoadingPlaceOther' element items. РРЅРѕРµ РјРµСЃС‚Рѕ РІС‹РіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ.
+     * Set the list of 'LoadingPlaceOther' element items. Иное место выгрузки товаров.
      * 
      * @param list
      */

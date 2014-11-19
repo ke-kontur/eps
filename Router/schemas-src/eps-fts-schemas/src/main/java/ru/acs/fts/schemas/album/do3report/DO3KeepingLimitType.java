@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.do3report;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃСЂРѕРєРµ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+ * Сведения о сроке хранения товаров
  */
 public class DO3KeepingLimitType
 {
@@ -14,7 +14,7 @@ public class DO3KeepingLimitType
     private LocalDate deadLineDate;
 
     /** 
-     * Get the 'AcceptDate' element value. Р”Р°С‚Р° РїСЂРёРµРјР° С‚РѕРІР°СЂР° РЅР° С…СЂР°РЅРµРЅРёРµ 
+     * Get the 'AcceptDate' element value. Дата приема товара на хранение 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DO3KeepingLimitType
     }
 
     /** 
-     * Set the 'AcceptDate' element value. Р”Р°С‚Р° РїСЂРёРµРјР° С‚РѕРІР°СЂР° РЅР° С…СЂР°РЅРµРЅРёРµ 
+     * Set the 'AcceptDate' element value. Дата приема товара на хранение 
      * 
      * @param acceptDate
      */
@@ -32,7 +32,7 @@ public class DO3KeepingLimitType
     }
 
     /** 
-     * Get the 'AcceptTime' element value. Р’СЂРµРјСЏ РїСЂРёРµРјР° С‚РѕРІР°СЂР° РЅР° С…СЂР°РЅРµРЅРёРµ
+     * Get the 'AcceptTime' element value. Время приема товара на хранение
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DO3KeepingLimitType
     }
 
     /** 
-     * Set the 'AcceptTime' element value. Р’СЂРµРјСЏ РїСЂРёРµРјР° С‚РѕРІР°СЂР° РЅР° С…СЂР°РЅРµРЅРёРµ
+     * Set the 'AcceptTime' element value. Время приема товара на хранение
      * 
      * @param acceptTime
      */
@@ -50,7 +50,7 @@ public class DO3KeepingLimitType
     }
 
     /** 
-     * Get the 'StoringDateType' element value. РўРёРї СЃСЂРѕРєР° С…СЂР°РЅРµРЅРёСЏ  РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ
+     * Get the 'StoringDateType' element value. Тип срока хранения  по справочнику
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class DO3KeepingLimitType
     }
 
     /** 
-     * Set the 'StoringDateType' element value. РўРёРї СЃСЂРѕРєР° С…СЂР°РЅРµРЅРёСЏ  РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ
+     * Set the 'StoringDateType' element value. Тип срока хранения  по справочнику
      * 
      * @param storingDateType
      */
@@ -68,7 +68,7 @@ public class DO3KeepingLimitType
     }
 
     /** 
-     * Get the 'DeadLineDate' element value. Р”Р°С‚Р° РёСЃС‚РµС‡РµРЅРёСЏ СЃСЂРѕРєР° С…СЂР°РЅРµРЅРёСЏ
+     * Get the 'DeadLineDate' element value. Дата истечения срока хранения
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class DO3KeepingLimitType
     }
 
     /** 
-     * Set the 'DeadLineDate' element value. Р”Р°С‚Р° РёСЃС‚РµС‡РµРЅРёСЏ СЃСЂРѕРєР° С…СЂР°РЅРµРЅРёСЏ
+     * Set the 'DeadLineDate' element value. Дата истечения срока хранения
      * 
      * @param deadLineDate
      */

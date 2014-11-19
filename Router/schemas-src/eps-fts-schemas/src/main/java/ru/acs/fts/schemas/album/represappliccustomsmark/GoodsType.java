@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsType
 {
@@ -15,7 +15,7 @@ public class GoodsType
     private String comments;
 
     /** 
-     * Get the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°
+     * Get the 'GoodsNumeric' element value. Порядковый номер декларируемого товара
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°
+     * Set the 'GoodsNumeric' element value. Порядковый номер декларируемого товара
      * 
      * @param goodsNumeric
      */
@@ -33,7 +33,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -69,7 +69,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the 'Comments' element value. Примечание
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the 'Comments' element value. Примечание
      * 
      * @param comments
      */

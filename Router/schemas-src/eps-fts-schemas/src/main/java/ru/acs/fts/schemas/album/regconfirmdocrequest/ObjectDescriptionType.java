@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.regconfirmdocrequest;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё/С‚РѕРІР°СЂР°/РѕР±СЉРµРєС‚Р°
+ * Описание деятельности/товара/объекта
  */
 public class ObjectDescriptionType
 {
@@ -13,7 +13,7 @@ public class ObjectDescriptionType
     private String manufacturer;
 
     /** 
-     * Get the 'KindCode' element value. РљРѕРґ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё/РўРёРї Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° (1 - Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹Р№ РїСЂРµРїР°СЂР°С‚; 2 - СЃСѓР±СЃС‚Р°РЅС†РёСЏ)/РўРёРї РѕР±СЉРµРєС‚Р°
+     * Get the 'KindCode' element value. Код вида деятельности/Тип лекарственного средства (1 - лекарственный препарат; 2 - субстанция)/Тип объекта
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ObjectDescriptionType
     }
 
     /** 
-     * Set the 'KindCode' element value. РљРѕРґ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё/РўРёРї Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° (1 - Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹Р№ РїСЂРµРїР°СЂР°С‚; 2 - СЃСѓР±СЃС‚Р°РЅС†РёСЏ)/РўРёРї РѕР±СЉРµРєС‚Р°
+     * Set the 'KindCode' element value. Код вида деятельности/Тип лекарственного средства (1 - лекарственный препарат; 2 - субстанция)/Тип объекта
      * 
      * @param kindCode
      */
@@ -31,7 +31,7 @@ public class ObjectDescriptionType
     }
 
     /** 
-     * Get the 'ObjectName' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё/РѕР±СЉРµРєС‚Р°/РёР·РґРµР»РёСЏ Рё С‚.Рї.
+     * Get the 'ObjectName' element value. Описание вида деятельности/объекта/изделия и т.п.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ObjectDescriptionType
     }
 
     /** 
-     * Set the 'ObjectName' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё/РѕР±СЉРµРєС‚Р°/РёР·РґРµР»РёСЏ Рё С‚.Рї.
+     * Set the 'ObjectName' element value. Описание вида деятельности/объекта/изделия и т.п.
      * 
      * @param objectName
      */
@@ -49,7 +49,7 @@ public class ObjectDescriptionType
     }
 
     /** 
-     * Get the 'MovementType' element value. РўРёРї РїРµСЂРµРІРѕР·РѕРє (РџРџ/РџР“)
+     * Get the 'MovementType' element value. Тип перевозок (ПП/ПГ)
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ObjectDescriptionType
     }
 
     /** 
-     * Set the 'MovementType' element value. РўРёРї РїРµСЂРµРІРѕР·РѕРє (РџРџ/РџР“)
+     * Set the 'MovementType' element value. Тип перевозок (ПП/ПГ)
      * 
      * @param movementType
      */
@@ -67,7 +67,7 @@ public class ObjectDescriptionType
     }
 
     /** 
-     * Get the 'ObjectNumber' element value. РќРѕРјРµСЂ РѕР±СЉРµРєС‚Р°
+     * Get the 'ObjectNumber' element value. Номер объекта
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class ObjectDescriptionType
     }
 
     /** 
-     * Set the 'ObjectNumber' element value. РќРѕРјРµСЂ РѕР±СЉРµРєС‚Р°
+     * Set the 'ObjectNumber' element value. Номер объекта
      * 
      * @param objectNumber
      */
@@ -85,7 +85,7 @@ public class ObjectDescriptionType
     }
 
     /** 
-     * Get the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
+     * Get the 'Manufacturer' element value. Производитель
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class ObjectDescriptionType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ
+     * Set the 'Manufacturer' element value. Производитель
      * 
      * @param manufacturer
      */

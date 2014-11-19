@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DriverInformationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
+ * Сведения о перевозчике
  */
 public class ESADoutCUCarrierType extends CUOrganizationType
 {
     private DriverInformationType ESADoutCUDriverInformation;
 
     /** 
-     * Get the 'ESADout_CUDriverInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРѕРґРёС‚РµР»СЏС… С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё С‚СЂР°РЅР·РёС‚Рµ С‚РѕРІР°СЂРѕРІ Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј
+     * Get the 'ESADout_CUDriverInformation' element value. Информация о водителях транспортных средств. Заполняется при транзите товаров автомобильным транспортом
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ESADoutCUCarrierType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'ESADout_CUDriverInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРѕРґРёС‚РµР»СЏС… С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё С‚СЂР°РЅР·РёС‚Рµ С‚РѕРІР°СЂРѕРІ Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј
+     * Set the 'ESADout_CUDriverInformation' element value. Информация о водителях транспортных средств. Заполняется при транзите товаров автомобильным транспортом
      * 
      * @param ESADoutCUDriverInformation
      */

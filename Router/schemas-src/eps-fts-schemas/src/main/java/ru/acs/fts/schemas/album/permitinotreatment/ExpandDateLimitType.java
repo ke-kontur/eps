@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.permitinotreatment;
 
 /** 
- * РЎСЂРѕРє РїСЂРѕРґР»РµРЅРёСЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+ * Срок продления переработки
  */
 public class ExpandDateLimitType
 {
     private String expandTime;
 
     /** 
-     * Get the 'ExpandTime' element value. РЎСЂРѕРє РїСЂРѕРґР»РµРЅРёСЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё (РІ РјРµСЃСЏС†Р°С…)
+     * Get the 'ExpandTime' element value. Срок продления переработки (в месяцах)
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class ExpandDateLimitType
     }
 
     /** 
-     * Set the 'ExpandTime' element value. РЎСЂРѕРє РїСЂРѕРґР»РµРЅРёСЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё (РІ РјРµСЃСЏС†Р°С…)
+     * Set the 'ExpandTime' element value. Срок продления переработки (в месяцах)
      * 
      * @param expandTime
      */

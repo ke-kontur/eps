@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.revealedrisks;
 import org.joda.time.LocalDate;
 
 /** 
- * РќРѕРјРµСЂ РѕРїСЂРµРґРµР»РµРЅРёСЏ Рѕ РІРѕР·Р±СѓР¶РґРµРЅРёРё РґРµР»Р° РѕР± РђРџ (РЈР”) РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СѓС‡РµС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РїСЂРёРєР°Р·РѕРј Р¤РўРЎ Р РѕСЃСЃРёРё РѕС‚ 24.04.2007 в„–524 
+ * Номер определения о возбуждении дела об АП (УД) по журналу учета в соответствии с приказом ФТС России от 24.04.2007 №524 
  */
 public class NumberDefinitionsType
 {
@@ -13,7 +13,7 @@ public class NumberDefinitionsType
     private LocalDate dateYear;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р°
+     * Get the 'CustomsCode' element value. Код таможенного поста
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class NumberDefinitionsType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р°
+     * Set the 'CustomsCode' element value. Код таможенного поста
      * 
      * @param customsCode
      */
@@ -31,7 +31,7 @@ public class NumberDefinitionsType
     }
 
     /** 
-     * Get the 'Number' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СѓС‡РµС‚Р°
+     * Get the 'Number' element value. Порядковый номер по журналу учета
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class NumberDefinitionsType
     }
 
     /** 
-     * Set the 'Number' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СѓС‡РµС‚Р°
+     * Set the 'Number' element value. Порядковый номер по журналу учета
      * 
      * @param number
      */
@@ -49,7 +49,7 @@ public class NumberDefinitionsType
     }
 
     /** 
-     * Get the 'DateYear' element value. РўРµРєСѓС‰РёР№ РіРѕРґ
+     * Get the 'DateYear' element value. Текущий год
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class NumberDefinitionsType
     }
 
     /** 
-     * Set the 'DateYear' element value. РўРµРєСѓС‰РёР№ РіРѕРґ
+     * Set the 'DateYear' element value. Текущий год
      * 
      * @param dateYear
      */

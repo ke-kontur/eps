@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.RKOrganizationFeaturesT
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADoutCUCustomsPaymentType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‚Рµ. Р“СЂ. Р’.
+ * Сведения об уплате. Гр. В.
  */
 public class CustomsPaymentType extends ESADoutCUCustomsPaymentType
 {
@@ -16,7 +16,7 @@ public class CustomsPaymentType extends ESADoutCUCustomsPaymentType
     private Choice choice;
 
     /** 
-     * Get the 'PaymentWayCode' element value. РЎРїРѕСЃРѕР± СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
+     * Get the 'PaymentWayCode' element value. Способ уплаты в соответствии с классификатором способов уплаты таможенных и иных платежей, взимание которых возложено на таможенные органы
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class CustomsPaymentType extends ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentWayCode' element value. РЎРїРѕСЃРѕР± СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
+     * Set the 'PaymentWayCode' element value. Способ уплаты в соответствии с классификатором способов уплаты таможенных и иных платежей, взимание которых возложено на таможенные органы
      * 
      * @param paymentWayCode
      */
@@ -34,7 +34,7 @@ public class CustomsPaymentType extends ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Get the 'PaymentDocument' element value. РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'PaymentDocument' element value. Платежный документ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CustomsPaymentType extends ESADoutCUCustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentDocument' element value. РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'PaymentDocument' element value. Платежный документ
      * 
      * @param paymentDocument
      */
@@ -104,7 +104,7 @@ public class CustomsPaymentType extends ESADoutCUCustomsPaymentType
         }
 
         /** 
-         * Get the 'RFOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+         * Get the 'RFOrganizationFeatures' element value. Сведения об организации. Особенности Российской Федерации
          * 
          * @return value
          */
@@ -113,7 +113,7 @@ public class CustomsPaymentType extends ESADoutCUCustomsPaymentType
         }
 
         /** 
-         * Set the 'RFOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+         * Set the 'RFOrganizationFeatures' element value. Сведения об организации. Особенности Российской Федерации
          * 
          * @param RFOrganizationFeatures
          */
@@ -133,7 +133,7 @@ public class CustomsPaymentType extends ESADoutCUCustomsPaymentType
         }
 
         /** 
-         * Get the 'RKOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
+         * Get the 'RKOrganizationFeatures' element value. Сведения об организации. Особенности Республики Казахстан
          * 
          * @return value
          */
@@ -142,7 +142,7 @@ public class CustomsPaymentType extends ESADoutCUCustomsPaymentType
         }
 
         /** 
-         * Set the 'RKOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
+         * Set the 'RKOrganizationFeatures' element value. Сведения об организации. Особенности Республики Казахстан
          * 
          * @param RKOrganizationFeatures
          */
@@ -162,7 +162,7 @@ public class CustomsPaymentType extends ESADoutCUCustomsPaymentType
         }
 
         /** 
-         * Get the 'RBOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
+         * Get the 'RBOrganizationFeatures' element value. Сведения об организации. Особенности Республики Беларусь
          * 
          * @return value
          */
@@ -171,7 +171,7 @@ public class CustomsPaymentType extends ESADoutCUCustomsPaymentType
         }
 
         /** 
-         * Set the 'RBOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
+         * Set the 'RBOrganizationFeatures' element value. Сведения об организации. Особенности Республики Беларусь
          * 
          * @param RBOrganizationFeatures
          */

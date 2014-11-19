@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РђРєС‚ РѕС‚Р±РѕСЂР° РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
+ * Акт отбора проб и образцов
  */
 public class ActThievingSamplingType extends BaseDocType
 {
@@ -38,7 +38,7 @@ public class ActThievingSamplingType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ Р°РєС‚Р°
+     * Get the 'Date' element value. Дата составления акта
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ Р°РєС‚Р°
+     * Set the 'Date' element value. Дата составления акта
      * 
      * @param date
      */
@@ -56,7 +56,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ Р°РєС‚Р°
+     * Get the 'Number' element value. Номер акта
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ Р°РєС‚Р°
+     * Set the 'Number' element value. Номер акта
      * 
      * @param number
      */
@@ -74,7 +74,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'NameObject' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРµРґРјРµС‚Р°
+     * Get the list of 'NameObject' element items. Наименование предмета
      * 
      * @return list
      */
@@ -83,7 +83,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'NameObject' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРµРґРјРµС‚Р°
+     * Set the list of 'NameObject' element items. Наименование предмета
      * 
      * @param list
      */
@@ -92,7 +92,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'DatePresentation' element value. Р”Р°С‚Р° РїСЂРµРґСЉСЏРІР»РµРЅРёСЏ РїСЂРµРґРјРµС‚РѕРІ
+     * Get the 'DatePresentation' element value. Дата предъявления предметов
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'DatePresentation' element value. Р”Р°С‚Р° РїСЂРµРґСЉСЏРІР»РµРЅРёСЏ РїСЂРµРґРјРµС‚РѕРІ
+     * Set the 'DatePresentation' element value. Дата предъявления предметов
      * 
      * @param datePresentation
      */
@@ -110,7 +110,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateTakeDuplicateAct' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ РєРѕРїРёРё Р°РєС‚Р°
+     * Get the 'DateTakeDuplicateAct' element value. Дата получения копии акта
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateTakeDuplicateAct' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ РєРѕРїРёРё Р°РєС‚Р°
+     * Set the 'DateTakeDuplicateAct' element value. Дата получения копии акта
      * 
      * @param dateTakeDuplicateAct
      */
@@ -128,7 +128,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Application' element items. РџСЂРёР»РѕР¶РµРЅРёРµ
+     * Get the list of 'Application' element items. Приложение
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Application' element items. РџСЂРёР»РѕР¶РµРЅРёРµ
+     * Set the list of 'Application' element items. Приложение
      * 
      * @param list
      */
@@ -146,7 +146,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @param customs
      */
@@ -164,7 +164,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'TakeSample' element value. Р›РёС†Рѕ, РѕС‚РѕР±СЂР°РІС€РµРµ РїСЂРѕР±С‹ РёР»Рё РѕР±СЂР°Р·С†С‹
+     * Get the 'TakeSample' element value. Лицо, отобравшее пробы или образцы
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'TakeSample' element value. Р›РёС†Рѕ, РѕС‚РѕР±СЂР°РІС€РµРµ РїСЂРѕР±С‹ РёР»Рё РѕР±СЂР°Р·С†С‹
+     * Set the 'TakeSample' element value. Лицо, отобравшее пробы или образцы
      * 
      * @param takeSample
      */
@@ -182,7 +182,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Expert' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ СЌРєСЃРїРµСЂС‚ (СЌРєСЃРїРµСЂС‚)
+     * Get the 'Expert' element value. Таможенный эксперт (эксперт)
      * 
      * @return value
      */
@@ -191,7 +191,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Expert' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ СЌРєСЃРїРµСЂС‚ (СЌРєСЃРїРµСЂС‚)
+     * Set the 'Expert' element value. Таможенный эксперт (эксперт)
      * 
      * @param expert
      */
@@ -200,7 +200,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Witness' element items. РџРѕРЅСЏС‚С‹Рµ
+     * Get the list of 'Witness' element items. Понятые
      * 
      * @return list
      */
@@ -209,7 +209,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Witness' element items. РџРѕРЅСЏС‚С‹Рµ
+     * Set the list of 'Witness' element items. Понятые
      * 
      * @param list
      */
@@ -218,7 +218,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'OtherParticipant' element items. РРЅС‹Рµ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РёРµ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'OtherParticipant' element items. Иные лица, обладающие полномочиями в отношении товаров
      * 
      * @return list
      */
@@ -227,7 +227,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'OtherParticipant' element items. РРЅС‹Рµ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РёРµ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'OtherParticipant' element items. Иные лица, обладающие полномочиями в отношении товаров
      * 
      * @param list
      */
@@ -236,7 +236,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Accessories' element value. РџСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚СЊ РїСЂРµРґРјРµС‚РѕРІ, РїСЂРѕР±С‹ РёР»Рё РѕР±СЂР°Р·С†С‹ РєРѕС‚РѕСЂС‹С… Р±РµСЂСѓС‚
+     * Get the 'Accessories' element value. Принадлежность предметов, пробы или образцы которых берут
      * 
      * @return value
      */
@@ -245,7 +245,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Accessories' element value. РџСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚СЊ РїСЂРµРґРјРµС‚РѕРІ, РїСЂРѕР±С‹ РёР»Рё РѕР±СЂР°Р·С†С‹ РєРѕС‚РѕСЂС‹С… Р±РµСЂСѓС‚
+     * Set the 'Accessories' element value. Принадлежность предметов, пробы или образцы которых берут
      * 
      * @param accessories
      */
@@ -254,7 +254,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'TermsThievingSampling' element value. РЈСЃР»РѕРІРёСЏ РѕС‚Р±РѕСЂР° РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ
+     * Get the 'TermsThievingSampling' element value. Условия отбора проб или образцов
      * 
      * @return value
      */
@@ -263,7 +263,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'TermsThievingSampling' element value. РЈСЃР»РѕРІРёСЏ РѕС‚Р±РѕСЂР° РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ
+     * Set the 'TermsThievingSampling' element value. Условия отбора проб или образцов
      * 
      * @param termsThievingSampling
      */
@@ -273,7 +273,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InfoObject' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРµРґРјРµС‚Р°С…, РІР·СЏС‚С‹С… РІ РєР°С‡РµСЃС‚РІРµ РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ.
+     * Get the list of 'InfoObject' element items. Информация о предметах, взятых в качестве проб или образцов.
      * 
      * @return list
      */
@@ -282,7 +282,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InfoObject' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРµРґРјРµС‚Р°С…, РІР·СЏС‚С‹С… РІ РєР°С‡РµСЃС‚РІРµ РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ.
+     * Set the list of 'InfoObject' element items. Информация о предметах, взятых в качестве проб или образцов.
      * 
      * @param list
      */
@@ -291,7 +291,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Packing' element value. РЈРїР°РєРѕРІРєР° РІР·СЏС‚С‹С… РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ
+     * Get the 'Packing' element value. Упаковка взятых проб или образцов
      * 
      * @return value
      */
@@ -300,7 +300,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Packing' element value. РЈРїР°РєРѕРІРєР° РІР·СЏС‚С‹С… РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ
+     * Set the 'Packing' element value. Упаковка взятых проб или образцов
      * 
      * @param packing
      */
@@ -309,7 +309,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Observation' element items. Р—Р°РјРµС‡Р°РЅРёСЏ Рё Р·Р°СЏРІР»РµРЅРёСЏ РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РёС… (СѓС‡Р°СЃС‚РІСѓСЋС‰РёС…) Р»РёС†
+     * Get the list of 'Observation' element items. Замечания и заявления присутствующих (участвующих) лиц
      * 
      * @return list
      */
@@ -318,7 +318,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Observation' element items. Р—Р°РјРµС‡Р°РЅРёСЏ Рё Р·Р°СЏРІР»РµРЅРёСЏ РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РёС… (СѓС‡Р°СЃС‚РІСѓСЋС‰РёС…) Р»РёС†
+     * Set the list of 'Observation' element items. Замечания и заявления присутствующих (участвующих) лиц
      * 
      * @param list
      */
@@ -327,7 +327,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignatureAuthorAct' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ Р°РєС‚
+     * Get the 'PersonSignatureAuthorAct' element value. Подпись лица, составившего акт
      * 
      * @return value
      */
@@ -336,7 +336,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignatureAuthorAct' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ Р°РєС‚
+     * Set the 'PersonSignatureAuthorAct' element value. Подпись лица, составившего акт
      * 
      * @param personSignatureAuthorAct
      */
@@ -346,7 +346,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PersonPresent' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ, РёРЅРѕРј Р»РёС†Рµ, РѕР±Р»Р°РґР°СЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ, РёР»Рё РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏС…
+     * Get the list of 'PersonPresent' element items. Сведения о декларанте, ином лице, обладающем полномочиями в отношении товаров, или их представителях
      * 
      * @return list
      */
@@ -355,7 +355,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PersonPresent' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ, РёРЅРѕРј Р»РёС†Рµ, РѕР±Р»Р°РґР°СЋС‰РµРј РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ, РёР»Рё РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏС…
+     * Set the list of 'PersonPresent' element items. Сведения о декларанте, ином лице, обладающем полномочиями в отношении товаров, или их представителях
      * 
      * @param list
      */
@@ -364,7 +364,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Specialist' element value. РЎРїРµС†РёР°Р»РёСЃС‚
+     * Get the 'Specialist' element value. Специалист
      * 
      * @return value
      */
@@ -373,7 +373,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Specialist' element value. РЎРїРµС†РёР°Р»РёСЃС‚
+     * Set the 'Specialist' element value. Специалист
      * 
      * @param specialist
      */
@@ -382,7 +382,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'OtherSpecialist' element items. РРЅС‹Рµ СЃРїРµС†РёР°Р»РёСЃС‚С‹
+     * Get the list of 'OtherSpecialist' element items. Иные специалисты
      * 
      * @return list
      */
@@ -391,7 +391,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'OtherSpecialist' element items. РРЅС‹Рµ СЃРїРµС†РёР°Р»РёСЃС‚С‹
+     * Set the list of 'OtherSpecialist' element items. Иные специалисты
      * 
      * @param list
      */
@@ -400,7 +400,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'DescriptionSample' element value. РћРїРёСЃР°РЅРёРµ РѕС‚РѕР±СЂР°РЅРЅС‹С… РїСЂРѕР± (РѕР±СЂР°Р·С†РѕРІ)
+     * Get the 'DescriptionSample' element value. Описание отобранных проб (образцов)
      * 
      * @return value
      */
@@ -409,7 +409,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'DescriptionSample' element value. РћРїРёСЃР°РЅРёРµ РѕС‚РѕР±СЂР°РЅРЅС‹С… РїСЂРѕР± (РѕР±СЂР°Р·С†РѕРІ)
+     * Set the 'DescriptionSample' element value. Описание отобранных проб (образцов)
      * 
      * @param descriptionSample
      */
@@ -418,7 +418,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'CopyReceived' element value. Р›РёС†Рѕ, РїРѕР»СѓС‡РёРІС€РµРµ РєРѕРїРёСЋ Р°РєС‚Р°
+     * Get the 'CopyReceived' element value. Лицо, получившее копию акта
      * 
      * @return value
      */
@@ -427,7 +427,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'CopyReceived' element value. Р›РёС†Рѕ, РїРѕР»СѓС‡РёРІС€РµРµ РєРѕРїРёСЋ Р°РєС‚Р°
+     * Set the 'CopyReceived' element value. Лицо, получившее копию акта
      * 
      * @param copyReceived
      */
@@ -436,7 +436,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -445,7 +445,7 @@ public class ActThievingSamplingType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

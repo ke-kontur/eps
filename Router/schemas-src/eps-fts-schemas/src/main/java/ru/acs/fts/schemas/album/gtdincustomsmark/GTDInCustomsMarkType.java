@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Р”Рў.(РІРЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚)
+ * Служебные отметки ДТ.(внутренний формат)
  */
 public class GTDInCustomsMarkType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class GTDInCustomsMarkType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёР№
+     * Get the list of 'Comments' element items. Комментарий
      * 
      * @return list
      */
@@ -28,7 +28,7 @@ public class GTDInCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёР№
+     * Set the list of 'Comments' element items. Комментарий
      * 
      * @param list
      */
@@ -37,7 +37,7 @@ public class GTDInCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё (GUID).
+     * Get the 'GTDDocumentID' element value. Уникальный идентификатор ДТ к которой относятся служебные отметки (GUID).
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class GTDInCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ СЃР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё (GUID).
+     * Set the 'GTDDocumentID' element value. Уникальный идентификатор ДТ к которой относятся служебные отметки (GUID).
      * 
      * @param GTDDocumentID
      */
@@ -55,7 +55,7 @@ public class GTDInCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GTDInCommonMark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Р”Рў 
+     * Get the list of 'GTDInCommonMark' element items. Служебные отметки ДТ 
      * 
      * @return list
      */
@@ -64,7 +64,7 @@ public class GTDInCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GTDInCommonMark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Р”Рў 
+     * Set the list of 'GTDInCommonMark' element items. Служебные отметки ДТ 
      * 
      * @param list
      */
@@ -73,7 +73,7 @@ public class GTDInCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
+     * Get the 'GTDID' element value. Регистрационный номер ДТ.
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class GTDInCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
+     * Set the 'GTDID' element value. Регистрационный номер ДТ.
      * 
      * @param GTDID
      */
@@ -91,7 +91,7 @@ public class GTDInCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'TechMarks' element value. РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёРµ РѕС‚РјРµС‚РєРё.
+     * Get the 'TechMarks' element value. Технологические отметки.
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class GTDInCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'TechMarks' element value. РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёРµ РѕС‚РјРµС‚РєРё.
+     * Set the 'TechMarks' element value. Технологические отметки.
      * 
      * @param techMarks
      */
@@ -109,7 +109,7 @@ public class GTDInCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class GTDInCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

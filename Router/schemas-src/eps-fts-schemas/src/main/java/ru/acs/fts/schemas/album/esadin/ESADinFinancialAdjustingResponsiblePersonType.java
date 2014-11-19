@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.ContactType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.ESADOrganizationInType;
 
 /** 
- * Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. Р›РёС†Рѕ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ.
+ * ДТ и ТД. Внутренний формат. Лицо ответственное за финансовое урегулирование.
  */
 public class ESADinFinancialAdjustingResponsiblePersonType
         extends
@@ -16,7 +16,7 @@ public class ESADinFinancialAdjustingResponsiblePersonType
     private ContactType contact;
 
     /** 
-     * Get the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
+     * Get the 'BranchDescription' element value. Сведения об обособленном подразделении.
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ESADinFinancialAdjustingResponsiblePersonType
     }
 
     /** 
-     * Set the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё.
+     * Set the 'BranchDescription' element value. Сведения об обособленном подразделении.
      * 
      * @param branchDescription
      */
@@ -34,7 +34,7 @@ public class ESADinFinancialAdjustingResponsiblePersonType
     }
 
     /** 
-     * Get the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'Contact' element value. Контактная информация
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ESADinFinancialAdjustingResponsiblePersonType
     }
 
     /** 
-     * Set the 'Contact' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'Contact' element value. Контактная информация
      * 
      * @param contact
      */

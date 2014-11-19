@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.contractdealpassport;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕС„РѕСЂРјР»РµРЅРёРё, Рѕ РїРµСЂРµРІРѕРґРµ Рё Р·Р°РєСЂС‹С‚РёРё РџРЎ
+ * Сведения об оформлении, о переводе и закрытии ПС
  */
 public class AdditionalInfoType
 {
@@ -16,7 +16,7 @@ public class AdditionalInfoType
     private String notaryAttorneyRegNumber;
 
     /** 
-     * Get the 'BankRegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р±Р°РЅРєР°, С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ СѓС‡СЂРµР¶РґРµРЅРёСЏ Р‘Р°РЅРєР° Р РѕСЃСЃРёРё, РѕС„РѕСЂРјРёРІС€РµРіРѕ РџРЎ (РїСЂРёРЅСЏРІС€РµРіРѕ РЅР° РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ РѕС„РѕСЂРјР»РµРЅРЅС‹Р№ СЂР°РЅРµРµ РІ РґСЂСѓРіРѕРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРј Р±Р°РЅРєРµ РџРЎ)
+     * Get the 'BankRegistrationNumber' element value. Регистрационный номер уполномоченного банка, территориального учреждения Банка России, оформившего ПС (принявшего на обслуживание оформленный ранее в другом уполномоченном банке ПС)
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Set the 'BankRegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р±Р°РЅРєР°, С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ СѓС‡СЂРµР¶РґРµРЅРёСЏ Р‘Р°РЅРєР° Р РѕСЃСЃРёРё, РѕС„РѕСЂРјРёРІС€РµРіРѕ РџРЎ (РїСЂРёРЅСЏРІС€РµРіРѕ РЅР° РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ РѕС„РѕСЂРјР»РµРЅРЅС‹Р№ СЂР°РЅРµРµ РІ РґСЂСѓРіРѕРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРј Р±Р°РЅРєРµ РџРЎ)
+     * Set the 'BankRegistrationNumber' element value. Регистрационный номер уполномоченного банка, территориального учреждения Банка России, оформившего ПС (принявшего на обслуживание оформленный ранее в другом уполномоченном банке ПС)
      * 
      * @param bankRegistrationNumber
      */
@@ -34,7 +34,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Get the 'AffilianceRegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С„РёР»РёР°Р»Р° Р±Р°РЅРєР°, РѕС„РѕСЂРјРёРІС€РµРіРѕ РџРЎ (РїСЂРёРЅСЏРІС€РµРіРѕ РЅР° РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ РѕС„РѕСЂРјР»РµРЅРЅС‹Р№ СЂР°РЅРµРµ РІ РґСЂСѓРіРѕРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРј Р±Р°РЅРєРµ РџРЎ)
+     * Get the 'AffilianceRegistrationNumber' element value. Регистрационный номер филиала банка, оформившего ПС (принявшего на обслуживание оформленный ранее в другом уполномоченном банке ПС)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Set the 'AffilianceRegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С„РёР»РёР°Р»Р° Р±Р°РЅРєР°, РѕС„РѕСЂРјРёРІС€РµРіРѕ РџРЎ (РїСЂРёРЅСЏРІС€РµРіРѕ РЅР° РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ РѕС„РѕСЂРјР»РµРЅРЅС‹Р№ СЂР°РЅРµРµ РІ РґСЂСѓРіРѕРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРј Р±Р°РЅРєРµ РџРЎ)
+     * Set the 'AffilianceRegistrationNumber' element value. Регистрационный номер филиала банка, оформившего ПС (принявшего на обслуживание оформленный ранее в другом уполномоченном банке ПС)
      * 
      * @param affilianceRegistrationNumber
      */
@@ -53,7 +53,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Get the 'TransferDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ РџРЎ РїСЂРё РїРµСЂРµРІРѕРґРµ РЅР° РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ РґСЂСѓРіРёРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Рј Р±Р°РЅРєРѕРј.
+     * Get the 'TransferDate' element value. Дата принятия ПС при переводе на обслуживание другим уполномоченным банком.
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Set the 'TransferDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ РџРЎ РїСЂРё РїРµСЂРµРІРѕРґРµ РЅР° РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ РґСЂСѓРіРёРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Рј Р±Р°РЅРєРѕРј.
+     * Set the 'TransferDate' element value. Дата принятия ПС при переводе на обслуживание другим уполномоченным банком.
      * 
      * @param transferDate
      */
@@ -71,7 +71,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Get the 'ClosingDate' element value. Р”Р°С‚Р° Р·Р°РєСЂС‹С‚РёСЏ РџРЎ
+     * Get the 'ClosingDate' element value. Дата закрытия ПС
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Set the 'ClosingDate' element value. Р”Р°С‚Р° Р·Р°РєСЂС‹С‚РёСЏ РџРЎ
+     * Set the 'ClosingDate' element value. Дата закрытия ПС
      * 
      * @param closingDate
      */
@@ -89,7 +89,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Get the 'ClosingReasons' element value. РћСЃРЅРѕРІР°РЅРёРµ Р·Р°РєСЂС‹С‚РёСЏ РџРЎ
+     * Get the 'ClosingReasons' element value. Основание закрытия ПС
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Set the 'ClosingReasons' element value. РћСЃРЅРѕРІР°РЅРёРµ Р·Р°РєСЂС‹С‚РёСЏ РџРЎ
+     * Set the 'ClosingReasons' element value. Основание закрытия ПС
      * 
      * @param closingReasons
      */
@@ -107,7 +107,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Get the 'NotaryAttorneyRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅРѕС‚Р°СЂРёСѓСЃР°/Р°РґРІРѕРєР°С‚Р°
+     * Get the 'NotaryAttorneyRegNumber' element value. Регистрационный номер нотариуса/адвоката
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Set the 'NotaryAttorneyRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅРѕС‚Р°СЂРёСѓСЃР°/Р°РґРІРѕРєР°С‚Р°
+     * Set the 'NotaryAttorneyRegNumber' element value. Регистрационный номер нотариуса/адвоката
      * 
      * @param notaryAttorneyRegNumber
      */

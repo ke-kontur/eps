@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё Р·Р°РїСЂРѕСЃР° РЅР° РІС‹РґР°С‡Сѓ РёР· РїСЂРёРєР°Р·РѕРІ РњРёРЅСЌРЅРµСЂРіРѕ Р РѕСЃСЃРёРё Рё РїРёСЃРµРј, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… С„Р°РєС‚ РґРѕР±С‹С‡Рё РЅРµС„С‚Рё СЃ РѕРїСЂРµРґРµР»РµРЅРЅС‹РјРё С„РёР·РёРєРѕ-С…РёРјРёС‡РµСЃРєРёРјРё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё СЃ РѕРїСЂРµРґРµР»РµРЅРЅС‹С… РјРµСЃС‚РѕСЂРѕР¶РґРµРЅРёР№
+ * Результат обработки запроса на выдачу из приказов Минэнерго России и писем, подтверждающих факт добычи нефти с определенными физико-химическими характеристиками с определенных месторождений
  */
 public class OilProductionConfirmationType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class OilProductionConfirmationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'StatusCode' element value. РљРѕРґ СЃС‚Р°С‚СѓСЃР°
+     * Get the 'StatusCode' element value. Код статуса
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class OilProductionConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'StatusCode' element value. РљРѕРґ СЃС‚Р°С‚СѓСЃР°
+     * Set the 'StatusCode' element value. Код статуса
      * 
      * @param statusCode
      */
@@ -34,7 +34,7 @@ public class OilProductionConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'StatusComment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№ СЃС‚Р°С‚СѓСЃР°
+     * Get the 'StatusComment' element value. Комментарий статуса
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class OilProductionConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'StatusComment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№ СЃС‚Р°С‚СѓСЃР°
+     * Set the 'StatusComment' element value. Комментарий статуса
      * 
      * @param statusComment
      */
@@ -52,7 +52,7 @@ public class OilProductionConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Receiver' element value. Получатель
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class OilProductionConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Receiver' element value. Получатель
      * 
      * @param receiver
      */
@@ -70,7 +70,7 @@ public class OilProductionConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConsignmentInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕСЃС‚Р°РІРєРµ
+     * Get the 'ConsignmentInfo' element value. Сведения о поставке
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class OilProductionConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConsignmentInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕСЃС‚Р°РІРєРµ
+     * Set the 'ConsignmentInfo' element value. Сведения о поставке
      * 
      * @param consignmentInfo
      */
@@ -88,7 +88,7 @@ public class OilProductionConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class OilProductionConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

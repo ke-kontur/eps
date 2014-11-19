@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Р’РёРґ РґРѕРіРѕРІРѕСЂР°
+ * Вид договора
  */
 public class KindContractType
 {
@@ -42,7 +42,7 @@ public class KindContractType
     }
 
     /** 
-     * Get the 'PurchaseSale' element value. РљСѓРїР»СЏ-РїСЂРѕРґР°Р¶Р°.
+     * Get the 'PurchaseSale' element value. Купля-продажа.
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class KindContractType
     }
 
     /** 
-     * Set the 'PurchaseSale' element value. РљСѓРїР»СЏ-РїСЂРѕРґР°Р¶Р°.
+     * Set the 'PurchaseSale' element value. Купля-продажа.
      * 
      * @param purchaseSale
      */
@@ -70,7 +70,7 @@ public class KindContractType
     }
 
     /** 
-     * Get the 'Other' element value. РРЅРѕРµ
+     * Get the 'Other' element value. Иное
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class KindContractType
     }
 
     /** 
-     * Set the 'Other' element value. РРЅРѕРµ
+     * Set the 'Other' element value. Иное
      * 
      * @param other
      */
@@ -98,7 +98,7 @@ public class KindContractType
     }
 
     /** 
-     * Get the 'LeasingAgreement' element value. Р›РёР·РёРЅРіРѕРІРѕРµ СЃРѕРіР»Р°С€РµРЅРёРµ.
+     * Get the 'LeasingAgreement' element value. Лизинговое соглашение.
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class KindContractType
     }
 
     /** 
-     * Set the 'LeasingAgreement' element value. Р›РёР·РёРЅРіРѕРІРѕРµ СЃРѕРіР»Р°С€РµРЅРёРµ.
+     * Set the 'LeasingAgreement' element value. Лизинговое соглашение.
      * 
      * @param leasingAgreement
      */
@@ -126,7 +126,7 @@ public class KindContractType
     }
 
     /** 
-     * Get the 'Exchange' element value. Р‘Р°СЂС‚РµСЂ
+     * Get the 'Exchange' element value. Бартер
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class KindContractType
     }
 
     /** 
-     * Set the 'Exchange' element value. Р‘Р°СЂС‚РµСЂ
+     * Set the 'Exchange' element value. Бартер
      * 
      * @param exchange
      */

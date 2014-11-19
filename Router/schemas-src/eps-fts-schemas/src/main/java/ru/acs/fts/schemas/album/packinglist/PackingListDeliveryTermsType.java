@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё
+ * Описание условий поставки
  */
 public class PackingListDeliveryTermsType
 {
@@ -19,7 +19,7 @@ public class PackingListDeliveryTermsType
     private DocumentBaseType registration;
 
     /** 
-     * Get the list of 'DeliveryPlace' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р° РїРѕСЃС‚Р°РІРєРё
+     * Get the list of 'DeliveryPlace' element items. Наименование пункта поставки
      * 
      * @return list
      */
@@ -28,7 +28,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Set the list of 'DeliveryPlace' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р° РїРѕСЃС‚Р°РІРєРё
+     * Set the list of 'DeliveryPlace' element items. Наименование пункта поставки
      * 
      * @param list
      */
@@ -37,7 +37,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Get the 'DeliveryTermsNumericCode' element value. Р§РёСЃР»РѕРІРѕР№ РєРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё
+     * Get the 'DeliveryTermsNumericCode' element value. Числовой код условий поставки
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Set the 'DeliveryTermsNumericCode' element value. Р§РёСЃР»РѕРІРѕР№ РєРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё
+     * Set the 'DeliveryTermsNumericCode' element value. Числовой код условий поставки
      * 
      * @param deliveryTermsNumericCode
      */
@@ -55,7 +55,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Get the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РїРѕ РРЅРєРѕС‚РµСЂРјСЃ
+     * Get the 'DeliveryTermsStringCode' element value. Код условий поставки по Инкотермс
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Set the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РїРѕ РРЅРєРѕС‚РµСЂРјСЃ
+     * Set the 'DeliveryTermsStringCode' element value. Код условий поставки по Инкотермс
      * 
      * @param deliveryTermsStringCode
      */
@@ -73,7 +73,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Get the 'TermsDescription' element value. РћРїРёСЃР°РЅРёРµ, РєРѕРјРјРµРЅС‚Р°СЂРёРё РїРѕ СѓСЃР»РѕРІРёСЏРј РїРѕСЃС‚Р°РІРєРё
+     * Get the 'TermsDescription' element value. Описание, комментарии по условиям поставки
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Set the 'TermsDescription' element value. РћРїРёСЃР°РЅРёРµ, РєРѕРјРјРµРЅС‚Р°СЂРёРё РїРѕ СѓСЃР»РѕРІРёСЏРј РїРѕСЃС‚Р°РІРєРё
+     * Set the 'TermsDescription' element value. Описание, комментарии по условиям поставки
      * 
      * @param termsDescription
      */
@@ -91,7 +91,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Get the 'Contract' element value. Р”Р°С‚Р° Рё РЅРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р°, Рє РєРѕС‚РѕСЂРѕРјСѓ РѕС‚РЅРѕСЃРёС‚СЃСЏ СѓРїР°РєРѕРІРѕС‡РЅС‹Р№ Р»РёСЃС‚.
+     * Get the 'Contract' element value. Дата и номер контракта, к которому относится упаковочный лист.
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Set the 'Contract' element value. Р”Р°С‚Р° Рё РЅРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р°, Рє РєРѕС‚РѕСЂРѕРјСѓ РѕС‚РЅРѕСЃРёС‚СЃСЏ СѓРїР°РєРѕРІРѕС‡РЅС‹Р№ Р»РёСЃС‚.
+     * Set the 'Contract' element value. Дата и номер контракта, к которому относится упаковочный лист.
      * 
      * @param contract
      */
@@ -109,7 +109,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Get the 'Invoice' element value. Р”Р°С‚Р° Рё РЅРѕРјРµСЂ РёРЅРІРѕР№СЃР°, Рє РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅ СѓРїР°РєРѕРІРѕС‡РЅС‹Р№ Р»РёСЃС‚. 
+     * Get the 'Invoice' element value. Дата и номер инвойса, к которому выдан упаковочный лист. 
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Set the 'Invoice' element value. Р”Р°С‚Р° Рё РЅРѕРјРµСЂ РёРЅРІРѕР№СЃР°, Рє РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅ СѓРїР°РєРѕРІРѕС‡РЅС‹Р№ Р»РёСЃС‚. 
+     * Set the 'Invoice' element value. Дата и номер инвойса, к которому выдан упаковочный лист. 
      * 
      * @param invoice
      */
@@ -127,7 +127,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Get the 'Registration' element value. Р”Р°С‚Р° Рё РЅРѕРјРµСЂ СѓРїР°РєРѕРІРѕС‡РЅРѕРіРѕ Р»РёСЃС‚Р°.
+     * Get the 'Registration' element value. Дата и номер упаковочного листа.
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class PackingListDeliveryTermsType
     }
 
     /** 
-     * Set the 'Registration' element value. Р”Р°С‚Р° Рё РЅРѕРјРµСЂ СѓРїР°РєРѕРІРѕС‡РЅРѕРіРѕ Р»РёСЃС‚Р°.
+     * Set the 'Registration' element value. Дата и номер упаковочного листа.
      * 
      * @param registration
      */

@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.sertifaform;
 
 /** 
- * Р“РѕСЃСѓРґР°СЂСЃС‚РІРѕ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЏ
+ * Государство грузополучателя
  */
 public class ConsigneeCountryType
 {
     private String countryCode;
 
     /** 
-     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryCode' element value. Код страны
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class ConsigneeCountryType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryCode' element value. Код страны
      * 
      * @param countryCode
      */

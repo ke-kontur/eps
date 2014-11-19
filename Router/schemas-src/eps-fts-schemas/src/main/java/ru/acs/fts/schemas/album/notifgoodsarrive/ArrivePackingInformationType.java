@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHPackingInfor
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHPalleteInformationType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓРїР°РєРѕРІРєР°С…
+ * Информация об упаковках
  */
 public class ArrivePackingInformationType
 {
@@ -19,7 +19,7 @@ public class ArrivePackingInformationType
     private List<WHPalleteInformationType> palleteList = new ArrayList<WHPalleteInformationType>();
 
     /** 
-     * Get the 'PakageQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, РїРѕР»РЅРѕСЃС‚СЊСЋ Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј.
+     * Get the 'PakageQuantity' element value. Общее количество грузовых мест, полностью занятых товаром.
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ArrivePackingInformationType
     }
 
     /** 
-     * Set the 'PakageQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, РїРѕР»РЅРѕСЃС‚СЊСЋ Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј.
+     * Set the 'PakageQuantity' element value. Общее количество грузовых мест, полностью занятых товаром.
      * 
      * @param pakageQuantity
      */
@@ -37,7 +37,7 @@ public class ArrivePackingInformationType
     }
 
     /** 
-     * Get the 'PakageTypeCode' element value. РљРѕРґ РЅР°Р»РёС‡РёСЏ СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂР°: 0 - Р‘РµР· СѓРїР°РєРѕРІРєРё; 1 - РЎ СѓРїР°РєРѕРІРєРѕР№;  2 - Р‘РµР· СѓРїР°РєРѕРІРєРё РІ РѕР±РѕСЂСѓРґРѕРІР°РЅРЅС‹С… РµРјРєРѕСЃС‚СЏС… С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'PakageTypeCode' element value. Код наличия упаковки товара: 0 - Без упаковки; 1 - С упаковкой;  2 - Без упаковки в оборудованных емкостях транспортного средства
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ArrivePackingInformationType
     }
 
     /** 
-     * Set the 'PakageTypeCode' element value. РљРѕРґ РЅР°Р»РёС‡РёСЏ СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂР°: 0 - Р‘РµР· СѓРїР°РєРѕРІРєРё; 1 - РЎ СѓРїР°РєРѕРІРєРѕР№;  2 - Р‘РµР· СѓРїР°РєРѕРІРєРё РІ РѕР±РѕСЂСѓРґРѕРІР°РЅРЅС‹С… РµРјРєРѕСЃС‚СЏС… С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'PakageTypeCode' element value. Код наличия упаковки товара: 0 - Без упаковки; 1 - С упаковкой;  2 - Без упаковки в оборудованных емкостях транспортного средства
      * 
      * @param pakageTypeCode
      */
@@ -55,7 +55,7 @@ public class ArrivePackingInformationType
     }
 
     /** 
-     * Get the 'PakagePartQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, С‡Р°СЃС‚РёС‡РЅРѕ Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј.
+     * Get the 'PakagePartQuantity' element value. Общее количество грузовых мест, частично занятых товаром.
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ArrivePackingInformationType
     }
 
     /** 
-     * Set the 'PakagePartQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, С‡Р°СЃС‚РёС‡РЅРѕ Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј.
+     * Set the 'PakagePartQuantity' element value. Общее количество грузовых мест, частично занятых товаром.
      * 
      * @param pakagePartQuantity
      */
@@ -73,7 +73,7 @@ public class ArrivePackingInformationType
     }
 
     /** 
-     * Get the list of 'PackingInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓРїР°РєРѕРІРєР°С…
+     * Get the list of 'PackingInformation' element items. Информация об упаковках
      * 
      * @return list
      */
@@ -82,7 +82,7 @@ public class ArrivePackingInformationType
     }
 
     /** 
-     * Set the list of 'PackingInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓРїР°РєРѕРІРєР°С…
+     * Set the list of 'PackingInformation' element items. Информация об упаковках
      * 
      * @param list
      */
@@ -91,7 +91,7 @@ public class ArrivePackingInformationType
     }
 
     /** 
-     * Get the list of 'Cargo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РІРёРґРµ РіСЂСѓР·Р° (РїСЂРё РїРµСЂРµРІРѕР·Рµ С‚РѕРІР°СЂР° Р±РµР· СѓРїР°РєРѕРІРєРё)
+     * Get the list of 'Cargo' element items. Сведения о виде груза (при перевозе товара без упаковки)
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class ArrivePackingInformationType
     }
 
     /** 
-     * Set the list of 'Cargo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РІРёРґРµ РіСЂСѓР·Р° (РїСЂРё РїРµСЂРµРІРѕР·Рµ С‚РѕРІР°СЂР° Р±РµР· СѓРїР°РєРѕРІРєРё)
+     * Set the list of 'Cargo' element items. Сведения о виде груза (при перевозе товара без упаковки)
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class ArrivePackingInformationType
     }
 
     /** 
-     * Get the list of 'Pallete' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕРґРґРѕРЅР°С… Рё РїР°Р»Р»РµС‚Р°С…
+     * Get the list of 'Pallete' element items. Информация о поддонах и паллетах
      * 
      * @return list
      */
@@ -118,7 +118,7 @@ public class ArrivePackingInformationType
     }
 
     /** 
-     * Set the list of 'Pallete' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕРґРґРѕРЅР°С… Рё РїР°Р»Р»РµС‚Р°С…
+     * Set the list of 'Pallete' element items. Информация о поддонах и паллетах
      * 
      * @param list
      */

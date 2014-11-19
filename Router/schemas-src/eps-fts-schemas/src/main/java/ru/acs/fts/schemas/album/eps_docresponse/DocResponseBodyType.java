@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.eps_docresponse;
 
 /** 
- * РўРµР»Рѕ Р·Р°РїСЂРѕС€РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+ * Тело запрошенного документа
  */
 public class DocResponseBodyType
 {
     private Object any;
 
     /** 
-     * Get the 'DocResponseBodyType' complexType value. РўРµР»Рѕ Р·Р°РїСЂРѕС€РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocResponseBodyType' complexType value. Тело запрошенного документа
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class DocResponseBodyType
     }
 
     /** 
-     * Set the 'DocResponseBodyType' complexType value. РўРµР»Рѕ Р·Р°РїСЂРѕС€РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocResponseBodyType' complexType value. Тело запрошенного документа
      * 
      * @param any
      */

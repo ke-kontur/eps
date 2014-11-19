@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.responsecheckinventory;
 import org.joda.time.LocalDate;
 
 /** 
- * Р’С‹СЏРІР»РµРЅРЅС‹Рµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ СЃРѕСЃС‚Р°РІР° РґРѕРєСѓРјРµРЅС‚РѕРІ РѕРїРёСЃРё Рё Р­РђР”
+ * Выявленные несоответствия состава документов описи и ЭАД
  */
 public class FoundDiscrepancyType
 {
@@ -12,7 +12,7 @@ public class FoundDiscrepancyType
     private LocalDate inventoryInstanceDate;
 
     /** 
-     * Get the 'InstanceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РѕРїРёСЃРё
+     * Get the 'InstanceNumber' element value. Порядковый номер описи
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class FoundDiscrepancyType
     }
 
     /** 
-     * Set the 'InstanceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РѕРїРёСЃРё
+     * Set the 'InstanceNumber' element value. Порядковый номер описи
      * 
      * @param instanceNumber
      */
@@ -30,7 +30,7 @@ public class FoundDiscrepancyType
     }
 
     /** 
-     * Get the 'InventoryInstanceDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕРїРёСЃРё
+     * Get the 'InventoryInstanceDate' element value. Дата предоставления описи
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class FoundDiscrepancyType
     }
 
     /** 
-     * Set the 'InventoryInstanceDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕРїРёСЃРё
+     * Set the 'InventoryInstanceDate' element value. Дата предоставления описи
      * 
      * @param inventoryInstanceDate
      */

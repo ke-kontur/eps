@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDateTimeFilterParam
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDStringFilterParamsType;
 
 /** 
- * РџР°СЂР°РјРµС‚СЂС‹ РїРѕРёСЃРєР° РґРѕРєСѓРјРµРЅС‚РѕРІ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј С„РёР»СЊС‚СЂРѕРІ.
+ * Параметры поиска документов с использованием фильтров.
  */
 public class DocumentFilterType
 {
@@ -18,7 +18,7 @@ public class DocumentFilterType
     private AUDStringFilterParamsType appliedDocumentId;
 
     /** 
-     * Get the 'DocumentAttributesFilter' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° СЂРµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°. Р”РѕР»Р¶РµРЅ Р±С‹С‚СЊ СѓРєР°Р·Р°РЅ РІРёРґ РёСЃРєРѕРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ (РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° Рё РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРµСЂСЃРёРё РІРёРґР°), РєРѕС‚РѕСЂС‹Р№ РѕРїСЂРµРґРµР»СЏРµС‚ РїРµСЂРµС‡РµРЅСЊ РІРѕР·РјРѕР¶РЅС‹С… СЂРµРєРІРёР·РёС‚РѕРІ, РЅР° РєРѕС‚РѕСЂС‹Рµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РЅР°Р»РѕР¶РµРЅ С„РёР»СЊС‚СЂ.
+     * Get the 'DocumentAttributesFilter' element value. Параметры фильтра на реквизиты документа. Должен быть указан вид искомых документов (идентификатор вида и идентификатор версии вида), который определяет перечень возможных реквизитов, на которые может быть наложен фильтр.
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class DocumentFilterType
     }
 
     /** 
-     * Set the 'DocumentAttributesFilter' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° СЂРµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°. Р”РѕР»Р¶РµРЅ Р±С‹С‚СЊ СѓРєР°Р·Р°РЅ РІРёРґ РёСЃРєРѕРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ (РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° Рё РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРµСЂСЃРёРё РІРёРґР°), РєРѕС‚РѕСЂС‹Р№ РѕРїСЂРµРґРµР»СЏРµС‚ РїРµСЂРµС‡РµРЅСЊ РІРѕР·РјРѕР¶РЅС‹С… СЂРµРєРІРёР·РёС‚РѕРІ, РЅР° РєРѕС‚РѕСЂС‹Рµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РЅР°Р»РѕР¶РµРЅ С„РёР»СЊС‚СЂ.
+     * Set the 'DocumentAttributesFilter' element value. Параметры фильтра на реквизиты документа. Должен быть указан вид искомых документов (идентификатор вида и идентификатор версии вида), который определяет перечень возможных реквизитов, на которые может быть наложен фильтр.
      * 
      * @param documentAttributesFilter
      */
@@ -37,7 +37,7 @@ public class DocumentFilterType
     }
 
     /** 
-     * Get the list of 'DocumentContentsFilter' element items. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° СЃРѕРґРµСЂР¶РёРјРѕРµ (С‚РµРєСЃС‚) РґРѕРєСѓРјРµРЅС‚Р°. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: like.
+     * Get the list of 'DocumentContentsFilter' element items. Параметры фильтра на содержимое (текст) документа. Значение типа "string" (строка). Допустимые операторы: like.
      * 
      * @return list
      */
@@ -46,7 +46,7 @@ public class DocumentFilterType
     }
 
     /** 
-     * Set the list of 'DocumentContentsFilter' element items. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° СЃРѕРґРµСЂР¶РёРјРѕРµ (С‚РµРєСЃС‚) РґРѕРєСѓРјРµРЅС‚Р°. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: like.
+     * Set the list of 'DocumentContentsFilter' element items. Параметры фильтра на содержимое (текст) документа. Значение типа "string" (строка). Допустимые операторы: like.
      * 
      * @param list
      */
@@ -56,7 +56,7 @@ public class DocumentFilterType
     }
 
     /** 
-     * Get the list of 'DocumentDescriptionFilter' element items. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° РѕРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, like.
+     * Get the list of 'DocumentDescriptionFilter' element items. Параметры фильтра на описание документа. Значение типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.
      * 
      * @return list
      */
@@ -65,7 +65,7 @@ public class DocumentFilterType
     }
 
     /** 
-     * Set the list of 'DocumentDescriptionFilter' element items. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° РѕРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, like.
+     * Set the list of 'DocumentDescriptionFilter' element items. Параметры фильтра на описание документа. Значение типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.
      * 
      * @param list
      */
@@ -75,7 +75,7 @@ public class DocumentFilterType
     }
 
     /** 
-     * Get the list of 'DocumentPutDateTimeFilter' element items. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° РґР°С‚Сѓ Рё РІСЂРµРјСЏ СЂР°Р·РјРµС‰РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ - Р·РЅР°С‡РµРЅРёРµ С‚РёРїР° "datetime" (РґР°С‚Р° Рё РІСЂРµРјСЏ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal. Р—РЅР°С‡РµРЅРёСЏ С„РёР»СЊС‚СЂР° РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅС‹ СЃ СѓРєР°Р·Р°РЅРёРµРј СЃРјРµС‰РµРЅРёСЏ (Р·РЅР°С‡РµРЅРёСЏ Р»РѕРєР°Р»СЊРЅРѕРіРѕ РІСЂРµРјРµРЅРё РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ РІСЃРµРјРёСЂРЅРѕРіРѕ РІСЂРµРјРµРЅРё).
+     * Get the list of 'DocumentPutDateTimeFilter' element items. Параметры фильтра на дату и время размещения документа в архиве - значение типа "datetime" (дата и время). Допустимые операторы: equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal. Значения фильтра должны быть представлены с указанием смещения (значения локального времени относительно всемирного времени).
      * 
      * @return list
      */
@@ -84,7 +84,7 @@ public class DocumentFilterType
     }
 
     /** 
-     * Set the list of 'DocumentPutDateTimeFilter' element items. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° РґР°С‚Сѓ Рё РІСЂРµРјСЏ СЂР°Р·РјРµС‰РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ - Р·РЅР°С‡РµРЅРёРµ С‚РёРїР° "datetime" (РґР°С‚Р° Рё РІСЂРµРјСЏ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal. Р—РЅР°С‡РµРЅРёСЏ С„РёР»СЊС‚СЂР° РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅС‹ СЃ СѓРєР°Р·Р°РЅРёРµРј СЃРјРµС‰РµРЅРёСЏ (Р·РЅР°С‡РµРЅРёСЏ Р»РѕРєР°Р»СЊРЅРѕРіРѕ РІСЂРµРјРµРЅРё РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ РІСЃРµРјРёСЂРЅРѕРіРѕ РІСЂРµРјРµРЅРё).
+     * Set the list of 'DocumentPutDateTimeFilter' element items. Параметры фильтра на дату и время размещения документа в архиве - значение типа "datetime" (дата и время). Допустимые операторы: equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal. Значения фильтра должны быть представлены с указанием смещения (значения локального времени относительно всемирного времени).
      * 
      * @param list
      */
@@ -94,7 +94,7 @@ public class DocumentFilterType
     }
 
     /** 
-     * Get the 'AppliedDocumentId' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° РїСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, like.
+     * Get the 'AppliedDocumentId' element value. Параметры фильтра на прикладной идентификатор документа. Значение типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class DocumentFilterType
     }
 
     /** 
-     * Set the 'AppliedDocumentId' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° РїСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, like.
+     * Set the 'AppliedDocumentId' element value. Параметры фильтра на прикладной идентификатор документа. Значение типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.
      * 
      * @param appliedDocumentId
      */

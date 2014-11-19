@@ -224,7 +224,7 @@
         <dependency>
         	<groupId>ru.acs.fts.schemas</groupId>
         	<artifactId>eps-fts-schemas</artifactId>
-        	<version>5.4.1</version>
+        	<version>5.4.5</version>
         	<type>jar</type>
         	<exclusions>
         		<exclusion>
@@ -236,7 +236,7 @@
         <dependency>
         	<groupId>ru.acs.fts.schemas</groupId>
         	<artifactId>eps-marshaller</artifactId>
-        	<version>5.4.1</version>
+        	<version>5.4.5</version>
         	<type>jar</type>
         </dependency>
         <!-- End EPS FTS Schemas -->

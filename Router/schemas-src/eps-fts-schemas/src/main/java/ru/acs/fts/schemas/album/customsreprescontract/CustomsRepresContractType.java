@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р”РѕРіРѕРІРѕСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ СЃ РґРµРєР»Р°СЂР°РЅС‚РѕРј
+ * Договор таможенного представителя с декларантом
  */
 public class CustomsRepresContractType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class CustomsRepresContractType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PaymentFactSign' element value. РџСЂРёР·РЅР°Рє С„Р°РєС‚Р° СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ С‚Р°РјРѕР¶РµРЅРЅС‹Рј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµРј Р·Р° РґРµРєР»Р°СЂР°РЅС‚Р°
+     * Get the 'PaymentFactSign' element value. Признак факта уплаты таможенных платежей таможенным представителем за декларанта
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class CustomsRepresContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentFactSign' element value. РџСЂРёР·РЅР°Рє С„Р°РєС‚Р° СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ С‚Р°РјРѕР¶РµРЅРЅС‹Рј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµРј Р·Р° РґРµРєР»Р°СЂР°РЅС‚Р°
+     * Set the 'PaymentFactSign' element value. Признак факта уплаты таможенных платежей таможенным представителем за декларанта
      * 
      * @param paymentFactSign
      */
@@ -36,7 +36,7 @@ public class CustomsRepresContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'AdditionalInformation' element value. Дополнительная информация
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class CustomsRepresContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'AdditionalInformation' element value. Дополнительная информация
      * 
      * @param additionalInformation
      */
@@ -54,7 +54,7 @@ public class CustomsRepresContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsRepresentative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Get the 'CustomsRepresentative' element value. Таможенный представитель
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class CustomsRepresContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsRepresentative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Set the 'CustomsRepresentative' element value. Таможенный представитель
      * 
      * @param customsRepresentative
      */
@@ -73,7 +73,7 @@ public class CustomsRepresContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Р”РµРєР»Р°СЂР°РЅС‚
+     * Get the 'Declarant' element value. Декларант
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class CustomsRepresContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Р”РµРєР»Р°СЂР°РЅС‚
+     * Set the 'Declarant' element value. Декларант
      * 
      * @param declarant
      */
@@ -91,7 +91,7 @@ public class CustomsRepresContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractDetails' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРіРѕРІРѕСЂР° РґРµРєР»Р°СЂР°РЅС‚Р° СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµРј
+     * Get the 'ContractDetails' element value. Реквизиты договора декларанта с таможенным представителем
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class CustomsRepresContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractDetails' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРіРѕРІРѕСЂР° РґРµРєР»Р°СЂР°РЅС‚Р° СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµРј
+     * Set the 'ContractDetails' element value. Реквизиты договора декларанта с таможенным представителем
      * 
      * @param contractDetails
      */
@@ -109,7 +109,7 @@ public class CustomsRepresContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class CustomsRepresContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

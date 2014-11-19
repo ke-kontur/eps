@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.CarInformationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°) 
+ * Сведения из акта таможенного досмотра (осмотра) 
  */
 public class InfFromActInspectionType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class InfFromActInspectionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'VEDParticipantShortInf' element value. РљСЂР°С‚РєР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓС‡Р°СЃС‚РЅРёРєРµ Р’Р­Р”
+     * Get the 'VEDParticipantShortInf' element value. Краткая информация об участнике ВЭД
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class InfFromActInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'VEDParticipantShortInf' element value. РљСЂР°С‚РєР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓС‡Р°СЃС‚РЅРёРєРµ Р’Р­Р”
+     * Set the 'VEDParticipantShortInf' element value. Краткая информация об участнике ВЭД
      * 
      * @param VEDParticipantShortInf
      */
@@ -35,7 +35,7 @@ public class InfFromActInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CarInformation' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРјРїР»РµРєС‚Р°С†РёРё Р°РІС‚РѕРјРѕР±РёР»СЏ
+     * Get the list of 'CarInformation' element items. Сведения о комплектации автомобиля
      * 
      * @return list
      */
@@ -44,7 +44,7 @@ public class InfFromActInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CarInformation' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРјРїР»РµРєС‚Р°С†РёРё Р°РІС‚РѕРјРѕР±РёР»СЏ
+     * Set the list of 'CarInformation' element items. Сведения о комплектации автомобиля
      * 
      * @param list
      */
@@ -53,7 +53,7 @@ public class InfFromActInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class InfFromActInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.RFOrganizationFeaturesType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёС… СЃРІРµРґРµРЅРёР№ РѕР± РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕР№ СЃРёСЃС‚РµРјРµ СѓС‡Р°СЃС‚РЅРёРєР° Р’Р­Р”
+ * Запрос на предоставление технологических сведений об информационной системе участника ВЭД
  */
 public class ReqPtpcSysInfoType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class ReqPtpcSysInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ
+     * Get the 'CertificateNumber' element value. Номер свидетельства о включении в реестр
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ReqPtpcSysInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ
+     * Set the 'CertificateNumber' element value. Номер свидетельства о включении в реестр
      * 
      * @param certificateNumber
      */
@@ -32,7 +32,7 @@ public class ReqPtpcSysInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Get the 'OrganizationFeatures' element value. Сведения об организации.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ReqPtpcSysInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Set the 'OrganizationFeatures' element value. Сведения об организации.
      * 
      * @param organizationFeatures
      */
@@ -51,7 +51,7 @@ public class ReqPtpcSysInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ReqPtpcSysInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р’РµС‚РµСЂРёРЅР°СЂРЅС‹Р№ СЃРµСЂС‚РёС„РёРєР°С‚
+ * Ветеринарный сертификат
  */
 public class VeterinaryCertificateType extends BaseDocType
 {
@@ -49,7 +49,7 @@ public class VeterinaryCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'SpecialNotes' element items. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
+     * Get the list of 'SpecialNotes' element items. Особые отметки
      * 
      * @return list
      */
@@ -58,7 +58,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'SpecialNotes' element items. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
+     * Set the list of 'SpecialNotes' element items. Особые отметки
      * 
      * @param list
      */
@@ -67,7 +67,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateCertf' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'DateCertf' element value. Дата составления сертификата
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateCertf' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'DateCertf' element value. Дата составления сертификата
      * 
      * @param dateCertf
      */
@@ -85,7 +85,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'NumberForm' element value. РќРѕРјРµСЂ С„РѕСЂРјС‹ 
+     * Get the 'NumberForm' element value. Номер формы 
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'NumberForm' element value. РќРѕРјРµСЂ С„РѕСЂРјС‹ 
+     * Set the 'NumberForm' element value. Номер формы 
      * 
      * @param numberForm
      */
@@ -103,7 +103,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Route' element value. РњР°СЂС€СЂСѓС‚ СЃР»РµРґРѕРІР°РЅРёСЏ
+     * Get the 'Route' element value. Маршрут следования
      * 
      * @return value
      */
@@ -112,7 +112,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Route' element value. РњР°СЂС€СЂСѓС‚ СЃР»РµРґРѕРІР°РЅРёСЏ
+     * Set the 'Route' element value. Маршрут следования
      * 
      * @param route
      */
@@ -121,7 +121,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProductOrigin' element value. РџСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ РїСЂРѕРґСѓРєС†РёРё (РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ)
+     * Get the 'ProductOrigin' element value. Происхождение продукции (Страна происхождения)
      * 
      * @return value
      */
@@ -130,7 +130,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProductOrigin' element value. РџСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ РїСЂРѕРґСѓРєС†РёРё (РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ)
+     * Set the 'ProductOrigin' element value. Происхождение продукции (Страна происхождения)
      * 
      * @param productOrigin
      */
@@ -139,7 +139,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateManufactur' element value. Р”Р°С‚Р° РІС‹СЂР°Р±РѕС‚РєРё
+     * Get the 'DateManufactur' element value. Дата выработки
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateManufactur' element value. Р”Р°С‚Р° РІС‹СЂР°Р±РѕС‚РєРё
+     * Set the 'DateManufactur' element value. Дата выработки
      * 
      * @param dateManufactur
      */
@@ -157,7 +157,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeemedFit' element value. РџСЂРёР·РЅР°РЅРѕ РіРѕРґРЅС‹Рј РґР»СЏ : 1- СЂРµР°Р»РёР·Р°С†РёРё Р±РµР· РѕРіСЂР°РЅРёС‡РµРЅРёР№; 2- СЂРµР°Р»РёР·Р°С†РёРё СЃ РѕРіСЂР°РЅРёС‡РµРЅРёРµРј; 3- РїРµСЂРµСЂР°Р±РѕС‚РєРё; 4-  РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ Р±РµР· РѕРіСЂР°РЅРёС‡РµРЅРёР№; 5 - РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ СЃ РѕРіСЂР°РЅРёС‡РµРЅРёРµРј
+     * Get the 'DeemedFit' element value. Признано годным для : 1- реализации без ограничений; 2- реализации с ограничением; 3- переработки; 4-  использование без ограничений; 5 - использование с ограничением
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeemedFit' element value. РџСЂРёР·РЅР°РЅРѕ РіРѕРґРЅС‹Рј РґР»СЏ : 1- СЂРµР°Р»РёР·Р°С†РёРё Р±РµР· РѕРіСЂР°РЅРёС‡РµРЅРёР№; 2- СЂРµР°Р»РёР·Р°С†РёРё СЃ РѕРіСЂР°РЅРёС‡РµРЅРёРµРј; 3- РїРµСЂРµСЂР°Р±РѕС‚РєРё; 4-  РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ Р±РµР· РѕРіСЂР°РЅРёС‡РµРЅРёР№; 5 - РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ СЃ РѕРіСЂР°РЅРёС‡РµРЅРёРµРј
+     * Set the 'DeemedFit' element value. Признано годным для : 1- реализации без ограничений; 2- реализации с ограничением; 3- переработки; 4-  использование без ограничений; 5 - использование с ограничением
      * 
      * @param deemedFit
      */
@@ -175,7 +175,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'CauseRestrictions' element value. РџСЂРёС‡РёРЅР° РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РїСЂРё СЂРµР°Р»РёР·Р°С†РёРё РёР»Рё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё
+     * Get the 'CauseRestrictions' element value. Причина ограничения при реализации или использовании
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CauseRestrictions' element value. РџСЂРёС‡РёРЅР° РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РїСЂРё СЂРµР°Р»РёР·Р°С†РёРё РёР»Рё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё
+     * Set the 'CauseRestrictions' element value. Причина ограничения при реализации или использовании
      * 
      * @param causeRestrictions
      */
@@ -193,7 +193,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Examination' element value. РџСЂРѕРІРµРґРµРЅРёРµ СЌРєСЃРїРµСЂС‚РёР·С‹: 0 - РїРѕРґРІРµСЂРіРЅСѓС‚Р° РІРµС‚РµСЂРёРЅР°СЂРЅРѕ-СЃР°РЅРёС‚Р°СЂРЅРѕР№ СЌРєСЃРїРµСЂС‚РёР·Рµ РІ РїРѕР»РЅРѕРј РѕР±СЉРµРјРµ, 1 - РёР·РіРѕС‚РѕРІР»РµРЅР° РёР· СЃС‹СЂСЊСЏ, РїСЂРѕС€РµРґС€РµРіРѕ РІРµС‚РµСЂРёРЅР°СЂРЅРѕ-СЃР°РЅРёС‚Р°СЂРЅСѓСЋ СЌРєСЃРїРµСЂС‚РёР·Сѓ
+     * Get the 'Examination' element value. Проведение экспертизы: 0 - подвергнута ветеринарно-санитарной экспертизе в полном объеме, 1 - изготовлена из сырья, прошедшего ветеринарно-санитарную экспертизу
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Examination' element value. РџСЂРѕРІРµРґРµРЅРёРµ СЌРєСЃРїРµСЂС‚РёР·С‹: 0 - РїРѕРґРІРµСЂРіРЅСѓС‚Р° РІРµС‚РµСЂРёРЅР°СЂРЅРѕ-СЃР°РЅРёС‚Р°СЂРЅРѕР№ СЌРєСЃРїРµСЂС‚РёР·Рµ РІ РїРѕР»РЅРѕРј РѕР±СЉРµРјРµ, 1 - РёР·РіРѕС‚РѕРІР»РµРЅР° РёР· СЃС‹СЂСЊСЏ, РїСЂРѕС€РµРґС€РµРіРѕ РІРµС‚РµСЂРёРЅР°СЂРЅРѕ-СЃР°РЅРёС‚Р°СЂРЅСѓСЋ СЌРєСЃРїРµСЂС‚РёР·Сѓ
+     * Set the 'Examination' element value. Проведение экспертизы: 0 - подвергнута ветеринарно-санитарной экспертизе в полном объеме, 1 - изготовлена из сырья, прошедшего ветеринарно-санитарную экспертизу
      * 
      * @param examination
      */
@@ -211,7 +211,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ImportingCountry' element value. РЎС‚СЂР°РЅР° - РёРјРїРѕСЂС‚РµСЂ
+     * Get the 'ImportingCountry' element value. Страна - импортер
      * 
      * @return value
      */
@@ -220,7 +220,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ImportingCountry' element value. РЎС‚СЂР°РЅР° - РёРјРїРѕСЂС‚РµСЂ
+     * Set the 'ImportingCountry' element value. Страна - импортер
      * 
      * @param importingCountry
      */
@@ -229,7 +229,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReasonSending' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёС‡РёРЅРµ РѕС‚РїСЂР°РІРєРё Р¶РёРІРѕС‚РЅС‹С… (РґР»СЏ РѕС‚РєРѕСЂРјР°, СЂР°Р·РІРµРґРµРЅРёСЏ, СѓР±РѕСЏ Рё С‚.Рґ)
+     * Get the 'ReasonSending' element value. Сведения о причине отправки животных (для откорма, разведения, убоя и т.д)
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReasonSending' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёС‡РёРЅРµ РѕС‚РїСЂР°РІРєРё Р¶РёРІРѕС‚РЅС‹С… (РґР»СЏ РѕС‚РєРѕСЂРјР°, СЂР°Р·РІРµРґРµРЅРёСЏ, СѓР±РѕСЏ Рё С‚.Рґ)
+     * Set the 'ReasonSending' element value. Сведения о причине отправки животных (для откорма, разведения, убоя и т.д)
      * 
      * @param reasonSending
      */
@@ -247,7 +247,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'LocationCU' element value. Р–РёРІРѕС‚РЅС‹Рµ РЅР°С…РѕРґРёР»РёСЃСЊ РЅР° С‚РµСЂРёС‚РѕСЂСЂРёРё РўРЎ: 1- СЃ СЂРѕР¶РґРµРЅРёСЏ, 2- РЅРµ РјРµРЅРµРµ 6 РјРµСЃСЏС†РµРІ, 3 - Р±РѕР»РµРµ 6 РјРµСЃСЏС†РµРІ
+     * Get the 'LocationCU' element value. Животные находились на територрии ТС: 1- с рождения, 2- не менее 6 месяцев, 3 - более 6 месяцев
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'LocationCU' element value. Р–РёРІРѕС‚РЅС‹Рµ РЅР°С…РѕРґРёР»РёСЃСЊ РЅР° С‚РµСЂРёС‚РѕСЂСЂРёРё РўРЎ: 1- СЃ СЂРѕР¶РґРµРЅРёСЏ, 2- РЅРµ РјРµРЅРµРµ 6 РјРµСЃСЏС†РµРІ, 3 - Р±РѕР»РµРµ 6 РјРµСЃСЏС†РµРІ
+     * Set the 'LocationCU' element value. Животные находились на територрии ТС: 1- с рождения, 2- не менее 6 месяцев, 3 - более 6 месяцев
      * 
      * @param locationCU
      */
@@ -265,7 +265,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'TimeLocation' element value. Р’СЂРµРјСЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РІ РјРµСЃСЏС†Р°С…
+     * Get the 'TimeLocation' element value. Время нахождения в месяцах
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'TimeLocation' element value. Р’СЂРµРјСЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РІ РјРµСЃСЏС†Р°С…
+     * Set the 'TimeLocation' element value. Время нахождения в месяцах
      * 
      * @param timeLocation
      */
@@ -283,7 +283,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'BorderOffice' element value. РџСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР° С‡РµСЂРµР· С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ
+     * Get the 'BorderOffice' element value. Пункт пропуска через таможенную границу
      * 
      * @return value
      */
@@ -292,7 +292,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'BorderOffice' element value. РџСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР° С‡РµСЂРµР· С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ
+     * Set the 'BorderOffice' element value. Пункт пропуска через таможенную границу
      * 
      * @param borderOffice
      */
@@ -301,7 +301,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExportTerrAuthority' element value. РђРґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅР°СЏ РµРґРёРЅРёС†Р° СЃС‚СЂР°РЅС‹-СЌРєСЃРїРѕСЂС‚РµСЂР°
+     * Get the 'ExportTerrAuthority' element value. Административно-территориальная единица страны-экспортера
      * 
      * @return value
      */
@@ -310,7 +310,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExportTerrAuthority' element value. РђРґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅР°СЏ РµРґРёРЅРёС†Р° СЃС‚СЂР°РЅС‹-СЌРєСЃРїРѕСЂС‚РµСЂР°
+     * Set the 'ExportTerrAuthority' element value. Административно-территориальная единица страны-экспортера
      * 
      * @param exportTerrAuthority
      */
@@ -319,7 +319,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РёР»Рё С„.Рё.Рѕ. С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°Р»Рё СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'IssueOrganization' element value. Наименование юридического лица или ф.и.о. физического лица, которому выдали сертификат
      * 
      * @return value
      */
@@ -328,7 +328,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РёР»Рё С„.Рё.Рѕ. С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°Р»Рё СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'IssueOrganization' element value. Наименование юридического лица или ф.и.о. физического лица, которому выдали сертификат
      * 
      * @param issueOrganization
      */
@@ -337,7 +337,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ProductInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё/Р¶РёРІРѕС‚РЅРѕРј
+     * Get the list of 'ProductInfo' element items. Сведения о продукции/животном
      * 
      * @return list
      */
@@ -346,7 +346,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ProductInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё/Р¶РёРІРѕС‚РЅРѕРј
+     * Set the list of 'ProductInfo' element items. Сведения о продукции/животном
      * 
      * @param list
      */
@@ -355,7 +355,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ РїСЂРѕРґСѓРєС†РёРё
+     * Get the 'Manufacturer' element value. Производитель продукции
      * 
      * @return value
      */
@@ -364,7 +364,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ РїСЂРѕРґСѓРєС†РёРё
+     * Set the 'Manufacturer' element value. Производитель продукции
      * 
      * @param manufacturer
      */
@@ -373,7 +373,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Sender' element value. Отправитель
      * 
      * @return value
      */
@@ -382,7 +382,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Sender' element value. Отправитель
      * 
      * @param sender
      */
@@ -391,7 +391,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Location' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ РїСЂРѕРґСѓРєС†РёРё/Р¶РёРІРѕС‚РЅРѕРіРѕ/РњРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'Location' element value. Местонахождение продукции/животного/Место составления сертификата
      * 
      * @return value
      */
@@ -400,7 +400,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Location' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ РїСЂРѕРґСѓРєС†РёРё/Р¶РёРІРѕС‚РЅРѕРіРѕ/РњРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'Location' element value. Местонахождение продукции/животного/Место составления сертификата
      * 
      * @param location
      */
@@ -409,7 +409,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Receiver' element value. Получатель
      * 
      * @return value
      */
@@ -418,7 +418,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Receiver' element value. Получатель
      * 
      * @param receiver
      */
@@ -427,7 +427,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShippingDocuments' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the 'ShippingDocuments' element value. Транспортные документы
      * 
      * @return value
      */
@@ -436,7 +436,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShippingDocuments' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the 'ShippingDocuments' element value. Транспортные документы
      * 
      * @param shippingDocuments
      */
@@ -445,7 +445,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Quarantine' element value. РљР°СЂР°РЅС‚РёРЅРёСЂРѕРІР°РЅРёРµ
+     * Get the 'Quarantine' element value. Карантинирование
      * 
      * @return value
      */
@@ -454,7 +454,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Quarantine' element value. РљР°СЂР°РЅС‚РёРЅРёСЂРѕРІР°РЅРёРµ
+     * Set the 'Quarantine' element value. Карантинирование
      * 
      * @param quarantine
      */
@@ -463,7 +463,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ResearchLaboratory' element items. РСЃСЃР»РµРґРѕРІР°РЅРёРµ РІ Р»Р°Р±РѕСЂР°С‚РѕСЂРёРё
+     * Get the list of 'ResearchLaboratory' element items. Исследование в лаборатории
      * 
      * @return list
      */
@@ -472,7 +472,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ResearchLaboratory' element items. РСЃСЃР»РµРґРѕРІР°РЅРёРµ РІ Р»Р°Р±РѕСЂР°С‚РѕСЂРёРё
+     * Set the list of 'ResearchLaboratory' element items. Исследование в лаборатории
      * 
      * @param list
      */
@@ -481,7 +481,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Immunization' element items. РРјРјСѓРЅРёР·Р°С†РёСЏ
+     * Get the list of 'Immunization' element items. Иммунизация
      * 
      * @return list
      */
@@ -490,7 +490,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Immunization' element items. РРјРјСѓРЅРёР·Р°С†РёСЏ
+     * Set the list of 'Immunization' element items. Иммунизация
      * 
      * @param list
      */
@@ -499,7 +499,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ProcessingParasites' element items. РћР±СЂР°Р±РѕС‚РєР° РїСЂРѕС‚РёРІ РїР°СЂР°Р·РёС‚РѕРІ
+     * Get the list of 'ProcessingParasites' element items. Обработка против паразитов
      * 
      * @return list
      */
@@ -508,7 +508,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ProcessingParasites' element items. РћР±СЂР°Р±РѕС‚РєР° РїСЂРѕС‚РёРІ РїР°СЂР°Р·РёС‚РѕРІ
+     * Set the list of 'ProcessingParasites' element items. Обработка против паразитов
      * 
      * @param list
      */
@@ -517,7 +517,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, РІС‹РґР°РІС€РµРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'PersonSignature' element value. Подпись лица, выдавшего сертификат
      * 
      * @return value
      */
@@ -526,7 +526,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, РІС‹РґР°РІС€РµРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'PersonSignature' element value. Подпись лица, выдавшего сертификат
      * 
      * @param personSignature
      */
@@ -535,7 +535,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'MarkInspection' element items. РћС‚РјРµС‚РєРё Рѕ РІРµС‚РµСЂРёРЅР°СЂРЅРѕ-СЃР°РЅРёС‚Р°СЂРЅРѕРј РѕСЃРјРѕС‚СЂРµ РїСЂРё РїРѕРіСЂСѓР·РєРµ, РІ РїСѓС‚Рё СЃР»РµРґРѕРІР°РЅРёСЏ Рё РЅР° РјРµСЃС‚Рµ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the list of 'MarkInspection' element items. Отметки о ветеринарно-санитарном осмотре при погрузке, в пути следования и на месте назначения
      * 
      * @return list
      */
@@ -544,7 +544,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'MarkInspection' element items. РћС‚РјРµС‚РєРё Рѕ РІРµС‚РµСЂРёРЅР°СЂРЅРѕ-СЃР°РЅРёС‚Р°СЂРЅРѕРј РѕСЃРјРѕС‚СЂРµ РїСЂРё РїРѕРіСЂСѓР·РєРµ, РІ РїСѓС‚Рё СЃР»РµРґРѕРІР°РЅРёСЏ Рё РЅР° РјРµСЃС‚Рµ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the list of 'MarkInspection' element items. Отметки о ветеринарно-санитарном осмотре при погрузке, в пути следования и на месте назначения
      * 
      * @param list
      */
@@ -553,7 +553,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TransportInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
+     * Get the list of 'TransportInfo' element items. Сведения о транспорте
      * 
      * @return list
      */
@@ -562,7 +562,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TransportInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
+     * Set the list of 'TransportInfo' element items. Сведения о транспорте
      * 
      * @param list
      */
@@ -571,7 +571,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'WellBeingInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р±Р»Р°РіРѕРїРѕР»СѓС‡РёРё (РјРµСЃС‚РЅРѕСЃС‚Рё, С…РѕР·СЏР№СЃС‚РІР°)
+     * Get the 'WellBeingInfo' element value. Сведения о благополучии (местности, хозяйства)
      * 
      * @return value
      */
@@ -580,7 +580,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'WellBeingInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р±Р»Р°РіРѕРїРѕР»СѓС‡РёРё (РјРµСЃС‚РЅРѕСЃС‚Рё, С…РѕР·СЏР№СЃС‚РІР°)
+     * Set the 'WellBeingInfo' element value. Сведения о благополучии (местности, хозяйства)
      * 
      * @param wellBeingInfo
      */
@@ -589,7 +589,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'RegistrationInfo' element value. Сведения о регистрации
      * 
      * @return value
      */
@@ -598,7 +598,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'RegistrationInfo' element value. Сведения о регистрации
      * 
      * @param registrationInfo
      */
@@ -607,7 +607,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -616,7 +616,7 @@ public class VeterinaryCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
+ * Место погрузки/разгрузки. Сведения о лицензии/ свидетельстве склада.
  */
 public class WarehousePlaceType
 {
@@ -13,7 +13,7 @@ public class WarehousePlaceType
     private LocalDate certificateDate;
 
     /** 
-     * Get the 'CertificateNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РµРіРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ
+     * Get the 'CertificateNumber' element value. Номер документа, свидетельствующего о включении в Реестр
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class WarehousePlaceType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РµРіРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ
+     * Set the 'CertificateNumber' element value. Номер документа, свидетельствующего о включении в Реестр
      * 
      * @param certificateNumber
      */
@@ -31,7 +31,7 @@ public class WarehousePlaceType
     }
 
     /** 
-     * Get the 'CustomsOfficeID' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РІ Р·РѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ РЎР’РҐ.
+     * Get the 'CustomsOfficeID' element value. Код таможенного органа в зоне деятельности которого находится СВХ.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class WarehousePlaceType
     }
 
     /** 
-     * Set the 'CustomsOfficeID' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РІ Р·РѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ РЎР’РҐ.
+     * Set the 'CustomsOfficeID' element value. Код таможенного органа в зоне деятельности которого находится СВХ.
      * 
      * @param customsOfficeID
      */
@@ -49,7 +49,7 @@ public class WarehousePlaceType
     }
 
     /** 
-     * Get the 'CertificateDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РµРіРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ РІР»Р°РґРµР»СЊС†РµРІ РЎР’РҐ / РўРЎ 
+     * Get the 'CertificateDate' element value. Дата выдачи документа, свидетельствующего о включении в Реестр владельцев СВХ / ТС 
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class WarehousePlaceType
     }
 
     /** 
-     * Set the 'CertificateDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РµРіРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ РІР»Р°РґРµР»СЊС†РµРІ РЎР’РҐ / РўРЎ 
+     * Set the 'CertificateDate' element value. Дата выдачи документа, свидетельствующего о включении в Реестр владельцев СВХ / ТС 
      * 
      * @param certificateDate
      */

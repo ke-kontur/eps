@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёРё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+ * Сведения об удостоверении сертификата
  */
 public class SertifInfType
 {
@@ -16,7 +16,7 @@ public class SertifInfType
     private AddressType place;
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РЅР°С†РёРѕРЅР°Р»СЊРЅС‹Рј Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІРѕРј СѓРґРѕСЃС‚РѕРІРµСЂСЏС‚СЊ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'OrganizationName' element value. Наименование органа, уполномоченного в соответствии с национальным законодательством удостоверять происхождение товаров
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class SertifInfType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РЅР°С†РёРѕРЅР°Р»СЊРЅС‹Рј Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІРѕРј СѓРґРѕСЃС‚РѕРІРµСЂСЏС‚СЊ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'OrganizationName' element value. Наименование органа, уполномоченного в соответствии с национальным законодательством удостоверять происхождение товаров
      * 
      * @param organizationName
      */
@@ -34,7 +34,7 @@ public class SertifInfType
     }
 
     /** 
-     * Get the 'DateInf' element value. Р”Р°С‚Р° СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DateInf' element value. Дата удостоверения документа
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class SertifInfType
     }
 
     /** 
-     * Set the 'DateInf' element value. Р”Р°С‚Р° СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DateInf' element value. Дата удостоверения документа
      * 
      * @param dateInf
      */
@@ -52,7 +52,7 @@ public class SertifInfType
     }
 
     /** 
-     * Get the 'FIO' element value. Р¤РРћ Р»РёС†Р° СѓРґРѕСЃС‚РѕРІРµСЂРёРІС€РµРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'FIO' element value. ФИО лица удостоверившего сертификат
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class SertifInfType
     }
 
     /** 
-     * Set the 'FIO' element value. Р¤РРћ Р»РёС†Р° СѓРґРѕСЃС‚РѕРІРµСЂРёРІС€РµРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'FIO' element value. ФИО лица удостоверившего сертификат
      * 
      * @param FIO
      */
@@ -70,7 +70,7 @@ public class SertifInfType
     }
 
     /** 
-     * Get the 'SignPlace' element value. РњРµСЃС‚Рѕ  РїРѕРґРїРёСЃРё
+     * Get the 'SignPlace' element value. Место  подписи
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class SertifInfType
     }
 
     /** 
-     * Set the 'SignPlace' element value. РњРµСЃС‚Рѕ  РїРѕРґРїРёСЃРё
+     * Set the 'SignPlace' element value. Место  подписи
      * 
      * @param signPlace
      */
@@ -88,7 +88,7 @@ public class SertifInfType
     }
 
     /** 
-     * Get the 'Place' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅР°, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РЅР°С†РёРѕРЅР°Р»СЊРЅС‹Рј Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІРѕРј СѓРґРѕСЃС‚РѕРІРµСЂСЏС‚СЊ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'Place' element value. Адрес органа, уполномоченного в соответствии с национальным законодательством удостоверять происхождение товаров
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class SertifInfType
     }
 
     /** 
-     * Set the 'Place' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅР°, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РЅР°С†РёРѕРЅР°Р»СЊРЅС‹Рј Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІРѕРј СѓРґРѕСЃС‚РѕРІРµСЂСЏС‚СЊ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'Place' element value. Адрес органа, уполномоченного в соответствии с национальным законодательством удостоверять происхождение товаров
      * 
      * @param place
      */

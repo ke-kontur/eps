@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.GTDInqType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РёРЅС„РѕСЂРјР°С†РёРё РёР· Р”Рў/РўР”
+ * Запрос информации из ДТ/ТД
  */
 public class ESADInfoReqType extends BaseDocType
 {
@@ -13,7 +13,7 @@ public class ESADInfoReqType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DTID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
+     * Get the 'DTID' element value. Регистрационный номер ДТ.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ESADInfoReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
+     * Set the 'DTID' element value. Регистрационный номер ДТ.
      * 
      * @param DTID
      */
@@ -31,7 +31,7 @@ public class ESADInfoReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ESADInfoReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

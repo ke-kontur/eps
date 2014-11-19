@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РљРІРёС‚Р°РЅС†РёСЏ РїР»Р°С‚РµР»СЊС‰РёРєР°
+ * Квитанция плательщика
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -49,7 +49,7 @@ public class PayerReceiptType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ReceiptNumber' element value. РќРѕРјРµСЂ РєРІРёС‚Р°РЅС†РёРё
+     * Get the 'ReceiptNumber' element value. Номер квитанции
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceiptNumber' element value. РќРѕРјРµСЂ РєРІРёС‚Р°РЅС†РёРё
+     * Set the 'ReceiptNumber' element value. Номер квитанции
      * 
      * @param receiptNumber
      */
@@ -67,7 +67,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReceiptDate' element value. Р”Р°С‚Р°
+     * Get the 'ReceiptDate' element value. Дата
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceiptDate' element value. Р”Р°С‚Р°
+     * Set the 'ReceiptDate' element value. Дата
      * 
      * @param receiptDate
      */
@@ -85,7 +85,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Get the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїРѕРґР»РµР¶Р°С‰РёС… Рє СѓРїР»Р°С‚Рµ РїР»Р°С‚РµР¶РµР№
+     * Get the 'Amount' element value. Общая сумма подлежащих к уплате платежей
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Set the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїРѕРґР»РµР¶Р°С‰РёС… Рє СѓРїР»Р°С‚Рµ РїР»Р°С‚РµР¶РµР№
+     * Set the 'Amount' element value. Общая сумма подлежащих к уплате платежей
      * 
      * @param amount
      */
@@ -103,7 +103,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Get the 'AmountLetter' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїРѕРґР»РµР¶Р°С‰РёС… Рє СѓРїР»Р°С‚Рµ РїР»Р°С‚РµР¶РµР№ (РїСЂРѕРїРёСЃСЊСЋ)
+     * Get the 'AmountLetter' element value. Общая сумма подлежащих к уплате платежей (прописью)
      * 
      * @return value
      */
@@ -112,7 +112,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Set the 'AmountLetter' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїРѕРґР»РµР¶Р°С‰РёС… Рє СѓРїР»Р°С‚Рµ РїР»Р°С‚РµР¶РµР№ (РїСЂРѕРїРёСЃСЊСЋ)
+     * Set the 'AmountLetter' element value. Общая сумма подлежащих к уплате платежей (прописью)
      * 
      * @param amountLetter
      */
@@ -121,7 +121,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
+     * Get the 'CurrencyRate' element value. Код валюты платежа
      * 
      * @return value
      */
@@ -130,7 +130,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
+     * Set the 'CurrencyRate' element value. Код валюты платежа
      * 
      * @param currencyRate
      */
@@ -139,7 +139,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReservationID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёСЏ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ РґР»СЏ С†РµР»РµР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Get the 'ReservationID' element value. Идентификатор резервирования денежных средств для целей уплаты таможенных платежей
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReservationID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёСЏ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ РґР»СЏ С†РµР»РµР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Set the 'ReservationID' element value. Идентификатор резервирования денежных средств для целей уплаты таможенных платежей
      * 
      * @param reservationID
      */
@@ -157,7 +157,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Get the 'Payer' element value. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Get the 'Payer' element value. Реквизиты плательщика
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Set the 'Payer' element value. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Set the 'Payer' element value. Реквизиты плательщика
      * 
      * @param payer
      */
@@ -175,7 +175,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Get the 'Payee' element value. Р РµРєРІРёР·РёС‚С‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
+     * Get the 'Payee' element value. Реквизиты получателя
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Set the 'Payee' element value. Р РµРєРІРёР·РёС‚С‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
+     * Set the 'Payee' element value. Реквизиты получателя
      * 
      * @param payee
      */
@@ -193,7 +193,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsDocument' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРµ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРµ
+     * Get the 'CustomsDocument' element value. Регистрационный номер документа, на основании которого осуществляется таможенное декларирование
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsDocument' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРµ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёРµ
+     * Set the 'CustomsDocument' element value. Регистрационный номер документа, на основании которого осуществляется таможенное декларирование
      * 
      * @param customsDocument
      */
@@ -211,7 +211,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Paying' element items. РџР»Р°С‚РµР¶
+     * Get the list of 'Paying' element items. Платеж
      * 
      * @return list
      */
@@ -220,7 +220,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Paying' element items. РџР»Р°С‚РµР¶
+     * Set the list of 'Paying' element items. Платеж
      * 
      * @param list
      */
@@ -229,7 +229,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Get the 'TPORegNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўРџРћ
+     * Get the 'TPORegNumber' element value. Справочный номер ТПО
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Set the 'TPORegNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўРџРћ
+     * Set the 'TPORegNumber' element value. Справочный номер ТПО
      * 
      * @param TPORegNumber
      */
@@ -247,7 +247,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class PayerReceiptType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

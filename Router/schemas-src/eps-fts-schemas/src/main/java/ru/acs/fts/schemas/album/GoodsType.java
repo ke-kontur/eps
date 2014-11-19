@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РўРёРї, РѕРїРёСЃС‹РІР°СЋС‰РёР№ С‚РѕРІР°СЂ, РЅР° РєРѕС‚РѕСЂРѕРј РІС‹СЏРІР»РµРЅ РџР /Р¦РџР 
+ * Тип, описывающий товар, на котором выявлен ПР/ЦПР
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -23,7 +23,7 @@ public class GoodsType
     private List<ProfileRefType> profileRefList = new ArrayList<ProfileRefType>();
 
     /** 
-     * Get the 'GoodsNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Get the 'GoodsNumber' element value. Порядковый номер товара
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Set the 'GoodsNumber' element value. Порядковый номер товара
      * 
      * @param goodsNumber
      */
@@ -41,7 +41,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'ProfileRef' element items. РЎСЃС‹Р»РєРё РЅР° РџР /Р¦РџР , РєРѕС‚РѕСЂС‹Рµ СЃСЂР°Р±РѕС‚Р°Р»Рё РЅР° РєРѕРЅРєСЂРµС‚РЅС‹Р№ С‚РѕРІР°СЂ
+     * Get the list of 'ProfileRef' element items. Ссылки на ПР/ЦПР, которые сработали на конкретный товар
      * 
      * @return list
      */
@@ -50,7 +50,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'ProfileRef' element items. РЎСЃС‹Р»РєРё РЅР° РџР /Р¦РџР , РєРѕС‚РѕСЂС‹Рµ СЃСЂР°Р±РѕС‚Р°Р»Рё РЅР° РєРѕРЅРєСЂРµС‚РЅС‹Р№ С‚РѕРІР°СЂ
+     * Set the list of 'ProfileRef' element items. Ссылки на ПР/ЦПР, которые сработали на конкретный товар
      * 
      * @param list
      */

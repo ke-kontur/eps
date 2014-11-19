@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ
+ * Сведения о лице
  */
 public class PersonInfoType extends PersonSignatureType
 {
@@ -16,7 +16,7 @@ public class PersonInfoType extends PersonSignatureType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'AddressWitness' element value. Р”РѕРјР°С€РЅРёР№ Р°РґСЂРµСЃ
+     * Get the 'AddressWitness' element value. Домашний адрес
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PersonInfoType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'AddressWitness' element value. Р”РѕРјР°С€РЅРёР№ Р°РґСЂРµСЃ
+     * Set the 'AddressWitness' element value. Домашний адрес
      * 
      * @param addressWitness
      */
@@ -34,7 +34,7 @@ public class PersonInfoType extends PersonSignatureType
     }
 
     /** 
-     * Get the 'PlaceEmployment' element value. РњРµСЃС‚Рѕ СЂР°Р±РѕС‚С‹ 
+     * Get the 'PlaceEmployment' element value. Место работы 
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PersonInfoType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'PlaceEmployment' element value. РњРµСЃС‚Рѕ СЂР°Р±РѕС‚С‹ 
+     * Set the 'PlaceEmployment' element value. Место работы 
      * 
      * @param placeEmployment
      */
@@ -52,7 +52,7 @@ public class PersonInfoType extends PersonSignatureType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class PersonInfoType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @param identityCard
      */

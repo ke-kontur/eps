@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUDelayPaymentsType;
 
 /** 
- * Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР»Р°С‡РёРІР°РµРјС‹С… РїР»Р°С‚РµР¶Р°С…, РїР»Р°С‚РµР¶РЅС‹С… РїРѕСЂСѓС‡РµРЅРёСЏС…, РѕС‚СЃСЂРѕС‡РєРµ РїР»Р°С‚РµР¶РµР№. Р“СЂ. 48, Р’.
+ * ДТ и ТД. Внутренний формат. Сведения об уплачиваемых платежах, платежных поручениях, отсрочке платежей. Гр. 48, В.
  */
 public class ESADinPaymentsType
 {
@@ -14,7 +14,7 @@ public class ESADinPaymentsType
     private List<CUDelayPaymentsType> delayPaymentList = new ArrayList<CUDelayPaymentsType>();
 
     /** 
-     * Get the list of 'ESADinCustomsPayment' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЈРїР»Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р“СЂ. Р’.
+     * Get the list of 'ESADinCustomsPayment' element items. ДТ и ТД. Внутренний формат. Уплата таможенных платежей. Гр. В.
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class ESADinPaymentsType
     }
 
     /** 
-     * Set the list of 'ESADinCustomsPayment' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЈРїР»Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р“СЂ. Р’.
+     * Set the list of 'ESADinCustomsPayment' element items. ДТ и ТД. Внутренний формат. Уплата таможенных платежей. Гр. В.
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class ESADinPaymentsType
     }
 
     /** 
-     * Get the list of 'DelayPayments' element items. РћС‚СЃСЂРѕС‡РєР° РїР»Р°С‚РµР¶РµР№ РіСЂ.48
+     * Get the list of 'DelayPayments' element items. Отсрочка платежей гр.48
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class ESADinPaymentsType
     }
 
     /** 
-     * Set the list of 'DelayPayments' element items. РћС‚СЃСЂРѕС‡РєР° РїР»Р°С‚РµР¶РµР№ РіСЂ.48
+     * Set the list of 'DelayPayments' element items. Отсрочка платежей гр.48
      * 
      * @param list
      */

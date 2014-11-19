@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Р’С‹РїРёСЃРєР° РёР· Р•РґРёРЅРѕРіРѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЂРµРµСЃС‚СЂР° РїСЂР°РІ РЅР° РѕР±СЉРµРєС‚ РЅРµРґРІРёР¶РёРјРѕРіРѕ РёРјСѓС‰РµСЃС‚РІР° Рё СЃРґРµР»РѕРє СЃ РЅРёРј
+ * Выписка из Единого государственного реестра прав на объект недвижимого имущества и сделок с ним
  */
 public class RealEstateResponseType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class RealEstateResponseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РІС‹РїРёСЃРєР° РёР· Р•Р“Р Рџ; 2 - РѕС‚СЃСѓС‚СЃС‚РІРёРµ СЃРІРµРґРµРЅРёР№ РїРѕ Р·Р°РїСЂРѕСЃСѓ; 3 - РѕС‚РєР°Р· РІ РІС‹РґР°С‡Рµ СЃРІРµРґРµРЅРёР№
+     * Get the 'DocSign' element value. Признак документа: 1 - выписка из ЕГРП; 2 - отсутствие сведений по запросу; 3 - отказ в выдаче сведений
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РІС‹РїРёСЃРєР° РёР· Р•Р“Р Рџ; 2 - РѕС‚СЃСѓС‚СЃС‚РІРёРµ СЃРІРµРґРµРЅРёР№ РїРѕ Р·Р°РїСЂРѕСЃСѓ; 3 - РѕС‚РєР°Р· РІ РІС‹РґР°С‡Рµ СЃРІРµРґРµРЅРёР№
+     * Set the 'DocSign' element value. Признак документа: 1 - выписка из ЕГРП; 2 - отсутствие сведений по запросу; 3 - отказ в выдаче сведений
      * 
      * @param docSign
      */
@@ -38,7 +38,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'Recipient' element value. РћРїРёСЃР°РЅРёРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'Recipient' element value. Описание получателя информации
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Recipient' element value. РћРїРёСЃР°РЅРёРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'Recipient' element value. Описание получателя информации
      * 
      * @param recipient
      */
@@ -56,7 +56,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExcerptDate' element value. Р”Р°С‚Р° РІС‹РїРёСЃРєРё/СЃРїСЂР°РІРєРё/СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'ExcerptDate' element value. Дата выписки/справки/сообщения
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExcerptDate' element value. Р”Р°С‚Р° РІС‹РїРёСЃРєРё/СЃРїСЂР°РІРєРё/СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'ExcerptDate' element value. Дата выписки/справки/сообщения
      * 
      * @param excerptDate
      */
@@ -74,7 +74,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'RefusalReasons' element value. РўРµРєСЃС‚ РѕС‚РєР°Р·Р°
+     * Get the 'RefusalReasons' element value. Текст отказа
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'RefusalReasons' element value. РўРµРєСЃС‚ РѕС‚РєР°Р·Р°
+     * Set the 'RefusalReasons' element value. Текст отказа
      * 
      * @param refusalReasons
      */
@@ -92,7 +92,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ExcerptObject' element items. РРЅС„РѕСЂРјР°С†РёСЏ РёР· Р•Р“Р Рџ
+     * Get the list of 'ExcerptObject' element items. Информация из ЕГРП
      * 
      * @return list
      */
@@ -101,7 +101,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ExcerptObject' element items. РРЅС„РѕСЂРјР°С†РёСЏ РёР· Р•Р“Р Рџ
+     * Set the list of 'ExcerptObject' element items. Информация из ЕГРП
      * 
      * @param list
      */
@@ -110,7 +110,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ResourceOrg' element items. РћСЂРіР°РЅ - РёСЃС‚РѕС‡РЅРёРє РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the list of 'ResourceOrg' element items. Орган - источник информации
      * 
      * @return list
      */
@@ -119,7 +119,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ResourceOrg' element items. РћСЂРіР°РЅ - РёСЃС‚РѕС‡РЅРёРє РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the list of 'ResourceOrg' element items. Орган - источник информации
      * 
      * @param list
      */
@@ -128,7 +128,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class RealEstateResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

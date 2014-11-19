@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РџР°РєРµС‚ СЃ РёРЅС„РѕСЂРјР°С†РёРµР№ РѕР± РѕС„РѕСЂРјР»РµРЅРёРё Р±Р»Р°РЅРєРѕРІ РџРўРЎ Рё РџРЁРўРЎ.
+ * Пакет с информацией об оформлении бланков ПТС и ПШТС.
  */
 public class PackagePTSType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class PackagePTSType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SystemId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃРёСЃС‚РµРјС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ Рё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ (ID_PS)
+     * Get the 'SystemId' element value. Идентификатор системы таможенного оформления и таможенного контроля (ID_PS)
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PackagePTSType extends BaseDocType
     }
 
     /** 
-     * Set the 'SystemId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃРёСЃС‚РµРјС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ Рё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ (ID_PS)
+     * Set the 'SystemId' element value. Идентификатор системы таможенного оформления и таможенного контроля (ID_PS)
      * 
      * @param systemId
      */
@@ -34,7 +34,7 @@ public class PackagePTSType extends BaseDocType
     }
 
     /** 
-     * Get the 'Version' element value. РќРѕРјРµСЂ РІРµСЂСЃРёРё РїР°РєРµС‚Р° (VERSION)
+     * Get the 'Version' element value. Номер версии пакета (VERSION)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PackagePTSType extends BaseDocType
     }
 
     /** 
-     * Set the 'Version' element value. РќРѕРјРµСЂ РІРµСЂСЃРёРё РїР°РєРµС‚Р° (VERSION)
+     * Set the 'Version' element value. Номер версии пакета (VERSION)
      * 
      * @param version
      */
@@ -52,7 +52,7 @@ public class PackagePTSType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Form' element items. Р‘Р»Р°РЅРє РџРўРЎ Рё РџРЁРўРЎ-Рў
+     * Get the list of 'Form' element items. Бланк ПТС и ПШТС-Т
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class PackagePTSType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Form' element items. Р‘Р»Р°РЅРє РџРўРЎ Рё РџРЁРўРЎ-Рў
+     * Set the list of 'Form' element items. Бланк ПТС и ПШТС-Т
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class PackagePTSType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class PackagePTSType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

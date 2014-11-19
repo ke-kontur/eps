@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРёРґРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ (РґР»СЏ РІРёР·СѓР°Р»РёР·Р°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°).
+ * Информация о виде представления (для визуализации документа).
  */
 public class AUDRepresentationKindCommonInfoType
         extends
@@ -11,7 +11,7 @@ public class AUDRepresentationKindCommonInfoType
     private String description;
 
     /** 
-     * Get the 'Description' element value. РћРїРёСЃР°РЅРёРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ.
+     * Get the 'Description' element value. Описание представления.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AUDRepresentationKindCommonInfoType
     }
 
     /** 
-     * Set the 'Description' element value. РћРїРёСЃР°РЅРёРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ.
+     * Set the 'Description' element value. Описание представления.
      * 
      * @param description
      */

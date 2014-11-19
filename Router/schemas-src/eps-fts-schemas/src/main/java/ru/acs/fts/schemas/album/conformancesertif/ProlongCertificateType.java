@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+ * Сведения о продлении сертификата
  */
 public class ProlongCertificateType
 {
@@ -13,7 +13,7 @@ public class ProlongCertificateType
     private PersonBaseType prolongSign;
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'EndDate' element value. Дата окончания действия сертификата
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ProlongCertificateType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'EndDate' element value. Дата окончания действия сертификата
      * 
      * @param endDate
      */
@@ -31,7 +31,7 @@ public class ProlongCertificateType
     }
 
     /** 
-     * Get the 'ProlongSign' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРїРёСЃРё РїСЂРё РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'ProlongSign' element value. Сведения о подписи при продлении срока действия сертификата
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ProlongCertificateType
     }
 
     /** 
-     * Set the 'ProlongSign' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРїРёСЃРё РїСЂРё РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'ProlongSign' element value. Сведения о подписи при продлении срока действия сертификата
      * 
      * @param prolongSign
      */

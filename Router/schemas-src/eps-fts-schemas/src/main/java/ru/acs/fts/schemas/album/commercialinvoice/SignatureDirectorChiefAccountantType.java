@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.commercialinvoice;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ РѕСЂРіР°РЅРёР·Р°С†РёРё Рё РіР»Р°РІРЅРѕРіРѕ Р±СѓС…РіР°Р»С‚РµСЂР°.
+ * Подпись руководителя организации и главного бухгалтера.
  */
 public class SignatureDirectorChiefAccountantType
 {
@@ -12,7 +12,7 @@ public class SignatureDirectorChiefAccountantType
     private PersonSignatureType chiefAccountant;
 
     /** 
-     * Get the 'Director' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'Director' element value. Руководитель организации
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class SignatureDirectorChiefAccountantType
     }
 
     /** 
-     * Set the 'Director' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'Director' element value. Руководитель организации
      * 
      * @param director
      */
@@ -30,7 +30,7 @@ public class SignatureDirectorChiefAccountantType
     }
 
     /** 
-     * Get the 'ChiefAccountant' element value. Р“Р»Р°РІРЅС‹Р№ Р±СѓС…РіР°Р»С‚РµСЂ
+     * Get the 'ChiefAccountant' element value. Главный бухгалтер
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class SignatureDirectorChiefAccountantType
     }
 
     /** 
-     * Set the 'ChiefAccountant' element value. Р“Р»Р°РІРЅС‹Р№ Р±СѓС…РіР°Р»С‚РµСЂ
+     * Set the 'ChiefAccountant' element value. Главный бухгалтер
      * 
      * @param chiefAccountant
      */

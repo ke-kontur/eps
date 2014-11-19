@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РР·РјРµРЅРµРЅРёРµ
+ * Изменение
  */
 public class ChangeDetailsType
 {
@@ -15,7 +15,7 @@ public class ChangeDetailsType
     private List<String> correctDataList = new ArrayList<String>();
 
     /** 
-     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Get the 'GoodsNumeric' element value. Номер товара
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ChangeDetailsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Set the 'GoodsNumeric' element value. Номер товара
      * 
      * @param goodsNumeric
      */
@@ -33,7 +33,7 @@ public class ChangeDetailsType
     }
 
     /** 
-     * Get the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹)
+     * Get the 'GRNumber' element value. Обозначение графы (подраздела графы)
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ChangeDetailsType
     }
 
     /** 
-     * Set the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹)
+     * Set the 'GRNumber' element value. Обозначение графы (подраздела графы)
      * 
      * @param GRNumber
      */
@@ -51,7 +51,7 @@ public class ChangeDetailsType
     }
 
     /** 
-     * Get the list of 'PreviousData' element items. Р Р°РЅРµРµ СѓРєР°Р·Р°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Get the list of 'PreviousData' element items. Ранее указанные сведения
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class ChangeDetailsType
     }
 
     /** 
-     * Set the list of 'PreviousData' element items. Р Р°РЅРµРµ СѓРєР°Р·Р°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Set the list of 'PreviousData' element items. Ранее указанные сведения
      * 
      * @param list
      */
@@ -69,7 +69,7 @@ public class ChangeDetailsType
     }
 
     /** 
-     * Get the list of 'CorrectData' element items. РР·РјРµРЅРµРЅРЅС‹Рµ Рё (РёР»Рё) РґРѕРїРѕР»РЅРµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Get the list of 'CorrectData' element items. Измененные и (или) дополненные сведения
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class ChangeDetailsType
     }
 
     /** 
-     * Set the list of 'CorrectData' element items. РР·РјРµРЅРµРЅРЅС‹Рµ Рё (РёР»Рё) РґРѕРїРѕР»РЅРµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Set the list of 'CorrectData' element items. Измененные и (или) дополненные сведения
      * 
      * @param list
      */

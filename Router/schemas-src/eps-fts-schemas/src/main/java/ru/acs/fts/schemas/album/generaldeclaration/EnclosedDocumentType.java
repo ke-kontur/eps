@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.generaldeclaration;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёР»Р°РіР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Информация о прилагаемых документах
  */
 public class EnclosedDocumentType
 {
@@ -15,7 +15,7 @@ public class EnclosedDocumentType
     private String seaMedicalDeclarationCopyNumber;
 
     /** 
-     * Get the 'ShipStoresDeclarationCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ Р”РµРєР»Р°СЂР°С†РёРё Рѕ СЃСѓРґРѕРІС‹С… РїСЂРёРїР°СЃР°С…
+     * Get the 'ShipStoresDeclarationCopyNumber' element value. Число копий Декларации о судовых припасах
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Set the 'ShipStoresDeclarationCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ Р”РµРєР»Р°СЂР°С†РёРё Рѕ СЃСѓРґРѕРІС‹С… РїСЂРёРїР°СЃР°С…
+     * Set the 'ShipStoresDeclarationCopyNumber' element value. Число копий Декларации о судовых припасах
      * 
      * @param shipStoresDeclarationCopyNumber
      */
@@ -34,7 +34,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Get the 'SailingCargoDeclarationCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ Р”РµРєР»Р°СЂР°С†РёРё Рѕ РіСЂСѓР·Рµ РїСЂРё РѕС‚С…РѕРґРµ СЃСѓРґРЅР°
+     * Get the 'SailingCargoDeclarationCopyNumber' element value. Число копий Декларации о грузе при отходе судна
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Set the 'SailingCargoDeclarationCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ Р”РµРєР»Р°СЂР°С†РёРё Рѕ РіСЂСѓР·Рµ РїСЂРё РѕС‚С…РѕРґРµ СЃСѓРґРЅР°
+     * Set the 'SailingCargoDeclarationCopyNumber' element value. Число копий Декларации о грузе при отходе судна
      * 
      * @param sailingCargoDeclarationCopyNumber
      */
@@ -53,7 +53,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Get the 'ArrivalCargoDeclarationCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ Р”РµРєР»Р°СЂР°С†РёРё Рѕ РіСЂСѓР·Рµ РїСЂРё РїСЂРёС…РѕРґРµ СЃСѓРґРЅР°
+     * Get the 'ArrivalCargoDeclarationCopyNumber' element value. Число копий Декларации о грузе при приходе судна
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Set the 'ArrivalCargoDeclarationCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ Р”РµРєР»Р°СЂР°С†РёРё Рѕ РіСЂСѓР·Рµ РїСЂРё РїСЂРёС…РѕРґРµ СЃСѓРґРЅР°
+     * Set the 'ArrivalCargoDeclarationCopyNumber' element value. Число копий Декларации о грузе при приходе судна
      * 
      * @param arrivalCargoDeclarationCopyNumber
      */
@@ -72,7 +72,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Get the 'CrewListCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ РЎСѓРґРѕРІРѕР№ СЂРѕР»Рё
+     * Get the 'CrewListCopyNumber' element value. Число копий Судовой роли
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Set the 'CrewListCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ РЎСѓРґРѕРІРѕР№ СЂРѕР»Рё
+     * Set the 'CrewListCopyNumber' element value. Число копий Судовой роли
      * 
      * @param crewListCopyNumber
      */
@@ -90,7 +90,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Get the 'PassengerListCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ РЎРїРёСЃРєР° РїР°СЃСЃР°Р¶РёСЂРѕРІ
+     * Get the 'PassengerListCopyNumber' element value. Число копий Списка пассажиров
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Set the 'PassengerListCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ РЎРїРёСЃРєР° РїР°СЃСЃР°Р¶РёСЂРѕРІ
+     * Set the 'PassengerListCopyNumber' element value. Число копий Списка пассажиров
      * 
      * @param passengerListCopyNumber
      */
@@ -108,7 +108,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Get the 'BaggageDeclarationCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ Р”РµРєР»Р°СЂР°С†РёРё Рѕ Р»РёС‡РЅС‹С… РІРµС‰Р°С… СЌРєРёРїР°Р¶Р° 
+     * Get the 'BaggageDeclarationCopyNumber' element value. Число копий Декларации о личных вещах экипажа 
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Set the 'BaggageDeclarationCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ Р”РµРєР»Р°СЂР°С†РёРё Рѕ Р»РёС‡РЅС‹С… РІРµС‰Р°С… СЌРєРёРїР°Р¶Р° 
+     * Set the 'BaggageDeclarationCopyNumber' element value. Число копий Декларации о личных вещах экипажа 
      * 
      * @param baggageDeclarationCopyNumber
      */
@@ -127,7 +127,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Get the 'SeaMedicalDeclarationCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ РњРѕСЂСЃРєРѕР№ СЃР°РЅРёС‚Р°СЂРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё 
+     * Get the 'SeaMedicalDeclarationCopyNumber' element value. Число копий Морской санитарной декларации 
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class EnclosedDocumentType
     }
 
     /** 
-     * Set the 'SeaMedicalDeclarationCopyNumber' element value. Р§РёСЃР»Рѕ РєРѕРїРёР№ РњРѕСЂСЃРєРѕР№ СЃР°РЅРёС‚Р°СЂРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё 
+     * Set the 'SeaMedicalDeclarationCopyNumber' element value. Число копий Морской санитарной декларации 
      * 
      * @param seaMedicalDeclarationCopyNumber
      */

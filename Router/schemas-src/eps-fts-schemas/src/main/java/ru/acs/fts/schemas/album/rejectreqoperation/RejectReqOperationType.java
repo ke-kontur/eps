@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РћС‚РєР°Р· РІ Р·Р°РїСЂР°С€РёРІР°РµРјС‹С… РґРµР№СЃС‚РІРёСЏС…
+ * Отказ в запрашиваемых действиях
  */
 public class RejectReqOperationType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class RejectReqOperationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RejectNumber' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RejectNumber' element value. Исходящий номер документа
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RejectNumber' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RejectNumber' element value. Исходящий номер документа
      * 
      * @param rejectNumber
      */
@@ -43,7 +43,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'RejectDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RejectDate' element value. Дата создания документа
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RejectDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RejectDate' element value. Дата создания документа
      * 
      * @param rejectDate
      */
@@ -61,7 +61,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'RejectTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RejectTime' element value. Время создания документа
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RejectTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RejectTime' element value. Время создания документа
      * 
      * @param rejectTime
      */
@@ -79,7 +79,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReqNumber' element value. РќРѕРјРµСЂ Р·Р°РїСЂРѕСЃР° РѕС‚ РґРµРєР»Р°СЂР°РЅС‚Р°
+     * Get the 'ReqNumber' element value. Номер запроса от декларанта
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqNumber' element value. РќРѕРјРµСЂ Р·Р°РїСЂРѕСЃР° РѕС‚ РґРµРєР»Р°СЂР°РЅС‚Р°
+     * Set the 'ReqNumber' element value. Номер запроса от декларанта
      * 
      * @param reqNumber
      */
@@ -97,7 +97,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReqDate' element value. Р”Р°С‚Р° Р·Р°РїСЂРѕСЃР° РѕС‚ РґРµРєР»Р°СЂР°РЅС‚Р°
+     * Get the 'ReqDate' element value. Дата запроса от декларанта
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqDate' element value. Р”Р°С‚Р° Р·Р°РїСЂРѕСЃР° РѕС‚ РґРµРєР»Р°СЂР°РЅС‚Р°
+     * Set the 'ReqDate' element value. Дата запроса от декларанта
      * 
      * @param reqDate
      */
@@ -115,7 +115,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RejectReason' element items. РџСЂРёС‡РёРЅР° РѕС‚РєР°Р·Р°
+     * Get the list of 'RejectReason' element items. Причина отказа
      * 
      * @return list
      */
@@ -124,7 +124,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RejectReason' element items. РџСЂРёС‡РёРЅР° РѕС‚РєР°Р·Р°
+     * Set the list of 'RejectReason' element items. Причина отказа
      * 
      * @param list
      */
@@ -133,7 +133,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
+     * Get the 'Comments' element value. Комментарий
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
+     * Set the 'Comments' element value. Комментарий
      * 
      * @param comments
      */
@@ -151,7 +151,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -169,7 +169,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -187,7 +187,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class RejectReqOperationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.liquidationactcustomsmark;
 import org.joda.time.LocalDate;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°РєС‚Р° РѕР± СѓРЅРёС‡С‚РѕР¶РµРЅРёРё
+ * Регистрационный номер акта об уничтожении
  */
 public class ActRegNumberType
 {
@@ -13,7 +13,7 @@ public class ActRegNumberType
     private String serialNumber;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ActRegNumberType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
      * 
      * @param customsCode
      */
@@ -31,7 +31,7 @@ public class ActRegNumberType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RegistrationDate' element value. Дата регистрации документа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ActRegNumberType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RegistrationDate' element value. Дата регистрации документа
      * 
      * @param registrationDate
      */
@@ -49,7 +49,7 @@ public class ActRegNumberType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'SerialNumber' element value. Порядковый номер документа по журналу регистрации
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ActRegNumberType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'SerialNumber' element value. Порядковый номер документа по журналу регистрации
      * 
      * @param serialNumber
      */

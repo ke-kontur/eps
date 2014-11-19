@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.certificatdimmatriculation;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃРЅСЏС‚РёРё СЃ СѓС‡РµС‚Р° РўРЎ
+ * Сведения о снятии с учета ТС
  */
 public class UnRegistrationType
 {
@@ -13,7 +13,7 @@ public class UnRegistrationType
     private String cause;
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° СЃРЅСЏС‚РёСЏ СЃ СѓС‡РµС‚Р°
+     * Get the 'Date' element value. Дата снятия с учета
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class UnRegistrationType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° СЃРЅСЏС‚РёСЏ СЃ СѓС‡РµС‚Р°
+     * Set the 'Date' element value. Дата снятия с учета
      * 
      * @param date
      */
@@ -31,7 +31,7 @@ public class UnRegistrationType
     }
 
     /** 
-     * Get the 'GAIName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р“РђР
+     * Get the 'GAIName' element value. Наименование ГАИ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class UnRegistrationType
     }
 
     /** 
-     * Set the 'GAIName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р“РђР
+     * Set the 'GAIName' element value. Наименование ГАИ
      * 
      * @param GAIName
      */
@@ -49,7 +49,7 @@ public class UnRegistrationType
     }
 
     /** 
-     * Get the 'Cause' element value. РўРµРєСЃС‚ РїСЂРёС‡РёРЅС‹ СЃРЅСЏС‚РёСЏ СЃ СѓС‡РµС‚Р° РўРЎ
+     * Get the 'Cause' element value. Текст причины снятия с учета ТС
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class UnRegistrationType
     }
 
     /** 
-     * Set the 'Cause' element value. РўРµРєСЃС‚ РїСЂРёС‡РёРЅС‹ СЃРЅСЏС‚РёСЏ СЃ СѓС‡РµС‚Р° РўРЎ
+     * Set the 'Cause' element value. Текст причины снятия с учета ТС
      * 
      * @param cause
      */

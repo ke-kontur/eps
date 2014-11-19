@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РћС‚С‡РµС‚ РїРѕ РІС‹СЏРІР»РµРЅРЅС‹Рј СЂРёСЃРєР°Рј
+ * Отчет по выявленным рискам
  */
 public class RevealedRisksType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class RevealedRisksType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ РІС‹СЏРІР»РµРЅРЅС‹Рµ СЂРёСЃРєРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
+     * Get the 'GTDDocumentID' element value. Уникальный идентификатор ДТ, к которой относятся выявленные риски. Заполняется при использовании электронной формы декларирования.
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў, Рє РєРѕС‚РѕСЂРѕР№ РѕС‚РЅРѕСЃСЏС‚СЃСЏ РІС‹СЏРІР»РµРЅРЅС‹Рµ СЂРёСЃРєРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
+     * Set the 'GTDDocumentID' element value. Уникальный идентификатор ДТ, к которой относятся выявленные риски. Заполняется при использовании электронной формы декларирования.
      * 
      * @param GTDDocumentID
      */
@@ -40,7 +40,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RevealledRisks' element items. Р’С‹СЏРІР»РµРЅРЅС‹Рµ СЂРёСЃРєРё
+     * Get the list of 'RevealledRisks' element items. Выявленные риски
      * 
      * @return list
      */
@@ -49,7 +49,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RevealledRisks' element items. Р’С‹СЏРІР»РµРЅРЅС‹Рµ СЂРёСЃРєРё
+     * Set the list of 'RevealledRisks' element items. Выявленные риски
      * 
      * @param list
      */
@@ -58,7 +58,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskInf' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ (Р РµР·РµСЂРІ)
+     * Get the list of 'RiskInf' element items. Обоснование применения мер по минимизации рисков (Резерв)
      * 
      * @return list
      */
@@ -67,7 +67,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskInf' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ (Р РµР·РµСЂРІ)
+     * Set the list of 'RiskInf' element items. Обоснование применения мер по минимизации рисков (Резерв)
      * 
      * @param list
      */
@@ -101,7 +101,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTRegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў / СЂРµРµСЃС‚СЂР° СЌРєСЃРїСЂРµСЃСЃ-РіСЂСѓР·РѕРІ
+     * Get the 'DTRegNum' element value. Регистрационный номер ДТ / реестра экспресс-грузов
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTRegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў / СЂРµРµСЃС‚СЂР° СЌРєСЃРїСЂРµСЃСЃ-РіСЂСѓР·РѕРІ
+     * Set the 'DTRegNum' element value. Регистрационный номер ДТ / реестра экспресс-грузов
      * 
      * @param docIDDTRegNum
      */
@@ -129,7 +129,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'MPORegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РњРџРћ
+     * Get the 'MPORegNum' element value. Регистрационный номер МПО
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'MPORegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РњРџРћ
+     * Set the 'MPORegNum' element value. Регистрационный номер МПО
      * 
      * @param docIDMPORegNum
      */
@@ -148,7 +148,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class RevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

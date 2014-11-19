@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.gtdincustomsmark;
 import org.joda.time.LocalDate;
 
 /** 
- * РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёРµ РѕС‚РјРµС‚РєРё.
+ * Технологические отметки.
  */
 public class TechMarksType
 {
@@ -27,7 +27,7 @@ public class TechMarksType
     private String PSTATUS2;
 
     /** 
-     * Get the 'EXTRNL' element value. РЎР»СѓР¶РµР±РЅРѕРµ РїРѕР»Рµ.
+     * Get the 'EXTRNL' element value. Служебное поле.
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'EXTRNL' element value. РЎР»СѓР¶РµР±РЅРѕРµ РїРѕР»Рµ.
+     * Set the 'EXTRNL' element value. Служебное поле.
      * 
      * @param EXTRNL
      */
@@ -45,7 +45,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'SCHET' element value. РЎР»СѓР¶РµР±РЅРѕРµ РїРѕР»Рµ. РџРѕРґРїРёСЃРё СЌС‚Р°РїРѕРІ.
+     * Get the 'SCHET' element value. Служебное поле. Подписи этапов.
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'SCHET' element value. РЎР»СѓР¶РµР±РЅРѕРµ РїРѕР»Рµ. РџРѕРґРїРёСЃРё СЌС‚Р°РїРѕРІ.
+     * Set the 'SCHET' element value. Служебное поле. Подписи этапов.
      * 
      * @param SCHET
      */
@@ -63,7 +63,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'STEPCTRL' element value. РЎР»СѓР¶РµР±РЅРѕРµ РїРѕР»Рµ. Р­С‚Р°РїС‹ РєРѕРЅС‚СЂРѕР»СЏ.
+     * Get the 'STEPCTRL' element value. Служебное поле. Этапы контроля.
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'STEPCTRL' element value. РЎР»СѓР¶РµР±РЅРѕРµ РїРѕР»Рµ. Р­С‚Р°РїС‹ РєРѕРЅС‚СЂРѕР»СЏ.
+     * Set the 'STEPCTRL' element value. Служебное поле. Этапы контроля.
      * 
      * @param STEPCTRL
      */
@@ -81,7 +81,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'PresenceDTS' element value. РќР°Р»РёС‡РёРµ Р”РўРЎ ("1"-РµСЃС‚СЊ)
+     * Get the 'PresenceDTS' element value. Наличие ДТС ("1"-есть)
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'PresenceDTS' element value. РќР°Р»РёС‡РёРµ Р”РўРЎ ("1"-РµСЃС‚СЊ)
+     * Set the 'PresenceDTS' element value. Наличие ДТС ("1"-есть)
      * 
      * @param presenceDTS
      */
@@ -99,7 +99,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'PresenceKTS' element value. РќР°Р»РёС‡РёРµ РљРўРЎ ("1"-РµСЃС‚СЊ)
+     * Get the 'PresenceKTS' element value. Наличие КТС ("1"-есть)
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'PresenceKTS' element value. РќР°Р»РёС‡РёРµ РљРўРЎ ("1"-РµСЃС‚СЊ)
+     * Set the 'PresenceKTS' element value. Наличие КТС ("1"-есть)
      * 
      * @param presenceKTS
      */
@@ -117,7 +117,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'STAT' element value. РџСЂРёР·РЅР°Рє СѓС‡РµС‚Р° РІ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё (0 - РІСЃРµ С‚РѕРІР°СЂС‹ Р”Рў РЅРµ СѓС‡РёС‚С‹РІР°СЋС‚СЃСЏ  РІ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё, 1 - С…РѕС‚СЏ Р±С‹ РѕРґРёРЅ С‚РѕРІР°СЂ Р”Рў СѓС‡РёС‚С‹РІР°РµС‚СЃСЏ РІ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё)
+     * Get the 'STAT' element value. Признак учета в таможенной статистике внешней торговли (0 - все товары ДТ не учитываются  в статистике внешней торговли, 1 - хотя бы один товар ДТ учитывается в статистике внешней торговли)
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'STAT' element value. РџСЂРёР·РЅР°Рє СѓС‡РµС‚Р° РІ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё (0 - РІСЃРµ С‚РѕРІР°СЂС‹ Р”Рў РЅРµ СѓС‡РёС‚С‹РІР°СЋС‚СЃСЏ  РІ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё, 1 - С…РѕС‚СЏ Р±С‹ РѕРґРёРЅ С‚РѕРІР°СЂ Р”Рў СѓС‡РёС‚С‹РІР°РµС‚СЃСЏ РІ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё)
+     * Set the 'STAT' element value. Признак учета в таможенной статистике внешней торговли (0 - все товары ДТ не учитываются  в статистике внешней торговли, 1 - хотя бы один товар ДТ учитывается в статистике внешней торговли)
      * 
      * @param STAT
      */
@@ -135,7 +135,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'FrontierCustomsCode' element value. РљРѕРґ РїСЂРёРіСЂР°РЅРёС‡РЅРѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'FrontierCustomsCode' element value. Код приграничного таможенного органа
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'FrontierCustomsCode' element value. РљРѕРґ РїСЂРёРіСЂР°РЅРёС‡РЅРѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'FrontierCustomsCode' element value. Код приграничного таможенного органа
      * 
      * @param frontierCustomsCode
      */
@@ -153,7 +153,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'ElDeclIndicator' element value. РџСЂРёР·РЅР°Рє РїСЂРёРјРµРЅРµРЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ: 
+     * Get the 'ElDeclIndicator' element value. Признак применения электронной формы декларирования: 
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'ElDeclIndicator' element value. РџСЂРёР·РЅР°Рє РїСЂРёРјРµРЅРµРЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ: 
+     * Set the 'ElDeclIndicator' element value. Признак применения электронной формы декларирования: 
      * 
      * @param elDeclIndicator
      */
@@ -171,7 +171,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'SDS_SRV' element value. РЎР»СѓР¶РµР±РЅС‹Р№ РєРѕРґ, РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ С†РµР»РµР№ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ 
+     * Get the 'SDS_SRV' element value. Служебный код, используется для целей электронного декларирования 
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'SDS_SRV' element value. РЎР»СѓР¶РµР±РЅС‹Р№ РєРѕРґ, РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ С†РµР»РµР№ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ 
+     * Set the 'SDS_SRV' element value. Служебный код, используется для целей электронного декларирования 
      * 
      * @param SDSSRV
      */
@@ -189,7 +189,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'SDS_NUM' element value. РЎР»СѓР¶РµР±РЅС‹Р№ РЅРѕРјРµСЂ, РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ С†РµР»РµР№ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ 
+     * Get the 'SDS_NUM' element value. Служебный номер, используется для целей электронного декларирования 
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'SDS_NUM' element value. РЎР»СѓР¶РµР±РЅС‹Р№ РЅРѕРјРµСЂ, РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ С†РµР»РµР№ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ 
+     * Set the 'SDS_NUM' element value. Служебный номер, используется для целей электронного декларирования 
      * 
      * @param SDSNUM
      */
@@ -207,7 +207,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'GDDF' element value. Р”Р°С‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ.
+     * Get the 'GDDF' element value. Дата фактического перемещения товаров.
      * 
      * @return value
      */
@@ -216,7 +216,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'GDDF' element value. Р”Р°С‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ.
+     * Set the 'GDDF' element value. Дата фактического перемещения товаров.
      * 
      * @param GDDF
      */
@@ -225,7 +225,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'ModificationDate' element value. Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµРіРѕ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ РґРѕРєСѓРјРµРЅС‚.
+     * Get the 'ModificationDate' element value. Дата последнего внесения изменений в документ.
      * 
      * @return value
      */
@@ -234,7 +234,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'ModificationDate' element value. Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµРіРѕ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ РґРѕРєСѓРјРµРЅС‚.
+     * Set the 'ModificationDate' element value. Дата последнего внесения изменений в документ.
      * 
      * @param modificationDate
      */
@@ -243,7 +243,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'ModificationTime' element value. Р’СЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ Р”РўРЎ.
+     * Get the 'ModificationTime' element value. Время последнего внесения изменений в ДТС.
      * 
      * @return value
      */
@@ -252,7 +252,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'ModificationTime' element value. Р’СЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ Р”РўРЎ.
+     * Set the 'ModificationTime' element value. Время последнего внесения изменений в ДТС.
      * 
      * @param modificationTime
      */
@@ -261,7 +261,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'EDOC_GUID' element value. Р“Р»РѕР±Р°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў. Р¤РѕСЂРјРёСЂСѓРµС‚СЃСЏ СЃРёСЃС‚РµРјРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ Рё РєРѕРЅС‚СЂРѕР»СЏ.
+     * Get the 'EDOC_GUID' element value. Глобальный идентификатор ДТ. Формируется системой таможенного оформления и контроля.
      * 
      * @return value
      */
@@ -270,7 +270,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'EDOC_GUID' element value. Р“Р»РѕР±Р°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў. Р¤РѕСЂРјРёСЂСѓРµС‚СЃСЏ СЃРёСЃС‚РµРјРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ Рё РєРѕРЅС‚СЂРѕР»СЏ.
+     * Set the 'EDOC_GUID' element value. Глобальный идентификатор ДТ. Формируется системой таможенного оформления и контроля.
      * 
      * @param EDOCGUID
      */
@@ -279,7 +279,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'EDOC_ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ РїР°РєРµС‚Рµ.
+     * Get the 'EDOC_ID' element value. Идентификатор документа в пакете.
      * 
      * @return value
      */
@@ -288,7 +288,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'EDOC_ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ РїР°РєРµС‚Рµ.
+     * Set the 'EDOC_ID' element value. Идентификатор документа в пакете.
      * 
      * @param EDOCID
      */
@@ -297,7 +297,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'P_STATUS1' element value. РџСЂРёРєР»Р°РґРЅРѕР№ СЃС‚Р°С‚СѓСЃ Р”Рў (1- Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅР°СЏ 2 - РѕС„РѕСЂРјР»РµРЅРЅР°СЏ Р”Рў)
+     * Get the 'P_STATUS1' element value. Прикладной статус ДТ (1- зарегистрированная 2 - оформленная ДТ)
      * 
      * @return value
      */
@@ -306,7 +306,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'P_STATUS1' element value. РџСЂРёРєР»Р°РґРЅРѕР№ СЃС‚Р°С‚СѓСЃ Р”Рў (1- Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅР°СЏ 2 - РѕС„РѕСЂРјР»РµРЅРЅР°СЏ Р”Рў)
+     * Set the 'P_STATUS1' element value. Прикладной статус ДТ (1- зарегистрированная 2 - оформленная ДТ)
      * 
      * @param PSTATUS1
      */
@@ -315,7 +315,7 @@ public class TechMarksType
     }
 
     /** 
-     * Get the 'P_STATUS2' element value. РЎС‚Р°С‚СѓСЃ РѕР±СЂР°Р±РѕС‚РєРё (РќРµ Р·Р°РїРѕР»РЅРµРЅРѕ; 1 - Р”РѕРєСѓРјРµРЅС‚ РёР·РјРµРЅРµРЅ РЅР° РѕСЃРЅРѕРІР°РЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЏ РЅР° С‚РµС…РЅРёС‡РµСЃРєСѓСЋ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєСѓ)
+     * Get the 'P_STATUS2' element value. Статус обработки (Не заполнено; 1 - Документ изменен на основании требования на техническую корректировку)
      * 
      * @return value
      */
@@ -324,7 +324,7 @@ public class TechMarksType
     }
 
     /** 
-     * Set the 'P_STATUS2' element value. РЎС‚Р°С‚СѓСЃ РѕР±СЂР°Р±РѕС‚РєРё (РќРµ Р·Р°РїРѕР»РЅРµРЅРѕ; 1 - Р”РѕРєСѓРјРµРЅС‚ РёР·РјРµРЅРµРЅ РЅР° РѕСЃРЅРѕРІР°РЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЏ РЅР° С‚РµС…РЅРёС‡РµСЃРєСѓСЋ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєСѓ)
+     * Set the 'P_STATUS2' element value. Статус обработки (Не заполнено; 1 - Документ изменен на основании требования на техническую корректировку)
      * 
      * @param PSTATUS2
      */

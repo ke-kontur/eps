@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.guaranteestatusreq;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ СЃС‚Р°С‚СѓСЃР° РїСЂРѕС†РµСЃСЃР° СЂР°Р±РѕС‚С‹ СЃ РґРѕРїРѕР»РЅРµРЅРёРµРј Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°.
+ * Запрос статуса процесса работы с дополнением к договору поручительства.
  */
 public class GuaranteeStatusReqType extends BaseDocType
 {
@@ -13,7 +13,7 @@ public class GuaranteeStatusReqType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
+     * Get the 'GRN' element value. Cсылочный номер гарантии в транзите 
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GuaranteeStatusReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'GRN' element value. CСЃС‹Р»РѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё РІ С‚СЂР°РЅР·РёС‚Рµ 
+     * Set the 'GRN' element value. Cсылочный номер гарантии в транзите 
      * 
      * @param GRN
      */
@@ -31,7 +31,7 @@ public class GuaranteeStatusReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'GuaranteeID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
+     * Get the 'GuaranteeID' element value. Уникальный идентификатор
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class GuaranteeStatusReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'GuaranteeID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
+     * Set the 'GuaranteeID' element value. Уникальный идентификатор
      * 
      * @param guaranteeID
      */
@@ -49,7 +49,7 @@ public class GuaranteeStatusReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class GuaranteeStatusReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 
 /** 
- * Р’Р»Р°РґРµР»РµС† РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕРіРѕ РёРјСѓС‰РµСЃС‚РІР°
+ * Владелец объекта недвижимого имущества
  */
 public class OwnerType extends CUOrganizationType
 {
@@ -29,7 +29,7 @@ public class OwnerType extends CUOrganizationType
     private List<PresentedDocsType> presentedDocList = new ArrayList<PresentedDocsType>();
 
     /** 
-     * Get the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 1 - С„РёР·. Р»РёС†Рѕ; 2 - СЋСЂ. Р»РёС†Рѕ ; 3 - РѕСЂРіР°РЅ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ РІР»Р°СЃС‚Рё РёР»Рё РѕСЂРіР°РЅ РјРµСЃС‚РЅРѕРіРѕ СЃР°РјРѕСѓРїСЂР°РІР»РµРЅРёСЏ; 4 - РёРЅРѕСЃС‚СЂР°РЅРЅРѕРµ СЋСЂ. Р»РёС†Рѕ
+     * Get the 'OrgSign' element value. Признак: 1 - физ. лицо; 2 - юр. лицо ; 3 - орган государственной власти или орган местного самоуправления; 4 - иностранное юр. лицо
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 1 - С„РёР·. Р»РёС†Рѕ; 2 - СЋСЂ. Р»РёС†Рѕ ; 3 - РѕСЂРіР°РЅ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ РІР»Р°СЃС‚Рё РёР»Рё РѕСЂРіР°РЅ РјРµСЃС‚РЅРѕРіРѕ СЃР°РјРѕСѓРїСЂР°РІР»РµРЅРёСЏ; 4 - РёРЅРѕСЃС‚СЂР°РЅРЅРѕРµ СЋСЂ. Р»РёС†Рѕ
+     * Set the 'OrgSign' element value. Признак: 1 - физ. лицо; 2 - юр. лицо ; 3 - орган государственной власти или орган местного самоуправления; 4 - иностранное юр. лицо
      * 
      * @param orgSign
      */
@@ -47,7 +47,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'BirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
+     * Get the 'BirthDate' element value. Дата рождения
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'BirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
+     * Set the 'BirthDate' element value. Дата рождения
      * 
      * @param birthDate
      */
@@ -65,7 +65,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'InsuranceNumber' element value. РЎРќРР›РЎ
+     * Get the 'InsuranceNumber' element value. СНИЛС
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'InsuranceNumber' element value. РЎРќРР›РЎ
+     * Set the 'InsuranceNumber' element value. СНИЛС
      * 
      * @param insuranceNumber
      */
@@ -83,7 +83,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RegDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'RegDate' element value. Дата государственной регистрации
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RegDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'RegDate' element value. Дата государственной регистрации
      * 
      * @param regDate
      */
@@ -101,7 +101,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the list of 'PreviousName' element items. РџСЂРµРґС‹РґСѓС‰РµРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ
+     * Get the list of 'PreviousName' element items. Предыдущее наименование
      * 
      * @return list
      */
@@ -110,7 +110,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the list of 'PreviousName' element items. РџСЂРµРґС‹РґСѓС‰РµРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ
+     * Set the list of 'PreviousName' element items. Предыдущее наименование
      * 
      * @param list
      */
@@ -119,7 +119,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'GovernanceCode' element value. РўРёРї РѕСЂРіР°РЅР° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ РІР»Р°СЃС‚Рё РёР»Рё РѕСЂРіР°РЅР° РјРµСЃС‚РЅРѕРіРѕ СЃР°РјРѕСѓРїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'GovernanceCode' element value. Тип органа государственной власти или органа местного самоуправления
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'GovernanceCode' element value. РўРёРї РѕСЂРіР°РЅР° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ РІР»Р°СЃС‚Рё РёР»Рё РѕСЂРіР°РЅР° РјРµСЃС‚РЅРѕРіРѕ СЃР°РјРѕСѓРїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'GovernanceCode' element value. Тип органа государственной власти или органа местного самоуправления
      * 
      * @param governanceCode
      */
@@ -137,7 +137,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RegCountry' element value. РЎС‚СЂР°РЅР° СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'RegCountry' element value. Страна регистрации
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RegCountry' element value. РЎС‚СЂР°РЅР° СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'RegCountry' element value. Страна регистрации
      * 
      * @param regCountry
      */
@@ -155,7 +155,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RegNum' element value. РќРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'RegNum' element value. Номер регистрации
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RegNum' element value. РќРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'RegNum' element value. Номер регистрации
      * 
      * @param regNum
      */
@@ -173,7 +173,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'ID' element value. Р’РЅСѓС‚СЂРµРЅРЅРёР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
+     * Get the 'ID' element value. Внутренний идентификатор
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'ID' element value. Р’РЅСѓС‚СЂРµРЅРЅРёР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
+     * Set the 'ID' element value. Внутренний идентификатор
      * 
      * @param ID
      */
@@ -191,7 +191,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'ContactInfo' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'ContactInfo' element value. Контактная информация
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'ContactInfo' element value. РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'ContactInfo' element value. Контактная информация
      * 
      * @param contactInfo
      */
@@ -209,7 +209,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'EgrpID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІ Р±Р°Р·Рµ РґР°РЅРЅС‹С… Р•Р“Р Рџ
+     * Get the 'EgrpID' element value. Идентификатор в базе данных ЕГРП
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'EgrpID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІ Р±Р°Р·Рµ РґР°РЅРЅС‹С… Р•Р“Р Рџ
+     * Set the 'EgrpID' element value. Идентификатор в базе данных ЕГРП
      * 
      * @param egrpID
      */
@@ -227,7 +227,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'AgentKind' element value. Р’РёРґ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊСЃС‚РІР°
+     * Get the 'AgentKind' element value. Вид представительства
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'AgentKind' element value. Р’РёРґ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊСЃС‚РІР°
+     * Set the 'AgentKind' element value. Вид представительства
      * 
      * @param agentKind
      */
@@ -245,7 +245,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'FactAddress' element value. РђРґСЂРµСЃ РїСЂРµРёРјСѓС‰РµСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРѕР¶РёРІР°РЅРёСЏ СЃСѓР±СЉРµРєС‚Р° / Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Р№ Р°РґСЂРµСЃ СЃСѓР±СЉРµРєС‚Р°
+     * Get the 'FactAddress' element value. Адрес преимущественного проживания субъекта / Зарегистрированный адрес субъекта
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'FactAddress' element value. РђРґСЂРµСЃ РїСЂРµРёРјСѓС‰РµСЃС‚РІРµРЅРЅРѕРіРѕ РїСЂРѕР¶РёРІР°РЅРёСЏ СЃСѓР±СЉРµРєС‚Р° / Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹Р№ Р°РґСЂРµСЃ СЃСѓР±СЉРµРєС‚Р°
+     * Set the 'FactAddress' element value. Адрес преимущественного проживания субъекта / Зарегистрированный адрес субъекта
      * 
      * @param factAddress
      */
@@ -263,7 +263,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the list of 'PreviousIdentityDocs' element items. РџСЂРµРґС‹РґСѓС‰РёРµ РґРѕРєСѓРјРµРЅС‚С‹ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ Р»РёС‡РЅРѕСЃС‚Рё
+     * Get the list of 'PreviousIdentityDocs' element items. Предыдущие документы удостоверения личности
      * 
      * @return list
      */
@@ -272,7 +272,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the list of 'PreviousIdentityDocs' element items. РџСЂРµРґС‹РґСѓС‰РёРµ РґРѕРєСѓРјРµРЅС‚С‹ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ Р»РёС‡РЅРѕСЃС‚Рё
+     * Set the list of 'PreviousIdentityDocs' element items. Предыдущие документы удостоверения личности
      * 
      * @param list
      */
@@ -281,7 +281,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the list of 'PresentedDocs' element items. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the list of 'PresentedDocs' element items. Представленные документы
      * 
      * @return list
      */
@@ -290,7 +290,7 @@ public class OwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the list of 'PresentedDocs' element items. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the list of 'PresentedDocs' element items. Представленные документы
      * 
      * @param list
      */

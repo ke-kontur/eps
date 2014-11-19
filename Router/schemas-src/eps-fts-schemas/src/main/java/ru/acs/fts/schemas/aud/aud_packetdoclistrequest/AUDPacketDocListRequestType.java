@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 import ru.acs.fts.schemas.aud.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ СЃРїРёСЃРєР° РґРѕРєСѓРјРµРЅС‚РѕРІ РїР°РєРµС‚Р°
+ * Запрос списка документов пакета
  */
 public class AUDPacketDocListRequestType extends AUDBaseEnvelopeType
 {
@@ -44,7 +44,7 @@ public class AUDPacketDocListRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'PacketDTNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ Р”Рў
+     * Get the 'PacketDTNum' element value. Регистрационный  номер ДТ
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class AUDPacketDocListRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'PacketDTNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ Р”Рў
+     * Set the 'PacketDTNum' element value. Регистрационный  номер ДТ
      * 
      * @param packetDTNum
      */
@@ -72,7 +72,7 @@ public class AUDPacketDocListRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'PacketAppliedID' element value. РџСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°
+     * Get the 'PacketAppliedID' element value. Прикладной идентификатор пакета
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class AUDPacketDocListRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'PacketAppliedID' element value. РџСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°
+     * Set the 'PacketAppliedID' element value. Прикладной идентификатор пакета
      * 
      * @param packetAppliedID
      */
@@ -100,7 +100,7 @@ public class AUDPacketDocListRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'ArchivePacketID' element value. РђСЂС…РёРІРЅС‹Р№  РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°
+     * Get the 'ArchivePacketID' element value. Архивный  идентификатор пакета
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class AUDPacketDocListRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'ArchivePacketID' element value. РђСЂС…РёРІРЅС‹Р№  РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°
+     * Set the 'ArchivePacketID' element value. Архивный  идентификатор пакета
      * 
      * @param archivePacketID
      */
@@ -119,7 +119,7 @@ public class AUDPacketDocListRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class AUDPacketDocListRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @param documentModeID
      */

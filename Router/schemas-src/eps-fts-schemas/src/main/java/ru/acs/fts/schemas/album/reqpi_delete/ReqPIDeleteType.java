@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.TIRIDType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРµ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+ * Запрос на аннулирование предварительной информации
  */
 public class ReqPIDeleteType extends BaseDocType
 {
@@ -42,7 +42,7 @@ public class ReqPIDeleteType extends BaseDocType
     }
 
     /** 
-     * Get the 'TIR_ID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIR_ID' element value. Номер книжки МДП
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class ReqPIDeleteType extends BaseDocType
     }
 
     /** 
-     * Set the 'TIR_ID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIR_ID' element value. Номер книжки МДП
      * 
      * @param TIRID
      */
@@ -70,7 +70,7 @@ public class ReqPIDeleteType extends BaseDocType
     }
 
     /** 
-     * Get the 'PI_RegID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїСЂР°С€РёРІР°РµРјРѕР№ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё.
+     * Get the 'PI_RegID' element value. Идентификатор запрашиваемой предварительной информации.
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ReqPIDeleteType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_RegID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїСЂР°С€РёРІР°РµРјРѕР№ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё.
+     * Set the 'PI_RegID' element value. Идентификатор запрашиваемой предварительной информации.
      * 
      * @param PIRegID
      */
@@ -89,7 +89,7 @@ public class ReqPIDeleteType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class ReqPIDeleteType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

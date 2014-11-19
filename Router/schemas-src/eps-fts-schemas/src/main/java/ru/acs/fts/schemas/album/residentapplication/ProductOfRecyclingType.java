@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.residentapplication;
 
 /** 
- * РџСЂРѕРґСѓРєС‚ РїРµСЂРµСЂР°Р±РѕС‚РєРё Рё РѕС‚С…РѕРґС‹ 
+ * Продукт переработки и отходы 
  */
 public class ProductOfRecyclingType
 {
@@ -13,7 +13,7 @@ public class ProductOfRecyclingType
     private String customsDutyRateSystem;
 
     /** 
-     * Get the 'Number' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ 
+     * Get the 'Number' element value. Порядковый номер 
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ProductOfRecyclingType
     }
 
     /** 
-     * Set the 'Number' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ 
+     * Set the 'Number' element value. Порядковый номер 
      * 
      * @param number
      */
@@ -31,7 +31,7 @@ public class ProductOfRecyclingType
     }
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС‚Р° РїРµСЂРµСЂР°Р±РѕС‚РєРё РёР»Рё РѕС‚С…РѕРґР° 
+     * Get the 'Name' element value. Наименование продукта переработки или отхода 
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ProductOfRecyclingType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС‚Р° РїРµСЂРµСЂР°Р±РѕС‚РєРё РёР»Рё РѕС‚С…РѕРґР° 
+     * Set the 'Name' element value. Наименование продукта переработки или отхода 
      * 
      * @param name
      */
@@ -49,7 +49,7 @@ public class ProductOfRecyclingType
     }
 
     /** 
-     * Get the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ProductOfRecyclingType
     }
 
     /** 
-     * Set the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param TNVEDCode
      */
@@ -67,7 +67,7 @@ public class ProductOfRecyclingType
     }
 
     /** 
-     * Get the 'Status' element value. РЎС‚Р°С‚СѓСЃ: 0 - Р РћРЎ (Р РѕСЃСЃРёР№СЃРєРёР№); 1 - РРќ (РёРЅРѕСЃС‚СЂР°РЅРЅС‹Р№) 
+     * Get the 'Status' element value. Статус: 0 - РОС (Российский); 1 - ИН (иностранный) 
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class ProductOfRecyclingType
     }
 
     /** 
-     * Set the 'Status' element value. РЎС‚Р°С‚СѓСЃ: 0 - Р РћРЎ (Р РѕСЃСЃРёР№СЃРєРёР№); 1 - РРќ (РёРЅРѕСЃС‚СЂР°РЅРЅС‹Р№) 
+     * Set the 'Status' element value. Статус: 0 - РОС (Российский); 1 - ИН (иностранный) 
      * 
      * @param status
      */
@@ -85,7 +85,7 @@ public class ProductOfRecyclingType
     }
 
     /** 
-     * Get the 'CustomsDutyRateSystem' element value. РЎРёСЃС‚РµРјР° РёСЃС‡РёСЃР»РµРЅРёСЏ СЃС‚Р°РІРѕРє С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ
+     * Get the 'CustomsDutyRateSystem' element value. Система исчисления ставок таможенных пошлин
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class ProductOfRecyclingType
     }
 
     /** 
-     * Set the 'CustomsDutyRateSystem' element value. РЎРёСЃС‚РµРјР° РёСЃС‡РёСЃР»РµРЅРёСЏ СЃС‚Р°РІРѕРє С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ
+     * Set the 'CustomsDutyRateSystem' element value. Система исчисления ставок таможенных пошлин
      * 
      * @param customsDutyRateSystem
      */

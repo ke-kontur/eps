@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.housemanifest;
 
 /** 
- * РњРµС‚РѕРґ РѕР±СЂР°Р±РѕС‚РєРё
+ * Метод обработки
  */
 public class HandlingInformationType
 {
@@ -10,7 +10,7 @@ public class HandlingInformationType
     private String description;
 
     /** 
-     * Get the 'ServiceTypeCode' element value. РљРѕРґ РјРµС‚РѕРґР° РѕР±СЂР°Р±РѕС‚РєРё
+     * Get the 'ServiceTypeCode' element value. Код метода обработки
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class HandlingInformationType
     }
 
     /** 
-     * Set the 'ServiceTypeCode' element value. РљРѕРґ РјРµС‚РѕРґР° РѕР±СЂР°Р±РѕС‚РєРё
+     * Set the 'ServiceTypeCode' element value. Код метода обработки
      * 
      * @param serviceTypeCode
      */
@@ -28,7 +28,7 @@ public class HandlingInformationType
     }
 
     /** 
-     * Get the 'Description' element value. РћРїРёСЃР°РЅРёРµ РјРµС‚РѕРґР° РѕР±СЂР°Р±РѕС‚РєРё
+     * Get the 'Description' element value. Описание метода обработки
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class HandlingInformationType
     }
 
     /** 
-     * Set the 'Description' element value. РћРїРёСЃР°РЅРёРµ РјРµС‚РѕРґР° РѕР±СЂР°Р±РѕС‚РєРё
+     * Set the 'Description' element value. Описание метода обработки
      * 
      * @param description
      */

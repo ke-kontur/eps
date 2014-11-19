@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.goodsclassificationdecision;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂРµС€РµРЅРёСЏ
+ * Регистрационный номер решения
  */
 public class RegistryNumberType
 {
@@ -11,7 +11,7 @@ public class RegistryNumberType
     private String position;
 
     /** 
-     * Get the 'GTDId' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'GTDId' element value. Порядковый номер ДТ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class RegistryNumberType
     }
 
     /** 
-     * Set the 'GTDId' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'GTDId' element value. Порядковый номер ДТ
      * 
      * @param GTDId
      */
@@ -29,7 +29,7 @@ public class RegistryNumberType
     }
 
     /** 
-     * Get the 'GTDPosition' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Get the 'GTDPosition' element value. Порядковый номер товара по ДТ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RegistryNumberType
     }
 
     /** 
-     * Set the 'GTDPosition' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Set the 'GTDPosition' element value. Порядковый номер товара по ДТ
      * 
      * @param GTDPosition
      */
@@ -47,7 +47,7 @@ public class RegistryNumberType
     }
 
     /** 
-     * Get the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°. "0", РµСЃР»Рё РїРѕ СѓРєР°Р·Р°РЅРЅРѕРјСѓ "РЅРѕРјРµСЂСѓ С‚РѕРІР°СЂР° РїРѕ Р”Рў" Р·Р°РґРµРєР»Р°СЂРёСЂРѕРІР°РЅ РѕРґРёРЅ С‚РѕРІР°СЂ. "1" Рё С‚.Рґ., РµСЃР»Рё РїРѕ СѓРєР°Р·Р°РЅРЅРѕРјСѓ "РЅРѕРјРµСЂСѓ С‚РѕРІР°СЂР° РїРѕ Р”Рў" Р·Р°РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРѕ РЅРµСЃРєРѕР»СЊРєРѕ С‚РѕРІР°СЂРѕРІ.
+     * Get the 'Position' element value. Порядковый номер товара. "0", если по указанному "номеру товара по ДТ" задекларирован один товар. "1" и т.д., если по указанному "номеру товара по ДТ" задекларировано несколько товаров.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RegistryNumberType
     }
 
     /** 
-     * Set the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°. "0", РµСЃР»Рё РїРѕ СѓРєР°Р·Р°РЅРЅРѕРјСѓ "РЅРѕРјРµСЂСѓ С‚РѕРІР°СЂР° РїРѕ Р”Рў" Р·Р°РґРµРєР»Р°СЂРёСЂРѕРІР°РЅ РѕРґРёРЅ С‚РѕРІР°СЂ. "1" Рё С‚.Рґ., РµСЃР»Рё РїРѕ СѓРєР°Р·Р°РЅРЅРѕРјСѓ "РЅРѕРјРµСЂСѓ С‚РѕРІР°СЂР° РїРѕ Р”Рў" Р·Р°РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРѕ РЅРµСЃРєРѕР»СЊРєРѕ С‚РѕРІР°СЂРѕРІ.
+     * Set the 'Position' element value. Порядковый номер товара. "0", если по указанному "номеру товара по ДТ" задекларирован один товар. "1" и т.д., если по указанному "номеру товара по ДТ" задекларировано несколько товаров.
      * 
      * @param position
      */

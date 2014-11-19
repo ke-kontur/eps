@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.sqcommonaggregatetypescust.ConclusionType;
 
 /** 
- * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ СЂР°Р·СЂРµС€РµРЅРёР№ РЅР° С‚СЂР°РЅР·РёС‚ СЏРґРѕРІРёС‚С‹С… РІРµС‰РµСЃС‚РІ, РІС‹РґР°РІР°РµРјС‹Рµ СЃРѕРіР»Р°СЃРЅРѕ Рї.13 РџРѕР»РѕР¶РµРЅРёСЏ Рє СЂР°Р·РґРµР»Сѓ 2.13 Р•РґРёРЅРѕРіРѕ РїРµСЂРµС‡РЅСЏ "Рћ РїРѕСЂСЏРґРєРµ РІРІРѕР·Р°, РІС‹РІРѕР·Р° Рё С‚СЂР°РЅР·РёС‚Р° СЏРґРѕРІРёС‚С‹С… РІРµС‰РµСЃС‚РІ, РЅРµ СЏРІР»СЏСЋС‰РёС…СЃСЏ РїСЂРµРєСѓСЂСЃРѕСЂР°РјРё РЅР°СЂРєРѕС‚РёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ Рё РїСЃРёС…РѕС‚СЂРѕРїРЅС‹С… РІРµС‰РµСЃС‚РІ, РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°"
+ * Ответ на запрос разрешений на транзит ядовитых веществ, выдаваемые согласно п.13 Положения к разделу 2.13 Единого перечня "О порядке ввоза, вывоза и транзита ядовитых веществ, не являющихся прекурсорами наркотических средств и психотропных веществ, по таможенной территории Таможенного союза"
  */
 public class RosPrirodTranzitNoDrugsType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @param isCanceled
      */
@@ -38,7 +38,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -56,7 +56,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentId' element value. Id РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentId' element value. Id документа
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentId' element value. Id РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentId' element value. Id документа
      * 
      * @param documentId
      */
@@ -74,7 +74,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Get the 'AuthorizedPerson' element value. Уполномоченное должностное лицо, подписавшее заключение
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Set the 'AuthorizedPerson' element value. Уполномоченное должностное лицо, подписавшее заключение
      * 
      * @param authorizedPerson
      */
@@ -92,7 +92,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Conclusion' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РєР»СЋС‡РµРЅРёРё
+     * Get the 'Conclusion' element value. Сведения о заключении
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Conclusion' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РєР»СЋС‡РµРЅРёРё
+     * Set the 'Conclusion' element value. Сведения о заключении
      * 
      * @param conclusion
      */
@@ -110,7 +110,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Object' element items. РЇРґРѕРІРёС‚РѕРµ РІРµС‰РµСЃС‚РІРѕ, РЅР° С‚СЂР°РЅР·РёС‚ РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Get the list of 'Object' element items. Ядовитое вещество, на транзит которого выдано разрешение
      * 
      * @return list
      */
@@ -119,7 +119,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Object' element items. РЇРґРѕРІРёС‚РѕРµ РІРµС‰РµСЃС‚РІРѕ, РЅР° С‚СЂР°РЅР·РёС‚ РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Set the list of 'Object' element items. Ядовитое вещество, на транзит которого выдано разрешение
      * 
      * @param list
      */
@@ -128,7 +128,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class RosPrirodTranzitNoDrugsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

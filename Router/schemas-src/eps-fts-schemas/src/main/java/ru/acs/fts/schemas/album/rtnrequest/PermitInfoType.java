@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.rtnrequest;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р Р°Р·СЂРµС€РµРЅРёРµ/РєР°СЂС‚РѕС‡РєР°
+ * Разрешение/карточка
  */
 public class PermitInfoType extends DocumentBaseType
 {
@@ -16,7 +16,7 @@ public class PermitInfoType extends DocumentBaseType
     private String stopDateTime;
 
     /** 
-     * Get the 'IssueTime' element value. Р’СЂРµРјСЏ РІС‹РґР°С‡Рё
+     * Get the 'IssueTime' element value. Время выдачи
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PermitInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'IssueTime' element value. Р’СЂРµРјСЏ РІС‹РґР°С‡Рё
+     * Set the 'IssueTime' element value. Время выдачи
      * 
      * @param issueTime
      */
@@ -34,7 +34,7 @@ public class PermitInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PermitKind' element value. РўРёРї СЂР°Р·СЂРµС€РµРЅРёСЏ РћР“/РєР°СЂС‚РѕС‡РєРё: 1 - РњРќР“; 2 - РњРљРџ; 3 - РњРќРџ; 4 - РњРљР“; 5 - РЎРїРµС†РёР°Р»СЊРЅРѕРµ СЂР°Р·СЂРµС€РµРЅРёРµ РњРђРџ; 6 - РЎРїРµС†РёР°Р»СЊРЅРѕРµ СЂР°Р·СЂРµС€РµРЅРёРµ Р Р¤
+     * Get the 'PermitKind' element value. Тип разрешения ОГ/карточки: 1 - МНГ; 2 - МКП; 3 - МНП; 4 - МКГ; 5 - Специальное разрешение МАП; 6 - Специальное разрешение РФ
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PermitInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PermitKind' element value. РўРёРї СЂР°Р·СЂРµС€РµРЅРёСЏ РћР“/РєР°СЂС‚РѕС‡РєРё: 1 - РњРќР“; 2 - РњРљРџ; 3 - РњРќРџ; 4 - РњРљР“; 5 - РЎРїРµС†РёР°Р»СЊРЅРѕРµ СЂР°Р·СЂРµС€РµРЅРёРµ РњРђРџ; 6 - РЎРїРµС†РёР°Р»СЊРЅРѕРµ СЂР°Р·СЂРµС€РµРЅРёРµ Р Р¤
+     * Set the 'PermitKind' element value. Тип разрешения ОГ/карточки: 1 - МНГ; 2 - МКП; 3 - МНП; 4 - МКГ; 5 - Специальное разрешение МАП; 6 - Специальное разрешение РФ
      * 
      * @param permitKind
      */
@@ -52,7 +52,7 @@ public class PermitInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'BeginDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ
+     * Get the 'BeginDateTime' element value. Дата/время начала действия
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class PermitInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'BeginDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ
+     * Set the 'BeginDateTime' element value. Дата/время начала действия
      * 
      * @param beginDateTime
      */
@@ -70,7 +70,7 @@ public class PermitInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'EndDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ
+     * Get the 'EndDateTime' element value. Дата/время окончания действия
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class PermitInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'EndDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ
+     * Set the 'EndDateTime' element value. Дата/время окончания действия
      * 
      * @param endDateTime
      */
@@ -88,7 +88,7 @@ public class PermitInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Status' element value. РЎС‚Р°С‚СѓСЃ: 1 - Р”РµР№СЃС‚РІСѓСЋС‰РёР№; 2 - РџСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅ; 3 - РђРЅРЅСѓР»РёСЂРѕРІР°РЅ; 4 - РСЃС‚РµРє СЃСЂРѕРє РґРµР№СЃС‚РІРёСЏ
+     * Get the 'Status' element value. Статус: 1 - Действующий; 2 - Приостановлен; 3 - Аннулирован; 4 - Истек срок действия
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class PermitInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Status' element value. РЎС‚Р°С‚СѓСЃ: 1 - Р”РµР№СЃС‚РІСѓСЋС‰РёР№; 2 - РџСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅ; 3 - РђРЅРЅСѓР»РёСЂРѕРІР°РЅ; 4 - РСЃС‚РµРє СЃСЂРѕРє РґРµР№СЃС‚РІРёСЏ
+     * Set the 'Status' element value. Статус: 1 - Действующий; 2 - Приостановлен; 3 - Аннулирован; 4 - Истек срок действия
      * 
      * @param status
      */
@@ -106,7 +106,7 @@ public class PermitInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'StopDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїСЂРёРѕСЃС‚Р°РЅРѕРІРєРё/Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ/ РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'StopDateTime' element value. Дата/время приостановки/аннулирования/ прекращения действия разрешения
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class PermitInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'StopDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїСЂРёРѕСЃС‚Р°РЅРѕРІРєРё/Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ/ РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'StopDateTime' element value. Дата/время приостановки/аннулирования/ прекращения действия разрешения
      * 
      * @param stopDateTime
      */

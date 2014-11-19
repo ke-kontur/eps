@@ -7,14 +7,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUTransportMeansType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЊРЅРѕРј С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
+ * Сведения об автомобильном транспорте
  */
 public class CarInformationType extends CUTransportMeansType
 {
     private List<TransportMeansBaseType> transportMeansBaseList = new ArrayList<TransportMeansBaseType>();
 
     /** 
-     * Get the list of 'TransportMeansBase' element items. Р‘Р°Р·РѕРІС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С….
+     * Get the list of 'TransportMeansBase' element items. Базовый тип для описания транспортного средства в таможенных документах.
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class CarInformationType extends CUTransportMeansType
     }
 
     /** 
-     * Set the list of 'TransportMeansBase' element items. Р‘Р°Р·РѕРІС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С….
+     * Set the list of 'TransportMeansBase' element items. Базовый тип для описания транспортного средства в таможенных документах.
      * 
      * @param list
      */

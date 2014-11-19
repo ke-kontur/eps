@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё
+ * Реквизиты организации
  */
 public class PayCustomerType extends CustomerType
 {
     private String addInformation;
 
     /** 
-     * Get the 'AddInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'AddInformation' element value. Дополнительная информация
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class PayCustomerType extends CustomerType
     }
 
     /** 
-     * Set the 'AddInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'AddInformation' element value. Дополнительная информация
      * 
      * @param addInformation
      */

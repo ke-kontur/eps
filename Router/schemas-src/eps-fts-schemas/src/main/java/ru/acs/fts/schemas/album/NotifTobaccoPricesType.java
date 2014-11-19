@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ СЂРѕР·РЅРёС‡РЅС‹С… С†РµРЅР°С… РЅР° С‚Р°Р±Р°С‡РЅС‹Рµ РёР·РґРµР»РёСЏ, РІРІРѕР·РёРјС‹Рµ РІ Р Р¤
+ * Уведомление о розничных ценах на табачные изделия, ввозимые в РФ
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -39,7 +39,7 @@ public class NotifTobaccoPricesType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NewPriceStartDate' element value. Р”Р°С‚Р° СѓСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ Р·Р°СЏРІР»РµРЅРЅС‹С… СЂРѕР·РЅРёС‡РЅС‹С… С†РµРЅ РЅР° С‚Р°Р±Р°С‡РЅС‹Рµ РёР·РґРµР»РёСЏ
+     * Get the 'NewPriceStartDate' element value. Дата установления заявленных розничных цен на табачные изделия
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class NotifTobaccoPricesType extends BaseDocType
     }
 
     /** 
-     * Set the 'NewPriceStartDate' element value. Р”Р°С‚Р° СѓСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ Р·Р°СЏРІР»РµРЅРЅС‹С… СЂРѕР·РЅРёС‡РЅС‹С… С†РµРЅ РЅР° С‚Р°Р±Р°С‡РЅС‹Рµ РёР·РґРµР»РёСЏ
+     * Set the 'NewPriceStartDate' element value. Дата установления заявленных розничных цен на табачные изделия
      * 
      * @param newPriceStartDate
      */
@@ -57,7 +57,7 @@ public class NotifTobaccoPricesType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class NotifTobaccoPricesType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @param customs
      */
@@ -75,7 +75,7 @@ public class NotifTobaccoPricesType extends BaseDocType
     }
 
     /** 
-     * Get the 'TaxPayer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєРµ
+     * Get the 'TaxPayer' element value. Сведения о налогоплательщике
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class NotifTobaccoPricesType extends BaseDocType
     }
 
     /** 
-     * Set the 'TaxPayer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєРµ
+     * Set the 'TaxPayer' element value. Сведения о налогоплательщике
      * 
      * @param taxPayer
      */
@@ -93,7 +93,7 @@ public class NotifTobaccoPricesType extends BaseDocType
     }
 
     /** 
-     * Get the 'ChiefSignature' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РѕСЂРіР°РЅРёР·Р°С†РёРё (РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊ)
+     * Get the 'ChiefSignature' element value. Руководитель организации (индивидуальный предприниматель)
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class NotifTobaccoPricesType extends BaseDocType
     }
 
     /** 
-     * Set the 'ChiefSignature' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РѕСЂРіР°РЅРёР·Р°С†РёРё (РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊ)
+     * Set the 'ChiefSignature' element value. Руководитель организации (индивидуальный предприниматель)
      * 
      * @param chiefSignature
      */
@@ -111,7 +111,7 @@ public class NotifTobaccoPricesType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the list of 'Goods' element items. Сведения о товарах
      * 
      * @return list
      */
@@ -120,7 +120,7 @@ public class NotifTobaccoPricesType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the list of 'Goods' element items. Сведения о товарах
      * 
      * @param list
      */
@@ -129,7 +129,7 @@ public class NotifTobaccoPricesType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class NotifTobaccoPricesType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

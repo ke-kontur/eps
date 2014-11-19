@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AWBNumberType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsType
 {
@@ -18,7 +18,7 @@ public class GoodsType
     private AWBNumberType wayBillNumber;
 
     /** 
-     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'GoodsDescription' element value. Описание товара
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'GoodsDescription' element value. Описание товара
      * 
      * @param goodsDescription
      */
@@ -36,7 +36,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ С‚РѕРІР°СЂРЅРѕР№ РЅРѕРјРµРЅРєР»Р°С‚СѓСЂРµ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по товарной номенклатуре
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ С‚РѕРІР°СЂРЅРѕР№ РЅРѕРјРµРЅРєР»Р°С‚СѓСЂРµ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по товарной номенклатуре
      * 
      * @param goodsTNVEDCode
      */
@@ -54,7 +54,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'PlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚, РїСЂРёРЅСЏС‚С‹С… Рє РїРµСЂРµРІРѕР·РєРµ / РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° РїРѕ РЅР°РєР»Р°РґРЅРѕР№ РїСЂРё РїРѕР»РЅРѕР№ Р·Р°РіСЂСѓР·РєРµ С‚РѕРІР°СЂР°
+     * Get the 'PlacesQuantity' element value. Количество мест, принятых к перевозке / Количество мест товара по накладной при полной загрузке товара
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'PlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚, РїСЂРёРЅСЏС‚С‹С… Рє РїРµСЂРµРІРѕР·РєРµ / РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° РїРѕ РЅР°РєР»Р°РґРЅРѕР№ РїСЂРё РїРѕР»РЅРѕР№ Р·Р°РіСЂСѓР·РєРµ С‚РѕРІР°СЂР°
+     * Set the 'PlacesQuantity' element value. Количество мест, принятых к перевозке / Количество мест товара по накладной при полной загрузке товара
      * 
      * @param placesQuantity
      */
@@ -72,7 +72,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @param grossWeightQuantity
      */
@@ -90,7 +90,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'ContainerNumber' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the list of 'ContainerNumber' element items. Номер контейнера
      * 
      * @return list
      */
@@ -99,7 +99,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'ContainerNumber' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the list of 'ContainerNumber' element items. Номер контейнера
      * 
      * @param list
      */
@@ -108,7 +108,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'WayBillNumber' element value. РќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'WayBillNumber' element value. Номер накладной
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'WayBillNumber' element value. РќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'WayBillNumber' element value. Номер накладной
      * 
      * @param wayBillNumber
      */

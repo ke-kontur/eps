@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.paymenttransactionresult;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕС€РёР±РєРµ
+ * Сведения об ошибке
  */
 public class ErrorInfoType
 {
@@ -10,7 +10,7 @@ public class ErrorInfoType
     private String errorDescription;
 
     /** 
-     * Get the 'ErrorCode' element value. РљРѕРґ РѕС€РёР±РєРё
+     * Get the 'ErrorCode' element value. Код ошибки
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ErrorInfoType
     }
 
     /** 
-     * Set the 'ErrorCode' element value. РљРѕРґ РѕС€РёР±РєРё
+     * Set the 'ErrorCode' element value. Код ошибки
      * 
      * @param errorCode
      */
@@ -28,7 +28,7 @@ public class ErrorInfoType
     }
 
     /** 
-     * Get the 'ErrorDescription' element value. РћРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё
+     * Get the 'ErrorDescription' element value. Описание ошибки
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ErrorInfoType
     }
 
     /** 
-     * Set the 'ErrorDescription' element value. РћРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё
+     * Set the 'ErrorDescription' element value. Описание ошибки
      * 
      * @param errorDescription
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.inventory;
 import org.joda.time.LocalDate;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ Р·Р°РїСЂРѕСЃР°, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚.
+ * Описание запроса, по которому предоставляется документ.
  */
 public class RequestDescriptionType
 {
@@ -12,7 +12,7 @@ public class RequestDescriptionType
     private LocalDate requestDate;
 
     /** 
-     * Get the 'RequestNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїСЂРѕСЃР° РїРѕ Р”Рў Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'RequestNumber' element value. Порядковый номер запроса по ДТ о предоставлении дополнительных документов
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class RequestDescriptionType
     }
 
     /** 
-     * Set the 'RequestNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїСЂРѕСЃР° РїРѕ Р”Рў Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'RequestNumber' element value. Порядковый номер запроса по ДТ о предоставлении дополнительных документов
      * 
      * @param requestNumber
      */
@@ -30,7 +30,7 @@ public class RequestDescriptionType
     }
 
     /** 
-     * Get the 'RequestDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'RequestDate' element value. Дата формирования запроса
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class RequestDescriptionType
     }
 
     /** 
-     * Set the 'RequestDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'RequestDate' element value. Дата формирования запроса
      * 
      * @param requestDate
      */

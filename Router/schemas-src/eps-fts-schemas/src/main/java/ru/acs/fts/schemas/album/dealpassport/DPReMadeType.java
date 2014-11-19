@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.dealpassport;
 import org.joda.time.LocalDate;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРё РџРЎ
+ * Информация о переоформлении ПС
  */
 public class DPReMadeType
 {
@@ -12,7 +12,7 @@ public class DPReMadeType
     private LocalDate date;
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёСЏ РџРЎ
+     * Get the 'DocumentNumber' element value. Номер переоформления ПС
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DPReMadeType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёСЏ РџРЎ
+     * Set the 'DocumentNumber' element value. Номер переоформления ПС
      * 
      * @param documentNumber
      */
@@ -30,7 +30,7 @@ public class DPReMadeType
     }
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёСЏ РџРЎ
+     * Get the 'Date' element value. Дата переоформления ПС
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DPReMadeType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёСЏ РџРЎ
+     * Set the 'Date' element value. Дата переоформления ПС
      * 
      * @param date
      */

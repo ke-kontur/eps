@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.paymentdocument;
 
 /** 
- * Р”РЈ - РЅРµР·Р°РІРµСЂС€РµРЅРЅС‹Рµ СЂР°СЃС‡РµС‚С‹
+ * ДУ - незавершенные расчеты
  */
 public class OutstandingBalancesType
 {
@@ -12,7 +12,7 @@ public class OutstandingBalancesType
     private String overpayment;
 
     /** 
-     * Get the 'BCC' element value. РљРѕРґ Р±СЋРґР¶РµС‚РЅРѕР№ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё (РљР‘Рљ) СЃРѕРіР»Р°СЃРЅРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ  РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
+     * Get the 'BCC' element value. Код бюджетной классификации (КБК) согласно Классификатору  видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class OutstandingBalancesType
     }
 
     /** 
-     * Set the 'BCC' element value. РљРѕРґ Р±СЋРґР¶РµС‚РЅРѕР№ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё (РљР‘Рљ) СЃРѕРіР»Р°СЃРЅРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ  РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
+     * Set the 'BCC' element value. Код бюджетной классификации (КБК) согласно Классификатору  видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
      * 
      * @param BCC
      */
@@ -30,7 +30,7 @@ public class OutstandingBalancesType
     }
 
     /** 
-     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј  РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
+     * Get the 'PaymentModeCode' element value. Код вида платежа в соответствии с Классификатором  видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class OutstandingBalancesType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј  РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
+     * Set the 'PaymentModeCode' element value. Код вида платежа в соответствии с Классификатором  видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
      * 
      * @param paymentModeCode
      */
@@ -48,7 +48,7 @@ public class OutstandingBalancesType
     }
 
     /** 
-     * Get the 'DeptAmount' element value. РЎСѓРјРјР° Р·Р°РґРѕР»Р¶РµРЅРЅРѕСЃС‚Рё
+     * Get the 'DeptAmount' element value. Сумма задолженности
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class OutstandingBalancesType
     }
 
     /** 
-     * Set the 'DeptAmount' element value. РЎСѓРјРјР° Р·Р°РґРѕР»Р¶РµРЅРЅРѕСЃС‚Рё
+     * Set the 'DeptAmount' element value. Сумма задолженности
      * 
      * @param deptAmount
      */
@@ -66,7 +66,7 @@ public class OutstandingBalancesType
     }
 
     /** 
-     * Get the 'Overpayment' element value. РЎСѓРјРјР° РїРµСЂРµРїР»Р°С‚С‹ 
+     * Get the 'Overpayment' element value. Сумма переплаты 
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class OutstandingBalancesType
     }
 
     /** 
-     * Set the 'Overpayment' element value. РЎСѓРјРјР° РїРµСЂРµРїР»Р°С‚С‹ 
+     * Set the 'Overpayment' element value. Сумма переплаты 
      * 
      * @param overpayment
      */

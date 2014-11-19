@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.PrecedingDocumentType;
 
 /** 
- * ESAD. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ РґРѕРєСѓРјРµРЅС‚С‹.
+ * ESAD. Предшествующие документы.
  */
 public class ESADPrecedingDocumentType extends PrecedingDocumentType
 {
     private String addNumberPart;
 
     /** 
-     * Get the 'AddNumberPart' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ - РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ СЃРѕСЃС‚Р°РІР»СЏСЋС‰Р°СЏ РЅРѕРјРµСЂР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё СѓРєР°Р·Р°РЅРёРё РЅРѕРјРµСЂР° РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё ("РћР‘")) 
+     * Get the 'AddNumberPart' element value. Предшествующий документ - дополнительная составляющая номера (заполняется при указании номера обязательства о подаче таможенной декларации ("ОБ")) 
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ESADPrecedingDocumentType extends PrecedingDocumentType
     }
 
     /** 
-     * Set the 'AddNumberPart' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ - РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ СЃРѕСЃС‚Р°РІР»СЏСЋС‰Р°СЏ РЅРѕРјРµСЂР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё СѓРєР°Р·Р°РЅРёРё РЅРѕРјРµСЂР° РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё ("РћР‘")) 
+     * Set the 'AddNumberPart' element value. Предшествующий документ - дополнительная составляющая номера (заполняется при указании номера обязательства о подаче таможенной декларации ("ОБ")) 
      * 
      * @param addNumberPart
      */

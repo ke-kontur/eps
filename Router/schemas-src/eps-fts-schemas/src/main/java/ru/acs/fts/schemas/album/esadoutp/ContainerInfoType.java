@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅРѕРјРµСЂРµ РєРѕРЅС‚РµР№РЅРµСЂР°
+ * Информация о номере контейнера
  */
 public class ContainerInfoType
 {
@@ -14,7 +14,7 @@ public class ContainerInfoType
     private List<String> sealList = new ArrayList<String>();
 
     /** 
-     * Get the 'ContainerNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'ContainerNumber' element value. Номер контейнера
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Set the 'ContainerNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'ContainerNumber' element value. Номер контейнера
      * 
      * @param containerNumber
      */
@@ -32,7 +32,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Get the 'ContainerKind' element value. РўРёРї РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'ContainerKind' element value. Тип контейнера
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Set the 'ContainerKind' element value. РўРёРї РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'ContainerKind' element value. Тип контейнера
      * 
      * @param containerKind
      */
@@ -50,7 +50,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Get the list of 'Seals' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРјРµСЂРµ РїР»РѕРјР±С‹
+     * Get the list of 'Seals' element items. Сведения о номере пломбы
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Set the list of 'Seals' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРјРµСЂРµ РїР»РѕРјР±С‹
+     * Set the list of 'Seals' element items. Сведения о номере пломбы
      * 
      * @param list
      */

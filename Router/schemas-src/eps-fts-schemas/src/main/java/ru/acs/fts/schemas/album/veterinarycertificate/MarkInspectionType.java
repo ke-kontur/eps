@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РћС‚РјРµС‚РєРё Рѕ РІРµС‚РµСЂРёРЅР°СЂРЅРѕ-СЃР°РЅРёС‚Р°СЂРЅРѕРј РѕСЃРјРѕС‚СЂРµ РїСЂРё РїРѕРіСЂСѓР·РєРµ, РІ РїСѓС‚Рё СЃР»РµРґРѕРІР°РЅРёСЏ Рё РЅР° РјРµСЃС‚Рµ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+ * Отметки о ветеринарно-санитарном осмотре при погрузке, в пути следования и на месте назначения
  */
 public class MarkInspectionType
 {
@@ -17,7 +17,7 @@ public class MarkInspectionType
     private PersonSignatureType personSignatureInspection;
 
     /** 
-     * Get the 'DateInspection' element value. Р”Р°С‚Р° РѕСЃРјРѕС‚СЂР°
+     * Get the 'DateInspection' element value. Дата осмотра
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class MarkInspectionType
     }
 
     /** 
-     * Set the 'DateInspection' element value. Р”Р°С‚Р° РѕСЃРјРѕС‚СЂР°
+     * Set the 'DateInspection' element value. Дата осмотра
      * 
      * @param dateInspection
      */
@@ -35,7 +35,7 @@ public class MarkInspectionType
     }
 
     /** 
-     * Get the 'NamePlace' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р°, РіРґРµ РїСЂРѕРІРѕРґРёР»СЃСЏ РІРµС‚РµСЂРёРЅР°СЂРЅС‹Р№ РѕСЃРјРѕС‚СЂ (РёР·СЉСЏС‚РёРµ)
+     * Get the 'NamePlace' element value. Наименование пункта, где проводился ветеринарный осмотр (изъятие)
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class MarkInspectionType
     }
 
     /** 
-     * Set the 'NamePlace' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р°, РіРґРµ РїСЂРѕРІРѕРґРёР»СЃСЏ РІРµС‚РµСЂРёРЅР°СЂРЅС‹Р№ РѕСЃРјРѕС‚СЂ (РёР·СЉСЏС‚РёРµ)
+     * Set the 'NamePlace' element value. Наименование пункта, где проводился ветеринарный осмотр (изъятие)
      * 
      * @param namePlace
      */
@@ -53,7 +53,7 @@ public class MarkInspectionType
     }
 
     /** 
-     * Get the 'ViewedProducts' element value. РћСЃРјРѕС‚СЂРµРЅРѕ РїСЂРѕРґСѓРєС‚РѕРІ,СЃС‹СЂСЊСЏ
+     * Get the 'ViewedProducts' element value. Осмотрено продуктов,сырья
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class MarkInspectionType
     }
 
     /** 
-     * Set the 'ViewedProducts' element value. РћСЃРјРѕС‚СЂРµРЅРѕ РїСЂРѕРґСѓРєС‚РѕРІ,СЃС‹СЂСЊСЏ
+     * Set the 'ViewedProducts' element value. Осмотрено продуктов,сырья
      * 
      * @param viewedProducts
      */
@@ -71,7 +71,7 @@ public class MarkInspectionType
     }
 
     /** 
-     * Get the 'QuantitySeized' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РёР·СЉСЏС‚С‹С… РїСЂРѕРґСѓРєС‚РѕРІ, СЃС‹СЂСЊСЏ, РІ С‚.С‡. РёР·-Р·Р° РЅРµРґРѕР±СЂРѕРєР°С‡РµСЃС‚РІРµРЅРЅРѕСЃС‚Рё, РїРѕСЂС‡Рё Рё РґСЂ.           
+     * Get the 'QuantitySeized' element value. Количество изъятых продуктов, сырья, в т.ч. из-за недоброкачественности, порчи и др.           
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class MarkInspectionType
     }
 
     /** 
-     * Set the 'QuantitySeized' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РёР·СЉСЏС‚С‹С… РїСЂРѕРґСѓРєС‚РѕРІ, СЃС‹СЂСЊСЏ, РІ С‚.С‡. РёР·-Р·Р° РЅРµРґРѕР±СЂРѕРєР°С‡РµСЃС‚РІРµРЅРЅРѕСЃС‚Рё, РїРѕСЂС‡Рё Рё РґСЂ.           
+     * Set the 'QuantitySeized' element value. Количество изъятых продуктов, сырья, в т.ч. из-за недоброкачественности, порчи и др.           
      * 
      * @param quantitySeized
      */
@@ -89,7 +89,7 @@ public class MarkInspectionType
     }
 
     /** 
-     * Get the 'QuantityPermitted' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРґСѓРєС‚РѕРІ, СЃС‹СЂСЊСЏ, СЂР°Р·СЂРµС€РµРЅРЅС‹С… Рє РґР°Р»СЊРЅРµР№С€РµРјСѓ СЃР»РµРґРѕРІР°РЅРёСЋ 
+     * Get the 'QuantityPermitted' element value. Количество продуктов, сырья, разрешенных к дальнейшему следованию 
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class MarkInspectionType
     }
 
     /** 
-     * Set the 'QuantityPermitted' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРґСѓРєС‚РѕРІ, СЃС‹СЂСЊСЏ, СЂР°Р·СЂРµС€РµРЅРЅС‹С… Рє РґР°Р»СЊРЅРµР№С€РµРјСѓ СЃР»РµРґРѕРІР°РЅРёСЋ 
+     * Set the 'QuantityPermitted' element value. Количество продуктов, сырья, разрешенных к дальнейшему следованию 
      * 
      * @param quantityPermitted
      */
@@ -107,7 +107,7 @@ public class MarkInspectionType
     }
 
     /** 
-     * Get the 'PersonSignatureInspection' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, РїСЂРѕРёР·РІРѕРґРёРІС€РµРіРѕ РѕСЃРјРѕС‚СЂ
+     * Get the 'PersonSignatureInspection' element value. Подпись должностного лица, производившего осмотр
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class MarkInspectionType
     }
 
     /** 
-     * Set the 'PersonSignatureInspection' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, РїСЂРѕРёР·РІРѕРґРёРІС€РµРіРѕ РѕСЃРјРѕС‚СЂ
+     * Set the 'PersonSignatureInspection' element value. Подпись должностного лица, производившего осмотр
      * 
      * @param personSignatureInspection
      */

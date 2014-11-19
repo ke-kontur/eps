@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РїРѕ РєРІРѕС‚РёСЂСѓРµРјРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
+ * Сведения по квотируемому документу
  */
 public class DetailQuotaDataRDType extends BaseDocType
 {
@@ -37,7 +37,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Уникальный номер по БД РД
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Уникальный номер по БД РД
      * 
      * @param BDRDID
      */
@@ -55,7 +55,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер документа
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер документа
      * 
      * @param documentNumber
      */
@@ -73,7 +73,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IssueDate' element value. Дата выдачи документа
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IssueDate' element value. Дата выдачи документа
      * 
      * @param issueDate
      */
@@ -91,7 +91,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ConNumber' element value. Номер контракта
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ConNumber' element value. Номер контракта
      * 
      * @param conNumber
      */
@@ -109,7 +109,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConDateSignature' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ConDateSignature' element value. Дата подписания контракта
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConDateSignature' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ConDateSignature' element value. Дата подписания контракта
      * 
      * @param conDateSignature
      */
@@ -127,7 +127,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'LicenseKind' element value. Р’РёРґ Р»РёС†РµРЅР·РёРё
+     * Get the 'LicenseKind' element value. Вид лицензии
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'LicenseKind' element value. Р’РёРґ Р»РёС†РµРЅР·РёРё
+     * Set the 'LicenseKind' element value. Вид лицензии
      * 
      * @param licenseKind
      */
@@ -145,7 +145,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentCode' element value. Код вида документа
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentCode' element value. Код вида документа
      * 
      * @param documentCode
      */
@@ -163,7 +163,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'QuotaCategoryCode' element value. РљРѕРґ РєР°С‚РµРіРѕСЂРёРё РєРІРѕС‚С‹
+     * Get the 'QuotaCategoryCode' element value. Код категории квоты
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'QuotaCategoryCode' element value. РљРѕРґ РєР°С‚РµРіРѕСЂРёРё РєРІРѕС‚С‹
+     * Set the 'QuotaCategoryCode' element value. Код категории квоты
      * 
      * @param quotaCategoryCode
      */
@@ -181,7 +181,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'LicenseTerm' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё
+     * Get the 'LicenseTerm' element value. Срок действия лицензии
      * 
      * @return value
      */
@@ -190,7 +190,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'LicenseTerm' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё
+     * Set the 'LicenseTerm' element value. Срок действия лицензии
      * 
      * @param licenseTerm
      */
@@ -199,7 +199,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'Movement' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ
+     * Get the 'Movement' element value. Направление перемещения
      * 
      * @return value
      */
@@ -208,7 +208,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'Movement' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ
+     * Set the 'Movement' element value. Направление перемещения
      * 
      * @param movement
      */
@@ -217,7 +217,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'LicenseStatus' element value. РЎС‚Р°С‚СѓСЃ Р»РёС†РµРЅР·РёРё
+     * Get the 'LicenseStatus' element value. Статус лицензии
      * 
      * @return value
      */
@@ -226,7 +226,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'LicenseStatus' element value. РЎС‚Р°С‚СѓСЃ Р»РёС†РµРЅР·РёРё
+     * Set the 'LicenseStatus' element value. Статус лицензии
      * 
      * @param licenseStatus
      */
@@ -235,7 +235,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'LicenseStatusDate' element value. Р”Р°С‚Р° СѓСЃС‚Р°РЅРѕРІРєРё СЃС‚Р°С‚СѓСЃР° Р»РёС†РµРЅР·РёРё
+     * Get the 'LicenseStatusDate' element value. Дата установки статуса лицензии
      * 
      * @return value
      */
@@ -244,7 +244,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'LicenseStatusDate' element value. Р”Р°С‚Р° СѓСЃС‚Р°РЅРѕРІРєРё СЃС‚Р°С‚СѓСЃР° Р»РёС†РµРЅР·РёРё
+     * Set the 'LicenseStatusDate' element value. Дата установки статуса лицензии
      * 
      * @param licenseStatusDate
      */
@@ -253,7 +253,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DatePlacement' element value. Р”Р°С‚Р° РїРѕРјРµС‰РµРЅРёСЏ РІ Р‘Р” Р Р”
+     * Get the 'DatePlacement' element value. Дата помещения в БД РД
      * 
      * @return value
      */
@@ -262,7 +262,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DatePlacement' element value. Р”Р°С‚Р° РїРѕРјРµС‰РµРЅРёСЏ РІ Р‘Р” Р Р”
+     * Set the 'DatePlacement' element value. Дата помещения в БД РД
      * 
      * @param datePlacement
      */
@@ -271,7 +271,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'LicenseStatusCode' element value. РљРѕРґ СЃС‚Р°С‚СѓСЃ Р»РёС†РµРЅР·РёРё
+     * Get the 'LicenseStatusCode' element value. Код статус лицензии
      * 
      * @return value
      */
@@ -280,7 +280,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'LicenseStatusCode' element value. РљРѕРґ СЃС‚Р°С‚СѓСЃ Р»РёС†РµРЅР·РёРё
+     * Set the 'LicenseStatusCode' element value. Код статус лицензии
      * 
      * @param licenseStatusCode
      */
@@ -289,7 +289,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOriginalLicense' element value. РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° (РѕСЂРёРіРёРЅР°Р»Р° Р»РёС†РµРЅР·РёРё)
+     * Get the 'CustomsOriginalLicense' element value. Таможенного органа (оригинала лицензии)
      * 
      * @return value
      */
@@ -298,7 +298,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOriginalLicense' element value. РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° (РѕСЂРёРіРёРЅР°Р»Р° Р»РёС†РµРЅР·РёРё)
+     * Set the 'CustomsOriginalLicense' element value. Таможенного органа (оригинала лицензии)
      * 
      * @param customsOriginalLicense
      */
@@ -307,7 +307,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CustomsCopyLicense' element items. РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° (РєРѕРїРёРё Р»РёС†РµРЅР·РёРё)
+     * Get the list of 'CustomsCopyLicense' element items. Таможенного органа (копии лицензии)
      * 
      * @return list
      */
@@ -316,7 +316,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CustomsCopyLicense' element items. РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° (РєРѕРїРёРё Р»РёС†РµРЅР·РёРё)
+     * Set the list of 'CustomsCopyLicense' element items. Таможенного органа (копии лицензии)
      * 
      * @param list
      */
@@ -325,7 +325,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PaperCarrier' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р±СѓРјР°Р¶РЅС‹С… РЅРѕСЃРёС‚РµР»СЏС…
+     * Get the list of 'PaperCarrier' element items. Сведения о бумажных носителях
      * 
      * @return list
      */
@@ -334,7 +334,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PaperCarrier' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р±СѓРјР°Р¶РЅС‹С… РЅРѕСЃРёС‚РµР»СЏС…
+     * Set the list of 'PaperCarrier' element items. Сведения о бумажных носителях
      * 
      * @param list
      */
@@ -343,7 +343,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'OwnersLicense' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ Р»РёС†РµРЅР·РёРё
+     * Get the 'OwnersLicense' element value. Сведения о владельце лицензии
      * 
      * @return value
      */
@@ -352,7 +352,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'OwnersLicense' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ Р»РёС†РµРЅР·РёРё
+     * Set the 'OwnersLicense' element value. Сведения о владельце лицензии
      * 
      * @param ownersLicense
      */
@@ -361,7 +361,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrganizationInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ (РїРѕРєСѓРїР°С‚РµР»Рµ)
+     * Get the 'OrganizationInfo' element value. Сведения о продавце (покупателе)
      * 
      * @return value
      */
@@ -370,7 +370,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrganizationInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ (РїРѕРєСѓРїР°С‚РµР»Рµ)
+     * Set the 'OrganizationInfo' element value. Сведения о продавце (покупателе)
      * 
      * @param organizationInfo
      */
@@ -379,7 +379,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Get the list of 'GoodsInfo' element items. Сведения о товаре
      * 
      * @return list
      */
@@ -388,7 +388,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Set the list of 'GoodsInfo' element items. Сведения о товаре
      * 
      * @param list
      */
@@ -397,7 +397,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'AgencyIssuedDoc' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРµРґРѕРјСЃС‚РІРµ, РІС‹РґР°РІС€РµРј РґРѕРєСѓРјРµРЅС‚
+     * Get the 'AgencyIssuedDoc' element value. Сведения о ведомстве, выдавшем документ
      * 
      * @return value
      */
@@ -406,7 +406,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'AgencyIssuedDoc' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІРµРґРѕРјСЃС‚РІРµ, РІС‹РґР°РІС€РµРј РґРѕРєСѓРјРµРЅС‚
+     * Set the 'AgencyIssuedDoc' element value. Сведения о ведомстве, выдавшем документ
      * 
      * @param agencyIssuedDoc
      */
@@ -415,7 +415,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -424,7 +424,7 @@ public class DetailQuotaDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

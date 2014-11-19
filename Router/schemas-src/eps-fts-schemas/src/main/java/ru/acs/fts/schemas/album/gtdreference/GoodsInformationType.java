@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
+ * Информация о товаре
  */
 public class GoodsInformationType
 {
@@ -22,7 +22,7 @@ public class GoodsInformationType
     private SupplementaryQuantityType individualPackingInfo;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Описание товара
      * 
      * @return list
      */
@@ -31,7 +31,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Описание товара
      * 
      * @param list
      */
@@ -40,7 +40,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'MarkIndicator' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ Р°РєС†РёР·РЅС‹С… РјР°СЂРѕРє
+     * Get the 'MarkIndicator' element value. Признак наличия акцизных марок
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'MarkIndicator' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ Р°РєС†РёР·РЅС‹С… РјР°СЂРѕРє
+     * Set the 'MarkIndicator' element value. Признак наличия акцизных марок
      * 
      * @param markIndicator
      */
@@ -58,7 +58,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'SellPermitionDoc' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ РЅР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° СЂРµР°Р»РёР·Р°С†РёСЋ
+     * Get the 'SellPermitionDoc' element value. Документ, подтверждающий наличие разрешения на реализацию
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'SellPermitionDoc' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ РЅР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° СЂРµР°Р»РёР·Р°С†РёСЋ
+     * Set the 'SellPermitionDoc' element value. Документ, подтверждающий наличие разрешения на реализацию
      * 
      * @param sellPermitionDoc
      */
@@ -76,7 +76,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'Manufacturer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рµ
+     * Get the 'Manufacturer' element value. Сведения о производителе
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рµ
+     * Set the 'Manufacturer' element value. Сведения о производителе
      * 
      * @param manufacturer
      */
@@ -94,7 +94,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the list of 'NormDocs' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РµРј Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РїСЂРѕРґСѓРєС†РёРё С‚СЂРµР±РѕРІР°РЅРёСЏРј С‚РµС…РЅРёС‡РµСЃРєРёС… СЂРµРіР»Р°РјРµРЅС‚РѕРІ
+     * Get the list of 'NormDocs' element items. Сведения о документе, свидетельствующем о подтверждении соответствия продукции требованиям технических регламентов
      * 
      * @return list
      */
@@ -103,7 +103,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the list of 'NormDocs' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РµРј Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РїСЂРѕРґСѓРєС†РёРё С‚СЂРµР±РѕРІР°РЅРёСЏРј С‚РµС…РЅРёС‡РµСЃРєРёС… СЂРµРіР»Р°РјРµРЅС‚РѕРІ
+     * Set the list of 'NormDocs' element items. Сведения о документе, свидетельствующем о подтверждении соответствия продукции требованиям технических регламентов
      * 
      * @param list
      */
@@ -112,7 +112,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРіРѕРІРѕСЂР°
+     * Get the 'Contract' element value. Реквизиты договора
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРіРѕРІРѕСЂР°
+     * Set the 'Contract' element value. Реквизиты договора
      * 
      * @param contract
      */
@@ -130,7 +130,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'GoodsPackingInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ С‚РѕРІР°СЂР° РІ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ СѓРїР°РєРѕРІРєРµ
+     * Get the 'GoodsPackingInfo' element value. Сведения о количестве товара в индивидуальной упаковке
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'GoodsPackingInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ С‚РѕРІР°СЂР° РІ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ СѓРїР°РєРѕРІРєРµ
+     * Set the 'GoodsPackingInfo' element value. Сведения о количестве товара в индивидуальной упаковке
      * 
      * @param goodsPackingInfo
      */
@@ -148,7 +148,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Get the 'IndividualPackingInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ СѓРїР°РєРѕРІРєРµ
+     * Get the 'IndividualPackingInfo' element value. Сведения об индивидуальной упаковке
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class GoodsInformationType
     }
 
     /** 
-     * Set the 'IndividualPackingInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ СѓРїР°РєРѕРІРєРµ
+     * Set the 'IndividualPackingInfo' element value. Сведения об индивидуальной упаковке
      * 
      * @param individualPackingInfo
      */

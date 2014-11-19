@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.passengermanifest;
 
 /** 
- * РЎРїРёСЃРѕРє РїР°СЃСЃР°Р¶РёСЂРѕРІ
+ * Список пассажиров
  */
 public class PassengersListType
 {
     private String passNumber;
 
     /** 
-     * Get the 'PassNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ РґР°РЅРЅРѕРіРѕ РєР»Р°СЃСЃР°
+     * Get the 'PassNumber' element value. Количество пассажиров данного класса
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class PassengersListType
     }
 
     /** 
-     * Set the 'PassNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ РґР°РЅРЅРѕРіРѕ РєР»Р°СЃСЃР°
+     * Set the 'PassNumber' element value. Количество пассажиров данного класса
      * 
      * @param passNumber
      */

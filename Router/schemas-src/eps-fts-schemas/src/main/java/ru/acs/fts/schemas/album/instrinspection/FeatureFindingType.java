@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.instrinspection;
 
 /** 
- * РР·РјРµСЂРµРЅРёРµ Рё РѕРїСЂРµРґРµР»РµРЅРёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє С‚РѕРІР°СЂРѕРІ (СЃ С‡Р°СЃС‚РёС‡РЅРѕР№ СЂР°Р·Р±РѕСЂРєРѕР№/СЃ РїРѕР»РЅРѕР№ СЂР°Р·Р±РѕСЂРєРѕР№)
+ * Измерение и определение характеристик товаров (с частичной разборкой/с полной разборкой)
  */
 public class FeatureFindingType
 {
@@ -10,7 +10,7 @@ public class FeatureFindingType
     private Choice choice;
 
     /** 
-     * Get the 'FeatureFindingGoods' element value. РџСЂРёР·РЅР°Рє РёР·РјРµСЂРµРЅРёСЏ Рё РѕРїСЂРµРґРµР»РµРЅРёСЏ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє С‚РѕРІР°СЂРѕРІ СЃ РїРѕР»РЅРѕР№ СЂР°Р·Р±РѕСЂРєРѕР№
+     * Get the 'FeatureFindingGoods' element value. Признак измерения и определения характеристик товаров с полной разборкой
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class FeatureFindingType
     }
 
     /** 
-     * Set the 'FeatureFindingGoods' element value. РџСЂРёР·РЅР°Рє РёР·РјРµСЂРµРЅРёСЏ Рё РѕРїСЂРµРґРµР»РµРЅРёСЏ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє С‚РѕРІР°СЂРѕРІ СЃ РїРѕР»РЅРѕР№ СЂР°Р·Р±РѕСЂРєРѕР№
+     * Set the 'FeatureFindingGoods' element value. Признак измерения и определения характеристик товаров с полной разборкой
      * 
      * @param featureFindingGoods
      */
@@ -78,7 +78,7 @@ public class FeatureFindingType
         }
 
         /** 
-         * Get the 'WTakeSampleFlag' element value. РР·РјРµСЂРµРЅРёРµ Рё РѕРїСЂРµРґРµР»РµРЅРёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє С‚РѕРІР°СЂРѕРІ СЃРѕ РІР·СЏС‚РёРµРј РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
+         * Get the 'WTakeSampleFlag' element value. Измерение и определение характеристик товаров со взятием проб и образцов
          * 
          * @return value
          */
@@ -87,7 +87,7 @@ public class FeatureFindingType
         }
 
         /** 
-         * Set the 'WTakeSampleFlag' element value. РР·РјРµСЂРµРЅРёРµ Рё РѕРїСЂРµРґРµР»РµРЅРёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє С‚РѕРІР°СЂРѕРІ СЃРѕ РІР·СЏС‚РёРµРј РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
+         * Set the 'WTakeSampleFlag' element value. Измерение и определение характеристик товаров со взятием проб и образцов
          * 
          * @param WTakeSampleFlag
          */
@@ -106,7 +106,7 @@ public class FeatureFindingType
         }
 
         /** 
-         * Get the 'NoTakeSampleFlag' element value. РР·РјРµСЂРµРЅРёРµ Рё РѕРїСЂРµРґРµР»РµРЅРёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє Р±РµР· РІР·СЏС‚РёСЏ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
+         * Get the 'NoTakeSampleFlag' element value. Измерение и определение характеристик без взятия проб и образцов
          * 
          * @return value
          */
@@ -115,7 +115,7 @@ public class FeatureFindingType
         }
 
         /** 
-         * Set the 'NoTakeSampleFlag' element value. РР·РјРµСЂРµРЅРёРµ Рё РѕРїСЂРµРґРµР»РµРЅРёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє Р±РµР· РІР·СЏС‚РёСЏ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ
+         * Set the 'NoTakeSampleFlag' element value. Измерение и определение характеристик без взятия проб и образцов
          * 
          * @param noTakeSampleFlag
          */

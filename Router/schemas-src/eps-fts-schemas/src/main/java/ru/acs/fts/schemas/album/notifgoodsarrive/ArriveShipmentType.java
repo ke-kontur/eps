@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhPresentDocTy
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhTransportType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР±С‹РІС€РµР№ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+ * Сведения о прибывшей товарной партии
  */
 public class ArriveShipmentType
 {
@@ -20,7 +20,7 @@ public class ArriveShipmentType
     private List<ArriveCustomsDocType> arriveCustomsDocList = new ArrayList<ArriveCustomsDocType>();
 
     /** 
-     * Get the list of 'ArriveTransportMeans' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the list of 'ArriveTransportMeans' element items. Описание транспортных средств
      * 
      * @return list
      */
@@ -29,7 +29,7 @@ public class ArriveShipmentType
     }
 
     /** 
-     * Set the list of 'ArriveTransportMeans' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the list of 'ArriveTransportMeans' element items. Описание транспортных средств
      * 
      * @param list
      */
@@ -38,7 +38,7 @@ public class ArriveShipmentType
     }
 
     /** 
-     * Get the list of 'ArriveGoods' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'ArriveGoods' element items. Описание товаров
      * 
      * @return list
      */
@@ -47,7 +47,7 @@ public class ArriveShipmentType
     }
 
     /** 
-     * Set the list of 'ArriveGoods' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'ArriveGoods' element items. Описание товаров
      * 
      * @param list
      */
@@ -56,7 +56,7 @@ public class ArriveShipmentType
     }
 
     /** 
-     * Get the list of 'ContainerInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Get the list of 'ContainerInformation' element items. Информация о контейнере
      * 
      * @return list
      */
@@ -65,7 +65,7 @@ public class ArriveShipmentType
     }
 
     /** 
-     * Set the list of 'ContainerInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Set the list of 'ContainerInformation' element items. Информация о контейнере
      * 
      * @param list
      */
@@ -75,7 +75,7 @@ public class ArriveShipmentType
     }
 
     /** 
-     * Get the list of 'ArriveTransportDoc' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the list of 'ArriveTransportDoc' element items. Транспортные документы
      * 
      * @return list
      */
@@ -84,7 +84,7 @@ public class ArriveShipmentType
     }
 
     /** 
-     * Set the list of 'ArriveTransportDoc' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the list of 'ArriveTransportDoc' element items. Транспортные документы
      * 
      * @param list
      */
@@ -93,7 +93,7 @@ public class ArriveShipmentType
     }
 
     /** 
-     * Get the list of 'ArriveCustomsDoc' element items. РўР°РјРѕР¶РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the list of 'ArriveCustomsDoc' element items. Таможенные документы
      * 
      * @return list
      */
@@ -102,7 +102,7 @@ public class ArriveShipmentType
     }
 
     /** 
-     * Set the list of 'ArriveCustomsDoc' element items. РўР°РјРѕР¶РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the list of 'ArriveCustomsDoc' element items. Таможенные документы
      * 
      * @param list
      */

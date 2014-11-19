@@ -12,7 +12,7 @@ import ru.acs.fts.schemas.album.guaranteecommonaggregatetypescust.AmountType;
 import ru.acs.fts.schemas.album.guaranteecommonaggregatetypescust.CustomsGuaranteeDocType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёРµ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ/РЎРІРµРґРµРЅРёСЏ РїРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЋ РіР°СЂР°РЅС‚РёРё
+ * Запрос на резервирование денежных средств/Сведения по использованию гарантии
  */
 public class GuaranteeUsageType extends BaseDocType
 {
@@ -30,7 +30,7 @@ public class GuaranteeUsageType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentDateTime' element value. Дата и время формирования электронного документа
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentDateTime' element value. Дата и время формирования электронного документа
      * 
      * @param documentDateTime
      */
@@ -48,7 +48,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - Р·Р°РїСЂРѕСЃ РЅР° СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёРµ; 2 - СѓРІРµРґРѕРјР»РµРЅРёРµ РѕР± РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё; 3 - РїСЂРѕРґР»РµРЅРёРµ СЃСЂРѕРєР°; 4 - Р·Р°РІРµСЂС€РµРЅРёРµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ; 5 - РїСЂРµРєСЂР°С‰РµРЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРЅРѕРіРѕ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР°; 6 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РІРЅРµСЃРµРЅРёРё СЃРІРµРґРµРЅРёР№ Рѕ Р±Р°РЅРєРѕРІСЃРєРёС… РіР°СЂР°РЅС‚РёСЏС…
+     * Get the 'DocumentSign' element value. Признак документа: 1 - запрос на резервирование; 2 - уведомление об использовании; 3 - продление срока; 4 - завершение использования; 5 - прекращение обеспеченного обязательства; 6 - уведомление о внесении сведений о банковских гарантиях
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - Р·Р°РїСЂРѕСЃ РЅР° СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёРµ; 2 - СѓРІРµРґРѕРјР»РµРЅРёРµ РѕР± РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё; 3 - РїСЂРѕРґР»РµРЅРёРµ СЃСЂРѕРєР°; 4 - Р·Р°РІРµСЂС€РµРЅРёРµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ; 5 - РїСЂРµРєСЂР°С‰РµРЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРЅРѕРіРѕ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР°; 6 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РІРЅРµСЃРµРЅРёРё СЃРІРµРґРµРЅРёР№ Рѕ Р±Р°РЅРєРѕРІСЃРєРёС… РіР°СЂР°РЅС‚РёСЏС…
+     * Set the 'DocumentSign' element value. Признак документа: 1 - запрос на резервирование; 2 - уведомление об использовании; 3 - продление срока; 4 - завершение использования; 5 - прекращение обеспеченного обязательства; 6 - уведомление о внесении сведений о банковских гарантиях
      * 
      * @param documentSign
      */
@@ -66,7 +66,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateLimit' element value. РџР»Р°РЅРёСЂСѓРµРјС‹Р№ СЃСЂРѕРє Р·Р°РІРµСЂС€РµРЅРёСЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ.
+     * Get the 'DateLimit' element value. Планируемый срок завершения использования обеспечения.
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateLimit' element value. РџР»Р°РЅРёСЂСѓРµРјС‹Р№ СЃСЂРѕРє Р·Р°РІРµСЂС€РµРЅРёСЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ.
+     * Set the 'DateLimit' element value. Планируемый срок завершения использования обеспечения.
      * 
      * @param dateLimit
      */
@@ -84,7 +84,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'CustomsOffice' element value. Таможенный орган
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'CustomsOffice' element value. Таможенный орган
      * 
      * @param customsOffice
      */
@@ -102,7 +102,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOfficial' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ РўРћ
+     * Get the 'CustomsOfficial' element value. Должностное лицо ТО
      * 
      * @return value
      */
@@ -111,7 +111,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOfficial' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ РўРћ
+     * Set the 'CustomsOfficial' element value. Должностное лицо ТО
      * 
      * @param customsOfficial
      */
@@ -120,7 +120,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsDocument' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹, РІ СЂР°РјРєР°С… РєРѕС‚РѕСЂРѕР№ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёРµ/РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Get the 'CustomsDocument' element value. Идентификатор таможенной процедуры, в рамках которой осуществляется резервирование/использование обеспечения
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsDocument' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹, РІ СЂР°РјРєР°С… РєРѕС‚РѕСЂРѕР№ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёРµ/РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Set the 'CustomsDocument' element value. Идентификатор таможенной процедуры, в рамках которой осуществляется резервирование/использование обеспечения
      * 
      * @param customsDocument
      */
@@ -138,7 +138,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GuaranteeDocument' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Get the list of 'GuaranteeDocument' element items. Информация о документе обеспечения
      * 
      * @return list
      */
@@ -147,7 +147,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GuaranteeDocument' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Set the list of 'GuaranteeDocument' element items. Информация о документе обеспечения
      * 
      * @param list
      */
@@ -156,7 +156,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Get the 'ObligationKind' element value. РљРѕРґ РІРёРґР° РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР°
+     * Get the 'ObligationKind' element value. Код вида обязательства
      * 
      * @return value
      */
@@ -165,7 +165,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Set the 'ObligationKind' element value. РљРѕРґ РІРёРґР° РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР°
+     * Set the 'ObligationKind' element value. Код вида обязательства
      * 
      * @param obligationKind
      */
@@ -174,7 +174,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReservationAmount' element value. Р РµР·РµСЂРІРёСЂСѓРµРјР°СЏ СЃСѓРјРјР° РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the 'ReservationAmount' element value. Резервируемая сумма денежных средств
      * 
      * @return value
      */
@@ -183,7 +183,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReservationAmount' element value. Р РµР·РµСЂРІРёСЂСѓРµРјР°СЏ СЃСѓРјРјР° РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the 'ReservationAmount' element value. Резервируемая сумма денежных средств
      * 
      * @param reservationAmount
      */
@@ -192,7 +192,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Get the 'LiableTrader' element value. РЈС‡Р°СЃС‚РЅРёРє Р’Р­Р”, РЅРµСЃСѓС‰РёР№ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РїРѕ РѕР±РµСЃРїРµС‡РµРЅРёСЋ
+     * Get the 'LiableTrader' element value. Участник ВЭД, несущий обязательства по обеспечению
      * 
      * @return value
      */
@@ -201,7 +201,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Set the 'LiableTrader' element value. РЈС‡Р°СЃС‚РЅРёРє Р’Р­Р”, РЅРµСЃСѓС‰РёР№ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РїРѕ РѕР±РµСЃРїРµС‡РµРЅРёСЋ
+     * Set the 'LiableTrader' element value. Участник ВЭД, несущий обязательства по обеспечению
      * 
      * @param liableTrader
      */
@@ -210,7 +210,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Get the 'Reason' element value. РџСЂРёС‡РёРЅР°, РїРѕ РєРѕС‚РѕСЂРѕР№ Р·Р°РІРµСЂС€РµРЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Get the 'Reason' element value. Причина, по которой завершено использование обеспечения
      * 
      * @return value
      */
@@ -219,7 +219,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Set the 'Reason' element value. РџСЂРёС‡РёРЅР°, РїРѕ РєРѕС‚РѕСЂРѕР№ Р·Р°РІРµСЂС€РµРЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Set the 'Reason' element value. Причина, по которой завершено использование обеспечения
      * 
      * @param reason
      */
@@ -228,7 +228,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -237,7 +237,7 @@ public class GuaranteeUsageType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

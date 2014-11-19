@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РџРѕСЏСЃРЅРµРЅРёСЏ РїРѕ СѓСЃР»РѕРІРёСЏРј РїСЂРѕРґР°Р¶Рё, РєРѕС‚РѕСЂС‹Рµ РјРѕРіР»Рё РїРѕРІР»РёСЏС‚СЊ РЅР° С†РµРЅСѓ СЃРґРµР»РєРё.
+ * Пояснения по условиям продажи, которые могли повлиять на цену сделки.
  */
 public class ExplanationSalesTermsType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Comments' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ
+     * Get the list of 'Comments' element items. Дополнительные данные
      * 
      * @return list
      */
@@ -30,7 +30,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Comments' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ
+     * Set the list of 'Comments' element items. Дополнительные данные
      * 
      * @param list
      */
@@ -39,7 +39,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Get the 'HistoryCooperation' element value. РСЃС‚РѕСЂРёСЏ СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР° РџСЂРѕРґР°РІС†Р° Рё РџРѕРєСѓРїР°С‚РµР»СЏ
+     * Get the 'HistoryCooperation' element value. История сотрудничества Продавца и Покупателя
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Set the 'HistoryCooperation' element value. РСЃС‚РѕСЂРёСЏ СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР° РџСЂРѕРґР°РІС†Р° Рё РџРѕРєСѓРїР°С‚РµР»СЏ
+     * Set the 'HistoryCooperation' element value. История сотрудничества Продавца и Покупателя
      * 
      * @param historyCooperation
      */
@@ -57,7 +57,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Get the 'ChoiceOrderGoods' element value. Р’С‹Р±РѕСЂ Рё Р·Р°РєР°Р· С‚РѕРІР°СЂР°
+     * Get the 'ChoiceOrderGoods' element value. Выбор и заказ товара
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Set the 'ChoiceOrderGoods' element value. Р’С‹Р±РѕСЂ Рё Р·Р°РєР°Р· С‚РѕРІР°СЂР°
+     * Set the 'ChoiceOrderGoods' element value. Выбор и заказ товара
      * 
      * @param choiceOrderGoods
      */
@@ -75,7 +75,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Get the 'PricingTransactions' element value. Р¤РѕСЂРјРёСЂРѕРІР°РЅРёРµ С†РµРЅС‹ СЃРґРµР»РєРё
+     * Get the 'PricingTransactions' element value. Формирование цены сделки
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Set the 'PricingTransactions' element value. Р¤РѕСЂРјРёСЂРѕРІР°РЅРёРµ С†РµРЅС‹ СЃРґРµР»РєРё
+     * Set the 'PricingTransactions' element value. Формирование цены сделки
      * 
      * @param pricingTransactions
      */
@@ -94,7 +94,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Get the 'InfoContractDeliveryTerms' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРіРѕРІРѕСЂРµ Рё СѓСЃР»РѕРІРёСЏС… РїРѕСЃС‚Р°РІРєРё
+     * Get the 'InfoContractDeliveryTerms' element value. Сведения о договоре и условиях поставки
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Set the 'InfoContractDeliveryTerms' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРіРѕРІРѕСЂРµ Рё СѓСЃР»РѕРІРёСЏС… РїРѕСЃС‚Р°РІРєРё
+     * Set the 'InfoContractDeliveryTerms' element value. Сведения о договоре и условиях поставки
      * 
      * @param infoContractDeliveryTerms
      */
@@ -113,7 +113,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Get the 'SaleGoodsDomesticMarket' element value. Р РµР°Р»РёР·Р°С†РёСЏ С‚РѕРІР°СЂРѕРІ РЅР° РІРЅСѓС‚СЂРµРЅРЅРµРј СЂС‹РЅРєРµ
+     * Get the 'SaleGoodsDomesticMarket' element value. Реализация товаров на внутреннем рынке
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Set the 'SaleGoodsDomesticMarket' element value. Р РµР°Р»РёР·Р°С†РёСЏ С‚РѕРІР°СЂРѕРІ РЅР° РІРЅСѓС‚СЂРµРЅРЅРµРј СЂС‹РЅРєРµ
+     * Set the 'SaleGoodsDomesticMarket' element value. Реализация товаров на внутреннем рынке
      * 
      * @param saleGoodsDomesticMarket
      */
@@ -132,7 +132,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ
+     * Get the 'PersonSignature' element value. Подпись
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ
+     * Set the 'PersonSignature' element value. Подпись
      * 
      * @param personSignature
      */
@@ -150,7 +150,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class ExplanationSalesTermsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

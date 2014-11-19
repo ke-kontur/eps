@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.pi_seaarrive;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GoodsBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsType extends GoodsBaseType
 {
@@ -13,7 +13,7 @@ public class GoodsType extends GoodsBaseType
     private String goodsBoardPlace;
 
     /** 
-     * Get the 'CargoPlace' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Get the 'CargoPlace' element value. Общее количество грузовых мест
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'CargoPlace' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Set the 'CargoPlace' element value. Общее количество грузовых мест
      * 
      * @param cargoPlace
      */
@@ -31,7 +31,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'Marking' element value. РќРѕРјРµСЂ Рё РјР°СЂРєР° РіСЂСѓР·Р°.
+     * Get the 'Marking' element value. Номер и марка груза.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'Marking' element value. РќРѕРјРµСЂ Рё РјР°СЂРєР° РіСЂСѓР·Р°.
+     * Set the 'Marking' element value. Номер и марка груза.
      * 
      * @param marking
      */
@@ -49,7 +49,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsBoardPlace' element value. РћРїРёСЃР°РЅРёРµ СЂР°Р·РјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР° РЅР° СЃСѓРґРЅРµ
+     * Get the 'GoodsBoardPlace' element value. Описание размещения товара на судне
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsBoardPlace' element value. РћРїРёСЃР°РЅРёРµ СЂР°Р·РјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР° РЅР° СЃСѓРґРЅРµ
+     * Set the 'GoodsBoardPlace' element value. Описание размещения товара на судне
      * 
      * @param goodsBoardPlace
      */

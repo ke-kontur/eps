@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Сведения о документах
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -22,7 +22,7 @@ public class IDKDocumentsType
     private DocumentBaseType tiketNumber;
 
     /** 
-     * Get the 'TIR_Carnet' element value. РќРѕРјРµСЂ РљРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIR_Carnet' element value. Номер Книжки МДП
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class IDKDocumentsType
     }
 
     /** 
-     * Set the 'TIR_Carnet' element value. РќРѕРјРµСЂ РљРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIR_Carnet' element value. Номер Книжки МДП
      * 
      * @param TIRCarnet
      */
@@ -40,7 +40,7 @@ public class IDKDocumentsType
     }
 
     /** 
-     * Get the 'TiketNumber' element value. РўР°Р»РѕРЅ РЅР° РІСЉРµР·Рґ
+     * Get the 'TiketNumber' element value. Талон на въезд
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class IDKDocumentsType
     }
 
     /** 
-     * Set the 'TiketNumber' element value. РўР°Р»РѕРЅ РЅР° РІСЉРµР·Рґ
+     * Set the 'TiketNumber' element value. Талон на въезд
      * 
      * @param tiketNumber
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.priorcommonaggregatetypescust;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚СЂР°РЅРµ
+ * Сведения о стране
  */
 public class CountryInformationType
 {
@@ -10,7 +10,7 @@ public class CountryInformationType
     private String countryACode;
 
     /** 
-     * Get the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryName' element value. Наименование страны
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CountryInformationType
     }
 
     /** 
-     * Set the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryName' element value. Наименование страны
      * 
      * @param countryName
      */
@@ -28,7 +28,7 @@ public class CountryInformationType
     }
 
     /** 
-     * Get the 'CountryACode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryACode' element value. Буквенный код страны
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CountryInformationType
     }
 
     /** 
-     * Set the 'CountryACode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryACode' element value. Буквенный код страны
      * 
      * @param countryACode
      */

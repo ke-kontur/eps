@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР°, РІС‹РґР°РІР°РµРјРѕРіРѕ РїРѕ РѕС‚С‡РµС‚Сѓ Р”Рћ2
+ * Комплексный тип для описания товара, выдаваемого по отчету ДО2
  */
 public class DO2GoodType
 {
@@ -14,7 +14,7 @@ public class DO2GoodType
     private DO2GoodResultType result;
 
     /** 
-     * Get the list of 'Input' element items. РџСЂРёС…РѕРґ.                         РљРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ (РІРµСЃ, СЃС‚РѕРёРјРѕСЃС‚СЊ, РґРѕРї.РµРґРёРЅРёС†С‹) СѓРєР°Р·С‹РІР°СЋС‚СЃСЏ РїРѕ РѕС‚С‡РµС‚Сѓ Р”Рћ1 СЃ СѓС‡РµС‚РѕРј РІС‹РґР°С‡Рё РїРѕ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРј РѕС‚С‡РµС‚Р°Рј Р”Рћ2
+     * Get the list of 'Input' element items. Приход.                         Количественные сведения (вес, стоимость, доп.единицы) указываются по отчету ДО1 с учетом выдачи по предшествующим отчетам ДО2
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class DO2GoodType
     }
 
     /** 
-     * Set the list of 'Input' element items. РџСЂРёС…РѕРґ.                         РљРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ (РІРµСЃ, СЃС‚РѕРёРјРѕСЃС‚СЊ, РґРѕРї.РµРґРёРЅРёС†С‹) СѓРєР°Р·С‹РІР°СЋС‚СЃСЏ РїРѕ РѕС‚С‡РµС‚Сѓ Р”Рћ1 СЃ СѓС‡РµС‚РѕРј РІС‹РґР°С‡Рё РїРѕ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРј РѕС‚С‡РµС‚Р°Рј Р”Рћ2
+     * Set the list of 'Input' element items. Приход.                         Количественные сведения (вес, стоимость, доп.единицы) указываются по отчету ДО1 с учетом выдачи по предшествующим отчетам ДО2
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class DO2GoodType
     }
 
     /** 
-     * Get the 'Output' element value. Р Р°СЃС…РѕРґ
+     * Get the 'Output' element value. Расход
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DO2GoodType
     }
 
     /** 
-     * Set the 'Output' element value. Р Р°СЃС…РѕРґ
+     * Set the 'Output' element value. Расход
      * 
      * @param output
      */
@@ -50,7 +50,7 @@ public class DO2GoodType
     }
 
     /** 
-     * Get the 'Result' element value. РћСЃС‚Р°С‚РѕРє
+     * Get the 'Result' element value. Остаток
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class DO2GoodType
     }
 
     /** 
-     * Set the 'Result' element value. РћСЃС‚Р°С‚РѕРє
+     * Set the 'Result' element value. Остаток
      * 
      * @param result
      */

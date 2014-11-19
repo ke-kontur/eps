@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 import ru.acs.fts.schemas.album.sertifcommonaggregatetypescust.SertifOrgBaseType;
 
 /** 
- * РљР°СЂР°РЅС‚РёРЅРЅС‹Р№ СЃРµСЂС‚РёС„РёРєР°С‚
+ * Карантинный сертификат
  */
 public class QuarantineCertificateType extends BaseDocType
 {
@@ -32,7 +32,7 @@ public class QuarantineCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @param registrationNumber
      */
@@ -50,7 +50,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё
+     * Get the 'IssueDate' element value. Дата выдачи
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё
+     * Set the 'IssueDate' element value. Дата выдачи
      * 
      * @param issueDate
      */
@@ -68,7 +68,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'ExpirationDate' element value. Дата окончания действия сертификата
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'ExpirationDate' element value. Дата окончания действия сертификата
      * 
      * @param expirationDate
      */
@@ -86,7 +86,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'StatusGoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕСЃС‚РѕСЏРЅРёРё С‚РѕРІР°СЂР°
+     * Get the list of 'StatusGoodsInfo' element items. Сведения о состоянии товара
      * 
      * @return list
      */
@@ -95,7 +95,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'StatusGoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕСЃС‚РѕСЏРЅРёРё С‚РѕРІР°СЂР°
+     * Set the list of 'StatusGoodsInfo' element items. Сведения о состоянии товара
      * 
      * @param list
      */
@@ -104,7 +104,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegionManagement' element value. Р РµСЃРїСѓР±Р»РёРєР°, РєСЂР°Р№, РѕР±Р»Р°СЃС‚СЊ, РіРѕСЂРѕРґ
+     * Get the 'RegionManagement' element value. Республика, край, область, город
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegionManagement' element value. Р РµСЃРїСѓР±Р»РёРєР°, РєСЂР°Р№, РѕР±Р»Р°СЃС‚СЊ, РіРѕСЂРѕРґ
+     * Set the 'RegionManagement' element value. Республика, край, область, город
      * 
      * @param regionManagement
      */
@@ -122,7 +122,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AdditionalActivities' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+     * Get the list of 'AdditionalActivities' element items. Дополнительные мероприятия
      * 
      * @return list
      */
@@ -131,7 +131,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AdditionalActivities' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+     * Set the list of 'AdditionalActivities' element items. Дополнительные мероприятия
      * 
      * @param list
      */
@@ -140,7 +140,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'UnloadingPlace' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р° РІС‹РіСЂСѓР·РєРё
+     * Get the 'UnloadingPlace' element value. Наименование пункта выгрузки
      * 
      * @return value
      */
@@ -149,7 +149,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'UnloadingPlace' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р° РІС‹РіСЂСѓР·РєРё
+     * Set the 'UnloadingPlace' element value. Наименование пункта выгрузки
      * 
      * @param unloadingPlace
      */
@@ -158,7 +158,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'UnloadingRegion' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёРѕРЅР° РІС‹РіСЂСѓР·РєРё
+     * Get the 'UnloadingRegion' element value. Наименование региона выгрузки
      * 
      * @return value
      */
@@ -167,7 +167,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'UnloadingRegion' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёРѕРЅР° РІС‹РіСЂСѓР·РєРё
+     * Set the 'UnloadingRegion' element value. Наименование региона выгрузки
      * 
      * @param unloadingRegion
      */
@@ -176,7 +176,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'SubjectInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓР±СЉРµРєС‚Рµ
+     * Get the 'SubjectInfo' element value. Сведения о субъекте
      * 
      * @return value
      */
@@ -185,7 +185,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'SubjectInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓР±СЉРµРєС‚Рµ
+     * Set the 'SubjectInfo' element value. Сведения о субъекте
      * 
      * @param subjectInfo
      */
@@ -194,7 +194,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarantInfo' element value. РЎРІРµРґРµРЅРёРµ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Get the 'DeclarantInfo' element value. Сведение о заявителе
      * 
      * @return value
      */
@@ -203,7 +203,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarantInfo' element value. РЎРІРµРґРµРЅРёРµ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Set the 'DeclarantInfo' element value. Сведение о заявителе
      * 
      * @param declarantInfo
      */
@@ -212,7 +212,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReceiverInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Get the 'ReceiverInfo' element value. Сведения о получателе
      * 
      * @return value
      */
@@ -221,7 +221,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceiverInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Set the 'ReceiverInfo' element value. Сведения о получателе
      * 
      * @param receiverInfo
      */
@@ -230,7 +230,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Get the list of 'Goods' element items. Сведения о товаре
      * 
      * @return list
      */
@@ -239,7 +239,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Set the list of 'Goods' element items. Сведения о товаре
      * 
      * @param list
      */
@@ -248,7 +248,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'AddressSearch' element value. РђРґСЂРµСЃ РїСЂРѕРІРµРґРµРЅРёСЏ РєР°СЂР°РЅС‚РёРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
+     * Get the 'AddressSearch' element value. Адрес проведения карантинного досмотра
      * 
      * @return value
      */
@@ -257,7 +257,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'AddressSearch' element value. РђРґСЂРµСЃ РїСЂРѕРІРµРґРµРЅРёСЏ РєР°СЂР°РЅС‚РёРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
+     * Set the 'AddressSearch' element value. Адрес проведения карантинного досмотра
      * 
      * @param addressSearch
      */
@@ -266,7 +266,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspectorSignature' element value. РџРѕРґРїРёСЃСЊ РёРЅСЃРїРµРєС‚РѕСЂР°
+     * Get the 'InspectorSignature' element value. Подпись инспектора
      * 
      * @return value
      */
@@ -275,7 +275,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspectorSignature' element value. РџРѕРґРїРёСЃСЊ РёРЅСЃРїРµРєС‚РѕСЂР°
+     * Set the 'InspectorSignature' element value. Подпись инспектора
      * 
      * @param inspectorSignature
      */
@@ -284,7 +284,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AuthorityCertificate' element items. РћСЃРЅРѕРІР°РЅРёРµ РІС‹РґР°С‡Рё СЃРµСЂС‚РёС„РёРєР°С‚Р° 
+     * Get the list of 'AuthorityCertificate' element items. Основание выдачи сертификата 
      * 
      * @return list
      */
@@ -293,7 +293,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AuthorityCertificate' element items. РћСЃРЅРѕРІР°РЅРёРµ РІС‹РґР°С‡Рё СЃРµСЂС‚РёС„РёРєР°С‚Р° 
+     * Set the list of 'AuthorityCertificate' element items. Основание выдачи сертификата 
      * 
      * @param list
      */
@@ -302,7 +302,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -311,7 +311,7 @@ public class QuarantineCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

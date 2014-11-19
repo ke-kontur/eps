@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhPresentDocType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚РѕРІ
+ * Запрос на предоставление документов
  */
 public class ReqWHDocType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class ReqWHDocType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'SendDate' element value. Дата направления запроса
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class ReqWHDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'SendDate' element value. Дата направления запроса
      * 
      * @param sendDate
      */
@@ -40,7 +40,7 @@ public class ReqWHDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'SendTime' element value. Время направления запроса
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class ReqWHDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'SendTime' element value. Время направления запроса
      * 
      * @param sendTime
      */
@@ -58,7 +58,7 @@ public class ReqWHDocType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RequestedDoc' element items. РЎРїРёСЃРѕРє Р·Р°РїСЂР°С€РёРІР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the list of 'RequestedDoc' element items. Список запрашиваемых документов
      * 
      * @return list
      */
@@ -67,7 +67,7 @@ public class ReqWHDocType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RequestedDoc' element items. РЎРїРёСЃРѕРє Р·Р°РїСЂР°С€РёРІР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the list of 'RequestedDoc' element items. Список запрашиваемых документов
      * 
      * @param list
      */
@@ -76,7 +76,7 @@ public class ReqWHDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'SVHPerson' element value. РџСЂРµРґСЃС‚Р°РІРёС‚СЊ РЎР’РҐ
+     * Get the 'SVHPerson' element value. Представить СВХ
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class ReqWHDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'SVHPerson' element value. РџСЂРµРґСЃС‚Р°РІРёС‚СЊ РЎР’РҐ
+     * Set the 'SVHPerson' element value. Представить СВХ
      * 
      * @param SVHPerson
      */
@@ -94,7 +94,7 @@ public class ReqWHDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberConfirmDoc' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РґР»СЏ РїРѕРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РЅР° Р’РҐ
+     * Get the 'RegNumberConfirmDoc' element value. Регистрационный номер представления документов для помещения товаров на ВХ
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class ReqWHDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberConfirmDoc' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ РґР»СЏ РїРѕРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РЅР° Р’РҐ
+     * Set the 'RegNumberConfirmDoc' element value. Регистрационный номер представления документов для помещения товаров на ВХ
      * 
      * @param regNumberConfirmDoc
      */
@@ -112,7 +112,7 @@ public class ReqWHDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class ReqWHDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

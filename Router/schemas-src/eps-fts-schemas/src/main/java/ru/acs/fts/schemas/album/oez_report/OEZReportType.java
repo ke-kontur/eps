@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РћС‚С‡С‘С‚ Рѕ РІРІРѕР·РёРјС‹С…, РІС‹РІРѕР·РёРјС‹С…, С…СЂР°РЅСЏС‰РёС…СЃСЏ, РёР·РіРѕС‚Р°РІР»РёРІР°РµРјС‹С…, РїРµСЂРµСЂР°Р±Р°С‚С‹РІР°РµРјС‹С…, РїСЂРёРѕР±СЂРµС‚Р°РµРјС‹С… Рё СЂРµР°Р»РёР·СѓРµРјС‹С… С‚РѕРІР°СЂР°С… РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—
+ * Отчёт о ввозимых, вывозимых, хранящихся, изготавливаемых, перерабатываемых, приобретаемых и реализуемых товарах на территории ОЭЗ
  */
 public class OEZReportType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class OEZReportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ReportDate' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё РѕС‚С‡С‘С‚Р°
+     * Get the 'ReportDate' element value. Дата подачи отчёта
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReportDate' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё РѕС‚С‡С‘С‚Р°
+     * Set the 'ReportDate' element value. Дата подачи отчёта
      * 
      * @param reportDate
      */
@@ -47,7 +47,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'FormNum' element items. РќРѕРјРµСЂ С„РѕСЂРјС‹
+     * Get the list of 'FormNum' element items. Номер формы
      * 
      * @return list
      */
@@ -56,7 +56,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'FormNum' element items. РќРѕРјРµСЂ С„РѕСЂРјС‹
+     * Set the list of 'FormNum' element items. Номер формы
      * 
      * @param list
      */
@@ -65,7 +65,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @param customs
      */
@@ -83,7 +83,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ РёР»Рё РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, РєРѕС‚РѕСЂР°СЏ РїРѕРґР°С‘С‚ РѕС‚С‡С‘С‚
+     * Get the 'Declarant' element value. Сведения о лице или об организации, которая подаёт отчёт
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ РёР»Рё РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, РєРѕС‚РѕСЂР°СЏ РїРѕРґР°С‘С‚ РѕС‚С‡С‘С‚
+     * Set the 'Declarant' element value. Сведения о лице или об организации, которая подаёт отчёт
      * 
      * @param declarant
      */
@@ -101,7 +101,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReportingPeriod' element value. РћС‚С‡С‘С‚РЅС‹Р№ РїРµСЂРёРѕРґ
+     * Get the 'ReportingPeriod' element value. Отчётный период
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReportingPeriod' element value. РћС‚С‡С‘С‚РЅС‹Р№ РїРµСЂРёРѕРґ
+     * Set the 'ReportingPeriod' element value. Отчётный период
      * 
      * @param reportingPeriod
      */
@@ -119,7 +119,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResidentPersonSignature' element value. Р¤.Р.Рћ., РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р°, РЅР° РєРѕС‚РѕСЂРѕРµ РІРѕР·Р»РѕР¶РµРЅР° РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚СЊ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚РЅРѕСЃС‚Рё, РґР°С‚Р°
+     * Get the 'ResidentPersonSignature' element value. Ф.И.О., подпись уполномоченного лица, на которое возложена ответственность составления отчетности, дата
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResidentPersonSignature' element value. Р¤.Р.Рћ., РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р°, РЅР° РєРѕС‚РѕСЂРѕРµ РІРѕР·Р»РѕР¶РµРЅР° РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚СЊ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚РЅРѕСЃС‚Рё, РґР°С‚Р°
+     * Set the 'ResidentPersonSignature' element value. Ф.И.О., подпись уполномоченного лица, на которое возложена ответственность составления отчетности, дата
      * 
      * @param residentPersonSignature
      */
@@ -138,7 +138,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Table1' element value. РўР°Р±Р»РёС†Р° 1. РћС‚С‡РµС‚ Рѕ С‚РѕРІР°СЂР°С…, РІРІРµР·РµРЅРЅС‹С… РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј СЂРµР¶РёРјРѕРј РЎРўР—
+     * Get the 'Table1' element value. Таблица 1. Отчет о товарах, ввезенных в соответствии с таможенным режимом СТЗ
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Table1' element value. РўР°Р±Р»РёС†Р° 1. РћС‚С‡РµС‚ Рѕ С‚РѕРІР°СЂР°С…, РІРІРµР·РµРЅРЅС‹С… РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј СЂРµР¶РёРјРѕРј РЎРўР—
+     * Set the 'Table1' element value. Таблица 1. Отчет о товарах, ввезенных в соответствии с таможенным режимом СТЗ
      * 
      * @param table1
      */
@@ -156,7 +156,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Table2' element value. РўР°Р±Р»РёС†Р° 2. РћС‚С‡РµС‚ Рѕ С‚РѕРІР°СЂР°С…, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹ РІ С†РµР»СЏС…
+     * Get the 'Table2' element value. Таблица 2. Отчет о товарах, помещенных под таможенный режим свободной таможенной зоны в целях
      * 
      * @return value
      */
@@ -165,7 +165,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Table2' element value. РўР°Р±Р»РёС†Р° 2. РћС‚С‡РµС‚ Рѕ С‚РѕРІР°СЂР°С…, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹ РІ С†РµР»СЏС…
+     * Set the 'Table2' element value. Таблица 2. Отчет о товарах, помещенных под таможенный режим свободной таможенной зоны в целях
      * 
      * @param table2
      */
@@ -174,7 +174,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Table3' element value. РўР°Р±Р»РёС†Р° 3. РћС‚С‡РµС‚ Рѕ С‚РѕРІР°СЂР°С…, РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹С…(РїРѕР»СѓС‡РµРЅРЅС‹С…) РёР· С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹ РїРѕ С„РѕСЂРјРµ 3
+     * Get the 'Table3' element value. Таблица 3. Отчет о товарах, изготовленных(полученных) из товаров, помещенных под таможенную процедуру свободной таможенной зоны по форме 3
      * 
      * @return value
      */
@@ -183,7 +183,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Table3' element value. РўР°Р±Р»РёС†Р° 3. РћС‚С‡РµС‚ Рѕ С‚РѕРІР°СЂР°С…, РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹С…(РїРѕР»СѓС‡РµРЅРЅС‹С…) РёР· С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹ РїРѕ С„РѕСЂРјРµ 3
+     * Set the 'Table3' element value. Таблица 3. Отчет о товарах, изготовленных(полученных) из товаров, помещенных под таможенную процедуру свободной таможенной зоны по форме 3
      * 
      * @param table3
      */
@@ -192,7 +192,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Table4' element value. РўР°Р±Р»РёС†Р° 4. РћС‚С‡РµС‚ Рѕ С‚РѕРІР°СЂР°С…, РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹С… (РїРѕР»СѓС‡РµРЅРЅС‹С…) РёР· С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹
+     * Get the 'Table4' element value. Таблица 4. Отчет о товарах, изготовленных (полученных) из товаров, помещенных под таможенную процедуру свободной таможенной зоны
      * 
      * @return value
      */
@@ -201,7 +201,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Table4' element value. РўР°Р±Р»РёС†Р° 4. РћС‚С‡РµС‚ Рѕ С‚РѕРІР°СЂР°С…, РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹С… (РїРѕР»СѓС‡РµРЅРЅС‹С…) РёР· С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹
+     * Set the 'Table4' element value. Таблица 4. Отчет о товарах, изготовленных (полученных) из товаров, помещенных под таможенную процедуру свободной таможенной зоны
      * 
      * @param table4
      */
@@ -210,7 +210,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistryNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕС‚С‡С‘С‚Р°
+     * Get the 'RegistryNumber' element value. Регистрационный номер отчёта
      * 
      * @return value
      */
@@ -219,7 +219,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistryNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕС‚С‡С‘С‚Р°
+     * Set the 'RegistryNumber' element value. Регистрационный номер отчёта
      * 
      * @param registryNumber
      */
@@ -228,7 +228,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DeclarationNumForReport' element items. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё, СЃРѕРґРµСЂР¶Р°С‰РёР№ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ С‚РѕРІР°СЂР°С…, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РЎРўР—
+     * Get the list of 'DeclarationNumForReport' element items. Номер таможенной декларации, содержащий информацию о товарах, помещенных под таможенную процедуру СТЗ
      * 
      * @return list
      */
@@ -237,7 +237,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DeclarationNumForReport' element items. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё, СЃРѕРґРµСЂР¶Р°С‰РёР№ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ С‚РѕРІР°СЂР°С…, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РЎРўР—
+     * Set the list of 'DeclarationNumForReport' element items. Номер таможенной декларации, содержащий информацию о товарах, помещенных под таможенную процедуру СТЗ
      * 
      * @param list
      */
@@ -246,7 +246,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class OEZReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

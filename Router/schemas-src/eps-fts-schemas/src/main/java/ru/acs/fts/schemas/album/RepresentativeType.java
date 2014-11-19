@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+ * Таможенный представитель
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -26,7 +26,7 @@ public class RepresentativeType extends CUOrganizationType
     private String OKPOID;
 
     /** 
-     * Get the 'LicenseNumber' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё
+     * Get the 'LicenseNumber' element value. Номер лицензии
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class RepresentativeType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'LicenseNumber' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё
+     * Set the 'LicenseNumber' element value. Номер лицензии
      * 
      * @param licenseNumber
      */
@@ -44,7 +44,7 @@ public class RepresentativeType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ
+     * Get the 'OKPOID' element value. Код организации по ОКПО
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class RepresentativeType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ
+     * Set the 'OKPOID' element value. Код организации по ОКПО
      * 
      * @param OKPOID
      */

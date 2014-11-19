@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РІРµРґРµРЅРёР№ РёР· РЅР°РїСЂР°РІР»РµРЅРёСЏ РЅР° РѕСЃРјРѕС‚СЂ
+ * Уведомление о регистрации ведений из направления на осмотр
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -31,7 +31,7 @@ public class DirectionRegistrationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'RegistrationDate' element value. Дата регистрации направления
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DirectionRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'RegistrationDate' element value. Дата регистрации направления
      * 
      * @param registrationDate
      */
@@ -49,7 +49,7 @@ public class DirectionRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationTime' element value. Р’СЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё  РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'RegistrationTime' element value. Время регистрации  направления
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DirectionRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationTime' element value. Р’СЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё  РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'RegistrationTime' element value. Время регистрации  направления
      * 
      * @param registrationTime
      */
@@ -67,7 +67,7 @@ public class DirectionRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DirectionID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DirectionID' element value. Регистрационный номер направления
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class DirectionRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DirectionID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DirectionID' element value. Регистрационный номер направления
      * 
      * @param directionID
      */
@@ -85,7 +85,7 @@ public class DirectionRegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class DirectionRegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

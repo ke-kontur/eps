@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Р”Р°РЅРЅС‹Рµ РїРѕ СЂР°Р·СЂРµС€РµРЅРёСЋ/РєР°СЂС‚РѕС‡РєРµ
+ * Данные по разрешению/карточке
  */
 public class PermitType
 {
@@ -19,7 +19,7 @@ public class PermitType
     private CUOrganizationType organization;
 
     /** 
-     * Get the 'AccessCertificate' element value. РќРѕРјРµСЂ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ РґРѕРїСѓСЃРєР°
+     * Get the 'AccessCertificate' element value. Номер удостоверения допуска
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class PermitType
     }
 
     /** 
-     * Set the 'AccessCertificate' element value. РќРѕРјРµСЂ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ РґРѕРїСѓСЃРєР°
+     * Set the 'AccessCertificate' element value. Номер удостоверения допуска
      * 
      * @param accessCertificate
      */
@@ -37,7 +37,7 @@ public class PermitType
     }
 
     /** 
-     * Get the 'Information' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the 'Information' element value. Примечание
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class PermitType
     }
 
     /** 
-     * Set the 'Information' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the 'Information' element value. Примечание
      * 
      * @param information
      */
@@ -55,7 +55,7 @@ public class PermitType
     }
 
     /** 
-     * Get the list of 'LicAddr' element items. РњРµСЃС‚Рѕ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ Р»РёС†РµРЅР·РёСЂСѓРµРјРѕРіРѕ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Get the list of 'LicAddr' element items. Место осуществления лицензируемого вида деятельности
      * 
      * @return list
      */
@@ -64,7 +64,7 @@ public class PermitType
     }
 
     /** 
-     * Set the list of 'LicAddr' element items. РњРµСЃС‚Рѕ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ Р»РёС†РµРЅР·РёСЂСѓРµРјРѕРіРѕ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Set the list of 'LicAddr' element items. Место осуществления лицензируемого вида деятельности
      * 
      * @param list
      */
@@ -73,7 +73,7 @@ public class PermitType
     }
 
     /** 
-     * Get the 'PermitInfo' element value. Р Р°Р·СЂРµС€РµРЅРёРµ/РєР°СЂС‚РѕС‡РєР°
+     * Get the 'PermitInfo' element value. Разрешение/карточка
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class PermitType
     }
 
     /** 
-     * Set the 'PermitInfo' element value. Р Р°Р·СЂРµС€РµРЅРёРµ/РєР°СЂС‚РѕС‡РєР°
+     * Set the 'PermitInfo' element value. Разрешение/карточка
      * 
      * @param permitInfo
      */
@@ -91,7 +91,7 @@ public class PermitType
     }
 
     /** 
-     * Get the 'TSInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РўРЎ
+     * Get the 'TSInfo' element value. Сведения о ТС
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class PermitType
     }
 
     /** 
-     * Set the 'TSInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РўРЎ
+     * Set the 'TSInfo' element value. Сведения о ТС
      * 
      * @param TSInfo
      */
@@ -109,7 +109,7 @@ public class PermitType
     }
 
     /** 
-     * Get the 'PermittedCompany' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРјРїР°РЅРёРё, РєРѕС‚РѕСЂРѕР№ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Get the 'PermittedCompany' element value. Наименование компании, которой выдано разрешение
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class PermitType
     }
 
     /** 
-     * Set the 'PermittedCompany' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєРѕРјРїР°РЅРёРё, РєРѕС‚РѕСЂРѕР№ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Set the 'PermittedCompany' element value. Наименование компании, которой выдано разрешение
      * 
      * @param permittedCompany
      */
@@ -127,7 +127,7 @@ public class PermitType
     }
 
     /** 
-     * Get the 'Organization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ
+     * Get the 'Organization' element value. Наименование организации, выдавшей удостоверение
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class PermitType
     }
 
     /** 
-     * Set the 'Organization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ
+     * Set the 'Organization' element value. Наименование организации, выдавшей удостоверение
      * 
      * @param organization
      */

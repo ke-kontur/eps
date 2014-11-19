@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.semcommonaggregatetypescust.OISsType;
 import ru.acs.fts.schemas.album.semcommonaggregatetypescust.ResultGoodsType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…. Р’ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ С‚РѕРІР°СЂР°Рј РЅРµ РЅР°Р№РґРµРЅР°
+ * Информация о товарах. В случае отсутствия информация по товарам не найдена
  */
 public class ResultOISGoodsType extends ResultGoodsType
 {
@@ -17,7 +17,7 @@ public class ResultOISGoodsType extends ResultGoodsType
     private List<OISsType> OISList = new ArrayList<OISsType>();
 
     /** 
-     * Get the 'MessageDoc' element value. РЎРѕРѕР±С‰РµРЅРёРµ Рѕ РЅР°Р»РёС‡РёРё/ РѕС‚СЃСѓС‚СЃС‚РІРёРё РєРѕРґРѕРІ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'MessageDoc' element value. Сообщение о наличии/ отсутствии кодов разрешительных документов
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ResultOISGoodsType extends ResultGoodsType
     }
 
     /** 
-     * Set the 'MessageDoc' element value. РЎРѕРѕР±С‰РµРЅРёРµ Рѕ РЅР°Р»РёС‡РёРё/ РѕС‚СЃСѓС‚СЃС‚РІРёРё РєРѕРґРѕРІ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'MessageDoc' element value. Сообщение о наличии/ отсутствии кодов разрешительных документов
      * 
      * @param messageDoc
      */
@@ -35,7 +35,7 @@ public class ResultOISGoodsType extends ResultGoodsType
     }
 
     /** 
-     * Get the 'MessageIP' element value. РЎРѕРѕР±С‰РµРЅРёРµ Рѕ РЅР°Р»РёС‡РёРё/ РѕС‚СЃСѓС‚СЃС‚РІРёРё Р±СѓРєРІС‹ "Р" РїСЂРё РЅР°Р»РёС‡РёРё РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР° РІ Р РµРµСЃС‚СЂРµ РћРРЎ
+     * Get the 'MessageIP' element value. Сообщение о наличии/ отсутствии буквы "И" при наличии декларируемого товара в Реестре ОИС
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ResultOISGoodsType extends ResultGoodsType
     }
 
     /** 
-     * Set the 'MessageIP' element value. РЎРѕРѕР±С‰РµРЅРёРµ Рѕ РЅР°Р»РёС‡РёРё/ РѕС‚СЃСѓС‚СЃС‚РІРёРё Р±СѓРєРІС‹ "Р" РїСЂРё РЅР°Р»РёС‡РёРё РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР° РІ Р РµРµСЃС‚СЂРµ РћРРЎ
+     * Set the 'MessageIP' element value. Сообщение о наличии/ отсутствии буквы "И" при наличии декларируемого товара в Реестре ОИС
      * 
      * @param messageIP
      */
@@ -53,7 +53,7 @@ public class ResultOISGoodsType extends ResultGoodsType
     }
 
     /** 
-     * Get the 'MessageTov' element value. РЎРѕРѕР±С‰РµРЅРёРµ Рѕ СЃРѕРІРїР°РґРµРЅРёРё Р·Р°СЏРІР»РµРЅРЅС‹С… СЃРІРµРґРµРЅРёР№ Рѕ С‚РѕРІР°СЂРµ СЃ РґР°РЅРЅС‹РјРё РёР· Р РµРµСЃС‚СЂР° РћРРЎ, РЅРѕ СЃ РѕС‚Р»РёС‡РёРµРј РІ РЅР°РёРјРµРЅРѕРІР°РЅРёРё С‚РѕРІР°СЂР° -&gt;СЃ РїРѕРјРµС‚РєРѕР№ Рѕ С‚РѕРј, С‡С‚Рѕ С‚РѕРІР°СЂС‹ РґР»СЏ РґР°РЅРЅРѕРіРѕ С‚РѕРІР°СЂРЅРѕРіРѕ Р·РЅР°РєР° РІ С‚Р°РјРѕР¶РµРЅРЅРѕРј Р РµРµСЃС‚СЂРµ Р·Р°СЏРІР»РµРЅС‹ РґСЂСѓРіРёРµ.
+     * Get the 'MessageTov' element value. Сообщение о совпадении заявленных сведений о товаре с данными из Реестра ОИС, но с отличием в наименовании товара -&gt;с пометкой о том, что товары для данного товарного знака в таможенном Реестре заявлены другие.
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ResultOISGoodsType extends ResultGoodsType
     }
 
     /** 
-     * Set the 'MessageTov' element value. РЎРѕРѕР±С‰РµРЅРёРµ Рѕ СЃРѕРІРїР°РґРµРЅРёРё Р·Р°СЏРІР»РµРЅРЅС‹С… СЃРІРµРґРµРЅРёР№ Рѕ С‚РѕРІР°СЂРµ СЃ РґР°РЅРЅС‹РјРё РёР· Р РµРµСЃС‚СЂР° РћРРЎ, РЅРѕ СЃ РѕС‚Р»РёС‡РёРµРј РІ РЅР°РёРјРµРЅРѕРІР°РЅРёРё С‚РѕРІР°СЂР° -&gt;СЃ РїРѕРјРµС‚РєРѕР№ Рѕ С‚РѕРј, С‡С‚Рѕ С‚РѕРІР°СЂС‹ РґР»СЏ РґР°РЅРЅРѕРіРѕ С‚РѕРІР°СЂРЅРѕРіРѕ Р·РЅР°РєР° РІ С‚Р°РјРѕР¶РµРЅРЅРѕРј Р РµРµСЃС‚СЂРµ Р·Р°СЏРІР»РµРЅС‹ РґСЂСѓРіРёРµ.
+     * Set the 'MessageTov' element value. Сообщение о совпадении заявленных сведений о товаре с данными из Реестра ОИС, но с отличием в наименовании товара -&gt;с пометкой о том, что товары для данного товарного знака в таможенном Реестре заявлены другие.
      * 
      * @param messageTov
      */
@@ -71,7 +71,7 @@ public class ResultOISGoodsType extends ResultGoodsType
     }
 
     /** 
-     * Get the list of 'OISs' element items. РќР°Р±РѕСЂ РћРРЎ
+     * Get the list of 'OISs' element items. Набор ОИС
      * 
      * @return list
      */
@@ -80,7 +80,7 @@ public class ResultOISGoodsType extends ResultGoodsType
     }
 
     /** 
-     * Set the list of 'OISs' element items. РќР°Р±РѕСЂ РћРРЎ
+     * Set the list of 'OISs' element items. Набор ОИС
      * 
      * @param list
      */

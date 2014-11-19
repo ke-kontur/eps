@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р’С‹РїРёСЃРєР° РёР· РїСЂРёРєР°Р·Р° Рѕ РїСЂРёРµРјРµ РЅР° СЂР°Р±РѕС‚Сѓ / Рѕ РїРµСЂРµРІРѕРґРµ РЅР° РґСЂСѓРіСѓСЋ СЂР°Р±РѕС‚Сѓ
+ * Выписка из приказа о приеме на работу / о переводе на другую работу
  */
 public class ExtractFromOrderType extends BaseDocType
 {
@@ -32,7 +32,7 @@ public class ExtractFromOrderType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BeginDate' element value. Р”Р°С‚Р° РїСЂРёРµРјР° / РїРµСЂРµРІРѕРґР°
+     * Get the 'BeginDate' element value. Дата приема / перевода
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Р”Р°С‚Р° РїСЂРёРµРјР° / РїРµСЂРµРІРѕРґР°
+     * Set the 'BeginDate' element value. Дата приема / перевода
      * 
      * @param beginDate
      */
@@ -50,7 +50,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° СѓРІРѕР»СЊРЅРµРЅРёСЏ
+     * Get the 'EndDate' element value. Дата увольнения
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° СѓРІРѕР»СЊРЅРµРЅРёСЏ
+     * Set the 'EndDate' element value. Дата увольнения
      * 
      * @param endDate
      */
@@ -68,7 +68,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'WorkKind' element value. Р’РёРґ РїСЂРёРµРјР° / РїРµСЂРµРІРѕРґР° (РїРѕСЃС‚РѕСЏРЅРЅРѕ, РІСЂРµРјРµРЅРЅРѕ)
+     * Get the 'WorkKind' element value. Вид приема / перевода (постоянно, временно)
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'WorkKind' element value. Р’РёРґ РїСЂРёРµРјР° / РїРµСЂРµРІРѕРґР° (РїРѕСЃС‚РѕСЏРЅРЅРѕ, РІСЂРµРјРµРЅРЅРѕ)
+     * Set the 'WorkKind' element value. Вид приема / перевода (постоянно, временно)
      * 
      * @param workKind
      */
@@ -86,7 +86,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransferReason' element value. РџСЂРёС‡РёРЅР° РїРµСЂРµРІРѕРґР°
+     * Get the 'TransferReason' element value. Причина перевода
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransferReason' element value. РџСЂРёС‡РёРЅР° РїРµСЂРµРІРѕРґР°
+     * Set the 'TransferReason' element value. Причина перевода
      * 
      * @param transferReason
      */
@@ -104,7 +104,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'EmployeeLNP' element value. Р›РёС‡РЅР°СЏ РЅРѕРјРµСЂРЅР°СЏ РїРµС‡Р°С‚СЊ СЃРѕС‚СЂСѓРґРЅРёРєР°
+     * Get the 'EmployeeLNP' element value. Личная номерная печать сотрудника
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'EmployeeLNP' element value. Р›РёС‡РЅР°СЏ РЅРѕРјРµСЂРЅР°СЏ РїРµС‡Р°С‚СЊ СЃРѕС‚СЂСѓРґРЅРёРєР°
+     * Set the 'EmployeeLNP' element value. Личная номерная печать сотрудника
      * 
      * @param employeeLNP
      */
@@ -122,7 +122,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TermsKindWork' element items. РЈСЃР»РѕРІРёСЏ РїСЂРёРµРјР°, С…Р°СЂР°РєС‚РµСЂ СЂР°Р±РѕС‚С‹
+     * Get the list of 'TermsKindWork' element items. Условия приема, характер работы
      * 
      * @return list
      */
@@ -131,7 +131,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TermsKindWork' element items. РЈСЃР»РѕРІРёСЏ РїСЂРёРµРјР°, С…Р°СЂР°РєС‚РµСЂ СЂР°Р±РѕС‚С‹
+     * Set the list of 'TermsKindWork' element items. Условия приема, характер работы
      * 
      * @param list
      */
@@ -140,7 +140,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'TrialPeriod' element value. РСЃРїС‹С‚Р°С‚РµР»СЊРЅС‹Р№ СЃСЂРѕРє
+     * Get the 'TrialPeriod' element value. Испытательный срок
      * 
      * @return value
      */
@@ -149,7 +149,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'TrialPeriod' element value. РСЃРїС‹С‚Р°С‚РµР»СЊРЅС‹Р№ СЃСЂРѕРє
+     * Set the 'TrialPeriod' element value. Испытательный срок
      * 
      * @param trialPeriod
      */
@@ -158,7 +158,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrderEmploymentTransfer' element value. Р’С‹РїРёСЃРєР° РёР· РїСЂРёРєР°Р·Р°: 1 - Рѕ РїСЂРёРµРјРµ РЅР° СЂР°Р±РѕС‚Сѓ,  0 - Рѕ РїРµСЂРµРІРѕРґРµ РЅР° РґСЂСѓРіСѓСЋ СЂР°Р±РѕС‚Сѓ
+     * Get the 'OrderEmploymentTransfer' element value. Выписка из приказа: 1 - о приеме на работу,  0 - о переводе на другую работу
      * 
      * @return value
      */
@@ -167,7 +167,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrderEmploymentTransfer' element value. Р’С‹РїРёСЃРєР° РёР· РїСЂРёРєР°Р·Р°: 1 - Рѕ РїСЂРёРµРјРµ РЅР° СЂР°Р±РѕС‚Сѓ,  0 - Рѕ РїРµСЂРµРІРѕРґРµ РЅР° РґСЂСѓРіСѓСЋ СЂР°Р±РѕС‚Сѓ
+     * Set the 'OrderEmploymentTransfer' element value. Выписка из приказа: 1 - о приеме на работу,  0 - о переводе на другую работу
      * 
      * @param orderEmploymentTransfer
      */
@@ -176,7 +176,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentReference' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentReference' element value. Реквизиты документа
      * 
      * @return value
      */
@@ -185,7 +185,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentReference' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentReference' element value. Реквизиты документа
      * 
      * @param documentReference
      */
@@ -194,7 +194,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'Organization' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ-СЂР°Р±РѕС‚РѕРґР°С‚РµР»СЊ
+     * Get the 'Organization' element value. Организация-работодатель
      * 
      * @return value
      */
@@ -203,7 +203,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'Organization' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ-СЂР°Р±РѕС‚РѕРґР°С‚РµР»СЊ
+     * Set the 'Organization' element value. Организация-работодатель
      * 
      * @param organization
      */
@@ -212,7 +212,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'Employee' element value. РЎРѕС‚СЂСѓРґРЅРёРє
+     * Get the 'Employee' element value. Сотрудник
      * 
      * @return value
      */
@@ -221,7 +221,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'Employee' element value. РЎРѕС‚СЂСѓРґРЅРёРє
+     * Set the 'Employee' element value. Сотрудник
      * 
      * @param employee
      */
@@ -230,7 +230,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'LastEmployeePlace' element value. РџСЂРµР¶РЅРµРµ РјРµСЃС‚Рѕ СЂР°Р±РѕС‚С‹
+     * Get the 'LastEmployeePlace' element value. Прежнее место работы
      * 
      * @return value
      */
@@ -239,7 +239,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'LastEmployeePlace' element value. РџСЂРµР¶РЅРµРµ РјРµСЃС‚Рѕ СЂР°Р±РѕС‚С‹
+     * Set the 'LastEmployeePlace' element value. Прежнее место работы
      * 
      * @param lastEmployeePlace
      */
@@ -248,7 +248,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'NewEmployeePlace' element value. РќРѕРІРѕРµ РјРµСЃС‚Рѕ СЂР°Р±РѕС‚С‹
+     * Get the 'NewEmployeePlace' element value. Новое место работы
      * 
      * @return value
      */
@@ -257,7 +257,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'NewEmployeePlace' element value. РќРѕРІРѕРµ РјРµСЃС‚Рѕ СЂР°Р±РѕС‚С‹
+     * Set the 'NewEmployeePlace' element value. Новое место работы
      * 
      * @param newEmployeePlace
      */
@@ -266,7 +266,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Ground' element items. Р”РѕРєСѓРјРµРЅС‚-РѕСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїСЂРёРµРјР° / РїРµСЂРµРІРѕРґР°
+     * Get the list of 'Ground' element items. Документ-основание для приема / перевода
      * 
      * @return list
      */
@@ -275,7 +275,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Ground' element items. Р”РѕРєСѓРјРµРЅС‚-РѕСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїСЂРёРµРјР° / РїРµСЂРµРІРѕРґР°
+     * Set the list of 'Ground' element items. Документ-основание для приема / перевода
      * 
      * @param list
      */
@@ -284,7 +284,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РЅР° РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the 'PersonSignature' element value. Подпись должностного лица на документе
      * 
      * @return value
      */
@@ -293,7 +293,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РЅР° РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the 'PersonSignature' element value. Подпись должностного лица на документе
      * 
      * @param personSignature
      */
@@ -302,7 +302,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -311,7 +311,7 @@ public class ExtractFromOrderType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

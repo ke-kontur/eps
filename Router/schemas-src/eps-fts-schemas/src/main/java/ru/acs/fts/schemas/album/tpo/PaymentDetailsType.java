@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.tpo;
 
 /** 
- * РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СѓРїР»Р°С‚С‹
+ * Подробности уплаты
  */
 public class PaymentDetailsType
 {
@@ -11,7 +11,7 @@ public class PaymentDetailsType
     private PresentedDocumentType paymentDocument;
 
     /** 
-     * Get the 'FactPaidAmount' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРё СѓРїР»Р°С‡РµРЅРЅРѕР№ СЃСѓРјРјРµ
+     * Get the 'FactPaidAmount' element value. Сведения о фактически уплаченной сумме
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PaymentDetailsType
     }
 
     /** 
-     * Set the 'FactPaidAmount' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРё СѓРїР»Р°С‡РµРЅРЅРѕР№ СЃСѓРјРјРµ
+     * Set the 'FactPaidAmount' element value. Сведения о фактически уплаченной сумме
      * 
      * @param factPaidAmount
      */
@@ -29,7 +29,7 @@ public class PaymentDetailsType
     }
 
     /** 
-     * Get the 'PaymentMethodCode' element value. РЎРїРѕСЃРѕР± РїР»Р°С‚РµР¶Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Get the 'PaymentMethodCode' element value. Способ платежа в соответствии с классификатором способов и особенностей уплаты таможенных и иных платежей
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PaymentDetailsType
     }
 
     /** 
-     * Set the 'PaymentMethodCode' element value. РЎРїРѕСЃРѕР± РїР»Р°С‚РµР¶Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Set the 'PaymentMethodCode' element value. Способ платежа в соответствии с классификатором способов и особенностей уплаты таможенных и иных платежей
      * 
      * @param paymentMethodCode
      */
@@ -47,7 +47,7 @@ public class PaymentDetailsType
     }
 
     /** 
-     * Get the 'PaymentDocument' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРѕРёР·РІРµРґРµРЅР° СѓРїР»Р°С‚Р°
+     * Get the 'PaymentDocument' element value. Документ, по которому произведена уплата
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PaymentDetailsType
     }
 
     /** 
-     * Set the 'PaymentDocument' element value. Р”РѕРєСѓРјРµРЅС‚, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРѕРёР·РІРµРґРµРЅР° СѓРїР»Р°С‚Р°
+     * Set the 'PaymentDocument' element value. Документ, по которому произведена уплата
      * 
      * @param paymentDocument
      */

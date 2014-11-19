@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.airwaybill;
 
 /** 
- * РђРіРµРЅС‚ РІС‹РїСѓСЃРєР°СЋС‰РµРіРѕ РїРµСЂРµРІРѕР·С‡РёРєР°
+ * Агент выпускающего перевозчика
  */
 public class IssueAgentType extends AirOrganizationType
 {
@@ -10,7 +10,7 @@ public class IssueAgentType extends AirOrganizationType
     private String commissionFlag;
 
     /** 
-     * Get the 'IATACode' element value. РљРѕРґ РРђРўРђ Р°РіРµРЅС‚Р°
+     * Get the 'IATACode' element value. Код ИАТА агента
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class IssueAgentType extends AirOrganizationType
     }
 
     /** 
-     * Set the 'IATACode' element value. РљРѕРґ РРђРўРђ Р°РіРµРЅС‚Р°
+     * Set the 'IATACode' element value. Код ИАТА агента
      * 
      * @param IATACode
      */
@@ -28,7 +28,7 @@ public class IssueAgentType extends AirOrganizationType
     }
 
     /** 
-     * Get the 'CommissionFlag' element value. РЎРІРµРґРµРЅРёСЏ Рѕ  РєРѕРјРёСЃСЃРёРѕРЅРЅС‹С… РґР»СЏ Р°РіРµРЅС‚Р°: 1 - Р°РіРµРЅС‚Сѓ РїРѕР»Р°РіР°СЋС‚СЃСЏ РєРѕРјРёСЃСЃРёРѕРЅРЅС‹Рµ; 0 - Р·Р°РїРёСЃСЊ РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚
+     * Get the 'CommissionFlag' element value. Сведения о  комиссионных для агента: 1 - агенту полагаются комиссионные; 0 - запись отсутствует
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class IssueAgentType extends AirOrganizationType
     }
 
     /** 
-     * Set the 'CommissionFlag' element value. РЎРІРµРґРµРЅРёСЏ Рѕ  РєРѕРјРёСЃСЃРёРѕРЅРЅС‹С… РґР»СЏ Р°РіРµРЅС‚Р°: 1 - Р°РіРµРЅС‚Сѓ РїРѕР»Р°РіР°СЋС‚СЃСЏ РєРѕРјРёСЃСЃРёРѕРЅРЅС‹Рµ; 0 - Р·Р°РїРёСЃСЊ РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚
+     * Set the 'CommissionFlag' element value. Сведения о  комиссионных для агента: 1 - агенту полагаются комиссионные; 0 - запись отсутствует
      * 
      * @param commissionFlag
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РњРµСЂС‹ РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… Р±С‹Р»Рѕ СЃС„РѕСЂРјРёСЂРѕРІР°РЅРѕ РЅР°РїСЂР°РІР»РµРЅРёРµ РІ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅС‹Рµ РѕС‚РґРµР»С‹ С‚Р°РјРѕР¶РµРЅ РґР»СЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёР№
+ * Меры на основании которых было сформировано направление в функциональные отделы таможен для принятия решений
  */
 public class MeasureListType
 {
@@ -13,7 +13,7 @@ public class MeasureListType
     private List<GoodsPRInfoType> goodsPRInfoList = new ArrayList<GoodsPRInfoType>();
 
     /** 
-     * Get the 'MeasureCode' element value. РљРѕРґ РјРµСЂС‹ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°
+     * Get the 'MeasureCode' element value. Код меры по минимизации риска
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class MeasureListType
     }
 
     /** 
-     * Set the 'MeasureCode' element value. РљРѕРґ РјРµСЂС‹ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°
+     * Set the 'MeasureCode' element value. Код меры по минимизации риска
      * 
      * @param measureCode
      */
@@ -31,7 +31,7 @@ public class MeasureListType
     }
 
     /** 
-     * Get the list of 'GoodsPRInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ Рё СЃСЂР°Р±РѕС‚Р°РІС€РµРј РЅР° РЅРµРј РїСЂРѕС„РёР»Рµ СЂРёСЃРєР°, СЃРѕРґРµСЂР¶Р°С‰РµРј РґР°РЅРЅСѓСЋ РјРµСЂСѓ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°
+     * Get the list of 'GoodsPRInfo' element items. Информация о товаре и сработавшем на нем профиле риска, содержащем данную меру по минимизации риска
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class MeasureListType
     }
 
     /** 
-     * Set the list of 'GoodsPRInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ Рё СЃСЂР°Р±РѕС‚Р°РІС€РµРј РЅР° РЅРµРј РїСЂРѕС„РёР»Рµ СЂРёСЃРєР°, СЃРѕРґРµСЂР¶Р°С‰РµРј РґР°РЅРЅСѓСЋ РјРµСЂСѓ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°
+     * Set the list of 'GoodsPRInfo' element items. Информация о товаре и сработавшем на нем профиле риска, содержащем данную меру по минимизации риска
      * 
      * @param list
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎС‚СЂРѕРєР° РїСЂРёР»РѕР¶РµРЅРёСЏ Рє Р»РёС†РµРЅР·РёРё (С‚РѕРІР°СЂРЅР°СЏ СЃРїРµС†РёС„РёРєР°С†РёСЏ)
+ * Строка приложения к лицензии (товарная спецификация)
  */
 public class LicAddendumItemType
 {
@@ -17,7 +17,7 @@ public class LicAddendumItemType
     private List<SupplementaryQuantityType> licAddendumMeasureItemList = new ArrayList<SupplementaryQuantityType>();
 
     /** 
-     * Get the 'PositionNumber' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё
+     * Get the 'PositionNumber' element value. Номер позиции
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class LicAddendumItemType
     }
 
     /** 
-     * Set the 'PositionNumber' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё
+     * Set the 'PositionNumber' element value. Номер позиции
      * 
      * @param positionNumber
      */
@@ -35,7 +35,7 @@ public class LicAddendumItemType
     }
 
     /** 
-     * Get the list of 'CommodityName' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'CommodityName' element items. Описание товара
      * 
      * @return list
      */
@@ -44,7 +44,7 @@ public class LicAddendumItemType
     }
 
     /** 
-     * Set the list of 'CommodityName' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'CommodityName' element items. Описание товара
      * 
      * @param list
      */
@@ -53,7 +53,7 @@ public class LicAddendumItemType
     }
 
     /** 
-     * Get the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РІР°Р»СЋС‚Рµ РєРѕРЅС‚Р°РєС‚Р°
+     * Get the 'Cost' element value. Стоимость товара в валюте контакта
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class LicAddendumItemType
     }
 
     /** 
-     * Set the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° РІ РІР°Р»СЋС‚Рµ РєРѕРЅС‚Р°РєС‚Р°
+     * Set the 'Cost' element value. Стоимость товара в валюте контакта
      * 
      * @param cost
      */
@@ -71,7 +71,7 @@ public class LicAddendumItemType
     }
 
     /** 
-     * Get the 'PageNumber' element value. РќРѕРјРµСЂ Р»РёСЃС‚Р°
+     * Get the 'PageNumber' element value. Номер листа
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class LicAddendumItemType
     }
 
     /** 
-     * Set the 'PageNumber' element value. РќРѕРјРµСЂ Р»РёСЃС‚Р°
+     * Set the 'PageNumber' element value. Номер листа
      * 
      * @param pageNumber
      */
@@ -89,7 +89,7 @@ public class LicAddendumItemType
     }
 
     /** 
-     * Get the list of 'LicAddendumMeasureItem' element items. Р•РґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ Рё РєРѕР»РёС‡РµСЃС‚РІР°
+     * Get the list of 'LicAddendumMeasureItem' element items. Единицы измерения и количества
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class LicAddendumItemType
     }
 
     /** 
-     * Set the list of 'LicAddendumMeasureItem' element items. Р•РґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ Рё РєРѕР»РёС‡РµСЃС‚РІР°
+     * Set the list of 'LicAddendumMeasureItem' element items. Единицы измерения и количества
      * 
      * @param list
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.permitchangedata;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РљР”Рў
+ * Регистрационный номер КДТ
  */
 public class KDTRegNumberType extends GTDIDType
 {
     private String serialNumber;
 
     /** 
-     * Get the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РљР”Рў Рє Р”Рў, СЃРІРµРґРµРЅРёСЏ РІ РєРѕС‚РѕСЂРѕР№ РёР·РјРµРЅСЏСЋС‚СЃСЏ Рё (РёР»Рё) РґРѕРїРѕР»РЅСЏСЋС‚СЃСЏ
+     * Get the 'SerialNumber' element value. Порядковый номер КДТ к ДТ, сведения в которой изменяются и (или) дополняются
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class KDTRegNumberType extends GTDIDType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РљР”Рў Рє Р”Рў, СЃРІРµРґРµРЅРёСЏ РІ РєРѕС‚РѕСЂРѕР№ РёР·РјРµРЅСЏСЋС‚СЃСЏ Рё (РёР»Рё) РґРѕРїРѕР»РЅСЏСЋС‚СЃСЏ
+     * Set the 'SerialNumber' element value. Порядковый номер КДТ к ДТ, сведения в которой изменяются и (или) дополняются
      * 
      * @param serialNumber
      */

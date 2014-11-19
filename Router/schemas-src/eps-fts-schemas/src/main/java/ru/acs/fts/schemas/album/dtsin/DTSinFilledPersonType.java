@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.dtsin;
 import ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.DTSFilledPersonType;
 
 /** 
- * Р”РўРЎ. РІРЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј Р”РўРЎ.
+ * ДТС. внутренний формат. Сведения о лице, заполнившем ДТС.
  */
 public class DTSinFilledPersonType extends DTSFilledPersonType
 {
     private String LNP;
 
     /** 
-     * Get the 'LNP' element value. Р›РёС‡РЅР°СЏ РЅРѕРјРµСЂРЅР°СЏ РїРµС‡Р°С‚СЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°.
+     * Get the 'LNP' element value. Личная номерная печать должностного лица таможенного органа.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DTSinFilledPersonType extends DTSFilledPersonType
     }
 
     /** 
-     * Set the 'LNP' element value. Р›РёС‡РЅР°СЏ РЅРѕРјРµСЂРЅР°СЏ РїРµС‡Р°С‚СЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°.
+     * Set the 'LNP' element value. Личная номерная печать должностного лица таможенного органа.
      * 
      * @param LNP
      */

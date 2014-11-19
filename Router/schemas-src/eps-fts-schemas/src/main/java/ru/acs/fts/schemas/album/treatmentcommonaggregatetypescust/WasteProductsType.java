@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћС‚С…РѕРґС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+ * Отходы переработки
  */
 public class WasteProductsType
 {
@@ -15,7 +15,7 @@ public class WasteProductsType
     private List<TreatProductsType> wasteProductsItemList = new ArrayList<TreatProductsType>();
 
     /** 
-     * Get the list of 'WasteProductsInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рє РіСЂР°С„Рµ "РћС‚С…РѕРґС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё"
+     * Get the list of 'WasteProductsInfo' element items. Дополнительная информация к графе "Отходы переработки"
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Set the list of 'WasteProductsInfo' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рє РіСЂР°С„Рµ "РћС‚С…РѕРґС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё"
+     * Set the list of 'WasteProductsInfo' element items. Дополнительная информация к графе "Отходы переработки"
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Get the list of 'WasteIdentMethod' element items. РЎРїРѕСЃРѕР±С‹ РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ РІ РѕС‚С…РѕРґР°С…
+     * Get the list of 'WasteIdentMethod' element items. Способы идентификации товаров в отходах
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Set the list of 'WasteIdentMethod' element items. РЎРїРѕСЃРѕР±С‹ РёРґРµРЅС‚РёС„РёРєР°С†РёРё С‚РѕРІР°СЂРѕРІ РІ РѕС‚С…РѕРґР°С…
+     * Set the list of 'WasteIdentMethod' element items. Способы идентификации товаров в отходах
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Get the 'WasteOutProcedure' element value. Р РµР¶РёРј РІС‹РїСѓСЃРєР° РѕС‚С…РѕРґРѕРІ
+     * Get the 'WasteOutProcedure' element value. Режим выпуска отходов
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Set the 'WasteOutProcedure' element value. Р РµР¶РёРј РІС‹РїСѓСЃРєР° РѕС‚С…РѕРґРѕРІ
+     * Set the 'WasteOutProcedure' element value. Режим выпуска отходов
      * 
      * @param wasteOutProcedure
      */
@@ -69,7 +69,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Get the list of 'WasteProductsItem' element items. РћС‚С…РѕРґС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё - РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'WasteProductsItem' element items. Отходы переработки - описание товара
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class WasteProductsType
     }
 
     /** 
-     * Set the list of 'WasteProductsItem' element items. РћС‚С…РѕРґС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё - РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'WasteProductsItem' element items. Отходы переработки - описание товара
      * 
      * @param list
      */

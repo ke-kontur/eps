@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° Р·Р°РєСЂС‹С‚РёРµ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ / РїСЂРѕС†РµРґСѓСЂС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ
+ * Запрос на закрытие предварительной процедуры / процедуры декларирования
  */
 public class ReqCloseProcType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class ReqCloseProcType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CloseProcedureID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ  РїСЂРѕС†РµРґСѓСЂС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
+     * Get the 'CloseProcedureID' element value. Идентификатор  процедуры декларирования.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ReqCloseProcType extends BaseDocType
     }
 
     /** 
-     * Set the 'CloseProcedureID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ  РїСЂРѕС†РµРґСѓСЂС‹ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ.
+     * Set the 'CloseProcedureID' element value. Идентификатор  процедуры декларирования.
      * 
      * @param closeProcedureID
      */
@@ -32,7 +32,7 @@ public class ReqCloseProcType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓС‡Р°СЃС‚РЅРёРєРµ Р’Р­Р”.
+     * Get the 'Declarant' element value. Информация об участнике ВЭД.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ReqCloseProcType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓС‡Р°СЃС‚РЅРёРєРµ Р’Р­Р”.
+     * Set the 'Declarant' element value. Информация об участнике ВЭД.
      * 
      * @param declarant
      */
@@ -50,7 +50,7 @@ public class ReqCloseProcType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Уникальный идентификатор документа.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ReqCloseProcType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Уникальный идентификатор документа.
      * 
      * @param documentModeID
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 
 /** 
- * РњРµС‚РѕРґ СЃР»РѕР¶РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. (5)
+ * Метод сложения таможенной стоимости. (5)
  */
 public class DTSMethod5Type
 {
@@ -10,7 +10,7 @@ public class DTSMethod5Type
     private Method5AdditionalSumType method5AdditionalSum;
 
     /** 
-     * Get the 'Method5Basis' element value. РћСЃРЅРѕРІР° РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 5. Р“СЂ. Рђ (11-15)
+     * Get the 'Method5Basis' element value. Основа для расчета таможенной стоимости по методу 5. Гр. А (11-15)
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DTSMethod5Type
     }
 
     /** 
-     * Set the 'Method5Basis' element value. РћСЃРЅРѕРІР° РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 5. Р“СЂ. Рђ (11-15)
+     * Set the 'Method5Basis' element value. Основа для расчета таможенной стоимости по методу 5. Гр. А (11-15)
      * 
      * @param method5Basis
      */
@@ -28,7 +28,7 @@ public class DTSMethod5Type
     }
 
     /** 
-     * Get the 'Method5AdditionalSum' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РЅР°С‡РёСЃР»РµРЅРёСЏ  (РёРЅС‹Рµ Р·Р°С‚СЂР°С‚С‹) РіСЂ. Р‘ (16-17)
+     * Get the 'Method5AdditionalSum' element value. Дополнительные начисления  (иные затраты) гр. Б (16-17)
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DTSMethod5Type
     }
 
     /** 
-     * Set the 'Method5AdditionalSum' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РЅР°С‡РёСЃР»РµРЅРёСЏ  (РёРЅС‹Рµ Р·Р°С‚СЂР°С‚С‹) РіСЂ. Р‘ (16-17)
+     * Set the 'Method5AdditionalSum' element value. Дополнительные начисления  (иные затраты) гр. Б (16-17)
      * 
      * @param method5AdditionalSum
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonleaftypescust;
 
 /** 
- * Р’РёРґ РѕС‚С‡РµС‚Р° Р”Рћ2
+ * Вид отчета ДО2
  */
 public enum DO2ReportKind {
     ACT_DELIVERY("act_Delivery"), ACT_WRITTEN_OFF("act_WrittenOff");

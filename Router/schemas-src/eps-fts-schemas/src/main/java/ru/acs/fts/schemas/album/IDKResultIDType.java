@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РѕСЃРјРѕС‚СЂР° РІ Р‘Р” РґР»СЏ РїСЂРёРІСЏР·РєРё Р°РєС‚Р°
+ * Информация о результатах осмотра в БД для привязки акта
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -20,7 +20,7 @@ public class IDKResultIDType
     private String resultID;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ РўРћ, РїСЂРѕРІРѕРґРёРІС€РµРіРѕ РѕСЃРјРѕС‚СЂ
+     * Get the 'CustomsCode' element value. Код ТО, проводившего осмотр
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class IDKResultIDType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ РўРћ, РїСЂРѕРІРѕРґРёРІС€РµРіРѕ РѕСЃРјРѕС‚СЂ
+     * Set the 'CustomsCode' element value. Код ТО, проводившего осмотр
      * 
      * @param customsCode
      */
@@ -38,7 +38,7 @@ public class IDKResultIDType
     }
 
     /** 
-     * Get the 'ResultID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РѕСЃРјРѕС‚СЂР° РІ Р‘Р”
+     * Get the 'ResultID' element value. Идентификатор результатов осмотра в БД
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class IDKResultIDType
     }
 
     /** 
-     * Set the 'ResultID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РѕСЃРјРѕС‚СЂР° РІ Р‘Р”
+     * Set the 'ResultID' element value. Идентификатор результатов осмотра в БД
      * 
      * @param resultID
      */

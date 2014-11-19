@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ РїСЂРёРЅС†РёРїР°Р»Р°.
+ * Представитель принципала.
  */
 public class ESADPrincipalRepresentativeType
 {

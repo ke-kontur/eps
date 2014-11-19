@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.oez_report;
 
 /** 
- * РўР°Р±Р»РёС†Р° 1. РўРѕРІР°СЂ, РІРІРµР·С‘РЅРЅС‹Р№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј СЂРµР¶РёРјРѕРј РћР­Р—
+ * Таблица 1. Товар, ввезённый в соответствии с таможенным режимом ОЭЗ
  */
 public class Table1GoodsType extends GoodsBaseType
 {
@@ -10,7 +10,7 @@ public class Table1GoodsType extends GoodsBaseType
     private Table1QuantityUsedType used;
 
     /** 
-     * Get the 'Put' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РїРѕРјРµС‰С‘РЅРЅРѕРµ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹
+     * Get the 'Put' element value. Количество товара, помещённое под таможенный режим свободной таможенной зоны
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class Table1GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'Put' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РїРѕРјРµС‰С‘РЅРЅРѕРµ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹
+     * Set the 'Put' element value. Количество товара, помещённое под таможенный режим свободной таможенной зоны
      * 
      * @param put
      */
@@ -28,7 +28,7 @@ public class Table1GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'Used' element value. РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹
+     * Get the 'Used' element value. Использование товаров, помещенных под таможенный режим свободной таможенной зоны
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class Table1GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'Used' element value. РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹
+     * Set the 'Used' element value. Использование товаров, помещенных под таможенный режим свободной таможенной зоны
      * 
      * @param used
      */

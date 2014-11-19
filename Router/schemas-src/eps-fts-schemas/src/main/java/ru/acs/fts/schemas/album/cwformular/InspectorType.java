@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.cwformular;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+ * Должностное лицо таможенного органа
  */
 public class InspectorType extends CustomsPersonType
 {
     private String personPost;
 
     /** 
-     * Get the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ.
+     * Get the 'PersonPost' element value. Должность.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class InspectorType extends CustomsPersonType
     }
 
     /** 
-     * Set the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ.
+     * Set the 'PersonPost' element value. Должность.
      * 
      * @param personPost
      */

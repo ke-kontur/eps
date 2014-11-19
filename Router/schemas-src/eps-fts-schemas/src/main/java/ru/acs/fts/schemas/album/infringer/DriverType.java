@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Р’РѕРґРёС‚РµР»СЊ
+ * Водитель
  */
 public class DriverType extends PersonBaseType
 {
@@ -13,7 +13,7 @@ public class DriverType extends PersonBaseType
     private String driverBirthPlace;
 
     /** 
-     * Get the 'DriverBirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ РІРѕРґРёС‚РµР»СЏ
+     * Get the 'DriverBirthDate' element value. Дата рождения водителя
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class DriverType extends PersonBaseType
     }
 
     /** 
-     * Set the 'DriverBirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ РІРѕРґРёС‚РµР»СЏ
+     * Set the 'DriverBirthDate' element value. Дата рождения водителя
      * 
      * @param driverBirthDate
      */
@@ -31,7 +31,7 @@ public class DriverType extends PersonBaseType
     }
 
     /** 
-     * Get the 'DriverBirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ РІРѕРґРёС‚РµР»СЏ
+     * Get the 'DriverBirthPlace' element value. Место рождения водителя
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DriverType extends PersonBaseType
     }
 
     /** 
-     * Set the 'DriverBirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ РІРѕРґРёС‚РµР»СЏ
+     * Set the 'DriverBirthPlace' element value. Место рождения водителя
      * 
      * @param driverBirthPlace
      */

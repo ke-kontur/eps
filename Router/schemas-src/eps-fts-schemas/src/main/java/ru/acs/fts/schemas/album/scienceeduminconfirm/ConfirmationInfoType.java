@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё
+ * Сведения о подтверждении
  */
 public class ConfirmationInfoType extends DocumentBaseType
 {
@@ -14,7 +14,7 @@ public class ConfirmationInfoType extends DocumentBaseType
     private LocalDate expirationDate;
 
     /** 
-     * Get the 'ModificationDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ
+     * Get the 'ModificationDateTime' element value. Дата и время последнего изменения
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ConfirmationInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ModificationDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ
+     * Set the 'ModificationDateTime' element value. Дата и время последнего изменения
      * 
      * @param modificationDateTime
      */
@@ -32,7 +32,7 @@ public class ConfirmationInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Status' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РґРѕРєСѓРјРµРЅС‚ РІ СЃС‚Р°С‚СѓСЃРµ "РЅРµ РїРѕРґС‚РІРµСЂР¶РґРµРЅ"
+     * Get the 'Status' element value. Признак того, что документ в статусе "не подтвержден"
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ConfirmationInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Status' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РґРѕРєСѓРјРµРЅС‚ РІ СЃС‚Р°С‚СѓСЃРµ "РЅРµ РїРѕРґС‚РІРµСЂР¶РґРµРЅ"
+     * Set the 'Status' element value. Признак того, что документ в статусе "не подтвержден"
      * 
      * @param status
      */
@@ -50,7 +50,7 @@ public class ConfirmationInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ExpirationDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ
+     * Get the 'ExpirationDate' element value. Срок действия
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ConfirmationInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ExpirationDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ
+     * Set the 'ExpirationDate' element value. Срок действия
      * 
      * @param expirationDate
      */

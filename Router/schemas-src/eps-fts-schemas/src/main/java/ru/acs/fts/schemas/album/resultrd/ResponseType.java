@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р­Р»РµРјРµРЅС‚, СЃРѕРґРµСЂР¶Р°С‰РёР№ СЂРµР·СѓР»СЊС‚Р°С‚ РІС‹РїРѕР»РЅРµРЅРёСЏ РѕРїРµСЂР°С†РёРё (РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№ РёР»Рё РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№)
+ * Элемент, содержащий результат выполнения операции (положительный или отрицательный)
  */
 public class ResponseType
 {
@@ -13,7 +13,7 @@ public class ResponseType
     private List<ResultInformationType> resultInformationList = new ArrayList<ResultInformationType>();
 
     /** 
-     * Get the 'RefDocumentID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°, РІ РєРѕС‚РѕСЂРѕРј Р±С‹Р»Р° РґРѕРїСѓС‰РµРЅР° РѕС€РёР±РєР°.
+     * Get the 'RefDocumentID' element value. Идентификатор документа, в котором была допущена ошибка.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ResponseType
     }
 
     /** 
-     * Set the 'RefDocumentID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°, РІ РєРѕС‚РѕСЂРѕРј Р±С‹Р»Р° РґРѕРїСѓС‰РµРЅР° РѕС€РёР±РєР°.
+     * Set the 'RefDocumentID' element value. Идентификатор документа, в котором была допущена ошибка.
      * 
      * @param refDocumentID
      */
@@ -31,7 +31,7 @@ public class ResponseType
     }
 
     /** 
-     * Get the list of 'ResultInformation' element items. РљРѕРґ РІРѕР·РІСЂР°С‚Р° РїСЂРё РѕР±СЂР°Р±РѕС‚РєРµ СЃРѕРѕР±С‰РµРЅРёСЏ, СЂРµР·СѓР»СЊС‚Р°С‚ РІС‹РїРѕР»РЅРµРЅРёСЏ РѕРїРµСЂР°С†РёРё
+     * Get the list of 'ResultInformation' element items. Код возврата при обработке сообщения, результат выполнения операции
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class ResponseType
     }
 
     /** 
-     * Set the list of 'ResultInformation' element items. РљРѕРґ РІРѕР·РІСЂР°С‚Р° РїСЂРё РѕР±СЂР°Р±РѕС‚РєРµ СЃРѕРѕР±С‰РµРЅРёСЏ, СЂРµР·СѓР»СЊС‚Р°С‚ РІС‹РїРѕР»РЅРµРЅРёСЏ РѕРїРµСЂР°С†РёРё
+     * Set the list of 'ResultInformation' element items. Код возврата при обработке сообщения, результат выполнения операции
      * 
      * @param list
      */

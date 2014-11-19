@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹. Р“СЂ. 44
+ * Представленные документы. Гр. 44
  */
 public class CUESADPresentedDocumentsType extends DocumentBaseType
 {
@@ -27,7 +27,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     private LicenseGoodsType licenseGoods;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
      * 
      * @param customsCode
      */
@@ -45,7 +45,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44
+     * Get the 'PresentedDocumentModeCode' element value. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44
+     * Set the 'PresentedDocumentModeCode' element value. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44
      * 
      * @param presentedDocumentModeCode
      */
@@ -63,7 +63,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocumentBeginActionsDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentBeginActionsDate' element value. Дата начала действия документа
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentBeginActionsDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentBeginActionsDate' element value. Дата начала действия документа
      * 
      * @param documentBeginActionsDate
      */
@@ -81,7 +81,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocumentEndActionsDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentEndActionsDate' element value. Дата окончания действия документа
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocumentEndActionsDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentEndActionsDate' element value. Дата окончания действия документа
      * 
      * @param documentEndActionsDate
      */
@@ -99,7 +99,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PresentingLackingDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'PresentingLackingDate' element value. Дата представления недостающего документа
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PresentingLackingDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'PresentingLackingDate' element value. Дата представления недостающего документа
      * 
      * @param presentingLackingDate
      */
@@ -117,7 +117,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'TemporaryImportCode' element value. РљРѕРґ СЃСЂРѕРєР° РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°. 1- РµСЃР»Рё СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·/РІС‹РІРѕР·Р° РјРµРЅРµРµ 1 РіРѕРґР°, 2- РµСЃР»Рё СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·/РІС‹РІРѕР·Р° Р±РѕР»РµРµ 1 РіРѕРґР°
+     * Get the 'TemporaryImportCode' element value. Код срока временного ввоза. 1- если срок временного ввоз/вывоза менее 1 года, 2- если срок временного ввоз/вывоза более 1 года
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'TemporaryImportCode' element value. РљРѕРґ СЃСЂРѕРєР° РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°. 1- РµСЃР»Рё СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·/РІС‹РІРѕР·Р° РјРµРЅРµРµ 1 РіРѕРґР°, 2- РµСЃР»Рё СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·/РІС‹РІРѕР·Р° Р±РѕР»РµРµ 1 РіРѕРґР°
+     * Set the 'TemporaryImportCode' element value. Код срока временного ввоза. 1- если срок временного ввоз/вывоза менее 1 года, 2- если срок временного ввоз/вывоза более 1 года
      * 
      * @param temporaryImportCode
      */
@@ -135,7 +135,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'TemporaryStorageImportDate' element value. Р—Р°СЏРІР»СЏРµРјС‹Р№ СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°/РІС‹РІРѕР·Р°./РЎСЂРѕРє С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ/Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ СЃСЂРѕРє РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Get the 'TemporaryStorageImportDate' element value. Заявляемый срок временного ввоза/вывоза./Срок хранения товаров/Запрашиваемый срок переработки
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'TemporaryStorageImportDate' element value. Р—Р°СЏРІР»СЏРµРјС‹Р№ СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°/РІС‹РІРѕР·Р°./РЎСЂРѕРє С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ/Р—Р°РїСЂР°С€РёРІР°РµРјС‹Р№ СЃСЂРѕРє РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Set the 'TemporaryStorageImportDate' element value. Заявляемый срок временного ввоза/вывоза./Срок хранения товаров/Запрашиваемый срок переработки
      * 
      * @param temporaryStorageImportDate
      */
@@ -154,7 +154,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'CustomsPaymentModeCodeType' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
+     * Get the 'CustomsPaymentModeCodeType' element value. Код вида таможенного платежа по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'CustomsPaymentModeCodeType' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
+     * Set the 'CustomsPaymentModeCodeType' element value. Код вида таможенного платежа по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
      * 
      * @param customsPaymentModeCodeType
      */
@@ -172,7 +172,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'SupplyStatus' element value. 11 - РћРџР•Р Р•Р–РђР®Р©РђРЇ РџРћРЎРўРђР’РљРђ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РµСЃР»Рё РїСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё РІРІРѕР·СЏС‚СЃСЏ СЂР°РЅСЊС€Рµ, С‡РµРј РѕСЃСѓС‰РµСЃС‚РІР»РµРЅ РІС‹РІРѕР· С‚РѕРІР°СЂРѕРІ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё. Р’ РѕСЃС‚Р°Р»СЊРЅС‹С… СЃР»СѓС‡Р°СЏС… РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
+     * Get the 'SupplyStatus' element value. 11 - ОПЕРЕЖАЮЩАЯ ПОСТАВКА. Заполняется если продукты переработки ввозятся раньше, чем осуществлен вывоз товаров на переработку вне таможенной территории. В остальных случаях не заполняется
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SupplyStatus' element value. 11 - РћРџР•Р Р•Р–РђР®Р©РђРЇ РџРћРЎРўРђР’РљРђ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РµСЃР»Рё РїСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё РІРІРѕР·СЏС‚СЃСЏ СЂР°РЅСЊС€Рµ, С‡РµРј РѕСЃСѓС‰РµСЃС‚РІР»РµРЅ РІС‹РІРѕР· С‚РѕРІР°СЂРѕРІ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё. Р’ РѕСЃС‚Р°Р»СЊРЅС‹С… СЃР»СѓС‡Р°СЏС… РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
+     * Set the 'SupplyStatus' element value. 11 - ОПЕРЕЖАЮЩАЯ ПОСТАВКА. Заполняется если продукты переработки ввозятся раньше, чем осуществлен вывоз товаров на переработку вне таможенной территории. В остальных случаях не заполняется
      * 
      * @param supplyStatus
      */
@@ -190,7 +190,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°, РІ РєРѕС‚РѕСЂРѕР№ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'CountryCode' element value. Код страны в соответствии с классификатором стран мира, в которой выдан сертификат
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°, РІ РєРѕС‚РѕСЂРѕР№ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'CountryCode' element value. Код страны в соответствии с классификатором стран мира, в которой выдан сертификат
      * 
      * @param countryCode
      */
@@ -208,7 +208,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'SpecialSimplifiedCode' element value. РљРѕРґ РІРёРґР° СЃРїРµС†РёР°Р»СЊРЅС‹С… СѓРїСЂРѕС‰РµРЅРёР№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ СЃРїРµС†РёР°Р»СЊРЅС‹С… СѓРїСЂРѕС‰РµРЅРёР№
+     * Get the 'SpecialSimplifiedCode' element value. Код вида специальных упрощений в соответствии с классификатором видов специальных упрощений
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SpecialSimplifiedCode' element value. РљРѕРґ РІРёРґР° СЃРїРµС†РёР°Р»СЊРЅС‹С… СѓРїСЂРѕС‰РµРЅРёР№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ СЃРїРµС†РёР°Р»СЊРЅС‹С… СѓРїСЂРѕС‰РµРЅРёР№
+     * Set the 'SpecialSimplifiedCode' element value. Код вида специальных упрощений в соответствии с классификатором видов специальных упрощений
      * 
      * @param specialSimplifiedCode
      */
@@ -226,7 +226,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'TotalDocuments' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РґРѕРєСѓРјРµРЅС‚РѕРІ (РџРЎ, РєРѕРЅС‚СЂР°РєС‚РѕРІ) РґР»СЏ Р Р¤
+     * Get the 'TotalDocuments' element value. Общее количество документов (ПС, контрактов) для РФ
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'TotalDocuments' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РґРѕРєСѓРјРµРЅС‚РѕРІ (РџРЎ, РєРѕРЅС‚СЂР°РєС‚РѕРІ) РґР»СЏ Р Р¤
+     * Set the 'TotalDocuments' element value. Общее количество документов (ПС, контрактов) для РФ
      * 
      * @param totalDocuments
      */
@@ -244,7 +244,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PreferenciiCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё РґРѕРєСѓРјРµРЅС‚РѕРІ, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… РЅР°Р»РёС‡РёРµ Р»СЊРіРѕС‚ РёР»Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ РїРѕ СѓРїР»Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р”Р»СЏ Р Р‘
+     * Get the 'PreferenciiCountryCode' element value. Код страны классификации документов, подтверждающих наличие льгот или особенностей по уплате таможенных платежей. Для РБ
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PreferenciiCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё РґРѕРєСѓРјРµРЅС‚РѕРІ, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… РЅР°Р»РёС‡РёРµ Р»СЊРіРѕС‚ РёР»Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ РїРѕ СѓРїР»Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р”Р»СЏ Р Р‘
+     * Set the 'PreferenciiCountryCode' element value. Код страны классификации документов, подтверждающих наличие льгот или особенностей по уплате таможенных платежей. Для РБ
      * 
      * @param preferenciiCountryCode
      */
@@ -262,7 +262,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PreferenciiDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°, РїРѕ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РґРѕРєСѓРјРµРЅС‚РѕРІ, РЅРµРѕР±С…РѕРґРёРјС‹С… РґР»СЏ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РєРѕРґРѕРІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…. Р”Р»СЏ Р Р‘
+     * Get the 'PreferenciiDocID' element value. Идентификатор документа, по национальному классификатору документов, необходимых для декларирования товаров в соответствии с классификатором кодов дополнительной информации о документах. Для РБ
      * 
      * @return value
      */
@@ -271,7 +271,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PreferenciiDocID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°, РїРѕ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РґРѕРєСѓРјРµРЅС‚РѕРІ, РЅРµРѕР±С…РѕРґРёРјС‹С… РґР»СЏ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РєРѕРґРѕРІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…. Р”Р»СЏ Р Р‘
+     * Set the 'PreferenciiDocID' element value. Идентификатор документа, по национальному классификатору документов, необходимых для декларирования товаров в соответствии с классификатором кодов дополнительной информации о документах. Для РБ
      * 
      * @param preferenciiDocID
      */
@@ -280,7 +280,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ProcessingGoodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РѕРїРµСЂР°С†РёР№ РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РїРµСЂРµСЂР°Р±РѕС‚РєРё С‚РѕРІР°СЂРѕРІ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
+     * Get the 'ProcessingGoodsCost' element value. Стоимость операций по переработке товаров, помещенных под таможенную процедуру переработки товаров вне таможенной территории
      * 
      * @return value
      */
@@ -289,7 +289,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ProcessingGoodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РѕРїРµСЂР°С†РёР№ РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РїРµСЂРµСЂР°Р±РѕС‚РєРё С‚РѕРІР°СЂРѕРІ РІРЅРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
+     * Set the 'ProcessingGoodsCost' element value. Стоимость операций по переработке товаров, помещенных под таможенную процедуру переработки товаров вне таможенной территории
      * 
      * @param processingGoodsCost
      */
@@ -298,7 +298,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'LicenseGoods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРј С‚РѕРІР°СЂРµ РїРѕ Р»РёС†РµРЅР·РёРё
+     * Get the 'LicenseGoods' element value. Сведения о декларируемом товаре по лицензии
      * 
      * @return value
      */
@@ -307,7 +307,7 @@ public class CUESADPresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'LicenseGoods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРј С‚РѕРІР°СЂРµ РїРѕ Р»РёС†РµРЅР·РёРё
+     * Set the 'LicenseGoods' element value. Сведения о декларируемом товаре по лицензии
      * 
      * @param licenseGoods
      */

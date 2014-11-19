@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+ * Описание переработки
  */
 public class TreatmentType
 {
@@ -24,7 +24,7 @@ public class TreatmentType
     private List<ProcOrganizationType> procOrganizationList = new ArrayList<ProcOrganizationType>();
 
     /** 
-     * Get the list of 'YieldNorm' element items. РќРѕСЂРјР° РІС‹С…РѕРґР°
+     * Get the list of 'YieldNorm' element items. Норма выхода
      * 
      * @return list
      */
@@ -33,7 +33,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the list of 'YieldNorm' element items. РќРѕСЂРјР° РІС‹С…РѕРґР°
+     * Set the list of 'YieldNorm' element items. Норма выхода
      * 
      * @param list
      */
@@ -42,7 +42,7 @@ public class TreatmentType
     }
 
     /** 
-     * Get the 'ProcessingCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ  РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Get the 'ProcessingCost' element value. Стоимость  переработки
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the 'ProcessingCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ  РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Set the 'ProcessingCost' element value. Стоимость  переработки
      * 
      * @param processingCost
      */
@@ -60,7 +60,7 @@ public class TreatmentType
     }
 
     /** 
-     * Get the 'CostCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
+     * Get the 'CostCurrencyCode' element value. Код валюты
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the 'CostCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
+     * Set the 'CostCurrencyCode' element value. Код валюты
      * 
      * @param costCurrencyCode
      */
@@ -78,7 +78,7 @@ public class TreatmentType
     }
 
     /** 
-     * Get the list of 'ReplaceInf' element items. РћРїРёСЃР°РЅРёРµ РІРѕР·РјРѕР¶РЅРѕР№ Р·Р°РјРµРЅС‹ РїСЂРѕРґСѓРєС‚РѕРІ РїРµСЂРµСЂР°Р±РѕС‚РєРё РёРЅРѕСЃС‚СЂР°РЅРЅС‹РјРё С‚РѕРІР°СЂР°РјРё
+     * Get the list of 'ReplaceInf' element items. Описание возможной замены продуктов переработки иностранными товарами
      * 
      * @return list
      */
@@ -87,7 +87,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the list of 'ReplaceInf' element items. РћРїРёСЃР°РЅРёРµ РІРѕР·РјРѕР¶РЅРѕР№ Р·Р°РјРµРЅС‹ РїСЂРѕРґСѓРєС‚РѕРІ РїРµСЂРµСЂР°Р±РѕС‚РєРё РёРЅРѕСЃС‚СЂР°РЅРЅС‹РјРё С‚РѕРІР°СЂР°РјРё
+     * Set the list of 'ReplaceInf' element items. Описание возможной замены продуктов переработки иностранными товарами
      * 
      * @param list
      */
@@ -96,7 +96,7 @@ public class TreatmentType
     }
 
     /** 
-     * Get the 'DateLimit' element value. РЎСЂРѕРє РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Get the 'DateLimit' element value. Срок переработки
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the 'DateLimit' element value. РЎСЂРѕРє РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Set the 'DateLimit' element value. Срок переработки
      * 
      * @param dateLimit
      */
@@ -114,7 +114,7 @@ public class TreatmentType
     }
 
     /** 
-     * Get the list of 'TreatmentOperations' element items. РћРїРµСЂР°С†РёРё РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ Рё СЃРїРѕСЃРѕР±С‹ РёС… СЃРѕРІРµСЂС€РµРЅРёСЏ
+     * Get the list of 'TreatmentOperations' element items. Операции по переработке товаров и способы их совершения
      * 
      * @return list
      */
@@ -123,7 +123,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the list of 'TreatmentOperations' element items. РћРїРµСЂР°С†РёРё РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ С‚РѕРІР°СЂРѕРІ Рё СЃРїРѕСЃРѕР±С‹ РёС… СЃРѕРІРµСЂС€РµРЅРёСЏ
+     * Set the list of 'TreatmentOperations' element items. Операции по переработке товаров и способы их совершения
      * 
      * @param list
      */
@@ -132,7 +132,7 @@ public class TreatmentType
     }
 
     /** 
-     * Get the 'TreatmentGoods' element value. РўРѕРІР°СЂС‹ РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Get the 'TreatmentGoods' element value. Товары для переработки
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the 'TreatmentGoods' element value. РўРѕРІР°СЂС‹ РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Set the 'TreatmentGoods' element value. Товары для переработки
      * 
      * @param treatmentGoods
      */
@@ -150,7 +150,7 @@ public class TreatmentType
     }
 
     /** 
-     * Get the 'TrResult' element value. РџСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Get the 'TrResult' element value. Продукты переработки
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the 'TrResult' element value. РџСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Set the 'TrResult' element value. Продукты переработки
      * 
      * @param trResult
      */
@@ -168,7 +168,7 @@ public class TreatmentType
     }
 
     /** 
-     * Get the 'WasteProducts' element value. РћС‚С…РѕРґС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Get the 'WasteProducts' element value. Отходы переработки
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the 'WasteProducts' element value. РћС‚С…РѕРґС‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Set the 'WasteProducts' element value. Отходы переработки
      * 
      * @param wasteProducts
      */
@@ -186,7 +186,7 @@ public class TreatmentType
     }
 
     /** 
-     * Get the 'Loss' element value. РџСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅС‹Рµ РїРѕС‚РµСЂРё
+     * Get the 'Loss' element value. Производственные потери
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the 'Loss' element value. РџСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅС‹Рµ РїРѕС‚РµСЂРё
+     * Set the 'Loss' element value. Производственные потери
      * 
      * @param loss
      */
@@ -204,7 +204,7 @@ public class TreatmentType
     }
 
     /** 
-     * Get the 'Heels' element value. РћСЃС‚Р°С‚РєРё
+     * Get the 'Heels' element value. Остатки
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the 'Heels' element value. РћСЃС‚Р°С‚РєРё
+     * Set the 'Heels' element value. Остатки
      * 
      * @param heels
      */
@@ -222,7 +222,7 @@ public class TreatmentType
     }
 
     /** 
-     * Get the 'Substitute' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·Р°РјРµРЅРµ С‚РѕРІР°СЂРѕРІ РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё СЌРєРІРёРІР°Р»РµРЅС‚РЅС‹РјРё С‚РѕРІР°СЂР°РјРё
+     * Get the 'Substitute' element value. Информация о замене товаров для переработки эквивалентными товарами
      * 
      * @return value
      */
@@ -231,7 +231,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the 'Substitute' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·Р°РјРµРЅРµ С‚РѕРІР°СЂРѕРІ РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё СЌРєРІРёРІР°Р»РµРЅС‚РЅС‹РјРё С‚РѕРІР°СЂР°РјРё
+     * Set the 'Substitute' element value. Информация о замене товаров для переработки эквивалентными товарами
      * 
      * @param substitute
      */
@@ -240,7 +240,7 @@ public class TreatmentType
     }
 
     /** 
-     * Get the list of 'ProcOrganization' element items. РћСЂРіР°РЅРёР·Р°С†РёСЏ РїРµСЂРµСЂР°Р±РѕС‚С‡РёРє
+     * Get the list of 'ProcOrganization' element items. Организация переработчик
      * 
      * @return list
      */
@@ -249,7 +249,7 @@ public class TreatmentType
     }
 
     /** 
-     * Set the list of 'ProcOrganization' element items. РћСЂРіР°РЅРёР·Р°С†РёСЏ РїРµСЂРµСЂР°Р±РѕС‚С‡РёРє
+     * Set the list of 'ProcOrganization' element items. Организация переработчик
      * 
      * @param list
      */

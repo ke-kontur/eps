@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРіРѕ РЅРѕРјРµСЂР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+ * Комплексный тип для описания регистрационного номера транспортного документа
  */
 public class TransportDocRegNumType extends GTDIDType
 {
     private String waybillNumPP;
 
     /** 
-     * Get the 'WaybillNumPP' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'WaybillNumPP' element value. Порядковый номер транспортного документа по журналу регистрации
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TransportDocRegNumType extends GTDIDType
     }
 
     /** 
-     * Set the 'WaybillNumPP' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'WaybillNumPP' element value. Порядковый номер транспортного документа по журналу регистрации
      * 
      * @param waybillNumPP
      */

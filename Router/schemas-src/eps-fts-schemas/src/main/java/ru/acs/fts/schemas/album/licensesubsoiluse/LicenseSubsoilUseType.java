@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р›РёС†РµРЅР·РёСЏ РЅР° РїРѕР»СЊР·РѕРІР°РЅРёРµ РЅРµРґСЂР°РјРё
+ * Лицензия на пользование недрами
  */
 public class LicenseSubsoilUseType extends BaseDocType
 {
@@ -30,7 +30,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'LicensingAuthority' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ Р»РёС†РµРЅР·РёСЋ
+     * Get the 'LicensingAuthority' element value. Наименование органа, выдавшего лицензию
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the 'LicensingAuthority' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ Р»РёС†РµРЅР·РёСЋ
+     * Set the 'LicensingAuthority' element value. Наименование органа, выдавшего лицензию
      * 
      * @param licensingAuthority
      */
@@ -48,7 +48,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Aim' element items. Р¦РµР»РµРІС‹Рј РЅР°Р·РЅР°С‡РµРЅРёРµРј Рё РІРёРґР°РјРё СЂР°Р±РѕС‚
+     * Get the list of 'Aim' element items. Целевым назначением и видами работ
      * 
      * @return list
      */
@@ -57,7 +57,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Aim' element items. Р¦РµР»РµРІС‹Рј РЅР°Р·РЅР°С‡РµРЅРёРµРј Рё РІРёРґР°РјРё СЂР°Р±РѕС‚
+     * Set the list of 'Aim' element items. Целевым назначением и видами работ
      * 
      * @param list
      */
@@ -66,7 +66,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the 'StatusArea' element value. РЎС‚Р°С‚СѓСЃ СѓС‡Р°СЃС‚РєР° РЅРµРґСЂ: 0 - РіРѕСЂРЅРѕРіРѕ РѕС‚РІРѕРґР°, 1 - РіРµРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РѕС‚РІРѕРґР°
+     * Get the 'StatusArea' element value. Статус участка недр: 0 - горного отвода, 1 - геологического отвода
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the 'StatusArea' element value. РЎС‚Р°С‚СѓСЃ СѓС‡Р°СЃС‚РєР° РЅРµРґСЂ: 0 - РіРѕСЂРЅРѕРіРѕ РѕС‚РІРѕРґР°, 1 - РіРµРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РѕС‚РІРѕРґР°
+     * Set the 'StatusArea' element value. Статус участка недр: 0 - горного отвода, 1 - геологического отвода
      * 
      * @param statusArea
      */
@@ -84,7 +84,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё 
+     * Get the 'EndDate' element value. Дата окончания действия лицензии 
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ Р»РёС†РµРЅР·РёРё 
+     * Set the 'EndDate' element value. Дата окончания действия лицензии 
      * 
      * @param endDate
      */
@@ -102,7 +102,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RightSubsoilUse' element items. РџСЂР°РІРѕ РЅР° РїРѕР»СЊР·РѕРІР°РЅРёРµ РЅРµРґСЂР°РјРё
+     * Get the list of 'RightSubsoilUse' element items. Право на пользование недрами
      * 
      * @return list
      */
@@ -111,7 +111,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RightSubsoilUse' element items. РџСЂР°РІРѕ РЅР° РїРѕР»СЊР·РѕРІР°РЅРёРµ РЅРµРґСЂР°РјРё
+     * Set the list of 'RightSubsoilUse' element items. Право на пользование недрами
      * 
      * @param list
      */
@@ -120,7 +120,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р»РёС†РµРЅР·РёРё
+     * Get the 'RegistrationNumber' element value. Регистрационный номер лицензии
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р»РёС†РµРЅР·РёРё
+     * Set the 'RegistrationNumber' element value. Регистрационный номер лицензии
      * 
      * @param registrationNumber
      */
@@ -138,7 +138,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrganizationReceiver' element value. РЎСѓР±СЉРµРєС‚ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊСЃРєРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё, РїРѕР»СѓС‡РёРІС€РёР№ РґР°РЅРЅСѓСЋ Р»РёС†РµРЅР·РёСЋ
+     * Get the 'OrganizationReceiver' element value. Субъект предпринимательской деятельности, получивший данную лицензию
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrganizationReceiver' element value. РЎСѓР±СЉРµРєС‚ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊСЃРєРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё, РїРѕР»СѓС‡РёРІС€РёР№ РґР°РЅРЅСѓСЋ Р»РёС†РµРЅР·РёСЋ
+     * Set the 'OrganizationReceiver' element value. Субъект предпринимательской деятельности, получивший данную лицензию
      * 
      * @param organizationReceiver
      */
@@ -156,7 +156,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the 'RepresentativeOrganization' element value. Р›РёС†Рѕ, РїСЂРµРґСЃС‚Р°РІР»СЏСЋС‰РµРµ СЃСѓР±СЉРµРєС‚ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊСЃРєРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Get the 'RepresentativeOrganization' element value. Лицо, представляющее субъект предпринимательской деятельности
      * 
      * @return value
      */
@@ -165,7 +165,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the 'RepresentativeOrganization' element value. Р›РёС†Рѕ, РїСЂРµРґСЃС‚Р°РІР»СЏСЋС‰РµРµ СЃСѓР±СЉРµРєС‚ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊСЃРєРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Set the 'RepresentativeOrganization' element value. Лицо, представляющее субъект предпринимательской деятельности
      * 
      * @param representativeOrganization
      */
@@ -175,7 +175,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the 'LocationArea' element value. Р Р°СЃРїРѕР»РѕР¶РµРЅРёРµ СѓС‡Р°СЃС‚РєР° РЅРµРґСЂ
+     * Get the 'LocationArea' element value. Расположение участка недр
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the 'LocationArea' element value. Р Р°СЃРїРѕР»РѕР¶РµРЅРёРµ СѓС‡Р°СЃС‚РєР° РЅРµРґСЂ
+     * Set the 'LocationArea' element value. Расположение участка недр
      * 
      * @param locationArea
      */
@@ -193,7 +193,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the 'Verso' element value. РћР±РѕСЂРѕС‚РЅР°СЏ СЃС‚РѕСЂРѕРЅР°
+     * Get the 'Verso' element value. Оборотная сторона
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Verso' element value. РћР±РѕСЂРѕС‚РЅР°СЏ СЃС‚РѕСЂРѕРЅР°
+     * Set the 'Verso' element value. Оборотная сторона
      * 
      * @param verso
      */
@@ -211,7 +211,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PersonIssuingSignature' element items. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° 
+     * Get the list of 'PersonIssuingSignature' element items. Подпись уполномоченного лица 
      * 
      * @return list
      */
@@ -220,7 +220,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PersonIssuingSignature' element items. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° 
+     * Set the list of 'PersonIssuingSignature' element items. Подпись уполномоченного лица 
      * 
      * @param list
      */
@@ -229,7 +229,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the 'SuperiorsSignature' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ РїСЂРµРґРїСЂРёСЏС‚РёСЏ, РїРѕР»СѓС‡Р°СЋС‰РµРіРѕ Р»РёС†РµРЅР·РёСЋ.
+     * Get the 'SuperiorsSignature' element value. Подпись руководителя предприятия, получающего лицензию.
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the 'SuperiorsSignature' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ РїСЂРµРґРїСЂРёСЏС‚РёСЏ, РїРѕР»СѓС‡Р°СЋС‰РµРіРѕ Р»РёС†РµРЅР·РёСЋ.
+     * Set the 'SuperiorsSignature' element value. Подпись руководителя предприятия, получающего лицензию.
      * 
      * @param superiorsSignature
      */
@@ -247,7 +247,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Application' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР»РѕР¶РµРЅРёСЏС…, РІ РєРѕС‚РѕСЂС‹С… РєРѕРїРёРё РґРѕРєСѓРјРµРЅС‚РѕРІ Рё РѕРїРёСЃР°РЅРёРµ РіСЂР°РЅРёС† Р·РµРјРµР»СЊРЅРѕРіРѕ СѓС‡Р°СЃС‚РєР°/РіСЂР°РЅРёС† СѓС‡Р°СЃС‚РєР° РЅРµРґСЂ
+     * Get the list of 'Application' element items. Сведения о приложениях, в которых копии документов и описание границ земельного участка/границ участка недр
      * 
      * @return list
      */
@@ -256,7 +256,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Application' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР»РѕР¶РµРЅРёСЏС…, РІ РєРѕС‚РѕСЂС‹С… РєРѕРїРёРё РґРѕРєСѓРјРµРЅС‚РѕРІ Рё РѕРїРёСЃР°РЅРёРµ РіСЂР°РЅРёС† Р·РµРјРµР»СЊРЅРѕРіРѕ СѓС‡Р°СЃС‚РєР°/РіСЂР°РЅРёС† СѓС‡Р°СЃС‚РєР° РЅРµРґСЂ
+     * Set the list of 'Application' element items. Сведения о приложениях, в которых копии документов и описание границ земельного участка/границ участка недр
      * 
      * @param list
      */
@@ -265,7 +265,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class LicenseSubsoilUseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

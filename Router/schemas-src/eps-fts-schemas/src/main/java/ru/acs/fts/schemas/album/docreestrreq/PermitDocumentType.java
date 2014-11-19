@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.docreestrreq;
 import org.joda.time.LocalDate;
 
 /** 
- * Р Р°Р·СЂРµС€РµРЅРёРµ
+ * Разрешение
  */
 public class PermitDocumentType
 {
@@ -16,7 +16,7 @@ public class PermitDocumentType
     private String status;
 
     /** 
-     * Get the 'TransitPermitKind' element value. Р’РёРґ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'TransitPermitKind' element value. Вид разрешительного документа
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PermitDocumentType
     }
 
     /** 
-     * Set the 'TransitPermitKind' element value. Р’РёРґ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'TransitPermitKind' element value. Вид разрешительного документа
      * 
      * @param transitPermitKind
      */
@@ -34,7 +34,7 @@ public class PermitDocumentType
     }
 
     /** 
-     * Get the 'PermitNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'PermitNumber' element value. Номер разрешения
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PermitDocumentType
     }
 
     /** 
-     * Set the 'PermitNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'PermitNumber' element value. Номер разрешения
      * 
      * @param permitNumber
      */
@@ -52,7 +52,7 @@ public class PermitDocumentType
     }
 
     /** 
-     * Get the 'IssueDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РІС‹РґР°С‡Рё
+     * Get the 'IssueDateTime' element value. Дата/время выдачи
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class PermitDocumentType
     }
 
     /** 
-     * Set the 'IssueDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РІС‹РґР°С‡Рё
+     * Set the 'IssueDateTime' element value. Дата/время выдачи
      * 
      * @param issueDateTime
      */
@@ -70,7 +70,7 @@ public class PermitDocumentType
     }
 
     /** 
-     * Get the 'Duration' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ
+     * Get the 'Duration' element value. Дата окончания действия
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class PermitDocumentType
     }
 
     /** 
-     * Set the 'Duration' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ
+     * Set the 'Duration' element value. Дата окончания действия
      * 
      * @param duration
      */
@@ -88,7 +88,7 @@ public class PermitDocumentType
     }
 
     /** 
-     * Get the 'StopCancelDate' element value. Р”Р°С‚Р° РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ, Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ
+     * Get the 'StopCancelDate' element value. Дата приостановления, аннулирования
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class PermitDocumentType
     }
 
     /** 
-     * Set the 'StopCancelDate' element value. Р”Р°С‚Р° РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ, Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ
+     * Set the 'StopCancelDate' element value. Дата приостановления, аннулирования
      * 
      * @param stopCancelDate
      */
@@ -106,7 +106,7 @@ public class PermitDocumentType
     }
 
     /** 
-     * Get the 'Status' element value. РЎС‚Р°С‚СѓСЃ: 1 - ACTIVE - Р”РµР№СЃС‚РІСѓРµС‚; 2 - EXPIRED - РСЃС‚РµРє СЃСЂРѕРє РґРµР№СЃС‚РІРёСЏ; 3 - SUSPENDED - РџСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРѕ; 4 - CANCELED - РђРЅРЅСѓР»РёСЂРѕРІР°РЅРѕ
+     * Get the 'Status' element value. Статус: 1 - ACTIVE - Действует; 2 - EXPIRED - Истек срок действия; 3 - SUSPENDED - Приостановлено; 4 - CANCELED - Аннулировано
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class PermitDocumentType
     }
 
     /** 
-     * Set the 'Status' element value. РЎС‚Р°С‚СѓСЃ: 1 - ACTIVE - Р”РµР№СЃС‚РІСѓРµС‚; 2 - EXPIRED - РСЃС‚РµРє СЃСЂРѕРє РґРµР№СЃС‚РІРёСЏ; 3 - SUSPENDED - РџСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРѕ; 4 - CANCELED - РђРЅРЅСѓР»РёСЂРѕРІР°РЅРѕ
+     * Set the 'Status' element value. Статус: 1 - ACTIVE - Действует; 2 - EXPIRED - Истек срок действия; 3 - SUSPENDED - Приостановлено; 4 - CANCELED - Аннулировано
      * 
      * @param status
      */

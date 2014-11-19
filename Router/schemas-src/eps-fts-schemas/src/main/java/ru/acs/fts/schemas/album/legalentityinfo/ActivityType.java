@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.legalentityinfo;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРґР°С… РїРѕ РћР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+ * Сведения о кодах по Общероссийскому классификатору видов экономической деятельности
  */
 public class ActivityType
 {
@@ -11,7 +11,7 @@ public class ActivityType
     private RecordDataType recordData;
 
     /** 
-     * Get the 'ActivityCode' element value. РљРѕРґ РїРѕ РћР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Get the 'ActivityCode' element value. Код по Общероссийскому классификатору видов экономической деятельности
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ActivityType
     }
 
     /** 
-     * Set the 'ActivityCode' element value. РљРѕРґ РїРѕ РћР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Set the 'ActivityCode' element value. Код по Общероссийскому классификатору видов экономической деятельности
      * 
      * @param activityCode
      */
@@ -29,7 +29,7 @@ public class ActivityType
     }
 
     /** 
-     * Get the 'ActivitySign' element value. РџСЂРёР·РЅР°Рє: 0 - РѕСЃРЅРѕРІРЅРѕР№; 1 - РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№
+     * Get the 'ActivitySign' element value. Признак: 0 - основной; 1 - дополнительный
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ActivityType
     }
 
     /** 
-     * Set the 'ActivitySign' element value. РџСЂРёР·РЅР°Рє: 0 - РѕСЃРЅРѕРІРЅРѕР№; 1 - РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№
+     * Set the 'ActivitySign' element value. Признак: 0 - основной; 1 - дополнительный
      * 
      * @param activitySign
      */
@@ -47,7 +47,7 @@ public class ActivityType
     }
 
     /** 
-     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Get the 'RecordData' element value. Сведения о записи
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ActivityType
     }
 
     /** 
-     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Set the 'RecordData' element value. Сведения о записи
      * 
      * @param recordData
      */

@@ -12,7 +12,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationWBankType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РљРѕРЅС‚СЂР°РєС‚/ Р”РѕРіРѕРІРѕСЂ РїРѕСЃС‚Р°РІРєРё
+ * Контракт/ Договор поставки
  */
 public class ContractType extends BaseDocType
 {
@@ -27,7 +27,7 @@ public class ContractType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SupplementationSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РґРѕРїРѕР»РЅРµРЅРёР№/РїСЂРёР»РѕР¶РµРЅРёР№ Рє РєРѕРЅС‚СЂР°РєС‚Сѓ, РёРјРµСЋС‰РёС… РѕС‚РЅРѕС€РµРЅРёРµ Рє РїРµСЂРµРјРµС‰Р°РµРјС‹Рј/РґРµРєР»Р°СЂРёСЂСѓРµРјС‹Рј С‚РѕРІР°СЂР°Рј
+     * Get the 'SupplementationSign' element value. Признак наличия дополнений/приложений к контракту, имеющих отношение к перемещаемым/декларируемым товарам
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'SupplementationSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РґРѕРїРѕР»РЅРµРЅРёР№/РїСЂРёР»РѕР¶РµРЅРёР№ Рє РєРѕРЅС‚СЂР°РєС‚Сѓ, РёРјРµСЋС‰РёС… РѕС‚РЅРѕС€РµРЅРёРµ Рє РїРµСЂРµРјРµС‰Р°РµРјС‹Рј/РґРµРєР»Р°СЂРёСЂСѓРµРјС‹Рј С‚РѕРІР°СЂР°Рј
+     * Set the 'SupplementationSign' element value. Признак наличия дополнений/приложений к контракту, имеющих отношение к перемещаемым/декларируемым товарам
      * 
      * @param supplementationSign
      */
@@ -45,7 +45,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractTerms' element value. РЈСЃР»РѕРІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ContractTerms' element value. Условия контракта
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractTerms' element value. РЈСЃР»РѕРІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ContractTerms' element value. Условия контракта
      * 
      * @param contractTerms
      */
@@ -63,7 +63,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'ForeignPerson' element value. Р РµРєРІРёР·РёС‚С‹ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ СЃС‚РѕСЂРѕРЅС‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ForeignPerson' element value. Реквизиты иностранной стороны контракта
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'ForeignPerson' element value. Р РµРєРІРёР·РёС‚С‹ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ СЃС‚РѕСЂРѕРЅС‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ForeignPerson' element value. Реквизиты иностранной стороны контракта
      * 
      * @param foreignPerson
      */
@@ -81,7 +81,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'RussianPerson' element value. РћРїРёСЃР°РЅРёРµ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚РѕРґРµСЂР¶Р°С‚РµР»СЏ
+     * Get the 'RussianPerson' element value. Описание российского контрактодержателя
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'RussianPerson' element value. РћРїРёСЃР°РЅРёРµ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚РѕРґРµСЂР¶Р°С‚РµР»СЏ
+     * Set the 'RussianPerson' element value. Описание российского контрактодержателя
      * 
      * @param russianPerson
      */
@@ -99,7 +99,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ContractDeliveryTerms' element items. РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РІ РєРѕРЅС‚СЂР°РєС‚Рµ
+     * Get the list of 'ContractDeliveryTerms' element items. Описание условий поставки в контракте
      * 
      * @return list
      */
@@ -108,7 +108,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ContractDeliveryTerms' element items. РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РІ РєРѕРЅС‚СЂР°РєС‚Рµ
+     * Set the list of 'ContractDeliveryTerms' element items. Описание условий поставки в контракте
      * 
      * @param list
      */
@@ -117,7 +117,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ContractSpecification' element items. Р РµРєРІРёР·РёС‚С‹ СЃРїРµС†РёС„РёРєР°С†РёРё Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Get the list of 'ContractSpecification' element items. Реквизиты спецификации к контракту
      * 
      * @return list
      */
@@ -126,7 +126,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ContractSpecification' element items. Р РµРєРІРёР·РёС‚С‹ СЃРїРµС†РёС„РёРєР°С†РёРё Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Set the list of 'ContractSpecification' element items. Реквизиты спецификации к контракту
      * 
      * @param list
      */
@@ -136,7 +136,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractRegistration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРїРёСЃР°РЅРёРё (Р·Р°РєР»СЋС‡РµРЅРёРё) РєРѕРЅС‚СЂР°РєС‚Р° (РґР°С‚Р°, РЅРѕРјРµСЂ, РјРµСЃС‚Рѕ)
+     * Get the 'ContractRegistration' element value. Сведения о подписании (заключении) контракта (дата, номер, место)
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractRegistration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРїРёСЃР°РЅРёРё (Р·Р°РєР»СЋС‡РµРЅРёРё) РєРѕРЅС‚СЂР°РєС‚Р° (РґР°С‚Р°, РЅРѕРјРµСЂ, РјРµСЃС‚Рѕ)
+     * Set the 'ContractRegistration' element value. Сведения о подписании (заключении) контракта (дата, номер, место)
      * 
      * @param contractRegistration
      */
@@ -155,7 +155,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractSignedPerson' element value. Р›РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'ContractSignedPerson' element value. Лицо, подписавшее документ
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractSignedPerson' element value. Р›РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'ContractSignedPerson' element value. Лицо, подписавшее документ
      * 
      * @param contractSignedPerson
      */
@@ -173,7 +173,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class ContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

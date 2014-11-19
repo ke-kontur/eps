@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.custpaymentsdk;
 
 /** 
- * РџРµРЅРё
+ * Пени
  */
 public class FineType
 {
@@ -14,7 +14,7 @@ public class FineType
     private String currencyRate;
 
     /** 
-     * Get the 'CustomsFineSign' element value. РџСЂРёР·РЅР°Рє РїРµРЅРё.
+     * Get the 'CustomsFineSign' element value. Признак пени.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class FineType
     }
 
     /** 
-     * Set the 'CustomsFineSign' element value. РџСЂРёР·РЅР°Рє РїРµРЅРё.
+     * Set the 'CustomsFineSign' element value. Признак пени.
      * 
      * @param customsFineSign
      */
@@ -32,7 +32,7 @@ public class FineType
     }
 
     /** 
-     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
+     * Get the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class FineType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
+     * Set the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
      * 
      * @param paymentModeCode
      */
@@ -50,7 +50,7 @@ public class FineType
     }
 
     /** 
-     * Get the 'PaymentAmount' element value. РЎСѓРјРјР° РїРµРЅРё
+     * Get the 'PaymentAmount' element value. Сумма пени
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class FineType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. РЎСѓРјРјР° РїРµРЅРё
+     * Set the 'PaymentAmount' element value. Сумма пени
      * 
      * @param paymentAmount
      */
@@ -68,7 +68,7 @@ public class FineType
     }
 
     /** 
-     * Get the 'CustomsPaymentSubspecies' element value. РџРѕРґРІРёРґ  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
+     * Get the 'CustomsPaymentSubspecies' element value. Подвид  таможенного платежа.
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class FineType
     }
 
     /** 
-     * Set the 'CustomsPaymentSubspecies' element value. РџРѕРґРІРёРґ  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°.
+     * Set the 'CustomsPaymentSubspecies' element value. Подвид  таможенного платежа.
      * 
      * @param customsPaymentSubspecies
      */
@@ -86,7 +86,7 @@ public class FineType
     }
 
     /** 
-     * Get the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°.
+     * Get the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа.
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class FineType
     }
 
     /** 
-     * Set the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°.
+     * Set the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа.
      * 
      * @param paymentCurrencyCode
      */
@@ -104,7 +104,7 @@ public class FineType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
+     * Get the 'CurrencyRate' element value. Курс валюты
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class FineType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
+     * Set the 'CurrencyRate' element value. Курс валюты
      * 
      * @param currencyRate
      */

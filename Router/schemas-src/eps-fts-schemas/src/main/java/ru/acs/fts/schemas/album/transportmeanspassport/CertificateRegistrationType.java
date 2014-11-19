@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.transportmeanspassport;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РўРЎ
+ * Свидетельство о регистрации ТС
  */
 public class CertificateRegistrationType
 {
@@ -16,7 +16,7 @@ public class CertificateRegistrationType
     private String regionCode;
 
     /** 
-     * Get the 'Series' element value. РЎРµСЂРёСЏ
+     * Get the 'Series' element value. Серия
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class CertificateRegistrationType
     }
 
     /** 
-     * Set the 'Series' element value. РЎРµСЂРёСЏ
+     * Set the 'Series' element value. Серия
      * 
      * @param series
      */
@@ -34,7 +34,7 @@ public class CertificateRegistrationType
     }
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ
+     * Get the 'Number' element value. Номер
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CertificateRegistrationType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ
+     * Set the 'Number' element value. Номер
      * 
      * @param number
      */
@@ -52,7 +52,7 @@ public class CertificateRegistrationType
     }
 
     /** 
-     * Get the 'RegSign' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'RegSign' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class CertificateRegistrationType
     }
 
     /** 
-     * Set the 'RegSign' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'RegSign' element value. Регистрационный номер
      * 
      * @param regSign
      */
@@ -70,7 +70,7 @@ public class CertificateRegistrationType
     }
 
     /** 
-     * Get the 'RegData' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'RegData' element value. Дата регистрации
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class CertificateRegistrationType
     }
 
     /** 
-     * Set the 'RegData' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'RegData' element value. Дата регистрации
      * 
      * @param regData
      */
@@ -88,7 +88,7 @@ public class CertificateRegistrationType
     }
 
     /** 
-     * Get the 'IssuedGIBDD' element value. Р’С‹РґР°РЅРѕ Р“РР‘Р”Р”
+     * Get the 'IssuedGIBDD' element value. Выдано ГИБДД
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class CertificateRegistrationType
     }
 
     /** 
-     * Set the 'IssuedGIBDD' element value. Р’С‹РґР°РЅРѕ Р“РР‘Р”Р”
+     * Set the 'IssuedGIBDD' element value. Выдано ГИБДД
      * 
      * @param issuedGIBDD
      */
@@ -106,7 +106,7 @@ public class CertificateRegistrationType
     }
 
     /** 
-     * Get the 'RegionCode' element value. РљРѕРґ СЂРµРіРёРѕРЅР°
+     * Get the 'RegionCode' element value. Код региона
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class CertificateRegistrationType
     }
 
     /** 
-     * Set the 'RegionCode' element value. РљРѕРґ СЂРµРіРёРѕРЅР°
+     * Set the 'RegionCode' element value. Код региона
      * 
      * @param regionCode
      */

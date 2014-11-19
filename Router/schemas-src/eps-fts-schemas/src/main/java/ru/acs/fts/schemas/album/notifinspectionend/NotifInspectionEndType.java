@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ Р·Р°РІРµСЂС€РµРЅРёРё С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ С‚РѕРІР°СЂРѕРІ
+ * Уведомление о завершении фактического контроля товаров
  */
 public class NotifInspectionEndType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class NotifInspectionEndType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'InspectionEndDate' element value. Р”Р°С‚Р° Р·Р°РІРµСЂС€РµРЅРёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ 
+     * Get the 'InspectionEndDate' element value. Дата завершения фактического контроля 
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspectionEndDate' element value. Р”Р°С‚Р° Р·Р°РІРµСЂС€РµРЅРёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ 
+     * Set the 'InspectionEndDate' element value. Дата завершения фактического контроля 
      * 
      * @param inspectionEndDate
      */
@@ -38,7 +38,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspectionEndTime' element value. Р’СЂРµРјСЏ Р·Р°РІРµСЂС€РµРЅРёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ 
+     * Get the 'InspectionEndTime' element value. Время завершения фактического контроля 
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspectionEndTime' element value. Р’СЂРµРјСЏ Р·Р°РІРµСЂС€РµРЅРёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ 
+     * Set the 'InspectionEndTime' element value. Время завершения фактического контроля 
      * 
      * @param inspectionEndTime
      */
@@ -56,7 +56,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Get the 'MPO_Number' element value. РќРѕРјРµСЂ РњРџРћ
+     * Get the 'MPO_Number' element value. Номер МПО
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Set the 'MPO_Number' element value. РќРѕРјРµСЂ РњРџРћ
+     * Set the 'MPO_Number' element value. Номер МПО
      * 
      * @param MPONumber
      */
@@ -74,7 +74,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Get the 'Comments' element value. Комментарии
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Set the 'Comments' element value. Комментарии
      * 
      * @param comments
      */
@@ -92,7 +92,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -110,7 +110,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -128,7 +128,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class NotifInspectionEndType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

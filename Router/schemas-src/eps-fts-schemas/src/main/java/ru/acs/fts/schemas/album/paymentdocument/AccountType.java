@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.paymentdocument;
 import org.joda.time.LocalDate;
 
 /** 
- * РќРѕРјРµСЂ Р»РёС†РµРІРѕРіРѕ СЃС‡РµС‚Р° РїР»Р°С‚РµР»СЊС‰РёРєР°
+ * Номер лицевого счета плательщика
  */
 public class AccountType
 {
@@ -14,7 +14,7 @@ public class AccountType
     private String KPP;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РѕС‚РєСЂС‹РІС€РµРіРѕ Р»РёС†РµРІРѕР№ СЃС‡РµС‚ СѓС‡Р°СЃС‚РЅРёРєР° Р’Р­Р”
+     * Get the 'CustomsCode' element value. Код таможенного органа, открывшего лицевой счет участника ВЭД
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class AccountType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РѕС‚РєСЂС‹РІС€РµРіРѕ Р»РёС†РµРІРѕР№ СЃС‡РµС‚ СѓС‡Р°СЃС‚РЅРёРєР° Р’Р­Р”
+     * Set the 'CustomsCode' element value. Код таможенного органа, открывшего лицевой счет участника ВЭД
      * 
      * @param customsCode
      */
@@ -32,7 +32,7 @@ public class AccountType
     }
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° РѕС‚РєСЂС‹С‚РёСЏ Р»РёС†РµРІРѕРіРѕ СЃС‡РµС‚Р° СѓС‡Р°СЃС‚РЅРёРєР° Р’Р­Р”
+     * Get the 'Date' element value. Дата открытия лицевого счета участника ВЭД
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class AccountType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° РѕС‚РєСЂС‹С‚РёСЏ Р»РёС†РµРІРѕРіРѕ СЃС‡РµС‚Р° СѓС‡Р°СЃС‚РЅРёРєР° Р’Р­Р”
+     * Set the 'Date' element value. Дата открытия лицевого счета участника ВЭД
      * 
      * @param date
      */
@@ -50,7 +50,7 @@ public class AccountType
     }
 
     /** 
-     * Get the 'INN' element value. РРќРќ - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°.
+     * Get the 'INN' element value. ИНН - Индивидуальный номер налогоплательщика.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class AccountType
     }
 
     /** 
-     * Set the 'INN' element value. РРќРќ - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°.
+     * Set the 'INN' element value. ИНН - Индивидуальный номер налогоплательщика.
      * 
      * @param INN
      */
@@ -68,7 +68,7 @@ public class AccountType
     }
 
     /** 
-     * Get the 'KPP' element value. РљРџРџ - РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚.
+     * Get the 'KPP' element value. КПП - Код причины постановки на учет.
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class AccountType
     }
 
     /** 
-     * Set the 'KPP' element value. РљРџРџ - РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚.
+     * Set the 'KPP' element value. КПП - Код причины постановки на учет.
      * 
      * @param KPP
      */

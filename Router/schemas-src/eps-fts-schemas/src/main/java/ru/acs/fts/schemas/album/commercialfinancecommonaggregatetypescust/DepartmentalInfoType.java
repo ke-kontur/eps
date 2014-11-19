@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 
 /** 
- * Р’РµРґРѕРјСЃС‚РІРµРЅРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+ * Ведомственная информация
  */
 public class DepartmentalInfoType
 {
@@ -17,7 +17,7 @@ public class DepartmentalInfoType
     private String customsCode;
 
     /** 
-     * Get the 'DrawerStatus' element value. РЎС‚Р°С‚СѓСЃ СЃРѕСЃС‚Р°РІРёС‚РµР»СЏ СЂР°СЃС‡РµС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DrawerStatus' element value. Статус составителя расчетного документа
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Set the 'DrawerStatus' element value. РЎС‚Р°С‚СѓСЃ СЃРѕСЃС‚Р°РІРёС‚РµР»СЏ СЂР°СЃС‡РµС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DrawerStatus' element value. Статус составителя расчетного документа
      * 
      * @param drawerStatus
      */
@@ -35,7 +35,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Get the 'CBC' element value. РљРѕРґ Р±СЋРґР¶РµС‚РЅРѕР№ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё (РљР‘Рљ), РїРѕ РєРѕС‚РѕСЂРѕРјСѓ СѓС‡РёС‚С‹РІР°РµС‚СЃСЏ РЅР°Р»РѕРі (СЃР±РѕСЂ)
+     * Get the 'CBC' element value. Код бюджетной классификации (КБК), по которому учитывается налог (сбор)
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Set the 'CBC' element value. РљРѕРґ Р±СЋРґР¶РµС‚РЅРѕР№ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё (РљР‘Рљ), РїРѕ РєРѕС‚РѕСЂРѕРјСѓ СѓС‡РёС‚С‹РІР°РµС‚СЃСЏ РЅР°Р»РѕРі (СЃР±РѕСЂ)
+     * Set the 'CBC' element value. Код бюджетной классификации (КБК), по которому учитывается налог (сбор)
      * 
      * @param CBC
      */
@@ -53,7 +53,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Get the 'OKATO' element value. РљРѕРґ РјСѓРЅРёС†РёРїР°Р»СЊРЅРѕРіРѕ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РћРљРђРўРћ
+     * Get the 'OKATO' element value. Код муниципального образования ОКАТО
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Set the 'OKATO' element value. РљРѕРґ РјСѓРЅРёС†РёРїР°Р»СЊРЅРѕРіРѕ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РћРљРђРўРћ
+     * Set the 'OKATO' element value. Код муниципального образования ОКАТО
      * 
      * @param OKATO
      */
@@ -71,7 +71,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Get the 'PaymentReason' element value. РћСЃРЅРѕРІР°РЅРёРµ РЅР°Р»РѕРіРѕРІРѕРіРѕ РїР»Р°С‚РµР¶Р°
+     * Get the 'PaymentReason' element value. Основание налогового платежа
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Set the 'PaymentReason' element value. РћСЃРЅРѕРІР°РЅРёРµ РЅР°Р»РѕРіРѕРІРѕРіРѕ РїР»Р°С‚РµР¶Р°
+     * Set the 'PaymentReason' element value. Основание налогового платежа
      * 
      * @param paymentReason
      */
@@ -89,7 +89,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Get the 'TaxPeriod' element value. РќР°Р»РѕРіРѕРІС‹Р№ РїРµСЂРёРѕРґ
+     * Get the 'TaxPeriod' element value. Налоговый период
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Set the 'TaxPeriod' element value. РќР°Р»РѕРіРѕРІС‹Р№ РїРµСЂРёРѕРґ
+     * Set the 'TaxPeriod' element value. Налоговый период
      * 
      * @param taxPeriod
      */
@@ -107,7 +107,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Get the 'DocNo' element value. РќРѕРјРµСЂ РЅР°Р»РѕРіРѕРІРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°/РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃРІРµРґРµРЅРёР№ Рѕ С„РёР·РёС‡РµСЃРєРѕРј Р»РёС†Рµ
+     * Get the 'DocNo' element value. Номер налогового документа/Идентификатор сведений о физическом лице
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Set the 'DocNo' element value. РќРѕРјРµСЂ РЅР°Р»РѕРіРѕРІРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°/РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃРІРµРґРµРЅРёР№ Рѕ С„РёР·РёС‡РµСЃРєРѕРј Р»РёС†Рµ
+     * Set the 'DocNo' element value. Номер налогового документа/Идентификатор сведений о физическом лице
      * 
      * @param docNo
      */
@@ -125,7 +125,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Get the 'DocDate' element value. Р”Р°С‚Р° РЅР°Р»РѕРіРѕРІРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocDate' element value. Дата налогового документа
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Set the 'DocDate' element value. Р”Р°С‚Р° РЅР°Р»РѕРіРѕРІРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocDate' element value. Дата налогового документа
      * 
      * @param docDate
      */
@@ -143,7 +143,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Get the 'TaxPaymentKind' element value. РўРёРї РЅР°Р»РѕРіРѕРІРѕРіРѕ РїР»Р°С‚РµР¶Р°
+     * Get the 'TaxPaymentKind' element value. Тип налогового платежа
      * 
      * @return value
      */
@@ -152,7 +152,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Set the 'TaxPaymentKind' element value. РўРёРї РЅР°Р»РѕРіРѕРІРѕРіРѕ РїР»Р°С‚РµР¶Р°
+     * Set the 'TaxPaymentKind' element value. Тип налогового платежа
      * 
      * @param taxPaymentKind
      */
@@ -161,7 +161,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsCode' element value. Код таможенного органа
      * 
      * @return value
      */
@@ -170,7 +170,7 @@ public class DepartmentalInfoType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsCode' element value. Код таможенного органа
      * 
      * @param customsCode
      */

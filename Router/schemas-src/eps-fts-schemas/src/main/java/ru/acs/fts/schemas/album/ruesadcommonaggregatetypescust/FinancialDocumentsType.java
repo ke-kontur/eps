@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р¤РёРЅР°РЅСЃРѕРІС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹.
+ * Финансовые документы.
  */
 public class FinancialDocumentsType
 {
@@ -16,7 +16,7 @@ public class FinancialDocumentsType
     private GTDIDType gtdRegNumber;
 
     /** 
-     * Get the 'FinDocumentCode' element value. Р’РёРґ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. 1- РџРЎ; 2 - РџРЎР±; 3 - Р”Рў .
+     * Get the 'FinDocumentCode' element value. Вид представленного документа. 1- ПС; 2 - ПСб; 3 - ДТ .
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class FinancialDocumentsType
     }
 
     /** 
-     * Set the 'FinDocumentCode' element value. Р’РёРґ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. 1- РџРЎ; 2 - РџРЎР±; 3 - Р”Рў .
+     * Set the 'FinDocumentCode' element value. Вид представленного документа. 1- ПС; 2 - ПСб; 3 - ДТ .
      * 
      * @param finDocumentCode
      */
@@ -34,7 +34,7 @@ public class FinancialDocumentsType
     }
 
     /** 
-     * Get the 'FinDocumentNumber' element value. РќРѕРјРµСЂ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РџРЎ/РџРЎР±.
+     * Get the 'FinDocumentNumber' element value. Номер представленного ПС/ПСб.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class FinancialDocumentsType
     }
 
     /** 
-     * Set the 'FinDocumentNumber' element value. РќРѕРјРµСЂ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅРѕРіРѕ РџРЎ/РџРЎР±.
+     * Set the 'FinDocumentNumber' element value. Номер представленного ПС/ПСб.
      * 
      * @param finDocumentNumber
      */
@@ -52,7 +52,7 @@ public class FinancialDocumentsType
     }
 
     /** 
-     * Get the 'PresentingDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° / СЃРІРµРґРµРЅРёР№; Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РєРѕРїРёРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё, СѓРєР°Р·Р°РЅРЅРѕР№ РїРѕРґ РЅРѕРјРµСЂРѕРј 1.3 (РµСЃР»Рё РѕРЅР° РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅР° РѕРґРЅРѕРІСЂРµРјРµРЅРЅРѕ СЃ Р”Рў) 
+     * Get the 'PresentingDate' element value. Дата представления недостающего документа / сведений; Дата представления копии таможенной декларации, указанной под номером 1.3 (если она не может быть представлена одновременно с ДТ) 
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class FinancialDocumentsType
     }
 
     /** 
-     * Set the 'PresentingDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° / СЃРІРµРґРµРЅРёР№; Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РєРѕРїРёРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё, СѓРєР°Р·Р°РЅРЅРѕР№ РїРѕРґ РЅРѕРјРµСЂРѕРј 1.3 (РµСЃР»Рё РѕРЅР° РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅР° РѕРґРЅРѕРІСЂРµРјРµРЅРЅРѕ СЃ Р”Рў) 
+     * Set the 'PresentingDate' element value. Дата представления недостающего документа / сведений; Дата представления копии таможенной декларации, указанной под номером 1.3 (если она не может быть представлена одновременно с ДТ) 
      * 
      * @param presentingDate
      */
@@ -70,7 +70,7 @@ public class FinancialDocumentsType
     }
 
     /** 
-     * Get the 'ReExpFinDocument' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃРїРѕСЂС‚Рµ СЃРґРµР»РєРё РїСЂРё РІРІРѕР·Рµ С‚РѕРІР°СЂРѕРІ РІ СЂРµР¶РёРјРµ СЂРµСЌРєСЃРїРѕСЂС‚Р° Р±РµР· РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ РїРѕРјРµС‰РµРЅРёСЏ РїРѕРґ РґСЂСѓРіРѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј
+     * Get the 'ReExpFinDocument' element value. Сведения о паспорте сделки при ввозе товаров в режиме реэкспорта без предварительного помещения под другой таможенный режим
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class FinancialDocumentsType
     }
 
     /** 
-     * Set the 'ReExpFinDocument' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃРїРѕСЂС‚Рµ СЃРґРµР»РєРё РїСЂРё РІРІРѕР·Рµ С‚РѕРІР°СЂРѕРІ РІ СЂРµР¶РёРјРµ СЂРµСЌРєСЃРїРѕСЂС‚Р° Р±РµР· РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ РїРѕРјРµС‰РµРЅРёСЏ РїРѕРґ РґСЂСѓРіРѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј
+     * Set the 'ReExpFinDocument' element value. Сведения о паспорте сделки при ввозе товаров в режиме реэкспорта без предварительного помещения под другой таможенный режим
      * 
      * @param reExpFinDocument
      */
@@ -88,7 +88,7 @@ public class FinancialDocumentsType
     }
 
     /** 
-     * Get the 'GtdRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў, РІ РєРѕС‚РѕСЂРѕР№ РїСЂРµРґРѕСЃС‚Р°РІР»СЏР»РёСЃСЊ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РѕРє.
+     * Get the 'GtdRegNumber' element value. Регистрационный номер ДТ, в которой предоставлялись паспорта сделок.
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class FinancialDocumentsType
     }
 
     /** 
-     * Set the 'GtdRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў, РІ РєРѕС‚РѕСЂРѕР№ РїСЂРµРґРѕСЃС‚Р°РІР»СЏР»РёСЃСЊ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РѕРє.
+     * Set the 'GtdRegNumber' element value. Регистрационный номер ДТ, в которой предоставлялись паспорта сделок.
      * 
      * @param gtdRegNumber
      */

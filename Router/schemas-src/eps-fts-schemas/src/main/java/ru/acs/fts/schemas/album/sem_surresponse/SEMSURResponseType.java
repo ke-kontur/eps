@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РћС‚РІРµС‚ СЃРµСЂРІРёСЃР° РЎРЈР 
+ * Ответ сервиса СУР
  */
 public class SEMSURResponseType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class SEMSURResponseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GtdRegNumber' element value. РќРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё
+     * Get the 'GtdRegNumber' element value. Номер декларации
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class SEMSURResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'GtdRegNumber' element value. РќРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё
+     * Set the 'GtdRegNumber' element value. Номер декларации
      * 
      * @param gtdRegNumber
      */
@@ -34,7 +34,7 @@ public class SEMSURResponseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RiskProfileRegNumber' element items. РР” РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Get the list of 'RiskProfileRegNumber' element items. ИД профиля риска
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class SEMSURResponseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RiskProfileRegNumber' element items. РР” РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Set the list of 'RiskProfileRegNumber' element items. ИД профиля риска
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class SEMSURResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class SEMSURResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

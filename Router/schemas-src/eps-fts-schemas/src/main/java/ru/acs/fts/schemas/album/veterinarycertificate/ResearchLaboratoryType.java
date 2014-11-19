@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.veterinarycertificate;
 import org.joda.time.LocalDate;
 
 /** 
- * РСЃСЃР»РµРґРѕРІР°РЅРёРµ РІ Р»Р°Р±РѕСЂР°С‚РѕСЂРёРё
+ * Исследование в лаборатории
  */
 public class ResearchLaboratoryType
 {
@@ -16,7 +16,7 @@ public class ResearchLaboratoryType
     private String resultExamination;
 
     /** 
-     * Get the 'NameLaboratory' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»Р°Р±РѕСЂР°С‚РѕСЂРёРё
+     * Get the 'NameLaboratory' element value. Наименование лаборатории
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ResearchLaboratoryType
     }
 
     /** 
-     * Set the 'NameLaboratory' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»Р°Р±РѕСЂР°С‚РѕСЂРёРё
+     * Set the 'NameLaboratory' element value. Наименование лаборатории
      * 
      * @param nameLaboratory
      */
@@ -34,7 +34,7 @@ public class ResearchLaboratoryType
     }
 
     /** 
-     * Get the 'NumberExamination' element value. РќРѕРјРµСЂ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Get the 'NumberExamination' element value. Номер экспертизы
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ResearchLaboratoryType
     }
 
     /** 
-     * Set the 'NumberExamination' element value. РќРѕРјРµСЂ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Set the 'NumberExamination' element value. Номер экспертизы
      * 
      * @param numberExamination
      */
@@ -52,7 +52,7 @@ public class ResearchLaboratoryType
     }
 
     /** 
-     * Get the 'DateExamination' element value. Р”Р°С‚Р° СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Get the 'DateExamination' element value. Дата экспертизы
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ResearchLaboratoryType
     }
 
     /** 
-     * Set the 'DateExamination' element value. Р”Р°С‚Р° СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Set the 'DateExamination' element value. Дата экспертизы
      * 
      * @param dateExamination
      */
@@ -70,7 +70,7 @@ public class ResearchLaboratoryType
     }
 
     /** 
-     * Get the 'MethodExamination' element value. РњРµС‚РѕРґ РёСЃСЃР»РµРґРѕРІР°РЅРёСЏ
+     * Get the 'MethodExamination' element value. Метод исследования
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ResearchLaboratoryType
     }
 
     /** 
-     * Set the 'MethodExamination' element value. РњРµС‚РѕРґ РёСЃСЃР»РµРґРѕРІР°РЅРёСЏ
+     * Set the 'MethodExamination' element value. Метод исследования
      * 
      * @param methodExamination
      */
@@ -88,7 +88,7 @@ public class ResearchLaboratoryType
     }
 
     /** 
-     * Get the 'SickName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±РѕР»РµР·РЅРё
+     * Get the 'SickName' element value. Наименование болезни
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ResearchLaboratoryType
     }
 
     /** 
-     * Set the 'SickName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±РѕР»РµР·РЅРё
+     * Set the 'SickName' element value. Наименование болезни
      * 
      * @param sickName
      */
@@ -106,7 +106,7 @@ public class ResearchLaboratoryType
     }
 
     /** 
-     * Get the 'ResultExamination' element value. Р РµР·СѓР»СЊС‚Р°С‚ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Get the 'ResultExamination' element value. Результат экспертизы
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class ResearchLaboratoryType
     }
 
     /** 
-     * Set the 'ResultExamination' element value. Р РµР·СѓР»СЊС‚Р°С‚ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Set the 'ResultExamination' element value. Результат экспертизы
      * 
      * @param resultExamination
      */

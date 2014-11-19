@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.exchangecommonaggregatetypescust;
 
 /** 
- * РџСЂРёР·РЅР°РєРё РџРџ
+ * Признаки ПП
  */
 public class PaymentIndicationType
 {
@@ -12,7 +12,7 @@ public class PaymentIndicationType
     private Choice1 choice1;
 
     /** 
-     * Get the 'DepletedResources' element value. РЎСЂРµРґСЃС‚РІР° РЅР° РџРџ РёСЃС‡РµСЂРїР°РЅС‹
+     * Get the 'DepletedResources' element value. Средства на ПП исчерпаны
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PaymentIndicationType
     }
 
     /** 
-     * Set the 'DepletedResources' element value. РЎСЂРµРґСЃС‚РІР° РЅР° РџРџ РёСЃС‡РµСЂРїР°РЅС‹
+     * Set the 'DepletedResources' element value. Средства на ПП исчерпаны
      * 
      * @param depletedResources
      */
@@ -30,7 +30,7 @@ public class PaymentIndicationType
     }
 
     /** 
-     * Get the 'AllowancesResources' element value. РџРѕ РџРџ СѓР¶Рµ Р±С‹Р»Рё СЃРїРёСЃР°РЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Get the 'AllowancesResources' element value. По ПП уже были списания таможенных платежей
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PaymentIndicationType
     }
 
     /** 
-     * Set the 'AllowancesResources' element value. РџРѕ РџРџ СѓР¶Рµ Р±С‹Р»Рё СЃРїРёСЃР°РЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Set the 'AllowancesResources' element value. По ПП уже были списания таможенных платежей
      * 
      * @param allowancesResources
      */
@@ -116,7 +116,7 @@ public class PaymentIndicationType
         }
 
         /** 
-         * Get the 'AttestedPaymentOrder' element value. РџРџ Р·Р°РІРµСЂРµРЅР° РёРЅСЃРїРµРєС‚РѕСЂРѕРј РІ РїСЂРѕРіСЂР°РјРјРЅРѕРј СЃСЂРµРґСЃС‚РІРµ СѓС‡РµС‚Р° Рё РєРѕРЅС‚СЂРѕР»СЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+         * Get the 'AttestedPaymentOrder' element value. ПП заверена инспектором в программном средстве учета и контроля таможенных платежей
          * 
          * @return value
          */
@@ -125,7 +125,7 @@ public class PaymentIndicationType
         }
 
         /** 
-         * Set the 'AttestedPaymentOrder' element value. РџРџ Р·Р°РІРµСЂРµРЅР° РёРЅСЃРїРµРєС‚РѕСЂРѕРј РІ РїСЂРѕРіСЂР°РјРјРЅРѕРј СЃСЂРµРґСЃС‚РІРµ СѓС‡РµС‚Р° Рё РєРѕРЅС‚СЂРѕР»СЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+         * Set the 'AttestedPaymentOrder' element value. ПП заверена инспектором в программном средстве учета и контроля таможенных платежей
          * 
          * @param attestedPaymentOrder
          */
@@ -144,7 +144,7 @@ public class PaymentIndicationType
         }
 
         /** 
-         * Get the 'NotAttestedPaymentOrder' element value. РџРџ РЅРµ Р·Р°РІРµСЂРµРЅР° РёРЅСЃРїРµРєС‚РѕСЂРѕРј РІ РїСЂРѕРіСЂР°РјРјРЅРѕРј СЃСЂРµРґСЃС‚РІРµ СѓС‡РµС‚Р° Рё РєРѕРЅС‚СЂРѕР»СЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+         * Get the 'NotAttestedPaymentOrder' element value. ПП не заверена инспектором в программном средстве учета и контроля таможенных платежей
          * 
          * @return value
          */
@@ -153,7 +153,7 @@ public class PaymentIndicationType
         }
 
         /** 
-         * Set the 'NotAttestedPaymentOrder' element value. РџРџ РЅРµ Р·Р°РІРµСЂРµРЅР° РёРЅСЃРїРµРєС‚РѕСЂРѕРј РІ РїСЂРѕРіСЂР°РјРјРЅРѕРј СЃСЂРµРґСЃС‚РІРµ СѓС‡РµС‚Р° Рё РєРѕРЅС‚СЂРѕР»СЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+         * Set the 'NotAttestedPaymentOrder' element value. ПП не заверена инспектором в программном средстве учета и контроля таможенных платежей
          * 
          * @param notAttestedPaymentOrder
          */
@@ -196,7 +196,7 @@ public class PaymentIndicationType
         }
 
         /** 
-         * Get the 'PermitRemotenessWritten' element value. РџРџ СЂР°Р·СЂРµС€РµРЅР° Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЋ РїСЂРё СѓРґР°Р»РµРЅРЅРѕРј СЃРїРёСЃР°РЅРёРё СЃСЂРµРґСЃС‚РІ РёР· РЎРўРћ
+         * Get the 'PermitRemotenessWritten' element value. ПП разрешена к использованию при удаленном списании средств из СТО
          * 
          * @return value
          */
@@ -205,7 +205,7 @@ public class PaymentIndicationType
         }
 
         /** 
-         * Set the 'PermitRemotenessWritten' element value. РџРџ СЂР°Р·СЂРµС€РµРЅР° Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЋ РїСЂРё СѓРґР°Р»РµРЅРЅРѕРј СЃРїРёСЃР°РЅРёРё СЃСЂРµРґСЃС‚РІ РёР· РЎРўРћ
+         * Set the 'PermitRemotenessWritten' element value. ПП разрешена к использованию при удаленном списании средств из СТО
          * 
          * @param permitRemotenessWritten
          */
@@ -224,7 +224,7 @@ public class PaymentIndicationType
         }
 
         /** 
-         * Get the 'InterdictionRemotenessWritten' element value. РџРџ РЅРµ СЂР°Р·СЂРµС€РµРЅР° Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЋ РїСЂРё СѓРґР°Р»РµРЅРЅРѕРј СЃРїРёСЃР°РЅРёРё СЃСЂРµРґСЃС‚РІ РёР· РЎРўРћ
+         * Get the 'InterdictionRemotenessWritten' element value. ПП не разрешена к использованию при удаленном списании средств из СТО
          * 
          * @return value
          */
@@ -233,7 +233,7 @@ public class PaymentIndicationType
         }
 
         /** 
-         * Set the 'InterdictionRemotenessWritten' element value. РџРџ РЅРµ СЂР°Р·СЂРµС€РµРЅР° Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЋ РїСЂРё СѓРґР°Р»РµРЅРЅРѕРј СЃРїРёСЃР°РЅРёРё СЃСЂРµРґСЃС‚РІ РёР· РЎРўРћ
+         * Set the 'InterdictionRemotenessWritten' element value. ПП не разрешена к использованию при удаленном списании средств из СТО
          * 
          * @param interdictionRemotenessWritten
          */

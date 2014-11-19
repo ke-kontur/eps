@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsGroupDescriptionType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+ * Сведения о товаре
  */
 public class DescriptionGoodsType
 {
@@ -28,7 +28,7 @@ public class DescriptionGoodsType
     private List<AmountDuesCalculationType> amountDuesCalculationList = new ArrayList<AmountDuesCalculationType>();
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -46,7 +46,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'GoodsDescription' element items. Наименование (торговое, коммерческое или иное традиционное наименование) товаров
      * 
      * @return list
      */
@@ -55,7 +55,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'GoodsDescription' element items. Наименование (торговое, коммерческое или иное традиционное наименование) товаров
      * 
      * @param list
      */
@@ -64,7 +64,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
+     * Get the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
+     * Set the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
      * 
      * @param netWeightQuantity
      */
@@ -82,7 +82,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the 'CustomsCost' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР°/С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
+     * Get the 'CustomsCost' element value. Корректировка/таможенная стоимость товара
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the 'CustomsCost' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР°/С‚Р°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
+     * Set the 'CustomsCost' element value. Корректировка/таможенная стоимость товара
      * 
      * @param customsCost
      */
@@ -100,7 +100,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the 'OriginCountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ / СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕРіРѕ СЃРѕСЋР·Р°.
+     * Get the 'OriginCountryName' element value. Краткое наименование страны происхождения / экономического союза.
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the 'OriginCountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ / СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕРіРѕ СЃРѕСЋР·Р°.
+     * Set the 'OriginCountryName' element value. Краткое наименование страны происхождения / экономического союза.
      * 
      * @param originCountryName
      */
@@ -118,7 +118,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the 'CountryCode' element value. РљРѕРґР° СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ.
+     * Get the 'CountryCode' element value. Кода страны происхождения.
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РљРѕРґР° СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ.
+     * Set the 'CountryCode' element value. Кода страны происхождения.
      * 
      * @param countryCode
      */
@@ -136,7 +136,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ СЂР°СЃС‡РµС‚ СЂР°Р·РјРµСЂР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Get the 'Position' element value. Порядковый номер товара, в отношении которого производится расчет размера обеспечения уплаты таможенных платежей
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the 'Position' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ СЂР°СЃС‡РµС‚ СЂР°Р·РјРµСЂР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Set the 'Position' element value. Порядковый номер товара, в отношении которого производится расчет размера обеспечения уплаты таможенных платежей
      * 
      * @param position
      */
@@ -154,7 +154,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the 'AllQuantityGoods' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ
+     * Get the 'AllQuantityGoods' element value. Общее количество товаров
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the 'AllQuantityGoods' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ
+     * Set the 'AllQuantityGoods' element value. Общее количество товаров
      * 
      * @param allQuantityGoods
      */
@@ -172,7 +172,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the 'SourceInformation' element value. РСЃС‚РѕС‡РЅРёРєРё РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'SourceInformation' element value. Источники информации
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the 'SourceInformation' element value. РСЃС‚РѕС‡РЅРёРєРё РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'SourceInformation' element value. Источники информации
      * 
      * @param sourceInformation
      */
@@ -190,7 +190,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the 'ReasonCalculationPayment' element value. РћСЃРЅРѕРІР° РґР»СЏ СЂР°СЃС‡РµС‚Р° СЂР°Р·РјРµСЂР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ (РІ СЂСѓР±Р»СЏС…)
+     * Get the 'ReasonCalculationPayment' element value. Основа для расчета размера обеспечения (в рублях)
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the 'ReasonCalculationPayment' element value. РћСЃРЅРѕРІР° РґР»СЏ СЂР°СЃС‡РµС‚Р° СЂР°Р·РјРµСЂР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ (РІ СЂСѓР±Р»СЏС…)
+     * Set the 'ReasonCalculationPayment' element value. Основа для расчета размера обеспечения (в рублях)
      * 
      * @param reasonCalculationPayment
      */
@@ -208,7 +208,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the 'TotalCustomsPayment' element value. РС‚РѕРіРѕРІС‹Р№ СЂР°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№.
+     * Get the 'TotalCustomsPayment' element value. Итоговый размер обеспечения уплаты таможенных платежей.
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the 'TotalCustomsPayment' element value. РС‚РѕРіРѕРІС‹Р№ СЂР°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№.
+     * Set the 'TotalCustomsPayment' element value. Итоговый размер обеспечения уплаты таможенных платежей.
      * 
      * @param totalCustomsPayment
      */
@@ -226,7 +226,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the 'TotalCustomsDues' element value. РС‚РѕРіРѕРІСѓСЋ СЃСѓРјРјСѓ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ Рё СЃР±РѕСЂРѕРІ
+     * Get the 'TotalCustomsDues' element value. Итоговую сумму таможенных пошлин и сборов
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the 'TotalCustomsDues' element value. РС‚РѕРіРѕРІСѓСЋ СЃСѓРјРјСѓ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ Рё СЃР±РѕСЂРѕРІ
+     * Set the 'TotalCustomsDues' element value. Итоговую сумму таможенных пошлин и сборов
      * 
      * @param totalCustomsDues
      */
@@ -244,7 +244,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the 'TotalPaymentGoods' element value. РС‚РѕРіРѕРІС‹Р№ СЂР°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РІ РѕС‚РЅРѕС€РµРЅРёРё РґР°РЅРЅРѕРіРѕ С‚РѕРІР°СЂР°
+     * Get the 'TotalPaymentGoods' element value. Итоговый размер обеспечения уплаты таможенных платежей в отношении данного товара
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the 'TotalPaymentGoods' element value. РС‚РѕРіРѕРІС‹Р№ СЂР°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РІ РѕС‚РЅРѕС€РµРЅРёРё РґР°РЅРЅРѕРіРѕ С‚РѕРІР°СЂР°
+     * Set the 'TotalPaymentGoods' element value. Итоговый размер обеспечения уплаты таможенных платежей в отношении данного товара
      * 
      * @param totalPaymentGoods
      */
@@ -262,7 +262,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the list of 'Calculation' element items. Р Р°СЃС‡РµС‚ СЂР°Р·РјРµСЂР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Get the list of 'Calculation' element items. Расчет размера обеспечения
      * 
      * @return list
      */
@@ -271,7 +271,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the list of 'Calculation' element items. Р Р°СЃС‡РµС‚ СЂР°Р·РјРµСЂР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Set the list of 'Calculation' element items. Расчет размера обеспечения
      * 
      * @param list
      */
@@ -280,7 +280,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the list of 'GoodsGroupDescription' element items. РћРїРёСЃР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂРѕРІ / РћРїРёСЃР°РЅРёРµ РіСЂСѓРїРїС‹ С‚РѕРІР°СЂРѕРІ РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ СЃ РѕС‚Р»РёС‡Р°СЋС‰РёРјРёСЃСЏ РѕС‚ РґСЂСѓРіРёС… РіСЂСѓРїРї С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё
+     * Get the list of 'GoodsGroupDescription' element items. Описание и характеристика товаров / Описание группы товаров одного наименования с отличающимися от других групп характеристиками
      * 
      * @return list
      */
@@ -289,7 +289,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsGroupDescription' element items. РћРїРёСЃР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂРѕРІ / РћРїРёСЃР°РЅРёРµ РіСЂСѓРїРїС‹ С‚РѕРІР°СЂРѕРІ РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ СЃ РѕС‚Р»РёС‡Р°СЋС‰РёРјРёСЃСЏ РѕС‚ РґСЂСѓРіРёС… РіСЂСѓРїРї С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё
+     * Set the list of 'GoodsGroupDescription' element items. Описание и характеристика товаров / Описание группы товаров одного наименования с отличающимися от других групп характеристиками
      * 
      * @param list
      */
@@ -299,7 +299,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Get the list of 'AmountDuesCalculation' element items. Р Р°СЃС‡РµС‚ СЃСѓРјРјС‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ Рё СЃР±РѕСЂРѕРІ, СѓРїР»Р°С‡РµРЅРЅС‹С… РґРµРєР»Р°СЂР°РЅС‚РѕРј
+     * Get the list of 'AmountDuesCalculation' element items. Расчет суммы таможенных пошлин и сборов, уплаченных декларантом
      * 
      * @return list
      */
@@ -308,7 +308,7 @@ public class DescriptionGoodsType
     }
 
     /** 
-     * Set the list of 'AmountDuesCalculation' element items. Р Р°СЃС‡РµС‚ СЃСѓРјРјС‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ Рё СЃР±РѕСЂРѕРІ, СѓРїР»Р°С‡РµРЅРЅС‹С… РґРµРєР»Р°СЂР°РЅС‚РѕРј
+     * Set the list of 'AmountDuesCalculation' element items. Расчет суммы таможенных пошлин и сборов, уплаченных декларантом
      * 
      * @param list
      */

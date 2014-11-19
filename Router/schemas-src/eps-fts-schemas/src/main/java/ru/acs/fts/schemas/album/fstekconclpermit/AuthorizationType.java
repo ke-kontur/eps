@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.fstekconclpermit;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р Р°Р·СЂРµС€РµРЅРёРµ/Р—Р°РєР»СЋС‡РµРЅРёРµ
+ * Разрешение/Заключение
  */
 public class AuthorizationType extends DocumentBaseType
 {
     private String status;
 
     /** 
-     * Get the 'Status' element value. РЎРѕСЃС‚РѕСЏРЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ: 1 - РґРµР№СЃС‚РІСѓРµС‚, 2 - РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРѕ, 3 - РІРѕР·РѕР±РЅРѕРІР»РµРЅРѕ РґРµР№СЃС‚РІРёРµ
+     * Get the 'Status' element value. Состояние разрешения: 1 - действует, 2 - приостановлено, 3 - возобновлено действие
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AuthorizationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Status' element value. РЎРѕСЃС‚РѕСЏРЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ: 1 - РґРµР№СЃС‚РІСѓРµС‚, 2 - РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРѕ, 3 - РІРѕР·РѕР±РЅРѕРІР»РµРЅРѕ РґРµР№СЃС‚РІРёРµ
+     * Set the 'Status' element value. Состояние разрешения: 1 - действует, 2 - приостановлено, 3 - возобновлено действие
      * 
      * @param status
      */

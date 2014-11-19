@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РїРѕ С„РѕСЂРјРµ P51001
+ * Свидетельство о государственной регистрации юридического лица по форме P51001
  */
 public class JuridicalPersonRegistrationCertificateType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'RegistrationDate' element value. Дата государственной регистрации юридического лица
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'RegistrationDate' element value. Дата государственной регистрации юридического лица
      * 
      * @param registrationDate
      */
@@ -40,7 +40,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumberID' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё, РІРЅРѕСЃРёРјРѕР№ РІ Р•РґРёРЅС‹Р№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРµСЃС‚СЂ СЋСЂРёРґРёС‡РµСЃРєРёС… Р»РёС†
+     * Get the 'RegistrationNumberID' element value. Государственный регистрационный номер записи, вносимой в Единый государственный реестр юридических лиц
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumberID' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё, РІРЅРѕСЃРёРјРѕР№ РІ Р•РґРёРЅС‹Р№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРµСЃС‚СЂ СЋСЂРёРґРёС‡РµСЃРєРёС… Р»РёС†
+     * Set the 'RegistrationNumberID' element value. Государственный регистрационный номер записи, вносимой в Единый государственный реестр юридических лиц
      * 
      * @param registrationNumberID
      */
@@ -58,7 +58,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'RegistrationOrganization' element value. Наименование регистрирующего органа
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'RegistrationOrganization' element value. Наименование регистрирующего органа
      * 
      * @param registrationOrganization
      */
@@ -76,7 +76,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'JuridicalPersonLongTitle' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° СЃ СѓРєР°Р·Р°РЅРёРµРј РѕСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕ-РїСЂР°РІРѕРІРѕР№ С„РѕСЂРјС‹
+     * Get the 'JuridicalPersonLongTitle' element value. Полное наименование юридического лица с указанием организационно-правовой формы
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'JuridicalPersonLongTitle' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° СЃ СѓРєР°Р·Р°РЅРёРµРј РѕСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕ-РїСЂР°РІРѕРІРѕР№ С„РѕСЂРјС‹
+     * Set the 'JuridicalPersonLongTitle' element value. Полное наименование юридического лица с указанием организационно-правовой формы
      * 
      * @param juridicalPersonLongTitle
      */
@@ -94,7 +94,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'JuridicalPersonShortcut' element value. РЎРѕРєСЂР°С‰РµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'JuridicalPersonShortcut' element value. Сокращенное наименование юридического лица
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'JuridicalPersonShortcut' element value. РЎРѕРєСЂР°С‰РµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'JuridicalPersonShortcut' element value. Сокращенное наименование юридического лица
      * 
      * @param juridicalPersonShortcut
      */
@@ -112,7 +112,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'JuridicalPersonFirmName' element value. Р¤РёСЂРјРµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ
+     * Get the 'JuridicalPersonFirmName' element value. Фирменное наименование
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'JuridicalPersonFirmName' element value. Р¤РёСЂРјРµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ
+     * Set the 'JuridicalPersonFirmName' element value. Фирменное наименование
      * 
      * @param juridicalPersonFirmName
      */
@@ -130,7 +130,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormName' element value. Р¤РѕСЂРјР°
+     * Get the 'FormName' element value. Форма
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormName' element value. Р¤РѕСЂРјР°
+     * Set the 'FormName' element value. Форма
      * 
      * @param formName
      */
@@ -148,7 +148,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegisteringClerkSignature' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'RegisteringClerkSignature' element value. Подпись уполномоченного лица регистрирующего органа
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegisteringClerkSignature' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'RegisteringClerkSignature' element value. Подпись уполномоченного лица регистрирующего органа
      * 
      * @param registeringClerkSignature
      */
@@ -167,7 +167,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Form' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Get the 'Form' element value. Серия и номер бланка
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Form' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Set the 'Form' element value. Серия и номер бланка
      * 
      * @param form
      */
@@ -185,7 +185,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class JuridicalPersonRegistrationCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

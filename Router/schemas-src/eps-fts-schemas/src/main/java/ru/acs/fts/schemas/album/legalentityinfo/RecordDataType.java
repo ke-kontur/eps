@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.legalentityinfo;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+ * Сведения о записи
  */
 public class RecordDataType
 {
@@ -12,7 +12,7 @@ public class RecordDataType
     private String recordRegNum;
 
     /** 
-     * Get the 'RecordDate' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ СЃРІРµРґРµРЅРёР№ РІ Р•Р“Р Р®Р›
+     * Get the 'RecordDate' element value. Дата внесения сведений в ЕГРЮЛ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class RecordDataType
     }
 
     /** 
-     * Set the 'RecordDate' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ СЃРІРµРґРµРЅРёР№ РІ Р•Р“Р Р®Р›
+     * Set the 'RecordDate' element value. Дата внесения сведений в ЕГРЮЛ
      * 
      * @param recordDate
      */
@@ -30,7 +30,7 @@ public class RecordDataType
     }
 
     /** 
-     * Get the 'RecordRegNum' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕР№ СЃРІРµРґРµРЅРёСЏ РІРЅРµСЃРµРЅС‹ РІ Р•Р“Р Р®Р›
+     * Get the 'RecordRegNum' element value. Государственный регистрационный номер записи, на основании которой сведения внесены в ЕГРЮЛ
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class RecordDataType
     }
 
     /** 
-     * Set the 'RecordRegNum' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕР№ СЃРІРµРґРµРЅРёСЏ РІРЅРµСЃРµРЅС‹ РІ Р•Р“Р Р®Р›
+     * Set the 'RecordRegNum' element value. Государственный регистрационный номер записи, на основании которой сведения внесены в ЕГРЮЛ
      * 
      * @param recordRegNum
      */

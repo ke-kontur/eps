@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.dealpassport;
 import org.joda.time.LocalDate;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·СЂРµС€РµРЅРёСЏС…
+ * Информация о разрешениях
  */
 public class PermissionsType
 {
@@ -14,7 +14,7 @@ public class PermissionsType
     private LocalDate permitEndDate;
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ. Р’ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ РЅРѕРјРµСЂР° СЃС‚Р°РІРёС‚СЊСЃСЏ "Р±/РЅ"
+     * Get the 'DocumentNumber' element value. Номер разрешения. В случае отсутствия номера ставиться "б/н"
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PermissionsType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ. Р’ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ РЅРѕРјРµСЂР° СЃС‚Р°РІРёС‚СЊСЃСЏ "Р±/РЅ"
+     * Set the 'DocumentNumber' element value. Номер разрешения. В случае отсутствия номера ставиться "б/н"
      * 
      * @param documentNumber
      */
@@ -32,7 +32,7 @@ public class PermissionsType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'IssueDate' element value. Дата разрешения
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PermissionsType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'IssueDate' element value. Дата разрешения
      * 
      * @param issueDate
      */
@@ -50,7 +50,7 @@ public class PermissionsType
     }
 
     /** 
-     * Get the 'Summa' element value. РЎСѓРјРјР° СЂР°Р·СЂРµС€РµРЅРЅРѕР№ РѕРїРµСЂР°С†РёРё РІ РІР°Р»СЋС‚Рµ С†РµРЅС‹
+     * Get the 'Summa' element value. Сумма разрешенной операции в валюте цены
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class PermissionsType
     }
 
     /** 
-     * Set the 'Summa' element value. РЎСѓРјРјР° СЂР°Р·СЂРµС€РµРЅРЅРѕР№ РѕРїРµСЂР°С†РёРё РІ РІР°Р»СЋС‚Рµ С†РµРЅС‹
+     * Set the 'Summa' element value. Сумма разрешенной операции в валюте цены
      * 
      * @param summa
      */
@@ -68,7 +68,7 @@ public class PermissionsType
     }
 
     /** 
-     * Get the 'PermitEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'PermitEndDate' element value. Дата окончания действия разрешения
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class PermissionsType
     }
 
     /** 
-     * Set the 'PermitEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'PermitEndDate' element value. Дата окончания действия разрешения
      * 
      * @param permitEndDate
      */

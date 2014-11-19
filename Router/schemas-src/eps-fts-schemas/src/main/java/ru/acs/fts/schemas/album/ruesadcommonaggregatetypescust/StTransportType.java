@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°С†РёРѕРЅР°СЂРЅРѕРіРѕ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°: РўР РЈР‘РћРџР РћР’РћР”РќР«Р™ / Р­Р›Р•РљРўР РћРџР•Р Р•Р”РђР§Рђ
+ * Наименование стационарного вида транспорта: ТРУБОПРОВОДНЫЙ / ЭЛЕКТРОПЕРЕДАЧА
  */
 public class StTransportType
 {
     private String stTransportName;
 
     /** 
-     * Get the 'StTransportName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°С†РёРѕРЅР°СЂРЅРѕРіРѕ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°: РўР РЈР‘РћРџР РћР’РћР”РќР«Р™ / Р­Р›Р•РљРўР РћРџР•Р Р•Р”РђР§Рђ
+     * Get the 'StTransportName' element value. Наименование стационарного вида транспорта: ТРУБОПРОВОДНЫЙ / ЭЛЕКТРОПЕРЕДАЧА
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class StTransportType
     }
 
     /** 
-     * Set the 'StTransportName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°С†РёРѕРЅР°СЂРЅРѕРіРѕ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°: РўР РЈР‘РћРџР РћР’РћР”РќР«Р™ / Р­Р›Р•РљРўР РћРџР•Р Р•Р”РђР§Рђ
+     * Set the 'StTransportName' element value. Наименование стационарного вида транспорта: ТРУБОПРОВОДНЫЙ / ЭЛЕКТРОПЕРЕДАЧА
      * 
      * @param stTransportName
      */

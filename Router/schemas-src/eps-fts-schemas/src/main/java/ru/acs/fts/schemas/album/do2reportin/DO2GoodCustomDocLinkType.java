@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.do2reportin;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РІС‹РґР°РІР°РµРјРѕРіРѕ С‚РѕРІР°СЂР° С‚Р°РјРѕР¶РµРЅРЅРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
+ * Комплексный тип для описания соответствия выдаваемого товара таможенному документу
  */
 public class DO2GoodCustomDocLinkType
 {
@@ -10,7 +10,7 @@ public class DO2GoodCustomDocLinkType
     private String customDocNumber;
 
     /** 
-     * Get the 'GoodNumber' element value. Р’Р°Р»РѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РѕС‚С‡РµС‚Сѓ Рѕ РІС‹РґР°С‡Рµ
+     * Get the 'GoodNumber' element value. Валовый номер товара по отчету о выдаче
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DO2GoodCustomDocLinkType
     }
 
     /** 
-     * Set the 'GoodNumber' element value. Р’Р°Р»РѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РѕС‚С‡РµС‚Сѓ Рѕ РІС‹РґР°С‡Рµ
+     * Set the 'GoodNumber' element value. Валовый номер товара по отчету о выдаче
      * 
      * @param goodNumber
      */
@@ -28,7 +28,7 @@ public class DO2GoodCustomDocLinkType
     }
 
     /** 
-     * Get the 'CustomDocNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ РѕС‚С‡РµС‚Рµ Рѕ РІС‹РґР°С‡Рµ
+     * Get the 'CustomDocNumber' element value. Порядковый номер таможенного документа в отчете о выдаче
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DO2GoodCustomDocLinkType
     }
 
     /** 
-     * Set the 'CustomDocNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ РѕС‚С‡РµС‚Рµ Рѕ РІС‹РґР°С‡Рµ
+     * Set the 'CustomDocNumber' element value. Порядковый номер таможенного документа в отчете о выдаче
      * 
      * @param customDocNumber
      */

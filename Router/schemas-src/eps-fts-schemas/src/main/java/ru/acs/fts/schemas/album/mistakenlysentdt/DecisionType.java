@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.mistakenlysentdt;
 
 /** 
- * Р РµС€РµРЅРёРµ
+ * Решение
  */
 public class DecisionType
 {
@@ -10,7 +10,7 @@ public class DecisionType
     private String reasons;
 
     /** 
-     * Get the 'DecisionDescription' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ
+     * Get the 'DecisionDescription' element value. Принятое решение
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DecisionType
     }
 
     /** 
-     * Set the 'DecisionDescription' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ
+     * Set the 'DecisionDescription' element value. Принятое решение
      * 
      * @param decisionDescription
      */
@@ -28,7 +28,7 @@ public class DecisionType
     }
 
     /** 
-     * Get the 'Reasons' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
+     * Get the 'Reasons' element value. Обоснование
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DecisionType
     }
 
     /** 
-     * Set the 'Reasons' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
+     * Set the 'Reasons' element value. Обоснование
      * 
      * @param reasons
      */

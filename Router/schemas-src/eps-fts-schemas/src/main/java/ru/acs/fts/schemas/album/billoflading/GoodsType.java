@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.TransportGoodsType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°.
+ * Описание товара.
  */
 public class GoodsType extends TransportGoodsType
 {
@@ -18,7 +18,7 @@ public class GoodsType extends TransportGoodsType
     private List<String> UNnumberList = new ArrayList<String>();
 
     /** 
-     * Get the 'PlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР°
+     * Get the 'PlacesQuantity' element value. Количество мест товара
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class GoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'PlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР°
+     * Set the 'PlacesQuantity' element value. Количество мест товара
      * 
      * @param placesQuantity
      */
@@ -36,7 +36,7 @@ public class GoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class GoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @param grossWeightQuantity
      */
@@ -54,7 +54,7 @@ public class GoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'PackingDescription' element value. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚, Р”Р°РЅРЅС‹Рµ Рѕ РІРЅРµС€РЅРµРј РІРёРґРµ, СЃРѕСЃС‚РѕСЏРЅРёРё СѓРїР°РєРѕРІРєРё Рё РѕСЃРѕР±С‹С… СЃРІРѕР№СЃС‚РІР°С… РіСЂСѓР·Р°.
+     * Get the 'PackingDescription' element value. Описание грузовых  мест, Данные о внешнем виде, состоянии упаковки и особых свойствах груза.
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class GoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'PackingDescription' element value. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚, Р”Р°РЅРЅС‹Рµ Рѕ РІРЅРµС€РЅРµРј РІРёРґРµ, СЃРѕСЃС‚РѕСЏРЅРёРё СѓРїР°РєРѕРІРєРё Рё РѕСЃРѕР±С‹С… СЃРІРѕР№СЃС‚РІР°С… РіСЂСѓР·Р°.
+     * Set the 'PackingDescription' element value. Описание грузовых  мест, Данные о внешнем виде, состоянии упаковки и особых свойствах груза.
      * 
      * @param packingDescription
      */
@@ -72,7 +72,7 @@ public class GoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the list of 'ContainerNum' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР° 
+     * Get the list of 'ContainerNum' element items. Номер контейнера 
      * 
      * @return list
      */
@@ -81,7 +81,7 @@ public class GoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the list of 'ContainerNum' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР° 
+     * Set the list of 'ContainerNum' element items. Номер контейнера 
      * 
      * @param list
      */
@@ -90,7 +90,7 @@ public class GoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the 'PolletQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»Р»РµС‚ (РїРѕРґРґРѕРЅРѕРІ)
+     * Get the 'PolletQuantity' element value. Количество поллет (поддонов)
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class GoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the 'PolletQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»Р»РµС‚ (РїРѕРґРґРѕРЅРѕРІ)
+     * Set the 'PolletQuantity' element value. Количество поллет (поддонов)
      * 
      * @param polletQuantity
      */
@@ -108,7 +108,7 @@ public class GoodsType extends TransportGoodsType
     }
 
     /** 
-     * Get the list of 'UNnumber' element items. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕРїР°СЃРЅРѕСЃС‚Рё РІРµС‰РµСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РєР°С†РёРё РћРћРќ
+     * Get the list of 'UNnumber' element items. Идентификатор опасности вещества по классифкации ООН
      * 
      * @return list
      */
@@ -117,7 +117,7 @@ public class GoodsType extends TransportGoodsType
     }
 
     /** 
-     * Set the list of 'UNnumber' element items. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕРїР°СЃРЅРѕСЃС‚Рё РІРµС‰РµСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РєР°С†РёРё РћРћРќ
+     * Set the list of 'UNnumber' element items. Идентификатор опасности вещества по классифкации ООН
      * 
      * @param list
      */

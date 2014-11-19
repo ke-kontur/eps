@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.envelope;
 
 /** 
- * Р—Р°РїСЂРѕСЃ СѓРІРµРґРѕРјР»РµРЅРёР№
+ * Запрос уведомлений
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -18,7 +18,7 @@ public class ConfirmationRequestType
     private String COD;
 
     /** 
-     * Get the 'COD' element value. Р—Р°РїСЂРѕСЃ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РґРѕСЃС‚Р°РІРєРµ
+     * Get the 'COD' element value. Запрос уведомления о доставке
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ConfirmationRequestType
     }
 
     /** 
-     * Set the 'COD' element value. Р—Р°РїСЂРѕСЃ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РґРѕСЃС‚Р°РІРєРµ
+     * Set the 'COD' element value. Запрос уведомления о доставке
      * 
      * @param COD
      */

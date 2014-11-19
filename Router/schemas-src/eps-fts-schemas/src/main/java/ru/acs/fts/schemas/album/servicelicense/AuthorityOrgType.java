@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.servicelicense;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РћСЂРіР°РЅ РІР»Р°СЃС‚Рё
+ * Орган власти
  */
 public class AuthorityOrgType extends OrganizationType
 {
     private String authorityOrgCode;
 
     /** 
-     * Get the 'AuthorityOrgCode' element value. РљРѕРґ РѕСЂРіР°РЅР° РІР»Р°СЃС‚Рё
+     * Get the 'AuthorityOrgCode' element value. Код органа власти
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AuthorityOrgType extends OrganizationType
     }
 
     /** 
-     * Set the 'AuthorityOrgCode' element value. РљРѕРґ РѕСЂРіР°РЅР° РІР»Р°СЃС‚Рё
+     * Set the 'AuthorityOrgCode' element value. Код органа власти
      * 
      * @param authorityOrgCode
      */

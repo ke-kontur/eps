@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРѕР№СЃС‚РІР° СЏС‡РµР№РєРё
+ * Свойства ячейки
  */
 public class CellType extends TextParaType
 {
@@ -17,7 +17,7 @@ public class CellType extends TextParaType
     private String morecols;
 
     /** 
-     * Get the 'Align' element value. РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Get the 'Align' element value. Стили выравнивания по горизонтали
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class CellType extends TextParaType
     }
 
     /** 
-     * Set the 'Align' element value. РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Set the 'Align' element value. Стили выравнивания по горизонтали
      * 
      * @param align
      */
@@ -35,7 +35,7 @@ public class CellType extends TextParaType
     }
 
     /** 
-     * Get the 'Valign' element value. РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
+     * Get the 'Valign' element value. Стили выравнивания по вертикали
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class CellType extends TextParaType
     }
 
     /** 
-     * Set the 'Valign' element value. РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
+     * Set the 'Valign' element value. Стили выравнивания по вертикали
      * 
      * @param valign
      */
@@ -53,7 +53,7 @@ public class CellType extends TextParaType
     }
 
     /** 
-     * Get the list of 'Namest' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРІРѕР№ СЏС‡РµР№РєРё, РІРєР»СЋС‡Р°РµРјРѕР№ РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Get the list of 'Namest' element items. Наименование первой ячейки, включаемой в объединение по горизонтали
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class CellType extends TextParaType
     }
 
     /** 
-     * Set the list of 'Namest' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРІРѕР№ СЏС‡РµР№РєРё, РІРєР»СЋС‡Р°РµРјРѕР№ РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Set the list of 'Namest' element items. Наименование первой ячейки, включаемой в объединение по горизонтали
      * 
      * @param list
      */
@@ -71,7 +71,7 @@ public class CellType extends TextParaType
     }
 
     /** 
-     * Get the list of 'Nameend' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЃР»РµРґРЅРµР№ СЏС‡РµР№РєРё, РІРєР»СЋС‡Р°РµРјРѕР№ РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Get the list of 'Nameend' element items. Наименование последней ячейки, включаемой в объединение по горизонтали
      * 
      * @return list
      */
@@ -80,7 +80,7 @@ public class CellType extends TextParaType
     }
 
     /** 
-     * Set the list of 'Nameend' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЃР»РµРґРЅРµР№ СЏС‡РµР№РєРё, РІРєР»СЋС‡Р°РµРјРѕР№ РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Set the list of 'Nameend' element items. Наименование последней ячейки, включаемой в объединение по горизонтали
      * 
      * @param list
      */
@@ -89,7 +89,7 @@ public class CellType extends TextParaType
     }
 
     /** 
-     * Get the 'Morerows' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє, РІРєР»СЋС‡Р°РµРјС‹С… РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
+     * Get the 'Morerows' element value. Количество строк, включаемых в объединение по вертикали
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class CellType extends TextParaType
     }
 
     /** 
-     * Set the 'Morerows' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє, РІРєР»СЋС‡Р°РµРјС‹С… РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
+     * Set the 'Morerows' element value. Количество строк, включаемых в объединение по вертикали
      * 
      * @param morerows
      */
@@ -107,7 +107,7 @@ public class CellType extends TextParaType
     }
 
     /** 
-     * Get the 'Morecols' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕР»Р±С†РѕРІ, РІРєР»СЋС‡Р°РµРјС‹С… РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Get the 'Morecols' element value. Количество столбцов, включаемых в объединение по горизонтали
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class CellType extends TextParaType
     }
 
     /** 
-     * Set the 'Morecols' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕР»Р±С†РѕРІ, РІРєР»СЋС‡Р°РµРјС‹С… РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Set the 'Morecols' element value. Количество столбцов, включаемых в объединение по горизонтали
      * 
      * @param morecols
      */

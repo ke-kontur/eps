@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РЅРµРѕР±С…РѕРґРёРјС‹С… РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№) Р”Рў
+ * Описание необходимых изменений (дополнений) ДТ
  */
 public class DeclarationChangesType
 {
@@ -14,7 +14,7 @@ public class DeclarationChangesType
     private List<String> modifiedDataList = new ArrayList<String>();
 
     /** 
-     * Get the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹)
+     * Get the 'GRNumber' element value. Обозначение графы (подраздела графы)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DeclarationChangesType
     }
 
     /** 
-     * Set the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹)
+     * Set the 'GRNumber' element value. Обозначение графы (подраздела графы)
      * 
      * @param GRNumber
      */
@@ -32,7 +32,7 @@ public class DeclarationChangesType
     }
 
     /** 
-     * Get the list of 'PreviousData' element items. Р Р°РЅРµРµ СѓРєР°Р·Р°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Get the list of 'PreviousData' element items. Ранее указанные сведения
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class DeclarationChangesType
     }
 
     /** 
-     * Set the list of 'PreviousData' element items. Р Р°РЅРµРµ СѓРєР°Р·Р°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Set the list of 'PreviousData' element items. Ранее указанные сведения
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class DeclarationChangesType
     }
 
     /** 
-     * Get the list of 'ModifiedData' element items. РЎРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Get the list of 'ModifiedData' element items. Скорректированные сведения
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class DeclarationChangesType
     }
 
     /** 
-     * Set the list of 'ModifiedData' element items. РЎРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Set the list of 'ModifiedData' element items. Скорректированные сведения
      * 
      * @param list
      */

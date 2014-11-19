@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РІС‹РїРѕР»РЅРµРЅРёРё РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕРіРѕ СЂРµР№СЃР° РґРѕ РїР»Р°РЅРѕРІРѕРіРѕ РІСЂРµРјРµРЅРё СѓР±С‹С‚РёСЏ
+ * Уведомление о выполнении международного рейса до планового времени убытия
  */
 public class NoticeFlightDepartureType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class NoticeFlightDepartureType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Get the 'Carrier' element value. Перевозчик
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class NoticeFlightDepartureType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Set the 'Carrier' element value. Перевозчик
      * 
      * @param carrier
      */
@@ -34,7 +34,7 @@ public class NoticeFlightDepartureType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ РІРѕР·РґСѓС€РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
+     * Get the 'CustomsOffice' element value. Таможенный орган, в регионе деятельности которого находится воздушный пункт пропуска
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class NoticeFlightDepartureType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ РІРѕР·РґСѓС€РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
+     * Set the 'CustomsOffice' element value. Таможенный орган, в регионе деятельности которого находится воздушный пункт пропуска
      * 
      * @param customsOffice
      */
@@ -52,7 +52,7 @@ public class NoticeFlightDepartureType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartureInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓР±С‹С‚РёРё РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+     * Get the 'DepartureInfo' element value. Сведения об убытии воздушного судна
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class NoticeFlightDepartureType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓР±С‹С‚РёРё РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+     * Set the 'DepartureInfo' element value. Сведения об убытии воздушного судна
      * 
      * @param departureInfo
      */
@@ -70,7 +70,7 @@ public class NoticeFlightDepartureType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class NoticeFlightDepartureType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

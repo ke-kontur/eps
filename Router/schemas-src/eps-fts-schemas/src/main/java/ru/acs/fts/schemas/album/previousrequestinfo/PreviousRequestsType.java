@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЂР°РЅРµРµ РїРѕСЃС‚СѓРїРёРІС€РёС… Р·Р°РїСЂРѕСЃР°С…
+ * Сведения о ранее поступивших запросах
  */
 public class PreviousRequestsType
 {
@@ -14,7 +14,7 @@ public class PreviousRequestsType
     private CustomsType customs;
 
     /** 
-     * Get the 'PreviousRequestDate' element value. Р”Р°С‚Р° Р·Р°РїСЂРѕСЃР°
+     * Get the 'PreviousRequestDate' element value. Дата запроса
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PreviousRequestsType
     }
 
     /** 
-     * Set the 'PreviousRequestDate' element value. Р”Р°С‚Р° Р·Р°РїСЂРѕСЃР°
+     * Set the 'PreviousRequestDate' element value. Дата запроса
      * 
      * @param previousRequestDate
      */
@@ -32,7 +32,7 @@ public class PreviousRequestsType
     }
 
     /** 
-     * Get the 'PreviousRequestTime' element value. Р’СЂРµРјСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'PreviousRequestTime' element value. Время запроса
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PreviousRequestsType
     }
 
     /** 
-     * Set the 'PreviousRequestTime' element value. Р’СЂРµРјСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'PreviousRequestTime' element value. Время запроса
      * 
      * @param previousRequestTime
      */
@@ -50,7 +50,7 @@ public class PreviousRequestsType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class PreviousRequestsType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */

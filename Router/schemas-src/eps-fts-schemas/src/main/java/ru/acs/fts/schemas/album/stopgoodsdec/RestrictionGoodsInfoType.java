@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ, РЅР° РєРѕС‚РѕСЂС‹Р№ РЅР°Р»РѕР¶РµРЅРѕ РѕРіСЂР°РЅРёС‡РµРЅРёРµ
+ * Сведения о товаре, на который наложено ограничение
  */
 public class RestrictionGoodsInfoType
 {
@@ -17,7 +17,7 @@ public class RestrictionGoodsInfoType
     private List<DocumentBaseType> goodsDocList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the list of 'CounterfeitSigns' element items. РџСЂРёР·РЅР°РєРё РєРѕРЅС‚СЂР°С„Р°РєС‚РЅРѕСЃС‚Рё
+     * Get the list of 'CounterfeitSigns' element items. Признаки контрафактности
      * 
      * @return list
      */
@@ -26,7 +26,7 @@ public class RestrictionGoodsInfoType
     }
 
     /** 
-     * Set the list of 'CounterfeitSigns' element items. РџСЂРёР·РЅР°РєРё РєРѕРЅС‚СЂР°С„Р°РєС‚РЅРѕСЃС‚Рё
+     * Set the list of 'CounterfeitSigns' element items. Признаки контрафактности
      * 
      * @param list
      */
@@ -35,7 +35,7 @@ public class RestrictionGoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Get the 'GoodsNumeric' element value. Номер товара по ДТ
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class RestrictionGoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Set the 'GoodsNumeric' element value. Номер товара по ДТ
      * 
      * @param goodsNumeric
      */
@@ -53,7 +53,7 @@ public class RestrictionGoodsInfoType
     }
 
     /** 
-     * Get the list of 'GoodsDescriptions' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescriptions' element items. Описание товара
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class RestrictionGoodsInfoType
     }
 
     /** 
-     * Set the list of 'GoodsDescriptions' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescriptions' element items. Описание товара
      * 
      * @param list
      */
@@ -71,7 +71,7 @@ public class RestrictionGoodsInfoType
     }
 
     /** 
-     * Get the 'IntellectualPropertyObject' element value. РћР±СЉРµРєС‚ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
+     * Get the 'IntellectualPropertyObject' element value. Объект интеллектуальной собственности
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class RestrictionGoodsInfoType
     }
 
     /** 
-     * Set the 'IntellectualPropertyObject' element value. РћР±СЉРµРєС‚ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
+     * Set the 'IntellectualPropertyObject' element value. Объект интеллектуальной собственности
      * 
      * @param intellectualPropertyObject
      */
@@ -89,7 +89,7 @@ public class RestrictionGoodsInfoType
     }
 
     /** 
-     * Get the list of 'GoodsDoc' element items. Р”РѕРєСѓРјРµРЅС‚ РЅР° С‚РѕРІР°СЂ, СЃРѕРґРµСЂР¶Р°С‰РёР№ СЃРІРµРґРµРЅРёСЏ Рѕ РµРіРѕ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Get the list of 'GoodsDoc' element items. Документ на товар, содержащий сведения о его идентификации
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class RestrictionGoodsInfoType
     }
 
     /** 
-     * Set the list of 'GoodsDoc' element items. Р”РѕРєСѓРјРµРЅС‚ РЅР° С‚РѕРІР°СЂ, СЃРѕРґРµСЂР¶Р°С‰РёР№ СЃРІРµРґРµРЅРёСЏ Рѕ РµРіРѕ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Set the list of 'GoodsDoc' element items. Документ на товар, содержащий сведения о его идентификации
      * 
      * @param list
      */

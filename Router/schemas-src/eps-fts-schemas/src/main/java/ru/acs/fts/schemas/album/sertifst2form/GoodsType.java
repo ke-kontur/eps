@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsType
 {
@@ -24,7 +24,7 @@ public class GoodsType
     private List<DocumentBaseType> goodsInvoiceList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Get the 'GoodsNumeric' element value. Порядковый номер товара
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Set the 'GoodsNumeric' element value. Порядковый номер товара
      * 
      * @param goodsNumeric
      */
@@ -42,7 +42,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С‚РµРєСЃС‚РѕРІРѕРµ (РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°, РµРіРѕ РјРѕРґРµР»СЊ, РјР°СЂРєР°, РјРѕРґРёС„РёРєР°С†РёСЏ, Р°СЂС‚РёРєСѓР», РґСЂСѓРіРёРµ РґР°РЅРЅС‹Рµ, РїРѕР·РІРѕР»СЏСЋС‰РёРµ РїСЂРѕРІРµСЃС‚Рё РѕРґРЅРѕР·РЅР°С‡РЅСѓСЋ РёРґРµРЅС‚РёС„РёРєР°С†РёСЋ С‚РѕРІР°СЂР° СЃ Р·Р°СЏРІР»РµРЅРЅС‹Рј РґР»СЏ С†РµР»РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ)
+     * Get the list of 'GoodsDescription' element items. Описание товара текстовое (коммерческое наименование товара, его модель, марка, модификация, артикул, другие данные, позволяющие провести однозначную идентификацию товара с заявленным для целей таможенного оформления)
      * 
      * @return list
      */
@@ -51,7 +51,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С‚РµРєСЃС‚РѕРІРѕРµ (РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°, РµРіРѕ РјРѕРґРµР»СЊ, РјР°СЂРєР°, РјРѕРґРёС„РёРєР°С†РёСЏ, Р°СЂС‚РёРєСѓР», РґСЂСѓРіРёРµ РґР°РЅРЅС‹Рµ, РїРѕР·РІРѕР»СЏСЋС‰РёРµ РїСЂРѕРІРµСЃС‚Рё РѕРґРЅРѕР·РЅР°С‡РЅСѓСЋ РёРґРµРЅС‚РёС„РёРєР°С†РёСЋ С‚РѕРІР°СЂР° СЃ Р·Р°СЏРІР»РµРЅРЅС‹Рј РґР»СЏ С†РµР»РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕС„РѕСЂРјР»РµРЅРёСЏ)
+     * Set the list of 'GoodsDescription' element items. Описание товара текстовое (коммерческое наименование товара, его модель, марка, модификация, артикул, другие данные, позволяющие провести однозначную идентификацию товара с заявленным для целей таможенного оформления)
      * 
      * @param list
      */
@@ -60,7 +60,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Get the 'GoodsQuantity' element value. Количество товара
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Set the 'GoodsQuantity' element value. Количество товара
      * 
      * @param goodsQuantity
      */
@@ -78,7 +78,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierCode' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'MeasureUnitQualifierCode' element value. Единица измерения товара
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierCode' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'MeasureUnitQualifierCode' element value. Единица измерения товара
      * 
      * @param measureUnitQualifierCode
      */
@@ -96,7 +96,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительных единицах измерения
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительных единицах измерения
      * 
      * @param supplementaryGoodsQuantity
      */
@@ -114,7 +114,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'SupplementaryMeasureUnitQualifierCode' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РµРґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'SupplementaryMeasureUnitQualifierCode' element value. Дополнительная единица измерения товара
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'SupplementaryMeasureUnitQualifierCode' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РµРґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'SupplementaryMeasureUnitQualifierCode' element value. Дополнительная единица измерения товара
      * 
      * @param supplementaryMeasureUnitQualifierCode
      */
@@ -133,7 +133,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsPlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР°
+     * Get the 'GoodsPlacesQuantity' element value. Количество мест товара
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsPlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР°
+     * Set the 'GoodsPlacesQuantity' element value. Количество мест товара
      * 
      * @param goodsPlacesQuantity
      */
@@ -151,7 +151,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'PlacesDescription' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ (РєРѕСЂРѕР±РѕРє, СѓРїР°РєРѕРІРѕРє, РїР°Р»Р»РµС‚ Рё С‚.Рґ.)
+     * Get the 'PlacesDescription' element value. Описание вида грузовых мест (коробок, упаковок, паллет и т.д.)
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'PlacesDescription' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ (РєРѕСЂРѕР±РѕРє, СѓРїР°РєРѕРІРѕРє, РїР°Р»Р»РµС‚ Рё С‚.Рґ.)
+     * Set the 'PlacesDescription' element value. Описание вида грузовых мест (коробок, упаковок, паллет и т.д.)
      * 
      * @param placesDescription
      */
@@ -169,7 +169,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'OriginCriterionCode' element value. РљСЂРёС‚РµСЂРёР№ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Get the 'OriginCriterionCode' element value. Критерий происхождения
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'OriginCriterionCode' element value. РљСЂРёС‚РµСЂРёР№ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Set the 'OriginCriterionCode' element value. Критерий происхождения
      * 
      * @param originCriterionCode
      */
@@ -187,7 +187,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @param grossWeightQuantity
      */
@@ -205,7 +205,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
+     * Get the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі)
+     * Set the 'NetWeightQuantity' element value. Вес товара, нетто (кг)
      * 
      * @param netWeightQuantity
      */
@@ -223,7 +223,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'GoodsInvoice' element items. РЎС‡РµС‚-С„Р°РєС‚СѓСЂР° РёР»Рё РґСЂСѓРіРѕР№ РґРѕРєСѓРјРµРЅС‚, РѕС‚СЂР°Р¶Р°СЋС‰РёР№ С„РёРЅР°РЅСЃРѕРІРѕ-РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ С‚РѕРІР°СЂР°  (СЃ РїСЂРёРІСЏР·РєРѕР№ Рє С‚РѕРІР°СЂСѓ)
+     * Get the list of 'GoodsInvoice' element items. Счет-фактура или другой документ, отражающий финансово-количественные параметры товара  (с привязкой к товару)
      * 
      * @return list
      */
@@ -232,7 +232,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsInvoice' element items. РЎС‡РµС‚-С„Р°РєС‚СѓСЂР° РёР»Рё РґСЂСѓРіРѕР№ РґРѕРєСѓРјРµРЅС‚, РѕС‚СЂР°Р¶Р°СЋС‰РёР№ С„РёРЅР°РЅСЃРѕРІРѕ-РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ С‚РѕРІР°СЂР°  (СЃ РїСЂРёРІСЏР·РєРѕР№ Рє С‚РѕРІР°СЂСѓ)
+     * Set the list of 'GoodsInvoice' element items. Счет-фактура или другой документ, отражающий финансово-количественные параметры товара  (с привязкой к товару)
      * 
      * @param list
      */

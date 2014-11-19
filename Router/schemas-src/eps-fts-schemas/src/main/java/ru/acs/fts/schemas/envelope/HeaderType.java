@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћР±С‰РёР№ Р·Р°РіРѕР»РѕРІРѕРє РєРѕРЅРІРµСЂС‚Р°
+ * Общий заголовок конверта
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -21,7 +21,7 @@ public class HeaderType
     private List<Object> anyList = new ArrayList<Object>();
 
     /** 
-     * Get the list of 'HeaderType' complexType items. Р—Р°РіРѕР»РѕРІРєРё РєРѕРЅРІРµСЂС‚Р°
+     * Get the list of 'HeaderType' complexType items. Заголовки конверта
      * 
      * @return list
      */
@@ -30,7 +30,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the list of 'HeaderType' complexType items. Р—Р°РіРѕР»РѕРІРєРё РєРѕРЅРІРµСЂС‚Р°
+     * Set the list of 'HeaderType' complexType items. Заголовки конверта
      * 
      * @param list
      */

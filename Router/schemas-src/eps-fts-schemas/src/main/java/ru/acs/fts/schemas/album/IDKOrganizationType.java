@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё РѕС‚РїСЂР°РІРёС‚РµР»Рµ/РїРѕР»СѓС‡Р°С‚РµР»Рµ
+ * Сведения об организации отправителе/получателе
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -28,7 +28,7 @@ public class IDKOrganizationType
     private AddressType address;
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
+     * Get the 'OrganizationName' element value. Наименование
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class IDKOrganizationType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
+     * Set the 'OrganizationName' element value. Наименование
      * 
      * @param organizationName
      */
@@ -46,7 +46,7 @@ public class IDKOrganizationType
     }
 
     /** 
-     * Get the 'INN' element value. РРќРќ
+     * Get the 'INN' element value. ИНН
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class IDKOrganizationType
     }
 
     /** 
-     * Set the 'INN' element value. РРќРќ
+     * Set the 'INN' element value. ИНН
      * 
      * @param INN
      */
@@ -64,7 +64,7 @@ public class IDKOrganizationType
     }
 
     /** 
-     * Get the 'OGRN' element value. РћР“Р Рќ
+     * Get the 'OGRN' element value. ОГРН
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class IDKOrganizationType
     }
 
     /** 
-     * Set the 'OGRN' element value. РћР“Р Рќ
+     * Set the 'OGRN' element value. ОГРН
      * 
      * @param OGRN
      */
@@ -82,7 +82,7 @@ public class IDKOrganizationType
     }
 
     /** 
-     * Get the 'KPP' element value. РљРџРџ
+     * Get the 'KPP' element value. КПП
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class IDKOrganizationType
     }
 
     /** 
-     * Set the 'KPP' element value. РљРџРџ
+     * Set the 'KPP' element value. КПП
      * 
      * @param KPP
      */
@@ -100,7 +100,7 @@ public class IDKOrganizationType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ
+     * Get the 'Address' element value. Адрес
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class IDKOrganizationType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ
+     * Set the 'Address' element value. Адрес
      * 
      * @param address
      */

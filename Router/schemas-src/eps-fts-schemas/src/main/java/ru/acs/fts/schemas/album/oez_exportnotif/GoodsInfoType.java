@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+ * Сведения о товаре
  */
 public class GoodsInfoType
 {
@@ -19,7 +19,7 @@ public class GoodsInfoType
     private List<GoodsStatusType> goodsStatuList = new ArrayList<GoodsStatusType>();
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Описание товара
      * 
      * @return list
      */
@@ -28,7 +28,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Описание товара
      * 
      * @param list
      */
@@ -37,7 +37,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'PackagesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.
+     * Get the 'PackagesQuantity' element value. Количество грузовых мест.
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'PackagesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.
+     * Set the 'PackagesQuantity' element value. Количество грузовых мест.
      * 
      * @param packagesQuantity
      */
@@ -55,7 +55,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'PackagingKind' element value. Р’РёРґ СѓРїР°РєРѕРІРєРё
+     * Get the 'PackagingKind' element value. Вид упаковки
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'PackagingKind' element value. Р’РёРґ СѓРїР°РєРѕРІРєРё
+     * Set the 'PackagingKind' element value. Вид упаковки
      * 
      * @param packagingKind
      */
@@ -73,7 +73,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'WeighQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° РІ РєРі. 
+     * Get the 'WeighQuantity' element value. Вес товара в кг. 
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'WeighQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° РІ РєРі. 
+     * Set the 'WeighQuantity' element value. Вес товара в кг. 
      * 
      * @param weighQuantity
      */
@@ -91,7 +91,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'Note' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the list of 'Note' element items. Примечание
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'Note' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the list of 'Note' element items. Примечание
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Get the 'SupplementaryQuantity' element value. Количество товара
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Set the 'SupplementaryQuantity' element value. Количество товара
      * 
      * @param supplementaryQuantity
      */
@@ -128,7 +128,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'GoodsStatus' element items. РЎС‚Р°С‚СѓСЃ С‚РѕРІР°СЂР° РіСЂ 7
+     * Get the list of 'GoodsStatus' element items. Статус товара гр 7
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'GoodsStatus' element items. РЎС‚Р°С‚СѓСЃ С‚РѕРІР°СЂР° РіСЂ 7
+     * Set the list of 'GoodsStatus' element items. Статус товара гр 7
      * 
      * @param list
      */

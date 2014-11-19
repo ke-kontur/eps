@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…, СѓРєР°Р·Р°РЅРЅС‹С… РІ РіСЂР°С„Рµ 44
+ * Информация о разрешительных документах, указанных в графе 44
  */
 public class PresentedDocInfoResType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class PresentedDocInfoResType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'PresentedDoc' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Get the list of 'PresentedDoc' element items. Сведения о разрешительных документах
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class PresentedDocInfoResType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PresentedDoc' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Set the list of 'PresentedDoc' element items. Сведения о разрешительных документах
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class PresentedDocInfoResType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PresentedDocInfoResType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

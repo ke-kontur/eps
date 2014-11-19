@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ
+ * Сведения о таможенном органе получателя
  */
 public class ConsigneeCustomsType
 {
@@ -17,7 +17,7 @@ public class ConsigneeCustomsType
     private AddressType warehousePostalAddress;
 
     /** 
-     * Get the 'DestinationOfficeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РґРѕСЃС‚Р°РІРєРё СЃРѕРіР»Р°СЃРЅРѕ ktam.dbf
+     * Get the 'DestinationOfficeName' element value. Наименование места доставки согласно ktam.dbf
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ConsigneeCustomsType
     }
 
     /** 
-     * Set the 'DestinationOfficeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РґРѕСЃС‚Р°РІРєРё СЃРѕРіР»Р°СЃРЅРѕ ktam.dbf
+     * Set the 'DestinationOfficeName' element value. Наименование места доставки согласно ktam.dbf
      * 
      * @param destinationOfficeName
      */
@@ -35,7 +35,7 @@ public class ConsigneeCustomsType
     }
 
     /** 
-     * Get the 'WarehouseName' element value. РќР°Р·РІР°РЅРёРµ РЎР’РҐ РёР»Рё РўРЎ 
+     * Get the 'WarehouseName' element value. Название СВХ или ТС 
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ConsigneeCustomsType
     }
 
     /** 
-     * Set the 'WarehouseName' element value. РќР°Р·РІР°РЅРёРµ РЎР’РҐ РёР»Рё РўРЎ 
+     * Set the 'WarehouseName' element value. Название СВХ или ТС 
      * 
      * @param warehouseName
      */
@@ -53,7 +53,7 @@ public class ConsigneeCustomsType
     }
 
     /** 
-     * Get the 'DestinationOfficeIdenifier' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ, РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ СЂР°СЃРїРѕР»РѕР¶РµРЅРѕ РјРµСЃС‚Рѕ РґРѕСЃС‚Р°РІРєРё
+     * Get the 'DestinationOfficeIdenifier' element value. Код таможенного органа назначения, в регионе деятельности которого расположено место доставки
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ConsigneeCustomsType
     }
 
     /** 
-     * Set the 'DestinationOfficeIdenifier' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ, РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ СЂР°СЃРїРѕР»РѕР¶РµРЅРѕ РјРµСЃС‚Рѕ РґРѕСЃС‚Р°РІРєРё
+     * Set the 'DestinationOfficeIdenifier' element value. Код таможенного органа назначения, в регионе деятельности которого расположено место доставки
      * 
      * @param destinationOfficeIdenifier
      */
@@ -71,7 +71,7 @@ public class ConsigneeCustomsType
     }
 
     /** 
-     * Get the 'WarehouseLicenceID' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ
+     * Get the 'WarehouseLicenceID' element value. Номер свидетельства о включении в реестр
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class ConsigneeCustomsType
     }
 
     /** 
-     * Set the 'WarehouseLicenceID' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ
+     * Set the 'WarehouseLicenceID' element value. Номер свидетельства о включении в реестр
      * 
      * @param warehouseLicenceID
      */
@@ -89,7 +89,7 @@ public class ConsigneeCustomsType
     }
 
     /** 
-     * Get the 'WarehouseLicenceDate' element value. Р”Р°С‚Р° РІРєР»СЋС‡РµРЅРёСЏ РІ СЂРµРµСЃС‚СЂ
+     * Get the 'WarehouseLicenceDate' element value. Дата включения в реестр
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class ConsigneeCustomsType
     }
 
     /** 
-     * Set the 'WarehouseLicenceDate' element value. Р”Р°С‚Р° РІРєР»СЋС‡РµРЅРёСЏ РІ СЂРµРµСЃС‚СЂ
+     * Set the 'WarehouseLicenceDate' element value. Дата включения в реестр
      * 
      * @param warehouseLicenceDate
      */
@@ -107,7 +107,7 @@ public class ConsigneeCustomsType
     }
 
     /** 
-     * Get the 'WarehousePostalAddress' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ РЎР’РҐ РёР»Рё РўРЎ 
+     * Get the 'WarehousePostalAddress' element value. Почтовый адрес СВХ или ТС 
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class ConsigneeCustomsType
     }
 
     /** 
-     * Set the 'WarehousePostalAddress' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ РЎР’РҐ РёР»Рё РўРЎ 
+     * Set the 'WarehousePostalAddress' element value. Почтовый адрес СВХ или ТС 
      * 
      * @param warehousePostalAddress
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РўРѕРІР°СЂРѕС‚СЂР°РЅСЃРїРѕСЂС‚РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ
+ * Товаротранспортная накладная
  */
 public class ConsignmentType
 {
@@ -13,7 +13,7 @@ public class ConsignmentType
     private List<GoodsType> goodsItemList = new ArrayList<GoodsType>();
 
     /** 
-     * Get the 'RegNumber' element value. РќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'RegNumber' element value. Номер накладной
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'RegNumber' element value. РќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'RegNumber' element value. Номер накладной
      * 
      * @param regNumber
      */
@@ -31,7 +31,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'GoodsItem' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Get the list of 'GoodsItem' element items. Сведения о товаре
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'GoodsItem' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Set the list of 'GoodsItem' element items. Сведения о товаре
      * 
      * @param list
      */

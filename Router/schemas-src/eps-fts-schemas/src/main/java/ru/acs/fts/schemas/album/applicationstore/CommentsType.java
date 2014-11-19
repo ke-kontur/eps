@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РљРѕРјРјРµРЅС‚Р°СЂРёРё
+ * Комментарии
  */
 public class CommentsType
 {
     private List<String> otherInformList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'OtherInform' element items. РРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Get the list of 'OtherInform' element items. Иные сведения
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class CommentsType
     }
 
     /** 
-     * Set the list of 'OtherInform' element items. РРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Set the list of 'OtherInform' element items. Иные сведения
      * 
      * @param list
      */

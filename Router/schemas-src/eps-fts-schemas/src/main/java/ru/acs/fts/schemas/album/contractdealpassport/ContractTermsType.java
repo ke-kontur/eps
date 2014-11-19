@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.contractdealpassport;
 import org.joda.time.LocalDate;
 
 /** 
- * РћР±С‰РёРµ СЃРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
+ * Общие сведения о контракте
  */
 public class ContractTermsType
 {
@@ -17,7 +17,7 @@ public class ContractTermsType
     private LocalDate completionDate;
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р° / "Р‘Рќ"
+     * Get the 'Number' element value. Номер контракта / "БН"
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р° / "Р‘Рќ"
+     * Set the 'Number' element value. Номер контракта / "БН"
      * 
      * @param number
      */
@@ -35,7 +35,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Get the 'MostLaterDate' element value. РќР°РёР±РѕР»РµРµ РїРѕР·РґРЅСЏСЏ РїРѕ СЃСЂРѕРєСѓ РґР°С‚Р° (РґР°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°, РґР°С‚Р° РІСЃС‚СѓРїР»РµРЅРёСЏ РµРіРѕ РІ СЃРёР»Сѓ, РґР°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ)
+     * Get the 'MostLaterDate' element value. Наиболее поздняя по сроку дата (дата подписания контракта, дата вступления его в силу, дата составления)
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Set the 'MostLaterDate' element value. РќР°РёР±РѕР»РµРµ РїРѕР·РґРЅСЏСЏ РїРѕ СЃСЂРѕРєСѓ РґР°С‚Р° (РґР°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°, РґР°С‚Р° РІСЃС‚СѓРїР»РµРЅРёСЏ РµРіРѕ РІ СЃРёР»Сѓ, РґР°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ)
+     * Set the 'MostLaterDate' element value. Наиболее поздняя по сроку дата (дата подписания контракта, дата вступления его в силу, дата составления)
      * 
      * @param mostLaterDate
      */
@@ -53,7 +53,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Get the 'CurrencyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'CurrencyName' element value. Наименование валюты контракта
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Set the 'CurrencyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'CurrencyName' element value. Наименование валюты контракта
      * 
      * @param currencyName
      */
@@ -71,7 +71,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'CurrencyCode' element value. Цифровой код валюты контракта
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'CurrencyCode' element value. Цифровой код валюты контракта
      * 
      * @param currencyCode
      */
@@ -89,7 +89,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Get the 'ContractSum' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР°, РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅР°СЏ РєРѕРЅС‚СЂР°РєС‚РѕРј
+     * Get the 'ContractSum' element value. Общая сумма обязательства, предусмотренная контрактом
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Set the 'ContractSum' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР°, РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅР°СЏ РєРѕРЅС‚СЂР°РєС‚РѕРј
+     * Set the 'ContractSum' element value. Общая сумма обязательства, предусмотренная контрактом
      * 
      * @param contractSum
      */
@@ -107,7 +107,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Get the 'NonContractSum' element value. CРёРјРІРѕР» "Р‘РЎ" (СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ РёРЅС„РѕСЂРјР°С†РёРё РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РіСЂР°С„С‹ РѕР±С‰Р°СЏ СЃСѓРјРјР°)
+     * Get the 'NonContractSum' element value. Cимвол "БС" (указывается в случае отсутствия информации для заполнения графы общая сумма)
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Set the 'NonContractSum' element value. CРёРјРІРѕР» "Р‘РЎ" (СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ РёРЅС„РѕСЂРјР°С†РёРё РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РіСЂР°С„С‹ РѕР±С‰Р°СЏ СЃСѓРјРјР°)
+     * Set the 'NonContractSum' element value. Cимвол "БС" (указывается в случае отсутствия информации для заполнения графы общая сумма)
      * 
      * @param nonContractSum
      */
@@ -125,7 +125,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Get the 'CompletionDate' element value. Р”Р°С‚Р° Р·Р°РІРµСЂС€РµРЅРёСЏ РёСЃРїРѕР»РЅРµРЅРёСЏ РІСЃРµС… РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Get the 'CompletionDate' element value. Дата завершения исполнения всех обязательств по контракту
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Set the 'CompletionDate' element value. Р”Р°С‚Р° Р·Р°РІРµСЂС€РµРЅРёСЏ РёСЃРїРѕР»РЅРµРЅРёСЏ РІСЃРµС… РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Set the 'CompletionDate' element value. Дата завершения исполнения всех обязательств по контракту
      * 
      * @param completionDate
      */

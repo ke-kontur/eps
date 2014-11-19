@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.pi_airarrive;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+ * Сведения о транспортном средстве
  */
 public class TransportMeansType
 {
@@ -14,7 +14,7 @@ public class TransportMeansType
     private String flightNumber;
 
     /** 
-     * Get the 'AirModification' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё РјРѕРґРёС„РёРєР°С†РёСЏ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+     * Get the 'AirModification' element value. Наименование и модификация воздушного судна
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'AirModification' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё РјРѕРґРёС„РёРєР°С†РёСЏ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+     * Set the 'AirModification' element value. Наименование и модификация воздушного судна
      * 
      * @param airModification
      */
@@ -32,7 +32,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'AirClass' element value. РљР°С‚РµРіРѕСЂРёСЏ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°: 1- Р’Рџ(РІРѕР·РґСѓС€РЅРѕ-РїР°СЃСЃР°Р¶РёСЂСЃРєРѕРµ) 2 - Р’Р“(РІРѕР·РґСѓС€РЅРѕ-РіСЂСѓР·РѕРІРѕРµ) 3 - Р’РЎ (РІРѕР·РґСѓС€РЅРѕ-РіСЂСѓР·РѕРїР°СЃСЃР°Р¶РёСЂСЃРєРѕРµ)
+     * Get the 'AirClass' element value. Категория воздушного судна: 1- ВП(воздушно-пассажирское) 2 - ВГ(воздушно-грузовое) 3 - ВС (воздушно-грузопассажирское)
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'AirClass' element value. РљР°С‚РµРіРѕСЂРёСЏ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°: 1- Р’Рџ(РІРѕР·РґСѓС€РЅРѕ-РїР°СЃСЃР°Р¶РёСЂСЃРєРѕРµ) 2 - Р’Р“(РІРѕР·РґСѓС€РЅРѕ-РіСЂСѓР·РѕРІРѕРµ) 3 - Р’РЎ (РІРѕР·РґСѓС€РЅРѕ-РіСЂСѓР·РѕРїР°СЃСЃР°Р¶РёСЂСЃРєРѕРµ)
+     * Set the 'AirClass' element value. Категория воздушного судна: 1- ВП(воздушно-пассажирское) 2 - ВГ(воздушно-грузовое) 3 - ВС (воздушно-грузопассажирское)
      * 
      * @param airClass
      */
@@ -50,7 +50,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'AirRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР° (РЅРѕРјРµСЂ Р±РѕСЂС‚Р° РёР»Рё РЅР°Р·РІР°РЅРёРµ)
+     * Get the 'AirRegNumber' element value. Регистрационный номер воздушного судна (номер борта или название)
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'AirRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР° (РЅРѕРјРµСЂ Р±РѕСЂС‚Р° РёР»Рё РЅР°Р·РІР°РЅРёРµ)
+     * Set the 'AirRegNumber' element value. Регистрационный номер воздушного судна (номер борта или название)
      * 
      * @param airRegNumber
      */
@@ -68,7 +68,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'AirNationalityCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+     * Get the 'AirNationalityCode' element value. Код страны принадлежности транспорта
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'AirNationalityCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+     * Set the 'AirNationalityCode' element value. Код страны принадлежности транспорта
      * 
      * @param airNationalityCode
      */
@@ -86,7 +86,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'AirOwerInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+     * Get the 'AirOwerInfo' element value. Сведения о владельце воздушного судна
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'AirOwerInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+     * Set the 'AirOwerInfo' element value. Сведения о владельце воздушного судна
      * 
      * @param airOwerInfo
      */
@@ -104,7 +104,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
+     * Get the 'FlightNumber' element value. Номер рейса
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
+     * Set the 'FlightNumber' element value. Номер рейса
      * 
      * @param flightNumber
      */

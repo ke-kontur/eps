@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.detailquotadatard;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ Р»РёС†РµРЅР·РёРё
+ * Сведения о владельце лицензии
  */
 public class OwnersLicenseType
 {
@@ -15,7 +15,7 @@ public class OwnersLicenseType
     private String legalAddress;
 
     /** 
-     * Get the 'OrganizationName' element value. РџРѕР»РЅРѕРµ РѕС„РёС†РёР°Р»СЊРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ 
+     * Get the 'OrganizationName' element value. Полное официальное наименование 
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РџРѕР»РЅРѕРµ РѕС„РёС†РёР°Р»СЊРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ 
+     * Set the 'OrganizationName' element value. Полное официальное наименование 
      * 
      * @param organizationName
      */
@@ -33,7 +33,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Get the 'OGRN' element value. РћР“Р Рќ/РћР“Р РќРРџ. РћСЃРЅРѕРІРЅРѕР№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ.
+     * Get the 'OGRN' element value. ОГРН/ОГРНИП. Основной государственный регистрационный  номер.
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Set the 'OGRN' element value. РћР“Р Рќ/РћР“Р РќРРџ. РћСЃРЅРѕРІРЅРѕР№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ.
+     * Set the 'OGRN' element value. ОГРН/ОГРНИП. Основной государственный регистрационный  номер.
      * 
      * @param OGRN
      */
@@ -51,7 +51,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Get the 'INN' element value. РРќРќ - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°.
+     * Get the 'INN' element value. ИНН - Индивидуальный номер налогоплательщика.
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Set the 'INN' element value. РРќРќ - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°.
+     * Set the 'INN' element value. ИНН - Индивидуальный номер налогоплательщика.
      * 
      * @param INN
      */
@@ -69,7 +69,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Get the 'KPP' element value. РљРџРџ - РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚.
+     * Get the 'KPP' element value. КПП - Код причины постановки на учет.
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Set the 'KPP' element value. РљРџРџ - РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚.
+     * Set the 'KPP' element value. КПП - Код причины постановки на учет.
      * 
      * @param KPP
      */
@@ -87,7 +87,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Get the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ.
+     * Get the 'OKPOID' element value. Код организации по ОКПО.
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Set the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ.
+     * Set the 'OKPOID' element value. Код организации по ОКПО.
      * 
      * @param OKPOID
      */
@@ -105,7 +105,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Get the 'ITN' element value. РРўРќ 
+     * Get the 'ITN' element value. ИТН 
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Set the 'ITN' element value. РРўРќ 
+     * Set the 'ITN' element value. ИТН 
      * 
      * @param ITN
      */
@@ -123,7 +123,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Get the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
+     * Get the 'LegalAddress' element value. Юридический адрес
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class OwnersLicenseType
     }
 
     /** 
-     * Set the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
+     * Set the 'LegalAddress' element value. Юридический адрес
      * 
      * @param legalAddress
      */

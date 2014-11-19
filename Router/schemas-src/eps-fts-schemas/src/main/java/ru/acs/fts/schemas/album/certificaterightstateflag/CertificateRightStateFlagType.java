@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.ShipDataType;
 
 /** 
- * РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РїСЂР°РІРµ РїР»Р°РІР°С‚СЊ РїРѕРґ Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Рј С„Р»Р°РіРѕРј Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё.
+ * Свидетельство о праве плавать под Государственным флагом Российской Федерации.
  */
 public class CertificateRightStateFlagType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NameVessel' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°
+     * Get the 'NameVessel' element value. Наименование судна
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Set the 'NameVessel' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°
+     * Set the 'NameVessel' element value. Наименование судна
      * 
      * @param nameVessel
      */
@@ -41,7 +41,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssuedInspectorate' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°СЃСЃРµР№РЅР°, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅРѕ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµС‡РЅРѕР№ СЃСѓРґРѕС…РѕРґРЅРѕР№ РёРЅСЃРїРµРєС†РёРµР№
+     * Get the 'IssuedInspectorate' element value. Наименование бассейна, по которому выдано свидетельство Государственной речной судоходной инспекцией
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssuedInspectorate' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°СЃСЃРµР№РЅР°, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅРѕ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµС‡РЅРѕР№ СЃСѓРґРѕС…РѕРґРЅРѕР№ РёРЅСЃРїРµРєС†РёРµР№
+     * Set the 'IssuedInspectorate' element value. Наименование бассейна, по которому выдано свидетельство Государственной речной судоходной инспекцией
      * 
      * @param issuedInspectorate
      */
@@ -59,7 +59,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssuedChief' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°СЃСЃРµР№РЅР°, РЅР°С‡Р°Р»СЊРЅРёРє РєРѕС‚РѕСЂРѕРіРѕ   РїРѕРґРїРёСЃС‹РІР°РµС‚ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ.
+     * Get the 'IssuedChief' element value. Наименование бассейна, начальник которого   подписывает свидетельство.
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssuedChief' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°СЃСЃРµР№РЅР°, РЅР°С‡Р°Р»СЊРЅРёРє РєРѕС‚РѕСЂРѕРіРѕ   РїРѕРґРїРёСЃС‹РІР°РµС‚ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ.
+     * Set the 'IssuedChief' element value. Наименование бассейна, начальник которого   подписывает свидетельство.
      * 
      * @param issuedChief
      */
@@ -77,7 +77,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Get the 'RegistrationNumber' element value. Регистрационный номер свидетельства
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Set the 'RegistrationNumber' element value. Регистрационный номер свидетельства
      * 
      * @param registrationNumber
      */
@@ -95,7 +95,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDateDoc' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'IssueDateDoc' element value. Дата выдачи сертификата
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDateDoc' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'IssueDateDoc' element value. Дата выдачи сертификата
      * 
      * @param issueDateDoc
      */
@@ -113,7 +113,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Get the 'Shipowner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРѕРІР»Р°РґРµР»СЊС†Рµ
+     * Get the 'Shipowner' element value. Сведения о судовладельце
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Set the 'Shipowner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРѕРІР»Р°РґРµР»СЊС†Рµ
+     * Set the 'Shipowner' element value. Сведения о судовладельце
      * 
      * @param shipowner
      */
@@ -131,7 +131,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Get the 'Register' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЃСѓРґРѕРІРѕР№ СЂРµРµСЃС‚СЂ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+     * Get the 'Register' element value. Государственный судовой реестр Российской Федерации
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Set the 'Register' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЃСѓРґРѕРІРѕР№ СЂРµРµСЃС‚СЂ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+     * Set the 'Register' element value. Государственный судовой реестр Российской Федерации
      * 
      * @param register
      */
@@ -149,7 +149,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Get the 'Vessel' element value. Р РµРєРІРёР·РёС‚С‹ СЃСѓРґРЅР°
+     * Get the 'Vessel' element value. Реквизиты судна
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Set the 'Vessel' element value. Р РµРєРІРёР·РёС‚С‹ СЃСѓРґРЅР°
+     * Set the 'Vessel' element value. Реквизиты судна
      * 
      * @param vessel
      */
@@ -167,7 +167,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Get the 'SignatureChief' element value. РџРѕРґРїРёСЃСЊ РЅР°С‡Р°Р»СЊРЅРёРєР° Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµС‡РЅРѕР№ СЃСѓРґРѕС…РѕРґРЅРѕР№ РёРЅСЃРїРµРєС†РёРё.
+     * Get the 'SignatureChief' element value. Подпись начальника Государственной речной судоходной инспекции.
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Set the 'SignatureChief' element value. РџРѕРґРїРёСЃСЊ РЅР°С‡Р°Р»СЊРЅРёРєР° Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµС‡РЅРѕР№ СЃСѓРґРѕС…РѕРґРЅРѕР№ РёРЅСЃРїРµРєС†РёРё.
+     * Set the 'SignatureChief' element value. Подпись начальника Государственной речной судоходной инспекции.
      * 
      * @param signatureChief
      */
@@ -185,7 +185,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class CertificateRightStateFlagType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

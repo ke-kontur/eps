@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.custpaymentsdk;
 import org.joda.time.LocalDate;
 
 /** 
- * РћСЃРЅРѕРІРЅС‹Рµ Р»РёСЃС‚С‹
+ * Основные листы
  */
 public class PrimaryListType
 {
@@ -37,7 +37,7 @@ public class PrimaryListType
     private SignatureType personOTP;
 
     /** 
-     * Get the 'TotalGoodsNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ.
+     * Get the 'TotalGoodsNumber' element value. Количество товаров.
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'TotalGoodsNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ.
+     * Set the 'TotalGoodsNumber' element value. Количество товаров.
      * 
      * @param totalGoodsNumber
      */
@@ -55,7 +55,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'TotalSheetNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРѕР±Р»РёСЃС‚РѕРІ.
+     * Get the 'TotalSheetNumber' element value. Количество доблистов.
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'TotalSheetNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРѕР±Р»РёСЃС‚РѕРІ.
+     * Set the 'TotalSheetNumber' element value. Количество доблистов.
      * 
      * @param totalSheetNumber
      */
@@ -73,7 +73,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'CurrencyEURO' element value. РљСѓСЂСЃ Р•Р’Р Рћ
+     * Get the 'CurrencyEURO' element value. Курс ЕВРО
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'CurrencyEURO' element value. РљСѓСЂСЃ Р•Р’Р Рћ
+     * Set the 'CurrencyEURO' element value. Курс ЕВРО
      * 
      * @param currencyEURO
      */
@@ -91,7 +91,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'CurrencyRate' element value. Курс валюты контракта
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'CurrencyRate' element value. Курс валюты контракта
      * 
      * @param currencyRate
      */
@@ -109,7 +109,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°.
+     * Get the 'CurrencyCode' element value. Код валюты контракта.
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°.
+     * Set the 'CurrencyCode' element value. Код валюты контракта.
      * 
      * @param currencyCode
      */
@@ -127,7 +127,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'CustomsRemark' element value. РќР°Р»РёС‡РёРµ Р·Р°РјРµС‡Р°РЅРёР№
+     * Get the 'CustomsRemark' element value. Наличие замечаний
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'CustomsRemark' element value. РќР°Р»РёС‡РёРµ Р·Р°РјРµС‡Р°РЅРёР№
+     * Set the 'CustomsRemark' element value. Наличие замечаний
      * 
      * @param customsRemark
      */
@@ -145,7 +145,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'ProtocolNumber' element value. в„– РїСЂРѕС‚РѕРєРѕР»Р° РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Get the 'ProtocolNumber' element value. № протокола несоответствия
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'ProtocolNumber' element value. в„– РїСЂРѕС‚РѕРєРѕР»Р° РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Set the 'ProtocolNumber' element value. № протокола несоответствия
      * 
      * @param protocolNumber
      */
@@ -163,7 +163,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'ProtocolDate' element value. Р”Р°С‚Р° РїСЂРѕС‚РѕРєРѕР»Р° РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Get the 'ProtocolDate' element value. Дата протокола несоответствия
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'ProtocolDate' element value. Р”Р°С‚Р° РїСЂРѕС‚РѕРєРѕР»Р° РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Set the 'ProtocolDate' element value. Дата протокола несоответствия
      * 
      * @param protocolDate
      */
@@ -181,7 +181,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'CorrespondenceSign' element value. РџСЂРёР·РЅР°Рє СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Get the 'CorrespondenceSign' element value. Признак соответствия
      * 
      * @return value
      */
@@ -190,7 +190,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'CorrespondenceSign' element value. РџСЂРёР·РЅР°Рє СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Set the 'CorrespondenceSign' element value. Признак соответствия
      * 
      * @param correspondenceSign
      */
@@ -199,7 +199,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'DelinquencySign' element value. РќР°Р»РёС‡РёРµ РїСЂРѕСЃСЂРѕС‡РєРё
+     * Get the 'DelinquencySign' element value. Наличие просрочки
      * 
      * @return value
      */
@@ -208,7 +208,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'DelinquencySign' element value. РќР°Р»РёС‡РёРµ РїСЂРѕСЃСЂРѕС‡РєРё
+     * Set the 'DelinquencySign' element value. Наличие просрочки
      * 
      * @param delinquencySign
      */
@@ -217,7 +217,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'DelaySign' element value. РќР°Р»РёС‡РёРµ РѕС‚СЃСЂРѕС‡РєРё
+     * Get the 'DelaySign' element value. Наличие отсрочки
      * 
      * @return value
      */
@@ -226,7 +226,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'DelaySign' element value. РќР°Р»РёС‡РёРµ РѕС‚СЃСЂРѕС‡РєРё
+     * Set the 'DelaySign' element value. Наличие отсрочки
      * 
      * @param delaySign
      */
@@ -235,7 +235,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'InstallmentSign' element value. РќР°Р»РёС‡РёРµ СЂР°СЃСЃСЂРѕС‡РєРё
+     * Get the 'InstallmentSign' element value. Наличие рассрочки
      * 
      * @return value
      */
@@ -244,7 +244,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'InstallmentSign' element value. РќР°Р»РёС‡РёРµ СЂР°СЃСЃСЂРѕС‡РєРё
+     * Set the 'InstallmentSign' element value. Наличие рассрочки
      * 
      * @param installmentSign
      */
@@ -253,7 +253,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'CreditSign' element value. РќР°Р»РёС‡РёРµ РЅР°Р»РѕРіРѕРІРѕРіРѕ РєСЂРµРґРёС‚Р°
+     * Get the 'CreditSign' element value. Наличие налогового кредита
      * 
      * @return value
      */
@@ -262,7 +262,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'CreditSign' element value. РќР°Р»РёС‡РёРµ РЅР°Р»РѕРіРѕРІРѕРіРѕ РєСЂРµРґРёС‚Р°
+     * Set the 'CreditSign' element value. Наличие налогового кредита
      * 
      * @param creditSign
      */
@@ -271,7 +271,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'ModifyDate' element value. Р”Р°С‚Р° РјРѕРґРёС„РёРєР°С†РёРё
+     * Get the 'ModifyDate' element value. Дата модификации
      * 
      * @return value
      */
@@ -280,7 +280,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'ModifyDate' element value. Р”Р°С‚Р° РјРѕРґРёС„РёРєР°С†РёРё
+     * Set the 'ModifyDate' element value. Дата модификации
      * 
      * @param modifyDate
      */
@@ -289,7 +289,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'PaymentDate' element value. РЎСЂРѕРє РѕРїР»Р°С‚С‹
+     * Get the 'PaymentDate' element value. Срок оплаты
      * 
      * @return value
      */
@@ -298,7 +298,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'PaymentDate' element value. РЎСЂРѕРє РѕРїР»Р°С‚С‹
+     * Set the 'PaymentDate' element value. Срок оплаты
      * 
      * @param paymentDate
      */
@@ -307,7 +307,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'NumberDaysDelinquency' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РїСЂРѕСЃСЂРѕС‡РєРё
+     * Get the 'NumberDaysDelinquency' element value. Количество дней просрочки
      * 
      * @return value
      */
@@ -316,7 +316,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'NumberDaysDelinquency' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РїСЂРѕСЃСЂРѕС‡РєРё
+     * Set the 'NumberDaysDelinquency' element value. Количество дней просрочки
      * 
      * @param numberDaysDelinquency
      */
@@ -325,7 +325,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'NumberDaysDelay' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РѕС‚СЃСЂРѕС‡РєРё
+     * Get the 'NumberDaysDelay' element value. Количество дней отсрочки
      * 
      * @return value
      */
@@ -334,7 +334,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'NumberDaysDelay' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РѕС‚СЃСЂРѕС‡РєРё
+     * Set the 'NumberDaysDelay' element value. Количество дней отсрочки
      * 
      * @param numberDaysDelay
      */
@@ -343,7 +343,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'NumberDaysDelinquencyKTS' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РїСЂРѕСЃСЂРѕС‡РєРё РїРѕ РљРўРЎ
+     * Get the 'NumberDaysDelinquencyKTS' element value. Количество дней просрочки по КТС
      * 
      * @return value
      */
@@ -352,7 +352,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'NumberDaysDelinquencyKTS' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ РїСЂРѕСЃСЂРѕС‡РєРё РїРѕ РљРўРЎ
+     * Set the 'NumberDaysDelinquencyKTS' element value. Количество дней просрочки по КТС
      * 
      * @param numberDaysDelinquencyKTS
      */
@@ -361,7 +361,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'Conformity' element value. РЎРѕРѕС‚РІРµС‚СЃС‚РІРёРµ
+     * Get the 'Conformity' element value. Соответствие
      * 
      * @return value
      */
@@ -370,7 +370,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'Conformity' element value. РЎРѕРѕС‚РІРµС‚СЃС‚РІРёРµ
+     * Set the 'Conformity' element value. Соответствие
      * 
      * @param conformity
      */
@@ -379,7 +379,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'NormalEnd' element value. РќРѕСЂРјР°Р»СЊРЅРѕРµ Р·Р°РІРµСЂС€РµРЅРёРµ
+     * Get the 'NormalEnd' element value. Нормальное завершение
      * 
      * @return value
      */
@@ -388,7 +388,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'NormalEnd' element value. РќРѕСЂРјР°Р»СЊРЅРѕРµ Р·Р°РІРµСЂС€РµРЅРёРµ
+     * Set the 'NormalEnd' element value. Нормальное завершение
      * 
      * @param normalEnd
      */
@@ -397,7 +397,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'Payable' element value. РџРѕРґР»РµР¶РёС‚ РѕРїР»Р°С‚Рµ РґРѕ..
+     * Get the 'Payable' element value. Подлежит оплате до..
      * 
      * @return value
      */
@@ -406,7 +406,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'Payable' element value. РџРѕРґР»РµР¶РёС‚ РѕРїР»Р°С‚Рµ РґРѕ..
+     * Set the 'Payable' element value. Подлежит оплате до..
      * 
      * @param payable
      */
@@ -415,7 +415,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'OutputUnauthorized' element value. Р’С‹РїСѓСЃРє Р·Р°РїСЂРµС‰РµРЅ
+     * Get the 'OutputUnauthorized' element value. Выпуск запрещен
      * 
      * @return value
      */
@@ -424,7 +424,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'OutputUnauthorized' element value. Р’С‹РїСѓСЃРє Р·Р°РїСЂРµС‰РµРЅ
+     * Set the 'OutputUnauthorized' element value. Выпуск запрещен
      * 
      * @param outputUnauthorized
      */
@@ -433,7 +433,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'CompositionProtocol' element value. РЎРѕСЃС‚Р°РІР»РµРЅРёРµ РїСЂРѕС‚РѕРєРѕР»Р°
+     * Get the 'CompositionProtocol' element value. Составление протокола
      * 
      * @return value
      */
@@ -442,7 +442,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'CompositionProtocol' element value. РЎРѕСЃС‚Р°РІР»РµРЅРёРµ РїСЂРѕС‚РѕРєРѕР»Р°
+     * Set the 'CompositionProtocol' element value. Составление протокола
      * 
      * @param compositionProtocol
      */
@@ -451,7 +451,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'INNID' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР° РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Get the 'INNID' element value. Индивидуальный номер налогоплательщика плательщика
      * 
      * @return value
      */
@@ -460,7 +460,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'INNID' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР° РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Set the 'INNID' element value. Индивидуальный номер налогоплательщика плательщика
      * 
      * @param INNID
      */
@@ -469,7 +469,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'CalculationKTS' element value. Р Р°СЃС‡РµС‚ РїРѕ РљРўРЎ
+     * Get the 'CalculationKTS' element value. Расчет по КТС
      * 
      * @return value
      */
@@ -478,7 +478,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'CalculationKTS' element value. Р Р°СЃС‡РµС‚ РїРѕ РљРўРЎ
+     * Set the 'CalculationKTS' element value. Расчет по КТС
      * 
      * @param calculationKTS
      */
@@ -487,7 +487,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р¤РРћ,Р›РќРџ  СЃРѕС‚СЂСѓРґРЅРёРєР° СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ Р”Рљ
+     * Get the 'CustomsPerson' element value. ФИО,ЛНП  сотрудника составившего ДК
      * 
      * @return value
      */
@@ -496,7 +496,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р¤РРћ,Р›РќРџ  СЃРѕС‚СЂСѓРґРЅРёРєР° СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ Р”Рљ
+     * Set the 'CustomsPerson' element value. ФИО,ЛНП  сотрудника составившего ДК
      * 
      * @param customsPerson
      */
@@ -505,7 +505,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Get the 'PersonOTP' element value. Р¤РРћ,Р›РќРџ СЃРѕС‚СЂСѓРґРЅРёРєР° РћРўРџ
+     * Get the 'PersonOTP' element value. ФИО,ЛНП сотрудника ОТП
      * 
      * @return value
      */
@@ -514,7 +514,7 @@ public class PrimaryListType
     }
 
     /** 
-     * Set the 'PersonOTP' element value. Р¤РРћ,Р›РќРџ СЃРѕС‚СЂСѓРґРЅРёРєР° РћРўРџ
+     * Set the 'PersonOTP' element value. ФИО,ЛНП сотрудника ОТП
      * 
      * @param personOTP
      */

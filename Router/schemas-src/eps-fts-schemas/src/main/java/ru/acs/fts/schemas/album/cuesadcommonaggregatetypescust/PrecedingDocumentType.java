@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚
+ * Предшествующий документ
  */
 public class PrecedingDocumentType
 {
@@ -18,7 +18,7 @@ public class PrecedingDocumentType
     private String lineNumber;
 
     /** 
-     * Get the 'PrecedingDocumentID' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'PrecedingDocumentID' element value. Дополнительный идентификатор предшествующего документа
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentID' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'PrecedingDocumentID' element value. Дополнительный идентификатор предшествующего документа
      * 
      * @param precedingDocumentID
      */
@@ -36,7 +36,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'PrecedingDocumentCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'PrecedingDocumentCustomsCode' element value. Код таможенного органа предшествующего документа
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'PrecedingDocumentCustomsCode' element value. Код таможенного органа предшествующего документа
      * 
      * @param precedingDocumentCustomsCode
      */
@@ -55,7 +55,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'PrecedingDocumentDate' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ - РґР°С‚Р° 
+     * Get the 'PrecedingDocumentDate' element value. Предшествующий документ - дата 
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentDate' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ - РґР°С‚Р° 
+     * Set the 'PrecedingDocumentDate' element value. Предшествующий документ - дата 
      * 
      * @param precedingDocumentDate
      */
@@ -73,7 +73,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'PrecedingDocumentNumber' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ - СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° / РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїСЂРё С‚СЂР°РЅР·РёС‚Рµ
+     * Get the 'PrecedingDocumentNumber' element value. Предшествующий документ - регистрационный номер документа / номер документа при транзите
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentNumber' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ - СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° / РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїСЂРё С‚СЂР°РЅР·РёС‚Рµ
+     * Set the 'PrecedingDocumentNumber' element value. Предшествующий документ - регистрационный номер документа / номер документа при транзите
      * 
      * @param precedingDocumentNumber
      */
@@ -91,7 +91,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'PrecedingDocumentGoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРј РґРѕРєСѓРјРµРЅС‚Рµ 
+     * Get the 'PrecedingDocumentGoodsNumeric' element value. Номер товара в предшествующем документе 
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentGoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРј РґРѕРєСѓРјРµРЅС‚Рµ 
+     * Set the 'PrecedingDocumentGoodsNumeric' element value. Номер товара в предшествующем документе 
      * 
      * @param precedingDocumentGoodsNumeric
      */
@@ -110,7 +110,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'PrecedingDocumentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'PrecedingDocumentName' element value. Наименование предшествующего документа
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'PrecedingDocumentName' element value. Наименование предшествующего документа
      * 
      * @param precedingDocumentName
      */
@@ -128,7 +128,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'PrecedingDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'PrecedingDocumentModeCode' element value. Код вида предшествующего документа в соответствии с классификатором видов документов
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'PrecedingDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'PrecedingDocumentModeCode' element value. Код вида предшествующего документа в соответствии с классификатором видов документов
      * 
      * @param precedingDocumentModeCode
      */
@@ -146,7 +146,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Get the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё
+     * Get the 'LineNumber' element value. Порядковый номер строки
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class PrecedingDocumentType
     }
 
     /** 
-     * Set the 'LineNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё
+     * Set the 'LineNumber' element value. Порядковый номер строки
      * 
      * @param lineNumber
      */

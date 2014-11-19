@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё
+ * Свидетельство о государственной регистрации
  */
 public class StateRegistrationCertifType extends BaseDocType
 {
@@ -32,7 +32,7 @@ public class StateRegistrationCertifType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -50,7 +50,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'AutorizedAgency' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЎС‚РѕСЂРѕРЅС‹
+     * Get the 'AutorizedAgency' element value. Наименование уполномоченного органа Стороны
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'AutorizedAgency' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЎС‚РѕСЂРѕРЅС‹
+     * Set the 'AutorizedAgency' element value. Наименование уполномоченного органа Стороны
      * 
      * @param autorizedAgency
      */
@@ -68,7 +68,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'AgencyHead' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'AgencyHead' element value. Руководитель уполномоченного органа
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'AgencyHead' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'AgencyHead' element value. Руководитель уполномоченного органа
      * 
      * @param agencyHead
      */
@@ -86,7 +86,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'TerritorialUnit' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕР№ РµРґРёРЅРёС†С‹
+     * Get the 'TerritorialUnit' element value. Наименование административно-территориальной единицы
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'TerritorialUnit' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕР№ РµРґРёРЅРёС†С‹
+     * Set the 'TerritorialUnit' element value. Наименование административно-территориальной единицы
      * 
      * @param territorialUnit
      */
@@ -104,7 +104,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'BlankSeries' element value. РЎРµСЂРёСЏ Р±Р»Р°РЅРєР°
+     * Get the 'BlankSeries' element value. Серия бланка
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'BlankSeries' element value. РЎРµСЂРёСЏ Р±Р»Р°РЅРєР°
+     * Set the 'BlankSeries' element value. Серия бланка
      * 
      * @param blankSeries
      */
@@ -122,7 +122,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'BlankTypographNum' element value. РўРёРїРѕРіСЂР°С„СЃРєРёР№ РЅРѕРјРµСЂ Р±Р»Р°РЅРєР° (Р±РµР· Р»РёРґРёСЂСѓСЋС‰РёС… РЅСѓР»РµР№)
+     * Get the 'BlankTypographNum' element value. Типографский номер бланка (без лидирующих нулей)
      * 
      * @return value
      */
@@ -131,7 +131,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'BlankTypographNum' element value. РўРёРїРѕРіСЂР°С„СЃРєРёР№ РЅРѕРјРµСЂ Р±Р»Р°РЅРєР° (Р±РµР· Р»РёРґРёСЂСѓСЋС‰РёС… РЅСѓР»РµР№)
+     * Set the 'BlankTypographNum' element value. Типографский номер бланка (без лидирующих нулей)
      * 
      * @param blankTypographNum
      */
@@ -140,7 +140,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'CertificateNumber' element value. Номер свидетельства о государственной регистрации
      * 
      * @return value
      */
@@ -149,7 +149,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'CertificateNumber' element value. Номер свидетельства о государственной регистрации
      * 
      * @param certificateNumber
      */
@@ -158,7 +158,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Get the 'CertDate' element value. Дата выдачи свидетельства
      * 
      * @return value
      */
@@ -167,7 +167,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Set the 'CertDate' element value. Дата выдачи свидетельства
      * 
      * @param certDate
      */
@@ -176,7 +176,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р°: 1 - РїРѕРґРїРёСЃР°РЅ Рё РґРµР№СЃС‚РІСѓРµС‚; 2 - РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅ; 3 - Р°РЅРЅСѓР»РёСЂРѕРІР°РЅ / РѕС‚РѕР·РІР°РЅ; 4 - СѓРґР°Р»РµРЅ РёР·-Р·Р° С‚РµС…РЅРёС‡РµСЃРєРѕР№ РѕС€РёР±РєРё РїСЂРё РѕС„РѕСЂРјР»РµРЅРёРё; 5 - СѓРґР°Р»РµРЅ РІ СЃРІСЏР·Рё СЃ РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРµРј
+     * Get the 'CertStatus' element value. Статус документа: 1 - подписан и действует; 2 - приостановлен; 3 - аннулирован / отозван; 4 - удален из-за технической ошибки при оформлении; 5 - удален в связи с переоформлением
      * 
      * @return value
      */
@@ -185,7 +185,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р°: 1 - РїРѕРґРїРёСЃР°РЅ Рё РґРµР№СЃС‚РІСѓРµС‚; 2 - РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅ; 3 - Р°РЅРЅСѓР»РёСЂРѕРІР°РЅ / РѕС‚РѕР·РІР°РЅ; 4 - СѓРґР°Р»РµРЅ РёР·-Р·Р° С‚РµС…РЅРёС‡РµСЃРєРѕР№ РѕС€РёР±РєРё РїСЂРё РѕС„РѕСЂРјР»РµРЅРёРё; 5 - СѓРґР°Р»РµРЅ РІ СЃРІСЏР·Рё СЃ РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРµРј
+     * Set the 'CertStatus' element value. Статус документа: 1 - подписан и действует; 2 - приостановлен; 3 - аннулирован / отозван; 4 - удален из-за технической ошибки при оформлении; 5 - удален в связи с переоформлением
      * 
      * @param certStatus
      */
@@ -194,7 +194,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'BlankTypeID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РёРїР° Р±Р»Р°РЅРєР°
+     * Get the 'BlankTypeID' element value. Идентификатор типа бланка
      * 
      * @return value
      */
@@ -203,7 +203,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'BlankTypeID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РёРїР° Р±Р»Р°РЅРєР°
+     * Set the 'BlankTypeID' element value. Идентификатор типа бланка
      * 
      * @param blankTypeID
      */
@@ -212,7 +212,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'Goods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ  РїСЂРѕРґСѓРєС†РёРё
+     * Get the 'Goods' element value. Сведения о  продукции
      * 
      * @return value
      */
@@ -221,7 +221,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'Goods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ  РїСЂРѕРґСѓРєС†РёРё
+     * Set the 'Goods' element value. Сведения о  продукции
      * 
      * @param goods
      */
@@ -230,7 +230,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'ManufacturerInf' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РёР·РіРѕС‚РѕРІРёС‚РµР»Рµ/РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРј РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»Рµ
+     * Get the 'ManufacturerInf' element value. Информация об изготовителе/индивидуальном предпринимателе
      * 
      * @return value
      */
@@ -239,7 +239,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'ManufacturerInf' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РёР·РіРѕС‚РѕРІРёС‚РµР»Рµ/РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРј РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»Рµ
+     * Set the 'ManufacturerInf' element value. Информация об изготовителе/индивидуальном предпринимателе
      * 
      * @param manufacturerInf
      */
@@ -248,7 +248,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsRecipient' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'GoodsRecipient' element value. Информация о получателе товаров
      * 
      * @return value
      */
@@ -257,7 +257,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsRecipient' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'GoodsRecipient' element value. Информация о получателе товаров
      * 
      * @param goodsRecipient
      */
@@ -266,7 +266,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TestingOrg' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, РїСЂРѕРІРѕРґРёРІС€РµР№ РёСЃСЃР»РµРґРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
+     * Get the list of 'TestingOrg' element items. Сведения об организации, проводившей исследование продукции
      * 
      * @return list
      */
@@ -275,7 +275,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TestingOrg' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, РїСЂРѕРІРѕРґРёРІС€РµР№ РёСЃСЃР»РµРґРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
+     * Set the list of 'TestingOrg' element items. Сведения об организации, проводившей исследование продукции
      * 
      * @param list
      */
@@ -284,7 +284,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'AutorizedPerson' element value. Р›РёС†Рѕ, РІС‹РґР°РІС€РµРµ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+     * Get the 'AutorizedPerson' element value. Лицо, выдавшее свидетельство
      * 
      * @return value
      */
@@ -293,7 +293,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'AutorizedPerson' element value. Р›РёС†Рѕ, РІС‹РґР°РІС€РµРµ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+     * Set the 'AutorizedPerson' element value. Лицо, выдавшее свидетельство
      * 
      * @param autorizedPerson
      */
@@ -302,7 +302,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -311,7 +311,7 @@ public class StateRegistrationCertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

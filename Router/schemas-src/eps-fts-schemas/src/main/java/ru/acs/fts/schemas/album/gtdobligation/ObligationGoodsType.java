@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADGoodsItemType;
 
 /** 
- * РўРѕРІР°СЂС‹, РІС‹РїСѓСЃРє РєРѕС‚РѕСЂС‹С… РїСЂРѕСЃРёС‚ РѕСЃСѓС‰РµСЃС‚РІРёС‚СЊ РґРµРєР»Р°СЂР°РЅС‚
+ * Товары, выпуск которых просит осуществить декларант
  */
 public class ObligationGoodsType extends CUESADGoodsItemType
 {
@@ -17,7 +17,7 @@ public class ObligationGoodsType extends CUESADGoodsItemType
     private List<SupplementaryQuantityType> supplementaryQuantity12List = new ArrayList<SupplementaryQuantityType>();
 
     /** 
-     * Get the 'MilitaryProductCategoryCode' element value. РљР°С‚РµРіРѕСЂРёСЏ РїСЂРѕРґСѓРєС†РёРё РІРѕРµРЅРЅРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'MilitaryProductCategoryCode' element value. Категория продукции военного назначения
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ObligationGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'MilitaryProductCategoryCode' element value. РљР°С‚РµРіРѕСЂРёСЏ РїСЂРѕРґСѓРєС†РёРё РІРѕРµРЅРЅРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'MilitaryProductCategoryCode' element value. Категория продукции военного назначения
      * 
      * @param militaryProductCategoryCode
      */
@@ -36,7 +36,7 @@ public class ObligationGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'OriginCountrySign' element value. РџСЂРёР·РЅР°Рє РєРѕРґР° СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ: 0 - Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ alpha-2 РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ OKSMT; 1 - Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ EU
+     * Get the 'OriginCountrySign' element value. Признак кода страны происхождения: 0 - буквенный код alpha-2 по классификатору OKSMT; 1 - буквенный код EU
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ObligationGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'OriginCountrySign' element value. РџСЂРёР·РЅР°Рє РєРѕРґР° СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ: 0 - Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ alpha-2 РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ OKSMT; 1 - Р±СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ EU
+     * Set the 'OriginCountrySign' element value. Признак кода страны происхождения: 0 - буквенный код alpha-2 по классификатору OKSMT; 1 - буквенный код EU
      * 
      * @param originCountrySign
      */
@@ -54,7 +54,7 @@ public class ObligationGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'SupplementaryQuantity' element value. Количество товара в дополнительной единице измерения
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ObligationGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'SupplementaryQuantity' element value. Количество товара в дополнительной единице измерения
      * 
      * @param supplementaryQuantity
      */
@@ -73,7 +73,7 @@ public class ObligationGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'SupplementaryQuantity12' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ (1,2)
+     * Get the list of 'SupplementaryQuantity12' element items. Количество товара в дополнительной единице измерения (1,2)
      * 
      * @return list
      */
@@ -82,7 +82,7 @@ public class ObligationGoodsType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'SupplementaryQuantity12' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ (1,2)
+     * Set the list of 'SupplementaryQuantity12' element items. Количество товара в дополнительной единице измерения (1,2)
      * 
      * @param list
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РѕС‚ РїСЂРёРєР»Р°РґРЅРѕР№ СЃРёСЃС‚РµРјС‹.
+ * Информация о документе от прикладной системы.
  */
 public class AUDAppliedDocumentInfoType extends AUDAppliedDocumentIdType
 {
@@ -10,7 +10,7 @@ public class AUDAppliedDocumentInfoType extends AUDAppliedDocumentIdType
     private AUDDocumentKindVersionIdInfoOptType documentKindVersionIdInfoOpt;
 
     /** 
-     * Get the 'Description' element value. РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'Description' element value. Описание документа.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AUDAppliedDocumentInfoType extends AUDAppliedDocumentIdType
     }
 
     /** 
-     * Set the 'Description' element value. РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'Description' element value. Описание документа.
      * 
      * @param description
      */
@@ -28,7 +28,7 @@ public class AUDAppliedDocumentInfoType extends AUDAppliedDocumentIdType
     }
 
     /** 
-     * Get the 'DocumentKindVersionIdInfoOpt' element value. РРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РІРµСЂСЃРёРё РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentKindVersionIdInfoOpt' element value. Информация для идентификации версии вида документа.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AUDAppliedDocumentInfoType extends AUDAppliedDocumentIdType
     }
 
     /** 
-     * Set the 'DocumentKindVersionIdInfoOpt' element value. РРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РІРµСЂСЃРёРё РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentKindVersionIdInfoOpt' element value. Информация для идентификации версии вида документа.
      * 
      * @param documentKindVersionIdInfoOpt
      */

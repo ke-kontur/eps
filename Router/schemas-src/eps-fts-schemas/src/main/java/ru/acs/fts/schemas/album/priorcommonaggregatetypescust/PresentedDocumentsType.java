@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.priorcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚С‹, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёРµ Р·Р°СЏРІР»РµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+ * Документы, подтверждающие заявленные сведения
  */
 public class PresentedDocumentsType extends DocumentBaseType
 {
@@ -12,7 +12,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     private String organizationName;
 
     /** 
-     * Get the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°(Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44)
+     * Get the 'PresentedDocumentModeCode' element value. Код вида представляемого документа(заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44)
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°(Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44)
+     * Set the 'PresentedDocumentModeCode' element value. Код вида представляемого документа(заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44)
      * 
      * @param presentedDocumentModeCode
      */
@@ -30,7 +30,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚. РџСЂРё Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹С… РїРµСЂРµРІРѕР·РєР°С… РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РјРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ CMR
+     * Get the 'OrganizationName' element value. Наименование органа, выдавшего документ. При автомобильных перевозках дополнительно заполняется место составления CMR
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PresentedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚. РџСЂРё Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹С… РїРµСЂРµРІРѕР·РєР°С… РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РјРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ CMR
+     * Set the 'OrganizationName' element value. Наименование органа, выдавшего документ. При автомобильных перевозках дополнительно заполняется место составления CMR
      * 
      * @param organizationName
      */

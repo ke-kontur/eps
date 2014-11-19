@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.GTDExportInfoType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРё РІС‹РІРµР·РµРЅРЅС‹С… С‚РѕРІР°СЂР°С… РїРѕ Р”Рў
+ * Информация о фактически вывезенных товарах по ДТ
  */
 public class GoodsExportInfoType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class GoodsExportInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'ExportInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РІС‹РІРѕР·Рµ РїРѕ Р”Рў
+     * Get the list of 'ExportInfo' element items. Информация о фактическом вывозе по ДТ
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class GoodsExportInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ExportInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РІС‹РІРѕР·Рµ РїРѕ Р”Рў
+     * Set the list of 'ExportInfo' element items. Информация о фактическом вывозе по ДТ
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class GoodsExportInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsExportInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

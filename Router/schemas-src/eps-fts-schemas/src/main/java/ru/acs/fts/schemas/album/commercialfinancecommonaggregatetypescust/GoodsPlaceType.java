@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+ * Описание грузовых мест
  */
 public class GoodsPlaceType
 {
@@ -11,7 +11,7 @@ public class GoodsPlaceType
     private String placeWeightQuantity;
 
     /** 
-     * Get the 'PlaceKind' element value. РљРѕРґ РІРёРґР° РіСЂСѓР·РѕРІРѕРіРѕ РјРµСЃС‚Р° РёР· СЃРїСЂР°РІРѕС‡РЅРёРєР° РќРЎР
+     * Get the 'PlaceKind' element value. Код вида грузового места из справочника НСИ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class GoodsPlaceType
     }
 
     /** 
-     * Set the 'PlaceKind' element value. РљРѕРґ РІРёРґР° РіСЂСѓР·РѕРІРѕРіРѕ РјРµСЃС‚Р° РёР· СЃРїСЂР°РІРѕС‡РЅРёРєР° РќРЎР
+     * Set the 'PlaceKind' element value. Код вида грузового места из справочника НСИ
      * 
      * @param placeKind
      */
@@ -29,7 +29,7 @@ public class GoodsPlaceType
     }
 
     /** 
-     * Get the 'PlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°
+     * Get the 'PlacesQuantity' element value. Общее количество грузовых мест товара
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class GoodsPlaceType
     }
 
     /** 
-     * Set the 'PlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°
+     * Set the 'PlacesQuantity' element value. Общее количество грузовых мест товара
      * 
      * @param placesQuantity
      */
@@ -47,7 +47,7 @@ public class GoodsPlaceType
     }
 
     /** 
-     * Get the 'PlaceWeightQuantity' element value. Р’РµСЃ РјРµСЃС‚Р° (РєРі)
+     * Get the 'PlaceWeightQuantity' element value. Вес места (кг)
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class GoodsPlaceType
     }
 
     /** 
-     * Set the 'PlaceWeightQuantity' element value. Р’РµСЃ РјРµСЃС‚Р° (РєРі)
+     * Set the 'PlaceWeightQuantity' element value. Вес места (кг)
      * 
      * @param placeWeightQuantity
      */

@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЎРїСЂР°РІРєР° Рѕ РЅР°Р»РёС‡РёРё СЃС‡РµС‚РѕРІ РІ Р±Р°РЅРєРµ Сѓ РѕСЂРіР°РЅРёР·Р°С†РёРё
+ * Справка о наличии счетов в банке у организации
  */
 public class CertificateAccountsOrganType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DateIssue' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРїСЂР°РІРєРё
+     * Get the 'DateIssue' element value. Дата выдачи справки
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateIssue' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРїСЂР°РІРєРё
+     * Set the 'DateIssue' element value. Дата выдачи справки
      * 
      * @param dateIssue
      */
@@ -43,7 +43,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Get the 'BankInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р±Р°РЅРєРµ
+     * Get the 'BankInfo' element value. Сведения о банке
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Set the 'BankInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р±Р°РЅРєРµ
+     * Set the 'BankInfo' element value. Сведения о банке
      * 
      * @param bankInfo
      */
@@ -61,7 +61,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequestTax' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїСЂРѕСЃРµ РЅР°Р»РѕРіРѕРІРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'RequestTax' element value. Сведения о запросе налогового органа
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestTax' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїСЂРѕСЃРµ РЅР°Р»РѕРіРѕРІРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'RequestTax' element value. Сведения о запросе налогового органа
      * 
      * @param requestTax
      */
@@ -79,7 +79,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Get the 'TaxInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'TaxInfo' element value. Сведения о налоговом органе
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Set the 'TaxInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'TaxInfo' element value. Сведения о налоговом органе
      * 
      * @param taxInfo
      */
@@ -97,7 +97,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Get the 'Organization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё / Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'Organization' element value. Наименование организации / ФИО физического лица
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Set the 'Organization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё / Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'Organization' element value. Наименование организации / ФИО физического лица
      * 
      * @param organization
      */
@@ -115,7 +115,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AccountInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‡РµС‚Р°С…
+     * Get the list of 'AccountInfo' element items. Сведения о счетах
      * 
      * @return list
      */
@@ -124,7 +124,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AccountInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‡РµС‚Р°С…
+     * Set the list of 'AccountInfo' element items. Сведения о счетах
      * 
      * @param list
      */
@@ -133,7 +133,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Get the 'BankRepresentative' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ Р±Р°РЅРєР°
+     * Get the 'BankRepresentative' element value. Представитель банка
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Set the 'BankRepresentative' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ Р±Р°РЅРєР°
+     * Set the 'BankRepresentative' element value. Представитель банка
      * 
      * @param bankRepresentative
      */
@@ -151,7 +151,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class CertificateAccountsOrganType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

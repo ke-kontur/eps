@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.sqcommonaggregatetypescust.DocumentType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+ * Сведения о документе
  */
 public class DocInfoType extends DocumentType
 {
@@ -15,7 +15,7 @@ public class DocInfoType extends DocumentType
     private String status;
 
     /** 
-     * Get the 'DocId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocId' element value. Идентификатор документа
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class DocInfoType extends DocumentType
     }
 
     /** 
-     * Set the 'DocId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocId' element value. Идентификатор документа
      * 
      * @param docId
      */
@@ -33,7 +33,7 @@ public class DocInfoType extends DocumentType
     }
 
     /** 
-     * Get the 'DocType' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°. 1 -  Р’СЂРµРјРµРЅРЅС‹Р№ РІРІРѕР· Р Р­РЎ; 2 - Р’РІРѕР· Р Р­РЎ РґР»СЏ Р»РёС‡РЅРѕРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ;
+     * Get the 'DocType' element value. Тип документа. 1 -  Временный ввоз РЭС; 2 - Ввоз РЭС для личного использования;
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class DocInfoType extends DocumentType
     }
 
     /** 
-     * Set the 'DocType' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°. 1 -  Р’СЂРµРјРµРЅРЅС‹Р№ РІРІРѕР· Р Р­РЎ; 2 - Р’РІРѕР· Р Р­РЎ РґР»СЏ Р»РёС‡РЅРѕРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ;
+     * Set the 'DocType' element value. Тип документа. 1 -  Временный ввоз РЭС; 2 - Ввоз РЭС для личного использования;
      * 
      * @param docType
      */
@@ -51,7 +51,7 @@ public class DocInfoType extends DocumentType
     }
 
     /** 
-     * Get the 'ChangeDate' element value. Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµР№ РјРѕРґРёС„РёРєР°С†РёРё СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РІРІРѕР·
+     * Get the 'ChangeDate' element value. Дата последней модификации разрешения на ввоз
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class DocInfoType extends DocumentType
     }
 
     /** 
-     * Set the 'ChangeDate' element value. Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµР№ РјРѕРґРёС„РёРєР°С†РёРё СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РІРІРѕР·
+     * Set the 'ChangeDate' element value. Дата последней модификации разрешения на ввоз
      * 
      * @param changeDate
      */
@@ -69,7 +69,7 @@ public class DocInfoType extends DocumentType
     }
 
     /** 
-     * Get the 'Status' element value. РЎС‚Р°С‚СѓСЃ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РІРІРѕР·
+     * Get the 'Status' element value. Статус разрешения на ввоз
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class DocInfoType extends DocumentType
     }
 
     /** 
-     * Set the 'Status' element value. РЎС‚Р°С‚СѓСЃ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РІРІРѕР·
+     * Set the 'Status' element value. Статус разрешения на ввоз
      * 
      * @param status
      */

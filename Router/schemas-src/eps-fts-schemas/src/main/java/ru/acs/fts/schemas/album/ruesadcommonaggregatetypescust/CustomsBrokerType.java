@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ  С‚Р°РјРѕР¶РµРЅРЅРѕРј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»Рµ (Р±СЂРѕРєРµСЂРµ). Р“СЂ. 54 Р”Рў.
+ * Сведения о  таможенном представителе (брокере). Гр. 54 ДТ.
  */
 public class CustomsBrokerType
 {
@@ -17,7 +17,7 @@ public class CustomsBrokerType
     private String KPPCode;
 
     /** 
-     * Get the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°: 1-Р›РёС†РµРЅР·РёСЏ, 2-РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ  
+     * Get the 'DocumentModeCode' element value. Тип документа: 1-Лицензия, 2-Свидетельство  
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°: 1-Р›РёС†РµРЅР·РёСЏ, 2-РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ  
+     * Set the 'DocumentModeCode' element value. Тип документа: 1-Лицензия, 2-Свидетельство  
      * 
      * @param documentModeCode
      */
@@ -35,7 +35,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Get the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ (Р±СЂРѕРєРµСЂРѕРІ).
+     * Get the 'CertificateNumber' element value. Номер свидетельства о включении в Реестр таможенных представителей (брокеров).
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ (Р±СЂРѕРєРµСЂРѕРІ).
+     * Set the 'CertificateNumber' element value. Номер свидетельства о включении в Реестр таможенных представителей (брокеров).
      * 
      * @param certificateNumber
      */
@@ -53,7 +53,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Get the 'IssueCertificateDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ (Р±СЂРѕРєРµСЂРѕРІ)
+     * Get the 'IssueCertificateDate' element value. Дата выдачи свидетельства о включении в Реестр таможенных представителей (брокеров)
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Set the 'IssueCertificateDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ (Р±СЂРѕРєРµСЂРѕРІ)
+     * Set the 'IssueCertificateDate' element value. Дата выдачи свидетельства о включении в Реестр таможенных представителей (брокеров)
      * 
      * @param issueCertificateDate
      */
@@ -71,7 +71,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Get the 'AgreementNumber' element value. РќРѕРјРµСЂ РґРѕРіРѕРІРѕСЂР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ (Р±СЂРѕРєРµСЂР°) СЃ РґРµРєР»Р°СЂР°РЅС‚РѕРј.
+     * Get the 'AgreementNumber' element value. Номер договора таможенного представителя (брокера) с декларантом.
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Set the 'AgreementNumber' element value. РќРѕРјРµСЂ РґРѕРіРѕРІРѕСЂР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ (Р±СЂРѕРєРµСЂР°) СЃ РґРµРєР»Р°СЂР°РЅС‚РѕРј.
+     * Set the 'AgreementNumber' element value. Номер договора таможенного представителя (брокера) с декларантом.
      * 
      * @param agreementNumber
      */
@@ -89,7 +89,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Get the 'ConclusionAgreementDate' element value. Р”Р°С‚Р° Р·Р°РєР»СЋС‡РµРЅРёСЏ РґРѕРіРѕРІРѕСЂР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ (Р±СЂРѕРєРµСЂР°) СЃ РґРµРєР»Р°СЂР°РЅС‚РѕРј.
+     * Get the 'ConclusionAgreementDate' element value. Дата заключения договора таможенного представителя (брокера) с декларантом.
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Set the 'ConclusionAgreementDate' element value. Р”Р°С‚Р° Р·Р°РєР»СЋС‡РµРЅРёСЏ РґРѕРіРѕРІРѕСЂР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ (Р±СЂРѕРєРµСЂР°) СЃ РґРµРєР»Р°СЂР°РЅС‚РѕРј.
+     * Set the 'ConclusionAgreementDate' element value. Дата заключения договора таможенного представителя (брокера) с декларантом.
      * 
      * @param conclusionAgreementDate
      */
@@ -107,7 +107,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Get the 'INNID' element value. РРќРќ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ (Р±СЂРѕРєРµСЂР°).
+     * Get the 'INNID' element value. ИНН таможенного представителя (брокера).
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Set the 'INNID' element value. РРќРќ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ (Р±СЂРѕРєРµСЂР°).
+     * Set the 'INNID' element value. ИНН таможенного представителя (брокера).
      * 
      * @param INNID
      */
@@ -125,7 +125,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Get the 'KPPCode' element value. РљРџРџ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ (Р±СЂРѕРєРµСЂР°).
+     * Get the 'KPPCode' element value. КПП таможенного представителя (брокера).
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class CustomsBrokerType
     }
 
     /** 
-     * Set the 'KPPCode' element value. РљРџРџ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ (Р±СЂРѕРєРµСЂР°).
+     * Set the 'KPPCode' element value. КПП таможенного представителя (брокера).
      * 
      * @param KPPCode
      */

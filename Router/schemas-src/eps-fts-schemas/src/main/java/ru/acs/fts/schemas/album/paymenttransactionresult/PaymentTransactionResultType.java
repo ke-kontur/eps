@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.cardcommonaggregatetypes.BaseDocType;
 
 /** 
- * РЎРѕРѕР±С‰РµРЅРёРµ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РѕР±СЂР°Р±РѕС‚РєРё
+ * Сообщение о результатах обработки
  */
 public class PaymentTransactionResultType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class PaymentTransactionResultType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentStatusFlag' element value. Р¤Р»Р°Рі СЃРѕСЃС‚РѕСЏРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°. 1 - РЅРѕРІС‹Р№ РґРѕРєСѓРјРµРЅС‚ (РѕС‚РїСЂР°РІР»СЏРµС‚СЃСЏ РІРїРµСЂРІС‹Рµ), 2 - РёСЃРїСЂР°РІР»РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° (РёСЃРїСЂР°РІР»РµРЅРЅР°СЏ РІРµСЂСЃРёСЏ РґРѕРєСѓРјРµРЅС‚Р°)
+     * Get the 'DocumentStatusFlag' element value. Флаг состояния документа. 1 - новый документ (отправляется впервые), 2 - исправление документа (исправленная версия документа)
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class PaymentTransactionResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentStatusFlag' element value. Р¤Р»Р°Рі СЃРѕСЃС‚РѕСЏРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°. 1 - РЅРѕРІС‹Р№ РґРѕРєСѓРјРµРЅС‚ (РѕС‚РїСЂР°РІР»СЏРµС‚СЃСЏ РІРїРµСЂРІС‹Рµ), 2 - РёСЃРїСЂР°РІР»РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° (РёСЃРїСЂР°РІР»РµРЅРЅР°СЏ РІРµСЂСЃРёСЏ РґРѕРєСѓРјРµРЅС‚Р°)
+     * Set the 'DocumentStatusFlag' element value. Флаг состояния документа. 1 - новый документ (отправляется впервые), 2 - исправление документа (исправленная версия документа)
      * 
      * @param documentStatusFlag
      */
@@ -35,7 +35,7 @@ public class PaymentTransactionResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentDate' element value. Р”Р°С‚Р° С‡РµРєР°
+     * Get the 'DocumentDate' element value. Дата чека
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class PaymentTransactionResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Р”Р°С‚Р° С‡РµРєР°
+     * Set the 'DocumentDate' element value. Дата чека
      * 
      * @param documentDate
      */
@@ -53,7 +53,7 @@ public class PaymentTransactionResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер документа
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class PaymentTransactionResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер документа
      * 
      * @param documentNumber
      */
@@ -71,7 +71,7 @@ public class PaymentTransactionResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentInformation' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Рµ
+     * Get the 'PaymentInformation' element value. Сведения о платеже
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class PaymentTransactionResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentInformation' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Рµ
+     * Set the 'PaymentInformation' element value. Сведения о платеже
      * 
      * @param paymentInformation
      */
@@ -89,7 +89,7 @@ public class PaymentTransactionResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'ErrorInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС€РёР±РєРµ
+     * Get the 'ErrorInfo' element value. Сведения об ошибке
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class PaymentTransactionResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'ErrorInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС€РёР±РєРµ
+     * Set the 'ErrorInfo' element value. Сведения об ошибке
      * 
      * @param errorInfo
      */
@@ -107,7 +107,7 @@ public class PaymentTransactionResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class PaymentTransactionResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

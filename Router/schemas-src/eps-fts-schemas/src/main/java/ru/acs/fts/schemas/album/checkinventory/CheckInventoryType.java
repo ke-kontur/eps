@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.checkinventory;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° СЃРІРµСЂРєСѓ РѕРїРёСЃРё РІ Р­РђР”
+ * Запрос на сверку описи в ЭАД
  */
 public class CheckInventoryType extends BaseDocType
 {
@@ -13,7 +13,7 @@ public class CheckInventoryType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'InventoryID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕРїРёСЃРё РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'InventoryID' element value. Идентификатор описи документов
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'InventoryID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕРїРёСЃРё РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'InventoryID' element value. Идентификатор описи документов
      * 
      * @param inventoryID
      */
@@ -31,7 +31,7 @@ public class CheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'InventoryInstance' element value. Р­РєР·РµРјРїР»СЏСЂ РѕРїРёСЃРё
+     * Get the 'InventoryInstance' element value. Экземпляр описи
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'InventoryInstance' element value. Р­РєР·РµРјРїР»СЏСЂ РѕРїРёСЃРё
+     * Set the 'InventoryInstance' element value. Экземпляр описи
      * 
      * @param inventoryInstance
      */
@@ -49,7 +49,7 @@ public class CheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class CheckInventoryType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

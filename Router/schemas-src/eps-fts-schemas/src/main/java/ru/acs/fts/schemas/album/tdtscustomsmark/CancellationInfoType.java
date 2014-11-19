@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РєР°Р·Рµ
+ * Сведения об отказе
  */
 public class CancellationInfoType
 {
@@ -16,7 +16,7 @@ public class CancellationInfoType
     private CustomsPersonType customsPerson;
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р°
+     * Get the 'Date' element value. Дата
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class CancellationInfoType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р°
+     * Set the 'Date' element value. Дата
      * 
      * @param date
      */
@@ -34,7 +34,7 @@ public class CancellationInfoType
     }
 
     /** 
-     * Get the 'Time' element value. Р’СЂРµРјСЏ
+     * Get the 'Time' element value. Время
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CancellationInfoType
     }
 
     /** 
-     * Set the 'Time' element value. Р’СЂРµРјСЏ
+     * Set the 'Time' element value. Время
      * 
      * @param time
      */
@@ -52,7 +52,7 @@ public class CancellationInfoType
     }
 
     /** 
-     * Get the 'Foundation' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
+     * Get the 'Foundation' element value. Обоснование
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class CancellationInfoType
     }
 
     /** 
-     * Set the 'Foundation' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
+     * Set the 'Foundation' element value. Обоснование
      * 
      * @param foundation
      */
@@ -70,7 +70,7 @@ public class CancellationInfoType
     }
 
     /** 
-     * Get the 'ResolutionDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
+     * Get the 'ResolutionDescription' element value. Описание принятого решения
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class CancellationInfoType
     }
 
     /** 
-     * Set the 'ResolutionDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
+     * Set the 'ResolutionDescription' element value. Описание принятого решения
      * 
      * @param resolutionDescription
      */
@@ -88,7 +88,7 @@ public class CancellationInfoType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class CancellationInfoType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */

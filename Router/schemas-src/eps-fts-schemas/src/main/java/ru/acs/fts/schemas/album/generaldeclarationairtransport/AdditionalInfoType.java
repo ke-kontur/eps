@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.generaldeclarationairtransport;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AWBNumberType;
 
 /** 
- * РџСЂРѕС‡Р°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+ * Прочая информация
  */
 public class AdditionalInfoType
 {
@@ -15,7 +15,7 @@ public class AdditionalInfoType
     private AWBNumberType airWayBillNumber;
 
     /** 
-     * Get the 'Description' element value. РћРїРёСЃР°РЅРёРµ
+     * Get the 'Description' element value. Описание
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Set the 'Description' element value. РћРїРёСЃР°РЅРёРµ
+     * Set the 'Description' element value. Описание
      * 
      * @param description
      */
@@ -33,7 +33,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Get the 'BillNumber' element value. РќРѕРјРµСЂ СЂР°СЃС…РѕРґРЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'BillNumber' element value. Номер расходной накладной
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Set the 'BillNumber' element value. РќРѕРјРµСЂ СЂР°СЃС…РѕРґРЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'BillNumber' element value. Номер расходной накладной
      * 
      * @param billNumber
      */
@@ -51,7 +51,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Get the 'QuantityCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РєРѕР»РёС‡РµСЃС‚РІР°
+     * Get the 'QuantityCode' element value. Код единицы измерения количества
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Set the 'QuantityCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РєРѕР»РёС‡РµСЃС‚РІР°
+     * Set the 'QuantityCode' element value. Код единицы измерения количества
      * 
      * @param quantityCode
      */
@@ -69,7 +69,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Get the 'ItemQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ 
+     * Get the 'ItemQuantity' element value. Количество 
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Set the 'ItemQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ 
+     * Set the 'ItemQuantity' element value. Количество 
      * 
      * @param itemQuantity
      */
@@ -87,7 +87,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Get the 'AirWayBillNumber' element value. РќРѕРјРµСЂ Р°РІРёР°РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'AirWayBillNumber' element value. Номер авианакладной
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class AdditionalInfoType
     }
 
     /** 
-     * Set the 'AirWayBillNumber' element value. РќРѕРјРµСЂ Р°РІРёР°РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'AirWayBillNumber' element value. Номер авианакладной
      * 
      * @param airWayBillNumber
      */

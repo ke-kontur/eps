@@ -21,7 +21,7 @@ public class ViolatorsListType
     private TransportMeansBaseType TSInfo;
 
     /** 
-     * Get the 'ViolatorID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїРёСЃРё РІ СЂРµРµСЃС‚СЂРµ РЅР°СЂСѓС€РёС‚РµР»РµР№
+     * Get the 'ViolatorID' element value. Идентификатор записи в реестре нарушителей
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Set the 'ViolatorID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїРёСЃРё РІ СЂРµРµСЃС‚СЂРµ РЅР°СЂСѓС€РёС‚РµР»РµР№
+     * Set the 'ViolatorID' element value. Идентификатор записи в реестре нарушителей
      * 
      * @param violatorID
      */
@@ -39,7 +39,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Get the 'ResolutionOrgName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РџРљ, РЅР° РєРѕС‚РѕСЂРѕРј СЃРѕСЃС‚Р°РІР»РµРЅРѕ РїРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ
+     * Get the 'ResolutionOrgName' element value. Наименование ПК, на котором составлено постановление
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Set the 'ResolutionOrgName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РџРљ, РЅР° РєРѕС‚РѕСЂРѕРј СЃРѕСЃС‚Р°РІР»РµРЅРѕ РїРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ
+     * Set the 'ResolutionOrgName' element value. Наименование ПК, на котором составлено постановление
      * 
      * @param resolutionOrgName
      */
@@ -57,7 +57,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Get the 'InspectionDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РєРѕРЅС‚СЂРѕР»СЏ (РїСЂРѕРІРµСЂРєРё)
+     * Get the 'InspectionDateTime' element value. Дата/время контроля (проверки)
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Set the 'InspectionDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РєРѕРЅС‚СЂРѕР»СЏ (РїСЂРѕРІРµСЂРєРё)
+     * Set the 'InspectionDateTime' element value. Дата/время контроля (проверки)
      * 
      * @param inspectionDateTime
      */
@@ -75,7 +75,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Get the 'PenaltySum' element value. РЎСѓРјРјР° С€С‚СЂР°С„Р°
+     * Get the 'PenaltySum' element value. Сумма штрафа
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Set the 'PenaltySum' element value. РЎСѓРјРјР° С€С‚СЂР°С„Р°
+     * Set the 'PenaltySum' element value. Сумма штрафа
      * 
      * @param penaltySum
      */
@@ -93,7 +93,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Get the 'IsPaid' element value. РћС‚РјРµС‚РєР° РѕР± РѕРїР»Р°С‚Рµ
+     * Get the 'IsPaid' element value. Отметка об оплате
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Set the 'IsPaid' element value. РћС‚РјРµС‚РєР° РѕР± РѕРїР»Р°С‚Рµ
+     * Set the 'IsPaid' element value. Отметка об оплате
      * 
      * @param isPaid
      */
@@ -111,7 +111,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Get the 'AutoLawName' element value. РЎС‚Р°С‚СЊСЏ РЅР°СЂСѓС€РµРЅРёСЏ
+     * Get the 'AutoLawName' element value. Статья нарушения
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Set the 'AutoLawName' element value. РЎС‚Р°С‚СЊСЏ РЅР°СЂСѓС€РµРЅРёСЏ
+     * Set the 'AutoLawName' element value. Статья нарушения
      * 
      * @param autoLawName
      */
@@ -129,7 +129,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Get the 'Carrier' element value. Перевозчик
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Set the 'Carrier' element value. Перевозчик
      * 
      * @param carrier
      */
@@ -147,7 +147,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Get the 'DriverName' element value. Р’РѕРґРёС‚РµР»СЊ
+     * Get the 'DriverName' element value. Водитель
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Set the 'DriverName' element value. Р’РѕРґРёС‚РµР»СЊ
+     * Set the 'DriverName' element value. Водитель
      * 
      * @param driverName
      */
@@ -165,7 +165,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Get the 'Resolution' element value. РџРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ
+     * Get the 'Resolution' element value. Постановление
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Set the 'Resolution' element value. РџРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ
+     * Set the 'Resolution' element value. Постановление
      * 
      * @param resolution
      */
@@ -183,7 +183,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Get the 'ResolutionEmployee' element value. РРЅСЃРїРµРєС‚РѕСЂ, СЃРѕСЃС‚Р°РІРёРІС€РёР№ РїРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ (СѓС‚РІРµСЂРґРёРІС€РёР№ РїРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ)
+     * Get the 'ResolutionEmployee' element value. Инспектор, составивший постановление (утвердивший постановление)
      * 
      * @return value
      */
@@ -192,7 +192,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Set the 'ResolutionEmployee' element value. РРЅСЃРїРµРєС‚РѕСЂ, СЃРѕСЃС‚Р°РІРёРІС€РёР№ РїРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ (СѓС‚РІРµСЂРґРёРІС€РёР№ РїРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ)
+     * Set the 'ResolutionEmployee' element value. Инспектор, составивший постановление (утвердивший постановление)
      * 
      * @param resolutionEmployee
      */
@@ -201,7 +201,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Get the 'TSInfo' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РўРЎ
+     * Get the 'TSInfo' element value. Регистрационные данные ТС
      * 
      * @return value
      */
@@ -210,7 +210,7 @@ public class ViolatorsListType
     }
 
     /** 
-     * Set the 'TSInfo' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РўРЎ
+     * Set the 'TSInfo' element value. Регистрационные данные ТС
      * 
      * @param TSInfo
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р¤РѕСЂРјР° в„–1. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РїСЂРµРґРїРѕР»Р°РіР°РµРјС‹С… Рє РІРІРѕР·Сѓ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ РћР­Р— РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚Р°РјРѕР¶РµРЅРЅС‹Рј СЂРµР¶РёРјРѕРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹, РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё РЅРёС… РѕРїРµСЂР°С†РёР№, РЅРµ СЃРІСЏР·Р°РЅРЅС‹С… СЃ РїРµСЂРµСЂР°Р±РѕС‚РєРѕР№ С‚РѕРІР°СЂРѕРІ Рё РёР·РіРѕС‚РѕРІР»РµРЅРёРµРј РїСЂРѕРґСѓРєС‚РѕРІ РёС… РїРµСЂРµСЂР°Р±РѕС‚РєРё. 
+ * Форма №1. Сведения о товарах, предполагаемых к ввозу на территорию ОЭЗ в соответствии с таможенным режимом свободной таможенной зоны, для проведения в отношении них операций, не связанных с переработкой товаров и изготовлением продуктов их переработки. 
  */
 public class FormOneType
 {
@@ -15,7 +15,7 @@ public class FormOneType
     private List<OperationType> operationList = new ArrayList<OperationType>();
 
     /** 
-     * Get the 'ResidentPersonSignature' element value. Р¤РРћ Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅРёР·Р°С†РёРё - СЂРµР·РёРґРµРЅС‚Р° РћР­Р—
+     * Get the 'ResidentPersonSignature' element value. ФИО и подпись уполномоченного лица организации - резидента ОЭЗ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class FormOneType
     }
 
     /** 
-     * Set the 'ResidentPersonSignature' element value. Р¤РРћ Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅРёР·Р°С†РёРё - СЂРµР·РёРґРµРЅС‚Р° РћР­Р—
+     * Set the 'ResidentPersonSignature' element value. ФИО и подпись уполномоченного лица организации - резидента ОЭЗ
      * 
      * @param residentPersonSignature
      */
@@ -34,7 +34,7 @@ public class FormOneType
     }
 
     /** 
-     * Get the 'EconZonePersonSignature' element value. Р¤РРћ Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅР° СѓРїСЂР°РІР»РµРЅРёСЏ РћР­Р— 
+     * Get the 'EconZonePersonSignature' element value. ФИО и подпись уполномоченного лица органа управления ОЭЗ 
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class FormOneType
     }
 
     /** 
-     * Set the 'EconZonePersonSignature' element value. Р¤РРћ Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅР° СѓРїСЂР°РІР»РµРЅРёСЏ РћР­Р— 
+     * Set the 'EconZonePersonSignature' element value. ФИО и подпись уполномоченного лица органа управления ОЭЗ 
      * 
      * @param econZonePersonSignature
      */
@@ -53,7 +53,7 @@ public class FormOneType
     }
 
     /** 
-     * Get the list of 'Operation' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕРїРµСЂР°С†РёРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃР»РѕРІРёСЏРјРё СЃРѕРіР»Р°С€РµРЅРёСЏ 
+     * Get the list of 'Operation' element items. Наименование операции в соответствии с условиями соглашения 
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class FormOneType
     }
 
     /** 
-     * Set the list of 'Operation' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕРїРµСЂР°С†РёРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃР»РѕРІРёСЏРјРё СЃРѕРіР»Р°С€РµРЅРёСЏ 
+     * Set the list of 'Operation' element items. Наименование операции в соответствии с условиями соглашения 
      * 
      * @param list
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.ConsigneeType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhTransportType;
 
 /** 
- * РћСЃРЅРѕРІР°РЅРёРµ РЅР° РІС‹РґР°С‡Сѓ С‚РѕРІР°СЂРѕРІ
+ * Основание на выдачу товаров
  */
 public class DeliveryGoodsType
 {
@@ -16,7 +16,7 @@ public class DeliveryGoodsType
     private List<GoodInfoType> goodInfoList = new ArrayList<GoodInfoType>();
 
     /** 
-     * Get the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Consignee' element value. Грузополучатель
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class DeliveryGoodsType
     }
 
     /** 
-     * Set the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Consignee' element value. Грузополучатель
      * 
      * @param consignee
      */
@@ -34,7 +34,7 @@ public class DeliveryGoodsType
     }
 
     /** 
-     * Get the list of 'Transport' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the list of 'Transport' element items. Описание транспортного средства
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class DeliveryGoodsType
     }
 
     /** 
-     * Set the list of 'Transport' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the list of 'Transport' element items. Описание транспортного средства
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class DeliveryGoodsType
     }
 
     /** 
-     * Get the list of 'GoodInfo' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'GoodInfo' element items. Описание товаров
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class DeliveryGoodsType
     }
 
     /** 
-     * Set the list of 'GoodInfo' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'GoodInfo' element items. Описание товаров
      * 
      * @param list
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.applicationstore;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
+ * Сведения о перевозчике
  */
 public class CarrierType extends CUOrganizationType
 {
@@ -12,7 +12,7 @@ public class CarrierType extends CUOrganizationType
     private CUOrganizationType carrierRepresentative;
 
     /** 
-     * Get the 'AirlineIATACode' element value. РљРѕРґ РРђРўРђ
+     * Get the 'AirlineIATACode' element value. Код ИАТА
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class CarrierType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'AirlineIATACode' element value. РљРѕРґ РРђРўРђ
+     * Set the 'AirlineIATACode' element value. Код ИАТА
      * 
      * @param airlineIATACode
      */
@@ -30,7 +30,7 @@ public class CarrierType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'CarrierRepresentative' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ Р°РІРёР°РєРѕРјРїР°РЅРёРё
+     * Get the 'CarrierRepresentative' element value. Представитель авиакомпании
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class CarrierType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'CarrierRepresentative' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ Р°РІРёР°РєРѕРјРїР°РЅРёРё
+     * Set the 'CarrierRepresentative' element value. Представитель авиакомпании
      * 
      * @param carrierRepresentative
      */

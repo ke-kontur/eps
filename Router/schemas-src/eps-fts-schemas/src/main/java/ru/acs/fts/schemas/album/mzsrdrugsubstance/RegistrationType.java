@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+ * Сведения о регистрации лекарственного средства
  */
 public class RegistrationType extends DocumentBaseType
 {
@@ -13,7 +13,7 @@ public class RegistrationType extends DocumentBaseType
     private LocalDate endDate;
 
     /** 
-     * Get the 'RegStatus' element value. РЎС‚Р°С‚СѓСЃ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРіРѕ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ: 1 - Р”РµР№СЃС‚РІСѓСЋС‰РµРµ, 2 - РџСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕРµ, 3 - РђРЅРЅСѓР»РёСЂРѕРІР°РЅРЅРѕРµ
+     * Get the 'RegStatus' element value. Статус регистрационного удостоверения: 1 - Действующее, 2 - Приостановленное, 3 - Аннулированное
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RegistrationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RegStatus' element value. РЎС‚Р°С‚СѓСЃ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРіРѕ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ: 1 - Р”РµР№СЃС‚РІСѓСЋС‰РµРµ, 2 - РџСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕРµ, 3 - РђРЅРЅСѓР»РёСЂРѕРІР°РЅРЅРѕРµ
+     * Set the 'RegStatus' element value. Статус регистрационного удостоверения: 1 - Действующее, 2 - Приостановленное, 3 - Аннулированное
      * 
      * @param regStatus
      */
@@ -31,7 +31,7 @@ public class RegistrationType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° (РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ, Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ)/РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ/Р”Р°С‚Р° РёСЃРєР»СЋС‡РµРЅРёСЏ РёР· РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЂРµРµСЃС‚СЂР° Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the 'EndDate' element value. Дата (приостановления, аннулирования)/Срок действия/Дата исключения из государственного реестра лекарственных средств
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class RegistrationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° (РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ, Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ)/РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ/Р”Р°С‚Р° РёСЃРєР»СЋС‡РµРЅРёСЏ РёР· РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЂРµРµСЃС‚СЂР° Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the 'EndDate' element value. Дата (приостановления, аннулирования)/Срок действия/Дата исключения из государственного реестра лекарственных средств
      * 
      * @param endDate
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.certificateaccountsorgan;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‡РµС‚Р°С…
+ * Сведения о счетах
  */
 public class AccountInfoType
 {
@@ -15,7 +15,7 @@ public class AccountInfoType
     private LocalDate endDate;
 
     /** 
-     * Get the 'BankAccount' element value. РќРѕРјРµСЂ Р±Р°РЅРєРѕРІСЃРєРѕРіРѕ СЃС‡РµС‚Р°
+     * Get the 'BankAccount' element value. Номер банковского счета
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class AccountInfoType
     }
 
     /** 
-     * Set the 'BankAccount' element value. РќРѕРјРµСЂ Р±Р°РЅРєРѕРІСЃРєРѕРіРѕ СЃС‡РµС‚Р°
+     * Set the 'BankAccount' element value. Номер банковского счета
      * 
      * @param bankAccount
      */
@@ -33,7 +33,7 @@ public class AccountInfoType
     }
 
     /** 
-     * Get the 'BankAccountDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РёРїР° СЃС‡РµС‚Р°: СЂР°СЃС‡РµС‚РЅС‹Р№, РІР°Р»СЋС‚РЅС‹Р№,...
+     * Get the 'BankAccountDescription' element value. Описание типа счета: расчетный, валютный,...
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class AccountInfoType
     }
 
     /** 
-     * Set the 'BankAccountDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РёРїР° СЃС‡РµС‚Р°: СЂР°СЃС‡РµС‚РЅС‹Р№, РІР°Р»СЋС‚РЅС‹Р№,...
+     * Set the 'BankAccountDescription' element value. Описание типа счета: расчетный, валютный,...
      * 
      * @param bankAccountDescription
      */
@@ -51,7 +51,7 @@ public class AccountInfoType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹.
+     * Get the 'CurrencyCode' element value. Код валюты.
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class AccountInfoType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹.
+     * Set the 'CurrencyCode' element value. Код валюты.
      * 
      * @param currencyCode
      */
@@ -69,7 +69,7 @@ public class AccountInfoType
     }
 
     /** 
-     * Get the 'StartDate' element value. Р”Р°С‚Р° РѕС‚РєСЂС‹С‚РёСЏ
+     * Get the 'StartDate' element value. Дата открытия
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class AccountInfoType
     }
 
     /** 
-     * Set the 'StartDate' element value. Р”Р°С‚Р° РѕС‚РєСЂС‹С‚РёСЏ
+     * Set the 'StartDate' element value. Дата открытия
      * 
      * @param startDate
      */
@@ -87,7 +87,7 @@ public class AccountInfoType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° Р·Р°РєСЂС‹С‚РёСЏ
+     * Get the 'EndDate' element value. Дата закрытия
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class AccountInfoType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° Р·Р°РєСЂС‹С‚РёСЏ
+     * Set the 'EndDate' element value. Дата закрытия
      * 
      * @param endDate
      */

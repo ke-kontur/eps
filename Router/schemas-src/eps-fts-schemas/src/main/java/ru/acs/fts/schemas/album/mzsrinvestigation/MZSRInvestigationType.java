@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р Р°Р·СЂРµС€РµРЅРёСЏ РЅР° РІРІРѕР·/РІС‹РІРѕР· РЅР°/СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤ Рё Р·Р° РµРµ РїСЂРµРґРµР»С‹ Р±РёРѕР»РѕРіРёС‡РµСЃРєРёС… РјР°С‚РµСЂРёР°Р»РѕРІ/ РєРѕРЅРєСЂРµС‚РЅРѕР№ РїР°СЂС‚РёРё РЅРµР·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅС‹С… Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹, РєР»РёРЅРёС‡РµСЃРєРёС… РёСЃСЃР»РµРґРѕРІР°РЅРёР№, РѕРєР°Р·Р°РЅРёСЏ РјРµРґРёС†РёРЅСЃРєРѕР№ РїРѕРјРѕС‰Рё РїРѕ Р¶РёР·РЅРµРЅРЅС‹Рј РїРѕРєР°Р·Р°РЅРёСЏРј РєРѕРЅРєСЂРµС‚РЅРѕРіРѕ РїР°С†РёРµРЅС‚Р°, РѕРєР°Р·Р°РЅРёСЏ РіСѓРјР°РЅРёС‚Р°СЂРЅРѕР№ РїРѕРјРѕС‰Рё (СЃРѕРґРµР№СЃС‚РІРёСЏ) РёР»Рё РїРѕРјРѕС‰Рё РїСЂРё С‡СЂРµР·РІС‹С‡Р°Р№РЅС‹С… СЃРёС‚СѓР°С†РёСЏС…
+ * Разрешения на ввоз/вывоз на/с территории РФ и за ее пределы биологических материалов/ конкретной партии незарегистрированных лекарственных средств для проведения экспертизы, клинических исследований, оказания медицинской помощи по жизненным показаниям конкретного пациента, оказания гуманитарной помощи (содействия) или помощи при чрезвычайных ситуациях
  */
 public class MZSRInvestigationType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class MZSRInvestigationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Purpose' element value. Р¦РµР»СЊ РІРІРѕР·Р°/РІС‹РІРѕР·Р°
+     * Get the 'Purpose' element value. Цель ввоза/вывоза
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Purpose' element value. Р¦РµР»СЊ РІРІРѕР·Р°/РІС‹РІРѕР·Р°
+     * Set the 'Purpose' element value. Цель ввоза/вывоза
      * 
      * @param purpose
      */
@@ -39,7 +39,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Get the 'SheetsCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІ РїСЂРёР»РѕР¶РµРЅРёРё
+     * Get the 'SheetsCount' element value. Количество листов в приложении
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Set the 'SheetsCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІ РїСЂРёР»РѕР¶РµРЅРёРё
+     * Set the 'SheetsCount' element value. Количество листов в приложении
      * 
      * @param sheetsCount
      */
@@ -57,7 +57,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -75,7 +75,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicantOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ-Р·Р°СЏРІРёС‚РµР»СЊ
+     * Get the 'ApplicantOrg' element value. Организация-заявитель
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicantOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ-Р·Р°СЏРІРёС‚РµР»СЊ
+     * Set the 'ApplicantOrg' element value. Организация-заявитель
      * 
      * @param applicantOrg
      */
@@ -93,7 +93,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Importer' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РІ Р°РґСЂРµСЃ РєРѕС‚РѕСЂРѕР№ РїР»Р°РЅРёСЂСѓРµС‚СЃСЏ РѕСЃСѓС‰РµСЃС‚РІР»СЏС‚СЊ РІРІРѕР·/РІС‹РІРѕР·
+     * Get the 'Importer' element value. Организация, в адрес которой планируется осуществлять ввоз/вывоз
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Importer' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РІ Р°РґСЂРµСЃ РєРѕС‚РѕСЂРѕР№ РїР»Р°РЅРёСЂСѓРµС‚СЃСЏ РѕСЃСѓС‰РµСЃС‚РІР»СЏС‚СЊ РІРІРѕР·/РІС‹РІРѕР·
+     * Set the 'Importer' element value. Организация, в адрес которой планируется осуществлять ввоз/вывоз
      * 
      * @param importer
      */
@@ -111,7 +111,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Permission' element value. Р Р°Р·СЂРµС€РµРЅРёРµ
+     * Get the 'Permission' element value. Разрешение
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Permission' element value. Р Р°Р·СЂРµС€РµРЅРёРµ
+     * Set the 'Permission' element value. Разрешение
      * 
      * @param permission
      */
@@ -129,7 +129,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ItemDescription' element value. РћРїРёСЃР°РЅРёРµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°/С„Р°СЂРј. СЃСѓР±СЃС‚Р°РЅС†РёРё/Р±РёРѕРѕР±СЂР°Р·С†Р°
+     * Get the 'ItemDescription' element value. Описание лекарственного средства/фарм. субстанции/биообразца
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ItemDescription' element value. РћРїРёСЃР°РЅРёРµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°/С„Р°СЂРј. СЃСѓР±СЃС‚Р°РЅС†РёРё/Р±РёРѕРѕР±СЂР°Р·С†Р°
+     * Set the 'ItemDescription' element value. Описание лекарственного средства/фарм. субстанции/биообразца
      * 
      * @param itemDescription
      */
@@ -147,7 +147,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Get the 'AuthorizedPerson' element value. Должностное лицо, подписавшее разрешение
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Set the 'AuthorizedPerson' element value. Должностное лицо, подписавшее разрешение
      * 
      * @param authorizedPerson
      */
@@ -165,7 +165,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class MZSRInvestigationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

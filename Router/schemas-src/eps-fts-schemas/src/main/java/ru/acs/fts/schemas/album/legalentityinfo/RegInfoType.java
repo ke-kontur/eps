@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.RFOrganizationFeaturesType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡РµС‚Рµ РІ РѕСЂРіР°РЅРµ
+ * Сведения об учете в органе
  */
 public class RegInfoType
 {
@@ -17,7 +17,7 @@ public class RegInfoType
     private RecordDataType recordData;
 
     /** 
-     * Get the 'RegDate' element value. Р”Р°С‚Р° РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚ РІ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ / Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЃС‚СЂР°С…РѕРІР°С‚РµР»СЏ
+     * Get the 'RegDate' element value. Дата постановки на учет в налоговом органе / Дата регистрации юридического лица в качестве страхователя
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class RegInfoType
     }
 
     /** 
-     * Set the 'RegDate' element value. Р”Р°С‚Р° РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚ РІ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ / Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЃС‚СЂР°С…РѕРІР°С‚РµР»СЏ
+     * Set the 'RegDate' element value. Дата постановки на учет в налоговом органе / Дата регистрации юридического лица в качестве страхователя
      * 
      * @param regDate
      */
@@ -35,7 +35,7 @@ public class RegInfoType
     }
 
     /** 
-     * Get the 'TaxRegDateEnd' element value. Р”Р°С‚Р° СЃРЅСЏС‚РёСЏ СЃ СѓС‡РµС‚Р° РІ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'TaxRegDateEnd' element value. Дата снятия с учета в налоговом органе
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class RegInfoType
     }
 
     /** 
-     * Set the 'TaxRegDateEnd' element value. Р”Р°С‚Р° СЃРЅСЏС‚РёСЏ СЃ СѓС‡РµС‚Р° РІ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'TaxRegDateEnd' element value. Дата снятия с учета в налоговом органе
      * 
      * @param taxRegDateEnd
      */
@@ -53,7 +53,7 @@ public class RegInfoType
     }
 
     /** 
-     * Get the 'RegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РІ РѕСЂРіР°РЅРµ
+     * Get the 'RegNum' element value. Регистрационный номер в органе
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class RegInfoType
     }
 
     /** 
-     * Set the 'RegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РІ РѕСЂРіР°РЅРµ
+     * Set the 'RegNum' element value. Регистрационный номер в органе
      * 
      * @param regNum
      */
@@ -71,7 +71,7 @@ public class RegInfoType
     }
 
     /** 
-     * Get the 'RegData' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ
+     * Get the 'RegData' element value. Регистрационные данные
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class RegInfoType
     }
 
     /** 
-     * Set the 'RegData' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ
+     * Set the 'RegData' element value. Регистрационные данные
      * 
      * @param regData
      */
@@ -89,7 +89,7 @@ public class RegInfoType
     }
 
     /** 
-     * Get the 'TaxOrgan' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РµРј РїРѕСЃС‚Р°РЅРѕРІРєСѓ РЅР° СѓС‡РµС‚ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'TaxOrgan' element value. Сведения о налоговом органе, осуществившем постановку на учет юридического лица
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class RegInfoType
     }
 
     /** 
-     * Set the 'TaxOrgan' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РµРј РїРѕСЃС‚Р°РЅРѕРІРєСѓ РЅР° СѓС‡РµС‚ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'TaxOrgan' element value. Сведения о налоговом органе, осуществившем постановку на учет юридического лица
      * 
      * @param taxOrgan
      */
@@ -107,7 +107,7 @@ public class RegInfoType
     }
 
     /** 
-     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Get the 'RecordData' element value. Сведения о записи
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class RegInfoType
     }
 
     /** 
-     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Set the 'RecordData' element value. Сведения о записи
      * 
      * @param recordData
      */

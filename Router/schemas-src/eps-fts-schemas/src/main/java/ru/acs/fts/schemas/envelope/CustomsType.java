@@ -18,7 +18,7 @@ public class CustomsType
     private String exchType;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° 
+     * Get the 'CustomsCode' element value. Код таможенного органа 
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class CustomsType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° 
+     * Set the 'CustomsCode' element value. Код таможенного органа 
      * 
      * @param customsCode
      */
@@ -36,7 +36,7 @@ public class CustomsType
     }
 
     /** 
-     * Get the 'ExchType' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕРіРѕ РѕР±РјРµРЅР°.
+     * Get the 'ExchType' element value. Код информационного обмена.
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class CustomsType
     }
 
     /** 
-     * Set the 'ExchType' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕРіРѕ РѕР±РјРµРЅР°.
+     * Set the 'ExchType' element value. Код информационного обмена.
      * 
      * @param exchType
      */

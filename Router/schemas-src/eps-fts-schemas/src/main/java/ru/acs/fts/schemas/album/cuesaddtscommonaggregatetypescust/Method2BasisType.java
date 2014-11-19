@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust;
 
 /** 
- * РћСЃРЅРѕРІР° СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 2,3,6. Р“СЂ. Рђ (11)
+ * Основа расчета таможенной стоимости по методу 2,3,6. Гр. А (11)
  */
 public class Method2BasisType
 {
     private String identicalDealNationalAmount;
 
     /** 
-     * Get the 'IdenticalDealNationalAmount' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СЃРґРµР»РєРё СЃ РёРґРµРЅС‚РёС‡РЅС‹РјРё/РѕРґРЅРѕСЂРѕРґРЅС‹РјРё С‚РѕРІР°СЂР°РјРё РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ. 11
+     * Get the 'IdenticalDealNationalAmount' element value. Стоимость сделки с идентичными/однородными товарами в национальной валюте. 11
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class Method2BasisType
     }
 
     /** 
-     * Set the 'IdenticalDealNationalAmount' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ СЃРґРµР»РєРё СЃ РёРґРµРЅС‚РёС‡РЅС‹РјРё/РѕРґРЅРѕСЂРѕРґРЅС‹РјРё С‚РѕРІР°СЂР°РјРё РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ. 11
+     * Set the 'IdenticalDealNationalAmount' element value. Стоимость сделки с идентичными/однородными товарами в национальной валюте. 11
      * 
      * @param identicalDealNationalAmount
      */

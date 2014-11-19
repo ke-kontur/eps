@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ Рѕ Р·Р°РєР»СЋС‡РµРЅРёСЏС… РЎРРўР•РЎ (РѕСЃРµС‚СЂРѕРІС‹Рµ)
+ * Запрос о заключениях СИТЕС (осетровые)
  */
 public class RFHIssueDetailsResponseType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -40,7 +40,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sign' element value. РџСЂРёР·РЅР°Рє: 1- Р­Рљ, 2 - РРњ, 3 - Р РµСЌРєСЃРїРѕСЂС‚, 4 - РРЅС‚СЂРѕРґСѓРєС†РёСЏ
+     * Get the 'Sign' element value. Признак: 1- ЭК, 2 - ИМ, 3 - Реэкспорт, 4 - Интродукция
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sign' element value. РџСЂРёР·РЅР°Рє: 1- Р­Рљ, 2 - РРњ, 3 - Р РµСЌРєСЃРїРѕСЂС‚, 4 - РРЅС‚СЂРѕРґСѓРєС†РёСЏ
+     * Set the 'Sign' element value. Признак: 1- ЭК, 2 - ИМ, 3 - Реэкспорт, 4 - Интродукция
      * 
      * @param sign
      */
@@ -58,7 +58,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'SpecialTerms' element value. РћСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ
+     * Get the 'SpecialTerms' element value. Особые условия
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'SpecialTerms' element value. РћСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ
+     * Set the 'SpecialTerms' element value. Особые условия
      * 
      * @param specialTerms
      */
@@ -76,7 +76,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExportQuota' element value. Р­РєСЃРїРѕСЂС‚РЅР°СЏ РєРІРѕС‚Р°
+     * Get the 'ExportQuota' element value. Экспортная квота
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExportQuota' element value. Р­РєСЃРїРѕСЂС‚РЅР°СЏ РєРІРѕС‚Р°
+     * Set the 'ExportQuota' element value. Экспортная квота
      * 
      * @param exportQuota
      */
@@ -94,7 +94,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationNumber' element value. РќРѕРјРµСЂ РїСЂРёР»РѕР¶РµРЅРёСЏ РЎРРўР•РЎ
+     * Get the 'ApplicationNumber' element value. Номер приложения СИТЕС
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationNumber' element value. РќРѕРјРµСЂ РїСЂРёР»РѕР¶РµРЅРёСЏ РЎРРўР•РЎ
+     * Set the 'ApplicationNumber' element value. Номер приложения СИТЕС
      * 
      * @param applicationNumber
      */
@@ -112,7 +112,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignedDocument' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Get the 'PersonSignedDocument' element value. Уполномоченное должностное лицо, подписавшее заключение
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignedDocument' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Set the 'PersonSignedDocument' element value. Уполномоченное должностное лицо, подписавшее заключение
      * 
      * @param personSignedDocument
      */
@@ -130,7 +130,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'Permission' element value. Р Р°Р·СЂРµС€РµРЅРёРµ (СЃРµСЂС‚РёС„РёРєР°С‚)
+     * Get the 'Permission' element value. Разрешение (сертификат)
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Permission' element value. Р Р°Р·СЂРµС€РµРЅРёРµ (СЃРµСЂС‚РёС„РёРєР°С‚)
+     * Set the 'Permission' element value. Разрешение (сертификат)
      * 
      * @param permission
      */
@@ -148,7 +148,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'Exporter' element value. Р­РєСЃРїРѕСЂС‚РµСЂ
+     * Get the 'Exporter' element value. Экспортер
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Exporter' element value. Р­РєСЃРїРѕСЂС‚РµСЂ
+     * Set the 'Exporter' element value. Экспортер
      * 
      * @param exporter
      */
@@ -166,7 +166,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'Importer' element value. РРјРїРѕСЂС‚РµСЂ
+     * Get the 'Importer' element value. Импортер
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Importer' element value. РРјРїРѕСЂС‚РµСЂ
+     * Set the 'Importer' element value. Импортер
      * 
      * @param importer
      */
@@ -184,7 +184,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'GoodsDescription' element value. Описание товара
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'GoodsDescription' element value. Описание товара
      * 
      * @param goodsDescription
      */
@@ -202,7 +202,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -211,7 +211,7 @@ public class RFHIssueDetailsResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕР№ РїРѕРґР°С‡Рµ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕРіРѕ СЃРѕСЃС‚Р°РІР° РЅР° Р–Р”РџРџ
+ * Уведомление о фактической подаче железнодорожного состава на ЖДПП
  */
 public class NotifFactArrivalType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class NotifFactArrivalType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - СѓРІРµРґРѕРјР»РµРЅРёРµ РѕР± СѓР±С‹С‚РёРё; 1 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё
+     * Get the 'DocumentSign' element value. Признак документа: 0 - уведомление об убытии; 1 - уведомление о прибытии
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - СѓРІРµРґРѕРјР»РµРЅРёРµ РѕР± СѓР±С‹С‚РёРё; 1 - СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё
+     * Set the 'DocumentSign' element value. Признак документа: 0 - уведомление об убытии; 1 - уведомление о прибытии
      * 
      * @param documentSign
      */
@@ -44,7 +44,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Get the 'URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїР°РєРµС‚Р° СЌР»РµРєС‚СЂРѕРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'URN' element value. Уникальный идентификационный номер пакета электронных документов
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Set the 'URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїР°РєРµС‚Р° СЌР»РµРєС‚СЂРѕРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'URN' element value. Уникальный идентификационный номер пакета электронных документов
      * 
      * @param URN
      */
@@ -62,7 +62,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Get the 'NotifDate' element value. Р”Р°С‚Р° РїСЂРёР±С‹С‚РёСЏ/СѓР±С‹С‚РёСЏ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕРіРѕ СЃРѕСЃС‚Р°РІР°
+     * Get the 'NotifDate' element value. Дата прибытия/убытия железнодорожного состава
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Set the 'NotifDate' element value. Р”Р°С‚Р° РїСЂРёР±С‹С‚РёСЏ/СѓР±С‹С‚РёСЏ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕРіРѕ СЃРѕСЃС‚Р°РІР°
+     * Set the 'NotifDate' element value. Дата прибытия/убытия железнодорожного состава
      * 
      * @param notifDate
      */
@@ -80,7 +80,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ СѓР±С‹С‚РёСЏ/РїСЂРёР±С‹С‚РёСЏ
+     * Get the 'Customs' element value. Сведения о таможенном органе убытия/прибытия
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ СѓР±С‹С‚РёСЏ/РїСЂРёР±С‹С‚РёСЏ
+     * Set the 'Customs' element value. Сведения о таможенном органе убытия/прибытия
      * 
      * @param customs
      */
@@ -98,7 +98,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationStation' element value. РЎС‚Р°РЅС†РёСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationStation' element value. Станция назначения
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationStation' element value. РЎС‚Р°РЅС†РёСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationStation' element value. Станция назначения
      * 
      * @param destinationStation
      */
@@ -116,7 +116,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartureStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DepartureStation' element value. Станция отправления
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DepartureStation' element value. Станция отправления
      * 
      * @param departureStation
      */
@@ -134,7 +134,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Transport' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІР°С…
+     * Get the list of 'Transport' element items. Сведения о транспортных средствах
      * 
      * @return list
      */
@@ -143,7 +143,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Transport' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІР°С…
+     * Set the list of 'Transport' element items. Сведения о транспортных средствах
      * 
      * @param list
      */
@@ -152,7 +152,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Seal' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСЂРµРґСЃС‚РІР°С… РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Get the list of 'Seal' element items. Сведения о средствах идентификации
      * 
      * @return list
      */
@@ -161,7 +161,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Seal' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСЂРµРґСЃС‚РІР°С… РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Set the list of 'Seal' element items. Сведения о средствах идентификации
      * 
      * @param list
      */
@@ -170,7 +170,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Get the 'TD' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+     * Get the 'TD' element value. Номер транзитной декларации
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Set the 'TD' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+     * Set the 'TD' element value. Номер транзитной декларации
      * 
      * @param TD
      */
@@ -188,7 +188,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class NotifFactArrivalType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

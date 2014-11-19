@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.detaildatard;
 
 /** 
- * РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ С‚РµРєСЃС‚
+ * Структурированный текст
  */
 public class StructuredTextType
 {
@@ -10,7 +10,7 @@ public class StructuredTextType
     private String text;
 
     /** 
-     * Get the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
+     * Get the 'RecordNumber' element value. Порядковый номер записи в таблице БД
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class StructuredTextType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
+     * Set the 'RecordNumber' element value. Порядковый номер записи в таблице БД
      * 
      * @param recordNumber
      */
@@ -28,7 +28,7 @@ public class StructuredTextType
     }
 
     /** 
-     * Get the 'Text' element value. РўРµРєСЃС‚
+     * Get the 'Text' element value. Текст
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class StructuredTextType
     }
 
     /** 
-     * Set the 'Text' element value. РўРµРєСЃС‚
+     * Set the 'Text' element value. Текст
      * 
      * @param text
      */

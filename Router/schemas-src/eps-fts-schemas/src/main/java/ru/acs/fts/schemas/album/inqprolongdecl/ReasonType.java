@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.inqprolongdecl;
 
 /** 
- * РџСЂРёС‡РёРЅР°
+ * Причина
  */
 public class ReasonType
 {
     private String reasonDescription;
 
     /** 
-     * Get the 'ReasonDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹
+     * Get the 'ReasonDescription' element value. Описание причины
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class ReasonType
     }
 
     /** 
-     * Set the 'ReasonDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹
+     * Set the 'ReasonDescription' element value. Описание причины
      * 
      * @param reasonDescription
      */

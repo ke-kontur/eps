@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 import ru.acs.fts.schemas.album.sertifcommonaggregatetypescust.SertifOrgBaseType;
 
 /** 
- * РЎРµСЂС‚РёС„РёРєР°С‚ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ - РґРѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїСЂРѕРґСѓРєС†РёРё РѕРїСЂРµРґРµР»РµРЅРЅС‹Рј С‚СЂРµР±РѕРІР°РЅРёСЏРј РєР°С‡РµСЃС‚РІР° Рё Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё.
+ * Сертификат соответствия - документ, подтверждающий соответствие продукции определенным требованиям качества и безопасности.
  */
 public class ConformanceSertifType extends BaseDocType
 {
@@ -34,7 +34,7 @@ public class ConformanceSertifType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -52,7 +52,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р° (СЃРѕРІРїР°РґР°РµС‚ СЃ РґР°С‚РѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°)
+     * Get the 'BeginDate' element value. Дата начала действия сертификата (совпадает с датой регистрации документа)
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р° (СЃРѕРІРїР°РґР°РµС‚ СЃ РґР°С‚РѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°)
+     * Set the 'BeginDate' element value. Дата начала действия сертификата (совпадает с датой регистрации документа)
      * 
      * @param beginDate
      */
@@ -70,7 +70,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р° (РЅРµРѕР±СЏР·Р°С‚РµР»РµРЅ РїСЂРё СЃРµСЂС‚РёС„РёРєР°С†РёРё РїР°СЂС‚РёРё)
+     * Get the 'EndDate' element value. Дата окончания действия сертификата (необязателен при сертификации партии)
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р° (РЅРµРѕР±СЏР·Р°С‚РµР»РµРЅ РїСЂРё СЃРµСЂС‚РёС„РёРєР°С†РёРё РїР°СЂС‚РёРё)
+     * Set the 'EndDate' element value. Дата окончания действия сертификата (необязателен при сертификации партии)
      * 
      * @param endDate
      */
@@ -88,7 +88,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AddSertifInf' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ СЃРµСЂС‚РёС„РёРєР°С†РёРё (РґРѕРєСѓРјРµРЅС‚С‹, Рѕ СЃС‚Р°Р±РёР»СЊРЅРѕСЃС‚Рё РїСЂРѕРёР·РІРѕРґСЃС‚РІР°, РјР°СЂРєРёСЂРѕРІРєР°, РјРµСЃС‚Рѕ РЅР°РЅРµСЃРµРЅРёСЏ Р·РЅР°РєР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ)
+     * Get the list of 'AddSertifInf' element items. Дополнительные сведения о сертификации (документы, о стабильности производства, маркировка, место нанесения знака соответствия)
      * 
      * @return list
      */
@@ -97,7 +97,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AddSertifInf' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ СЃРµСЂС‚РёС„РёРєР°С†РёРё (РґРѕРєСѓРјРµРЅС‚С‹, Рѕ СЃС‚Р°Р±РёР»СЊРЅРѕСЃС‚Рё РїСЂРѕРёР·РІРѕРґСЃС‚РІР°, РјР°СЂРєРёСЂРѕРІРєР°, РјРµСЃС‚Рѕ РЅР°РЅРµСЃРµРЅРёСЏ Р·РЅР°РєР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ)
+     * Set the list of 'AddSertifInf' element items. Дополнительные сведения о сертификации (документы, о стабильности производства, маркировка, место нанесения знака соответствия)
      * 
      * @param list
      */
@@ -106,7 +106,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ
+     * Get the 'DocumentSignature' element value. Подпись руководителя
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ
+     * Set the 'DocumentSignature' element value. Подпись руководителя
      * 
      * @param documentSignature
      */
@@ -124,7 +124,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertificateSign' element value. РЎРµСЂС‚РёС„РёРєР°С‚ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ: 0 - РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°; 1 - Р РѕСЃСЃС‚Р°РЅРґР°СЂС‚Р°
+     * Get the 'CertificateSign' element value. Сертификат соответствия: 0 - Таможенного союза; 1 - Росстандарта
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertificateSign' element value. РЎРµСЂС‚РёС„РёРєР°С‚ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ: 0 - РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°; 1 - Р РѕСЃСЃС‚Р°РЅРґР°СЂС‚Р°
+     * Set the 'CertificateSign' element value. Сертификат соответствия: 0 - Таможенного союза; 1 - Росстандарта
      * 
      * @param certificateSign
      */
@@ -142,7 +142,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'SertifOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРµ СЃРµСЂС‚РёС„РёРєР°С†РёРё
+     * Get the 'SertifOrganization' element value. Сведения об органе сертификации
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'SertifOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРµ СЃРµСЂС‚РёС„РёРєР°С†РёРё
+     * Set the 'SertifOrganization' element value. Сведения об органе сертификации
      * 
      * @param sertifOrganization
      */
@@ -160,7 +160,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'ManufacturerInf' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РёР·РіРѕС‚РѕРІРёС‚РµР»Рµ/РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРј РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»Рµ.
+     * Get the 'ManufacturerInf' element value. Информация об изготовителе/индивидуальном предпринимателе.
      * 
      * @return value
      */
@@ -169,7 +169,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'ManufacturerInf' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РёР·РіРѕС‚РѕРІРёС‚РµР»Рµ/РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРј РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»Рµ.
+     * Set the 'ManufacturerInf' element value. Информация об изготовителе/индивидуальном предпринимателе.
      * 
      * @param manufacturerInf
      */
@@ -178,7 +178,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'SertifRecipient' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚ / Р—Р°СЏРІРёС‚РµР»СЊ
+     * Get the 'SertifRecipient' element value. Информация о лице, которому выдан сертификат / Заявитель
      * 
      * @return value
      */
@@ -187,7 +187,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'SertifRecipient' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚ / Р—Р°СЏРІРёС‚РµР»СЊ
+     * Set the 'SertifRecipient' element value. Информация о лице, которому выдан сертификат / Заявитель
      * 
      * @param sertifRecipient
      */
@@ -196,7 +196,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GroundDocs' element items. РћРїРёСЃР°РЅРёРµ  РґРѕРєСѓРјРµРЅС‚РѕРІ РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the list of 'GroundDocs' element items. Описание  документов на основании которых выдан сертификат
      * 
      * @return list
      */
@@ -205,7 +205,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GroundDocs' element items. РћРїРёСЃР°РЅРёРµ  РґРѕРєСѓРјРµРЅС‚РѕРІ РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the list of 'GroundDocs' element items. Описание  документов на основании которых выдан сертификат
      * 
      * @param list
      */
@@ -214,7 +214,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
+     * Get the list of 'Goods' element items. Сведения о продукции
      * 
      * @return list
      */
@@ -223,7 +223,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
+     * Set the list of 'Goods' element items. Сведения о продукции
      * 
      * @param list
      */
@@ -232,7 +232,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ExpertSignature' element items. РџРѕРґРїРёСЃСЊ СЌРєСЃРїРµСЂС‚Р°
+     * Get the list of 'ExpertSignature' element items. Подпись эксперта
      * 
      * @return list
      */
@@ -241,7 +241,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ExpertSignature' element items. РџРѕРґРїРёСЃСЊ СЌРєСЃРїРµСЂС‚Р°
+     * Set the list of 'ExpertSignature' element items. Подпись эксперта
      * 
      * @param list
      */
@@ -250,7 +250,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertifNormDoc' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РЅРѕСЂРјР°С‚РёРІРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ, РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РєРѕС‚РѕСЂС‹Рј РїСЂРѕРёР·РІРµРґРµРЅР° СЃРµСЂС‚РёС„РёРєР°С†РёСЏ (Р“РћРЎРўР«, РїСѓРЅРєС‚С‹ Р“РћРЎРўРѕРІ)
+     * Get the 'CertifNormDoc' element value. Обозначение нормативных документов, на соответствие которым произведена сертификация (ГОСТЫ, пункты ГОСТов)
      * 
      * @return value
      */
@@ -259,7 +259,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertifNormDoc' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РЅРѕСЂРјР°С‚РёРІРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ, РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РєРѕС‚РѕСЂС‹Рј РїСЂРѕРёР·РІРµРґРµРЅР° СЃРµСЂС‚РёС„РёРєР°С†РёСЏ (Р“РћРЎРўР«, РїСѓРЅРєС‚С‹ Р“РћРЎРўРѕРІ)
+     * Set the 'CertifNormDoc' element value. Обозначение нормативных документов, на соответствие которым произведена сертификация (ГОСТЫ, пункты ГОСТов)
      * 
      * @param certifNormDoc
      */
@@ -268,7 +268,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ProlongCertificate' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the list of 'ProlongCertificate' element items. Сведения о продлении сертификата
      * 
      * @return list
      */
@@ -277,7 +277,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ProlongCertificate' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the list of 'ProlongCertificate' element items. Сведения о продлении сертификата
      * 
      * @param list
      */
@@ -286,7 +286,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'FederalDocs' element value. РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚РѕРІ С„РµРґРµСЂР°Р»СЊРЅС‹С…  РѕСЂРіР°РЅРѕРІ, СѓСЃС‚Р°РЅР°РІР»РёРІР°СЋС‰РёС…  С‚СЂРµР±РѕРІР°РЅРёСЏ РґР»СЏ РІРѕРµРЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
+     * Get the 'FederalDocs' element value. Описание документов федеральных  органов, устанавливающих  требования для военной продукции
      * 
      * @return value
      */
@@ -295,7 +295,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'FederalDocs' element value. РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚РѕРІ С„РµРґРµСЂР°Р»СЊРЅС‹С…  РѕСЂРіР°РЅРѕРІ, СѓСЃС‚Р°РЅР°РІР»РёРІР°СЋС‰РёС…  С‚СЂРµР±РѕРІР°РЅРёСЏ РґР»СЏ РІРѕРµРЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
+     * Set the 'FederalDocs' element value. Описание документов федеральных  органов, устанавливающих  требования для военной продукции
      * 
      * @param federalDocs
      */
@@ -304,7 +304,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Append' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР»РѕР¶РµРЅРёСЏС…
+     * Get the list of 'Append' element items. Сведения о приложениях
      * 
      * @return list
      */
@@ -313,7 +313,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Append' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР»РѕР¶РµРЅРёСЏС…
+     * Set the list of 'Append' element items. Сведения о приложениях
      * 
      * @param list
      */
@@ -322,7 +322,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -331,7 +331,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @param registrationNumber
      */
@@ -340,7 +340,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'FormNumber' element value. Номер бланка сертификата
      * 
      * @return value
      */
@@ -349,7 +349,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'FormNumber' element value. Номер бланка сертификата
      * 
      * @param formNumber
      */
@@ -358,7 +358,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -367,7 +367,7 @@ public class ConformanceSertifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

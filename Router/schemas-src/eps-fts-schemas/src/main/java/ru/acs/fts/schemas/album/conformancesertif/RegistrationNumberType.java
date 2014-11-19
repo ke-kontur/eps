@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.conformancesertif;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+ * Регистрационный номер
  */
 public class RegistrationNumberType
 {
@@ -10,7 +10,7 @@ public class RegistrationNumberType
     private String customsCountryCode;
 
     /** 
-     * Get the 'SertifNumber' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'SertifNumber' element value. Номер сертификата
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'SertifNumber' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'SertifNumber' element value. Номер сертификата
      * 
      * @param sertifNumber
      */
@@ -28,7 +28,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'CustomsCountryCode' element value. РљРѕРґ РіРѕСЃСѓРґР°СЂСЃС‚РІР° С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. 
+     * Get the 'CustomsCountryCode' element value. Код государства члена Таможенного союза. 
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'CustomsCountryCode' element value. РљРѕРґ РіРѕСЃСѓРґР°СЂСЃС‚РІР° С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. 
+     * Set the 'CustomsCountryCode' element value. Код государства члена Таможенного союза. 
      * 
      * @param customsCountryCode
      */

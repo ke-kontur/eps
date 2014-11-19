@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.bartertransactionpasport;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ СЂРѕСЃСЃРёР№СЃРєРѕР№ СЃС‚РѕСЂРѕРЅС‹ РєРѕРЅС‚СЂР°РєС‚Р°
+ * Реквизиты российской стороны контракта
  */
 public class RussianCompanyType
 {
@@ -14,7 +14,7 @@ public class RussianCompanyType
     private AddressType postalAddress;
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'Name' element value. Наименование российского лица
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class RussianCompanyType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'Name' element value. Наименование российского лица
      * 
      * @param name
      */
@@ -32,7 +32,7 @@ public class RussianCompanyType
     }
 
     /** 
-     * Get the 'OKPOID' element value. РљРѕРґ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ Р»РёС†Р°  РїРѕ РћРљРџРћ
+     * Get the 'OKPOID' element value. Код российского лица  по ОКПО
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class RussianCompanyType
     }
 
     /** 
-     * Set the 'OKPOID' element value. РљРѕРґ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ Р»РёС†Р°  РїРѕ РћРљРџРћ
+     * Set the 'OKPOID' element value. Код российского лица  по ОКПО
      * 
      * @param OKPOID
      */
@@ -50,7 +50,7 @@ public class RussianCompanyType
     }
 
     /** 
-     * Get the 'INNID' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР° 
+     * Get the 'INNID' element value. Индивидуальный номер налогоплательщика 
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class RussianCompanyType
     }
 
     /** 
-     * Set the 'INNID' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР° 
+     * Set the 'INNID' element value. Индивидуальный номер налогоплательщика 
      * 
      * @param INNID
      */
@@ -68,7 +68,7 @@ public class RussianCompanyType
     }
 
     /** 
-     * Get the 'PostalAddress' element value. РџРѕР»РЅС‹Р№ СЋСЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ Р»РёС†Р°, РїРѕРґРїРёСЃР°РІС€РµРіРѕ РџР°СЃРїРѕСЂС‚
+     * Get the 'PostalAddress' element value. Полный юридический адрес российского лица, подписавшего Паспорт
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class RussianCompanyType
     }
 
     /** 
-     * Set the 'PostalAddress' element value. РџРѕР»РЅС‹Р№ СЋСЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ СЂРѕСЃСЃРёР№СЃРєРѕРіРѕ Р»РёС†Р°, РїРѕРґРїРёСЃР°РІС€РµРіРѕ РџР°СЃРїРѕСЂС‚
+     * Set the 'PostalAddress' element value. Полный юридический адрес российского лица, подписавшего Паспорт
      * 
      * @param postalAddress
      */

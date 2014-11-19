@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.realestateresponse;
 
 /** 
- * РћСЂРіР°РЅ - РёСЃС‚РѕС‡РЅРёРє РёРЅС„РѕСЂРјР°С†РёРё
+ * Орган - источник информации
  */
 public class ResourceOrgType
 {
@@ -10,7 +10,7 @@ public class ResourceOrgType
     private String region;
 
     /** 
-     * Get the 'OrgCode' element value. РљРѕРґ РѕСЂРіР°РЅР° - РёСЃС‚РѕС‡РЅРёРєР° РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'OrgCode' element value. Код органа - источника информации
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ResourceOrgType
     }
 
     /** 
-     * Set the 'OrgCode' element value. РљРѕРґ РѕСЂРіР°РЅР° - РёСЃС‚РѕС‡РЅРёРєР° РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'OrgCode' element value. Код органа - источника информации
      * 
      * @param orgCode
      */
@@ -28,7 +28,7 @@ public class ResourceOrgType
     }
 
     /** 
-     * Get the 'Region' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° - РёСЃС‚РѕС‡РЅРёРєР° РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'Region' element value. Наименование органа - источника информации
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ResourceOrgType
     }
 
     /** 
-     * Set the 'Region' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° - РёСЃС‚РѕС‡РЅРёРєР° РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'Region' element value. Наименование органа - источника информации
      * 
      * @param region
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.inotreatmentinventory;
 import org.joda.time.LocalDate;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚ РёР· РѕРїРёСЃРё
+ * Документ из описи
  */
 public class InventDocumentType
 {
@@ -18,7 +18,7 @@ public class InventDocumentType
     private LocalDate docDate;
 
     /** 
-     * Get the 'InvDocCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44)
+     * Get the 'InvDocCode' element value. Код вида представляемого документа (заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44)
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InvDocCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44)
+     * Set the 'InvDocCode' element value. Код вида представляемого документа (заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44)
      * 
      * @param invDocCode
      */
@@ -36,7 +36,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'InvDocName' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'InvDocName' element value. Вид документа
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InvDocName' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'InvDocName' element value. Вид документа
      * 
      * @param invDocName
      */
@@ -54,7 +54,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'InvDocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°. РџСЂРё РѕС‚СЃСѓС‚СЃС‚РІРёРё РЅРѕРјРµСЂР° Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ "Р‘/Рќ"
+     * Get the 'InvDocNumber' element value. Номер документа. При отсутствии номера заполняется "Б/Н"
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InvDocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°. РџСЂРё РѕС‚СЃСѓС‚СЃС‚РІРёРё РЅРѕРјРµСЂР° Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ "Р‘/Рќ"
+     * Set the 'InvDocNumber' element value. Номер документа. При отсутствии номера заполняется "Б/Н"
      * 
      * @param invDocNumber
      */
@@ -72,7 +72,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'InvDocPresentation' element value. Р’РёРґ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°: "Рћ" - РѕСЂРёРіРёРЅР°Р», "Рљ" - РєРѕРїРёСЏ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРѕРїРёСЃРЅС‹РјРё Р±СѓРєРІР°РјРё РєРёСЂРёР»Р»РёС†С‹)
+     * Get the 'InvDocPresentation' element value. Вид представления документа: "О" - оригинал, "К" - копия (заполняется прописными буквами кириллицы)
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InvDocPresentation' element value. Р’РёРґ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°: "Рћ" - РѕСЂРёРіРёРЅР°Р», "Рљ" - РєРѕРїРёСЏ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРѕРїРёСЃРЅС‹РјРё Р±СѓРєРІР°РјРё РєРёСЂРёР»Р»РёС†С‹)
+     * Set the 'InvDocPresentation' element value. Вид представления документа: "О" - оригинал, "К" - копия (заполняется прописными буквами кириллицы)
      * 
      * @param invDocPresentation
      */
@@ -90,7 +90,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'InvDocLists' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the 'InvDocLists' element value. Количество листов в документе
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InvDocLists' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the 'InvDocLists' element value. Количество листов в документе
      * 
      * @param invDocLists
      */
@@ -108,7 +108,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'InvDocCopies' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЌРєР·РµРјРїР»СЏСЂРѕРІ
+     * Get the 'InvDocCopies' element value. Количество экземпляров
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'InvDocCopies' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЌРєР·РµРјРїР»СЏСЂРѕРІ
+     * Set the 'InvDocCopies' element value. Количество экземпляров
      * 
      * @param invDocCopies
      */
@@ -126,7 +126,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'Note' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the 'Note' element value. Примечание
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'Note' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the 'Note' element value. Примечание
      * 
      * @param note
      */
@@ -144,7 +144,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Get the 'DocDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocDate' element value. Дата документа
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class InventDocumentType
     }
 
     /** 
-     * Set the 'DocDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocDate' element value. Дата документа
      * 
      * @param docDate
      */

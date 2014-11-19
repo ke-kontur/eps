@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.passport;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С„РёР·. Р»РёС†Рµ
+ * Сведения о физ. лице
  */
 public class PersonInfoType
 {
@@ -16,7 +16,7 @@ public class PersonInfoType
     private String birthplace;
 
     /** 
-     * Get the 'PersonSurname' element value. Р¤Р°РјРёР»РёСЏ
+     * Get the 'PersonSurname' element value. Фамилия
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'PersonSurname' element value. Р¤Р°РјРёР»РёСЏ
+     * Set the 'PersonSurname' element value. Фамилия
      * 
      * @param personSurname
      */
@@ -34,7 +34,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Get the 'PersonName' element value. РРјСЏ. 
+     * Get the 'PersonName' element value. Имя. 
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'PersonName' element value. РРјСЏ. 
+     * Set the 'PersonName' element value. Имя. 
      * 
      * @param personName
      */
@@ -52,7 +52,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Get the 'PersonMiddleName' element value. РћС‚С‡РµСЃС‚РІРѕ
+     * Get the 'PersonMiddleName' element value. Отчество
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'PersonMiddleName' element value. РћС‚С‡РµСЃС‚РІРѕ
+     * Set the 'PersonMiddleName' element value. Отчество
      * 
      * @param personMiddleName
      */
@@ -70,7 +70,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Get the 'Sex' element value. РџРѕР»: 1 - Р¶РµРЅСЃРєРёР№; 0 - РјСѓР¶СЃРєРѕР№
+     * Get the 'Sex' element value. Пол: 1 - женский; 0 - мужской
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'Sex' element value. РџРѕР»: 1 - Р¶РµРЅСЃРєРёР№; 0 - РјСѓР¶СЃРєРѕР№
+     * Set the 'Sex' element value. Пол: 1 - женский; 0 - мужской
      * 
      * @param sex
      */
@@ -88,7 +88,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Get the 'Birthday' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ.
+     * Get the 'Birthday' element value. Дата рождения.
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'Birthday' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ.
+     * Set the 'Birthday' element value. Дата рождения.
      * 
      * @param birthday
      */
@@ -106,7 +106,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Get the 'Birthplace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
+     * Get the 'Birthplace' element value. Место рождения
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'Birthplace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
+     * Set the 'Birthplace' element value. Место рождения
      * 
      * @param birthplace
      */

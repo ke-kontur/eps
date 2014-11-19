@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.veterinarycertificate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ РїСЂРѕРґСѓРєС†РёРё
+ * Производитель продукции
  */
 public class ManufacturerType extends OrganizationType
 {
     private String ownersManufacturer;
 
     /** 
-     * Get the 'OwnersManufacturer' element value. Р¤.Р.Рћ. РІР»Р°РґРµР»СЊС†Р° РїСЂРµРґРїСЂРёСЏС‚РёСЏ РІС‹СЂР°Р±РѕС‚РєРё
+     * Get the 'OwnersManufacturer' element value. Ф.И.О. владельца предприятия выработки
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ManufacturerType extends OrganizationType
     }
 
     /** 
-     * Set the 'OwnersManufacturer' element value. Р¤.Р.Рћ. РІР»Р°РґРµР»СЊС†Р° РїСЂРµРґРїСЂРёСЏС‚РёСЏ РІС‹СЂР°Р±РѕС‚РєРё
+     * Set the 'OwnersManufacturer' element value. Ф.И.О. владельца предприятия выработки
      * 
      * @param ownersManufacturer
      */

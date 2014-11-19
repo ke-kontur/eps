@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.commissioninspection;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * CРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… (РїРµСЂРµРІРѕР·РѕС‡РЅС‹С…) РґРѕРєСѓРјРµРЅС‚Р°С…, РєРѕРјРјРµСЂС‡РµСЃРєРёС… РґРѕРєСѓРјРµРЅС‚Р°С…, РєРЅРёР¶РєРµ РјРµР¶РґСѓРЅР°СЂРѕРґРЅРѕР№ РґРѕСЂРѕР¶РЅРѕР№ РїРµСЂРµРІРѕР·РєРё (РњР”Рџ), С‚Р°РјРѕР¶РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Cведения о транспортных (перевозочных) документах, коммерческих документах, книжке международной дорожной перевозки (МДП), таможенных документах
  */
 public class DocumentType extends DocumentBaseType
 {
     private String presentedDocumentModeCode;
 
     /** 
-     * Get the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ,
+     * Get the 'PresentedDocumentModeCode' element value. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов,
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ,
+     * Set the 'PresentedDocumentModeCode' element value. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов,
      * 
      * @param presentedDocumentModeCode
      */

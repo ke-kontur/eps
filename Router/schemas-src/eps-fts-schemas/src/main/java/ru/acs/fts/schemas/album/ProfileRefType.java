@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РўРёРї, РѕРїРёСЃС‹РІР°СЋС‰РёР№ СЃСЃС‹Р»РєСѓ РЅР° РџР /Р¦РџР , РєРѕС‚РѕСЂС‹Рµ СЃСЂР°Р±РѕС‚Р°Р»Рё РЅР° РґРѕРєСѓРјРµРЅС‚Рµ
+ * Тип, описывающий ссылку на ПР/ЦПР, которые сработали на документе
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -41,7 +41,7 @@ public class ProfileRefType
     }
 
     /** 
-     * Get the 'URI' attribute value. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РЅР° #ID
+     * Get the 'URI' attribute value. Указывается на #ID
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class ProfileRefType
     }
 
     /** 
-     * Set the 'URI' attribute value. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РЅР° #ID
+     * Set the 'URI' attribute value. Указывается на #ID
      * 
      * @param URI
      */

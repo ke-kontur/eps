@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РџР°СЂР°РіСЂР°С„ С‚РµРєСЃС‚Р°
+ * Параграф текста
  */
 public class TextParagrType
 {
@@ -13,7 +13,7 @@ public class TextParagrType
     private TextStyleType style;
 
     /** 
-     * Get the list of 'TextPara' element items. РџР°СЂР°РіСЂР°С„ С‚РµРєСЃС‚Р°
+     * Get the list of 'TextPara' element items. Параграф текста
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class TextParagrType
     }
 
     /** 
-     * Set the list of 'TextPara' element items. РџР°СЂР°РіСЂР°С„ С‚РµРєСЃС‚Р°
+     * Set the list of 'TextPara' element items. Параграф текста
      * 
      * @param list
      */

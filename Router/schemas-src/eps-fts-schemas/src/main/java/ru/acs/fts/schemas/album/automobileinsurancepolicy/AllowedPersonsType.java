@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.automobileinsurancepolicy;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Р°С… РґРѕРїСѓС‰РµРЅРЅС‹С… Рє СѓРїСЂР°РІР»РµРЅРёСЋ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+ * Сведения о лицах допущенных к управлению транспортного средства
  */
 public class AllowedPersonsType
 {
@@ -13,7 +13,7 @@ public class AllowedPersonsType
     private String restrictionIndicator;
 
     /** 
-     * Get the 'PersNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р»РёС†Р°
+     * Get the 'PersNumeric' element value. Порядковый номер лица
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AllowedPersonsType
     }
 
     /** 
-     * Set the 'PersNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р»РёС†Р°
+     * Set the 'PersNumeric' element value. Порядковый номер лица
      * 
      * @param persNumeric
      */
@@ -31,7 +31,7 @@ public class AllowedPersonsType
     }
 
     /** 
-     * Get the 'Name' element value. Р¤РРћ Р»РёС†Р°, РґРѕРїСѓС‰РµРЅРЅРѕРіРѕ Рє СѓРїСЂР°РІР»РµРЅРёСЋ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рј СЃСЂРµРґСЃС‚РІРѕРј
+     * Get the 'Name' element value. ФИО лица, допущенного к управлению транспортным средством
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class AllowedPersonsType
     }
 
     /** 
-     * Set the 'Name' element value. Р¤РРћ Р»РёС†Р°, РґРѕРїСѓС‰РµРЅРЅРѕРіРѕ Рє СѓРїСЂР°РІР»РµРЅРёСЋ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рј СЃСЂРµРґСЃС‚РІРѕРј
+     * Set the 'Name' element value. ФИО лица, допущенного к управлению транспортным средством
      * 
      * @param name
      */
@@ -49,7 +49,7 @@ public class AllowedPersonsType
     }
 
     /** 
-     * Get the 'DrivingLicenceSeriesCode' element value. РЎРµСЂРёСЏ РІРѕРґРёС‚РµР»СЊСЃРєРѕРіРѕ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ
+     * Get the 'DrivingLicenceSeriesCode' element value. Серия водительского удостоверения
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class AllowedPersonsType
     }
 
     /** 
-     * Set the 'DrivingLicenceSeriesCode' element value. РЎРµСЂРёСЏ РІРѕРґРёС‚РµР»СЊСЃРєРѕРіРѕ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ
+     * Set the 'DrivingLicenceSeriesCode' element value. Серия водительского удостоверения
      * 
      * @param drivingLicenceSeriesCode
      */
@@ -67,7 +67,7 @@ public class AllowedPersonsType
     }
 
     /** 
-     * Get the 'DrivingLicenceNumeric' element value. РќРѕРјРµСЂ РІРѕРґРёС‚РµР»СЊСЃРєРѕРіРѕ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ
+     * Get the 'DrivingLicenceNumeric' element value. Номер водительского удостоверения
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class AllowedPersonsType
     }
 
     /** 
-     * Set the 'DrivingLicenceNumeric' element value. РќРѕРјРµСЂ РІРѕРґРёС‚РµР»СЊСЃРєРѕРіРѕ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ
+     * Set the 'DrivingLicenceNumeric' element value. Номер водительского удостоверения
      * 
      * @param drivingLicenceNumeric
      */
@@ -85,7 +85,7 @@ public class AllowedPersonsType
     }
 
     /** 
-     * Get the 'RestrictionIndicator' element value. Р РµР·РµСЂРІ.  РРЅРґРёРєР°С‚РѕСЂ РѕРіСЂР°РЅРёС‡РµРЅРёР№ (РґР° /РЅРµС‚)
+     * Get the 'RestrictionIndicator' element value. Резерв.  Индикатор ограничений (да /нет)
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class AllowedPersonsType
     }
 
     /** 
-     * Set the 'RestrictionIndicator' element value. Р РµР·РµСЂРІ.  РРЅРґРёРєР°С‚РѕСЂ РѕРіСЂР°РЅРёС‡РµРЅРёР№ (РґР° /РЅРµС‚)
+     * Set the 'RestrictionIndicator' element value. Резерв.  Индикатор ограничений (да /нет)
      * 
      * @param restrictionIndicator
      */

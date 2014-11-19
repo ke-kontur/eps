@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РґР°РЅРЅС‹С… РѕР± Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёРё РґРѕРєСѓРјРµРЅС‚Р°
+ * Комплексный тип для данных об аннулировании документа
  */
 public class WHDocumentCancelationType
 {
@@ -13,7 +13,7 @@ public class WHDocumentCancelationType
     private WHCustomInspectorType inspector;
 
     /** 
-     * Get the 'CancelDate' element value. Р”Р°С‚Р° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ
+     * Get the 'CancelDate' element value. Дата аннулирования
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class WHDocumentCancelationType
     }
 
     /** 
-     * Set the 'CancelDate' element value. Р”Р°С‚Р° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ
+     * Set the 'CancelDate' element value. Дата аннулирования
      * 
      * @param cancelDate
      */
@@ -31,7 +31,7 @@ public class WHDocumentCancelationType
     }
 
     /** 
-     * Get the 'CancelReason' element value. РџСЂРёС‡РёРЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ
+     * Get the 'CancelReason' element value. Причина аннулирования
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class WHDocumentCancelationType
     }
 
     /** 
-     * Set the 'CancelReason' element value. РџСЂРёС‡РёРЅР° Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРёСЏ
+     * Set the 'CancelReason' element value. Причина аннулирования
      * 
      * @param cancelReason
      */
@@ -49,7 +49,7 @@ public class WHDocumentCancelationType
     }
 
     /** 
-     * Get the 'Inspector' element value. РЎРѕС‚СЂСѓРґРЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р°РЅРЅСѓР»РёСЂРѕРІР°РІС€РёР№ РѕС‚С‡РµС‚
+     * Get the 'Inspector' element value. Сотрудник таможенного органа, аннулировавший отчет
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class WHDocumentCancelationType
     }
 
     /** 
-     * Set the 'Inspector' element value. РЎРѕС‚СЂСѓРґРЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р°РЅРЅСѓР»РёСЂРѕРІР°РІС€РёР№ РѕС‚С‡РµС‚
+     * Set the 'Inspector' element value. Сотрудник таможенного органа, аннулировавший отчет
      * 
      * @param inspector
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± СЌРєРёРїР°Р¶Рµ
+ * Сведения об экипаже
  */
 public class CrewInfoType
 {
@@ -14,7 +14,7 @@ public class CrewInfoType
     private List<CrewMemberInfoType> crewMemberInfoList = new ArrayList<CrewMemberInfoType>();
 
     /** 
-     * Get the 'RFMembersCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЂРѕСЃСЃРёР№СЃРєРёС… С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
+     * Get the 'RFMembersCount' element value. Количество российских членов экипажа
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class CrewInfoType
     }
 
     /** 
-     * Set the 'RFMembersCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЂРѕСЃСЃРёР№СЃРєРёС… С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
+     * Set the 'RFMembersCount' element value. Количество российских членов экипажа
      * 
      * @param RFMembersCount
      */
@@ -32,7 +32,7 @@ public class CrewInfoType
     }
 
     /** 
-     * Get the 'ForeignMembersCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
+     * Get the 'ForeignMembersCount' element value. Количество иностранных членов экипажа
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CrewInfoType
     }
 
     /** 
-     * Set the 'ForeignMembersCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
+     * Set the 'ForeignMembersCount' element value. Количество иностранных членов экипажа
      * 
      * @param foreignMembersCount
      */
@@ -50,7 +50,7 @@ public class CrewInfoType
     }
 
     /** 
-     * Get the list of 'CrewMemberInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‡Р»РµРЅРµ СЌРєРёРїР°Р¶Р°
+     * Get the list of 'CrewMemberInfo' element items. Сведения о члене экипажа
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class CrewInfoType
     }
 
     /** 
-     * Set the list of 'CrewMemberInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‡Р»РµРЅРµ СЌРєРёРїР°Р¶Р°
+     * Set the list of 'CrewMemberInfo' element items. Сведения о члене экипажа
      * 
      * @param list
      */

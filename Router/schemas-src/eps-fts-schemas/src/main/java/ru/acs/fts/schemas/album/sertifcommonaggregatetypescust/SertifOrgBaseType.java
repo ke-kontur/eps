@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Р‘Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ  РґР»СЏ СѓРєР°Р·Р°РЅРёСЏ РѕСЂРіР°РЅРёР·Р°С†РёРё РІ СЃРµСЂС‚РёС„РёРєР°С‚Рµ
+ * Базовый класс  для указания организации в сертификате
  */
 public class SertifOrgBaseType extends OrganizationBaseType
 {
@@ -16,7 +16,7 @@ public class SertifOrgBaseType extends OrganizationBaseType
     private AddressType factAddress;
 
     /** 
-     * Get the 'Phone' element value. РўРµР»РµС„РѕРЅ
+     * Get the 'Phone' element value. Телефон
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class SertifOrgBaseType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Phone' element value. РўРµР»РµС„РѕРЅ
+     * Set the 'Phone' element value. Телефон
      * 
      * @param phone
      */
@@ -34,7 +34,7 @@ public class SertifOrgBaseType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Fax' element value. РўРµР»РµС„РѕРЅ/С„Р°РєСЃ
+     * Get the 'Fax' element value. Телефон/факс
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class SertifOrgBaseType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Fax' element value. РўРµР»РµС„РѕРЅ/С„Р°РєСЃ
+     * Set the 'Fax' element value. Телефон/факс
      * 
      * @param fax
      */
@@ -52,7 +52,7 @@ public class SertifOrgBaseType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Email' element value. Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ РїРѕС‡С‚Р°
+     * Get the 'Email' element value. Электронная почта
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class SertifOrgBaseType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Email' element value. Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ РїРѕС‡С‚Р°
+     * Set the 'Email' element value. Электронная почта
      * 
      * @param email
      */
@@ -70,7 +70,7 @@ public class SertifOrgBaseType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ.
+     * Get the 'LegalAddress' element value. Юридический адрес.
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class SertifOrgBaseType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ.
+     * Set the 'LegalAddress' element value. Юридический адрес.
      * 
      * @param legalAddress
      */
@@ -88,7 +88,7 @@ public class SertifOrgBaseType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'FactAddress' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
+     * Get the 'FactAddress' element value. Фактический адрес
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class SertifOrgBaseType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'FactAddress' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
+     * Set the 'FactAddress' element value. Фактический адрес
      * 
      * @param factAddress
      */

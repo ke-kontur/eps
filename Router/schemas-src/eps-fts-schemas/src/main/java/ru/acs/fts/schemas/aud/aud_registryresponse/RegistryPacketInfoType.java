@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDPacketInfoType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ  Рѕ РїР°РєРµС‚Рµ, РїРѕРјРµС‰РµРЅРЅРѕРј  РІ  Р°СЂС…РёРІ
+ * Сведения  о пакете, помещенном  в  архив
  */
 public class RegistryPacketInfoType extends AUDPacketInfoType
 {
     private List<RegistryRowType> registryRowList = new ArrayList<RegistryRowType>();
 
     /** 
-     * Get the list of 'RegistryRow' element items. РРЅС„РѕСЂРјР°С†РёСЏ  Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Get the list of 'RegistryRow' element items. Информация  о документах
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class RegistryPacketInfoType extends AUDPacketInfoType
     }
 
     /** 
-     * Set the list of 'RegistryRow' element items. РРЅС„РѕСЂРјР°С†РёСЏ  Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Set the list of 'RegistryRow' element items. Информация  о документах
      * 
      * @param list
      */

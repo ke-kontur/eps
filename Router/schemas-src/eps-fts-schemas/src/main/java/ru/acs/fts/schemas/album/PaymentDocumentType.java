@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+ * Платежный документ
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -30,7 +30,7 @@ public class PaymentDocumentType extends DocumentBaseType
     private String currencyCode;
 
     /** 
-     * Get the 'Amount' element value. РЎСѓРјРјР° РїРѕРґР»РµР¶Р°С‰РёС… Рє СѓРїР»Р°С‚Рµ РїР»Р°С‚РµР¶РµР№
+     * Get the 'Amount' element value. Сумма подлежащих к уплате платежей
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Amount' element value. РЎСѓРјРјР° РїРѕРґР»РµР¶Р°С‰РёС… Рє СѓРїР»Р°С‚Рµ РїР»Р°С‚РµР¶РµР№
+     * Set the 'Amount' element value. Сумма подлежащих к уплате платежей
      * 
      * @param amount
      */
@@ -48,7 +48,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'TotalAmount' element value. РСЃС…РѕРґРЅР°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'TotalAmount' element value. Исходная сумма платежного документа
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'TotalAmount' element value. РСЃС…РѕРґРЅР°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'TotalAmount' element value. Исходная сумма платежного документа
      * 
      * @param totalAmount
      */
@@ -66,7 +66,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PaymentMethodCode' element value. РЎРїРѕСЃРѕР± РїР»Р°С‚РµР¶Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Get the 'PaymentMethodCode' element value. Способ платежа в соответствии с классификатором способов и особенностей уплаты таможенных и иных платежей
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PaymentMethodCode' element value. РЎРїРѕСЃРѕР± РїР»Р°С‚РµР¶Р° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Set the 'PaymentMethodCode' element value. Способ платежа в соответствии с классификатором способов и особенностей уплаты таможенных и иных платежей
      * 
      * @param paymentMethodCode
      */
@@ -84,7 +84,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ  РІР°Р»СЋС‚С‹
+     * Get the 'CurrencyCode' element value. Код  валюты
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class PaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ  РІР°Р»СЋС‚С‹
+     * Set the 'CurrencyCode' element value. Код  валюты
      * 
      * @param currencyCode
      */

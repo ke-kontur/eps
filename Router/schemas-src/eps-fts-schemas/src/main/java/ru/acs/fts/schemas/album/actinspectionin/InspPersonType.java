@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.ATDCustomPersonType;
 
 /** 
- * РџСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РёРµ Р»РёС†Р°
+ * Присутствующие лица
  */
 public class InspPersonType
 {
@@ -15,7 +15,7 @@ public class InspPersonType
     private List<InspectionParticipantType> inspectionParticipantList = new ArrayList<InspectionParticipantType>();
 
     /** 
-     * Get the 'PersonFlag' element value. РџСЂРёР·РЅР°Рє РїСЂРёСЃСѓС‚СЃС‚РІРёСЏ Р·Р°РёРЅС‚РµСЂРµСЃРѕРІР°РЅРЅС‹С… Р»РёС† РїСЂРё РїСЂРѕРІРµРґРµРЅРёРё РґРѕСЃРјРѕС‚СЂР°
+     * Get the 'PersonFlag' element value. Признак присутствия заинтересованных лиц при проведении досмотра
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class InspPersonType
     }
 
     /** 
-     * Set the 'PersonFlag' element value. РџСЂРёР·РЅР°Рє РїСЂРёСЃСѓС‚СЃС‚РІРёСЏ Р·Р°РёРЅС‚РµСЂРµСЃРѕРІР°РЅРЅС‹С… Р»РёС† РїСЂРё РїСЂРѕРІРµРґРµРЅРёРё РґРѕСЃРјРѕС‚СЂР°
+     * Set the 'PersonFlag' element value. Признак присутствия заинтересованных лиц при проведении досмотра
      * 
      * @param personFlag
      */
@@ -33,7 +33,7 @@ public class InspPersonType
     }
 
     /** 
-     * Get the list of 'ATDCustomPerson' element items. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ  РўРћ, РїСЂРёСЃСѓС‚СЃС‚РІРѕРІР°РІС€РµРµ РїСЂРё РґРѕСЃРјРѕС‚СЂРµ
+     * Get the list of 'ATDCustomPerson' element items. Должностное лицо  ТО, присутствовавшее при досмотре
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class InspPersonType
     }
 
     /** 
-     * Set the list of 'ATDCustomPerson' element items. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ  РўРћ, РїСЂРёСЃСѓС‚СЃС‚РІРѕРІР°РІС€РµРµ РїСЂРё РґРѕСЃРјРѕС‚СЂРµ
+     * Set the list of 'ATDCustomPerson' element items. Должностное лицо  ТО, присутствовавшее при досмотре
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class InspPersonType
     }
 
     /** 
-     * Get the list of 'InspectionParticipant' element items. Р›РёС†Рѕ, РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РµРµ РїСЂРё РґРѕСЃРјРѕС‚СЂРµ (РѕСЃРјРѕС‚СЂРµ)
+     * Get the list of 'InspectionParticipant' element items. Лицо, присутствующее при досмотре (осмотре)
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class InspPersonType
     }
 
     /** 
-     * Set the list of 'InspectionParticipant' element items. Р›РёС†Рѕ, РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РµРµ РїСЂРё РґРѕСЃРјРѕС‚СЂРµ (РѕСЃРјРѕС‚СЂРµ)
+     * Set the list of 'InspectionParticipant' element items. Лицо, присутствующее при досмотре (осмотре)
      * 
      * @param list
      */

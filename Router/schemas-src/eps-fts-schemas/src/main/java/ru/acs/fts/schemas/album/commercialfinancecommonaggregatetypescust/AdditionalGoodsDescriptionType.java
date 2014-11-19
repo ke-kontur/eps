@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 
 /** 
- * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂРѕРІ
+ * Дополнительные характеристики товаров
  */
 public class AdditionalGoodsDescriptionType
 {
@@ -13,7 +13,7 @@ public class AdditionalGoodsDescriptionType
     private String goodsStandart;
 
     /** 
-     * Get the 'Manufacturer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рµ
+     * Get the 'Manufacturer' element value. Сведения о производителе
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AdditionalGoodsDescriptionType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рµ
+     * Set the 'Manufacturer' element value. Сведения о производителе
      * 
      * @param manufacturer
      */
@@ -31,7 +31,7 @@ public class AdditionalGoodsDescriptionType
     }
 
     /** 
-     * Get the 'TradeMark' element value. РўРѕРІ. Р·РЅР°Рє, РјРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, РѕР±СЉРµРєС‚ Р°РІС‚РѕСЂСЃРєРѕРіРѕ РїСЂР°РІР°, СЃРјРµР¶РЅС‹С… РїСЂР°РІ, РїР°С‚РµРЅС‚ Рё С‚.Рґ.
+     * Get the 'TradeMark' element value. Тов. знак, место происхождения, объект авторского права, смежных прав, патент и т.д.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class AdditionalGoodsDescriptionType
     }
 
     /** 
-     * Set the 'TradeMark' element value. РўРѕРІ. Р·РЅР°Рє, РјРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, РѕР±СЉРµРєС‚ Р°РІС‚РѕСЂСЃРєРѕРіРѕ РїСЂР°РІР°, СЃРјРµР¶РЅС‹С… РїСЂР°РІ, РїР°С‚РµРЅС‚ Рё С‚.Рґ.
+     * Set the 'TradeMark' element value. Тов. знак, место происхождения, объект авторского права, смежных прав, патент и т.д.
      * 
      * @param tradeMark
      */
@@ -49,7 +49,7 @@ public class AdditionalGoodsDescriptionType
     }
 
     /** 
-     * Get the 'GoodsMark' element value. РњР°СЂРєР° С‚РѕРІР°СЂР°
+     * Get the 'GoodsMark' element value. Марка товара
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class AdditionalGoodsDescriptionType
     }
 
     /** 
-     * Set the 'GoodsMark' element value. РњР°СЂРєР° С‚РѕРІР°СЂР°
+     * Set the 'GoodsMark' element value. Марка товара
      * 
      * @param goodsMark
      */
@@ -67,7 +67,7 @@ public class AdditionalGoodsDescriptionType
     }
 
     /** 
-     * Get the 'GoodsModel' element value. РњРѕРґРµР»СЊ С‚РѕРІР°СЂР°
+     * Get the 'GoodsModel' element value. Модель товара
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class AdditionalGoodsDescriptionType
     }
 
     /** 
-     * Set the 'GoodsModel' element value. РњРѕРґРµР»СЊ С‚РѕРІР°СЂР°
+     * Set the 'GoodsModel' element value. Модель товара
      * 
      * @param goodsModel
      */
@@ -85,7 +85,7 @@ public class AdditionalGoodsDescriptionType
     }
 
     /** 
-     * Get the 'GoodsStandart' element value. РЎС‚Р°РЅРґР°СЂС‚ (Р“РћРЎРў, РћРЎРў, РЎРџРџ, РЎРўРћ, РўРЈ)
+     * Get the 'GoodsStandart' element value. Стандарт (ГОСТ, ОСТ, СПП, СТО, ТУ)
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class AdditionalGoodsDescriptionType
     }
 
     /** 
-     * Set the 'GoodsStandart' element value. РЎС‚Р°РЅРґР°СЂС‚ (Р“РћРЎРў, РћРЎРў, РЎРџРџ, РЎРўРћ, РўРЈ)
+     * Set the 'GoodsStandart' element value. Стандарт (ГОСТ, ОСТ, СПП, СТО, ТУ)
      * 
      * @param goodsStandart
      */

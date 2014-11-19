@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+ * Реквизиты направления
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -28,7 +28,7 @@ public class IDKDirecrionDetailsType
     private String messageNumber;
 
     /** 
-     * Get the 'ArrivalDate' element value. Р”Р°С‚Р° РїСЂРёР±С‹С‚РёСЏ
+     * Get the 'ArrivalDate' element value. Дата прибытия
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class IDKDirecrionDetailsType
     }
 
     /** 
-     * Set the 'ArrivalDate' element value. Р”Р°С‚Р° РїСЂРёР±С‹С‚РёСЏ
+     * Set the 'ArrivalDate' element value. Дата прибытия
      * 
      * @param arrivalDate
      */
@@ -46,7 +46,7 @@ public class IDKDirecrionDetailsType
     }
 
     /** 
-     * Get the 'DirectionNumber' element value. РќРѕРјРµСЂ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DirectionNumber' element value. Номер направления
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class IDKDirecrionDetailsType
     }
 
     /** 
-     * Set the 'DirectionNumber' element value. РќРѕРјРµСЂ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DirectionNumber' element value. Номер направления
      * 
      * @param directionNumber
      */
@@ -64,7 +64,7 @@ public class IDKDirecrionDetailsType
     }
 
     /** 
-     * Get the 'DirectionCustoms' element value. РљРѕРґ РўРћ, СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РµРіРѕ РЅР°РїСЂР°РІР»РµРЅРёРµ
+     * Get the 'DirectionCustoms' element value. Код ТО, сформировавшего направление
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class IDKDirecrionDetailsType
     }
 
     /** 
-     * Set the 'DirectionCustoms' element value. РљРѕРґ РўРћ, СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РµРіРѕ РЅР°РїСЂР°РІР»РµРЅРёРµ
+     * Set the 'DirectionCustoms' element value. Код ТО, сформировавшего направление
      * 
      * @param directionCustoms
      */
@@ -82,7 +82,7 @@ public class IDKDirecrionDetailsType
     }
 
     /** 
-     * Get the 'DirectionDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DirectionDate' element value. Дата формирования направления
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class IDKDirecrionDetailsType
     }
 
     /** 
-     * Set the 'DirectionDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DirectionDate' element value. Дата формирования направления
      * 
      * @param directionDate
      */
@@ -100,7 +100,7 @@ public class IDKDirecrionDetailsType
     }
 
     /** 
-     * Get the 'LNP' element value. Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РµРіРѕ РЅР°РїСЂР°РІР»РµРЅРёРµ
+     * Get the 'LNP' element value. ЛНП инспектора, сформировавшего направление
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class IDKDirecrionDetailsType
     }
 
     /** 
-     * Set the 'LNP' element value. Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РµРіРѕ РЅР°РїСЂР°РІР»РµРЅРёРµ
+     * Set the 'LNP' element value. ЛНП инспектора, сформировавшего направление
      * 
      * @param LNP
      */
@@ -118,7 +118,7 @@ public class IDKDirecrionDetailsType
     }
 
     /** 
-     * Get the 'MessageNumber' element value. РќРѕРјРµСЂ СЃРѕРѕР±С‰РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё
+     * Get the 'MessageNumber' element value. Номер сообщения о прибытии/убытии
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class IDKDirecrionDetailsType
     }
 
     /** 
-     * Set the 'MessageNumber' element value. РќРѕРјРµСЂ СЃРѕРѕР±С‰РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё
+     * Set the 'MessageNumber' element value. Номер сообщения о прибытии/убытии
      * 
      * @param messageNumber
      */

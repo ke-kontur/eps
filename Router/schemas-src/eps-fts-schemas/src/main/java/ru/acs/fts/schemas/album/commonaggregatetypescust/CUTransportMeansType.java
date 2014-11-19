@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РЅР° РіСЂР°РЅРёС†Рµ / РІРЅСѓС‚СЂРё СЃС‚СЂР°РЅС‹
+ * Транспортные средства на границе / внутри страны
  */
 public class CUTransportMeansType
 {
@@ -10,7 +10,7 @@ public class CUTransportMeansType
     private String transportNationalityCode;
 
     /** 
-     * Get the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CUTransportMeansType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров
      * 
      * @param transportModeCode
      */
@@ -28,7 +28,7 @@ public class CUTransportMeansType
     }
 
     /** 
-     * Get the 'TransportNationalityCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё (СЂРµРіРёСЃС‚СЂР°С†РёРё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°. 99-СЂР°Р·РЅС‹Рµ, 00-РЅРµРёР·РІРµСЃС‚РЅР°
+     * Get the 'TransportNationalityCode' element value. Буквенный код страны принадлежности (регистрации) транспортных средств по классификатору стран мира. 99-разные, 00-неизвестна
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CUTransportMeansType
     }
 
     /** 
-     * Set the 'TransportNationalityCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё (СЂРµРіРёСЃС‚СЂР°С†РёРё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°. 99-СЂР°Р·РЅС‹Рµ, 00-РЅРµРёР·РІРµСЃС‚РЅР°
+     * Set the 'TransportNationalityCode' element value. Буквенный код страны принадлежности (регистрации) транспортных средств по классификатору стран мира. 99-разные, 00-неизвестна
      * 
      * @param transportNationalityCode
      */

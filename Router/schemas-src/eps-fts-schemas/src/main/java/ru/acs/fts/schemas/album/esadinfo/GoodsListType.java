@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADContainerType
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsPackagingType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+ * Сведения о товаре
  */
 public class GoodsListType
 {
@@ -20,7 +20,7 @@ public class GoodsListType
     private ESADContainerType container;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂРѕРІ.
+     * Get the list of 'GoodsDescription' element items. Наименование (торговое, коммерческое или иное традиционное наименование) товаров.
      * 
      * @return list
      */
@@ -29,7 +29,7 @@ public class GoodsListType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂРѕРІ.
+     * Set the list of 'GoodsDescription' element items. Наименование (торговое, коммерческое или иное традиционное наименование) товаров.
      * 
      * @param list
      */
@@ -38,7 +38,7 @@ public class GoodsListType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ.
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС.
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class GoodsListType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ.
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС.
      * 
      * @param goodsTNVEDCode
      */
@@ -56,7 +56,7 @@ public class GoodsListType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі). 
+     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг). 
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class GoodsListType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі). 
+     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг). 
      * 
      * @param grossWeightQuantity
      */
@@ -74,7 +74,7 @@ public class GoodsListType
     }
 
     /** 
-     * Get the 'GoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ.
+     * Get the 'GoodsPackaging' element value. Сведения о грузовых местах, поддонах и упаковке товаров.
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class GoodsListType
     }
 
     /** 
-     * Set the 'GoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ.
+     * Set the 'GoodsPackaging' element value. Сведения о грузовых местах, поддонах и упаковке товаров.
      * 
      * @param goodsPackaging
      */
@@ -92,7 +92,7 @@ public class GoodsListType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class GoodsListType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения
      * 
      * @param supplementaryQuantity
      */
@@ -111,7 +111,7 @@ public class GoodsListType
     }
 
     /** 
-     * Get the 'Container' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С….
+     * Get the 'Container' element value. Сведения о контейнерах.
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class GoodsListType
     }
 
     /** 
-     * Set the 'Container' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С….
+     * Set the 'Container' element value. Сведения о контейнерах.
      * 
      * @param container
      */

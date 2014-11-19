@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+ * Сведения о месте фактического нахождения транспортных средств
  */
 public class PlaceType
 {
@@ -14,7 +14,7 @@ public class PlaceType
     private RWstationType RWstation;
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+     * Get the 'Customs' element value. Таможенный орган, в регионе деятельности которого находится транспортное средство
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PlaceType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+     * Set the 'Customs' element value. Таможенный орган, в регионе деятельности которого находится транспортное средство
      * 
      * @param customs
      */
@@ -32,7 +32,7 @@ public class PlaceType
     }
 
     /** 
-     * Get the 'FactTSAddress' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the 'FactTSAddress' element value. Сведения о месте фактического нахождения транспортных средств
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PlaceType
     }
 
     /** 
-     * Set the 'FactTSAddress' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the 'FactTSAddress' element value. Сведения о месте фактического нахождения транспортных средств
      * 
      * @param factTSAddress
      */
@@ -50,7 +50,7 @@ public class PlaceType
     }
 
     /** 
-     * Get the 'RWstation' element value. РЎС‚Р°РЅС†РёСЏ
+     * Get the 'RWstation' element value. Станция
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class PlaceType
     }
 
     /** 
-     * Set the 'RWstation' element value. РЎС‚Р°РЅС†РёСЏ
+     * Set the 'RWstation' element value. Станция
      * 
      * @param RWstation
      */

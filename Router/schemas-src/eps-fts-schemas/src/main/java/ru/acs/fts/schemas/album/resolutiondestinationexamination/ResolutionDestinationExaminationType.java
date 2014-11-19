@@ -13,7 +13,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р РµС€РµРЅРёРµ Рѕ РЅР°Р·РЅР°С‡РµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЌРєСЃРїРµСЂС‚РёР·С‹
+ * Решение о назначении таможенной экспертизы
  */
 public class ResolutionDestinationExaminationType extends BaseDocType
 {
@@ -44,7 +44,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NameExamination' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Get the 'NameExamination' element value. Наименование экспертизы
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'NameExamination' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Set the 'NameExamination' element value. Наименование экспертизы
      * 
      * @param nameExamination
      */
@@ -62,7 +62,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Country' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіРѕСЂРѕРґР°
+     * Get the 'Country' element value. Наименование города
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Country' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіРѕСЂРѕРґР°
+     * Set the 'Country' element value. Наименование города
      * 
      * @param country
      */
@@ -80,7 +80,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° РїРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ
+     * Get the 'Date' element value. Дата постановления
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° РїРѕСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ
+     * Set the 'Date' element value. Дата постановления
      * 
      * @param date
      */
@@ -98,7 +98,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Reason' element items. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Get the list of 'Reason' element items. Основание для назначения экспертизы
      * 
      * @return list
      */
@@ -107,7 +107,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Reason' element items. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Set the list of 'Reason' element items. Основание для назначения экспертизы
      * 
      * @param list
      */
@@ -116,7 +116,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Question' element items. Р’РѕРїСЂРѕСЃС‹, РїРѕСЃС‚Р°РІР»РµРЅРЅС‹Рµ РїРµСЂРµРґ СЌРєСЃРїРµСЂС‚РѕРј
+     * Get the list of 'Question' element items. Вопросы, поставленные перед экспертом
      * 
      * @return list
      */
@@ -125,7 +125,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Question' element items. Р’РѕРїСЂРѕСЃС‹, РїРѕСЃС‚Р°РІР»РµРЅРЅС‹Рµ РїРµСЂРµРґ СЌРєСЃРїРµСЂС‚РѕРј
+     * Set the list of 'Question' element items. Вопросы, поставленные перед экспертом
      * 
      * @param list
      */
@@ -134,7 +134,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'KindExamination' element value. Р’РёРґ СЌРєСЃРїРµСЂС‚РёР·С‹. "1" - РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ, "2" - РїРѕРІС‚РѕСЂРЅР°СЏ, "3" - РєРѕРјРёСЃСЃРёРѕРЅРЅР°СЏ, "4" - РєРѕРјРїР»РµРєСЃРЅР°СЏ.
+     * Get the 'KindExamination' element value. Вид экспертизы. "1" - дополнительная, "2" - повторная, "3" - комиссионная, "4" - комплексная.
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'KindExamination' element value. Р’РёРґ СЌРєСЃРїРµСЂС‚РёР·С‹. "1" - РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ, "2" - РїРѕРІС‚РѕСЂРЅР°СЏ, "3" - РєРѕРјРёСЃСЃРёРѕРЅРЅР°СЏ, "4" - РєРѕРјРїР»РµРєСЃРЅР°СЏ.
+     * Set the 'KindExamination' element value. Вид экспертизы. "1" - дополнительная, "2" - повторная, "3" - комиссионная, "4" - комплексная.
      * 
      * @param kindExamination
      */
@@ -152,7 +152,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateDuties' element value. Р”Р°С‚Р° СЂР°Р·СЉСЏСЃРЅРµРЅРёР№ РїСЂР°РІ Рё РѕР±СЏР·Р°РЅРЅРѕСЃС‚РµР№, РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅС‹Рµ СЃС‚Р°С‚СЊРµР№ 140 РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРґРµРєСЃР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
+     * Get the 'DateDuties' element value. Дата разъяснений прав и обязанностей, предусмотренные статьей 140 Таможенного кодекса Таможенного союза
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateDuties' element value. Р”Р°С‚Р° СЂР°Р·СЉСЏСЃРЅРµРЅРёР№ РїСЂР°РІ Рё РѕР±СЏР·Р°РЅРЅРѕСЃС‚РµР№, РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅС‹Рµ СЃС‚Р°С‚СЊРµР№ 140 РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРґРµРєСЃР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
+     * Set the 'DateDuties' element value. Дата разъяснений прав и обязанностей, предусмотренные статьей 140 Таможенного кодекса Таможенного союза
      * 
      * @param dateDuties
      */
@@ -170,7 +170,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateRights' element value. Р”Р°С‚Р° СЂР°Р·СЉСЏСЃРЅРµРЅРёСЏ РїСЂР°РІ РґРµРєР»Р°СЂР°РЅС‚Р°, РёРЅРѕРіРѕ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, Рё РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ РїСЂРё РЅР°Р·РЅР°С‡РµРЅРёРё Рё РїСЂРѕРІРµРґРµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЌРєСЃРїРµСЂС‚РёР·С‹, РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅС‹Рµ СЃС‚Р°С‚СЊРµР№ 141 РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРґРµРєСЃР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
+     * Get the 'DateRights' element value. Дата разъяснения прав декларанта, иного лица, обладающего полномочиями в отношении товаров и (или) транспортных средств, и их представителей при назначении и проведении таможенной экспертизы, предусмотренные статьей 141 Таможенного кодекса Таможенного союза
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateRights' element value. Р”Р°С‚Р° СЂР°Р·СЉСЏСЃРЅРµРЅРёСЏ РїСЂР°РІ РґРµРєР»Р°СЂР°РЅС‚Р°, РёРЅРѕРіРѕ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, Рё РёС… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ РїСЂРё РЅР°Р·РЅР°С‡РµРЅРёРё Рё РїСЂРѕРІРµРґРµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЌРєСЃРїРµСЂС‚РёР·С‹, РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅС‹Рµ СЃС‚Р°С‚СЊРµР№ 141 РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРґРµРєСЃР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
+     * Set the 'DateRights' element value. Дата разъяснения прав декларанта, иного лица, обладающего полномочиями в отношении товаров и (или) транспортных средств, и их представителей при назначении и проведении таможенной экспертизы, предусмотренные статьей 141 Таможенного кодекса Таможенного союза
      * 
      * @param dateRights
      */
@@ -188,7 +188,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Changes' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЂР°Р·СЂРµС€РµРЅРѕ РІРёРґРѕРёР·РјРµРЅРµРЅРёРµ, С‡Р°СЃС‚РёС‡РЅРѕРµ РёР»Рё РїРѕР»РЅРѕРµ СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ, СЂР°Р·СЂСѓС€РµРЅРёРµ РјР°С‚РµСЂРёР°Р»РѕРІ, РґРѕРєСѓРјРµРЅС‚РѕРІ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ РёСЃСЃР»РµРґРѕРІР°РЅРёСЏ
+     * Get the 'Changes' element value. Признак того, что разрешено видоизменение, частичное или полное уничтожение, разрушение материалов, документов проб и образцов исследования
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Changes' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ СЂР°Р·СЂРµС€РµРЅРѕ РІРёРґРѕРёР·РјРµРЅРµРЅРёРµ, С‡Р°СЃС‚РёС‡РЅРѕРµ РёР»Рё РїРѕР»РЅРѕРµ СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ, СЂР°Р·СЂСѓС€РµРЅРёРµ РјР°С‚РµСЂРёР°Р»РѕРІ, РґРѕРєСѓРјРµРЅС‚РѕРІ РїСЂРѕР± Рё РѕР±СЂР°Р·С†РѕРІ РёСЃСЃР»РµРґРѕРІР°РЅРёСЏ
+     * Set the 'Changes' element value. Признак того, что разрешено видоизменение, частичное или полное уничтожение, разрушение материалов, документов проб и образцов исследования
      * 
      * @param changes
      */
@@ -206,7 +206,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CommissionExamination' element value. РџРѕСЂСѓС‡РµРЅРёРµ РЅР° СЌРєСЃРїРµСЂС‚РёР·Сѓ
+     * Get the 'CommissionExamination' element value. Поручение на экспертизу
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CommissionExamination' element value. РџРѕСЂСѓС‡РµРЅРёРµ РЅР° СЌРєСЃРїРµСЂС‚РёР·Сѓ
+     * Set the 'CommissionExamination' element value. Поручение на экспертизу
      * 
      * @param commissionExamination
      */
@@ -225,7 +225,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TermRealizationExamination' element value. РЎСЂРѕРє РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Get the 'TermRealizationExamination' element value. Срок проведения экспертизы
      * 
      * @return value
      */
@@ -234,7 +234,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TermRealizationExamination' element value. РЎСЂРѕРє РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹
+     * Set the 'TermRealizationExamination' element value. Срок проведения экспертизы
      * 
      * @param termRealizationExamination
      */
@@ -244,7 +244,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsAccordanceExhert' element items. РњР°С‚РµСЂРёР°Р»С‹, РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹Рµ СЌРєСЃРїРµСЂС‚Сѓ
+     * Get the list of 'GoodsAccordanceExhert' element items. Материалы, предоставленные эксперту
      * 
      * @return list
      */
@@ -253,7 +253,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsAccordanceExhert' element items. РњР°С‚РµСЂРёР°Р»С‹, РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹Рµ СЌРєСЃРїРµСЂС‚Сѓ
+     * Set the list of 'GoodsAccordanceExhert' element items. Материалы, предоставленные эксперту
      * 
      * @param list
      */
@@ -263,7 +263,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Person' element value. Р›РёС†Рѕ, РєРѕС‚РѕСЂРѕРјСѓ РїРѕСЂСѓС‡РµРЅРѕ СЂР°Р·СЉСЏСЃРЅРёС‚СЊ СЌРєСЃРїРµСЂС‚Сѓ РµРіРѕ РїСЂР°РІР° Рё РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚СЊ
+     * Get the 'Person' element value. Лицо, которому поручено разъяснить эксперту его права и ответственность
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Person' element value. Р›РёС†Рѕ, РєРѕС‚РѕСЂРѕРјСѓ РїРѕСЂСѓС‡РµРЅРѕ СЂР°Р·СЉСЏСЃРЅРёС‚СЊ СЌРєСЃРїРµСЂС‚Сѓ РµРіРѕ РїСЂР°РІР° Рё РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚СЊ
+     * Set the 'Person' element value. Лицо, которому поручено разъяснить эксперту его права и ответственность
      * 
      * @param person
      */
@@ -281,7 +281,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'InfoCustomsPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ, РЅР°Р·РЅР°С‡РёРІС€РµРіРѕ СЌРєСЃРїРµСЂС‚РёР·Сѓ.
+     * Get the 'InfoCustomsPerson' element value. Сведения о должностном лице, назначившего экспертизу.
      * 
      * @return value
      */
@@ -290,7 +290,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'InfoCustomsPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ, РЅР°Р·РЅР°С‡РёРІС€РµРіРѕ СЌРєСЃРїРµСЂС‚РёР·Сѓ.
+     * Set the 'InfoCustomsPerson' element value. Сведения о должностном лице, назначившего экспертизу.
      * 
      * @param infoCustomsPerson
      */
@@ -299,7 +299,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExpertSignature' element value. РџРѕРґРїРёСЃСЊ СЌРєСЃРїРµСЂС‚Р°
+     * Get the 'ExpertSignature' element value. Подпись эксперта
      * 
      * @return value
      */
@@ -308,7 +308,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExpertSignature' element value. РџРѕРґРїРёСЃСЊ СЌРєСЃРїРµСЂС‚Р°
+     * Set the 'ExpertSignature' element value. Подпись эксперта
      * 
      * @param expertSignature
      */
@@ -317,7 +317,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarantSignature' element value. РџРѕРґРїРёСЃСЊ РґРµРєР»Р°СЂР°РЅС‚Р°
+     * Get the 'DeclarantSignature' element value. Подпись декларанта
      * 
      * @return value
      */
@@ -326,7 +326,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarantSignature' element value. РџРѕРґРїРёСЃСЊ РґРµРєР»Р°СЂР°РЅС‚Р°
+     * Set the 'DeclarantSignature' element value. Подпись декларанта
      * 
      * @param declarantSignature
      */
@@ -335,7 +335,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RepresentativeSignature' element items. РџРѕРґРїРёСЃСЊ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
+     * Get the list of 'RepresentativeSignature' element items. Подпись представителей
      * 
      * @return list
      */
@@ -344,7 +344,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RepresentativeSignature' element items. РџРѕРґРїРёСЃСЊ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
+     * Set the list of 'RepresentativeSignature' element items. Подпись представителей
      * 
      * @param list
      */
@@ -353,7 +353,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂР° Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the 'PersonSignature' element value. Подпись лица, обладающего полномочиями в отношении товара и (или) транспортных средств
      * 
      * @return value
      */
@@ -362,7 +362,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂР° Рё (РёР»Рё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the 'PersonSignature' element value. Подпись лица, обладающего полномочиями в отношении товара и (или) транспортных средств
      * 
      * @param personSignature
      */
@@ -371,7 +371,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsLocation' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'GoodsLocation' element value. Местонахождение товаров
      * 
      * @return value
      */
@@ -380,7 +380,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsLocation' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'GoodsLocation' element value. Местонахождение товаров
      * 
      * @param goodsLocation
      */
@@ -389,7 +389,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsChief' element value. РќР°С‡Р°Р»СЊРЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsChief' element value. Начальник таможенного органа
      * 
      * @return value
      */
@@ -398,7 +398,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsChief' element value. РќР°С‡Р°Р»СЊРЅРёРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsChief' element value. Начальник таможенного органа
      * 
      * @param customsChief
      */
@@ -407,7 +407,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @return value
      */
@@ -416,7 +416,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @param customs
      */
@@ -425,7 +425,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'InfoCustomsPersonDetermineAim' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СѓСЃС‚Р°РЅРѕРІРёРІС€РµРіРѕ С†РµР»СЊ РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹.
+     * Get the 'InfoCustomsPersonDetermineAim' element value. Сведения о должностном лице таможенного органа, установившего цель проведения экспертизы.
      * 
      * @return value
      */
@@ -434,7 +434,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'InfoCustomsPersonDetermineAim' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СѓСЃС‚Р°РЅРѕРІРёРІС€РµРіРѕ С†РµР»СЊ РїСЂРѕРІРµРґРµРЅРёСЏ СЌРєСЃРїРµСЂС‚РёР·С‹.
+     * Set the 'InfoCustomsPersonDetermineAim' element value. Сведения о должностном лице таможенного органа, установившего цель проведения экспертизы.
      * 
      * @param infoCustomsPersonDetermineAim
      */
@@ -444,7 +444,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. 
+     * Get the 'GTDID' element value. Регистрационный номер таможенного документа. 
      * 
      * @return value
      */
@@ -453,7 +453,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. 
+     * Set the 'GTDID' element value. Регистрационный номер таможенного документа. 
      * 
      * @param GTDID
      */
@@ -462,7 +462,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'OtherDocument' element value. Р РµРєРІРёР·РёС‚С‹ РёРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'OtherDocument' element value. Реквизиты иных документов
      * 
      * @return value
      */
@@ -471,7 +471,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'OtherDocument' element value. Р РµРєРІРёР·РёС‚С‹ РёРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'OtherDocument' element value. Реквизиты иных документов
      * 
      * @param otherDocument
      */
@@ -480,7 +480,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -489,7 +489,7 @@ public class ResolutionDestinationExaminationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

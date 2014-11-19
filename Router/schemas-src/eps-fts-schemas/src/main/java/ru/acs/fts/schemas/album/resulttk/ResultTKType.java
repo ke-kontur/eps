@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+ * Сведения из транспортного контроля
  */
 public class ResultTKType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class ResultTKType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Inspection' element items. Р”Р°РЅРЅС‹Рµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ/РёРЅСЃРїРµРєС†РёРё
+     * Get the list of 'Inspection' element items. Данные транспортного контроля/инспекции
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class ResultTKType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Inspection' element items. Р”Р°РЅРЅС‹Рµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ/РёРЅСЃРїРµРєС†РёРё
+     * Set the list of 'Inspection' element items. Данные транспортного контроля/инспекции
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class ResultTKType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ResultTKType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

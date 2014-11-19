@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust;
 
 /** 
- * РћСЃРЅРѕРІР° РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 4,6 РіСЂ. Рђ (11)
+ * Основа для расчета таможенной стоимости по методу 4,6 гр. А (11)
  */
 public class Method46BasisType
 {
@@ -10,7 +10,7 @@ public class Method46BasisType
     private String identicalDealCode;
 
     /** 
-     * Get the 'IdenticalDealNationalPrice' element value. Р¦РµРЅР° РµРґРёРЅРёС†С‹ РѕС†РµРЅРёРІР°РµРјС‹С…, РёРґРµРЅС‚РёС‡РЅС‹С… РёР»Рё РѕРґРЅРѕСЂРѕРґРЅС‹С… С‚РѕРІР°СЂРѕРІ РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ
+     * Get the 'IdenticalDealNationalPrice' element value. Цена единицы оцениваемых, идентичных или однородных товаров в национальной валюте
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class Method46BasisType
     }
 
     /** 
-     * Set the 'IdenticalDealNationalPrice' element value. Р¦РµРЅР° РµРґРёРЅРёС†С‹ РѕС†РµРЅРёРІР°РµРјС‹С…, РёРґРµРЅС‚РёС‡РЅС‹С… РёР»Рё РѕРґРЅРѕСЂРѕРґРЅС‹С… С‚РѕРІР°СЂРѕРІ РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ
+     * Set the 'IdenticalDealNationalPrice' element value. Цена единицы оцениваемых, идентичных или однородных товаров в национальной валюте
      * 
      * @param identicalDealNationalPrice
      */
@@ -28,7 +28,7 @@ public class Method46BasisType
     }
 
     /** 
-     * Get the 'IdenticalDealCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РµРґРёРЅРёС† РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'IdenticalDealCode' element value. Код единицы измерения в соответствии с классификатором единиц измерения
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class Method46BasisType
     }
 
     /** 
-     * Set the 'IdenticalDealCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РµРґРёРЅРёС† РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'IdenticalDealCode' element value. Код единицы измерения в соответствии с классификатором единиц измерения
      * 
      * @param identicalDealCode
      */

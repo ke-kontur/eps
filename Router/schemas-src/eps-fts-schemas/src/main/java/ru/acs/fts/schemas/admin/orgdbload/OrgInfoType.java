@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ  РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
+ * Информация  об организации
  */
 public class OrgInfoType
 {
@@ -23,7 +23,7 @@ public class OrgInfoType
     private DocumentGroundConnectionType groundConnectionOrg;
 
     /** 
-     * Get the 'OrgName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'OrgName' element value. Наименование организации
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Set the 'OrgName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'OrgName' element value. Наименование организации
      * 
      * @param orgName
      */
@@ -41,7 +41,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Get the 'OrgMail' element value. РџРѕС‡С‚РѕРІС‹Р№  Р°РґСЂРµСЃ  РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'OrgMail' element value. Почтовый  адрес  организации
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Set the 'OrgMail' element value. РџРѕС‡С‚РѕРІС‹Р№  Р°РґСЂРµСЃ  РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'OrgMail' element value. Почтовый  адрес  организации
      * 
      * @param orgMail
      */
@@ -59,7 +59,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Get the 'OGRN' element value. РћР“Р Рќ
+     * Get the 'OGRN' element value. ОГРН
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Set the 'OGRN' element value. РћР“Р Рќ
+     * Set the 'OGRN' element value. ОГРН
      * 
      * @param OGRN
      */
@@ -77,7 +77,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Get the 'INN' element value. РРќРќ
+     * Get the 'INN' element value. ИНН
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Set the 'INN' element value. РРќРќ
+     * Set the 'INN' element value. ИНН
      * 
      * @param INN
      */
@@ -95,7 +95,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Get the 'KPP' element value. РљРџРџ
+     * Get the 'KPP' element value. КПП
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Set the 'KPP' element value. РљРџРџ
+     * Set the 'KPP' element value. КПП
      * 
      * @param KPP
      */
@@ -113,7 +113,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Get the 'E_MAIL' element value. РљРѕРЅС‚Р°РєС‚РЅС‹Р№e-mail
+     * Get the 'E_MAIL' element value. Контактныйe-mail
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Set the 'E_MAIL' element value. РљРѕРЅС‚Р°РєС‚РЅС‹Р№e-mail
+     * Set the 'E_MAIL' element value. Контактныйe-mail
      * 
      * @param EMAIL
      */
@@ -131,7 +131,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
+     * Get the 'Comments' element value. Комментарий
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
+     * Set the 'Comments' element value. Комментарий
      * 
      * @param comments
      */
@@ -149,7 +149,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Get the 'InfBrokerFlag' element value. РџСЂРёР·РЅР°Рє РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕРіРѕ Р±СЂРѕРєРµСЂР°
+     * Get the 'InfBrokerFlag' element value. Признак информационного брокера
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Set the 'InfBrokerFlag' element value. РџСЂРёР·РЅР°Рє РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕРіРѕ Р±СЂРѕРєРµСЂР°
+     * Set the 'InfBrokerFlag' element value. Признак информационного брокера
      * 
      * @param infBrokerFlag
      */
@@ -167,7 +167,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Get the list of 'PtpcInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ  Рѕ С‚РѕС‡РєР°С…  РїРѕРґРєР»СЋС‡РµРЅРёСЏ
+     * Get the list of 'PtpcInfo' element items. Информация  о точках  подключения
      * 
      * @return list
      */
@@ -176,7 +176,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Set the list of 'PtpcInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ  Рѕ С‚РѕС‡РєР°С…  РїРѕРґРєР»СЋС‡РµРЅРёСЏ
+     * Set the list of 'PtpcInfo' element items. Информация  о точках  подключения
      * 
      * @param list
      */
@@ -185,7 +185,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Get the list of 'PersonInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ  Рѕ РєРѕРЅС‚Р°РєС‚РЅС‹С…  Р»РёС†Р°С…
+     * Get the list of 'PersonInfo' element items. Информация  о контактных  лицах
      * 
      * @return list
      */
@@ -194,7 +194,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Set the list of 'PersonInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ  Рѕ РєРѕРЅС‚Р°РєС‚РЅС‹С…  Р»РёС†Р°С…
+     * Set the list of 'PersonInfo' element items. Информация  о контактных  лицах
      * 
      * @param list
      */
@@ -203,7 +203,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Get the 'GroundConnectionOrg' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїРѕРґРєР»СЋС‡РµРЅРёСЏ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'GroundConnectionOrg' element value. Основание для подключения организации
      * 
      * @return value
      */
@@ -212,7 +212,7 @@ public class OrgInfoType
     }
 
     /** 
-     * Set the 'GroundConnectionOrg' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїРѕРґРєР»СЋС‡РµРЅРёСЏ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'GroundConnectionOrg' element value. Основание для подключения организации
      * 
      * @param groundConnectionOrg
      */

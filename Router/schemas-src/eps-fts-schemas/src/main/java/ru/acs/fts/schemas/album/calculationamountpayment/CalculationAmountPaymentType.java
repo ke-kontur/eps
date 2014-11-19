@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р Р°СЃС‡РµС‚ СЂР°Р·РјРµСЂР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+ * Расчет размера обеспечения уплаты таможенных платежей
  */
 public class CalculationAmountPaymentType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NumberSheet' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р»РёСЃС‚Р°
+     * Get the 'NumberSheet' element value. Порядковый номер листа
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'NumberSheet' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р»РёСЃС‚Р°
+     * Set the 'NumberSheet' element value. Порядковый номер листа
      * 
      * @param numberSheet
      */
@@ -39,7 +39,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Total' element value. РС‚РѕРіРѕ: СЂР°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РїРѕ Р”Рў
+     * Get the 'Total' element value. Итого: размер обеспечения по ДТ
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Total' element value. РС‚РѕРіРѕ: СЂР°Р·РјРµСЂ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РїРѕ Р”Рў
+     * Set the 'Total' element value. Итого: размер обеспечения по ДТ
      * 
      * @param total
      */
@@ -57,7 +57,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… С‚СЂРµР±СѓРµС‚СЃСЏ РѕР±РµСЃРїРµС‡РµРЅРёРµ
+     * Get the 'Quantity' element value. Количество товаров, в отношении которых требуется обеспечение
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… С‚СЂРµР±СѓРµС‚СЃСЏ РѕР±РµСЃРїРµС‡РµРЅРёРµ
+     * Set the 'Quantity' element value. Количество товаров, в отношении которых требуется обеспечение
      * 
      * @param quantity
      */
@@ -75,7 +75,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DescriptionGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Get the list of 'DescriptionGoods' element items. Сведения о товаре
      * 
      * @return list
      */
@@ -84,7 +84,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DescriptionGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Set the list of 'DescriptionGoods' element items. Сведения о товаре
      * 
      * @param list
      */
@@ -93,7 +93,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ  Р”Рў
+     * Get the 'GTDID' element value. Регистрационный номер  ДТ
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ  Р”Рў
+     * Set the 'GTDID' element value. Регистрационный номер  ДТ
      * 
      * @param GTDID
      */
@@ -111,7 +111,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPersonSignature' element value. Подпись должностного лица таможенного органа
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPersonSignature' element value. Подпись должностного лица таможенного органа
      * 
      * @param customsPersonSignature
      */
@@ -130,7 +130,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class CalculationAmountPaymentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

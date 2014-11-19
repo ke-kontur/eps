@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.RoutigInfoType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕСЃР»РµРґСѓСЋС‰РµРј РїРµСЂРµРјРµС‰РµРЅРёРё РіСЂСѓР·Р°
+ * Информация о последующем перемещении груза
  */
 public class MovementInfoType
 {
@@ -14,7 +14,7 @@ public class MovementInfoType
     private List<RoutigInfoType> routigInfoList = new ArrayList<RoutigInfoType>();
 
     /** 
-     * Get the 'MovementPriorityCode' element value. РџСЂРёРѕСЂРёС‚РµС‚
+     * Get the 'MovementPriorityCode' element value. Приоритет
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class MovementInfoType
     }
 
     /** 
-     * Set the 'MovementPriorityCode' element value. РџСЂРёРѕСЂРёС‚РµС‚
+     * Set the 'MovementPriorityCode' element value. Приоритет
      * 
      * @param movementPriorityCode
      */
@@ -32,7 +32,7 @@ public class MovementInfoType
     }
 
     /** 
-     * Get the list of 'RoutigInfo' element items. РњР°СЂС€СЂСѓС‚  СЃР»РµРґРѕРІР°РЅРёСЏ
+     * Get the list of 'RoutigInfo' element items. Маршрут  следования
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class MovementInfoType
     }
 
     /** 
-     * Set the list of 'RoutigInfo' element items. РњР°СЂС€СЂСѓС‚  СЃР»РµРґРѕРІР°РЅРёСЏ
+     * Set the list of 'RoutigInfo' element items. Маршрут  следования
      * 
      * @param list
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РґР»СЏ РёРґРµРЅС‚РёС„РёРєР°С†РёРё РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ (РёСЃРїРѕР»СЊР·СѓРµРјРѕРіРѕ РґР»СЏ РІРёР·СѓР°Р»РёР·Р°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°).
+ * Информация для идентификации вида представления (используемого для визуализации документа).
  */
 public class AUDDocumentKindRepresentationIdInfoType
         extends
@@ -11,7 +11,7 @@ public class AUDDocumentKindRepresentationIdInfoType
     private String representationKindId;
 
     /** 
-     * Get the 'RepresentationKindId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ.
+     * Get the 'RepresentationKindId' element value. Идентификатор вида представления.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AUDDocumentKindRepresentationIdInfoType
     }
 
     /** 
-     * Set the 'RepresentationKindId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ.
+     * Set the 'RepresentationKindId' element value. Идентификатор вида представления.
      * 
      * @param representationKindId
      */

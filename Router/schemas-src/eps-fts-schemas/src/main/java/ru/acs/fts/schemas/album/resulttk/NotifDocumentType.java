@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· СѓРІРµРґРѕРјР»РµРЅРёСЏ
+ * Сведения из уведомления
  */
 public class NotifDocumentType
 {
@@ -18,7 +18,7 @@ public class NotifDocumentType
     private PersonBaseType driver;
 
     /** 
-     * Get the 'NotifID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ
+     * Get the 'NotifID' element value. Идентификатор уведомления
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class NotifDocumentType
     }
 
     /** 
-     * Set the 'NotifID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ
+     * Set the 'NotifID' element value. Идентификатор уведомления
      * 
      * @param notifID
      */
@@ -36,7 +36,7 @@ public class NotifDocumentType
     }
 
     /** 
-     * Get the 'NotifNumber' element value. РќРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ 
+     * Get the 'NotifNumber' element value. Номер уведомления 
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class NotifDocumentType
     }
 
     /** 
-     * Set the 'NotifNumber' element value. РќРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ 
+     * Set the 'NotifNumber' element value. Номер уведомления 
      * 
      * @param notifNumber
      */
@@ -54,7 +54,7 @@ public class NotifDocumentType
     }
 
     /** 
-     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryCode' element value. Код страны
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class NotifDocumentType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryCode' element value. Код страны
      * 
      * @param countryCode
      */
@@ -72,7 +72,7 @@ public class NotifDocumentType
     }
 
     /** 
-     * Get the 'Customs' element value. РљРѕРЅС‚СЂРѕР»СЊРЅС‹Р№ РїСѓРЅРєС‚, РІ РєРѕС‚РѕСЂС‹Р№ РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the 'Customs' element value. Контрольный пункт, в который необходимо предоставить документы
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class NotifDocumentType
     }
 
     /** 
-     * Set the 'Customs' element value. РљРѕРЅС‚СЂРѕР»СЊРЅС‹Р№ РїСѓРЅРєС‚, РІ РєРѕС‚РѕСЂС‹Р№ РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the 'Customs' element value. Контрольный пункт, в который необходимо предоставить документы
      * 
      * @param customs
      */
@@ -90,7 +90,7 @@ public class NotifDocumentType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. РРЅСЃРїРµРєС‚РѕСЂ, РІС‹РґР°РІС€РёР№ СѓРІРµРґРѕРјР»РµРЅРёРµ
+     * Get the 'CustomsPerson' element value. Инспектор, выдавший уведомление
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class NotifDocumentType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. РРЅСЃРїРµРєС‚РѕСЂ, РІС‹РґР°РІС€РёР№ СѓРІРµРґРѕРјР»РµРЅРёРµ
+     * Set the 'CustomsPerson' element value. Инспектор, выдавший уведомление
      * 
      * @param customsPerson
      */
@@ -108,7 +108,7 @@ public class NotifDocumentType
     }
 
     /** 
-     * Get the 'Driver' element value. Р’РѕРґРёС‚РµР»СЊ
+     * Get the 'Driver' element value. Водитель
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class NotifDocumentType
     }
 
     /** 
-     * Set the 'Driver' element value. Р’РѕРґРёС‚РµР»СЊ
+     * Set the 'Driver' element value. Водитель
      * 
      * @param driver
      */

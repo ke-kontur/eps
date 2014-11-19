@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.GoodsLocationPlac
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.WarehousePlaceType;
 
 /** 
- * РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ.
+ * Местонахождение товаров.
  */
 public class GoodsLocationType
 {
@@ -14,7 +14,7 @@ public class GoodsLocationType
     private WarehousePlaceType warehousePlace;
 
     /** 
-     * Get the 'InformationTypeCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё.
+     * Get the 'InformationTypeCode' element value. Код информации.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Set the 'InformationTypeCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё.
+     * Set the 'InformationTypeCode' element value. Код информации.
      * 
      * @param informationTypeCode
      */
@@ -32,7 +32,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Get the 'GoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°. (СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅРѕРµ РјРµСЃС‚Рѕ).
+     * Get the 'GoodsLocationPlace' element value. Сведения о местонахождении товара. (склад получателя, иное место).
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Set the 'GoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°. (СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅРѕРµ РјРµСЃС‚Рѕ).
+     * Set the 'GoodsLocationPlace' element value. Сведения о местонахождении товара. (склад получателя, иное место).
      * 
      * @param goodsLocationPlace
      */
@@ -50,7 +50,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Get the 'WarehousePlace' element value. РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
+     * Get the 'WarehousePlace' element value. Место погрузки/разгрузки. Сведения о лицензии/ свидетельстве склада.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Set the 'WarehousePlace' element value. РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
+     * Set the 'WarehousePlace' element value. Место погрузки/разгрузки. Сведения о лицензии/ свидетельстве склада.
      * 
      * @param warehousePlace
      */

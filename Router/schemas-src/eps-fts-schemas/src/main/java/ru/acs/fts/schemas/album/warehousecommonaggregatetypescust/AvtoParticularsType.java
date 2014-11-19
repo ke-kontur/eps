@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РїРѕРґСЂРѕР±РЅРѕСЃС‚РµР№ РґР»СЏ Р°РІС‚РѕРјРѕР±РёР»СЊРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+ * Комплексный тип для описания подробностей для автомобильного транспорта
  */
 public class AvtoParticularsType
 {
@@ -10,7 +10,7 @@ public class AvtoParticularsType
     private String secondTrailerIdentifier;
 
     /** 
-     * Get the 'TrailerIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (РЅРѕРјРµСЂ) РїСЂРёС†РµРїРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'TrailerIdentifier' element value. Идентификатор (номер) прицепного транспортного средства
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AvtoParticularsType
     }
 
     /** 
-     * Set the 'TrailerIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (РЅРѕРјРµСЂ) РїСЂРёС†РµРїРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'TrailerIdentifier' element value. Идентификатор (номер) прицепного транспортного средства
      * 
      * @param trailerIdentifier
      */
@@ -28,7 +28,7 @@ public class AvtoParticularsType
     }
 
     /** 
-     * Get the 'SecondTrailerIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (РЅРѕРјРµСЂ) РІС‚РѕСЂРѕРіРѕ РїСЂРёС†РµРїРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'SecondTrailerIdentifier' element value. Идентификатор (номер) второго прицепного транспортного средства
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AvtoParticularsType
     }
 
     /** 
-     * Set the 'SecondTrailerIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (РЅРѕРјРµСЂ) РІС‚РѕСЂРѕРіРѕ РїСЂРёС†РµРїРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'SecondTrailerIdentifier' element value. Идентификатор (номер) второго прицепного транспортного средства
      * 
      * @param secondTrailerIdentifier
      */

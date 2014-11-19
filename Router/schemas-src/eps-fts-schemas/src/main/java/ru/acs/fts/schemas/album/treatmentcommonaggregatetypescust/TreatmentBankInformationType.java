@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РџРµСЂРµСЂР°Р±РѕС‚РєР° С‚РѕРІР°СЂРѕРІ - Р±Р°РЅРєРѕРІСЃРєРёРµ СЃРІРµРґРµРЅРёСЏ
+ * Переработка товаров - банковские сведения
  */
 public class TreatmentBankInformationType
 {
@@ -15,7 +15,7 @@ public class TreatmentBankInformationType
     private List<TreatmentBankAccountType> bankAccountList = new ArrayList<TreatmentBankAccountType>();
 
     /** 
-     * Get the 'BankName' element value. РќР°Р·РІР°РЅРёРµ Р±Р°РЅРєР°
+     * Get the 'BankName' element value. Название банка
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class TreatmentBankInformationType
     }
 
     /** 
-     * Set the 'BankName' element value. РќР°Р·РІР°РЅРёРµ Р±Р°РЅРєР°
+     * Set the 'BankName' element value. Название банка
      * 
      * @param bankName
      */
@@ -33,7 +33,7 @@ public class TreatmentBankInformationType
     }
 
     /** 
-     * Get the 'BankOKPO' element value. РћРљРџРћ Р±Р°РЅРєР°
+     * Get the 'BankOKPO' element value. ОКПО банка
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class TreatmentBankInformationType
     }
 
     /** 
-     * Set the 'BankOKPO' element value. РћРљРџРћ Р±Р°РЅРєР°
+     * Set the 'BankOKPO' element value. ОКПО банка
      * 
      * @param bankOKPO
      */
@@ -51,7 +51,7 @@ public class TreatmentBankInformationType
     }
 
     /** 
-     * Get the 'BankMFO' element value. РњР¤Рћ Р±Р°РЅРєР°
+     * Get the 'BankMFO' element value. МФО банка
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class TreatmentBankInformationType
     }
 
     /** 
-     * Set the 'BankMFO' element value. РњР¤Рћ Р±Р°РЅРєР°
+     * Set the 'BankMFO' element value. МФО банка
      * 
      * @param bankMFO
      */
@@ -69,7 +69,7 @@ public class TreatmentBankInformationType
     }
 
     /** 
-     * Get the list of 'BankAccount' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‡РµС‚Рµ
+     * Get the list of 'BankAccount' element items. Сведения о счете
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class TreatmentBankInformationType
     }
 
     /** 
-     * Set the list of 'BankAccount' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‡РµС‚Рµ
+     * Set the list of 'BankAccount' element items. Сведения о счете
      * 
      * @param list
      */

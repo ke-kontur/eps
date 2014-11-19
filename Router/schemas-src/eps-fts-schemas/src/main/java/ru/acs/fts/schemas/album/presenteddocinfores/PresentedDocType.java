@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Сведения о разрешительных документах
  */
 public class PresentedDocType
 {
@@ -19,7 +19,7 @@ public class PresentedDocType
     private List<PresentedDocumentType> presentedDocumentList = new ArrayList<PresentedDocumentType>();
 
     /** 
-     * Get the 'TransitStatus' element value. РЎС‚Р°С‚СѓСЃ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°: 1 - С‚СЂР°РЅР·РёС‚ РѕС‚РєСЂС‹С‚ Рё С‚РѕРІР°СЂС‹ РЅРµ РїРѕСЃС‚СѓРїРёР»Рё; 2 - С‚СЂР°РЅР·РёС‚ Р·Р°РєСЂС‹С‚; 3 - С‚СЂР°РЅР·РёС‚ РѕС‚РєСЂС‹С‚ Рё С‚РѕРІР°СЂС‹ РїРѕСЃС‚СѓРїРёР»Рё
+     * Get the 'TransitStatus' element value. Статус таможенного транзита: 1 - транзит открыт и товары не поступили; 2 - транзит закрыт; 3 - транзит открыт и товары поступили
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class PresentedDocType
     }
 
     /** 
-     * Set the 'TransitStatus' element value. РЎС‚Р°С‚СѓСЃ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°: 1 - С‚СЂР°РЅР·РёС‚ РѕС‚РєСЂС‹С‚ Рё С‚РѕРІР°СЂС‹ РЅРµ РїРѕСЃС‚СѓРїРёР»Рё; 2 - С‚СЂР°РЅР·РёС‚ Р·Р°РєСЂС‹С‚; 3 - С‚СЂР°РЅР·РёС‚ РѕС‚РєСЂС‹С‚ Рё С‚РѕРІР°СЂС‹ РїРѕСЃС‚СѓРїРёР»Рё
+     * Set the 'TransitStatus' element value. Статус таможенного транзита: 1 - транзит открыт и товары не поступили; 2 - транзит закрыт; 3 - транзит открыт и товары поступили
      * 
      * @param transitStatus
      */
@@ -62,7 +62,7 @@ public class PresentedDocType
     }
 
     /** 
-     * Get the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIRID' element value. Номер книжки МДП
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class PresentedDocType
     }
 
     /** 
-     * Set the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIRID' element value. Номер книжки МДП
      * 
      * @param TIRID
      */
@@ -90,7 +90,7 @@ public class PresentedDocType
     }
 
     /** 
-     * Get the 'TDNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+     * Get the 'TDNumber' element value. Номер транзитной декларации
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class PresentedDocType
     }
 
     /** 
-     * Set the 'TDNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+     * Set the 'TDNumber' element value. Номер транзитной декларации
      * 
      * @param TDNumber
      */
@@ -109,7 +109,7 @@ public class PresentedDocType
     }
 
     /** 
-     * Get the list of 'PresentedDocument' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С…  РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Get the list of 'PresentedDocument' element items. Информация о разрешительных  документах
      * 
      * @return list
      */
@@ -118,7 +118,7 @@ public class PresentedDocType
     }
 
     /** 
-     * Set the list of 'PresentedDocument' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С…  РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Set the list of 'PresentedDocument' element items. Информация о разрешительных  документах
      * 
      * @param list
      */

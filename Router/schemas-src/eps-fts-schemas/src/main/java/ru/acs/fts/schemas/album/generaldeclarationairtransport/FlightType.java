@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.generaldeclarationairtransport;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ 
+ * Сведения о рейсе 
  */
 public class FlightType
 {
@@ -14,7 +14,7 @@ public class FlightType
     private String destinationAirport;
 
     /** 
-     * Get the 'FlNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
+     * Get the 'FlNumber' element value. Номер рейса
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class FlightType
     }
 
     /** 
-     * Set the 'FlNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
+     * Set the 'FlNumber' element value. Номер рейса
      * 
      * @param flNumber
      */
@@ -32,7 +32,7 @@ public class FlightType
     }
 
     /** 
-     * Get the 'FlDate' element value. Р”Р°С‚Р° СЂРµР№СЃР°
+     * Get the 'FlDate' element value. Дата рейса
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class FlightType
     }
 
     /** 
-     * Set the 'FlDate' element value. Р”Р°С‚Р° СЂРµР№СЃР°
+     * Set the 'FlDate' element value. Дата рейса
      * 
      * @param flDate
      */
@@ -50,7 +50,7 @@ public class FlightType
     }
 
     /** 
-     * Get the 'DepartureAirport' element value. РќР°Р·РІР°РЅРёРµ Р°СЌСЂРѕРїРѕСЂС‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DepartureAirport' element value. Название аэропорта отправления
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class FlightType
     }
 
     /** 
-     * Set the 'DepartureAirport' element value. РќР°Р·РІР°РЅРёРµ Р°СЌСЂРѕРїРѕСЂС‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DepartureAirport' element value. Название аэропорта отправления
      * 
      * @param departureAirport
      */
@@ -68,7 +68,7 @@ public class FlightType
     }
 
     /** 
-     * Get the 'DestinationAirport' element value. РќР°Р·РІР°РЅРёРµ Р°СЌСЂРѕРїРѕСЂС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationAirport' element value. Название аэропорта назначения
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class FlightType
     }
 
     /** 
-     * Set the 'DestinationAirport' element value. РќР°Р·РІР°РЅРёРµ Р°СЌСЂРѕРїРѕСЂС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationAirport' element value. Название аэропорта назначения
      * 
      * @param destinationAirport
      */

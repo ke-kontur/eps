@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADCustomsRepr
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADFilledPersonType;
 
 /** 
- * Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ РєРѕРїРёСЏ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹ (С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё)
+ * Электронная копия декларации на товары (транзитной декларации)
  */
 public class ESADoutCUType extends BaseDocType
 {
@@ -35,7 +35,7 @@ public class ESADoutCUType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CustomsProcedure' element value. РРњ, Р­Рљ, РўРў. РџРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.1 Р”Рў/РўР”
+     * Get the 'CustomsProcedure' element value. ИМ, ЭК, ТТ. Первый подраздел гр.1 ДТ/ТД
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsProcedure' element value. РРњ, Р­Рљ, РўРў. РџРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.1 Р”Рў/РўР”
+     * Set the 'CustomsProcedure' element value. ИМ, ЭК, ТТ. Первый подраздел гр.1 ДТ/ТД
      * 
      * @param customsProcedure
      */
@@ -53,7 +53,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРѕС†РµРґСѓСЂ РіСЂ. 1. РІС‚РѕСЂРѕР№ РїРѕРґСЂР°Р·РґРµР» Р”Рў. РџРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ РїРµСЂРІРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»Р° РіСЂ. 37/В«00В» вЂ“ РґР»СЏ РїСЂРёРїР°СЃРѕРІ
+     * Get the 'CustomsModeCode' element value. Код таможенной процедуры в соответствии с классификатором видов таможенных процедур гр. 1. второй подраздел ДТ. Первый элемент первого подраздела гр. 37/«00» – для припасов
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРѕС†РµРґСѓСЂ РіСЂ. 1. РІС‚РѕСЂРѕР№ РїРѕРґСЂР°Р·РґРµР» Р”Рў. РџРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ РїРµСЂРІРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»Р° РіСЂ. 37/В«00В» вЂ“ РґР»СЏ РїСЂРёРїР°СЃРѕРІ
+     * Set the 'CustomsModeCode' element value. Код таможенной процедуры в соответствии с классификатором видов таможенных процедур гр. 1. второй подраздел ДТ. Первый элемент первого подраздела гр. 37/«00» – для припасов
      * 
      * @param customsModeCode
      */
@@ -71,7 +71,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsModeCodeMPO' element value. РњРџРћ РіСЂ. 1. РІС‚РѕСЂРѕР№ РїРѕРґСЂР°Р·РґРµР» РўР”
+     * Get the 'CustomsModeCodeMPO' element value. МПО гр. 1. второй подраздел ТД
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsModeCodeMPO' element value. РњРџРћ РіСЂ. 1. РІС‚РѕСЂРѕР№ РїРѕРґСЂР°Р·РґРµР» РўР”
+     * Set the 'CustomsModeCodeMPO' element value. МПО гр. 1. второй подраздел ТД
      * 
      * @param customsModeCodeMPO
      */
@@ -89,7 +89,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransitDirectionCode' element value.  РРњ, Р­Рљ, РўР , Р’Рў, РўРЎ. Р“СЂ. 1 РўР”. РўСЂРµС‚РёР№ РїРѕРґСЂР°Р·РґРµР»
+     * Get the 'TransitDirectionCode' element value.  ИМ, ЭК, ТР, ВТ, ТС. Гр. 1 ТД. Третий подраздел
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransitDirectionCode' element value.  РРњ, Р­Рљ, РўР , Р’Рў, РўРЎ. Р“СЂ. 1 РўР”. РўСЂРµС‚РёР№ РїРѕРґСЂР°Р·РґРµР»
+     * Set the 'TransitDirectionCode' element value.  ИМ, ЭК, ТР, ВТ, ТС. Гр. 1 ТД. Третий подраздел
      * 
      * @param transitDirectionCode
      */
@@ -107,7 +107,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'ElectronicDocumentSign' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Р”Рў РІ С„РѕСЂРјРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р­Р”. Р“СЂ. 1 Р”Рў. РўСЂРµС‚РёР№ РїРѕРґСЂР°Р·РґРµР»
+     * Get the 'ElectronicDocumentSign' element value. Признак использования ДТ в форме электронного документа. ЭД. Гр. 1 ДТ. Третий подраздел
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'ElectronicDocumentSign' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Р”Рў РІ С„РѕСЂРјРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р­Р”. Р“СЂ. 1 Р”Рў. РўСЂРµС‚РёР№ РїРѕРґСЂР°Р·РґРµР»
+     * Set the 'ElectronicDocumentSign' element value. Признак использования ДТ в форме электронного документа. ЭД. Гр. 1 ДТ. Третий подраздел
      * 
      * @param electronicDocumentSign
      */
@@ -125,7 +125,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarationKind' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ. Р“СЂ.7 Р”Рў
+     * Get the 'DeclarationKind' element value. Код особенности декларирования товаров по классификатору особенностей таможенного декларирования товаров. Гр.7 ДТ
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationKind' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ. Р“СЂ.7 Р”Рў
+     * Set the 'DeclarationKind' element value. Код особенности декларирования товаров по классификатору особенностей таможенного декларирования товаров. Гр.7 ДТ
      * 
      * @param declarationKind
      */
@@ -143,7 +143,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'SubsoilSign' element value. РџСЂРёР·РЅР°Рє РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»СЏ. Р”Р»СЏ Р Рљ
+     * Get the 'SubsoilSign' element value. Признак недропользователя. Для РК
      * 
      * @return value
      */
@@ -152,7 +152,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'SubsoilSign' element value. РџСЂРёР·РЅР°Рє РЅРµРґСЂРѕРїРѕР»СЊР·РѕРІР°С‚РµР»СЏ. Р”Р»СЏ Р Рљ
+     * Set the 'SubsoilSign' element value. Признак недропользователя. Для РК
      * 
      * @param subsoilSign
      */
@@ -161,7 +161,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'SealNumber' element value. РќРѕРјРµСЂ РїР»РѕРјР±РёСЂР°С‚РѕСЂР° РІ РўР”
+     * Get the 'SealNumber' element value. Номер пломбиратора в ТД
      * 
      * @return value
      */
@@ -170,7 +170,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'SealNumber' element value. РќРѕРјРµСЂ РїР»РѕРјР±РёСЂР°С‚РѕСЂР° РІ РўР”
+     * Set the 'SealNumber' element value. Номер пломбиратора в ТД
      * 
      * @param sealNumber
      */
@@ -179,7 +179,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'SealQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РЅР°Р»РѕР¶РµРЅРЅС‹С… РїР»РѕРјР± РІ РўР”
+     * Get the 'SealQuantity' element value. Количество наложенных пломб в ТД
      * 
      * @return value
      */
@@ -188,7 +188,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'SealQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РЅР°Р»РѕР¶РµРЅРЅС‹С… РїР»РѕРјР± РІ РўР”
+     * Set the 'SealQuantity' element value. Количество наложенных пломб в ТД
      * 
      * @param sealQuantity
      */
@@ -197,7 +197,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'LanguageCUESAD' element value. РљРѕРґ СЏР·С‹РєР° Р·Р°РїРѕР»РЅРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'LanguageCUESAD' element value. Код языка заполнения документа
      * 
      * @return value
      */
@@ -206,7 +206,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'LanguageCUESAD' element value. РљРѕРґ СЏР·С‹РєР° Р·Р°РїРѕР»РЅРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'LanguageCUESAD' element value. Код языка заполнения документа
      * 
      * @param languageCUESAD
      */
@@ -215,7 +215,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'RecipientCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹, РІ СЃРѕРѕРІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°, С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РєРѕС‚РѕСЂРѕРјСѓ РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'RecipientCountryCode' element value. Код страны, в сооветствии с классификатором стран мира, таможенного органа, которому представляется документ
      * 
      * @return value
      */
@@ -224,7 +224,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'RecipientCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹, РІ СЃРѕРѕРІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°, С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РєРѕС‚РѕСЂРѕРјСѓ РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'RecipientCountryCode' element value. Код страны, в сооветствии с классификатором стран мира, таможенного органа, которому представляется документ
      * 
      * @param recipientCountryCode
      */
@@ -233,7 +233,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'MovementCode' element value. РљРѕРґ С†РµР»Рё РїРµСЂРµРјРµС‰РµРЅРёСЏ РІ РўР”
+     * Get the 'MovementCode' element value. Код цели перемещения в ТД
      * 
      * @return value
      */
@@ -242,7 +242,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'MovementCode' element value. РљРѕРґ С†РµР»Рё РїРµСЂРµРјРµС‰РµРЅРёСЏ РІ РўР”
+     * Set the 'MovementCode' element value. Код цели перемещения в ТД
      * 
      * @param movementCode
      */
@@ -251,7 +251,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExecutionPlace' element value. РњРµСЃС‚Рѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РўР”
+     * Get the 'ExecutionPlace' element value. Место представления ТД
      * 
      * @return value
      */
@@ -260,7 +260,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExecutionPlace' element value. РњРµСЃС‚Рѕ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РўР”
+     * Set the 'ExecutionPlace' element value. Место представления ТД
      * 
      * @param executionPlace
      */
@@ -269,7 +269,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'RailwayStationCode' element value. РљРѕРґ Р¶/Рґ СЃС‚Р°РЅС†РёРё. Р“СЂ.50 РўР”
+     * Get the 'RailwayStationCode' element value. Код ж/д станции. Гр.50 ТД
      * 
      * @return value
      */
@@ -278,7 +278,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'RailwayStationCode' element value. РљРѕРґ Р¶/Рґ СЃС‚Р°РЅС†РёРё. Р“СЂ.50 РўР”
+     * Set the 'RailwayStationCode' element value. Код ж/д станции. Гр.50 ТД
      * 
      * @param railwayStationCode
      */
@@ -287,7 +287,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberDoc' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СЃРёСЃС‚РµРјРѕР№ (СЂРµРіР»Р°РјРµРЅС‚РѕРј) СѓС‡РµС‚Р° РёСЃС…РѕРґСЏС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ  РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ
+     * Get the 'RegNumberDoc' element value. Исходящий номер регистрации документов в соответствии с системой (регламентом) учета исходящих документов декларанта или таможенного представителя  в Республике Беларусь
      * 
      * @return value
      */
@@ -296,7 +296,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDoc' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СЃРёСЃС‚РµРјРѕР№ (СЂРµРіР»Р°РјРµРЅС‚РѕРј) СѓС‡РµС‚Р° РёСЃС…РѕРґСЏС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ  РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ
+     * Set the 'RegNumberDoc' element value. Исходящий номер регистрации документов в соответствии с системой (регламентом) учета исходящих документов декларанта или таможенного представителя  в Республике Беларусь
      * 
      * @param regNumberDoc
      */
@@ -305,7 +305,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExecutionDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ (РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ)
+     * Get the 'ExecutionDate' element value. Дата составления (представления)
      * 
      * @return value
      */
@@ -314,7 +314,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExecutionDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ (РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ)
+     * Set the 'ExecutionDate' element value. Дата составления (представления)
      * 
      * @param executionDate
      */
@@ -323,7 +323,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'SecurityLabelCode' element value. РљРѕРґ Р·Р°С‰РёС‚РЅРѕР№ РЅР°РєР»РµР№РєРё РґР»СЏ Р Рљ
+     * Get the 'SecurityLabelCode' element value. Код защитной наклейки для РК
      * 
      * @return value
      */
@@ -332,7 +332,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'SecurityLabelCode' element value. РљРѕРґ Р·Р°С‰РёС‚РЅРѕР№ РЅР°РєР»РµР№РєРё РґР»СЏ Р Рљ
+     * Set the 'SecurityLabelCode' element value. Код защитной наклейки для РК
      * 
      * @param securityLabelCode
      */
@@ -341,7 +341,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'ESADout_CUGoodsShipment' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the 'ESADout_CUGoodsShipment' element value. Сведения о товарной партии
      * 
      * @return value
      */
@@ -350,7 +350,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'ESADout_CUGoodsShipment' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the 'ESADout_CUGoodsShipment' element value. Сведения о товарной партии
      * 
      * @param ESADoutCUGoodsShipment
      */
@@ -360,7 +360,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'RBTechMarK' element value. РўРµС…РЅРёС‡РµСЃРєРёРµ РѕС‚РјРµС‚РєРё РґР»СЏ Р Р‘
+     * Get the 'RBTechMarK' element value. Технические отметки для РБ
      * 
      * @return value
      */
@@ -369,7 +369,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'RBTechMarK' element value. РўРµС…РЅРёС‡РµСЃРєРёРµ РѕС‚РјРµС‚РєРё РґР»СЏ Р Р‘
+     * Set the 'RBTechMarK' element value. Технические отметки для РБ
      * 
      * @param RBTechMarK
      */
@@ -378,7 +378,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'FilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РґРѕРєСѓРјРµРЅС‚
+     * Get the 'FilledPerson' element value. Сведения о лице, заполнившем документ
      * 
      * @return value
      */
@@ -387,7 +387,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'FilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РґРѕРєСѓРјРµРЅС‚
+     * Set the 'FilledPerson' element value. Сведения о лице, заполнившем документ
      * 
      * @param filledPerson
      */
@@ -396,7 +396,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'CUESADCustomsRepresentative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Get the 'CUESADCustomsRepresentative' element value. Таможенный представитель
      * 
      * @return value
      */
@@ -405,7 +405,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'CUESADCustomsRepresentative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Set the 'CUESADCustomsRepresentative' element value. Таможенный представитель
      * 
      * @param CUESADCustomsRepresentative
      */
@@ -415,7 +415,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°. (РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа. (Код документа в Альбоме форматов для РФ)
      * 
      * @return value
      */
@@ -424,7 +424,7 @@ public class ESADoutCUType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°. (РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа. (Код документа в Альбоме форматов для РФ)
      * 
      * @param documentModeID
      */

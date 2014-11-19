@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.measuringprotocol;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРІРµСЂРєРµ СЃСЂРµРґСЃС‚РІР° РёР·РјРµСЂРµРЅРёР№
+ * Сведения о поверке средства измерений
  */
 public class VerificationType
 {
@@ -13,7 +13,7 @@ public class VerificationType
     private String verificationCertificate;
 
     /** 
-     * Get the 'VerificationDate' element value. Р”Р°С‚Р° РїРѕРІРµСЂРєРё
+     * Get the 'VerificationDate' element value. Дата поверки
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class VerificationType
     }
 
     /** 
-     * Set the 'VerificationDate' element value. Р”Р°С‚Р° РїРѕРІРµСЂРєРё
+     * Set the 'VerificationDate' element value. Дата поверки
      * 
      * @param verificationDate
      */
@@ -31,7 +31,7 @@ public class VerificationType
     }
 
     /** 
-     * Get the 'VerificationOrg' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕРІРµСЂРѕС‡РЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'VerificationOrg' element value. Наименование поверочного органа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class VerificationType
     }
 
     /** 
-     * Set the 'VerificationOrg' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕРІРµСЂРѕС‡РЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'VerificationOrg' element value. Наименование поверочного органа
      * 
      * @param verificationOrg
      */
@@ -49,7 +49,7 @@ public class VerificationType
     }
 
     /** 
-     * Get the 'VerificationCertificate' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРІРµСЂРєРµ
+     * Get the 'VerificationCertificate' element value. Номер свидетельства о поверке
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class VerificationType
     }
 
     /** 
-     * Set the 'VerificationCertificate' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРІРµСЂРєРµ
+     * Set the 'VerificationCertificate' element value. Номер свидетельства о поверке
      * 
      * @param verificationCertificate
      */

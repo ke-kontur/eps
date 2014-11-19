@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.realestateexcerpt;
 
 /** 
- * РЎРїРѕСЃРѕР± РѕР±РјРµРЅР° РёРЅС„РѕСЂРјР°С†РёРµР№
+ * Способ обмена информацией
  */
 public class DeliveryType
 {
@@ -14,7 +14,7 @@ public class DeliveryType
     private String linkEmail;
 
     /** 
-     * Get the 'WebService' element value. РџСЂРёР·РЅР°Рє РѕС‚РїСЂР°РІРєРё XML-РґРѕРєСѓРјРµРЅС‚Р° СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РІСЌР±-СЃРµСЂРІРёСЃРѕРІ
+     * Get the 'WebService' element value. Признак отправки XML-документа с использованием вэб-сервисов
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DeliveryType
     }
 
     /** 
-     * Set the 'WebService' element value. РџСЂРёР·РЅР°Рє РѕС‚РїСЂР°РІРєРё XML-РґРѕРєСѓРјРµРЅС‚Р° СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РІСЌР±-СЃРµСЂРІРёСЃРѕРІ
+     * Set the 'WebService' element value. Признак отправки XML-документа с использованием вэб-сервисов
      * 
      * @param webService
      */
@@ -32,7 +32,7 @@ public class DeliveryType
     }
 
     /** 
-     * Get the 'InterDepartmentRequest' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ Р·Р°РїСЂРѕСЃ СЏРІР»СЏРµС‚СЃСЏ РјРµР¶РІРµРґРѕРјСЃС‚РІРµРЅРЅС‹Рј
+     * Get the 'InterDepartmentRequest' element value. Признак того, что запрос является межведомственным
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DeliveryType
     }
 
     /** 
-     * Set the 'InterDepartmentRequest' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ Р·Р°РїСЂРѕСЃ СЏРІР»СЏРµС‚СЃСЏ РјРµР¶РІРµРґРѕРјСЃС‚РІРµРЅРЅС‹Рј
+     * Set the 'InterDepartmentRequest' element value. Признак того, что запрос является межведомственным
      * 
      * @param interDepartmentRequest
      */
@@ -50,7 +50,7 @@ public class DeliveryType
     }
 
     /** 
-     * Get the 'NameOKU' element value. Р’ РІРёРґРµ Р±СѓРјР°Р¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РїСЂРё Р»РёС‡РЅРѕРј РѕР±СЂР°С‰РµРЅРёРё
+     * Get the 'NameOKU' element value. В виде бумажного документа при личном обращении
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class DeliveryType
     }
 
     /** 
-     * Set the 'NameOKU' element value. Р’ РІРёРґРµ Р±СѓРјР°Р¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РїСЂРё Р»РёС‡РЅРѕРј РѕР±СЂР°С‰РµРЅРёРё
+     * Set the 'NameOKU' element value. В виде бумажного документа при личном обращении
      * 
      * @param nameOKU
      */
@@ -68,7 +68,7 @@ public class DeliveryType
     }
 
     /** 
-     * Get the 'PostAddress' element value. Р’ РІРёРґРµ Р±СѓРјР°Р¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РїРѕСЃСЂРµРґСЃС‚РІРѕРј РїРѕС‡С‚РѕРІРѕРіРѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'PostAddress' element value. В виде бумажного документа посредством почтового отправления
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class DeliveryType
     }
 
     /** 
-     * Set the 'PostAddress' element value. Р’ РІРёРґРµ Р±СѓРјР°Р¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РїРѕСЃСЂРµРґСЃС‚РІРѕРј РїРѕС‡С‚РѕРІРѕРіРѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'PostAddress' element value. В виде бумажного документа посредством почтового отправления
      * 
      * @param postAddress
      */
@@ -86,7 +86,7 @@ public class DeliveryType
     }
 
     /** 
-     * Get the 'EmailAddress' element value. Р’ РІРёРґРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РїРѕСЃСЂРµРґСЃС‚РІРѕРј СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹
+     * Get the 'EmailAddress' element value. В виде электронного документа посредством электронной почты
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class DeliveryType
     }
 
     /** 
-     * Set the 'EmailAddress' element value. Р’ РІРёРґРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РїРѕСЃСЂРµРґСЃС‚РІРѕРј СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹
+     * Set the 'EmailAddress' element value. В виде электронного документа посредством электронной почты
      * 
      * @param emailAddress
      */
@@ -104,7 +104,7 @@ public class DeliveryType
     }
 
     /** 
-     * Get the 'LinkEmail' element value. Р’ РІРёРґРµ СЃСЃС‹Р»РєРё РЅР° СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚ РїРѕСЃСЂРµРґСЃС‚РІРѕРј СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹
+     * Get the 'LinkEmail' element value. В виде ссылки на электронный документ посредством электронной почты
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class DeliveryType
     }
 
     /** 
-     * Set the 'LinkEmail' element value. Р’ РІРёРґРµ СЃСЃС‹Р»РєРё РЅР° СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚ РїРѕСЃСЂРµРґСЃС‚РІРѕРј СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹
+     * Set the 'LinkEmail' element value. В виде ссылки на электронный документ посредством электронной почты
      * 
      * @param linkEmail
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.indulgencestatement;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+ * Сведения о заявителе
  */
 public class DeclarantType extends OrganizationType
 {
@@ -40,7 +40,7 @@ public class DeclarantType extends OrganizationType
     }
 
     /** 
-     * Get the 'NaturalPersonRegistration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ
+     * Get the 'NaturalPersonRegistration' element value. Сведения о государственной регистрации индивидуального предпринимателя
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class DeclarantType extends OrganizationType
     }
 
     /** 
-     * Set the 'NaturalPersonRegistration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ
+     * Set the 'NaturalPersonRegistration' element value. Сведения о государственной регистрации индивидуального предпринимателя
      * 
      * @param naturalPersonRegistration
      */
@@ -69,7 +69,7 @@ public class DeclarantType extends OrganizationType
     }
 
     /** 
-     * Get the 'JuridicalPersonRegistration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'JuridicalPersonRegistration' element value. Сведения о государственной регистрации юридического лица
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class DeclarantType extends OrganizationType
     }
 
     /** 
-     * Set the 'JuridicalPersonRegistration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'JuridicalPersonRegistration' element value. Сведения о государственной регистрации юридического лица
      * 
      * @param juridicalPersonRegistration
      */

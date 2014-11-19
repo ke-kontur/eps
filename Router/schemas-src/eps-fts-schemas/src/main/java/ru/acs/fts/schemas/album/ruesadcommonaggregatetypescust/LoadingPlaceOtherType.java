@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё. РРЅРѕРµ РјРµСЃС‚Рѕ РІС‹РіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ.
+ * Место погрузки/разгрузки. Иное место выгрузки товаров.
  */
 public class LoadingPlaceOtherType
 {
@@ -10,7 +10,7 @@ public class LoadingPlaceOtherType
     private String customsOfficeID;
 
     /** 
-     * Get the 'GoodsLoadingPlaceDesc' element value. РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ / РїРѕРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ / РЅР°Р·РІР°РЅРёРµ РјРѕСЂСЃРєРѕРіРѕ РёР»Рё СЂРµС‡РЅРѕРіРѕ РїРѕСЂС‚Р° 
+     * Get the 'GoodsLoadingPlaceDesc' element value. Место нахождения / погрузки товаров / название морского или речного порта 
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class LoadingPlaceOtherType
     }
 
     /** 
-     * Set the 'GoodsLoadingPlaceDesc' element value. РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ / РїРѕРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ / РЅР°Р·РІР°РЅРёРµ РјРѕСЂСЃРєРѕРіРѕ РёР»Рё СЂРµС‡РЅРѕРіРѕ РїРѕСЂС‚Р° 
+     * Set the 'GoodsLoadingPlaceDesc' element value. Место нахождения / погрузки товаров / название морского или речного порта 
      * 
      * @param goodsLoadingPlaceDesc
      */
@@ -28,7 +28,7 @@ public class LoadingPlaceOtherType
     }
 
     /** 
-     * Get the 'CustomsOfficeID' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ/РўРЎ/ РєРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ РјРµСЃС‚Рѕ  СЂР°Р·РіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ. 
+     * Get the 'CustomsOfficeID' element value. Код таможенного органа, владельца СВХ/ТС/ код таможенного органа, в регионе деятельности которого находится место  разгрузки товаров. 
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class LoadingPlaceOtherType
     }
 
     /** 
-     * Set the 'CustomsOfficeID' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ/РўРЎ/ РєРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ РјРµСЃС‚Рѕ  СЂР°Р·РіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ. 
+     * Set the 'CustomsOfficeID' element value. Код таможенного органа, владельца СВХ/ТС/ код таможенного органа, в регионе деятельности которого находится место  разгрузки товаров. 
      * 
      * @param customsOfficeID
      */

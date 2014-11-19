@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ Р¤РµРґРµСЂР°Р»СЊРЅРѕР№ СЃР»СѓР¶Р±С‹ РїРѕ С‚СЂСѓРґСѓ Рё Р·Р°РЅСЏС‚РѕСЃС‚Рё  С†РµР»РµРІРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РјР°С‚РµСЂРёР°Р»РѕРІ Рё РїСЂРµРґРјРµС‚РѕРІ РґР»СЏ СЃР»РµРїС‹С… Рё РґСЂСѓРіРёС… Р»РёС† СЃ С„РёР·РёС‡РµСЃРєРёРјРё РёР»Рё СѓРјСЃС‚РІРµРЅРЅС‹РјРё РЅРµРґРѕСЃС‚Р°С‚РєР°РјРё, РІРІРѕР·РёРјС‹С… РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ Р Р¤
+ * Подтверждение Федеральной службы по труду и занятости  целевого назначения материалов и предметов для слепых и других лиц с физическими или умственными недостатками, ввозимых на территорию РФ
  */
 public class RosTrudConfirmationType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class RosTrudConfirmationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'AgreementParagraph' element items. РџСѓРЅРєС‚ РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РЎРѕРіР»Р°С€РµРЅРёСЋ РёР»Рё РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РџСЂРѕС‚РѕРєРѕР»Сѓ
+     * Get the list of 'AgreementParagraph' element items. Пункт приложения к Соглашению или приложения к Протоколу
      * 
      * @return list
      */
@@ -33,7 +33,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AgreementParagraph' element items. РџСѓРЅРєС‚ РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РЎРѕРіР»Р°С€РµРЅРёСЋ РёР»Рё РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РџСЂРѕС‚РѕРєРѕР»Сѓ
+     * Set the list of 'AgreementParagraph' element items. Пункт приложения к Соглашению или приложения к Протоколу
      * 
      * @param list
      */
@@ -42,7 +42,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConfirmationInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё
+     * Get the 'ConfirmationInfo' element value. Сведения о подтверждении
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConfirmationInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё
+     * Set the 'ConfirmationInfo' element value. Сведения о подтверждении
      * 
      * @param confirmationInfo
      */
@@ -60,7 +60,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Importer' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РёРјРїРѕСЂС‚РµСЂРµ
+     * Get the 'Importer' element value. Сведения об импортере
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Importer' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РёРјРїРѕСЂС‚РµСЂРµ
+     * Set the 'Importer' element value. Сведения об импортере
      * 
      * @param importer
      */
@@ -78,7 +78,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
+     * Get the 'Contract' element value. Сведения о контракте
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
+     * Set the 'Contract' element value. Сведения о контракте
      * 
      * @param contract
      */
@@ -96,7 +96,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Get the list of 'Goods' element items. Сведения о товаре
      * 
      * @return list
      */
@@ -105,7 +105,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Set the list of 'Goods' element items. Сведения о товаре
      * 
      * @param list
      */
@@ -114,7 +114,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -132,7 +132,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
+     * Get the 'AuthorizedPerson' element value. Уполномоченное лицо
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
+     * Set the 'AuthorizedPerson' element value. Уполномоченное лицо
      * 
      * @param authorizedPerson
      */
@@ -150,7 +150,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class RosTrudConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

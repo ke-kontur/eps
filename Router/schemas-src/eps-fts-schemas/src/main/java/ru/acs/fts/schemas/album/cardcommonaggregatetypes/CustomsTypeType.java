@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cardcommonaggregatetypes;
 
 /** 
- * РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+ * Код и наименование таможенного органа
  */
 public class CustomsTypeType
 {
@@ -10,7 +10,7 @@ public class CustomsTypeType
     private String officeName;
 
     /** 
-     * Get the 'Code' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Code' element value. Код таможенного органа
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CustomsTypeType
     }
 
     /** 
-     * Set the 'Code' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Code' element value. Код таможенного органа
      * 
      * @param code
      */
@@ -28,7 +28,7 @@ public class CustomsTypeType
     }
 
     /** 
-     * Get the 'OfficeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'OfficeName' element value. Наименование таможенного органа
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CustomsTypeType
     }
 
     /** 
-     * Set the 'OfficeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'OfficeName' element value. Наименование таможенного органа
      * 
      * @param officeName
      */

@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р РµС€РµРЅРёРµ Рѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РўРќ Р’Р­Р”
+ * Решение о классификации товара в соответствии с ТН ВЭД
  */
 public class DecisionClassGoodType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class DecisionClassGoodType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param TNVEDCode
      */
@@ -46,7 +46,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Mark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
+     * Get the list of 'Mark' element items. Служебные отметки
      * 
      * @return list
      */
@@ -55,7 +55,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Mark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
+     * Set the list of 'Mark' element items. Служебные отметки
      * 
      * @param list
      */
@@ -64,7 +64,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Get the 'ClassDecisionChanges' element value. РЎРІРµРґРµРЅРёРµ РѕР± РѕС‚РјРµРЅРµ (РёР·РјРµРЅРµРЅРёРё) СЂРµС€РµРЅРёСЏ Рѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё
+     * Get the 'ClassDecisionChanges' element value. Сведение об отмене (изменении) решения о классификации
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the 'ClassDecisionChanges' element value. РЎРІРµРґРµРЅРёРµ РѕР± РѕС‚РјРµРЅРµ (РёР·РјРµРЅРµРЅРёРё) СЂРµС€РµРЅРёСЏ Рѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё
+     * Set the 'ClassDecisionChanges' element value. Сведение об отмене (изменении) решения о классификации
      * 
      * @param classDecisionChanges
      */
@@ -82,7 +82,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DepartmentalControl' element items. РЎРІРµРґРµРЅРёСЏ РїРѕ РІРµРґРѕРјСЃС‚РІРµРЅРЅРѕРјСѓ РєРѕРЅС‚СЂРѕР»СЋ
+     * Get the list of 'DepartmentalControl' element items. Сведения по ведомственному контролю
      * 
      * @return list
      */
@@ -91,7 +91,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DepartmentalControl' element items. РЎРІРµРґРµРЅРёСЏ РїРѕ РІРµРґРѕРјСЃС‚РІРµРЅРЅРѕРјСѓ РєРѕРЅС‚СЂРѕР»СЋ
+     * Set the list of 'DepartmentalControl' element items. Сведения по ведомственному контролю
      * 
      * @param list
      */
@@ -100,7 +100,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Get the 'InterpretationRules' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ. РџСЂР°РІРёР»Р° РёРЅС‚РµСЂРїСЂРµС‚Р°С†РёРё
+     * Get the 'InterpretationRules' element value. Обоснование принятия решения. Правила интерпретации
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the 'InterpretationRules' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ. РџСЂР°РІРёР»Р° РёРЅС‚РµСЂРїСЂРµС‚Р°С†РёРё
+     * Set the 'InterpretationRules' element value. Обоснование принятия решения. Правила интерпретации
      * 
      * @param interpretationRules
      */
@@ -118,7 +118,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Наименование таможенного органа
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Наименование таможенного органа
      * 
      * @param customs
      */
@@ -136,7 +136,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Р”РµРєР»Р°СЂР°РЅС‚
+     * Get the 'Declarant' element value. Декларант
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Р”РµРєР»Р°СЂР°РЅС‚
+     * Set the 'Declarant' element value. Декларант
      * 
      * @param declarant
      */
@@ -154,7 +154,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @param registrationNumber
      */
@@ -172,7 +172,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Get the 'Goods' element value. РўРѕРІР°СЂ
+     * Get the 'Goods' element value. Товар
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the 'Goods' element value. РўРѕРІР°СЂ
+     * Set the 'Goods' element value. Товар
      * 
      * @param goods
      */
@@ -190,7 +190,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'PersonSignature' element value. Подпись должностного лица таможенного органа
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'PersonSignature' element value. Подпись должностного лица таможенного органа
      * 
      * @param personSignature
      */
@@ -208,7 +208,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'RegNumberDT' element value. Регистрационный номер ДТ
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'RegNumberDT' element value. Регистрационный номер ДТ
      * 
      * @param regNumberDT
      */
@@ -226,7 +226,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExpertDecision' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ. Р—Р°РєР»СЋС‡РµРЅРёРµ СЌРєСЃРїРµСЂС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'ExpertDecision' element value. Обоснование принятия решения. Заключение экспертной организации
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExpertDecision' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ. Р—Р°РєР»СЋС‡РµРЅРёРµ СЌРєСЃРїРµСЂС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'ExpertDecision' element value. Обоснование принятия решения. Заключение экспертной организации
      * 
      * @param expertDecision
      */
@@ -244,7 +244,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class DecisionClassGoodType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

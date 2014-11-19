@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.licensesubsoiluse;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+ * Регистрационный номер
  */
 public class RegistrationNumberType
 {
@@ -11,7 +11,7 @@ public class RegistrationNumberType
     private String licenseType;
 
     /** 
-     * Get the 'Series' element value. РЎРµСЂРёСЏ Р»РёС†РµРЅР·РёРё
+     * Get the 'Series' element value. Серия лицензии
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'Series' element value. РЎРµСЂРёСЏ Р»РёС†РµРЅР·РёРё
+     * Set the 'Series' element value. Серия лицензии
      * 
      * @param series
      */
@@ -29,7 +29,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё
+     * Get the 'Number' element value. Номер лицензии
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё
+     * Set the 'Number' element value. Номер лицензии
      * 
      * @param number
      */
@@ -47,7 +47,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'LicenseType' element value. Р’РёРґ Р»РёС†РµРЅР·РёРё
+     * Get the 'LicenseType' element value. Вид лицензии
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'LicenseType' element value. Р’РёРґ Р»РёС†РµРЅР·РёРё
+     * Set the 'LicenseType' element value. Вид лицензии
      * 
      * @param licenseType
      */

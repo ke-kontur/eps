@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… РїСЂР°РІРѕ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
+ * Информация о документах, подтверждающих право собственности
  */
 public class OwnershipDocInfoType extends DocumentBaseType
 {
@@ -19,7 +19,7 @@ public class OwnershipDocInfoType extends DocumentBaseType
     private OrganizationBaseType licensor;
 
     /** 
-     * Get the list of 'ObjectName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕР±СЉРµРєС‚Р° РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
+     * Get the list of 'ObjectName' element items. Наименование объекта интеллектуальной собственности
      * 
      * @return list
      */
@@ -28,7 +28,7 @@ public class OwnershipDocInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the list of 'ObjectName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕР±СЉРµРєС‚Р° РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё
+     * Set the list of 'ObjectName' element items. Наименование объекта интеллектуальной собственности
      * 
      * @param list
      */
@@ -37,7 +37,7 @@ public class OwnershipDocInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ContractTerms' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РґРѕРіРѕРІРѕСЂР°
+     * Get the 'ContractTerms' element value. Срок действия договора
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class OwnershipDocInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ContractTerms' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РґРѕРіРѕРІРѕСЂР°
+     * Set the 'ContractTerms' element value. Срок действия договора
      * 
      * @param contractTerms
      */
@@ -55,7 +55,7 @@ public class OwnershipDocInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'OwnershipKind' element value. Р’РёРґ РїСЂР°РІР°: 0 - РЅРµРёСЃРєР»СЋС‡РёС‚РµР»СЊРЅРѕРµ, 1- РёСЃРєР»СЋС‡РёС‚РµР»СЊРЅРѕРµ
+     * Get the 'OwnershipKind' element value. Вид права: 0 - неисключительное, 1- исключительное
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class OwnershipDocInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'OwnershipKind' element value. Р’РёРґ РїСЂР°РІР°: 0 - РЅРµРёСЃРєР»СЋС‡РёС‚РµР»СЊРЅРѕРµ, 1- РёСЃРєР»СЋС‡РёС‚РµР»СЊРЅРѕРµ
+     * Set the 'OwnershipKind' element value. Вид права: 0 - неисключительное, 1- исключительное
      * 
      * @param ownershipKind
      */
@@ -73,7 +73,7 @@ public class OwnershipDocInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Licensee' element value. Р›РёС†РµРЅР·РёР°С‚
+     * Get the 'Licensee' element value. Лицензиат
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class OwnershipDocInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Licensee' element value. Р›РёС†РµРЅР·РёР°С‚
+     * Set the 'Licensee' element value. Лицензиат
      * 
      * @param licensee
      */
@@ -91,7 +91,7 @@ public class OwnershipDocInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Licensor' element value. Р›РёС†РµРЅР·РёР°СЂ
+     * Get the 'Licensor' element value. Лицензиар
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class OwnershipDocInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Licensor' element value. Р›РёС†РµРЅР·РёР°СЂ
+     * Set the 'Licensor' element value. Лицензиар
      * 
      * @param licensor
      */

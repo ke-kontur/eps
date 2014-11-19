@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.cardcommonaggregatetypes.BaseDocType;
 
 /** 
- * Р­Р»РµРєС‚СЂРѕРЅРЅС‹Р№ С‡РµРє РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ СѓРїР»Р°С‚С‹
+ * Электронный чек подтверждения уплаты
  */
 public class PaymentTransactionReportType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class PaymentTransactionReportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentDate' element value. Р”Р°С‚Р° С‡РµРєР°
+     * Get the 'DocumentDate' element value. Дата чека
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Р”Р°С‚Р° С‡РµРєР°
+     * Set the 'DocumentDate' element value. Дата чека
      * 
      * @param documentDate
      */
@@ -39,7 +39,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'RemotePaymentSign' element value. РџСЂРёР·РЅР°Рє СѓРґР°Р»РµРЅРЅРѕР№ РѕРїР»Р°С‚С‹. 0 - РѕРїР»Р°С‚Р° С‡РµСЂРµР· СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ С‚РµСЂРјРёРЅР°Р», РїР»Р°С‚РµР¶РЅС‹Р№ С‚РµСЂРјРёРЅР°Р», Р±Р°РЅРєРѕРјР°С‚, СЂР°СЃРїРѕР»РѕР¶РµРЅРЅС‹Рµ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РўРћ. 1 - РѕРїР»Р°С‚Р° С‡РµСЂРµР· СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ С‚РµСЂРјРёРЅР°Р», РїР»Р°С‚РµР¶РЅС‹Р№ С‚РµСЂРјРёРЅР°Р», Р±Р°РЅРєРѕРјР°С‚, СЂР°СЃРїРѕР»РѕР¶РµРЅРЅС‹Рµ РІРЅРµ С‚РµСЂСЂРёС‚РѕСЂРёРё РўРћ (С‚РµРєСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ 0)
+     * Get the 'RemotePaymentSign' element value. Признак удаленной оплаты. 0 - оплата через электронный терминал, платежный терминал, банкомат, расположенные на территории ТО. 1 - оплата через электронный терминал, платежный терминал, банкомат, расположенные вне территории ТО (текущее значение 0)
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'RemotePaymentSign' element value. РџСЂРёР·РЅР°Рє СѓРґР°Р»РµРЅРЅРѕР№ РѕРїР»Р°С‚С‹. 0 - РѕРїР»Р°С‚Р° С‡РµСЂРµР· СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ С‚РµСЂРјРёРЅР°Р», РїР»Р°С‚РµР¶РЅС‹Р№ С‚РµСЂРјРёРЅР°Р», Р±Р°РЅРєРѕРјР°С‚, СЂР°СЃРїРѕР»РѕР¶РµРЅРЅС‹Рµ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РўРћ. 1 - РѕРїР»Р°С‚Р° С‡РµСЂРµР· СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ С‚РµСЂРјРёРЅР°Р», РїР»Р°С‚РµР¶РЅС‹Р№ С‚РµСЂРјРёРЅР°Р», Р±Р°РЅРєРѕРјР°С‚, СЂР°СЃРїРѕР»РѕР¶РµРЅРЅС‹Рµ РІРЅРµ С‚РµСЂСЂРёС‚РѕСЂРёРё РўРћ (С‚РµРєСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ 0)
+     * Set the 'RemotePaymentSign' element value. Признак удаленной оплаты. 0 - оплата через электронный терминал, платежный терминал, банкомат, расположенные на территории ТО. 1 - оплата через электронный терминал, платежный терминал, банкомат, расположенные вне территории ТО (текущее значение 0)
      * 
      * @param remotePaymentSign
      */
@@ -57,7 +57,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResendingFlag' element value. Р¤Р»Р°Рі РїРѕРІС‚РѕСЂРЅРѕР№ РѕС‚РїСЂР°РІРєРё. 0 - РґРѕРєСѓРјРµРЅС‚ РѕС‚РїСЂР°РІР»СЏРµС‚СЃСЏ РІРїРµСЂРІС‹Рµ. 1 - РґРѕРєСѓРјРµРЅС‚ СѓР¶Рµ РѕС‚РїСЂР°РІР»СЏР»СЃСЏ
+     * Get the 'ResendingFlag' element value. Флаг повторной отправки. 0 - документ отправляется впервые. 1 - документ уже отправлялся
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResendingFlag' element value. Р¤Р»Р°Рі РїРѕРІС‚РѕСЂРЅРѕР№ РѕС‚РїСЂР°РІРєРё. 0 - РґРѕРєСѓРјРµРЅС‚ РѕС‚РїСЂР°РІР»СЏРµС‚СЃСЏ РІРїРµСЂРІС‹Рµ. 1 - РґРѕРєСѓРјРµРЅС‚ СѓР¶Рµ РѕС‚РїСЂР°РІР»СЏР»СЃСЏ
+     * Set the 'ResendingFlag' element value. Флаг повторной отправки. 0 - документ отправляется впервые. 1 - документ уже отправлялся
      * 
      * @param resendingFlag
      */
@@ -75,7 +75,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentStatusFlag' element value. Р¤Р»Р°Рі СЃРѕСЃС‚РѕСЏРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°. 1 - РЅРѕРІС‹Р№ РґРѕРєСѓРјРµРЅС‚ (РѕС‚РїСЂР°РІР»СЏРµС‚СЃСЏ РІРїРµСЂРІС‹Рµ), 2 - РёСЃРїСЂР°РІР»РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° (РёСЃРїСЂР°РІР»РµРЅРЅР°СЏ РІРµСЂСЃРёСЏ РґРѕРєСѓРјРµРЅС‚Р°)
+     * Get the 'DocumentStatusFlag' element value. Флаг состояния документа. 1 - новый документ (отправляется впервые), 2 - исправление документа (исправленная версия документа)
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentStatusFlag' element value. Р¤Р»Р°Рі СЃРѕСЃС‚РѕСЏРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°. 1 - РЅРѕРІС‹Р№ РґРѕРєСѓРјРµРЅС‚ (РѕС‚РїСЂР°РІР»СЏРµС‚СЃСЏ РІРїРµСЂРІС‹Рµ), 2 - РёСЃРїСЂР°РІР»РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° (РёСЃРїСЂР°РІР»РµРЅРЅР°СЏ РІРµСЂСЃРёСЏ РґРѕРєСѓРјРµРЅС‚Р°)
+     * Set the 'DocumentStatusFlag' element value. Флаг состояния документа. 1 - новый документ (отправляется впервые), 2 - исправление документа (исправленная версия документа)
      * 
      * @param documentStatusFlag
      */
@@ -93,7 +93,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProcessID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµРґСѓСЂС‹ Р­Р” (GUID)
+     * Get the 'ProcessID' element value. Уникальный идентификатор процедуры ЭД (GUID)
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcessID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµРґСѓСЂС‹ Р­Р” (GUID)
+     * Set the 'ProcessID' element value. Уникальный идентификатор процедуры ЭД (GUID)
      * 
      * @param processID
      */
@@ -111,7 +111,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер документа
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер документа
      * 
      * @param documentNumber
      */
@@ -129,7 +129,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentInformation' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Рµ
+     * Get the 'PaymentInformation' element value. Сведения о платеже
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentInformation' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Рµ
+     * Set the 'PaymentInformation' element value. Сведения о платеже
      * 
      * @param paymentInformation
      */
@@ -147,7 +147,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'PayerInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
+     * Get the 'PayerInfo' element value. Информация о плательщике
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'PayerInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
+     * Set the 'PayerInfo' element value. Информация о плательщике
      * 
      * @param payerInfo
      */
@@ -165,7 +165,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Recipient' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Get the 'Recipient' element value. Сведения о получателе
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Recipient' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Set the 'Recipient' element value. Сведения о получателе
      * 
      * @param recipient
      */
@@ -183,7 +183,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -192,7 +192,7 @@ public class PaymentTransactionReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.airwaybill;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ РіСЂСѓР·Р°
+ * Описание перемещения груза
  */
 public class GoodsMovementType
 {
@@ -14,7 +14,7 @@ public class GoodsMovementType
     private String carrierCode;
 
     /** 
-     * Get the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
+     * Get the 'FlightNumber' element value. Номер рейса
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class GoodsMovementType
     }
 
     /** 
-     * Set the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР°
+     * Set the 'FlightNumber' element value. Номер рейса
      * 
      * @param flightNumber
      */
@@ -32,7 +32,7 @@ public class GoodsMovementType
     }
 
     /** 
-     * Get the 'FlightDate' element value. Р”РµРЅСЊ РІС‹Р»РµС‚Р° РґР»СЏ С‚СЂР°РЅСЃС„РµСЂС‚РЅРѕРіРѕ РіСЂСѓР·Р°
+     * Get the 'FlightDate' element value. День вылета для трансфертного груза
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class GoodsMovementType
     }
 
     /** 
-     * Set the 'FlightDate' element value. Р”РµРЅСЊ РІС‹Р»РµС‚Р° РґР»СЏ С‚СЂР°РЅСЃС„РµСЂС‚РЅРѕРіРѕ РіСЂСѓР·Р°
+     * Set the 'FlightDate' element value. День вылета для трансфертного груза
      * 
      * @param flightDate
      */
@@ -50,7 +50,7 @@ public class GoodsMovementType
     }
 
     /** 
-     * Get the 'NumPP' element value. РќРѕРјРµСЂ РїРµСЂРµРІРѕР·С‡РёРєР°  РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ 1 - РїРµСЂРІС‹Р№, 2 -  РІС‚РѕСЂРѕР№ Рё С‚.Рґ.
+     * Get the 'NumPP' element value. Номер перевозчика  по документу 1 - первый, 2 -  второй и т.д.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class GoodsMovementType
     }
 
     /** 
-     * Set the 'NumPP' element value. РќРѕРјРµСЂ РїРµСЂРµРІРѕР·С‡РёРєР°  РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ 1 - РїРµСЂРІС‹Р№, 2 -  РІС‚РѕСЂРѕР№ Рё С‚.Рґ.
+     * Set the 'NumPP' element value. Номер перевозчика  по документу 1 - первый, 2 -  второй и т.д.
      * 
      * @param numPP
      */
@@ -68,7 +68,7 @@ public class GoodsMovementType
     }
 
     /** 
-     * Get the 'DestinationPlace' element value. РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationPlace' element value. Пункт назначения
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class GoodsMovementType
     }
 
     /** 
-     * Set the 'DestinationPlace' element value. РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationPlace' element value. Пункт назначения
      * 
      * @param destinationPlace
      */
@@ -86,7 +86,7 @@ public class GoodsMovementType
     }
 
     /** 
-     * Get the 'CarrierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР°
+     * Get the 'CarrierName' element value. Наименование перевозчика
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class GoodsMovementType
     }
 
     /** 
-     * Set the 'CarrierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРµРІРѕР·С‡РёРєР°
+     * Set the 'CarrierName' element value. Наименование перевозчика
      * 
      * @param carrierName
      */
@@ -104,7 +104,7 @@ public class GoodsMovementType
     }
 
     /** 
-     * Get the 'CarrierCode' element value. РљРѕРґ Р°РІРёР°РїРµСЂРµРІРѕР·С‡РёРєР°.
+     * Get the 'CarrierCode' element value. Код авиаперевозчика.
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class GoodsMovementType
     }
 
     /** 
-     * Set the 'CarrierCode' element value. РљРѕРґ Р°РІРёР°РїРµСЂРµРІРѕР·С‡РёРєР°.
+     * Set the 'CarrierCode' element value. Код авиаперевозчика.
      * 
      * @param carrierCode
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РРЎРЎ "РњР°Р»Р°С…РёС‚"
+ * Информация ИСС "Малахит"
  */
 public class ResponseMCAType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class ResponseMCAType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentHead' element value. Р—Р°РіРѕР»РѕРІРѕРє РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentHead' element value. Заголовок документа
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ResponseMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentHead' element value. Р—Р°РіРѕР»РѕРІРѕРє РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentHead' element value. Заголовок документа
      * 
      * @param documentHead
      */
@@ -35,7 +35,7 @@ public class ResponseMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentBody' element value. РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentBody' element value. Тело документа
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ResponseMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentBody' element value. РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentBody' element value. Тело документа
      * 
      * @param documentBody
      */
@@ -53,7 +53,7 @@ public class ResponseMCAType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DocumentSign' element items. РџРѕРґРїРёСЃРё
+     * Get the list of 'DocumentSign' element items. Подписи
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class ResponseMCAType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DocumentSign' element items. РџРѕРґРїРёСЃРё
+     * Set the list of 'DocumentSign' element items. Подписи
      * 
      * @param list
      */
@@ -71,7 +71,7 @@ public class ResponseMCAType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class ResponseMCAType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

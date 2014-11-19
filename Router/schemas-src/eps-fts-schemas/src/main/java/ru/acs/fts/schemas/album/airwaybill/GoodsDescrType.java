@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
+ * Описание груза
  */
 public class GoodsDescrType
 {
@@ -13,7 +13,7 @@ public class GoodsDescrType
     private List<String> goodsDescriptionList = new ArrayList<String>();
 
     /** 
-     * Get the 'InformationCode' element value. РљРѕРґ  РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'InformationCode' element value. Код  информации
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GoodsDescrType
     }
 
     /** 
-     * Set the 'InformationCode' element value. РљРѕРґ  РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'InformationCode' element value. Код  информации
      * 
      * @param informationCode
      */
@@ -31,7 +31,7 @@ public class GoodsDescrType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° /  РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the list of 'GoodsDescription' element items. Описание товара /  дополнительная информация
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class GoodsDescrType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° /  РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the list of 'GoodsDescription' element items. Описание товара /  дополнительная информация
      * 
      * @param list
      */

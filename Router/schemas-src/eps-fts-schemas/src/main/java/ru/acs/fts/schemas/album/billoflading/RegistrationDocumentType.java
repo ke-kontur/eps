@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.billoflading;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РєРѕРЅРѕСЃР°РјРµРЅС‚Р°.
+ * Информация о регистрации коносамента.
  */
 public class RegistrationDocumentType extends DocumentBaseType
 {
     private String place;
 
     /** 
-     * Get the 'Place' element value. РњРµСЃС‚Рѕ РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'Place' element value. Место выдачи документа.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class RegistrationDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Place' element value. РњРµСЃС‚Рѕ РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'Place' element value. Место выдачи документа.
      * 
      * @param place
      */

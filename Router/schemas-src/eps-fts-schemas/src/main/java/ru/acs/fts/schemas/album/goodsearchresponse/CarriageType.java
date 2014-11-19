@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+ * Сведения о транспортном средстве
  */
 public class CarriageType extends TransportMeansBaseType
 {
@@ -15,7 +15,7 @@ public class CarriageType extends TransportMeansBaseType
     private List<GoodsInfoType> goodsInfoList = new ArrayList<GoodsInfoType>();
 
     /** 
-     * Get the 'ArrivalDate' element value. Р”Р°С‚Р° РїСЂРёР±С‹С‚РёСЏ
+     * Get the 'ArrivalDate' element value. Дата прибытия
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class CarriageType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the 'ArrivalDate' element value. Р”Р°С‚Р° РїСЂРёР±С‹С‚РёСЏ
+     * Set the 'ArrivalDate' element value. Дата прибытия
      * 
      * @param arrivalDate
      */
@@ -33,7 +33,7 @@ public class CarriageType extends TransportMeansBaseType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsInfo' element items. Описание товара
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class CarriageType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsInfo' element items. Описание товара
      * 
      * @param list
      */

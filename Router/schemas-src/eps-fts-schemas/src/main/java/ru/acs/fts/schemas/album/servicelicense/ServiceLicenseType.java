@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· Р»РёС†РµРЅР·РёРё РЅР° РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёРµ РїРµСЂРµРІРѕР·РѕРє РІРѕР·РґСѓС€РЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј РіСЂСѓР·РѕРІ Рё РїР°СЃСЃР°Р¶РёСЂРѕРІ РґР»СЏ СЋСЂ. Р»РёС†/РёР· СЂРµРµСЃС‚СЂР° СЃРµСЂС‚РёС„РёРєР°С‚РѕРІ РЅР° РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ Рё СЂРµРјРѕРЅС‚ Р°РІРёР°С†РёРѕРЅРЅРѕР№ С‚РµС…РЅРёРєРё, РІ С‚РѕРј С‡РёСЃР»Рµ Р°РІРёР°С†РёРѕРЅРЅРѕР№ С‚РµС…РЅРёРєРё РґРІРѕР№РЅРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ/Рѕ РЅР°Р»РёС‡РёРё Р»РёС†РµРЅР·РёРё РЅР° РїСЂР°РІРѕ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ СЃС‚СЂР°С…РѕРІРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё/РёР· СЂРµРµСЃС‚СЂР° Р»РёС†РµРЅР·РёР№ РЅР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚СЊ РїРѕ РїРµСЂРµРІРѕР·РєР°Рј РІРЅСѓС‚СЂРµРЅРЅРёРј РІРѕРґРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј, РјРѕСЂСЃРєРёРј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј РѕРїР°СЃРЅС‹С… РіСЂСѓР·РѕРІ/РёР· СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ РґРѕРїСѓСЃРєР° Рє РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЋ РјРµР¶РґСѓРЅР°СЂРѕРґРЅС‹С… Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹С… РїРµСЂРµРІРѕР·РѕРє
+ * Сведения из лицензии на осуществление перевозок воздушным транспортом грузов и пассажиров для юр. лиц/из реестра сертификатов на обслуживание и ремонт авиационной техники, в том числе авиационной техники двойного назначения/о наличии лицензии на право осуществления страховой деятельности/из реестра лицензий на деятельность по перевозкам внутренним водным транспортом, морским транспортом опасных грузов/из удостоверения допуска к осуществлению международных автомобильных перевозок
  */
 public class ServiceLicenseType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class ServiceLicenseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. РЎРІРµРґРµРЅРёСЏ: 1 - РёР· Р»РёС†РµРЅР·РёРё РЅР° РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёРµ РїРµСЂРµРІРѕР·РѕРє РІРѕР·РґСѓС€РЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј РіСЂСѓР·РѕРІ Рё РїР°СЃСЃР°Р¶РёСЂРѕРІ РґР»СЏ СЋСЂ. Р»РёС†; 2 - РёР· СЂРµРµСЃС‚СЂР° СЃРµСЂС‚РёС„РёРєР°С‚РѕРІ РЅР° РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ Рё СЂРµРјРѕРЅС‚ Р°РІРёР°С†РёРѕРЅРЅРѕР№ С‚РµС…РЅРёРєРё, РІ С‚РѕРј С‡РёСЃР»Рµ Р°РІРёР°С†РёРѕРЅРЅРѕР№ С‚РµС…РЅРёРєРё РґРІРѕР№РЅРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ; 3 - Рѕ РЅР°Р»РёС‡РёРё Р»РёС†РµРЅР·РёРё РЅР° РїСЂР°РІРѕ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ СЃС‚СЂР°С…РѕРІРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё; 4 - РёР· СЂРµРµСЃС‚СЂР° Р»РёС†РµРЅР·РёР№ РЅР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚СЊ РїРѕ РїРµСЂРµРІРѕР·РєР°Рј РІРЅСѓС‚СЂРµРЅРЅРёРј РІРѕРґРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј, РјРѕСЂСЃРєРёРј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј РѕРїР°СЃРЅС‹С… РіСЂСѓР·РѕРІ; 5 - РёР· СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ РґРѕРїСѓСЃРєР° Рє РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЋ РјРµР¶РґСѓРЅР°СЂРѕРґРЅС‹С… Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹С… РїРµСЂРµРІРѕР·РѕРє
+     * Get the 'DocSign' element value. Сведения: 1 - из лицензии на осуществление перевозок воздушным транспортом грузов и пассажиров для юр. лиц; 2 - из реестра сертификатов на обслуживание и ремонт авиационной техники, в том числе авиационной техники двойного назначения; 3 - о наличии лицензии на право осуществления страховой деятельности; 4 - из реестра лицензий на деятельность по перевозкам внутренним водным транспортом, морским транспортом опасных грузов; 5 - из удостоверения допуска к осуществлению международных автомобильных перевозок
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РЎРІРµРґРµРЅРёСЏ: 1 - РёР· Р»РёС†РµРЅР·РёРё РЅР° РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёРµ РїРµСЂРµРІРѕР·РѕРє РІРѕР·РґСѓС€РЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј РіСЂСѓР·РѕРІ Рё РїР°СЃСЃР°Р¶РёСЂРѕРІ РґР»СЏ СЋСЂ. Р»РёС†; 2 - РёР· СЂРµРµСЃС‚СЂР° СЃРµСЂС‚РёС„РёРєР°С‚РѕРІ РЅР° РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ Рё СЂРµРјРѕРЅС‚ Р°РІРёР°С†РёРѕРЅРЅРѕР№ С‚РµС…РЅРёРєРё, РІ С‚РѕРј С‡РёСЃР»Рµ Р°РІРёР°С†РёРѕРЅРЅРѕР№ С‚РµС…РЅРёРєРё РґРІРѕР№РЅРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ; 3 - Рѕ РЅР°Р»РёС‡РёРё Р»РёС†РµРЅР·РёРё РЅР° РїСЂР°РІРѕ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ СЃС‚СЂР°С…РѕРІРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё; 4 - РёР· СЂРµРµСЃС‚СЂР° Р»РёС†РµРЅР·РёР№ РЅР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚СЊ РїРѕ РїРµСЂРµРІРѕР·РєР°Рј РІРЅСѓС‚СЂРµРЅРЅРёРј РІРѕРґРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј, РјРѕСЂСЃРєРёРј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј РѕРїР°СЃРЅС‹С… РіСЂСѓР·РѕРІ; 5 - РёР· СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ РґРѕРїСѓСЃРєР° Рє РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЋ РјРµР¶РґСѓРЅР°СЂРѕРґРЅС‹С… Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹С… РїРµСЂРµРІРѕР·РѕРє
+     * Set the 'DocSign' element value. Сведения: 1 - из лицензии на осуществление перевозок воздушным транспортом грузов и пассажиров для юр. лиц; 2 - из реестра сертификатов на обслуживание и ремонт авиационной техники, в том числе авиационной техники двойного назначения; 3 - о наличии лицензии на право осуществления страховой деятельности; 4 - из реестра лицензий на деятельность по перевозкам внутренним водным транспортом, морским транспортом опасных грузов; 5 - из удостоверения допуска к осуществлению международных автомобильных перевозок
      * 
      * @param docSign
      */
@@ -43,7 +43,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionNum' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ
+     * Get the 'DecisionNum' element value. Номер решения
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionNum' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ
+     * Set the 'DecisionNum' element value. Номер решения
      * 
      * @param decisionNum
      */
@@ -61,7 +61,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ
+     * Get the 'DecisionDate' element value. Дата решения
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ
+     * Set the 'DecisionDate' element value. Дата решения
      * 
      * @param decisionDate
      */
@@ -79,7 +79,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorityOrg' element value. РћСЂРіР°РЅ РІР»Р°СЃС‚Рё
+     * Get the 'AuthorityOrg' element value. Орган власти
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorityOrg' element value. РћСЂРіР°РЅ РІР»Р°СЃС‚Рё
+     * Set the 'AuthorityOrg' element value. Орган власти
      * 
      * @param authorityOrg
      */
@@ -97,7 +97,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'License' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/СЃРµСЂС‚РёС„РёРєР°С‚Рµ
+     * Get the 'License' element value. Сведения о лицензии/сертификате
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'License' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/СЃРµСЂС‚РёС„РёРєР°С‚Рµ
+     * Set the 'License' element value. Сведения о лицензии/сертификате
      * 
      * @param license
      */
@@ -115,7 +115,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'Licensee' element value. Р›РёС†РµРЅР·РёР°С‚/РЎРµСЂС‚РёС„РёС†РёСЂСѓРµРјРѕРµ Р»РёС†Рѕ
+     * Get the 'Licensee' element value. Лицензиат/Сертифицируемое лицо
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Licensee' element value. Р›РёС†РµРЅР·РёР°С‚/РЎРµСЂС‚РёС„РёС†РёСЂСѓРµРјРѕРµ Р»РёС†Рѕ
+     * Set the 'Licensee' element value. Лицензиат/Сертифицируемое лицо
      * 
      * @param licensee
      */
@@ -133,7 +133,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
+     * Get the 'AuthorizedPerson' element value. Уполномоченное лицо
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
+     * Set the 'AuthorizedPerson' element value. Уполномоченное лицо
      * 
      * @param authorizedPerson
      */
@@ -151,7 +151,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ServiceDescription' element items. РћРїРёСЃР°РЅРёРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Get the list of 'ServiceDescription' element items. Описание деятельности
      * 
      * @return list
      */
@@ -160,7 +160,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ServiceDescription' element items. РћРїРёСЃР°РЅРёРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Set the list of 'ServiceDescription' element items. Описание деятельности
      * 
      * @param list
      */
@@ -169,7 +169,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ServicePlace' element items. РњРµСЃС‚Рѕ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Get the list of 'ServicePlace' element items. Место осуществления деятельности
      * 
      * @return list
      */
@@ -178,7 +178,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ServicePlace' element items. РњРµСЃС‚Рѕ РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Set the list of 'ServicePlace' element items. Место осуществления деятельности
      * 
      * @param list
      */
@@ -187,7 +187,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class ServiceLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

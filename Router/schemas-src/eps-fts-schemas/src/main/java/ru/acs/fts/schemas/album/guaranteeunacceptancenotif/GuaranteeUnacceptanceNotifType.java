@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+ * Уведомление о невозможности использования обеспечения
  */
 public class GuaranteeUnacceptanceNotifType extends BaseDocType
 {
@@ -45,7 +45,7 @@ public class GuaranteeUnacceptanceNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'TDNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+     * Get the 'TDNumber' element value. Номер транзитной декларации
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class GuaranteeUnacceptanceNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'TDNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+     * Set the 'TDNumber' element value. Номер транзитной декларации
      * 
      * @param TDNumber
      */
@@ -73,7 +73,7 @@ public class GuaranteeUnacceptanceNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIRID' element value. Номер книжки МДП
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class GuaranteeUnacceptanceNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIRID' element value. Номер книжки МДП
      * 
      * @param TIRID
      */
@@ -92,7 +92,7 @@ public class GuaranteeUnacceptanceNotifType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GuaranteeUnacceptanceInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Get the list of 'GuaranteeUnacceptanceInfo' element items. Сведения о невозможности использования обеспечения
      * 
      * @return list
      */
@@ -101,7 +101,7 @@ public class GuaranteeUnacceptanceNotifType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GuaranteeUnacceptanceInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Set the list of 'GuaranteeUnacceptanceInfo' element items. Сведения о невозможности использования обеспечения
      * 
      * @param list
      */
@@ -111,7 +111,7 @@ public class GuaranteeUnacceptanceNotifType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class GuaranteeUnacceptanceNotifType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

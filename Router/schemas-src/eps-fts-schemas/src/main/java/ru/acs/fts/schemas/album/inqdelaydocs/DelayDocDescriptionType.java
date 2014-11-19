@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.inqdelaydocs;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.DocumentDescriptionType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚РѕРІ, РєРѕС‚РѕСЂС‹Рµ РїСЂРµРґРїРѕР»Р°РіР°РµС‚СЃСЏ РїСЂРµРґСЃС‚Р°РІРёС‚СЊ РІ РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ СЃСЂРѕРє
+ * Описание документов, которые предполагается представить в определенный срок
  */
 public class DelayDocDescriptionType extends DocumentDescriptionType
 {
@@ -13,7 +13,7 @@ public class DelayDocDescriptionType extends DocumentDescriptionType
     private String requestPositionID;
 
     /** 
-     * Get the 'DelayReason' element value. РџСЂРёС‡РёРЅР°, РїРѕ РєРѕС‚РѕСЂРѕР№ РґРѕРєСѓРјРµРЅС‚ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅ РЅРµРјРµРґР»РµРЅРЅРѕ
+     * Get the 'DelayReason' element value. Причина, по которой документ не может быть представлен немедленно
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class DelayDocDescriptionType extends DocumentDescriptionType
     }
 
     /** 
-     * Set the 'DelayReason' element value. РџСЂРёС‡РёРЅР°, РїРѕ РєРѕС‚РѕСЂРѕР№ РґРѕРєСѓРјРµРЅС‚ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅ РЅРµРјРµРґР»РµРЅРЅРѕ
+     * Set the 'DelayReason' element value. Причина, по которой документ не может быть представлен немедленно
      * 
      * @param delayReason
      */
@@ -31,7 +31,7 @@ public class DelayDocDescriptionType extends DocumentDescriptionType
     }
 
     /** 
-     * Get the 'DocumentFormSign' element value. РџСЂРёР·РЅР°Рє С„РѕСЂРјС‹ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°: 0 - РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјРµ, 1 - РІ РІРёРґРµ Р±СѓРјР°Р¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentFormSign' element value. Признак формы представления документа: 0 - в электронной форме, 1 - в виде бумажного документа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DelayDocDescriptionType extends DocumentDescriptionType
     }
 
     /** 
-     * Set the 'DocumentFormSign' element value. РџСЂРёР·РЅР°Рє С„РѕСЂРјС‹ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°: 0 - РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјРµ, 1 - РІ РІРёРґРµ Р±СѓРјР°Р¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentFormSign' element value. Признак формы представления документа: 0 - в электронной форме, 1 - в виде бумажного документа
      * 
      * @param documentFormSign
      */
@@ -49,7 +49,7 @@ public class DelayDocDescriptionType extends DocumentDescriptionType
     }
 
     /** 
-     * Get the 'RequestPositionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ Р·Р°РїСЂРѕСЃРµ
+     * Get the 'RequestPositionID' element value. Идентификатор позиции в запросе
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DelayDocDescriptionType extends DocumentDescriptionType
     }
 
     /** 
-     * Set the 'RequestPositionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ Р·Р°РїСЂРѕСЃРµ
+     * Set the 'RequestPositionID' element value. Идентификатор позиции в запросе
      * 
      * @param requestPositionID
      */

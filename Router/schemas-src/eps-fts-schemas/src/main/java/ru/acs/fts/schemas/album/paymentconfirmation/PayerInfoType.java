@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.paymentconfirmation;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
+ * Сведения о плательщике
  */
 public class PayerInfoType
 {
@@ -14,7 +14,7 @@ public class PayerInfoType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєР»РёРµРЅС‚Р°
+     * Get the 'OrganizationName' element value. Наименование клиента
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєР»РёРµРЅС‚Р°
+     * Set the 'OrganizationName' element value. Наименование клиента
      * 
      * @param organizationName
      */
@@ -32,7 +32,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Get the 'INN' element value. РРќРќ РєР»РёРµРЅС‚Р°
+     * Get the 'INN' element value. ИНН клиента
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Set the 'INN' element value. РРќРќ РєР»РёРµРЅС‚Р°
+     * Set the 'INN' element value. ИНН клиента
      * 
      * @param INN
      */
@@ -50,7 +50,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Get the 'KPP' element value. РљРѕРґ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚ (РљРџРџ) РєР»РёРµРЅС‚Р°
+     * Get the 'KPP' element value. Код постановки на учет (КПП) клиента
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Set the 'KPP' element value. РљРѕРґ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚ (РљРџРџ) РєР»РёРµРЅС‚Р°
+     * Set the 'KPP' element value. Код постановки на учет (КПП) клиента
      * 
      * @param KPP
      */
@@ -68,7 +68,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class PayerInfoType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @param identityCard
      */

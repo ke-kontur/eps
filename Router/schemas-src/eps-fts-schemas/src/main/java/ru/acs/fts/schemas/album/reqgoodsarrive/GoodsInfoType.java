@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsInfoType
 {
@@ -15,7 +15,7 @@ public class GoodsInfoType
     private List<TransportDocumentsType> transportDocumentList = new ArrayList<TransportDocumentsType>();
 
     /** 
-     * Get the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ Р”Рў
+     * Get the 'GTDGoodsNumber' element value. Номер товара в ДТ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GTDGoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РІ Р”Рў
+     * Set the 'GTDGoodsNumber' element value. Номер товара в ДТ
      * 
      * @param GTDGoodsNumber
      */
@@ -33,7 +33,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код ТН ВЭД ТС
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -51,7 +51,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Описание товара
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Описание товара
      * 
      * @param list
      */
@@ -69,7 +69,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'TransportDocuments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Get the list of 'TransportDocuments' element items. Сведения о транспортных документах
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'TransportDocuments' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Set the list of 'TransportDocuments' element items. Сведения о транспортных документах
      * 
      * @param list
      */

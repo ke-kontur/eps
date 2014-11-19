@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ Р Р”
+ * Запрос сведений РД
  */
 public class BDRDRequestType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class BDRDRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CustomsDocument' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚, РїСЂРё РѕС„РѕСЂРјР»РµРЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'CustomsDocument' element value. Таможенный документ, при оформлении которого использован разрешительный документ
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class BDRDRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsDocument' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚, РїСЂРё РѕС„РѕСЂРјР»РµРЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'CustomsDocument' element value. Таможенный документ, при оформлении которого использован разрешительный документ
      * 
      * @param customsDocument
      */
@@ -37,7 +37,7 @@ public class BDRDRequestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RequestedData' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Get the list of 'RequestedData' element items. Запрашиваемые сведения
      * 
      * @return list
      */
@@ -46,7 +46,7 @@ public class BDRDRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RequestedData' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Set the list of 'RequestedData' element items. Запрашиваемые сведения
      * 
      * @param list
      */
@@ -55,7 +55,7 @@ public class BDRDRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class BDRDRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -73,7 +73,7 @@ public class BDRDRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class BDRDRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -91,7 +91,7 @@ public class BDRDRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class BDRDRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.dtsoutcustomsmark;
 import ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust.DTSOfficialMarkType;
 
 /** 
- * РћС‚РјРµС‚РєРё РёРЅСЃРїРµРєС‚РѕСЂР°.
+ * Отметки инспектора.
  */
 public class DTSOutMarksType extends DTSOfficialMarkType
 {
     private String identifierDescription;
 
     /** 
-     * Get the 'IdentifierDescription' element value. РћРїРёСЃР°РЅРёРµ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂР° РѕС‚РјРµС‚РєРё
+     * Get the 'IdentifierDescription' element value. Описание идентификатора отметки
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DTSOutMarksType extends DTSOfficialMarkType
     }
 
     /** 
-     * Set the 'IdentifierDescription' element value. РћРїРёСЃР°РЅРёРµ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂР° РѕС‚РјРµС‚РєРё
+     * Set the 'IdentifierDescription' element value. Описание идентификатора отметки
      * 
      * @param identifierDescription
      */

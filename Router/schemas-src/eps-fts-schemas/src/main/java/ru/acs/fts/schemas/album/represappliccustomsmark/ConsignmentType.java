@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЂС‚РёРё
+ * Сведения о партии
  */
 public class ConsignmentType
 {
@@ -20,7 +20,7 @@ public class ConsignmentType
     private DocumentBaseType TPOInfo;
 
     /** 
-     * Get the 'ListNumeric' element value. РќРѕРјРµСЂ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Get the 'ListNumeric' element value. Номер партии товаров по порядку
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'ListNumeric' element value. РќРѕРјРµСЂ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Set the 'ListNumeric' element value. Номер партии товаров по порядку
      * 
      * @param listNumeric
      */
@@ -38,7 +38,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'IndividualWayBill' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'IndividualWayBill' element value. Сведения об индивидуальной накладной
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'IndividualWayBill' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'IndividualWayBill' element value. Сведения об индивидуальной накладной
      * 
      * @param individualWayBill
      */
@@ -56,7 +56,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Decision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ: 1 - РѕС‚РєР°Р· РІ РІС‹РїСѓСЃРєРµ С‚РѕРІР°СЂРѕРІ (С‚СЂРµР±СѓРµС‚СЃСЏ СѓРїР»Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№), 2 - РІС‹РїСѓСЃРє С‚РѕРІР°СЂРѕРІ Р±РµР· СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, 3 - РІС‹РїСѓСЃРє С‚РѕРІР°СЂРѕРІ СЃ СѓРїР»Р°С‚РѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, 4 - РѕС‚РєР°Р· РІ РІС‹РїСѓСЃРєРµ С‚РѕРІР°СЂРѕРІ, 5 - РІС‹РїСѓСЃРє РІРѕР·РІСЂР°С‰Р°РµРјС‹С… С‚РѕРІР°СЂРѕРІ.
+     * Get the 'Decision' element value. Принятое решение: 1 - отказ в выпуске товаров (требуется уплата таможенных платежей), 2 - выпуск товаров без уплаты таможенных платежей, 3 - выпуск товаров с уплатой таможенных платежей, 4 - отказ в выпуске товаров, 5 - выпуск возвращаемых товаров.
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Decision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ: 1 - РѕС‚РєР°Р· РІ РІС‹РїСѓСЃРєРµ С‚РѕРІР°СЂРѕРІ (С‚СЂРµР±СѓРµС‚СЃСЏ СѓРїР»Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№), 2 - РІС‹РїСѓСЃРє С‚РѕРІР°СЂРѕРІ Р±РµР· СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, 3 - РІС‹РїСѓСЃРє С‚РѕРІР°СЂРѕРІ СЃ СѓРїР»Р°С‚РѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, 4 - РѕС‚РєР°Р· РІ РІС‹РїСѓСЃРєРµ С‚РѕРІР°СЂРѕРІ, 5 - РІС‹РїСѓСЃРє РІРѕР·РІСЂР°С‰Р°РµРјС‹С… С‚РѕРІР°СЂРѕРІ.
+     * Set the 'Decision' element value. Принятое решение: 1 - отказ в выпуске товаров (требуется уплата таможенных платежей), 2 - выпуск товаров без уплаты таможенных платежей, 3 - выпуск товаров с уплатой таможенных платежей, 4 - отказ в выпуске товаров, 5 - выпуск возвращаемых товаров.
      * 
      * @param decision
      */
@@ -74,7 +74,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'DecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'DecisionDate' element value. Дата принятия решения
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'DecisionDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'DecisionDate' element value. Дата принятия решения
      * 
      * @param decisionDate
      */
@@ -92,7 +92,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the list of 'Goods' element items. Сведения о товарах
      * 
      * @return list
      */
@@ -101,7 +101,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the list of 'Goods' element items. Сведения о товарах
      * 
      * @param list
      */
@@ -110,7 +110,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'CustomsDuties' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё, РїРѕРґР»РµР¶Р°С‰РёРµ СѓРїР»Р°С‚Рµ
+     * Get the 'CustomsDuties' element value. Таможенные платежи, подлежащие уплате
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'CustomsDuties' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё, РїРѕРґР»РµР¶Р°С‰РёРµ СѓРїР»Р°С‚Рµ
+     * Set the 'CustomsDuties' element value. Таможенные платежи, подлежащие уплате
      * 
      * @param customsDuties
      */
@@ -128,7 +128,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'TPOInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РўРџРћ
+     * Get the 'TPOInfo' element value. Сведения о ТПО
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'TPOInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РўРџРћ
+     * Set the 'TPOInfo' element value. Сведения о ТПО
      * 
      * @param TPOInfo
      */

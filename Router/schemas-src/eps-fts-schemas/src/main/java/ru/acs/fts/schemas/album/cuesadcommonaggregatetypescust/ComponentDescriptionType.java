@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕРіРѕ Р±Р»РѕРєР° РёР»Рё РєРѕРјРїРѕРЅРµРЅС‚С‹
+ * Описание функционального блока или компоненты
  */
 public class ComponentDescriptionType
 {
@@ -15,7 +15,7 @@ public class ComponentDescriptionType
     private SupplementaryQuantityType supplementaryQuantity;
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ  РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код  по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ComponentDescriptionType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ  РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код  по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -33,7 +33,7 @@ public class ComponentDescriptionType
     }
 
     /** 
-     * Get the 'KGWeight' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РєРі
+     * Get the 'KGWeight' element value. Количество в кг
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ComponentDescriptionType
     }
 
     /** 
-     * Set the 'KGWeight' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РєРі
+     * Set the 'KGWeight' element value. Количество в кг
      * 
      * @param KGWeight
      */
@@ -51,7 +51,7 @@ public class ComponentDescriptionType
     }
 
     /** 
-     * Get the 'InvoicedCost' element value.  Р¦РµРЅР° С‚РѕРІР°СЂР° /Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Get the 'InvoicedCost' element value.  Цена товара /Фактурная стоимость
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ComponentDescriptionType
     }
 
     /** 
-     * Set the 'InvoicedCost' element value.  Р¦РµРЅР° С‚РѕРІР°СЂР° /Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Set the 'InvoicedCost' element value.  Цена товара /Фактурная стоимость
      * 
      * @param invoicedCost
      */
@@ -69,7 +69,7 @@ public class ComponentDescriptionType
     }
 
     /** 
-     * Get the 'InvoiceCurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the 'InvoiceCurrencyCode' element value. Буквенный код валюты фактурной стоимости
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class ComponentDescriptionType
     }
 
     /** 
-     * Set the 'InvoiceCurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the 'InvoiceCurrencyCode' element value. Буквенный код валюты фактурной стоимости
      * 
      * @param invoiceCurrencyCode
      */
@@ -87,7 +87,7 @@ public class ComponentDescriptionType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class ComponentDescriptionType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения
      * 
      * @param supplementaryQuantity
      */

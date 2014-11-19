@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsOfficial
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.SolutionNumberType;
 
 /** 
- * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂСѓ
+ * Служебные отметки по товару
  */
 public class KTDinGoodsOfficialMarkType extends ESADGoodsOfficialMarkType
 {
@@ -15,7 +15,7 @@ public class KTDinGoodsOfficialMarkType extends ESADGoodsOfficialMarkType
     private SolutionNumberType solutionNumber;
 
     /** 
-     * Get the 'TechnologicalMarkTypeCode' element value. РўРёРї РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё (1-РІРЅРµС€РЅСЏСЏ, РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РєРѕС‚РѕСЂРѕР№ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїРµСЂРµРґР°РЅР° РІРѕ РІРЅРµС€РЅСЋСЋ РђРРЎ, 2-РІРЅСѓС‚СЂРµРЅРЅСЏСЏ, РёРЅС„РѕСЂРјР°С†РёСЏ РєРѕС‚РѕСЂРѕР№ РґРѕСЃС‚СѓРїРЅР° С‚РѕР»СЊРєРѕ РІ СЂР°РјРєР°С… Р•РђРРЎ)
+     * Get the 'TechnologicalMarkTypeCode' element value. Тип проставленной технологической отметки (1-внешняя, информация по которой может быть передана во внешнюю АИС, 2-внутренняя, информация которой доступна только в рамках ЕАИС)
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class KTDinGoodsOfficialMarkType extends ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'TechnologicalMarkTypeCode' element value. РўРёРї РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё (1-РІРЅРµС€РЅСЏСЏ, РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РєРѕС‚РѕСЂРѕР№ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїРµСЂРµРґР°РЅР° РІРѕ РІРЅРµС€РЅСЋСЋ РђРРЎ, 2-РІРЅСѓС‚СЂРµРЅРЅСЏСЏ, РёРЅС„РѕСЂРјР°С†РёСЏ РєРѕС‚РѕСЂРѕР№ РґРѕСЃС‚СѓРїРЅР° С‚РѕР»СЊРєРѕ РІ СЂР°РјРєР°С… Р•РђРРЎ)
+     * Set the 'TechnologicalMarkTypeCode' element value. Тип проставленной технологической отметки (1-внешняя, информация по которой может быть передана во внешнюю АИС, 2-внутренняя, информация которой доступна только в рамках ЕАИС)
      * 
      * @param technologicalMarkTypeCode
      */
@@ -33,7 +33,7 @@ public class KTDinGoodsOfficialMarkType extends ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РїРѕ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё
+     * Get the 'RecordNumber' element value. Порядковый номер записи по идентификатору проставленной технологической отметки
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class KTDinGoodsOfficialMarkType extends ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РїРѕ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё
+     * Set the 'RecordNumber' element value. Порядковый номер записи по идентификатору проставленной технологической отметки
      * 
      * @param recordNumber
      */
@@ -51,7 +51,7 @@ public class KTDinGoodsOfficialMarkType extends ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'Code' element value. РљРѕРґ РѕСЃРЅРѕРІР°РЅРёСЏ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
+     * Get the 'Code' element value. Код основания продления срока выпуска товаров
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class KTDinGoodsOfficialMarkType extends ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'Code' element value. РљРѕРґ РѕСЃРЅРѕРІР°РЅРёСЏ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
+     * Set the 'Code' element value. Код основания продления срока выпуска товаров
      * 
      * @param code
      */
@@ -69,7 +69,7 @@ public class KTDinGoodsOfficialMarkType extends ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'SolutionNumber' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ
+     * Get the 'SolutionNumber' element value. Номер решения
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class KTDinGoodsOfficialMarkType extends ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'SolutionNumber' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ
+     * Set the 'SolutionNumber' element value. Номер решения
      * 
      * @param solutionNumber
      */

@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРµ СЂРµС€РµРЅРёРµ Рѕ СЃС‚СЂР°РЅРµ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
+ * Предварительное решение о стране происхождения товара
  */
 public class PreliminaryOriginCountryType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'Date' element value. Дата принятия решения
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'Date' element value. Дата принятия решения
      * 
      * @param date
      */
@@ -44,7 +44,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Get the 'OriginCountryName' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'OriginCountryName' element value. Страна происхождения товара
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Set the 'OriginCountryName' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'OriginCountryName' element value. Страна происхождения товара
      * 
      * @param originCountryName
      */
@@ -62,7 +62,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Mark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
+     * Get the list of 'Mark' element items. Служебные отметки
      * 
      * @return list
      */
@@ -71,7 +71,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Mark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
+     * Set the list of 'Mark' element items. Служебные отметки
      * 
      * @param list
      */
@@ -80,7 +80,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Get the 'ManagementName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЈРїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'ManagementName' element value. Наименование Управления
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Set the 'ManagementName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЈРїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'ManagementName' element value. Наименование Управления
      * 
      * @param managementName
      */
@@ -98,7 +98,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Get the 'Declarant' element value. Сведения о заявителе
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Set the 'Declarant' element value. Сведения о заявителе
      * 
      * @param declarant
      */
@@ -116,7 +116,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @param registrationNumber
      */
@@ -134,7 +134,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РўРѕРІР°СЂ
+     * Get the list of 'Goods' element items. Товар
      * 
      * @return list
      */
@@ -143,7 +143,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РўРѕРІР°СЂ
+     * Set the list of 'Goods' element items. Товар
      * 
      * @param list
      */
@@ -152,7 +152,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsInfoOriginCountry' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ, РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ 
+     * Get the 'GoodsInfoOriginCountry' element value. Сведения о товаре, необходимые для определения страны происхождения 
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsInfoOriginCountry' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ, РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ 
+     * Set the 'GoodsInfoOriginCountry' element value. Сведения о товаре, необходимые для определения страны происхождения 
      * 
      * @param goodsInfoOriginCountry
      */
@@ -171,7 +171,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Get the 'Document' element value. Р”РѕРєСѓРјРµРЅС‚, СЂРµРіР»Р°РјРµРЅС‚РёСЂСѓСЋС‰РёР№ РїСЂР°РІРёР»Р° РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР° РёР· РєРѕРЅРєСЂРµС‚РЅРѕР№ СЃС‚СЂР°РЅС‹ РёР»Рё РіСЂСѓРїРїС‹ СЃС‚СЂР°РЅ.
+     * Get the 'Document' element value. Документ, регламентирующий правила определения страны происхождения товара из конкретной страны или группы стран.
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Set the 'Document' element value. Р”РѕРєСѓРјРµРЅС‚, СЂРµРіР»Р°РјРµРЅС‚РёСЂСѓСЋС‰РёР№ РїСЂР°РІРёР»Р° РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР° РёР· РєРѕРЅРєСЂРµС‚РЅРѕР№ СЃС‚СЂР°РЅС‹ РёР»Рё РіСЂСѓРїРїС‹ СЃС‚СЂР°РЅ.
+     * Set the 'Document' element value. Документ, регламентирующий правила определения страны происхождения товара из конкретной страны или группы стран.
      * 
      * @param document
      */
@@ -189,7 +189,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'PersonSignature' element value. Подпись должностного лица таможенного органа
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'PersonSignature' element value. Подпись должностного лица таможенного органа
      * 
      * @param personSignature
      */
@@ -207,7 +207,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -216,7 +216,7 @@ public class PreliminaryOriginCountryType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

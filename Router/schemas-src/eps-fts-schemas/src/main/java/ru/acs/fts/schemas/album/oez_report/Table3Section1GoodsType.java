@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РўР°Р±Р»РёС†Р° 3. Р Р°Р·РґРµР» 1. РўРѕРІР°СЂ, РїРѕРјРµС‰С‘РЅРЅС‹Р№ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹ РґР»СЏ С†РµР»РµР№ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+ * Таблица 3. Раздел 1. Товар, помещённый под таможенный режим свободной таможенной зоны для целей переработки
  */
 public class Table3Section1GoodsType extends GoodsBaseType
 {
@@ -16,7 +16,7 @@ public class Table3Section1GoodsType extends GoodsBaseType
     private Table2CustomsDocumentType customsDocument;
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Get the 'Quantity' element value. Количество товара
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class Table3Section1GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Set the 'Quantity' element value. Количество товара
      * 
      * @param quantity
      */
@@ -34,7 +34,7 @@ public class Table3Section1GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the list of 'OEZGoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ, РёР·РіРѕС‚РѕРІР»РµРЅС‹С… РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—
+     * Get the list of 'OEZGoodsName' element items. Наименование товаров, изготовленых на территории ОЭЗ
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class Table3Section1GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the list of 'OEZGoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ, РёР·РіРѕС‚РѕРІР»РµРЅС‹С… РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—
+     * Set the list of 'OEZGoodsName' element items. Наименование товаров, изготовленых на территории ОЭЗ
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class Table3Section1GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the list of 'Note' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the list of 'Note' element items. Примечание
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class Table3Section1GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the list of 'Note' element items. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the list of 'Note' element items. Примечание
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class Table3Section1GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'NonProcessingGoodsTail' element value. РћСЃС‚Р°С‚РѕРє С‚РѕРІР°СЂРѕРІ, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… РЅРµ СЃРѕРІРµСЂС€РµРЅС‹ РѕРїРµСЂР°С†РёРё РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ, РЅР°С…РѕРґСЏС‰РёС…СЃСЏ Сѓ СЂРµР·РёРґРµРЅС‚Р° РѕСЌР· РЅР° РѕС‚С‡РµС‚РЅСѓСЋ РґР°С‚Сѓ(РєРѕР»РёС‡РµСЃС‚РІРѕ)
+     * Get the 'NonProcessingGoodsTail' element value. Остаток товаров, в отношении которых не совершены операции по переработке, находящихся у резидента оэз на отчетную дату(количество)
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class Table3Section1GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'NonProcessingGoodsTail' element value. РћСЃС‚Р°С‚РѕРє С‚РѕРІР°СЂРѕРІ, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… РЅРµ СЃРѕРІРµСЂС€РµРЅС‹ РѕРїРµСЂР°С†РёРё РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ, РЅР°С…РѕРґСЏС‰РёС…СЃСЏ Сѓ СЂРµР·РёРґРµРЅС‚Р° РѕСЌР· РЅР° РѕС‚С‡РµС‚РЅСѓСЋ РґР°С‚Сѓ(РєРѕР»РёС‡РµСЃС‚РІРѕ)
+     * Set the 'NonProcessingGoodsTail' element value. Остаток товаров, в отношении которых не совершены операции по переработке, находящихся у резидента оэз на отчетную дату(количество)
      * 
      * @param nonProcessingGoodsTail
      */
@@ -88,7 +88,7 @@ public class Table3Section1GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Get the 'CustomsDocument' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚. РќРѕРјРµСЂ Р”Рў. РўР°РєР¶Рµ СЂРµРєРІРёР·РёС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРµ РѕС„РѕСЂРјР»РµРЅРёРµ, РєРѕРіРґР° РІ РѕС‚РЅРѕС€РµРЅРёРё С‚Р°РєРёС… С‚РѕРІР°СЂРѕРІ РїСЂРѕРёР·РѕС€Р»Рѕ РѕС‚С‡СѓР¶РґРµРЅРёРµ
+     * Get the 'CustomsDocument' element value. Таможенный документ. Номер ДТ. Также реквизиты таможенного документа, на основании которого осуществляется таможенное оформление, когда в отношении таких товаров произошло отчуждение
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class Table3Section1GoodsType extends GoodsBaseType
     }
 
     /** 
-     * Set the 'CustomsDocument' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚. РќРѕРјРµСЂ Р”Рў. РўР°РєР¶Рµ СЂРµРєРІРёР·РёС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРµ РѕС„РѕСЂРјР»РµРЅРёРµ, РєРѕРіРґР° РІ РѕС‚РЅРѕС€РµРЅРёРё С‚Р°РєРёС… С‚РѕРІР°СЂРѕРІ РїСЂРѕРёР·РѕС€Р»Рѕ РѕС‚С‡СѓР¶РґРµРЅРёРµ
+     * Set the 'CustomsDocument' element value. Таможенный документ. Номер ДТ. Также реквизиты таможенного документа, на основании которого осуществляется таможенное оформление, когда в отношении таких товаров произошло отчуждение
      * 
      * @param customsDocument
      */

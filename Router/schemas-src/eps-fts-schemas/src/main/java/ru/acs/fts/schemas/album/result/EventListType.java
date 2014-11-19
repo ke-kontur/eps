@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРѕР±С‹С‚РёСЏС… / СЃРѕРѕР±С‰РµРЅРёСЏС…
+ * Информация о событиях / сообщениях
  */
 public class EventListType
 {
@@ -24,7 +24,7 @@ public class EventListType
     private List<DocumentResultType> documentResultList = new ArrayList<DocumentResultType>();
 
     /** 
-     * Get the 'MessageCode' element value. РљРѕРґ СЃРѕРѕР±С‰РµРЅРёСЏ СЃРѕРіР»Р°СЃРЅРѕ СЃРїРµС†РёС„РёРєР°С†РёРё РѕР±РјРµРЅР°.
+     * Get the 'MessageCode' element value. Код сообщения согласно спецификации обмена.
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class EventListType
     }
 
     /** 
-     * Set the 'MessageCode' element value. РљРѕРґ СЃРѕРѕР±С‰РµРЅРёСЏ СЃРѕРіР»Р°СЃРЅРѕ СЃРїРµС†РёС„РёРєР°С†РёРё РѕР±РјРµРЅР°.
+     * Set the 'MessageCode' element value. Код сообщения согласно спецификации обмена.
      * 
      * @param messageCode
      */
@@ -42,7 +42,7 @@ public class EventListType
     }
 
     /** 
-     * Get the 'MessageDescription' element value. РћРїРёСЃР°РЅРёРµ СЃРѕРѕР±С‰РµРЅРёСЏ (СЃРїСЂР°РІРѕС‡РЅРёРє СЃРѕРѕР±С‰РµРЅРёР№).
+     * Get the 'MessageDescription' element value. Описание сообщения (справочник сообщений).
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class EventListType
     }
 
     /** 
-     * Set the 'MessageDescription' element value. РћРїРёСЃР°РЅРёРµ СЃРѕРѕР±С‰РµРЅРёСЏ (СЃРїСЂР°РІРѕС‡РЅРёРє СЃРѕРѕР±С‰РµРЅРёР№).
+     * Set the 'MessageDescription' element value. Описание сообщения (справочник сообщений).
      * 
      * @param messageDescription
      */
@@ -60,7 +60,7 @@ public class EventListType
     }
 
     /** 
-     * Get the 'ProcState' element value. РЎС‚Р°С‚СѓСЃ РїСЂРѕС†РµСЃСЃР° РїРѕСЃР»Рµ РѕР±СЂР°Р±РѕС‚РєРё СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'ProcState' element value. Статус процесса после обработки сообщения
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class EventListType
     }
 
     /** 
-     * Set the 'ProcState' element value. РЎС‚Р°С‚СѓСЃ РїСЂРѕС†РµСЃСЃР° РїРѕСЃР»Рµ РѕР±СЂР°Р±РѕС‚РєРё СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'ProcState' element value. Статус процесса после обработки сообщения
      * 
      * @param procState
      */
@@ -78,7 +78,7 @@ public class EventListType
     }
 
     /** 
-     * Get the 'RecvDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёРµРјР° СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'RecvDateTime' element value. Дата и время приема сообщения
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class EventListType
     }
 
     /** 
-     * Set the 'RecvDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёРµРјР° СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'RecvDateTime' element value. Дата и время приема сообщения
      * 
      * @param recvDateTime
      */
@@ -96,7 +96,7 @@ public class EventListType
     }
 
     /** 
-     * Get the 'SendDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РѕС‚РїСЂР°РІРєРё СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'SendDateTime' element value. Дата/время отправки сообщения
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class EventListType
     }
 
     /** 
-     * Set the 'SendDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РѕС‚РїСЂР°РІРєРё СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'SendDateTime' element value. Дата/время отправки сообщения
      * 
      * @param sendDateTime
      */
@@ -114,7 +114,7 @@ public class EventListType
     }
 
     /** 
-     * Get the 'DocumentCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentCode' element value. Код вида документа
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class EventListType
     }
 
     /** 
-     * Set the 'DocumentCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentCode' element value. Код вида документа
      * 
      * @param documentCode
      */
@@ -132,7 +132,7 @@ public class EventListType
     }
 
     /** 
-     * Get the 'DocumentDescription' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (СЃРїСЂР°РІРѕС‡РЅРёРє)
+     * Get the 'DocumentDescription' element value. Описание вида документа (справочник)
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class EventListType
     }
 
     /** 
-     * Set the 'DocumentDescription' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (СЃРїСЂР°РІРѕС‡РЅРёРє)
+     * Set the 'DocumentDescription' element value. Описание вида документа (справочник)
      * 
      * @param documentDescription
      */
@@ -150,7 +150,7 @@ public class EventListType
     }
 
     /** 
-     * Get the 'MessageID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕР±СЂР°Р±РѕС‚Р°РЅРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'MessageID' element value. Идентификатор обработанного сообщения
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class EventListType
     }
 
     /** 
-     * Set the 'MessageID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕР±СЂР°Р±РѕС‚Р°РЅРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'MessageID' element value. Идентификатор обработанного сообщения
      * 
      * @param messageID
      */
@@ -168,7 +168,7 @@ public class EventListType
     }
 
     /** 
-     * Get the 'MsgInitialEnvelopeID' element value. РЎСЃС‹Р»РѕС‡РЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'MsgInitialEnvelopeID' element value. Ссылочный идентификатор сообщения
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class EventListType
     }
 
     /** 
-     * Set the 'MsgInitialEnvelopeID' element value. РЎСЃС‹Р»РѕС‡РЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'MsgInitialEnvelopeID' element value. Ссылочный идентификатор сообщения
      * 
      * @param msgInitialEnvelopeID
      */
@@ -186,7 +186,7 @@ public class EventListType
     }
 
     /** 
-     * Get the 'MsgPreparationDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ  СЃРѕР·РґР°РЅРёСЏ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'MsgPreparationDateTime' element value. Дата/время  создания сообщения
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class EventListType
     }
 
     /** 
-     * Set the 'MsgPreparationDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ  СЃРѕР·РґР°РЅРёСЏ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'MsgPreparationDateTime' element value. Дата/время  создания сообщения
      * 
      * @param msgPreparationDateTime
      */
@@ -204,7 +204,7 @@ public class EventListType
     }
 
     /** 
-     * Get the 'MsgDocumentID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'MsgDocumentID' element value. Идентификатор документа
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class EventListType
     }
 
     /** 
-     * Set the 'MsgDocumentID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'MsgDocumentID' element value. Идентификатор документа
      * 
      * @param msgDocumentID
      */
@@ -222,7 +222,7 @@ public class EventListType
     }
 
     /** 
-     * Get the 'MsgRefDocumentID' element value. РЎСЃС‹Р»РѕС‡РЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'MsgRefDocumentID' element value. Ссылочный идентификатор документа
      * 
      * @return value
      */
@@ -231,7 +231,7 @@ public class EventListType
     }
 
     /** 
-     * Set the 'MsgRefDocumentID' element value. РЎСЃС‹Р»РѕС‡РЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'MsgRefDocumentID' element value. Ссылочный идентификатор документа
      * 
      * @param msgRefDocumentID
      */
@@ -240,7 +240,7 @@ public class EventListType
     }
 
     /** 
-     * Get the list of 'DocumentResult' element items. Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the list of 'DocumentResult' element items. Результат обработки документа
      * 
      * @return list
      */
@@ -249,7 +249,7 @@ public class EventListType
     }
 
     /** 
-     * Set the list of 'DocumentResult' element items. Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the list of 'DocumentResult' element items. Результат обработки документа
      * 
      * @param list
      */

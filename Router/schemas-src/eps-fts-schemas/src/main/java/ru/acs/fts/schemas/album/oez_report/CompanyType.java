@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ РёР»Рё РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
+ * Сведения о лице или об организации
  */
 public class CompanyType
 {
@@ -16,7 +16,7 @@ public class CompanyType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'ResidentLicenseNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё СЂРµР·РёРґРµРЅС‚Р° РћР­Р—
+     * Get the 'ResidentLicenseNumber' element value. Номер свидетельства о регистрации резидента ОЭЗ
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class CompanyType
     }
 
     /** 
-     * Set the 'ResidentLicenseNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё СЂРµР·РёРґРµРЅС‚Р° РћР­Р—
+     * Set the 'ResidentLicenseNumber' element value. Номер свидетельства о регистрации резидента ОЭЗ
      * 
      * @param residentLicenseNumber
      */
@@ -34,7 +34,7 @@ public class CompanyType
     }
 
     /** 
-     * Get the 'Organisation' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'Organisation' element value. Реквизиты организации
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CompanyType
     }
 
     /** 
-     * Set the 'Organisation' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'Organisation' element value. Реквизиты организации
      * 
      * @param organisation
      */
@@ -52,7 +52,7 @@ public class CompanyType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'Address' element value. Адрес организации
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class CompanyType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'Address' element value. Адрес организации
      * 
      * @param address
      */
@@ -70,7 +70,7 @@ public class CompanyType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class CompanyType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @param identityCard
      */

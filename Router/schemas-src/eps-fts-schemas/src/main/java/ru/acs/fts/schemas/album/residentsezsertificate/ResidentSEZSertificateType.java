@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРµ СЂРµРіРёСЃС‚СЂР°С†РёСЋ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЂРµР·РёРґРµРЅС‚Р° РѕСЃРѕР±РѕР№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ Р·РѕРЅС‹ 
+ * Свидетельство, удостоверяющее регистрацию лица в качестве резидента особой экономической зоны 
  */
 public class ResidentSEZSertificateType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SertificateNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° 
+     * Get the 'SertificateNumber' element value. Регистрационный номер свидетельства 
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'SertificateNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° 
+     * Set the 'SertificateNumber' element value. Регистрационный номер свидетельства 
      * 
      * @param sertificateNumber
      */
@@ -37,7 +37,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° 
+     * Get the 'IssueDate' element value. Дата выдачи свидетельства 
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° 
+     * Set the 'IssueDate' element value. Дата выдачи свидетельства 
      * 
      * @param issueDate
      */
@@ -55,7 +55,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё 
+     * Get the 'RegistrationDate' element value. Дата регистрации 
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё 
+     * Set the 'RegistrationDate' element value. Дата регистрации 
      * 
      * @param registrationDate
      */
@@ -73,7 +73,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'SEZType' element value. РўРёРї РћР­Р—: 1 - РїСЂРѕРјС‹С€Р»РµРЅРЅРѕ-РїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅР°СЏ, 0 - С‚РµС…РЅРёРєРѕ-РІРЅРµРґСЂРµРЅС‡РµСЃРєР°СЏ 
+     * Get the 'SEZType' element value. Тип ОЭЗ: 1 - промышленно-производственная, 0 - технико-внедренческая 
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'SEZType' element value. РўРёРї РћР­Р—: 1 - РїСЂРѕРјС‹С€Р»РµРЅРЅРѕ-РїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅР°СЏ, 0 - С‚РµС…РЅРёРєРѕ-РІРЅРµРґСЂРµРЅС‡РµСЃРєР°СЏ 
+     * Set the 'SEZType' element value. Тип ОЭЗ: 1 - промышленно-производственная, 0 - технико-внедренческая 
      * 
      * @param SEZType
      */
@@ -91,7 +91,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistratorAuthority' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРµ, РІС‹РґР°РІС€РµРј СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ, Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° СЌС‚РѕРіРѕ РѕСЂРіР°РЅР° 
+     * Get the 'RegistratorAuthority' element value. Сведения об органе, выдавшем свидетельство, и подпись уполномоченного лица этого органа 
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistratorAuthority' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРµ, РІС‹РґР°РІС€РµРј СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ, Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° СЌС‚РѕРіРѕ РѕСЂРіР°РЅР° 
+     * Set the 'RegistratorAuthority' element value. Сведения об органе, выдавшем свидетельство, и подпись уполномоченного лица этого органа 
      * 
      * @param registratorAuthority
      */
@@ -110,7 +110,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResidentOrganisation' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЋСЂРёРґРёС‡РµСЃРєРѕРј Р»РёС†Рµ РёР»Рё РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРј РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»Рµ - СЂРµР·РёРґРµРЅС‚Рµ РћР­Р— 
+     * Get the 'ResidentOrganisation' element value. Сведения о юридическом лице или об индивидуальном предпринимателе - резиденте ОЭЗ 
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResidentOrganisation' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЋСЂРёРґРёС‡РµСЃРєРѕРј Р»РёС†Рµ РёР»Рё РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРј РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»Рµ - СЂРµР·РёРґРµРЅС‚Рµ РћР­Р— 
+     * Set the 'ResidentOrganisation' element value. Сведения о юридическом лице или об индивидуальном предпринимателе - резиденте ОЭЗ 
      * 
      * @param residentOrganisation
      */
@@ -129,7 +129,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Form' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Get the 'Form' element value. Серия и номер бланка
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Form' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Set the 'Form' element value. Серия и номер бланка
      * 
      * @param form
      */
@@ -147,7 +147,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class ResidentSEZSertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

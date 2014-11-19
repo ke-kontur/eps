@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РўР°РјРѕР¶РµРЅРЅР°СЏ РґРµРєР»Р°СЂР°С†РёСЏ С‚РѕРІР°СЂРѕРІ, РїРµСЂРµСЃС‹Р»Р°РµРјС‹С… РІ РњРџРћ
+ * Таможенная декларация товаров, пересылаемых в МПО
  */
 public class MPODeclarationType extends BaseDocType
 {
@@ -37,7 +37,7 @@ public class MPODeclarationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'FeedBillAgency' element value. РЈС‡СЂРµР¶РґРµРЅРёРµ  РїРѕРґР°С‡Рё
+     * Get the 'FeedBillAgency' element value. Учреждение  подачи
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'FeedBillAgency' element value. РЈС‡СЂРµР¶РґРµРЅРёРµ  РїРѕРґР°С‡Рё
+     * Set the 'FeedBillAgency' element value. Учреждение  подачи
      * 
      * @param feedBillAgency
      */
@@ -55,7 +55,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'FeedBillDate' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё
+     * Get the 'FeedBillDate' element value. Дата подачи
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'FeedBillDate' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё
+     * Set the 'FeedBillDate' element value. Дата подачи
      * 
      * @param feedBillDate
      */
@@ -73,7 +73,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'MPO_Number' element value. РќРѕРјРµСЂ РњРџРћ
+     * Get the 'MPO_Number' element value. Номер МПО
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'MPO_Number' element value. РќРѕРјРµСЂ РњРџРћ
+     * Set the 'MPO_Number' element value. Номер МПО
      * 
      * @param MPONumber
      */
@@ -91,7 +91,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. РўРёРї РёРЅС„РѕСЂРјР°С†РёРё: 0 - РѕСЃРЅРѕРІРЅР°СЏ, 1-РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ
+     * Get the 'DocSign' element value. Тип информации: 0 - основная, 1-предварительная
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РўРёРї РёРЅС„РѕСЂРјР°С†РёРё: 0 - РѕСЃРЅРѕРІРЅР°СЏ, 1-РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ
+     * Set the 'DocSign' element value. Тип информации: 0 - основная, 1-предварительная
      * 
      * @param docSign
      */
@@ -109,7 +109,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'PI_RegID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё РѕР± РњРџРћ
+     * Get the 'PI_RegID' element value. Регистрационный номер предварительной информации об МПО
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_RegID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё РѕР± РњРџРћ
+     * Set the 'PI_RegID' element value. Регистрационный номер предварительной информации об МПО
      * 
      * @param PIRegID
      */
@@ -127,7 +127,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ConsignmentCategory' element items. РљР°С‚РµРіРѕСЂРёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј
+     * Get the list of 'ConsignmentCategory' element items. Категория отправления в соответствии с классификатором
      * 
      * @return list
      */
@@ -136,7 +136,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ConsignmentCategory' element items. РљР°С‚РµРіРѕСЂРёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј
+     * Set the list of 'ConsignmentCategory' element items. Категория отправления в соответствии с классификатором
      * 
      * @param list
      */
@@ -145,7 +145,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Explication' element value. РџРѕСЏСЃРЅРµРЅРёРµ
+     * Get the 'Explication' element value. Пояснение
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Explication' element value. РџРѕСЏСЃРЅРµРЅРёРµ
+     * Set the 'Explication' element value. Пояснение
      * 
      * @param explication
      */
@@ -163,7 +163,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PostalFees' element items. РЎСѓРјРјР° РїРѕС‡С‚РѕРІС‹С… СЃР±РѕСЂРѕРІ/СЂР°СЃС…РѕРґРѕРІ
+     * Get the list of 'PostalFees' element items. Сумма почтовых сборов/расходов
      * 
      * @return list
      */
@@ -172,7 +172,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PostalFees' element items. РЎСѓРјРјР° РїРѕС‡С‚РѕРІС‹С… СЃР±РѕСЂРѕРІ/СЂР°СЃС…РѕРґРѕРІ
+     * Set the list of 'PostalFees' element items. Сумма почтовых сборов/расходов
      * 
      * @param list
      */
@@ -181,7 +181,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ
+     * Get the 'TotalCost' element value. Общая стоимость товаров
      * 
      * @return value
      */
@@ -190,7 +190,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ
+     * Set the 'TotalCost' element value. Общая стоимость товаров
      * 
      * @param totalCost
      */
@@ -199,7 +199,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
+     * Get the 'CurrencyCode' element value. Код валюты
      * 
      * @return value
      */
@@ -208,7 +208,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
+     * Set the 'CurrencyCode' element value. Код валюты
      * 
      * @param currencyCode
      */
@@ -217,7 +217,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'DepartureCountry' element value. Страна отправления товара
      * 
      * @return value
      */
@@ -226,7 +226,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'DepartureCountry' element value. Страна отправления товара
      * 
      * @param departureCountry
      */
@@ -235,7 +235,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'DestinationCountry' element value. Страна назначения товара
      * 
      * @return value
      */
@@ -244,7 +244,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'DestinationCountry' element value. Страна назначения товара
      * 
      * @param destinationCountry
      */
@@ -253,7 +253,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalGrossWeight' element value. РћР±С‰РёР№ РІРµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'TotalGrossWeight' element value. Общий вес товара, брутто (кг)
      * 
      * @return value
      */
@@ -262,7 +262,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalGrossWeight' element value. РћР±С‰РёР№ РІРµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'TotalGrossWeight' element value. Общий вес товара, брутто (кг)
      * 
      * @param totalGrossWeight
      */
@@ -271,7 +271,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'MPOFactWeight' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ РІРµСЃ РњРџРћ (РєРі)
+     * Get the 'MPOFactWeight' element value. Фактический вес МПО (кг)
      * 
      * @return value
      */
@@ -280,7 +280,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'MPOFactWeight' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ РІРµСЃ РњРџРћ (РєРі)
+     * Set the 'MPOFactWeight' element value. Фактический вес МПО (кг)
      * 
      * @param MPOFactWeight
      */
@@ -289,7 +289,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comment' element value. РџСЂРёРјРµС‡Р°РЅРёСЏ
+     * Get the 'Comment' element value. Примечания
      * 
      * @return value
      */
@@ -298,7 +298,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comment' element value. РџСЂРёРјРµС‡Р°РЅРёСЏ
+     * Set the 'Comment' element value. Примечания
      * 
      * @param comment
      */
@@ -307,7 +307,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DesignatedOperator' element value. РќР°Р·РЅР°С‡РµРЅРЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂ
+     * Get the 'DesignatedOperator' element value. Назначенный оператор
      * 
      * @return value
      */
@@ -316,7 +316,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DesignatedOperator' element value. РќР°Р·РЅР°С‡РµРЅРЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂ
+     * Set the 'DesignatedOperator' element value. Назначенный оператор
      * 
      * @param designatedOperator
      */
@@ -325,7 +325,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'MMPOName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РњРњРџРћ
+     * Get the 'MMPOName' element value. Наименование ММПО
      * 
      * @return value
      */
@@ -334,7 +334,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'MMPOName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РњРњРџРћ
+     * Set the 'MMPOName' element value. Наименование ММПО
      * 
      * @param MMPOName
      */
@@ -343,7 +343,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Consignee' element value. Получатель
      * 
      * @return value
      */
@@ -352,7 +352,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Consignee' element value. Получатель
      * 
      * @param consignee
      */
@@ -361,7 +361,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Importer' element value. РРјРїРѕСЂС‚РµСЂ
+     * Get the 'Importer' element value. Импортер
      * 
      * @return value
      */
@@ -370,7 +370,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Importer' element value. РРјРїРѕСЂС‚РµСЂ
+     * Set the 'Importer' element value. Импортер
      * 
      * @param importer
      */
@@ -379,7 +379,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Consignor' element value. Отправитель
      * 
      * @return value
      */
@@ -388,7 +388,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Consignor' element value. Отправитель
      * 
      * @param consignor
      */
@@ -397,7 +397,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DocumentInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the list of 'DocumentInfo' element items. Сведения о документе
      * 
      * @return list
      */
@@ -406,7 +406,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DocumentInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the list of 'DocumentInfo' element items. Сведения о документе
      * 
      * @param list
      */
@@ -415,7 +415,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the list of 'Goods' element items. Сведения о товарах
      * 
      * @return list
      */
@@ -424,7 +424,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the list of 'Goods' element items. Сведения о товарах
      * 
      * @param list
      */
@@ -433,7 +433,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Information' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'Information' element value. Дополнительная информация
      * 
      * @return value
      */
@@ -442,7 +442,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Information' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'Information' element value. Дополнительная информация
      * 
      * @param information
      */
@@ -451,7 +451,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -460,7 +460,7 @@ public class MPODeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.woodshipingspecification;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃС‚Р°РЅРґР°СЂС‚Р°С…
+ * Информация о стандартах
  */
 public class StandartsInfoType
 {
@@ -13,7 +13,7 @@ public class StandartsInfoType
     private String tonnage;
 
     /** 
-     * Get the 'GovermentStandart' element value. РќРѕРјРµСЂ Р“РћРЎРўР°
+     * Get the 'GovermentStandart' element value. Номер ГОСТа
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class StandartsInfoType
     }
 
     /** 
-     * Set the 'GovermentStandart' element value. РќРѕРјРµСЂ Р“РћРЎРўР°
+     * Set the 'GovermentStandart' element value. Номер ГОСТа
      * 
      * @param govermentStandart
      */
@@ -31,7 +31,7 @@ public class StandartsInfoType
     }
 
     /** 
-     * Get the 'WoodSpecies' element value. РџРѕСЂРѕРґР°
+     * Get the 'WoodSpecies' element value. Порода
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class StandartsInfoType
     }
 
     /** 
-     * Set the 'WoodSpecies' element value. РџРѕСЂРѕРґР°
+     * Set the 'WoodSpecies' element value. Порода
      * 
      * @param woodSpecies
      */
@@ -49,7 +49,7 @@ public class StandartsInfoType
     }
 
     /** 
-     * Get the 'Wetness' element value. Р’Р»Р°Р¶РЅРѕСЃС‚СЊ
+     * Get the 'Wetness' element value. Влажность
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class StandartsInfoType
     }
 
     /** 
-     * Set the 'Wetness' element value. Р’Р»Р°Р¶РЅРѕСЃС‚СЊ
+     * Set the 'Wetness' element value. Влажность
      * 
      * @param wetness
      */
@@ -67,7 +67,7 @@ public class StandartsInfoType
     }
 
     /** 
-     * Get the 'ConversRate' element value. РџРµСЂРµРІРѕРґРЅРѕР№ РєРѕСЌС„С„РёС†РёРµРЅС‚
+     * Get the 'ConversRate' element value. Переводной коэффициент
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class StandartsInfoType
     }
 
     /** 
-     * Set the 'ConversRate' element value. РџРµСЂРµРІРѕРґРЅРѕР№ РєРѕСЌС„С„РёС†РёРµРЅС‚
+     * Set the 'ConversRate' element value. Переводной коэффициент
      * 
      * @param conversRate
      */
@@ -85,7 +85,7 @@ public class StandartsInfoType
     }
 
     /** 
-     * Get the 'Tonnage' element value. РњР°СЃСЃР° РіСЂСѓР·Р° РІ С‚РѕРЅРЅР°С…
+     * Get the 'Tonnage' element value. Масса груза в тоннах
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class StandartsInfoType
     }
 
     /** 
-     * Set the 'Tonnage' element value. РњР°СЃСЃР° РіСЂСѓР·Р° РІ С‚РѕРЅРЅР°С…
+     * Set the 'Tonnage' element value. Масса груза в тоннах
      * 
      * @param tonnage
      */

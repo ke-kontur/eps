@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР° РЅР° РІСЂРµРјРµРЅРЅРѕРј С…СЂР°РЅРµРЅРёРё
+ * Комплексный тип для описания товара на временном хранении
  */
 public class WhGoodType
 {
@@ -25,7 +25,7 @@ public class WhGoodType
     private WHSuppQuantityType measureQuantity;
 
     /** 
-     * Get the 'GoodsNumber' element value. Р’Р°Р»РѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РѕС‚С‡РµС‚Сѓ
+     * Get the 'GoodsNumber' element value. Валовый номер товара по отчету
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class WhGoodType
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. Р’Р°Р»РѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РѕС‚С‡РµС‚Сѓ
+     * Set the 'GoodsNumber' element value. Валовый номер товара по отчету
      * 
      * @param goodsNumber
      */
@@ -43,7 +43,7 @@ public class WhGoodType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class WhGoodType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -61,7 +61,7 @@ public class WhGoodType
     }
 
     /** 
-     * Get the 'InvoiceCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Get the 'InvoiceCost' element value. Фактурная стоимость
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class WhGoodType
     }
 
     /** 
-     * Set the 'InvoiceCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Set the 'InvoiceCost' element value. Фактурная стоимость
      * 
      * @param invoiceCost
      */
@@ -79,7 +79,7 @@ public class WhGoodType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the 'CurrencyCode' element value. Буквенный код валюты фактурной стоимости
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class WhGoodType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the 'CurrencyCode' element value. Буквенный код валюты фактурной стоимости
      * 
      * @param currencyCode
      */
@@ -122,7 +122,7 @@ public class WhGoodType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Описание товара
      * 
      * @return list
      */
@@ -131,7 +131,7 @@ public class WhGoodType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Описание товара
      * 
      * @param list
      */
@@ -150,7 +150,7 @@ public class WhGoodType
     }
 
     /** 
-     * Get the 'MPONumber' element value. РќРѕРјРµСЂ РњРџРћ
+     * Get the 'MPONumber' element value. Номер МПО
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class WhGoodType
     }
 
     /** 
-     * Set the 'MPONumber' element value. РќРѕРјРµСЂ РњРџРћ
+     * Set the 'MPONumber' element value. Номер МПО
      * 
      * @param MPONumber
      */
@@ -178,7 +178,7 @@ public class WhGoodType
     }
 
     /** 
-     * Get the 'MPOCaseNum' element value. РќРѕРјРµСЂ РµРјРєРѕСЃС‚Рё, РІ РєРѕС‚РѕСЂРѕР№ РЅР°С…РѕРґРёС‚СЃСЏ РњРџРћ.
+     * Get the 'MPOCaseNum' element value. Номер емкости, в которой находится МПО.
      * 
      * @return value
      */
@@ -187,7 +187,7 @@ public class WhGoodType
     }
 
     /** 
-     * Set the 'MPOCaseNum' element value. РќРѕРјРµСЂ РµРјРєРѕСЃС‚Рё, РІ РєРѕС‚РѕСЂРѕР№ РЅР°С…РѕРґРёС‚СЃСЏ РњРџРћ.
+     * Set the 'MPOCaseNum' element value. Номер емкости, в которой находится МПО.
      * 
      * @param MPOCaseNum
      */
@@ -197,7 +197,7 @@ public class WhGoodType
     }
 
     /** 
-     * Get the 'CargoPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚Р°С…
+     * Get the 'CargoPlace' element value. Сведения о грузовых  местах
      * 
      * @return value
      */
@@ -206,7 +206,7 @@ public class WhGoodType
     }
 
     /** 
-     * Set the 'CargoPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚Р°С…
+     * Set the 'CargoPlace' element value. Сведения о грузовых  местах
      * 
      * @param cargoPlace
      */
@@ -215,7 +215,7 @@ public class WhGoodType
     }
 
     /** 
-     * Get the 'BruttoVolQuant' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ / РѕР±СЉРµРј
+     * Get the 'BruttoVolQuant' element value. Вес брутто / объем
      * 
      * @return value
      */
@@ -224,7 +224,7 @@ public class WhGoodType
     }
 
     /** 
-     * Set the 'BruttoVolQuant' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ / РѕР±СЉРµРј
+     * Set the 'BruttoVolQuant' element value. Вес брутто / объем
      * 
      * @param bruttoVolQuant
      */
@@ -233,7 +233,7 @@ public class WhGoodType
     }
 
     /** 
-     * Get the 'MeasureQuantity' element value. РљРѕР»-РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С…  РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'MeasureQuantity' element value. Кол-во в дополнительных  единицах измерения
      * 
      * @return value
      */
@@ -242,7 +242,7 @@ public class WhGoodType
     }
 
     /** 
-     * Set the 'MeasureQuantity' element value. РљРѕР»-РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С…  РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'MeasureQuantity' element value. Кол-во в дополнительных  единицах измерения
      * 
      * @param measureQuantity
      */

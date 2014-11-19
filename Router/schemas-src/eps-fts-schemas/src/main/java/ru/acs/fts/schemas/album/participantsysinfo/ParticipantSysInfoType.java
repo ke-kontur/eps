@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.RFOrganizationFeaturesType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓС‡РµС‚РЅРѕР№ Р·Р°РїРёСЃРё СѓС‡Р°СЃС‚РЅРёРєР° Р’Р­Р”
+ * Информация об учетной записи участника ВЭД
  */
 public class ParticipantSysInfoType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class ParticipantSysInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ParticipantID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓС‡Р°СЃС‚РЅРёРєР°
+     * Get the 'ParticipantID' element value. Идентификатор участника
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'ParticipantID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СѓС‡Р°СЃС‚РЅРёРєР°
+     * Set the 'ParticipantID' element value. Идентификатор участника
      * 
      * @param participantID
      */
@@ -36,7 +36,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'OrganizationName' element value. Наименование организации
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'OrganizationName' element value. Наименование организации
      * 
      * @param organizationName
      */
@@ -54,7 +54,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'ParticipantName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕС‡РєРё РїРѕРґРєР»СЋС‡РµРЅРёСЏ
+     * Get the 'ParticipantName' element value. Наименование точки подключения
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'ParticipantName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕС‡РєРё РїРѕРґРєР»СЋС‡РµРЅРёСЏ
+     * Set the 'ParticipantName' element value. Наименование точки подключения
      * 
      * @param participantName
      */
@@ -72,7 +72,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'SVHName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЎР’РҐ
+     * Get the 'SVHName' element value. Наименование СВХ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'SVHName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЎР’РҐ
+     * Set the 'SVHName' element value. Наименование СВХ
      * 
      * @param SVHName
      */
@@ -90,7 +90,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ
+     * Get the 'CertificateNumber' element value. Номер свидетельства о включении в реестр
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ
+     * Set the 'CertificateNumber' element value. Номер свидетельства о включении в реестр
      * 
      * @param certificateNumber
      */
@@ -108,7 +108,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Get the 'OrganizationFeatures' element value. Сведения об организации.
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Set the 'OrganizationFeatures' element value. Сведения об организации.
      * 
      * @param organizationFeatures
      */
@@ -127,7 +127,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class ParticipantSysInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р’РёРґРёРјС‹Рµ РїРѕРІСЂРµР¶РґРµРЅРёСЏ
+ * Видимые повреждения
  */
 public class DamagesType
 {
     private List<String> visDamageList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'VisDamage' element items. Р’РёРґРёРјС‹Рµ РїРѕРІСЂРµР¶РґРµРЅРёСЏ
+     * Get the list of 'VisDamage' element items. Видимые повреждения
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class DamagesType
     }
 
     /** 
-     * Set the list of 'VisDamage' element items. Р’РёРґРёРјС‹Рµ РїРѕРІСЂРµР¶РґРµРЅРёСЏ
+     * Set the list of 'VisDamage' element items. Видимые повреждения
      * 
      * @param list
      */

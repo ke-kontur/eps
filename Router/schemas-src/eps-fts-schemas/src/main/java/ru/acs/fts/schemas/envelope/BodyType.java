@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РўРµР»Рѕ
+ * Тело
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -21,7 +21,7 @@ public class BodyType
     private List<Object> anyList = new ArrayList<Object>();
 
     /** 
-     * Get the list of 'BodyType' complexType items. РџСЂРёРєР»Р°РґРЅС‹Рµ РґР°РЅРЅС‹Рµ (Р­Р”)
+     * Get the list of 'BodyType' complexType items. Прикладные данные (ЭД)
      * 
      * @return list
      */
@@ -30,7 +30,7 @@ public class BodyType
     }
 
     /** 
-     * Set the list of 'BodyType' complexType items. РџСЂРёРєР»Р°РґРЅС‹Рµ РґР°РЅРЅС‹Рµ (Р­Р”)
+     * Set the list of 'BodyType' complexType items. Прикладные данные (ЭД)
      * 
      * @param list
      */

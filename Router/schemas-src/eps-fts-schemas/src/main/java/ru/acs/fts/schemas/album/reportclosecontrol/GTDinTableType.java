@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.reportclosecontrol;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РІ С‚Р°Р±Р»РёС†Рµ РІРЅСѓС‚СЂРµРЅРЅРµРіРѕ С„РѕСЂРјР°С‚Р° СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё Р”Рў (С„РѕСЂРјР°С‚ DBF)
+ * Информация в таблице внутреннего формата электронной копии ДТ (формат DBF)
  */
 public class GTDinTableType
 {
@@ -11,7 +11,7 @@ public class GTDinTableType
     private String recordNumber;
 
     /** 
-     * Get the 'TableName' element value. РРјСЏ С‚Р°Р±Р»РёС†С‹ РІРЅСѓС‚СЂРµРЅРЅРµРіРѕ С„РѕСЂРјР°С‚Р° СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё Р”Рў (С„РѕСЂРјР°С‚ DBF)
+     * Get the 'TableName' element value. Имя таблицы внутреннего формата электронной копии ДТ (формат DBF)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class GTDinTableType
     }
 
     /** 
-     * Set the 'TableName' element value. РРјСЏ С‚Р°Р±Р»РёС†С‹ РІРЅСѓС‚СЂРµРЅРЅРµРіРѕ С„РѕСЂРјР°С‚Р° СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєРѕРїРёРё Р”Рў (С„РѕСЂРјР°С‚ DBF)
+     * Set the 'TableName' element value. Имя таблицы внутреннего формата электронной копии ДТ (формат DBF)
      * 
      * @param tableName
      */
@@ -29,7 +29,7 @@ public class GTDinTableType
     }
 
     /** 
-     * Get the 'AttributeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р°С‚СЂРёР±СѓС‚Р° С‚Р°Р±Р»РёС†С‹
+     * Get the 'AttributeName' element value. Наименование атрибута таблицы
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class GTDinTableType
     }
 
     /** 
-     * Set the 'AttributeName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р°С‚СЂРёР±СѓС‚Р° С‚Р°Р±Р»РёС†С‹
+     * Set the 'AttributeName' element value. Наименование атрибута таблицы
      * 
      * @param attributeName
      */
@@ -47,7 +47,7 @@ public class GTDinTableType
     }
 
     /** 
-     * Get the 'RecordNumber' element value. РќРѕРјРµСЂ Р·Р°РїРёСЃРё, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёР№ Р·РЅР°С‡РµРЅРёСЋ РїРѕР»СЏ NZP РІ С‚Р°Р±Р»РёС†Рµ
+     * Get the 'RecordNumber' element value. Номер записи, соответствующий значению поля NZP в таблице
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class GTDinTableType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. РќРѕРјРµСЂ Р·Р°РїРёСЃРё, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёР№ Р·РЅР°С‡РµРЅРёСЋ РїРѕР»СЏ NZP РІ С‚Р°Р±Р»РёС†Рµ
+     * Set the 'RecordNumber' element value. Номер записи, соответствующий значению поля NZP в таблице
      * 
      * @param recordNumber
      */

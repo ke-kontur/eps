@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.customsregistrycertificate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ РїРѕРјРµС‰РµРЅРёСЏ, РѕС‚РєСЂС‹С‚РѕР№ РїР»РѕС‰Р°РґРєРё, РёРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
+ * Характеристика местонахождения помещения, открытой площадки, иной территории
  */
 public class GoodsOperationPlaceType
 {
@@ -15,7 +15,7 @@ public class GoodsOperationPlaceType
     private AddressType address;
 
     /** 
-     * Get the 'PlaceSign' element value. РџСЂРёР·РЅР°Рє РјРµСЃС‚Р°: 1 - С‚РѕСЂРіРѕРІС‹Р№ Р·Р°Р» (РњР‘Рў); 2 - СЃРєР»Р°Рґ (РњР‘Рў); 3 - РѕС‚РєСЂС‹С‚Р°СЏ РїР»РѕС‰Р°РґРєР°; 4 - РїРѕРјРµС‰РµРЅРёРµ
+     * Get the 'PlaceSign' element value. Признак места: 1 - торговый зал (МБТ); 2 - склад (МБТ); 3 - открытая площадка; 4 - помещение
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class GoodsOperationPlaceType
     }
 
     /** 
-     * Set the 'PlaceSign' element value. РџСЂРёР·РЅР°Рє РјРµСЃС‚Р°: 1 - С‚РѕСЂРіРѕРІС‹Р№ Р·Р°Р» (РњР‘Рў); 2 - СЃРєР»Р°Рґ (РњР‘Рў); 3 - РѕС‚РєСЂС‹С‚Р°СЏ РїР»РѕС‰Р°РґРєР°; 4 - РїРѕРјРµС‰РµРЅРёРµ
+     * Set the 'PlaceSign' element value. Признак места: 1 - торговый зал (МБТ); 2 - склад (МБТ); 3 - открытая площадка; 4 - помещение
      * 
      * @param placeSign
      */
@@ -33,7 +33,7 @@ public class GoodsOperationPlaceType
     }
 
     /** 
-     * Get the 'PlaceDescription' element value. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р°
+     * Get the 'PlaceDescription' element value. Описание места
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsOperationPlaceType
     }
 
     /** 
-     * Set the 'PlaceDescription' element value. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р°
+     * Set the 'PlaceDescription' element value. Описание места
      * 
      * @param placeDescription
      */
@@ -51,7 +51,7 @@ public class GoodsOperationPlaceType
     }
 
     /** 
-     * Get the 'PlaceVolume' element value. РћР±СЉРµРј РїРѕРјРµС‰РµРЅРёСЏ (РїРѕР»РµР·РЅС‹Р№), РєСѓР±. Рј
+     * Get the 'PlaceVolume' element value. Объем помещения (полезный), куб. м
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class GoodsOperationPlaceType
     }
 
     /** 
-     * Set the 'PlaceVolume' element value. РћР±СЉРµРј РїРѕРјРµС‰РµРЅРёСЏ (РїРѕР»РµР·РЅС‹Р№), РєСѓР±. Рј
+     * Set the 'PlaceVolume' element value. Объем помещения (полезный), куб. м
      * 
      * @param placeVolume
      */
@@ -69,7 +69,7 @@ public class GoodsOperationPlaceType
     }
 
     /** 
-     * Get the 'PlaceSquare' element value. РџР»РѕС‰Р°РґСЊ РѕС‚РєСЂС‹С‚РѕР№ РїР»РѕС‰Р°РґРєРё (РїРѕР»РµР·РЅР°СЏ), РєРІ. Рј
+     * Get the 'PlaceSquare' element value. Площадь открытой площадки (полезная), кв. м
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class GoodsOperationPlaceType
     }
 
     /** 
-     * Set the 'PlaceSquare' element value. РџР»РѕС‰Р°РґСЊ РѕС‚РєСЂС‹С‚РѕР№ РїР»РѕС‰Р°РґРєРё (РїРѕР»РµР·РЅР°СЏ), РєРІ. Рј
+     * Set the 'PlaceSquare' element value. Площадь открытой площадки (полезная), кв. м
      * 
      * @param placeSquare
      */
@@ -87,7 +87,7 @@ public class GoodsOperationPlaceType
     }
 
     /** 
-     * Get the 'Address' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ РїРѕРјРµС‰РµРЅРёСЏ, РѕС‚РєСЂС‹С‚РѕР№ РїР»РѕС‰Р°РґРєРё, РёРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
+     * Get the 'Address' element value. Местонахождение помещения, открытой площадки, иной территории
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class GoodsOperationPlaceType
     }
 
     /** 
-     * Set the 'Address' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ РїРѕРјРµС‰РµРЅРёСЏ, РѕС‚РєСЂС‹С‚РѕР№ РїР»РѕС‰Р°РґРєРё, РёРЅРѕР№ С‚РµСЂСЂРёС‚РѕСЂРёРё
+     * Set the 'Address' element value. Местонахождение помещения, открытой площадки, иной территории
      * 
      * @param address
      */

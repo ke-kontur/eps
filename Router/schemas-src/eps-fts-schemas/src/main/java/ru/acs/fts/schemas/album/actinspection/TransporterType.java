@@ -7,14 +7,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РџРµСЂРµРІРѕР·С‡РёРє
+ * Перевозчик
  */
 public class TransporterType extends OrganizationType
 {
     private List<DocumentBaseType> driverDocList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the list of 'DriverDocs' element items. РџР°СЃРїРѕСЂС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the list of 'DriverDocs' element items. Паспортные данные физического лица
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class TransporterType extends OrganizationType
     }
 
     /** 
-     * Set the list of 'DriverDocs' element items. РџР°СЃРїРѕСЂС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the list of 'DriverDocs' element items. Паспортные данные физического лица
      * 
      * @param list
      */

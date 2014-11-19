@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°РїСЂР°РІР»РµРЅРёРё/РїРѕР»СѓС‡РµРЅРёРё СЂРµС€РµРЅРёСЏ
+ * Сведения о направлении/получении решения
  */
 public class SignatureInfoType
 {
@@ -14,7 +14,7 @@ public class SignatureInfoType
     private AddressType sendAddress;
 
     /** 
-     * Get the 'PersonName' element value. Р¤.Р.Рћ. РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ Р»РёС†Р°, РґРµРєР»Р°СЂРёСЂСѓСЋС‰РµРіРѕ С‚РѕРІР°СЂС‹, РїРѕР»СѓС‡РёРІС€РµРіРѕ СЂРµС€РµРЅРёРµ/РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РЅР°РїСЂР°РІРёРІС€РµРіРѕ СЂРµС€РµРЅРёРµ
+     * Get the 'PersonName' element value. Ф.И.О. представителя лица, декларирующего товары, получившего решение/должностного лица таможенного органа, направившего решение
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class SignatureInfoType
     }
 
     /** 
-     * Set the 'PersonName' element value. Р¤.Р.Рћ. РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ Р»РёС†Р°, РґРµРєР»Р°СЂРёСЂСѓСЋС‰РµРіРѕ С‚РѕРІР°СЂС‹, РїРѕР»СѓС‡РёРІС€РµРіРѕ СЂРµС€РµРЅРёРµ/РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РЅР°РїСЂР°РІРёРІС€РµРіРѕ СЂРµС€РµРЅРёРµ
+     * Set the 'PersonName' element value. Ф.И.О. представителя лица, декларирующего товары, получившего решение/должностного лица таможенного органа, направившего решение
      * 
      * @param personName
      */
@@ -32,7 +32,7 @@ public class SignatureInfoType
     }
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ СЂРµС€РµРЅРёСЏ/РґР°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'Date' element value. Дата получения решения/дата направления решения
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class SignatureInfoType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° РїРѕР»СѓС‡РµРЅРёСЏ СЂРµС€РµРЅРёСЏ/РґР°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'Date' element value. Дата получения решения/дата направления решения
      * 
      * @param date
      */
@@ -50,7 +50,7 @@ public class SignatureInfoType
     }
 
     /** 
-     * Get the 'SendAddress' element value. РђРґСЂРµСЃ РЅР°РїСЂР°РІР»РµРЅРёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'SendAddress' element value. Адрес направления решения
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class SignatureInfoType
     }
 
     /** 
-     * Set the 'SendAddress' element value. РђРґСЂРµСЃ РЅР°РїСЂР°РІР»РµРЅРёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'SendAddress' element value. Адрес направления решения
      * 
      * @param sendAddress
      */

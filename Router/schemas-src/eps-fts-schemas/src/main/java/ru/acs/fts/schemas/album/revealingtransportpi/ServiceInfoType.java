@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.revealingtransportpi;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎР»СѓР¶РµР±РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+ * Служебная информация
  */
 public class ServiceInfoType
 {
@@ -15,7 +15,7 @@ public class ServiceInfoType
     private String expDTNumber;
 
     /** 
-     * Get the 'TransportID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'TransportID' element value. Уникальный идентификационный номер предварительной информации
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Set the 'TransportID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'TransportID' element value. Уникальный идентификационный номер предварительной информации
      * 
      * @param transportID
      */
@@ -33,7 +33,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Get the 'CrossDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё РЅР° СѓСЂРѕРІРЅРµ Р¤РўРЎ Р РѕСЃСЃРёРё
+     * Get the 'CrossDate' element value. Дата регистрации предварительной информации на уровне ФТС России
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Set the 'CrossDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё РЅР° СѓСЂРѕРІРЅРµ Р¤РўРЎ Р РѕСЃСЃРёРё
+     * Set the 'CrossDate' element value. Дата регистрации предварительной информации на уровне ФТС России
      * 
      * @param crossDate
      */
@@ -51,7 +51,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Get the 'CustomsArriveID' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІ РєРѕС‚РѕСЂРѕРј РїР»Р°РЅРёСЂСѓРµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р° (РљРўРђРњ)
+     * Get the 'CustomsArriveID' element value. Код таможенного органа, в котором планируется прибытие товаров на таможенную территорию Таможенного союза (КТАМ)
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Set the 'CustomsArriveID' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІ РєРѕС‚РѕСЂРѕРј РїР»Р°РЅРёСЂСѓРµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р° (РљРўРђРњ)
+     * Set the 'CustomsArriveID' element value. Код таможенного органа, в котором планируется прибытие товаров на таможенную территорию Таможенного союза (КТАМ)
      * 
      * @param customsArriveID
      */
@@ -69,7 +69,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Get the 'ArriveDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїР»Р°РЅРёСЂСѓРµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂР° РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
+     * Get the 'ArriveDateTime' element value. Дата и время планируемого прибытия товара на таможенную территорию Таможенного союза
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Set the 'ArriveDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїР»Р°РЅРёСЂСѓРµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂР° РЅР° С‚Р°РјРѕР¶РµРЅРЅСѓСЋ С‚РµСЂСЂРёС‚РѕСЂРёСЋ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°
+     * Set the 'ArriveDateTime' element value. Дата и время планируемого прибытия товара на таможенную территорию Таможенного союза
      * 
      * @param arriveDateTime
      */
@@ -87,7 +87,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Get the 'Exp_DTNumber' element value. РќРѕРјРµСЂ СЌРєСЃРїРѕСЂС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
+     * Get the 'Exp_DTNumber' element value. Номер экспортной декларации на товары
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class ServiceInfoType
     }
 
     /** 
-     * Set the 'Exp_DTNumber' element value. РќРѕРјРµСЂ СЌРєСЃРїРѕСЂС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
+     * Set the 'Exp_DTNumber' element value. Номер экспортной декларации на товары
      * 
      * @param expDTNumber
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportGoodsBaseType;
 import ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.TRPackingInfoType;
 
 /** 
- * Р‘Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РІ С‚СЂР°РЅР·РёС‚РЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Базовый класс для описания товаров в транзитных документах
  */
 public class TDGoodsBaseType extends TransportGoodsBaseType
 {
@@ -24,7 +24,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     private List<TRPackingInfoType> packingInfoList = new ArrayList<TRPackingInfoType>();
 
     /** 
-     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ СЃРїРёСЃРєСѓ
+     * Get the 'GoodsNumeric' element value. Номер товара по списку
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ СЃРїРёСЃРєСѓ
+     * Set the 'GoodsNumeric' element value. Номер товара по списку
      * 
      * @param goodsNumeric
      */
@@ -42,7 +42,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -60,7 +60,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»-РІРѕ С‚РѕРІР°СЂР° (РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ)
+     * Get the 'SupplementaryGoodsQuantity' element value. Кол-во товара (в дополнительной единице измерения)
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»-РІРѕ С‚РѕРІР°СЂР° (РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ)
+     * Set the 'SupplementaryGoodsQuantity' element value. Кол-во товара (в дополнительной единице измерения)
      * 
      * @param supplementaryGoodsQuantity
      */
@@ -78,7 +78,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @param grossWeightQuantity
      */
@@ -96,7 +96,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'SupplementaryMeasureUnitCode' element value. РљРѕРґ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'SupplementaryMeasureUnitCode' element value. Код дополнительной единицы измерения
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'SupplementaryMeasureUnitCode' element value. РљРѕРґ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'SupplementaryMeasureUnitCode' element value. Код дополнительной единицы измерения
      * 
      * @param supplementaryMeasureUnitCode
      */
@@ -115,7 +115,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'InvoicedCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Get the 'InvoicedCost' element value. Фактурная стоимость
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'InvoicedCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Set the 'InvoicedCost' element value. Фактурная стоимость
      * 
      * @param invoicedCost
      */
@@ -133,7 +133,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'OriginCountryCode' element value. Код страны происхождения товара
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'OriginCountryCode' element value. Код страны происхождения товара
      * 
      * @param originCountryCode
      */
@@ -151,7 +151,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'DocumentKind' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentKind' element value. Тип документа
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'DocumentKind' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentKind' element value. Тип документа
      * 
      * @param documentKind
      */
@@ -169,7 +169,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'PrecedingDocumentNumber' element value. РќРѕРјРµСЂ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'PrecedingDocumentNumber' element value. Номер предшествующего документа
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'PrecedingDocumentNumber' element value. РќРѕРјРµСЂ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'PrecedingDocumentNumber' element value. Номер предшествующего документа
      * 
      * @param precedingDocumentNumber
      */
@@ -187,7 +187,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the list of 'PlacesInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
+     * Get the list of 'PlacesInfo' element items. Сведения о грузовых местах
      * 
      * @return list
      */
@@ -196,7 +196,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the list of 'PlacesInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
+     * Set the list of 'PlacesInfo' element items. Сведения о грузовых местах
      * 
      * @param list
      */
@@ -205,7 +205,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the list of 'PackingInfo' element items.  РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'PackingInfo' element items.  Сведения об упаковке товаров
      * 
      * @return list
      */
@@ -214,7 +214,7 @@ public class TDGoodsBaseType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the list of 'PackingInfo' element items.  РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'PackingInfo' element items.  Сведения об упаковке товаров
      * 
      * @param list
      */

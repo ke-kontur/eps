@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 
 /** 
- * Р—Р°СЏРІР»РµРЅРёРµ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ РїСЂРёС€РµРґС€РёС… РІ РЅРµРіРѕРґРЅРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) СѓРїР°РєРѕРІРєРё РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р— РёР»Рё РІС‹РІРѕР· С‚Р°РєРёС… С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) СѓРїР°РєРѕРІРєРё СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р— СЃ С†РµР»СЊСЋ СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+ * Заявление на уничтожение пришедших в негодность товаров и (или) упаковки на территории ОЭЗ или вывоз таких товаров и (или) упаковки с территории ОЭЗ с целью уничтожения
  */
 public class LiquidationApplicationType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class LiquidationApplicationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'OperationSign' element value. РџСЂРёР·РЅР°Рє РѕРїРµСЂР°С†РёРё: 0 - СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—; 1 - РІС‹РІРѕР· СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р— СЃ С†РµР»СЊСЋ СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+     * Get the 'OperationSign' element value. Признак операции: 0 - уничтожение на территории ОЭЗ; 1 - вывоз с территории ОЭЗ с целью уничтожения
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'OperationSign' element value. РџСЂРёР·РЅР°Рє РѕРїРµСЂР°С†РёРё: 0 - СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—; 1 - РІС‹РІРѕР· СЃ С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р— СЃ С†РµР»СЊСЋ СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+     * Set the 'OperationSign' element value. Признак операции: 0 - уничтожение на территории ОЭЗ; 1 - вывоз с территории ОЭЗ с целью уничтожения
      * 
      * @param operationSign
      */
@@ -42,7 +42,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'LiquidationReasons' element value. РџСЂРёС‡РёРЅС‹ РІС‹РІРѕРґР° С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) СѓРїР°РєРѕРІРєРё РёР· РѕР±РѕСЂРѕС‚Р°
+     * Get the 'LiquidationReasons' element value. Причины вывода товаров и (или) упаковки из оборота
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'LiquidationReasons' element value. РџСЂРёС‡РёРЅС‹ РІС‹РІРѕРґР° С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) СѓРїР°РєРѕРІРєРё РёР· РѕР±РѕСЂРѕС‚Р°
+     * Set the 'LiquidationReasons' element value. Причины вывода товаров и (или) упаковки из оборота
      * 
      * @param liquidationReasons
      */
@@ -60,7 +60,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'LiquidationDate' element value. Р—Р°СЏРІР»РµРЅРЅР°СЏ РґР°С‚Р° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ РѕС‚С…РѕРґРѕРІ
+     * Get the 'LiquidationDate' element value. Заявленная дата уничтожения отходов
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'LiquidationDate' element value. Р—Р°СЏРІР»РµРЅРЅР°СЏ РґР°С‚Р° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ РѕС‚С…РѕРґРѕРІ
+     * Set the 'LiquidationDate' element value. Заявленная дата уничтожения отходов
      * 
      * @param liquidationDate
      */
@@ -78,7 +78,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'OEZ_Resident' element value. Р РµР·РёРґРµРЅС‚ РћР­Р—
+     * Get the 'OEZ_Resident' element value. Резидент ОЭЗ
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'OEZ_Resident' element value. Р РµР·РёРґРµРЅС‚ РћР­Р—
+     * Set the 'OEZ_Resident' element value. Резидент ОЭЗ
      * 
      * @param OEZResident
      */
@@ -96,7 +96,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -114,7 +114,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Liquidator' element value. Р›РёС†Рѕ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРµ СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ
+     * Get the 'Liquidator' element value. Лицо, осуществляющее уничтожение
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Liquidator' element value. Р›РёС†Рѕ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРµ СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ
+     * Set the 'Liquidator' element value. Лицо, осуществляющее уничтожение
      * 
      * @param liquidator
      */
@@ -132,7 +132,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'LiquidationPlace' element value. РњРµСЃС‚Рѕ СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+     * Get the 'LiquidationPlace' element value. Место уничтожения
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'LiquidationPlace' element value. РњРµСЃС‚Рѕ СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+     * Set the 'LiquidationPlace' element value. Место уничтожения
      * 
      * @param liquidationPlace
      */
@@ -150,7 +150,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'WasteProducts' element items. РћС‚С…РѕРґС‹, РїРѕР»СѓС‡РµРЅРЅС‹Рµ РёР· С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) СѓРїР°РєРѕРІРєРё
+     * Get the list of 'WasteProducts' element items. Отходы, полученные из товаров и (или) упаковки
      * 
      * @return list
      */
@@ -159,7 +159,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'WasteProducts' element items. РћС‚С…РѕРґС‹, РїРѕР»СѓС‡РµРЅРЅС‹Рµ РёР· С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) СѓРїР°РєРѕРІРєРё
+     * Set the list of 'WasteProducts' element items. Отходы, полученные из товаров и (или) упаковки
      * 
      * @param list
      */
@@ -168,7 +168,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class LiquidationApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

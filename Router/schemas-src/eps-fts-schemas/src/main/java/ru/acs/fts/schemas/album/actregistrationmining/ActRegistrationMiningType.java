@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РђРєС‚ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕР±СЉРµРјРѕРІ РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РїСЂРё РІС‹РіСЂСѓР·РєРµ РІ РїРѕСЂС‚Сѓ (РїСѓРЅРєС‚Рµ РІС‹РіСЂСѓР·РєРё)/РїСЂРё РїРµСЂРµРіСЂСѓР·РєРµ РїСЂРѕРјС‹СЃР»РѕРІС‹Рј СЃСѓРґРЅРѕРј.
+ * Акт регистрации объемов добычи (вылова) при выгрузке в порту (пункте выгрузки)/при перегрузке промысловым судном.
  */
 public class ActRegistrationMiningType extends BaseDocType
 {
@@ -32,7 +32,7 @@ public class ActRegistrationMiningType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'NameManagement' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕРіСЂР°РЅРёС‡РЅРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ Р±РµСЂРµРіРѕРІРѕР№ РѕС…СЂР°РЅС‹ (РїРѕРіСЂР°РЅРёС‡РЅРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ))
+     * Get the 'NameManagement' element value. Наименование пограничного управления береговой охраны (пограничного управления))
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'NameManagement' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕРіСЂР°РЅРёС‡РЅРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ Р±РµСЂРµРіРѕРІРѕР№ РѕС…СЂР°РЅС‹ (РїРѕРіСЂР°РЅРёС‡РЅРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ))
+     * Set the 'NameManagement' element value. Наименование пограничного управления береговой охраны (пограничного управления))
      * 
      * @param nameManagement
      */
@@ -50,7 +50,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateAct' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ Р°РєС‚Р°
+     * Get the 'DateAct' element value. Дата составления акта
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateAct' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ Р°РєС‚Р°
+     * Set the 'DateAct' element value. Дата составления акта
      * 
      * @param dateAct
      */
@@ -68,7 +68,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРµРіСЂСѓР·РєРё/РІС‹РіСЂСѓР·РєРё
+     * Get the 'StartDate' element value. Дата начала перегрузки/выгрузки
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРµРіСЂСѓР·РєРё/РІС‹РіСЂСѓР·РєРё
+     * Set the 'StartDate' element value. Дата начала перегрузки/выгрузки
      * 
      * @param startDate
      */
@@ -86,7 +86,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'StartTime' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° РїРµСЂРµРіСЂСѓР·РєРё/РІС‹РіСЂСѓР·РєРё
+     * Get the 'StartTime' element value. Время начала перегрузки/выгрузки
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'StartTime' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° РїРµСЂРµРіСЂСѓР·РєРё/РІС‹РіСЂСѓР·РєРё
+     * Set the 'StartTime' element value. Время начала перегрузки/выгрузки
      * 
      * @param startTime
      */
@@ -104,7 +104,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРµРіСЂСѓР·РєРё/РІС‹РіСЂСѓР·РєРё
+     * Get the 'EndDate' element value. Дата окончания перегрузки/выгрузки
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРµРіСЂСѓР·РєРё/РІС‹РіСЂСѓР·РєРё
+     * Set the 'EndDate' element value. Дата окончания перегрузки/выгрузки
      * 
      * @param endDate
      */
@@ -122,7 +122,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndTime' element value. Р’СЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРµРіСЂСѓР·РєРё/РІС‹РіСЂСѓР·РєРё
+     * Get the 'EndTime' element value. Время окончания перегрузки/выгрузки
      * 
      * @return value
      */
@@ -131,7 +131,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndTime' element value. Р’СЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРµРіСЂСѓР·РєРё/РІС‹РіСЂСѓР·РєРё
+     * Set the 'EndTime' element value. Время окончания перегрузки/выгрузки
      * 
      * @param endTime
      */
@@ -140,7 +140,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'OverloadUnloading' element value. РђРєС‚ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕР±СЉРµРјРѕРІ РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РїСЂРё: 0 - РІС‹РіСЂСѓР·РєРµ, 1 - РїРµСЂРµРіСЂСѓР·РєРµ
+     * Get the 'OverloadUnloading' element value. Акт регистрации объемов добычи (вылова) при: 0 - выгрузке, 1 - перегрузке
      * 
      * @return value
      */
@@ -149,7 +149,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'OverloadUnloading' element value. РђРєС‚ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕР±СЉРµРјРѕРІ РґРѕР±С‹С‡Рё (РІС‹Р»РѕРІР°) РїСЂРё: 0 - РІС‹РіСЂСѓР·РєРµ, 1 - РїРµСЂРµРіСЂСѓР·РєРµ
+     * Set the 'OverloadUnloading' element value. Акт регистрации объемов добычи (вылова) при: 0 - выгрузке, 1 - перегрузке
      * 
      * @param overloadUnloading
      */
@@ -158,7 +158,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°РєС‚Р°
+     * Get the 'RegistrationNumber' element value. Регистрационный номер акта
      * 
      * @return value
      */
@@ -167,7 +167,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°РєС‚Р°
+     * Set the 'RegistrationNumber' element value. Регистрационный номер акта
      * 
      * @param registrationNumber
      */
@@ -176,7 +176,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExecutionPlace' element value. РњРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ Р°РєС‚Р°
+     * Get the 'ExecutionPlace' element value. Место составления акта
      * 
      * @return value
      */
@@ -185,7 +185,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExecutionPlace' element value. РњРµСЃС‚Рѕ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ Р°РєС‚Р°
+     * Set the 'ExecutionPlace' element value. Место составления акта
      * 
      * @param executionPlace
      */
@@ -194,7 +194,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'Vessel' element value. РЎРІРµРґРµРЅРёРµ Рѕ РїРµСЂРµРґР°СЋС‰РµРј СЃСѓРґРЅРµ РёР»Рё СЃСѓРґРЅРµ, РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РІС‹РіСЂСѓР·РєР°
+     * Get the 'Vessel' element value. Сведение о передающем судне или судне, которого осуществляется выгрузка
      * 
      * @return value
      */
@@ -203,7 +203,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'Vessel' element value. РЎРІРµРґРµРЅРёРµ Рѕ РїРµСЂРµРґР°СЋС‰РµРј СЃСѓРґРЅРµ РёР»Рё СЃСѓРґРЅРµ, РєРѕС‚РѕСЂРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РІС‹РіСЂСѓР·РєР°
+     * Set the 'Vessel' element value. Сведение о передающем судне или судне, которого осуществляется выгрузка
      * 
      * @param vessel
      */
@@ -212,7 +212,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReceivingVessel' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёРЅРёРјР°СЋС‰РµРј СЃСѓРґРЅРµ
+     * Get the 'ReceivingVessel' element value. Сведения о принимающем судне
      * 
      * @return value
      */
@@ -221,7 +221,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceivingVessel' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёРЅРёРјР°СЋС‰РµРј СЃСѓРґРЅРµ
+     * Set the 'ReceivingVessel' element value. Сведения о принимающем судне
      * 
      * @param receivingVessel
      */
@@ -230,7 +230,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'VesselExtracted' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРЅРµ, СЃ РєРѕС‚РѕСЂРѕРіРѕ РґРѕР±С‹С‚Рѕ СЂС‹Р±РЅРѕРµ СЃС‹СЂСЊРµ Рё СЂС‹Р±РѕРїСЂРѕРґСѓРєС†РёСЏ
+     * Get the 'VesselExtracted' element value. Сведения о судне, с которого добыто рыбное сырье и рыбопродукция
      * 
      * @return value
      */
@@ -239,7 +239,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'VesselExtracted' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРЅРµ, СЃ РєРѕС‚РѕСЂРѕРіРѕ РґРѕР±С‹С‚Рѕ СЂС‹Р±РЅРѕРµ СЃС‹СЂСЊРµ Рё СЂС‹Р±РѕРїСЂРѕРґСѓРєС†РёСЏ
+     * Set the 'VesselExtracted' element value. Сведения о судне, с которого добыто рыбное сырье и рыбопродукция
      * 
      * @param vesselExtracted
      */
@@ -248,7 +248,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Registration' element items. Р РµРіРёСЃС‚СЂР°С†РёСЏ
+     * Get the list of 'Registration' element items. Регистрация
      * 
      * @return list
      */
@@ -257,7 +257,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Registration' element items. Р РµРіРёСЃС‚СЂР°С†РёСЏ
+     * Set the list of 'Registration' element items. Регистрация
      * 
      * @param list
      */
@@ -266,7 +266,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InspectorSignature' element items. РџРѕРґРїРёСЃСЊ РёРЅСЃРїРµРєС‚РѕСЂР°
+     * Get the list of 'InspectorSignature' element items. Подпись инспектора
      * 
      * @return list
      */
@@ -275,7 +275,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InspectorSignature' element items. РџРѕРґРїРёСЃСЊ РёРЅСЃРїРµРєС‚РѕСЂР°
+     * Set the list of 'InspectorSignature' element items. Подпись инспектора
      * 
      * @param list
      */
@@ -284,7 +284,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShipmasterSignature' element value. РџРѕРґРїРёСЃСЊ РєР°РїРёС‚Р°РЅР° СЃСѓРґРЅР°
+     * Get the 'ShipmasterSignature' element value. Подпись капитана судна
      * 
      * @return value
      */
@@ -293,7 +293,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShipmasterSignature' element value. РџРѕРґРїРёСЃСЊ РєР°РїРёС‚Р°РЅР° СЃСѓРґРЅР°
+     * Set the 'ShipmasterSignature' element value. Подпись капитана судна
      * 
      * @param shipmasterSignature
      */
@@ -302,7 +302,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationDatabase' element value. Р РµРіРёСЃС‚СЂР°С†РёСЏ РІ Р±Р°Р·Рµ РґР°РЅРЅС‹С…
+     * Get the 'RegistrationDatabase' element value. Регистрация в базе данных
      * 
      * @return value
      */
@@ -311,7 +311,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationDatabase' element value. Р РµРіРёСЃС‚СЂР°С†РёСЏ РІ Р±Р°Р·Рµ РґР°РЅРЅС‹С…
+     * Set the 'RegistrationDatabase' element value. Регистрация в базе данных
      * 
      * @param registrationDatabase
      */
@@ -321,7 +321,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -330,7 +330,7 @@ public class ActRegistrationMiningType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

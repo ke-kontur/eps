@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕС‡С‚РѕРІРѕРј РѕС‚РїСЂР°РІР»РµРЅРёРё
+ * Сведения о почтовом отправлении
  */
 public class DespatchInfoType
 {
@@ -19,7 +19,7 @@ public class DespatchInfoType
     private DespatchMeasuresType EMS;
 
     /** 
-     * Get the 'DespatchNumber' element value. РќРѕРјРµСЂ РґРµРїРµС€Рё
+     * Get the 'DespatchNumber' element value. Номер депеши
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Set the 'DespatchNumber' element value. РќРѕРјРµСЂ РґРµРїРµС€Рё
+     * Set the 'DespatchNumber' element value. Номер депеши
      * 
      * @param despatchNumber
      */
@@ -37,7 +37,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Get the 'FilingAgency' element value. РЈС‡СЂРµР¶РґРµРЅРёРµ РїРѕРґР°С‡Рё
+     * Get the 'FilingAgency' element value. Учреждение подачи
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Set the 'FilingAgency' element value. РЈС‡СЂРµР¶РґРµРЅРёРµ РїРѕРґР°С‡Рё
+     * Set the 'FilingAgency' element value. Учреждение подачи
      * 
      * @param filingAgency
      */
@@ -55,7 +55,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Get the 'DestinationAgency' element value. РЈС‡СЂРµР¶РґРµРЅРёРµ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationAgency' element value. Учреждение назначения
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Set the 'DestinationAgency' element value. РЈС‡СЂРµР¶РґРµРЅРёРµ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationAgency' element value. Учреждение назначения
      * 
      * @param destinationAgency
      */
@@ -73,7 +73,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Get the list of 'Comments' element items. РџСЂРёРјРµС‡Р°РЅРёСЏ
+     * Get the list of 'Comments' element items. Примечания
      * 
      * @return list
      */
@@ -82,7 +82,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Set the list of 'Comments' element items. РџСЂРёРјРµС‡Р°РЅРёСЏ
+     * Set the list of 'Comments' element items. Примечания
      * 
      * @param list
      */
@@ -91,7 +91,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Get the 'EmptyContainers' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… РїРѕСЂРѕР¶РЅРёС… РјРµС€РєРѕРІ Рё РґСЂСѓРіРёС… РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РїРѕСЂРѕР¶РЅРёС… РµРјРєРѕСЃС‚РµР№
+     * Get the 'EmptyContainers' element value. Сведения о количественных показателях порожних мешков и других возвращаемых порожних емкостей
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Set the 'EmptyContainers' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… РїРѕСЂРѕР¶РЅРёС… РјРµС€РєРѕРІ Рё РґСЂСѓРіРёС… РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РїРѕСЂРѕР¶РЅРёС… РµРјРєРѕСЃС‚РµР№
+     * Set the 'EmptyContainers' element value. Сведения о количественных показателях порожних мешков и других возвращаемых порожних емкостей
      * 
      * @param emptyContainers
      */
@@ -109,7 +109,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Get the 'WrittenCorrespondence' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… РїРёСЃСЊРјРµРЅРЅРѕР№ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС†РёРё
+     * Get the 'WrittenCorrespondence' element value. Сведения о количественных показателях письменной корреспонденции
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Set the 'WrittenCorrespondence' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… РїРёСЃСЊРјРµРЅРЅРѕР№ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС†РёРё
+     * Set the 'WrittenCorrespondence' element value. Сведения о количественных показателях письменной корреспонденции
      * 
      * @param writtenCorrespondence
      */
@@ -128,7 +128,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Get the 'UncapacityParcels' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… РЎР  
+     * Get the 'UncapacityParcels' element value. Сведения о количественных показателях СР 
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Set the 'UncapacityParcels' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… РЎР  
+     * Set the 'UncapacityParcels' element value. Сведения о количественных показателях СР 
      * 
      * @param uncapacityParcels
      */
@@ -146,7 +146,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Get the 'EMS' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… EMS
+     * Get the 'EMS' element value. Сведения о количественных показателях EMS
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class DespatchInfoType
     }
 
     /** 
-     * Set the 'EMS' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… РїРѕРєР°Р·Р°С‚РµР»СЏС… EMS
+     * Set the 'EMS' element value. Сведения о количественных показателях EMS
      * 
      * @param EMS
      */

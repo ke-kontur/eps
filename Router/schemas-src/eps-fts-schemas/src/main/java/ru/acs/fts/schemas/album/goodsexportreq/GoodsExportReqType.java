@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.GTDInqType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ Рѕ С„Р°РєС‚РёС‡РµСЃРєРё РІС‹РІРµР·РµРЅРЅС‹С… С‚РѕРІР°СЂР°С… РїРѕ РґРµРєР»Р°СЂР°С†РёРё
+ * Запрос сведений о фактически вывезенных товарах по декларации
  */
 public class GoodsExportReqType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class GoodsExportReqType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DateBegin' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР°, Р·Р° РєРѕС‚РѕСЂС‹Р№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'DateBegin' element value. Дата начала периода, за который запрашивается информация
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateBegin' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР°, Р·Р° РєРѕС‚РѕСЂС‹Р№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'DateBegin' element value. Дата начала периода, за который запрашивается информация
      * 
      * @param dateBegin
      */
@@ -41,7 +41,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateEnd' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР°, Р·Р° РєРѕС‚РѕСЂС‹Р№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'DateEnd' element value. Дата окончания периода, за который запрашивается информация
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateEnd' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР°, Р·Р° РєРѕС‚РѕСЂС‹Р№ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'DateEnd' element value. Дата окончания периода, за который запрашивается информация
      * 
      * @param dateEnd
      */
@@ -59,7 +59,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'BorderPointCode' element value. РљРѕРґ РїРѕРіСЂР°РЅРёС‡РЅРѕРіРѕ РїСѓРЅРєС‚Р° РїСЂРѕРїСѓСЃРєР°.
+     * Get the 'BorderPointCode' element value. Код пограничного пункта пропуска.
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'BorderPointCode' element value. РљРѕРґ РїРѕРіСЂР°РЅРёС‡РЅРѕРіРѕ РїСѓРЅРєС‚Р° РїСЂРѕРїСѓСЃРєР°.
+     * Set the 'BorderPointCode' element value. Код пограничного пункта пропуска.
      * 
      * @param borderPointCode
      */
@@ -77,7 +77,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -95,7 +95,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -113,7 +113,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DTID' element items. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
+     * Get the list of 'DTID' element items. Регистрационный номер ДТ.
      * 
      * @return list
      */
@@ -122,7 +122,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DTID' element items. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
+     * Set the list of 'DTID' element items. Регистрационный номер ДТ.
      * 
      * @param list
      */
@@ -131,7 +131,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class GoodsExportReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

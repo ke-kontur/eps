@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHContainerInf
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhGoodType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
+ * Описание товаров
  */
 public class GoodInfoType extends WhGoodType
 {
@@ -16,7 +16,7 @@ public class GoodInfoType extends WhGoodType
     private List<DocumentBaseType> transportDocList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the list of 'Container' element items. РћРїРёСЃР°РЅРёРµ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the list of 'Container' element items. Описание контейнера
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class GoodInfoType extends WhGoodType
     }
 
     /** 
-     * Set the list of 'Container' element items. РћРїРёСЃР°РЅРёРµ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the list of 'Container' element items. Описание контейнера
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class GoodInfoType extends WhGoodType
     }
 
     /** 
-     * Get the list of 'TransportDoc' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the list of 'TransportDoc' element items. Сведения о транспортном документе
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class GoodInfoType extends WhGoodType
     }
 
     /** 
-     * Set the list of 'TransportDoc' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the list of 'TransportDoc' element items. Сведения о транспортном документе
      * 
      * @param list
      */

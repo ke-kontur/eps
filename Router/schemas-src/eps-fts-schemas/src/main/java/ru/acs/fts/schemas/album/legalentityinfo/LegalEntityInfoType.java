@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РљСЂР°С‚РєРёРµ СЃРІРµРґРµРЅРёСЏ РїРѕ СЋСЂ. Р»РёС†Сѓ/РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡РµС‚Рµ РѕСЂРіР°РЅРёР·Р°С†РёРё РІ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ РїРѕ РјРµСЃС‚Сѓ РЅР°С…РѕР¶РґРµРЅРёСЏ РµРµ РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ/Р’С‹РїРёСЃРєР° Рѕ СЋСЂ. Р»РёС†Рµ
+ * Краткие сведения по юр. лицу/Сведения об учете организации в налоговом органе по месту нахождения ее обособленного подразделения/Выписка о юр. лице
  */
 public class LegalEntityInfoType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class LegalEntityInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РљСЂР°С‚РєРёРµ СЃРІРµРґРµРЅРёСЏ РїРѕ СЋСЂ. Р»РёС†Сѓ; 2 - РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡РµС‚Рµ РѕСЂРіР°РЅРёР·Р°С†РёРё РІ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ РїРѕ РјРµСЃС‚Сѓ РЅР°С…РѕР¶РґРµРЅРёСЏ РµРµ РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ; 3 - РІС‹РїРёСЃРєР° Рѕ СЋСЂ. Р»РёС†Рµ
+     * Get the 'DocSign' element value. Признак документа: 1 - Краткие сведения по юр. лицу; 2 - Сведения об учете организации в налоговом органе по месту нахождения ее обособленного подразделения; 3 - выписка о юр. лице
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 1 - РљСЂР°С‚РєРёРµ СЃРІРµРґРµРЅРёСЏ РїРѕ СЋСЂ. Р»РёС†Сѓ; 2 - РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡РµС‚Рµ РѕСЂРіР°РЅРёР·Р°С†РёРё РІ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ РїРѕ РјРµСЃС‚Сѓ РЅР°С…РѕР¶РґРµРЅРёСЏ РµРµ РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ; 3 - РІС‹РїРёСЃРєР° Рѕ СЋСЂ. Р»РёС†Рµ
+     * Set the 'DocSign' element value. Признак документа: 1 - Краткие сведения по юр. лицу; 2 - Сведения об учете организации в налоговом органе по месту нахождения ее обособленного подразделения; 3 - выписка о юр. лице
      * 
      * @param docSign
      */
@@ -42,7 +42,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResultCode' element value. РљРѕРґ РѕР±СЂР°Р±РѕС‚РєРё
+     * Get the 'ResultCode' element value. Код обработки
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResultCode' element value. РљРѕРґ РѕР±СЂР°Р±РѕС‚РєРё
+     * Set the 'ResultCode' element value. Код обработки
      * 
      * @param resultCode
      */
@@ -60,7 +60,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЃРІРµРґРµРЅРёР№ РёР· Р•Р“Р Р®Р› РІ РѕС‚РЅРѕС€РµРЅРёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'FormDate' element value. Дата формирования сведений из ЕГРЮЛ в отношении юридического лица
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЃРІРµРґРµРЅРёР№ РёР· Р•Р“Р Р®Р› РІ РѕС‚РЅРѕС€РµРЅРёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'FormDate' element value. Дата формирования сведений из ЕГРЮЛ в отношении юридического лица
      * 
      * @param formDate
      */
@@ -78,7 +78,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'BaseDetails' element value. РЎРІРµРґРµРЅРёСЏ Рѕ  СЋСЂРёРґРёС‡РµСЃРєРѕРј Р»РёС†Рµ
+     * Get the 'BaseDetails' element value. Сведения о  юридическом лице
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'BaseDetails' element value. РЎРІРµРґРµРЅРёСЏ Рѕ  СЋСЂРёРґРёС‡РµСЃРєРѕРј Р»РёС†Рµ
+     * Set the 'BaseDetails' element value. Сведения о  юридическом лице
      * 
      * @param baseDetails
      */
@@ -96,7 +96,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AuthorizedOrg' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РёРјРµСЋС‰РµРј РїСЂР°РІРѕ Р±РµР· РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё РґРµР№СЃС‚РІРѕРІР°С‚СЊ РѕС‚ РёРјРµРЅРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the list of 'AuthorizedOrg' element items. Сведения о лице, имеющем право без доверенности действовать от имени юридического лица
      * 
      * @return list
      */
@@ -105,7 +105,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AuthorizedOrg' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РёРјРµСЋС‰РµРј РїСЂР°РІРѕ Р±РµР· РґРѕРІРµСЂРµРЅРЅРѕСЃС‚Рё РґРµР№СЃС‚РІРѕРІР°С‚СЊ РѕС‚ РёРјРµРЅРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the list of 'AuthorizedOrg' element items. Сведения о лице, имеющем право без доверенности действовать от имени юридического лица
      * 
      * @param list
      */
@@ -114,7 +114,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'TaxRegInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡РµС‚Рµ РІ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'TaxRegInfo' element value. Сведения об учете в налоговом органе
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'TaxRegInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡РµС‚Рµ РІ РЅР°Р»РѕРіРѕРІРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'TaxRegInfo' element value. Сведения об учете в налоговом органе
      * 
      * @param taxRegInfo
      */
@@ -132,7 +132,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'PensionServiceReg' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЃС‚СЂР°С…РѕРІР°С‚РµР»СЏ РІ С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРј РѕСЂРіР°РЅРµ РџРµРЅСЃРёРѕРЅРЅРѕРіРѕ С„РѕРЅРґР° Р Р¤
+     * Get the 'PensionServiceReg' element value. Сведения о регистрации юридического лица в качестве страхователя в территориальном органе Пенсионного фонда РФ
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'PensionServiceReg' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЃС‚СЂР°С…РѕРІР°С‚РµР»СЏ РІ С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРј РѕСЂРіР°РЅРµ РџРµРЅСЃРёРѕРЅРЅРѕРіРѕ С„РѕРЅРґР° Р Р¤
+     * Set the 'PensionServiceReg' element value. Сведения о регистрации юридического лица в качестве страхователя в территориальном органе Пенсионного фонда РФ
      * 
      * @param pensionServiceReg
      */
@@ -150,7 +150,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'InsuranceServiceReg' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЃС‚СЂР°С…РѕРІР°С‚РµР»СЏ РІ РёСЃРїРѕР»РЅРёС‚РµР»СЊРЅРѕРј РѕСЂРіР°РЅРµ Р¤РѕРЅРґР° СЃРѕС†РёР°Р»СЊРЅРѕРіРѕ СЃС‚СЂР°С…РѕРІР°РЅРёСЏ Р Р¤
+     * Get the 'InsuranceServiceReg' element value. Сведения о регистрации юридического лица в качестве страхователя в исполнительном органе Фонда социального страхования РФ
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'InsuranceServiceReg' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЃС‚СЂР°С…РѕРІР°С‚РµР»СЏ РІ РёСЃРїРѕР»РЅРёС‚РµР»СЊРЅРѕРј РѕСЂРіР°РЅРµ Р¤РѕРЅРґР° СЃРѕС†РёР°Р»СЊРЅРѕРіРѕ СЃС‚СЂР°С…РѕРІР°РЅРёСЏ Р Р¤
+     * Set the 'InsuranceServiceReg' element value. Сведения о регистрации юридического лица в качестве страхователя в исполнительном органе Фонда социального страхования РФ
      * 
      * @param insuranceServiceReg
      */
@@ -168,7 +168,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'License' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё
+     * Get the list of 'License' element items. Сведения о лицензии
      * 
      * @return list
      */
@@ -177,7 +177,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'License' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё
+     * Set the list of 'License' element items. Сведения о лицензии
      * 
      * @param list
      */
@@ -186,7 +186,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RecordDescription' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃСЏС…, РІРЅРµСЃРµРЅРЅС‹С… РІ Р•Р“Р Р®Р›
+     * Get the list of 'RecordDescription' element items. Сведения о записях, внесенных в ЕГРЮЛ
      * 
      * @return list
      */
@@ -195,7 +195,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RecordDescription' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃСЏС…, РІРЅРµСЃРµРЅРЅС‹С… РІ Р•Р“Р Р®Р›
+     * Set the list of 'RecordDescription' element items. Сведения о записях, внесенных в ЕГРЮЛ
      * 
      * @param list
      */
@@ -204,7 +204,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class LegalEntityInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

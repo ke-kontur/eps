@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.oez_report;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ С‚РѕРІР°СЂР°С… СЃ РёР·РјРµРЅРЅС‹Рј СЃС‚Р°С‚СѓСЃРѕРј
+ * Сведения товарах с изменным статусом
  */
 public class StatusDisguiseGoodsType
 {
@@ -10,7 +10,7 @@ public class StatusDisguiseGoodsType
     private String lostGoodsQuantity;
 
     /** 
-     * Get the 'OEZClosedQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… С‚Р°РјРѕР¶РµРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР° РЎРўР— Р·Р°РІРµСЂС€РµРЅР° РїСЂРё РїСЂРµРєСЂР°С‰РµРЅРёРё С„СѓРЅРєС†РёРѕРЅРёСЂРѕРІР°РЅРёСЏ РћР­Р—
+     * Get the 'OEZClosedQuantity' element value. Количество товара, в отношении которых таможенная процедура СТЗ завершена при прекращении функционирования ОЭЗ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class StatusDisguiseGoodsType
     }
 
     /** 
-     * Set the 'OEZClosedQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… С‚Р°РјРѕР¶РµРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР° РЎРўР— Р·Р°РІРµСЂС€РµРЅР° РїСЂРё РїСЂРµРєСЂР°С‰РµРЅРёРё С„СѓРЅРєС†РёРѕРЅРёСЂРѕРІР°РЅРёСЏ РћР­Р—
+     * Set the 'OEZClosedQuantity' element value. Количество товара, в отношении которых таможенная процедура СТЗ завершена при прекращении функционирования ОЭЗ
      * 
      * @param OEZClosedQuantity
      */
@@ -28,7 +28,7 @@ public class StatusDisguiseGoodsType
     }
 
     /** 
-     * Get the 'LostGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРµ  СЃРѕРіР»Р°СЃРЅРѕ С†РµР»СЏРј РІРІРѕР·Р°
+     * Get the 'LostGoodsQuantity' element value. Количество товара, использованное  согласно целям ввоза
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class StatusDisguiseGoodsType
     }
 
     /** 
-     * Set the 'LostGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРµ  СЃРѕРіР»Р°СЃРЅРѕ С†РµР»СЏРј РІРІРѕР·Р°
+     * Set the 'LostGoodsQuantity' element value. Количество товара, использованное  согласно целям ввоза
      * 
      * @param lostGoodsQuantity
      */

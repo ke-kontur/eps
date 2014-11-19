@@ -2,6 +2,7 @@ package ru.acs.fts.aud.wmq.router.processing.tasks;
 
 import java.io.IOException;
 
+import org.jibx.runtime.JiBXException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Required;
@@ -35,9 +36,8 @@ public class AcquireAudDocumentTask
 	public AUDBaseEnvelopeType getAudMessage( ) { return _audMessage; }
 	// @formatter:on
 	
-	public void acquire( EnvelopeType envelope ) 
-		throws IOException
-	{
+	public void acquire( EnvelopeType envelope )
+			throws IOException, JiBXException {
 		log.info( "Начали получение документа и обертки АЮДа из полученного конверта" );
 		
 		BodyType body = envelope.getBody( );

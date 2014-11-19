@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.esadoutp;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Информация о транспортных документах
  */
 public class TransportDocumentType extends DocumentBaseType
 {
     private String holder;
 
     /** 
-     * Get the 'Holder' element value. Р”РµСЂР¶Р°С‚РµР»СЊ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'Holder' element value. Держатель накладной
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TransportDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Holder' element value. Р”РµСЂР¶Р°С‚РµР»СЊ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'Holder' element value. Держатель накладной
      * 
      * @param holder
      */

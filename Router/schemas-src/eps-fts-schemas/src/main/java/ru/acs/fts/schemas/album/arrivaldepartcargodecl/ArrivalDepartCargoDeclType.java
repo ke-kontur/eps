@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.VesselType;
 
 /** 
- * Р”РµРєР»Р°СЂР°С†РёСЏ Рѕ РіСЂСѓР·Рµ РїСЂРё РїСЂРёС…РѕРґРµ/РѕС‚С…РѕРґРµ СЃСѓРґРЅР°
+ * Декларация о грузе при приходе/отходе судна
  */
 public class ArrivalDepartCargoDeclType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - РїСЂРёС…РѕРґ; 1 - РѕС‚С…РѕРґ
+     * Get the 'DocSign' element value. Признак документа: 0 - приход; 1 - отход
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - РїСЂРёС…РѕРґ; 1 - РѕС‚С…РѕРґ
+     * Set the 'DocSign' element value. Признак документа: 0 - приход; 1 - отход
      * 
      * @param docSign
      */
@@ -40,7 +40,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Get the 'LanguageCode' element value. РљРѕРґ СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р° 
+     * Get the 'LanguageCode' element value. Код языка документа 
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Set the 'LanguageCode' element value. РљРѕРґ СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р° 
+     * Set the 'LanguageCode' element value. Код языка документа 
      * 
      * @param languageCode
      */
@@ -58,7 +58,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartDestinPort' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ/РЅР°Р·РЅР°С‡РµРЅРёСЏ СЃСѓРґРЅР°
+     * Get the 'DepartDestinPort' element value. Название порта отправления/назначения судна
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartDestinPort' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ/РЅР°Р·РЅР°С‡РµРЅРёСЏ СЃСѓРґРЅР°
+     * Set the 'DepartDestinPort' element value. Название порта отправления/назначения судна
      * 
      * @param departDestinPort
      */
@@ -76,7 +76,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarationPort' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРµРєР»Р°СЂР°С†РёРё Рѕ РіСЂСѓР·Рµ
+     * Get the 'DeclarationPort' element value. Название порта составления декларации о грузе
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationPort' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРµРєР»Р°СЂР°С†РёРё Рѕ РіСЂСѓР·Рµ
+     * Set the 'DeclarationPort' element value. Название порта составления декларации о грузе
      * 
      * @param declarationPort
      */
@@ -94,7 +94,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕРєСѓРјРµРЅС‚Р° РєР°РїРёС‚Р°РЅРѕРј, РјРѕСЂСЃРєРёРј Р°РіРµРЅС‚РѕРј РёР»Рё РєР°РєРёРј-Р»РёР±Рѕ РґСЂСѓРіРёРј Р»РёС†РѕРј, РЅР°РґР»РµР¶Р°С‰РёРј РѕР±СЂР°Р·РѕРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Рј РЅР° С‚Рѕ РєР°РїРёС‚Р°РЅРѕРј
+     * Get the 'DocumentSignature' element value. Подпись документа капитаном, морским агентом или каким-либо другим лицом, надлежащим образом уполномоченным на то капитаном
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕРєСѓРјРµРЅС‚Р° РєР°РїРёС‚Р°РЅРѕРј, РјРѕСЂСЃРєРёРј Р°РіРµРЅС‚РѕРј РёР»Рё РєР°РєРёРј-Р»РёР±Рѕ РґСЂСѓРіРёРј Р»РёС†РѕРј, РЅР°РґР»РµР¶Р°С‰РёРј РѕР±СЂР°Р·РѕРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Рј РЅР° С‚Рѕ РєР°РїРёС‚Р°РЅРѕРј
+     * Set the 'DocumentSignature' element value. Подпись документа капитаном, морским агентом или каким-либо другим лицом, надлежащим образом уполномоченным на то капитаном
      * 
      * @param documentSignature
      */
@@ -112,7 +112,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Get the 'Vessel' element value. Р РµРєРІРёР·РёС‚С‹ СЃСѓРґРЅР°
+     * Get the 'Vessel' element value. Реквизиты судна
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Set the 'Vessel' element value. Р РµРєРІРёР·РёС‚С‹ СЃСѓРґРЅР°
+     * Set the 'Vessel' element value. Реквизиты судна
      * 
      * @param vessel
      */
@@ -130,7 +130,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р° (С‚РѕРІР°СЂРѕРІ), РІР·СЏС‚С‹С… РІ РїРѕСЂС‚Сѓ РѕС‚С…РѕРґР°/РїРѕРґР»РµР¶Р°С‰РёС… РІС‹РіСЂСѓР·РєРµ РІ РїРѕСЂС‚Сѓ РїСЂРёС…РѕРґР°
+     * Get the list of 'Goods' element items. Описание груза (товаров), взятых в порту отхода/подлежащих выгрузке в порту прихода
      * 
      * @return list
      */
@@ -139,7 +139,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р° (С‚РѕРІР°СЂРѕРІ), РІР·СЏС‚С‹С… РІ РїРѕСЂС‚Сѓ РѕС‚С…РѕРґР°/РїРѕРґР»РµР¶Р°С‰РёС… РІС‹РіСЂСѓР·РєРµ РІ РїРѕСЂС‚Сѓ РїСЂРёС…РѕРґР°
+     * Set the list of 'Goods' element items. Описание груза (товаров), взятых в порту отхода/подлежащих выгрузке в порту прихода
      * 
      * @param list
      */
@@ -148,7 +148,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class ArrivalDepartCargoDeclType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

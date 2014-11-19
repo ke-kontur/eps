@@ -7,14 +7,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DriverInformationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ С‚РѕРІР°СЂРѕРІ
+ * Сведения о перевозчике товаров
  */
 public class ESADoutCarrierPType extends CUOrganizationType
 {
     private List<DriverInformationType> ESADDriverInformationList = new ArrayList<DriverInformationType>();
 
     /** 
-     * Get the list of 'ESADDriverInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРѕРґРёС‚РµР»СЏС… С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the list of 'ESADDriverInformation' element items. Информация о водителях транспортных средств
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class ESADoutCarrierPType extends CUOrganizationType
     }
 
     /** 
-     * Set the list of 'ESADDriverInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРѕРґРёС‚РµР»СЏС… С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the list of 'ESADDriverInformation' element items. Информация о водителях транспортных средств
      * 
      * @param list
      */

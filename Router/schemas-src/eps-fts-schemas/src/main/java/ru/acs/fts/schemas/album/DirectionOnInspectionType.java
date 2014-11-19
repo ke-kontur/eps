@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РќР°РїСЂР°РІР»РµРЅРёРµ РЅР° РѕСЃРјРѕС‚СЂ
+ * Направление на осмотр
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -28,7 +28,7 @@ public class DirectionOnInspectionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DirectionRegistration' element value. Р РµРєРІРёР·РёС‚С‹ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DirectionRegistration' element value. Реквизиты направления
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DirectionOnInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DirectionRegistration' element value. Р РµРєРІРёР·РёС‚С‹ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DirectionRegistration' element value. Реквизиты направления
      * 
      * @param directionRegistration
      */
@@ -47,7 +47,7 @@ public class DirectionOnInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DirectionInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚Рµ Рё С‚РѕРІР°СЂР°С…
+     * Get the 'DirectionInformation' element value. Информация о транспорте и товарах
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class DirectionOnInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DirectionInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚Рµ Рё С‚РѕРІР°СЂР°С…
+     * Set the 'DirectionInformation' element value. Информация о транспорте и товарах
      * 
      * @param directionInformation
      */
@@ -65,7 +65,7 @@ public class DirectionOnInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class DirectionOnInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

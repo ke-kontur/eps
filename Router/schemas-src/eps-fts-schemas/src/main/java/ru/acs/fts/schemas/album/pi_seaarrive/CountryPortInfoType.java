@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.pi_seaarrive;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚СЂР°РЅРµ Рё РїРѕСЂС‚Рµ
+ * Сведения о стране и порте
  */
 public class CountryPortInfoType
 {
@@ -10,7 +10,7 @@ public class CountryPortInfoType
     private String portName;
 
     /** 
-     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryCode' element value. Код страны
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CountryPortInfoType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryCode' element value. Код страны
      * 
      * @param countryCode
      */
@@ -28,7 +28,7 @@ public class CountryPortInfoType
     }
 
     /** 
-     * Get the 'PortName' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р°
+     * Get the 'PortName' element value. Название порта
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CountryPortInfoType
     }
 
     /** 
-     * Set the 'PortName' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р°
+     * Set the 'PortName' element value. Название порта
      * 
      * @param portName
      */

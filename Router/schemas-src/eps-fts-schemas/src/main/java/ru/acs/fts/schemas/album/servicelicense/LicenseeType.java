@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.servicelicense;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Р›РёС†РµРЅР·РёР°С‚/РЎРµСЂС‚РёС„РёС†РёСЂСѓРµРјРѕРµ Р»РёС†Рѕ
+ * Лицензиат/Сертифицируемое лицо
  */
 public class LicenseeType extends OrganizationType
 {
     private String orgSign;
 
     /** 
-     * Get the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 0 - С„РёР·. Р»РёС†Рѕ; 1 - СЋСЂ. Р»РёС†Рѕ
+     * Get the 'OrgSign' element value. Признак: 0 - физ. лицо; 1 - юр. лицо
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class LicenseeType extends OrganizationType
     }
 
     /** 
-     * Set the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 0 - С„РёР·. Р»РёС†Рѕ; 1 - СЋСЂ. Р»РёС†Рѕ
+     * Set the 'OrgSign' element value. Признак: 0 - физ. лицо; 1 - юр. лицо
      * 
      * @param orgSign
      */

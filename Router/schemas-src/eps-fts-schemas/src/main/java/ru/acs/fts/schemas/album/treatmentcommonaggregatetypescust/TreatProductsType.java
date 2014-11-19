@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё.
+ * Сведения о товаре для переработки.
  */
 public class TreatProductsType
 {
@@ -24,7 +24,7 @@ public class TreatProductsType
     private List<DocumentBaseType> contractList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'Name' element items. Наименование товаров
      * 
      * @return list
      */
@@ -33,7 +33,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Set the list of 'Name' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'Name' element items. Наименование товаров
      * 
      * @param list
      */
@@ -42,7 +42,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Get the 'TNVED' element value. РљРѕРґ РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'TNVED' element value. Код по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Set the 'TNVED' element value. РљРѕРґ РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'TNVED' element value. Код по ТН ВЭД ТС
      * 
      * @param TNVED
      */
@@ -60,7 +60,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Get the 'RubCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ, СЂСѓР±.
+     * Get the 'RubCost' element value. Стоимость, руб.
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Set the 'RubCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ, СЂСѓР±.
+     * Set the 'RubCost' element value. Стоимость, руб.
      * 
      * @param rubCost
      */
@@ -78,7 +78,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Get the 'QuantityKg' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РєРі 
+     * Get the 'QuantityKg' element value. Количество в кг 
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Set the 'QuantityKg' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РєРі 
+     * Set the 'QuantityKg' element value. Количество в кг 
      * 
      * @param quantityKg
      */
@@ -96,7 +96,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Get the 'AddUnit' element value. РљРѕРґ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РЅРµСЃС‚Р°РЅРґР°СЂС‚РЅРѕР№ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ (980-РєРѕРјРїР»РµРєС‚; 981-СЂСѓР»РѕРЅ; 982-СЏС‰РёРє; 983-РєРёР»РѕРјРµС‚СЂ; 984-Р±РѕР±РёРЅР°; 985-СѓРїР°РєРѕРІРєР°)
+     * Get the 'AddUnit' element value. Код дополнительной нестандартной единицы измерения (980-комплект; 981-рулон; 982-ящик; 983-километр; 984-бобина; 985-упаковка)
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Set the 'AddUnit' element value. РљРѕРґ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РЅРµСЃС‚Р°РЅРґР°СЂС‚РЅРѕР№ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ (980-РєРѕРјРїР»РµРєС‚; 981-СЂСѓР»РѕРЅ; 982-СЏС‰РёРє; 983-РєРёР»РѕРјРµС‚СЂ; 984-Р±РѕР±РёРЅР°; 985-СѓРїР°РєРѕРІРєР°)
+     * Set the 'AddUnit' element value. Код дополнительной нестандартной единицы измерения (980-комплект; 981-рулон; 982-ящик; 983-километр; 984-бобина; 985-упаковка)
      * 
      * @param addUnit
      */
@@ -114,7 +114,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Get the 'AddQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РЅРµСЃС‚Р°РЅРґР°СЂС‚РЅС‹С… РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'AddQuantity' element value. Количество товара в нестандартных дополнительных единицах измерения
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Set the 'AddQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РЅРµСЃС‚Р°РЅРґР°СЂС‚РЅС‹С… РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'AddQuantity' element value. Количество товара в нестандартных дополнительных единицах измерения
      * 
      * @param addQuantity
      */
@@ -132,7 +132,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.
+     * Get the 'GoodsQuantity' element value. Количество товара в единице измерения.
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.
+     * Set the 'GoodsQuantity' element value. Количество товара в единице измерения.
      * 
      * @param goodsQuantity
      */
@@ -150,7 +150,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ.
+     * Get the 'MeasureUnitQualifierName' element value. Краткое наименование единицы измерения.
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ.
+     * Set the 'MeasureUnitQualifierName' element value. Краткое наименование единицы измерения.
      * 
      * @param measureUnitQualifierName
      */
@@ -168,7 +168,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РµРґРёРЅРёС†Р°РјРё РёР·РјРµСЂРµРЅРёСЏ, РїСЂРёРјРµРЅСЏРµРјС‹РјРё РІ РўР°РјРѕР¶РµРЅРЅРѕРј С‚Р°СЂРёС„Рµ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё..
+     * Get the 'MeasureUnitQualifierCode' element value. Код единицы измерения в соответствии с единицами измерения, применяемыми в Таможенном тарифе Российской Федерации..
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РµРґРёРЅРёС†Р°РјРё РёР·РјРµСЂРµРЅРёСЏ, РїСЂРёРјРµРЅСЏРµРјС‹РјРё РІ РўР°РјРѕР¶РµРЅРЅРѕРј С‚Р°СЂРёС„Рµ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё..
+     * Set the 'MeasureUnitQualifierCode' element value. Код единицы измерения в соответствии с единицами измерения, применяемыми в Таможенном тарифе Российской Федерации..
      * 
      * @param measureUnitQualifierCode
      */
@@ -186,7 +186,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsCode' element value. Код  таможенного органа
      * 
      * @return value
      */
@@ -195,7 +195,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ  С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsCode' element value. Код  таможенного органа
      * 
      * @param customsCode
      */
@@ -204,7 +204,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Get the 'CurrencyCost' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚РѕРёРјРѕСЃС‚Рё РІ РІР°Р»СЋС‚Рµ
+     * Get the 'CurrencyCost' element value. Сведения о стоимости в валюте
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Set the 'CurrencyCost' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚РѕРёРјРѕСЃС‚Рё РІ РІР°Р»СЋС‚Рµ
+     * Set the 'CurrencyCost' element value. Сведения о стоимости в валюте
      * 
      * @param currencyCost
      */
@@ -222,7 +222,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Get the list of 'Contract' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
+     * Get the list of 'Contract' element items. Сведения о контракте
      * 
      * @return list
      */
@@ -231,7 +231,7 @@ public class TreatProductsType
     }
 
     /** 
-     * Set the list of 'Contract' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
+     * Set the list of 'Contract' element items. Сведения о контракте
      * 
      * @param list
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.paymentdocument;
 import org.joda.time.LocalDate;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў/СЃРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўРџРћ/СЃРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўР .
+ * Регистрационный номер ДТ/справочный номер ТПО/справочный номер ТР.
  */
 public class RegistrationNumberType
 {
@@ -13,7 +13,7 @@ public class RegistrationNumberType
     private String number;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsCode' element value. Код таможенного органа
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsCode' element value. Код таможенного органа
      * 
      * @param customsCode
      */
@@ -31,7 +31,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'RegistrationDate' element value. Дата регистрации документа.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'RegistrationDate' element value. Дата регистрации документа.
      * 
      * @param registrationDate
      */
@@ -49,7 +49,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'Number' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ (СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№) РЅРѕРјРµСЂ Р”Рў/ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (СЃРµСЂРёСЏ, С‚РёРїРѕРіСЂР°С„СЃРєРёР№ РЅРѕРјРµСЂ) РўРџРћ/ С‚РёРїРѕРіСЂР°С„СЃРєРёР№ РЅРѕРјРµСЂ РўР 
+     * Get the 'Number' element value. Порядковый (регистрационный) номер ДТ/ регистрационный номер (серия, типографский номер) ТПО/ типографский номер ТР
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'Number' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ (СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№) РЅРѕРјРµСЂ Р”Рў/ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (СЃРµСЂРёСЏ, С‚РёРїРѕРіСЂР°С„СЃРєРёР№ РЅРѕРјРµСЂ) РўРџРћ/ С‚РёРїРѕРіСЂР°С„СЃРєРёР№ РЅРѕРјРµСЂ РўР 
+     * Set the 'Number' element value. Порядковый (регистрационный) номер ДТ/ регистрационный номер (серия, типографский номер) ТПО/ типографский номер ТР
      * 
      * @param number
      */

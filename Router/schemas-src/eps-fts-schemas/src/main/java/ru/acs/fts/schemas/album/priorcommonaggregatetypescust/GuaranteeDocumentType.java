@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ РіР°СЂР°РЅС‚РёРё
+ * Реквизиты гарантии
  */
 public class GuaranteeDocumentType
 {
@@ -17,7 +17,7 @@ public class GuaranteeDocumentType
     private List<LimitationNonECType> limitationNonECList = new ArrayList<LimitationNonECType>();
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер документа
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class GuaranteeDocumentType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер документа
      * 
      * @param documentNumber
      */
@@ -35,7 +35,7 @@ public class GuaranteeDocumentType
     }
 
     /** 
-     * Get the 'GRN' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё (GRN) Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РіР°СЂР°РЅС‚РёРё NCTS.
+     * Get the 'GRN' element value. Регистрационный номер гарантии (GRN) заполняется в случае использования гарантии NCTS.
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class GuaranteeDocumentType
     }
 
     /** 
-     * Set the 'GRN' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РіР°СЂР°РЅС‚РёРё (GRN) Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РіР°СЂР°РЅС‚РёРё NCTS.
+     * Set the 'GRN' element value. Регистрационный номер гарантии (GRN) заполняется в случае использования гарантии NCTS.
      * 
      * @param GRN
      */
@@ -53,7 +53,7 @@ public class GuaranteeDocumentType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IssueDate' element value. Дата документа
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class GuaranteeDocumentType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IssueDate' element value. Дата документа
      * 
      * @param issueDate
      */
@@ -71,7 +71,7 @@ public class GuaranteeDocumentType
     }
 
     /** 
-     * Get the 'NotValid4EC' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РґР»СЏ СЃС‚СЂР°РЅ Р•РЎ, Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РіР°СЂР°РЅС‚РёРё NCTS
+     * Get the 'NotValid4EC' element value. Признак наличия ограничения для стран ЕС, заполняется в случае использования гарантии NCTS
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class GuaranteeDocumentType
     }
 
     /** 
-     * Set the 'NotValid4EC' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РґР»СЏ СЃС‚СЂР°РЅ Р•РЎ, Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РіР°СЂР°РЅС‚РёРё NCTS
+     * Set the 'NotValid4EC' element value. Признак наличия ограничения для стран ЕС, заполняется в случае использования гарантии NCTS
      * 
      * @param notValid4EC
      */
@@ -89,7 +89,7 @@ public class GuaranteeDocumentType
     }
 
     /** 
-     * Get the list of 'LimitationNonEC' element items. РћРіСЂР°РЅРёС‡РµРЅРёРµ РґРµР№СЃС‚РІРёСЏ РіР°СЂР°РЅС‚РёРё РІРЅРµ Р•РЎ
+     * Get the list of 'LimitationNonEC' element items. Ограничение действия гарантии вне ЕС
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class GuaranteeDocumentType
     }
 
     /** 
-     * Set the list of 'LimitationNonEC' element items. РћРіСЂР°РЅРёС‡РµРЅРёРµ РґРµР№СЃС‚РІРёСЏ РіР°СЂР°РЅС‚РёРё РІРЅРµ Р•РЎ
+     * Set the list of 'LimitationNonEC' element items. Ограничение действия гарантии вне ЕС
      * 
      * @param list
      */

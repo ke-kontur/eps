@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РџРѕСЏСЃРЅРµРЅРёРµ Р»РёС†Р°, РёРјРµСЋС‰РµРіРѕ РѕС‚РЅРѕС€РµРЅРёРµ Рє РїРµСЂРµРјРµС‰РµРЅРёСЋ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ С‡РµСЂРµР· С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+ * Пояснение лица, имеющего отношение к перемещению товаров и транспортных средств через таможенную границу Российской Федерации
  */
 public class TransferPersonExplanationType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class TransferPersonExplanationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentDate' element value. Дата предоставления документа
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Р”Р°С‚Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentDate' element value. Дата предоставления документа
      * 
      * @param documentDate
      */
@@ -38,7 +38,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'CustomsOffice' element value. Таможенный орган
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'CustomsOffice' element value. Таможенный орган
      * 
      * @param customsOffice
      */
@@ -56,7 +56,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExplanationPerson' element value. Р›РёС†Рѕ,  РґР°СЋС‰РµРµ РїРѕСЏСЃРЅРµРЅРёСЏ
+     * Get the 'ExplanationPerson' element value. Лицо,  дающее пояснения
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExplanationPerson' element value. Р›РёС†Рѕ,  РґР°СЋС‰РµРµ РїРѕСЏСЃРЅРµРЅРёСЏ
+     * Set the 'ExplanationPerson' element value. Лицо,  дающее пояснения
      * 
      * @param explanationPerson
      */
@@ -74,7 +74,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Р”РµРєР»Р°СЂР°РЅС‚ РёР»Рё РёРЅРѕРµ Р»РёС†Рѕ, РёРјРµСЋС‰РµРµ РѕС‚РЅРѕС€РµРЅРёРµ Рє РїРµСЂРµРјРµС‰РµРЅРёСЋ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ С‡РµСЂРµР· С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+     * Get the 'Declarant' element value. Декларант или иное лицо, имеющее отношение к перемещению товаров и транспортных средств через таможенную границу Российской Федерации
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Р”РµРєР»Р°СЂР°РЅС‚ РёР»Рё РёРЅРѕРµ Р»РёС†Рѕ, РёРјРµСЋС‰РµРµ РѕС‚РЅРѕС€РµРЅРёРµ Рє РїРµСЂРµРјРµС‰РµРЅРёСЋ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ С‡РµСЂРµР· С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+     * Set the 'Declarant' element value. Декларант или иное лицо, имеющее отношение к перемещению товаров и транспортных средств через таможенную границу Российской Федерации
      * 
      * @param declarant
      */
@@ -92,7 +92,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransferDocs' element value. Р”РѕРєСѓРјРµРЅС‚С‹, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РїРµСЂРµРјРµС‰Р°РµС‚СЃСЏ С‚РѕРІР°СЂ
+     * Get the 'TransferDocs' element value. Документы, на основании которых перемещается товар
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransferDocs' element value. Р”РѕРєСѓРјРµРЅС‚С‹, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РїРµСЂРµРјРµС‰Р°РµС‚СЃСЏ С‚РѕРІР°СЂ
+     * Set the 'TransferDocs' element value. Документы, на основании которых перемещается товар
      * 
      * @param transferDocs
      */
@@ -110,7 +110,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExplanationText' element value. РўРµРєСЃС‚ РїРѕСЏСЃРЅРµРЅРёСЏ
+     * Get the 'ExplanationText' element value. Текст пояснения
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExplanationText' element value. РўРµРєСЃС‚ РїРѕСЏСЃРЅРµРЅРёСЏ
+     * Set the 'ExplanationText' element value. Текст пояснения
      * 
      * @param explanationText
      */
@@ -128,7 +128,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsMark' element value. РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РЅРё
+     * Get the 'CustomsMark' element value. Отметки таможни
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsMark' element value. РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РЅРё
+     * Set the 'CustomsMark' element value. Отметки таможни
      * 
      * @param customsMark
      */
@@ -146,7 +146,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class TransferPersonExplanationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° СЃРїРёСЃР°РЅРёРµ СЃСЂРµРґСЃС‚РІ СЃ Р»РёС†РµРІРѕРіРѕ СЃС‡РµС‚Р° СѓС‡Р°СЃС‚РЅРёРєР° Р’Р­Р”
+ * Запрос на списание средств с лицевого счета участника ВЭД
  */
 public class ChargeOffReqType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class ChargeOffReqType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ Р·Р°РїСЂРѕСЃ.
+     * Get the 'CustomsCode' element value. Код таможенного органа, осуществляющего запрос.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ChargeOffReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ Р·Р°РїСЂРѕСЃ.
+     * Set the 'CustomsCode' element value. Код таможенного органа, осуществляющего запрос.
      * 
      * @param customsCode
      */
@@ -32,7 +32,7 @@ public class ChargeOffReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ChargeOffReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -50,7 +50,7 @@ public class ChargeOffReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ChargeOffReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

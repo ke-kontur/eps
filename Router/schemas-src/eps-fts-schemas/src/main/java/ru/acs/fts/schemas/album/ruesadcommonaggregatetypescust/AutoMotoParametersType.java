@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РџР°СЂР°РјРµС‚СЂС‹, РїСЂРёСЃСѓС‰РёРµ Р°РІС‚РѕРјРѕР±РёР»СЏРј Рё РјРѕС‚РѕС†РёРєР»Р°Рј
+ * Параметры, присущие автомобилям и мотоциклам
  */
 public class AutoMotoParametersType
 {
@@ -35,7 +35,7 @@ public class AutoMotoParametersType
     private List<String> otherList = new ArrayList<String>();
 
     /** 
-     * Get the 'Model' element value. РњРѕРґРµР»СЊ
+     * Get the 'Model' element value. Модель
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'Model' element value. РњРѕРґРµР»СЊ
+     * Set the 'Model' element value. Модель
      * 
      * @param model
      */
@@ -53,7 +53,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'Mark' element value. РњР°СЂРєР°
+     * Get the 'Mark' element value. Марка
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'Mark' element value. РњР°СЂРєР°
+     * Set the 'Mark' element value. Марка
      * 
      * @param mark
      */
@@ -71,7 +71,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'ProductionYear' element value. Р“РѕРґ РІС‹РїСѓСЃРєР°
+     * Get the 'ProductionYear' element value. Год выпуска
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'ProductionYear' element value. Р“РѕРґ РІС‹РїСѓСЃРєР°
+     * Set the 'ProductionYear' element value. Год выпуска
      * 
      * @param productionYear
      */
@@ -89,7 +89,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'Distance' element value. РџСЂРѕР±РµРі
+     * Get the 'Distance' element value. Пробег
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'Distance' element value. РџСЂРѕР±РµРі
+     * Set the 'Distance' element value. Пробег
      * 
      * @param distance
      */
@@ -107,7 +107,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'DistanceUnit' element value. Р•РґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РїСЂРѕР±РµРіР°: "0" - РєРёР»РѕРјРµС‚СЂС‹, "1" - РјРёР»Рё
+     * Get the 'DistanceUnit' element value. Единицы измерения пробега: "0" - километры, "1" - мили
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'DistanceUnit' element value. Р•РґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РїСЂРѕР±РµРіР°: "0" - РєРёР»РѕРјРµС‚СЂС‹, "1" - РјРёР»Рё
+     * Set the 'DistanceUnit' element value. Единицы измерения пробега: "0" - километры, "1" - мили
      * 
      * @param distanceUnit
      */
@@ -125,7 +125,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'EngineNumber' element value. РќРѕРјРµСЂ РґРІРёРіР°С‚РµР»СЏ
+     * Get the 'EngineNumber' element value. Номер двигателя
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'EngineNumber' element value. РќРѕРјРµСЂ РґРІРёРіР°С‚РµР»СЏ
+     * Set the 'EngineNumber' element value. Номер двигателя
      * 
      * @param engineNumber
      */
@@ -143,7 +143,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'CarriageNumber' element value. РќРѕРјРµСЂ СЂР°РјС‹
+     * Get the 'CarriageNumber' element value. Номер рамы
      * 
      * @return value
      */
@@ -152,7 +152,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'CarriageNumber' element value. РќРѕРјРµСЂ СЂР°РјС‹
+     * Set the 'CarriageNumber' element value. Номер рамы
      * 
      * @param carriageNumber
      */
@@ -179,7 +179,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'Color' element value. Р¦РІРµС‚
+     * Get the 'Color' element value. Цвет
      * 
      * @return value
      */
@@ -188,7 +188,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'Color' element value. Р¦РІРµС‚
+     * Set the 'Color' element value. Цвет
      * 
      * @param color
      */
@@ -197,7 +197,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'Transmission' element value. РўСЂР°РЅСЃРјРёСЃСЃРёСЏ: "1" - Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєР°СЏ, "2" - РјРµС…Р°РЅРёС‡РµСЃРєР°СЏ, "3" - РІР°СЂРёР°С‚РѕСЂ
+     * Get the 'Transmission' element value. Трансмиссия: "1" - автоматическая, "2" - механическая, "3" - вариатор
      * 
      * @return value
      */
@@ -206,7 +206,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'Transmission' element value. РўСЂР°РЅСЃРјРёСЃСЃРёСЏ: "1" - Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєР°СЏ, "2" - РјРµС…Р°РЅРёС‡РµСЃРєР°СЏ, "3" - РІР°СЂРёР°С‚РѕСЂ
+     * Set the 'Transmission' element value. Трансмиссия: "1" - автоматическая, "2" - механическая, "3" - вариатор
      * 
      * @param transmission
      */
@@ -215,7 +215,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'NumberOfWheel' element value. Р§РёСЃР»Рѕ РєРѕР»РµСЃ
+     * Get the 'NumberOfWheel' element value. Число колес
      * 
      * @return value
      */
@@ -224,7 +224,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'NumberOfWheel' element value. Р§РёСЃР»Рѕ РєРѕР»РµСЃ
+     * Set the 'NumberOfWheel' element value. Число колес
      * 
      * @param numberOfWheel
      */
@@ -233,7 +233,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'NumberOfDriveWheel' element value. Р§РёСЃР»Рѕ РІРµРґСѓС‰РёС… РєРѕР»РµСЃ
+     * Get the 'NumberOfDriveWheel' element value. Число ведущих колес
      * 
      * @return value
      */
@@ -242,7 +242,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'NumberOfDriveWheel' element value. Р§РёСЃР»Рѕ РІРµРґСѓС‰РёС… РєРѕР»РµСЃ
+     * Set the 'NumberOfDriveWheel' element value. Число ведущих колес
      * 
      * @param numberOfDriveWheel
      */
@@ -251,7 +251,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'ElGlassLift' element value. Р§РёСЃР»Рѕ СЌР»РµРєС‚СЂРѕСЃС‚РµРєР»РѕРїРѕРґСЉРµРјРЅРёРєРѕРІ: "0" - РµСЃР»Рё РЅРµС‚
+     * Get the 'ElGlassLift' element value. Число электростеклоподъемников: "0" - если нет
      * 
      * @return value
      */
@@ -260,7 +260,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'ElGlassLift' element value. Р§РёСЃР»Рѕ СЌР»РµРєС‚СЂРѕСЃС‚РµРєР»РѕРїРѕРґСЉРµРјРЅРёРєРѕРІ: "0" - РµСЃР»Рё РЅРµС‚
+     * Set the 'ElGlassLift' element value. Число электростеклоподъемников: "0" - если нет
      * 
      * @param elGlassLift
      */
@@ -269,7 +269,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'RadioDevice' element value. Р Р°РґРёРѕР°РїРїР°СЂР°С‚СѓСЂР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
+     * Get the 'RadioDevice' element value. Радиоаппаратура: "0" - нет, "1" - есть
      * 
      * @return value
      */
@@ -278,7 +278,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'RadioDevice' element value. Р Р°РґРёРѕР°РїРїР°СЂР°С‚СѓСЂР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
+     * Set the 'RadioDevice' element value. Радиоаппаратура: "0" - нет, "1" - есть
      * 
      * @param radioDevice
      */
@@ -287,7 +287,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'RadioDeviceDescr' element value. РћРїРёСЃР°РЅРёРµ СЂР°РґРёРѕР°РїРїР°СЂР°С‚СѓСЂС‹
+     * Get the 'RadioDeviceDescr' element value. Описание радиоаппаратуры
      * 
      * @return value
      */
@@ -296,7 +296,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'RadioDeviceDescr' element value. РћРїРёСЃР°РЅРёРµ СЂР°РґРёРѕР°РїРїР°СЂР°С‚СѓСЂС‹
+     * Set the 'RadioDeviceDescr' element value. Описание радиоаппаратуры
      * 
      * @param radioDeviceDescr
      */
@@ -305,7 +305,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'SeatHeating' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґРѕРіСЂРµРІРѕРІ СЃРёРґРµРЅРёР№
+     * Get the 'SeatHeating' element value. Количество подогревов сидений
      * 
      * @return value
      */
@@ -314,7 +314,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'SeatHeating' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґРѕРіСЂРµРІРѕРІ СЃРёРґРµРЅРёР№
+     * Set the 'SeatHeating' element value. Количество подогревов сидений
      * 
      * @param seatHeating
      */
@@ -323,7 +323,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'NumberOfSeat' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚
+     * Get the 'NumberOfSeat' element value. Количество мест
      * 
      * @return value
      */
@@ -332,7 +332,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'NumberOfSeat' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚
+     * Set the 'NumberOfSeat' element value. Количество мест
      * 
      * @param numberOfSeat
      */
@@ -341,7 +341,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'ABS' element value. РђРЅС‚РёР±Р»РѕРєРёСЂРѕРІРѕС‡РЅР°СЏ СЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
+     * Get the 'ABS' element value. Антиблокировочная система: "0" - нет, "1" - есть
      * 
      * @return value
      */
@@ -350,7 +350,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'ABS' element value. РђРЅС‚РёР±Р»РѕРєРёСЂРѕРІРѕС‡РЅР°СЏ СЃРёСЃС‚РµРјР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
+     * Set the 'ABS' element value. Антиблокировочная система: "0" - нет, "1" - есть
      * 
      * @param ABS
      */
@@ -359,7 +359,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'BortComputer' element value. Р‘РѕСЂС‚РѕРІРѕР№ РєРѕРјРїСЊСЋС‚РµСЂ СЃ РґРёСЃРїР»РµРµРј: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
+     * Get the 'BortComputer' element value. Бортовой компьютер с дисплеем: "0" - нет, "1" - есть
      * 
      * @return value
      */
@@ -368,7 +368,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'BortComputer' element value. Р‘РѕСЂС‚РѕРІРѕР№ РєРѕРјРїСЊСЋС‚РµСЂ СЃ РґРёСЃРїР»РµРµРј: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
+     * Set the 'BortComputer' element value. Бортовой компьютер с дисплеем: "0" - нет, "1" - есть
      * 
      * @param bortComputer
      */
@@ -377,7 +377,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the 'Signalization' element value. РЎРёРіРЅР°Р»РёР·Р°С†РёСЏ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
+     * Get the 'Signalization' element value. Сигнализация: "0" - нет, "1" - есть
      * 
      * @return value
      */
@@ -386,7 +386,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the 'Signalization' element value. РЎРёРіРЅР°Р»РёР·Р°С†РёСЏ: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
+     * Set the 'Signalization' element value. Сигнализация: "0" - нет, "1" - есть
      * 
      * @param signalization
      */
@@ -395,7 +395,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the list of 'AddonDevice' element items. РќР°РІРµСЃРЅРѕРµ РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ
+     * Get the list of 'AddonDevice' element items. Навесное оборудование
      * 
      * @return list
      */
@@ -404,7 +404,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the list of 'AddonDevice' element items. РќР°РІРµСЃРЅРѕРµ РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ
+     * Set the list of 'AddonDevice' element items. Навесное оборудование
      * 
      * @param list
      */
@@ -413,7 +413,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the list of 'Tuning' element items. РўСЋРЅРёРЅРі
+     * Get the list of 'Tuning' element items. Тюнинг
      * 
      * @return list
      */
@@ -422,7 +422,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the list of 'Tuning' element items. РўСЋРЅРёРЅРі
+     * Set the list of 'Tuning' element items. Тюнинг
      * 
      * @param list
      */
@@ -431,7 +431,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the list of 'VisDamage' element items. Р’РёРґРёРјС‹Рµ РїРѕРІСЂРµР¶РґРµРЅРёСЏ
+     * Get the list of 'VisDamage' element items. Видимые повреждения
      * 
      * @return list
      */
@@ -440,7 +440,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the list of 'VisDamage' element items. Р’РёРґРёРјС‹Рµ РїРѕРІСЂРµР¶РґРµРЅРёСЏ
+     * Set the list of 'VisDamage' element items. Видимые повреждения
      * 
      * @param list
      */
@@ -449,7 +449,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Get the list of 'Other' element items. РџСЂРѕС‡РµРµ
+     * Get the list of 'Other' element items. Прочее
      * 
      * @return list
      */
@@ -458,7 +458,7 @@ public class AutoMotoParametersType
     }
 
     /** 
-     * Set the list of 'Other' element items. РџСЂРѕС‡РµРµ
+     * Set the list of 'Other' element items. Прочее
      * 
      * @param list
      */

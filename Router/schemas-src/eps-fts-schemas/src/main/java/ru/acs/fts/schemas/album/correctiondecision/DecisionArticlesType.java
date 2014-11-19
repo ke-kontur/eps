@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.correctiondecision;
 
 /** 
- * Р”РµР»Р° РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅС‹С… РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏС…, СѓРіРѕР»РѕРІРЅС‹Рµ РґРµР»Р°
+ * Дела об административных правонарушениях, уголовные дела
  */
 public class DecisionArticlesType
 {
@@ -10,7 +10,7 @@ public class DecisionArticlesType
     private String articlePartNumber;
 
     /** 
-     * Get the 'DecisionArticleNumber' element value. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё РљРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅС‹С… РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏС… (РљРѕРђРџ Р РѕСЃСЃРёРё), РЈРіРѕР»РѕРІРЅРѕРіРѕ РљРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё (РЈРљ Р РѕСЃСЃРёРё)
+     * Get the 'DecisionArticleNumber' element value. Номер статьи Кодекса Российской Федерации об административных правонарушениях (КоАП России), Уголовного Кодекса Российской Федерации (УК России)
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DecisionArticlesType
     }
 
     /** 
-     * Set the 'DecisionArticleNumber' element value. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё РљРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅС‹С… РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏС… (РљРѕРђРџ Р РѕСЃСЃРёРё), РЈРіРѕР»РѕРІРЅРѕРіРѕ РљРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё (РЈРљ Р РѕСЃСЃРёРё)
+     * Set the 'DecisionArticleNumber' element value. Номер статьи Кодекса Российской Федерации об административных правонарушениях (КоАП России), Уголовного Кодекса Российской Федерации (УК России)
      * 
      * @param decisionArticleNumber
      */
@@ -28,7 +28,7 @@ public class DecisionArticlesType
     }
 
     /** 
-     * Get the 'ArticlePartNumber' element value. РќРѕРјРµСЂ С‡Р°СЃС‚Рё СЃС‚Р°С‚СЊРё РљРѕРђРџ Р РѕСЃСЃРёРё, РЈРљ Р РѕСЃСЃРёРё
+     * Get the 'ArticlePartNumber' element value. Номер части статьи КоАП России, УК России
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DecisionArticlesType
     }
 
     /** 
-     * Set the 'ArticlePartNumber' element value. РќРѕРјРµСЂ С‡Р°СЃС‚Рё СЃС‚Р°С‚СЊРё РљРѕРђРџ Р РѕСЃСЃРёРё, РЈРљ Р РѕСЃСЃРёРё
+     * Set the 'ArticlePartNumber' element value. Номер части статьи КоАП России, УК России
      * 
      * @param articlePartNumber
      */

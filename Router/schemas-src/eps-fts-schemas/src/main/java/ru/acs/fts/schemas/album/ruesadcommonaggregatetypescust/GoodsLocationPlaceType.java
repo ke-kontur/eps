@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°. (СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅРѕРµ РјРµСЃС‚Рѕ).
+ * Сведения о местонахождении товара. (склад получателя, иное место).
  */
 public class GoodsLocationPlaceType
 {
@@ -15,7 +15,7 @@ public class GoodsLocationPlaceType
     private AddressType address;
 
     /** 
-     * Get the 'GoodsLocationPlaceDesc' element value. РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ/РЎРљР›РђР” РџРћР›РЈР§РђРўР•Р›РЇ (РєСЂРѕРјРµ РЅР°Р·РІР°РЅРёСЏ Р¶/Рґ СЃС‚Р°РЅС†РёРё / РўР РЈР‘РћРџР РћР’РћР”РќР«Р™ / Р­Р›Р•РљРўР РћРџР•Р Р•Р”РђР§Рђ)
+     * Get the 'GoodsLocationPlaceDesc' element value. Место нахождения товаров/СКЛАД ПОЛУЧАТЕЛЯ (кроме названия ж/д станции / ТРУБОПРОВОДНЫЙ / ЭЛЕКТРОПЕРЕДАЧА)
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class GoodsLocationPlaceType
     }
 
     /** 
-     * Set the 'GoodsLocationPlaceDesc' element value. РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ/РЎРљР›РђР” РџРћР›РЈР§РђРўР•Р›РЇ (РєСЂРѕРјРµ РЅР°Р·РІР°РЅРёСЏ Р¶/Рґ СЃС‚Р°РЅС†РёРё / РўР РЈР‘РћРџР РћР’РћР”РќР«Р™ / Р­Р›Р•РљРўР РћРџР•Р Р•Р”РђР§Рђ)
+     * Set the 'GoodsLocationPlaceDesc' element value. Место нахождения товаров/СКЛАД ПОЛУЧАТЕЛЯ (кроме названия ж/д станции / ТРУБОПРОВОДНЫЙ / ЭЛЕКТРОПЕРЕДАЧА)
      * 
      * @param goodsLocationPlaceDesc
      */
@@ -33,7 +33,7 @@ public class GoodsLocationPlaceType
     }
 
     /** 
-     * Get the 'CustomsOfficeID' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°  РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ РјРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ,  С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ.
+     * Get the 'CustomsOfficeID' element value. Код таможенного органа  в регионе деятельности которого находится место нахождения,  хранения товаров.
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsLocationPlaceType
     }
 
     /** 
-     * Set the 'CustomsOfficeID' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°  РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ РјРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ,  С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ.
+     * Set the 'CustomsOfficeID' element value. Код таможенного органа  в регионе деятельности которого находится место нахождения,  хранения товаров.
      * 
      * @param customsOfficeID
      */
@@ -51,7 +51,7 @@ public class GoodsLocationPlaceType
     }
 
     /** 
-     * Get the 'RailwayStationCode' element value. РљРѕРґ Р¶/Рґ СЃС‚Р°РЅС†РёРё РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°.
+     * Get the 'RailwayStationCode' element value. Код ж/д станции местонахождения товара.
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class GoodsLocationPlaceType
     }
 
     /** 
-     * Set the 'RailwayStationCode' element value. РљРѕРґ Р¶/Рґ СЃС‚Р°РЅС†РёРё РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°.
+     * Set the 'RailwayStationCode' element value. Код ж/д станции местонахождения товара.
      * 
      * @param railwayStationCode
      */
@@ -69,7 +69,7 @@ public class GoodsLocationPlaceType
     }
 
     /** 
-     * Get the 'RailwayStationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¶/Рґ СЃС‚Р°РЅС†РёРё РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°.
+     * Get the 'RailwayStationName' element value. Наименование ж/д станции местонахождения товара.
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class GoodsLocationPlaceType
     }
 
     /** 
-     * Set the 'RailwayStationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¶/Рґ СЃС‚Р°РЅС†РёРё РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°.
+     * Set the 'RailwayStationName' element value. Наименование ж/д станции местонахождения товара.
      * 
      * @param railwayStationName
      */
@@ -87,7 +87,7 @@ public class GoodsLocationPlaceType
     }
 
     /** 
-     * Get the 'Address' element value. РўРѕС‡РЅС‹Р№ Р°РґСЂРµСЃ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ. 
+     * Get the 'Address' element value. Точный адрес местонахождения товаров. 
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class GoodsLocationPlaceType
     }
 
     /** 
-     * Set the 'Address' element value. РўРѕС‡РЅС‹Р№ Р°РґСЂРµСЃ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ. 
+     * Set the 'Address' element value. Точный адрес местонахождения товаров. 
      * 
      * @param address
      */

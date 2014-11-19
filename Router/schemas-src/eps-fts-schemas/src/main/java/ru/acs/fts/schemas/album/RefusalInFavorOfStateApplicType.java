@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Р—Р°СЏРІР»РµРЅРёРµ РЅР° РїРѕРјРµС‰РµРЅРёРµ С‚РѕРІР°СЂРѕРІ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РѕС‚РєР°Р·Р° РІ РїРѕР»СЊР·Сѓ РіРѕСЃСѓРґР°СЂСЃС‚РІР°
+ * Заявление на помещение товаров под таможенную процедуру отказа в пользу государства
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -43,7 +43,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'TotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ
+     * Get the 'TotalCost' element value. Общая стоимость товаров
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ
+     * Set the 'TotalCost' element value. Общая стоимость товаров
      * 
      * @param totalCost
      */
@@ -61,7 +61,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Reasons' element items. РџСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р° РѕС‚ С‚РѕРІР°СЂРѕРІ РІ РїРѕР»СЊР·Сѓ РіРѕСЃСѓРґР°СЂСЃС‚РІР°
+     * Get the list of 'Reasons' element items. Причины отказа от товаров в пользу государства
      * 
      * @return list
      */
@@ -70,7 +70,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Reasons' element items. РџСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р° РѕС‚ С‚РѕРІР°СЂРѕРІ РІ РїРѕР»СЊР·Сѓ РіРѕСЃСѓРґР°СЂСЃС‚РІР°
+     * Set the list of 'Reasons' element items. Причины отказа от товаров в пользу государства
      * 
      * @param list
      */
@@ -79,7 +79,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Р”РµРєР»Р°СЂР°РЅС‚
+     * Get the 'Declarant' element value. Декларант
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Р”РµРєР»Р°СЂР°РЅС‚
+     * Set the 'Declarant' element value. Декларант
      * 
      * @param declarant
      */
@@ -97,7 +97,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the list of 'Goods' element items. Сведения о товарах
      * 
      * @return list
      */
@@ -106,7 +106,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the list of 'Goods' element items. Сведения о товарах
      * 
      * @param list
      */
@@ -115,7 +115,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsPlace' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'GoodsPlace' element value. Местонахождение товаров
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsPlace' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'GoodsPlace' element value. Местонахождение товаров
      * 
      * @param goodsPlace
      */
@@ -133,7 +133,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -151,7 +151,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Get the 'StoragePlace' element value. РњРµСЃС‚Рѕ, РѕРїСЂРµРґРµР»РµРЅРЅРѕРµ РґР»СЏ СЂР°Р·РјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Get the 'StoragePlace' element value. Место, определенное для размещения товаров
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Set the 'StoragePlace' element value. РњРµСЃС‚Рѕ, РѕРїСЂРµРґРµР»РµРЅРЅРѕРµ РґР»СЏ СЂР°Р·РјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Set the 'StoragePlace' element value. Место, определенное для размещения товаров
      * 
      * @param storagePlace
      */
@@ -169,7 +169,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class RefusalInFavorOfStateApplicType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РџР°РєРµС‚ СЃ РїСЂРѕС‚РѕРєРѕР»РѕРј РѕР±СЂР°Р±РѕС‚РєРё
+ * Пакет с протоколом обработки
  */
 public class LoadPTSResultType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class LoadPTSResultType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ProtocolProcessingPacket' element value. Р РµР·СѓР»СЊС‚Р°С‚ Р·Р°РіСЂСѓР·РєРё / РѕР±СЂР°Р±РѕС‚РєРё РїР°РєРµС‚Р° 
+     * Get the 'ProtocolProcessingPacket' element value. Результат загрузки / обработки пакета 
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class LoadPTSResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProtocolProcessingPacket' element value. Р РµР·СѓР»СЊС‚Р°С‚ Р·Р°РіСЂСѓР·РєРё / РѕР±СЂР°Р±РѕС‚РєРё РїР°РєРµС‚Р° 
+     * Set the 'ProtocolProcessingPacket' element value. Результат загрузки / обработки пакета 
      * 
      * @param protocolProcessingPacket
      */
@@ -34,7 +34,7 @@ public class LoadPTSResultType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ProtocolProcessingForm' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РїСЂРѕРІРµРґРµРЅРёСЏ С„РѕСЂРјР°С‚РЅРѕРіРѕ Рё СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ Р±Р»Р°РЅРєР°
+     * Get the list of 'ProtocolProcessingForm' element items. Сведения о результатах проведения форматного и структурного контроля бланка
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class LoadPTSResultType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ProtocolProcessingForm' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РїСЂРѕРІРµРґРµРЅРёСЏ С„РѕСЂРјР°С‚РЅРѕРіРѕ Рё СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ Р±Р»Р°РЅРєР°
+     * Set the list of 'ProtocolProcessingForm' element items. Сведения о результатах проведения форматного и структурного контроля бланка
      * 
      * @param list
      */
@@ -53,7 +53,7 @@ public class LoadPTSResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class LoadPTSResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

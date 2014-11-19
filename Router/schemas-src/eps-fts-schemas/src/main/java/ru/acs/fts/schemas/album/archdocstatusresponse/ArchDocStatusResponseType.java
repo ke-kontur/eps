@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.archdocstatusresponse;
 import ru.acs.fts.schemas.album.electronicarchivecommonaggregatetypescust.ArchBaseDocType;
 
 /** 
- * РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
+ * Статус документа в архиве
  */
 public class ArchDocStatusResponseType extends ArchBaseDocType
 {
@@ -12,7 +12,7 @@ public class ArchDocStatusResponseType extends ArchBaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ArchDocStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
+     * Get the 'ArchDocStatus' element value. Статус документа в архиве
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ArchDocStatusResponseType extends ArchBaseDocType
     }
 
     /** 
-     * Set the 'ArchDocStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
+     * Set the 'ArchDocStatus' element value. Статус документа в архиве
      * 
      * @param archDocStatus
      */
@@ -30,7 +30,7 @@ public class ArchDocStatusResponseType extends ArchBaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ArchDocStatusResponseType extends ArchBaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

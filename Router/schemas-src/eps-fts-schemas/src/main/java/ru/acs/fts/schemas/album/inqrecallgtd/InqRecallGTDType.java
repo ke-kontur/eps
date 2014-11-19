@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РћР±СЂР°С‰РµРЅРёРµ РѕР± РѕС‚Р·С‹РІРµ РґРµРєР»Р°СЂР°С†РёРё
+ * Обращение об отзыве декларации
  */
 public class InqRecallGTDType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class InqRecallGTDType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SendDate' element value. Дата направления
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class InqRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SendDate' element value. Дата направления
      * 
      * @param sendDate
      */
@@ -39,7 +39,7 @@ public class InqRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SendTime' element value. Время направления
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class InqRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SendTime' element value. Время направления
      * 
      * @param sendTime
      */
@@ -57,7 +57,7 @@ public class InqRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RecallReason' element items. РџСЂРёС‡РёРЅР° РѕС‚Р·С‹РІР°
+     * Get the list of 'RecallReason' element items. Причина отзыва
      * 
      * @return list
      */
@@ -66,7 +66,7 @@ public class InqRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RecallReason' element items. РџСЂРёС‡РёРЅР° РѕС‚Р·С‹РІР°
+     * Set the list of 'RecallReason' element items. Причина отзыва
      * 
      * @param list
      */
@@ -75,7 +75,7 @@ public class InqRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Get the 'Applicant' element value. Сведения о заявителе
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class InqRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Set the 'Applicant' element value. Сведения о заявителе
      * 
      * @param applicant
      */
@@ -93,7 +93,7 @@ public class InqRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'GTDNumber' element value. Справочный номер ДТ
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class InqRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'GTDNumber' element value. Справочный номер ДТ
      * 
      * @param GTDNumber
      */
@@ -111,7 +111,7 @@ public class InqRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class InqRecallGTDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

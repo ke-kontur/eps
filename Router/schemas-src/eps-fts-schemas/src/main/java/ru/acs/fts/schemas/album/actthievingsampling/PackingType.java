@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЈРїР°РєРѕРІРєР° РІР·СЏС‚С‹С… РїСЂРѕР± РёР»Рё РѕР±СЂР°Р·С†РѕРІ
+ * Упаковка взятых проб или образцов
  */
 public class PackingType
 {
@@ -14,7 +14,7 @@ public class PackingType
     private List<String> explanatoryLabelList = new ArrayList<String>();
 
     /** 
-     * Get the 'KindPacking' element value. Р’РёРґ СѓРїР°РєРѕРІРєРё, РєРѕС‚РѕСЂР°СЏ РѕРєР»РµРµРЅР° СЏСЂР»С‹РєРѕРј РѕР±РµСЃРїРµС‡РµРЅРёСЏ СЃРѕС…СЂР°РЅРЅРѕСЃС‚Рё СѓРїР°РєРѕРІРєРё
+     * Get the 'KindPacking' element value. Вид упаковки, которая оклеена ярлыком обеспечения сохранности упаковки
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PackingType
     }
 
     /** 
-     * Set the 'KindPacking' element value. Р’РёРґ СѓРїР°РєРѕРІРєРё, РєРѕС‚РѕСЂР°СЏ РѕРєР»РµРµРЅР° СЏСЂР»С‹РєРѕРј РѕР±РµСЃРїРµС‡РµРЅРёСЏ СЃРѕС…СЂР°РЅРЅРѕСЃС‚Рё СѓРїР°РєРѕРІРєРё
+     * Set the 'KindPacking' element value. Вид упаковки, которая оклеена ярлыком обеспечения сохранности упаковки
      * 
      * @param kindPacking
      */
@@ -32,7 +32,7 @@ public class PackingType
     }
 
     /** 
-     * Get the 'NumberSeal' element value. РќРѕРјРµСЂ РїР»РѕРјР±С‹ СѓРїР°РєРѕРІРєРё
+     * Get the 'NumberSeal' element value. Номер пломбы упаковки
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PackingType
     }
 
     /** 
-     * Set the 'NumberSeal' element value. РќРѕРјРµСЂ РїР»РѕРјР±С‹ СѓРїР°РєРѕРІРєРё
+     * Set the 'NumberSeal' element value. Номер пломбы упаковки
      * 
      * @param numberSeal
      */
@@ -50,7 +50,7 @@ public class PackingType
     }
 
     /** 
-     * Get the list of 'ExplanatoryLabels' element items. РџРѕСЏСЃРЅРёС‚РµР»СЊРЅС‹Рµ РЅР°РґРїРёСЃРё
+     * Get the list of 'ExplanatoryLabels' element items. Пояснительные надписи
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class PackingType
     }
 
     /** 
-     * Set the list of 'ExplanatoryLabels' element items. РџРѕСЏСЃРЅРёС‚РµР»СЊРЅС‹Рµ РЅР°РґРїРёСЃРё
+     * Set the list of 'ExplanatoryLabels' element items. Пояснительные надписи
      * 
      * @param list
      */

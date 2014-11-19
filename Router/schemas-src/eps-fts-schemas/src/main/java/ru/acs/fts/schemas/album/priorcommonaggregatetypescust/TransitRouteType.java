@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.priorcommonaggregatetypescust;
 
 /** 
- * РњР°СЂС€СЂСѓС‚ С‚СЂР°РЅР·РёС‚Р°
+ * Маршрут транзита
  */
 public class TransitRouteType
 {
@@ -10,7 +10,7 @@ public class TransitRouteType
     private String transitRoutePlace;
 
     /** 
-     * Get the 'TransitPointNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕС‡РєРё С‚СЂР°РЅР·РёС‚Р°
+     * Get the 'TransitPointNumber' element value. Порядковый номер точки транзита
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class TransitRouteType
     }
 
     /** 
-     * Set the 'TransitPointNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕС‡РєРё С‚СЂР°РЅР·РёС‚Р°
+     * Set the 'TransitPointNumber' element value. Порядковый номер точки транзита
      * 
      * @param transitPointNumber
      */
@@ -28,7 +28,7 @@ public class TransitRouteType
     }
 
     /** 
-     * Get the 'TransitRoutePlace' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕС‡РєРё РјР°СЂС€СЂСѓС‚Р°
+     * Get the 'TransitRoutePlace' element value. Наименование точки маршрута
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class TransitRouteType
     }
 
     /** 
-     * Set the 'TransitRoutePlace' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕС‡РєРё РјР°СЂС€СЂСѓС‚Р°
+     * Set the 'TransitRoutePlace' element value. Наименование точки маршрута
      * 
      * @param transitRoutePlace
      */

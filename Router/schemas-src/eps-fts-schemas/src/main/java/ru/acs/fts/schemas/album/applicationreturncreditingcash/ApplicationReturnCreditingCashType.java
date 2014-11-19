@@ -12,7 +12,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р—Р°СЏРІР»РµРЅРёРµ Рѕ РІРѕР·РІСЂР°С‚Рµ (Р·Р°С‡РµС‚Рµ) РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ
+ * Заявление о возврате (зачете) денежных средств
  */
 public class ApplicationReturnCreditingCashType extends BaseDocType
 {
@@ -34,7 +34,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Article' element items. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё Р¤РµРґРµСЂР°Р»СЊРЅРѕРіРѕ Р·Р°РєРѕРЅР°
+     * Get the list of 'Article' element items. Номер статьи Федерального закона
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Article' element items. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё Р¤РµРґРµСЂР°Р»СЊРЅРѕРіРѕ Р·Р°РєРѕРЅР°
+     * Set the list of 'Article' element items. Номер статьи Федерального закона
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReturnCrediting' element value. Р—Р°СЏРІР»РµРЅРёРµ Рѕ: 0 - РІРѕР·РІСЂР°С‚Рµ, 1 - Р·Р°С‡РµС‚Рµ
+     * Get the 'ReturnCrediting' element value. Заявление о: 0 - возврате, 1 - зачете
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReturnCrediting' element value. Р—Р°СЏРІР»РµРЅРёРµ Рѕ: 0 - РІРѕР·РІСЂР°С‚Рµ, 1 - Р·Р°С‡РµС‚Рµ
+     * Set the 'ReturnCrediting' element value. Заявление о: 0 - возврате, 1 - зачете
      * 
      * @param returnCrediting
      */
@@ -70,7 +70,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the 'CashType' element value. РЈРєР°Р·С‹РІР°СЋС‚СЃСЏ РґРµРЅРµР¶РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°, РїРѕРґР»РµР¶Р°С‰РёРµ РІРѕР·РІСЂР°С‚Сѓ (Р·Р°С‡РµС‚Сѓ), Р° РёРјРµРЅРЅРѕ: РёР·Р»РёС€РЅРµ СѓРїР»Р°С‡РµРЅРЅС‹Рµ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРё; РёР·Р»РёС€РЅРµ РІР·С‹СЃРєР°РЅРЅС‹Рµ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРё; С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРё, РїРѕРґР»РµР¶Р°С‰РёРµ РІРѕР·РІСЂР°С‚Сѓ РІ СЃР»СѓС‡Р°СЏС…, СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹С… СЃС‚Р°С‚СЊРµР№ 356 РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё; Р°РІР°РЅСЃРѕРІС‹Рµ РїР»Р°С‚РµР¶Рё; РґРµРЅРµР¶РЅС‹Р№ Р·Р°Р»РѕРі
+     * Get the 'CashType' element value. Указываются денежные средства, подлежащие возврату (зачету), а именно: излишне уплаченные таможенные пошлины, налоги; излишне взысканные таможенные пошлины, налоги; таможенные пошлины, налоги, подлежащие возврату в случаях, установленных статьей 356 Таможенного кодекса Российской Федерации; авансовые платежи; денежный залог
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the 'CashType' element value. РЈРєР°Р·С‹РІР°СЋС‚СЃСЏ РґРµРЅРµР¶РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°, РїРѕРґР»РµР¶Р°С‰РёРµ РІРѕР·РІСЂР°С‚Сѓ (Р·Р°С‡РµС‚Сѓ), Р° РёРјРµРЅРЅРѕ: РёР·Р»РёС€РЅРµ СѓРїР»Р°С‡РµРЅРЅС‹Рµ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРё; РёР·Р»РёС€РЅРµ РІР·С‹СЃРєР°РЅРЅС‹Рµ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРё; С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРё, РїРѕРґР»РµР¶Р°С‰РёРµ РІРѕР·РІСЂР°С‚Сѓ РІ СЃР»СѓС‡Р°СЏС…, СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹С… СЃС‚Р°С‚СЊРµР№ 356 РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё; Р°РІР°РЅСЃРѕРІС‹Рµ РїР»Р°С‚РµР¶Рё; РґРµРЅРµР¶РЅС‹Р№ Р·Р°Р»РѕРі
+     * Set the 'CashType' element value. Указываются денежные средства, подлежащие возврату (зачету), а именно: излишне уплаченные таможенные пошлины, налоги; излишне взысканные таможенные пошлины, налоги; таможенные пошлины, налоги, подлежащие возврату в случаях, установленных статьей 356 Таможенного кодекса Российской Федерации; авансовые платежи; денежный залог
      * 
      * @param cashType
      */
@@ -88,7 +88,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReasonReturningCrediting' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° (Р·Р°С‡РµС‚Рµ)
+     * Get the 'ReasonReturningCrediting' element value. Основание для проведения возврата (зачете)
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReasonReturningCrediting' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ РІРѕР·РІСЂР°С‚Р° (Р·Р°С‡РµС‚Рµ)
+     * Set the 'ReasonReturningCrediting' element value. Основание для проведения возврата (зачете)
      * 
      * @param reasonReturningCrediting
      */
@@ -106,7 +106,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConditionCrediting' element value. РЈРєР°Р·С‹РІР°СЋС‚СЃСЏ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІР°, РІ СЃРІСЏР·Рё СЃ РєРѕС‚РѕСЂС‹РјРё РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ Р·Р°С‡РµС‚: РїРѕРіР°С€РµРЅРёРµ Р·Р°РґРѕР»Р¶РµРЅРЅРѕСЃС‚Рё РїРѕ СѓРїР»Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, Р·Р°С‡РµС‚ РІ СЃС‡РµС‚ Р±СѓРґСѓС‰РёС… РїР»Р°С‚РµР¶РµР№, РѕР±РµСЃРїРµС‡РµРЅРёРµ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ Рё С‚.Рґ.
+     * Get the 'ConditionCrediting' element value. Указываются обстоятельства, в связи с которыми производится зачет: погашение задолженности по уплате таможенных платежей, зачет в счет будущих платежей, обеспечение уплаты таможенных платежей и т.д.
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConditionCrediting' element value. РЈРєР°Р·С‹РІР°СЋС‚СЃСЏ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІР°, РІ СЃРІСЏР·Рё СЃ РєРѕС‚РѕСЂС‹РјРё РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ Р·Р°С‡РµС‚: РїРѕРіР°С€РµРЅРёРµ Р·Р°РґРѕР»Р¶РµРЅРЅРѕСЃС‚Рё РїРѕ СѓРїР»Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№, Р·Р°С‡РµС‚ РІ СЃС‡РµС‚ Р±СѓРґСѓС‰РёС… РїР»Р°С‚РµР¶РµР№, РѕР±РµСЃРїРµС‡РµРЅРёРµ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ Рё С‚.Рґ.
+     * Set the 'ConditionCrediting' element value. Указываются обстоятельства, в связи с которыми производится зачет: погашение задолженности по уплате таможенных платежей, зачет в счет будущих платежей, обеспечение уплаты таможенных платежей и т.д.
      * 
      * @param conditionCrediting
      */
@@ -124,7 +124,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the 'AmountCash' element value. РЎСѓРјРјР° РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the 'AmountCash' element value. Сумма денежных средств
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the 'AmountCash' element value. РЎСѓРјРјР° РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the 'AmountCash' element value. Сумма денежных средств
      * 
      * @param amountCash
      */
@@ -142,7 +142,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the 'Currency' element value. Р’Р°Р»СЋС‚Р°
+     * Get the 'Currency' element value. Валюта
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the 'Currency' element value. Р’Р°Р»СЋС‚Р°
+     * Set the 'Currency' element value. Валюта
      * 
      * @param currency
      */
@@ -160,7 +160,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicantInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Get the 'ApplicantInfo' element value. Сведения о заявителе
      * 
      * @return value
      */
@@ -169,7 +169,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicantInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Set the 'ApplicantInfo' element value. Сведения о заявителе
      * 
      * @param applicantInfo
      */
@@ -178,7 +178,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РєРѕС‚РѕСЂРѕРјСѓ Р±С‹Р»Рё РІРЅРµСЃРµРЅС‹ РґРµРЅРµР¶РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'Customs' element value. Таможенного органа, которому были внесены денежные средства
      * 
      * @return value
      */
@@ -187,7 +187,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РєРѕС‚РѕСЂРѕРјСѓ Р±С‹Р»Рё РІРЅРµСЃРµРЅС‹ РґРµРЅРµР¶РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'Customs' element value. Таможенного органа, которому были внесены денежные средства
      * 
      * @param customs
      */
@@ -196,7 +196,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PaymentDocument' element items. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the list of 'PaymentDocument' element items. Реквизиты платежного документа
      * 
      * @return list
      */
@@ -205,7 +205,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PaymentDocument' element items. Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the list of 'PaymentDocument' element items. Реквизиты платежного документа
      * 
      * @param list
      */
@@ -214,7 +214,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsReceipt' element value. Р РµРєРІРёР·РёС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЂР°СЃРїРёСЃРєРё
+     * Get the 'CustomsReceipt' element value. Реквизиты таможенной расписки
      * 
      * @return value
      */
@@ -223,7 +223,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsReceipt' element value. Р РµРєРІРёР·РёС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЂР°СЃРїРёСЃРєРё
+     * Set the 'CustomsReceipt' element value. Реквизиты таможенной расписки
      * 
      * @param customsReceipt
      */
@@ -232,7 +232,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the 'BankInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р±Р°РЅРєРѕРІСЃРєРёС… СЃС‡РµС‚Р°С…
+     * Get the 'BankInformation' element value. Информация о банковских счетах
      * 
      * @return value
      */
@@ -241,7 +241,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the 'BankInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р±Р°РЅРєРѕРІСЃРєРёС… СЃС‡РµС‚Р°С…
+     * Set the 'BankInformation' element value. Информация о банковских счетах
      * 
      * @param bankInformation
      */
@@ -250,7 +250,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AttachedDocuments' element items. РџРµСЂРµС‡РµРЅСЊ РїСЂРёР»Р°РіР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the list of 'AttachedDocuments' element items. Перечень прилагаемых документов
      * 
      * @return list
      */
@@ -259,7 +259,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AttachedDocuments' element items. РџРµСЂРµС‡РµРЅСЊ РїСЂРёР»Р°РіР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the list of 'AttachedDocuments' element items. Перечень прилагаемых документов
      * 
      * @param list
      */
@@ -268,7 +268,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicantSignature' element value. РџРѕРґРёСЃСЊ Р·Р°СЏРІРёС‚РµР»СЏ
+     * Get the 'ApplicantSignature' element value. Подись заявителя
      * 
      * @return value
      */
@@ -277,7 +277,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicantSignature' element value. РџРѕРґРёСЃСЊ Р·Р°СЏРІРёС‚РµР»СЏ
+     * Set the 'ApplicantSignature' element value. Подись заявителя
      * 
      * @param applicantSignature
      */
@@ -286,7 +286,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GTDID' element items. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the list of 'GTDID' element items. Номер таможенного документа
      * 
      * @return list
      */
@@ -295,7 +295,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GTDID' element items. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the list of 'GTDID' element items. Номер таможенного документа
      * 
      * @param list
      */
@@ -304,7 +304,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -313,7 +313,7 @@ public class ApplicationReturnCreditingCashType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

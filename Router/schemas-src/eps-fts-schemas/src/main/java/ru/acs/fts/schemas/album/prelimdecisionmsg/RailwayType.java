@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.prelimdecisionmsg;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРµ
+ * Сведения о железной дороге
  */
 public class RailwayType
 {
@@ -13,7 +13,7 @@ public class RailwayType
     private String trainNumber;
 
     /** 
-     * Get the 'RailwayCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ РґРѕСЂРѕРіРё 
+     * Get the 'RailwayCode' element value. Код железнодорожной дороги 
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RailwayType
     }
 
     /** 
-     * Set the 'RailwayCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ РґРѕСЂРѕРіРё 
+     * Set the 'RailwayCode' element value. Код железнодорожной дороги 
      * 
      * @param railwayCode
      */
@@ -31,7 +31,7 @@ public class RailwayType
     }
 
     /** 
-     * Get the 'StationCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё
+     * Get the 'StationCode' element value. Код железнодорожной станции
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class RailwayType
     }
 
     /** 
-     * Set the 'StationCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё
+     * Set the 'StationCode' element value. Код железнодорожной станции
      * 
      * @param stationCode
      */
@@ -49,7 +49,7 @@ public class RailwayType
     }
 
     /** 
-     * Get the 'RailwayAndStationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРѕСЂРѕРіРё Рё СЃС‚Р°РЅС†РёРё РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'RailwayAndStationName' element value. Наименование дороги и станции назначения
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class RailwayType
     }
 
     /** 
-     * Set the 'RailwayAndStationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРѕСЂРѕРіРё Рё СЃС‚Р°РЅС†РёРё РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'RailwayAndStationName' element value. Наименование дороги и станции назначения
      * 
      * @param railwayAndStationName
      */
@@ -67,7 +67,7 @@ public class RailwayType
     }
 
     /** 
-     * Get the 'TrainIndex' element value. РРЅРґРµРєСЃ РїРѕРµР·РґР°
+     * Get the 'TrainIndex' element value. Индекс поезда
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class RailwayType
     }
 
     /** 
-     * Set the 'TrainIndex' element value. РРЅРґРµРєСЃ РїРѕРµР·РґР°
+     * Set the 'TrainIndex' element value. Индекс поезда
      * 
      * @param trainIndex
      */
@@ -85,7 +85,7 @@ public class RailwayType
     }
 
     /** 
-     * Get the 'TrainNumber' element value. РќРѕРјРµСЂ РїРѕРµР·РґР°
+     * Get the 'TrainNumber' element value. Номер поезда
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class RailwayType
     }
 
     /** 
-     * Set the 'TrainNumber' element value. РќРѕРјРµСЂ РїРѕРµР·РґР°
+     * Set the 'TrainNumber' element value. Номер поезда
      * 
      * @param trainNumber
      */

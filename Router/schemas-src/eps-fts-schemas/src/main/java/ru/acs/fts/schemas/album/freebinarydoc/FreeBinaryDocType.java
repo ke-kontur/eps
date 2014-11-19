@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р‘РёРЅР°СЂРЅС‹Рµ РґР°РЅРЅС‹Рµ
+ * Бинарные данные
  */
 public class FreeBinaryDocType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class FreeBinaryDocType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the 'DocumentInfo' element value. Информация о документе
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class FreeBinaryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the 'DocumentInfo' element value. Информация о документе
      * 
      * @param documentInfo
      */
@@ -33,7 +33,7 @@ public class FreeBinaryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'MainDocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕСЃРЅРѕРІРЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РґР°РЅРЅС‹Рµ СЏРІР»СЏСЋС‚СЃСЏ РїСЂРёР»РѕР¶РµРЅРёРµРј Рє РґСЂСѓРіРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ)
+     * Get the 'MainDocumentInfo' element value. Информация об основном документе (заполняется в случае, если данные являются приложением к другому документу)
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class FreeBinaryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'MainDocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕСЃРЅРѕРІРЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РґР°РЅРЅС‹Рµ СЏРІР»СЏСЋС‚СЃСЏ РїСЂРёР»РѕР¶РµРЅРёРµРј Рє РґСЂСѓРіРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ)
+     * Set the 'MainDocumentInfo' element value. Информация об основном документе (заполняется в случае, если данные являются приложением к другому документу)
      * 
      * @param mainDocumentInfo
      */
@@ -51,7 +51,7 @@ public class FreeBinaryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentBody' element value. РўРµР»Рѕ  РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentBody' element value. Тело  документа
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class FreeBinaryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentBody' element value. РўРµР»Рѕ  РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentBody' element value. Тело  документа
      * 
      * @param documentBody
      */
@@ -69,7 +69,7 @@ public class FreeBinaryDocType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class FreeBinaryDocType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

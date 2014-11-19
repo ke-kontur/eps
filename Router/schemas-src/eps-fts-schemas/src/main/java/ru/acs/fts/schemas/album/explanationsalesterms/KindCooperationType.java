@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Р’РёРґ СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР°
+ * Вид сотрудничества
  */
 public class KindCooperationType
 {
@@ -14,7 +14,7 @@ public class KindCooperationType
     private DescriptionKindCooperationType renderingService;
 
     /** 
-     * Get the 'IdenticalGoods' element value. РџРѕСЃС‚Р°РІРєРё РѕС‚ РџСЂРѕРґР°РІС†Р° РџРѕРєСѓРїР°С‚РµР»СЋ РёРґРµРЅС‚РёС‡РЅС‹С… С‚РѕРІР°СЂРѕРІ
+     * Get the 'IdenticalGoods' element value. Поставки от Продавца Покупателю идентичных товаров
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class KindCooperationType
     }
 
     /** 
-     * Set the 'IdenticalGoods' element value. РџРѕСЃС‚Р°РІРєРё РѕС‚ РџСЂРѕРґР°РІС†Р° РџРѕРєСѓРїР°С‚РµР»СЋ РёРґРµРЅС‚РёС‡РЅС‹С… С‚РѕРІР°СЂРѕРІ
+     * Set the 'IdenticalGoods' element value. Поставки от Продавца Покупателю идентичных товаров
      * 
      * @param identicalGoods
      */
@@ -32,7 +32,7 @@ public class KindCooperationType
     }
 
     /** 
-     * Get the 'IdemSort' element value. РўРѕРІР°СЂРѕРІ С‚РѕРіРѕ Р¶Рµ РєР»Р°СЃСЃР° РёР»Рё РІРёРґР°.
+     * Get the 'IdemSort' element value. Товаров того же класса или вида.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class KindCooperationType
     }
 
     /** 
-     * Set the 'IdemSort' element value. РўРѕРІР°СЂРѕРІ С‚РѕРіРѕ Р¶Рµ РєР»Р°СЃСЃР° РёР»Рё РІРёРґР°.
+     * Set the 'IdemSort' element value. Товаров того же класса или вида.
      * 
      * @param idemSort
      */
@@ -50,7 +50,7 @@ public class KindCooperationType
     }
 
     /** 
-     * Get the 'OtherSort' element value. РўРѕРІР°СЂРѕРІ РґСЂСѓРіРѕРіРѕ РєР»Р°СЃСЃР° РёР»Рё РІРёРґР°.
+     * Get the 'OtherSort' element value. Товаров другого класса или вида.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class KindCooperationType
     }
 
     /** 
-     * Set the 'OtherSort' element value. РўРѕРІР°СЂРѕРІ РґСЂСѓРіРѕРіРѕ РєР»Р°СЃСЃР° РёР»Рё РІРёРґР°.
+     * Set the 'OtherSort' element value. Товаров другого класса или вида.
      * 
      * @param otherSort
      */
@@ -68,7 +68,7 @@ public class KindCooperationType
     }
 
     /** 
-     * Get the 'DifferentCooperation' element value. РРЅРѕРµ СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІРѕ.
+     * Get the 'DifferentCooperation' element value. Иное сотрудничество.
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class KindCooperationType
     }
 
     /** 
-     * Set the 'DifferentCooperation' element value. РРЅРѕРµ СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІРѕ.
+     * Set the 'DifferentCooperation' element value. Иное сотрудничество.
      * 
      * @param differentCooperation
      */
@@ -87,7 +87,7 @@ public class KindCooperationType
     }
 
     /** 
-     * Get the 'DeliveryGoodsBuyerSeller' element value. РџРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ РѕС‚ РџРѕРєСѓРїР°С‚РµР»СЏ РџСЂРѕРґР°РІС†Сѓ.
+     * Get the 'DeliveryGoodsBuyerSeller' element value. Поставки товаров от Покупателя Продавцу.
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class KindCooperationType
     }
 
     /** 
-     * Set the 'DeliveryGoodsBuyerSeller' element value. РџРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ РѕС‚ РџРѕРєСѓРїР°С‚РµР»СЏ РџСЂРѕРґР°РІС†Сѓ.
+     * Set the 'DeliveryGoodsBuyerSeller' element value. Поставки товаров от Покупателя Продавцу.
      * 
      * @param deliveryGoodsBuyerSeller
      */
@@ -106,7 +106,7 @@ public class KindCooperationType
     }
 
     /** 
-     * Get the 'RenderingService' element value. РћРєР°Р·Р°РЅРёРµ СѓСЃР»СѓРі.
+     * Get the 'RenderingService' element value. Оказание услуг.
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class KindCooperationType
     }
 
     /** 
-     * Set the 'RenderingService' element value. РћРєР°Р·Р°РЅРёРµ СѓСЃР»СѓРі.
+     * Set the 'RenderingService' element value. Оказание услуг.
      * 
      * @param renderingService
      */

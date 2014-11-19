@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * Р—Р°СЏРІР»РµРЅРёРµ РЅР° РїСЂРѕРґР»РµРЅРёРµ СЃСЂРѕРєРѕРІ РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°
+ * Заявление на продление сроков временного ввоза
  */
 public class CurrentImportProlongType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class CurrentImportProlongType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'InitialPeriod' element value. РџРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅС‹Р№ СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°
+     * Get the 'InitialPeriod' element value. Первоначальный срок временного ввоза
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Set the 'InitialPeriod' element value. РџРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅС‹Р№ СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°
+     * Set the 'InitialPeriod' element value. Первоначальный срок временного ввоза
      * 
      * @param initialPeriod
      */
@@ -39,7 +39,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateProlong' element value. Р”Р°С‚Р°, РґРѕ РєРѕС‚РѕСЂРѕР№ РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРѕРґР»РёС‚СЊ СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°
+     * Get the 'DateProlong' element value. Дата, до которой необходимо продлить срок временного ввоза
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateProlong' element value. Р”Р°С‚Р°, РґРѕ РєРѕС‚РѕСЂРѕР№ РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРѕРґР»РёС‚СЊ СЃСЂРѕРє РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°
+     * Set the 'DateProlong' element value. Дата, до которой необходимо продлить срок временного ввоза
      * 
      * @param dateProlong
      */
@@ -57,7 +57,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Get the 'Reason' element value. РџСЂРёС‡РёРЅС‹
+     * Get the 'Reason' element value. Причины
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Set the 'Reason' element value. РџСЂРёС‡РёРЅС‹
+     * Set the 'Reason' element value. Причины
      * 
      * @param reason
      */
@@ -75,7 +75,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Get the 'TDTSNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РўР”РўРЎ
+     * Get the 'TDTSNumber' element value. Регистрационный номер ТДТС
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Set the 'TDTSNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РўР”РўРЎ
+     * Set the 'TDTSNumber' element value. Регистрационный номер ТДТС
      * 
      * @param TDTSNumber
      */
@@ -93,7 +93,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Transport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+     * Get the list of 'Transport' element items. Транспортное средство
      * 
      * @return list
      */
@@ -102,7 +102,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Transport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+     * Set the list of 'Transport' element items. Транспортное средство
      * 
      * @param list
      */
@@ -111,7 +111,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Get the 'Place' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the 'Place' element value. Сведения о месте фактического нахождения транспортных средств
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Set the 'Place' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the 'Place' element value. Сведения о месте фактического нахождения транспортных средств
      * 
      * @param place
      */
@@ -129,7 +129,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class CurrentImportProlongType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -5,14 +5,14 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Сведения о документах
  */
 public class DocumentType extends DocumentBaseType
 {
     private LocalDate dateTo;
 
     /** 
-     * Get the 'DateTo' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ Р·Р°РєР»СЋС‡РµРЅРёСЏ
+     * Get the 'DateTo' element value. Срок действия заключения
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DateTo' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ Р·Р°РєР»СЋС‡РµРЅРёСЏ
+     * Set the 'DateTo' element value. Срок действия заключения
      * 
      * @param dateTo
      */

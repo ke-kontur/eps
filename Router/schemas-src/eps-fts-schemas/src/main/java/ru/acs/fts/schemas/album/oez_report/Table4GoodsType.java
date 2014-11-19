@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.oez_report;
 
 /** 
- * РўРѕРІР°СЂ, РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹Р№ (РїРѕР»СѓС‡РµРЅРЅС‹Р№) РёР· С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹
+ * Товар, изготовленный (полученный) из товаров, помещенных под таможенную процедуру свободной таможенной зоны
  */
 public class Table4GoodsType extends GoodsWithoutStatusBaseType
 {
     private String quantity;
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РЅР°С…РѕРґСЏС‰РµРµСЃСЏ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р— РЅР° РґР°С‚Сѓ РѕС‚С‡С‘С‚Р°
+     * Get the 'Quantity' element value. Количество товара, находящееся на территории ОЭЗ на дату отчёта
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class Table4GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РЅР°С…РѕРґСЏС‰РµРµСЃСЏ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р— РЅР° РґР°С‚Сѓ РѕС‚С‡С‘С‚Р°
+     * Set the 'Quantity' element value. Количество товара, находящееся на территории ОЭЗ на дату отчёта
      * 
      * @param quantity
      */

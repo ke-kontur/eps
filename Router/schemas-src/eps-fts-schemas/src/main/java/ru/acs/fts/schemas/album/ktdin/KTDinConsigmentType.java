@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ktdin;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUConsigmentType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ РіСЂ. 15, 15Р°, 17,17Р°, 18, 19, 21, 25, 26, 29, 53, 
+ * Сведения о перевозке товаров гр. 15, 15а, 17,17а, 18, 19, 21, 25, 26, 29, 53, 
  */
 public class KTDinConsigmentType extends CUConsigmentType
 {
@@ -14,7 +14,7 @@ public class KTDinConsigmentType extends CUConsigmentType
     private KTDinBorderTransportType KTDinBorderTransportMeans;
 
     /** 
-     * Get the 'DigitDispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ (С†РёС„СЂРѕРІРѕР№ РєРѕРґ).
+     * Get the 'DigitDispatchCountryCode' element value. Страна отправления (цифровой код).
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class KTDinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the 'DigitDispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ (С†РёС„СЂРѕРІРѕР№ РєРѕРґ).
+     * Set the 'DigitDispatchCountryCode' element value. Страна отправления (цифровой код).
      * 
      * @param digitDispatchCountryCode
      */
@@ -32,7 +32,7 @@ public class KTDinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Get the 'DigitDestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ  (С†РёС„СЂРѕРІРѕР№ РєРѕРґ)
+     * Get the 'DigitDestinationCountryCode' element value. Страна назначения  (цифровой код)
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class KTDinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the 'DigitDestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ  (С†РёС„СЂРѕРІРѕР№ РєРѕРґ)
+     * Set the 'DigitDestinationCountryCode' element value. Страна назначения  (цифровой код)
      * 
      * @param digitDestinationCountryCode
      */
@@ -51,7 +51,7 @@ public class KTDinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Get the 'KTDinDepartureArrivalTransport' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РїСЂРё РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё. Р“СЂ. 18, 26 Р”Рў
+     * Get the 'KTDinDepartureArrivalTransport' element value. КДТ. Внутренний формат. Транспортные средства при прибытии/убытии. Гр. 18, 26 ДТ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class KTDinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the 'KTDinDepartureArrivalTransport' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РїСЂРё РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё. Р“СЂ. 18, 26 Р”Рў
+     * Set the 'KTDinDepartureArrivalTransport' element value. КДТ. Внутренний формат. Транспортные средства при прибытии/убытии. Гр. 18, 26 ДТ
      * 
      * @param KTDinDepartureArrivalTransport
      */
@@ -70,7 +70,7 @@ public class KTDinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Get the 'KTDinBorderTransportMeans' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РЅР° РіСЂР°РЅРёС†Рµ. Р“СЂ. 21, 25 Р”Рў
+     * Get the 'KTDinBorderTransportMeans' element value. КДТ. Внутренний формат. Транспортные средства на границе. Гр. 21, 25 ДТ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class KTDinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the 'KTDinBorderTransportMeans' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РЅР° РіСЂР°РЅРёС†Рµ. Р“СЂ. 21, 25 Р”Рў
+     * Set the 'KTDinBorderTransportMeans' element value. КДТ. Внутренний формат. Транспортные средства на границе. Гр. 21, 25 ДТ
      * 
      * @param KTDinBorderTransportMeans
      */

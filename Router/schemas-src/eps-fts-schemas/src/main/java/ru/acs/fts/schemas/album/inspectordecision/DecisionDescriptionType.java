@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ СЂРµС€РµРЅРёСЏ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
+ * Описание решения должностного лица
  */
 public class DecisionDescriptionType
 {
@@ -21,7 +21,7 @@ public class DecisionDescriptionType
     private CustomsType goodsCustoms;
 
     /** 
-     * Get the 'DecisionDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ 
+     * Get the 'DecisionDate' element value. Дата решения 
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Set the 'DecisionDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ 
+     * Set the 'DecisionDate' element value. Дата решения 
      * 
      * @param decisionDate
      */
@@ -39,7 +39,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Get the 'DecisionTime' element value. Р’СЂРµРјСЏ СЂРµС€РµРЅРёСЏ 
+     * Get the 'DecisionTime' element value. Время решения 
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Set the 'DecisionTime' element value. Р’СЂРµРјСЏ СЂРµС€РµРЅРёСЏ 
+     * Set the 'DecisionTime' element value. Время решения 
      * 
      * @param decisionTime
      */
@@ -57,7 +57,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Get the list of 'DecisionText' element items. РћРїРёСЃР°РЅРёРµ СЂРµС€РµРЅРёСЏ
+     * Get the list of 'DecisionText' element items. Описание решения
      * 
      * @return list
      */
@@ -66,7 +66,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Set the list of 'DecisionText' element items. РћРїРёСЃР°РЅРёРµ СЂРµС€РµРЅРёСЏ
+     * Set the list of 'DecisionText' element items. Описание решения
      * 
      * @param list
      */
@@ -75,7 +75,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Get the 'DocumentInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the 'DocumentInfo' element value. Сведения о документе
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Set the 'DocumentInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the 'DocumentInfo' element value. Сведения о документе
      * 
      * @param documentInfo
      */
@@ -93,7 +93,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ
+     * Get the 'CustomsPerson' element value. Должностное лицо
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ
+     * Set the 'CustomsPerson' element value. Должностное лицо
      * 
      * @param customsPerson
      */
@@ -111,7 +111,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -129,7 +129,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Get the 'GoodsCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґСЏС‚СЃСЏ С‚РѕРІР°СЂС‹
+     * Get the 'GoodsCustoms' element value. Таможенный орган, в регионе деятельности которого находятся товары
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Set the 'GoodsCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ, РІ СЂРµРіРёРѕРЅРµ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґСЏС‚СЃСЏ С‚РѕРІР°СЂС‹
+     * Set the 'GoodsCustoms' element value. Таможенный орган, в регионе деятельности которого находятся товары
      * 
      * @param goodsCustoms
      */

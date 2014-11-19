@@ -5,14 +5,14 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ
+ * Сведения об отправителе
  */
 public class ConsignorType extends CUOrganizationType
 {
     private LocalDate issueDate;
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ
+     * Get the 'IssueDate' element value. Дата подписания
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ConsignorType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ
+     * Set the 'IssueDate' element value. Дата подписания
      * 
      * @param issueDate
      */

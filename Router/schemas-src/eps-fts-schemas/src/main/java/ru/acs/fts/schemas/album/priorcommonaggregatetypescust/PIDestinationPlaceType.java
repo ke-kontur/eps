@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.priorcommonaggregatetypescust;
 
 /** 
- * РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ: РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р°/РєРѕРґ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ Р–Р” СЃС‚Р°РЅС†РёРё
+ * Место назначения товаров: Наименование места/код наименование ЖД станции
  */
 public class PIDestinationPlaceType
 {
@@ -11,7 +11,7 @@ public class PIDestinationPlaceType
     private String destinantionPlaceName;
 
     /** 
-     * Get the 'DestinationRWStationCode' element value. РљРѕРґ Р¶/Рґ СЃС‚Р°РЅС†РёРё РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationRWStationCode' element value. Код ж/д станции назначения
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PIDestinationPlaceType
     }
 
     /** 
-     * Set the 'DestinationRWStationCode' element value. РљРѕРґ Р¶/Рґ СЃС‚Р°РЅС†РёРё РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationRWStationCode' element value. Код ж/д станции назначения
      * 
      * @param destinationRWStationCode
      */
@@ -29,7 +29,7 @@ public class PIDestinationPlaceType
     }
 
     /** 
-     * Get the 'DestinationRWStationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationRWStationName' element value. Наименование железнодорожной станции назначения
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PIDestinationPlaceType
     }
 
     /** 
-     * Set the 'DestinationRWStationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationRWStationName' element value. Наименование железнодорожной станции назначения
      * 
      * @param destinationRWStationName
      */
@@ -47,7 +47,7 @@ public class PIDestinationPlaceType
     }
 
     /** 
-     * Get the 'DestinantionPlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinantionPlaceName' element value. Наименование места назначения
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PIDestinationPlaceType
     }
 
     /** 
-     * Set the 'DestinantionPlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinantionPlaceName' element value. Наименование места назначения
      * 
      * @param destinantionPlaceName
      */

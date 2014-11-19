@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.requestdetaildatard;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РґРµС‚Р°Р»СЊРЅС‹С… РґР°РЅРЅС‹С… СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+ * Запрос детальных данных разрешительного документа
  */
 public class RequestDetailDataRDType extends BaseDocType
 {
@@ -13,7 +13,7 @@ public class RequestDetailDataRDType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Уникальный номер по БД РД
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RequestDetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Уникальный номер по БД РД
      * 
      * @param BDRDID
      */
@@ -31,7 +31,7 @@ public class RequestDetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentCode' element value. Код вида документа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class RequestDetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentCode' element value. Код вида документа
      * 
      * @param documentCode
      */
@@ -49,7 +49,7 @@ public class RequestDetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class RequestDetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

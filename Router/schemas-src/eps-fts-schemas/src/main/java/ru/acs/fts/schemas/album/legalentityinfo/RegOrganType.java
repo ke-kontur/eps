@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.legalentityinfo;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРј (РЅР°Р»РѕРіРѕРІРѕРј) РѕСЂРіР°РЅРµ РїРѕ РјРµСЃС‚Сѓ РЅР°С…РѕР¶РґРµРЅРёСЏ СЋСЂ. Р»РёС†Р°
+ * Сведения о регистрирующем (налоговом) органе по месту нахождения юр. лица
  */
 public class RegOrganType
 {
@@ -13,7 +13,7 @@ public class RegOrganType
     private AddressType regOrganAddress;
 
     /** 
-     * Get the 'OrganCode' element value. РљРѕРґ РѕСЂРіР°РЅР° РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ
+     * Get the 'OrganCode' element value. Код органа по справочнику
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RegOrganType
     }
 
     /** 
-     * Set the 'OrganCode' element value. РљРѕРґ РѕСЂРіР°РЅР° РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ
+     * Set the 'OrganCode' element value. Код органа по справочнику
      * 
      * @param organCode
      */
@@ -31,7 +31,7 @@ public class RegOrganType
     }
 
     /** 
-     * Get the 'OrganName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ (РЅР°Р»РѕРіРѕРІРѕРіРѕ) РѕСЂРіР°РЅР°
+     * Get the 'OrganName' element value. Наименование регистрирующего (налогового) органа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class RegOrganType
     }
 
     /** 
-     * Set the 'OrganName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ (РЅР°Р»РѕРіРѕРІРѕРіРѕ) РѕСЂРіР°РЅР°
+     * Set the 'OrganName' element value. Наименование регистрирующего (налогового) органа
      * 
      * @param organName
      */
@@ -49,7 +49,7 @@ public class RegOrganType
     }
 
     /** 
-     * Get the 'RegOrganAddress' element value. РђРґСЂРµСЃ РЅР°Р»РѕРіРѕРІРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'RegOrganAddress' element value. Адрес налогового органа
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class RegOrganType
     }
 
     /** 
-     * Set the 'RegOrganAddress' element value. РђРґСЂРµСЃ РЅР°Р»РѕРіРѕРІРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'RegOrganAddress' element value. Адрес налогового органа
      * 
      * @param regOrganAddress
      */

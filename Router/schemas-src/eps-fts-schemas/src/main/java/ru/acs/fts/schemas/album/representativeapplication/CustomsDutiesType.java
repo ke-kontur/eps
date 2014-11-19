@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.representativeapplication;
 
 /** 
- * РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё, РїРѕРґР»РµР¶Р°С‰РёРµ СѓРїР»Р°С‚Рµ
+ * Таможенные платежи, подлежащие уплате
  */
 public class CustomsDutiesType
 {
@@ -11,7 +11,7 @@ public class CustomsDutiesType
     private String currencyCode;
 
     /** 
-     * Get the 'Duties' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРё
+     * Get the 'Duties' element value. Таможенные пошлины, налоги
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CustomsDutiesType
     }
 
     /** 
-     * Set the 'Duties' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїРѕС€Р»РёРЅС‹, РЅР°Р»РѕРіРё
+     * Set the 'Duties' element value. Таможенные пошлины, налоги
      * 
      * @param duties
      */
@@ -29,7 +29,7 @@ public class CustomsDutiesType
     }
 
     /** 
-     * Get the 'Taxes' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ СЃР±РѕСЂС‹
+     * Get the 'Taxes' element value. Таможенные сборы
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class CustomsDutiesType
     }
 
     /** 
-     * Set the 'Taxes' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ СЃР±РѕСЂС‹
+     * Set the 'Taxes' element value. Таможенные сборы
      * 
      * @param taxes
      */
@@ -47,7 +47,7 @@ public class CustomsDutiesType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°
+     * Get the 'CurrencyCode' element value. Код валюты таможенного платежа
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class CustomsDutiesType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°
+     * Set the 'CurrencyCode' element value. Код валюты таможенного платежа
      * 
      * @param currencyCode
      */

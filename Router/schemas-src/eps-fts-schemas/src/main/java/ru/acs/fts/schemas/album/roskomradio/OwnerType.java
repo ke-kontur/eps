@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.roskomradio;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РџР°СЂР°РјРµС‚СЂС‹ РІР»Р°РґРµР»СЊС†Р°
+ * Параметры владельца
  */
 public class OwnerType extends OrganizationBaseType
 {
@@ -12,7 +12,7 @@ public class OwnerType extends OrganizationBaseType
     private String ownerVersionId;
 
     /** 
-     * Get the 'OwnerId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІР»Р°РґРµР»СЊС†Р° РІ Р•РРЎ
+     * Get the 'OwnerId' element value. Идентификатор владельца в ЕИС
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OwnerId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІР»Р°РґРµР»СЊС†Р° РІ Р•РРЎ
+     * Set the 'OwnerId' element value. Идентификатор владельца в ЕИС
      * 
      * @param ownerId
      */
@@ -30,7 +30,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OwnerVersionId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРµСЂСЃРёРё РІР»Р°РґРµР»СЊС†Р° РІ Р•РРЎ
+     * Get the 'OwnerVersionId' element value. Идентификатор версии владельца в ЕИС
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class OwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OwnerVersionId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРµСЂСЃРёРё РІР»Р°РґРµР»СЊС†Р° РІ Р•РРЎ
+     * Set the 'OwnerVersionId' element value. Идентификатор версии владельца в ЕИС
      * 
      * @param ownerVersionId
      */

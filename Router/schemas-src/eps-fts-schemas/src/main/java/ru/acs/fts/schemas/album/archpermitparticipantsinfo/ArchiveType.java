@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РђСЂС…РёРІ, РґРѕСЃС‚СѓРїРЅС‹Р№ РґР»СЏ РїСЂРѕСЃРјРѕС‚СЂР°
+ * Архив, доступный для просмотра
  */
 public class ArchiveType
 {
@@ -13,7 +13,7 @@ public class ArchiveType
     private List<ArchDocumentType> archDocumentList = new ArrayList<ArchDocumentType>();
 
     /** 
-     * Get the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР°
+     * Get the 'ArchID' element value. Идентификатор архива
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ArchiveType
     }
 
     /** 
-     * Set the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР°
+     * Set the 'ArchID' element value. Идентификатор архива
      * 
      * @param archID
      */
@@ -31,7 +31,7 @@ public class ArchiveType
     }
 
     /** 
-     * Get the list of 'ArchDocument' element items. Р”РѕРєСѓРјРµРЅС‚ Р°СЂС…РёРІР°
+     * Get the list of 'ArchDocument' element items. Документ архива
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class ArchiveType
     }
 
     /** 
-     * Set the list of 'ArchDocument' element items. Р”РѕРєСѓРјРµРЅС‚ Р°СЂС…РёРІР°
+     * Set the list of 'ArchDocument' element items. Документ архива
      * 
      * @param list
      */

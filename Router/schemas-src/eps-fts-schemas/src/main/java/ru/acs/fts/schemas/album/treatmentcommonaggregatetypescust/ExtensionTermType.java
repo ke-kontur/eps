@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РџСЂРѕРґР»РµРЅРёРµ СЃСЂРѕРєР° РїРµСЂРµСЂР°Р±РѕС‚РєРё
+ * Продление срока переработки
  */
 public class ExtensionTermType
 {
@@ -13,7 +13,7 @@ public class ExtensionTermType
     private PersonSignatureType personSignature;
 
     /** 
-     * Get the 'TermExtensionAt' element value. РЎСЂРѕРє РїСЂРѕРґР»РµРЅ РЅР°
+     * Get the 'TermExtensionAt' element value. Срок продлен на
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ExtensionTermType
     }
 
     /** 
-     * Set the 'TermExtensionAt' element value. РЎСЂРѕРє РїСЂРѕРґР»РµРЅ РЅР°
+     * Set the 'TermExtensionAt' element value. Срок продлен на
      * 
      * @param termExtensionAt
      */
@@ -31,7 +31,7 @@ public class ExtensionTermType
     }
 
     /** 
-     * Get the 'GeneralTermAfterExtension' element value. РћР±С‰РёР№ СЃСЂРѕРє РїРµСЂРµСЂР°Р±РѕС‚РєРё РїРѕСЃР»Рµ РїСЂРѕРґР»РµРЅРёСЏ
+     * Get the 'GeneralTermAfterExtension' element value. Общий срок переработки после продления
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ExtensionTermType
     }
 
     /** 
-     * Set the 'GeneralTermAfterExtension' element value. РћР±С‰РёР№ СЃСЂРѕРє РїРµСЂРµСЂР°Р±РѕС‚РєРё РїРѕСЃР»Рµ РїСЂРѕРґР»РµРЅРёСЏ
+     * Set the 'GeneralTermAfterExtension' element value. Общий срок переработки после продления
      * 
      * @param generalTermAfterExtension
      */
@@ -49,7 +49,7 @@ public class ExtensionTermType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ
+     * Get the 'PersonSignature' element value. Подпись
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ExtensionTermType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ
+     * Set the 'PersonSignature' element value. Подпись
      * 
      * @param personSignature
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРµ СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё С‚РѕРІР°СЂРѕРІ, РїРµСЂРµРІРѕР·РёРјС‹С… Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј
+ * Предварительное уведомление о прибытии товаров, перевозимых железнодорожным транспортом
  */
 public class PIRwArriveType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class PIRwArriveType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
+     * Get the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PIRwArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_URN' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё. Р¤РѕСЂРјР°С‚ - URN
+     * Set the 'PI_URN' element value. Уникальный идентификатор товарной партии. Формат - URN
      * 
      * @param PIURN
      */
@@ -34,7 +34,7 @@ public class PIRwArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'Train' element value. РўСЂР°РЅСЃРїРѕСЂС‚ (РїРѕРµР·Рґ)
+     * Get the 'Train' element value. Транспорт (поезд)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PIRwArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'Train' element value. РўСЂР°РЅСЃРїРѕСЂС‚ (РїРѕРµР·Рґ)
+     * Set the 'Train' element value. Транспорт (поезд)
      * 
      * @param train
      */
@@ -52,7 +52,7 @@ public class PIRwArriveType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsShipment' element items. РўРѕРІР°СЂРЅР°СЏ РїР°СЂС‚РёСЏ
+     * Get the list of 'GoodsShipment' element items. Товарная партия
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class PIRwArriveType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsShipment' element items. РўРѕРІР°СЂРЅР°СЏ РїР°СЂС‚РёСЏ
+     * Set the list of 'GoodsShipment' element items. Товарная партия
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class PIRwArriveType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class PIRwArriveType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

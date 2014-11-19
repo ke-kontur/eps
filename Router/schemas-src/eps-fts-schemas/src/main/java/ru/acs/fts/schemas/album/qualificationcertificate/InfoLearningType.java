@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ  Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё РѕР±СѓС‡РµРЅРёСЏ РїРѕ РїСЂРѕРіСЂР°РјРјР°Рј РїРѕРІС‹С€РµРЅРёСЏ РєРІР°Р»РёС„РёРєР°С†РёРё.
+ * Сведения  о прохождении обучения по программам повышения квалификации.
  */
 public class InfoLearningType
 {
@@ -21,7 +21,7 @@ public class InfoLearningType
     private List<PersonSignatureType> signatureAuthorizedPersonList = new ArrayList<PersonSignatureType>();
 
     /** 
-     * Get the 'StartPeriod' element value. РџРµСЂРёРѕРґ РїСЂРѕС…РѕР¶РґРµРЅРёСЏ РѕР±СѓС‡РµРЅРёСЏ РїРѕ РїСЂРѕРіСЂР°РјРјР°Рј РїРѕРІС‹С€РµРЅРёСЏ  РєРІР°Р»РёС„РёРєР°С†РёРё c
+     * Get the 'StartPeriod' element value. Период прохождения обучения по программам повышения  квалификации c
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Set the 'StartPeriod' element value. РџРµСЂРёРѕРґ РїСЂРѕС…РѕР¶РґРµРЅРёСЏ РѕР±СѓС‡РµРЅРёСЏ РїРѕ РїСЂРѕРіСЂР°РјРјР°Рј РїРѕРІС‹С€РµРЅРёСЏ  РєРІР°Р»РёС„РёРєР°С†РёРё c
+     * Set the 'StartPeriod' element value. Период прохождения обучения по программам повышения  квалификации c
      * 
      * @param startPeriod
      */
@@ -39,7 +39,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Get the 'EndPeriod' element value. РџРµСЂРёРѕРґ РїСЂРѕС…РѕР¶РґРµРЅРёСЏ РѕР±СѓС‡РµРЅРёСЏ РїРѕ РїСЂРѕРіСЂР°РјРјР°Рј РїРѕРІС‹С€РµРЅРёСЏ  РєРІР°Р»РёС„РёРєР°С†РёРё РґРѕ
+     * Get the 'EndPeriod' element value. Период прохождения обучения по программам повышения  квалификации до
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Set the 'EndPeriod' element value. РџРµСЂРёРѕРґ РїСЂРѕС…РѕР¶РґРµРЅРёСЏ РѕР±СѓС‡РµРЅРёСЏ РїРѕ РїСЂРѕРіСЂР°РјРјР°Рј РїРѕРІС‹С€РµРЅРёСЏ  РєРІР°Р»РёС„РёРєР°С†РёРё РґРѕ
+     * Set the 'EndPeriod' element value. Период прохождения обучения по программам повышения  квалификации до
      * 
      * @param endPeriod
      */
@@ -57,7 +57,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Get the 'NameOrganizaion' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РїСЂРѕРІРѕРґРёРІС€Р°СЏ РѕР±СѓС‡РµРЅРёРµ
+     * Get the 'NameOrganizaion' element value. Наименование организации, проводившая обучение
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Set the 'NameOrganizaion' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РїСЂРѕРІРѕРґРёРІС€Р°СЏ РѕР±СѓС‡РµРЅРёРµ
+     * Set the 'NameOrganizaion' element value. Наименование организации, проводившая обучение
      * 
      * @param nameOrganizaion
      */
@@ -75,7 +75,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Get the 'NubmerLicenseOrganization' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'NubmerLicenseOrganization' element value. Номер лицензии организации
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Set the 'NubmerLicenseOrganization' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'NubmerLicenseOrganization' element value. Номер лицензии организации
      * 
      * @param nubmerLicenseOrganization
      */
@@ -93,7 +93,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Get the 'MarkCustoms' element value. РћС‚РјРµС‚РєР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° Рѕ СЃРѕР±Р»СЋРґРµРЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЏ Рѕ РїРѕРІС‹С€РµРЅРёРё РєРІР°Р»РёС„РёРєР°С†РёРё
+     * Get the 'MarkCustoms' element value. Отметка таможенного органа о соблюдении требования о повышении квалификации
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Set the 'MarkCustoms' element value. РћС‚РјРµС‚РєР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° Рѕ СЃРѕР±Р»СЋРґРµРЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЏ Рѕ РїРѕРІС‹С€РµРЅРёРё РєРІР°Р»РёС„РёРєР°С†РёРё
+     * Set the 'MarkCustoms' element value. Отметка таможенного органа о соблюдении требования о повышении квалификации
      * 
      * @param markCustoms
      */
@@ -111,7 +111,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Get the list of 'DocumentLearning' element items. Р”РѕРєСѓРјРµРЅС‚С‹, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёРµ РїСЂРѕС…РѕР¶РґРµРЅРёРµ РѕР±СѓС‡РµРЅРёСЏ
+     * Get the list of 'DocumentLearning' element items. Документы, подтверждающие прохождение обучения
      * 
      * @return list
      */
@@ -120,7 +120,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Set the list of 'DocumentLearning' element items. Р”РѕРєСѓРјРµРЅС‚С‹, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёРµ РїСЂРѕС…РѕР¶РґРµРЅРёРµ РѕР±СѓС‡РµРЅРёСЏ
+     * Set the list of 'DocumentLearning' element items. Документы, подтверждающие прохождение обучения
      * 
      * @param list
      */
@@ -129,7 +129,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Get the list of 'SignatureAuthorizedPerson' element items. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
+     * Get the list of 'SignatureAuthorizedPerson' element items. Подпись уполномоченное лицо
      * 
      * @return list
      */
@@ -138,7 +138,7 @@ public class InfoLearningType
     }
 
     /** 
-     * Set the list of 'SignatureAuthorizedPerson' element items. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
+     * Set the list of 'SignatureAuthorizedPerson' element items. Подпись уполномоченное лицо
      * 
      * @param list
      */

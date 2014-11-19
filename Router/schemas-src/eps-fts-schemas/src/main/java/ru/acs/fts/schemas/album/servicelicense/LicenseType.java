@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/СЃРµСЂС‚РёС„РёРєР°С‚Рµ
+ * Сведения о лицензии/сертификате
  */
 public class LicenseType extends DocumentBaseType
 {
@@ -20,7 +20,7 @@ public class LicenseType extends DocumentBaseType
     private String append;
 
     /** 
-     * Get the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'BeginDate' element value. Дата начала действия документа
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'BeginDate' element value. Дата начала действия документа
      * 
      * @param beginDate
      */
@@ -38,7 +38,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'ExpirationDate' element value. Дата окончания действия документа
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'ExpirationDate' element value. Дата окончания действия документа
      * 
      * @param expirationDate
      */
@@ -56,7 +56,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocReestrNum' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° (СЃРµСЂС‚РёС„РёРєР°С‚Р°) РІ РіРѕСЃСЂРµРµСЃС‚СЂРµ
+     * Get the 'DocReestrNum' element value. Номер документа (сертификата) в госреестре
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocReestrNum' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° (СЃРµСЂС‚РёС„РёРєР°С‚Р°) РІ РіРѕСЃСЂРµРµСЃС‚СЂРµ
+     * Set the 'DocReestrNum' element value. Номер документа (сертификата) в госреестре
      * 
      * @param docReestrNum
      */
@@ -74,7 +74,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'OriginalIssueDate' element value. Р”Р°С‚Р° РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕР№ РІС‹РґР°С‡Рё (СЃРµСЂС‚РёС„РёРєР°С‚Р°)
+     * Get the 'OriginalIssueDate' element value. Дата первоначальной выдачи (сертификата)
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'OriginalIssueDate' element value. Р”Р°С‚Р° РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕР№ РІС‹РґР°С‡Рё (СЃРµСЂС‚РёС„РёРєР°С‚Р°)
+     * Set the 'OriginalIssueDate' element value. Дата первоначальной выдачи (сертификата)
      * 
      * @param originalIssueDate
      */
@@ -92,7 +92,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'LicenseSeries' element value. РЎРµСЂРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'LicenseSeries' element value. Серия документа
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'LicenseSeries' element value. РЎРµСЂРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'LicenseSeries' element value. Серия документа
      * 
      * @param licenseSeries
      */
@@ -110,7 +110,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'LicensedServiceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†РµРЅР·РёСЂСѓРµРјРѕРіРѕ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Get the 'LicensedServiceName' element value. Наименование лицензируемого вида деятельности
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'LicensedServiceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†РµРЅР·РёСЂСѓРµРјРѕРіРѕ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Set the 'LicensedServiceName' element value. Наименование лицензируемого вида деятельности
      * 
      * @param licensedServiceName
      */
@@ -128,7 +128,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'LicensedServiceCode' element value. РљРѕРґ Р»РёС†РµРЅР·РёСЂСѓРµРјРѕРіРѕ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Get the 'LicensedServiceCode' element value. Код лицензируемого вида деятельности
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'LicensedServiceCode' element value. РљРѕРґ Р»РёС†РµРЅР·РёСЂСѓРµРјРѕРіРѕ РІРёРґР° РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Set the 'LicensedServiceCode' element value. Код лицензируемого вида деятельности
      * 
      * @param licensedServiceCode
      */
@@ -146,7 +146,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'ProlongDate' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕРґР»РµРЅРёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'ProlongDate' element value. Информация о продлении документа
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ProlongDate' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕРґР»РµРЅРёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'ProlongDate' element value. Информация о продлении документа
      * 
      * @param prolongDate
      */
@@ -164,7 +164,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Append' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РґРѕРєСѓРјРµРЅС‚Сѓ
+     * Get the 'Append' element value. Признак наличия приложения к документу
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class LicenseType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Append' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РґРѕРєСѓРјРµРЅС‚Сѓ
+     * Set the 'Append' element value. Признак наличия приложения к документу
      * 
      * @param append
      */

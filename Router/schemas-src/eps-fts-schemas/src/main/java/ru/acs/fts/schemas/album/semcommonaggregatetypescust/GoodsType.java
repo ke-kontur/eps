@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsGroupDescrip
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.GoodsItemBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С… (РґР»СЏ Р·Р°РїСЂРѕСЃРѕРІ)
+ * Информация о товарах (для запросов)
  */
 public class GoodsType extends GoodsItemBaseType
 {
@@ -20,7 +20,7 @@ public class GoodsType extends GoodsItemBaseType
     private List<GoodsGroupDescriptionType> goodsGroupDescriptionList = new ArrayList<GoodsGroupDescriptionType>();
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -38,7 +38,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'AdditionalSign' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РїСЂРёР·РЅР°Рє РЅРµС‚Р°СЂРёС„РЅРѕРіРѕ СЂРµРіСѓР»РёСЂРѕРІР°РЅРёСЏ ("РЎ"). Р“СЂ.33 РІС‚РѕСЂРѕР№ СЂР°Р·РґРµР»
+     * Get the 'AdditionalSign' element value. Дополнительный признак нетарифного регулирования ("С"). Гр.33 второй раздел
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'AdditionalSign' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РїСЂРёР·РЅР°Рє РЅРµС‚Р°СЂРёС„РЅРѕРіРѕ СЂРµРіСѓР»РёСЂРѕРІР°РЅРёСЏ ("РЎ"). Р“СЂ.33 РІС‚РѕСЂРѕР№ СЂР°Р·РґРµР»
+     * Set the 'AdditionalSign' element value. Дополнительный признак нетарифного регулирования ("С"). Гр.33 второй раздел
      * 
      * @param additionalSign
      */
@@ -56,7 +56,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'IntellectPropertySign' element value. РџСЂРёР·РЅР°Рє РѕР±СЉРµРєС‚Р° РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё ("Р"). Р“СЂ.33 РІС‚РѕСЂРѕР№ СЂР°Р·РґРµР» РІ Р”Рў
+     * Get the 'IntellectPropertySign' element value. Признак объекта интеллектуальной собственности ("И"). Гр.33 второй раздел в ДТ
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'IntellectPropertySign' element value. РџСЂРёР·РЅР°Рє РѕР±СЉРµРєС‚Р° РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё ("Р"). Р“СЂ.33 РІС‚РѕСЂРѕР№ СЂР°Р·РґРµР» РІ Р”Рў
+     * Set the 'IntellectPropertySign' element value. Признак объекта интеллектуальной собственности ("И"). Гр.33 второй раздел в ДТ
      * 
      * @param intellectPropertySign
      */
@@ -74,7 +74,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'GoodsAddTNVEDCode' element value. РљРѕРґ  С‚РѕРІР°СЂР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ  РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'GoodsAddTNVEDCode' element value. Код  товара по классификатору  дополнительной таможенной информации
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'GoodsAddTNVEDCode' element value. РљРѕРґ  С‚РѕРІР°СЂР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ  РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'GoodsAddTNVEDCode' element value. Код  товара по классификатору  дополнительной таможенной информации
      * 
      * @param goodsAddTNVEDCode
      */
@@ -92,7 +92,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the list of 'PresentedDocumentModeCode' element items. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44.
+     * Get the list of 'PresentedDocumentModeCode' element items. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44.
      * 
      * @return list
      */
@@ -101,7 +101,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the list of 'PresentedDocumentModeCode' element items. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44.
+     * Set the list of 'PresentedDocumentModeCode' element items. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44.
      * 
      * @param list
      */
@@ -110,7 +110,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the 'Procedure' element value. РљРѕРґ РїСЂРѕС†РµРґСѓСЂС‹ - РіСЂР°С„Р° 37
+     * Get the 'Procedure' element value. Код процедуры - графа 37
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the 'Procedure' element value. РљРѕРґ РїСЂРѕС†РµРґСѓСЂС‹ - РіСЂР°С„Р° 37
+     * Set the 'Procedure' element value. Код процедуры - графа 37
      * 
      * @param procedure
      */
@@ -128,7 +128,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Get the list of 'GoodsGroupDescription' element items. РћРїРёСЃР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂРѕРІ / РћРїРёСЃР°РЅРёРµ РіСЂСѓРїРїС‹ С‚РѕРІР°СЂРѕРІ РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ СЃ РѕС‚Р»РёС‡Р°СЋС‰РёРјРёСЃСЏ РѕС‚ РґСЂСѓРіРёС… РіСЂСѓРїРї С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё 
+     * Get the list of 'GoodsGroupDescription' element items. Описание и характеристика товаров / Описание группы товаров одного наименования с отличающимися от других групп характеристиками 
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class GoodsType extends GoodsItemBaseType
     }
 
     /** 
-     * Set the list of 'GoodsGroupDescription' element items. РћРїРёСЃР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂРѕРІ / РћРїРёСЃР°РЅРёРµ РіСЂСѓРїРїС‹ С‚РѕРІР°СЂРѕРІ РѕРґРЅРѕРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёСЏ СЃ РѕС‚Р»РёС‡Р°СЋС‰РёРјРёСЃСЏ РѕС‚ РґСЂСѓРіРёС… РіСЂСѓРїРї С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°РјРё 
+     * Set the list of 'GoodsGroupDescription' element items. Описание и характеристика товаров / Описание группы товаров одного наименования с отличающимися от других групп характеристиками 
      * 
      * @param list
      */

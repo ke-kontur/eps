@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.legalentityinfo;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕ-РїСЂР°РІРѕРІРѕР№ С„РѕСЂРјРµ
+ * Сведения об организационно-правовой форме
  */
 public class OrganizationFormType
 {
@@ -11,7 +11,7 @@ public class OrganizationFormType
     private String formName;
 
     /** 
-     * Get the 'ClassifierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂР° РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РІРІРµРґРµРЅС‹ СЃРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕ-РїСЂР°РІРѕРІРѕР№ С„РѕСЂРјРµ: РћРљРћРџР¤, РљРћРџР¤
+     * Get the 'ClassifierName' element value. Наименование классификатора по которому введены сведения об организационно-правовой форме: ОКОПФ, КОПФ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class OrganizationFormType
     }
 
     /** 
-     * Set the 'ClassifierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂР° РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РІРІРµРґРµРЅС‹ СЃРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕ-РїСЂР°РІРѕРІРѕР№ С„РѕСЂРјРµ: РћРљРћРџР¤, РљРћРџР¤
+     * Set the 'ClassifierName' element value. Наименование классификатора по которому введены сведения об организационно-правовой форме: ОКОПФ, КОПФ
      * 
      * @param classifierName
      */
@@ -29,7 +29,7 @@ public class OrganizationFormType
     }
 
     /** 
-     * Get the 'ClassifierCode' element value. РљРѕРґ РїРѕ РІС‹Р±СЂР°РЅРЅРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ
+     * Get the 'ClassifierCode' element value. Код по выбранному классификатору
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class OrganizationFormType
     }
 
     /** 
-     * Set the 'ClassifierCode' element value. РљРѕРґ РїРѕ РІС‹Р±СЂР°РЅРЅРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ
+     * Set the 'ClassifierCode' element value. Код по выбранному классификатору
      * 
      * @param classifierCode
      */
@@ -47,7 +47,7 @@ public class OrganizationFormType
     }
 
     /** 
-     * Get the 'FormName' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕ-РїСЂР°РІРѕРІРѕР№ С„РѕСЂРјС‹
+     * Get the 'FormName' element value. Полное наименование организационно-правовой формы
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class OrganizationFormType
     }
 
     /** 
-     * Set the 'FormName' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕ-РїСЂР°РІРѕРІРѕР№ С„РѕСЂРјС‹
+     * Set the 'FormName' element value. Полное наименование организационно-правовой формы
      * 
      * @param formName
      */

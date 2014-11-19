@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * РЎРѕРіР»Р°СЃРѕРІР°РЅРёРµ С†РµРЅС‹ СЃРґРµР»РєРё.
+ * Согласование цены сделки.
  */
 public class AlignmentPricesType
 {
@@ -12,7 +12,7 @@ public class AlignmentPricesType
     private String negotiationsComments;
 
     /** 
-     * Get the 'Negotiations' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЏ С†РµРЅС‹ СЃРґРµР»РєРё РїСѓС‚РµРј Р»РёС‡РЅС‹С… РїРµСЂРµРіРѕРІРѕСЂРѕРІ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ РїСЂРѕРґР°РІС†Р° Рё РїРѕРєСѓРїР°С‚РµР»СЏ
+     * Get the 'Negotiations' element value. Признак согласования цены сделки путем личных переговоров представителей продавца и покупателя
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class AlignmentPricesType
     }
 
     /** 
-     * Set the 'Negotiations' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЏ С†РµРЅС‹ СЃРґРµР»РєРё РїСѓС‚РµРј Р»РёС‡РЅС‹С… РїРµСЂРµРіРѕРІРѕСЂРѕРІ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ РїСЂРѕРґР°РІС†Р° Рё РїРѕРєСѓРїР°С‚РµР»СЏ
+     * Set the 'Negotiations' element value. Признак согласования цены сделки путем личных переговоров представителей продавца и покупателя
      * 
      * @param negotiations
      */
@@ -30,7 +30,7 @@ public class AlignmentPricesType
     }
 
     /** 
-     * Get the 'Correspondence' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЏ С†РµРЅС‹ СЃРґРµР»РєРё РїРѕ РїРµСЂРµРїРёСЃРєРµ
+     * Get the 'Correspondence' element value. Признак согласования цены сделки по переписке
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class AlignmentPricesType
     }
 
     /** 
-     * Set the 'Correspondence' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЏ С†РµРЅС‹ СЃРґРµР»РєРё РїРѕ РїРµСЂРµРїРёСЃРєРµ
+     * Set the 'Correspondence' element value. Признак согласования цены сделки по переписке
      * 
      * @param correspondence
      */
@@ -48,7 +48,7 @@ public class AlignmentPricesType
     }
 
     /** 
-     * Get the 'NegotiationsCorrespondence' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЏ С†РµРЅС‹ СЃРґРµР»РєРё РїСѓС‚РµРј Р»РёС‡РЅС‹С… РїРµСЂРµРіРѕРІРѕСЂРѕРІ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ РїСЂРѕРґР°РІС†Р° Рё РїРѕРєСѓРїР°С‚РµР»СЏ Рё РїРѕ РїРµСЂРµРїРёСЃРєРµ
+     * Get the 'NegotiationsCorrespondence' element value. Признак согласования цены сделки путем личных переговоров представителей продавца и покупателя и по переписке
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class AlignmentPricesType
     }
 
     /** 
-     * Set the 'NegotiationsCorrespondence' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЏ С†РµРЅС‹ СЃРґРµР»РєРё РїСѓС‚РµРј Р»РёС‡РЅС‹С… РїРµСЂРµРіРѕРІРѕСЂРѕРІ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ РїСЂРѕРґР°РІС†Р° Рё РїРѕРєСѓРїР°С‚РµР»СЏ Рё РїРѕ РїРµСЂРµРїРёСЃРєРµ
+     * Set the 'NegotiationsCorrespondence' element value. Признак согласования цены сделки путем личных переговоров представителей продавца и покупателя и по переписке
      * 
      * @param negotiationsCorrespondence
      */
@@ -66,7 +66,7 @@ public class AlignmentPricesType
     }
 
     /** 
-     * Get the 'NegotiationsComments' element value. РџСѓС‚РµРј Р»РёС‡РЅС‹С… РїРµСЂРµРіРѕРІРѕСЂРѕРІ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ РїСЂРѕРґР°РІС†Р° Рё РїРѕРєСѓРїР°С‚РµР»СЏ (СѓРєР°Р¶РёС‚Рµ РіРґРµ Рё РєС‚Рѕ СѓС‡Р°СЃС‚РІРѕРІР°Р»)
+     * Get the 'NegotiationsComments' element value. Путем личных переговоров представителей продавца и покупателя (укажите где и кто участвовал)
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class AlignmentPricesType
     }
 
     /** 
-     * Set the 'NegotiationsComments' element value. РџСѓС‚РµРј Р»РёС‡РЅС‹С… РїРµСЂРµРіРѕРІРѕСЂРѕРІ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ РїСЂРѕРґР°РІС†Р° Рё РїРѕРєСѓРїР°С‚РµР»СЏ (СѓРєР°Р¶РёС‚Рµ РіРґРµ Рё РєС‚Рѕ СѓС‡Р°СЃС‚РІРѕРІР°Р»)
+     * Set the 'NegotiationsComments' element value. Путем личных переговоров представителей продавца и покупателя (укажите где и кто участвовал)
      * 
      * @param negotiationsComments
      */

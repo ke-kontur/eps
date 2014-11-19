@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.guaranteecalculationresult;
 import ru.acs.fts.schemas.album.guaranteecommonaggregatetypescust.TotalAmountType;
 
 /** 
- * Р Р°СЃСЃС‡РёС‚Р°РЅРЅС‹Рµ СЃСѓРјРјС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂСѓ.
+ * Рассчитанные суммы обеспечения по товару.
  */
 public class GoodsAmountType
 {
@@ -13,7 +13,7 @@ public class GoodsAmountType
     private TotalAmountType guaranteeAmount;
 
     /** 
-     * Get the 'Numeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Get the 'Numeric' element value. Номер товара по порядку
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GoodsAmountType
     }
 
     /** 
-     * Set the 'Numeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Set the 'Numeric' element value. Номер товара по порядку
      * 
      * @param numeric
      */
@@ -31,7 +31,7 @@ public class GoodsAmountType
     }
 
     /** 
-     * Get the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ (СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РѕС‚ 6 РґРѕ 10 Р·РЅР°РєРѕРІ)
+     * Get the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС (указывается от 6 до 10 знаков)
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class GoodsAmountType
     }
 
     /** 
-     * Set the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ (СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РѕС‚ 6 РґРѕ 10 Р·РЅР°РєРѕРІ)
+     * Set the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС (указывается от 6 до 10 знаков)
      * 
      * @param TNVEDCode
      */
@@ -49,7 +49,7 @@ public class GoodsAmountType
     }
 
     /** 
-     * Get the 'GuaranteeAmount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂСѓ
+     * Get the 'GuaranteeAmount' element value. Сумма обеспечения по товару
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class GoodsAmountType
     }
 
     /** 
-     * Set the 'GuaranteeAmount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂСѓ
+     * Set the 'GuaranteeAmount' element value. Сумма обеспечения по товару
      * 
      * @param guaranteeAmount
      */

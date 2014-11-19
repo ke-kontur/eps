@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * Р‘Р°Р·РѕРІС‹Р№ С‚РёРї РІР»Р°РґРµР»СЊС†Р°  РўРЎ
+ * Базовый тип владельца  ТС
  */
 public class TransportMeansOwnerType
 {
@@ -14,7 +14,7 @@ public class TransportMeansOwnerType
     private TransportOwnerOrganizationType transportOwnerOrganization;
 
     /** 
-     * Get the 'OwnerModeCode' element value. РљРѕРґ С‚РёРїР° РІР»Р°РґРµР»СЊС†Р° (СЋСЂРёРґ.-"Р®",С„РёР·РёС‡.-"Р¤")
+     * Get the 'OwnerModeCode' element value. Код типа владельца (юрид.-"Ю",физич.-"Ф")
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class TransportMeansOwnerType
     }
 
     /** 
-     * Set the 'OwnerModeCode' element value. РљРѕРґ С‚РёРїР° РІР»Р°РґРµР»СЊС†Р° (СЋСЂРёРґ.-"Р®",С„РёР·РёС‡.-"Р¤")
+     * Set the 'OwnerModeCode' element value. Код типа владельца (юрид.-"Ю",физич.-"Ф")
      * 
      * @param ownerModeCode
      */
@@ -57,7 +57,7 @@ public class TransportMeansOwnerType
     }
 
     /** 
-     * Get the 'TransportOwnerPerson' element value. Р’Р»Р°РґРµР»РµС† С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ.
+     * Get the 'TransportOwnerPerson' element value. Владелец транспортного средства - физическое лицо.
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class TransportMeansOwnerType
     }
 
     /** 
-     * Set the 'TransportOwnerPerson' element value. Р’Р»Р°РґРµР»РµС† С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ.
+     * Set the 'TransportOwnerPerson' element value. Владелец транспортного средства - физическое лицо.
      * 
      * @param transportOwnerPerson
      */
@@ -86,7 +86,7 @@ public class TransportMeansOwnerType
     }
 
     /** 
-     * Get the 'TransportOwnerOrganization' element value. Р’Р»Р°РґРµР»РµС† РўРЎ - СЋСЂРёРґРёС‡РµСЃРєРѕРµ РґРёС†Рѕ.
+     * Get the 'TransportOwnerOrganization' element value. Владелец ТС - юридическое дицо.
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class TransportMeansOwnerType
     }
 
     /** 
-     * Set the 'TransportOwnerOrganization' element value. Р’Р»Р°РґРµР»РµС† РўРЎ - СЋСЂРёРґРёС‡РµСЃРєРѕРµ РґРёС†Рѕ.
+     * Set the 'TransportOwnerOrganization' element value. Владелец ТС - юридическое дицо.
      * 
      * @param transportOwnerOrganization
      */

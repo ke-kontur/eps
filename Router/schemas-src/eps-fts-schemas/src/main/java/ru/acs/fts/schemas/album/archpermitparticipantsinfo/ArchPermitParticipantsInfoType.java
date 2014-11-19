@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РёРЅС‹С… СѓС‡Р°СЃС‚РЅРёРєР°С…, РёРјРµСЋС‰РёС… РґРѕСЃС‚СѓРї Рє РїСЂРѕСЃРјРѕС‚СЂСѓ РґРѕРєСѓРјРµРЅС‚РѕРІ Р°СЂС…РёРІР°
+ * Сведения об иных участниках, имеющих доступ к просмотру документов архива
  */
 public class ArchPermitParticipantsInfoType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class ArchPermitParticipantsInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ArchDeclID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р°СЂС…РёРІРµ
+     * Get the 'ArchDeclID' element value. Идентификатор декларанта в архиве
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ArchPermitParticipantsInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArchDeclID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р°СЂС…РёРІРµ
+     * Set the 'ArchDeclID' element value. Идентификатор декларанта в архиве
      * 
      * @param archDeclID
      */
@@ -33,7 +33,7 @@ public class ArchPermitParticipantsInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Participant' element items. РЈС‡Р°СЃС‚РЅРёРє, РёРјРµСЋС‰РёР№ РґРѕРїСѓСЃРє Рє РїСЂРѕСЃРјРѕС‚СЂСѓ РґРѕРєСѓРјРµРЅС‚РѕРІ Р°СЂС…РёРІР°
+     * Get the list of 'Participant' element items. Участник, имеющий допуск к просмотру документов архива
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class ArchPermitParticipantsInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Participant' element items. РЈС‡Р°СЃС‚РЅРёРє, РёРјРµСЋС‰РёР№ РґРѕРїСѓСЃРє Рє РїСЂРѕСЃРјРѕС‚СЂСѓ РґРѕРєСѓРјРµРЅС‚РѕРІ Р°СЂС…РёРІР°
+     * Set the list of 'Participant' element items. Участник, имеющий допуск к просмотру документов архива
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class ArchPermitParticipantsInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ArchPermitParticipantsInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

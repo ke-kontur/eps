@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёРЅСЏС‚РёРё РіСЂСѓР·Р°
+ * Информация о принятии груза
  */
 public class TakingCargoType
 {
@@ -13,7 +13,7 @@ public class TakingCargoType
     private AddressType takingCargoPlace;
 
     /** 
-     * Get the 'TakingCargoDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ РіСЂСѓР·Р° Рє РїРµСЂРµРІРѕР·РєРµ (РіСЂ.4)
+     * Get the 'TakingCargoDate' element value. Дата принятия груза к перевозке (гр.4)
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TakingCargoType
     }
 
     /** 
-     * Set the 'TakingCargoDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ РіСЂСѓР·Р° Рє РїРµСЂРµРІРѕР·РєРµ (РіСЂ.4)
+     * Set the 'TakingCargoDate' element value. Дата принятия груза к перевозке (гр.4)
      * 
      * @param takingCargoDate
      */
@@ -31,7 +31,7 @@ public class TakingCargoType
     }
 
     /** 
-     * Get the 'TakingCargoPlace' element value. РњРµСЃС‚Рѕ РїСЂРёРЅСЏС‚РёСЏ РіСЂСѓР·Р° 
+     * Get the 'TakingCargoPlace' element value. Место принятия груза 
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TakingCargoType
     }
 
     /** 
-     * Set the 'TakingCargoPlace' element value. РњРµСЃС‚Рѕ РїСЂРёРЅСЏС‚РёСЏ РіСЂСѓР·Р° 
+     * Set the 'TakingCargoPlace' element value. Место принятия груза 
      * 
      * @param takingCargoPlace
      */

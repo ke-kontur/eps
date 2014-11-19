@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С„РёС‚РѕСЃР°РЅРёС‚Р°СЂРЅРѕРј (РєР°СЂР°РЅС‚РёРЅРЅРѕРј) СЃРµСЂС‚РёС„РёРєР°С‚Рµ
+ * Сведения о фитосанитарном (карантинном) сертификате
  */
 public class FitoSanitaryCertificateInfoType extends DocumentBaseType
 {
@@ -15,7 +15,7 @@ public class FitoSanitaryCertificateInfoType extends DocumentBaseType
     private DesinfestationType desinfestation;
 
     /** 
-     * Get the 'IssueOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'IssueOrganization' element value. Наименование органа, выдавшего сертификат
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class FitoSanitaryCertificateInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'IssueOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'IssueOrganization' element value. Наименование органа, выдавшего сертификат
      * 
      * @param issueOrganization
      */
@@ -33,7 +33,7 @@ public class FitoSanitaryCertificateInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Sender' element value. Отправитель
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class FitoSanitaryCertificateInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Sender' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Sender' element value. Отправитель
      * 
      * @param sender
      */
@@ -51,7 +51,7 @@ public class FitoSanitaryCertificateInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Receiver' element value. Получатель
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class FitoSanitaryCertificateInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Receiver' element value. Получатель
      * 
      * @param receiver
      */
@@ -69,7 +69,7 @@ public class FitoSanitaryCertificateInfoType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Desinfestation' element value. РћР±РµР·Р·Р°СЂР°Р¶РёРІР°РЅРёРµ
+     * Get the 'Desinfestation' element value. Обеззараживание
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class FitoSanitaryCertificateInfoType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Desinfestation' element value. РћР±РµР·Р·Р°СЂР°Р¶РёРІР°РЅРёРµ
+     * Set the 'Desinfestation' element value. Обеззараживание
      * 
      * @param desinfestation
      */

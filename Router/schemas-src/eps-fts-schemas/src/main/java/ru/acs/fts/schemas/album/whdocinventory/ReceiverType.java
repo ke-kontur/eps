@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.whdocinventory;
 
 /** 
- * РџРѕР»СѓС‡Р°С‚РµР»СЊ
+ * Получатель
  */
 public class ReceiverType
 {
@@ -38,7 +38,7 @@ public class ReceiverType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
+     * Get the 'Customs' element value. Таможенный пост
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ReceiverType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
+     * Set the 'Customs' element value. Таможенный пост
      * 
      * @param customs
      */
@@ -66,7 +66,7 @@ public class ReceiverType
     }
 
     /** 
-     * Get the 'SVH' element value. РЎР’РҐ
+     * Get the 'SVH' element value. СВХ
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ReceiverType
     }
 
     /** 
-     * Set the 'SVH' element value. РЎР’РҐ
+     * Set the 'SVH' element value. СВХ
      * 
      * @param SVH
      */

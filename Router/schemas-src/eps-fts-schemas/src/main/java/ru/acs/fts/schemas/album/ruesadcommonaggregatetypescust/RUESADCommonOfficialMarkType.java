@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ Р”Рў.
+ * ДТ и ТД. Внутренний формат. Служебные отметки по ДТ.
  */
 public class RUESADCommonOfficialMarkType
 {
@@ -35,7 +35,7 @@ public class RUESADCommonOfficialMarkType
     private OrganizationBaseType commonMarkOrganization;
 
     /** 
-     * Get the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹) (A,C,D,E1,E2,28)  Р“СЂР°С„Рµ D/J СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ 'D'. Р“СЂР°С„Р°Рј E, E/J СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‚:'E1' - РІРµСЂС…РЅРёР№ (РїРµСЂРІС‹Р№) РїРѕРґСЂР°Р·РґРµР» РіСЂР°С„С‹ E(E/J); 'E2' - РЅРёР¶РЅРёР№ (РІС‚РѕСЂРѕР№) РїРѕРґСЂР°Р·РґРµР» РіСЂР°С„С‹ E(E/J).
+     * Get the 'GRNumber' element value. Обозначение графы (подраздела графы) (A,C,D,E1,E2,28)  Графе D/J соответствует 'D'. Графам E, E/J соответствуют:'E1' - верхний (первый) подраздел графы E(E/J); 'E2' - нижний (второй) подраздел графы E(E/J).
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹) (A,C,D,E1,E2,28)  Р“СЂР°С„Рµ D/J СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ 'D'. Р“СЂР°С„Р°Рј E, E/J СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‚:'E1' - РІРµСЂС…РЅРёР№ (РїРµСЂРІС‹Р№) РїРѕРґСЂР°Р·РґРµР» РіСЂР°С„С‹ E(E/J); 'E2' - РЅРёР¶РЅРёР№ (РІС‚РѕСЂРѕР№) РїРѕРґСЂР°Р·РґРµР» РіСЂР°С„С‹ E(E/J).
+     * Set the 'GRNumber' element value. Обозначение графы (подраздела графы) (A,C,D,E1,E2,28)  Графе D/J соответствует 'D'. Графам E, E/J соответствуют:'E1' - верхний (первый) подраздел графы E(E/J); 'E2' - нижний (второй) подраздел графы E(E/J).
      * 
      * @param GRNumber
      */
@@ -53,7 +53,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'StageMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё - 1 (РЅРѕРјРµСЂ СЌС‚Р°РїР°)
+     * Get the 'StageMarkIdentifier' element value. Идентификатор проставленной технологической отметки - 1 (номер этапа)
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'StageMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё - 1 (РЅРѕРјРµСЂ СЌС‚Р°РїР°)
+     * Set the 'StageMarkIdentifier' element value. Идентификатор проставленной технологической отметки - 1 (номер этапа)
      * 
      * @param stageMarkIdentifier
      */
@@ -71,7 +71,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'NoteMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё  -  2 (С‚РёРї РїСЂРёРјРµС‡Р°РЅРёСЏ)
+     * Get the 'NoteMarkIdentifier' element value. Идентификатор проставленной технологической отметки  -  2 (тип примечания)
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'NoteMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё  -  2 (С‚РёРї РїСЂРёРјРµС‡Р°РЅРёСЏ)
+     * Set the 'NoteMarkIdentifier' element value. Идентификатор проставленной технологической отметки  -  2 (тип примечания)
      * 
      * @param noteMarkIdentifier
      */
@@ -89,7 +89,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'InformationTypeCode' element value. РљРѕРґ С‚РёРїР° РёРЅС„РѕСЂРјР°С†РёРё (SKRECC)
+     * Get the 'InformationTypeCode' element value. Код типа информации (SKRECC)
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'InformationTypeCode' element value. РљРѕРґ С‚РёРїР° РёРЅС„РѕСЂРјР°С†РёРё (SKRECC)
+     * Set the 'InformationTypeCode' element value. Код типа информации (SKRECC)
      * 
      * @param informationTypeCode
      */
@@ -107,7 +107,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ / РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° 
+     * Get the 'MarkDescription' element value. Служебная запись / номер документа 
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ / РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° 
+     * Set the 'MarkDescription' element value. Служебная запись / номер документа 
      * 
      * @param markDescription
      */
@@ -125,7 +125,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'DateInf' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РјРµС‚РєРё/ Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° РїСЂРѕРІРµСЂРєРё 
+     * Get the 'DateInf' element value. Дата проставления отметки/ Дата принятия решения о продлении срока проверки 
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'DateInf' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РјРµС‚РєРё/ Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° РїСЂРѕРІРµСЂРєРё 
+     * Set the 'DateInf' element value. Дата проставления отметки/ Дата принятия решения о продлении срока проверки 
      * 
      * @param dateInf
      */
@@ -143,7 +143,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'TimeInf' element value. Р’СЂРµРјСЏ
+     * Get the 'TimeInf' element value. Время
      * 
      * @return value
      */
@@ -152,7 +152,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'TimeInf' element value. Р’СЂРµРјСЏ
+     * Set the 'TimeInf' element value. Время
      * 
      * @param timeInf
      */
@@ -161,7 +161,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'Amount' element value. РЎСѓРјРјР° РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ /РЎСѓРјРјР°СЂРЅС‹Р№ РѕР±СЉРµРј РѕС‚РґРµР»РµРЅРёР№ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ / Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Get the 'Amount' element value. Сумма денежных средств /Суммарный объем отделений транспортных средств / Фактурная стоимость
      * 
      * @return value
      */
@@ -170,7 +170,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'Amount' element value. РЎСѓРјРјР° РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ /РЎСѓРјРјР°СЂРЅС‹Р№ РѕР±СЉРµРј РѕС‚РґРµР»РµРЅРёР№ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ / Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Set the 'Amount' element value. Сумма денежных средств /Суммарный объем отделений транспортных средств / Фактурная стоимость
      * 
      * @param amount
      */
@@ -179,7 +179,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'PaymentTypeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° (РїРµРЅРё, С€С‚СЂР°С„С‹, РІ СЃР»СѓС‡Р°Рµ РїРѕР»РЅРѕР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ РїСЂРё РїРѕРјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРІ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°)
+     * Get the 'PaymentTypeCode' element value. Код вида платежа (пени, штрафы, в случае полной уплаты таможенных пошлин, налогов при помещении товаров под таможенный режим временного ввоза)
      * 
      * @return value
      */
@@ -188,7 +188,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'PaymentTypeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° (РїРµРЅРё, С€С‚СЂР°С„С‹, РІ СЃР»СѓС‡Р°Рµ РїРѕР»РЅРѕР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ РїСЂРё РїРѕРјРµС‰РµРЅРёРё С‚РѕРІР°СЂРѕРІ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј РІСЂРµРјРµРЅРЅРѕРіРѕ РІРІРѕР·Р°)
+     * Set the 'PaymentTypeCode' element value. Код вида платежа (пени, штрафы, в случае полной уплаты таможенных пошлин, налогов при помещении товаров под таможенный режим временного ввоза)
      * 
      * @param paymentTypeCode
      */
@@ -197,7 +197,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'PostponementProcent' element value. РџСЂРѕС†РµРЅС‚ Р·Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕС‚СЃСЂРѕС‡РєРё / СЂР°СЃСЃСЂРѕС‡РєРё (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ 91, 93 РІРёРґРѕРІ С‚Р°Рј. РїР»Р°С‚РµР¶РµР№)
+     * Get the 'PostponementProcent' element value. Процент за предоставление отсрочки / рассрочки (заполняется для 91, 93 видов там. платежей)
      * 
      * @return value
      */
@@ -206,7 +206,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'PostponementProcent' element value. РџСЂРѕС†РµРЅС‚ Р·Р° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕС‚СЃСЂРѕС‡РєРё / СЂР°СЃСЃСЂРѕС‡РєРё (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ 91, 93 РІРёРґРѕРІ С‚Р°Рј. РїР»Р°С‚РµР¶РµР№)
+     * Set the 'PostponementProcent' element value. Процент за предоставление отсрочки / рассрочки (заполняется для 91, 93 видов там. платежей)
      * 
      * @param postponementProcent
      */
@@ -215,7 +215,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'Code' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ / РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ / Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РџСЂРёРјРµС‡Р°РЅРёРµ: РєРѕРґ СЃС‚СЂР°РЅС‹ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РєРѕРґР° С‚РёРїР° РёРЅС„РѕСЂРјР°С†РёРё "34"/ Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ (РїСЂРё СѓРєР°Р·Р°РЅРёРё С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё) / РљРѕРґ РѕСЃРЅРѕРІР°РЅРёСЏ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ 
+     * Get the 'Code' element value. Цифровой код валюты денежных средств / Код единицы измерения / Буквенный код страны Примечание: код страны заполняется для кода типа информации "34"/ Буквенный код валюты (при указании фактурной стоимости) / Код основания продления срока выпуска товаров 
      * 
      * @return value
      */
@@ -224,7 +224,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'Code' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ / РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ / Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РџСЂРёРјРµС‡Р°РЅРёРµ: РєРѕРґ СЃС‚СЂР°РЅС‹ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РґР»СЏ РєРѕРґР° С‚РёРїР° РёРЅС„РѕСЂРјР°С†РёРё "34"/ Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ (РїСЂРё СѓРєР°Р·Р°РЅРёРё С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё) / РљРѕРґ РѕСЃРЅРѕРІР°РЅРёСЏ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ 
+     * Set the 'Code' element value. Цифровой код валюты денежных средств / Код единицы измерения / Буквенный код страны Примечание: код страны заполняется для кода типа информации "34"/ Буквенный код валюты (при указании фактурной стоимости) / Код основания продления срока выпуска товаров 
      * 
      * @param code
      */
@@ -233,7 +233,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'CurrencyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІР°Р»СЋС‚С‹ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ / РЈСЃР»РѕРІРЅРѕРµ РѕР±РѕР·РЅР°С‡РµРЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'CurrencyName' element value. Наименование валюты денежных средств / Условное обозначение единицы измерения
      * 
      * @return value
      */
@@ -242,7 +242,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'CurrencyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІР°Р»СЋС‚С‹ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ / РЈСЃР»РѕРІРЅРѕРµ РѕР±РѕР·РЅР°С‡РµРЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'CurrencyName' element value. Наименование валюты денежных средств / Условное обозначение единицы измерения
      * 
      * @param currencyName
      */
@@ -251,7 +251,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'PersonName' element value. Р¤РРћ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
+     * Get the 'PersonName' element value. ФИО инспектора, заверившего запись
      * 
      * @return value
      */
@@ -260,7 +260,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'PersonName' element value. Р¤РРћ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
+     * Set the 'PersonName' element value. ФИО инспектора, заверившего запись
      * 
      * @param personName
      */
@@ -269,7 +269,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'LNP' element value. РќРѕРјРµСЂ Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
+     * Get the 'LNP' element value. Номер ЛНП инспектора, заверившего запись
      * 
      * @return value
      */
@@ -278,7 +278,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'LNP' element value. РќРѕРјРµСЂ Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
+     * Set the 'LNP' element value. Номер ЛНП инспектора, заверившего запись
      * 
      * @param LNP
      */
@@ -287,7 +287,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'GoodsDevisionDate' element value. Р”Р°С‚Р° Р·Р°РІРµСЂС€РµРЅРёСЏ СЂР°Р·РґРµР»РµРЅРёСЏ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё РЅР° РѕС‚РґРµР»СЊРЅС‹Рµ С‚РѕРІР°СЂС‹ 
+     * Get the 'GoodsDevisionDate' element value. Дата завершения разделения товарной партии на отдельные товары 
      * 
      * @return value
      */
@@ -296,7 +296,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'GoodsDevisionDate' element value. Р”Р°С‚Р° Р·Р°РІРµСЂС€РµРЅРёСЏ СЂР°Р·РґРµР»РµРЅРёСЏ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё РЅР° РѕС‚РґРµР»СЊРЅС‹Рµ С‚РѕРІР°СЂС‹ 
+     * Set the 'GoodsDevisionDate' element value. Дата завершения разделения товарной партии на отдельные товары 
      * 
      * @param goodsDevisionDate
      */
@@ -305,7 +305,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'GoodsDevisionTime' element value. Р’СЂРµРјСЏ
+     * Get the 'GoodsDevisionTime' element value. Время
      * 
      * @return value
      */
@@ -314,7 +314,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'GoodsDevisionTime' element value. Р’СЂРµРјСЏ
+     * Set the 'GoodsDevisionTime' element value. Время
      * 
      * @param goodsDevisionTime
      */
@@ -323,7 +323,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'Deadline' element value. РЎСЂРѕРє
+     * Get the 'Deadline' element value. Срок
      * 
      * @return value
      */
@@ -332,7 +332,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'Deadline' element value. РЎСЂРѕРє
+     * Set the 'Deadline' element value. Срок
      * 
      * @param deadline
      */
@@ -341,7 +341,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsCode' element value. Код таможенного органа
      * 
      * @return value
      */
@@ -350,7 +350,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsCode' element value. Код таможенного органа
      * 
      * @param customsCode
      */
@@ -359,7 +359,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'CustomsActionDate' element value. Р”Р°С‚Р° СЃРѕРІРµСЂС€РµРЅРёСЏ РѕС‚РґРµР»СЊРЅС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕРїРµСЂР°С†РёР№
+     * Get the 'CustomsActionDate' element value. Дата совершения отдельных таможенных операций
      * 
      * @return value
      */
@@ -368,7 +368,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'CustomsActionDate' element value. Р”Р°С‚Р° СЃРѕРІРµСЂС€РµРЅРёСЏ РѕС‚РґРµР»СЊРЅС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕРїРµСЂР°С†РёР№
+     * Set the 'CustomsActionDate' element value. Дата совершения отдельных таможенных операций
      * 
      * @param customsActionDate
      */
@@ -377,7 +377,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'DocumentIndicator' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё СѓРєР°Р·Р°РЅРёРё РЅРѕРјРµСЂР°: - Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°) - 'Р”', 'Рћ'; - РµСЃР»Рё Р”Рў СЏРІР»СЏРµС‚СЃСЏ РїРѕСЃР»РµРґРЅРµР№ РїРѕР»РЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРµР№ ('Z'); -РїСЂРё РїСЂРѕСЃС‚Р°РІР»РµРЅРёРё РѕС‚РјРµС‚РєРё РІ РЅРёР¶РЅРµРј РїРѕРґСЂР°Р·РґРµР»Рµ РіСЂР°С„С‹ E(E/J) РїРѕРґ РЅРѕРјРµСЂРѕРј 12 (E2 2 12)  ("0"-СЃРІРµРґРµРЅРёСЏ СЃРѕРІРїР°РґР°СЋС‚; "1"-СЃРІРµРґРµРЅРёСЏ РЅРµ СЃРѕРІРїР°РґР°СЋС‚) 
+     * Get the 'DocumentIndicator' element value. Признак документа. Заполняется при указании номера: - акта таможенного досмотра (осмотра) - 'Д', 'О'; - если ДТ является последней полной таможенной декларацией ('Z'); -при проставлении отметки в нижнем подразделе графы E(E/J) под номером 12 (E2 2 12)  ("0"-сведения совпадают; "1"-сведения не совпадают) 
      * 
      * @return value
      */
@@ -386,7 +386,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'DocumentIndicator' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё СѓРєР°Р·Р°РЅРёРё РЅРѕРјРµСЂР°: - Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° (РѕСЃРјРѕС‚СЂР°) - 'Р”', 'Рћ'; - РµСЃР»Рё Р”Рў СЏРІР»СЏРµС‚СЃСЏ РїРѕСЃР»РµРґРЅРµР№ РїРѕР»РЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРµР№ ('Z'); -РїСЂРё РїСЂРѕСЃС‚Р°РІР»РµРЅРёРё РѕС‚РјРµС‚РєРё РІ РЅРёР¶РЅРµРј РїРѕРґСЂР°Р·РґРµР»Рµ РіСЂР°С„С‹ E(E/J) РїРѕРґ РЅРѕРјРµСЂРѕРј 12 (E2 2 12)  ("0"-СЃРІРµРґРµРЅРёСЏ СЃРѕРІРїР°РґР°СЋС‚; "1"-СЃРІРµРґРµРЅРёСЏ РЅРµ СЃРѕРІРїР°РґР°СЋС‚) 
+     * Set the 'DocumentIndicator' element value. Признак документа. Заполняется при указании номера: - акта таможенного досмотра (осмотра) - 'Д', 'О'; - если ДТ является последней полной таможенной декларацией ('Z'); -при проставлении отметки в нижнем подразделе графы E(E/J) под номером 12 (E2 2 12)  ("0"-сведения совпадают; "1"-сведения не совпадают) 
      * 
      * @param documentIndicator
      */
@@ -395,7 +395,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'DeadlineMonth' element value. РЎСЂРѕРє РїСЂРѕРґР»РµРЅРёСЏ / РѕР±С‰РёР№ РІ РјРµСЃСЏС†Р°С…
+     * Get the 'DeadlineMonth' element value. Срок продления / общий в месяцах
      * 
      * @return value
      */
@@ -404,7 +404,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'DeadlineMonth' element value. РЎСЂРѕРє РїСЂРѕРґР»РµРЅРёСЏ / РѕР±С‰РёР№ РІ РјРµСЃСЏС†Р°С…
+     * Set the 'DeadlineMonth' element value. Срок продления / общий в месяцах
      * 
      * @param deadlineMonth
      */
@@ -413,7 +413,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'DocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ (РЅРѕРјРµСЂ, РґР°С‚Р°)
+     * Get the 'DocumentInfo' element value. Информация о документе (номер, дата)
      * 
      * @return value
      */
@@ -422,7 +422,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'DocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ (РЅРѕРјРµСЂ, РґР°С‚Р°)
+     * Set the 'DocumentInfo' element value. Информация о документе (номер, дата)
      * 
      * @param documentInfo
      */
@@ -431,7 +431,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'CommonMarkOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё (Р»РёС†Рµ) 
+     * Get the 'CommonMarkOrganization' element value. Сведения об организации (лице) 
      * 
      * @return value
      */
@@ -440,7 +440,7 @@ public class RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'CommonMarkOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё (Р»РёС†Рµ) 
+     * Set the 'CommonMarkOrganization' element value. Сведения об организации (лице) 
      * 
      * @param commonMarkOrganization
      */

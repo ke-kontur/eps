@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.mistakeletter;
 import org.joda.time.LocalDate;
 
 /** 
- * РћС€РёР±РєР° РІ РґР°С‚Рµ РґРѕРєСѓРјРµРЅС‚Р°
+ * Ошибка в дате документа
  */
 public class DocDateMistakeType
 {
@@ -12,7 +12,7 @@ public class DocDateMistakeType
     private LocalDate dateValidValue;
 
     /** 
-     * Get the 'DateMistakeValue' element value. РћС€РёР±РѕС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ, СѓРєР°Р·Р°РЅРЅРѕРµ РІ РѕС‚С‡РµС‚Рµ РїРѕ С„РѕСЂРјРµ Р”Рћ-1
+     * Get the 'DateMistakeValue' element value. Ошибочное значение, указанное в отчете по форме ДО-1
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DocDateMistakeType
     }
 
     /** 
-     * Set the 'DateMistakeValue' element value. РћС€РёР±РѕС‡РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ, СѓРєР°Р·Р°РЅРЅРѕРµ РІ РѕС‚С‡РµС‚Рµ РїРѕ С„РѕСЂРјРµ Р”Рћ-1
+     * Set the 'DateMistakeValue' element value. Ошибочное значение, указанное в отчете по форме ДО-1
      * 
      * @param dateMistakeValue
      */
@@ -30,7 +30,7 @@ public class DocDateMistakeType
     }
 
     /** 
-     * Get the 'DateValidValue' element value. РџСЂР°РІРёР»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ. Р•СЃР»Рё РЅРµ СѓРєР°Р·Р°РЅРѕ, С‚Рѕ СЃС‡РёС‚Р°РµС‚СЃСЏ, С‡С‚Рѕ РєРѕРґ РґРѕР»Р¶РµРЅ Р±С‹Р» РѕС‚СЃСѓС‚СЃС‚РІРѕРІР°С‚СЊ РІРѕРІСЃРµ
+     * Get the 'DateValidValue' element value. Правильное значение. Если не указано, то считается, что код должен был отсутствовать вовсе
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DocDateMistakeType
     }
 
     /** 
-     * Set the 'DateValidValue' element value. РџСЂР°РІРёР»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ. Р•СЃР»Рё РЅРµ СѓРєР°Р·Р°РЅРѕ, С‚Рѕ СЃС‡РёС‚Р°РµС‚СЃСЏ, С‡С‚Рѕ РєРѕРґ РґРѕР»Р¶РµРЅ Р±С‹Р» РѕС‚СЃСѓС‚СЃС‚РІРѕРІР°С‚СЊ РІРѕРІСЃРµ
+     * Set the 'DateValidValue' element value. Правильное значение. Если не указано, то считается, что код должен был отсутствовать вовсе
      * 
      * @param dateValidValue
      */

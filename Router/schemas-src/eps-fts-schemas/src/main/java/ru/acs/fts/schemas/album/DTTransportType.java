@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+ * Информация о транспортном средстве
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -25,7 +25,7 @@ public class DTTransportType
     private List<TransportMeans> transportMeanList = new ArrayList<TransportMeans>();
 
     /** 
-     * Get the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ.
+     * Get the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров.
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class DTTransportType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ.
+     * Set the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров.
      * 
      * @param transportModeCode
      */
@@ -60,7 +60,7 @@ public class DTTransportType
         transportMeanList = list;
     }
     /** 
-     * РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Описание транспортного средства
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -80,7 +80,7 @@ public class DTTransportType
         private String transportMeansNationalityCode;
 
         /** 
-         * Get the 'TransportIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°, РЅР°Р·РІР°РЅРёРµ СЃСѓРґРЅР°, РЅРѕРјРµСЂ Р°РІРёР°СЂРµР№СЃР°...
+         * Get the 'TransportIdentifier' element value. Идентификатор. Номер транспортного средства, название судна, номер авиарейса...
          * 
          * @return value
          */
@@ -89,7 +89,7 @@ public class DTTransportType
         }
 
         /** 
-         * Set the 'TransportIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°, РЅР°Р·РІР°РЅРёРµ СЃСѓРґРЅР°, РЅРѕРјРµСЂ Р°РІРёР°СЂРµР№СЃР°...
+         * Set the 'TransportIdentifier' element value. Идентификатор. Номер транспортного средства, название судна, номер авиарейса...
          * 
          * @param transportIdentifier
          */
@@ -98,7 +98,7 @@ public class DTTransportType
         }
 
         /** 
-         * Get the 'TransportMeansNationalityCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°.
+         * Get the 'TransportMeansNationalityCode' element value. Буквенный код страны принадлежности транспортного средства по классификатору стран мира.
          * 
          * @return value
          */
@@ -107,7 +107,7 @@ public class DTTransportType
         }
 
         /** 
-         * Set the 'TransportMeansNationalityCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°.
+         * Set the 'TransportMeansNationalityCode' element value. Буквенный код страны принадлежности транспортного средства по классификатору стран мира.
          * 
          * @param transportMeansNationalityCode
          */

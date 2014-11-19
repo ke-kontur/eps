@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РєРЅРёР¶РєРµ РњР”Рџ
+ * Сведения о книжке МДП
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -22,7 +22,7 @@ public class IDKTIRInfoType extends IDKTIRIdentifierType
     private String statusInfo;
 
     /** 
-     * Get the 'StatusInfo' element value. РЎС‚Р°С‚СѓСЃ РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'StatusInfo' element value. Статус книжки МДП
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class IDKTIRInfoType extends IDKTIRIdentifierType
     }
 
     /** 
-     * Set the 'StatusInfo' element value. РЎС‚Р°С‚СѓСЃ РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'StatusInfo' element value. Статус книжки МДП
      * 
      * @param statusInfo
      */

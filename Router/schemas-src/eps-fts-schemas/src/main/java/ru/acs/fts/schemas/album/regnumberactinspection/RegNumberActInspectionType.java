@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°/РѕСЃРјРѕС‚СЂР°
+ * Регистрационный номер акта таможенного досмотра/осмотра
  */
 public class RegNumberActInspectionType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class RegNumberActInspectionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'ActNumber' element items. РќРѕРјРµСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
+     * Get the list of 'ActNumber' element items. Номер акта таможенного досмотра
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class RegNumberActInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ActNumber' element items. РќРѕРјРµСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
+     * Set the list of 'ActNumber' element items. Номер акта таможенного досмотра
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class RegNumberActInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'InspectionDate' element value. Р”Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
+     * Get the 'InspectionDate' element value. Дата таможенного досмотра
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class RegNumberActInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'InspectionDate' element value. Р”Р°С‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
+     * Set the 'InspectionDate' element value. Дата таможенного досмотра
      * 
      * @param inspectionDate
      */
@@ -52,7 +52,7 @@ public class RegNumberActInspectionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class RegNumberActInspectionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

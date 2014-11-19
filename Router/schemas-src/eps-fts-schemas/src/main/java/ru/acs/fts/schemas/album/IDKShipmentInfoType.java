@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+ * Сведения о товарной партии
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -42,7 +42,7 @@ public class IDKShipmentInfoType
     private String comments;
 
     /** 
-     * Get the 'GrossWeight' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ, РєРі.
+     * Get the 'GrossWeight' element value. Общий вес брутто, кг.
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Set the 'GrossWeight' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ, РєРі.
+     * Set the 'GrossWeight' element value. Общий вес брутто, кг.
      * 
      * @param grossWeight
      */
@@ -60,7 +60,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ Р”Р•Р
+     * Get the 'SupplementaryGoodsQuantity' element value. Количество товара в ДЕИ
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ Р”Р•Р
+     * Set the 'SupplementaryGoodsQuantity' element value. Количество товара в ДЕИ
      * 
      * @param supplementaryGoodsQuantity
      */
@@ -79,7 +79,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Get the 'MaxWeightIndicator' element value. РџСЂРёР·РЅР°Рє РІРІРѕРґР° С‚РѕРІР°СЂРѕРІ РїРѕ РјР°РєСЃРёРјР°Р»СЊРЅРѕРјСѓ РІРµСЃСѓ
+     * Get the 'MaxWeightIndicator' element value. Признак ввода товаров по максимальному весу
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Set the 'MaxWeightIndicator' element value. РџСЂРёР·РЅР°Рє РІРІРѕРґР° С‚РѕРІР°СЂРѕРІ РїРѕ РјР°РєСЃРёРјР°Р»СЊРЅРѕРјСѓ РІРµСЃСѓ
+     * Set the 'MaxWeightIndicator' element value. Признак ввода товаров по максимальному весу
      * 
      * @param maxWeightIndicator
      */
@@ -97,7 +97,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Get the 'DispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DispatchCountryCode' element value. Страна отправления
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Set the 'DispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DispatchCountryCode' element value. Страна отправления
      * 
      * @param dispatchCountryCode
      */
@@ -115,7 +115,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Get the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Consignor' element value. Отправитель
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Set the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Consignor' element value. Отправитель
      * 
      * @param consignor
      */
@@ -133,7 +133,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Get the 'DestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationCountryCode' element value. Страна назначения
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Set the 'DestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationCountryCode' element value. Страна назначения
      * 
      * @param destinationCountryCode
      */
@@ -151,7 +151,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Consignee' element value. Получатель
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Consignee' element value. Получатель
      * 
      * @param consignee
      */
@@ -169,7 +169,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
+     * Get the 'Declarant' element value. Сведения о декларанте
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
+     * Set the 'Declarant' element value. Сведения о декларанте
      * 
      * @param declarant
      */
@@ -187,7 +187,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the list of 'GoodsInfo' element items. Сведения о товарах
      * 
      * @return list
      */
@@ -196,7 +196,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the list of 'GoodsInfo' element items. Сведения о товарах
      * 
      * @param list
      */
@@ -205,7 +205,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Get the 'ShipmentDocuments' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С… РµСЃР»Рё РЅР° РєР°Р¶РґСѓСЋ РїРѕСЃС‚Р°РІРєСѓ СЃРІРѕР№ РєРѕРјРїР»РµРєС‚ РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'ShipmentDocuments' element value. Сведения о предоставляемых документах если на каждую поставку свой комплект документов
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Set the 'ShipmentDocuments' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С… РµСЃР»Рё РЅР° РєР°Р¶РґСѓСЋ РїРѕСЃС‚Р°РІРєСѓ СЃРІРѕР№ РєРѕРјРїР»РµРєС‚ РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'ShipmentDocuments' element value. Сведения о предоставляемых документах если на каждую поставку свой комплект документов
      * 
      * @param shipmentDocuments
      */
@@ -223,7 +223,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Get the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёСЏ
+     * Get the 'Comments' element value. Примечания
      * 
      * @return value
      */
@@ -232,7 +232,7 @@ public class IDKShipmentInfoType
     }
 
     /** 
-     * Set the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёСЏ
+     * Set the 'Comments' element value. Примечания
      * 
      * @param comments
      */

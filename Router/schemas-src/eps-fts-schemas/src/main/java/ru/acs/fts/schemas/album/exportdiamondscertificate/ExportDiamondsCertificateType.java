@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРµСЂС‚РёС„РёРєР°С‚ РІС‹РІРѕР·Р° РЅРµРѕР±СЂР°Р±РѕС‚Р°РЅРЅС‹С… РїСЂРёСЂРѕРґРЅС‹С… Р°Р»РјР°Р·РѕРІ
+ * Сертификат вывоза необработанных природных алмазов
  */
 public class ExportDiamondsCertificateType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -44,7 +44,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'IssueDate' element value. Дата выдачи сертификата
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'IssueDate' element value. Дата выдачи сертификата
      * 
      * @param issueDate
      */
@@ -62,7 +62,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Note' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РѕС‚РјРµС‚РєРё
+     * Get the list of 'Note' element items. Дополнительные отметки
      * 
      * @return list
      */
@@ -71,7 +71,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Note' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РѕС‚РјРµС‚РєРё
+     * Set the list of 'Note' element items. Дополнительные отметки
      * 
      * @param list
      */
@@ -80,7 +80,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExpiryDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'ExpiryDate' element value. Срок действия сертификата
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExpiryDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'ExpiryDate' element value. Срок действия сертификата
      * 
      * @param expiryDate
      */
@@ -98,7 +98,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExporterInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґРїСЂРёСЏС‚РёРё-СЌРєСЃРїРѕСЂС‚РµСЂРµ
+     * Get the 'ExporterInfo' element value. Сведения о предприятии-экспортере
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExporterInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґРїСЂРёСЏС‚РёРё-СЌРєСЃРїРѕСЂС‚РµСЂРµ
+     * Set the 'ExporterInfo' element value. Сведения о предприятии-экспортере
      * 
      * @param exporterInfo
      */
@@ -116,7 +116,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Recipient' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Get the 'Recipient' element value. Сведения о получателе
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Recipient' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Set the 'Recipient' element value. Сведения о получателе
      * 
      * @param recipient
      */
@@ -134,7 +134,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractInfo' element value. РљРѕРЅС‚СЂР°РєС‚
+     * Get the 'ContractInfo' element value. Контракт
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractInfo' element value. РљРѕРЅС‚СЂР°РєС‚
+     * Set the 'ContractInfo' element value. Контракт
      * 
      * @param contractInfo
      */
@@ -152,7 +152,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsControler' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ РєРѕРЅС‚СЂРѕР»РµСЂ
+     * Get the 'CustomsControler' element value. Государственный контролер
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsControler' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ РєРѕРЅС‚СЂРѕР»РµСЂ
+     * Set the 'CustomsControler' element value. Государственный контролер
      * 
      * @param customsControler
      */
@@ -170,7 +170,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DiamondsInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјС‹С… Р°Р»РјР°Р·Р°С…
+     * Get the 'DiamondsInfo' element value. Сведения об экспортируемых алмазах
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DiamondsInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјС‹С… Р°Р»РјР°Р·Р°С…
+     * Set the 'DiamondsInfo' element value. Сведения об экспортируемых алмазах
      * 
      * @param diamondsInfo
      */
@@ -188,7 +188,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'CertificateNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'CertificateNumber' element value. Уникальный номер сертификата
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'CertificateNumber' element value. Уникальный номер сертификата
      * 
      * @param certificateNumber
      */
@@ -206,7 +206,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class ExportDiamondsCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust;
 
 /** 
- * РџРµСЂРµСЂР°СЃС‡РµС‚ РїР»Р°С‚РµР¶РµР№
+ * Перерасчет платежей
  */
 public class KTSPaymentsReCalcType
 {
@@ -13,7 +13,7 @@ public class KTSPaymentsReCalcType
     private String paymentCurrencyCode;
 
     /** 
-     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
+     * Get the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class KTSPaymentsReCalcType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
+     * Set the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы
      * 
      * @param paymentModeCode
      */
@@ -31,7 +31,7 @@ public class KTSPaymentsReCalcType
     }
 
     /** 
-     * Get the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Get the 'PaymentAmount' element value. Сумма платежа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class KTSPaymentsReCalcType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Set the 'PaymentAmount' element value. Сумма платежа
      * 
      * @param paymentAmount
      */
@@ -49,7 +49,7 @@ public class KTSPaymentsReCalcType
     }
 
     /** 
-     * Get the 'PrecedingPaymentAmount' element value. РџСЂРµРґС‹РґСѓС‰Р°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Get the 'PrecedingPaymentAmount' element value. Предыдущая сумма платежа
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class KTSPaymentsReCalcType
     }
 
     /** 
-     * Set the 'PrecedingPaymentAmount' element value. РџСЂРµРґС‹РґСѓС‰Р°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Set the 'PrecedingPaymentAmount' element value. Предыдущая сумма платежа
      * 
      * @param precedingPaymentAmount
      */
@@ -67,7 +67,7 @@ public class KTSPaymentsReCalcType
     }
 
     /** 
-     * Get the 'ChangeAmount' element value. РР·РјРµРЅРµРЅРёРµ
+     * Get the 'ChangeAmount' element value. Изменение
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class KTSPaymentsReCalcType
     }
 
     /** 
-     * Set the 'ChangeAmount' element value. РР·РјРµРЅРµРЅРёРµ
+     * Set the 'ChangeAmount' element value. Изменение
      * 
      * @param changeAmount
      */
@@ -85,7 +85,7 @@ public class KTSPaymentsReCalcType
     }
 
     /** 
-     * Get the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°
+     * Get the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class KTSPaymentsReCalcType
     }
 
     /** 
-     * Set the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°
+     * Set the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа
      * 
      * @param paymentCurrencyCode
      */

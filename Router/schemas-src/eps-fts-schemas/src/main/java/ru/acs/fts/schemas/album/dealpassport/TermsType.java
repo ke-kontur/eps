@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РћР±С‰РёРµ СЃРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ, РґРѕРїРѕР»РЅРµРЅРёСЏС…/РёР·РјРµРЅРµРЅРёСЏС…
+ * Общие сведения о контракте, дополнениях/изменениях
  */
 public class TermsType extends DocumentBaseType
 {
@@ -16,7 +16,7 @@ public class TermsType extends DocumentBaseType
     private String specialTerms4;
 
     /** 
-     * Get the 'ContractEndDate' element value. Р”Р°С‚Р° Р·Р°РІРµСЂС€РµРЅРёСЏ РёСЃРїРѕР»РЅРµРЅРёСЏ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Get the 'ContractEndDate' element value. Дата завершения исполнения обязательств по контракту
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class TermsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ContractEndDate' element value. Р”Р°С‚Р° Р·Р°РІРµСЂС€РµРЅРёСЏ РёСЃРїРѕР»РЅРµРЅРёСЏ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Set the 'ContractEndDate' element value. Дата завершения исполнения обязательств по контракту
      * 
      * @param contractEndDate
      */
@@ -34,7 +34,7 @@ public class TermsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'SpecialTerms1' element value. РћСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ - СЃСѓРјРјР° РїРѕРґР»РµР¶Р°С‰Р°СЏ Р·Р°С‡РёСЃР»РµРЅРёСЋ РЅР° СЃС‡РµС‚Р° Р·Р° СЂСѓР±РµР¶РѕРј
+     * Get the 'SpecialTerms1' element value. Особые условия - сумма подлежащая зачислению на счета за рубежом
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class TermsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SpecialTerms1' element value. РћСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ - СЃСѓРјРјР° РїРѕРґР»РµР¶Р°С‰Р°СЏ Р·Р°С‡РёСЃР»РµРЅРёСЋ РЅР° СЃС‡РµС‚Р° Р·Р° СЂСѓР±РµР¶РѕРј
+     * Set the 'SpecialTerms1' element value. Особые условия - сумма подлежащая зачислению на счета за рубежом
      * 
      * @param specialTerms1
      */
@@ -52,7 +52,7 @@ public class TermsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'SpecialTerms2' element value. РћСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ - РІР°Р»СЋС‚РЅР°СЏ РѕРіРѕРІРѕСЂРєР°
+     * Get the 'SpecialTerms2' element value. Особые условия - валютная оговорка
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class TermsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SpecialTerms2' element value. РћСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ - РІР°Р»СЋС‚РЅР°СЏ РѕРіРѕРІРѕСЂРєР°
+     * Set the 'SpecialTerms2' element value. Особые условия - валютная оговорка
      * 
      * @param specialTerms2
      */
@@ -70,7 +70,7 @@ public class TermsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'SpecialTerms3' element value. РћСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ - РІРІРѕР·/РІС‹РІРѕР· С‚РѕРІР°СЂРѕРІ, СѓРєР°Р·Р°РЅРЅС‹С… РІ СЂР°Р·РґРµР»Р°С… XVI, XVII Рё XIX РўРќ Р’Р­Р” РўРЎ
+     * Get the 'SpecialTerms3' element value. Особые условия - ввоз/вывоз товаров, указанных в разделах XVI, XVII и XIX ТН ВЭД ТС
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class TermsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SpecialTerms3' element value. РћСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ - РІРІРѕР·/РІС‹РІРѕР· С‚РѕРІР°СЂРѕРІ, СѓРєР°Р·Р°РЅРЅС‹С… РІ СЂР°Р·РґРµР»Р°С… XVI, XVII Рё XIX РўРќ Р’Р­Р” РўРЎ
+     * Set the 'SpecialTerms3' element value. Особые условия - ввоз/вывоз товаров, указанных в разделах XVI, XVII и XIX ТН ВЭД ТС
      * 
      * @param specialTerms3
      */
@@ -88,7 +88,7 @@ public class TermsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'SpecialTerms4' element value. РћСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ - РїСЂРѕРІРµРґРµРЅРёРµ СЃС‚СЂРѕРёС‚РµР»СЊРЅС‹С… Рё РїРѕРґСЂСЏРґРЅС‹С… СЂР°Р±РѕС‚ Р·Р° РїСЂРµРґРµР»Р°РјРё С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤
+     * Get the 'SpecialTerms4' element value. Особые условия - проведение строительных и подрядных работ за пределами территории РФ
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class TermsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SpecialTerms4' element value. РћСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ - РїСЂРѕРІРµРґРµРЅРёРµ СЃС‚СЂРѕРёС‚РµР»СЊРЅС‹С… Рё РїРѕРґСЂСЏРґРЅС‹С… СЂР°Р±РѕС‚ Р·Р° РїСЂРµРґРµР»Р°РјРё С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤
+     * Set the 'SpecialTerms4' element value. Особые условия - проведение строительных и подрядных работ за пределами территории РФ
      * 
      * @param specialTerms4
      */

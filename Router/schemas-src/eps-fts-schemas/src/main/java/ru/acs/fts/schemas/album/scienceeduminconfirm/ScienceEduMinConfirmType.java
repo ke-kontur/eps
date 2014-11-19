@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РњРёРЅРѕР±СЂРЅР°СѓРєРё Р РѕСЃСЃРёРё
+ * Подтверждение Минобрнауки России
  */
 public class ScienceEduMinConfirmType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentAttachment' element value. РџСѓРЅРєС‚ (РїРѕРґРїСѓРЅРєС‚) РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РЎРѕРіР»Р°С€РµРЅРёСЋ Рё (РёР»Рё) РџСЂРѕС‚РѕРєРѕР»Сѓ
+     * Get the 'DocumentAttachment' element value. Пункт (подпункт) приложения к Соглашению и (или) Протоколу
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentAttachment' element value. РџСѓРЅРєС‚ (РїРѕРґРїСѓРЅРєС‚) РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РЎРѕРіР»Р°С€РµРЅРёСЋ Рё (РёР»Рё) РџСЂРѕС‚РѕРєРѕР»Сѓ
+     * Set the 'DocumentAttachment' element value. Пункт (подпункт) приложения к Соглашению и (или) Протоколу
      * 
      * @param documentAttachment
      */
@@ -41,7 +41,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'AdditionalInfo' element value. Дополнительная информация
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'AdditionalInfo' element value. Дополнительная информация
      * 
      * @param additionalInfo
      */
@@ -59,7 +59,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConfirmationInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё
+     * Get the 'ConfirmationInfo' element value. Сведения о подтверждении
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConfirmationInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРё
+     * Set the 'ConfirmationInfo' element value. Сведения о подтверждении
      * 
      * @param confirmationInfo
      */
@@ -77,7 +77,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'Contract' element value. Реквизиты контракта
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'Contract' element value. Реквизиты контракта
      * 
      * @param contract
      */
@@ -95,7 +95,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConfirmationPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅРѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ
+     * Get the 'ConfirmationPerson' element value. Сведения о лице, которому выдано подтверждение
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConfirmationPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РєРѕС‚РѕСЂРѕРјСѓ РІС‹РґР°РЅРѕ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ
+     * Set the 'ConfirmationPerson' element value. Сведения о лице, которому выдано подтверждение
      * 
      * @param confirmationPerson
      */
@@ -113,7 +113,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ С‚РѕРІР°СЂР°
+     * Get the 'Consignee' element value. Получатель товара
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ С‚РѕРІР°СЂР°
+     * Set the 'Consignee' element value. Получатель товара
      * 
      * @param consignee
      */
@@ -131,7 +131,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Get the list of 'Goods' element items. Сведения о товаре
      * 
      * @return list
      */
@@ -140,7 +140,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Set the list of 'Goods' element items. Сведения о товаре
      * 
      * @param list
      */
@@ -149,7 +149,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
+     * Get the 'AuthorizedPerson' element value. Уполномоченное лицо
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
+     * Set the 'AuthorizedPerson' element value. Уполномоченное лицо
      * 
      * @param authorizedPerson
      */
@@ -167,7 +167,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class ScienceEduMinConfirmType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

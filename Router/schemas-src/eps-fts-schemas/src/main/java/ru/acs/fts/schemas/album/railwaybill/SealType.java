@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.railwaybill;
 
 /** 
- * РљРѕР»РёС‡РµСЃС‚РІРѕ Рё Р·РЅР°РєРё РїР»РѕРјР±,  РЅР°Р»РѕР¶РµРЅРЅС‹С… РЅР° РІР°РіРѕРЅ РёР»Рё РєРѕРЅС‚РµР№РЅРµСЂ
+ * Количество и знаки пломб,  наложенных на вагон или контейнер
  */
 public class SealType
 {
@@ -12,7 +12,7 @@ public class SealType
     private String identDesc;
 
     /** 
-     * Get the 'SealID' element value. РќРѕРјРµСЂ РїР»РѕРјР±С‹
+     * Get the 'SealID' element value. Номер пломбы
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class SealType
     }
 
     /** 
-     * Set the 'SealID' element value. РќРѕРјРµСЂ РїР»РѕРјР±С‹
+     * Set the 'SealID' element value. Номер пломбы
      * 
      * @param sealID
      */
@@ -30,7 +30,7 @@ public class SealType
     }
 
     /** 
-     * Get the 'SealQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР»РѕРјР±,  РЅР°Р»РѕР¶РµРЅРЅС‹С… РЅР° РІР°РіРѕРЅ РёР»Рё РєРѕРЅС‚РµР№РЅРµСЂ
+     * Get the 'SealQuantity' element value. Количество пломб,  наложенных на вагон или контейнер
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class SealType
     }
 
     /** 
-     * Set the 'SealQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР»РѕРјР±,  РЅР°Р»РѕР¶РµРЅРЅС‹С… РЅР° РІР°РіРѕРЅ РёР»Рё РєРѕРЅС‚РµР№РЅРµСЂ
+     * Set the 'SealQuantity' element value. Количество пломб,  наложенных на вагон или контейнер
      * 
      * @param sealQuantity
      */
@@ -48,7 +48,7 @@ public class SealType
     }
 
     /** 
-     * Get the 'IdentKind' element value. Р’РёРґ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё: 1 - РїР»РѕРјР±Р°, 2 - РїРµС‡Р°С‚СЊ, 3 - РёРЅРѕРµ
+     * Get the 'IdentKind' element value. Вид средств идентификации: 1 - пломба, 2 - печать, 3 - иное
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class SealType
     }
 
     /** 
-     * Set the 'IdentKind' element value. Р’РёРґ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё: 1 - РїР»РѕРјР±Р°, 2 - РїРµС‡Р°С‚СЊ, 3 - РёРЅРѕРµ
+     * Set the 'IdentKind' element value. Вид средств идентификации: 1 - пломба, 2 - печать, 3 - иное
      * 
      * @param identKind
      */
@@ -66,7 +66,7 @@ public class SealType
     }
 
     /** 
-     * Get the 'IdentDesc' element value. РџСЂРёРјРµС‡Р°РЅРёРµ РїРѕ СЃСЂРµРґСЃС‚РІСѓ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Get the 'IdentDesc' element value. Примечание по средству идентификации
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class SealType
     }
 
     /** 
-     * Set the 'IdentDesc' element value. РџСЂРёРјРµС‡Р°РЅРёРµ РїРѕ СЃСЂРµРґСЃС‚РІСѓ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Set the 'IdentDesc' element value. Примечание по средству идентификации
      * 
      * @param identDesc
      */

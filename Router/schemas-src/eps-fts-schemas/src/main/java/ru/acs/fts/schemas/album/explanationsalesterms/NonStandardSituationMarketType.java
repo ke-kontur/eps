@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РЅРµСЃС‚Р°РЅРґР°СЂС‚РЅРѕР№ СЃРёС‚СѓР°С†РёРµР№ РЅР° СЂС‹РЅРєРµ
+ * Отличие вызвано нестандартной ситуацией на рынке
  */
 public class NonStandardSituationMarketType
 {
@@ -15,7 +15,7 @@ public class NonStandardSituationMarketType
     private String comments;
 
     /** 
-     * Get the 'DopRate' element value. РџСЂРёР·РЅР°Рє С„Р°РєС‚Р° СЂРµР·РєРѕРіРѕ РїР°РґРµРЅРёСЏ РєСѓСЂСЃР° РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚С‹
+     * Get the 'DopRate' element value. Признак факта резкого падения курса национальной валюты
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Set the 'DopRate' element value. РџСЂРёР·РЅР°Рє С„Р°РєС‚Р° СЂРµР·РєРѕРіРѕ РїР°РґРµРЅРёСЏ РєСѓСЂСЃР° РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚С‹
+     * Set the 'DopRate' element value. Признак факта резкого падения курса национальной валюты
      * 
      * @param dopRate
      */
@@ -33,7 +33,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Get the 'IncreaseRate' element value. РџСЂРёР·РЅР°Рє С„Р°РєС‚Р° СЂРµР·РєРѕРіРѕ РїРѕРІС‹С€РµРЅРёСЏ РєСѓСЂСЃР° РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚С‹
+     * Get the 'IncreaseRate' element value. Признак факта резкого повышения курса национальной валюты
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Set the 'IncreaseRate' element value. РџСЂРёР·РЅР°Рє С„Р°РєС‚Р° СЂРµР·РєРѕРіРѕ РїРѕРІС‹С€РµРЅРёСЏ РєСѓСЂСЃР° РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚С‹
+     * Set the 'IncreaseRate' element value. Признак факта резкого повышения курса национальной валюты
      * 
      * @param increaseRate
      */
@@ -51,7 +51,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Get the 'GlutMarket' element value. РџСЂРёР·РЅР°Рє С„Р°РєС‚Р° Р·Р°С‚РѕРІР°СЂРёРІР°РЅРёСЏ СЂС‹РЅРєР°
+     * Get the 'GlutMarket' element value. Признак факта затоваривания рынка
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Set the 'GlutMarket' element value. РџСЂРёР·РЅР°Рє С„Р°РєС‚Р° Р·Р°С‚РѕРІР°СЂРёРІР°РЅРёСЏ СЂС‹РЅРєР°
+     * Set the 'GlutMarket' element value. Признак факта затоваривания рынка
      * 
      * @param glutMarket
      */
@@ -69,7 +69,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Get the 'DeficitMarket' element value. РџСЂРёР·РЅР°Рє С„Р°РєС‚Р° РґРµС„РёС†РёС‚Р° РЅР° СЂС‹РЅРєРµ
+     * Get the 'DeficitMarket' element value. Признак факта дефицита на рынке
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Set the 'DeficitMarket' element value. РџСЂРёР·РЅР°Рє С„Р°РєС‚Р° РґРµС„РёС†РёС‚Р° РЅР° СЂС‹РЅРєРµ
+     * Set the 'DeficitMarket' element value. Признак факта дефицита на рынке
      * 
      * @param deficitMarket
      */
@@ -87,7 +87,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Get the 'Other' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РѕС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РёРЅРѕР№ РЅРµСЃС‚Р°РЅРґР°СЂС‚РЅРѕР№ СЃРёС‚СѓР°С†РёРµР№ РЅР° СЂС‹РЅРєРµ
+     * Get the 'Other' element value. Признак того, что отличие вызвано иной нестандартной ситуацией на рынке
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Set the 'Other' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РѕС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ РёРЅРѕР№ РЅРµСЃС‚Р°РЅРґР°СЂС‚РЅРѕР№ СЃРёС‚СѓР°С†РёРµР№ РЅР° СЂС‹РЅРєРµ
+     * Set the 'Other' element value. Признак того, что отличие вызвано иной нестандартной ситуацией на рынке
      * 
      * @param other
      */
@@ -105,7 +105,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Get the 'CountryType' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕС‚РЅРѕСЃРёС‚СЃСЏ Рє СЃС‚СЂР°РЅРµ: 1 -  РѕС‚РїСЂР°РІР»РµРЅРёСЏ, 0 - РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Get the 'CountryType' element value. Информация относится к стране: 1 -  отправления, 0 - происхождения
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Set the 'CountryType' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕС‚РЅРѕСЃРёС‚СЃСЏ Рє СЃС‚СЂР°РЅРµ: 1 -  РѕС‚РїСЂР°РІР»РµРЅРёСЏ, 0 - РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Set the 'CountryType' element value. Информация относится к стране: 1 -  отправления, 0 - происхождения
      * 
      * @param countryType
      */
@@ -123,7 +123,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Get the 'Comments' element value. РРЅС‹Рµ (СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
+     * Get the 'Comments' element value. Иные (указать подробности)
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class NonStandardSituationMarketType
     }
 
     /** 
-     * Set the 'Comments' element value. РРЅС‹Рµ (СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
+     * Set the 'Comments' element value. Иные (указать подробности)
      * 
      * @param comments
      */

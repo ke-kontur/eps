@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё РґРµРєР»Р°СЂР°С†РёРёРїРѕ СЃРµСЂРІРёСЃСѓ РЎРЈР 
+ * Результат обработки декларациипо сервису СУР
  */
 public class ResDeclarationsType
 {
@@ -14,7 +14,7 @@ public class ResDeclarationsType
     private List<GoodsType> goodList = new ArrayList<GoodsType>();
 
     /** 
-     * Get the 'GtdRegNumber' element value. РќРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё
+     * Get the 'GtdRegNumber' element value. Номер декларации
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ResDeclarationsType
     }
 
     /** 
-     * Set the 'GtdRegNumber' element value. РќРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё
+     * Set the 'GtdRegNumber' element value. Номер декларации
      * 
      * @param gtdRegNumber
      */
@@ -32,7 +32,7 @@ public class ResDeclarationsType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РћР±СЂР°Р±РѕС‚Р°РЅРЅС‹Рµ С‚РѕРІР°СЂС‹
+     * Get the list of 'Goods' element items. Обработанные товары
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class ResDeclarationsType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РћР±СЂР°Р±РѕС‚Р°РЅРЅС‹Рµ С‚РѕРІР°СЂС‹
+     * Set the list of 'Goods' element items. Обработанные товары
      * 
      * @param list
      */

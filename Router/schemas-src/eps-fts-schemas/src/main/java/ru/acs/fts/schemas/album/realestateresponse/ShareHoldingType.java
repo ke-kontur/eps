@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РѕР±СЉРµРєС‚РѕРІ РґРѕР»РµРІРѕРіРѕ СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІР°
+ * Описание объектов долевого строительства
  */
 public class ShareHoldingType
 {
@@ -14,7 +14,7 @@ public class ShareHoldingType
     private List<EncumbranceType> encumbranceList = new ArrayList<EncumbranceType>();
 
     /** 
-     * Get the list of 'ShareObject' element items. РћРїРёСЃР°РЅРёРµ РѕР±СЉРµРєС‚Р° РґРѕР»РµРІРѕРіРѕ СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІР°
+     * Get the list of 'ShareObject' element items. Описание объекта долевого строительства
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class ShareHoldingType
     }
 
     /** 
-     * Set the list of 'ShareObject' element items. РћРїРёСЃР°РЅРёРµ РѕР±СЉРµРєС‚Р° РґРѕР»РµРІРѕРіРѕ СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІР°
+     * Set the list of 'ShareObject' element items. Описание объекта долевого строительства
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class ShareHoldingType
     }
 
     /** 
-     * Get the list of 'Owner' element items. РЈС‡Р°СЃС‚РЅРёРє РґРѕР»РµРІРѕРіРѕ СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІР°
+     * Get the list of 'Owner' element items. Участник долевого строительства
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class ShareHoldingType
     }
 
     /** 
-     * Set the list of 'Owner' element items. РЈС‡Р°СЃС‚РЅРёРє РґРѕР»РµРІРѕРіРѕ СЃС‚СЂРѕРёС‚РµР»СЊСЃС‚РІР°
+     * Set the list of 'Owner' element items. Участник долевого строительства
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class ShareHoldingType
     }
 
     /** 
-     * Get the list of 'Encumbrance' element items. РћРїРёСЃР°РЅРёРµ РёРїРѕС‚РµРєРё
+     * Get the list of 'Encumbrance' element items. Описание ипотеки
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class ShareHoldingType
     }
 
     /** 
-     * Set the list of 'Encumbrance' element items. РћРїРёСЃР°РЅРёРµ РёРїРѕС‚РµРєРё
+     * Set the list of 'Encumbrance' element items. Описание ипотеки
      * 
      * @param list
      */

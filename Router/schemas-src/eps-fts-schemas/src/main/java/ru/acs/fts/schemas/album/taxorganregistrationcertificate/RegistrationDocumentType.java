@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.taxorganregistrationcertificate;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёС… СЃРѕР·РґР°РЅРёРµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° Рё РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РІС‹РґР°РµС‚СЃСЏ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+ * Сведения о документах, подтверждающих создание юридического лица и на основании которых выдается свидетельство
  */
 public class RegistrationDocumentType
 {
@@ -12,7 +12,7 @@ public class RegistrationDocumentType
     private String documentName;
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IssueDate' element value. Дата регистрации документа
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class RegistrationDocumentType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IssueDate' element value. Дата регистрации документа
      * 
      * @param issueDate
      */
@@ -30,7 +30,7 @@ public class RegistrationDocumentType
     }
 
     /** 
-     * Get the 'DocumentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentName' element value. Наименование документа.
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class RegistrationDocumentType
     }
 
     /** 
-     * Set the 'DocumentName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentName' element value. Наименование документа.
      * 
      * @param documentName
      */

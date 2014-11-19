@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.album.sertifcommonaggregatetypescust.SertifOrgBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё -  РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рµ
+ * Сведения об организации -  производителе
  */
 public class ManufacturerOrgType extends SertifOrgBaseType
 {
     private List<SubdivisionInfoType> subdivisionInfoList = new ArrayList<SubdivisionInfoType>();
 
     /** 
-     * Get the list of 'SubdivisionInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏС… РїСЂРµРґРїСЂРёСЏС‚РёСЏ
+     * Get the list of 'SubdivisionInfo' element items. Сведения о подразделениях предприятия
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class ManufacturerOrgType extends SertifOrgBaseType
     }
 
     /** 
-     * Set the list of 'SubdivisionInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏС… РїСЂРµРґРїСЂРёСЏС‚РёСЏ
+     * Set the list of 'SubdivisionInfo' element items. Сведения о подразделениях предприятия
      * 
      * @param list
      */

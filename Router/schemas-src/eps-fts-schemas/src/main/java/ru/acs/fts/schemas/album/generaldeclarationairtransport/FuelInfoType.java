@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.generaldeclarationairtransport;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРїР»РёРІРµ
+ * Информация о топливе
  */
 public class FuelInfoType
 {
@@ -11,7 +11,7 @@ public class FuelInfoType
     private String maxFuelQuantity;
 
     /** 
-     * Get the 'FuelQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРїР»РёРІР°
+     * Get the 'FuelQuantity' element value. Количество топлива
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class FuelInfoType
     }
 
     /** 
-     * Set the 'FuelQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРїР»РёРІР°
+     * Set the 'FuelQuantity' element value. Количество топлива
      * 
      * @param fuelQuantity
      */
@@ -29,7 +29,7 @@ public class FuelInfoType
     }
 
     /** 
-     * Get the 'FuelQualifierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ С‚РѕРїР»РёРІР°
+     * Get the 'FuelQualifierName' element value. Наименование единицы измерения топлива
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class FuelInfoType
     }
 
     /** 
-     * Set the 'FuelQualifierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ С‚РѕРїР»РёРІР°
+     * Set the 'FuelQualifierName' element value. Наименование единицы измерения топлива
      * 
      * @param fuelQualifierName
      */
@@ -47,7 +47,7 @@ public class FuelInfoType
     }
 
     /** 
-     * Get the 'MaxFuelQuantity' element value. РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РІРјРµСЃС‚РёРјРѕСЃС‚СЊ С‚РѕРїР»РёРІР°
+     * Get the 'MaxFuelQuantity' element value. Максимальная вместимость топлива
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class FuelInfoType
     }
 
     /** 
-     * Set the 'MaxFuelQuantity' element value. РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РІРјРµСЃС‚РёРјРѕСЃС‚СЊ С‚РѕРїР»РёРІР°
+     * Set the 'MaxFuelQuantity' element value. Максимальная вместимость топлива
      * 
      * @param maxFuelQuantity
      */

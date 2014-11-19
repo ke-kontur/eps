@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Р¤РѕСЂРјР° СЂР°СЃС‡РµС‚РѕРІ  Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё СЃРґРµР»РєРё (РіСЂ. 28 С‡.2).
+ * Форма расчетов  и особенности сделки (гр. 28 ч.2).
  */
 public class DealFeaturesType
 {
@@ -19,7 +19,7 @@ public class DealFeaturesType
     private String agreementCurrencyCode;
 
     /** 
-     * Get the 'PaymentFormCode' element value. РљРѕРґ С„РѕСЂРјС‹ СЂР°СЃС‡РµС‚РѕРІ РїРѕ СЃРґРµР»РєРµ / РґРѕРіРѕРІРѕСЂСѓ. РџРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ С„РѕСЂРј СЂР°СЃС‡РµС‚РѕРІ Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СЃРґРµР»РєРё.
+     * Get the 'PaymentFormCode' element value. Код формы расчетов по сделке / договору. По Классификатору форм расчетов и особенностей сделки.
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Set the 'PaymentFormCode' element value. РљРѕРґ С„РѕСЂРјС‹ СЂР°СЃС‡РµС‚РѕРІ РїРѕ СЃРґРµР»РєРµ / РґРѕРіРѕРІРѕСЂСѓ. РџРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ С„РѕСЂРј СЂР°СЃС‡РµС‚РѕРІ Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СЃРґРµР»РєРё.
+     * Set the 'PaymentFormCode' element value. Код формы расчетов по сделке / договору. По Классификатору форм расчетов и особенностей сделки.
      * 
      * @param paymentFormCode
      */
@@ -37,7 +37,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Get the 'DealFeatureCode' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СЃРґРµР»РєРё (РґРѕРіРѕРІРѕСЂР°). РџРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ С„РѕСЂРј СЂР°СЃС‡РµС‚РѕРІ Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СЃРґРµР»РєРё.
+     * Get the 'DealFeatureCode' element value. Код особенностей сделки (договора). По Классификатору форм расчетов и особенностей сделки.
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Set the 'DealFeatureCode' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СЃРґРµР»РєРё (РґРѕРіРѕРІРѕСЂР°). РџРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ С„РѕСЂРј СЂР°СЃС‡РµС‚РѕРІ Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СЃРґРµР»РєРё.
+     * Set the 'DealFeatureCode' element value. Код особенностей сделки (договора). По Классификатору форм расчетов и особенностей сделки.
      * 
      * @param dealFeatureCode
      */
@@ -55,7 +55,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Get the 'DealNatureCode' element value. РљРѕРґ С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё СЃ РґРµРєР»Р°СЂРёСЂСѓРµРјС‹РјРё С‚РѕРІР°СЂР°РјРё.
+     * Get the 'DealNatureCode' element value. Код характера сделки с декларируемыми товарами.
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Set the 'DealNatureCode' element value. РљРѕРґ С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё СЃ РґРµРєР»Р°СЂРёСЂСѓРµРјС‹РјРё С‚РѕРІР°СЂР°РјРё.
+     * Set the 'DealNatureCode' element value. Код характера сделки с декларируемыми товарами.
      * 
      * @param dealNatureCode
      */
@@ -73,7 +73,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Get the 'PaymentFeature' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СЂР°СЃС‡РµС‚РѕРІ Р·Р° РґРµРєР»Р°СЂРёСЂСѓРµРјС‹Рµ С‚РѕРІР°СЂС‹ 
+     * Get the 'PaymentFeature' element value. Код особенностей расчетов за декларируемые товары 
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Set the 'PaymentFeature' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СЂР°СЃС‡РµС‚РѕРІ Р·Р° РґРµРєР»Р°СЂРёСЂСѓРµРјС‹Рµ С‚РѕРІР°СЂС‹ 
+     * Set the 'PaymentFeature' element value. Код особенностей расчетов за декларируемые товары 
      * 
      * @param paymentFeature
      */
@@ -91,7 +91,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Get the 'FirstPaymentDate' element value. Р”Р°С‚Р° РїРµСЂРІРѕРіРѕ РїР»Р°С‚РµР¶Р° Р·Р° РґРµРєР»Р°СЂРёСЂСѓРµРјСѓСЋ С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ.
+     * Get the 'FirstPaymentDate' element value. Дата первого платежа за декларируемую товарную партию.
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Set the 'FirstPaymentDate' element value. Р”Р°С‚Р° РїРµСЂРІРѕРіРѕ РїР»Р°С‚РµР¶Р° Р·Р° РґРµРєР»Р°СЂРёСЂСѓРµРјСѓСЋ С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ.
+     * Set the 'FirstPaymentDate' element value. Дата первого платежа за декларируемую товарную партию.
      * 
      * @param firstPaymentDate
      */
@@ -109,7 +109,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Get the 'FirstPaymentIndicator' element value. РџСЂРёР·РЅР°Рє СЃСЂРѕРєР° РїРµСЂРІРѕРіРѕ РїР»Р°С‚РµР¶Р°. 1- С„Р°РєС‚РёС‡РµСЃРєР°СЏ РґР°С‚Р°, 2- СЂР°СЃС‡РµС‚РЅС‹Р№ СЃСЂРѕРє (РґР°С‚Р° СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РїРѕСЃР»РµРґРЅРµРјСѓ РґРЅСЋ  СѓРєР°Р·Р°РЅРЅРѕРіРѕ РјРµСЃСЏС†Р°)
+     * Get the 'FirstPaymentIndicator' element value. Признак срока первого платежа. 1- фактическая дата, 2- расчетный срок (дата соответствует последнему дню  указанного месяца)
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Set the 'FirstPaymentIndicator' element value. РџСЂРёР·РЅР°Рє СЃСЂРѕРєР° РїРµСЂРІРѕРіРѕ РїР»Р°С‚РµР¶Р°. 1- С„Р°РєС‚РёС‡РµСЃРєР°СЏ РґР°С‚Р°, 2- СЂР°СЃС‡РµС‚РЅС‹Р№ СЃСЂРѕРє (РґР°С‚Р° СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РїРѕСЃР»РµРґРЅРµРјСѓ РґРЅСЋ  СѓРєР°Р·Р°РЅРЅРѕРіРѕ РјРµСЃСЏС†Р°)
+     * Set the 'FirstPaymentIndicator' element value. Признак срока первого платежа. 1- фактическая дата, 2- расчетный срок (дата соответствует последнему дню  указанного месяца)
      * 
      * @param firstPaymentIndicator
      */
@@ -127,7 +127,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Get the 'LastPaymentDate' element value. Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµРіРѕ РёР»Рё РµРґРёРЅСЃС‚РІРµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р° Р·Р° РґРµРєР»Р°СЂРёСЂСѓРµРјСѓСЋ С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ.
+     * Get the 'LastPaymentDate' element value. Дата последнего или единственного платежа за декларируемую товарную партию.
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Set the 'LastPaymentDate' element value. Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµРіРѕ РёР»Рё РµРґРёРЅСЃС‚РІРµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р° Р·Р° РґРµРєР»Р°СЂРёСЂСѓРµРјСѓСЋ С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ.
+     * Set the 'LastPaymentDate' element value. Дата последнего или единственного платежа за декларируемую товарную партию.
      * 
      * @param lastPaymentDate
      */
@@ -145,7 +145,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Get the 'LastPaymentIndicator' element value. РџСЂРёР·РЅР°Рє СЃСЂРѕРєР° РїРѕСЃР»РµРґРЅРµРіРѕ РїР»Р°С‚РµР¶Р°. 1- С„Р°РєС‚РёС‡РµСЃРєР°СЏ РґР°С‚Р°, 2- СЂР°СЃС‡РµС‚РЅС‹Р№ СЃСЂРѕРє (РґР°С‚Р° СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РїРѕСЃР»РµРґРЅРµРјСѓ РґРЅСЋ  СѓРєР°Р·Р°РЅРЅРѕРіРѕ РјРµСЃСЏС†Р°)
+     * Get the 'LastPaymentIndicator' element value. Признак срока последнего платежа. 1- фактическая дата, 2- расчетный срок (дата соответствует последнему дню  указанного месяца)
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Set the 'LastPaymentIndicator' element value. РџСЂРёР·РЅР°Рє СЃСЂРѕРєР° РїРѕСЃР»РµРґРЅРµРіРѕ РїР»Р°С‚РµР¶Р°. 1- С„Р°РєС‚РёС‡РµСЃРєР°СЏ РґР°С‚Р°, 2- СЂР°СЃС‡РµС‚РЅС‹Р№ СЃСЂРѕРє (РґР°С‚Р° СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РїРѕСЃР»РµРґРЅРµРјСѓ РґРЅСЋ  СѓРєР°Р·Р°РЅРЅРѕРіРѕ РјРµСЃСЏС†Р°)
+     * Set the 'LastPaymentIndicator' element value. Признак срока последнего платежа. 1- фактическая дата, 2- расчетный срок (дата соответствует последнему дню  указанного месяца)
      * 
      * @param lastPaymentIndicator
      */
@@ -163,7 +163,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Get the 'AgreementCurrencyCode' element value. РљРѕРґ РєР»РёСЂРёРЅРіРѕРІРѕР№ РІР°Р»СЋС‚С‹ РїРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІР°Р»СЋС‚ (СЂР°СЃРїРѕСЂСЏР¶РµРЅРёРµ Р‘Р°РЅРєР° Р РѕСЃСЃРёРё Р -212  28.07.1997)
+     * Get the 'AgreementCurrencyCode' element value. Код клиринговой валюты по Классификатору валют (распоряжение Банка России Р-212  28.07.1997)
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class DealFeaturesType
     }
 
     /** 
-     * Set the 'AgreementCurrencyCode' element value. РљРѕРґ РєР»РёСЂРёРЅРіРѕРІРѕР№ РІР°Р»СЋС‚С‹ РїРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІР°Р»СЋС‚ (СЂР°СЃРїРѕСЂСЏР¶РµРЅРёРµ Р‘Р°РЅРєР° Р РѕСЃСЃРёРё Р -212  28.07.1997)
+     * Set the 'AgreementCurrencyCode' element value. Код клиринговой валюты по Классификатору валют (распоряжение Банка России Р-212  28.07.1997)
      * 
      * @param agreementCurrencyCode
      */

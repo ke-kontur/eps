@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРїРёСЃРѕРє РІС‹СЏРІР»РµРЅРЅС‹С… РЅР° С‚РѕРІР°СЂРµ РїСЂРѕС„РёР»РµР№ СЂРёСЃРєР°
+ * Список выявленных на товаре профилей риска
  */
 public class RiskProfilesType
 {
@@ -13,7 +13,7 @@ public class RiskProfilesType
     private List<RiskProfileDescriptionType> riskProfileDescriptionList = new ArrayList<RiskProfileDescriptionType>();
 
     /** 
-     * Get the 'RiskProfileRegNumber' element value. РР” РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Get the 'RiskProfileRegNumber' element value. ИД профиля риска
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RiskProfilesType
     }
 
     /** 
-     * Set the 'RiskProfileRegNumber' element value. РР” РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Set the 'RiskProfileRegNumber' element value. ИД профиля риска
      * 
      * @param riskProfileRegNumber
      */
@@ -32,7 +32,7 @@ public class RiskProfilesType
     }
 
     /** 
-     * Get the list of 'RiskProfileDescription' element items. РћРїРёСЃР°РЅРёРµ РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂРѕРІ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Get the list of 'RiskProfileDescription' element items. Описание неформализованных индикаторов профиля риска
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class RiskProfilesType
     }
 
     /** 
-     * Set the list of 'RiskProfileDescription' element items. РћРїРёСЃР°РЅРёРµ РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂРѕРІ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Set the list of 'RiskProfileDescription' element items. Описание неформализованных индикаторов профиля риска
      * 
      * @param list
      */

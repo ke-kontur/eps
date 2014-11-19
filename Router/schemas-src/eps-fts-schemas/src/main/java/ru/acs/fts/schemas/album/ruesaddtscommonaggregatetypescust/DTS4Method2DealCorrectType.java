@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 
 /** 
- * РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° СЃС‚РѕРёРјРѕСЃС‚Рё  СЃРґРµР»РєРё. Р“СЂ. Р‘ (13-15)
+ * Корректировка стоимости  сделки. Гр. Б (13-15)
  */
 public class DTS4Method2DealCorrectType
 {
@@ -12,7 +12,7 @@ public class DTS4Method2DealCorrectType
     private String totalDealCorrect;
 
     /** 
-     * Get the 'QuantityCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° РєРѕР»РёС‡РµСЃС‚РІРѕ. 13Р°
+     * Get the 'QuantityCorrect' element value. Корректировка на количество. 13а
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DTS4Method2DealCorrectType
     }
 
     /** 
-     * Set the 'QuantityCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° РєРѕР»РёС‡РµСЃС‚РІРѕ. 13Р°
+     * Set the 'QuantityCorrect' element value. Корректировка на количество. 13а
      * 
      * @param quantityCorrect
      */
@@ -30,7 +30,7 @@ public class DTS4Method2DealCorrectType
     }
 
     /** 
-     * Get the 'CommerceCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° РєРѕРјРјРµСЂС‡РµСЃРєРёР№ СѓСЂРѕРІРµРЅСЊ. 13Р±
+     * Get the 'CommerceCorrect' element value. Корректировка на коммерческий уровень. 13б
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DTS4Method2DealCorrectType
     }
 
     /** 
-     * Set the 'CommerceCorrect' element value. РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РЅР° РєРѕРјРјРµСЂС‡РµСЃРєРёР№ СѓСЂРѕРІРµРЅСЊ. 13Р±
+     * Set the 'CommerceCorrect' element value. Корректировка на коммерческий уровень. 13б
      * 
      * @param commerceCorrect
      */
@@ -48,7 +48,7 @@ public class DTS4Method2DealCorrectType
     }
 
     /** 
-     * Get the 'TotalSum' element value. РС‚РѕРіРѕ РіСЂР°С„Р° 13  РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ. 14
+     * Get the 'TotalSum' element value. Итого графа 13  в национальной валюте. 14
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class DTS4Method2DealCorrectType
     }
 
     /** 
-     * Set the 'TotalSum' element value. РС‚РѕРіРѕ РіСЂР°С„Р° 13  РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ. 14
+     * Set the 'TotalSum' element value. Итого графа 13  в национальной валюте. 14
      * 
      * @param totalSum
      */
@@ -66,7 +66,7 @@ public class DTS4Method2DealCorrectType
     }
 
     /** 
-     * Get the 'TotalDealCorrect' element value. 15. РЎС‚РѕРёРјРѕСЃС‚СЊ СЃРґРµР»РєРё СЃ СѓС‡РµС‚РѕРј РєРѕСЂСЂРµРєС‚РёСЂРѕРІРѕРє РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ 11+-14  
+     * Get the 'TotalDealCorrect' element value. 15. Стоимость сделки с учетом корректировок в национальной валюте 11+-14  
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class DTS4Method2DealCorrectType
     }
 
     /** 
-     * Set the 'TotalDealCorrect' element value. 15. РЎС‚РѕРёРјРѕСЃС‚СЊ СЃРґРµР»РєРё СЃ СѓС‡РµС‚РѕРј РєРѕСЂСЂРµРєС‚РёСЂРѕРІРѕРє РІ РЅР°С†РёРѕРЅР°Р»СЊРЅРѕР№ РІР°Р»СЋС‚Рµ 11+-14  
+     * Set the 'TotalDealCorrect' element value. 15. Стоимость сделки с учетом корректировок в национальной валюте 11+-14  
      * 
      * @param totalDealCorrect
      */

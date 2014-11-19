@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕРєСѓРїР°С‚РµР»Рµ/РїСЂРѕРґР°РІС†Рµ
+ * Информация о покупателе/продавце
  */
 public class DealerType extends OrganizationBaseType
 {
     private AddressType dealerAddress;
 
     /** 
-     * Get the 'DealerAddress' element value. РђРґСЂРµСЃ РџРѕРєСѓРїР°С‚РµР»СЏ/РџСЂРѕРґР°РІС†Р°
+     * Get the 'DealerAddress' element value. Адрес Покупателя/Продавца
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DealerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'DealerAddress' element value. РђРґСЂРµСЃ РџРѕРєСѓРїР°С‚РµР»СЏ/РџСЂРѕРґР°РІС†Р°
+     * Set the 'DealerAddress' element value. Адрес Покупателя/Продавца
      * 
      * @param dealerAddress
      */

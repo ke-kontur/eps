@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.ktdin;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё РІ С‚РѕРІР°СЂРЅРѕР№ С‡Р°СЃС‚Рё Р”Рў
+ * Сведения об организации в товарной части ДТ
  */
 public class KDTinGoodsOrganizationType extends CUOrganizationType
 {
     private String contractorIndicator;
 
     /** 
-     * Get the 'ContractorIndicator' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№: 1 - РљРћРќРўР РђР“Р•РќРў; 2 - Р РђР—РќР«Р• РџРћ РЎРџРРЎРљРЈ
+     * Get the 'ContractorIndicator' element value. Особенность указанных сведений: 1 - КОНТРАГЕНТ; 2 - РАЗНЫЕ ПО СПИСКУ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class KDTinGoodsOrganizationType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'ContractorIndicator' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№: 1 - РљРћРќРўР РђР“Р•РќРў; 2 - Р РђР—РќР«Р• РџРћ РЎРџРРЎРљРЈ
+     * Set the 'ContractorIndicator' element value. Особенность указанных сведений: 1 - КОНТРАГЕНТ; 2 - РАЗНЫЕ ПО СПИСКУ
      * 
      * @param contractorIndicator
      */

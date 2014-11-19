@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+ * Справочный номер документа
  */
 public class AISTSDocumentIDType
 {
@@ -13,7 +13,7 @@ public class AISTSDocumentIDType
     private String docNumber;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'CustomsCode' element value. Код таможенного органа регистрации документа
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AISTSDocumentIDType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'CustomsCode' element value. Код таможенного органа регистрации документа
      * 
      * @param customsCode
      */
@@ -31,7 +31,7 @@ public class AISTSDocumentIDType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РѕС„РѕСЂРјР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IssueDate' element value. Дата оформления документа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class AISTSDocumentIDType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РѕС„РѕСЂРјР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IssueDate' element value. Дата оформления документа
      * 
      * @param issueDate
      */
@@ -49,7 +49,7 @@ public class AISTSDocumentIDType
     }
 
     /** 
-     * Get the 'DocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocNumber' element value. Номер документа
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class AISTSDocumentIDType
     }
 
     /** 
-     * Set the 'DocNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocNumber' element value. Номер документа
      * 
      * @param docNumber
      */

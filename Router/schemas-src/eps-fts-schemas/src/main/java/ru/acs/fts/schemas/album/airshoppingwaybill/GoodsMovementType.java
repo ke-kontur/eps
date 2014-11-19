@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AirportType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.FlightInfoType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР°
+ * Описание перемещения товара
  */
 public class GoodsMovementType extends FlightInfoType
 {
@@ -13,7 +13,7 @@ public class GoodsMovementType extends FlightInfoType
     private AirportType destinationAirport;
 
     /** 
-     * Get the 'ReturnFlightNumber' element value. РћР±СЂР°С‚РЅС‹Р№ РЅРѕРјРµСЂ СЂРµР№СЃР°
+     * Get the 'ReturnFlightNumber' element value. Обратный номер рейса
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GoodsMovementType extends FlightInfoType
     }
 
     /** 
-     * Set the 'ReturnFlightNumber' element value. РћР±СЂР°С‚РЅС‹Р№ РЅРѕРјРµСЂ СЂРµР№СЃР°
+     * Set the 'ReturnFlightNumber' element value. Обратный номер рейса
      * 
      * @param returnFlightNumber
      */
@@ -31,7 +31,7 @@ public class GoodsMovementType extends FlightInfoType
     }
 
     /** 
-     * Get the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationAirport' element value. Аэропорт назначения
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class GoodsMovementType extends FlightInfoType
     }
 
     /** 
-     * Set the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationAirport' element value. Аэропорт назначения
      * 
      * @param destinationAirport
      */

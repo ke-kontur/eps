@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.gtdoutcustomsmark;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsOfficialMarkType;
 
 /** 
- * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј.
+ * Служебные отметки по товарам.
  */
 public class GTDOutGoodsMarkType extends ESADGoodsOfficialMarkType
 {
@@ -13,7 +13,7 @@ public class GTDOutGoodsMarkType extends ESADGoodsOfficialMarkType
     private String code;
 
     /** 
-     * Get the 'IdentifierDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё
+     * Get the 'IdentifierDescription' element value. Описание технологической отметки
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GTDOutGoodsMarkType extends ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'IdentifierDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё
+     * Set the 'IdentifierDescription' element value. Описание технологической отметки
      * 
      * @param identifierDescription
      */
@@ -31,7 +31,7 @@ public class GTDOutGoodsMarkType extends ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'StageDescription' element value. РћРїРёСЃР°РЅРёРµ СЌС‚Р°РїР°.
+     * Get the 'StageDescription' element value. Описание этапа.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class GTDOutGoodsMarkType extends ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'StageDescription' element value. РћРїРёСЃР°РЅРёРµ СЌС‚Р°РїР°.
+     * Set the 'StageDescription' element value. Описание этапа.
      * 
      * @param stageDescription
      */
@@ -49,7 +49,7 @@ public class GTDOutGoodsMarkType extends ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'Code' element value. РљРѕРґ РѕСЃРЅРѕРІР°РЅРёСЏ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
+     * Get the 'Code' element value. Код основания продления срока выпуска товаров
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class GTDOutGoodsMarkType extends ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'Code' element value. РљРѕРґ РѕСЃРЅРѕРІР°РЅРёСЏ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ
+     * Set the 'Code' element value. Код основания продления срока выпуска товаров
      * 
      * @param code
      */

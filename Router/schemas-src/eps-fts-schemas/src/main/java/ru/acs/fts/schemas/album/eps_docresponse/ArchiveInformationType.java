@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.eps_docresponse;
 import org.joda.time.LocalDate;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РёР· Р°СЂС…РёРІР°
+ * Информация из архива
  */
 public class ArchiveInformationType
 {
@@ -12,7 +12,7 @@ public class ArchiveInformationType
     private LocalDate archDocDate;
 
     /** 
-     * Get the 'ArchDocAlbum' element value. РќРѕРјРµСЂ РІРµСЂСЃРёРё Р°Р»СЊР±РѕРјР° С„РѕСЂРјР°С‚РѕРІ
+     * Get the 'ArchDocAlbum' element value. Номер версии альбома форматов
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ArchiveInformationType
     }
 
     /** 
-     * Set the 'ArchDocAlbum' element value. РќРѕРјРµСЂ РІРµСЂСЃРёРё Р°Р»СЊР±РѕРјР° С„РѕСЂРјР°С‚РѕРІ
+     * Set the 'ArchDocAlbum' element value. Номер версии альбома форматов
      * 
      * @param archDocAlbum
      */
@@ -30,7 +30,7 @@ public class ArchiveInformationType
     }
 
     /** 
-     * Get the 'ArchDocDate' element value. Р”Р°С‚Р° РїРѕРјРµС‰РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РІ СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ Р°СЂС…РёРІ РґРµРєР»Р°СЂР°РЅС‚Р°
+     * Get the 'ArchDocDate' element value. Дата помещения документа в электронный архив декларанта
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ArchiveInformationType
     }
 
     /** 
-     * Set the 'ArchDocDate' element value. Р”Р°С‚Р° РїРѕРјРµС‰РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РІ СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ Р°СЂС…РёРІ РґРµРєР»Р°СЂР°РЅС‚Р°
+     * Set the 'ArchDocDate' element value. Дата помещения документа в электронный архив декларанта
      * 
      * @param archDocDate
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportGoodsBaseType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р° (С‚РѕРІР°СЂРѕРІ) - РІС‹РіСЂСѓР·РєР°/Р·Р°РіСЂСѓР·РєР° РІ РїРѕСЂС‚Сѓ
+ * Описание груза (товаров) - выгрузка/загрузка в порту
  */
 public class PortGoodsType extends TransportGoodsBaseType
 {
@@ -13,7 +13,7 @@ public class PortGoodsType extends TransportGoodsBaseType
     private String dimensions;
 
     /** 
-     * Get the 'PlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°
+     * Get the 'PlacesQuantity' element value. Общее количество грузовых мест товара
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PortGoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'PlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С‚РѕРІР°СЂР°
+     * Set the 'PlacesQuantity' element value. Общее количество грузовых мест товара
      * 
      * @param placesQuantity
      */
@@ -31,7 +31,7 @@ public class PortGoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class PortGoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @param grossWeightQuantity
      */
@@ -49,7 +49,7 @@ public class PortGoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'Dimensions' element value. Р Р°Р·РјРµСЂС‹ РіСЂСѓР·Р°
+     * Get the 'Dimensions' element value. Размеры груза
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class PortGoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'Dimensions' element value. Р Р°Р·РјРµСЂС‹ РіСЂСѓР·Р°
+     * Set the 'Dimensions' element value. Размеры груза
      * 
      * @param dimensions
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 
 /** 
- * Р Р°СЃС‡РµС‚ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
+ * Расчет таможенной стоимости.
  */
 public class DTSCustomsCostCalculationType
 {
@@ -40,7 +40,7 @@ public class DTSCustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTS3Method1' element value. Р”РўРЎ-3   РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 1
+     * Get the 'DTS3Method1' element value. ДТС-3   Подробности расчета таможенной стоимости по методу 1
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class DTSCustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTS3Method1' element value. Р”РўРЎ-3   РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 1
+     * Set the 'DTS3Method1' element value. ДТС-3   Подробности расчета таможенной стоимости по методу 1
      * 
      * @param DTS3Method1
      */
@@ -68,7 +68,7 @@ public class DTSCustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTS4Method236' element value. Р”РўРЎ 4 РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 2,3,6
+     * Get the 'DTS4Method236' element value. ДТС 4 Подробности расчета таможенной стоимости по методу 2,3,6
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class DTSCustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTS4Method236' element value. Р”РўРЎ 4 РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 2,3,6
+     * Set the 'DTS4Method236' element value. ДТС 4 Подробности расчета таможенной стоимости по методу 2,3,6
      * 
      * @param DTS4Method236
      */
@@ -96,7 +96,7 @@ public class DTSCustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTS4Method56' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 5,6
+     * Get the 'DTS4Method56' element value. Подробности расчета таможенной стоимости по методу 5,6
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class DTSCustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTS4Method56' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 5,6
+     * Set the 'DTS4Method56' element value. Подробности расчета таможенной стоимости по методу 5,6
      * 
      * @param DTS4Method56
      */

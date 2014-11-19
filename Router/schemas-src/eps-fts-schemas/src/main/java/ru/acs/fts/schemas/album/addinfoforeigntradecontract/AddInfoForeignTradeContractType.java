@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ РїРѕ РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІС‹Рј РєРѕРЅС‚СЂР°РєС‚Р°Рј.
+ * Дополнительные сведения по внешнеторговым контрактам.
  */
 public class AddInfoForeignTradeContractType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class AddInfoForeignTradeContractType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GTDDocumentId' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў
+     * Get the 'GTDDocumentId' element value. Уникальный идентификатор ДТ. Используется для привязки к ДТ
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class AddInfoForeignTradeContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDDocumentId' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў. РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў
+     * Set the 'GTDDocumentId' element value. Уникальный идентификатор ДТ. Используется для привязки к ДТ
      * 
      * @param GTDDocumentId
      */
@@ -39,7 +39,7 @@ public class AddInfoForeignTradeContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class AddInfoForeignTradeContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -57,7 +57,7 @@ public class AddInfoForeignTradeContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarantSignature' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ Р”Рў
+     * Get the 'DeclarantSignature' element value. Подпись лица, составившего ДТ
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class AddInfoForeignTradeContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarantSignature' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, СЃРѕСЃС‚Р°РІРёРІС€РµРіРѕ Р”Рў
+     * Set the 'DeclarantSignature' element value. Подпись лица, составившего ДТ
      * 
      * @param declarantSignature
      */
@@ -75,7 +75,7 @@ public class AddInfoForeignTradeContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'GtdRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'GtdRegNumber' element value. Регистрационный номер ДТ
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class AddInfoForeignTradeContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'GtdRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'GtdRegNumber' element value. Регистрационный номер ДТ
      * 
      * @param gtdRegNumber
      */
@@ -93,7 +93,7 @@ public class AddInfoForeignTradeContractType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the list of 'Goods' element items. Сведения о товарах
      * 
      * @return list
      */
@@ -102,7 +102,7 @@ public class AddInfoForeignTradeContractType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the list of 'Goods' element items. Сведения о товарах
      * 
      * @param list
      */
@@ -111,7 +111,7 @@ public class AddInfoForeignTradeContractType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class AddInfoForeignTradeContractType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

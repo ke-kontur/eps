@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РћР±С‰Р°СЏ (РіРµРЅРµСЂР°Р»СЊРЅР°СЏ) РґРµРєР»Р°СЂР°С†РёСЏ
+ * Общая (генеральная) декларация
  */
 public class GeneralDeclarationType extends BaseDocType
 {
@@ -36,7 +36,7 @@ public class GeneralDeclarationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Notice' element items. РџСЂРёРјРµС‡Р°РЅРёРµ 
+     * Get the list of 'Notice' element items. Примечание 
      * 
      * @return list
      */
@@ -45,7 +45,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Notice' element items. РџСЂРёРјРµС‡Р°РЅРёРµ 
+     * Set the list of 'Notice' element items. Примечание 
      * 
      * @param list
      */
@@ -54,7 +54,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'LanguageCode' element value. РљРѕРґ СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р° 
+     * Get the 'LanguageCode' element value. Код языка документа 
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'LanguageCode' element value. РљРѕРґ СЏР·С‹РєР° РґРѕРєСѓРјРµРЅС‚Р° 
+     * Set the 'LanguageCode' element value. Код языка документа 
      * 
      * @param languageCode
      */
@@ -72,7 +72,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРѕРІР»Р°РґРµР»СЊС†Р°
+     * Get the 'Carrier' element value. Наименование судовладельца
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРѕРІР»Р°РґРµР»СЊС†Р°
+     * Set the 'Carrier' element value. Наименование судовладельца
      * 
      * @param carrier
      */
@@ -90,7 +90,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ArrivalIndicator' element value. РџСЂРёР·РЅР°Рє РїСЂРёР±С‹С‚РёСЏ СЃСѓРґРЅР° РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ Р РѕСЃСЃРёР№СЃРєРѕР№ СЃС‚РѕСЂРѕРЅС‹
+     * Get the 'ArrivalIndicator' element value. Признак прибытия судна относительно Российской стороны
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArrivalIndicator' element value. РџСЂРёР·РЅР°Рє РїСЂРёР±С‹С‚РёСЏ СЃСѓРґРЅР° РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ Р РѕСЃСЃРёР№СЃРєРѕР№ СЃС‚РѕСЂРѕРЅС‹
+     * Set the 'ArrivalIndicator' element value. Признак прибытия судна относительно Российской стороны
      * 
      * @param arrivalIndicator
      */
@@ -108,7 +108,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'VoyageDescription' element value. РљСЂР°С‚РєРёРµ СЃРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ (РїСЂРµРґС‹РґСѓС‰РёРµ Рё РїРѕСЃР»РµРґСѓСЋС‰РёРµ РїРѕСЂС‚С‹ Р·Р°С…РѕРґР°; РїРѕРґС‡РµСЂРєРЅСѓС‚СЊ, РіРґРµ Р±СѓРґРµС‚ РІС‹РіСЂСѓР¶РµРЅ РѕСЃС‚Р°СЋС‰РёР№СЃСЏ РЅР° Р±РѕСЂС‚Сѓ РіСЂСѓР·)
+     * Get the 'VoyageDescription' element value. Краткие сведения о рейсе (предыдущие и последующие порты захода; подчеркнуть, где будет выгружен остающийся на борту груз)
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'VoyageDescription' element value. РљСЂР°С‚РєРёРµ СЃРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ (РїСЂРµРґС‹РґСѓС‰РёРµ Рё РїРѕСЃР»РµРґСѓСЋС‰РёРµ РїРѕСЂС‚С‹ Р·Р°С…РѕРґР°; РїРѕРґС‡РµСЂРєРЅСѓС‚СЊ, РіРґРµ Р±СѓРґРµС‚ РІС‹РіСЂСѓР¶РµРЅ РѕСЃС‚Р°СЋС‰РёР№СЃСЏ РЅР° Р±РѕСЂС‚Сѓ РіСЂСѓР·)
+     * Set the 'VoyageDescription' element value. Краткие сведения о рейсе (предыдущие и последующие порты захода; подчеркнуть, где будет выгружен остающийся на борту груз)
      * 
      * @param voyageDescription
      */
@@ -126,7 +126,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РљСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
+     * Get the list of 'GoodsDescription' element items. Краткое описание груза
      * 
      * @return list
      */
@@ -135,7 +135,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РљСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
+     * Set the list of 'GoodsDescription' element items. Краткое описание груза
      * 
      * @param list
      */
@@ -144,7 +144,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'MembershipNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р° СЃСѓРґРЅР°, РІРєР»СЋС‡Р°СЏ РєР°РїРёС‚Р°РЅР°
+     * Get the 'MembershipNumber' element value. Количество членов экипажа судна, включая капитана
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'MembershipNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р° СЃСѓРґРЅР°, РІРєР»СЋС‡Р°СЏ РєР°РїРёС‚Р°РЅР°
+     * Set the 'MembershipNumber' element value. Количество членов экипажа судна, включая капитана
      * 
      * @param membershipNumber
      */
@@ -162,7 +162,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'PassengerNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ 
+     * Get the 'PassengerNumber' element value. Количество пассажиров 
      * 
      * @return value
      */
@@ -171,7 +171,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'PassengerNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ 
+     * Set the 'PassengerNumber' element value. Количество пассажиров 
      * 
      * @param passengerNumber
      */
@@ -180,7 +180,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeparturePort' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ СЃСѓРґРЅР°
+     * Get the 'DeparturePort' element value. Название порта отправления судна
      * 
      * @return value
      */
@@ -189,7 +189,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeparturePort' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ СЃСѓРґРЅР°
+     * Set the 'DeparturePort' element value. Название порта отправления судна
      * 
      * @param departurePort
      */
@@ -198,7 +198,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationPort' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ СЃСѓРґРЅР°
+     * Get the 'DestinationPort' element value. Название порта назначения судна
      * 
      * @return value
      */
@@ -207,7 +207,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationPort' element value. РќР°Р·РІР°РЅРёРµ РїРѕСЂС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ СЃСѓРґРЅР°
+     * Set the 'DestinationPort' element value. Название порта назначения судна
      * 
      * @param destinationPort
      */
@@ -216,7 +216,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Mooring' element value. РњРµСЃС‚Рѕ СЃС‚РѕСЏРЅРєРё СЃСѓРґРЅР° РІ РїРѕСЂС‚Сѓ
+     * Get the 'Mooring' element value. Место стоянки судна в порту
      * 
      * @return value
      */
@@ -225,7 +225,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Mooring' element value. РњРµСЃС‚Рѕ СЃС‚РѕСЏРЅРєРё СЃСѓРґРЅР° РІ РїРѕСЂС‚Сѓ
+     * Set the 'Mooring' element value. Место стоянки судна в порту
      * 
      * @param mooring
      */
@@ -234,7 +234,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'VesselRegistration' element value. Р РµРєРІРёР·РёС‚С‹ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё СЃСѓРґРЅР°, СЃРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
+     * Get the 'VesselRegistration' element value. Реквизиты и характеристики судна, сведения о регистрации судна
      * 
      * @return value
      */
@@ -243,7 +243,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'VesselRegistration' element value. Р РµРєРІРёР·РёС‚С‹ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё СЃСѓРґРЅР°, СЃРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
+     * Set the 'VesselRegistration' element value. Реквизиты и характеристики судна, сведения о регистрации судна
      * 
      * @param vesselRegistration
      */
@@ -252,7 +252,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕРєСѓРјРµРЅС‚Р° РєР°РїРёС‚Р°РЅРѕРј, РјРѕСЂСЃРєРёРј Р°РіРµРЅС‚РѕРј РёР»Рё РєР°РєРёРј-Р»РёР±Рѕ РґСЂСѓРіРёРј Р»РёС†РѕРј, РЅР°РґР»РµР¶Р°С‰РёРј РѕР±СЂР°Р·РѕРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Рј РЅР° С‚Рѕ РєР°РїРёС‚Р°РЅРѕРј
+     * Get the 'DocumentSignature' element value. Подпись документа капитаном, морским агентом или каким-либо другим лицом, надлежащим образом уполномоченным на то капитаном
      * 
      * @return value
      */
@@ -261,7 +261,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕРєСѓРјРµРЅС‚Р° РєР°РїРёС‚Р°РЅРѕРј, РјРѕСЂСЃРєРёРј Р°РіРµРЅС‚РѕРј РёР»Рё РєР°РєРёРј-Р»РёР±Рѕ РґСЂСѓРіРёРј Р»РёС†РѕРј, РЅР°РґР»РµР¶Р°С‰РёРј РѕР±СЂР°Р·РѕРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Рј РЅР° С‚Рѕ РєР°РїРёС‚Р°РЅРѕРј
+     * Set the 'DocumentSignature' element value. Подпись документа капитаном, морским агентом или каким-либо другим лицом, надлежащим образом уполномоченным на то капитаном
      * 
      * @param documentSignature
      */
@@ -270,7 +270,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShipAgent' element value. РЎСѓРґРѕРІРѕР№ Р°РіРµРЅС‚
+     * Get the 'ShipAgent' element value. Судовой агент
      * 
      * @return value
      */
@@ -279,7 +279,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShipAgent' element value. РЎСѓРґРѕРІРѕР№ Р°РіРµРЅС‚
+     * Set the 'ShipAgent' element value. Судовой агент
      * 
      * @param shipAgent
      */
@@ -313,7 +313,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Arrival' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё
+     * Get the 'Arrival' element value. Сведения о прибытии
      * 
      * @return value
      */
@@ -322,7 +322,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Arrival' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё
+     * Set the 'Arrival' element value. Сведения о прибытии
      * 
      * @param arrival
      */
@@ -341,7 +341,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sailing' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓР±С‹С‚РёРё
+     * Get the 'Sailing' element value. Сведения об убытии
      * 
      * @return value
      */
@@ -350,7 +350,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sailing' element value. РЎРІРµРґРµРЅРёСЏ РѕР± СѓР±С‹С‚РёРё
+     * Set the 'Sailing' element value. Сведения об убытии
      * 
      * @param sailing
      */
@@ -360,7 +360,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'EnclosedDocument' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёР»Р°РіР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Get the 'EnclosedDocument' element value. Информация о прилагаемых документах
      * 
      * @return value
      */
@@ -369,7 +369,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'EnclosedDocument' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРёР»Р°РіР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Set the 'EnclosedDocument' element value. Информация о прилагаемых документах
      * 
      * @param enclosedDocument
      */
@@ -378,7 +378,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @return value
      */
@@ -387,7 +387,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @param customs
      */
@@ -396,7 +396,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -405,7 +405,7 @@ public class GeneralDeclarationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёРµ Рѕ СЂРµС€РµРЅРёРё РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
+ * Сведение о решении по таможенной стоимости.
  */
 public class CustomsCostDecisionType
 {
@@ -14,7 +14,7 @@ public class CustomsCostDecisionType
     private String decisionDescription;
 
     /** 
-     * Get the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the 'DecisionCode' element value. Код решения о таможенной стоимости
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class CustomsCostDecisionType
     }
 
     /** 
-     * Set the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the 'DecisionCode' element value. Код решения о таможенной стоимости
      * 
      * @param decisionCode
      */
@@ -32,7 +32,7 @@ public class CustomsCostDecisionType
     }
 
     /** 
-     * Get the 'LNP' element value. Р›РќРџ
+     * Get the 'LNP' element value. ЛНП
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CustomsCostDecisionType
     }
 
     /** 
-     * Set the 'LNP' element value. Р›РќРџ
+     * Set the 'LNP' element value. ЛНП
      * 
      * @param LNP
      */
@@ -50,7 +50,7 @@ public class CustomsCostDecisionType
     }
 
     /** 
-     * Get the 'DateInf' element value. Р”Р°С‚Р°
+     * Get the 'DateInf' element value. Дата
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class CustomsCostDecisionType
     }
 
     /** 
-     * Set the 'DateInf' element value. Р”Р°С‚Р°
+     * Set the 'DateInf' element value. Дата
      * 
      * @param dateInf
      */
@@ -68,7 +68,7 @@ public class CustomsCostDecisionType
     }
 
     /** 
-     * Get the 'DecisionDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ.
+     * Get the 'DecisionDescription' element value. Описание принятого решения.
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class CustomsCostDecisionType
     }
 
     /** 
-     * Set the 'DecisionDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ.
+     * Set the 'DecisionDescription' element value. Описание принятого решения.
      * 
      * @param decisionDescription
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РњРµР¶РґСѓРЅР°СЂРѕРґРЅР°СЏ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ РїРѕ С„РѕСЂРјРµ РЎРњР“РЎ 
+ * Международная железнодорожная накладная по форме СМГС 
  */
 public class RailwayBillType extends BaseDocType
 {
@@ -41,7 +41,7 @@ public class RailwayBillType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ РЎРњР“РЎ
+     * Get the 'Number' element value. Номер СМГС
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ РЎРњР“РЎ
+     * Set the 'Number' element value. Номер СМГС
      * 
      * @param number
      */
@@ -59,7 +59,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConsignorNotice' element value. РћСЃРѕР±С‹Рµ Р·Р°СЏРІР»РµРЅРёСЏ РѕС‚РїСЂР°РІРёС‚РµР»СЏ
+     * Get the 'ConsignorNotice' element value. Особые заявления отправителя
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConsignorNotice' element value. РћСЃРѕР±С‹Рµ Р·Р°СЏРІР»РµРЅРёСЏ РѕС‚РїСЂР°РІРёС‚РµР»СЏ
+     * Set the 'ConsignorNotice' element value. Особые заявления отправителя
      * 
      * @param consignorNotice
      */
@@ -77,7 +77,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConsignorOptionNotice' element value. РћС‚РјРµС‚РєРё РѕС‚РїСЂР°РІРёС‚РµР»СЏ, РЅРµРѕР±СЏР·Р°С‚РµР»СЊРЅС‹Рµ РґР»СЏ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРё
+     * Get the 'ConsignorOptionNotice' element value. Отметки отправителя, необязательные для железной дороги
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConsignorOptionNotice' element value. РћС‚РјРµС‚РєРё РѕС‚РїСЂР°РІРёС‚РµР»СЏ, РЅРµРѕР±СЏР·Р°С‚РµР»СЊРЅС‹Рµ РґР»СЏ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРё
+     * Set the 'ConsignorOptionNotice' element value. Отметки отправителя, необязательные для железной дороги
      * 
      * @param consignorOptionNotice
      */
@@ -95,7 +95,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'PlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ РѕС‚РїСЂР°РІРєРё С‚РѕРІР°СЂРѕРІ РЅР°РєР»Р°РґРЅРѕР№.  Р’ СЃР»СѓС‡Р°Рµ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ "РќР°РІР°Р»РѕРј" РёР»Рё "РќР°Р»РёРІ"  РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ.
+     * Get the 'PlacesQuantity' element value. Общее количество грузовых мест отправки товаров накладной.  В случае транспортировке "Навалом" или "Налив"  не заполняется.
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'PlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ РѕС‚РїСЂР°РІРєРё С‚РѕРІР°СЂРѕРІ РЅР°РєР»Р°РґРЅРѕР№.  Р’ СЃР»СѓС‡Р°Рµ С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРµ "РќР°РІР°Р»РѕРј" РёР»Рё "РќР°Р»РёРІ"  РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ.
+     * Set the 'PlacesQuantity' element value. Общее количество грузовых мест отправки товаров накладной.  В случае транспортировке "Навалом" или "Налив"  не заполняется.
      * 
      * @param placesQuantity
      */
@@ -113,7 +113,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ С‚РѕРІР°СЂРѕРІ, РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ РѕС‚РїСЂР°РІРёС‚РµР»РµРј, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Общий вес товаров, определенный отправителем, брутто (кг)
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ С‚РѕРІР°СЂРѕРІ, РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ РѕС‚РїСЂР°РІРёС‚РµР»РµРј, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Общий вес товаров, определенный отправителем, брутто (кг)
      * 
      * @param grossWeightQuantity
      */
@@ -131,7 +131,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartureModeDescription' element value. РћРїРёСЃР°РЅРёРµ СЂРѕРґР° РѕС‚РїСЂР°РІРєРё 
+     * Get the 'DepartureModeDescription' element value. Описание рода отправки 
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureModeDescription' element value. РћРїРёСЃР°РЅРёРµ СЂРѕРґР° РѕС‚РїСЂР°РІРєРё 
+     * Set the 'DepartureModeDescription' element value. Описание рода отправки 
      * 
      * @param departureModeDescription
      */
@@ -149,7 +149,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'LoaderModeDescription' element value. РћРїРёСЃР°РЅРёРµ РєРµРј РїРѕРіСЂСѓР¶РµРЅРѕ
+     * Get the 'LoaderModeDescription' element value. Описание кем погружено
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'LoaderModeDescription' element value. РћРїРёСЃР°РЅРёРµ РєРµРј РїРѕРіСЂСѓР¶РµРЅРѕ
+     * Set the 'LoaderModeDescription' element value. Описание кем погружено
      * 
      * @param loaderModeDescription
      */
@@ -167,7 +167,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalSheetQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёР»РѕР¶РµРЅРЅС‹С… РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… Р»РёСЃС‚РѕРІ Рє РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'AdditionalSheetQuantity' element value. Количество приложенных дополнительных листов к накладной
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalSheetQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёР»РѕР¶РµРЅРЅС‹С… РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… Р»РёСЃС‚РѕРІ Рє РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'AdditionalSheetQuantity' element value. Количество приложенных дополнительных листов к накладной
      * 
      * @param additionalSheetQuantity
      */
@@ -185,7 +185,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'CargoValue' element value. РћР±СЉСЏРІР»РµРЅРЅР°СЏ С†РµРЅРЅРѕСЃС‚СЊ РіСЂСѓР·Р°, СЂСѓР±.
+     * Get the 'CargoValue' element value. Объявленная ценность груза, руб.
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'CargoValue' element value. РћР±СЉСЏРІР»РµРЅРЅР°СЏ С†РµРЅРЅРѕСЃС‚СЊ РіСЂСѓР·Р°, СЂСѓР±.
+     * Set the 'CargoValue' element value. Объявленная ценность груза, руб.
      * 
      * @param cargoValue
      */
@@ -203,7 +203,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsNotice' element value. РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕСЂРіР°РЅРѕРІ
+     * Get the 'CustomsNotice' element value. Отметки таможенных органов
      * 
      * @return value
      */
@@ -212,7 +212,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsNotice' element value. РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕСЂРіР°РЅРѕРІ
+     * Set the 'CustomsNotice' element value. Отметки таможенных органов
      * 
      * @param customsNotice
      */
@@ -221,7 +221,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'WeightDefinitionModeDescription' element value. CРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ РІРµСЃР°
+     * Get the 'WeightDefinitionModeDescription' element value. Cпособ определения веса
      * 
      * @return value
      */
@@ -230,7 +230,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'WeightDefinitionModeDescription' element value. CРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ РІРµСЃР°
+     * Set the 'WeightDefinitionModeDescription' element value. Cпособ определения веса
      * 
      * @param weightDefinitionModeDescription
      */
@@ -240,7 +240,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationDocument' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РЎРњР“РЎ (РіСЂР°С„Р° 25 РЎРњР“РЎ)
+     * Get the 'RegistrationDocument' element value. Информация о регистрации СМГС (графа 25 СМГС)
      * 
      * @return value
      */
@@ -249,7 +249,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationDocument' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РЎРњР“РЎ (РіСЂР°С„Р° 25 РЎРњР“РЎ)
+     * Set the 'RegistrationDocument' element value. Информация о регистрации СМГС (графа 25 СМГС)
      * 
      * @param registrationDocument
      */
@@ -258,7 +258,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»Рµ (РіСЂР°С„Р° 1 РЎРњР“РЎ)
+     * Get the 'Consignor' element value. Сведения о грузоотправителе (графа 1 СМГС)
      * 
      * @return value
      */
@@ -267,7 +267,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»Рµ (РіСЂР°С„Р° 1 РЎРњР“РЎ)
+     * Set the 'Consignor' element value. Сведения о грузоотправителе (графа 1 СМГС)
      * 
      * @param consignor
      */
@@ -276,7 +276,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»Рµ (Р“СЂР°С„Р° 5 РЎРњР“РЎ)
+     * Get the 'Consignee' element value. Сведения о грузополучателе (Графа 5 СМГС)
      * 
      * @return value
      */
@@ -285,7 +285,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»Рµ (Р“СЂР°С„Р° 5 РЎРњР“РЎ)
+     * Set the 'Consignee' element value. Сведения о грузополучателе (Графа 5 СМГС)
      * 
      * @param consignee
      */
@@ -294,7 +294,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'DepartureStation' element value. Р–/Рґ СЃС‚Р°РЅС†РёСЏ Рё РґРѕСЂРѕРіР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ (РіСЂР°С„Р° 3 РЎРњР“РЎ)
+     * Get the 'DepartureStation' element value. Ж/д станция и дорога отправления (графа 3 СМГС)
      * 
      * @return value
      */
@@ -303,7 +303,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureStation' element value. Р–/Рґ СЃС‚Р°РЅС†РёСЏ Рё РґРѕСЂРѕРіР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ (РіСЂР°С„Р° 3 РЎРњР“РЎ)
+     * Set the 'DepartureStation' element value. Ж/д станция и дорога отправления (графа 3 СМГС)
      * 
      * @param departureStation
      */
@@ -312,7 +312,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationStation' element value. Р–/Рґ СЃС‚Р°РЅС†РёСЏ Рё РґРѕСЂРѕРіР° РЅР°Р·РЅР°С‡РµРЅРёСЏ (РіСЂР°С„Р° 8 РЎРњР“РЎ)
+     * Get the 'DestinationStation' element value. Ж/д станция и дорога назначения (графа 8 СМГС)
      * 
      * @return value
      */
@@ -321,7 +321,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationStation' element value. Р–/Рґ СЃС‚Р°РЅС†РёСЏ Рё РґРѕСЂРѕРіР° РЅР°Р·РЅР°С‡РµРЅРёСЏ (РіСЂР°С„Р° 8 РЎРњР“РЎ)
+     * Set the 'DestinationStation' element value. Ж/д станция и дорога назначения (графа 8 СМГС)
      * 
      * @param destinationStation
      */
@@ -330,7 +330,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'BorderStation' element items. РџРѕРіСЂР°РЅРёС‡РЅС‹Рµ Р¶/Рґ СЃС‚Р°РЅС†РёСЏ Рё РґРѕСЂРѕРіР° РЅР°Р·РЅР°С‡РµРЅРёСЏ (РіСЂР°С„Р° 7 РЎРњР“РЎ)
+     * Get the list of 'BorderStation' element items. Пограничные ж/д станция и дорога назначения (графа 7 СМГС)
      * 
      * @return list
      */
@@ -339,7 +339,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'BorderStation' element items. РџРѕРіСЂР°РЅРёС‡РЅС‹Рµ Р¶/Рґ СЃС‚Р°РЅС†РёСЏ Рё РґРѕСЂРѕРіР° РЅР°Р·РЅР°С‡РµРЅРёСЏ (РіСЂР°С„Р° 7 РЎРњР“РЎ)
+     * Set the list of 'BorderStation' element items. Пограничные ж/д станция и дорога назначения (графа 7 СМГС)
      * 
      * @param list
      */
@@ -348,7 +348,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРіРѕРІРѕСЂР° РЅР° РїРѕСЃС‚Р°РІРєСѓ, Р·Р°РєР»СЋС‡РµРЅРЅРѕРіРѕ РјРµР¶РґСѓ СЌРєСЃРїРѕСЂС‚РµСЂРѕРј Рё РёРјРїРѕСЂС‚РµСЂРѕРј
+     * Get the 'Contract' element value. Реквизиты договора на поставку, заключенного между экспортером и импортером
      * 
      * @return value
      */
@@ -357,7 +357,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРіРѕРІРѕСЂР° РЅР° РїРѕСЃС‚Р°РІРєСѓ, Р·Р°РєР»СЋС‡РµРЅРЅРѕРіРѕ РјРµР¶РґСѓ СЌРєСЃРїРѕСЂС‚РµСЂРѕРј Рё РёРјРїРѕСЂС‚РµСЂРѕРј
+     * Set the 'Contract' element value. Реквизиты договора на поставку, заключенного между экспортером и импортером
      * 
      * @param contract
      */
@@ -366,7 +366,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RWBGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… РЅР°РєР»Р°РґРЅРѕР№
+     * Get the list of 'RWBGoods' element items. Сведения о товарах накладной
      * 
      * @return list
      */
@@ -375,7 +375,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RWBGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… РЅР°РєР»Р°РґРЅРѕР№
+     * Set the list of 'RWBGoods' element items. Сведения о товарах накладной
      * 
      * @param list
      */
@@ -384,7 +384,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExchangePallet' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РјРµРЅРЅС‹С… РїРѕРґРґРѕРЅР°С… (РіСЂР°С„Р° 17 РЎРњР“РЎ)
+     * Get the 'ExchangePallet' element value. Сведения об обменных поддонах (графа 17 СМГС)
      * 
      * @return value
      */
@@ -393,7 +393,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExchangePallet' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РјРµРЅРЅС‹С… РїРѕРґРґРѕРЅР°С… (РіСЂР°С„Р° 17 РЎРњР“РЎ)
+     * Set the 'ExchangePallet' element value. Сведения об обменных поддонах (графа 17 СМГС)
      * 
      * @param exchangePallet
      */
@@ -402,7 +402,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'WorkTool' element value. РћРїРёСЃР°РЅРёРµ РїРµСЂРµРІРѕР·РѕС‡РЅС‹С… РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёР№
+     * Get the 'WorkTool' element value. Описание перевозочных приспособлений
      * 
      * @return value
      */
@@ -411,7 +411,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'WorkTool' element value. РћРїРёСЃР°РЅРёРµ РїРµСЂРµРІРѕР·РѕС‡РЅС‹С… РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёР№
+     * Set the 'WorkTool' element value. Описание перевозочных приспособлений
      * 
      * @param workTool
      */
@@ -420,7 +420,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Container' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Get the list of 'Container' element items. Сведения о контейнере
      * 
      * @return list
      */
@@ -429,7 +429,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Container' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Set the list of 'Container' element items. Сведения о контейнере
      * 
      * @param list
      */
@@ -438,7 +438,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ConsignorDocument' element items. Р”РѕРєСѓРјРµРЅС‚С‹, РїСЂРёР»РѕР¶РµРЅРЅС‹Рµ РѕС‚РїСЂР°РІРёС‚РµР»РµРј (РіСЂР°С„Р° 23 РЎРњР“РЎ)
+     * Get the list of 'ConsignorDocument' element items. Документы, приложенные отправителем (графа 23 СМГС)
      * 
      * @return list
      */
@@ -447,7 +447,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ConsignorDocument' element items. Р”РѕРєСѓРјРµРЅС‚С‹, РїСЂРёР»РѕР¶РµРЅРЅС‹Рµ РѕС‚РїСЂР°РІРёС‚РµР»РµРј (РіСЂР°С„Р° 23 РЎРњР“РЎ)
+     * Set the list of 'ConsignorDocument' element items. Документы, приложенные отправителем (графа 23 СМГС)
      * 
      * @param list
      */
@@ -456,7 +456,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Carriage' element items. Р”Р°РЅРЅС‹Рµ РѕР± РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РІР°РіРѕРЅР°С… 
+     * Get the list of 'Carriage' element items. Данные об используемых вагонах 
      * 
      * @return list
      */
@@ -465,7 +465,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Carriage' element items. Р”Р°РЅРЅС‹Рµ РѕР± РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РІР°РіРѕРЅР°С… 
+     * Set the list of 'Carriage' element items. Данные об используемых вагонах 
      * 
      * @param list
      */
@@ -474,7 +474,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Seal' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ Рё Р·РЅР°РєРё РїР»РѕРјР±,  РЅР°Р»РѕР¶РµРЅРЅС‹С… РЅР° РІР°РіРѕРЅ РёР»Рё РєРѕРЅС‚РµР№РЅРµСЂ (РіСЂР°С„Р° 45 РЎРњР“РЎ)
+     * Get the list of 'Seal' element items. Количество и знаки пломб,  наложенных на вагон или контейнер (графа 45 СМГС)
      * 
      * @return list
      */
@@ -483,7 +483,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Seal' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ Рё Р·РЅР°РєРё РїР»РѕРјР±,  РЅР°Р»РѕР¶РµРЅРЅС‹С… РЅР° РІР°РіРѕРЅ РёР»Рё РєРѕРЅС‚РµР№РЅРµСЂ (РіСЂР°С„Р° 45 РЎРњР“РЎ)
+     * Set the list of 'Seal' element items. Количество и знаки пломб,  наложенных на вагон или контейнер (графа 45 СМГС)
      * 
      * @param list
      */
@@ -492,7 +492,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PaidRailwayCodeName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёСЏ Рё РєРѕРґС‹ С‚СЂР°РЅР·РёС‚РЅС‹С… Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹С… РґРѕСЂРѕРі, Р·Р° РїРµСЂРµРІРѕР·РєСѓ РїРѕ РєРѕС‚РѕСЂС‹Рј РѕС‚РїСЂР°РІРёС‚РµР»СЊ РїСЂРёРЅРёРјР°РµС‚ РЅР° СЃРµР±СЏ РїР»Р°С‚РµР¶Рё
+     * Get the list of 'PaidRailwayCodeName' element items. Наименования и коды транзитных железнодорожных дорог, за перевозку по которым отправитель принимает на себя платежи
      * 
      * @return list
      */
@@ -501,7 +501,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PaidRailwayCodeName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёСЏ Рё РєРѕРґС‹ С‚СЂР°РЅР·РёС‚РЅС‹С… Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹С… РґРѕСЂРѕРі, Р·Р° РїРµСЂРµРІРѕР·РєСѓ РїРѕ РєРѕС‚РѕСЂС‹Рј РѕС‚РїСЂР°РІРёС‚РµР»СЊ РїСЂРёРЅРёРјР°РµС‚ РЅР° СЃРµР±СЏ РїР»Р°С‚РµР¶Рё
+     * Set the list of 'PaidRailwayCodeName' element items. Наименования и коды транзитных железнодорожных дорог, за перевозку по которым отправитель принимает на себя платежи
      * 
      * @param list
      */
@@ -510,7 +510,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
+     * Get the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
      * 
      * @return value
      */
@@ -519,7 +519,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'Mark' element value. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ.
+     * Set the 'Mark' element value. Отметки о прохождении товарами таможенного и иных видов государственного контроля.
      * 
      * @param mark
      */
@@ -528,7 +528,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -537,7 +537,7 @@ public class RailwayBillType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

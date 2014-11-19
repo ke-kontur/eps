@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUConsigmentType;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADReloadingInfoType;
 
 /** 
- * Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ РіСЂ. 15, 15Р°, 17,17Р°, 18, 19, 21, 25, 26, 29
+ * ДТ и ТД. Внутренний формат. Сведения о перевозке товаров гр. 15, 15а, 17,17а, 18, 19, 21, 25, 26, 29
  */
 public class ESADinConsigmentType extends CUConsigmentType
 {
@@ -22,7 +22,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     private CUCustomsType PPBorderCustoms;
 
     /** 
-     * Get the 'DateExpectedArrival' element value. Р”Р°С‚Р° РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°. РўР”
+     * Get the 'DateExpectedArrival' element value. Дата ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска. ТД
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the 'DateExpectedArrival' element value. Р”Р°С‚Р° РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°. РўР”
+     * Set the 'DateExpectedArrival' element value. Дата ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска. ТД
      * 
      * @param dateExpectedArrival
      */
@@ -40,7 +40,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Get the 'TimeExpectedArrival' element value. Р’СЂРµРјСЏ РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°. РўР”
+     * Get the 'TimeExpectedArrival' element value. Время ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска. ТД
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the 'TimeExpectedArrival' element value. Р’СЂРµРјСЏ РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°. РўР”
+     * Set the 'TimeExpectedArrival' element value. Время ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска. ТД
      * 
      * @param timeExpectedArrival
      */
@@ -58,7 +58,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Get the 'ESADinDepartureArrivalTransport' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РїСЂРё РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё. Р“СЂ. 18, 26 Р”Рў
+     * Get the 'ESADinDepartureArrivalTransport' element value. ДТ и ТД. Внутренний формат. Транспортные средства при прибытии/убытии. Гр. 18, 26 ДТ
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the 'ESADinDepartureArrivalTransport' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РїСЂРё РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё. Р“СЂ. 18, 26 Р”Рў
+     * Set the 'ESADinDepartureArrivalTransport' element value. ДТ и ТД. Внутренний формат. Транспортные средства при прибытии/убытии. Гр. 18, 26 ДТ
      * 
      * @param ESADinDepartureArrivalTransport
      */
@@ -77,7 +77,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Get the 'ESADinBorderTransportMeans' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РЅР° РіСЂР°РЅРёС†Рµ. Р“СЂ. 21, 25 Р”Рў
+     * Get the 'ESADinBorderTransportMeans' element value. ДТ и ТД. Внутренний формат. Транспортные средства на границе. Гр. 21, 25 ДТ
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the 'ESADinBorderTransportMeans' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РЅР° РіСЂР°РЅРёС†Рµ. Р“СЂ. 21, 25 Р”Рў
+     * Set the 'ESADinBorderTransportMeans' element value. ДТ и ТД. Внутренний формат. Транспортные средства на границе. Гр. 21, 25 ДТ
      * 
      * @param ESADinBorderTransportMeans
      */
@@ -96,7 +96,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Get the list of 'ESADinReloadingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРіСЂСѓР·РєРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 55 РўР”
+     * Get the list of 'ESADinReloadingInfo' element items. Информация о перегрузке товаров. Гр. 55 ТД
      * 
      * @return list
      */
@@ -105,7 +105,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the list of 'ESADinReloadingInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРіСЂСѓР·РєРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 55 РўР”
+     * Set the list of 'ESADinReloadingInfo' element items. Информация о перегрузке товаров. Гр. 55 ТД
      * 
      * @param list
      */
@@ -114,7 +114,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Get the 'DeliveryCustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ РїСЂРё С‚СЂР°РЅР·РёС‚Рµ.РіСЂ.53 РўР”
+     * Get the 'DeliveryCustomsOffice' element value. Таможенный орган назначения при транзите.гр.53 ТД
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the 'DeliveryCustomsOffice' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ РїСЂРё С‚СЂР°РЅР·РёС‚Рµ.РіСЂ.53 РўР”
+     * Set the 'DeliveryCustomsOffice' element value. Таможенный орган назначения при транзите.гр.53 ТД
      * 
      * @param deliveryCustomsOffice
      */
@@ -132,7 +132,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Get the 'PPBorderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ (РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РІ РєРѕС‚РѕСЂС‹Р№ РѕР¶РёРґР°РµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the 'PPBorderCustoms' element value. Таможенный орган (пограничный пункт пропуска), в который ожидается прибытие товаров и транспортных средств
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class ESADinConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the 'PPBorderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ (РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РІ РєРѕС‚РѕСЂС‹Р№ РѕР¶РёРґР°РµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the 'PPBorderCustoms' element value. Таможенный орган (пограничный пункт пропуска), в который ожидается прибытие товаров и транспортных средств
      * 
      * @param PPBorderCustoms
      */

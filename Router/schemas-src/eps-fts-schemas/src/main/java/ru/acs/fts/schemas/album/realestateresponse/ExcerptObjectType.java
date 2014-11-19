@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.realestateresponse;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РёР· Р•Р“Р Рџ
+ * Информация из ЕГРП
  */
 public class ExcerptObjectType
 {
@@ -11,7 +11,7 @@ public class ExcerptObjectType
     private EstateObjectType estateObject;
 
     /** 
-     * Get the 'RightAssert' element value. РџСЂР°РІРѕРїСЂРёС‚СЏР·Р°РЅРёСЏ
+     * Get the 'RightAssert' element value. Правопритязания
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ExcerptObjectType
     }
 
     /** 
-     * Set the 'RightAssert' element value. РџСЂР°РІРѕРїСЂРёС‚СЏР·Р°РЅРёСЏ
+     * Set the 'RightAssert' element value. Правопритязания
      * 
      * @param rightAssert
      */
@@ -29,7 +29,7 @@ public class ExcerptObjectType
     }
 
     /** 
-     * Get the 'RightClaim' element value. РџСЂР°РІРѕ С‚СЂРµР±РѕРІР°РЅРёСЏ
+     * Get the 'RightClaim' element value. Право требования
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ExcerptObjectType
     }
 
     /** 
-     * Set the 'RightClaim' element value. РџСЂР°РІРѕ С‚СЂРµР±РѕРІР°РЅРёСЏ
+     * Set the 'RightClaim' element value. Право требования
      * 
      * @param rightClaim
      */
@@ -47,7 +47,7 @@ public class ExcerptObjectType
     }
 
     /** 
-     * Get the 'EstateObject' element value. РћР±СЉРµРєС‚ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
+     * Get the 'EstateObject' element value. Объект недвижимости
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ExcerptObjectType
     }
 
     /** 
-     * Set the 'EstateObject' element value. РћР±СЉРµРєС‚ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
+     * Set the 'EstateObject' element value. Объект недвижимости
      * 
      * @param estateObject
      */

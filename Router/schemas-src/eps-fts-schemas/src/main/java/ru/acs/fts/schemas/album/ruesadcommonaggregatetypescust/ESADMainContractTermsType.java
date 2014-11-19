@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DeliveryTermsType;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ContractCostType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± СѓСЃР»РѕРІРёСЏС… СЃРґРµР»РєРё. Р“СЂ. 11, 20, 22, 23, 28.
+ * Сведения об условиях сделки. Гр. 11, 20, 22, 23, 28.
  */
 public class ESADMainContractTermsType extends ContractCostType
 {
@@ -20,7 +20,7 @@ public class ESADMainContractTermsType extends ContractCostType
     private DealFeaturesType dealFeatures;
 
     /** 
-     * Get the 'TradeCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ С‚РѕСЂРіСѓСЋС‰РµР№ СЃС‚СЂР°РЅС‹ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°.
+     * Get the 'TradeCountryCode' element value. Буквенный код торгующей страны по общероссийскому классификатору стран мира.
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'TradeCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ С‚РѕСЂРіСѓСЋС‰РµР№ СЃС‚СЂР°РЅС‹ РїРѕ РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРѕРјСѓ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°.
+     * Set the 'TradeCountryCode' element value. Буквенный код торгующей страны по общероссийскому классификатору стран мира.
      * 
      * @param tradeCountryCode
      */
@@ -38,7 +38,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Get the 'AdditionalFinancialData' element value. РРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ, Р·Р°СЏРІР»СЏРµРјС‹Рµ РІ РіСЂ. 28 РїРѕРґ РЅРѕРјРµСЂРѕРј 1.
+     * Get the 'AdditionalFinancialData' element value. Иные сведения, заявляемые в гр. 28 под номером 1.
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'AdditionalFinancialData' element value. РРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ, Р·Р°СЏРІР»СЏРµРјС‹Рµ РІ РіСЂ. 28 РїРѕРґ РЅРѕРјРµСЂРѕРј 1.
+     * Set the 'AdditionalFinancialData' element value. Иные сведения, заявляемые в гр. 28 под номером 1.
      * 
      * @param additionalFinancialData
      */
@@ -56,7 +56,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Get the 'RBCountryCode' element value. РљРѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅ, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ. Р“СЂ.11, 2-Р№ РїРѕРґСЂР°Р·РґРµР»
+     * Get the 'RBCountryCode' element value. Код административно-территориального деления страны в соответствии с Классификатором административно-территориального деления стран, применяемым в Республике Беларусь. Гр.11, 2-й подраздел
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'RBCountryCode' element value. РљРѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕ-С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РґРµР»РµРЅРёСЏ СЃС‚СЂР°РЅ, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ. Р“СЂ.11, 2-Р№ РїРѕРґСЂР°Р·РґРµР»
+     * Set the 'RBCountryCode' element value. Код административно-территориального деления страны в соответствии с Классификатором административно-территориального деления стран, применяемым в Республике Беларусь. Гр.11, 2-й подраздел
      * 
      * @param RBCountryCode
      */
@@ -74,7 +74,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Get the 'ESADDeliveryTerms' element value. РЈСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'ESADDeliveryTerms' element value. Условия поставки товаров
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'ESADDeliveryTerms' element value. РЈСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'ESADDeliveryTerms' element value. Условия поставки товаров
      * 
      * @param ESADDeliveryTerms
      */
@@ -92,7 +92,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Get the list of 'FinancialDocuments' element items. Р¤РёРЅР°РЅСЃРѕРІС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹.
+     * Get the list of 'FinancialDocuments' element items. Финансовые документы.
      * 
      * @return list
      */
@@ -101,7 +101,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the list of 'FinancialDocuments' element items. Р¤РёРЅР°РЅСЃРѕРІС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹.
+     * Set the list of 'FinancialDocuments' element items. Финансовые документы.
      * 
      * @param list
      */
@@ -110,7 +110,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Get the 'BankOrganization' element value. РРќРќ РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё / СЂРµРєРІРёР·РёС‚С‹ Р±Р°РЅРєР° РІ РєРѕС‚РѕСЂРѕРј РѕС‚РєСЂС‹С‚ СЃС‡РµС‚.
+     * Get the 'BankOrganization' element value. ИНН кредитной организации / реквизиты банка в котором открыт счет.
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'BankOrganization' element value. РРќРќ РєСЂРµРґРёС‚РЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё / СЂРµРєРІРёР·РёС‚С‹ Р±Р°РЅРєР° РІ РєРѕС‚РѕСЂРѕРј РѕС‚РєСЂС‹С‚ СЃС‡РµС‚.
+     * Set the 'BankOrganization' element value. ИНН кредитной организации / реквизиты банка в котором открыт счет.
      * 
      * @param bankOrganization
      */
@@ -128,7 +128,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Get the 'DealFeatures' element value. Р¤РѕСЂРјР° СЂР°СЃС‡РµС‚РѕРІ  Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё СЃРґРµР»РєРё (РіСЂ. 28 С‡.2)
+     * Get the 'DealFeatures' element value. Форма расчетов  и особенности сделки (гр. 28 ч.2)
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class ESADMainContractTermsType extends ContractCostType
     }
 
     /** 
-     * Set the 'DealFeatures' element value. Р¤РѕСЂРјР° СЂР°СЃС‡РµС‚РѕРІ  Рё РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё СЃРґРµР»РєРё (РіСЂ. 28 С‡.2)
+     * Set the 'DealFeatures' element value. Форма расчетов  и особенности сделки (гр. 28 ч.2)
      * 
      * @param dealFeatures
      */

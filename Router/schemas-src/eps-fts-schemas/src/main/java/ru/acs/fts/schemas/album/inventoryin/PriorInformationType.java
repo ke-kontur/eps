@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+ * Сведения о предоставленной предварительной информации
  */
 public class PriorInformationType
 {
     private List<String> priorInformationIDList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'PriorInformationID' element items. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the list of 'PriorInformationID' element items. Идентификатор предварительной информации
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class PriorInformationType
     }
 
     /** 
-     * Set the list of 'PriorInformationID' element items. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the list of 'PriorInformationID' element items. Идентификатор предварительной информации
      * 
      * @param list
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїР»Р°С‚Р°
+ * Оплата
  */
 public class PaymentType
 {
@@ -13,7 +13,7 @@ public class PaymentType
     private List<PresentedDocsType> reasonsDocumentList = new ArrayList<PresentedDocsType>();
 
     /** 
-     * Get the 'FreeServiceSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂР°РІР° РЅР° Р±РµР·РІРѕР·РјРµР·РґРЅРѕРµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ СЃРІРµРґРµРЅРёР№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРѕ СЃС‚Р°С‚СЊРµР№ 8 Р—Р°РєРѕРЅР° Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё (122-Р¤Р—)
+     * Get the 'FreeServiceSign' element value. Признак наличия права на безвозмездное предоставление сведений в соответствии со статьей 8 Закона о регистрации (122-ФЗ)
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'FreeServiceSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂР°РІР° РЅР° Р±РµР·РІРѕР·РјРµР·РґРЅРѕРµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ СЃРІРµРґРµРЅРёР№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРѕ СЃС‚Р°С‚СЊРµР№ 8 Р—Р°РєРѕРЅР° Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё (122-Р¤Р—)
+     * Set the 'FreeServiceSign' element value. Признак наличия права на безвозмездное предоставление сведений в соответствии со статьей 8 Закона о регистрации (122-ФЗ)
      * 
      * @param freeServiceSign
      */
@@ -31,7 +31,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the list of 'ReasonsDocuments' element items. Р”РѕРєСѓРјРµРЅС‚С‹ РѕСЃРЅРѕРІР°РЅРёСЏ РїРѕР»СѓС‡РµРЅРёРµ СЃРІРµРґРµРЅРёР№ Р±РµР· РѕРїР»Р°С‚С‹
+     * Get the list of 'ReasonsDocuments' element items. Документы основания получение сведений без оплаты
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the list of 'ReasonsDocuments' element items. Р”РѕРєСѓРјРµРЅС‚С‹ РѕСЃРЅРѕРІР°РЅРёСЏ РїРѕР»СѓС‡РµРЅРёРµ СЃРІРµРґРµРЅРёР№ Р±РµР· РѕРїР»Р°С‚С‹
+     * Set the list of 'ReasonsDocuments' element items. Документы основания получение сведений без оплаты
      * 
      * @param list
      */

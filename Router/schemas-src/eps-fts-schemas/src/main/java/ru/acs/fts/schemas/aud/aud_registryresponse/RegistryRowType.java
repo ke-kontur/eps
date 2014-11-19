@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDAppliedDocumentInfo
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDArchiveDocumentIdWithVersionType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…  РїР°РєРµС‚Р°
+ * Сведения о документах  пакета
  */
 public class RegistryRowType
 {
@@ -15,7 +15,7 @@ public class RegistryRowType
     private AUDAppliedDocumentInfoType appliedDocInfo;
 
     /** 
-     * Get the 'IsActualDocumentIndicator' element value. РџСЂРёР·РЅР°Рє: СЏРІР»СЏРµС‚СЃСЏ Р»Рё РґРѕРєСѓРјРµРЅС‚ Р°РєС‚СѓР°Р»СЊРЅС‹Рј (true) РёР»Рё РЅРµС‚ (false).
+     * Get the 'IsActualDocumentIndicator' element value. Признак: является ли документ актуальным (true) или нет (false).
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class RegistryRowType
     }
 
     /** 
-     * Set the 'IsActualDocumentIndicator' element value. РџСЂРёР·РЅР°Рє: СЏРІР»СЏРµС‚СЃСЏ Р»Рё РґРѕРєСѓРјРµРЅС‚ Р°РєС‚СѓР°Р»СЊРЅС‹Рј (true) РёР»Рё РЅРµС‚ (false).
+     * Set the 'IsActualDocumentIndicator' element value. Признак: является ли документ актуальным (true) или нет (false).
      * 
      * @param isActualDocumentIndicator
      */
@@ -33,7 +33,7 @@ public class RegistryRowType
     }
 
     /** 
-     * Get the 'ArchiveContainerDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°-РєРѕРЅС‚РµР№РЅРµСЂР°, СЃРѕРґРµСЂР¶Р°С‰РµРіРѕ РґР°РЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РґРѕРєСѓРјРµРЅС‚ Р±С‹Р» РїРµСЂРµРґР°РЅ РІ Р°СЂС…РёРІ РЅР° С…СЂР°РЅРµРЅРёРµ РЅРµ РІ РІРёРґРµ СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, Р° РІ СЃРѕСЃС‚Р°РІРµ РґРѕРєСѓРјРµРЅС‚Р°-РєРѕРЅС‚РµР№РЅРµСЂР° (РґРѕРєСѓРјРµРЅС‚Р° РІРёРґР° 'ED_Container').
+     * Get the 'ArchiveContainerDocumentId' element value. Архивный идентификатор документа-контейнера, содержащего данный документ. Указывается в случае, если документ был передан в архив на хранение не в виде самостоятельного документа, а в составе документа-контейнера (документа вида 'ED_Container').
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class RegistryRowType
     }
 
     /** 
-     * Set the 'ArchiveContainerDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°-РєРѕРЅС‚РµР№РЅРµСЂР°, СЃРѕРґРµСЂР¶Р°С‰РµРіРѕ РґР°РЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РґРѕРєСѓРјРµРЅС‚ Р±С‹Р» РїРµСЂРµРґР°РЅ РІ Р°СЂС…РёРІ РЅР° С…СЂР°РЅРµРЅРёРµ РЅРµ РІ РІРёРґРµ СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°, Р° РІ СЃРѕСЃС‚Р°РІРµ РґРѕРєСѓРјРµРЅС‚Р°-РєРѕРЅС‚РµР№РЅРµСЂР° (РґРѕРєСѓРјРµРЅС‚Р° РІРёРґР° 'ED_Container').
+     * Set the 'ArchiveContainerDocumentId' element value. Архивный идентификатор документа-контейнера, содержащего данный документ. Указывается в случае, если документ был передан в архив на хранение не в виде самостоятельного документа, а в составе документа-контейнера (документа вида 'ED_Container').
      * 
      * @param archiveContainerDocumentId
      */
@@ -51,7 +51,7 @@ public class RegistryRowType
     }
 
     /** 
-     * Get the 'ArchiveDocInfo' element value. РђСЂС…РёРІРЅС‹Рµ  РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂС‹  РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'ArchiveDocInfo' element value. Архивные  идентификаторы  документа
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class RegistryRowType
     }
 
     /** 
-     * Set the 'ArchiveDocInfo' element value. РђСЂС…РёРІРЅС‹Рµ  РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂС‹  РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'ArchiveDocInfo' element value. Архивные  идентификаторы  документа
      * 
      * @param archiveDocInfo
      */
@@ -70,7 +70,7 @@ public class RegistryRowType
     }
 
     /** 
-     * Get the 'AppliedDocInfo' element value. РџСЂРёРєР»Р°РґРЅР°СЏ  РёРЅС„РѕСЂРјР°С†РёСЏ  Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the 'AppliedDocInfo' element value. Прикладная  информация  о документе
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class RegistryRowType
     }
 
     /** 
-     * Set the 'AppliedDocInfo' element value. РџСЂРёРєР»Р°РґРЅР°СЏ  РёРЅС„РѕСЂРјР°С†РёСЏ  Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the 'AppliedDocInfo' element value. Прикладная  информация  о документе
      * 
      * @param appliedDocInfo
      */

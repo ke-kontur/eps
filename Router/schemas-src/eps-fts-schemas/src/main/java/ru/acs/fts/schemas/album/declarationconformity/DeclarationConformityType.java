@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р”РµРєР»Р°СЂР°С†РёСЏ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё
+ * Декларация о соответствии
  */
 public class DeclarationConformityType extends BaseDocType
 {
@@ -31,7 +31,7 @@ public class DeclarationConformityType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -49,7 +49,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the 'SchemaDeclaration' element value. РЎС…РµРјР° РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Get the 'SchemaDeclaration' element value. Схема декларирования соответствия
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the 'SchemaDeclaration' element value. РЎС…РµРјР° РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Set the 'SchemaDeclaration' element value. Схема декларирования соответствия
      * 
      * @param schemaDeclaration
      */
@@ -67,7 +67,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'OtherInfo' element items. РРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Get the list of 'OtherInfo' element items. Иные сведения
      * 
      * @return list
      */
@@ -76,7 +76,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'OtherInfo' element items. РРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Set the list of 'OtherInfo' element items. Иные сведения
      * 
      * @param list
      */
@@ -85,7 +85,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРµРєР»Р°СЂР°С†РёРё СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Get the 'StartDate' element value. Дата начала действия декларации соответствия
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРµРєР»Р°СЂР°С†РёРё СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Set the 'StartDate' element value. Дата начала действия декларации соответствия
      * 
      * @param startDate
      */
@@ -103,7 +103,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРµРєР»Р°СЂР°С†РёРё СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Get the 'EndDate' element value. Дата окончания действия декларации соответствия
      * 
      * @return value
      */
@@ -112,7 +112,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРµРєР»Р°СЂР°С†РёРё СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Set the 'EndDate' element value. Дата окончания действия декларации соответствия
      * 
      * @param endDate
      */
@@ -121,7 +121,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DeclNormDoc' element items. РћР±РѕР·РЅР°С‡РµРЅРёРµ РЅРѕСЂРјР°С‚РёРІРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РїСЂРёРЅРёРјР°РµС‚СЃСЏ РґРµРєР»Р°СЂР°С†РёСЏ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё 
+     * Get the list of 'DeclNormDoc' element items. Обозначение нормативных документов, на основании которых принимается декларация о соответствии 
      * 
      * @return list
      */
@@ -130,7 +130,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DeclNormDoc' element items. РћР±РѕР·РЅР°С‡РµРЅРёРµ РЅРѕСЂРјР°С‚РёРІРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РїСЂРёРЅРёРјР°РµС‚СЃСЏ РґРµРєР»Р°СЂР°С†РёСЏ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё 
+     * Set the list of 'DeclNormDoc' element items. Обозначение нормативных документов, на основании которых принимается декларация о соответствии 
      * 
      * @param list
      */
@@ -139,7 +139,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarationSign' element value. Р”РµРєР»Р°СЂР°С†РёСЏ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ: 0 - РўР°РјРѕР¶РµРЅРЅС‹Р№ СЃРѕСЋР·; 1 - Р РѕСЃСЃС‚Р°РЅРґР°СЂС‚
+     * Get the 'DeclarationSign' element value. Декларация соответствия: 0 - Таможенный союз; 1 - Росстандарт
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationSign' element value. Р”РµРєР»Р°СЂР°С†РёСЏ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ: 0 - РўР°РјРѕР¶РµРЅРЅС‹Р№ СЃРѕСЋР·; 1 - Р РѕСЃСЃС‚Р°РЅРґР°СЂС‚
+     * Set the 'DeclarationSign' element value. Декларация соответствия: 0 - Таможенный союз; 1 - Росстандарт
      * 
      * @param declarationSign
      */
@@ -157,7 +157,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @param registrationNumber
      */
@@ -175,7 +175,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Get the 'Declarant' element value. Сведения о заявителе
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Set the 'Declarant' element value. Сведения о заявителе
      * 
      * @param declarant
      */
@@ -193,7 +193,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
+     * Get the list of 'Goods' element items. Сведения о продукции
      * 
      * @return list
      */
@@ -202,7 +202,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
+     * Set the list of 'Goods' element items. Сведения о продукции
      * 
      * @param list
      */
@@ -211,7 +211,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Document' element items. Р”РѕРєСѓРјРµРЅС‚С‹, РїРѕСЃР»СѓР¶РёРІС€РёРµ РѕСЃРЅРѕРІР°РЅРёРµРј РґР»СЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Get the list of 'Document' element items. Документы, послужившие основанием для подтверждения соответствия
      * 
      * @return list
      */
@@ -220,7 +220,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Document' element items. Р”РѕРєСѓРјРµРЅС‚С‹, РїРѕСЃР»СѓР¶РёРІС€РёРµ РѕСЃРЅРѕРІР°РЅРёРµРј РґР»СЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+     * Set the list of 'Document' element items. Документы, послужившие основанием для подтверждения соответствия
      * 
      * @param list
      */
@@ -229,7 +229,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarantSignature' element value. РџРѕРґРїРёСЃСЊ Р·Р°СЏРІРёС‚РµР»СЏ
+     * Get the 'DeclarantSignature' element value. Подпись заявителя
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarantSignature' element value. РџРѕРґРїРёСЃСЊ Р·Р°СЏРІРёС‚РµР»СЏ
+     * Set the 'DeclarantSignature' element value. Подпись заявителя
      * 
      * @param declarantSignature
      */
@@ -247,7 +247,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the 'Register' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРµ, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРµРєР»Р°СЂР°С†РёСЋ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё
+     * Get the 'Register' element value. Сведения об органе, зарегистрировавшего декларацию о соответствии
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the 'Register' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРµ, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРµРєР»Р°СЂР°С†РёСЋ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё
+     * Set the 'Register' element value. Сведения об органе, зарегистрировавшего декларацию о соответствии
      * 
      * @param register
      */
@@ -265,7 +265,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegisterSignature' element value. РџРѕРґРїРёСЃСЊ Р СѓРєРѕРІРѕРґРёС‚РµР»СЏ РѕСЂРіР°РЅР°, СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ  РґРµРєР»Р°СЂР°С†РёСЋ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё
+     * Get the 'RegisterSignature' element value. Подпись Руководителя органа, регистрирующего  декларацию о соответствии
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegisterSignature' element value. РџРѕРґРїРёСЃСЊ Р СѓРєРѕРІРѕРґРёС‚РµР»СЏ РѕСЂРіР°РЅР°, СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРіРѕ  РґРµРєР»Р°СЂР°С†РёСЋ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё
+     * Set the 'RegisterSignature' element value. Подпись Руководителя органа, регистрирующего  декларацию о соответствии
      * 
      * @param registerSignature
      */
@@ -283,7 +283,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Append' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР»РѕР¶РµРЅРёСЏС…
+     * Get the list of 'Append' element items. Сведения о приложениях
      * 
      * @return list
      */
@@ -292,7 +292,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Append' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР»РѕР¶РµРЅРёСЏС…
+     * Set the list of 'Append' element items. Сведения о приложениях
      * 
      * @param list
      */
@@ -301,7 +301,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -310,7 +310,7 @@ public class DeclarationConformityType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

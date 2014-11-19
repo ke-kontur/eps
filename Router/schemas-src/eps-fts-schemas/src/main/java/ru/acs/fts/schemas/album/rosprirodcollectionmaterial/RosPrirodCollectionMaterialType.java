@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.sqcommonaggregatetypescust.ConclusionType;
 
 /** 
- * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ РёР· Р·Р°РєР»СЋС‡РµРЅРёСЏ (СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°) Рѕ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ РІС‹РІРѕР·Р° РєРѕР»Р»РµРєС†РёРѕРЅРЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ РїРѕ РјРёРЅРµСЂР°Р»РѕРіРёРё, РїР°Р»РµРѕРЅС‚РѕР»РѕРіРёРё, РєРѕСЃС‚РµР№ РёСЃРєРѕРїР°РµРјС‹С… Р¶РёРІРѕС‚РЅС‹С…
+ * Ответ на запрос сведений из заключения (разрешительного документа) о возможности осуществления вывоза коллекционных материалов по минералогии, палеонтологии, костей ископаемых животных
  */
 public class RosPrirodCollectionMaterialType extends BaseDocType
 {
@@ -27,7 +27,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @param isCanceled
      */
@@ -45,7 +45,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -63,7 +63,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentId' element value. Id РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentId' element value. Id документа
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentId' element value. Id РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentId' element value. Id документа
      * 
      * @param documentId
      */
@@ -81,7 +81,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Get the 'CountryDestionation' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'CountryDestionation' element value. Страна назначения
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Set the 'CountryDestionation' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'CountryDestionation' element value. Страна назначения
      * 
      * @param countryDestionation
      */
@@ -99,7 +99,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Get the 'PurposeExport' element value. Р¦РµР»СЊ РІС‹РІРѕР·Р°
+     * Get the 'PurposeExport' element value. Цель вывоза
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Set the 'PurposeExport' element value. Р¦РµР»СЊ РІС‹РІРѕР·Р°
+     * Set the 'PurposeExport' element value. Цель вывоза
      * 
      * @param purposeExport
      */
@@ -117,7 +117,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Get the 'RemovalTime' element value. РЎСЂРѕРє РІС‹РІРѕР·Р°
+     * Get the 'RemovalTime' element value. Срок вывоза
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Set the 'RemovalTime' element value. РЎСЂРѕРє РІС‹РІРѕР·Р°
+     * Set the 'RemovalTime' element value. Срок вывоза
      * 
      * @param removalTime
      */
@@ -135,7 +135,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ
+     * Get the 'AuthorizedPerson' element value. Уполномоченное должностное лицо
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ
+     * Set the 'AuthorizedPerson' element value. Уполномоченное должностное лицо
      * 
      * @param authorizedPerson
      */
@@ -153,7 +153,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Get the 'Conclusion' element value. Р—Р°РєР»СЋС‡РµРЅРёРµ
+     * Get the 'Conclusion' element value. Заключение
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Set the 'Conclusion' element value. Р—Р°РєР»СЋС‡РµРЅРёРµ
+     * Set the 'Conclusion' element value. Заключение
      * 
      * @param conclusion
      */
@@ -171,7 +171,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Get the 'Receiver' element value. Р РµРєРІРёР·РёС‚С‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ Р·Р°РєР»СЋС‡РµРЅРёСЏ
+     * Get the 'Receiver' element value. Реквизиты получателя заключения
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Set the 'Receiver' element value. Р РµРєРІРёР·РёС‚С‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ Р·Р°РєР»СЋС‡РµРЅРёСЏ
+     * Set the 'Receiver' element value. Реквизиты получателя заключения
      * 
      * @param receiver
      */
@@ -189,7 +189,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Items' element items. РЎРїРёСЃРѕРє РїСЂРµРґРјРµС‚РѕРІ Рё РёС… РєРѕР»РёС‡РµСЃС‚РІРѕ
+     * Get the list of 'Items' element items. Список предметов и их количество
      * 
      * @return list
      */
@@ -198,7 +198,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Items' element items. РЎРїРёСЃРѕРє РїСЂРµРґРјРµС‚РѕРІ Рё РёС… РєРѕР»РёС‡РµСЃС‚РІРѕ
+     * Set the list of 'Items' element items. Список предметов и их количество
      * 
      * @param list
      */
@@ -207,7 +207,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentBase' element value. РћСЃРЅРѕРІР°РЅРёРµ
+     * Get the 'DocumentBase' element value. Основание
      * 
      * @return value
      */
@@ -216,7 +216,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentBase' element value. РћСЃРЅРѕРІР°РЅРёРµ
+     * Set the 'DocumentBase' element value. Основание
      * 
      * @param documentBase
      */
@@ -225,7 +225,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -234,7 +234,7 @@ public class RosPrirodCollectionMaterialType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

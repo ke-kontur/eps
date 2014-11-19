@@ -14,7 +14,7 @@ public class EntryCellType
     private BigInteger morecols;
 
     /** 
-     * Get the 'EntryTable' element value. Р’Р»РѕР¶РµРЅРЅР°СЏ С‚Р°Р±Р»РёС†Р°
+     * Get the 'EntryTable' element value. Вложенная таблица
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class EntryCellType
     }
 
     /** 
-     * Set the 'EntryTable' element value. Р’Р»РѕР¶РµРЅРЅР°СЏ С‚Р°Р±Р»РёС†Р°
+     * Set the 'EntryTable' element value. Вложенная таблица
      * 
      * @param entryTable
      */
@@ -32,7 +32,7 @@ public class EntryCellType
     }
 
     /** 
-     * Get the 'align' attribute value. РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Get the 'align' attribute value. Стили выравнивания по горизонтали
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class EntryCellType
     }
 
     /** 
-     * Set the 'align' attribute value. РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Set the 'align' attribute value. Стили выравнивания по горизонтали
      * 
      * @param align
      */
@@ -50,7 +50,7 @@ public class EntryCellType
     }
 
     /** 
-     * Get the 'valign' attribute value. РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
+     * Get the 'valign' attribute value. Стили выравнивания по вертикали
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class EntryCellType
     }
 
     /** 
-     * Set the 'valign' attribute value. РЎС‚РёР»Рё РІС‹СЂР°РІРЅРёРІР°РЅРёСЏ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
+     * Set the 'valign' attribute value. Стили выравнивания по вертикали
      * 
      * @param valign
      */
@@ -68,7 +68,7 @@ public class EntryCellType
     }
 
     /** 
-     * Get the 'namest' attribute value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРІРѕР№ СЏС‡РµР№РєРё РІРєР»СЋС‡Р°РµРјРѕР№ РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Get the 'namest' attribute value. Наименование первой ячейки включаемой в объединение по горизонтали
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class EntryCellType
     }
 
     /** 
-     * Set the 'namest' attribute value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРµСЂРІРѕР№ СЏС‡РµР№РєРё РІРєР»СЋС‡Р°РµРјРѕР№ РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Set the 'namest' attribute value. Наименование первой ячейки включаемой в объединение по горизонтали
      * 
      * @param namest
      */
@@ -86,7 +86,7 @@ public class EntryCellType
     }
 
     /** 
-     * Get the 'nameend' attribute value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЃР»РµРґРЅРµР№ СЏС‡РµР№РєРё РІРєР»СЋС‡Р°РµРјРѕР№ РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Get the 'nameend' attribute value. Наименование последней ячейки включаемой в объединение по горизонтали
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class EntryCellType
     }
 
     /** 
-     * Set the 'nameend' attribute value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЃР»РµРґРЅРµР№ СЏС‡РµР№РєРё РІРєР»СЋС‡Р°РµРјРѕР№ РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Set the 'nameend' attribute value. Наименование последней ячейки включаемой в объединение по горизонтали
      * 
      * @param nameend
      */
@@ -104,7 +104,7 @@ public class EntryCellType
     }
 
     /** 
-     * Get the 'morerows' attribute value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє, РІРєР»СЋС‡Р°РµРјС‹С… РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
+     * Get the 'morerows' attribute value. Количество строк, включаемых в объединение по вертикали
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class EntryCellType
     }
 
     /** 
-     * Set the 'morerows' attribute value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє, РІРєР»СЋС‡Р°РµРјС‹С… РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
+     * Set the 'morerows' attribute value. Количество строк, включаемых в объединение по вертикали
      * 
      * @param morerows
      */
@@ -122,7 +122,7 @@ public class EntryCellType
     }
 
     /** 
-     * Get the 'morecols' attribute value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕР»Р±С†РѕРІ, РІРєР»СЋС‡Р°РµРјС‹С… РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Get the 'morecols' attribute value. Количество столбцов, включаемых в объединение по горизонтали
      * 
      * @return value
      */
@@ -131,7 +131,7 @@ public class EntryCellType
     }
 
     /** 
-     * Set the 'morecols' attribute value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕР»Р±С†РѕРІ, РІРєР»СЋС‡Р°РµРјС‹С… РІ РѕР±СЉРµРґРёРЅРµРЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+     * Set the 'morecols' attribute value. Количество столбцов, включаемых в объединение по горизонтали
      * 
      * @param morecols
      */

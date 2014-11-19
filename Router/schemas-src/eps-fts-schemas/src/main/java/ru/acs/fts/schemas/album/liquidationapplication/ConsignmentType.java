@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ
+ * Сведения о партии товаров
  */
 public class ConsignmentType
 {
@@ -14,7 +14,7 @@ public class ConsignmentType
     private List<GoodsType> goodList = new ArrayList<GoodsType>();
 
     /** 
-     * Get the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'RegNumberDT' element value. Регистрационный номер ДТ
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'RegNumberDT' element value. Регистрационный номер ДТ
      * 
      * @param regNumberDT
      */
@@ -32,7 +32,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РўРѕРІР°СЂ, РїРѕРјРµС‰РµРЅРЅС‹Р№ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РЎРўР—
+     * Get the list of 'Goods' element items. Товар, помещенный под таможенную процедуру СТЗ
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РўРѕРІР°СЂ, РїРѕРјРµС‰РµРЅРЅС‹Р№ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РЎРўР—
+     * Set the list of 'Goods' element items. Товар, помещенный под таможенную процедуру СТЗ
      * 
      * @param list
      */

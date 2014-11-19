@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РїРѕРґСЂРѕР±РЅРѕСЃС‚РµР№ РґР»СЏ РјРѕСЂСЃРєРѕРіРѕ/СЂРµС‡РЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+ * Комплексный тип для описания подробностей для морского/речного транспорта
  */
 public class SeaParticularsType
 {
@@ -13,7 +13,7 @@ public class SeaParticularsType
     private PersonBaseType captain;
 
     /** 
-     * Get the 'EntryNumber' element value. РќРѕРјРµСЂ РїСЂРёС…РѕРґР°/СѓС…РѕРґР°
+     * Get the 'EntryNumber' element value. Номер прихода/ухода
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class SeaParticularsType
     }
 
     /** 
-     * Set the 'EntryNumber' element value. РќРѕРјРµСЂ РїСЂРёС…РѕРґР°/СѓС…РѕРґР°
+     * Set the 'EntryNumber' element value. Номер прихода/ухода
      * 
      * @param entryNumber
      */
@@ -31,7 +31,7 @@ public class SeaParticularsType
     }
 
     /** 
-     * Get the 'CountryCode' element value. Р”Р°РЅРЅС‹Рµ Рѕ СЃС‚СЂР°РЅРµ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё СЃСѓРґРЅР°
+     * Get the 'CountryCode' element value. Данные о стране принадлежности судна
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class SeaParticularsType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Р”Р°РЅРЅС‹Рµ Рѕ СЃС‚СЂР°РЅРµ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё СЃСѓРґРЅР°
+     * Set the 'CountryCode' element value. Данные о стране принадлежности судна
      * 
      * @param countryCode
      */
@@ -49,7 +49,7 @@ public class SeaParticularsType
     }
 
     /** 
-     * Get the 'Captain' element value. Р”Р°РЅРЅС‹Рµ Рѕ РєР°РїРёС‚Р°РЅРµ
+     * Get the 'Captain' element value. Данные о капитане
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class SeaParticularsType
     }
 
     /** 
-     * Set the 'Captain' element value. Р”Р°РЅРЅС‹Рµ Рѕ РєР°РїРёС‚Р°РЅРµ
+     * Set the 'Captain' element value. Данные о капитане
      * 
      * @param captain
      */

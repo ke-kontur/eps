@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.pi_tiauto;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ РІ РѕС‚РЅРѕС€РµРЅРёРё РІСЂРµРјРµРЅРЅРѕ РІРІРѕР·РёРјС‹С… С„РёР·РёС‡РµСЃРєРёРјРё Р»РёС†Р°РјРё Р°РІС‚Рѕ-, РјРѕС‚РѕС‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РґР»СЏ Р»РёС‡РЅРѕРіРѕ РїРѕР»СЊР·РѕРІР°РЅРёСЏ
+ * Предварительная информация в отношении временно ввозимых физическими лицами авто-, мототранспортных средств для личного пользования
  */
 public class PITIAutoType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class PITIAutoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'TransportMeanCard' element value. РљР°СЂС‚РѕС‡РєР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Get the 'TransportMeanCard' element value. Карточка транспортного средства. Сведения о транспортном средстве
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PITIAutoType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportMeanCard' element value. РљР°СЂС‚РѕС‡РєР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Set the 'TransportMeanCard' element value. Карточка транспортного средства. Сведения о транспортном средстве
      * 
      * @param transportMeanCard
      */
@@ -32,7 +32,7 @@ public class PITIAutoType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportDriver' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ (РІРѕРґРёС‚РµР»Рµ) С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'TransportDriver' element value. Информация о владельце (водителе) транспортного средства
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class PITIAutoType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportDriver' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ (РІРѕРґРёС‚РµР»Рµ) С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'TransportDriver' element value. Информация о владельце (водителе) транспортного средства
      * 
      * @param transportDriver
      */
@@ -50,7 +50,7 @@ public class PITIAutoType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportOwner' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'TransportOwner' element value. Информация о собственнике транспортного средства
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class PITIAutoType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportOwner' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'TransportOwner' element value. Информация о собственнике транспортного средства
      * 
      * @param transportOwner
      */
@@ -68,7 +68,7 @@ public class PITIAutoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class PITIAutoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

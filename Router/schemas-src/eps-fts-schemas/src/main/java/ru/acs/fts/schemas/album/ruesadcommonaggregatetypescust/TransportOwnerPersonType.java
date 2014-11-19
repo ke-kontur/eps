@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 
 /** 
- * Р’Р»Р°РґРµР»РµС† С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ.
+ * Владелец транспортного средства - физическое лицо.
  */
 public class TransportOwnerPersonType
 {
@@ -16,7 +16,7 @@ public class TransportOwnerPersonType
     private AddressType address;
 
     /** 
-     * Get the 'FirstName' element value. РРјСЏ
+     * Get the 'FirstName' element value. Имя
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class TransportOwnerPersonType
     }
 
     /** 
-     * Set the 'FirstName' element value. РРјСЏ
+     * Set the 'FirstName' element value. Имя
      * 
      * @param firstName
      */
@@ -34,7 +34,7 @@ public class TransportOwnerPersonType
     }
 
     /** 
-     * Get the 'Lastname' element value. Р¤Р°РјРёР»РёСЏ
+     * Get the 'Lastname' element value. Фамилия
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class TransportOwnerPersonType
     }
 
     /** 
-     * Set the 'Lastname' element value. Р¤Р°РјРёР»РёСЏ
+     * Set the 'Lastname' element value. Фамилия
      * 
      * @param lastname
      */
@@ -52,7 +52,7 @@ public class TransportOwnerPersonType
     }
 
     /** 
-     * Get the 'Patronymicname' element value. РћС‚С‡РµСЃС‚РІРѕ
+     * Get the 'Patronymicname' element value. Отчество
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class TransportOwnerPersonType
     }
 
     /** 
-     * Set the 'Patronymicname' element value. РћС‚С‡РµСЃС‚РІРѕ
+     * Set the 'Patronymicname' element value. Отчество
      * 
      * @param patronymicname
      */
@@ -70,7 +70,7 @@ public class TransportOwnerPersonType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ.
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность.
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class TransportOwnerPersonType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ.
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность.
      * 
      * @param identityCard
      */
@@ -88,7 +88,7 @@ public class TransportOwnerPersonType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ.
+     * Get the 'Address' element value. Адрес.
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class TransportOwnerPersonType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ.
+     * Set the 'Address' element value. Адрес.
      * 
      * @param address
      */

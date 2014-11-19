@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.applicationstore;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
+ * Сведения о транспорте
  */
 public class TransportInformType extends TransportMeansType
 {
     private PlaceInformType place;
 
     /** 
-     * Get the 'Place' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'Place' element value. Сведения о месте назначения
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class TransportInformType extends TransportMeansType
     }
 
     /** 
-     * Set the 'Place' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'Place' element value. Сведения о месте назначения
      * 
      * @param place
      */

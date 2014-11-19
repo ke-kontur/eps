@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РўР°Р±Р»РёС†Р° 1. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРµ РІ РѕС‚С‡С‘С‚РЅРѕРј РїРµСЂРёРѕРґРµ 
+ * Таблица 1. Количество товара, использованное в отчётном периоде 
  */
 public class Table1QuantityUsedType
 {
@@ -19,7 +19,7 @@ public class Table1QuantityUsedType
     private List<StatusDisguiseGoodsType> statusDisguiseGoodList = new ArrayList<StatusDisguiseGoodsType>();
 
     /** 
-     * Get the 'QuantityConformUsageGoods' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРµ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ Рї.4 СЃС‚. 13 РЎРѕРіР»Р°С€РµРЅРёСЏ Рѕ РЎР­Р—
+     * Get the 'QuantityConformUsageGoods' element value. Количество товара, использованное в соответствии с п.4 ст. 13 Соглашения о СЭЗ
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Set the 'QuantityConformUsageGoods' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРµ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ Рї.4 СЃС‚. 13 РЎРѕРіР»Р°С€РµРЅРёСЏ Рѕ РЎР­Р—
+     * Set the 'QuantityConformUsageGoods' element value. Количество товара, использованное в соответствии с п.4 ст. 13 Соглашения о СЭЗ
      * 
      * @param quantityConformUsageGoods
      */
@@ -37,7 +37,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Get the 'QuantityOEZConsumed' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ, РїРѕС‚СЂРµР±Р»РµРЅРЅС‹С… РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РѕСЌР·, Р±РµР· СѓС‡РµС‚Р° С‚РѕРІР°СЂРѕРІ СѓРєР°Р·Р°РЅРЅС‹С… РІ РіСЂР°С„Рµ 19
+     * Get the 'QuantityOEZConsumed' element value. Количество товаров, потребленных на территории оэз, без учета товаров указанных в графе 19
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Set the 'QuantityOEZConsumed' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ, РїРѕС‚СЂРµР±Р»РµРЅРЅС‹С… РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РѕСЌР·, Р±РµР· СѓС‡РµС‚Р° С‚РѕРІР°СЂРѕРІ СѓРєР°Р·Р°РЅРЅС‹С… РІ РіСЂР°С„Рµ 19
+     * Set the 'QuantityOEZConsumed' element value. Количество товаров, потребленных на территории оэз, без учета товаров указанных в графе 19
      * 
      * @param quantityOEZConsumed
      */
@@ -55,7 +55,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Get the 'RecyclingGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ, РїРѕРґРІРµСЂРіРЅСѓС‚С‹С… РѕРїРµСЂР°С†РёСЏРј РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ(РѕР±СЂР°Р±РѕС‚РєРµ)
+     * Get the 'RecyclingGoodsQuantity' element value. Количество товаров, подвергнутых операциям по переработке(обработке)
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Set the 'RecyclingGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ, РїРѕРґРІРµСЂРіРЅСѓС‚С‹С… РѕРїРµСЂР°С†РёСЏРј РїРѕ РїРµСЂРµСЂР°Р±РѕС‚РєРµ(РѕР±СЂР°Р±РѕС‚РєРµ)
+     * Set the 'RecyclingGoodsQuantity' element value. Количество товаров, подвергнутых операциям по переработке(обработке)
      * 
      * @param recyclingGoodsQuantity
      */
@@ -73,7 +73,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Get the 'ResidentsGoodsQuantity' element value. РўРѕРІР°СЂС‹ РЅР°С…РѕРґСЏС‰РёРµСЃСЏ Сѓ СЂРµР·РёРґРµРЅС‚Р° РћР­Р— РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С…СЂР°РЅРµРЅРёРµ(СЃРєР»Р°РґРёСЂРѕРІР°РЅРёРµ) РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—
+     * Get the 'ResidentsGoodsQuantity' element value. Товары находящиеся у резидента ОЭЗ в отношении которых осуществляется хранение(складирование) на территории ОЭЗ
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Set the 'ResidentsGoodsQuantity' element value. РўРѕРІР°СЂС‹ РЅР°С…РѕРґСЏС‰РёРµСЃСЏ Сѓ СЂРµР·РёРґРµРЅС‚Р° РћР­Р— РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С…СЂР°РЅРµРЅРёРµ(СЃРєР»Р°РґРёСЂРѕРІР°РЅРёРµ) РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—
+     * Set the 'ResidentsGoodsQuantity' element value. Товары находящиеся у резидента ОЭЗ в отношении которых осуществляется хранение(складирование) на территории ОЭЗ
      * 
      * @param residentsGoodsQuantity
      */
@@ -91,7 +91,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Get the list of 'CustomsTreatmentModeChanged' element items. РР·РјРµРЅРµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР° РЎРўР— РЅР° РёРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј
+     * Get the list of 'CustomsTreatmentModeChanged' element items. Изменение таможенного режима СТЗ на иной таможенный режим
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Set the list of 'CustomsTreatmentModeChanged' element items. РР·РјРµРЅРµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЂРµР¶РёРјР° РЎРўР— РЅР° РёРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј
+     * Set the list of 'CustomsTreatmentModeChanged' element items. Изменение таможенного режима СТЗ на иной таможенный режим
      * 
      * @param list
      */
@@ -110,7 +110,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Get the list of 'OEZDestructedGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, СѓРЅРёС‡С‚РѕР¶РµРЅРЅС‹С… РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—
+     * Get the list of 'OEZDestructedGoods' element items. Сведения о товарах, уничтоженных на территории ОЭЗ
      * 
      * @return list
      */
@@ -119,7 +119,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Set the list of 'OEZDestructedGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, СѓРЅРёС‡С‚РѕР¶РµРЅРЅС‹С… РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—
+     * Set the list of 'OEZDestructedGoods' element items. Сведения о товарах, уничтоженных на территории ОЭЗ
      * 
      * @param list
      */
@@ -128,7 +128,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Get the list of 'OtherGoodsUsage' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… Р±С‹Р»Рё СЃРѕРІРµСЂС€РµРЅС‹ РёРЅС‹Рµ РѕРїРµСЂР°С†РёРё
+     * Get the list of 'OtherGoodsUsage' element items. Сведения о товарах, в отношении которых были совершены иные операции
      * 
      * @return list
      */
@@ -137,7 +137,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Set the list of 'OtherGoodsUsage' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… Р±С‹Р»Рё СЃРѕРІРµСЂС€РµРЅС‹ РёРЅС‹Рµ РѕРїРµСЂР°С†РёРё
+     * Set the list of 'OtherGoodsUsage' element items. Сведения о товарах, в отношении которых были совершены иные операции
      * 
      * @param list
      */
@@ -146,7 +146,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Get the list of 'StatusDisguiseGoods' element items. РЎРІРµРґРµРЅРёСЏ С‚РѕРІР°СЂР°С… СЃ РёР·РјРµРЅРЅС‹Рј СЃС‚Р°С‚СѓСЃРѕРј
+     * Get the list of 'StatusDisguiseGoods' element items. Сведения товарах с изменным статусом
      * 
      * @return list
      */
@@ -155,7 +155,7 @@ public class Table1QuantityUsedType
     }
 
     /** 
-     * Set the list of 'StatusDisguiseGoods' element items. РЎРІРµРґРµРЅРёСЏ С‚РѕРІР°СЂР°С… СЃ РёР·РјРµРЅРЅС‹Рј СЃС‚Р°С‚СѓСЃРѕРј
+     * Set the list of 'StatusDisguiseGoods' element items. Сведения товарах с изменным статусом
      * 
      * @param list
      */

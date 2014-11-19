@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.KTSContractTer
 import ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust.KTSGoodsShipmentType;
 
 /** 
- * РљРўРЎ. Р’РЅРµС€РЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+ * КТС. Внешний формат. Сведения о товарной партии
  */
 public class KTSoutCUGoodsShipmentType extends KTSGoodsShipmentType
 {
@@ -15,7 +15,7 @@ public class KTSoutCUGoodsShipmentType extends KTSGoodsShipmentType
     private List<KTSoutCUGoodsItemType> KTSoutGoodsItemList = new ArrayList<KTSoutCUGoodsItemType>();
 
     /** 
-     * Get the 'KTSContractTerms' element value. РљРўРЎ - РЎРІРµРґРµРЅРёСЏ РѕР±  СѓСЃР»РѕРІРёСЏС… РїРѕСЃС‚Р°РІРєРё, РІР°Р»СЋС‚Рµ Рё РѕР±С‰РµР№ СЃС‚РѕРёРјРѕСЃС‚Рё. (РіСЂ. 20, 22, 23, 24)
+     * Get the 'KTSContractTerms' element value. КТС - Сведения об  условиях поставки, валюте и общей стоимости. (гр. 20, 22, 23, 24)
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class KTSoutCUGoodsShipmentType extends KTSGoodsShipmentType
     }
 
     /** 
-     * Set the 'KTSContractTerms' element value. РљРўРЎ - РЎРІРµРґРµРЅРёСЏ РѕР±  СѓСЃР»РѕРІРёСЏС… РїРѕСЃС‚Р°РІРєРё, РІР°Р»СЋС‚Рµ Рё РѕР±С‰РµР№ СЃС‚РѕРёРјРѕСЃС‚Рё. (РіСЂ. 20, 22, 23, 24)
+     * Set the 'KTSContractTerms' element value. КТС - Сведения об  условиях поставки, валюте и общей стоимости. (гр. 20, 22, 23, 24)
      * 
      * @param KTSContractTerms
      */
@@ -33,7 +33,7 @@ public class KTSoutCUGoodsShipmentType extends KTSGoodsShipmentType
     }
 
     /** 
-     * Get the list of 'KTSoutGoodsItem' element items. РљРўРЎ. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕРј С‚РѕРІР°СЂРµ
+     * Get the list of 'KTSoutGoodsItem' element items. КТС. Сведения о корректируемом товаре
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class KTSoutCUGoodsShipmentType extends KTSGoodsShipmentType
     }
 
     /** 
-     * Set the list of 'KTSoutGoodsItem' element items. РљРўРЎ. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕРј С‚РѕРІР°СЂРµ
+     * Set the list of 'KTSoutGoodsItem' element items. КТС. Сведения о корректируемом товаре
      * 
      * @param list
      */

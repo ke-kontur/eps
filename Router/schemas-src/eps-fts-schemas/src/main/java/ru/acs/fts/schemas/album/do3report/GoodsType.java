@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsType
 {
@@ -13,7 +13,7 @@ public class GoodsType
     private List<DO3GoodOutputType> outputList = new ArrayList<DO3GoodOutputType>();
 
     /** 
-     * Get the 'Input' element value. РџСЂРёС…РѕРґ
+     * Get the 'Input' element value. Приход
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Input' element value. РџСЂРёС…РѕРґ
+     * Set the 'Input' element value. Приход
      * 
      * @param input
      */
@@ -31,7 +31,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'Output' element items. Р Р°СЃС…РѕРґ
+     * Get the list of 'Output' element items. Расход
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'Output' element items. Р Р°СЃС…РѕРґ
+     * Set the list of 'Output' element items. Расход
      * 
      * @param list
      */

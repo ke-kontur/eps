@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РћС‚РїСЂР°РІРёС‚РµР»СЊ С‚РѕРІР°СЂРѕРІ
+ * Отправитель товаров
  */
 public class ConsignorType extends OrganizationType
 {
@@ -13,7 +13,7 @@ public class ConsignorType extends OrganizationType
     private IdentityCardType physicalPersonIdCard;
 
     /** 
-     * Get the 'DepartCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DepartCountry' element value. Страна отправления
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ConsignorType extends OrganizationType
     }
 
     /** 
-     * Set the 'DepartCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DepartCountry' element value. Страна отправления
      * 
      * @param departCountry
      */
@@ -31,7 +31,7 @@ public class ConsignorType extends OrganizationType
     }
 
     /** 
-     * Get the 'PhysicalPersonIdCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ - РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РѕС‚РїСЂР°РІРёС‚РµР»СЊ СЏРІР»СЏРµС‚СЃСЏ С„РёР·РёС‡РµСЃРєРёРј Р»РёС†РѕРј
+     * Get the 'PhysicalPersonIdCard' element value. Документ, удостоверяющий личность - в случае, если отправитель является физическим лицом
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ConsignorType extends OrganizationType
     }
 
     /** 
-     * Set the 'PhysicalPersonIdCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ - РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РѕС‚РїСЂР°РІРёС‚РµР»СЊ СЏРІР»СЏРµС‚СЃСЏ С„РёР·РёС‡РµСЃРєРёРј Р»РёС†РѕРј
+     * Set the 'PhysicalPersonIdCard' element value. Документ, удостоверяющий личность - в случае, если отправитель является физическим лицом
      * 
      * @param physicalPersonIdCard
      */

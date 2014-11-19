@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commissioninspection;
 
 /** 
- * Р¦РµР»СЊ РґРѕСЃРјРѕС‚СЂР°
+ * Цель досмотра
  */
 public class AimInspectionType
 {
@@ -12,7 +12,7 @@ public class AimInspectionType
     private String otherComments;
 
     /** 
-     * Get the 'IdentifierGood' element value. РРґРµРЅС‚РёС„РёРєР°С†РёСЏ С‚РѕРІР°СЂРѕРІ. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ "true" - РґР°; "false" - РЅРµС‚
+     * Get the 'IdentifierGood' element value. Идентификация товаров. Если значение "true" - да; "false" - нет
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class AimInspectionType
     }
 
     /** 
-     * Set the 'IdentifierGood' element value. РРґРµРЅС‚РёС„РёРєР°С†РёСЏ С‚РѕРІР°СЂРѕРІ. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ "true" - РґР°; "false" - РЅРµС‚
+     * Set the 'IdentifierGood' element value. Идентификация товаров. Если значение "true" - да; "false" - нет
      * 
      * @param identifierGood
      */
@@ -30,7 +30,7 @@ public class AimInspectionType
     }
 
     /** 
-     * Get the 'ChooseControl' element value. Р’С‹Р±РѕСЂРѕС‡РЅР°СЏ РїСЂРѕРІРµСЂРєР°.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
+     * Get the 'ChooseControl' element value. Выборочная проверка.Если значение поля: "true" - да; "false" - нет.
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class AimInspectionType
     }
 
     /** 
-     * Set the 'ChooseControl' element value. Р’С‹Р±РѕСЂРѕС‡РЅР°СЏ РїСЂРѕРІРµСЂРєР°.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
+     * Set the 'ChooseControl' element value. Выборочная проверка.Если значение поля: "true" - да; "false" - нет.
      * 
      * @param chooseControl
      */
@@ -48,7 +48,7 @@ public class AimInspectionType
     }
 
     /** 
-     * Get the 'Others' element value. РџСЂРѕС‡РµРµ.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
+     * Get the 'Others' element value. Прочее.Если значение поля: "true" - да; "false" - нет.
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class AimInspectionType
     }
 
     /** 
-     * Set the 'Others' element value. РџСЂРѕС‡РµРµ.Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
+     * Set the 'Others' element value. Прочее.Если значение поля: "true" - да; "false" - нет.
      * 
      * @param others
      */
@@ -66,7 +66,7 @@ public class AimInspectionType
     }
 
     /** 
-     * Get the 'OtherComments' element value. РџСЂРѕС‡РµРµ(СѓРєР°Р·Р°С‚СЊ)
+     * Get the 'OtherComments' element value. Прочее(указать)
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class AimInspectionType
     }
 
     /** 
-     * Set the 'OtherComments' element value. РџСЂРѕС‡РµРµ(СѓРєР°Р·Р°С‚СЊ)
+     * Set the 'OtherComments' element value. Прочее(указать)
      * 
      * @param otherComments
      */

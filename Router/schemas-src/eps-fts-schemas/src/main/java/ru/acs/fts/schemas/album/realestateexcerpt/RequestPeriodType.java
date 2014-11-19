@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.realestateexcerpt;
 import org.joda.time.LocalDate;
 
 /** 
- * РџРµСЂРёРѕРґ РІСЂРµРјРµРЅРё, Р·Р° РєРѕС‚РѕСЂС‹Р№ РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ СЃРІРµРґРµРЅРёСЏ
+ * Период времени, за который необходимо предоставить сведения
  */
 public class RequestPeriodType
 {
@@ -12,7 +12,7 @@ public class RequestPeriodType
     private LocalDate endDate;
 
     /** 
-     * Get the 'StartDate' element value. РќР°С‡Р°Р»Рѕ РїРµСЂРёРѕРґР°
+     * Get the 'StartDate' element value. Начало периода
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class RequestPeriodType
     }
 
     /** 
-     * Set the 'StartDate' element value. РќР°С‡Р°Р»Рѕ РїРµСЂРёРѕРґР°
+     * Set the 'StartDate' element value. Начало периода
      * 
      * @param startDate
      */
@@ -30,7 +30,7 @@ public class RequestPeriodType
     }
 
     /** 
-     * Get the 'EndDate' element value. РљРѕРЅРµС† РїРµСЂРёРѕРґР°
+     * Get the 'EndDate' element value. Конец периода
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class RequestPeriodType
     }
 
     /** 
-     * Set the 'EndDate' element value. РљРѕРЅРµС† РїРµСЂРёРѕРґР°
+     * Set the 'EndDate' element value. Конец периода
      * 
      * @param endDate
      */

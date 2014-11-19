@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.minpromlicence;
 
 /** 
- * Р‘Р»Р°РЅРє
+ * Бланк
  */
 public class BlankType
 {
@@ -11,7 +11,7 @@ public class BlankType
     private String blankType;
 
     /** 
-     * Get the 'BlankSer' element value. РЎРµСЂРёСЏ Р±Р»Р°РЅРєР°
+     * Get the 'BlankSer' element value. Серия бланка
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class BlankType
     }
 
     /** 
-     * Set the 'BlankSer' element value. РЎРµСЂРёСЏ Р±Р»Р°РЅРєР°
+     * Set the 'BlankSer' element value. Серия бланка
      * 
      * @param blankSer
      */
@@ -29,7 +29,7 @@ public class BlankType
     }
 
     /** 
-     * Get the 'BlankNum' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Get the 'BlankNum' element value. Номер бланка
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class BlankType
     }
 
     /** 
-     * Set the 'BlankNum' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Set the 'BlankNum' element value. Номер бланка
      * 
      * @param blankNum
      */
@@ -47,7 +47,7 @@ public class BlankType
     }
 
     /** 
-     * Get the 'BlankType' element value. Р‘Р»Р°РЅРє (РѕСЂРёРіРёРЅР°Р», РґСѓР±Р»РёРєР°С‚)
+     * Get the 'BlankType' element value. Бланк (оригинал, дубликат)
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class BlankType
     }
 
     /** 
-     * Set the 'BlankType' element value. Р‘Р»Р°РЅРє (РѕСЂРёРіРёРЅР°Р», РґСѓР±Р»РёРєР°С‚)
+     * Set the 'BlankType' element value. Бланк (оригинал, дубликат)
      * 
      * @param blankType
      */

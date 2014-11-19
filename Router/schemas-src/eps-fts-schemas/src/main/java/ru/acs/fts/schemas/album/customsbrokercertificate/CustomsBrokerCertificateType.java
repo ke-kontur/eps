@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№ (Р±СЂРѕРєРµСЂРѕРІ)
+ * Свидетельство о включении в Реестр таможенных представителей (брокеров)
  */
 public class CustomsBrokerCertificateType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Get the 'FormNumber' element value. Номер бланка
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Set the 'FormNumber' element value. Номер бланка
      * 
      * @param formNumber
      */
@@ -37,7 +37,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentReference' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentReference' element value. Реквизиты документа
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentReference' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentReference' element value. Реквизиты документа
      * 
      * @param documentReference
      */
@@ -55,7 +55,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё-С‚Р°РјРѕР¶РµРЅРЅРѕРј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»Рµ (Р±СЂРѕРєРµСЂРµ)
+     * Get the 'Organization' element value. Сведения об организации-таможенном представителе (брокере)
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё-С‚Р°РјРѕР¶РµРЅРЅРѕРј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»Рµ (Р±СЂРѕРєРµСЂРµ)
+     * Set the 'Organization' element value. Сведения об организации-таможенном представителе (брокере)
      * 
      * @param organization
      */
@@ -73,7 +73,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentGuarantee' element value. РћР±РµСЃРїРµС‡РµРЅРёРµ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Get the 'PaymentGuarantee' element value. Обеспечение уплаты таможенных платежей
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentGuarantee' element value. РћР±РµСЃРїРµС‡РµРЅРёРµ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Set the 'PaymentGuarantee' element value. Обеспечение уплаты таможенных платежей
      * 
      * @param paymentGuarantee
      */
@@ -91,7 +91,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'FieldRestrictions' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ СЃС„РµСЂС‹ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Get the 'FieldRestrictions' element value. Ограничения сферы деятельности
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'FieldRestrictions' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ СЃС„РµСЂС‹ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+     * Set the 'FieldRestrictions' element value. Ограничения сферы деятельности
      * 
      * @param fieldRestrictions
      */
@@ -109,7 +109,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° (Р¤РРћ, РґРѕР»Р¶РЅРѕСЃС‚СЊ, РґР°С‚Р°)
+     * Get the 'PersonSignature' element value. Подпись должностного лица (ФИО, должность, дата)
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° (Р¤РРћ, РґРѕР»Р¶РЅРѕСЃС‚СЊ, РґР°С‚Р°)
+     * Set the 'PersonSignature' element value. Подпись должностного лица (ФИО, должность, дата)
      * 
      * @param personSignature
      */
@@ -127,7 +127,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class CustomsBrokerCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

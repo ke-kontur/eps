@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonleaftypescust;
 
 /** 
- * РћРїРµСЂР°С‚РѕСЂ С„РёР»СЊС‚СЂР°.
+ * Оператор фильтра.
  */
 public enum AUDFilterOperatorType {
     EMPTY("empty"), NOT_EMPTY("not_empty"), EQUAL("equal"), NOT_EQUAL(

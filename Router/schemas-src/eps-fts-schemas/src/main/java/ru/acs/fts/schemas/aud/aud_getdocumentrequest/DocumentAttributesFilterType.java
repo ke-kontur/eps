@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDDTFilterType;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDStringFilterParamsType;
 
 /** 
- * РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° СЂРµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°. Р”РѕР»Р¶РµРЅ Р±С‹С‚СЊ СѓРєР°Р·Р°РЅ РІРёРґ РёСЃРєРѕРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ (РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° Рё РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРµСЂСЃРёРё РІРёРґР°), РєРѕС‚РѕСЂС‹Р№ РѕРїСЂРµРґРµР»СЏРµС‚ РїРµСЂРµС‡РµРЅСЊ РІРѕР·РјРѕР¶РЅС‹С… СЂРµРєРІРёР·РёС‚РѕРІ, РЅР° РєРѕС‚РѕСЂС‹Рµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РЅР°Р»РѕР¶РµРЅ С„РёР»СЊС‚СЂ.
+ * Параметры фильтра на реквизиты документа. Должен быть указан вид искомых документов (идентификатор вида и идентификатор версии вида), который определяет перечень возможных реквизитов, на которые может быть наложен фильтр.
  */
 public class DocumentAttributesFilterType
 {
@@ -19,7 +19,7 @@ public class DocumentAttributesFilterType
     private AUDStringFilterParamsType appliedPacketID;
 
     /** 
-     * Get the 'AppliedDocumentKindId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РїСЂРёРєР»Р°РґРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ. Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ СЂР°РІРЅРѕ Р·РЅР°С‡РµРЅРёСЋ Р°С‚СЂРёР±СѓС‚Р° 'DocumentModeID' ("РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°. РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ.") РїСЂРёРєР»Р°РґРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'AppliedDocumentKindId' element value. Идентификатор вида прикладных документов. Значение должно быть равно значению атрибута 'DocumentModeID' ("Идентификатор вида документа. Код документа в Альбоме форматов.") прикладного документа.
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class DocumentAttributesFilterType
     }
 
     /** 
-     * Set the 'AppliedDocumentKindId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РїСЂРёРєР»Р°РґРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ. Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ СЂР°РІРЅРѕ Р·РЅР°С‡РµРЅРёСЋ Р°С‚СЂРёР±СѓС‚Р° 'DocumentModeID' ("РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°. РљРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ.") РїСЂРёРєР»Р°РґРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'AppliedDocumentKindId' element value. Идентификатор вида прикладных документов. Значение должно быть равно значению атрибута 'DocumentModeID' ("Идентификатор вида документа. Код документа в Альбоме форматов.") прикладного документа.
      * 
      * @param appliedDocumentKindId
      */
@@ -37,7 +37,7 @@ public class DocumentAttributesFilterType
     }
 
     /** 
-     * Get the 'AppliedDocumentKindVersionId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРµСЂСЃРёРё РІРёРґР° РїСЂРёРєР»Р°РґРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ. Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ СЂР°РІРЅРѕ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІР° РёРјРµРЅ XML РїСЂРёРєР»Р°РґРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (РєРѕСЂРЅРµРІРѕРіРѕ СЌР»РµРјРµРЅС‚Р° РґРѕРєСѓРјРµРЅС‚Р°).
+     * Get the 'AppliedDocumentKindVersionId' element value. Идентификатор версии вида прикладных документов. Значение должно быть равно идентификатору пространства имен XML прикладного документа (корневого элемента документа).
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class DocumentAttributesFilterType
     }
 
     /** 
-     * Set the 'AppliedDocumentKindVersionId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРµСЂСЃРёРё РІРёРґР° РїСЂРёРєР»Р°РґРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ. Р—РЅР°С‡РµРЅРёРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ СЂР°РІРЅРѕ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІР° РёРјРµРЅ XML РїСЂРёРєР»Р°РґРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (РєРѕСЂРЅРµРІРѕРіРѕ СЌР»РµРјРµРЅС‚Р° РґРѕРєСѓРјРµРЅС‚Р°).
+     * Set the 'AppliedDocumentKindVersionId' element value. Идентификатор версии вида прикладных документов. Значение должно быть равно идентификатору пространства имен XML прикладного документа (корневого элемента документа).
      * 
      * @param appliedDocumentKindVersionId
      */
@@ -56,7 +56,7 @@ public class DocumentAttributesFilterType
     }
 
     /** 
-     * Get the list of 'AttributeFilterParams' element items. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° СЂРµРєРІРёР·РёС‚ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the list of 'AttributeFilterParams' element items. Параметры фильтра на реквизит документа.
      * 
      * @return list
      */
@@ -65,7 +65,7 @@ public class DocumentAttributesFilterType
     }
 
     /** 
-     * Set the list of 'AttributeFilterParams' element items. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° СЂРµРєРІРёР·РёС‚ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the list of 'AttributeFilterParams' element items. Параметры фильтра на реквизит документа.
      * 
      * @param list
      */
@@ -75,7 +75,7 @@ public class DocumentAttributesFilterType
     }
 
     /** 
-     * Get the 'AppliedGTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'AppliedGTDID' element value. Регистрационный номер ДТ
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class DocumentAttributesFilterType
     }
 
     /** 
-     * Set the 'AppliedGTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'AppliedGTDID' element value. Регистрационный номер ДТ
      * 
      * @param appliedGTDID
      */
@@ -93,7 +93,7 @@ public class DocumentAttributesFilterType
     }
 
     /** 
-     * Get the 'AppliedPacketID' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° РїСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, like.
+     * Get the 'AppliedPacketID' element value. Параметры фильтра на прикладной идентификатор пакета. Значение типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class DocumentAttributesFilterType
     }
 
     /** 
-     * Set the 'AppliedPacketID' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РЅР° РїСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїР°РєРµС‚Р°. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, like.
+     * Set the 'AppliedPacketID' element value. Параметры фильтра на прикладной идентификатор пакета. Значение типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.
      * 
      * @param appliedPacketID
      */

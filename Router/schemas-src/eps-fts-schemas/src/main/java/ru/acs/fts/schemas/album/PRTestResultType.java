@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚С‹ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ РџР /РџРџР /РЎРџР /РџРЎРџР 
+ * Результаты тестирования ПР/ППР/СПР/ПСПР
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -43,7 +43,7 @@ public class PRTestResultType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'TestID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РµСЃС‚Р°
+     * Get the 'TestID' element value. Уникальный идентификатор теста
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class PRTestResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'TestID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РµСЃС‚Р°
+     * Set the 'TestID' element value. Уникальный идентификатор теста
      * 
      * @param testID
      */
@@ -79,7 +79,7 @@ public class PRTestResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalDT' element value. РЎСЂРµРґРЅРµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р”Рў, РѕР±СЂР°Р±РѕС‚Р°РЅРЅС‹С… РІ РїСЂРѕС†РµСЃСЃРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ РїРѕ РІСЃРµРј РїРµСЂРёРѕРґР°Рј
+     * Get the 'TotalDT' element value. Среднее количество ДТ, обработанных в процессе тестирования по всем периодам
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class PRTestResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalDT' element value. РЎСЂРµРґРЅРµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р”Рў, РѕР±СЂР°Р±РѕС‚Р°РЅРЅС‹С… РІ РїСЂРѕС†РµСЃСЃРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ РїРѕ РІСЃРµРј РїРµСЂРёРѕРґР°Рј
+     * Set the 'TotalDT' element value. Среднее количество ДТ, обработанных в процессе тестирования по всем периодам
      * 
      * @param averageTestResultTotalDT
      */
@@ -97,7 +97,7 @@ public class PRTestResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalRiskDT' element value. РЎСЂРµРґРЅРµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р”Рў, РїРѕ РєРѕС‚РѕСЂС‹Рј Р±С‹Р» РІС‹СЏРІР»РµРЅ СЂРёСЃРє РІ РїСЂРѕС†РµСЃСЃРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ РїРѕ РІСЃРµРј РїРµСЂРёРѕРґР°Рј
+     * Get the 'TotalRiskDT' element value. Среднее количество ДТ, по которым был выявлен риск в процессе тестирования по всем периодам
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class PRTestResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalRiskDT' element value. РЎСЂРµРґРЅРµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р”Рў, РїРѕ РєРѕС‚РѕСЂС‹Рј Р±С‹Р» РІС‹СЏРІР»РµРЅ СЂРёСЃРє РІ РїСЂРѕС†РµСЃСЃРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ РїРѕ РІСЃРµРј РїРµСЂРёРѕРґР°Рј
+     * Set the 'TotalRiskDT' element value. Среднее количество ДТ, по которым был выявлен риск в процессе тестирования по всем периодам
      * 
      * @param averageTestResultTotalRiskDT
      */
@@ -116,7 +116,7 @@ public class PRTestResultType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class PRTestResultType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
      * 
      * @param documentModeID
      */
@@ -133,7 +133,7 @@ public class PRTestResultType extends BaseDocType
         this.documentModeID = documentModeID;
     }
     /** 
-     * Р РµР·СѓР»СЊС‚Р°С‚С‹ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ Р·Р° РїРµСЂРёРѕРґ
+     * Результаты тестирования за период
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -157,7 +157,7 @@ public class PRTestResultType extends BaseDocType
         private String totalRiskDT;
 
         /** 
-         * Get the 'TestStart' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РґР°С‚Рµ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў
+         * Get the 'TestStart' element value. Дата начала периода тестирования, соответствует дате регистрации ДТ
          * 
          * @return value
          */
@@ -166,7 +166,7 @@ public class PRTestResultType extends BaseDocType
         }
 
         /** 
-         * Set the 'TestStart' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РґР°С‚Рµ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў
+         * Set the 'TestStart' element value. Дата начала периода тестирования, соответствует дате регистрации ДТ
          * 
          * @param testStart
          */
@@ -175,7 +175,7 @@ public class PRTestResultType extends BaseDocType
         }
 
         /** 
-         * Get the 'TestEnd' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РґР°С‚Рµ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў
+         * Get the 'TestEnd' element value. Дата окончания периода тестирования, соответствует дате регистрации ДТ
          * 
          * @return value
          */
@@ -184,7 +184,7 @@ public class PRTestResultType extends BaseDocType
         }
 
         /** 
-         * Set the 'TestEnd' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РґР°С‚Рµ СЂРµРіРёСЃС‚СЂР°С†РёРё Р”Рў
+         * Set the 'TestEnd' element value. Дата окончания периода тестирования, соответствует дате регистрации ДТ
          * 
          * @param testEnd
          */
@@ -193,7 +193,7 @@ public class PRTestResultType extends BaseDocType
         }
 
         /** 
-         * Get the 'TotalDT' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р”Рў Р·Р° РїРµСЂРёРѕРґ, РѕР±СЂР°Р±РѕС‚Р°РЅРЅС‹С… РІ РїСЂРѕС†РµСЃСЃРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ
+         * Get the 'TotalDT' element value. Общее количество ДТ за период, обработанных в процессе тестирования
          * 
          * @return value
          */
@@ -202,7 +202,7 @@ public class PRTestResultType extends BaseDocType
         }
 
         /** 
-         * Set the 'TotalDT' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р”Рў Р·Р° РїРµСЂРёРѕРґ, РѕР±СЂР°Р±РѕС‚Р°РЅРЅС‹С… РІ РїСЂРѕС†РµСЃСЃРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ
+         * Set the 'TotalDT' element value. Общее количество ДТ за период, обработанных в процессе тестирования
          * 
          * @param totalDT
          */
@@ -211,7 +211,7 @@ public class PRTestResultType extends BaseDocType
         }
 
         /** 
-         * Get the 'TotalRiskDT' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р”Рў Р·Р° РїРµСЂРёРѕРґ, РїРѕ РєРѕС‚РѕСЂС‹Рј Р±С‹Р» РІС‹СЏРІР»РµРЅ СЂРёСЃРє РІ РїСЂРѕС†РµСЃСЃРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ
+         * Get the 'TotalRiskDT' element value. Общее количество ДТ за период, по которым был выявлен риск в процессе тестирования
          * 
          * @return value
          */
@@ -220,7 +220,7 @@ public class PRTestResultType extends BaseDocType
         }
 
         /** 
-         * Set the 'TotalRiskDT' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р”Рў Р·Р° РїРµСЂРёРѕРґ, РїРѕ РєРѕС‚РѕСЂС‹Рј Р±С‹Р» РІС‹СЏРІР»РµРЅ СЂРёСЃРє РІ РїСЂРѕС†РµСЃСЃРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ
+         * Set the 'TotalRiskDT' element value. Общее количество ДТ за период, по которым был выявлен риск в процессе тестирования
          * 
          * @param totalRiskDT
          */

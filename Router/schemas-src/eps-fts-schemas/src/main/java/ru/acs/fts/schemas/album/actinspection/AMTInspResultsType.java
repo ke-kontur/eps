@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspection;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚С‹ РґРѕСЃРјРѕС‚СЂР° СЃРµРґРµР»СЊРЅРѕРіРѕ С‚СЏРіР°С‡Р° (С‚РѕРІР°СЂРЅР°СЏ РїРѕР·РёС†РёСЏ 8701 РїРѕ РўРќ Р’Р­Р” РўРЎ)
+ * Результаты досмотра седельного тягача (товарная позиция 8701 по ТН ВЭД ТС)
  */
 public class AMTInspResultsType extends CommonParametersType
 {
@@ -14,7 +14,7 @@ public class AMTInspResultsType extends CommonParametersType
     private DamagesType damages;
 
     /** 
-     * Get the 'ArriveMode' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°) РїСЂРёР±С‹Р»Рѕ (Рё) РІ РєР°С‡РµСЃС‚РІРµ С‚РѕРІР°СЂР°: "1" - РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ, "2" - РІ РєРѕРЅС‚РµР№РЅРµСЂРµ(Р°С…), "3" - СЃРІРѕРёРј С…РѕРґРѕРј
+     * Get the 'ArriveMode' element value. Транспортное средство (транспортные средства) прибыло (и) в качестве товара: "1" - на транспортном средстве, "2" - в контейнере(ах), "3" - своим ходом
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class AMTInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'ArriveMode' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°) РїСЂРёР±С‹Р»Рѕ (Рё) РІ РєР°С‡РµСЃС‚РІРµ С‚РѕРІР°СЂР°: "1" - РЅР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ, "2" - РІ РєРѕРЅС‚РµР№РЅРµСЂРµ(Р°С…), "3" - СЃРІРѕРёРј С…РѕРґРѕРј
+     * Set the 'ArriveMode' element value. Транспортное средство (транспортные средства) прибыло (и) в качестве товара: "1" - на транспортном средстве, "2" - в контейнере(ах), "3" - своим ходом
      * 
      * @param arriveMode
      */
@@ -32,7 +32,7 @@ public class AMTInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'HighCeiling' element value. РќР°Р»РёС‡РёРµ РІС‹СЃРѕРєРѕРіРѕ РїРѕС‚РѕР»РєР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
+     * Get the 'HighCeiling' element value. Наличие высокого потолка: "0" - нет, "1" - есть
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class AMTInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'HighCeiling' element value. РќР°Р»РёС‡РёРµ РІС‹СЃРѕРєРѕРіРѕ РїРѕС‚РѕР»РєР°: "0" - РЅРµС‚, "1" - РµСЃС‚СЊ
+     * Set the 'HighCeiling' element value. Наличие высокого потолка: "0" - нет, "1" - есть
      * 
      * @param highCeiling
      */
@@ -50,7 +50,7 @@ public class AMTInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'Podveska' element value. РўРёРї РїРѕРґРІРµСЃРєРё
+     * Get the 'Podveska' element value. Тип подвески
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class AMTInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'Podveska' element value. РўРёРї РїРѕРґРІРµСЃРєРё
+     * Set the 'Podveska' element value. Тип подвески
      * 
      * @param podveska
      */
@@ -68,7 +68,7 @@ public class AMTInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'TruckParameters' element value. РџР°СЂР°РјРµС‚СЂС‹, РїСЂРёСЃСѓС‰РёРµ С‚СЏРіР°С‡Р°Рј Рё РіСЂСѓР·РѕРІРёРєР°Рј
+     * Get the 'TruckParameters' element value. Параметры, присущие тягачам и грузовикам
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class AMTInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'TruckParameters' element value. РџР°СЂР°РјРµС‚СЂС‹, РїСЂРёСЃСѓС‰РёРµ С‚СЏРіР°С‡Р°Рј Рё РіСЂСѓР·РѕРІРёРєР°Рј
+     * Set the 'TruckParameters' element value. Параметры, присущие тягачам и грузовикам
      * 
      * @param truckParameters
      */
@@ -86,7 +86,7 @@ public class AMTInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Get the 'AMTDopDevice' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕРµ РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ РІ С‚СЏРіР°С‡Рµ
+     * Get the 'AMTDopDevice' element value. Дополнительное оборудование в тягаче
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class AMTInspResultsType extends CommonParametersType
     }
 
     /** 
-     * Set the 'AMTDopDevice' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕРµ РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ РІ С‚СЏРіР°С‡Рµ
+     * Set the 'AMTDopDevice' element value. Дополнительное оборудование в тягаче
      * 
      * @param AMTDopDevice
      */

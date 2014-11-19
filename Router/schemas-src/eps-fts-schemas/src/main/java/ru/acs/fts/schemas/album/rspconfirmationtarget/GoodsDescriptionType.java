@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
+ * Описание товаров
  */
 public class GoodsDescriptionType
 {
@@ -20,7 +20,7 @@ public class GoodsDescriptionType
     private SupplementaryQuantityType supplementaryQuantity;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @return list
      */
@@ -29,7 +29,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @param list
      */
@@ -38,7 +38,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'ContractCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° (РІ РІР°Р»СЋС‚Рµ РєРѕРЅС‚СЂР°РєС‚Р°)
+     * Get the 'ContractCost' element value. Стоимость товара (в валюте контракта)
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'ContractCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° (РІ РІР°Р»СЋС‚Рµ РєРѕРЅС‚СЂР°РєС‚Р°)
+     * Set the 'ContractCost' element value. Стоимость товара (в валюте контракта)
      * 
      * @param contractCost
      */
@@ -56,7 +56,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'StatisticalCost' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° (USD)
+     * Get the 'StatisticalCost' element value. Статистическая стоимость товара (USD)
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'StatisticalCost' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР° (USD)
+     * Set the 'StatisticalCost' element value. Статистическая стоимость товара (USD)
      * 
      * @param statisticalCost
      */
@@ -74,7 +74,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'ContractCurrency' element value. Р’Р°Р»СЋС‚Р° РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ContractCurrency' element value. Валюта контракта
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'ContractCurrency' element value. Р’Р°Р»СЋС‚Р° РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ContractCurrency' element value. Валюта контракта
      * 
      * @param contractCurrency
      */
@@ -92,7 +92,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'GoodNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Get the 'GoodNumber' element value. Номер товара
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'GoodNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Set the 'GoodNumber' element value. Номер товара
      * 
      * @param goodNumber
      */
@@ -110,7 +110,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'GoodMark' element value. РњР°СЂРєР° С‚РѕРІР°СЂР°
+     * Get the 'GoodMark' element value. Марка товара
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'GoodMark' element value. РњР°СЂРєР° С‚РѕРІР°СЂР°
+     * Set the 'GoodMark' element value. Марка товара
      * 
      * @param goodMark
      */
@@ -128,7 +128,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
+     * Get the 'Quantity' element value. Количество
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
+     * Set the 'Quantity' element value. Количество
      * 
      * @param quantity
      */
@@ -146,7 +146,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения
      * 
      * @param supplementaryQuantity
      */

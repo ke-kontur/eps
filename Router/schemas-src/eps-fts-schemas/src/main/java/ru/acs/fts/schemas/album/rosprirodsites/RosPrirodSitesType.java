@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.sqcommonaggregatetypescust.AuthorizedPersonType;
 
 /** 
- * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РІС‹РІРѕР· РёР· Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё Рё РІРІРѕР· РІ Р РѕСЃСЃРёР№СЃРєСѓСЋ Р¤РµРґРµСЂР°С†РёСЋ РІРёРґРѕРІ РґРёРєРѕР№ С„Р°СѓРЅС‹ Рё С„Р»РѕСЂС‹
+ * Ответ на запрос разрешения на вывоз из Российской Федерации и ввоз в Российскую Федерацию видов дикой фауны и флоры
  */
 public class RosPrirodSitesType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class RosPrirodSitesType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @param isCanceled
      */
@@ -47,7 +47,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -65,7 +65,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentId' element value. Id РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentId' element value. Id документа
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentId' element value. Id РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentId' element value. Id документа
      * 
      * @param documentId
      */
@@ -83,7 +83,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the 'Opeartion' element value. РџСЂРёР·РЅР°Рє (Р­Рљ, РРњ, Р РµСЌРєСЃРїРѕСЂС‚, РРЅС‚СЂРѕРґСѓРєС†РёСЏ)/EXPORT, IMPORT, REEXPORT, INTRODUCTION/
+     * Get the 'Opeartion' element value. Признак (ЭК, ИМ, Реэкспорт, Интродукция)/EXPORT, IMPORT, REEXPORT, INTRODUCTION/
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'Opeartion' element value. РџСЂРёР·РЅР°Рє (Р­Рљ, РРњ, Р РµСЌРєСЃРїРѕСЂС‚, РРЅС‚СЂРѕРґСѓРєС†РёСЏ)/EXPORT, IMPORT, REEXPORT, INTRODUCTION/
+     * Set the 'Opeartion' element value. Признак (ЭК, ИМ, Реэкспорт, Интродукция)/EXPORT, IMPORT, REEXPORT, INTRODUCTION/
      * 
      * @param opeartion
      */
@@ -101,7 +101,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ (СЃРµСЂС‚РёС„РёРєР°С‚Р°)
+     * Get the 'RegNumber' element value. Номер разрешения (сертификата)
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ (СЃРµСЂС‚РёС„РёРєР°С‚Р°)
+     * Set the 'RegNumber' element value. Номер разрешения (сертификата)
      * 
      * @param regNumber
      */
@@ -119,7 +119,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”РµР№СЃС‚РІРёС‚РµР»СЊРЅРѕ РґРѕ
+     * Get the 'EndDate' element value. Действительно до
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”РµР№СЃС‚РІРёС‚РµР»СЊРЅРѕ РґРѕ
+     * Set the 'EndDate' element value. Действительно до
      * 
      * @param endDate
      */
@@ -137,7 +137,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the 'SpecialConditions' element value. РћСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ
+     * Get the 'SpecialConditions' element value. Особые условия
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'SpecialConditions' element value. РћСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ
+     * Set the 'SpecialConditions' element value. Особые условия
      * 
      * @param specialConditions
      */
@@ -155,7 +155,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the 'BlankNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Get the 'BlankNumber' element value. Номер бланка
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'BlankNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Set the 'BlankNumber' element value. Номер бланка
      * 
      * @param blankNumber
      */
@@ -173,7 +173,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateBegin' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DateBegin' element value. Дата начала документа
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateBegin' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DateBegin' element value. Дата начала документа
      * 
      * @param dateBegin
      */
@@ -191,7 +191,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the 'Importer' element value. РРјРїРѕСЂС‚РµСЂ
+     * Get the 'Importer' element value. Импортер
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'Importer' element value. РРјРїРѕСЂС‚РµСЂ
+     * Set the 'Importer' element value. Импортер
      * 
      * @param importer
      */
@@ -209,7 +209,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the 'Exporter' element value. Р­РєСЃРїРѕСЂС‚РµСЂ
+     * Get the 'Exporter' element value. Экспортер
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'Exporter' element value. Р­РєСЃРїРѕСЂС‚РµСЂ
+     * Set the 'Exporter' element value. Экспортер
      * 
      * @param exporter
      */
@@ -227,7 +227,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ (Р¤РРћ, РґРѕР»Р¶РЅРѕСЃС‚СЊ, РЅРѕРјРµСЂ РїРµС‡Р°С‚Рё), РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Get the 'AuthorizedPerson' element value. Уполномоченное должностное лицо (ФИО, должность, номер печати), подписавшее заключение
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ (Р¤РРћ, РґРѕР»Р¶РЅРѕСЃС‚СЊ, РЅРѕРјРµСЂ РїРµС‡Р°С‚Рё), РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Set the 'AuthorizedPerson' element value. Уполномоченное должностное лицо (ФИО, должность, номер печати), подписавшее заключение
      * 
      * @param authorizedPerson
      */
@@ -245,7 +245,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Object' element items. Р–РёРІРѕС‚РЅРѕРµ РёР»Рё СЂР°СЃС‚РµРЅРёРµ, РІРєР»СЋС‡РµРЅРЅРѕРµ РІ РїСЂРёР»РѕР¶РµРЅРёРµ РЎРРўР•РЎ, РЅР° РІРІРѕР·/РІС‹РІРѕР· РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Get the list of 'Object' element items. Животное или растение, включенное в приложение СИТЕС, на ввоз/вывоз которого выдано разрешение
      * 
      * @return list
      */
@@ -254,7 +254,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Object' element items. Р–РёРІРѕС‚РЅРѕРµ РёР»Рё СЂР°СЃС‚РµРЅРёРµ, РІРєР»СЋС‡РµРЅРЅРѕРµ РІ РїСЂРёР»РѕР¶РµРЅРёРµ РЎРРўР•РЎ, РЅР° РІРІРѕР·/РІС‹РІРѕР· РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Set the list of 'Object' element items. Животное или растение, включенное в приложение СИТЕС, на ввоз/вывоз которого выдано разрешение
      * 
      * @param list
      */
@@ -263,7 +263,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class RosPrirodSitesType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

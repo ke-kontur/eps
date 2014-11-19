@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
+ * Сведения об обособленном подразделении
  */
 public class CUBranchDescriptionType
 {
@@ -11,7 +11,7 @@ public class CUBranchDescriptionType
     private Choice choice;
 
     /** 
-     * Get the 'OrganizationName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ
+     * Get the 'OrganizationName' element value. Краткое наименование обособленного подразделения
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CUBranchDescriptionType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ
+     * Set the 'OrganizationName' element value. Краткое наименование обособленного подразделения
      * 
      * @param organizationName
      */
@@ -29,7 +29,7 @@ public class CUBranchDescriptionType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ
+     * Get the 'Address' element value. Адрес обособленного подразделения
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class CUBranchDescriptionType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ
+     * Set the 'Address' element value. Адрес обособленного подразделения
      * 
      * @param address
      */
@@ -99,7 +99,7 @@ public class CUBranchDescriptionType
         }
 
         /** 
-         * Get the 'RFOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+         * Get the 'RFOrganizationFeatures' element value. Сведения об организации. Особенности Российской Федерации
          * 
          * @return value
          */
@@ -108,7 +108,7 @@ public class CUBranchDescriptionType
         }
 
         /** 
-         * Set the 'RFOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+         * Set the 'RFOrganizationFeatures' element value. Сведения об организации. Особенности Российской Федерации
          * 
          * @param RFOrganizationFeatures
          */
@@ -128,7 +128,7 @@ public class CUBranchDescriptionType
         }
 
         /** 
-         * Get the 'RKOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
+         * Get the 'RKOrganizationFeatures' element value. Сведения об организации. Особенности Республики Казахстан
          * 
          * @return value
          */
@@ -137,7 +137,7 @@ public class CUBranchDescriptionType
         }
 
         /** 
-         * Set the 'RKOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
+         * Set the 'RKOrganizationFeatures' element value. Сведения об организации. Особенности Республики Казахстан
          * 
          * @param RKOrganizationFeatures
          */
@@ -157,7 +157,7 @@ public class CUBranchDescriptionType
         }
 
         /** 
-         * Get the 'RBOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
+         * Get the 'RBOrganizationFeatures' element value. Сведения об организации. Особенности Республики Беларусь
          * 
          * @return value
          */
@@ -166,7 +166,7 @@ public class CUBranchDescriptionType
         }
 
         /** 
-         * Set the 'RBOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
+         * Set the 'RBOrganizationFeatures' element value. Сведения об организации. Особенности Республики Беларусь
          * 
          * @param RBOrganizationFeatures
          */

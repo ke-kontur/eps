@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.CWDocType;
 
 /** 
- * Р—Р°СЏРІР»РµРЅРёРµ РЅР° РїСЂРѕРІРµРґРµРЅРёРµ РѕРїРµСЂР°С†РёР№ РЅР°Рґ С‚РѕРІР°СЂР°РјРё 
+ * Заявление на проведение операций над товарами 
  */
 public class CWDeclarationType extends CWDocType
 {
@@ -15,7 +15,7 @@ public class CWDeclarationType extends CWDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Header' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Р°С… РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'Header' element value. Информация о реквизитах документа
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class CWDeclarationType extends CWDocType
     }
 
     /** 
-     * Set the 'Header' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Р°С… РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'Header' element value. Информация о реквизитах документа
      * 
      * @param header
      */
@@ -33,7 +33,7 @@ public class CWDeclarationType extends CWDocType
     }
 
     /** 
-     * Get the list of 'Commodity' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Get the list of 'Commodity' element items. Информация о товаре
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class CWDeclarationType extends CWDocType
     }
 
     /** 
-     * Set the list of 'Commodity' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Set the list of 'Commodity' element items. Информация о товаре
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class CWDeclarationType extends CWDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class CWDeclarationType extends CWDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

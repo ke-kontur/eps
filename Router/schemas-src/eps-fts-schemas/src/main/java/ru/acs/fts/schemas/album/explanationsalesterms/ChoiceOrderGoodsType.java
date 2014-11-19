@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Р’С‹Р±РѕСЂ Рё Р·Р°РєР°Р· С‚РѕРІР°СЂР°
+ * Выбор и заказ товара
  */
 public class ChoiceOrderGoodsType
 {
@@ -15,7 +15,7 @@ public class ChoiceOrderGoodsType
     private DeliveryGoodsType deliveryGoods;
 
     /** 
-     * Get the 'DepartmentAnalysis' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ Сѓ РїРѕРєСѓРїР°С‚РµР»СЏ РёРјРµРµС‚СЃСЏ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ, Р·Р°РЅРёРјР°СЋС‰РµРµСЃСЏ РёР·СѓС‡РµРЅРёРµРј РєРѕРЅСЉСЋРЅРєС‚СѓСЂС‹ СЂС‹РЅРєР° Рё (РёР»Рё) РѕС†РµРЅРєРѕР№ СЌС„С„РµРєС‚РёРІРЅРѕСЃС‚Рё СЃРґРµР»РѕРє
+     * Get the 'DepartmentAnalysis' element value. Признак того, что у покупателя имеется подразделение, занимающееся изучением конъюнктуры рынка и (или) оценкой эффективности сделок
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Set the 'DepartmentAnalysis' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ Сѓ РїРѕРєСѓРїР°С‚РµР»СЏ РёРјРµРµС‚СЃСЏ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ, Р·Р°РЅРёРјР°СЋС‰РµРµСЃСЏ РёР·СѓС‡РµРЅРёРµРј РєРѕРЅСЉСЋРЅРєС‚СѓСЂС‹ СЂС‹РЅРєР° Рё (РёР»Рё) РѕС†РµРЅРєРѕР№ СЌС„С„РµРєС‚РёРІРЅРѕСЃС‚Рё СЃРґРµР»РѕРє
+     * Set the 'DepartmentAnalysis' element value. Признак того, что у покупателя имеется подразделение, занимающееся изучением конъюнктуры рынка и (или) оценкой эффективности сделок
      * 
      * @param departmentAnalysis
      */
@@ -33,7 +33,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Get the 'Analysis' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ Р°РЅР°Р»РёР·РёСЂРѕРІР°Р»Рѕ РїСЂРµРґР»РѕР¶РµРЅРёСЏ РґСЂСѓРіРёС… РїСЂРѕРґР°РІС†РѕРІ, Р·Р°РЅРёРјР°СЋС‰РёС…СЃСЏ РїРѕСЃС‚Р°РІРєР°РјРё С‚РѕРІР°СЂРѕРІ С‚РѕРіРѕ Р¶Рµ РєР»Р°СЃСЃР° РёР»Рё РІРёРґР°
+     * Get the 'Analysis' element value. Признак того, что подразделение анализировало предложения других продавцов, занимающихся поставками товаров того же класса или вида
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Set the 'Analysis' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ Р°РЅР°Р»РёР·РёСЂРѕРІР°Р»Рѕ РїСЂРµРґР»РѕР¶РµРЅРёСЏ РґСЂСѓРіРёС… РїСЂРѕРґР°РІС†РѕРІ, Р·Р°РЅРёРјР°СЋС‰РёС…СЃСЏ РїРѕСЃС‚Р°РІРєР°РјРё С‚РѕРІР°СЂРѕРІ С‚РѕРіРѕ Р¶Рµ РєР»Р°СЃСЃР° РёР»Рё РІРёРґР°
+     * Set the 'Analysis' element value. Признак того, что подразделение анализировало предложения других продавцов, занимающихся поставками товаров того же класса или вида
      * 
      * @param analysis
      */
@@ -51,7 +51,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Get the 'Study' element value. РџСЂРёР·РЅР°Рє РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РјР°С‚РµСЂРёР°Р»С‹ РёСЃСЃР»РµРґРѕРІР°РЅРёР№
+     * Get the 'Study' element value. Признак возможности предоставить материалы исследований
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Set the 'Study' element value. РџСЂРёР·РЅР°Рє РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РјР°С‚РµСЂРёР°Р»С‹ РёСЃСЃР»РµРґРѕРІР°РЅРёР№
+     * Set the 'Study' element value. Признак возможности предоставить материалы исследований
      * 
      * @param study
      */
@@ -69,7 +69,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Get the 'DeliveryGoodsUnderContract' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РІ СЂР°РјРєР°С… РєРѕРЅС‚СЂР°РєС‚Р° РїРѕСЃС‚Р°РІР»СЏСЋС‚СЃСЏ С‚РѕРІР°СЂС‹ РѕРґРЅРѕРіРѕ РєР»Р°СЃСЃР° РёР»Рё РІРёРґР°
+     * Get the 'DeliveryGoodsUnderContract' element value. Признак того, что в рамках контракта поставляются товары одного класса или вида
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Set the 'DeliveryGoodsUnderContract' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РІ СЂР°РјРєР°С… РєРѕРЅС‚СЂР°РєС‚Р° РїРѕСЃС‚Р°РІР»СЏСЋС‚СЃСЏ С‚РѕРІР°СЂС‹ РѕРґРЅРѕРіРѕ РєР»Р°СЃСЃР° РёР»Рё РІРёРґР°
+     * Set the 'DeliveryGoodsUnderContract' element value. Признак того, что в рамках контракта поставляются товары одного класса или вида
      * 
      * @param deliveryGoodsUnderContract
      */
@@ -87,7 +87,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Get the 'ChoiceGood' element value. Р’С‹Р±РѕСЂ С‚РѕРІР°СЂР°
+     * Get the 'ChoiceGood' element value. Выбор товара
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Set the 'ChoiceGood' element value. Р’С‹Р±РѕСЂ С‚РѕРІР°СЂР°
+     * Set the 'ChoiceGood' element value. Выбор товара
      * 
      * @param choiceGood
      */
@@ -105,7 +105,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Get the 'OrderGoods' element value. Р—Р°РєР°Р· С‚РѕРІР°СЂР°
+     * Get the 'OrderGoods' element value. Заказ товара
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Set the 'OrderGoods' element value. Р—Р°РєР°Р· С‚РѕРІР°СЂР°
+     * Set the 'OrderGoods' element value. Заказ товара
      * 
      * @param orderGoods
      */
@@ -123,7 +123,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Get the 'DeliveryGoods' element value. РџРѕСЃС‚Р°РІР»СЏРµРјС‹Р№ С‚РѕРІР°СЂ
+     * Get the 'DeliveryGoods' element value. Поставляемый товар
      * 
      * @return value
      */
@@ -132,7 +132,7 @@ public class ChoiceOrderGoodsType
     }
 
     /** 
-     * Set the 'DeliveryGoods' element value. РџРѕСЃС‚Р°РІР»СЏРµРјС‹Р№ С‚РѕРІР°СЂ
+     * Set the 'DeliveryGoods' element value. Поставляемый товар
      * 
      * @param deliveryGoods
      */

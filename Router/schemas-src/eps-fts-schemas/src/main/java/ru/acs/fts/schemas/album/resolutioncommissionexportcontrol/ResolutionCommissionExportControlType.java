@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р Р°Р·СЂРµС€РµРЅРёРµ , РІС‹РґР°РІР°РµРјРѕРµ РљРѕРјРёСЃСЃРёРµР№ РїРѕ СЌРєСЃРїРѕСЂС‚РЅРѕРјСѓ РєРѕРЅС‚СЂРѕР»СЋ
+ * Разрешение , выдаваемое Комиссией по экспортному контролю
  */
 public class ResolutionCommissionExportControlType extends BaseDocType
 {
@@ -27,7 +27,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'RegNumber' element value. Регистрационный номер разрешения
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'RegNumber' element value. Регистрационный номер разрешения
      * 
      * @param regNumber
      */
@@ -45,7 +45,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃРІС‚РёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'EndDate' element value. Дата окончания дейсвтия разрешения
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃРІС‚РёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'EndDate' element value. Дата окончания дейсвтия разрешения
      * 
      * @param endDate
      */
@@ -63,7 +63,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TermsAction' element items. РЈСЃР»РѕРІРёСЏ РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the list of 'TermsAction' element items. Условия действия разрешения
      * 
      * @return list
      */
@@ -72,7 +72,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TermsAction' element items. РЈСЃР»РѕРІРёСЏ РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the list of 'TermsAction' element items. Условия действия разрешения
      * 
      * @param list
      */
@@ -106,7 +106,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'JuridicalPerson' element value. Р®СЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
+     * Get the 'JuridicalPerson' element value. Юридическое лицо
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'JuridicalPerson' element value. Р®СЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
+     * Set the 'JuridicalPerson' element value. Юридическое лицо
      * 
      * @param juridicalPerson
      */
@@ -134,7 +134,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'IndividualPerson' element value. Р¤РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
+     * Get the 'IndividualPerson' element value. Физическое лицо
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'IndividualPerson' element value. Р¤РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
+     * Set the 'IndividualPerson' element value. Физическое лицо
      * 
      * @param individualPerson
      */
@@ -153,7 +153,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'Application' element value. РЎРІРµРґРµРЅРёСЏ РёР· Р·Р°СЏРІР»РµРЅРёСЏ
+     * Get the 'Application' element value. Сведения из заявления
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'Application' element value. РЎРІРµРґРµРЅРёСЏ РёР· Р·Р°СЏРІР»РµРЅРёСЏ
+     * Set the 'Application' element value. Сведения из заявления
      * 
      * @param application
      */
@@ -171,7 +171,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueBase' element value. Р Р°Р·СЂРµС€РµРЅРёРµ РІС‹РґР°РЅРѕ РЅР° РѕСЃРЅРѕРІР°РЅРёРё
+     * Get the 'IssueBase' element value. Разрешение выдано на основании
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueBase' element value. Р Р°Р·СЂРµС€РµРЅРёРµ РІС‹РґР°РЅРѕ РЅР° РѕСЃРЅРѕРІР°РЅРёРё
+     * Set the 'IssueBase' element value. Разрешение выдано на основании
      * 
      * @param issueBase
      */
@@ -189,7 +189,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ
+     * Get the 'PersonSignature' element value. Подпись
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ
+     * Set the 'PersonSignature' element value. Подпись
      * 
      * @param personSignature
      */
@@ -207,7 +207,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -216,7 +216,7 @@ public class ResolutionCommissionExportControlType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

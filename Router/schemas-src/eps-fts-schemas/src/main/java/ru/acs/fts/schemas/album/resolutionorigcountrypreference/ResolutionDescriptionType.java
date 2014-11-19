@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р РµС€РµРЅРёРµ
+ * Решение
  */
 public class ResolutionDescriptionType
 {
@@ -14,7 +14,7 @@ public class ResolutionDescriptionType
     private List<InfoCountryCodeType> infoCountryCodeList = new ArrayList<InfoCountryCodeType>();
 
     /** 
-     * Get the 'DecisionSign' element value. РџСЂРёР·РЅР°Рє СЂРµС€РµРЅРёСЏ (1 - Рѕ СЃС‚СЂР°РЅРµ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, 0 - Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё С‚Р°СЂРёС„РЅС‹С… РїСЂРµС„РµСЂРµРЅС†РёР№)
+     * Get the 'DecisionSign' element value. Признак решения (1 - о стране происхождения, 0 - о предоставлении тарифных преференций)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ResolutionDescriptionType
     }
 
     /** 
-     * Set the 'DecisionSign' element value. РџСЂРёР·РЅР°Рє СЂРµС€РµРЅРёСЏ (1 - Рѕ СЃС‚СЂР°РЅРµ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, 0 - Рѕ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРё С‚Р°СЂРёС„РЅС‹С… РїСЂРµС„РµСЂРµРЅС†РёР№)
+     * Set the 'DecisionSign' element value. Признак решения (1 - о стране происхождения, 0 - о предоставлении тарифных преференций)
      * 
      * @param decisionSign
      */
@@ -32,7 +32,7 @@ public class ResolutionDescriptionType
     }
 
     /** 
-     * Get the 'DecisionMeaning' element value. Р—РЅР°С‡РµРЅРёРµ СЂРµС€РµРЅРёСЏ (1 - Р·Р°СЏРІР»РµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ РЎРџ РїСЂРёРЅСЏС‚С‹, 2 - Р·Р°СЏРІР»РµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ РЎРџ СЃРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°РЅС‹, 3 - С‚Р°СЂРёС„РЅР°СЏ РїСЂРµС„РµСЂРµРЅС†РёСЏ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅР°, 4 - С‚Р°СЂРёС„РЅР°СЏ РїСЂРµС„РµСЂРµРЅС†РёСЏ РЅРµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅР°)
+     * Get the 'DecisionMeaning' element value. Значение решения (1 - заявленные сведения о СП приняты, 2 - заявленные сведения о СП скорректированы, 3 - тарифная преференция предоставлена, 4 - тарифная преференция не предоставлена)
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ResolutionDescriptionType
     }
 
     /** 
-     * Set the 'DecisionMeaning' element value. Р—РЅР°С‡РµРЅРёРµ СЂРµС€РµРЅРёСЏ (1 - Р·Р°СЏРІР»РµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ РЎРџ РїСЂРёРЅСЏС‚С‹, 2 - Р·Р°СЏРІР»РµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ РЎРџ СЃРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°РЅС‹, 3 - С‚Р°СЂРёС„РЅР°СЏ РїСЂРµС„РµСЂРµРЅС†РёСЏ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅР°, 4 - С‚Р°СЂРёС„РЅР°СЏ РїСЂРµС„РµСЂРµРЅС†РёСЏ РЅРµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅР°)
+     * Set the 'DecisionMeaning' element value. Значение решения (1 - заявленные сведения о СП приняты, 2 - заявленные сведения о СП скорректированы, 3 - тарифная преференция предоставлена, 4 - тарифная преференция не предоставлена)
      * 
      * @param decisionMeaning
      */
@@ -50,7 +50,7 @@ public class ResolutionDescriptionType
     }
 
     /** 
-     * Get the list of 'InfoCountryCode' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЎРџ
+     * Get the list of 'InfoCountryCode' element items. Сведения о СП
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class ResolutionDescriptionType
     }
 
     /** 
-     * Set the list of 'InfoCountryCode' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РЎРџ
+     * Set the list of 'InfoCountryCode' element items. Сведения о СП
      * 
      * @param list
      */

@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.archadddocrequest;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚, РїРѕРјРµС‰Р°РµРјС‹Р№ РІ Р°СЂС…РёРІ
+ * Документ, помещаемый в архив
  */
 public class ArchDocType
 {
     private Object any;
 
     /** 
-     * Get the 'ArchDocType' complexType value. РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'ArchDocType' complexType value. Тело документа
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class ArchDocType
     }
 
     /** 
-     * Set the 'ArchDocType' complexType value. РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'ArchDocType' complexType value. Тело документа
      * 
      * @param any
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.envelope;
 
 /** 
- * РЎСЃС‹Р»РєР° РЅР° РїСЂРёРєСЂРµРїР»РµРЅРЅС‹Р№ С„Р°Р№Р»
+ * Ссылка на прикрепленный файл
  * 
  * Schema fragment(s) for this class:
  * <pre>

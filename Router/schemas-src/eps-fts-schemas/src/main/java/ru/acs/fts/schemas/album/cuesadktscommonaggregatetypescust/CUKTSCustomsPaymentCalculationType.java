@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUCustomsPaymentCalculationType;
 
 /** 
- * РљРўРЎ. РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+ * КТС. Исчисление таможенных платежей
  */
 public class CUKTSCustomsPaymentCalculationType
         extends
@@ -18,7 +18,7 @@ public class CUKTSCustomsPaymentCalculationType
     private List<KTSPaymentDocumentType> paymentDocumentList = new ArrayList<KTSPaymentDocumentType>();
 
     /** 
-     * Get the 'PrecedingPaymentAmount' element value. РџСЂРµРґС‹РґСѓС‰Р°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Get the 'PrecedingPaymentAmount' element value. Предыдущая сумма платежа
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class CUKTSCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'PrecedingPaymentAmount' element value. РџСЂРµРґС‹РґСѓС‰Р°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Set the 'PrecedingPaymentAmount' element value. Предыдущая сумма платежа
      * 
      * @param precedingPaymentAmount
      */
@@ -36,7 +36,7 @@ public class CUKTSCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'ChangeAmount' element value. РР·РјРµРЅРµРЅРёРµ 
+     * Get the 'ChangeAmount' element value. Изменение 
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class CUKTSCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'ChangeAmount' element value. РР·РјРµРЅРµРЅРёРµ 
+     * Set the 'ChangeAmount' element value. Изменение 
      * 
      * @param changeAmount
      */
@@ -54,7 +54,7 @@ public class CUKTSCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'PrecedingPaymentCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїСЂРµРґС‹РґСѓС‰РµР№ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°
+     * Get the 'PrecedingPaymentCurrencyCode' element value. Код валюты предыдущей суммы платежа
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class CUKTSCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'PrecedingPaymentCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїСЂРµРґС‹РґСѓС‰РµР№ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°
+     * Set the 'PrecedingPaymentCurrencyCode' element value. Код валюты предыдущей суммы платежа
      * 
      * @param precedingPaymentCurrencyCode
      */
@@ -73,7 +73,7 @@ public class CUKTSCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the list of 'PaymentDocument' element items. РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Get the list of 'PaymentDocument' element items. Платежный документ
      * 
      * @return list
      */
@@ -82,7 +82,7 @@ public class CUKTSCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the list of 'PaymentDocument' element items. РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Set the list of 'PaymentDocument' element items. Платежный документ
      * 
      * @param list
      */

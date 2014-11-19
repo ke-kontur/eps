@@ -18,7 +18,7 @@ public class DocBodyType
     private Element any;
 
     /** 
-     * Get the 'DocBodyType' complexType value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґРїРёСЃР°РЅРЅС‹Р№  Р­Р¦Рџ
+     * Get the 'DocBodyType' complexType value. Документ, подписанный  ЭЦП
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class DocBodyType
     }
 
     /** 
-     * Set the 'DocBodyType' complexType value. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґРїРёСЃР°РЅРЅС‹Р№  Р­Р¦Рџ
+     * Set the 'DocBodyType' complexType value. Документ, подписанный  ЭЦП
      * 
      * @param any
      */

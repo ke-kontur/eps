@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.preliminaryorigincountry;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+ * Регистрационный номер
  */
 public class RegistrationNumberType
 {
@@ -11,7 +11,7 @@ public class RegistrationNumberType
     private String serialNumber;
 
     /** 
-     * Get the 'IndexManagement' element value. РРЅРґРµРєСЃ РЈРїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'IndexManagement' element value. Индекс Управления
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'IndexManagement' element value. РРЅРґРµРєСЃ РЈРїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'IndexManagement' element value. Индекс Управления
      * 
      * @param indexManagement
      */
@@ -29,7 +29,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'CaseNumber' element value. РќРѕРјРµСЂ РґРµР»Р° РїРѕ РЅРѕРјРµРЅРєР»Р°С‚СѓСЂРµ РґРµР» РЈРїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'CaseNumber' element value. Номер дела по номенклатуре дел Управления
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'CaseNumber' element value. РќРѕРјРµСЂ РґРµР»Р° РїРѕ РЅРѕРјРµРЅРєР»Р°С‚СѓСЂРµ РґРµР» РЈРїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'CaseNumber' element value. Номер дела по номенклатуре дел Управления
      * 
      * @param caseNumber
      */
@@ -47,7 +47,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РёСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ РІ РЈРїСЂР°РІР»РµРЅРёРё
+     * Get the 'SerialNumber' element value. Порядковый исходящий номер предварительного решения в Управлении
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RegistrationNumberType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РёСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ РІ РЈРїСЂР°РІР»РµРЅРёРё
+     * Set the 'SerialNumber' element value. Порядковый исходящий номер предварительного решения в Управлении
      * 
      * @param serialNumber
      */

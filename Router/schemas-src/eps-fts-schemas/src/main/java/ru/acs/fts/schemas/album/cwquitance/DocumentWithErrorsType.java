@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚,СЃРѕРґРµСЂР¶Р°С‰РёР№ РѕС€РёР±РєРё
+ * Документ,содержащий ошибки
  */
 public class DocumentWithErrorsType
 {
@@ -14,7 +14,7 @@ public class DocumentWithErrorsType
     private List<ErrorsType> errorList = new ArrayList<ErrorsType>();
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РїРѕРґС‚РІРµСЂР¶РґР°РµРјРѕРіРѕ/РѕС€РёР±РѕС‡РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер подтверждаемого/ошибочного документа
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DocumentWithErrorsType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РїРѕРґС‚РІРµСЂР¶РґР°РµРјРѕРіРѕ/РѕС€РёР±РѕС‡РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер подтверждаемого/ошибочного документа
      * 
      * @param documentNumber
      */
@@ -32,7 +32,7 @@ public class DocumentWithErrorsType
     }
 
     /** 
-     * Get the 'OrderNumberOfEdition' element value. РќРѕРјРµСЂ РІРµСЂСЃРёРё РїРѕРґС‚РІРµСЂР¶РґР°РµРјРѕРіРѕ/РѕС€РёР±РѕС‡РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'OrderNumberOfEdition' element value. Номер версии подтверждаемого/ошибочного документа
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DocumentWithErrorsType
     }
 
     /** 
-     * Set the 'OrderNumberOfEdition' element value. РќРѕРјРµСЂ РІРµСЂСЃРёРё РїРѕРґС‚РІРµСЂР¶РґР°РµРјРѕРіРѕ/РѕС€РёР±РѕС‡РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'OrderNumberOfEdition' element value. Номер версии подтверждаемого/ошибочного документа
      * 
      * @param orderNumberOfEdition
      */
@@ -50,7 +50,7 @@ public class DocumentWithErrorsType
     }
 
     /** 
-     * Get the list of 'Errors' element items. РћС€РёР±РєРё
+     * Get the list of 'Errors' element items. Ошибки
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class DocumentWithErrorsType
     }
 
     /** 
-     * Set the list of 'Errors' element items. РћС€РёР±РєРё
+     * Set the list of 'Errors' element items. Ошибки
      * 
      * @param list
      */

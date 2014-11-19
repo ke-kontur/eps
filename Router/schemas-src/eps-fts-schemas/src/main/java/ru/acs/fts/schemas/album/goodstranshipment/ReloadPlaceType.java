@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.goodstranshipment;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РіСЂСѓР·РѕРІС‹С… Рё РёРЅС‹С… РѕРїРµСЂР°С†РёР№.
+ * Место проведения грузовых и иных операций.
  */
 public class ReloadPlaceType extends CustomsType
 {
@@ -12,7 +12,7 @@ public class ReloadPlaceType extends CustomsType
     private RWStationType RWStation;
 
     /** 
-     * Get the 'BorderPointCode' element value. РљРѕРґ РїСѓРЅРєС‚Р° РїСЂРѕРїСѓСЃРєР°
+     * Get the 'BorderPointCode' element value. Код пункта пропуска
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ReloadPlaceType extends CustomsType
     }
 
     /** 
-     * Set the 'BorderPointCode' element value. РљРѕРґ РїСѓРЅРєС‚Р° РїСЂРѕРїСѓСЃРєР°
+     * Set the 'BorderPointCode' element value. Код пункта пропуска
      * 
      * @param borderPointCode
      */
@@ -30,7 +30,7 @@ public class ReloadPlaceType extends CustomsType
     }
 
     /** 
-     * Get the 'RWStation' element value. Р–Р” СЃС‚Р°РЅС†РёСЏ РЅР° РєРѕС‚РѕСЂРѕР№ РїСЂРµРґРїРѕР»Р°РіР°СЋС‚СЃСЏ РіСЂСѓР·РѕРІС‹Рµ РѕРїРµСЂР°С†РёРё
+     * Get the 'RWStation' element value. ЖД станция на которой предполагаются грузовые операции
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ReloadPlaceType extends CustomsType
     }
 
     /** 
-     * Set the 'RWStation' element value. Р–Р” СЃС‚Р°РЅС†РёСЏ РЅР° РєРѕС‚РѕСЂРѕР№ РїСЂРµРґРїРѕР»Р°РіР°СЋС‚СЃСЏ РіСЂСѓР·РѕРІС‹Рµ РѕРїРµСЂР°С†РёРё
+     * Set the 'RWStation' element value. ЖД станция на которой предполагаются грузовые операции
      * 
      * @param RWStation
      */

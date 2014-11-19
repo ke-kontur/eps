@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.shippingmanifest;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± Р°РІС‚РѕРјРѕР±РёР»Рµ 
+ * Сведения об автомобиле 
  */
 public class VehicleType
 {
@@ -18,7 +18,7 @@ public class VehicleType
     private CheckPointType finish;
 
     /** 
-     * Get the 'Type' element value. РўРёРї 
+     * Get the 'Type' element value. Тип 
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class VehicleType
     }
 
     /** 
-     * Set the 'Type' element value. РўРёРї 
+     * Set the 'Type' element value. Тип 
      * 
      * @param type
      */
@@ -36,7 +36,7 @@ public class VehicleType
     }
 
     /** 
-     * Get the 'Make' element value. РњР°СЂРєР° Р°РІС‚РѕРјРѕР±РёР»СЏ 
+     * Get the 'Make' element value. Марка автомобиля 
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class VehicleType
     }
 
     /** 
-     * Set the 'Make' element value. РњР°СЂРєР° Р°РІС‚РѕРјРѕР±РёР»СЏ 
+     * Set the 'Make' element value. Марка автомобиля 
      * 
      * @param make
      */
@@ -54,7 +54,7 @@ public class VehicleType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°РІС‚РѕРјРѕР±РёР»СЏ 
+     * Get the 'RegistrationNumber' element value. Регистрационный номер автомобиля 
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class VehicleType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°РІС‚РѕРјРѕР±РёР»СЏ 
+     * Set the 'RegistrationNumber' element value. Регистрационный номер автомобиля 
      * 
      * @param registrationNumber
      */
@@ -72,7 +72,7 @@ public class VehicleType
     }
 
     /** 
-     * Get the 'TrailerRegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРёС†РµРїР° 
+     * Get the 'TrailerRegistrationNumber' element value. Регистрационный номер прицепа 
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class VehicleType
     }
 
     /** 
-     * Set the 'TrailerRegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РїСЂРёС†РµРїР° 
+     * Set the 'TrailerRegistrationNumber' element value. Регистрационный номер прицепа 
      * 
      * @param trailerRegistrationNumber
      */
@@ -90,7 +90,7 @@ public class VehicleType
     }
 
     /** 
-     * Get the 'SecondTrailerRegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РІС‚РѕСЂРѕРіРѕ РїСЂРёС†РµРїР° 
+     * Get the 'SecondTrailerRegistrationNumber' element value. Регистрационный номер второго прицепа 
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class VehicleType
     }
 
     /** 
-     * Set the 'SecondTrailerRegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РІС‚РѕСЂРѕРіРѕ РїСЂРёС†РµРїР° 
+     * Set the 'SecondTrailerRegistrationNumber' element value. Регистрационный номер второго прицепа 
      * 
      * @param secondTrailerRegistrationNumber
      */
@@ -109,7 +109,7 @@ public class VehicleType
     }
 
     /** 
-     * Get the 'Owner' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё 
+     * Get the 'Owner' element value. Реквизиты организации 
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class VehicleType
     }
 
     /** 
-     * Set the 'Owner' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё 
+     * Set the 'Owner' element value. Реквизиты организации 
      * 
      * @param owner
      */
@@ -127,7 +127,7 @@ public class VehicleType
     }
 
     /** 
-     * Get the 'Start' element value. РџРѕРєР°Р·Р°РЅРёСЏ РѕРґРѕРјРµС‚СЂР° (РїРѕР»РЅС‹Рµ РєРј РїСЂРѕР±РµРіР°) РїСЂРё РІС‹РµР·РґРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РёР· РіР°СЂР°Р¶Р° (РґРµРїРѕ)
+     * Get the 'Start' element value. Показания одометра (полные км пробега) при выезде транспортного средства из гаража (депо)
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class VehicleType
     }
 
     /** 
-     * Set the 'Start' element value. РџРѕРєР°Р·Р°РЅРёСЏ РѕРґРѕРјРµС‚СЂР° (РїРѕР»РЅС‹Рµ РєРј РїСЂРѕР±РµРіР°) РїСЂРё РІС‹РµР·РґРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РёР· РіР°СЂР°Р¶Р° (РґРµРїРѕ)
+     * Set the 'Start' element value. Показания одометра (полные км пробега) при выезде транспортного средства из гаража (депо)
      * 
      * @param start
      */
@@ -145,7 +145,7 @@ public class VehicleType
     }
 
     /** 
-     * Get the 'Finish' element value. РџРѕРєР°Р·Р°РЅРёСЏ РѕРґРѕРјРµС‚СЂР° (РїРѕР»РЅС‹Рµ РєРј РїСЂРѕР±РµРіР°) РїСЂРё Р·Р°РµР·РґРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РІ РіР°СЂР°Р¶ (РґРµРїРѕ)
+     * Get the 'Finish' element value. Показания одометра (полные км пробега) при заезде транспортного средства в гараж (депо)
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class VehicleType
     }
 
     /** 
-     * Set the 'Finish' element value. РџРѕРєР°Р·Р°РЅРёСЏ РѕРґРѕРјРµС‚СЂР° (РїРѕР»РЅС‹Рµ РєРј РїСЂРѕР±РµРіР°) РїСЂРё Р·Р°РµР·РґРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РІ РіР°СЂР°Р¶ (РґРµРїРѕ)
+     * Set the 'Finish' element value. Показания одометра (полные км пробега) при заезде транспортного средства в гараж (депо)
      * 
      * @param finish
      */

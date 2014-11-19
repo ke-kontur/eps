@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WareHouseRepor
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhTransportType;
 
 /** 
- * РћС‚С‡РµС‚ Рѕ РІС‹РґР°С‡Рµ С‚РѕРІР°СЂРѕРІ СЃ РЎР’РҐ РїРѕ С„РѕСЂРјРµ Р”Рћ2
+ * Отчет о выдаче товаров с СВХ по форме ДО2
  */
 public class DO2ReportType extends WareHouseReportType
 {
@@ -18,7 +18,7 @@ public class DO2ReportType extends WareHouseReportType
     private String documentModeID;
 
     /** 
-     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Get the 'Carrier' element value. Перевозчик
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class DO2ReportType extends WareHouseReportType
     }
 
     /** 
-     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Set the 'Carrier' element value. Перевозчик
      * 
      * @param carrier
      */
@@ -36,7 +36,7 @@ public class DO2ReportType extends WareHouseReportType
     }
 
     /** 
-     * Get the list of 'DOTransports' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°
+     * Get the list of 'DOTransports' element items. Транспортные средства
      * 
      * @return list
      */
@@ -45,7 +45,7 @@ public class DO2ReportType extends WareHouseReportType
     }
 
     /** 
-     * Set the list of 'DOTransports' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°
+     * Set the list of 'DOTransports' element items. Транспортные средства
      * 
      * @param list
      */
@@ -54,7 +54,7 @@ public class DO2ReportType extends WareHouseReportType
     }
 
     /** 
-     * Get the 'GoodsShipment' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РІС‹РїСѓСЃРєР°РµРјС‹С… СЃРѕ СЃРєР»Р°РґР°
+     * Get the 'GoodsShipment' element value. Сведения о товарах, выпускаемых со склада
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class DO2ReportType extends WareHouseReportType
     }
 
     /** 
-     * Set the 'GoodsShipment' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…, РІС‹РїСѓСЃРєР°РµРјС‹С… СЃРѕ СЃРєР»Р°РґР°
+     * Set the 'GoodsShipment' element value. Сведения о товарах, выпускаемых со склада
      * 
      * @param goodsShipment
      */
@@ -72,7 +72,7 @@ public class DO2ReportType extends WareHouseReportType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class DO2ReportType extends WareHouseReportType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

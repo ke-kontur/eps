@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.custpaymentsdk;
 import org.joda.time.LocalDate;
 
 /** 
- * РџР»Р°С‚РµР¶РЅС‹Рµ РїРѕСЂСѓС‡РµРЅРёСЏ
+ * Платежные поручения
  */
 public class PaymentDocumentType
         extends
@@ -20,7 +20,7 @@ public class PaymentDocumentType
     private String CRYPT;
 
     /** 
-     * Get the 'OKPOID' element value. РћРљРџРћ РїР»Р°С‚РµР»СЊС‰РёРєР°.
+     * Get the 'OKPOID' element value. ОКПО плательщика.
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'OKPOID' element value. РћРљРџРћ РїР»Р°С‚РµР»СЊС‰РёРєР°.
+     * Set the 'OKPOID' element value. ОКПО плательщика.
      * 
      * @param OKPOID
      */
@@ -38,7 +38,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'ReceiptDate' element value. Р”Р°С‚Р° РїРѕСЃС‚СѓРїР»РµРЅРёСЏ РґРµРЅРµРі РЅР° СЃС‡РµС‚.
+     * Get the 'ReceiptDate' element value. Дата поступления денег на счет.
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'ReceiptDate' element value. Р”Р°С‚Р° РїРѕСЃС‚СѓРїР»РµРЅРёСЏ РґРµРЅРµРі РЅР° СЃС‡РµС‚.
+     * Set the 'ReceiptDate' element value. Дата поступления денег на счет.
      * 
      * @param receiptDate
      */
@@ -56,7 +56,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'BIC' element value. Р‘РРљ
+     * Get the 'BIC' element value. БИК
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'BIC' element value. Р‘РРљ
+     * Set the 'BIC' element value. БИК
      * 
      * @param BIC
      */
@@ -74,7 +74,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'PaymentWayCode' element value. РЎРїРѕСЃРѕР± РїР»Р°С‚РµР¶Р°
+     * Get the 'PaymentWayCode' element value. Способ платежа
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'PaymentWayCode' element value. РЎРїРѕСЃРѕР± РїР»Р°С‚РµР¶Р°
+     * Set the 'PaymentWayCode' element value. Способ платежа
      * 
      * @param paymentWayCode
      */
@@ -92,7 +92,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'IncomeCode' element value. РљРѕРґ РґРѕС…РѕРґР° РїРѕ Р±СЋРґР¶РµС‚РЅРѕР№ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё
+     * Get the 'IncomeCode' element value. Код дохода по бюджетной классификации
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'IncomeCode' element value. РљРѕРґ РґРѕС…РѕРґР° РїРѕ Р±СЋРґР¶РµС‚РЅРѕР№ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё
+     * Set the 'IncomeCode' element value. Код дохода по бюджетной классификации
      * 
      * @param incomeCode
      */
@@ -110,7 +110,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'PRIZ' element value. РЎР»СѓР¶РµР±РЅРѕРµ
+     * Get the 'PRIZ' element value. Служебное
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'PRIZ' element value. РЎР»СѓР¶РµР±РЅРѕРµ
+     * Set the 'PRIZ' element value. Служебное
      * 
      * @param PRIZ
      */
@@ -128,7 +128,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'WHO' element value. РЎР»СѓР¶РµР±РЅРѕРµ
+     * Get the 'WHO' element value. Служебное
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'WHO' element value. РЎР»СѓР¶РµР±РЅРѕРµ
+     * Set the 'WHO' element value. Служебное
      * 
      * @param WHO
      */
@@ -146,7 +146,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Get the 'CRYPT' element value. РљРѕРЅС‚СЂРѕР»СЊРЅР°СЏ СЃСѓРјРјР° Р·Р°РїРёСЃРё
+     * Get the 'CRYPT' element value. Контрольная сумма записи
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class PaymentDocumentType
     }
 
     /** 
-     * Set the 'CRYPT' element value. РљРѕРЅС‚СЂРѕР»СЊРЅР°СЏ СЃСѓРјРјР° Р·Р°РїРёСЃРё
+     * Set the 'CRYPT' element value. Контрольная сумма записи
      * 
      * @param CRYPT
      */

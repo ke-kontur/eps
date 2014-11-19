@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.conformancesertif;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РћСЂРіР°РЅ, Р°РєРєСЂРµРґРёС‚РѕРІР°РІС€РёР№ РѕСЂРіР°РЅ СЃРµСЂС‚РёС„РёРєР°С†РёРё
+ * Орган, аккредитовавший орган сертификации
  */
 public class CertificateOrgType extends OrganizationBaseType
 {
@@ -12,7 +12,7 @@ public class CertificateOrgType extends OrganizationBaseType
     private String fax;
 
     /** 
-     * Get the 'Phone' element value. РўРµР»РµС„РѕРЅ
+     * Get the 'Phone' element value. Телефон
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class CertificateOrgType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Phone' element value. РўРµР»РµС„РѕРЅ
+     * Set the 'Phone' element value. Телефон
      * 
      * @param phone
      */
@@ -30,7 +30,7 @@ public class CertificateOrgType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Fax' element value. РўРµР»РµС„РѕРЅ
+     * Get the 'Fax' element value. Телефон
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class CertificateOrgType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Fax' element value. РўРµР»РµС„РѕРЅ
+     * Set the 'Fax' element value. Телефон
      * 
      * @param fax
      */

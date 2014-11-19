@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РџСЂРёР»РѕР¶РµРЅРёРµ Рє РџР°СЃРїРѕСЂС‚Сѓ Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё 
+ * Приложение к Паспорту бартерной сделки 
  */
 public class EnclosureType
 {
@@ -22,7 +22,7 @@ public class EnclosureType
     private Choice choice;
 
     /** 
-     * Get the 'ExportIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ СЌРєСЃРїРѕСЂС‚Р° С‚РѕРІР°СЂРѕРІ, РІ СЃР»СѓС‡Р°Рµ РёРјРїРѕСЂС‚Р° РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
+     * Get the 'ExportIndicator' element value. Индикатор экспорта товаров, в случае импорта не заполняется
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class EnclosureType
     }
 
     /** 
-     * Set the 'ExportIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ СЌРєСЃРїРѕСЂС‚Р° С‚РѕРІР°СЂРѕРІ, РІ СЃР»СѓС‡Р°Рµ РёРјРїРѕСЂС‚Р° РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
+     * Set the 'ExportIndicator' element value. Индикатор экспорта товаров, в случае импорта не заполняется
      * 
      * @param exportIndicator
      */
@@ -40,7 +40,7 @@ public class EnclosureType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class EnclosureType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -58,7 +58,7 @@ public class EnclosureType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ (СѓСЃР»СѓРі) 
+     * Get the 'GoodsDescription' element value. Описание товаров (услуг) 
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class EnclosureType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ (СѓСЃР»СѓРі) 
+     * Set the 'GoodsDescription' element value. Описание товаров (услуг) 
      * 
      * @param goodsDescription
      */
@@ -76,7 +76,7 @@ public class EnclosureType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ СѓРєР°Р·Р°РЅРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'GoodsQuantity' element value. Количество товара в указанных единицах измерения
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class EnclosureType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ СѓРєР°Р·Р°РЅРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'GoodsQuantity' element value. Количество товара в указанных единицах измерения
      * 
      * @param goodsQuantity
      */
@@ -94,7 +94,7 @@ public class EnclosureType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'MeasureUnitQualifierCode' element value. Код единицы измерения
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class EnclosureType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'MeasureUnitQualifierCode' element value. Код единицы измерения
      * 
      * @param measureUnitQualifierCode
      */
@@ -112,7 +112,7 @@ public class EnclosureType
     }
 
     /** 
-     * Get the 'SupplementaryQualifierName' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РїСЂРё РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РµРµ СѓРєР°Р·Р°РЅРёСЏ
+     * Get the 'SupplementaryQualifierName' element value. Название единицы измерения при возможности ее указания
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class EnclosureType
     }
 
     /** 
-     * Set the 'SupplementaryQualifierName' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РїСЂРё РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РµРµ СѓРєР°Р·Р°РЅРёСЏ
+     * Set the 'SupplementaryQualifierName' element value. Название единицы измерения при возможности ее указания
      * 
      * @param supplementaryQualifierName
      */
@@ -130,7 +130,7 @@ public class EnclosureType
     }
 
     /** 
-     * Get the 'Price' element value. Р¦РµРЅР° РµРґРёРЅРёС†С‹ СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјРѕРіРѕ (РёРјРїРѕСЂС‚РёСЂСѓРµРјРѕРіРѕ) С‚РѕРІР°СЂР° РІ РІР°Р»СЋС‚Рµ С†РµРЅС‹ Р”РѕРіРѕРІРѕСЂР°.
+     * Get the 'Price' element value. Цена единицы экспортируемого (импортируемого) товара в валюте цены Договора.
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class EnclosureType
     }
 
     /** 
-     * Set the 'Price' element value. Р¦РµРЅР° РµРґРёРЅРёС†С‹ СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјРѕРіРѕ (РёРјРїРѕСЂС‚РёСЂСѓРµРјРѕРіРѕ) С‚РѕРІР°СЂР° РІ РІР°Р»СЋС‚Рµ С†РµРЅС‹ Р”РѕРіРѕРІРѕСЂР°.
+     * Set the 'Price' element value. Цена единицы экспортируемого (импортируемого) товара в валюте цены Договора.
      * 
      * @param price
      */
@@ -148,7 +148,7 @@ public class EnclosureType
     }
 
     /** 
-     * Get the 'Cost1' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ (РІ С‚С‹СЃСЏС‡Р°С… РґРµРЅРµР¶РЅС‹С… РµРґРёРЅРёС†) СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјС‹С… (РёРјРїРѕСЂС‚РёСЂСѓРµРјС‹С…) С‚РѕРІР°СЂРѕРІ, СЂР°Р±РѕС‚, СѓСЃР»СѓРі, СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РІ РІР°Р»СЋС‚Рµ С†РµРЅС‹ Р”РѕРіРѕРІРѕСЂР° РЅР° СѓСЃР»РѕРІРёСЏС… РѕСЃРЅРѕРІРЅРѕРіРѕ Р±Р°Р·РёСЃР° РїРѕСЃС‚Р°РІРєРё.
+     * Get the 'Cost1' element value. Стоимость (в тысячах денежных единиц) экспортируемых (импортируемых) товаров, работ, услуг, результатов интеллектуальной деятельности в валюте цены Договора на условиях основного базиса поставки.
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class EnclosureType
     }
 
     /** 
-     * Set the 'Cost1' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ (РІ С‚С‹СЃСЏС‡Р°С… РґРµРЅРµР¶РЅС‹С… РµРґРёРЅРёС†) СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјС‹С… (РёРјРїРѕСЂС‚РёСЂСѓРµРјС‹С…) С‚РѕРІР°СЂРѕРІ, СЂР°Р±РѕС‚, СѓСЃР»СѓРі, СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РІ РІР°Р»СЋС‚Рµ С†РµРЅС‹ Р”РѕРіРѕРІРѕСЂР° РЅР° СѓСЃР»РѕРІРёСЏС… РѕСЃРЅРѕРІРЅРѕРіРѕ Р±Р°Р·РёСЃР° РїРѕСЃС‚Р°РІРєРё.
+     * Set the 'Cost1' element value. Стоимость (в тысячах денежных единиц) экспортируемых (импортируемых) товаров, работ, услуг, результатов интеллектуальной деятельности в валюте цены Договора на условиях основного базиса поставки.
      * 
      * @param cost1
      */
@@ -166,7 +166,7 @@ public class EnclosureType
     }
 
     /** 
-     * Get the list of 'DeliveryTermsStringCode' element items. РљРѕРґ Р±Р°Р·РёСЃР° РїРѕСЃС‚Р°РІРєРё СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјС‹С… (РёРјРїРѕСЂС‚РёСЂСѓРµРјС‹С…) С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РњРµР¶РґСѓРЅР°СЂРѕРґРЅС‹РјРё РїСЂР°РІРёР»Р°РјРё С‚РѕР»РєРѕРІР°РЅРёСЏ С‚РѕСЂРіРѕРІС‹С… С‚РµСЂРјРёРЅРѕРІ РРќРљРћРўР•Р РњРЎ
+     * Get the list of 'DeliveryTermsStringCode' element items. Код базиса поставки экспортируемых (импортируемых) товаров в соответствии с Международными правилами толкования торговых терминов ИНКОТЕРМС
      * 
      * @return list
      */
@@ -175,7 +175,7 @@ public class EnclosureType
     }
 
     /** 
-     * Set the list of 'DeliveryTermsStringCode' element items. РљРѕРґ Р±Р°Р·РёСЃР° РїРѕСЃС‚Р°РІРєРё СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјС‹С… (РёРјРїРѕСЂС‚РёСЂСѓРµРјС‹С…) С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РњРµР¶РґСѓРЅР°СЂРѕРґРЅС‹РјРё РїСЂР°РІРёР»Р°РјРё С‚РѕР»РєРѕРІР°РЅРёСЏ С‚РѕСЂРіРѕРІС‹С… С‚РµСЂРјРёРЅРѕРІ РРќРљРћРўР•Р РњРЎ
+     * Set the list of 'DeliveryTermsStringCode' element items. Код базиса поставки экспортируемых (импортируемых) товаров в соответствии с Международными правилами толкования торговых терминов ИНКОТЕРМС
      * 
      * @param list
      */
@@ -184,7 +184,7 @@ public class EnclosureType
     }
 
     /** 
-     * Get the 'ServiceModeCode' element value. РљРѕРґС‹ СЂР°Р±РѕС‚ Рё СѓСЃР»СѓРі СЃРѕРіР»Р°СЃРЅРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СѓСЃР»СѓРі РІРѕ РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё 
+     * Get the 'ServiceModeCode' element value. Коды работ и услуг согласно Классификатору услуг во внешнеэкономической деятельности 
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class EnclosureType
     }
 
     /** 
-     * Set the 'ServiceModeCode' element value. РљРѕРґС‹ СЂР°Р±РѕС‚ Рё СѓСЃР»СѓРі СЃРѕРіР»Р°СЃРЅРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СѓСЃР»СѓРі РІРѕ РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё 
+     * Set the 'ServiceModeCode' element value. Коды работ и услуг согласно Классификатору услуг во внешнеэкономической деятельности 
      * 
      * @param serviceModeCode
      */
@@ -252,7 +252,7 @@ public class EnclosureType
         }
 
         /** 
-         * Get the 'ImportGoodsCost' element value. РС‚РѕРіРѕРІР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РёРјРїРѕСЂС‚РёСЂСѓРµРјС‹С… С‚РѕРІР°СЂРѕРІ, СЂР°Р±РѕС‚, СѓСЃР»СѓРі, СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+         * Get the 'ImportGoodsCost' element value. Итоговая стоимость импортируемых товаров, работ, услуг, результатов интеллектуальной деятельности
          * 
          * @return value
          */
@@ -261,7 +261,7 @@ public class EnclosureType
         }
 
         /** 
-         * Set the 'ImportGoodsCost' element value. РС‚РѕРіРѕРІР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РёРјРїРѕСЂС‚РёСЂСѓРµРјС‹С… С‚РѕРІР°СЂРѕРІ, СЂР°Р±РѕС‚, СѓСЃР»СѓРі, СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+         * Set the 'ImportGoodsCost' element value. Итоговая стоимость импортируемых товаров, работ, услуг, результатов интеллектуальной деятельности
          * 
          * @param importGoodsCost
          */
@@ -280,7 +280,7 @@ public class EnclosureType
         }
 
         /** 
-         * Get the 'ExportGoodsCost' element value. РС‚РѕРіРѕРІР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјС‹С… С‚РѕРІР°СЂРѕРІ, СЂР°Р±РѕС‚, СѓСЃР»СѓРі, СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+         * Get the 'ExportGoodsCost' element value. Итоговая стоимость экспортируемых товаров, работ, услуг, результатов интеллектуальной деятельности
          * 
          * @return value
          */
@@ -289,7 +289,7 @@ public class EnclosureType
         }
 
         /** 
-         * Set the 'ExportGoodsCost' element value. РС‚РѕРіРѕРІР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ СЌРєСЃРїРѕСЂС‚РёСЂСѓРµРјС‹С… С‚РѕРІР°СЂРѕРІ, СЂР°Р±РѕС‚, СѓСЃР»СѓРі, СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РёРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё
+         * Set the 'ExportGoodsCost' element value. Итоговая стоимость экспортируемых товаров, работ, услуг, результатов интеллектуальной деятельности
          * 
          * @param exportGoodsCost
          */

@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РёР· СЃРІРёРґРµС‚РµР»СЊСЃС‚РІ РЎРњР
+ * Информация из свидетельств СМИ
  */
 public class MediaCertificateType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class MediaCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'MediaName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЎРњР
+     * Get the 'MediaName' element value. Наименование СМИ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'MediaName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЎРњР
+     * Set the 'MediaName' element value. Наименование СМИ
      * 
      * @param mediaName
      */
@@ -47,7 +47,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdvertisementPercent' element value. РџСЂРѕС†РµРЅС‚ СЂРµРєР»Р°РјС‹
+     * Get the 'AdvertisementPercent' element value. Процент рекламы
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdvertisementPercent' element value. РџСЂРѕС†РµРЅС‚ СЂРµРєР»Р°РјС‹
+     * Set the 'AdvertisementPercent' element value. Процент рекламы
      * 
      * @param advertisementPercent
      */
@@ -65,7 +65,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Periodicity' element value. РџРµСЂРёРѕРґРёС‡РЅРѕСЃС‚СЊ
+     * Get the 'Periodicity' element value. Периодичность
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Periodicity' element value. РџРµСЂРёРѕРґРёС‡РЅРѕСЃС‚СЊ
+     * Set the 'Periodicity' element value. Периодичность
      * 
      * @param periodicity
      */
@@ -83,7 +83,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Specialty' element value. РЎРїРµС†РёР°Р»РёР·Р°С†РёСЏ
+     * Get the 'Specialty' element value. Специализация
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Specialty' element value. РЎРїРµС†РёР°Р»РёР·Р°С†РёСЏ
+     * Set the 'Specialty' element value. Специализация
      * 
      * @param specialty
      */
@@ -101,7 +101,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Append' element value. РќР°Р»РёС‡РёРµ, РЅР°РёРјРµРЅРѕРІР°РЅРёРµ Рё РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёР»РѕР¶РµРЅРёР№
+     * Get the 'Append' element value. Наличие, наименование и количество приложений
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Append' element value. РќР°Р»РёС‡РёРµ, РЅР°РёРјРµРЅРѕРІР°РЅРёРµ Рё РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёР»РѕР¶РµРЅРёР№
+     * Set the 'Append' element value. Наличие, наименование и количество приложений
      * 
      * @param append
      */
@@ -119,7 +119,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Certificate' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ РЎРњР
+     * Get the 'Certificate' element value. Свидетельство СМИ
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Certificate' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ РЎРњР
+     * Set the 'Certificate' element value. Свидетельство СМИ
      * 
      * @param certificate
      */
@@ -137,7 +137,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Language' element items. РЇР·С‹Рє
+     * Get the list of 'Language' element items. Язык
      * 
      * @return list
      */
@@ -146,7 +146,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Language' element items. РЇР·С‹Рє
+     * Set the list of 'Language' element items. Язык
      * 
      * @param list
      */
@@ -155,7 +155,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Founder' element items. РЈС‡СЂРµРґРёС‚РµР»СЊ РЎРњР
+     * Get the list of 'Founder' element items. Учредитель СМИ
      * 
      * @return list
      */
@@ -164,7 +164,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Founder' element items. РЈС‡СЂРµРґРёС‚РµР»СЊ РЎРњР
+     * Set the list of 'Founder' element items. Учредитель СМИ
      * 
      * @param list
      */
@@ -173,7 +173,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'EditorialAddress' element value. РђРґСЂРµСЃ СЂРµРґР°РєС†РёРё РЎРњР
+     * Get the 'EditorialAddress' element value. Адрес редакции СМИ
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'EditorialAddress' element value. РђРґСЂРµСЃ СЂРµРґР°РєС†РёРё РЎРњР
+     * Set the 'EditorialAddress' element value. Адрес редакции СМИ
      * 
      * @param editorialAddress
      */
@@ -191,7 +191,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'MediaTopic' element items. РўРµРјР°С‚РёРєР°
+     * Get the list of 'MediaTopic' element items. Тематика
      * 
      * @return list
      */
@@ -200,7 +200,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'MediaTopic' element items. РўРµРјР°С‚РёРєР°
+     * Set the list of 'MediaTopic' element items. Тематика
      * 
      * @param list
      */
@@ -209,7 +209,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DistributionForm' element value. Р¤РѕСЂРјР° СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅРµРЅРёСЏ
+     * Get the 'DistributionForm' element value. Форма распространения
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DistributionForm' element value. Р¤РѕСЂРјР° СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅРµРЅРёСЏ
+     * Set the 'DistributionForm' element value. Форма распространения
      * 
      * @param distributionForm
      */
@@ -227,7 +227,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DistributionTerritory' element value. РўРµСЂСЂРёС‚РѕСЂРёСЏ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅРµРЅРёСЏ
+     * Get the 'DistributionTerritory' element value. Территория распространения
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DistributionTerritory' element value. РўРµСЂСЂРёС‚РѕСЂРёСЏ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅРµРЅРёСЏ
+     * Set the 'DistributionTerritory' element value. Территория распространения
      * 
      * @param distributionTerritory
      */
@@ -246,7 +246,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReferenceDoc' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРїСЂР°РІРєРµ
+     * Get the 'ReferenceDoc' element value. Сведения о справке
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReferenceDoc' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРїСЂР°РІРєРµ
+     * Set the 'ReferenceDoc' element value. Сведения о справке
      * 
      * @param referenceDoc
      */
@@ -264,7 +264,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -273,7 +273,7 @@ public class MediaCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

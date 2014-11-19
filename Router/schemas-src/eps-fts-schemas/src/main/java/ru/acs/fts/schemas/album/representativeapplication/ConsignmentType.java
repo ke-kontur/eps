@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЂС‚РёРё
+ * Сведения о партии
  */
 public class ConsignmentType
 {
@@ -30,7 +30,7 @@ public class ConsignmentType
     private List<WayBillType> wayBillList = new ArrayList<WayBillType>();
 
     /** 
-     * Get the 'ListNumeric' element value. РќРѕРјРµСЂ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ РїРѕ РїРѕСЂСЏРґРєСѓ РІ С‚РµРєСѓС‰РµРј СЂРµРµСЃС‚СЂРµ
+     * Get the 'ListNumeric' element value. Номер партии товаров по порядку в текущем реестре
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'ListNumeric' element value. РќРѕРјРµСЂ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ РїРѕ РїРѕСЂСЏРґРєСѓ РІ С‚РµРєСѓС‰РµРј СЂРµРµСЃС‚СЂРµ
+     * Set the 'ListNumeric' element value. Номер партии товаров по порядку в текущем реестре
      * 
      * @param listNumeric
      */
@@ -48,7 +48,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'PrevListNumeric' element value. РќРѕРјРµСЂ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ РІ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРј СЂРµРµСЃС‚СЂРµ
+     * Get the 'PrevListNumeric' element value. Номер партии товаров в предшествующем реестре
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'PrevListNumeric' element value. РќРѕРјРµСЂ РїР°СЂС‚РёРё С‚РѕРІР°СЂРѕРІ РІ РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµРј СЂРµРµСЃС‚СЂРµ
+     * Set the 'PrevListNumeric' element value. Номер партии товаров в предшествующем реестре
      * 
      * @param prevListNumeric
      */
@@ -66,7 +66,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'IndividualWayBill' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ
+     * Get the 'IndividualWayBill' element value. Индивидуальная накладная
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'IndividualWayBill' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ
+     * Set the 'IndividualWayBill' element value. Индивидуальная накладная
      * 
      * @param individualWayBill
      */
@@ -84,7 +84,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р° (СЃРґРµР»РєРё) Рє РµРІСЂРѕ
+     * Get the 'CurrencyRate' element value. Курс валюты счета (сделки) к евро
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р° (СЃРґРµР»РєРё) Рє РµРІСЂРѕ
+     * Set the 'CurrencyRate' element value. Курс валюты счета (сделки) к евро
      * 
      * @param currencyRate
      */
@@ -102,7 +102,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'CurrencyRubleRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р° (СЃРґРµР»РєРё) Рє СЂСѓР±Р»СЋ
+     * Get the 'CurrencyRubleRate' element value. Курс валюты счета (сделки) к рублю
      * 
      * @return value
      */
@@ -111,7 +111,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'CurrencyRubleRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р° (СЃРґРµР»РєРё) Рє СЂСѓР±Р»СЋ
+     * Set the 'CurrencyRubleRate' element value. Курс валюты счета (сделки) к рублю
      * 
      * @param currencyRubleRate
      */
@@ -120,7 +120,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р° (СЃРґРµР»РєРё)
+     * Get the 'Currency' element value. Код валюты счета (сделки)
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹ СЃС‡РµС‚Р° (СЃРґРµР»РєРё)
+     * Set the 'Currency' element value. Код валюты счета (сделки)
      * 
      * @param currency
      */
@@ -138,7 +138,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'GrossWeight' element value. Р’РµСЃ С‚РѕРІР°СЂРѕРІ, Р±СЂСѓС‚С‚Рѕ, РєРі
+     * Get the 'GrossWeight' element value. Вес товаров, брутто, кг
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'GrossWeight' element value. Р’РµСЃ С‚РѕРІР°СЂРѕРІ, Р±СЂСѓС‚С‚Рѕ, РєРі
+     * Set the 'GrossWeight' element value. Вес товаров, брутто, кг
      * 
      * @param grossWeight
      */
@@ -156,7 +156,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'GoodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ РІ РІР°Р»СЋС‚Рµ СЃС‡РµС‚Р° (СЃРґРµР»РєРё)
+     * Get the 'GoodsCost' element value. Стоимость товаров в валюте счета (сделки)
      * 
      * @return value
      */
@@ -165,7 +165,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'GoodsCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ РІ РІР°Р»СЋС‚Рµ СЃС‡РµС‚Р° (СЃРґРµР»РєРё)
+     * Set the 'GoodsCost' element value. Стоимость товаров в валюте счета (сделки)
      * 
      * @param goodsCost
      */
@@ -174,7 +174,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'GoodsCostEuro' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ РІ РµРІСЂРѕ
+     * Get the 'GoodsCostEuro' element value. Стоимость товаров в евро
      * 
      * @return value
      */
@@ -183,7 +183,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'GoodsCostEuro' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ РІ РµРІСЂРѕ
+     * Set the 'GoodsCostEuro' element value. Стоимость товаров в евро
      * 
      * @param goodsCostEuro
      */
@@ -192,7 +192,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'GoodsCostRuble' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ РІ СЂСѓР±Р»СЏС…
+     * Get the 'GoodsCostRuble' element value. Стоимость товаров в рублях
      * 
      * @return value
      */
@@ -201,7 +201,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'GoodsCostRuble' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ РІ СЂСѓР±Р»СЏС…
+     * Set the 'GoodsCostRuble' element value. Стоимость товаров в рублях
      * 
      * @param goodsCostRuble
      */
@@ -210,7 +210,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'ReservationID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёСЏ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ РґР»СЏ С†РµР»РµР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Get the 'ReservationID' element value. Идентификатор резервирования денежных средств для целей уплаты таможенных платежей
      * 
      * @return value
      */
@@ -219,7 +219,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'ReservationID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёСЏ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ РґР»СЏ С†РµР»РµР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Set the 'ReservationID' element value. Идентификатор резервирования денежных средств для целей уплаты таможенных платежей
      * 
      * @param reservationID
      */
@@ -228,7 +228,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Consignor' element value. Отправитель
      * 
      * @return value
      */
@@ -237,7 +237,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Consignor' element value. Отправитель
      * 
      * @param consignor
      */
@@ -246,7 +246,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Consignee' element value. Получатель
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Consignee' element value. Получатель
      * 
      * @param consignee
      */
@@ -264,7 +264,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the list of 'Goods' element items. Сведения о товарах
      * 
      * @return list
      */
@@ -273,7 +273,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the list of 'Goods' element items. Сведения о товарах
      * 
      * @param list
      */
@@ -282,7 +282,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'CustomsDuties' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё, РїРѕРґР»РµР¶Р°С‰РёРµ СѓРїР»Р°С‚Рµ
+     * Get the 'CustomsDuties' element value. Таможенные платежи, подлежащие уплате
      * 
      * @return value
      */
@@ -291,7 +291,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'CustomsDuties' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РїР»Р°С‚РµР¶Рё, РїРѕРґР»РµР¶Р°С‰РёРµ СѓРїР»Р°С‚Рµ
+     * Set the 'CustomsDuties' element value. Таможенные платежи, подлежащие уплате
      * 
      * @param customsDuties
      */
@@ -300,7 +300,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the 'IndicatorChange' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІР°РЅРЅРѕРіРѕ С‚РѕРІР°СЂР°
+     * Get the 'IndicatorChange' element value. Признак корректированного товара
      * 
      * @return value
      */
@@ -309,7 +309,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the 'IndicatorChange' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІР°РЅРЅРѕРіРѕ С‚РѕРІР°СЂР°
+     * Set the 'IndicatorChange' element value. Признак корректированного товара
      * 
      * @param indicatorChange
      */
@@ -318,7 +318,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Get the list of 'WayBill' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РёС… РЅР°РєР»Р°РґРЅС‹С…
+     * Get the list of 'WayBill' element items. Сведения об общих накладных
      * 
      * @return list
      */
@@ -327,7 +327,7 @@ public class ConsignmentType
     }
 
     /** 
-     * Set the list of 'WayBill' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РёС… РЅР°РєР»Р°РґРЅС‹С…
+     * Set the list of 'WayBill' element items. Сведения об общих накладных
      * 
      * @param list
      */

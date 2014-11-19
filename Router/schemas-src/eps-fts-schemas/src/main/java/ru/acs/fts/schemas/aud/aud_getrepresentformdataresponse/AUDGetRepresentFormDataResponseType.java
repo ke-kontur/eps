@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.aud.aud_getrepresentformdataresponse;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 
 /** 
- * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ РЅР° Р·Р°РїСЂРѕСЃ РЅР° РїРѕР»СѓС‡РµРЅРёРµ РґР°РЅРЅС‹С… (С‚РµРєСЃС‚Р° XSLT-РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ) РґР»СЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РІ С†РµР»СЏС… РІРёР·СѓР°Р»РёР·Р°С†РёРё.
+ * Ответ на запрос на запрос на получение данных (текста XSLT-преобразования) для формирования представления документа в целях визуализации.
  */
 public class AUDGetRepresentFormDataResponseType extends AUDBaseEnvelopeType
 {
@@ -12,7 +12,7 @@ public class AUDGetRepresentFormDataResponseType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'RepresentationFormingData' element value. Р”Р°РЅРЅС‹Рµ (С‚РµРєСЃС‚ XSLT-РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ), РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ РґР»СЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° (РІ С†РµР»СЏС… РµРіРѕ РІРёР·СѓР°Р»РёР·Р°С†РёРё).
+     * Get the 'RepresentationFormingData' element value. Данные (текст XSLT-преобразования), используемые для формирования представления документа (в целях его визуализации).
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class AUDGetRepresentFormDataResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'RepresentationFormingData' element value. Р”Р°РЅРЅС‹Рµ (С‚РµРєСЃС‚ XSLT-РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ), РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ РґР»СЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° (РІ С†РµР»СЏС… РµРіРѕ РІРёР·СѓР°Р»РёР·Р°С†РёРё).
+     * Set the 'RepresentationFormingData' element value. Данные (текст XSLT-преобразования), используемые для формирования представления документа (в целях его визуализации).
      * 
      * @param representationFormingData
      */
@@ -30,7 +30,7 @@ public class AUDGetRepresentFormDataResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class AUDGetRepresentFormDataResponseType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @param documentModeID
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.envelope;
 
 /** 
- * Р—Р°РіРѕР»РѕРІРѕРє РґР»СЏ Р­РџРЎ
+ * Заголовок для ЭПС
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -26,7 +26,7 @@ public class EDHeaderType
     private CustomsType receiverCustoms;
 
     /** 
-     * Get the 'MessageType' element value. РўРёРї СЃРѕРѕР±С‰РµРЅРёСЏ. (ED.nnnnn, MSG.nnnnn, С‚.Рґ.)
+     * Get the 'MessageType' element value. Тип сообщения. (ED.nnnnn, MSG.nnnnn, т.д.)
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class EDHeaderType
     }
 
     /** 
-     * Set the 'MessageType' element value. РўРёРї СЃРѕРѕР±С‰РµРЅРёСЏ. (ED.nnnnn, MSG.nnnnn, С‚.Рґ.)
+     * Set the 'MessageType' element value. Тип сообщения. (ED.nnnnn, MSG.nnnnn, т.д.)
      * 
      * @param messageType
      */
@@ -44,7 +44,7 @@ public class EDHeaderType
     }
 
     /** 
-     * Get the 'ProccessID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°.
+     * Get the 'ProccessID' element value. Уникальный идентификатор процесса.
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class EDHeaderType
     }
 
     /** 
-     * Set the 'ProccessID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°.
+     * Set the 'ProccessID' element value. Уникальный идентификатор процесса.
      * 
      * @param proccessID
      */
@@ -62,7 +62,7 @@ public class EDHeaderType
     }
 
     /** 
-     * Get the 'ParticipantID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРЅРµС€РЅРµРіРѕ СѓС‡Р°СЃС‚РЅРёРєР° РѕР±РјРµРЅР°
+     * Get the 'ParticipantID' element value. Идентификатор внешнего участника обмена
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class EDHeaderType
     }
 
     /** 
-     * Set the 'ParticipantID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРЅРµС€РЅРµРіРѕ СѓС‡Р°СЃС‚РЅРёРєР° РѕР±РјРµРЅР°
+     * Set the 'ParticipantID' element value. Идентификатор внешнего участника обмена
      * 
      * @param participantID
      */
@@ -80,7 +80,7 @@ public class EDHeaderType
     }
 
     /** 
-     * Get the 'SenderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ  - РѕС‚РїСЂР°РІРёС‚РµР»СЊ  СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'SenderCustoms' element value. Таможенный орган  - отправитель  сообщения
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class EDHeaderType
     }
 
     /** 
-     * Set the 'SenderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ  - РѕС‚РїСЂР°РІРёС‚РµР»СЊ  СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'SenderCustoms' element value. Таможенный орган  - отправитель  сообщения
      * 
      * @param senderCustoms
      */
@@ -98,7 +98,7 @@ public class EDHeaderType
     }
 
     /** 
-     * Get the 'ReceiverCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ -  РїРѕР»СѓС‡Р°С‚РµР»СЊ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'ReceiverCustoms' element value. Таможенный орган -  получатель сообщения
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class EDHeaderType
     }
 
     /** 
-     * Set the 'ReceiverCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ -  РїРѕР»СѓС‡Р°С‚РµР»СЊ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'ReceiverCustoms' element value. Таможенный орган -  получатель сообщения
      * 
      * @param receiverCustoms
      */

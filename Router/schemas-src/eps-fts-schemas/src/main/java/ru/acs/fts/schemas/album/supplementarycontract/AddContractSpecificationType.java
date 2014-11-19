@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРїРµС†РёС„РёРєР°С†РёСЏ Рє РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
+ * Спецификация к дополнению к контракту
  */
 public class AddContractSpecificationType
 {
@@ -15,7 +15,7 @@ public class AddContractSpecificationType
     private List<AddSpecificationGoodsType> addSpecificationGoodList = new ArrayList<AddSpecificationGoodsType>();
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IssueDate' element value. Дата составления документа
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class AddContractSpecificationType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IssueDate' element value. Дата составления документа
      * 
      * @param issueDate
      */
@@ -33,7 +33,7 @@ public class AddContractSpecificationType
     }
 
     /** 
-     * Get the 'ID' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'ID' element value. Номер документа
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class AddContractSpecificationType
     }
 
     /** 
-     * Set the 'ID' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'ID' element value. Номер документа
      * 
      * @param ID
      */
@@ -51,7 +51,7 @@ public class AddContractSpecificationType
     }
 
     /** 
-     * Get the list of 'AddSpecificationGoods' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ РёР· СЃРїРµС†РёС„РёРєР°С†РёРё Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Get the list of 'AddSpecificationGoods' element items. Описание товаров из спецификации к контракту
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class AddContractSpecificationType
     }
 
     /** 
-     * Set the list of 'AddSpecificationGoods' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ РёР· СЃРїРµС†РёС„РёРєР°С†РёРё Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Set the list of 'AddSpecificationGoods' element items. Описание товаров из спецификации к контракту
      * 
      * @param list
      */

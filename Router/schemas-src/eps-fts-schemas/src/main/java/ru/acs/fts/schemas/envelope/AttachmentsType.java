@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёСЃРѕРµРґРёРЅРµРЅРёСЏС… (РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РїРµСЂРµРґР°СЋС‚СЃСЏ Р±РёРЅР°СЂРЅС‹Рµ РґР°РЅРЅС‹Рµ)
+ * Сведения о присоединениях (используется в случае, если передаются бинарные данные)
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -21,7 +21,7 @@ public class AttachmentsType
     private List<AttachmentType> attachmentList = new ArrayList<AttachmentType>();
 
     /** 
-     * Get the list of 'Attachment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёСЃРѕРµРґРёРЅРµРЅРёРё
+     * Get the list of 'Attachment' element items. Сведения о присоединении
      * 
      * @return list
      */
@@ -30,7 +30,7 @@ public class AttachmentsType
     }
 
     /** 
-     * Set the list of 'Attachment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёСЃРѕРµРґРёРЅРµРЅРёРё
+     * Set the list of 'Attachment' element items. Сведения о присоединении
      * 
      * @param list
      */

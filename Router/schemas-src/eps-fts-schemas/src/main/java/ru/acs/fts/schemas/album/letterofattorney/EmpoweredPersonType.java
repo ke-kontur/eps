@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Р”РѕРІРµСЂРµРЅРЅРѕРµ Р»РёС†Рѕ
+ * Доверенное лицо
  */
 public class EmpoweredPersonType extends PersonBaseType
 {
     private IdentityCardType passport;
 
     /** 
-     * Get the 'Passport' element value. РџР°СЃРїРѕСЂС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ РґРѕРІРµСЂРµРЅРЅРѕРіРѕ Р»РёС†Р°
+     * Get the 'Passport' element value. Паспортные данные доверенного лица
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class EmpoweredPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'Passport' element value. РџР°СЃРїРѕСЂС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ РґРѕРІРµСЂРµРЅРЅРѕРіРѕ Р»РёС†Р°
+     * Set the 'Passport' element value. Паспортные данные доверенного лица
      * 
      * @param passport
      */

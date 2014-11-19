@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+ * Сведения о товаре
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -42,7 +42,7 @@ public class IDKGoodsType
     private String comments;
 
     /** 
-     * Get the 'GoodsNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Get the 'GoodsNumber' element value. Порядковый номер товара
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Set the 'GoodsNumber' element value. Порядковый номер товара
      * 
      * @param goodsNumber
      */
@@ -60,7 +60,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” 
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД 
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” 
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД 
      * 
      * @param goodsTNVEDCode
      */
@@ -78,7 +78,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'GoodsDescription' element value. Описание товара
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'GoodsDescription' element value. Описание товара
      * 
      * @param goodsDescription
      */
@@ -96,7 +96,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Get the 'OriginalCountryCode' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Get the 'OriginalCountryCode' element value. Страна происхождения
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Set the 'OriginalCountryCode' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Set the 'OriginalCountryCode' element value. Страна происхождения
      * 
      * @param originalCountryCode
      */
@@ -114,7 +114,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Get the 'NetWeight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ
+     * Get the 'NetWeight' element value. Вес нетто
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Set the 'NetWeight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ
+     * Set the 'NetWeight' element value. Вес нетто
      * 
      * @param netWeight
      */
@@ -132,7 +132,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Get the 'GrossWeigh' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ
+     * Get the 'GrossWeigh' element value. Вес брутто
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Set the 'GrossWeigh' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ
+     * Set the 'GrossWeigh' element value. Вес брутто
      * 
      * @param grossWeigh
      */
@@ -150,7 +150,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ Р”Р•Р
+     * Get the 'SupplementaryGoodsQuantity' element value. Количество товара в ДЕИ
      * 
      * @return value
      */
@@ -159,7 +159,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ Р”Р•Р
+     * Set the 'SupplementaryGoodsQuantity' element value. Количество товара в ДЕИ
      * 
      * @param supplementaryGoodsQuantity
      */
@@ -169,7 +169,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Get the 'QuantityPlaces' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Get the 'QuantityPlaces' element value. Количество грузовых мест
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Set the 'QuantityPlaces' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Set the 'QuantityPlaces' element value. Количество грузовых мест
      * 
      * @param quantityPlaces
      */
@@ -187,7 +187,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Get the 'PlaceNumber' element value. РќРѕРјРµСЂ РіСЂСѓР·РѕРІРѕРіРѕ РјРµСЃС‚Р°
+     * Get the 'PlaceNumber' element value. Номер грузового места
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Set the 'PlaceNumber' element value. РќРѕРјРµСЂ РіСЂСѓР·РѕРІРѕРіРѕ РјРµСЃС‚Р°
+     * Set the 'PlaceNumber' element value. Номер грузового места
      * 
      * @param placeNumber
      */
@@ -205,7 +205,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Get the 'ContainerInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
+     * Get the 'ContainerInfo' element value. Сведения о контейнерах
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Set the 'ContainerInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
+     * Set the 'ContainerInfo' element value. Сведения о контейнерах
      * 
      * @param containerInfo
      */
@@ -223,7 +223,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Get the 'InvoiceCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
+     * Get the 'InvoiceCost' element value. Фактурная стоимость товара
      * 
      * @return value
      */
@@ -232,7 +232,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Set the 'InvoiceCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
+     * Set the 'InvoiceCost' element value. Фактурная стоимость товара
      * 
      * @param invoiceCost
      */
@@ -241,7 +241,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Get the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёСЏ
+     * Get the 'Comments' element value. Примечания
      * 
      * @return value
      */
@@ -250,7 +250,7 @@ public class IDKGoodsType
     }
 
     /** 
-     * Set the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёСЏ
+     * Set the 'Comments' element value. Примечания
      * 
      * @param comments
      */

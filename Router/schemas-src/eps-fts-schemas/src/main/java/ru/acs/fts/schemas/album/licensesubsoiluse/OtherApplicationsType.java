@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.licensesubsoiluse;
 
 /** 
- * РРЅС‹Рµ РїСЂРёР»РѕР¶РµРЅРёСЏ 
+ * Иные приложения 
  */
 public class OtherApplicationsType
 {
@@ -10,7 +10,7 @@ public class OtherApplicationsType
     private String numberSheets;
 
     /** 
-     * Get the 'NameDocument' element value. РќР°Р·РІР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'NameDocument' element value. Название документа
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class OtherApplicationsType
     }
 
     /** 
-     * Set the 'NameDocument' element value. РќР°Р·РІР°РЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'NameDocument' element value. Название документа
      * 
      * @param nameDocument
      */
@@ -28,7 +28,7 @@ public class OtherApplicationsType
     }
 
     /** 
-     * Get the 'NumberSheets' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂР°РЅРёС†
+     * Get the 'NumberSheets' element value. Количество страниц
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class OtherApplicationsType
     }
 
     /** 
-     * Set the 'NumberSheets' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂР°РЅРёС†
+     * Set the 'NumberSheets' element value. Количество страниц
      * 
      * @param numberSheets
      */

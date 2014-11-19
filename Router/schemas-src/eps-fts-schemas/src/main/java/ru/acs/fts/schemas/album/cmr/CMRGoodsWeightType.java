@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.cmr;
 
 /** 
- * РћР±С‰РёР№ РІРµСЃ (РіСЂ. 11)
+ * Общий вес (гр. 11)
  */
 public class CMRGoodsWeightType
 {
     private String grossWeightQuantity;
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class CMRGoodsWeightType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг)
      * 
      * @param grossWeightQuantity
      */

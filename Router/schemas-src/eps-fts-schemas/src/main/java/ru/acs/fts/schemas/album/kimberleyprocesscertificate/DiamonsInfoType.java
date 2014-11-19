@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± Р°Р»РјР°Р·Р°С…
+ * Сведения об алмазах
  */
 public class DiamonsInfoType
 {
@@ -16,7 +16,7 @@ public class DiamonsInfoType
     private String numeric;
 
     /** 
-     * Get the 'TotalCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ Р°Р»РјР°Р·РѕРІ РІ РґРѕР»Р». РЎРЁРђ
+     * Get the 'TotalCost' element value. Стоимость алмазов в долл. США
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class DiamonsInfoType
     }
 
     /** 
-     * Set the 'TotalCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ Р°Р»РјР°Р·РѕРІ РІ РґРѕР»Р». РЎРЁРђ
+     * Set the 'TotalCost' element value. Стоимость алмазов в долл. США
      * 
      * @param totalCost
      */
@@ -34,7 +34,7 @@ public class DiamonsInfoType
     }
 
     /** 
-     * Get the 'TotalWeight' element value. РћР±С‰РёР№ РІРµСЃ(РєР°СЂР°С‚)
+     * Get the 'TotalWeight' element value. Общий вес(карат)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class DiamonsInfoType
     }
 
     /** 
-     * Set the 'TotalWeight' element value. РћР±С‰РёР№ РІРµСЃ(РєР°СЂР°С‚)
+     * Set the 'TotalWeight' element value. Общий вес(карат)
      * 
      * @param totalWeight
      */
@@ -52,7 +52,7 @@ public class DiamonsInfoType
     }
 
     /** 
-     * Get the list of 'Characteristics' element items. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё
+     * Get the list of 'Characteristics' element items. Характеристики
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class DiamonsInfoType
     }
 
     /** 
-     * Set the list of 'Characteristics' element items. РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё
+     * Set the list of 'Characteristics' element items. Характеристики
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class DiamonsInfoType
     }
 
     /** 
-     * Get the 'HarmonizedCode' element value. РљРѕРґ РіР°СЂРјРѕРЅРёР·РёСЂРѕРІР°РЅРЅРѕР№ СЃРёСЃС‚РµРјС‹ РѕРїРёСЃР°РЅРёСЏ Рё РєРѕРґРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Get the 'HarmonizedCode' element value. Код гармонизированной системы описания и кодирования товаров
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class DiamonsInfoType
     }
 
     /** 
-     * Set the 'HarmonizedCode' element value. РљРѕРґ РіР°СЂРјРѕРЅРёР·РёСЂРѕРІР°РЅРЅРѕР№ СЃРёСЃС‚РµРјС‹ РѕРїРёСЃР°РЅРёСЏ Рё РєРѕРґРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Set the 'HarmonizedCode' element value. Код гармонизированной системы описания и кодирования товаров
      * 
      * @param harmonizedCode
      */
@@ -88,7 +88,7 @@ public class DiamonsInfoType
     }
 
     /** 
-     * Get the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё
+     * Get the 'Numeric' element value. Номер позиции
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class DiamonsInfoType
     }
 
     /** 
-     * Set the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё
+     * Set the 'Numeric' element value. Номер позиции
      * 
      * @param numeric
      */

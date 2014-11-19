@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+ * Описание товара
  */
 public class GoodsType
 {
@@ -23,7 +23,7 @@ public class GoodsType
     private List<AutomobileInfoType> automobileInfoList = new ArrayList<AutomobileInfoType>();
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @return list
      */
@@ -32,7 +32,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @param list
      */
@@ -41,7 +41,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -59,7 +59,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РєРі
+     * Get the 'GoodsWeight' element value. Вес товара, кг
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsWeight' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РєРі
+     * Set the 'GoodsWeight' element value. Вес товара, кг
      * 
      * @param goodsWeight
      */
@@ -77,7 +77,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РІ РІР°Р»СЋС‚Рµ РїР»Р°С‚РµР¶Р°
+     * Get the 'Cost' element value. Стоимость в валюте платежа
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РІ РІР°Р»СЋС‚Рµ РїР»Р°С‚РµР¶Р°
+     * Set the 'Cost' element value. Стоимость в валюте платежа
      * 
      * @param cost
      */
@@ -95,7 +95,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'DollarCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РІ РґРѕР»Р»Р°СЂР°С… РЎРЁРђ
+     * Get the 'DollarCost' element value. Стоимость в долларах США
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'DollarCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РІ РґРѕР»Р»Р°СЂР°С… РЎРЁРђ
+     * Set the 'DollarCost' element value. Стоимость в долларах США
      * 
      * @param dollarCost
      */
@@ -113,7 +113,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'EuroCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РІ РµРІСЂРѕ
+     * Get the 'EuroCost' element value. Стоимость в евро
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'EuroCost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РІ РµРІСЂРѕ
+     * Set the 'EuroCost' element value. Стоимость в евро
      * 
      * @param euroCost
      */
@@ -131,7 +131,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'AdditionalInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'AdditionalInformation' element value. Дополнительная информация
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'AdditionalInformation' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'AdditionalInformation' element value. Дополнительная информация
      * 
      * @param additionalInformation
      */
@@ -149,7 +149,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°
+     * Get the 'OriginCountryCode' element value. Код страны происхождения по классификатору стран мира
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°
+     * Set the 'OriginCountryCode' element value. Код страны происхождения по классификатору стран мира
      * 
      * @param originCountryCode
      */
@@ -167,7 +167,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения
      * 
      * @param supplementaryQuantity
      */
@@ -186,7 +186,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'PaymentInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Рµ
+     * Get the list of 'PaymentInfo' element items. Сведения о платеже
      * 
      * @return list
      */
@@ -195,7 +195,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'PaymentInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Рµ
+     * Set the list of 'PaymentInfo' element items. Сведения о платеже
      * 
      * @param list
      */
@@ -204,7 +204,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'AutomobileInfo' element items. Р”Р°РЅРЅС‹Рµ РѕР± Р°РІС‚РѕРјРѕР±РёР»Рµ
+     * Get the list of 'AutomobileInfo' element items. Данные об автомобиле
      * 
      * @return list
      */
@@ -213,7 +213,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'AutomobileInfo' element items. Р”Р°РЅРЅС‹Рµ РѕР± Р°РІС‚РѕРјРѕР±РёР»Рµ
+     * Set the list of 'AutomobileInfo' element items. Данные об автомобиле
      * 
      * @param list
      */

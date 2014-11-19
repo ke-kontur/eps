@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РїРѕРґСЂРѕР±РЅРѕСЃС‚РµР№ РґР»СЏ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+ * Комплексный тип для описания подробностей для железнодорожного транспорта
  */
 public class RailRoadParticularsType
 {
     private String railStation;
 
     /** 
-     * Get the 'RailStation' element value. РљРѕРґ СЃС‚Р°РЅС†РёРё РѕС‚РїСЂР°РІР»РµРЅРёСЏ (РґР»СЏ РїСЂРёР±С‹С‚РёСЏ) РёР»Рё РЅР°Р·РЅР°С‡РµРЅРёСЏ (РґР»СЏ СѓР±С‹С‚РёСЏ)
+     * Get the 'RailStation' element value. Код станции отправления (для прибытия) или назначения (для убытия)
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class RailRoadParticularsType
     }
 
     /** 
-     * Set the 'RailStation' element value. РљРѕРґ СЃС‚Р°РЅС†РёРё РѕС‚РїСЂР°РІР»РµРЅРёСЏ (РґР»СЏ РїСЂРёР±С‹С‚РёСЏ) РёР»Рё РЅР°Р·РЅР°С‡РµРЅРёСЏ (РґР»СЏ СѓР±С‹С‚РёСЏ)
+     * Set the 'RailStation' element value. Код станции отправления (для прибытия) или назначения (для убытия)
      * 
      * @param railStation
      */

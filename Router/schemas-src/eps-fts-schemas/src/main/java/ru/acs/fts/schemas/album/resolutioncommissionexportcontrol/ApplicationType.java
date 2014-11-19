@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· Р·Р°СЏРІР»РµРЅРёСЏ
+ * Сведения из заявления
  */
 public class ApplicationType
 {
@@ -19,7 +19,7 @@ public class ApplicationType
     private DocumentBaseType conformityDocument;
 
     /** 
-     * Get the 'ApplicationNumber' element value. РќРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
+     * Get the 'ApplicationNumber' element value. Номер заявления
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ApplicationType
     }
 
     /** 
-     * Set the 'ApplicationNumber' element value. РќРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
+     * Set the 'ApplicationNumber' element value. Номер заявления
      * 
      * @param applicationNumber
      */
@@ -37,7 +37,7 @@ public class ApplicationType
     }
 
     /** 
-     * Get the 'ApplicationDate' element value. Р”Р°С‚Р° Р·Р°СЏРІР»РµРЅРёСЏ
+     * Get the 'ApplicationDate' element value. Дата заявления
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ApplicationType
     }
 
     /** 
-     * Set the 'ApplicationDate' element value. Р”Р°С‚Р° Р·Р°СЏРІР»РµРЅРёСЏ
+     * Set the 'ApplicationDate' element value. Дата заявления
      * 
      * @param applicationDate
      */
@@ -55,7 +55,7 @@ public class ApplicationType
     }
 
     /** 
-     * Get the 'Action' element value. Р—Р°СЏРІР»РµРЅРёРµ РЅР°: 1- СЌРєСЃРїРѕСЂС‚; 2 - РІСЂРµРјРµРЅРЅС‹Р№ РІС‹РІРѕР·; 3 - РІС‹РїРѕР»РЅРµРЅРёРµ СЂР°Р±РѕС‚; 4 - РѕРєР°Р·Р°РЅРёРµ СѓСЃР»СѓРі.
+     * Get the 'Action' element value. Заявление на: 1- экспорт; 2 - временный вывоз; 3 - выполнение работ; 4 - оказание услуг.
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ApplicationType
     }
 
     /** 
-     * Set the 'Action' element value. Р—Р°СЏРІР»РµРЅРёРµ РЅР°: 1- СЌРєСЃРїРѕСЂС‚; 2 - РІСЂРµРјРµРЅРЅС‹Р№ РІС‹РІРѕР·; 3 - РІС‹РїРѕР»РЅРµРЅРёРµ СЂР°Р±РѕС‚; 4 - РѕРєР°Р·Р°РЅРёРµ СѓСЃР»СѓРі.
+     * Set the 'Action' element value. Заявление на: 1- экспорт; 2 - временный вывоз; 3 - выполнение работ; 4 - оказание услуг.
      * 
      * @param action
      */
@@ -73,7 +73,7 @@ public class ApplicationType
     }
 
     /** 
-     * Get the list of 'ProductDescription' element items. РћРїРёСЃР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё, СЏРІР»СЏСЋС‰РµР№СЃСЏ РїСЂРµРґРјРµС‚РѕРј РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ РѕРїРµСЂР°С†РёРё
+     * Get the list of 'ProductDescription' element items. Описание продукции, являющейся предметом внешнеэкономической операции
      * 
      * @return list
      */
@@ -82,7 +82,7 @@ public class ApplicationType
     }
 
     /** 
-     * Set the list of 'ProductDescription' element items. РћРїРёСЃР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё, СЏРІР»СЏСЋС‰РµР№СЃСЏ РїСЂРµРґРјРµС‚РѕРј РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ РѕРїРµСЂР°С†РёРё
+     * Set the list of 'ProductDescription' element items. Описание продукции, являющейся предметом внешнеэкономической операции
      * 
      * @param list
      */
@@ -91,7 +91,7 @@ public class ApplicationType
     }
 
     /** 
-     * Get the 'StateDestination' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'StateDestination' element value. Государство назначения
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class ApplicationType
     }
 
     /** 
-     * Set the 'StateDestination' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'StateDestination' element value. Государство назначения
      * 
      * @param stateDestination
      */
@@ -109,7 +109,7 @@ public class ApplicationType
     }
 
     /** 
-     * Get the 'ConformityDocument' element value. Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РґРѕРєСѓРјРµРЅС‚РѕРј
+     * Get the 'ConformityDocument' element value. В соответствии с документом
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ApplicationType
     }
 
     /** 
-     * Set the 'ConformityDocument' element value. Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РґРѕРєСѓРјРµРЅС‚РѕРј
+     * Set the 'ConformityDocument' element value. В соответствии с документом
      * 
      * @param conformityDocument
      */

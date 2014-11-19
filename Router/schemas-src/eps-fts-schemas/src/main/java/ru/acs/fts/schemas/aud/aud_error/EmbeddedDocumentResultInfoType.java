@@ -7,14 +7,14 @@ import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDAppliedDocumentIdTy
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDResultInfoType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°, РІР»РѕР¶РµРЅРЅРѕРіРѕ РІ РґРѕРєСѓРјРµРЅС‚-РєРѕРЅС‚РµР№РЅРµСЂ. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РїРµСЂРµРґР°РЅРЅС‹Р№ РЅР° С…СЂР°РЅРµРЅРёРµ РґРѕРєСѓРјРµРЅС‚ РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ СЃРѕР±РѕР№ РґРѕРєСѓРјРµРЅС‚-РєРѕРЅС‚РµР№РЅРµСЂ ('ED_Container').
+ * Информация о результате обработки документа, вложенного в документ-контейнер. Указывается в случае, если переданный на хранение документ представляет собой документ-контейнер ('ED_Container').
  */
 public class EmbeddedDocumentResultInfoType extends AUDAppliedDocumentIdType
 {
     private List<AUDResultInfoType> resultInfoList = new ArrayList<AUDResultInfoType>();
 
     /** 
-     * Get the list of 'ResultInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the list of 'ResultInfo' element items. Информация о результате обработки документа.
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class EmbeddedDocumentResultInfoType extends AUDAppliedDocumentIdType
     }
 
     /** 
-     * Set the list of 'ResultInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the list of 'ResultInfo' element items. Информация о результате обработки документа.
      * 
      * @param list
      */

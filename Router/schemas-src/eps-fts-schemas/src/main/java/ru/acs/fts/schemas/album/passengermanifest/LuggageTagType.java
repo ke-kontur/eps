@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р‘Р°РіР°Р¶РЅС‹Рµ Р±РёСЂРєРё
+ * Багажные бирки
  */
 public class LuggageTagType
 {
     private List<String> luggageNumberList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'LuggageNumber' element items. РќРѕРјРµСЂ Р±Р°РіР°Р¶РЅРѕР№ Р±РёСЂРєРё
+     * Get the list of 'LuggageNumber' element items. Номер багажной бирки
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class LuggageTagType
     }
 
     /** 
-     * Set the list of 'LuggageNumber' element items. РќРѕРјРµСЂ Р±Р°РіР°Р¶РЅРѕР№ Р±РёСЂРєРё
+     * Set the list of 'LuggageNumber' element items. Номер багажной бирки
      * 
      * @param list
      */

@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.pi_seaarrive;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‡Р»РµРЅРµ СЌРєРёРїР°Р¶Р°
+ * Сведения о члене экипажа
  */
 public class CrewMemberInfoType extends PersonBaseType
 {
     private String nationality;
 
     /** 
-     * Get the 'Nationality' element value. Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ (Р°Р»СЊС„Р° РєРѕРґ СЃС‚СЂР°РЅС‹)
+     * Get the 'Nationality' element value. Гражданство (альфа код страны)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CrewMemberInfoType extends PersonBaseType
     }
 
     /** 
-     * Set the 'Nationality' element value. Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ (Р°Р»СЊС„Р° РєРѕРґ СЃС‚СЂР°РЅС‹)
+     * Set the 'Nationality' element value. Гражданство (альфа код страны)
      * 
      * @param nationality
      */

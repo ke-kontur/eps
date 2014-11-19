@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ Р РўР РІ РѕСЂРёРіРёРЅР°Р»СЊРЅРѕРј С„РѕСЂРјР°С‚Рµ
+ * Запрос РТИ в оригинальном формате
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -26,7 +26,7 @@ public class OriginalRTIRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ResultInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РѕСЃРјРѕС‚СЂР° , РґР»СЏ РєРѕС‚РѕСЂС‹С… С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ Р РўР
+     * Get the 'ResultInfo' element value. Информация о результатах осмотра , для которых требуется предоставить РТИ
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class OriginalRTIRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResultInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РѕСЃРјРѕС‚СЂР° , РґР»СЏ РєРѕС‚РѕСЂС‹С… С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ Р РўР
+     * Set the 'ResultInfo' element value. Информация о результатах осмотра , для которых требуется предоставить РТИ
      * 
      * @param resultInfo
      */
@@ -44,7 +44,7 @@ public class OriginalRTIRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class OriginalRTIRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

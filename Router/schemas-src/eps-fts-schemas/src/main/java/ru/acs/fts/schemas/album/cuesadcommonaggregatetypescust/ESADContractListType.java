@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ РїРѕ РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІС‹Рј РєРѕРЅС‚СЂР°РєС‚Р°Рј. Р”Р»СЏ Р Р¤
+ * Дополнительные сведения по внешнеторговым контрактам. Для РФ
  */
 public class ESADContractListType
 {
@@ -19,7 +19,7 @@ public class ESADContractListType
     private List<DocumentBaseType> additionalContractList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the 'DealPassportNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РєРё
+     * Get the 'DealPassportNumber' element value. Номер паспорта сделки
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Set the 'DealPassportNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° СЃРґРµР»РєРё
+     * Set the 'DealPassportNumber' element value. Номер паспорта сделки
      * 
      * @param dealPassportNumber
      */
@@ -37,7 +37,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Get the 'ContractNumber' element value. РќРѕРјРµСЂ РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ContractNumber' element value. Номер внешнеторгового контракта
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Set the 'ContractNumber' element value. РќРѕРјРµСЂ РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ContractNumber' element value. Номер внешнеторгового контракта
      * 
      * @param contractNumber
      */
@@ -55,7 +55,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Get the 'ContractDate' element value. Р”Р°С‚Р° РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ContractDate' element value. Дата внешнеторгового контракта
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Set the 'ContractDate' element value. Р”Р°С‚Р° РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІРѕРіРѕ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ContractDate' element value. Дата внешнеторгового контракта
      * 
      * @param contractDate
      */
@@ -73,7 +73,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Get the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°, РѕС„РѕСЂРјРёРІС€РµРіРѕ РїР°СЃРїРѕСЂС‚ СЃРґРµР»РєРё
+     * Get the 'BankName' element value. Наименование банка, оформившего паспорт сделки
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Set the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°, РѕС„РѕСЂРјРёРІС€РµРіРѕ РїР°СЃРїРѕСЂС‚ СЃРґРµР»РєРё
+     * Set the 'BankName' element value. Наименование банка, оформившего паспорт сделки
      * 
      * @param bankName
      */
@@ -91,7 +91,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Get the list of 'SupplyInformations' element items. РћРїРёСЃР°РЅРёРµ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ.
+     * Get the list of 'SupplyInformations' element items. Описание поставки товаров.
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Set the list of 'SupplyInformations' element items. РћРїРёСЃР°РЅРёРµ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ.
+     * Set the list of 'SupplyInformations' element items. Описание поставки товаров.
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Get the list of 'AdditionalContract' element items. Р”РѕРїРѕР»РЅРµРЅРёСЏ Рё РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РѕСЃРЅРѕРІРЅРѕРјСѓ РєРѕРЅС‚СЂР°РєС‚Сѓ.
+     * Get the list of 'AdditionalContract' element items. Дополнения и приложения к основному контракту.
      * 
      * @return list
      */
@@ -118,7 +118,7 @@ public class ESADContractListType
     }
 
     /** 
-     * Set the list of 'AdditionalContract' element items. Р”РѕРїРѕР»РЅРµРЅРёСЏ Рё РїСЂРёР»РѕР¶РµРЅРёСЏ Рє РѕСЃРЅРѕРІРЅРѕРјСѓ РєРѕРЅС‚СЂР°РєС‚Сѓ.
+     * Set the list of 'AdditionalContract' element items. Дополнения и приложения к основному контракту.
      * 
      * @param list
      */

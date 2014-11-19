@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonleaftypescust;
 
 /** 
- * РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РёРїР° Р·РЅР°С‡РµРЅРёСЏ СЂРµРєРІРёР·РёС‚Р° РґРѕРєСѓРјРµРЅС‚Р°.
+ * Идентификатор типа значения реквизита документа.
  */
 public enum AUDDocumentAttributeValueKindType {
     STRING("string"), INTEGER("integer"), REAL("real"), DATETIME("datetime"), DATE(

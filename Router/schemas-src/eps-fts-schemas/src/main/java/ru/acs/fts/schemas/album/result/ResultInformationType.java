@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ  Рѕ  СЂРµР·СѓР»СЊС‚Р°С‚Рµ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°
+ * Информация  о  результате обработки документа
  */
 public class ResultInformationType
 {
@@ -19,7 +19,7 @@ public class ResultInformationType
     private ProcInformationType procInformation;
 
     /** 
-     * Get the 'ResultSource' element value. РСЃС‚РѕС‡РЅРёРє РѕС€РёР±РєРё. РљРѕРґ РїРѕРґСЃРёСЃС‚РµРјС‹, РІРµСЂРЅСѓРІС€РµР№ РѕС€РёР±РєСѓ.
+     * Get the 'ResultSource' element value. Источник ошибки. Код подсистемы, вернувшей ошибку.
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'ResultSource' element value. РСЃС‚РѕС‡РЅРёРє РѕС€РёР±РєРё. РљРѕРґ РїРѕРґСЃРёСЃС‚РµРјС‹, РІРµСЂРЅСѓРІС€РµР№ РѕС€РёР±РєСѓ.
+     * Set the 'ResultSource' element value. Источник ошибки. Код подсистемы, вернувшей ошибку.
      * 
      * @param resultSource
      */
@@ -37,7 +37,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the 'ResultCode' element value. РљРѕРґ РѕС€РёР±РєРё.
+     * Get the 'ResultCode' element value. Код ошибки.
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'ResultCode' element value. РљРѕРґ РѕС€РёР±РєРё.
+     * Set the 'ResultCode' element value. Код ошибки.
      * 
      * @param resultCode
      */
@@ -55,7 +55,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the list of 'ResultDescription' element items. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё.
+     * Get the list of 'ResultDescription' element items. Текстовое описание ошибки.
      * 
      * @return list
      */
@@ -64,7 +64,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the list of 'ResultDescription' element items. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё.
+     * Set the list of 'ResultDescription' element items. Текстовое описание ошибки.
      * 
      * @param list
      */
@@ -73,7 +73,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the 'ResultCategory' element value. РЎС‚РµРїРµРЅСЊ РєСЂРёС‚РёС‡РЅРѕСЃС‚Рё РѕС€РёР±РєРё. РљРѕРґ РёР»Рё РјРЅРµРјРѕРЅРёС‡РµСЃРєРѕРµ РѕРїРёСЃР°РЅРёРµ.
+     * Get the 'ResultCategory' element value. Степень критичности ошибки. Код или мнемоническое описание.
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'ResultCategory' element value. РЎС‚РµРїРµРЅСЊ РєСЂРёС‚РёС‡РЅРѕСЃС‚Рё РѕС€РёР±РєРё. РљРѕРґ РёР»Рё РјРЅРµРјРѕРЅРёС‡РµСЃРєРѕРµ РѕРїРёСЃР°РЅРёРµ.
+     * Set the 'ResultCategory' element value. Степень критичности ошибки. Код или мнемоническое описание.
      * 
      * @param resultCategory
      */
@@ -91,7 +91,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the 'RefLineID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃС‚СЂРѕРєРё Р·Р°РїСЂРѕСЃР° Рє СЌР»РµРєС‚СЂРѕРЅРЅРѕРјСѓ Р°СЂС…РёРІСѓ
+     * Get the 'RefLineID' element value. Идентификатор строки запроса к электронному архиву
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'RefLineID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃС‚СЂРѕРєРё Р·Р°РїСЂРѕСЃР° Рє СЌР»РµРєС‚СЂРѕРЅРЅРѕРјСѓ Р°СЂС…РёРІСѓ
+     * Set the 'RefLineID' element value. Идентификатор строки запроса к электронному архиву
      * 
      * @param refLineID
      */
@@ -109,7 +109,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the 'ItemInfo' element value. РЎСЃС‹Р»РєР° РЅР° СЌР»РµРјРµРЅС‚ СЃ РѕС€РёР±РєРѕР№.
+     * Get the 'ItemInfo' element value. Ссылка на элемент с ошибкой.
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'ItemInfo' element value. РЎСЃС‹Р»РєР° РЅР° СЌР»РµРјРµРЅС‚ СЃ РѕС€РёР±РєРѕР№.
+     * Set the 'ItemInfo' element value. Ссылка на элемент с ошибкой.
      * 
      * @param itemInfo
      */
@@ -127,7 +127,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the list of 'EADInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С… РІ Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
+     * Get the list of 'EADInfo' element items. Информация о документах в архиве декларанта
      * 
      * @return list
      */
@@ -136,7 +136,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the list of 'EADInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С… РІ Р°СЂС…РёРІРµ РґРµРєР»Р°СЂР°РЅС‚Р°
+     * Set the list of 'EADInfo' element items. Информация о документах в архиве декларанта
      * 
      * @param list
      */
@@ -145,7 +145,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Get the 'ProcInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕС†РµСЃСЃРµ, РґР»СЏ РєРѕС‚РѕСЂРѕРіРѕ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ СЃС‚Р°С‚СѓСЃ/РёСЃС‚РѕСЂРёСЏ
+     * Get the 'ProcInformation' element value. Информация о процессе, для которого запрашивается статус/история
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class ResultInformationType
     }
 
     /** 
-     * Set the 'ProcInformation' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕС†РµСЃСЃРµ, РґР»СЏ РєРѕС‚РѕСЂРѕРіРѕ Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ СЃС‚Р°С‚СѓСЃ/РёСЃС‚РѕСЂРёСЏ
+     * Set the 'ProcInformation' element value. Информация о процессе, для которого запрашивается статус/история
      * 
      * @param procInformation
      */

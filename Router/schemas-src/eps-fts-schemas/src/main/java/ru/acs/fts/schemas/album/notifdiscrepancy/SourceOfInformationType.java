@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.notifdiscrepancy;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРІРµРґРµРЅРёР№ (РЅРѕРјРµСЂР°, РґР°С‚С‹ Р°РєС‚РѕРІ РѕСЃРјРѕС‚СЂР°, РґРѕСЃРјРѕС‚СЂР°)
+ * Информация о несоответствии сведений (номера, даты актов осмотра, досмотра)
  */
 public class SourceOfInformationType extends DocumentBaseType
 {
     private String comments;
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Get the 'Comments' element value. Комментарии
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class SourceOfInformationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Set the 'Comments' element value. Комментарии
      * 
      * @param comments
      */

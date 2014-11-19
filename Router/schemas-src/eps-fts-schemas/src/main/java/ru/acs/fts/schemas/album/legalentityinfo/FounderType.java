@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡СЂРµРґРёС‚РµР»Рµ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+ * Сведения об учредителе юридического лица
  */
 public class FounderType extends CUOrganizationType
 {
@@ -28,7 +28,7 @@ public class FounderType extends CUOrganizationType
     private List<ParticipantType> shareManagerList = new ArrayList<ParticipantType>();
 
     /** 
-     * Get the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 1 - С„РёР·. Р»РёС†Рѕ; 2 - СЂРѕСЃСЃРёР№СЃРєРѕРµ СЋСЂ. Р»РёС†Рѕ; 3 - РѕСЂРіР°РЅ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ РІР»Р°СЃС‚Рё РёР»Рё РѕСЂРіР°РЅ РјРµСЃС‚РЅРѕРіРѕ СЃР°РјРѕСѓРїСЂР°РІР»РµРЅРёСЏ; 4 - РёРЅРѕСЃС‚СЂР°РЅРЅРѕРµ СЋСЂ. Р»РёС†Рѕ; 5 - РїР°РµРІРѕР№ РёРЅРІРµСЃС‚РёС†РёРѕРЅРЅС‹Р№ С„РѕРЅРґ
+     * Get the 'OrgSign' element value. Признак: 1 - физ. лицо; 2 - российское юр. лицо; 3 - орган государственной власти или орган местного самоуправления; 4 - иностранное юр. лицо; 5 - паевой инвестиционный фонд
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OrgSign' element value. РџСЂРёР·РЅР°Рє: 1 - С„РёР·. Р»РёС†Рѕ; 2 - СЂРѕСЃСЃРёР№СЃРєРѕРµ СЋСЂ. Р»РёС†Рѕ; 3 - РѕСЂРіР°РЅ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ РІР»Р°СЃС‚Рё РёР»Рё РѕСЂРіР°РЅ РјРµСЃС‚РЅРѕРіРѕ СЃР°РјРѕСѓРїСЂР°РІР»РµРЅРёСЏ; 4 - РёРЅРѕСЃС‚СЂР°РЅРЅРѕРµ СЋСЂ. Р»РёС†Рѕ; 5 - РїР°РµРІРѕР№ РёРЅРІРµСЃС‚РёС†РёРѕРЅРЅС‹Р№ С„РѕРЅРґ
+     * Set the 'OrgSign' element value. Признак: 1 - физ. лицо; 2 - российское юр. лицо; 3 - орган государственной власти или орган местного самоуправления; 4 - иностранное юр. лицо; 5 - паевой инвестиционный фонд
      * 
      * @param orgSign
      */
@@ -46,7 +46,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Get the 'OriginCountryCode' element value. Код страны происхождения
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Set the 'OriginCountryCode' element value. Код страны происхождения
      * 
      * @param originCountryCode
      */
@@ -64,7 +64,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'OriginCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Get the 'OriginCountryName' element value. Наименование страны происхождения
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OriginCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Set the 'OriginCountryName' element value. Наименование страны происхождения
      * 
      * @param originCountryName
      */
@@ -82,7 +82,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'RegDate' element value. Дата регистрации
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'RegDate' element value. Дата регистрации
      * 
      * @param regDate
      */
@@ -100,7 +100,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'RegNum' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RegNum' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'RegNum' element value. Регистрационный номер
      * 
      * @param regNum
      */
@@ -118,7 +118,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'InheritanceOpenDate' element value. Р”Р°С‚Р° РѕС‚РєСЂС‹С‚РёСЏ РЅР°СЃР»РµРґСЃС‚РІР° (РґР°С‚Р° СЃРјРµСЂС‚Рё СѓС‡Р°СЃС‚РЅРёРєР°)
+     * Get the 'InheritanceOpenDate' element value. Дата открытия наследства (дата смерти участника)
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'InheritanceOpenDate' element value. Р”Р°С‚Р° РѕС‚РєСЂС‹С‚РёСЏ РЅР°СЃР»РµРґСЃС‚РІР° (РґР°С‚Р° СЃРјРµСЂС‚Рё СѓС‡Р°СЃС‚РЅРёРєР°)
+     * Set the 'InheritanceOpenDate' element value. Дата открытия наследства (дата смерти участника)
      * 
      * @param inheritanceOpenDate
      */
@@ -136,7 +136,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'FounderKindCode' element value. РљРѕРґ РІРёРґР° СѓС‡СЂРµРґРёС‚РµР»СЏ: 1 - РґРѕР»СЏ РїСЂРёРЅР°РґР»РµР¶РёС‚ Р Р¤; 2 - РґРѕР»СЏ РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃСѓР±СЉРµРєС‚Сѓ Р Р¤; 3 - РґРѕР»СЏ РїСЂРёРЅР°РґР»РµР¶РёС‚ РјСѓРЅРёС†РёРїР°Р»СЊРЅРѕРјСѓ РѕР±СЂР°Р·РѕРІР°РЅРёСЋ
+     * Get the 'FounderKindCode' element value. Код вида учредителя: 1 - доля принадлежит РФ; 2 - доля принадлежит субъекту РФ; 3 - доля принадлежит муниципальному образованию
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'FounderKindCode' element value. РљРѕРґ РІРёРґР° СѓС‡СЂРµРґРёС‚РµР»СЏ: 1 - РґРѕР»СЏ РїСЂРёРЅР°РґР»РµР¶РёС‚ Р Р¤; 2 - РґРѕР»СЏ РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃСѓР±СЉРµРєС‚Сѓ Р Р¤; 3 - РґРѕР»СЏ РїСЂРёРЅР°РґР»РµР¶РёС‚ РјСѓРЅРёС†РёРїР°Р»СЊРЅРѕРјСѓ РѕР±СЂР°Р·РѕРІР°РЅРёСЋ
+     * Set the 'FounderKindCode' element value. Код вида учредителя: 1 - доля принадлежит РФ; 2 - доля принадлежит субъекту РФ; 3 - доля принадлежит муниципальному образованию
      * 
      * @param founderKindCode
      */
@@ -154,7 +154,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RFSubjectCode' element value. РљРѕРґ СЃСѓР±СЉРµРєС‚Р° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё РєРѕС‚РѕСЂРѕРјСѓ РїСЂРёРЅР°РґР»РµР¶РёС‚ РґРѕР»СЏ РёР»Рё РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ РјСѓРЅРёС†РёРїР°Р»СЊРЅРѕРµ РѕР±СЂР°Р·РѕРІР°РЅРёРµ, РєРѕС‚РѕСЂРѕРјСѓ РїСЂРёРЅР°РґР»РµР¶РёС‚ РґРѕР»СЏ
+     * Get the 'RFSubjectCode' element value. Код субъекта Российской Федерации которому принадлежит доля или на территории которого находится муниципальное образование, которому принадлежит доля
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RFSubjectCode' element value. РљРѕРґ СЃСѓР±СЉРµРєС‚Р° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё РєРѕС‚РѕСЂРѕРјСѓ РїСЂРёРЅР°РґР»РµР¶РёС‚ РґРѕР»СЏ РёР»Рё РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РєРѕС‚РѕСЂРѕРіРѕ РЅР°С…РѕРґРёС‚СЃСЏ РјСѓРЅРёС†РёРїР°Р»СЊРЅРѕРµ РѕР±СЂР°Р·РѕРІР°РЅРёРµ, РєРѕС‚РѕСЂРѕРјСѓ РїСЂРёРЅР°РґР»РµР¶РёС‚ РґРѕР»СЏ
+     * Set the 'RFSubjectCode' element value. Код субъекта Российской Федерации которому принадлежит доля или на территории которого находится муниципальное образование, которому принадлежит доля
      * 
      * @param RFSubjectCode
      */
@@ -172,7 +172,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RFSubjectName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓР±СЉРµРєС‚Р° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё / РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјСѓРЅРёС†РёРїР°Р»СЊРЅРѕРіРѕ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ
+     * Get the 'RFSubjectName' element value. Наименование субъекта Российской Федерации / Наименование муниципального образования
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RFSubjectName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓР±СЉРµРєС‚Р° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё / РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјСѓРЅРёС†РёРїР°Р»СЊРЅРѕРіРѕ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ
+     * Set the 'RFSubjectName' element value. Наименование субъекта Российской Федерации / Наименование муниципального образования
      * 
      * @param RFSubjectName
      */
@@ -190,7 +190,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'Share' element value. Р”РѕР»СЏ РІ СѓСЃС‚Р°РІРЅРѕРј РєР°РїРёС‚Р°Р»Рµ
+     * Get the 'Share' element value. Доля в уставном капитале
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'Share' element value. Р”РѕР»СЏ РІ СѓСЃС‚Р°РІРЅРѕРј РєР°РїРёС‚Р°Р»Рµ
+     * Set the 'Share' element value. Доля в уставном капитале
      * 
      * @param share
      */
@@ -208,7 +208,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Get the 'RecordData' element value. Сведения о записи
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Set the 'RecordData' element value. Сведения о записи
      * 
      * @param recordData
      */
@@ -226,7 +226,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'RegOrgan' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРј РѕСЂРіР°РЅРµ
+     * Get the 'RegOrgan' element value. Сведения о регистрирующем органе
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'RegOrgan' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂРёСЂСѓСЋС‰РµРј РѕСЂРіР°РЅРµ
+     * Set the 'RegOrgan' element value. Сведения о регистрирующем органе
      * 
      * @param regOrgan
      */
@@ -244,7 +244,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'ForeignAddress' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° Р¶РёС‚РµР»СЊСЃС‚РІР° (РјРµСЃС‚Р° РїСЂРµР±С‹РІР°РЅРёСЏ) Р·Р° РїСЂРµРґРµР»Р°РјРё С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤
+     * Get the 'ForeignAddress' element value. Адрес места жительства (места пребывания) за пределами территории РФ
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'ForeignAddress' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° Р¶РёС‚РµР»СЊСЃС‚РІР° (РјРµСЃС‚Р° РїСЂРµР±С‹РІР°РЅРёСЏ) Р·Р° РїСЂРµРґРµР»Р°РјРё С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤
+     * Set the 'ForeignAddress' element value. Адрес места жительства (места пребывания) за пределами территории РФ
      * 
      * @param foreignAddress
      */
@@ -262,7 +262,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Get the list of 'ShareManager' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРј СѓРїСЂР°РІР»РµРЅРёРµ РґРѕР»РµР№, РїРµСЂРµС…РѕРґСЏС‰РµР№ РІ РїРѕСЂСЏРґРєРµ РЅР°СЃР»РµРґРѕРІР°РЅРёСЏ / РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїСЂР°РІР»СЏСЋС‰РµР№ РєРѕРјРїР°РЅРёРё, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµР№ РґРѕРІРµСЂРёС‚РµР»СЊРЅРѕРµ СѓРїСЂР°РІР»РµРЅРёРµ
+     * Get the list of 'ShareManager' element items. Сведения о лице, осуществляющем управление долей, переходящей в порядке наследования / Сведения об управляющей компании, осуществляющей доверительное управление
      * 
      * @return list
      */
@@ -271,7 +271,7 @@ public class FounderType extends CUOrganizationType
     }
 
     /** 
-     * Set the list of 'ShareManager' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРј СѓРїСЂР°РІР»РµРЅРёРµ РґРѕР»РµР№, РїРµСЂРµС…РѕРґСЏС‰РµР№ РІ РїРѕСЂСЏРґРєРµ РЅР°СЃР»РµРґРѕРІР°РЅРёСЏ / РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїСЂР°РІР»СЏСЋС‰РµР№ РєРѕРјРїР°РЅРёРё, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµР№ РґРѕРІРµСЂРёС‚РµР»СЊРЅРѕРµ СѓРїСЂР°РІР»РµРЅРёРµ
+     * Set the list of 'ShareManager' element items. Сведения о лице, осуществляющем управление долей, переходящей в порядке наследования / Сведения об управляющей компании, осуществляющей доверительное управление
      * 
      * @param list
      */

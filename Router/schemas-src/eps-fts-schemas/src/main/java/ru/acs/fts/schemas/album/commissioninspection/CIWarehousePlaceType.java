@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.commissioninspection;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.WarehousePlaceType;
 
 /** 
- * РњРµСЃС‚Рѕ РїРѕРіСЂСѓР·РєРё/СЂР°Р·РіСЂСѓР·РєРё. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё/ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРµ СЃРєР»Р°РґР°.
+ * Место погрузки/разгрузки. Сведения о лицензии/ свидетельстве склада.
  */
 public class CIWarehousePlaceType extends WarehousePlaceType
 {
     private String documentModeCode;
 
     /** 
-     * Get the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:1-Р›РёС†РµРЅР·РёСЏ 2-РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+     * Get the 'DocumentModeCode' element value. Тип документа:1-Лицензия 2-Свидетельство
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CIWarehousePlaceType extends WarehousePlaceType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:1-Р›РёС†РµРЅР·РёСЏ 2-РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+     * Set the 'DocumentModeCode' element value. Тип документа:1-Лицензия 2-Свидетельство
      * 
      * @param documentModeCode
      */

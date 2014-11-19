@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.cwqueryresult;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРґР°РІР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С… РѕРґРЅРѕРіРѕ С‚РёРїР°
+ * Информация о передаваемых документах одного типа
  */
 public class ResultBodyType
 {
     private Object any;
 
     /** 
-     * Get the 'ResultBodyType' complexType value. РџСЂРёРєР»Р°РґРЅРѕР№ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'ResultBodyType' complexType value. Прикладной документ
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class ResultBodyType
     }
 
     /** 
-     * Set the 'ResultBodyType' complexType value. РџСЂРёРєР»Р°РґРЅРѕР№ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'ResultBodyType' complexType value. Прикладной документ
      * 
      * @param any
      */

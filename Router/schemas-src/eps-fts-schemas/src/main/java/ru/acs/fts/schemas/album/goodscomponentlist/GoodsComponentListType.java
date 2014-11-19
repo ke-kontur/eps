@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РџРѕСЃС‚Р°РІРєР° РєРѕРјРїРѕРЅРµРЅС‚Р°РјРё - РЎРїРёСЃРѕРє РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+ * Поставка компонентами - Список компонентов
  */
 public class GoodsComponentListType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class GoodsComponentListType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў.  РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў РїСЂРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
+     * Get the 'GTDDocumentID' element value. Уникальный идентификатор ДТ.  Используется для привязки к ДТ при представлении отдельно от ДТ.
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class GoodsComponentListType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў.  РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РїСЂРёРІСЏР·РєРё Рє Р”Рў РїСЂРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРё РѕС‚РґРµР»СЊРЅРѕ РѕС‚ Р”Рў.
+     * Set the 'GTDDocumentID' element value. Уникальный идентификатор ДТ.  Используется для привязки к ДТ при представлении отдельно от ДТ.
      * 
      * @param GTDDocumentID
      */
@@ -33,7 +33,7 @@ public class GoodsComponentListType extends BaseDocType
     }
 
     /** 
-     * Get the 'ComponentsList' element value. РџРѕСЃС‚Р°РІРєР° РєРѕРјРїРѕРЅРµРЅС‚Р°РјРё - РЎРїРёСЃРѕРє РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+     * Get the 'ComponentsList' element value. Поставка компонентами - Список компонентов
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsComponentListType extends BaseDocType
     }
 
     /** 
-     * Set the 'ComponentsList' element value. РџРѕСЃС‚Р°РІРєР° РєРѕРјРїРѕРЅРµРЅС‚Р°РјРё - РЎРїРёСЃРѕРє РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+     * Set the 'ComponentsList' element value. Поставка компонентами - Список компонентов
      * 
      * @param componentsList
      */
@@ -51,7 +51,7 @@ public class GoodsComponentListType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'GTDID' element value. Регистрационный номер ДТ
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class GoodsComponentListType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'GTDID' element value. Регистрационный номер ДТ
      * 
      * @param GTDID
      */
@@ -69,7 +69,7 @@ public class GoodsComponentListType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class GoodsComponentListType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р’С‹СЏРІР»РµРЅРЅРѕРµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїСЂРёР±С‹РІС€РёС… С‚РѕРІР°СЂРѕРІ Р·Р°СЏРІР»РµРЅРЅС‹Рј СЃРІРµРґРµРЅРёСЏРј
+ * Выявленное несоответствие прибывших товаров заявленным сведениям
  */
 public class FoundDiscrepancyType
 {
@@ -14,7 +14,7 @@ public class FoundDiscrepancyType
     private String comment;
 
     /** 
-     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў/СЃРїРёСЃРєСѓ
+     * Get the 'GoodsNumeric' element value. Номер товара по ДТ/списку
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class FoundDiscrepancyType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў/СЃРїРёСЃРєСѓ
+     * Set the 'GoodsNumeric' element value. Номер товара по ДТ/списку
      * 
      * @param goodsNumeric
      */
@@ -32,7 +32,7 @@ public class FoundDiscrepancyType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Наименование и характеристика товара
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class FoundDiscrepancyType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Наименование и характеристика товара
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class FoundDiscrepancyType
     }
 
     /** 
-     * Get the 'Comment' element value. РћРїРёСЃР°РЅРёРµ СЂР°СЃС…РѕР¶РґРµРЅРёСЏ
+     * Get the 'Comment' element value. Описание расхождения
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class FoundDiscrepancyType
     }
 
     /** 
-     * Set the 'Comment' element value. РћРїРёСЃР°РЅРёРµ СЂР°СЃС…РѕР¶РґРµРЅРёСЏ
+     * Set the 'Comment' element value. Описание расхождения
      * 
      * @param comment
      */

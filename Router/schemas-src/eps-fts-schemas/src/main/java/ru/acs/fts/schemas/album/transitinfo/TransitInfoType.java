@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.TDGuaranteeType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚СЂР°РЅР·РёС‚РЅС‹С… С‚РѕРІР°СЂР°С…
+ * Информация о транзитных товарах
  */
 public class TransitInfoType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class TransitInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'StatusName' element value. РџСЂРёРєР»Р°РґРЅРѕРµ СЃС‚Р°С‚СѓСЃРЅРѕРµ СЃРѕСЃС‚РѕСЏРЅРёРµ С‚СЂР°РЅР·РёС‚РЅРѕР№ РїРµСЂРµРІРѕР·РєРё.
+     * Get the 'StatusName' element value. Прикладное статусное состояние транзитной перевозки.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'StatusName' element value. РџСЂРёРєР»Р°РґРЅРѕРµ СЃС‚Р°С‚СѓСЃРЅРѕРµ СЃРѕСЃС‚РѕСЏРЅРёРµ С‚СЂР°РЅР·РёС‚РЅРѕР№ РїРµСЂРµРІРѕР·РєРё.
+     * Set the 'StatusName' element value. Прикладное статусное состояние транзитной перевозки.
      * 
      * @param statusName
      */
@@ -47,7 +47,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentDateTime' element value. Дата и время создания документа.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentDateTime' element value. Дата и время создания документа.
      * 
      * @param documentDateTime
      */
@@ -65,7 +65,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Reason' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
+     * Get the list of 'Reason' element items. Обоснование
      * 
      * @return list
      */
@@ -74,7 +74,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Reason' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
+     * Set the list of 'Reason' element items. Обоснование
      * 
      * @param list
      */
@@ -83,7 +83,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'ActNumber' element value. РќРѕРјРµСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
+     * Get the 'ActNumber' element value. Номер акта таможенного досмотра
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'ActNumber' element value. РќРѕРјРµСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
+     * Set the 'ActNumber' element value. Номер акта таможенного досмотра
      * 
      * @param actNumber
      */
@@ -101,7 +101,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'CustomsCode' element value. Код таможенного органа отправления
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'CustomsCode' element value. Код таможенного органа отправления
      * 
      * @param customsCode
      */
@@ -119,7 +119,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransitStampDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РёР· С€С‚Р°РјРїР°
+     * Get the 'TransitStampDateTime' element value. Дата и время из штампа
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransitStampDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РёР· С€С‚Р°РјРїР°
+     * Set the 'TransitStampDateTime' element value. Дата и время из штампа
      * 
      * @param transitStampDateTime
      */
@@ -137,7 +137,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOfficial' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РїСЂРѕСЃС‚Р°РІРёРІС€РµРј С€С‚Р°РјРї.
+     * Get the 'CustomsOfficial' element value. Сведения о должностном лице таможенного органа, проставившем штамп.
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOfficial' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РїСЂРѕСЃС‚Р°РІРёРІС€РµРј С€С‚Р°РјРї.
+     * Set the 'CustomsOfficial' element value. Сведения о должностном лице таможенного органа, проставившем штамп.
      * 
      * @param customsOfficial
      */
@@ -155,7 +155,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'Header' element value. Р—Р°РіРѕР»РѕРІРѕРє РўР”
+     * Get the 'Header' element value. Заголовок ТД
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'Header' element value. Р—Р°РіРѕР»РѕРІРѕРє РўР”
+     * Set the 'Header' element value. Заголовок ТД
      * 
      * @param header
      */
@@ -173,7 +173,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Consigment' element items. РўРѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ.
+     * Get the list of 'Consigment' element items. Товарно-транспортная накладная.
      * 
      * @return list
      */
@@ -182,7 +182,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Consigment' element items. РўРѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ.
+     * Set the list of 'Consigment' element items. Товарно-транспортная накладная.
      * 
      * @param list
      */
@@ -191,7 +191,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'PrecedingDocument' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ (РїСЂРё РѕС‚РєСЂС‹С‚РёРё РїСЂРѕС†РµРґСѓСЂС‹ С‚СЂР°РЅР·РёС‚Р°)
+     * Get the 'PrecedingDocument' element value. Предшествующий документ (при открытии процедуры транзита)
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'PrecedingDocument' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ (РїСЂРё РѕС‚РєСЂС‹С‚РёРё РїСЂРѕС†РµРґСѓСЂС‹ С‚СЂР°РЅР·РёС‚Р°)
+     * Set the 'PrecedingDocument' element value. Предшествующий документ (при открытии процедуры транзита)
      * 
      * @param precedingDocument
      */
@@ -209,7 +209,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationPlace' element value. Сведения о месте назначения
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationPlace' element value. Сведения о месте назначения
      * 
      * @param destinationPlace
      */
@@ -227,7 +227,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Seal' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»РѕРјР±Р°С…
+     * Get the list of 'Seal' element items. Информация о пломбах
      * 
      * @return list
      */
@@ -236,7 +236,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Seal' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»РѕРјР±Р°С…
+     * Set the list of 'Seal' element items. Информация о пломбах
      * 
      * @param list
      */
@@ -245,7 +245,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Guarantee' element items. Р“Р°СЂР°РЅС‚РёСЏ
+     * Get the list of 'Guarantee' element items. Гарантия
      * 
      * @return list
      */
@@ -254,7 +254,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Guarantee' element items. Р“Р°СЂР°РЅС‚РёСЏ
+     * Set the list of 'Guarantee' element items. Гарантия
      * 
      * @param list
      */
@@ -263,7 +263,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class TransitInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

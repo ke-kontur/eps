@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂР°
+ * Сведения о стоимости товара
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -20,7 +20,7 @@ public class IDKCostType
     private String invoiceCostCurrencyCode;
 
     /** 
-     * Get the 'InvoiceCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Get the 'InvoiceCost' element value. Фактурная стоимость
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class IDKCostType
     }
 
     /** 
-     * Set the 'InvoiceCost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Set the 'InvoiceCost' element value. Фактурная стоимость
      * 
      * @param invoiceCost
      */
@@ -38,7 +38,7 @@ public class IDKCostType
     }
 
     /** 
-     * Get the 'InvoiceCostCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the 'InvoiceCostCurrencyCode' element value. Код валюты фактурной стоимости
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class IDKCostType
     }
 
     /** 
-     * Set the 'InvoiceCostCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the 'InvoiceCostCurrencyCode' element value. Код валюты фактурной стоимости
      * 
      * @param invoiceCostCurrencyCode
      */

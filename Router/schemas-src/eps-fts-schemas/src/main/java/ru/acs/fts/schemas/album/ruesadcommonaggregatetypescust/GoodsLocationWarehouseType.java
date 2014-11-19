@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 
 /** 
- * Р”Рў Рё РўР”. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј СЃРєР»Р°РґРµ.
+ * ДТ и ТД. Сведения о местонахождении товаров. Сведения о таможенном складе.
  */
 public class GoodsLocationWarehouseType
 {
@@ -10,7 +10,7 @@ public class GoodsLocationWarehouseType
     private String certificateNumber;
 
     /** 
-     * Get the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°. 1- Р›РёС†РµРЅР·РёСЏ 2 - РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ.
+     * Get the 'DocumentModeCode' element value. Тип документа. 1- Лицензия 2 - Свидетельство.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class GoodsLocationWarehouseType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°. 1- Р›РёС†РµРЅР·РёСЏ 2 - РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ.
+     * Set the 'DocumentModeCode' element value. Тип документа. 1- Лицензия 2 - Свидетельство.
      * 
      * @param documentModeCode
      */
@@ -28,7 +28,7 @@ public class GoodsLocationWarehouseType
     }
 
     /** 
-     * Get the 'CertificateNumber' element value. РќРѕРјРµСЂ РЎРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ / РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё 
+     * Get the 'CertificateNumber' element value. Номер Свидетельства о включении в Реестр / Номер лицензии 
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class GoodsLocationWarehouseType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. РќРѕРјРµСЂ РЎРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ / РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё 
+     * Set the 'CertificateNumber' element value. Номер Свидетельства о включении в Реестр / Номер лицензии 
      * 
      * @param certificateNumber
      */

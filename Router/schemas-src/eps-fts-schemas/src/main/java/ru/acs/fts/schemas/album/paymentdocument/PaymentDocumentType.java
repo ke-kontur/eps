@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№ 
+ * Документ уплаты таможенных и иных платежей 
  */
 public class PaymentDocumentType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class PaymentDocumentType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'PDKind' element value. Р’РёРґ Р”РЈ: "1" - Р”РЈ/Р”Рў; "2" - Р”РЈ/РўРџРћ; "3" - Р”РЈ/РўР .
+     * Get the 'PDKind' element value. Вид ДУ: "1" - ДУ/ДТ; "2" - ДУ/ТПО; "3" - ДУ/ТР.
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the 'PDKind' element value. Р’РёРґ Р”РЈ: "1" - Р”РЈ/Р”Рў; "2" - Р”РЈ/РўРџРћ; "3" - Р”РЈ/РўР .
+     * Set the 'PDKind' element value. Вид ДУ: "1" - ДУ/ДТ; "2" - ДУ/ТПО; "3" - ДУ/ТР.
      * 
      * @param PDKind
      */
@@ -44,7 +44,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Get the 'PDParticular' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р”РЈ : Р”РЈ/Р”Рў:- РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ (РіСЂ. 7 Р”Рў) Р”РЈ/РўРџРћ:- РўРёРї РѕСЂРґРµСЂР° (РіСЂ. 1 РўРџРћ) Р”РЈ/РўР :- РўРёРї СЂР°СЃРїРёСЃРєРё (РіСЂ. 1 РўР )
+     * Get the 'PDParticular' element value. Особенности ДУ : ДУ/ДТ:- Код особенности декларирования товаров (гр. 7 ДТ) ДУ/ТПО:- Тип ордера (гр. 1 ТПО) ДУ/ТР:- Тип расписки (гр. 1 ТР)
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the 'PDParticular' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р”РЈ : Р”РЈ/Р”Рў:- РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ (РіСЂ. 7 Р”Рў) Р”РЈ/РўРџРћ:- РўРёРї РѕСЂРґРµСЂР° (РіСЂ. 1 РўРџРћ) Р”РЈ/РўР :- РўРёРї СЂР°СЃРїРёСЃРєРё (РіСЂ. 1 РўР )
+     * Set the 'PDParticular' element value. Особенности ДУ : ДУ/ДТ:- Код особенности декларирования товаров (гр. 7 ДТ) ДУ/ТПО:- Тип ордера (гр. 1 ТПО) ДУ/ТР:- Тип расписки (гр. 1 ТР)
      * 
      * @param PDParticular
      */
@@ -62,7 +62,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Get the 'NumberPD' element value. РќРѕРјРµСЂ Р”РЈ РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Get the 'NumberPD' element value. Номер ДУ по порядку
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the 'NumberPD' element value. РќРѕРјРµСЂ Р”РЈ РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Set the 'NumberPD' element value. Номер ДУ по порядку
      * 
      * @param numberPD
      */
@@ -80,7 +80,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў/СЃРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўРџРћ/СЃРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўР .
+     * Get the 'RegistrationNumber' element value. Регистрационный номер ДТ/справочный номер ТПО/справочный номер ТР.
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў/СЃРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўРџРћ/СЃРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўР .
+     * Set the 'RegistrationNumber' element value. Регистрационный номер ДТ/справочный номер ТПО/справочный номер ТР.
      * 
      * @param registrationNumber
      */
@@ -98,7 +98,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PayerInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
+     * Get the list of 'PayerInfo' element items. Сведения о плательщике
      * 
      * @return list
      */
@@ -107,7 +107,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PayerInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
+     * Set the list of 'PayerInfo' element items. Сведения о плательщике
      * 
      * @param list
      */
@@ -116,7 +116,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PrecedingDocument' element items. "Р”РЈ - РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ Р”Рў/Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРЅС‹Рµ РўРџРћ/ Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРЅС‹Рµ РўР "
+     * Get the list of 'PrecedingDocument' element items. "ДУ - предшествующие ДТ/аннулированные ТПО/ аннулированные ТР"
      * 
      * @return list
      */
@@ -125,7 +125,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PrecedingDocument' element items. "Р”РЈ - РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ Р”Рў/Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРЅС‹Рµ РўРџРћ/ Р°РЅРЅСѓР»РёСЂРѕРІР°РЅРЅС‹Рµ РўР "
+     * Set the list of 'PrecedingDocument' element items. "ДУ - предшествующие ДТ/аннулированные ТПО/ аннулированные ТР"
      * 
      * @param list
      */
@@ -134,7 +134,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PayableAmount' element items. Р”РЈ - СЃСѓРјРјС‹ Рє СѓРїР»Р°С‚Рµ/СЂРµР·РµСЂРІРёСЂСѓРµРјС‹Рµ СЃСѓРјРјС‹
+     * Get the list of 'PayableAmount' element items. ДУ - суммы к уплате/резервируемые суммы
      * 
      * @return list
      */
@@ -143,7 +143,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PayableAmount' element items. Р”РЈ - СЃСѓРјРјС‹ Рє СѓРїР»Р°С‚Рµ/СЂРµР·РµСЂРІРёСЂСѓРµРјС‹Рµ СЃСѓРјРјС‹
+     * Set the list of 'PayableAmount' element items. ДУ - суммы к уплате/резервируемые суммы
      * 
      * @param list
      */
@@ -152,7 +152,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Paid' element items. Р”РЈ - СѓРїР»Р°С‡РµРЅРѕ
+     * Get the list of 'Paid' element items. ДУ - уплачено
      * 
      * @return list
      */
@@ -161,7 +161,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Paid' element items. Р”РЈ - СѓРїР»Р°С‡РµРЅРѕ
+     * Set the list of 'Paid' element items. ДУ - уплачено
      * 
      * @param list
      */
@@ -170,7 +170,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ExcessPaymentAmount' element items. Р”РЈ - СЃСѓРјРјС‹ РёР·Р»РёС€РЅРµР№ СѓРїР»Р°С‚С‹, СЃРЅСЏС‚С‹Рµ СЃ СѓС‡РµС‚Р°
+     * Get the list of 'ExcessPaymentAmount' element items. ДУ - суммы излишней уплаты, снятые с учета
      * 
      * @return list
      */
@@ -179,7 +179,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ExcessPaymentAmount' element items. Р”РЈ - СЃСѓРјРјС‹ РёР·Р»РёС€РЅРµР№ СѓРїР»Р°С‚С‹, СЃРЅСЏС‚С‹Рµ СЃ СѓС‡РµС‚Р°
+     * Set the list of 'ExcessPaymentAmount' element items. ДУ - суммы излишней уплаты, снятые с учета
      * 
      * @param list
      */
@@ -188,7 +188,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'OutstandingBalances' element items. Р”РЈ - РЅРµР·Р°РІРµСЂС€РµРЅРЅС‹Рµ СЂР°СЃС‡РµС‚С‹
+     * Get the list of 'OutstandingBalances' element items. ДУ - незавершенные расчеты
      * 
      * @return list
      */
@@ -197,7 +197,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'OutstandingBalances' element items. Р”РЈ - РЅРµР·Р°РІРµСЂС€РµРЅРЅС‹Рµ СЂР°СЃС‡РµС‚С‹
+     * Set the list of 'OutstandingBalances' element items. ДУ - незавершенные расчеты
      * 
      * @param list
      */
@@ -206,7 +206,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Get the 'Fledging' element value. Р¤РѕСЂРјРёСЂРѕРІР°РЅРёРµ Р”РЈ
+     * Get the 'Fledging' element value. Формирование ДУ
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the 'Fledging' element value. Р¤РѕСЂРјРёСЂРѕРІР°РЅРёРµ Р”РЈ
+     * Set the 'Fledging' element value. Формирование ДУ
      * 
      * @param fledging
      */
@@ -224,7 +224,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReceiptPD' element value. РџРѕР»СѓС‡РµРЅРёРµ Р”РЈ
+     * Get the 'ReceiptPD' element value. Получение ДУ
      * 
      * @return value
      */
@@ -233,7 +233,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceiptPD' element value. РџРѕР»СѓС‡РµРЅРёРµ Р”РЈ
+     * Set the 'ReceiptPD' element value. Получение ДУ
      * 
      * @param receiptPD
      */
@@ -242,7 +242,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -251,7 +251,7 @@ public class PaymentDocumentType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

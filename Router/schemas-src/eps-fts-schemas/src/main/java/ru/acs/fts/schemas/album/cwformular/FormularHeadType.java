@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.AISTSDocumentIDType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Р°С… РґРѕРєСѓРјРµРЅС‚Р°
+ * Информация о реквизитах документа
  */
 public class FormularHeadType
 {
@@ -29,7 +29,7 @@ public class FormularHeadType
     private GTDIDType GTDNumber;
 
     /** 
-     * Get the 'OrderNumberOfEdition' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЂРµРґР°РєС†РёРё СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'OrderNumberOfEdition' element value. Порядковый номер редакции электронного документа
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'OrderNumberOfEdition' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЂРµРґР°РєС†РёРё СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'OrderNumberOfEdition' element value. Порядковый номер редакции электронного документа
      * 
      * @param orderNumberOfEdition
      */
@@ -47,7 +47,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'GoodsSetDate' element value. Р”Р°С‚Р° РїРѕРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РЅР° СЃРєР»Р°Рґ
+     * Get the 'GoodsSetDate' element value. Дата помещения товаров на склад
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'GoodsSetDate' element value. Р”Р°С‚Р° РїРѕРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РЅР° СЃРєР»Р°Рґ
+     * Set the 'GoodsSetDate' element value. Дата помещения товаров на склад
      * 
      * @param goodsSetDate
      */
@@ -65,7 +65,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'ReasonToAccess' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РґРѕРїСѓСЃРєР° Рє РїСЂРѕРІРµРґРµРЅРёСЋ РѕРїРµСЂР°С†РёР№ РЅР°Рґ С‚РѕРІР°СЂР°РјРё
+     * Get the 'ReasonToAccess' element value. Основание для допуска к проведению операций над товарами
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'ReasonToAccess' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РґРѕРїСѓСЃРєР° Рє РїСЂРѕРІРµРґРµРЅРёСЋ РѕРїРµСЂР°С†РёР№ РЅР°Рґ С‚РѕРІР°СЂР°РјРё
+     * Set the 'ReasonToAccess' element value. Основание для допуска к проведению операций над товарами
      * 
      * @param reasonToAccess
      */
@@ -83,7 +83,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'ObjectID' element value. РўРёРї С†РµР»Рё РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё РЅР°Рґ С‚РѕРІР°СЂР°РјРё
+     * Get the 'ObjectID' element value. Тип цели проведения операции над товарами
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'ObjectID' element value. РўРёРї С†РµР»Рё РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё РЅР°Рґ С‚РѕРІР°СЂР°РјРё
+     * Set the 'ObjectID' element value. Тип цели проведения операции над товарами
      * 
      * @param objectID
      */
@@ -101,7 +101,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'ObjectName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С†РµР»Рё РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё РЅР°Рґ С‚РѕРІР°СЂР°РјРё
+     * Get the 'ObjectName' element value. Наименование цели проведения операции над товарами
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'ObjectName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С†РµР»Рё РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё РЅР°Рґ С‚РѕРІР°СЂР°РјРё
+     * Set the 'ObjectName' element value. Наименование цели проведения операции над товарами
      * 
      * @param objectName
      */
@@ -119,7 +119,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'WarehouseLicenceID' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё СЃРєР»Р°РґР°, РЅР° РєРѕС‚РѕСЂС‹Р№ РїРµСЂРµРјРµС‰Р°СЋС‚СЃСЏ С‚РѕРІР°СЂС‹
+     * Get the 'WarehouseLicenceID' element value. Номер лицензии склада, на который перемещаются товары
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'WarehouseLicenceID' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё СЃРєР»Р°РґР°, РЅР° РєРѕС‚РѕСЂС‹Р№ РїРµСЂРµРјРµС‰Р°СЋС‚СЃСЏ С‚РѕРІР°СЂС‹
+     * Set the 'WarehouseLicenceID' element value. Номер лицензии склада, на который перемещаются товары
      * 
      * @param warehouseLicenceID
      */
@@ -137,7 +137,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'ObjectCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РЅР° РєРѕС‚РѕСЂС‹Р№ РїРµСЂРµРјРµС‰Р°СЋС‚СЃСЏ С‚РѕРІР°СЂС‹
+     * Get the 'ObjectCustomsCode' element value. Код таможенного органа, на который перемещаются товары
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'ObjectCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РЅР° РєРѕС‚РѕСЂС‹Р№ РїРµСЂРµРјРµС‰Р°СЋС‚СЃСЏ С‚РѕРІР°СЂС‹
+     * Set the 'ObjectCustomsCode' element value. Код таможенного органа, на который перемещаются товары
      * 
      * @param objectCustomsCode
      */
@@ -155,7 +155,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'DelivererName' element value. Р›РёС†Рѕ, РєРѕС‚РѕСЂРѕРјСѓ РїРµСЂРµРґР°СЋС‚СЃСЏ РїСЂР°РІР° РІР»Р°РґРµРЅРёСЏ С‚РѕРІР°СЂР°РјРё
+     * Get the 'DelivererName' element value. Лицо, которому передаются права владения товарами
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'DelivererName' element value. Р›РёС†Рѕ, РєРѕС‚РѕСЂРѕРјСѓ РїРµСЂРµРґР°СЋС‚СЃСЏ РїСЂР°РІР° РІР»Р°РґРµРЅРёСЏ С‚РѕРІР°СЂР°РјРё
+     * Set the 'DelivererName' element value. Лицо, которому передаются права владения товарами
      * 
      * @param delivererName
      */
@@ -173,7 +173,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'FullPart' element value. Р¤Р»Р°Рі РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё РЅР°Рґ РІСЃРµР№ РїР°СЂС‚РёРµР№ С‚РѕРІР°СЂРѕРІ
+     * Get the 'FullPart' element value. Флаг проведения операции над всей партией товаров
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'FullPart' element value. Р¤Р»Р°Рі РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё РЅР°Рґ РІСЃРµР№ РїР°СЂС‚РёРµР№ С‚РѕРІР°СЂРѕРІ
+     * Set the 'FullPart' element value. Флаг проведения операции над всей партией товаров
      * 
      * @param fullPart
      */
@@ -191,7 +191,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'Marks' element value. РћС‚РјРµС‚РєРё РєРѕРЅС‚СЂРѕР»РёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Marks' element value. Отметки контролирующего органа
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'Marks' element value. РћС‚РјРµС‚РєРё РєРѕРЅС‚СЂРѕР»РёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Marks' element value. Отметки контролирующего органа
      * 
      * @param marks
      */
@@ -209,7 +209,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'ControlDateOn' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ С‚РѕРІР°СЂРѕРІ РЅР° РєРѕРЅС‚СЂРѕР»СЊ
+     * Get the 'ControlDateOn' element value. Дата принятия товаров на контроль
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'ControlDateOn' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ С‚РѕРІР°СЂРѕРІ РЅР° РєРѕРЅС‚СЂРѕР»СЊ
+     * Set the 'ControlDateOn' element value. Дата принятия товаров на контроль
      * 
      * @param controlDateOn
      */
@@ -227,7 +227,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'ControlDateOff' element value. Р”Р°С‚Р° СЃРЅСЏС‚РёСЏ С‚РѕРІР°СЂРѕРІ СЃ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'ControlDateOff' element value. Дата снятия товаров с контроля
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'ControlDateOff' element value. Р”Р°С‚Р° СЃРЅСЏС‚РёСЏ С‚РѕРІР°СЂРѕРІ СЃ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'ControlDateOff' element value. Дата снятия товаров с контроля
      * 
      * @param controlDateOff
      */
@@ -245,7 +245,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'OwnerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїСЂР°РІР°РјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂР°
+     * Get the 'OwnerName' element value. Наименование лица, обладающего правами в отношении товара
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'OwnerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїСЂР°РІР°РјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂР°
+     * Set the 'OwnerName' element value. Наименование лица, обладающего правами в отношении товара
      * 
      * @param ownerName
      */
@@ -263,7 +263,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'FormularNumber' element value. РќРѕРјРµСЂ С„РѕСЂРјСѓР»СЏСЂР°
+     * Get the 'FormularNumber' element value. Номер формуляра
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'FormularNumber' element value. РќРѕРјРµСЂ С„РѕСЂРјСѓР»СЏСЂР°
+     * Set the 'FormularNumber' element value. Номер формуляра
      * 
      * @param formularNumber
      */
@@ -281,7 +281,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'StorageQuitanceNumber' element value. РќРѕРјРµСЂ СЃРєР»Р°РґСЃРєРѕР№ РєРІРёС‚Р°РЅС†РёРё, РѕС„РѕСЂРјР»РµРЅРЅРѕР№ РїСЂРё РїСЂРёРЅСЏС‚РёРё С‚РѕРІР°СЂРѕРІ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЃРєР»Р°Рґ
+     * Get the 'StorageQuitanceNumber' element value. Номер складской квитанции, оформленной при принятии товаров на таможенный склад
      * 
      * @return value
      */
@@ -290,7 +290,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'StorageQuitanceNumber' element value. РќРѕРјРµСЂ СЃРєР»Р°РґСЃРєРѕР№ РєРІРёС‚Р°РЅС†РёРё, РѕС„РѕСЂРјР»РµРЅРЅРѕР№ РїСЂРё РїСЂРёРЅСЏС‚РёРё С‚РѕРІР°СЂРѕРІ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЃРєР»Р°Рґ
+     * Set the 'StorageQuitanceNumber' element value. Номер складской квитанции, оформленной при принятии товаров на таможенный склад
      * 
      * @param storageQuitanceNumber
      */
@@ -300,7 +300,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'Inspector' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Inspector' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -309,7 +309,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'Inspector' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Inspector' element value. Должностное лицо таможенного органа
      * 
      * @param inspector
      */
@@ -318,7 +318,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. РќРѕРјРµСЂ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕР№ С‚РѕРІР°СЂС‹ РїРѕРјРµС‰РµРЅС‹ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРєР»Р°РґР°
+     * Get the 'GTDNumber' element value. Номер ДТ, по которой товары помещены под таможенный режим таможенного склада
      * 
      * @return value
      */
@@ -327,7 +327,7 @@ public class FormularHeadType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. РќРѕРјРµСЂ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕР№ С‚РѕРІР°СЂС‹ РїРѕРјРµС‰РµРЅС‹ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРєР»Р°РґР°
+     * Set the 'GTDNumber' element value. Номер ДТ, по которой товары помещены под таможенный режим таможенного склада
      * 
      * @param GTDNumber
      */

@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРµ СЂРµС€РµРЅРёРµ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РўРќ Р’Р­Р” РўРЎ 
+ * Предварительное решение по классификации товара в соответствии с ТН ВЭД ТС 
  */
 public class PreliminaryTNVEDCodeType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'Date' element value. Дата принятия решения
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'Date' element value. Дата принятия решения
      * 
      * @param date
      */
@@ -44,7 +44,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Get the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Set the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param TNVEDCode
      */
@@ -62,7 +62,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfoTNVEDCode' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ, РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґР»СЏ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё
+     * Get the list of 'GoodsInfoTNVEDCode' element items. Сведения о товаре, необходимые для классификации
      * 
      * @return list
      */
@@ -71,7 +71,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfoTNVEDCode' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ, РЅРµРѕР±С…РѕРґРёРјС‹Рµ РґР»СЏ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё
+     * Set the list of 'GoodsInfoTNVEDCode' element items. Сведения о товаре, необходимые для классификации
      * 
      * @param list
      */
@@ -80,7 +80,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RationaleDecision' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the list of 'RationaleDecision' element items. Обоснование принятия решения
      * 
      * @return list
      */
@@ -89,7 +89,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RationaleDecision' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the list of 'RationaleDecision' element items. Обоснование принятия решения
      * 
      * @param list
      */
@@ -98,7 +98,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Mark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
+     * Get the list of 'Mark' element items. Служебные отметки
      * 
      * @return list
      */
@@ -107,7 +107,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Mark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
+     * Set the list of 'Mark' element items. Служебные отметки
      * 
      * @param list
      */
@@ -116,7 +116,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Наименование таможенного органа
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Наименование таможенного органа
      * 
      * @param customs
      */
@@ -134,7 +134,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Get the 'Declarant' element value. Сведения о заявителе
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Set the 'Declarant' element value. Сведения о заявителе
      * 
      * @param declarant
      */
@@ -152,7 +152,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @param registrationNumber
      */
@@ -170,7 +170,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РўРѕРІР°СЂ
+     * Get the list of 'Goods' element items. Товар
      * 
      * @return list
      */
@@ -179,7 +179,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РўРѕРІР°СЂ
+     * Set the list of 'Goods' element items. Товар
      * 
      * @param list
      */
@@ -188,7 +188,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'PersonSignature' element value. Подпись должностного лица таможенного органа
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSignature' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'PersonSignature' element value. Подпись должностного лица таможенного органа
      * 
      * @param personSignature
      */
@@ -206,7 +206,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class PreliminaryTNVEDCodeType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

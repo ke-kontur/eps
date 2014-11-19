@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РёР·РјРµСЂРµРЅРёСЏС… РѕР±СЉРµРјР° С€С‚Р°Р±РµР»СЏ РєСЂСѓРіР»С‹С… Р»РµСЃРѕРјР°С‚РµСЂРёР°Р»РѕРІ, РїРѕРіСЂСѓР¶РµРЅРЅС‹С… РІ (РЅР°) РІР°РіРѕРЅС‹ (Р°РІС‚РѕРјРѕР±РёР»Рё)
+ * Сведения об измерениях объема штабеля круглых лесоматериалов, погруженных в (на) вагоны (автомобили)
  */
 public class MeasuringTransportLogsType
 {
@@ -14,7 +14,7 @@ public class MeasuringTransportLogsType
     private List<PileMeasuringInfoType> pileMeasuringInfoList = new ArrayList<PileMeasuringInfoType>();
 
     /** 
-     * Get the 'TransportType' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°: 1 - РІР°РіРѕРЅ; 2 - Р°РІС‚РѕРјРѕР±РёР»СЊ; 3 - РїСЂРёС†РµРї
+     * Get the 'TransportType' element value. Тип транспортного средства: 1 - вагон; 2 - автомобиль; 3 - прицеп
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class MeasuringTransportLogsType
     }
 
     /** 
-     * Set the 'TransportType' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°: 1 - РІР°РіРѕРЅ; 2 - Р°РІС‚РѕРјРѕР±РёР»СЊ; 3 - РїСЂРёС†РµРї
+     * Set the 'TransportType' element value. Тип транспортного средства: 1 - вагон; 2 - автомобиль; 3 - прицеп
      * 
      * @param transportType
      */
@@ -32,7 +32,7 @@ public class MeasuringTransportLogsType
     }
 
     /** 
-     * Get the 'TransportIdentifier' element value. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'TransportIdentifier' element value. Номер транспортного средства
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class MeasuringTransportLogsType
     }
 
     /** 
-     * Set the 'TransportIdentifier' element value. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'TransportIdentifier' element value. Номер транспортного средства
      * 
      * @param transportIdentifier
      */
@@ -50,7 +50,7 @@ public class MeasuringTransportLogsType
     }
 
     /** 
-     * Get the list of 'PileMeasuringInfo' element items. Р РµР·СѓР»СЊС‚Р°С‚С‹ РёР·РјРµСЂРµРЅРёР№ С€С‚Р°Р±РµР»СЏ
+     * Get the list of 'PileMeasuringInfo' element items. Результаты измерений штабеля
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class MeasuringTransportLogsType
     }
 
     /** 
-     * Set the list of 'PileMeasuringInfo' element items. Р РµР·СѓР»СЊС‚Р°С‚С‹ РёР·РјРµСЂРµРЅРёР№ С€С‚Р°Р±РµР»СЏ
+     * Set the list of 'PileMeasuringInfo' element items. Результаты измерений штабеля
      * 
      * @param list
      */

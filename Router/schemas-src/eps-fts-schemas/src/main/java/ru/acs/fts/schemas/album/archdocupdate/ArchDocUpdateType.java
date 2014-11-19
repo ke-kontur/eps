@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.electronicarchivecommonaggregatetypescust.ArchBaseType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° Р·Р°РјРµРЅСѓ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
+ * Запрос на замену документа в архиве
  */
 public class ArchDocUpdateType extends ArchBaseType
 {
@@ -17,7 +17,7 @@ public class ArchDocUpdateType extends ArchBaseType
     private String documentModeID;
 
     /** 
-     * Get the 'ArchDocID' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'ArchDocID' element value. Архивный идентификатор документа
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ArchDocUpdateType extends ArchBaseType
     }
 
     /** 
-     * Set the 'ArchDocID' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'ArchDocID' element value. Архивный идентификатор документа
      * 
      * @param archDocID
      */
@@ -35,7 +35,7 @@ public class ArchDocUpdateType extends ArchBaseType
     }
 
     /** 
-     * Get the 'ArchDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёР·РјРµРЅСЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'ArchDocumentID' element value. Уникальный идентификатор изменяемого документа
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ArchDocUpdateType extends ArchBaseType
     }
 
     /** 
-     * Set the 'ArchDocumentID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёР·РјРµРЅСЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'ArchDocumentID' element value. Уникальный идентификатор изменяемого документа
      * 
      * @param archDocumentID
      */
@@ -53,7 +53,7 @@ public class ArchDocUpdateType extends ArchBaseType
     }
 
     /** 
-     * Get the 'DocumentBeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentBeginDate' element value. Дата начала действия документа
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ArchDocUpdateType extends ArchBaseType
     }
 
     /** 
-     * Set the 'DocumentBeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentBeginDate' element value. Дата начала действия документа
      * 
      * @param documentBeginDate
      */
@@ -71,7 +71,7 @@ public class ArchDocUpdateType extends ArchBaseType
     }
 
     /** 
-     * Get the 'DocumentEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentEndDate' element value. Дата окончания действия документа
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class ArchDocUpdateType extends ArchBaseType
     }
 
     /** 
-     * Set the 'DocumentEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentEndDate' element value. Дата окончания действия документа
      * 
      * @param documentEndDate
      */
@@ -89,7 +89,7 @@ public class ArchDocUpdateType extends ArchBaseType
     }
 
     /** 
-     * Get the 'ArchDoc' element value. РР·РјРµРЅРµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'ArchDoc' element value. Измененный документ
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class ArchDocUpdateType extends ArchBaseType
     }
 
     /** 
-     * Set the 'ArchDoc' element value. РР·РјРµРЅРµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'ArchDoc' element value. Измененный документ
      * 
      * @param archDoc
      */
@@ -107,7 +107,7 @@ public class ArchDocUpdateType extends ArchBaseType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class ArchDocUpdateType extends ArchBaseType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

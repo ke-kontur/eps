@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+ * Комплексный тип для описания таможенного документа
  */
 public class WhCustomDocumentType extends ArriveCustomsDocType
 {
     private String vttCustomsCode;
 
     /** 
-     * Get the 'VttCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РЅРё РѕС‚РїСЂР°РІР»РµРЅРёСЏ (РїСЂРё РїСЂРёР±С‹С‚РёРё) / РЅР°Р·РЅР°С‡РµРЅРёСЏ (РїСЂРё СѓР±С‹С‚РёРё)
+     * Get the 'VttCustomsCode' element value. Код таможни отправления (при прибытии) / назначения (при убытии)
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class WhCustomDocumentType extends ArriveCustomsDocType
     }
 
     /** 
-     * Set the 'VttCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РЅРё РѕС‚РїСЂР°РІР»РµРЅРёСЏ (РїСЂРё РїСЂРёР±С‹С‚РёРё) / РЅР°Р·РЅР°С‡РµРЅРёСЏ (РїСЂРё СѓР±С‹С‚РёРё)
+     * Set the 'VttCustomsCode' element value. Код таможни отправления (при прибытии) / назначения (при убытии)
      * 
      * @param vttCustomsCode
      */

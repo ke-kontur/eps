@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.RUESADCommonOffic
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.SolutionNumberType;
 
 /** 
- * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ РљРўР”
+ * Служебные отметки по КТД
  */
 public class KTDinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
 {
@@ -14,7 +14,7 @@ public class KTDinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     private SolutionNumberType solutionNumber;
 
     /** 
-     * Get the 'TechnologicalMarkTypeCode' element value. РўРёРї РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё (1-РІРЅРµС€РЅСЏСЏ, РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РєРѕС‚РѕСЂРѕР№ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїРµСЂРµРґР°РЅР° РІРѕ РІРЅРµС€РЅСЋСЋ РђРРЎ, 2-РІРЅСѓС‚СЂРµРЅРЅСЏСЏ, РёРЅС„РѕСЂРјР°С†РёСЏ РєРѕС‚РѕСЂРѕР№ РґРѕСЃС‚СѓРїРЅР° С‚РѕР»СЊРєРѕ РІ СЂР°РјРєР°С… Р•РђРРЎ)
+     * Get the 'TechnologicalMarkTypeCode' element value. Тип проставленной технологической отметки (1-внешняя, информация по которой может быть передана во внешнюю АИС, 2-внутренняя, информация которой доступна только в рамках ЕАИС)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class KTDinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'TechnologicalMarkTypeCode' element value. РўРёРї РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё (1-РІРЅРµС€РЅСЏСЏ, РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РєРѕС‚РѕСЂРѕР№ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїРµСЂРµРґР°РЅР° РІРѕ РІРЅРµС€РЅСЋСЋ РђРРЎ, 2-РІРЅСѓС‚СЂРµРЅРЅСЏСЏ, РёРЅС„РѕСЂРјР°С†РёСЏ РєРѕС‚РѕСЂРѕР№ РґРѕСЃС‚СѓРїРЅР° С‚РѕР»СЊРєРѕ РІ СЂР°РјРєР°С… Р•РђРРЎ)
+     * Set the 'TechnologicalMarkTypeCode' element value. Тип проставленной технологической отметки (1-внешняя, информация по которой может быть передана во внешнюю АИС, 2-внутренняя, информация которой доступна только в рамках ЕАИС)
      * 
      * @param technologicalMarkTypeCode
      */
@@ -32,7 +32,7 @@ public class KTDinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'RecordSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РїРѕ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё
+     * Get the 'RecordSerialNumber' element value. Порядковый номер записи по идентификатору проставленной технологической отметки
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class KTDinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'RecordSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РїРѕ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂСѓ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё
+     * Set the 'RecordSerialNumber' element value. Порядковый номер записи по идентификатору проставленной технологической отметки
      * 
      * @param recordSerialNumber
      */
@@ -50,7 +50,7 @@ public class KTDinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'SolutionNumber' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ
+     * Get the 'SolutionNumber' element value. Номер решения
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class KTDinCommonOfficialMarkType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'SolutionNumber' element value. РќРѕРјРµСЂ СЂРµС€РµРЅРёСЏ
+     * Set the 'SolutionNumber' element value. Номер решения
      * 
      * @param solutionNumber
      */

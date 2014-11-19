@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cardcommonaggregatetypes;
 import org.joda.time.LocalDate;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+ * Документ, удостоверяющий личность
  */
 public class IdentityCardType
 {
@@ -14,7 +14,7 @@ public class IdentityCardType
     private LocalDate identityCardDate;
 
     /** 
-     * Get the 'IdentityCardCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCardCode' element value. Код вида документа, удостоверяющего личность
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class IdentityCardType
     }
 
     /** 
-     * Set the 'IdentityCardCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCardCode' element value. Код вида документа, удостоверяющего личность
      * 
      * @param identityCardCode
      */
@@ -32,7 +32,7 @@ public class IdentityCardType
     }
 
     /** 
-     * Get the 'IdentityCardSeries' element value. РЎРµСЂРёСЏ РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCardSeries' element value. Серия документа, удостоверяющего личность
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class IdentityCardType
     }
 
     /** 
-     * Set the 'IdentityCardSeries' element value. РЎРµСЂРёСЏ РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCardSeries' element value. Серия документа, удостоверяющего личность
      * 
      * @param identityCardSeries
      */
@@ -50,7 +50,7 @@ public class IdentityCardType
     }
 
     /** 
-     * Get the 'IdentityCardNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCardNumber' element value. Номер документа, удостоверяющего личность
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class IdentityCardType
     }
 
     /** 
-     * Set the 'IdentityCardNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCardNumber' element value. Номер документа, удостоверяющего личность
      * 
      * @param identityCardNumber
      */
@@ -68,7 +68,7 @@ public class IdentityCardType
     }
 
     /** 
-     * Get the 'IdentityCardDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCardDate' element value. Дата выдачи документа, удостоверяющего личность
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class IdentityCardType
     }
 
     /** 
-     * Set the 'IdentityCardDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCardDate' element value. Дата выдачи документа, удостоверяющего личность
      * 
      * @param identityCardDate
      */

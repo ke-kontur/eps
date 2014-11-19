@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РџРµСЂРµС‡РµРЅСЊ РіСЂСѓР·РѕРІ
+ * Перечень грузов
  */
 public class ListType
 {
@@ -20,7 +20,7 @@ public class ListType
     private QuantityGoodsType billQuantity;
 
     /** 
-     * Get the 'BillNumber' element value. РќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'BillNumber' element value. Номер накладной
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class ListType
     }
 
     /** 
-     * Set the 'BillNumber' element value. РќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'BillNumber' element value. Номер накладной
      * 
      * @param billNumber
      */
@@ -38,7 +38,7 @@ public class ListType
     }
 
     /** 
-     * Get the 'CatalogNumber' element value. РќРѕРјРµСЂ РїРµСЂРµС‡РЅСЏ
+     * Get the 'CatalogNumber' element value. Номер перечня
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ListType
     }
 
     /** 
-     * Set the 'CatalogNumber' element value. РќРѕРјРµСЂ РїРµСЂРµС‡РЅСЏ
+     * Set the 'CatalogNumber' element value. Номер перечня
      * 
      * @param catalogNumber
      */
@@ -56,7 +56,7 @@ public class ListType
     }
 
     /** 
-     * Get the 'CarriageNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІР°РіРѕРЅР°
+     * Get the 'CarriageNumber' element value. Порядковый номер вагона
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class ListType
     }
 
     /** 
-     * Set the 'CarriageNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІР°РіРѕРЅР°
+     * Set the 'CarriageNumber' element value. Порядковый номер вагона
      * 
      * @param carriageNumber
      */
@@ -74,7 +74,7 @@ public class ListType
     }
 
     /** 
-     * Get the list of 'GoodDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіСЂСѓР·Р°
+     * Get the list of 'GoodDescription' element items. Наименование груза
      * 
      * @return list
      */
@@ -83,7 +83,7 @@ public class ListType
     }
 
     /** 
-     * Set the list of 'GoodDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіСЂСѓР·Р°
+     * Set the list of 'GoodDescription' element items. Наименование груза
      * 
      * @param list
      */
@@ -92,7 +92,7 @@ public class ListType
     }
 
     /** 
-     * Get the 'ActNumber' element value. РќРѕРјРµСЂ Р°РєС‚Р° РЅР° РЅРµСЃРѕС…СЂР°РЅРЅРѕСЃС‚СЊ РіСЂСѓР·РѕРІ, СЃРѕСЃС‚Р°РІР»РµРЅРЅС‹С… РїСЂРё РїРµСЂРµРґР°С‡Рµ
+     * Get the 'ActNumber' element value. Номер акта на несохранность грузов, составленных при передаче
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class ListType
     }
 
     /** 
-     * Set the 'ActNumber' element value. РќРѕРјРµСЂ Р°РєС‚Р° РЅР° РЅРµСЃРѕС…СЂР°РЅРЅРѕСЃС‚СЊ РіСЂСѓР·РѕРІ, СЃРѕСЃС‚Р°РІР»РµРЅРЅС‹С… РїСЂРё РїРµСЂРµРґР°С‡Рµ
+     * Set the 'ActNumber' element value. Номер акта на несохранность грузов, составленных при передаче
      * 
      * @param actNumber
      */
@@ -110,7 +110,7 @@ public class ListType
     }
 
     /** 
-     * Get the list of 'ContainerNumber' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the list of 'ContainerNumber' element items. Номер контейнера
      * 
      * @return list
      */
@@ -119,7 +119,7 @@ public class ListType
     }
 
     /** 
-     * Set the list of 'ContainerNumber' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the list of 'ContainerNumber' element items. Номер контейнера
      * 
      * @param list
      */
@@ -128,7 +128,7 @@ public class ListType
     }
 
     /** 
-     * Get the 'DepartureStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DepartureStation' element value. Станция отправления
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class ListType
     }
 
     /** 
-     * Set the 'DepartureStation' element value. РЎС‚Р°РЅС†РёСЏ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DepartureStation' element value. Станция отправления
      * 
      * @param departureStation
      */
@@ -146,7 +146,7 @@ public class ListType
     }
 
     /** 
-     * Get the 'DestinationStation' element value. РЎС‚Р°РЅС†РёСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationStation' element value. Станция назначения
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class ListType
     }
 
     /** 
-     * Set the 'DestinationStation' element value. РЎС‚Р°РЅС†РёСЏ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationStation' element value. Станция назначения
      * 
      * @param destinationStation
      */
@@ -164,7 +164,7 @@ public class ListType
     }
 
     /** 
-     * Get the 'BillQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·Р° РїРѕ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'BillQuantity' element value. Количество груза по накладной
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class ListType
     }
 
     /** 
-     * Set the 'BillQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·Р° РїРѕ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'BillQuantity' element value. Количество груза по накладной
      * 
      * @param billQuantity
      */

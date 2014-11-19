@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ СЂР°СЃС€РёСЂРµРЅРЅРѕРіРѕ РѕРїРёСЃР°РЅРёСЏ СЃРІРµРґРµРЅРёР№ Рѕ С‚РѕРІР°СЂР°С…
+ * Комплексный тип для расширенного описания сведений о товарах
  */
 public class WhGoodsExtendedType extends WhGoodType
 {
@@ -18,7 +18,7 @@ public class WhGoodsExtendedType extends WhGoodType
     private List<WHCustomsControlType> customsControlList = new ArrayList<WHCustomsControlType>();
 
     /** 
-     * Get the 'GoodsWHNumber' element value. РЎРєР»Р°РґСЃРєРѕР№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° (РіСЂР°С„Р° 5 РѕС‚С‡РµС‚Р°)
+     * Get the 'GoodsWHNumber' element value. Складской номер товара (графа 5 отчета)
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Set the 'GoodsWHNumber' element value. РЎРєР»Р°РґСЃРєРѕР№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° (РіСЂР°С„Р° 5 РѕС‚С‡РµС‚Р°)
+     * Set the 'GoodsWHNumber' element value. Складской номер товара (графа 5 отчета)
      * 
      * @param goodsWHNumber
      */
@@ -36,7 +36,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Get the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёРµ РїРѕ СѓСЃР»РѕРІРёСЏРј С…СЂР°РЅРµРЅРёСЏ (РіСЂР°С„Р° 11 РѕС‚С‡РµС‚Р°)
+     * Get the 'Comments' element value. Примечание по условиям хранения (графа 11 отчета)
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Set the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёРµ РїРѕ СѓСЃР»РѕРІРёСЏРј С…СЂР°РЅРµРЅРёСЏ (РіСЂР°С„Р° 11 РѕС‚С‡РµС‚Р°)
+     * Set the 'Comments' element value. Примечание по условиям хранения (графа 11 отчета)
      * 
      * @param comments
      */
@@ -54,7 +54,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Get the 'MPOCaseNumder' element value. РќРѕРјРµСЂ РµРјРєРѕСЃС‚Рё РњРџРћ, 29 Р·РЅР°РєРѕРІ
+     * Get the 'MPOCaseNumder' element value. Номер емкости МПО, 29 знаков
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Set the 'MPOCaseNumder' element value. РќРѕРјРµСЂ РµРјРєРѕСЃС‚Рё РњРџРћ, 29 Р·РЅР°РєРѕРІ
+     * Set the 'MPOCaseNumder' element value. Номер емкости МПО, 29 знаков
      * 
      * @param MPOCaseNumder
      */
@@ -72,7 +72,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Get the 'MpoBillBruttoVolQuant' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ РњРџРћ (РµРјРєРѕСЃС‚Рё РњРџРћ) РїРѕ СЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РІС‹СЏРІР»РµРЅРёСЏ РїСЂРё РїСЂРёРЅСЏС‚РёРё РЅР° РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РІРµСЃР°, СЃРІРµРґРµРЅРёСЏРј, СѓРєР°Р·Р°РЅРЅС‹Рј РІ РґРѕРєСѓРјРµРЅС‚Р°С… СЃРѕРїСЂРѕРІРѕР¶РґР°СЋС‰РёС… РњРџРћ
+     * Get the 'MpoBillBruttoVolQuant' element value. Вес брутто МПО (емкости МПО) по сопроводительным документам. Заполняется в случае выявления при принятии на временное хранение несоответствия веса, сведениям, указанным в документах сопровождающих МПО
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Set the 'MpoBillBruttoVolQuant' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ РњРџРћ (РµРјРєРѕСЃС‚Рё РњРџРћ) РїРѕ СЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РІС‹СЏРІР»РµРЅРёСЏ РїСЂРё РїСЂРёРЅСЏС‚РёРё РЅР° РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РІРµСЃР°, СЃРІРµРґРµРЅРёСЏРј, СѓРєР°Р·Р°РЅРЅС‹Рј РІ РґРѕРєСѓРјРµРЅС‚Р°С… СЃРѕРїСЂРѕРІРѕР¶РґР°СЋС‰РёС… РњРџРћ
+     * Set the 'MpoBillBruttoVolQuant' element value. Вес брутто МПО (емкости МПО) по сопроводительным документам. Заполняется в случае выявления при принятии на временное хранение несоответствия веса, сведениям, указанным в документах сопровождающих МПО
      * 
      * @param mpoBillBruttoVolQuant
      */
@@ -91,7 +91,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Get the 'KeepingPlace' element value. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Get the 'KeepingPlace' element value. Описание места хранения товаров
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Set the 'KeepingPlace' element value. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Set the 'KeepingPlace' element value. Описание места хранения товаров
      * 
      * @param keepingPlace
      */
@@ -109,7 +109,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Get the 'KeepingLimit' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСЂРѕРєРµ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'KeepingLimit' element value. Сведения о сроке хранения товара
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Set the 'KeepingLimit' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСЂРѕРєРµ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'KeepingLimit' element value. Сведения о сроке хранения товара
      * 
      * @param keepingLimit
      */
@@ -127,7 +127,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Get the list of 'CustomsControls' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёРЅСЏС‚С‹С… РјРµСЂР°С… С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the list of 'CustomsControls' element items. Сведения о принятых мерах таможенного контроля
      * 
      * @return list
      */
@@ -136,7 +136,7 @@ public class WhGoodsExtendedType extends WhGoodType
     }
 
     /** 
-     * Set the list of 'CustomsControls' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёРЅСЏС‚С‹С… РјРµСЂР°С… С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the list of 'CustomsControls' element items. Сведения о принятых мерах таможенного контроля
      * 
      * @param list
      */

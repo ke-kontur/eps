@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ktdin;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADMainContractTermsType;
 
 /** 
- * РЈСЃР»РѕРІРёСЏ СЃРґРµР»РєРё РљР”Рў.Р“СЂ. 11, 20, 22, 23,  24
+ * Условия сделки КДТ.Гр. 11, 20, 22, 23,  24
  */
 public class KTDinMainContractTermsType extends CUESADMainContractTermsType
 {
@@ -12,7 +12,7 @@ public class KTDinMainContractTermsType extends CUESADMainContractTermsType
     private String contractDigitCurrencyCode;
 
     /** 
-     * Get the 'TradeDigitCountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ С‚РѕСЂРіСѓСЋС‰РµР№ СЃС‚СЂР°РЅС‹
+     * Get the 'TradeDigitCountryCode' element value. Цифровой код торгующей страны
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class KTDinMainContractTermsType extends CUESADMainContractTermsType
     }
 
     /** 
-     * Set the 'TradeDigitCountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ С‚РѕСЂРіСѓСЋС‰РµР№ СЃС‚СЂР°РЅС‹
+     * Set the 'TradeDigitCountryCode' element value. Цифровой код торгующей страны
      * 
      * @param tradeDigitCountryCode
      */
@@ -30,7 +30,7 @@ public class KTDinMainContractTermsType extends CUESADMainContractTermsType
     }
 
     /** 
-     * Get the 'ContractDigitCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°.
+     * Get the 'ContractDigitCurrencyCode' element value. Цифровой код валюты цены договора.
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class KTDinMainContractTermsType extends CUESADMainContractTermsType
     }
 
     /** 
-     * Set the 'ContractDigitCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°.
+     * Set the 'ContractDigitCurrencyCode' element value. Цифровой код валюты цены договора.
      * 
      * @param contractDigitCurrencyCode
      */

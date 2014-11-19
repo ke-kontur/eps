@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РґРѕРіРѕРІРѕСЂР°.
+ * Описание условий договора.
  */
 public class DescriptionTermsContractType
 {
@@ -10,7 +10,7 @@ public class DescriptionTermsContractType
     private String answerYES;
 
     /** 
-     * Get the 'Vaule' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: true РёР»Рё 1 - РґР°; false РёР»Рё 0 - РЅРµС‚
+     * Get the 'Vaule' element value. Если значение поля: true или 1 - да; false или 0 - нет
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DescriptionTermsContractType
     }
 
     /** 
-     * Set the 'Vaule' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: true РёР»Рё 1 - РґР°; false РёР»Рё 0 - РЅРµС‚
+     * Set the 'Vaule' element value. Если значение поля: true или 1 - да; false или 0 - нет
      * 
      * @param vaule
      */
@@ -28,7 +28,7 @@ public class DescriptionTermsContractType
     }
 
     /** 
-     * Get the 'AnswerYES' element value. Р’ СЃР»СѓС‡Р°Рµ РѕС‚РІРµС‚Р° Р”Рђ  СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё
+     * Get the 'AnswerYES' element value. В случае ответа ДА  указать подробности
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DescriptionTermsContractType
     }
 
     /** 
-     * Set the 'AnswerYES' element value. Р’ СЃР»СѓС‡Р°Рµ РѕС‚РІРµС‚Р° Р”Рђ  СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё
+     * Set the 'AnswerYES' element value. В случае ответа ДА  указать подробности
      * 
      * @param answerYES
      */

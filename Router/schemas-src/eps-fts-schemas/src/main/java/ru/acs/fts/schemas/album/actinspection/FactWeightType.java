@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р¤Р°РєС‚РёС‡РµСЃРєРёР№ РІРµСЃ С‚РѕРІР°СЂРѕРІ
+ * Фактический вес товаров
  */
 public class FactWeightType
 {
@@ -17,7 +17,7 @@ public class FactWeightType
     private List<String> placeWeightList = new ArrayList<String>();
 
     /** 
-     * Get the 'Netto' element value. Р’РµСЃ С‚РѕРІР°СЂР° РЅРµС‚С‚С‚Рѕ, РєРі
+     * Get the 'Netto' element value. Вес товара неттто, кг
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class FactWeightType
     }
 
     /** 
-     * Set the 'Netto' element value. Р’РµСЃ С‚РѕРІР°СЂР° РЅРµС‚С‚С‚Рѕ, РєРі
+     * Set the 'Netto' element value. Вес товара неттто, кг
      * 
      * @param netto
      */
@@ -35,7 +35,7 @@ public class FactWeightType
     }
 
     /** 
-     * Get the 'Brutto' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ, РєРі
+     * Get the 'Brutto' element value. Вес товара брутто, кг
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class FactWeightType
     }
 
     /** 
-     * Set the 'Brutto' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ, РєРі
+     * Set the 'Brutto' element value. Вес товара брутто, кг
      * 
      * @param brutto
      */
@@ -53,7 +53,7 @@ public class FactWeightType
     }
 
     /** 
-     * Get the 'FWMethod' element value. РЎРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІРµСЃР° С‚РѕРІР°СЂРѕРІ: "0" - С„Р°РєС‚РёС‡РµСЃРєРѕРµ РІР·РІРµС€РёРІР°РЅРёРµ,  "1" - РѕРїСЂРµРґРµР»РµРЅРёРµ СЃСЂРµРґРЅРµРіРѕ РІРµСЃР° РѕРґРЅРѕРіРѕ РјРµСЃС‚Р° РІР·РІРµС€РёРІР°РЅРёРµРј РЅРµСЃРєРѕР»СЊРєРёС… РјРµСЃС‚, "2" - СЂР°СЃС‡РµС‚РЅС‹Р№ РјРµС‚РѕРґ, "3" - РїСЂРѕС‡РµРµ.
+     * Get the 'FWMethod' element value. Способ определения фактического веса товаров: "0" - фактическое взвешивание,  "1" - определение среднего веса одного места взвешиванием нескольких мест, "2" - расчетный метод, "3" - прочее.
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class FactWeightType
     }
 
     /** 
-     * Set the 'FWMethod' element value. РЎРїРѕСЃРѕР± РѕРїСЂРµРґРµР»РµРЅРёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІРµСЃР° С‚РѕРІР°СЂРѕРІ: "0" - С„Р°РєС‚РёС‡РµСЃРєРѕРµ РІР·РІРµС€РёРІР°РЅРёРµ,  "1" - РѕРїСЂРµРґРµР»РµРЅРёРµ СЃСЂРµРґРЅРµРіРѕ РІРµСЃР° РѕРґРЅРѕРіРѕ РјРµСЃС‚Р° РІР·РІРµС€РёРІР°РЅРёРµРј РЅРµСЃРєРѕР»СЊРєРёС… РјРµСЃС‚, "2" - СЂР°СЃС‡РµС‚РЅС‹Р№ РјРµС‚РѕРґ, "3" - РїСЂРѕС‡РµРµ.
+     * Set the 'FWMethod' element value. Способ определения фактического веса товаров: "0" - фактическое взвешивание,  "1" - определение среднего веса одного места взвешиванием нескольких мест, "2" - расчетный метод, "3" - прочее.
      * 
      * @param FWMethod
      */
@@ -71,7 +71,7 @@ public class FactWeightType
     }
 
     /** 
-     * Get the 'WFMetodsComments' element value. РћРїРёСЃР°РЅРёРµ "РїСЂРѕС‡РµРіРѕ" РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІРµСЃР° С‚РѕРІР°СЂРѕРІ
+     * Get the 'WFMetodsComments' element value. Описание "прочего" метода определения фактического веса товаров
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class FactWeightType
     }
 
     /** 
-     * Set the 'WFMetodsComments' element value. РћРїРёСЃР°РЅРёРµ "РїСЂРѕС‡РµРіРѕ" РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІРµСЃР° С‚РѕРІР°СЂРѕРІ
+     * Set the 'WFMetodsComments' element value. Описание "прочего" метода определения фактического веса товаров
      * 
      * @param WFMetodsComments
      */
@@ -89,7 +89,7 @@ public class FactWeightType
     }
 
     /** 
-     * Get the 'WeighPlacesNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІР·РІРµС€РµРЅРЅС‹С… РјРµСЃС‚
+     * Get the 'WeighPlacesNumber' element value. Количество взвешенных мест
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class FactWeightType
     }
 
     /** 
-     * Set the 'WeighPlacesNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІР·РІРµС€РµРЅРЅС‹С… РјРµСЃС‚
+     * Set the 'WeighPlacesNumber' element value. Количество взвешенных мест
      * 
      * @param weighPlacesNumber
      */
@@ -107,7 +107,7 @@ public class FactWeightType
     }
 
     /** 
-     * Get the list of 'PlaceWeight' element items. Р’РµСЃ РѕРґРЅРѕРіРѕ РјРµСЃС‚Р°
+     * Get the list of 'PlaceWeight' element items. Вес одного места
      * 
      * @return list
      */
@@ -116,7 +116,7 @@ public class FactWeightType
     }
 
     /** 
-     * Set the list of 'PlaceWeight' element items. Р’РµСЃ РѕРґРЅРѕРіРѕ РјРµСЃС‚Р°
+     * Set the list of 'PlaceWeight' element items. Вес одного места
      * 
      * @param list
      */

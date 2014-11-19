@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -34,7 +34,7 @@ public class GoodsType1
     private SupplementaryQuantityType quantityPerPackage;
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class GoodsType1
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -52,7 +52,7 @@ public class GoodsType1
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ (РјР°СЂРєР°) С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Наименование (марка) товара
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class GoodsType1
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ (РјР°СЂРєР°) С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Наименование (марка) товара
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class GoodsType1
     }
 
     /** 
-     * Get the 'GoodsKind' element value. Р’РёРґ С‚Р°Р±Р°С‡РЅРѕРіРѕ РёР·РґРµР»РёСЏ: 0 - СЃРёРіР°СЂРµС‚С‹ СЃ С„РёР»СЊС‚СЂРѕРј; 1 - СЃРёРіР°СЂРµС‚С‹ Р±РµР· С„РёР»СЊС‚СЂР°; 2 - РїР°РїРёСЂРѕСЃС‹
+     * Get the 'GoodsKind' element value. Вид табачного изделия: 0 - сигареты с фильтром; 1 - сигареты без фильтра; 2 - папиросы
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class GoodsType1
     }
 
     /** 
-     * Set the 'GoodsKind' element value. Р’РёРґ С‚Р°Р±Р°С‡РЅРѕРіРѕ РёР·РґРµР»РёСЏ: 0 - СЃРёРіР°СЂРµС‚С‹ СЃ С„РёР»СЊС‚СЂРѕРј; 1 - СЃРёРіР°СЂРµС‚С‹ Р±РµР· С„РёР»СЊС‚СЂР°; 2 - РїР°РїРёСЂРѕСЃС‹
+     * Set the 'GoodsKind' element value. Вид табачного изделия: 0 - сигареты с фильтром; 1 - сигареты без фильтра; 2 - папиросы
      * 
      * @param goodsKind
      */
@@ -88,7 +88,7 @@ public class GoodsType1
     }
 
     /** 
-     * Get the 'MinPrice' element value. РњРёРЅРёРјР°Р»СЊРЅР°СЏ СЂРѕР·РЅРёС‡РЅР°СЏ С†РµРЅР° Р·Р° РµРґРёРЅРёС†Сѓ РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРѕР№ СѓРїР°РєРѕРІРєРё (РїР°С‡РєРё)
+     * Get the 'MinPrice' element value. Минимальная розничная цена за единицу потребительской упаковки (пачки)
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class GoodsType1
     }
 
     /** 
-     * Set the 'MinPrice' element value. РњРёРЅРёРјР°Р»СЊРЅР°СЏ СЂРѕР·РЅРёС‡РЅР°СЏ С†РµРЅР° Р·Р° РµРґРёРЅРёС†Сѓ РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРѕР№ СѓРїР°РєРѕРІРєРё (РїР°С‡РєРё)
+     * Set the 'MinPrice' element value. Минимальная розничная цена за единицу потребительской упаковки (пачки)
      * 
      * @param minPrice
      */
@@ -106,7 +106,7 @@ public class GoodsType1
     }
 
     /** 
-     * Get the 'MaxPrice' element value. РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ СЂРѕР·РЅРёС‡РЅР°СЏ С†РµРЅР° Р·Р° РµРґРёРЅРёС†Сѓ РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРѕР№ СѓРїР°РєРѕРІРєРё (РїР°С‡РєРё)
+     * Get the 'MaxPrice' element value. Максимальная розничная цена за единицу потребительской упаковки (пачки)
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class GoodsType1
     }
 
     /** 
-     * Set the 'MaxPrice' element value. РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ СЂРѕР·РЅРёС‡РЅР°СЏ С†РµРЅР° Р·Р° РµРґРёРЅРёС†Сѓ РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРѕР№ СѓРїР°РєРѕРІРєРё (РїР°С‡РєРё)
+     * Set the 'MaxPrice' element value. Максимальная розничная цена за единицу потребительской упаковки (пачки)
      * 
      * @param maxPrice
      */
@@ -124,7 +124,7 @@ public class GoodsType1
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
+     * Get the 'CurrencyCode' element value. Код валюты
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class GoodsType1
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
+     * Set the 'CurrencyCode' element value. Код валюты
      * 
      * @param currencyCode
      */
@@ -142,7 +142,7 @@ public class GoodsType1
     }
 
     /** 
-     * Get the 'QuantityPerPackage' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ СѓРїР°РєРѕРІРєРµ
+     * Get the 'QuantityPerPackage' element value. Количество в упаковке
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class GoodsType1
     }
 
     /** 
-     * Set the 'QuantityPerPackage' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ СѓРїР°РєРѕРІРєРµ
+     * Set the 'QuantityPerPackage' element value. Количество в упаковке
      * 
      * @param quantityPerPackage
      */

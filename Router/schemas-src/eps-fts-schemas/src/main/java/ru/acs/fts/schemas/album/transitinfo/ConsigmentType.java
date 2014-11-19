@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * РўРѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ.
+ * Товарно-транспортная накладная.
  */
 public class ConsigmentType extends ProducedDocumentType
 {
@@ -18,7 +18,7 @@ public class ConsigmentType extends ProducedDocumentType
     private List<ProducedDocumentType> producedDocumentList = new ArrayList<ProducedDocumentType>();
 
     /** 
-     * Get the 'Sequence' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№.
+     * Get the 'Sequence' element value. Порядковый номер накладной.
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ConsigmentType extends ProducedDocumentType
     }
 
     /** 
-     * Set the 'Sequence' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№.
+     * Set the 'Sequence' element value. Порядковый номер накладной.
      * 
      * @param sequence
      */
@@ -36,7 +36,7 @@ public class ConsigmentType extends ProducedDocumentType
     }
 
     /** 
-     * Get the 'CustomsInvoiceNumber' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№.
+     * Get the 'CustomsInvoiceNumber' element value. Таможенный номер накладной.
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ConsigmentType extends ProducedDocumentType
     }
 
     /** 
-     * Set the 'CustomsInvoiceNumber' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№.
+     * Set the 'CustomsInvoiceNumber' element value. Таможенный номер накладной.
      * 
      * @param customsInvoiceNumber
      */
@@ -54,7 +54,7 @@ public class ConsigmentType extends ProducedDocumentType
     }
 
     /** 
-     * Get the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Consignor' element value. Грузоотправитель
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ConsigmentType extends ProducedDocumentType
     }
 
     /** 
-     * Set the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Consignor' element value. Грузоотправитель
      * 
      * @param consignor
      */
@@ -72,7 +72,7 @@ public class ConsigmentType extends ProducedDocumentType
     }
 
     /** 
-     * Get the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Consignee' element value. Грузополучатель
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ConsigmentType extends ProducedDocumentType
     }
 
     /** 
-     * Set the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Consignee' element value. Грузополучатель
      * 
      * @param consignee
      */
@@ -90,7 +90,7 @@ public class ConsigmentType extends ProducedDocumentType
     }
 
     /** 
-     * Get the list of 'GoodsItem' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsItem' element items. Описание товара
      * 
      * @return list
      */
@@ -99,7 +99,7 @@ public class ConsigmentType extends ProducedDocumentType
     }
 
     /** 
-     * Set the list of 'GoodsItem' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsItem' element items. Описание товара
      * 
      * @param list
      */
@@ -108,7 +108,7 @@ public class ConsigmentType extends ProducedDocumentType
     }
 
     /** 
-     * Get the list of 'ProducedDocument' element items. РџСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ (СЃРµСЂС‚РёС„РёРєР°С‚С‹).
+     * Get the list of 'ProducedDocument' element items. Представляемые документы (сертификаты).
      * 
      * @return list
      */
@@ -117,7 +117,7 @@ public class ConsigmentType extends ProducedDocumentType
     }
 
     /** 
-     * Set the list of 'ProducedDocument' element items. РџСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ (СЃРµСЂС‚РёС„РёРєР°С‚С‹).
+     * Set the list of 'ProducedDocument' element items. Представляемые документы (сертификаты).
      * 
      * @param list
      */

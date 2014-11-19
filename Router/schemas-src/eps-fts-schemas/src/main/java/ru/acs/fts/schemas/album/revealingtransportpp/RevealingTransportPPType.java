@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РЎРѕРѕР±С‰РµРЅРёРµ Рѕ РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+ * Сообщение о прибытии/убытии транспортного средства
  */
 public class RevealingTransportPPType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class RevealingTransportPPType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ServiceInfo' element value. РЎР»СѓР¶РµР±РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'ServiceInfo' element value. Служебная информация
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class RevealingTransportPPType extends BaseDocType
     }
 
     /** 
-     * Set the 'ServiceInfo' element value. РЎР»СѓР¶РµР±РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'ServiceInfo' element value. Служебная информация
      * 
      * @param serviceInfo
      */
@@ -36,7 +36,7 @@ public class RevealingTransportPPType extends BaseDocType
     }
 
     /** 
-     * Get the 'Transport' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Get the 'Transport' element value. Сведения о транспортном средстве
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class RevealingTransportPPType extends BaseDocType
     }
 
     /** 
-     * Set the 'Transport' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Set the 'Transport' element value. Сведения о транспортном средстве
      * 
      * @param transport
      */
@@ -54,7 +54,7 @@ public class RevealingTransportPPType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the list of 'Consignment' element items. Сведения о товарной партии
      * 
      * @return list
      */
@@ -63,7 +63,7 @@ public class RevealingTransportPPType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the list of 'Consignment' element items. Сведения о товарной партии
      * 
      * @param list
      */
@@ -72,7 +72,7 @@ public class RevealingTransportPPType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё / СѓР±С‹С‚РёРё.
+     * Get the 'RegistrationNumber' element value. Регистрационный номер уведомления о прибытии / убытии.
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class RevealingTransportPPType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё / СѓР±С‹С‚РёРё.
+     * Set the 'RegistrationNumber' element value. Регистрационный номер уведомления о прибытии / убытии.
      * 
      * @param registrationNumber
      */
@@ -90,7 +90,7 @@ public class RevealingTransportPPType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class RevealingTransportPPType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
      * 
      * @param documentModeID
      */

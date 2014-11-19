@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРЅРѕРј РґРѕСЃРјРѕС‚СЂРµ
+ * Информация о проведенном досмотре
  */
 public class InspectionInfoType
 {
@@ -23,7 +23,7 @@ public class InspectionInfoType
     private MPOType MPO;
 
     /** 
-     * Get the 'InspItemNum' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° (РїР°СЂС‚РёР№ С‚РѕРІР°СЂР°), РїСЂРµРґСЉСЏРІР»РµРЅРЅС‹С… Рє С‚Р°РјРѕР¶РµРЅРЅРѕРјСѓ РґРѕСЃРјРѕС‚СЂСѓ (РїРѕ РґРѕРєСѓРјРµРЅС‚Р°Рј)
+     * Get the 'InspItemNum' element value. Количество мест товара (партий товара), предъявленных к таможенному досмотру (по документам)
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'InspItemNum' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° (РїР°СЂС‚РёР№ С‚РѕРІР°СЂР°), РїСЂРµРґСЉСЏРІР»РµРЅРЅС‹С… Рє С‚Р°РјРѕР¶РµРЅРЅРѕРјСѓ РґРѕСЃРјРѕС‚СЂСѓ (РїРѕ РґРѕРєСѓРјРµРЅС‚Р°Рј)
+     * Set the 'InspItemNum' element value. Количество мест товара (партий товара), предъявленных к таможенному досмотру (по документам)
      * 
      * @param inspItemNum
      */
@@ -41,7 +41,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'GrossWeightDocs' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ РїРѕ РґРѕРєСѓРјРµРЅС‚Р°Рј (РєРі.)
+     * Get the 'GrossWeightDocs' element value. Общий вес брутто товаров по документам (кг.)
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'GrossWeightDocs' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ РїРѕ РґРѕРєСѓРјРµРЅС‚Р°Рј (РєРі.)
+     * Set the 'GrossWeightDocs' element value. Общий вес брутто товаров по документам (кг.)
      * 
      * @param grossWeightDocs
      */
@@ -59,7 +59,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'ViolationSign' element value. РџСЂРёР·РЅР°Рє РЅР°СЂСѓС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІР° РїСЂРё РїРµСЂРµСЃС‹Р»РєРµ С‚РѕРІР°СЂРѕРІ РІ РњРџРћ РІ Р°РґСЂРµСЃ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°: 0 - РЅРµ РІС‹СЏРІР»РµРЅРѕ; 1 - РІС‹СЏРІР»РµРЅРѕ
+     * Get the 'ViolationSign' element value. Признак нарушения таможенного законодательства при пересылке товаров в МПО в адрес физического лица: 0 - не выявлено; 1 - выявлено
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'ViolationSign' element value. РџСЂРёР·РЅР°Рє РЅР°СЂСѓС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІР° РїСЂРё РїРµСЂРµСЃС‹Р»РєРµ С‚РѕРІР°СЂРѕРІ РІ РњРџРћ РІ Р°РґСЂРµСЃ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°: 0 - РЅРµ РІС‹СЏРІР»РµРЅРѕ; 1 - РІС‹СЏРІР»РµРЅРѕ
+     * Set the 'ViolationSign' element value. Признак нарушения таможенного законодательства при пересылке товаров в МПО в адрес физического лица: 0 - не выявлено; 1 - выявлено
      * 
      * @param violationSign
      */
@@ -77,7 +77,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the list of 'InspGTDNum' element items. РќРѕРјРµСЂ Р”Рў РІ РєРѕС‚РѕСЂРѕР№ Р·Р°СЏРІР»РµРЅС‹ СЃРІРµРґРµРЅРёСЏ Рѕ РґРѕСЃРјР°С‚СЂРёРІР°РµРјС‹С…  С‚РѕРІР°СЂР°С…
+     * Get the list of 'InspGTDNum' element items. Номер ДТ в которой заявлены сведения о досматриваемых  товарах
      * 
      * @return list
      */
@@ -86,7 +86,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the list of 'InspGTDNum' element items. РќРѕРјРµСЂ Р”Рў РІ РєРѕС‚РѕСЂРѕР№ Р·Р°СЏРІР»РµРЅС‹ СЃРІРµРґРµРЅРёСЏ Рѕ РґРѕСЃРјР°С‚СЂРёРІР°РµРјС‹С…  С‚РѕРІР°СЂР°С…
+     * Set the list of 'InspGTDNum' element items. Номер ДТ в которой заявлены сведения о досматриваемых  товарах
      * 
      * @param list
      */
@@ -95,7 +95,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'FactWeightInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РµРј С„Р°РєС‚РёС‡РµСЃРєРѕРј РІРµСЃРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'FactWeightInfo' element value. Сведения об общем фактическом весе товаров
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'FactWeightInfo' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±С‰РµРј С„Р°РєС‚РёС‡РµСЃРєРѕРј РІРµСЃРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'FactWeightInfo' element value. Сведения об общем фактическом весе товаров
      * 
      * @param factWeightInfo
      */
@@ -113,7 +113,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'InspRadiationInfo' element value. РР·РјРµСЂРµРЅРёРµ СѓСЂРѕРІРЅСЏ СЂР°РґРёР°С†РёРѕРЅРЅРѕРіРѕ РёР·Р»СѓС‡РµРЅРёСЏ
+     * Get the 'InspRadiationInfo' element value. Измерение уровня радиационного излучения
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'InspRadiationInfo' element value. РР·РјРµСЂРµРЅРёРµ СѓСЂРѕРІРЅСЏ СЂР°РґРёР°С†РёРѕРЅРЅРѕРіРѕ РёР·Р»СѓС‡РµРЅРёСЏ
+     * Set the 'InspRadiationInfo' element value. Измерение уровня радиационного излучения
      * 
      * @param inspRadiationInfo
      */
@@ -131,7 +131,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'IdentityMeansInfo' element value. РЎСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Get the 'IdentityMeansInfo' element value. Средства идентификации
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'IdentityMeansInfo' element value. РЎСЂРµРґСЃС‚РІР° РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Set the 'IdentityMeansInfo' element value. Средства идентификации
      * 
      * @param identityMeansInfo
      */
@@ -149,7 +149,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'InspectionResult' element value. Р РµР·СѓР»СЊС‚Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
+     * Get the 'InspectionResult' element value. Результаты таможенного досмотра
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'InspectionResult' element value. Р РµР·СѓР»СЊС‚Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
+     * Set the 'InspectionResult' element value. Результаты таможенного досмотра
      * 
      * @param inspectionResult
      */
@@ -167,7 +167,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the list of 'InspectionDocument' element items. РђРўР” - РґРѕРєСѓРјРµРЅС‚ РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРѕРІРµРґРµРЅ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РґРѕСЃРјРѕС‚СЂ
+     * Get the list of 'InspectionDocument' element items. АТД - документ по которому проведен таможенный досмотр
      * 
      * @return list
      */
@@ -176,7 +176,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the list of 'InspectionDocument' element items. РђРўР” - РґРѕРєСѓРјРµРЅС‚ РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРѕРІРµРґРµРЅ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РґРѕСЃРјРѕС‚СЂ
+     * Set the list of 'InspectionDocument' element items. АТД - документ по которому проведен таможенный досмотр
      * 
      * @param list
      */
@@ -185,7 +185,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the list of 'InspGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Get the list of 'InspGoods' element items. Сведения о товаре
      * 
      * @return list
      */
@@ -194,7 +194,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the list of 'InspGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Set the list of 'InspGoods' element items. Сведения о товаре
      * 
      * @param list
      */
@@ -203,7 +203,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the list of 'UseTMCC' element items. РџСЂРёРјРµРЅСЏРµРјС‹Рµ С‚РµС…РЅРёС‡РµСЃРєРёРµ СЃСЂРµРґСЃС‚РІР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the list of 'UseTMCC' element items. Применяемые технические средства таможенного контроля
      * 
      * @return list
      */
@@ -212,7 +212,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the list of 'UseTMCC' element items. РџСЂРёРјРµРЅСЏРµРјС‹Рµ С‚РµС…РЅРёС‡РµСЃРєРёРµ СЃСЂРµРґСЃС‚РІР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the list of 'UseTMCC' element items. Применяемые технические средства таможенного контроля
      * 
      * @param list
      */
@@ -221,7 +221,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Get the 'MPO' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґСЉСЏРІР»РµРЅРЅРѕРј РњРџРћ
+     * Get the 'MPO' element value. Сведения о предъявленном МПО
      * 
      * @return value
      */
@@ -230,7 +230,7 @@ public class InspectionInfoType
     }
 
     /** 
-     * Set the 'MPO' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґСЉСЏРІР»РµРЅРЅРѕРј РњРџРћ
+     * Set the 'MPO' element value. Сведения о предъявленном МПО
      * 
      * @param MPO
      */

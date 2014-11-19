@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.Paymen
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± СѓС‡Р°СЃС‚РЅРёРєР°С… СЃРґРµР»РєРё РїРѕ  РєСѓРїР»Рё-РїСЂРѕРґР°Р¶Рё (РїСЂРѕРґР°РІРµС† РёР»Рё РїРѕРєСѓРїР°С‚РµР»СЊ)
+ * Сведения об участниках сделки по  купли-продажи (продавец или покупатель)
  */
 public class InvoiceParticipantInfType extends InvoiceParticipantType
 {
@@ -16,7 +16,7 @@ public class InvoiceParticipantInfType extends InvoiceParticipantType
     private AddressType postalAddress;
 
     /** 
-     * Get the list of 'PaymentRequisitions' element items. РџР»Р°С‚РµР¶РЅС‹Рµ СЂРµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the list of 'PaymentRequisitions' element items. Платежные реквизиты организации
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class InvoiceParticipantInfType extends InvoiceParticipantType
     }
 
     /** 
-     * Set the list of 'PaymentRequisitions' element items. РџР»Р°С‚РµР¶РЅС‹Рµ СЂРµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the list of 'PaymentRequisitions' element items. Платежные реквизиты организации
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class InvoiceParticipantInfType extends InvoiceParticipantType
     }
 
     /** 
-     * Get the 'PostalAddress' element value. РћРїРёСЃР°РЅРёРµ Р°РґСЂРµСЃР° СѓС‡Р°СЃС‚РЅРёРєР° (Р°РґСЂРµСЃ РґРѕСЃС‚Р°РІРєРё РїРѕС‡С‚РѕРІРѕР№ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС†РёРё)
+     * Get the 'PostalAddress' element value. Описание адреса участника (адрес доставки почтовой корреспонденции)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class InvoiceParticipantInfType extends InvoiceParticipantType
     }
 
     /** 
-     * Set the 'PostalAddress' element value. РћРїРёСЃР°РЅРёРµ Р°РґСЂРµСЃР° СѓС‡Р°СЃС‚РЅРёРєР° (Р°РґСЂРµСЃ РґРѕСЃС‚Р°РІРєРё РїРѕС‡С‚РѕРІРѕР№ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС†РёРё)
+     * Set the 'PostalAddress' element value. Описание адреса участника (адрес доставки почтовой корреспонденции)
      * 
      * @param postalAddress
      */

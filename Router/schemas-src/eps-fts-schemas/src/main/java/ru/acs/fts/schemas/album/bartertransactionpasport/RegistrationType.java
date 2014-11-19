@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.bartertransactionpasport;
 import org.joda.time.LocalDate;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РџР°СЃРїРѕСЂС‚Р° Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё
+ * Регистрационные данные Паспорта бартерной сделки
  */
 public class RegistrationType
 {
@@ -12,7 +12,7 @@ public class RegistrationType
     private PasportIDType pasportID;
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РџР°СЃРїРѕСЂС‚Р° РІ РњР’Р­РЎ Р РѕСЃСЃРёРё    
+     * Get the 'IssueDate' element value. Дата регистрации Паспорта в МВЭС России    
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РџР°СЃРїРѕСЂС‚Р° РІ РњР’Р­РЎ Р РѕСЃСЃРёРё    
+     * Set the 'IssueDate' element value. Дата регистрации Паспорта в МВЭС России    
      * 
      * @param issueDate
      */
@@ -30,7 +30,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'PasportID' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё 
+     * Get the 'PasportID' element value. Номер паспорта бартерной сделки 
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'PasportID' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё 
+     * Set the 'PasportID' element value. Номер паспорта бартерной сделки 
      * 
      * @param pasportID
      */

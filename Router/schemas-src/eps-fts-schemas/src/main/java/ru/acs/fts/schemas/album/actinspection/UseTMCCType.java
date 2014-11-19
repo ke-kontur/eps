@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actinspection;
 
 /** 
- * РџСЂРёРјРµРЅСЏРµРјС‹Рµ С‚РµС…РЅРёС‡РµСЃРєРёРµ СЃСЂРµРґСЃС‚РІР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+ * Применяемые технические средства таможенного контроля
  */
 public class UseTMCCType
 {
@@ -10,7 +10,7 @@ public class UseTMCCType
     private String comments;
 
     /** 
-     * Get the 'TSTKCode' element value. РљРѕРґ РїСЂРёРјРµРЅСЏРµРјС‹С… РўРЎРўРљ
+     * Get the 'TSTKCode' element value. Код применяемых ТСТК
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class UseTMCCType
     }
 
     /** 
-     * Set the 'TSTKCode' element value. РљРѕРґ РїСЂРёРјРµРЅСЏРµРјС‹С… РўРЎРўРљ
+     * Set the 'TSTKCode' element value. Код применяемых ТСТК
      * 
      * @param TSTKCode
      */
@@ -28,7 +28,7 @@ public class UseTMCCType
     }
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Get the 'Comments' element value. Комментарии
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class UseTMCCType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Set the 'Comments' element value. Комментарии
      * 
      * @param comments
      */

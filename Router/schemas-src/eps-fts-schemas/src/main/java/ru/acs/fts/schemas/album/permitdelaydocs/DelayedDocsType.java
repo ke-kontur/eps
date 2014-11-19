@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.permitdelaydocs;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.DocumentDescriptionType;
 
 /** 
- * Р РµС€РµРЅРёРµ РїРѕ РґРѕРєСѓРјРµРЅС‚Р°Рј
+ * Решение по документам
  */
 public class DelayedDocsType extends DocumentDescriptionType
 {
@@ -12,7 +12,7 @@ public class DelayedDocsType extends DocumentDescriptionType
     private String requestPositionID;
 
     /** 
-     * Get the 'DelayDecision' element value. Р РµС€РµРЅРёРµ, РєРѕС‚РѕСЂРѕРµ РїСЂРёРЅСЏС‚Рѕ РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ: 1 - РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ СЂРµС€РµРЅРёРµ (РѕС‚СЃСЂРѕС‡РєР°/РІ РіСЂР°С„РёС‡РµСЃРєРѕРј РІРёРґРµ) ; 0 - РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕРµ СЂРµС€РµРЅРёРµ
+     * Get the 'DelayDecision' element value. Решение, которое принято по документу: 1 - положительное решение (отсрочка/в графическом виде) ; 0 - отрицательное решение
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DelayedDocsType extends DocumentDescriptionType
     }
 
     /** 
-     * Set the 'DelayDecision' element value. Р РµС€РµРЅРёРµ, РєРѕС‚РѕСЂРѕРµ РїСЂРёРЅСЏС‚Рѕ РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ: 1 - РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ СЂРµС€РµРЅРёРµ (РѕС‚СЃСЂРѕС‡РєР°/РІ РіСЂР°С„РёС‡РµСЃРєРѕРј РІРёРґРµ) ; 0 - РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕРµ СЂРµС€РµРЅРёРµ
+     * Set the 'DelayDecision' element value. Решение, которое принято по документу: 1 - положительное решение (отсрочка/в графическом виде) ; 0 - отрицательное решение
      * 
      * @param delayDecision
      */
@@ -30,7 +30,7 @@ public class DelayedDocsType extends DocumentDescriptionType
     }
 
     /** 
-     * Get the 'RequestPositionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ Р·Р°РїСЂРѕСЃРµ
+     * Get the 'RequestPositionID' element value. Идентификатор позиции в запросе
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DelayedDocsType extends DocumentDescriptionType
     }
 
     /** 
-     * Set the 'RequestPositionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ Р·Р°РїСЂРѕСЃРµ
+     * Set the 'RequestPositionID' element value. Идентификатор позиции в запросе
      * 
      * @param requestPositionID
      */

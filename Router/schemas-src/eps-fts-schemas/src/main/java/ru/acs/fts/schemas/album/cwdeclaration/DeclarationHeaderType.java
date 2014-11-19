@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.AISTSDocumentIDType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Р°С…  РґРѕРєСѓРјРµРЅС‚Р°
+ * Информация о реквизитах  документа
  */
 public class DeclarationHeaderType
 {
@@ -26,7 +26,7 @@ public class DeclarationHeaderType
     private GTDIDType GTDNumber;
 
     /** 
-     * Get the 'OwnerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїСЂР°РІР°РјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'OwnerName' element value. Наименование лица, обладающего правами в отношении товаров
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'OwnerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїСЂР°РІР°РјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'OwnerName' element value. Наименование лица, обладающего правами в отношении товаров
      * 
      * @param ownerName
      */
@@ -44,7 +44,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'OwnerNameFull' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїСЂР°РІР°РјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'OwnerNameFull' element value. Полное наименование лица, обладающего правами в отношении товаров
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'OwnerNameFull' element value. РџРѕР»РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РѕР±Р»Р°РґР°СЋС‰РµРіРѕ РїСЂР°РІР°РјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'OwnerNameFull' element value. Полное наименование лица, обладающего правами в отношении товаров
      * 
      * @param ownerNameFull
      */
@@ -62,7 +62,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'CustomName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ С…СЂР°РЅРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'CustomName' element value. Наименование таможенного органа, осуществляющего хранение товаров
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'CustomName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ С…СЂР°РЅРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'CustomName' element value. Наименование таможенного органа, осуществляющего хранение товаров
      * 
      * @param customName
      */
@@ -80,7 +80,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'OrderNumberOfEdition' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЂРµРґР°РєС†РёРё СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'OrderNumberOfEdition' element value. Порядковый номер редакции электронного документа
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'OrderNumberOfEdition' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЂРµРґР°РєС†РёРё СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'OrderNumberOfEdition' element value. Порядковый номер редакции электронного документа
      * 
      * @param orderNumberOfEdition
      */
@@ -98,7 +98,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'PeriodStart' element value. РќР°С‡Р°Р»Рѕ СЃСЂРѕРєР° РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё
+     * Get the 'PeriodStart' element value. Начало срока проведения операции
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'PeriodStart' element value. РќР°С‡Р°Р»Рѕ СЃСЂРѕРєР° РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё
+     * Set the 'PeriodStart' element value. Начало срока проведения операции
      * 
      * @param periodStart
      */
@@ -116,7 +116,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'PeriodFinish' element value. РћРєРѕРЅС‡Р°РЅРёРµ СЃСЂРѕРєР° РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё
+     * Get the 'PeriodFinish' element value. Окончание срока проведения операции
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'PeriodFinish' element value. РћРєРѕРЅС‡Р°РЅРёРµ СЃСЂРѕРєР° РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРµСЂР°С†РёРё
+     * Set the 'PeriodFinish' element value. Окончание срока проведения операции
      * 
      * @param periodFinish
      */
@@ -134,7 +134,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'Materials' element value. РњР°С‚РµСЂРёР°Р»С‹, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ РїСЂРё РїСЂРѕРІРµРґРµРЅРёРё РѕРїРµСЂР°С†РёРё
+     * Get the 'Materials' element value. Материалы, используемые при проведении операции
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'Materials' element value. РњР°С‚РµСЂРёР°Р»С‹, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ РїСЂРё РїСЂРѕРІРµРґРµРЅРёРё РѕРїРµСЂР°С†РёРё
+     * Set the 'Materials' element value. Материалы, используемые при проведении операции
      * 
      * @param materials
      */
@@ -152,7 +152,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'TechnicalFacilities' element value. РўРµС…РЅРёС‡РµСЃРєРёРµ СЃСЂРµРґСЃС‚РІР°, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ РїСЂРё РїСЂРѕРІРµРґРµРЅРёРё РѕРїРµСЂР°С†РёРё
+     * Get the 'TechnicalFacilities' element value. Технические средства, используемые при проведении операции
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'TechnicalFacilities' element value. РўРµС…РЅРёС‡РµСЃРєРёРµ СЃСЂРµРґСЃС‚РІР°, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ РїСЂРё РїСЂРѕРІРµРґРµРЅРёРё РѕРїРµСЂР°С†РёРё
+     * Set the 'TechnicalFacilities' element value. Технические средства, используемые при проведении операции
      * 
      * @param technicalFacilities
      */
@@ -170,7 +170,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'OperationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕРїРµСЂР°С†РёРё РЅР°Рґ С‚РѕРІР°СЂР°РјРё
+     * Get the 'OperationName' element value. Наименование операции над товарами
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'OperationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕРїРµСЂР°С†РёРё РЅР°Рґ С‚РѕРІР°СЂР°РјРё
+     * Set the 'OperationName' element value. Наименование операции над товарами
      * 
      * @param operationName
      */
@@ -188,7 +188,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'OperationID' element value. РўРёРї РѕРїРµСЂР°С†РёРё РЅР°Рґ С‚РѕРІР°СЂР°РјРё
+     * Get the 'OperationID' element value. Тип операции над товарами
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'OperationID' element value. РўРёРї РѕРїРµСЂР°С†РёРё РЅР°Рґ С‚РѕРІР°СЂР°РјРё
+     * Set the 'OperationID' element value. Тип операции над товарами
      * 
      * @param operationID
      */
@@ -206,7 +206,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'DeclarationNumber' element value. РќРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
+     * Get the 'DeclarationNumber' element value. Номер заявления
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'DeclarationNumber' element value. РќРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
+     * Set the 'DeclarationNumber' element value. Номер заявления
      * 
      * @param declarationNumber
      */
@@ -224,7 +224,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'StorageQuitanceNumber' element value. РќРѕРјРµСЂ СЃРєР»Р°РґСЃРєРѕР№ РєРІРёС‚Р°РЅС†РёРё
+     * Get the 'StorageQuitanceNumber' element value. Номер складской квитанции
      * 
      * @return value
      */
@@ -233,7 +233,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'StorageQuitanceNumber' element value. РќРѕРјРµСЂ СЃРєР»Р°РґСЃРєРѕР№ РєРІРёС‚Р°РЅС†РёРё
+     * Set the 'StorageQuitanceNumber' element value. Номер складской квитанции
      * 
      * @param storageQuitanceNumber
      */
@@ -243,7 +243,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'FormularNumber' element value. РќРѕРјРµСЂ С„РѕСЂРјСѓР»СЏСЂР° РєРѕРЅС‚СЂРѕР»СЏ С‚РѕРІР°СЂРѕРІ
+     * Get the 'FormularNumber' element value. Номер формуляра контроля товаров
      * 
      * @return value
      */
@@ -252,7 +252,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'FormularNumber' element value. РќРѕРјРµСЂ С„РѕСЂРјСѓР»СЏСЂР° РєРѕРЅС‚СЂРѕР»СЏ С‚РѕРІР°СЂРѕРІ
+     * Set the 'FormularNumber' element value. Номер формуляра контроля товаров
      * 
      * @param formularNumber
      */
@@ -261,7 +261,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. РќРѕРјРµСЂ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕР№ С‚РѕРІР°СЂС‹ РїРѕРјРµС‰РµРЅС‹ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРєР»Р°РґР°
+     * Get the 'GTDNumber' element value. Номер ДТ, по которой товары помещены под таможенный режим таможенного склада
      * 
      * @return value
      */
@@ -270,7 +270,7 @@ public class DeclarationHeaderType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. РќРѕРјРµСЂ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕР№ С‚РѕРІР°СЂС‹ РїРѕРјРµС‰РµРЅС‹ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРєР»Р°РґР°
+     * Set the 'GTDNumber' element value. Номер ДТ, по которой товары помещены под таможенный режим таможенного склада
      * 
      * @param GTDNumber
      */

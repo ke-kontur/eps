@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РІС‹СЏРІР»РµРЅРЅС‹С… РѕС€РёР±РѕРє
+ * Описание выявленных ошибок
  */
 public class MistakesDescriptionType
 {
@@ -14,7 +14,7 @@ public class MistakesDescriptionType
     private List<TransportDocMistakeType> transportDocsMistakeList = new ArrayList<TransportDocMistakeType>();
 
     /** 
-     * Get the list of 'CustomsDocsMistakes' element items. РћС€РёР±РєРё РІ СЂРµРєРІРёР·РёС‚Р°С… С‚Р°РјРѕР¶РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the list of 'CustomsDocsMistakes' element items. Ошибки в реквизитах таможенных документов
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class MistakesDescriptionType
     }
 
     /** 
-     * Set the list of 'CustomsDocsMistakes' element items. РћС€РёР±РєРё РІ СЂРµРєРІРёР·РёС‚Р°С… С‚Р°РјРѕР¶РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the list of 'CustomsDocsMistakes' element items. Ошибки в реквизитах таможенных документов
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class MistakesDescriptionType
     }
 
     /** 
-     * Get the list of 'CommercialDocsMistakes' element items. РћС€РёР±РєРё РІ СЂРµРєРІРёР·РёС‚Р°С… РєРѕРјРјРµСЂС‡РµСЃРєРёС… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the list of 'CommercialDocsMistakes' element items. Ошибки в реквизитах коммерческих документов
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class MistakesDescriptionType
     }
 
     /** 
-     * Set the list of 'CommercialDocsMistakes' element items. РћС€РёР±РєРё РІ СЂРµРєРІРёР·РёС‚Р°С… РєРѕРјРјРµСЂС‡РµСЃРєРёС… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the list of 'CommercialDocsMistakes' element items. Ошибки в реквизитах коммерческих документов
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class MistakesDescriptionType
     }
 
     /** 
-     * Get the list of 'TransportDocsMistakes' element items. РћС€РёР±РєРё РІ СЂРµРєРІРёР·РёС‚Р°С… С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ (РІ РЅР°РєР»Р°РґРЅС‹С…)
+     * Get the list of 'TransportDocsMistakes' element items. Ошибки в реквизитах транспортных документов (в накладных)
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class MistakesDescriptionType
     }
 
     /** 
-     * Set the list of 'TransportDocsMistakes' element items. РћС€РёР±РєРё РІ СЂРµРєРІРёР·РёС‚Р°С… С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ (РІ РЅР°РєР»Р°РґРЅС‹С…)
+     * Set the list of 'TransportDocsMistakes' element items. Ошибки в реквизитах транспортных документов (в накладных)
      * 
      * @param list
      */

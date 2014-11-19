@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р—Р°РіРѕР»РѕРІРѕРє РўР”
+ * Заголовок ТД
  */
 public class HeaderType
 {
@@ -29,7 +29,7 @@ public class HeaderType
     private CUOrganizationType carrier;
 
     /** 
-     * Get the 'DeclarationKind' element value. РўРёРї С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё.
+     * Get the 'DeclarationKind' element value. Тип транзитной декларации.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'DeclarationKind' element value. РўРёРї С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё.
+     * Set the 'DeclarationKind' element value. Тип транзитной декларации.
      * 
      * @param declarationKind
      */
@@ -47,7 +47,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the 'TotalNumberOfGoods' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ.
+     * Get the 'TotalNumberOfGoods' element value. Общее количество товаров.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'TotalNumberOfGoods' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ.
+     * Set the 'TotalNumberOfGoods' element value. Общее количество товаров.
      * 
      * @param totalNumberOfGoods
      */
@@ -65,7 +65,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the 'TotalNumberOfPackages' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.
+     * Get the 'TotalNumberOfPackages' element value. Общее количество грузовых мест.
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'TotalNumberOfPackages' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.
+     * Set the 'TotalNumberOfPackages' element value. Общее количество грузовых мест.
      * 
      * @param totalNumberOfPackages
      */
@@ -83,7 +83,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the 'TotalGrossMass' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ
+     * Get the 'TotalGrossMass' element value. Общий вес брутто
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'TotalGrossMass' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ
+     * Set the 'TotalGrossMass' element value. Общий вес брутто
      * 
      * @param totalGrossMass
      */
@@ -101,7 +101,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the 'Comment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№.
+     * Get the 'Comment' element value. Комментарий.
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'Comment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№.
+     * Set the 'Comment' element value. Комментарий.
      * 
      * @param comment
      */
@@ -119,7 +119,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the 'DepartureCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ.
+     * Get the 'DepartureCountryCode' element value. Код страны отправления.
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'DepartureCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ.
+     * Set the 'DepartureCountryCode' element value. Код страны отправления.
      * 
      * @param departureCountryCode
      */
@@ -137,7 +137,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the 'DestinationCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ.
+     * Get the 'DestinationCountryCode' element value. Код страны назначения.
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'DestinationCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ.
+     * Set the 'DestinationCountryCode' element value. Код страны назначения.
      * 
      * @param destinationCountryCode
      */
@@ -155,7 +155,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the 'TransitDateLimit' element value. РЎСЂРѕРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°
+     * Get the 'TransitDateLimit' element value. Срок таможенного транзита
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'TransitDateLimit' element value. РЎСЂРѕРє С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°
+     * Set the 'TransitDateLimit' element value. Срок таможенного транзита
      * 
      * @param transitDateLimit
      */
@@ -173,7 +173,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the list of 'Transport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+     * Get the list of 'Transport' element items. Транспортное средство
      * 
      * @return list
      */
@@ -182,7 +182,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the list of 'Transport' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+     * Set the list of 'Transport' element items. Транспортное средство
      * 
      * @param list
      */
@@ -216,7 +216,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the 'TDNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+     * Get the 'TDNumber' element value. Номер транзитной декларации
      * 
      * @return value
      */
@@ -225,7 +225,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'TDNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+     * Set the 'TDNumber' element value. Номер транзитной декларации
      * 
      * @param TDNumber
      */
@@ -244,7 +244,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ.
+     * Get the 'TIRID' element value. Номер книжки МДП.
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ.
+     * Set the 'TIRID' element value. Номер книжки МДП.
      * 
      * @param TIRID
      */
@@ -263,7 +263,7 @@ public class HeaderType
     }
 
     /** 
-     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Get the 'Carrier' element value. Перевозчик
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class HeaderType
     }
 
     /** 
-     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Set the 'Carrier' element value. Перевозчик
      * 
      * @param carrier
      */

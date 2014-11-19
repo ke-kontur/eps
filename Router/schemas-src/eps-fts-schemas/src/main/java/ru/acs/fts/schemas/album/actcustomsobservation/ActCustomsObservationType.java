@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РђРєС‚ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+ * Акт таможенного наблюдения
  */
 public class ActCustomsObservationType extends BaseDocType
 {
@@ -34,7 +34,7 @@ public class ActCustomsObservationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ActDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ Р°РєС‚Р°
+     * Get the 'ActDate' element value. Дата составления акта
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ActDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ Р°РєС‚Р°
+     * Set the 'ActDate' element value. Дата составления акта
      * 
      * @param actDate
      */
@@ -52,7 +52,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+     * Get the 'BeginDate' element value. Дата начала таможенного наблюдения
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+     * Set the 'BeginDate' element value. Дата начала таможенного наблюдения
      * 
      * @param beginDate
      */
@@ -70,7 +70,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'BeginTime' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+     * Get the 'BeginTime' element value. Время начала таможенного наблюдения
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'BeginTime' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+     * Set the 'BeginTime' element value. Время начала таможенного наблюдения
      * 
      * @param beginTime
      */
@@ -88,7 +88,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+     * Get the 'EndDate' element value. Дата окончания таможенного наблюдения
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+     * Set the 'EndDate' element value. Дата окончания таможенного наблюдения
      * 
      * @param endDate
      */
@@ -106,7 +106,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndTime' element value. Р’СЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+     * Get the 'EndTime' element value. Время окончания таможенного наблюдения
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndTime' element value. Р’СЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+     * Set the 'EndTime' element value. Время окончания таможенного наблюдения
      * 
      * @param endTime
      */
@@ -124,7 +124,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Reason' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ 
+     * Get the 'Reason' element value. Основание для проведения таможенного наблюдения 
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Reason' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ 
+     * Set the 'Reason' element value. Основание для проведения таможенного наблюдения 
      * 
      * @param reason
      */
@@ -142,7 +142,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ObservationKind' element value. РџСЂРёР·РЅР°Рє РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРѕСЃСЂРµРґРѕРІР°РЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ (СЃ РїСЂРёРјРµРЅРµРЅРёРµРј РўРЎРўРљ)
+     * Get the 'ObservationKind' element value. Признак проведения опосредованного наблюдения (с применением ТСТК)
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ObservationKind' element value. РџСЂРёР·РЅР°Рє РїСЂРѕРІРµРґРµРЅРёСЏ РѕРїРѕСЃСЂРµРґРѕРІР°РЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ (СЃ РїСЂРёРјРµРЅРµРЅРёРµРј РўРЎРўРљ)
+     * Set the 'ObservationKind' element value. Признак проведения опосредованного наблюдения (с применением ТСТК)
      * 
      * @param observationKind
      */
@@ -160,7 +160,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'OperationsCustObservation' element value. РћРїРµСЂР°С†РёРё, РїСЂРё РєРѕС‚РѕСЂС‹С… РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРµ РЅР°Р±Р»СЋРґРµРЅРёРµ.1 - РїРµСЂРµРІРѕР·РєР° С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, 2 - РіСЂСѓР·РѕРІС‹Рµ РѕРїРµСЂР°С†РёРё, 3 - РїСЂРѕС‡РµРµ
+     * Get the 'OperationsCustObservation' element value. Операции, при которых осуществляется таможенное наблюдение.1 - перевозка товаров и транспортных средств, 2 - грузовые операции, 3 - прочее
      * 
      * @return value
      */
@@ -169,7 +169,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'OperationsCustObservation' element value. РћРїРµСЂР°С†РёРё, РїСЂРё РєРѕС‚РѕСЂС‹С… РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРµ РЅР°Р±Р»СЋРґРµРЅРёРµ.1 - РїРµСЂРµРІРѕР·РєР° С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, 2 - РіСЂСѓР·РѕРІС‹Рµ РѕРїРµСЂР°С†РёРё, 3 - РїСЂРѕС‡РµРµ
+     * Set the 'OperationsCustObservation' element value. Операции, при которых осуществляется таможенное наблюдение.1 - перевозка товаров и транспортных средств, 2 - грузовые операции, 3 - прочее
      * 
      * @param operationsCustObservation
      */
@@ -178,7 +178,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ProcessDescriptionResults' element items. РћРїРёСЃР°РЅРёРµ РїСЂРѕС†РµСЃСЃР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ Рё РµРіРѕ СЂРµР·СѓР»СЊС‚Р°С‚С‹
+     * Get the list of 'ProcessDescriptionResults' element items. Описание процесса таможенного наблюдения и его результаты
      * 
      * @return list
      */
@@ -187,7 +187,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ProcessDescriptionResults' element items. РћРїРёСЃР°РЅРёРµ РїСЂРѕС†РµСЃСЃР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ Рё РµРіРѕ СЂРµР·СѓР»СЊС‚Р°С‚С‹
+     * Set the list of 'ProcessDescriptionResults' element items. Описание процесса таможенного наблюдения и его результаты
      * 
      * @param list
      */
@@ -196,7 +196,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'AddiSheetsNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… Р»РёСЃС‚РѕРІ
+     * Get the 'AddiSheetsNumber' element value. Количество дополнительных листов
      * 
      * @return value
      */
@@ -205,7 +205,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'AddiSheetsNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… Р»РёСЃС‚РѕРІ
+     * Set the 'AddiSheetsNumber' element value. Количество дополнительных листов
      * 
      * @param addiSheetsNumber
      */
@@ -214,7 +214,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Application' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёР»РѕР¶РµРЅРёР№ Рє Р°РєС‚Сѓ
+     * Get the 'Application' element value. Описание приложений к акту
      * 
      * @return value
      */
@@ -223,7 +223,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Application' element value. РћРїРёСЃР°РЅРёРµ РїСЂРёР»РѕР¶РµРЅРёР№ Рє Р°РєС‚Сѓ
+     * Set the 'Application' element value. Описание приложений к акту
      * 
      * @param application
      */
@@ -232,7 +232,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -241,7 +241,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -250,7 +250,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ObservationPlace' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ 
+     * Get the 'ObservationPlace' element value. Место проведения таможенного наблюдения 
      * 
      * @return value
      */
@@ -259,7 +259,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ObservationPlace' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ 
+     * Set the 'ObservationPlace' element value. Место проведения таможенного наблюдения 
      * 
      * @param observationPlace
      */
@@ -268,7 +268,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ApplicationTMCC' element items. РџСЂРёРјРµРЅСЏРµРјС‹Рµ РўРЎРўРљ
+     * Get the list of 'ApplicationTMCC' element items. Применяемые ТСТК
      * 
      * @return list
      */
@@ -277,7 +277,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ApplicationTMCC' element items. РџСЂРёРјРµРЅСЏРµРјС‹Рµ РўРЎРўРљ
+     * Set the list of 'ApplicationTMCC' element items. Применяемые ТСТК
      * 
      * @param list
      */
@@ -286,7 +286,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CustomsPerson' element items. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the list of 'CustomsPerson' element items. Должностное лицо таможенного органа
      * 
      * @return list
      */
@@ -295,7 +295,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CustomsPerson' element items. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the list of 'CustomsPerson' element items. Должностное лицо таможенного органа
      * 
      * @param list
      */
@@ -304,7 +304,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PersonsInvolvedOperation' element items. Р›РёС†Р°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РёРµ РѕРїРµСЂР°С†РёРё 
+     * Get the list of 'PersonsInvolvedOperation' element items. Лица, осуществляющие операции 
      * 
      * @return list
      */
@@ -313,7 +313,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PersonsInvolvedOperation' element items. Р›РёС†Р°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РёРµ РѕРїРµСЂР°С†РёРё 
+     * Set the list of 'PersonsInvolvedOperation' element items. Лица, осуществляющие операции 
      * 
      * @param list
      */
@@ -322,7 +322,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'AddSheet' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ Р»РёСЃС‚ Рє Р°РєС‚Сѓ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+     * Get the list of 'AddSheet' element items. Дополнительный лист к акту таможенного наблюдения
      * 
      * @return list
      */
@@ -331,7 +331,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'AddSheet' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ Р»РёСЃС‚ Рє Р°РєС‚Сѓ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+     * Set the list of 'AddSheet' element items. Дополнительный лист к акту таможенного наблюдения
      * 
      * @param list
      */
@@ -340,7 +340,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -349,7 +349,7 @@ public class ActCustomsObservationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.oez_goodsidentify;
 import org.joda.time.LocalDate;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІРІРѕР·Рµ
+ * Регистрационный номер уведомления о ввозе
  */
 public class RegistrationNumberImpType
 {
@@ -13,7 +13,7 @@ public class RegistrationNumberImpType
     private String number;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚.
+     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RegistrationNumberImpType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚.
+     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ.
      * 
      * @param customsCode
      */
@@ -31,7 +31,7 @@ public class RegistrationNumberImpType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'RegistrationDate' element value. Дата регистрации документа.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class RegistrationNumberImpType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'RegistrationDate' element value. Дата регистрации документа.
      * 
      * @param registrationDate
      */
@@ -49,7 +49,7 @@ public class RegistrationNumberImpType
     }
 
     /** 
-     * Get the 'Number' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'Number' element value. Порядковый номер документа
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class RegistrationNumberImpType
     }
 
     /** 
-     * Set the 'Number' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'Number' element value. Порядковый номер документа
      * 
      * @param number
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.paymenttransactionreport;
 import ru.acs.fts.schemas.album.cardcommonaggregatetypes.OrganizationBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
+ * Информация об организации
  */
 public class OrganizationInfoType extends OrganizationBaseType
 {
@@ -14,7 +14,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     private String bankAccount;
 
     /** 
-     * Get the 'Account' element value. РќРѕРјРµСЂ СЃС‡РµС‚Р°
+     * Get the 'Account' element value. Номер счета
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Account' element value. РќРѕРјРµСЂ СЃС‡РµС‚Р°
+     * Set the 'Account' element value. Номер счета
      * 
      * @param account
      */
@@ -32,7 +32,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°
+     * Get the 'BankName' element value. Наименование банка
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'BankName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р±Р°РЅРєР°
+     * Set the 'BankName' element value. Наименование банка
      * 
      * @param bankName
      */
@@ -50,7 +50,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'BIC' element value. Р‘РРљ Р±Р°РЅРєР°
+     * Get the 'BIC' element value. БИК банка
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'BIC' element value. Р‘РРљ Р±Р°РЅРєР°
+     * Set the 'BIC' element value. БИК банка
      * 
      * @param BIC
      */
@@ -68,7 +68,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'BankAccount' element value. РљРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС‚СЃРєРёР№ СЃС‡РµС‚ Р±Р°РЅРєР°
+     * Get the 'BankAccount' element value. Корреспондентский счет банка
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class OrganizationInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'BankAccount' element value. РљРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС‚СЃРєРёР№ СЃС‡РµС‚ Р±Р°РЅРєР°
+     * Set the 'BankAccount' element value. Корреспондентский счет банка
      * 
      * @param bankAccount
      */

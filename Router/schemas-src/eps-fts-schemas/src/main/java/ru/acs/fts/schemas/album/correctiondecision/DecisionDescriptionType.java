@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
+ * Описание принятого решения
  */
 public class DecisionDescriptionType
 {
@@ -14,7 +14,7 @@ public class DecisionDescriptionType
     private List<String> descriptionTextList = new ArrayList<String>();
 
     /** 
-     * Get the 'InformationCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё: 
+     * Get the 'InformationCode' element value. Код информации: 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Set the 'InformationCode' element value. РљРѕРґ РёРЅС„РѕСЂРјР°С†РёРё: 
+     * Set the 'InformationCode' element value. Код информации: 
      * 
      * @param informationCode
      */
@@ -32,7 +32,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Get the 'ViolationCode' element value. РљРѕРґ С‚РёРїР° РІС‹СЏРІР»РµРЅРЅРѕРіРѕ РЅР°СЂСѓС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІР°. (GR0311)
+     * Get the 'ViolationCode' element value. Код типа выявленного нарушения таможенного законодательства. (GR0311)
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Set the 'ViolationCode' element value. РљРѕРґ С‚РёРїР° РІС‹СЏРІР»РµРЅРЅРѕРіРѕ РЅР°СЂСѓС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІР°. (GR0311)
+     * Set the 'ViolationCode' element value. Код типа выявленного нарушения таможенного законодательства. (GR0311)
      * 
      * @param violationCode
      */
@@ -50,7 +50,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Get the list of 'DescriptionText' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ (РЅРµРїСЂРёРјРµРЅРµРЅРёСЏ) РјРµСЂ
+     * Get the list of 'DescriptionText' element items. Обоснование применения (неприменения) мер
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class DecisionDescriptionType
     }
 
     /** 
-     * Set the list of 'DescriptionText' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ РїСЂРёРјРµРЅРµРЅРёСЏ (РЅРµРїСЂРёРјРµРЅРµРЅРёСЏ) РјРµСЂ
+     * Set the list of 'DescriptionText' element items. Обоснование применения (неприменения) мер
      * 
      * @param list
      */

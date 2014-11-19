@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * Р”РѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІР° РїРѕРґР»РёРЅРЅРѕСЃС‚Рё  Р­Р¦Рџ РЅР° РґРѕРєСѓРјРµРЅС‚.
+ * Доказательства подлинности  ЭЦП на документ.
  */
 public class AUDSignatureEvidenceType
 {

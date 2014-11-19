@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕР±С‰РµР№ СЃСѓРјРјС‹ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ РїРѕ Р±Р°РЅРєРѕРІСЃРєРѕР№ РіР°СЂР°РЅС‚РёРё
+ * Предоставление общей суммы денежных средств по банковской гарантии
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -32,7 +32,7 @@ public class GuaranteeContractAmountType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ReserveDate' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ РіР°СЂР°РЅС‚РёРё
+     * Get the 'ReserveDate' element value. Дата и время формирования гарантии
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class GuaranteeContractAmountType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReserveDate' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ РіР°СЂР°РЅС‚РёРё
+     * Set the 'ReserveDate' element value. Дата и время формирования гарантии
      * 
      * @param reserveDate
      */
@@ -50,7 +50,7 @@ public class GuaranteeContractAmountType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReserveAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РґРµР№СЃС‚РІСѓСЋС‰РµР№ РіР°СЂР°РЅС‚РёРё.
+     * Get the 'ReserveAmount' element value. Общая сумма действующей гарантии.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class GuaranteeContractAmountType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReserveAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РґРµР№СЃС‚РІСѓСЋС‰РµР№ РіР°СЂР°РЅС‚РёРё.
+     * Set the 'ReserveAmount' element value. Общая сумма действующей гарантии.
      * 
      * @param reserveAmount
      */
@@ -68,7 +68,7 @@ public class GuaranteeContractAmountType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResAmount' element value. РќРµРёСЃРїРѕР»СЊР·РѕРІР°РЅРЅС‹Р№ РѕСЃС‚Р°С‚РѕРє РіР°СЂР°РЅС‚РёРё
+     * Get the 'ResAmount' element value. Неиспользованный остаток гарантии
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class GuaranteeContractAmountType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResAmount' element value. РќРµРёСЃРїРѕР»СЊР·РѕРІР°РЅРЅС‹Р№ РѕСЃС‚Р°С‚РѕРє РіР°СЂР°РЅС‚РёРё
+     * Set the 'ResAmount' element value. Неиспользованный остаток гарантии
      * 
      * @param resAmount
      */
@@ -86,7 +86,7 @@ public class GuaranteeContractAmountType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractNumber' element value. РќРѕРјРµСЂ РґРѕРіРѕРІРѕСЂР° РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
+     * Get the 'ContractNumber' element value. Номер договора поручительства
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class GuaranteeContractAmountType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractNumber' element value. РќРѕРјРµСЂ РґРѕРіРѕРІРѕСЂР° РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
+     * Set the 'ContractNumber' element value. Номер договора поручительства
      * 
      * @param contractNumber
      */
@@ -104,7 +104,7 @@ public class GuaranteeContractAmountType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class GuaranteeContractAmountType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РџРµСЂРµС‡РµРЅСЊ РѕС€РёР±РѕРє, РІС‹СЏРІР»РµРЅРЅС‹С… РІ РїСЂРѕС†РµСЃСЃРµ РїСЂРѕРІРµРґРµРЅРёСЏ С„РѕСЂРјР°С‚РЅРѕ-Р»РѕРіРёС‡РµСЃРєРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ СЃРІРµРґРµРЅРёР№, Р·Р°СЏРІР»РµРЅРЅС‹С… РІ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјРµ РґРѕРєСѓРјРµРЅС‚Р°
+ * Перечень ошибок, выявленных в процессе проведения форматно-логического контроля сведений, заявленных в электронной форме документа
  */
 public class ErrorListType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class ErrorListType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SendDate' element value. Дата направления
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ErrorListType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SendDate' element value. Дата направления
      * 
      * @param sendDate
      */
@@ -36,7 +36,7 @@ public class ErrorListType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ErrorListType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -54,7 +54,7 @@ public class ErrorListType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'BadDocument' element items. Р”РѕРєСѓРјРµРЅС‚ СЃ РѕС€РёР±РєР°РјРё
+     * Get the list of 'BadDocument' element items. Документ с ошибками
      * 
      * @return list
      */
@@ -63,7 +63,7 @@ public class ErrorListType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'BadDocument' element items. Р”РѕРєСѓРјРµРЅС‚ СЃ РѕС€РёР±РєР°РјРё
+     * Set the list of 'BadDocument' element items. Документ с ошибками
      * 
      * @param list
      */
@@ -72,7 +72,7 @@ public class ErrorListType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ErrorListType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

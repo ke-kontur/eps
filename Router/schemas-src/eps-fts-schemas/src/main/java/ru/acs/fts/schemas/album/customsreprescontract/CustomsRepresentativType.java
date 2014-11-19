@@ -5,14 +5,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»Рµ
+ * Информация о таможенном представителе
  */
 public class CustomsRepresentativType extends CUOrganizationType
 {
     private DocumentBaseType customsRepresCertificate;
 
     /** 
-     * Get the 'CustomsRepresCertificate' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
+     * Get the 'CustomsRepresCertificate' element value. Свидетельство о включении в реестр таможенных представителей
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class CustomsRepresentativType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'CustomsRepresCertificate' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
+     * Set the 'CustomsRepresCertificate' element value. Свидетельство о включении в реестр таможенных представителей
      * 
      * @param customsRepresCertificate
      */

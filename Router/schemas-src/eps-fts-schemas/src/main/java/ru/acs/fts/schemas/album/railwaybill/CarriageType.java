@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.railwaybill;
 
 /** 
- * Р”Р°РЅРЅС‹Рµ РѕР± РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РІР°РіРѕРЅР°С… 
+ * Данные об используемых вагонах 
  */
 public class CarriageType
 {
@@ -13,7 +13,7 @@ public class CarriageType
     private String goodsWeight;
 
     /** 
-     * Get the 'CarriageID' element value. РќРѕРјРµСЂ РІР°РіРѕРЅР°
+     * Get the 'CarriageID' element value. Номер вагона
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CarriageType
     }
 
     /** 
-     * Set the 'CarriageID' element value. РќРѕРјРµСЂ РІР°РіРѕРЅР°
+     * Set the 'CarriageID' element value. Номер вагона
      * 
      * @param carriageID
      */
@@ -31,7 +31,7 @@ public class CarriageType
     }
 
     /** 
-     * Get the 'Power' element value. РџРѕРґСЉРµРјРЅР°СЏ СЃРёР»Р° РІР°РіРѕРЅР° РІ С‚РѕРЅРЅР°С…
+     * Get the 'Power' element value. Подъемная сила вагона в тоннах
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CarriageType
     }
 
     /** 
-     * Set the 'Power' element value. РџРѕРґСЉРµРјРЅР°СЏ СЃРёР»Р° РІР°РіРѕРЅР° РІ С‚РѕРЅРЅР°С…
+     * Set the 'Power' element value. Подъемная сила вагона в тоннах
      * 
      * @param power
      */
@@ -49,7 +49,7 @@ public class CarriageType
     }
 
     /** 
-     * Get the 'AxisQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕСЃРµР№ РІР°РіРѕРЅР°
+     * Get the 'AxisQuantity' element value. Количество осей вагона
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class CarriageType
     }
 
     /** 
-     * Set the 'AxisQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕСЃРµР№ РІР°РіРѕРЅР°
+     * Set the 'AxisQuantity' element value. Количество осей вагона
      * 
      * @param axisQuantity
      */
@@ -67,7 +67,7 @@ public class CarriageType
     }
 
     /** 
-     * Get the 'Tare' element value. Р’РµСЃ С‚Р°СЂС‹ РІ РєРі.
+     * Get the 'Tare' element value. Вес тары в кг.
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class CarriageType
     }
 
     /** 
-     * Set the 'Tare' element value. Р’РµСЃ С‚Р°СЂС‹ РІ РєРі.
+     * Set the 'Tare' element value. Вес тары в кг.
      * 
      * @param tare
      */
@@ -85,7 +85,7 @@ public class CarriageType
     }
 
     /** 
-     * Get the 'GoodsWeight' element value. Р’РµСЃ РіСЂСѓР·Р° РїРѕСЃР»Рµ РїРµСЂРµРіСЂСѓР·РєРё
+     * Get the 'GoodsWeight' element value. Вес груза после перегрузки
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class CarriageType
     }
 
     /** 
-     * Set the 'GoodsWeight' element value. Р’РµСЃ РіСЂСѓР·Р° РїРѕСЃР»Рµ РїРµСЂРµРіСЂСѓР·РєРё
+     * Set the 'GoodsWeight' element value. Вес груза после перегрузки
      * 
      * @param goodsWeight
      */

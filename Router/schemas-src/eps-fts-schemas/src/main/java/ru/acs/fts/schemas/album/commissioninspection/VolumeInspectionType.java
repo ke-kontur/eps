@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commissioninspection;
 
 /** 
- * РћР±СЉРµРј РґРѕСЃРјРѕС‚СЂР°
+ * Объем досмотра
  */
 public class VolumeInspectionType
 {
@@ -11,7 +11,7 @@ public class VolumeInspectionType
     private String percent100;
 
     /** 
-     * Get the 'Percent10' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
+     * Get the 'Percent10' element value. Если значение поля: "true" - да; "false" - нет.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class VolumeInspectionType
     }
 
     /** 
-     * Set the 'Percent10' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
+     * Set the 'Percent10' element value. Если значение поля: "true" - да; "false" - нет.
      * 
      * @param percent10
      */
@@ -29,7 +29,7 @@ public class VolumeInspectionType
     }
 
     /** 
-     * Get the 'Percent50' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
+     * Get the 'Percent50' element value. Если значение поля: "true" - да; "false" - нет.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class VolumeInspectionType
     }
 
     /** 
-     * Set the 'Percent50' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
+     * Set the 'Percent50' element value. Если значение поля: "true" - да; "false" - нет.
      * 
      * @param percent50
      */
@@ -47,7 +47,7 @@ public class VolumeInspectionType
     }
 
     /** 
-     * Get the 'Percent100' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
+     * Get the 'Percent100' element value. Если значение поля: "true" - да; "false" - нет.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class VolumeInspectionType
     }
 
     /** 
-     * Set the 'Percent100' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: "true" - РґР°; "false" - РЅРµС‚.
+     * Set the 'Percent100' element value. Если значение поля: "true" - да; "false" - нет.
      * 
      * @param percent100
      */

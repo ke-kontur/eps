@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·Рµ
+ * Сведения о грузе
  */
 public class CargoBaseType
 {
@@ -13,7 +13,7 @@ public class CargoBaseType
     private String grossWeightQuantity;
 
     /** 
-     * Get the list of 'CargoDescription' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
+     * Get the list of 'CargoDescription' element items. Описание груза
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class CargoBaseType
     }
 
     /** 
-     * Set the list of 'CargoDescription' element items. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·Р°
+     * Set the list of 'CargoDescription' element items. Описание груза
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class CargoBaseType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Вес товара брутто (кг)
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CargoBaseType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Вес товара брутто (кг)
      * 
      * @param grossWeightQuantity
      */

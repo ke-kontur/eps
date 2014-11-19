@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°.
+ * Тело документа.
  */
 public class AUDDocumentBodyType
 {

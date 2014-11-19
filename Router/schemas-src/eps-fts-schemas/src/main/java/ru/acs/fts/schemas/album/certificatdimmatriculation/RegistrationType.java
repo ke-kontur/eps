@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.certificatdimmatriculation;
 import org.joda.time.LocalDate;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° РўРЎ
+ * Регистрационные данные свидетельства ТС
  */
 public class RegistrationType
 {
@@ -15,7 +15,7 @@ public class RegistrationType
     private String GAIName;
 
     /** 
-     * Get the 'RegionCode' element value. РљРѕРґ СЂРµРіРёРѕРЅР°
+     * Get the 'RegionCode' element value. Код региона
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'RegionCode' element value. РљРѕРґ СЂРµРіРёРѕРЅР°
+     * Set the 'RegionCode' element value. Код региона
      * 
      * @param regionCode
      */
@@ -33,7 +33,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'SeriesCode' element value. РЎРµСЂРёСЏ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Get the 'SeriesCode' element value. Серия свидетельства
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'SeriesCode' element value. РЎРµСЂРёСЏ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Set the 'SeriesCode' element value. Серия свидетельства
      * 
      * @param seriesCode
      */
@@ -51,7 +51,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Get the 'DocumentNumber' element value. Номер свидетельства
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Set the 'DocumentNumber' element value. Номер свидетельства
      * 
      * @param documentNumber
      */
@@ -69,7 +69,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Get the 'IssueDate' element value. Дата выдачи свидетельства
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Set the 'IssueDate' element value. Дата выдачи свидетельства
      * 
      * @param issueDate
      */
@@ -87,7 +87,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'GAIName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р“РђР, РІС‹РґР°РІС€РµРіРѕ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РўРЎ
+     * Get the 'GAIName' element value. Наименование ГАИ, выдавшего свидетельство о регистрации ТС
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'GAIName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р“РђР, РІС‹РґР°РІС€РµРіРѕ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РўРЎ
+     * Set the 'GAIName' element value. Наименование ГАИ, выдавшего свидетельство о регистрации ТС
      * 
      * @param GAIName
      */

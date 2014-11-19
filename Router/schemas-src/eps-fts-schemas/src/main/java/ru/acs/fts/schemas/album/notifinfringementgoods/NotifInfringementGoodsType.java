@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё/РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё С‚РѕРІР°СЂРѕРІ Р·Р°СЏРІР»РµРЅРЅС‹Рј СЃРІРµРґРµРЅРёСЏРј
+ * Уведомление о соответствии/несоответствии товаров заявленным сведениям
  */
 public class NotifInfringementGoodsType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
+     * Get the 'Date' element value. Дата создания уведомления
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
+     * Set the 'Date' element value. Дата создания уведомления
      * 
      * @param date
      */
@@ -40,7 +40,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Time' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
+     * Get the 'Time' element value. Время создания уведомления
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Time' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёСЏ
+     * Set the 'Time' element value. Время создания уведомления
      * 
      * @param time
      */
@@ -58,7 +58,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє СѓРІРµРґРѕРјР»РµРЅРёСЏ: 0 - Рѕ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё РїСЂРёР±С‹РІС€РёС… С‚РѕРІР°СЂРѕРІ Р·Р°СЏРІР»РµРЅРЅС‹Рј СЃРІРµРґРµРЅРёСЏРј; 1 - Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё РїСЂРёР±С‹РІС€РёС… С‚РѕРІР°СЂРѕРІ Р·Р°СЏРІР»РµРЅРЅС‹Рј СЃРІРµРґРµРЅРёСЏРј
+     * Get the 'DocSign' element value. Признак уведомления: 0 - о несоответствии прибывших товаров заявленным сведениям; 1 - о соответствии прибывших товаров заявленным сведениям
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє СѓРІРµРґРѕРјР»РµРЅРёСЏ: 0 - Рѕ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё РїСЂРёР±С‹РІС€РёС… С‚РѕРІР°СЂРѕРІ Р·Р°СЏРІР»РµРЅРЅС‹Рј СЃРІРµРґРµРЅРёСЏРј; 1 - Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё РїСЂРёР±С‹РІС€РёС… С‚РѕРІР°СЂРѕРІ Р·Р°СЏРІР»РµРЅРЅС‹Рј СЃРІРµРґРµРЅРёСЏРј
+     * Set the 'DocSign' element value. Признак уведомления: 0 - о несоответствии прибывших товаров заявленным сведениям; 1 - о соответствии прибывших товаров заявленным сведениям
      * 
      * @param docSign
      */
@@ -76,7 +76,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'EconomicOperator' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ РѕРїРµСЂР°С‚РѕСЂ
+     * Get the 'EconomicOperator' element value. Уполномоченный экономический оператор
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'EconomicOperator' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ РѕРїРµСЂР°С‚РѕСЂ
+     * Set the 'EconomicOperator' element value. Уполномоченный экономический оператор
      * 
      * @param economicOperator
      */
@@ -94,7 +94,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. Р›РёС†Рѕ, СѓСЃС‚Р°РЅРѕРІРёРІС€РµРµ С„Р°РєС‚ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ/РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ С‚РѕРІР°СЂРѕРІ Р·Р°СЏРІР»РµРЅРЅС‹Рј СЃРІРµРґРµРЅРёСЏРј
+     * Get the 'AuthorizedPerson' element value. Лицо, установившее факт соответствия/несоответствия товаров заявленным сведениям
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. Р›РёС†Рѕ, СѓСЃС‚Р°РЅРѕРІРёРІС€РµРµ С„Р°РєС‚ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ/РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ С‚РѕРІР°СЂРѕРІ Р·Р°СЏРІР»РµРЅРЅС‹Рј СЃРІРµРґРµРЅРёСЏРј
+     * Set the 'AuthorizedPerson' element value. Лицо, установившее факт соответствия/несоответствия товаров заявленным сведениям
      * 
      * @param authorizedPerson
      */
@@ -112,7 +112,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'FoundDiscrepancy' element items. Р’С‹СЏРІР»РµРЅРЅРѕРµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїСЂРёР±С‹РІС€РёС… С‚РѕРІР°СЂРѕРІ Р·Р°СЏРІР»РµРЅРЅС‹Рј СЃРІРµРґРµРЅРёСЏРј
+     * Get the list of 'FoundDiscrepancy' element items. Выявленное несоответствие прибывших товаров заявленным сведениям
      * 
      * @return list
      */
@@ -121,7 +121,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'FoundDiscrepancy' element items. Р’С‹СЏРІР»РµРЅРЅРѕРµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РїСЂРёР±С‹РІС€РёС… С‚РѕРІР°СЂРѕРІ Р·Р°СЏРІР»РµРЅРЅС‹Рј СЃРІРµРґРµРЅРёСЏРј
+     * Set the list of 'FoundDiscrepancy' element items. Выявленное несоответствие прибывших товаров заявленным сведениям
      * 
      * @param list
      */
@@ -130,7 +130,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class NotifInfringementGoodsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

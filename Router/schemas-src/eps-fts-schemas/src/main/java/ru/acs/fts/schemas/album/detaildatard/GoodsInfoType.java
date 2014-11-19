@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
+ * Сведения о продукции
  */
 public class GoodsInfoType
 {
@@ -14,7 +14,7 @@ public class GoodsInfoType
     private List<StructuredTextType> goodsIdentificationList = new ArrayList<StructuredTextType>();
 
     /** 
-     * Get the 'GoodsKind' element value. РўРёРї РїСЂРѕРґСѓРєС†РёРё
+     * Get the 'GoodsKind' element value. Тип продукции
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsKind' element value. РўРёРї РїСЂРѕРґСѓРєС†РёРё
+     * Set the 'GoodsKind' element value. Тип продукции
      * 
      * @param goodsKind
      */
@@ -32,7 +32,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
+     * Get the list of 'GoodsName' element items. Наименование продукции
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
+     * Set the list of 'GoodsName' element items. Наименование продукции
      * 
      * @param list
      */
@@ -50,7 +50,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the list of 'GoodsIdentification' element items. РќРѕРјРµСЂ Рё СЂР°Р·РјРµСЂ РїР°СЂС‚РёРё РёР»Рё РЅРѕРјРµСЂ РёР·РґРµР»РёСЏ
+     * Get the list of 'GoodsIdentification' element items. Номер и размер партии или номер изделия
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'GoodsIdentification' element items. РќРѕРјРµСЂ Рё СЂР°Р·РјРµСЂ РїР°СЂС‚РёРё РёР»Рё РЅРѕРјРµСЂ РёР·РґРµР»РёСЏ
+     * Set the list of 'GoodsIdentification' element items. Номер и размер партии или номер изделия
      * 
      * @param list
      */

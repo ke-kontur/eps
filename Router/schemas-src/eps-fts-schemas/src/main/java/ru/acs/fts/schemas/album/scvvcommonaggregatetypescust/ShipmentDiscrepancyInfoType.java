@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р№РґРµРЅРЅС‹С… СЂР°СЃС…РѕР¶РґРµРЅРёСЏС… РІ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+ * Информация о найденных расхождениях в товарной партии
  */
 public class ShipmentDiscrepancyInfoType
 {
@@ -17,7 +17,7 @@ public class ShipmentDiscrepancyInfoType
     private List<SCVVPresentedDocumentType> presentedDocumentList = new ArrayList<SCVVPresentedDocumentType>();
 
     /** 
-     * Get the 'ShipmentDiscrepancyCode' element value. РљРѕРґ РЅР°Р№РґРµРЅРЅС‹С… СЂР°СЃС…РѕР¶РґРµРЅРёР№ (РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРѕ РЎРїРµС†РёС„РёРєР°С†РёРµР№ РѕР±РјРµРЅР°)
+     * Get the 'ShipmentDiscrepancyCode' element value. Код найденных расхождений (в соответствии со Спецификацией обмена)
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class ShipmentDiscrepancyInfoType
     }
 
     /** 
-     * Set the 'ShipmentDiscrepancyCode' element value. РљРѕРґ РЅР°Р№РґРµРЅРЅС‹С… СЂР°СЃС…РѕР¶РґРµРЅРёР№ (РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРѕ РЎРїРµС†РёС„РёРєР°С†РёРµР№ РѕР±РјРµРЅР°)
+     * Set the 'ShipmentDiscrepancyCode' element value. Код найденных расхождений (в соответствии со Спецификацией обмена)
      * 
      * @param shipmentDiscrepancyCode
      */
@@ -35,7 +35,7 @@ public class ShipmentDiscrepancyInfoType
     }
 
     /** 
-     * Get the 'CustomsNumber' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'CustomsNumber' element value. Таможенный номер накладной
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ShipmentDiscrepancyInfoType
     }
 
     /** 
-     * Set the 'CustomsNumber' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'CustomsNumber' element value. Таможенный номер накладной
      * 
      * @param customsNumber
      */
@@ -53,7 +53,7 @@ public class ShipmentDiscrepancyInfoType
     }
 
     /** 
-     * Get the 'DTID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DTID' element value. Регистрационный номер таможенного документа.
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ShipmentDiscrepancyInfoType
     }
 
     /** 
-     * Set the 'DTID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DTID' element value. Регистрационный номер таможенного документа.
      * 
      * @param DTID
      */
@@ -71,7 +71,7 @@ public class ShipmentDiscrepancyInfoType
     }
 
     /** 
-     * Get the list of 'GoodsDiscrepancyInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р№РґРµРЅРЅС‹С… СЂР°СЃС…РѕР¶РґРµРЅРёСЏС… РІ С‚РѕРІР°СЂРµ
+     * Get the list of 'GoodsDiscrepancyInfo' element items. Информация о найденных расхождениях в товаре
      * 
      * @return list
      */
@@ -80,7 +80,7 @@ public class ShipmentDiscrepancyInfoType
     }
 
     /** 
-     * Set the list of 'GoodsDiscrepancyInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р№РґРµРЅРЅС‹С… СЂР°СЃС…РѕР¶РґРµРЅРёСЏС… РІ С‚РѕРІР°СЂРµ
+     * Set the list of 'GoodsDiscrepancyInfo' element items. Информация о найденных расхождениях в товаре
      * 
      * @param list
      */
@@ -89,7 +89,7 @@ public class ShipmentDiscrepancyInfoType
     }
 
     /** 
-     * Get the list of 'PresentedDocument' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Get the list of 'PresentedDocument' element items. Транспортный документ
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class ShipmentDiscrepancyInfoType
     }
 
     /** 
-     * Set the list of 'PresentedDocument' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Set the list of 'PresentedDocument' element items. Транспортный документ
      * 
      * @param list
      */

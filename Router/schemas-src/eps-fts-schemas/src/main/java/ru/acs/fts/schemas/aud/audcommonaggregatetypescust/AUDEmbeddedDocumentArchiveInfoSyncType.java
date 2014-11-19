@@ -10,7 +10,7 @@ public class AUDEmbeddedDocumentArchiveInfoSyncType
     private AUDArchiveDocumentIdWithVersionType archiveDocumentIdWithVersion;
 
     /** 
-     * Get the 'DocumenVersionChaintId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїСЂРµР¶РЅРµР№ РІРµСЂСЃРёРё. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РґРѕРєСѓРјРµРЅС‚ РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ СЃРѕР±РѕР№ РЅРѕРІСѓСЋ (СЃР»РµРґСѓСЋС‰СѓСЋ) РІРµСЂСЃРёСЋ СѓР¶Рµ С…СЂР°РЅРёРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumenVersionChaintId' element value. Архивный идентификатор документа прежней версии. Указывается в случае, если документ представляет собой новую (следующую) версию уже хранимого документа.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AUDEmbeddedDocumentArchiveInfoSyncType
     }
 
     /** 
-     * Set the 'DocumenVersionChaintId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїСЂРµР¶РЅРµР№ РІРµСЂСЃРёРё. РЈРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё РґРѕРєСѓРјРµРЅС‚ РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ СЃРѕР±РѕР№ РЅРѕРІСѓСЋ (СЃР»РµРґСѓСЋС‰СѓСЋ) РІРµСЂСЃРёСЋ СѓР¶Рµ С…СЂР°РЅРёРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumenVersionChaintId' element value. Архивный идентификатор документа прежней версии. Указывается в случае, если документ представляет собой новую (следующую) версию уже хранимого документа.
      * 
      * @param documenVersionChaintId
      */
@@ -28,7 +28,7 @@ public class AUDEmbeddedDocumentArchiveInfoSyncType
     }
 
     /** 
-     * Get the 'IsActualDocumentIndicator' element value. РџСЂРёР·РЅР°Рє: СЏРІР»СЏРµС‚СЃСЏ Р»Рё РґРѕРєСѓРјРµРЅС‚ Р°РєС‚СѓР°Р»СЊРЅС‹Рј (true) РёР»Рё РЅРµС‚ (false).
+     * Get the 'IsActualDocumentIndicator' element value. Признак: является ли документ актуальным (true) или нет (false).
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AUDEmbeddedDocumentArchiveInfoSyncType
     }
 
     /** 
-     * Set the 'IsActualDocumentIndicator' element value. РџСЂРёР·РЅР°Рє: СЏРІР»СЏРµС‚СЃСЏ Р»Рё РґРѕРєСѓРјРµРЅС‚ Р°РєС‚СѓР°Р»СЊРЅС‹Рј (true) РёР»Рё РЅРµС‚ (false).
+     * Set the 'IsActualDocumentIndicator' element value. Признак: является ли документ актуальным (true) или нет (false).
      * 
      * @param isActualDocumentIndicator
      */
@@ -46,7 +46,7 @@ public class AUDEmbeddedDocumentArchiveInfoSyncType
     }
 
     /** 
-     * Get the 'ArchiveDocumentIdWithVersion' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°СЂС…РёРІРЅРѕРј РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂРµ РґРѕРєСѓРјРµРЅС‚Р° Рё РЅРѕРјРµСЂРµ РІРµСЂСЃРёРё.
+     * Get the 'ArchiveDocumentIdWithVersion' element value. Информация об архивном идентификаторе документа и номере версии.
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class AUDEmbeddedDocumentArchiveInfoSyncType
     }
 
     /** 
-     * Set the 'ArchiveDocumentIdWithVersion' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°СЂС…РёРІРЅРѕРј РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂРµ РґРѕРєСѓРјРµРЅС‚Р° Рё РЅРѕРјРµСЂРµ РІРµСЂСЃРёРё.
+     * Set the 'ArchiveDocumentIdWithVersion' element value. Информация об архивном идентификаторе документа и номере версии.
      * 
      * @param archiveDocumentIdWithVersion
      */

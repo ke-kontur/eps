@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUGoodsLocationPl
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUTransportType;
 
 /** 
- * РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂР°
+ * Местонахождение товара
  */
 public class GoodsLocationType
 {
@@ -16,7 +16,7 @@ public class GoodsLocationType
     private AddressType address;
 
     /** 
-     * Get the 'CustomsOffice' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsOffice' element value. Код таможенного органа
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Set the 'CustomsOffice' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsOffice' element value. Код таможенного органа
      * 
      * @param customsOffice
      */
@@ -34,7 +34,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Get the 'CustomsCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsCountryCode' element value. Код страны таможенного органа
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Set the 'CustomsCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsCountryCode' element value. Код страны таможенного органа
      * 
      * @param customsCountryCode
      */
@@ -70,7 +70,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Get the 'Address' element value. РўРѕС‡РЅС‹Р№ Р°РґСЂРµСЃ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ.
+     * Get the 'Address' element value. Точный адрес местонахождения товаров.
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class GoodsLocationType
     }
 
     /** 
-     * Set the 'Address' element value. РўРѕС‡РЅС‹Р№ Р°РґСЂРµСЃ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ.
+     * Set the 'Address' element value. Точный адрес местонахождения товаров.
      * 
      * @param address
      */
@@ -122,7 +122,7 @@ public class GoodsLocationType
         }
 
         /** 
-         * Get the 'GoodsLocationWarehouse' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ: С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЃРєР»Р°Рґ, СЃРєР»Р°Рґ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ, СЃРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ, СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅС‹Рµ
+         * Get the 'GoodsLocationWarehouse' element value. Сведения о местонахождении товаров: таможенный склад, склад временного хранения, свободный склад, склад получателя, иные
          * 
          * @return value
          */
@@ -131,7 +131,7 @@ public class GoodsLocationType
         }
 
         /** 
-         * Set the 'GoodsLocationWarehouse' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ: С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЃРєР»Р°Рґ, СЃРєР»Р°Рґ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ, СЃРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ, СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅС‹Рµ
+         * Set the 'GoodsLocationWarehouse' element value. Сведения о местонахождении товаров: таможенный склад, склад временного хранения, свободный склад, склад получателя, иные
          * 
          * @param goodsLocationWarehouse
          */
@@ -151,7 +151,7 @@ public class GoodsLocationType
         }
 
         /** 
-         * Get the 'CUGoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°.
+         * Get the 'CUGoodsLocationPlace' element value. Сведения о местонахождении товара.
          * 
          * @return value
          */
@@ -160,7 +160,7 @@ public class GoodsLocationType
         }
 
         /** 
-         * Set the 'CUGoodsLocationPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°.
+         * Set the 'CUGoodsLocationPlace' element value. Сведения о местонахождении товара.
          * 
          * @param CUGoodsLocationPlace
          */
@@ -180,7 +180,7 @@ public class GoodsLocationType
         }
 
         /** 
-         * Get the 'CUTransport' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ - С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+         * Get the 'CUTransport' element value. Сведения о местонахождении товаров - транспортное средство
          * 
          * @return value
          */
@@ -189,7 +189,7 @@ public class GoodsLocationType
         }
 
         /** 
-         * Set the 'CUTransport' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ - С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+         * Set the 'CUTransport' element value. Сведения о местонахождении товаров - транспортное средство
          * 
          * @param CUTransport
          */

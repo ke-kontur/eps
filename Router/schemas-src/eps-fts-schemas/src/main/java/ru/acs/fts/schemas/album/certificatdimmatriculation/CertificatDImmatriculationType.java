@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+ * Свидетельство о регистрации транспортного средства
  */
 public class CertificatDImmatriculationType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'Comment' element items. РџСЂРѕС‡РёРµ РѕС‚РјРµС‚РєРё
+     * Get the list of 'Comment' element items. Прочие отметки
      * 
      * @return list
      */
@@ -28,7 +28,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Comment' element items. РџСЂРѕС‡РёРµ РѕС‚РјРµС‚РєРё
+     * Set the list of 'Comment' element items. Прочие отметки
      * 
      * @param list
      */
@@ -37,7 +37,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Get the 'PTSNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РџР°СЃРїРѕСЂС‚Р° РўРЎ
+     * Get the 'PTSNumber' element value. Регистрационный номер Паспорта ТС
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Set the 'PTSNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РџР°СЃРїРѕСЂС‚Р° РўРЎ
+     * Set the 'PTSNumber' element value. Регистрационный номер Паспорта ТС
      * 
      * @param PTSNumber
      */
@@ -55,7 +55,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Get the 'Registration' element value. Регистрационные данные свидетельства
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Registration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Set the 'Registration' element value. Регистрационные данные свидетельства
      * 
      * @param registration
      */
@@ -73,7 +73,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Get the 'UnRegistration' element value. Р”Р°РЅРЅС‹Рµ Рѕ СЃРЅСЏС‚РёРё СЃ СѓС‡РµС‚Р° РўРЎ
+     * Get the 'UnRegistration' element value. Данные о снятии с учета ТС
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Set the 'UnRegistration' element value. Р”Р°РЅРЅС‹Рµ Рѕ СЃРЅСЏС‚РёРё СЃ СѓС‡РµС‚Р° РўРЎ
+     * Set the 'UnRegistration' element value. Данные о снятии с учета ТС
      * 
      * @param unRegistration
      */
@@ -91,7 +91,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CDITransportMeans' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ 
+     * Get the 'CDITransportMeans' element value. Сведения о транспортном средстве 
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CDITransportMeans' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ 
+     * Set the 'CDITransportMeans' element value. Сведения о транспортном средстве 
      * 
      * @param CDITransportMeans
      */
@@ -109,7 +109,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CDIAutomobileowner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'CDIAutomobileowner' element value. Сведения о собственнике транспортного средства
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CDIAutomobileowner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'CDIAutomobileowner' element value. Сведения о собственнике транспортного средства
      * 
      * @param CDIAutomobileowner
      */
@@ -127,7 +127,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class CertificatDImmatriculationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

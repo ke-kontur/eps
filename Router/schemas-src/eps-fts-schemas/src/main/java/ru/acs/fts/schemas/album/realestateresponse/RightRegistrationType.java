@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅРѕРµ РїСЂР°РІРѕ
+ * Зарегистрированное право
  */
 public class RightRegistrationType
 {
@@ -20,7 +20,7 @@ public class RightRegistrationType
     private List<FoundationDocType> foundationDocList = new ArrayList<FoundationDocType>();
 
     /** 
-     * Get the 'RegDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'RegDate' element value. Дата государственной регистрации
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Set the 'RegDate' element value. Р”Р°С‚Р° РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'RegDate' element value. Дата государственной регистрации
      * 
      * @param regDate
      */
@@ -38,7 +38,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Get the 'RegNum' element value. РќРѕРјРµСЂ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё 
+     * Get the 'RegNum' element value. Номер государственной регистрации 
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Set the 'RegNum' element value. РќРѕРјРµСЂ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё 
+     * Set the 'RegNum' element value. Номер государственной регистрации 
      * 
      * @param regNum
      */
@@ -56,7 +56,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Get the 'ExpirationDate' element value. Р”Р°С‚Р° РїСЂРµРєСЂР°С‰РµРЅРёСЏ РїСЂР°РІР°
+     * Get the 'ExpirationDate' element value. Дата прекращения права
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Set the 'ExpirationDate' element value. Р”Р°С‚Р° РїСЂРµРєСЂР°С‰РµРЅРёСЏ РїСЂР°РІР°
+     * Set the 'ExpirationDate' element value. Дата прекращения права
      * 
      * @param expirationDate
      */
@@ -74,7 +74,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Get the 'ShareNominator' element value. Р§РёСЃР»РёС‚РµР»СЊ РґРѕР»Рё
+     * Get the 'ShareNominator' element value. Числитель доли
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Set the 'ShareNominator' element value. Р§РёСЃР»РёС‚РµР»СЊ РґРѕР»Рё
+     * Set the 'ShareNominator' element value. Числитель доли
      * 
      * @param shareNominator
      */
@@ -92,7 +92,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Get the 'ShareDenominator' element value. Р—РЅР°РјРµРЅР°С‚РµР»СЊ РґРѕР»Рё
+     * Get the 'ShareDenominator' element value. Знаменатель доли
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Set the 'ShareDenominator' element value. Р—РЅР°РјРµРЅР°С‚РµР»СЊ РґРѕР»Рё
+     * Set the 'ShareDenominator' element value. Знаменатель доли
      * 
      * @param shareDenominator
      */
@@ -110,7 +110,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Get the 'ShareText' element value. Р—РЅР°С‡РµРЅРёРµ РґРѕР»Рё С‚РµРєСЃС‚РѕРј
+     * Get the 'ShareText' element value. Значение доли текстом
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Set the 'ShareText' element value. Р—РЅР°С‡РµРЅРёРµ РґРѕР»Рё С‚РµРєСЃС‚РѕРј
+     * Set the 'ShareText' element value. Значение доли текстом
      * 
      * @param shareText
      */
@@ -128,7 +128,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Get the 'RightDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂР°РІР°
+     * Get the 'RightDescription' element value. Описание права
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Set the 'RightDescription' element value. РћРїРёСЃР°РЅРёРµ РїСЂР°РІР°
+     * Set the 'RightDescription' element value. Описание права
      * 
      * @param rightDescription
      */
@@ -146,7 +146,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Get the list of 'FoundationDoc' element items. Р”РѕРєСѓРјРµРЅС‚С‹ - РѕСЃРЅРѕРІР°РЅРёСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂР°РІР°
+     * Get the list of 'FoundationDoc' element items. Документы - основания регистрации права
      * 
      * @return list
      */
@@ -155,7 +155,7 @@ public class RightRegistrationType
     }
 
     /** 
-     * Set the list of 'FoundationDoc' element items. Р”РѕРєСѓРјРµРЅС‚С‹ - РѕСЃРЅРѕРІР°РЅРёСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂР°РІР°
+     * Set the list of 'FoundationDoc' element items. Документы - основания регистрации права
      * 
      * @param list
      */

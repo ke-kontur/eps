@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.bartertransactionpasport;
 
 /** 
- * РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р° Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё 
+ * Номер паспорта бартерной сделки 
  */
 public class PasportIDType
 {
@@ -12,7 +12,7 @@ public class PasportIDType
     private String number10;
 
     /** 
-     * Get the 'Sign' element value. РџСЂРёР·РЅР°Рє СЃРґРµР»РєРё (РІСЃРµРіРґР° СЂР°РІРµРЅ 3) 
+     * Get the 'Sign' element value. Признак сделки (всегда равен 3) 
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PasportIDType
     }
 
     /** 
-     * Set the 'Sign' element value. РџСЂРёР·РЅР°Рє СЃРґРµР»РєРё (РІСЃРµРіРґР° СЂР°РІРµРЅ 3) 
+     * Set the 'Sign' element value. Признак сделки (всегда равен 3) 
      * 
      * @param sign
      */
@@ -30,7 +30,7 @@ public class PasportIDType
     }
 
     /** 
-     * Get the 'OKPOID' element value. РљРѕРґ РћРљРџРћ РЈРїСЂР°РІР»РµРЅРёСЏ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РњР’Р­РЎ Р РѕСЃСЃРёРё    
+     * Get the 'OKPOID' element value. Код ОКПО Управления уполномоченного МВЭС России    
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PasportIDType
     }
 
     /** 
-     * Set the 'OKPOID' element value. РљРѕРґ РћРљРџРћ РЈРїСЂР°РІР»РµРЅРёСЏ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РњР’Р­РЎ Р РѕСЃСЃРёРё    
+     * Set the 'OKPOID' element value. Код ОКПО Управления уполномоченного МВЭС России    
      * 
      * @param OKPOID
      */
@@ -48,7 +48,7 @@ public class PasportIDType
     }
 
     /** 
-     * Get the 'Number3' element value. РќРѕРјРµСЂ РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ РїР°СЃРїРѕСЂС‚Р° Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё
+     * Get the 'Number3' element value. Номер переоформленного паспорта бартерной сделки
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class PasportIDType
     }
 
     /** 
-     * Set the 'Number3' element value. РќРѕРјРµСЂ РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРЅРѕРіРѕ РїР°СЃРїРѕСЂС‚Р° Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё
+     * Set the 'Number3' element value. Номер переоформленного паспорта бартерной сделки
      * 
      * @param number3
      */
@@ -66,7 +66,7 @@ public class PasportIDType
     }
 
     /** 
-     * Get the 'Number10' element value. РќРѕРјРµСЂ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕРіРѕ РїР°СЃРїРѕСЂС‚Р° Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё, РїСЂРёСЃРІРѕРµРЅРЅС‹Р№ СѓРїСЂР°РІР»РµРЅРёРµРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Рј РњРёРЅСЌРєРѕРЅРѕРјСЂР°Р·РІРёС‚РёСЏ 
+     * Get the 'Number10' element value. Номер первоначального паспорта бартерной сделки, присвоенный управлением уполномоченным Минэкономразвития 
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class PasportIDType
     }
 
     /** 
-     * Set the 'Number10' element value. РќРѕРјРµСЂ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕРіРѕ РїР°СЃРїРѕСЂС‚Р° Р±Р°СЂС‚РµСЂРЅРѕР№ СЃРґРµР»РєРё, РїСЂРёСЃРІРѕРµРЅРЅС‹Р№ СѓРїСЂР°РІР»РµРЅРёРµРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Рј РњРёРЅСЌРєРѕРЅРѕРјСЂР°Р·РІРёС‚РёСЏ 
+     * Set the 'Number10' element value. Номер первоначального паспорта бартерной сделки, присвоенный управлением уполномоченным Минэкономразвития 
      * 
      * @param number10
      */

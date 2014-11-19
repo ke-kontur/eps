@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.detailquotadatard;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґР°РІС†Рµ (РїРѕРєСѓРїР°С‚РµР»Рµ)
+ * Сведения о продавце (покупателе)
  */
 public class OrganizationInfoType
 {
@@ -10,7 +10,7 @@ public class OrganizationInfoType
     private String address;
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ 
+     * Get the 'OrganizationName' element value. Наименование 
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ 
+     * Set the 'OrganizationName' element value. Наименование 
      * 
      * @param organizationName
      */
@@ -28,7 +28,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ 
+     * Get the 'Address' element value. Адрес 
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ 
+     * Set the 'Address' element value. Адрес 
      * 
      * @param address
      */

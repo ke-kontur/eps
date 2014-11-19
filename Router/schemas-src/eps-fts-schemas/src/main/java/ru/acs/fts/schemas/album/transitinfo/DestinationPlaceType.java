@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+ * Сведения о месте назначения
  */
 public class DestinationPlaceType extends CUCustomsType
 {
@@ -14,7 +14,7 @@ public class DestinationPlaceType extends CUCustomsType
     private RWstationType RWstation;
 
     /** 
-     * Get the 'PlaceDescription' element value. РњРµСЃС‚Рѕ РґРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'PlaceDescription' element value. Место доставки товаров
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DestinationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Set the 'PlaceDescription' element value. РњРµСЃС‚Рѕ РґРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'PlaceDescription' element value. Место доставки товаров
      * 
      * @param placeDescription
      */
@@ -32,7 +32,7 @@ public class DestinationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Get the 'RegistrationCertificate' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ РЈР­Рћ
+     * Get the 'RegistrationCertificate' element value. Свидетельство о включении в реестр УЭО
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DestinationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Set the 'RegistrationCertificate' element value. РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ РЈР­Рћ
+     * Set the 'RegistrationCertificate' element value. Свидетельство о включении в реестр УЭО
      * 
      * @param registrationCertificate
      */
@@ -51,7 +51,7 @@ public class DestinationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Get the 'RWstation' element value. Р–Р” СЃС‚Р°РЅС†РёСЏ
+     * Get the 'RWstation' element value. ЖД станция
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class DestinationPlaceType extends CUCustomsType
     }
 
     /** 
-     * Set the 'RWstation' element value. Р–Р” СЃС‚Р°РЅС†РёСЏ
+     * Set the 'RWstation' element value. ЖД станция
      * 
      * @param RWstation
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РџСЂРѕС‚РѕРєРѕР» РІС‹СЏРІР»РµРЅРёСЏ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° СЃ РґРµС‚Р°Р»РёР·Р°С†РёРµР№
+ * Протокол выявления профиля риска с детализацией
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -40,7 +40,7 @@ public class RevealedRiskProtocolType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RiskAtomicVersion' element value. Р’РµСЂСЃРёСЏ С„Р°Р№Р»Р° Р°С‚РѕРјР°СЂРЅРѕРіРѕ РјРѕРґСѓР»СЏ РІС‹СЏРІР»РµРЅРёСЏ
+     * Get the 'RiskAtomicVersion' element value. Версия файла атомарного модуля выявления
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class RevealedRiskProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'RiskAtomicVersion' element value. Р’РµСЂСЃРёСЏ С„Р°Р№Р»Р° Р°С‚РѕРјР°СЂРЅРѕРіРѕ РјРѕРґСѓР»СЏ РІС‹СЏРІР»РµРЅРёСЏ
+     * Set the 'RiskAtomicVersion' element value. Версия файла атомарного модуля выявления
      * 
      * @param riskAtomicVersion
      */
@@ -58,7 +58,7 @@ public class RevealedRiskProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'AlertedSign' element value. РџСЂРёР·РЅР°Рє РїРѕРїР°РґР°РЅРёСЏ Р”Рў РІ СЃРїРёСЃРѕРє РІС‹СЏРІР»СЏРµРјС‹С… РґР»СЏ  РђРџРЎ РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ (true - РїРѕРїР°Р»Р°, false - РЅРµ РїРѕРїР°Р»Р°)
+     * Get the 'AlertedSign' element value. Признак попадания ДТ в список выявляемых для  АПС Тестирование (true - попала, false - не попала)
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class RevealedRiskProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'AlertedSign' element value. РџСЂРёР·РЅР°Рє РїРѕРїР°РґР°РЅРёСЏ Р”Рў РІ СЃРїРёСЃРѕРє РІС‹СЏРІР»СЏРµРјС‹С… РґР»СЏ  РђРџРЎ РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ (true - РїРѕРїР°Р»Р°, false - РЅРµ РїРѕРїР°Р»Р°)
+     * Set the 'AlertedSign' element value. Признак попадания ДТ в список выявляемых для  АПС Тестирование (true - попала, false - не попала)
      * 
      * @param alertedSign
      */
@@ -76,7 +76,7 @@ public class RevealedRiskProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ Р”Рў/РџРџ/РџР/РўР”
+     * Get the 'DocumentNumber' element value. Номер ДТ/ПП/ПИ/ТД
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class RevealedRiskProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ Р”Рў/РџРџ/РџР/РўР”
+     * Set the 'DocumentNumber' element value. Номер ДТ/ПП/ПИ/ТД
      * 
      * @param documentNumber
      */
@@ -112,7 +112,7 @@ public class RevealedRiskProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'BeginRevealing' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РІС‹СЏРІР»РµРЅРёСЏ
+     * Get the 'BeginRevealing' element value. Дата и время начала выявления
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class RevealedRiskProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'BeginRevealing' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РІС‹СЏРІР»РµРЅРёСЏ
+     * Set the 'BeginRevealing' element value. Дата и время начала выявления
      * 
      * @param beginRevealing
      */
@@ -130,7 +130,7 @@ public class RevealedRiskProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndRevealing' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РІС‹СЏРІР»РµРЅРёСЏ
+     * Get the 'EndRevealing' element value. Дата и время начала выявления
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class RevealedRiskProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndRevealing' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РІС‹СЏРІР»РµРЅРёСЏ
+     * Set the 'EndRevealing' element value. Дата и время начала выявления
      * 
      * @param endRevealing
      */
@@ -148,7 +148,7 @@ public class RevealedRiskProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class RevealedRiskProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
      * 
      * @param documentModeID
      */
@@ -211,7 +211,7 @@ public class RevealedRiskProtocolType extends BaseDocType
         private List<ConsignmentExtended> consignmentExtendedList = new ArrayList<ConsignmentExtended>();
 
         /** 
-         * Get the 'AlertedSign' element value. РџСЂРёР·РЅР°Рє РІС‹СЏРІР»РµРЅРёСЏ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° (true - РІС‹СЏРІР»РµРЅ, false - РЅРµ РІС‹СЏРІР»РµРЅ)
+         * Get the 'AlertedSign' element value. Признак выявления профиля риска (true - выявлен, false - не выявлен)
          * 
          * @return value
          */
@@ -220,7 +220,7 @@ public class RevealedRiskProtocolType extends BaseDocType
         }
 
         /** 
-         * Set the 'AlertedSign' element value. РџСЂРёР·РЅР°Рє РІС‹СЏРІР»РµРЅРёСЏ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° (true - РІС‹СЏРІР»РµРЅ, false - РЅРµ РІС‹СЏРІР»РµРЅ)
+         * Set the 'AlertedSign' element value. Признак выявления профиля риска (true - выявлен, false - не выявлен)
          * 
          * @param alertedSign
          */
@@ -229,7 +229,7 @@ public class RevealedRiskProtocolType extends BaseDocType
         }
 
         /** 
-         * Get the 'RiskProfileNumber' element value. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°/РїСЂРѕРµРєС‚Р° РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РІ С„РѕСЂРјР°С‚Рµ TT/CCCCC/DDMMYY/NNNNN (V)
+         * Get the 'RiskProfileNumber' element value. Номер профиля риска/проекта профиля риска в формате TT/CCCCC/DDMMYY/NNNNN (V)
          * 
          * @return value
          */
@@ -238,7 +238,7 @@ public class RevealedRiskProtocolType extends BaseDocType
         }
 
         /** 
-         * Set the 'RiskProfileNumber' element value. РќРѕРјРµСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°/РїСЂРѕРµРєС‚Р° РїСЂРѕС„РёР»СЏ СЂРёСЃРєР° РІ С„РѕСЂРјР°С‚Рµ TT/CCCCC/DDMMYY/NNNNN (V)
+         * Set the 'RiskProfileNumber' element value. Номер профиля риска/проекта профиля риска в формате TT/CCCCC/DDMMYY/NNNNN (V)
          * 
          * @param riskProfileNumber
          */
@@ -372,7 +372,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             consignmentExtendedList = list;
         }
         /** 
-         * РРЅРґРёРєР°С‚РѕСЂС‹ РіСЂСѓРїРїС‹ РўРѕРІР°СЂ
+         * Индикаторы группы Товар
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -570,7 +570,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
 
             /** 
-             * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @return value
              */
@@ -579,7 +579,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
 
             /** 
-             * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @param isExclusion
              */
@@ -587,7 +587,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 this.isExclusion = isExclusion;
             }
             /** 
-             * РЎРµР·РѕРЅ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂР° 
+             * Сезон декларирования товара 
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -607,7 +607,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 private String isExclusion;
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -616,7 +616,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -625,7 +625,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
             }
             /** 
-             * РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+             * Страна происхождения
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -670,7 +670,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -679,7 +679,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -687,7 +687,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     this.isExclusion = isExclusion;
                 }
                 /** 
-                 * Р“СЂСѓРїРїР° РСЃРєР»СЋС‡РµРЅРёСЏ РєРѕРґРѕРІ РЎС‚СЂР°РЅ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
+                 * Группа Исключения кодов Стран происхождения товара
                  * 
                  * Schema fragment(s) for this class:
                  * <pre>
@@ -709,7 +709,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     private String isExclusion;
 
                     /** 
-                     * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                     * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                      * 
                      * @return value
                      */
@@ -718,7 +718,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     }
 
                     /** 
-                     * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                     * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                      * 
                      * @param isExclusion
                      */
@@ -728,7 +728,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
             }
             /** 
-             * Р“СЂСѓРїРїР° РўРѕРІР°СЂ-РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚РѕРІР°СЂР°
+             * Группа Товар-Характеристики товара
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -748,7 +748,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 private String isExclusion;
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -757,7 +757,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -766,7 +766,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
             }
             /** 
-             * Р“СЂСѓРїРїР° РўРѕРІР°СЂ-РџР»Р°С‚РµР¶Рё
+             * Группа Товар-Платежи
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -811,7 +811,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -820,7 +820,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -828,7 +828,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     this.isExclusion = isExclusion;
                 }
                 /** 
-                 * РСЃРєР»СЋС‡РµРЅРёСЏ РіСЂСѓРїРїС‹ РўРѕРІР°СЂ-РџР»Р°С‚РµР¶Рё
+                 * Исключения группы Товар-Платежи
                  * 
                  * Schema fragment(s) for this class:
                  * <pre>
@@ -850,7 +850,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     private String isExclusion;
 
                     /** 
-                     * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                     * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                      * 
                      * @return value
                      */
@@ -859,7 +859,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     }
 
                     /** 
-                     * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                     * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                      * 
                      * @param isExclusion
                      */
@@ -869,7 +869,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
             }
             /** 
-             * Р“СЂСѓРїРїР° РўРѕРІР°СЂ-Р”РѕРєСѓРјРµРЅС‚С‹ 44 РіСЂР°С„С‹ Р”Рў
+             * Группа Товар-Документы 44 графы ДТ
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -935,7 +935,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -944,7 +944,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -952,7 +952,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     this.isExclusion = isExclusion;
                 }
                 /** 
-                 * Р“СЂСѓРїРїР° Р”РѕРєСѓРјРµРЅС‚С‹ - РњР°СЃРєРё РґРѕРєСѓРјРµС‚РѕРІ
+                 * Группа Документы - Маски докуметов
                  * 
                  * Schema fragment(s) for this class:
                  * <pre>
@@ -972,7 +972,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     private String isExclusion;
 
                     /** 
-                     * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                     * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                      * 
                      * @return value
                      */
@@ -981,7 +981,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     }
 
                     /** 
-                     * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                     * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                      * 
                      * @param isExclusion
                      */
@@ -990,7 +990,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     }
                 }
                 /** 
-                 * РСЃРєР»СЋС‡РµРЅРёСЏ РіСЂСѓРїРїС‹ РўРѕРІР°СЂ-Р”РѕРєСѓРјРµРЅС‚С‹ 44 РіСЂР°С„С‹
+                 * Исключения группы Товар-Документы 44 графы
                  * 
                  * Schema fragment(s) for this class:
                  * <pre>
@@ -1012,7 +1012,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     private String isExclusion;
 
                     /** 
-                     * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                     * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                      * 
                      * @return value
                      */
@@ -1021,7 +1021,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     }
 
                     /** 
-                     * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                     * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                      * 
                      * @param isExclusion
                      */
@@ -1031,7 +1031,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
             }
             /** 
-             * Р“СЂСѓРїРїР° РўРѕРІР°СЂ - РџСЂРµС„РµСЂРµРЅС†РёРё Рё Р»СЊРіРѕС‚С‹ 
+             * Группа Товар - Преференции и льготы 
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -1051,7 +1051,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 private String isExclusion;
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -1060,7 +1060,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -1069,7 +1069,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
             }
             /** 
-             * Р“СЂСѓРїРїР° РўРѕРІР°СЂ - РџСЂРѕС†РµРґСѓСЂР°
+             * Группа Товар - Процедура
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -1114,7 +1114,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -1123,7 +1123,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -1131,7 +1131,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     this.isExclusion = isExclusion;
                 }
                 /** 
-                 * РСЃРєР»СЋС‡РµРЅРёСЏ РіСЂСѓРїРїС‹ РўРѕРІР°СЂ - РџСЂРѕС†РµРґСѓСЂР°
+                 * Исключения группы Товар - Процедура
                  * 
                  * Schema fragment(s) for this class:
                  * <pre>
@@ -1153,7 +1153,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     private String isExclusion;
 
                     /** 
-                     * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                     * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                      * 
                      * @return value
                      */
@@ -1162,7 +1162,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     }
 
                     /** 
-                     * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                     * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                      * 
                      * @param isExclusion
                      */
@@ -1172,7 +1172,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
             }
             /** 
-             * РРєР»СЋС‡РµРЅРёСЏ Р“СЂСѓРїРїС‹ РўРѕРІР°СЂС‹
+             * Иключения Группы Товары
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -1192,7 +1192,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 private String isExclusion;
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -1201,7 +1201,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -1211,7 +1211,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
         }
         /** 
-         * Р“СЂСѓРїРїР° РСЃРєР»СЋС‡РµРЅРёСЏ РґР»СЏ РєР°С‚РµРіРѕСЂРёРё С‚РѕРІР°СЂРѕРІ
+         * Группа Исключения для категории товаров
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -1231,7 +1231,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             private String isExclusion;
 
             /** 
-             * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @return value
              */
@@ -1240,7 +1240,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
 
             /** 
-             * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @param isExclusion
              */
@@ -1249,7 +1249,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
         }
         /** 
-         * Р“СЂСѓРїРїР° РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+         * Группа Таможенный орган
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -1293,7 +1293,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
 
             /** 
-             * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @return value
              */
@@ -1302,7 +1302,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
 
             /** 
-             * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @param isExclusion
              */
@@ -1310,7 +1310,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 this.isExclusion = isExclusion;
             }
             /** 
-             * РРЅРґРёРєР°С‚РѕСЂС‹ РёСЃРєР»СЋС‡РµРЅРёСЏ РіСЂСѓРїРїС‹ РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+             * Индикаторы исключения группы Таможенный орган
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -1330,7 +1330,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 private String isExclusion;
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -1339,7 +1339,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -1349,7 +1349,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
         }
         /** 
-         * Р“СЂСѓРїРїР° РџР°СЂС‚РёСЏ С‚РѕРІР°СЂР°
+         * Группа Партия товара
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -1393,7 +1393,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
 
             /** 
-             * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @return value
              */
@@ -1402,7 +1402,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
 
             /** 
-             * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @param isExclusion
              */
@@ -1410,7 +1410,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 this.isExclusion = isExclusion;
             }
             /** 
-             * РСЃРєР»СЋС‡РµРЅРёСЏ РіСЂСѓРїРїС‹ РўРѕРІР°СЂРЅР°СЏ РџР°СЂС‚РёСЏ
+             * Исключения группы Товарная Партия
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -1432,7 +1432,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 private String isExclusion;
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -1441,7 +1441,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -1451,7 +1451,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
         }
         /** 
-         * Р“СЂСѓРїРїР° РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+         * Группа Транспортное средство
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -1495,7 +1495,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
 
             /** 
-             * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @return value
              */
@@ -1504,7 +1504,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
 
             /** 
-             * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @param isExclusion
              */
@@ -1512,7 +1512,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 this.isExclusion = isExclusion;
             }
             /** 
-             * РСЃРєР»СЋС‡РµРЅРёСЏ 
+             * Исключения 
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -1534,7 +1534,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 private String isExclusion;
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -1543,7 +1543,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -1553,7 +1553,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
         }
         /** 
-         * Р“СЂСѓРїРїР° РЎСѓР±СЉСЉРµРєС‚ Р’Р­Р”
+         * Группа Субъъект ВЭД
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -1619,7 +1619,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
 
             /** 
-             * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @return value
              */
@@ -1628,7 +1628,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
 
             /** 
-             * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @param isExclusion
              */
@@ -1636,7 +1636,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 this.isExclusion = isExclusion;
             }
             /** 
-             * РЎС‚СЂР°РЅР° СЃСѓР±СЉРµРєС‚Р° Р’Р­Р”
+             * Страна субъекта ВЭД
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -1681,7 +1681,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -1690,7 +1690,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -1698,7 +1698,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     this.isExclusion = isExclusion;
                 }
                 /** 
-                 * РСЃРєР»СЋС‡РµРЅРёСЏ РЎС‚СЂР°РЅС‹
+                 * Исключения Страны
                  * 
                  * Schema fragment(s) for this class:
                  * <pre>
@@ -1720,7 +1720,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     private String isExclusion;
 
                     /** 
-                     * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                     * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                      * 
                      * @return value
                      */
@@ -1729,7 +1729,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                     }
 
                     /** 
-                     * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                     * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                      * 
                      * @param isExclusion
                      */
@@ -1739,7 +1739,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
             }
             /** 
-             * РСЃРєР»СЋС‡РµРЅРёСЏ РіСЂСѓРїРїС‹ РЎСѓР±СЉРµРєС‚ Р’Р­Р”
+             * Исключения группы Субъект ВЭД
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -1759,7 +1759,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 private String isExclusion;
 
                 /** 
-                 * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @return value
                  */
@@ -1768,7 +1768,7 @@ public class RevealedRiskProtocolType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+                 * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
                  * 
                  * @param isExclusion
                  */
@@ -1778,7 +1778,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
         }
         /** 
-         * Р“СЂСѓРїРїР° РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+         * Группа Характеристики транзитной декларации
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -1798,7 +1798,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             private String isExclusion;
 
             /** 
-             * Get the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Get the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @return value
              */
@@ -1807,7 +1807,7 @@ public class RevealedRiskProtocolType extends BaseDocType
             }
 
             /** 
-             * Set the 'IsExclusion' attribute value. РџСЂРёР·РЅР°Рє, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіСЂСѓРїРїР°, РіСЂСѓРїРїРѕР№  РёСЃРєР»СЋС‡Р°СЋС‰РёС… РёРЅРґРёРєР°С‚РѕСЂРѕРІ (true - СЏРІР»СЏРµС‚СЃСЏ, false - РЅРµ СЏРІР»СЏРµС‚СЃСЏ)
+             * Set the 'IsExclusion' attribute value. Признак, является ли группа, группой  исключающих индикаторов (true - является, false - не является)
              * 
              * @param isExclusion
              */

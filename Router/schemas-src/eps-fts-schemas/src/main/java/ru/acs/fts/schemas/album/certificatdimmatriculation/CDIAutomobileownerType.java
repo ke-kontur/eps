@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.certificatdimmatriculation;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+ * Сведения о собственнике транспортного средства
  */
 public class CDIAutomobileownerType
 {
@@ -13,7 +13,7 @@ public class CDIAutomobileownerType
     private AddressType postalAdress;
 
     /** 
-     * Get the 'Name' element value. Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°/РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'Name' element value. ФИО физического лица/Наименование организации
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CDIAutomobileownerType
     }
 
     /** 
-     * Set the 'Name' element value. Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°/РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'Name' element value. ФИО физического лица/Наименование организации
      * 
      * @param name
      */
@@ -31,7 +31,7 @@ public class CDIAutomobileownerType
     }
 
     /** 
-     * Get the 'NaturalPersonIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ, Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё СЃС‚СЂР°С…РѕРІР°С‚РµР»СЊ - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
+     * Get the 'NaturalPersonIndicator' element value. Индикатор, заполняется в случае, если страхователь - физическое лицо
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CDIAutomobileownerType
     }
 
     /** 
-     * Set the 'NaturalPersonIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ, Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё СЃС‚СЂР°С…РѕРІР°С‚РµР»СЊ - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
+     * Set the 'NaturalPersonIndicator' element value. Индикатор, заполняется в случае, если страхователь - физическое лицо
      * 
      * @param naturalPersonIndicator
      */
@@ -49,7 +49,7 @@ public class CDIAutomobileownerType
     }
 
     /** 
-     * Get the 'PostalAdress' element value. РђРґСЂРµСЃ РІР»Р°РґРµР»СЊС†Р° РўРЎ
+     * Get the 'PostalAdress' element value. Адрес владельца ТС
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class CDIAutomobileownerType
     }
 
     /** 
-     * Set the 'PostalAdress' element value. РђРґСЂРµСЃ РІР»Р°РґРµР»СЊС†Р° РўРЎ
+     * Set the 'PostalAdress' element value. Адрес владельца ТС
      * 
      * @param postalAdress
      */

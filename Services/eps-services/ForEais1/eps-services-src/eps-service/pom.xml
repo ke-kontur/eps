@@ -269,14 +269,14 @@
   <dependency>
    <groupId>ru.acs.fts.schemas</groupId>
    <artifactId>eps-fts-schemas</artifactId>
-   <version>5.4.1</version>
+   <version>5.4.5</version>
    <scope>compile</scope>
    <type>jar</type>
   </dependency>
   <dependency>
    <groupId>ru.acs.fts.schemas</groupId>
    <artifactId>eps-marshaller</artifactId>
-   <version>5.4.1</version>
+   <version>5.4.5</version>
    <scope>compile</scope>
    <type>jar</type>
   </dependency>

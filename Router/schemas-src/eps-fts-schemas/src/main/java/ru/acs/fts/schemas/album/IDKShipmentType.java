@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·Рµ
+ * Сведения о грузе
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -27,7 +27,7 @@ public class IDKShipmentType
     private List<IDKShipmentInfoType> shipmentInfoList = new ArrayList<IDKShipmentInfoType>();
 
     /** 
-     * Get the 'ShipmentQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЂС‚РёР№
+     * Get the 'ShipmentQuantity' element value. Количество партий
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class IDKShipmentType
     }
 
     /** 
-     * Set the 'ShipmentQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЂС‚РёР№
+     * Set the 'ShipmentQuantity' element value. Количество партий
      * 
      * @param shipmentQuantity
      */
@@ -45,7 +45,7 @@ public class IDKShipmentType
     }
 
     /** 
-     * Get the 'PlaceQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Get the 'PlaceQuantity' element value. Общее количество грузовых мест
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class IDKShipmentType
     }
 
     /** 
-     * Set the 'PlaceQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Set the 'PlaceQuantity' element value. Общее количество грузовых мест
      * 
      * @param placeQuantity
      */
@@ -63,7 +63,7 @@ public class IDKShipmentType
     }
 
     /** 
-     * Get the 'GrossWeight' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ, РєРі.
+     * Get the 'GrossWeight' element value. Общий вес брутто, кг.
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class IDKShipmentType
     }
 
     /** 
-     * Set the 'GrossWeight' element value. РћР±С‰РёР№ РІРµСЃ Р±СЂСѓС‚С‚Рѕ, РєРі.
+     * Set the 'GrossWeight' element value. Общий вес брутто, кг.
      * 
      * @param grossWeight
      */
@@ -81,7 +81,7 @@ public class IDKShipmentType
     }
 
     /** 
-     * Get the list of 'ShipmentInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the list of 'ShipmentInfo' element items. Сведения о товарной партии
      * 
      * @return list
      */
@@ -90,7 +90,7 @@ public class IDKShipmentType
     }
 
     /** 
-     * Set the list of 'ShipmentInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the list of 'ShipmentInfo' element items. Сведения о товарной партии
      * 
      * @param list
      */

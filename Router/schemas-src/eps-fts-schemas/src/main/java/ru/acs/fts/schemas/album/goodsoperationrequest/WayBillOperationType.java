@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AWBNumberType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.FlightInfoType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕРїРµСЂР°С†РёСЏС… СЃ РіСЂСѓР·РѕРј РїРѕ РЅР°РєР»Р°РґРЅРѕР№
+ * Сведения об операциях с грузом по накладной
  */
 public class WayBillOperationType
 {
@@ -15,7 +15,7 @@ public class WayBillOperationType
     private AWBNumberType wayBillNumber;
 
     /** 
-     * Get the 'Operation' element value. РћРїРµСЂР°С†РёСЏ СЃ РіСЂСѓР·РѕРј: 1 - РІС‹РіСЂСѓР·РєР°; 2 - РїРµСЂРµРіСЂСѓР·РєР° (РїРµСЂРµРІР°Р»РєР°); 3 - РїРѕРіСЂСѓР·РєР°; 4 - РѕС‚СЃСѓС‚СЃС‚РІРёРµ РѕРїРµСЂР°С†РёР№ СЃ РіСЂСѓР·РѕРј
+     * Get the 'Operation' element value. Операция с грузом: 1 - выгрузка; 2 - перегрузка (перевалка); 3 - погрузка; 4 - отсутствие операций с грузом
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class WayBillOperationType
     }
 
     /** 
-     * Set the 'Operation' element value. РћРїРµСЂР°С†РёСЏ СЃ РіСЂСѓР·РѕРј: 1 - РІС‹РіСЂСѓР·РєР°; 2 - РїРµСЂРµРіСЂСѓР·РєР° (РїРµСЂРµРІР°Р»РєР°); 3 - РїРѕРіСЂСѓР·РєР°; 4 - РѕС‚СЃСѓС‚СЃС‚РІРёРµ РѕРїРµСЂР°С†РёР№ СЃ РіСЂСѓР·РѕРј
+     * Set the 'Operation' element value. Операция с грузом: 1 - выгрузка; 2 - перегрузка (перевалка); 3 - погрузка; 4 - отсутствие операций с грузом
      * 
      * @param operation
      */
@@ -33,7 +33,7 @@ public class WayBillOperationType
     }
 
     /** 
-     * Get the 'Reasons' element value. РћСЃРЅРѕРІР°РЅРёРµ
+     * Get the 'Reasons' element value. Основание
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class WayBillOperationType
     }
 
     /** 
-     * Set the 'Reasons' element value. РћСЃРЅРѕРІР°РЅРёРµ
+     * Set the 'Reasons' element value. Основание
      * 
      * @param reasons
      */
@@ -51,7 +51,7 @@ public class WayBillOperationType
     }
 
     /** 
-     * Get the 'NewFlightInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІРѕРј СЂРµР№СЃРµ
+     * Get the 'NewFlightInfo' element value. Сведения о новом рейсе
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class WayBillOperationType
     }
 
     /** 
-     * Set the 'NewFlightInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРІРѕРј СЂРµР№СЃРµ
+     * Set the 'NewFlightInfo' element value. Сведения о новом рейсе
      * 
      * @param newFlightInfo
      */
@@ -69,7 +69,7 @@ public class WayBillOperationType
     }
 
     /** 
-     * Get the 'WayBillNumber' element value. РќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'WayBillNumber' element value. Номер накладной
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class WayBillOperationType
     }
 
     /** 
-     * Set the 'WayBillNumber' element value. РќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'WayBillNumber' element value. Номер накладной
      * 
      * @param wayBillNumber
      */

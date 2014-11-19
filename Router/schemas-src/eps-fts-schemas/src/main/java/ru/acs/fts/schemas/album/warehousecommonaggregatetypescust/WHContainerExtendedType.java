@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ СЂР°СЃС€РёСЂРµРЅРЅРѕРіРѕ РѕРїРёСЃР°РЅРёСЏ РєРѕРЅС‚РµР№РЅРµСЂР°
+ * Комплексный тип для расширенного описания контейнера
  */
 public class WHContainerExtendedType extends WHContainerInformationType
 {
     private WHAngarType keepingPlace;
 
     /** 
-     * Get the 'KeepingPlace' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С…СЂР°РЅРµРЅРёРё РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'KeepingPlace' element value. Информация о хранении контейнера
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class WHContainerExtendedType extends WHContainerInformationType
     }
 
     /** 
-     * Set the 'KeepingPlace' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С…СЂР°РЅРµРЅРёРё РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'KeepingPlace' element value. Информация о хранении контейнера
      * 
      * @param keepingPlace
      */

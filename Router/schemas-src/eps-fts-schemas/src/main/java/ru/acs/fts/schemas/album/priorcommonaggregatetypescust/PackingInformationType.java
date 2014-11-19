@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.priorcommonaggregatetypescust;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ. РљРѕРґ, РљРѕР»РёС‡РµСЃС‚РІРѕ. РњР°СЂРєРёСЂРѕРІРєР°
+ * Сведения об упаковке товаров. Код, Количество. Маркировка
  */
 public class PackingInformationType
 {
@@ -11,7 +11,7 @@ public class PackingInformationType
     private String packingMark;
 
     /** 
-     * Get the 'PackingCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ.
+     * Get the 'PackingCode' element value. Код вида упаковки товаров в соответствии с  классификатором видов груза, упаковки и упаковочных материалов.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PackingInformationType
     }
 
     /** 
-     * Set the 'PackingCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ.
+     * Set the 'PackingCode' element value. Код вида упаковки товаров в соответствии с  классификатором видов груза, упаковки и упаковочных материалов.
      * 
      * @param packingCode
      */
@@ -29,7 +29,7 @@ public class PackingInformationType
     }
 
     /** 
-     * Get the 'PakingQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРѕРє.
+     * Get the 'PakingQuantity' element value. Количество упаковок.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PackingInformationType
     }
 
     /** 
-     * Set the 'PakingQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРѕРє.
+     * Set the 'PakingQuantity' element value. Количество упаковок.
      * 
      * @param pakingQuantity
      */
@@ -47,7 +47,7 @@ public class PackingInformationType
     }
 
     /** 
-     * Get the 'PackingMark' element value. РњР°СЂРєРёСЂРѕРІРєР° РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Get the 'PackingMark' element value. Маркировка грузовых мест
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PackingInformationType
     }
 
     /** 
-     * Set the 'PackingMark' element value. РњР°СЂРєРёСЂРѕРІРєР° РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Set the 'PackingMark' element value. Маркировка грузовых мест
      * 
      * @param packingMark
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.tpo;
 
 /** 
- * РўРёРї РѕСЂРґРµСЂР°
+ * Тип ордера
  */
 public class TPOTypeCodeType
 {
@@ -11,7 +11,7 @@ public class TPOTypeCodeType
     private String transportKindCode;
 
     /** 
-     * Get the 'MovementPurpose' element value. РљРѕРґ С†РµР»Рё РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'MovementPurpose' element value. Код цели перемещения товара
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TPOTypeCodeType
     }
 
     /** 
-     * Set the 'MovementPurpose' element value. РљРѕРґ С†РµР»Рё РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'MovementPurpose' element value. Код цели перемещения товара
      * 
      * @param movementPurpose
      */
@@ -29,7 +29,7 @@ public class TPOTypeCodeType
     }
 
     /** 
-     * Get the 'MovementWay' element value. РљРѕРґ СЃРїРѕСЃРѕР±Р° РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'MovementWay' element value. Код способа перемещения товара
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class TPOTypeCodeType
     }
 
     /** 
-     * Set the 'MovementWay' element value. РљРѕРґ СЃРїРѕСЃРѕР±Р° РїРµСЂРµРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'MovementWay' element value. Код способа перемещения товара
      * 
      * @param movementWay
      */
@@ -47,7 +47,7 @@ public class TPOTypeCodeType
     }
 
     /** 
-     * Get the 'TransportKindCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'TransportKindCode' element value. Код вида транспортного средства
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class TPOTypeCodeType
     }
 
     /** 
-     * Set the 'TransportKindCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'TransportKindCode' element value. Код вида транспортного средства
      * 
      * @param transportKindCode
      */

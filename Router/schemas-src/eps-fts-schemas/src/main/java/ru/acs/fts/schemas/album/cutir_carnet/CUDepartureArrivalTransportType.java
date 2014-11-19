@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUTransportMeansType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РїСЂРё РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё
+ * Транспортные средства при прибытии/убытии
  */
 public class CUDepartureArrivalTransportType extends CUTransportMeansType
 {
@@ -15,7 +15,7 @@ public class CUDepartureArrivalTransportType extends CUTransportMeansType
     private List<TransportMeansBaseType> transportMeanList = new ArrayList<TransportMeansBaseType>();
 
     /** 
-     * Get the 'TransportMeansQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the 'TransportMeansQuantity' element value. Количество транспортных средств
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class CUDepartureArrivalTransportType extends CUTransportMeansType
     }
 
     /** 
-     * Set the 'TransportMeansQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the 'TransportMeansQuantity' element value. Количество транспортных средств
      * 
      * @param transportMeansQuantity
      */
@@ -33,7 +33,7 @@ public class CUDepartureArrivalTransportType extends CUTransportMeansType
     }
 
     /** 
-     * Get the list of 'TransportMeans' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the list of 'TransportMeans' element items. Описание транспортного средства
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class CUDepartureArrivalTransportType extends CUTransportMeansType
     }
 
     /** 
-     * Set the list of 'TransportMeans' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the list of 'TransportMeans' element items. Описание транспортного средства
      * 
      * @param list
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРєР»Р°РґР°, СЃРІРѕР±РѕРґРЅРѕРіРѕ СЃРєР»Р°РґР°, СЂР°Р·СЂРµС€РµРЅРёРё РЅР° РѕС‚РєСЂС‹С‚РёРµ РјР°РіР°Р·РёРЅР° Р±РµСЃРїРѕС€Р»РёРЅРЅРѕР№ С‚РѕСЂРіРѕРІР»Рё, СЃСЂРѕРєР°С… РїРѕРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РїРѕРґ СЂРµР¶РёРј С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРєР»Р°РґР°. Р“СЂ. 44 Рї 9.2, Рї. 9.5.
+ * Сведения о лицензии таможенного склада, свободного склада, разрешении на открытие магазина беспошлинной торговли, сроках помещения товаров под режим таможенного склада. Гр. 44 п 9.2, п. 9.5.
  */
 public class WarehouseDocumentType extends PresentedDocumentType
 {
@@ -15,7 +15,7 @@ public class WarehouseDocumentType extends PresentedDocumentType
     private LocalDate saleDate;
 
     /** 
-     * Get the 'SubLineNumber' element value. РќРѕРјРµСЂ РїРѕРґСЃС‚СЂРѕРєРё
+     * Get the 'SubLineNumber' element value. Номер подстроки
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class WarehouseDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'SubLineNumber' element value. РќРѕРјРµСЂ РїРѕРґСЃС‚СЂРѕРєРё
+     * Set the 'SubLineNumber' element value. Номер подстроки
      * 
      * @param subLineNumber
      */
@@ -33,7 +33,7 @@ public class WarehouseDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:1-Р›РёС†РµРЅР·РёСЏ РЅР° СѓС‡СЂРµР¶РґРµРЅРёРµ СЃРІРѕР±РѕРґРЅРѕРіРѕ СЃРєР»Р°РґР°. 2-РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ РІР»Р°РґРµР»СЊС†РµРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… СЃРєР»Р°РґРѕРІ. 3- РџРёСЃСЊРјРѕ С‚Р°РјРѕР¶РЅРё.
+     * Get the 'DocumentModeCode' element value. Тип документа:1-Лицензия на учреждение свободного склада. 2-Свидетельство о включении в Реестр владельцев таможенных складов. 3- Письмо таможни.
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class WarehouseDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:1-Р›РёС†РµРЅР·РёСЏ РЅР° СѓС‡СЂРµР¶РґРµРЅРёРµ СЃРІРѕР±РѕРґРЅРѕРіРѕ СЃРєР»Р°РґР°. 2-РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ РІР»Р°РґРµР»СЊС†РµРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… СЃРєР»Р°РґРѕРІ. 3- РџРёСЃСЊРјРѕ С‚Р°РјРѕР¶РЅРё.
+     * Set the 'DocumentModeCode' element value. Тип документа:1-Лицензия на учреждение свободного склада. 2-Свидетельство о включении в Реестр владельцев таможенных складов. 3- Письмо таможни.
      * 
      * @param documentModeCode
      */
@@ -51,7 +51,7 @@ public class WarehouseDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'PeriodDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ / СЃСЂРѕРє РїРѕРјРµС‰РµРЅРёСЏ РїРѕРґ СЂРµР¶РёРј РўРЎ 
+     * Get the 'PeriodDate' element value. Срок действия разрешения / срок помещения под режим ТС 
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class WarehouseDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'PeriodDate' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ СЂР°Р·СЂРµС€РµРЅРёСЏ / СЃСЂРѕРє РїРѕРјРµС‰РµРЅРёСЏ РїРѕРґ СЂРµР¶РёРј РўРЎ 
+     * Set the 'PeriodDate' element value. Срок действия разрешения / срок помещения под режим ТС 
      * 
      * @param periodDate
      */
@@ -69,7 +69,7 @@ public class WarehouseDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'ConditionDate' element value. РЎСЂРѕРє РіРѕРґРЅРѕСЃС‚Рё.
+     * Get the 'ConditionDate' element value. Срок годности.
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class WarehouseDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'ConditionDate' element value. РЎСЂРѕРє РіРѕРґРЅРѕСЃС‚Рё.
+     * Set the 'ConditionDate' element value. Срок годности.
      * 
      * @param conditionDate
      */
@@ -87,7 +87,7 @@ public class WarehouseDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Get the 'SaleDate' element value. РЎСЂРѕРє СЂРµР°Р»РёР·Р°С†РёРё.
+     * Get the 'SaleDate' element value. Срок реализации.
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class WarehouseDocumentType extends PresentedDocumentType
     }
 
     /** 
-     * Set the 'SaleDate' element value. РЎСЂРѕРє СЂРµР°Р»РёР·Р°С†РёРё.
+     * Set the 'SaleDate' element value. Срок реализации.
      * 
      * @param saleDate
      */

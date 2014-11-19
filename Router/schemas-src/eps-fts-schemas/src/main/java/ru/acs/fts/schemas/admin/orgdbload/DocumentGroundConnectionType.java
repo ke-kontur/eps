@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.admin.orgdbload;
 import org.joda.time.LocalDate;
 
 /** 
- * РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїРѕРґРєР»СЋС‡РµРЅРёСЏ
+ * Основание для подключения
  */
 public class DocumentGroundConnectionType
 {
@@ -13,7 +13,7 @@ public class DocumentGroundConnectionType
     private LocalDate documentDate;
 
     /** 
-     * Get the 'DocumentCode' element value. РљРѕРґ С‚РёРїР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentCode' element value. Код типа документа
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class DocumentGroundConnectionType
     }
 
     /** 
-     * Set the 'DocumentCode' element value. РљРѕРґ С‚РёРїР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentCode' element value. Код типа документа
      * 
      * @param documentCode
      */
@@ -31,7 +31,7 @@ public class DocumentGroundConnectionType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentNumber' element value. Номер документа.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DocumentGroundConnectionType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentNumber' element value. Номер документа.
      * 
      * @param documentNumber
      */
@@ -49,7 +49,7 @@ public class DocumentGroundConnectionType
     }
 
     /** 
-     * Get the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentDate' element value. Дата документа.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DocumentGroundConnectionType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentDate' element value. Дата документа.
      * 
      * @param documentDate
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕСЂСЂРµС‚РёСЂСѓРµРјРѕР№ РїР°СЂС‚РёРё
+ * Сведения о корретируемой партии
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -36,7 +36,7 @@ public class ConsignmentType1
     private String correctData;
 
     /** 
-     * Get the 'ListNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕРіРѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ/РЅР°РєР»Р°РґРЅРѕР№ 
+     * Get the 'ListNumeric' element value. Порядковый номер корректируемого отправления/накладной 
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Set the 'ListNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕРіРѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ/РЅР°РєР»Р°РґРЅРѕР№ 
+     * Set the 'ListNumeric' element value. Порядковый номер корректируемого отправления/накладной 
      * 
      * @param listNumeric
      */
@@ -54,7 +54,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Get the 'IndividualWayBill' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'IndividualWayBill' element value. Сведения об индивидуальной накладной
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Set the 'IndividualWayBill' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'IndividualWayBill' element value. Сведения об индивидуальной накладной
      * 
      * @param individualWayBill
      */
@@ -72,7 +72,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Get the 'GoodsNumeric' element value. Номер товара
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Set the 'GoodsNumeric' element value. Номер товара
      * 
      * @param goodsNumeric
      */
@@ -90,7 +90,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @return list
      */
@@ -99,7 +99,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @param list
      */
@@ -108,7 +108,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Get the 'GrNumber' element value. РќРѕРјРµСЂ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕР№ РіСЂР°С„С‹
+     * Get the 'GrNumber' element value. Номер корректируемой графы
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Set the 'GrNumber' element value. РќРѕРјРµСЂ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕР№ РіСЂР°С„С‹
+     * Set the 'GrNumber' element value. Номер корректируемой графы
      * 
      * @param grNumber
      */
@@ -126,7 +126,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Get the 'GrDescription' element value. РќР°Р·РІР°РЅРёРµ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕР№ РіСЂР°С„С‹
+     * Get the 'GrDescription' element value. Название корректируемой графы
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Set the 'GrDescription' element value. РќР°Р·РІР°РЅРёРµ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕР№ РіСЂР°С„С‹
+     * Set the 'GrDescription' element value. Название корректируемой графы
      * 
      * @param grDescription
      */
@@ -144,7 +144,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Get the 'PreviousData' element value. РџСЂРµРґС‹РґСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹
+     * Get the 'PreviousData' element value. Предыдущее значение графы
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Set the 'PreviousData' element value. РџСЂРµРґС‹РґСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹
+     * Set the 'PreviousData' element value. Предыдущее значение графы
      * 
      * @param previousData
      */
@@ -162,7 +162,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Get the 'CorrectData' element value. РЎРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°РЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹
+     * Get the 'CorrectData' element value. Скорректированное значение графы
      * 
      * @return value
      */
@@ -171,7 +171,7 @@ public class ConsignmentType1
     }
 
     /** 
-     * Set the 'CorrectData' element value. РЎРєРѕСЂСЂРµРєС‚РёСЂРѕРІР°РЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹
+     * Set the 'CorrectData' element value. Скорректированное значение графы
      * 
      * @param correctData
      */

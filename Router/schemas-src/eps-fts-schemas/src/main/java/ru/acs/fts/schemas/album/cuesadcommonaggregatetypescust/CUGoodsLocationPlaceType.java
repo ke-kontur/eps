@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ
+ * Сведения о местонахождении товаров
  */
 public class CUGoodsLocationPlaceType
 {
     private String numberCustomsZone;
 
     /** 
-     * Get the 'NumberCustomsZone' element value. РќРѕРјРµСЂ Р·РѕРЅС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'NumberCustomsZone' element value. Номер зоны таможенного контроля
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class CUGoodsLocationPlaceType
     }
 
     /** 
-     * Set the 'NumberCustomsZone' element value. РќРѕРјРµСЂ Р·РѕРЅС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'NumberCustomsZone' element value. Номер зоны таможенного контроля
      * 
      * @param numberCustomsZone
      */

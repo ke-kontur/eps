@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р РµС€РµРЅРёРµ Рѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂР°
+ * Решение о классификации товара
  */
 public class GoodsClassificationDecisionType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР° (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ), РєСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ
+     * Get the list of 'GoodsDescription' element items. Наименование товара (торговое, коммерческое или иное традиционное наименование), краткое описание
      * 
      * @return list
      */
@@ -30,7 +30,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР° (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ), РєСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ
+     * Set the list of 'GoodsDescription' element items. Наименование товара (торговое, коммерческое или иное традиционное наименование), краткое описание
      * 
      * @param list
      */
@@ -39,7 +39,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsTNVED' element value. РљР»Р°СЃСЃРёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РєРѕРґ РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVED' element value. Классификационный код по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsTNVED' element value. РљР»Р°СЃСЃРёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РєРѕРґ РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVED' element value. Классификационный код по ТН ВЭД ТС
      * 
      * @param goodsTNVED
      */
@@ -57,7 +57,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
+     * Get the 'Comments' element value. Служебные отметки
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
+     * Set the 'Comments' element value. Служебные отметки
      * 
      * @param comments
      */
@@ -75,7 +75,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РљРѕРґ Рё РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Код и наименование таможенного органа
      * 
      * @param customs
      */
@@ -93,7 +93,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistryNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'RegistryNumber' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistryNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'RegistryNumber' element value. Регистрационный номер
      * 
      * @param registryNumber
      */
@@ -111,7 +111,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -129,7 +129,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class GoodsClassificationDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

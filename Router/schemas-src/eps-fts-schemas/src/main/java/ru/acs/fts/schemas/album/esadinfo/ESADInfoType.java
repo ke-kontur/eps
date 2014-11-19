@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· Р­Р”Рў
+ * Сведения из ЭДТ
  */
 public class ESADInfoType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class ESADInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'GTDID' element value. Регистрационный номер ДТ
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'GTDID' element value. Регистрационный номер ДТ
      * 
      * @param GTDID
      */
@@ -38,7 +38,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consigner' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Consigner' element value. Грузоотправитель
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consigner' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Consigner' element value. Грузоотправитель
      * 
      * @param consigner
      */
@@ -56,7 +56,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Consignee' element value. Грузополучатель
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Consignee' element value. Грузополучатель
      * 
      * @param consignee
      */
@@ -74,7 +74,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsList' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Get the list of 'GoodsList' element items. Сведения о товаре
      * 
      * @return list
      */
@@ -83,7 +83,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsList' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+     * Set the list of 'GoodsList' element items. Сведения о товаре
      * 
      * @param list
      */
@@ -92,7 +92,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'SupportingDocuments' element items. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ СЃРѕРІРµСЂС€РµРЅРёРµ РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ СЃРґРµР»РєРё
+     * Get the list of 'SupportingDocuments' element items. Документ, подтверждающий совершение внешнеэкономической сделки
      * 
      * @return list
      */
@@ -101,7 +101,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'SupportingDocuments' element items. Р”РѕРєСѓРјРµРЅС‚, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ СЃРѕРІРµСЂС€РµРЅРёРµ РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ СЃРґРµР»РєРё
+     * Set the list of 'SupportingDocuments' element items. Документ, подтверждающий совершение внешнеэкономической сделки
      * 
      * @param list
      */
@@ -110,7 +110,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TransportDocuments' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ (РїРµСЂРµРІРѕР·РѕС‡РЅС‹Р№) РґРѕРєСѓРјРµРЅС‚ (Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ)
+     * Get the list of 'TransportDocuments' element items. Транспортный (перевозочный) документ (железнодорожная накладная)
      * 
      * @return list
      */
@@ -119,7 +119,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TransportDocuments' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ (РїРµСЂРµРІРѕР·РѕС‡РЅС‹Р№) РґРѕРєСѓРјРµРЅС‚ (Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ)
+     * Set the list of 'TransportDocuments' element items. Транспортный (перевозочный) документ (железнодорожная накладная)
      * 
      * @param list
      */
@@ -128,7 +128,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class ESADInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

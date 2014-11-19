@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ СЂР°Р·СЂРµС€РµРЅРёСЏ (Р·Р°РєР»СЋС‡РµРЅРёРµ) РЅР° РІРІРѕР· РєРѕСЃС‚РЅРѕРіРѕ РјРѕР·РіР° Рё РіРµРјРѕРїРѕСЌС‚РёС‡РµСЃРєРёС… СЃС‚РІРѕР»РѕРІС‹С… РєР»РµС‚РѕРє СЃ С†РµР»СЊСЋ РїСЂРѕРІРµРґРµРЅРёСЏ РЅРµСЂРѕРґСЃС‚РІРµРЅРЅРѕР№ С‚СЂР°РЅСЃРїР»Р°РЅС‚Р°С†РёРё
+ * Ответ на запрос разрешения (заключение) на ввоз костного мозга и гемопоэтических стволовых клеток с целью проведения неродственной трансплантации
  */
 public class RosZdravTransplType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class RosZdravTransplType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class RosZdravTransplType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @param isCanceled
      */
@@ -34,7 +34,7 @@ public class RosZdravTransplType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class RosZdravTransplType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -52,7 +52,7 @@ public class RosZdravTransplType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Conclusion' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РєР»СЋС‡РµРЅРёСЏС… РЅР° РІРІРѕР· РєРѕСЃС‚РЅРѕРіРѕ РјРѕР·РіР° Рё РіРµРјРѕРїРѕСЌС‚РёС‡РµСЃРєРёС… СЃС‚РІРѕР»РѕРІС‹С… РєР»РµС‚РѕРє СЃ С†РµР»СЊСЋ РїСЂРѕРІРµРґРµРЅРёСЏ РЅРµСЂРѕРґСЃС‚РІРµРЅРЅРѕР№ С‚СЂР°РЅСЃРїР»Р°РЅС‚Р°С†РёРё
+     * Get the list of 'Conclusion' element items. Сведения о заключениях на ввоз костного мозга и гемопоэтических стволовых клеток с целью проведения неродственной трансплантации
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class RosZdravTransplType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Conclusion' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РєР»СЋС‡РµРЅРёСЏС… РЅР° РІРІРѕР· РєРѕСЃС‚РЅРѕРіРѕ РјРѕР·РіР° Рё РіРµРјРѕРїРѕСЌС‚РёС‡РµСЃРєРёС… СЃС‚РІРѕР»РѕРІС‹С… РєР»РµС‚РѕРє СЃ С†РµР»СЊСЋ РїСЂРѕРІРµРґРµРЅРёСЏ РЅРµСЂРѕРґСЃС‚РІРµРЅРЅРѕР№ С‚СЂР°РЅСЃРїР»Р°РЅС‚Р°С†РёРё
+     * Set the list of 'Conclusion' element items. Сведения о заключениях на ввоз костного мозга и гемопоэтических стволовых клеток с целью проведения неродственной трансплантации
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class RosZdravTransplType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class RosZdravTransplType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

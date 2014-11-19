@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cmr;
 
 /** 
- * РќР°РёРјРµРЅРѕРІР°РЅРёРµ Рё РјРµСЃС‚РѕРїРѕР»РѕР¶РµРЅРёРµ СЃРєР»Р°РґР° / С‚РµСЂРјРёРЅР°Р»Р°
+ * Наименование и местоположение склада / терминала
  */
 public class TerminalType
 {
@@ -12,7 +12,7 @@ public class TerminalType
     private String countryCode;
 
     /** 
-     * Get the 'TerminalName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃРєР»Р°РґР°
+     * Get the 'TerminalName' element value. Наименование склада
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class TerminalType
     }
 
     /** 
-     * Set the 'TerminalName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃРєР»Р°РґР°
+     * Set the 'TerminalName' element value. Наименование склада
      * 
      * @param terminalName
      */
@@ -30,7 +30,7 @@ public class TerminalType
     }
 
     /** 
-     * Get the 'PlaceName' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ СЃРєР»Р°РґР°
+     * Get the 'PlaceName' element value. Местонахождение склада
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class TerminalType
     }
 
     /** 
-     * Set the 'PlaceName' element value. РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ СЃРєР»Р°РґР°
+     * Set the 'PlaceName' element value. Местонахождение склада
      * 
      * @param placeName
      */
@@ -48,7 +48,7 @@ public class TerminalType
     }
 
     /** 
-     * Get the 'CountryName' element value. РЎС‚СЂР°РЅР°
+     * Get the 'CountryName' element value. Страна
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class TerminalType
     }
 
     /** 
-     * Set the 'CountryName' element value. РЎС‚СЂР°РЅР°
+     * Set the 'CountryName' element value. Страна
      * 
      * @param countryName
      */
@@ -66,7 +66,7 @@ public class TerminalType
     }
 
     /** 
-     * Get the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryCode' element value. Буквенный код страны
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class TerminalType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryCode' element value. Буквенный код страны
      * 
      * @param countryCode
      */

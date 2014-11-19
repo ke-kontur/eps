@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р·Р°РїСЂРѕСЃСѓ РёР· Р¤РћРР’
+ * Предоставление документа по запросу из ФОИВ
  */
 public class SQDocResponseType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class SQDocResponseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RequestPositionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ РёСЃС…РѕРґРЅРѕРј Р·Р°РїСЂРѕСЃРµ
+     * Get the 'RequestPositionID' element value. Идентификатор позиции в исходном запросе
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class SQDocResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestPositionID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїРѕР·РёС†РёРё РІ РёСЃС…РѕРґРЅРѕРј Р·Р°РїСЂРѕСЃРµ
+     * Set the 'RequestPositionID' element value. Идентификатор позиции в исходном запросе
      * 
      * @param requestPositionID
      */
@@ -34,7 +34,7 @@ public class SQDocResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequestPositionNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїРѕР·РёС†РёРё РІ РёСЃС…РѕРґРЅРѕРј Р·Р°РїСЂРѕСЃРµ 
+     * Get the 'RequestPositionNumeric' element value. Порядковый номер позиции в исходном запросе 
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class SQDocResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestPositionNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РїРѕР·РёС†РёРё РІ РёСЃС…РѕРґРЅРѕРј Р·Р°РїСЂРѕСЃРµ 
+     * Set the 'RequestPositionNumeric' element value. Порядковый номер позиции в исходном запросе 
      * 
      * @param requestPositionNumeric
      */
@@ -52,7 +52,7 @@ public class SQDocResponseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DocResponse' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the list of 'DocResponse' element items. Запрашиваемые документы
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class SQDocResponseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DocResponse' element items. Р—Р°РїСЂР°С€РёРІР°РµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the list of 'DocResponse' element items. Запрашиваемые документы
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class SQDocResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class SQDocResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

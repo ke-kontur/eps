@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.fsvtsteklicense;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ Р»РёС†РµРЅР·РёРё
+ * Сведения о владельце лицензии
  */
 public class LicenseOwnerType extends CUOrganizationType
 {
@@ -12,7 +12,7 @@ public class LicenseOwnerType extends CUOrganizationType
     private String OKPOID;
 
     /** 
-     * Get the 'Status' element value. РЎС‚Р°С‚СѓСЃ: 0 - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ, 1 - СЋСЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
+     * Get the 'Status' element value. Статус: 0 - физическое лицо, 1 - юридическое лицо
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class LicenseOwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'Status' element value. РЎС‚Р°С‚СѓСЃ: 0 - С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ, 1 - СЋСЂРёРґРёС‡РµСЃРєРѕРµ Р»РёС†Рѕ
+     * Set the 'Status' element value. Статус: 0 - физическое лицо, 1 - юридическое лицо
      * 
      * @param status
      */
@@ -30,7 +30,7 @@ public class LicenseOwnerType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ.
+     * Get the 'OKPOID' element value. Код организации по ОКПО.
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class LicenseOwnerType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ.
+     * Set the 'OKPOID' element value. Код организации по ОКПО.
      * 
      * @param OKPOID
      */

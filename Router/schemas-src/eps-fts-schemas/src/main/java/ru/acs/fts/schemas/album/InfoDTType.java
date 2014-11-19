@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUPreferenciiType
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADCustomsProcedureType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РёР· Р”Рў
+ * Информация из ДТ
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -91,7 +91,7 @@ public class InfoDTType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DataVer' element value. Р”Р°С‚Р° РІРІРµРґРµРЅРёСЏ РІ РґРµР№СЃС‚РІРёРµ РІРµСЂСЃРёРё РІРЅСѓС‚СЂРµРЅРЅРµРіРѕ С„РѕСЂРјР°С‚Р° СЌР”Рў
+     * Get the 'DataVer' element value. Дата введения в действие версии внутреннего формата эДТ
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DataVer' element value. Р”Р°С‚Р° РІРІРµРґРµРЅРёСЏ РІ РґРµР№СЃС‚РІРёРµ РІРµСЂСЃРёРё РІРЅСѓС‚СЂРµРЅРЅРµРіРѕ С„РѕСЂРјР°С‚Р° СЌР”Рў
+     * Set the 'DataVer' element value. Дата введения в действие версии внутреннего формата эДТ
      * 
      * @param dataVer
      */
@@ -109,7 +109,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'FrontierCustomsCode' element value. РљРѕРґ РїСЂРёРіСЂР°РЅРёС‡РЅРѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'FrontierCustomsCode' element value. Код приграничного таможенного органа
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'FrontierCustomsCode' element value. РљРѕРґ РїСЂРёРіСЂР°РЅРёС‡РЅРѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'FrontierCustomsCode' element value. Код приграничного таможенного органа
      * 
      * @param frontierCustomsCode
      */
@@ -127,7 +127,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, РїСЂРёРЅСЏРІС€РµРіРѕ СЂРµС€РµРЅРёРµ РїРѕ С‚РѕРІР°СЂР°Рј Р”Рў
+     * Get the 'LNP' element value. ЛНП должностного лица, принявшего решение по товарам ДТ
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°, РїСЂРёРЅСЏРІС€РµРіРѕ СЂРµС€РµРЅРёРµ РїРѕ С‚РѕРІР°СЂР°Рј Р”Рў
+     * Set the 'LNP' element value. ЛНП должностного лица, принявшего решение по товарам ДТ
      * 
      * @param LNP
      */
@@ -145,7 +145,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsProcedure' element value. РРњ, Р­Рљ. РўРў. РџРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.1 Р”Рў
+     * Get the 'CustomsProcedure' element value. ИМ, ЭК. ТТ. Первый подраздел гр.1 ДТ
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsProcedure' element value. РРњ, Р­Рљ. РўРў. РџРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.1 Р”Рў
+     * Set the 'CustomsProcedure' element value. ИМ, ЭК. ТТ. Первый подраздел гр.1 ДТ
      * 
      * @param customsProcedure
      */
@@ -163,7 +163,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'ElectronicDocumentSign' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Р”Рў РІ С„РѕСЂРјРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'ElectronicDocumentSign' element value. Признак использования ДТ в форме электронного документа
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'ElectronicDocumentSign' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Р”Рў РІ С„РѕСЂРјРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'ElectronicDocumentSign' element value. Признак использования ДТ в форме электронного документа
      * 
      * @param electronicDocumentSign
      */
@@ -181,7 +181,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarationKind' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РїРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ. Р“СЂ.7 Р”Рў
+     * Get the 'DeclarationKind' element value. Код особенности декларирования товаров по Классификатору особенностей таможенного декларирования товаров. Гр.7 ДТ
      * 
      * @return value
      */
@@ -190,7 +190,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationKind' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ РїРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРµРєР»Р°СЂРёСЂРѕРІР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ. Р“СЂ.7 Р”Рў
+     * Set the 'DeclarationKind' element value. Код особенности декларирования товаров по Классификатору особенностей таможенного декларирования товаров. Гр.7 ДТ
      * 
      * @param declarationKind
      */
@@ -199,7 +199,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalGoodsNumber' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ.
+     * Get the 'TotalGoodsNumber' element value. Всего наименований товаров.
      * 
      * @return value
      */
@@ -208,7 +208,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalGoodsNumber' element value. Р’СЃРµРіРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ.
+     * Set the 'TotalGoodsNumber' element value. Всего наименований товаров.
      * 
      * @param goodsShipmentTotalGoodsNumber
      */
@@ -218,7 +218,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalPackageNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.
+     * Get the 'TotalPackageNumber' element value. Общее количество грузовых мест.
      * 
      * @return value
      */
@@ -227,7 +227,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalPackageNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚.
+     * Set the 'TotalPackageNumber' element value. Общее количество грузовых мест.
      * 
      * @param goodsShipmentTotalPackageNumber
      */
@@ -237,7 +237,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the 'Consignor' element value. Сведения о товарной партии
      * 
      * @return value
      */
@@ -246,7 +246,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the 'Consignor' element value. Сведения о товарной партии
      * 
      * @param consignor
      */
@@ -255,7 +255,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the 'Consignee' element value. Сведения о товарной партии
      * 
      * @return value
      */
@@ -264,7 +264,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the 'Consignee' element value. Сведения о товарной партии
      * 
      * @param consignee
      */
@@ -273,7 +273,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'FinancialAdjustingResponsiblePerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the 'FinancialAdjustingResponsiblePerson' element value. Сведения о товарной партии
      * 
      * @return value
      */
@@ -282,7 +282,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'FinancialAdjustingResponsiblePerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the 'FinancialAdjustingResponsiblePerson' element value. Сведения о товарной партии
      * 
      * @param financialAdjustingResponsiblePerson
      */
@@ -292,7 +292,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the 'Declarant' element value. Сведения о товарной партии
      * 
      * @return value
      */
@@ -301,7 +301,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the 'Declarant' element value. Сведения о товарной партии
      * 
      * @param declarant
      */
@@ -310,7 +310,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTFilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the 'DTFilledPerson' element value. Сведения о товарной партии
      * 
      * @return value
      */
@@ -319,7 +319,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTFilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the 'DTFilledPerson' element value. Сведения о товарной партии
      * 
      * @param DTFilledPerson1
      */
@@ -328,7 +328,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DTGoodsLocation' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the list of 'DTGoodsLocation' element items. Сведения о товарной партии
      * 
      * @return list
      */
@@ -337,7 +337,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DTGoodsLocation' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the list of 'DTGoodsLocation' element items. Сведения о товарной партии
      * 
      * @param list
      */
@@ -346,7 +346,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTConsigment' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the 'DTConsigment' element value. Сведения о товарной партии
      * 
      * @return value
      */
@@ -355,7 +355,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTConsigment' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the 'DTConsigment' element value. Сведения о товарной партии
      * 
      * @param DTConsigment1
      */
@@ -364,7 +364,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTMainContractTerms' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the 'DTMainContractTerms' element value. Сведения о товарной партии
      * 
      * @return value
      */
@@ -373,7 +373,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTMainContractTerms' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the 'DTMainContractTerms' element value. Сведения о товарной партии
      * 
      * @param DTMainContractTerms1
      */
@@ -382,7 +382,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DTGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the list of 'DTGoods' element items. Сведения о товарной партии
      * 
      * @return list
      */
@@ -391,7 +391,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DTGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the list of 'DTGoods' element items. Сведения о товарной партии
      * 
      * @param list
      */
@@ -400,7 +400,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'DTNumber' element value. Регистрационный номер ДТ
      * 
      * @return value
      */
@@ -409,7 +409,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'DTNumber' element value. Регистрационный номер ДТ
      * 
      * @param DTNumber
      */
@@ -418,7 +418,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
      * 
      * @return value
      */
@@ -427,7 +427,7 @@ public class InfoDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
      * 
      * @param documentModeID
      */
@@ -435,7 +435,7 @@ public class InfoDTType extends BaseDocType
         this.documentModeID = documentModeID;
     }
     /** 
-     * РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Сведения об отправителе товаров
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -457,7 +457,7 @@ public class InfoDTType extends BaseDocType
         private AddressType address;
 
         /** 
-         * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+         * Get the 'Address' element value. Адрес организации
          * 
          * @return value
          */
@@ -466,7 +466,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+         * Set the 'Address' element value. Адрес организации
          * 
          * @param address
          */
@@ -475,7 +475,7 @@ public class InfoDTType extends BaseDocType
         }
     }
     /** 
-     * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+     * Сведения о получателе товаров
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -497,7 +497,7 @@ public class InfoDTType extends BaseDocType
         private AddressType address;
 
         /** 
-         * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+         * Get the 'Address' element value. Адрес организации
          * 
          * @return value
          */
@@ -506,7 +506,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+         * Set the 'Address' element value. Адрес организации
          * 
          * @param address
          */
@@ -515,7 +515,7 @@ public class InfoDTType extends BaseDocType
         }
     }
     /** 
-     * Р›РёС†Рѕ, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРµ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ
+     * Лицо, ответственное за финансовое урегулирование
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -539,7 +539,7 @@ public class InfoDTType extends BaseDocType
         private AddressType address;
 
         /** 
-         * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+         * Get the 'Address' element value. Адрес организации
          * 
          * @return value
          */
@@ -548,7 +548,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+         * Set the 'Address' element value. Адрес организации
          * 
          * @param address
          */
@@ -557,7 +557,7 @@ public class InfoDTType extends BaseDocType
         }
     }
     /** 
-     * РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ С‚РѕРІР°СЂРѕРІ
+     * Сведения о декларанте товаров
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -579,7 +579,7 @@ public class InfoDTType extends BaseDocType
         private AddressType address;
 
         /** 
-         * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+         * Get the 'Address' element value. Адрес организации
          * 
          * @return value
          */
@@ -588,7 +588,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+         * Set the 'Address' element value. Адрес организации
          * 
          * @param address
          */
@@ -597,7 +597,7 @@ public class InfoDTType extends BaseDocType
         }
     }
     /** 
-     * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РґРµРєР»Р°СЂР°С†РёСЋ. Р“СЂ. 54/ РіСЂ 50 РўР” 
+     * Сведения о лице, заполнившем декларацию. Гр. 54/ гр 50 ТД 
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -635,7 +635,7 @@ public class InfoDTType extends BaseDocType
             this.customsRepresCertificate = customsRepresCertificate;
         }
         /** 
-         * Р”РѕРєСѓРјРµРЅС‚, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РёР№ Рѕ РІРєР»СЋС‡РµРЅРёРё Р»РёС†Р°  РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№
+         * Документ, свидетельствующий о включении лица  в Реестр таможенных представителей
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -653,7 +653,7 @@ public class InfoDTType extends BaseDocType
             private String prDocumentNumber;
 
             /** 
-             * Get the 'PrDocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РµРіРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё Р»РёС†Р°  РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№. 
+             * Get the 'PrDocumentNumber' element value. Номер документа, свидетельствующего о включении лица  в Реестр таможенных представителей. 
              * 
              * @return value
              */
@@ -662,7 +662,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'PrDocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, СЃРІРёРґРµС‚РµР»СЊСЃС‚РІСѓСЋС‰РµРіРѕ Рѕ РІРєР»СЋС‡РµРЅРёРё Р»РёС†Р°  РІ Р РµРµСЃС‚СЂ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµР№. 
+             * Set the 'PrDocumentNumber' element value. Номер документа, свидетельствующего о включении лица  в Реестр таможенных представителей. 
              * 
              * @param prDocumentNumber
              */
@@ -672,7 +672,7 @@ public class InfoDTType extends BaseDocType
         }
     }
     /** 
-     * РњРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ. Р“СЂ. 30 Р”Рў
+     * Местонахождение товаров. Гр. 30 ДТ
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -694,7 +694,7 @@ public class InfoDTType extends BaseDocType
         private GoodsLocationWarehouse goodsLocationWarehouse;
 
         /** 
-         * Get the 'CustomsOffice' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+         * Get the 'CustomsOffice' element value. Код таможенного органа
          * 
          * @return value
          */
@@ -703,7 +703,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'CustomsOffice' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+         * Set the 'CustomsOffice' element value. Код таможенного органа
          * 
          * @param customsOffice
          */
@@ -730,7 +730,7 @@ public class InfoDTType extends BaseDocType
             this.goodsLocationWarehouse = goodsLocationWarehouse;
         }
         /** 
-         * РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂРѕРІ: С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЃРєР»Р°Рґ, СЃРєР»Р°Рґ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ, СЃРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ, СЃРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ, РёРЅС‹Рµ
+         * Сведения о местонахождении товаров: таможенный склад, склад временного хранения, свободный склад, склад получателя, иные
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -750,7 +750,7 @@ public class InfoDTType extends BaseDocType
             private String documentModeCode;
 
             /** 
-             * Get the 'PrDocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+             * Get the 'PrDocumentNumber' element value. Номер документа
              * 
              * @return value
              */
@@ -759,7 +759,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'PrDocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+             * Set the 'PrDocumentNumber' element value. Номер документа
              * 
              * @param prDocumentNumber
              */
@@ -768,7 +768,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Get the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:1-Р›РёС†РµРЅР·РёСЏ 2-РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+             * Get the 'DocumentModeCode' element value. Тип документа:1-Лицензия 2-Свидетельство
              * 
              * @return value
              */
@@ -777,7 +777,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°:1-Р›РёС†РµРЅР·РёСЏ 2-РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+             * Set the 'DocumentModeCode' element value. Тип документа:1-Лицензия 2-Свидетельство
              * 
              * @param documentModeCode
              */
@@ -787,7 +787,7 @@ public class InfoDTType extends BaseDocType
         }
     }
     /** 
-     * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ
+     * Сведения о перевозке товаров
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -817,7 +817,7 @@ public class InfoDTType extends BaseDocType
         private DTTransportType DTBorderTransport;
 
         /** 
-         * Get the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє. Р“СЂ.19 
+         * Get the 'ContainerIndicator' element value. Признак контейнерных перевозок. Гр.19 
          * 
          * @return value
          */
@@ -826,7 +826,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє. Р“СЂ.19 
+         * Set the 'ContainerIndicator' element value. Признак контейнерных перевозок. Гр.19 
          * 
          * @param containerIndicator
          */
@@ -835,7 +835,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'DispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° .РіСЂ 15, РїРѕРґСЂР°Р·РґРµР» a 
+         * Get the 'DispatchCountryCode' element value. Страна отправления. Буквенный код по  классификатору стран мира .гр 15, подраздел a 
          * 
          * @return value
          */
@@ -844,7 +844,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'DispatchCountryCode' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° .РіСЂ 15, РїРѕРґСЂР°Р·РґРµР» a 
+         * Set the 'DispatchCountryCode' element value. Страна отправления. Буквенный код по  классификатору стран мира .гр 15, подраздел a 
          * 
          * @param dispatchCountryCode
          */
@@ -853,7 +853,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'DestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / 00 (РЅРµРёР·РІРµСЃС‚РЅР°). Р“СЂ 17, РїРѕРґСЂР°Р·РґРµР» a
+         * Get the 'DestinationCountryCode' element value. Страна назначения. Буквенный код по классификатору стран мира / 00 (неизвестна). Гр 17, подраздел a
          * 
          * @return value
          */
@@ -862,7 +862,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'DestinationCountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / 00 (РЅРµРёР·РІРµСЃС‚РЅР°). Р“СЂ 17, РїРѕРґСЂР°Р·РґРµР» a
+         * Set the 'DestinationCountryCode' element value. Страна назначения. Буквенный код по классификатору стран мира / 00 (неизвестна). Гр 17, подраздел a
          * 
          * @param destinationCountryCode
          */
@@ -889,7 +889,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'DTDepartureArrivalTransport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РїСЂРё РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё. Р“СЂ. 18, 26
+         * Get the 'DTDepartureArrivalTransport' element value. Транспортные средства при прибытии/убытии. Гр. 18, 26
          * 
          * @return value
          */
@@ -898,7 +898,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'DTDepartureArrivalTransport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РїСЂРё РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё. Р“СЂ. 18, 26
+         * Set the 'DTDepartureArrivalTransport' element value. Транспортные средства при прибытии/убытии. Гр. 18, 26
          * 
          * @param DTDepartureArrivalTransport
          */
@@ -908,7 +908,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'DTBorderTransport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РЅР° РіСЂР°РЅРёС†Рµ. Р“СЂ. 21, 25  Р”Рў
+         * Get the 'DTBorderTransport' element value. Транспортные средства на границе. Гр. 21, 25  ДТ
          * 
          * @return value
          */
@@ -917,7 +917,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'DTBorderTransport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РЅР° РіСЂР°РЅРёС†Рµ. Р“СЂ. 21, 25  Р”Рў
+         * Set the 'DTBorderTransport' element value. Транспортные средства на границе. Гр. 21, 25  ДТ
          * 
          * @param DTBorderTransport
          */
@@ -925,7 +925,7 @@ public class InfoDTType extends BaseDocType
             this.DTBorderTransport = DTBorderTransport;
         }
         /** 
-         * РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РІСЉРµР·РґР°/РІС‹РµР·РґР°. Р“СЂ.29
+         * Таможенный орган въезда/выезда. Гр.29
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -943,7 +943,7 @@ public class InfoDTType extends BaseDocType
             private String code;
 
             /** 
-             * Get the 'Code' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+             * Get the 'Code' element value. Код таможенного органа
              * 
              * @return value
              */
@@ -952,7 +952,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'Code' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+             * Set the 'Code' element value. Код таможенного органа
              * 
              * @param code
              */
@@ -962,7 +962,7 @@ public class InfoDTType extends BaseDocType
         }
     }
     /** 
-     * РЈСЃР»РѕРІРёСЏ СЃРґРµР»РєРё
+     * Условия сделки
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -994,7 +994,7 @@ public class InfoDTType extends BaseDocType
         private DTDeliveryTerms DTDeliveryTerms1;
 
         /** 
-         * Get the 'ContractCurrencyCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ РІ РіСЂР°С„Рµ 22 РєРѕРґ РІР°Р»СЋС‚С‹ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°/ РїР»Р°С‚РµР¶Р° (РѕС†РµРЅРєРё). РџРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІР°Р»СЋС‚. 
+         * Get the 'ContractCurrencyCode' element value. Трехзначный буквенный в графе 22 код валюты цены договора/ платежа (оценки). По Классификатору валют. 
          * 
          * @return value
          */
@@ -1003,7 +1003,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'ContractCurrencyCode' element value. РўСЂРµС…Р·РЅР°С‡РЅС‹Р№ Р±СѓРєРІРµРЅРЅС‹Р№ РІ РіСЂР°С„Рµ 22 РєРѕРґ РІР°Р»СЋС‚С‹ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°/ РїР»Р°С‚РµР¶Р° (РѕС†РµРЅРєРё). РџРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІР°Р»СЋС‚. 
+         * Set the 'ContractCurrencyCode' element value. Трехзначный буквенный в графе 22 код валюты цены договора/ платежа (оценки). По Классификатору валют. 
          * 
          * @param contractCurrencyCode
          */
@@ -1012,7 +1012,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'ContractCurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°/ РїР»Р°С‚РµР¶Р° (РѕС†РµРЅРєРё).
+         * Get the 'ContractCurrencyRate' element value. Курс валюты цены договора/ платежа (оценки).
          * 
          * @return value
          */
@@ -1021,7 +1021,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'ContractCurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹ С†РµРЅС‹ РґРѕРіРѕРІРѕСЂР°/ РїР»Р°С‚РµР¶Р° (РѕС†РµРЅРєРё).
+         * Set the 'ContractCurrencyRate' element value. Курс валюты цены договора/ платежа (оценки).
          * 
          * @param contractCurrencyRate
          */
@@ -1030,7 +1030,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'TotalInvoiceAmount' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ. Р“СЂ 22 РїРѕРґСЂР°Р·РґРµР» 2. 
+         * Get the 'TotalInvoiceAmount' element value. Общая стоимость товаров. Гр 22 подраздел 2. 
          * 
          * @return value
          */
@@ -1039,7 +1039,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'TotalInvoiceAmount' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂРѕРІ. Р“СЂ 22 РїРѕРґСЂР°Р·РґРµР» 2. 
+         * Set the 'TotalInvoiceAmount' element value. Общая стоимость товаров. Гр 22 подраздел 2. 
          * 
          * @param totalInvoiceAmount
          */
@@ -1048,7 +1048,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'TradeCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ С‚РѕСЂРіСѓСЋС‰РµР№ СЃС‚СЂР°РЅС‹ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°. Р“СЂ.11, 1-Р№ РїРѕРґСЂР°Р·РґРµР» Р”Рў
+         * Get the 'TradeCountryCode' element value. Буквенный код торгующей страны по классификатору стран мира. Гр.11, 1-й подраздел ДТ
          * 
          * @return value
          */
@@ -1057,7 +1057,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'TradeCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ С‚РѕСЂРіСѓСЋС‰РµР№ СЃС‚СЂР°РЅС‹ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°. Р“СЂ.11, 1-Р№ РїРѕРґСЂР°Р·РґРµР» Р”Рў
+         * Set the 'TradeCountryCode' element value. Буквенный код торгующей страны по классификатору стран мира. Гр.11, 1-й подраздел ДТ
          * 
          * @param tradeCountryCode
          */
@@ -1066,7 +1066,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'DealFeatureCode' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё СЃРґРµР»РєРё (РґРѕРіРѕРІРѕСЂР°). Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ СЃРґРµР»РєРё, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рј РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С…-С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. Р“СЂ. 24 Р”Рў
+         * Get the 'DealFeatureCode' element value. Код особенности сделки (договора). В соответствии с Классификатором особенности внешнеэкономической сделки, используемым в государствах-членах Таможенного союза. Гр. 24 ДТ
          * 
          * @return value
          */
@@ -1075,7 +1075,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'DealFeatureCode' element value. РљРѕРґ РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё СЃРґРµР»РєРё (РґРѕРіРѕРІРѕСЂР°). Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ СЃРґРµР»РєРё, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рј РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С…-С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. Р“СЂ. 24 Р”Рў
+         * Set the 'DealFeatureCode' element value. Код особенности сделки (договора). В соответствии с Классификатором особенности внешнеэкономической сделки, используемым в государствах-членах Таможенного союза. Гр. 24 ДТ
          * 
          * @param dealFeatureCode
          */
@@ -1084,7 +1084,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'DealNatureCode' element value. РљРѕРґ С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё СЃ РґРµРєР»Р°СЂРёСЂСѓРµРјС‹РјРё С‚РѕРІР°СЂР°РјРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рј РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С…-С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. Р“СЂ.24 Р”Рў
+         * Get the 'DealNatureCode' element value. Код характера сделки с декларируемыми товарами в соответствии с Классификатором характера сделки, используемым в государствах-членах Таможенного союза. Гр.24 ДТ
          * 
          * @return value
          */
@@ -1093,7 +1093,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'DealNatureCode' element value. РљРѕРґ С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё СЃ РґРµРєР»Р°СЂРёСЂСѓРµРјС‹РјРё С‚РѕРІР°СЂР°РјРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј С…Р°СЂР°РєС‚РµСЂР° СЃРґРµР»РєРё, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рј РІ РіРѕСЃСѓРґР°СЂСЃС‚РІР°С…-С‡Р»РµРЅР°С… РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. Р“СЂ.24 Р”Рў
+         * Set the 'DealNatureCode' element value. Код характера сделки с декларируемыми товарами в соответствии с Классификатором характера сделки, используемым в государствах-членах Таможенного союза. Гр.24 ДТ
          * 
          * @param dealNatureCode
          */
@@ -1119,7 +1119,7 @@ public class InfoDTType extends BaseDocType
             this.DTDeliveryTerms1 = DTDeliveryTerms1;
         }
         /** 
-         * РЈСЃР»РѕРІРёСЏ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ. Р“СЂ. 20 Р”Рў
+         * Условия поставки товаров. Гр. 20 ДТ
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -1137,7 +1137,7 @@ public class InfoDTType extends BaseDocType
             private String deliveryTermsStringCode;
 
             /** 
-             * Get the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё.
+             * Get the 'DeliveryTermsStringCode' element value. Код условий поставки в соответствии с Классификатором условий поставки.
              * 
              * @return value
              */
@@ -1146,7 +1146,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё.
+             * Set the 'DeliveryTermsStringCode' element value. Код условий поставки в соответствии с Классификатором условий поставки.
              * 
              * @param deliveryTermsStringCode
              */
@@ -1157,7 +1157,7 @@ public class InfoDTType extends BaseDocType
         }
     }
     /** 
-     * РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ Р“СЂ. 31-47.
+     * Товарная часть Гр. 31-47.
      * 
      * Schema fragment(s) for this class:
      * <pre>
@@ -1223,7 +1223,7 @@ public class InfoDTType extends BaseDocType
         private ESADCustomsProcedureType DTCustomsProcedure;
 
         /** 
-         * Get the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ  С‚РѕРІР°СЂР° / РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ СЃРїРёСЃРєСѓ/ РЅРѕРјРµСЂ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°.  Р“СЂ.32
+         * Get the 'GoodsNumeric' element value. Порядковый номер декларируемого  товара / номер товара по списку/ номер корректируемого товара.  Гр.32
          * 
          * @return value
          */
@@ -1232,7 +1232,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ  С‚РѕРІР°СЂР° / РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ СЃРїРёСЃРєСѓ/ РЅРѕРјРµСЂ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°.  Р“СЂ.32
+         * Set the 'GoodsNumeric' element value. Порядковый номер декларируемого  товара / номер товара по списку/ номер корректируемого товара.  Гр.32
          * 
          * @param goodsNumeric
          */
@@ -1241,7 +1241,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'GoodsDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂРѕРІ/ "РўРѕРІР°СЂС‹ СЃРѕРіР»Р°СЃРЅРѕ РїСЂРёР»Р°РіР°РµРјРѕРјСѓ РЎРїРёСЃРєСѓ". Р“СЂ.31 РїРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР»
+         * Get the 'GoodsDescription' element value. Наименование (торговое, коммерческое или иное традиционное наименование) товаров/ "Товары согласно прилагаемому Списку". Гр.31 первый подраздел
          * 
          * @return value
          */
@@ -1250,7 +1250,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'GoodsDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ (С‚РѕСЂРіРѕРІРѕРµ, РєРѕРјРјРµСЂС‡РµСЃРєРѕРµ РёР»Рё РёРЅРѕРµ С‚СЂР°РґРёС†РёРѕРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂРѕРІ/ "РўРѕРІР°СЂС‹ СЃРѕРіР»Р°СЃРЅРѕ РїСЂРёР»Р°РіР°РµРјРѕРјСѓ РЎРїРёСЃРєСѓ". Р“СЂ.31 РїРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР»
+         * Set the 'GoodsDescription' element value. Наименование (торговое, коммерческое или иное традиционное наименование) товаров/ "Товары согласно прилагаемому Списку". Гр.31 первый подраздел
          * 
          * @param goodsDescription
          */
@@ -1259,7 +1259,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі). Р“СЂ. 35
+         * Get the 'GrossWeightQuantity' element value. Вес товара, брутто (кг). Гр. 35
          * 
          * @return value
          */
@@ -1268,7 +1268,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ (РєРі). Р“СЂ. 35
+         * Set the 'GrossWeightQuantity' element value. Вес товара, брутто (кг). Гр. 35
          * 
          * @param grossWeightQuantity
          */
@@ -1277,7 +1277,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі). Р“СЂ.38
+         * Get the 'NetWeightQuantity' element value. Вес товара, нетто (кг). Гр.38
          * 
          * @return value
          */
@@ -1286,7 +1286,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР°, РЅРµС‚С‚Рѕ (РєРі). Р“СЂ.38
+         * Set the 'NetWeightQuantity' element value. Вес товара, нетто (кг). Гр.38
          * 
          * @param netWeightQuantity
          */
@@ -1295,7 +1295,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'CustomsCost' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°. Р“СЂ.45 Р”Рў/ РіСЂ 45 РљРўРЎ Р»РµРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» 
+         * Get the 'CustomsCost' element value. Таможенная стоимость товара. Гр.45 ДТ/ гр 45 КТС левый подраздел 
          * 
          * @return value
          */
@@ -1304,7 +1304,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'CustomsCost' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°. Р“СЂ.45 Р”Рў/ РіСЂ 45 РљРўРЎ Р»РµРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» 
+         * Set the 'CustomsCost' element value. Таможенная стоимость товара. Гр.45 ДТ/ гр 45 КТС левый подраздел 
          * 
          * @param customsCost
          */
@@ -1313,7 +1313,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'StatisticalCost' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°. Р“СЂ. 46 Р”Рў/РљРўРЎ
+         * Get the 'StatisticalCost' element value. Статистическая стоимость товара. Гр. 46 ДТ/КТС
          * 
          * @return value
          */
@@ -1322,7 +1322,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'StatisticalCost' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°. Р“СЂ. 46 Р”Рў/РљРўРЎ
+         * Set the 'StatisticalCost' element value. Статистическая стоимость товара. Гр. 46 ДТ/КТС
          * 
          * @param statisticalCost
          */
@@ -1331,7 +1331,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ. Р“СЂ.33 РїРµСЂРІС‹Р№ СЂР°Р·РґРµР»
+         * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС. Гр.33 первый раздел
          * 
          * @return value
          */
@@ -1340,7 +1340,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ. Р“СЂ.33 РїРµСЂРІС‹Р№ СЂР°Р·РґРµР»
+         * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС. Гр.33 первый раздел
          * 
          * @param goodsTNVEDCode
          */
@@ -1349,7 +1349,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'GoodsClassificationCode' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё РєРѕРґР°: 1 - РѕР±С‰РёР№ "Рћ", 2 - С‚РѕРІР°СЂ СЃРїРёСЃРєР°. Р’ РѕСЃС‚Р°Р»СЊРЅС‹С… СЃР»СѓС‡Р°СЏС… РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
+         * Get the 'GoodsClassificationCode' element value. Особенность классификации кода: 1 - общий "О", 2 - товар списка. В остальных случаях не заполняется
          * 
          * @return value
          */
@@ -1358,7 +1358,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'GoodsClassificationCode' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё РєРѕРґР°: 1 - РѕР±С‰РёР№ "Рћ", 2 - С‚РѕРІР°СЂ СЃРїРёСЃРєР°. Р’ РѕСЃС‚Р°Р»СЊРЅС‹С… СЃР»СѓС‡Р°СЏС… РЅРµ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
+         * Set the 'GoodsClassificationCode' element value. Особенность классификации кода: 1 - общий "О", 2 - товар списка. В остальных случаях не заполняется
          * 
          * @param goodsClassificationCode
          */
@@ -1367,7 +1367,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / "EU" / 00 (РЅРµРёР·РІРµСЃС‚РЅР°)  Р“СЂ.34 РІ Р”Рў/РљРўРЎ
+         * Get the 'OriginCountryCode' element value. Код страны происхождения по классификатору стран мира / "EU" / 00 (неизвестна)  Гр.34 в ДТ/КТС
          * 
          * @return value
          */
@@ -1376,7 +1376,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'OriginCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / "EU" / 00 (РЅРµРёР·РІРµСЃС‚РЅР°)  Р“СЂ.34 РІ Р”Рў/РљРўРЎ
+         * Set the 'OriginCountryCode' element value. Код страны происхождения по классификатору стран мира / "EU" / 00 (неизвестна)  Гр.34 в ДТ/КТС
          * 
          * @param originCountryCode
          */
@@ -1385,7 +1385,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'CustomsCostCorrectMethod' element value. РљРѕРґ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р“СЂ. 43 РІ Р”Рў/РљРўРЎ. 
+         * Get the 'CustomsCostCorrectMethod' element value. Код метода определения таможенной стоимости. В соответствии с Классификатором методов определения таможенной стоимости. Гр. 43 в ДТ/КТС. 
          * 
          * @return value
          */
@@ -1394,7 +1394,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'CustomsCostCorrectMethod' element value. РљРѕРґ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р“СЂ. 43 РІ Р”Рў/РљРўРЎ. 
+         * Set the 'CustomsCostCorrectMethod' element value. Код метода определения таможенной стоимости. В соответствии с Классификатором методов определения таможенной стоимости. Гр. 43 в ДТ/КТС. 
          * 
          * @param customsCostCorrectMethod
          */
@@ -1403,7 +1403,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'GoodsAddTNVEDCode' element value. РљРѕРґ  С‚РѕРІР°СЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё РґР»СЏ Р Р¤ Рё Р Рљ
+         * Get the 'GoodsAddTNVEDCode' element value. Код  товара в соответствии с Классификатором дополнительной таможенной информации для РФ и РК
          * 
          * @return value
          */
@@ -1412,7 +1412,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'GoodsAddTNVEDCode' element value. РљРѕРґ  С‚РѕРІР°СЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё РґР»СЏ Р Р¤ Рё Р Рљ
+         * Set the 'GoodsAddTNVEDCode' element value. Код  товара в соответствии с Классификатором дополнительной таможенной информации для РФ и РК
          * 
          * @param goodsAddTNVEDCode
          */
@@ -1440,7 +1440,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'Preferencii' element value. РџСЂРµС„РµСЂРµРЅС†РёРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р»СЊРіРѕС‚ РїРѕ СѓРїР»Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р“СЂ.36
+         * Get the 'Preferencii' element value. Преференции в соответствии с Классификатором льгот по уплате таможенных платежей. Гр.36
          * 
          * @return value
          */
@@ -1449,7 +1449,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'Preferencii' element value. РџСЂРµС„РµСЂРµРЅС†РёРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р»СЊРіРѕС‚ РїРѕ СѓРїР»Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р“СЂ.36
+         * Set the 'Preferencii' element value. Преференции в соответствии с Классификатором льгот по уплате таможенных платежей. Гр.36
          * 
          * @param preferencii
          */
@@ -1550,7 +1550,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Get the 'DTCustomsProcedure' element value. РџСЂРѕС†РµРґСѓСЂР°.Р“СЂ 37
+         * Get the 'DTCustomsProcedure' element value. Процедура.Гр 37
          * 
          * @return value
          */
@@ -1559,7 +1559,7 @@ public class InfoDTType extends BaseDocType
         }
 
         /** 
-         * Set the 'DTCustomsProcedure' element value. РџСЂРѕС†РµРґСѓСЂР°.Р“СЂ 37
+         * Set the 'DTCustomsProcedure' element value. Процедура.Гр 37
          * 
          * @param DTCustomsProcedure
          */
@@ -1568,7 +1568,7 @@ public class InfoDTType extends BaseDocType
             this.DTCustomsProcedure = DTCustomsProcedure;
         }
         /** 
-         * РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР° С‚РѕРІР°СЂРѕРІ РІ РіСЂСѓРїРїРµ
+         * Характеристика товаров в группе
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -1594,7 +1594,7 @@ public class InfoDTType extends BaseDocType
             private String goodsMarking;
 
             /** 
-             * Get the 'Manufacturer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рµ
+             * Get the 'Manufacturer' element value. Сведения о производителе
              * 
              * @return value
              */
@@ -1603,7 +1603,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'Manufacturer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рµ
+             * Set the 'Manufacturer' element value. Сведения о производителе
              * 
              * @param manufacturer
              */
@@ -1612,7 +1612,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Get the 'TradeMark' element value. РўРѕРІ. Р·РЅР°Рє, РјРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, РѕР±СЉРµРєС‚ Р°РІС‚РѕСЂСЃРєРѕРіРѕ РїСЂР°РІР°, СЃРјРµР¶РЅС‹С… РїСЂР°РІ, РїР°С‚РµРЅС‚ Рё С‚.Рґ.
+             * Get the 'TradeMark' element value. Тов. знак, место происхождения, объект авторского права, смежных прав, патент и т.д.
              * 
              * @return value
              */
@@ -1621,7 +1621,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'TradeMark' element value. РўРѕРІ. Р·РЅР°Рє, РјРµСЃС‚Рѕ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ, РѕР±СЉРµРєС‚ Р°РІС‚РѕСЂСЃРєРѕРіРѕ РїСЂР°РІР°, СЃРјРµР¶РЅС‹С… РїСЂР°РІ, РїР°С‚РµРЅС‚ Рё С‚.Рґ.
+             * Set the 'TradeMark' element value. Тов. знак, место происхождения, объект авторского права, смежных прав, патент и т.д.
              * 
              * @param tradeMark
              */
@@ -1630,7 +1630,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Get the 'GoodsMark' element value. РњР°СЂРєР° С‚РѕРІР°СЂР°
+             * Get the 'GoodsMark' element value. Марка товара
              * 
              * @return value
              */
@@ -1639,7 +1639,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'GoodsMark' element value. РњР°СЂРєР° С‚РѕРІР°СЂР°
+             * Set the 'GoodsMark' element value. Марка товара
              * 
              * @param goodsMark
              */
@@ -1648,7 +1648,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Get the 'GoodsModel' element value. РњРѕРґРµР»СЊ С‚РѕРІР°СЂР°
+             * Get the 'GoodsModel' element value. Модель товара
              * 
              * @return value
              */
@@ -1657,7 +1657,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'GoodsModel' element value. РњРѕРґРµР»СЊ С‚РѕРІР°СЂР°
+             * Set the 'GoodsModel' element value. Модель товара
              * 
              * @param goodsModel
              */
@@ -1666,7 +1666,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Get the 'GoodsMarking' element value. РђСЂС‚РёРєСѓР» С‚РѕРІР°СЂР°
+             * Get the 'GoodsMarking' element value. Артикул товара
              * 
              * @return value
              */
@@ -1675,7 +1675,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'GoodsMarking' element value. РђСЂС‚РёРєСѓР» С‚РѕРІР°СЂР°
+             * Set the 'GoodsMarking' element value. Артикул товара
              * 
              * @param goodsMarking
              */
@@ -1684,7 +1684,7 @@ public class InfoDTType extends BaseDocType
             }
         }
         /** 
-         * РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹. Р“СЂ. 44.
+         * Представленные документы. Гр. 44.
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -1706,7 +1706,7 @@ public class InfoDTType extends BaseDocType
             private LocalDate prDocumentDate;
 
             /** 
-             * Get the 'PrDocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°.
+             * Get the 'PrDocumentNumber' element value. Номер документа.
              * 
              * @return value
              */
@@ -1715,7 +1715,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'PrDocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°.
+             * Set the 'PrDocumentNumber' element value. Номер документа.
              * 
              * @param prDocumentNumber
              */
@@ -1724,7 +1724,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Get the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44.
+             * Get the 'PresentedDocumentModeCode' element value. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44.
              * 
              * @return value
              */
@@ -1733,7 +1733,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44.
+             * Set the 'PresentedDocumentModeCode' element value. Код вида представляемого документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44.
              * 
              * @param presentedDocumentModeCode
              */
@@ -1743,7 +1743,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Get the 'PrDocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°.
+             * Get the 'PrDocumentDate' element value. Дата документа.
              * 
              * @return value
              */
@@ -1752,7 +1752,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'PrDocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°.
+             * Set the 'PrDocumentDate' element value. Дата документа.
              * 
              * @param prDocumentDate
              */
@@ -1761,7 +1761,7 @@ public class InfoDTType extends BaseDocType
             }
         }
         /** 
-         *  РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+         *  Исчисление таможенных платежей
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -1789,7 +1789,7 @@ public class InfoDTType extends BaseDocType
             private String paymentCode;
 
             /** 
-             * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
+             * Get the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
              * 
              * @return value
              */
@@ -1798,7 +1798,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
+             * Set the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
              * 
              * @param paymentModeCode
              */
@@ -1807,7 +1807,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Get the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
+             * Get the 'PaymentAmount' element value. Сумма платежа
              * 
              * @return value
              */
@@ -1816,7 +1816,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
+             * Set the 'PaymentAmount' element value. Сумма платежа
              * 
              * @param paymentAmount
              */
@@ -1825,7 +1825,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Get the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°.
+             * Get the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа.
              * 
              * @return value
              */
@@ -1834,7 +1834,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'PaymentCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°.
+             * Set the 'PaymentCurrencyCode' element value. Цифровой код валюты суммы платежа.
              * 
              * @param paymentCurrencyCode
              */
@@ -1843,7 +1843,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Get the 'Rate' element value. РЎС‚Р°РІРєР° / СЃС‚Р°РІРєР° СЂРµС„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёСЏ
+             * Get the 'Rate' element value. Ставка / ставка рефинансирования
              * 
              * @return value
              */
@@ -1852,7 +1852,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'Rate' element value. РЎС‚Р°РІРєР° / СЃС‚Р°РІРєР° СЂРµС„РёРЅР°РЅСЃРёСЂРѕРІР°РЅРёСЏ
+             * Set the 'Rate' element value. Ставка / ставка рефинансирования
              * 
              * @param rate
              */
@@ -1861,7 +1861,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Get the 'RateTypeCode' element value. Р’РёРґ СЃС‚Р°РІРєРё (Р°РґРІР°Р»РѕСЂРЅР°СЏ -"%",РїСЂРёР·РЅР°Рє СЃР±РѕСЂРѕРІ РґР»СЏ Р Рљ - "S", СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ - "*")
+             * Get the 'RateTypeCode' element value. Вид ставки (адвалорная -"%",признак сборов для РК - "S", специфическая - "*")
              * 
              * @return value
              */
@@ -1870,7 +1870,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'RateTypeCode' element value. Р’РёРґ СЃС‚Р°РІРєРё (Р°РґРІР°Р»РѕСЂРЅР°СЏ -"%",РїСЂРёР·РЅР°Рє СЃР±РѕСЂРѕРІ РґР»СЏ Р Рљ - "S", СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ - "*")
+             * Set the 'RateTypeCode' element value. Вид ставки (адвалорная -"%",признак сборов для РК - "S", специфическая - "*")
              * 
              * @param rateTypeCode
              */
@@ -1879,7 +1879,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Get the 'PaymentCode' element value. РљРѕРґ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
+             * Get the 'PaymentCode' element value. Код в соответствии с Классификатором особенностей уплаты таможенных и иных платежей, взимание которых возложено на таможенные органы
              * 
              * @return value
              */
@@ -1888,7 +1888,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'PaymentCode' element value. РљРѕРґ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
+             * Set the 'PaymentCode' element value. Код в соответствии с Классификатором особенностей уплаты таможенных и иных платежей, взимание которых возложено на таможенные органы
              * 
              * @param paymentCode
              */
@@ -1897,7 +1897,7 @@ public class InfoDTType extends BaseDocType
             }
         }
         /** 
-         * РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.  Р“СЂ.41
+         * Количество товара в дополнительной единице измерения.  Гр.41
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -1915,7 +1915,7 @@ public class InfoDTType extends BaseDocType
             private String goodsQuantity;
 
             /** 
-             * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.
+             * Get the 'GoodsQuantity' element value. Количество товара в единице измерения.
              * 
              * @return value
              */
@@ -1924,7 +1924,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.
+             * Set the 'GoodsQuantity' element value. Количество товара в единице измерения.
              * 
              * @param goodsQuantity
              */
@@ -1933,7 +1933,7 @@ public class InfoDTType extends BaseDocType
             }
         }
         /** 
-         * РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
+         * Сведения о грузовых местах, поддонах и упаковке товаров
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -1959,7 +1959,7 @@ public class InfoDTType extends BaseDocType
             private List<String> cargoInfoCodeList = new ArrayList<String>();
 
             /** 
-             * Get the 'PakageQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј.
+             * Get the 'PakageQuantity' element value. Общее количество грузовых мест, занятых товаром.
              * 
              * @return value
              */
@@ -1968,7 +1968,7 @@ public class InfoDTType extends BaseDocType
             }
 
             /** 
-             * Set the 'PakageQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚, Р·Р°РЅСЏС‚С‹С… С‚РѕРІР°СЂРѕРј.
+             * Set the 'PakageQuantity' element value. Общее количество грузовых мест, занятых товаром.
              * 
              * @param pakageQuantity
              */
@@ -2049,7 +2049,7 @@ public class InfoDTType extends BaseDocType
             }
         }
         /** 
-         * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С….СЌР»РµРјРµРЅС‚ 3 Р“СЂ 31
+         * Сведения о контейнерах.элемент 3 Гр 31
          * 
          * Schema fragment(s) for this class:
          * <pre>
@@ -2086,7 +2086,7 @@ public class InfoDTType extends BaseDocType
                 containerNumberList = list;
             }
             /** 
-             * РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+             * Номер контейнера
              * 
              * Schema fragment(s) for this class:
              * <pre>
@@ -2104,7 +2104,7 @@ public class InfoDTType extends BaseDocType
                 private String containerIdentificator;
 
                 /** 
-                 * Get the 'ContainerIdentificator' element value. РќРѕРјРµСЂ (РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ) РєРѕРЅС‚РµР№РЅРµСЂР°
+                 * Get the 'ContainerIdentificator' element value. Номер (идентификатор) контейнера
                  * 
                  * @return value
                  */
@@ -2113,7 +2113,7 @@ public class InfoDTType extends BaseDocType
                 }
 
                 /** 
-                 * Set the 'ContainerIdentificator' element value. РќРѕРјРµСЂ (РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ) РєРѕРЅС‚РµР№РЅРµСЂР°
+                 * Set the 'ContainerIdentificator' element value. Номер (идентификатор) контейнера
                  * 
                  * @param containerIdentificator
                  */

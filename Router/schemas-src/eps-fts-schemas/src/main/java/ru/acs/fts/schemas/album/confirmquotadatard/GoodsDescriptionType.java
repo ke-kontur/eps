@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.LicenseGoodsType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsDescriptionType
 {
@@ -16,7 +16,7 @@ public class GoodsDescriptionType
     private LicenseGoodsType licenseGoods;
 
     /** 
-     * Get the 'GoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Get the 'GoodsNumber' element value. Номер товара
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Set the 'GoodsNumber' element value. Номер товара
      * 
      * @param goodsNumber
      */
@@ -34,7 +34,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the list of 'SupplementaryQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ Рё РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the list of 'SupplementaryQuantity' element items. Количество и единицы измерения
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the list of 'SupplementaryQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ Рё РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the list of 'SupplementaryQuantity' element items. Количество и единицы измерения
      * 
      * @param list
      */
@@ -53,7 +53,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'LicenseGoods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'LicenseGoods' element value. Сведения о товаре по приложению разрешительного документа
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'LicenseGoods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'LicenseGoods' element value. Сведения о товаре по приложению разрешительного документа
      * 
      * @param licenseGoods
      */

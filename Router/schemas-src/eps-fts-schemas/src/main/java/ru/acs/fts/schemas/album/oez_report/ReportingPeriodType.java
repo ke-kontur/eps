@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.oez_report;
 import org.joda.time.LocalDate;
 
 /** 
- * РћС‚С‡С‘С‚РЅС‹Р№ РїРµСЂРёРѕРґ
+ * Отчётный период
  */
 public class ReportingPeriodType
 {
@@ -12,7 +12,7 @@ public class ReportingPeriodType
     private LocalDate endDate;
 
     /** 
-     * Get the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РѕС‚С‡С‘С‚РЅРѕРіРѕ РїРµСЂРёРѕРґР°
+     * Get the 'StartDate' element value. Дата начала отчётного периода
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ReportingPeriodType
     }
 
     /** 
-     * Set the 'StartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РѕС‚С‡С‘С‚РЅРѕРіРѕ РїРµСЂРёРѕРґР°
+     * Set the 'StartDate' element value. Дата начала отчётного периода
      * 
      * @param startDate
      */
@@ -30,7 +30,7 @@ public class ReportingPeriodType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РѕС‚С‡С‘С‚РЅРѕРіРѕ РїРµСЂРёРѕРґР°
+     * Get the 'EndDate' element value. Дата окончания отчётного периода
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ReportingPeriodType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РѕС‚С‡С‘С‚РЅРѕРіРѕ РїРµСЂРёРѕРґР°
+     * Set the 'EndDate' element value. Дата окончания отчётного периода
      * 
      * @param endDate
      */

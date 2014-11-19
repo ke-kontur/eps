@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.FlightInfoType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° СѓР±С‹С‚РёРµ С„Р°РєС‚РёС‡РµСЃРєРё Р·Р°РіСЂСѓР¶РµРЅРЅС‹С… РЅР° Р±РѕСЂС‚ С‚РѕРІР°СЂР°С…
+ * Запрос на убытие фактически загруженных на борт товарах
  */
 public class UploadGoodsDepartRequestType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class UploadGoodsDepartRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Flight' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
+     * Get the 'Flight' element value. Сведения о рейсе
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class UploadGoodsDepartRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Flight' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
+     * Set the 'Flight' element value. Сведения о рейсе
      * 
      * @param flight
      */
@@ -34,7 +34,7 @@ public class UploadGoodsDepartRequestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'UploadedGoods' element items. РўРѕРІР°СЂС‹, С„Р°РєС‚РёС‡РµСЃРєРё Р·Р°РіСЂСѓР¶РµРЅРЅС‹Рµ РЅР° Р±РѕСЂС‚
+     * Get the list of 'UploadedGoods' element items. Товары, фактически загруженные на борт
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class UploadGoodsDepartRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'UploadedGoods' element items. РўРѕРІР°СЂС‹, С„Р°РєС‚РёС‡РµСЃРєРё Р·Р°РіСЂСѓР¶РµРЅРЅС‹Рµ РЅР° Р±РѕСЂС‚
+     * Set the list of 'UploadedGoods' element items. Товары, фактически загруженные на борт
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class UploadGoodsDepartRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class UploadGoodsDepartRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+ * Сведения из инструментального контроля
  */
 public class InstrumentalControlType
 {
@@ -23,7 +23,7 @@ public class InstrumentalControlType
     private UsingPassType passWeight;
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ Р»РёСЃС‚Р° СѓС‡РµС‚Р°
+     * Get the 'Number' element value. Номер листа учета
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ Р»РёСЃС‚Р° СѓС‡РµС‚Р°
+     * Set the 'Number' element value. Номер листа учета
      * 
      * @param number
      */
@@ -41,7 +41,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Get the 'DateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'DateTime' element value. Дата/время начала инструментального контроля
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Set the 'DateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'DateTime' element value. Дата/время начала инструментального контроля
      * 
      * @param dateTime
      */
@@ -59,7 +59,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Get the 'PassNumber' element value. РќРѕРјРµСЂ С‚Р°Р»РѕРЅР° РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'PassNumber' element value. Номер талона контроля
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Set the 'PassNumber' element value. РќРѕРјРµСЂ С‚Р°Р»РѕРЅР° РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'PassNumber' element value. Номер талона контроля
      * 
      * @param passNumber
      */
@@ -77,7 +77,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Get the 'Course' element value. РЁРёС„СЂ РїРѕРµР·РґРєРё
+     * Get the 'Course' element value. Шифр поездки
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Set the 'Course' element value. РЁРёС„СЂ РїРѕРµР·РґРєРё
+     * Set the 'Course' element value. Шифр поездки
      * 
      * @param course
      */
@@ -95,7 +95,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Get the 'InstrumentalEmployee' element value. РРЅСЃРїРµРєС‚РѕСЂ, РїСЂРѕРІРѕРґРёРІС€РёР№ РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅС‹Р№ РєРѕРЅС‚СЂРѕР»СЊ
+     * Get the 'InstrumentalEmployee' element value. Инспектор, проводивший инструментальный контроль
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Set the 'InstrumentalEmployee' element value. РРЅСЃРїРµРєС‚РѕСЂ, РїСЂРѕРІРѕРґРёРІС€РёР№ РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅС‹Р№ РєРѕРЅС‚СЂРѕР»СЊ
+     * Set the 'InstrumentalEmployee' element value. Инспектор, проводивший инструментальный контроль
      * 
      * @param instrumentalEmployee
      */
@@ -113,7 +113,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Get the 'Weight' element value. Р’РµСЃРѕРІС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ РўРЎ
+     * Get the 'Weight' element value. Весовые параметры ТС
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Set the 'Weight' element value. Р’РµСЃРѕРІС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ РўРЎ
+     * Set the 'Weight' element value. Весовые параметры ТС
      * 
      * @param weight
      */
@@ -131,7 +131,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Get the 'Size' element value. Р“Р°Р±Р°СЂРёС‚РЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ РўРЎ
+     * Get the 'Size' element value. Габаритные параметры ТС
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Set the 'Size' element value. Р“Р°Р±Р°СЂРёС‚РЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ РўРЎ
+     * Set the 'Size' element value. Габаритные параметры ТС
      * 
      * @param size
      */
@@ -149,7 +149,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Get the 'Auto' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РўРЎ
+     * Get the 'Auto' element value. Регистрационные данные ТС
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Set the 'Auto' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РўРЎ
+     * Set the 'Auto' element value. Регистрационные данные ТС
      * 
      * @param auto
      */
@@ -167,7 +167,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Get the list of 'ViolSmokeNoise' element items. РЎРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РґС‹РјРЅРѕСЃС‚Рё (С‚РѕРєСЃРёС‡РЅРѕСЃС‚Рё)/СѓСЂРѕРІРЅСЋ С€СѓРјРЅРѕСЃС‚Рё
+     * Get the list of 'ViolSmokeNoise' element items. Соответствие дымности (токсичности)/уровню шумности
      * 
      * @return list
      */
@@ -176,7 +176,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Set the list of 'ViolSmokeNoise' element items. РЎРѕРѕС‚РІРµС‚СЃС‚РІРёРµ РґС‹РјРЅРѕСЃС‚Рё (С‚РѕРєСЃРёС‡РЅРѕСЃС‚Рё)/СѓСЂРѕРІРЅСЋ С€СѓРјРЅРѕСЃС‚Рё
+     * Set the list of 'ViolSmokeNoise' element items. Соответствие дымности (токсичности)/уровню шумности
      * 
      * @param list
      */
@@ -185,7 +185,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Get the 'PassWeight' element value. РњРЎР’РўРЎ
+     * Get the 'PassWeight' element value. МСВТС
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class InstrumentalControlType
     }
 
     /** 
-     * Set the 'PassWeight' element value. РњРЎР’РўРЎ
+     * Set the 'PassWeight' element value. МСВТС
      * 
      * @param passWeight
      */

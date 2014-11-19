@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.railwaybill;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РїРµСЂРµРІРѕР·РѕС‡РЅС‹С… РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёР№
+ * Описание перевозочных приспособлений
  */
 public class WorkToolType
 {
@@ -11,7 +11,7 @@ public class WorkToolType
     private String containerModeDescription;
 
     /** 
-     * Get the 'RailwayCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ РґРѕСЂРѕРіРё - РІР»Р°РґРµР»СЊС†Р° РїРµСЂРµРІРѕР·РѕС‡РЅРѕРіРѕ РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёСЏ. РќРµ СѓРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёРµ РЅРµ РїСЂРёРЅР°РґР»РµР¶РёС‚ Р¶РµР»РµР·РЅС‹Рј РґРѕСЂРѕРіР°Рј
+     * Get the 'RailwayCode' element value. Код железнодорожной дороги - владельца перевозочного приспособления. Не указывается, если приспособление не принадлежит железным дорогам
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class WorkToolType
     }
 
     /** 
-     * Set the 'RailwayCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ РґРѕСЂРѕРіРё - РІР»Р°РґРµР»СЊС†Р° РїРµСЂРµРІРѕР·РѕС‡РЅРѕРіРѕ РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёСЏ. РќРµ СѓРєР°Р·С‹РІР°РµС‚СЃСЏ, РµСЃР»Рё РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёРµ РЅРµ РїСЂРёРЅР°РґР»РµР¶РёС‚ Р¶РµР»РµР·РЅС‹Рј РґРѕСЂРѕРіР°Рј
+     * Set the 'RailwayCode' element value. Код железнодорожной дороги - владельца перевозочного приспособления. Не указывается, если приспособление не принадлежит железным дорогам
      * 
      * @param railwayCode
      */
@@ -29,7 +29,7 @@ public class WorkToolType
     }
 
     /** 
-     * Get the 'WorkToolID' element value. Р—РЅР°Рє Рё РЅРѕРјРµСЂ РїРµСЂРµРІРѕР·РѕС‡РЅРѕРіРѕ РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёСЏ
+     * Get the 'WorkToolID' element value. Знак и номер перевозочного приспособления
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class WorkToolType
     }
 
     /** 
-     * Set the 'WorkToolID' element value. Р—РЅР°Рє Рё РЅРѕРјРµСЂ РїРµСЂРµРІРѕР·РѕС‡РЅРѕРіРѕ РїСЂРёСЃРїРѕСЃРѕР±Р»РµРЅРёСЏ
+     * Set the 'WorkToolID' element value. Знак и номер перевозочного приспособления
      * 
      * @param workToolID
      */
@@ -47,7 +47,7 @@ public class WorkToolType
     }
 
     /** 
-     * Get the 'ContainerModeDescription' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'ContainerModeDescription' element value. Описание вида контейнера
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class WorkToolType
     }
 
     /** 
-     * Set the 'ContainerModeDescription' element value. РћРїРёСЃР°РЅРёРµ РІРёРґР° РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'ContainerModeDescription' element value. Описание вида контейнера
      * 
      * @param containerModeDescription
      */

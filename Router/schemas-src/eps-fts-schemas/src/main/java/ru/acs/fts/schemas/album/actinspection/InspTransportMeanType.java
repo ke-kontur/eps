@@ -7,14 +7,14 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUTransportMeansType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+ * Описание транспортного средства
  */
 public class InspTransportMeanType extends CUTransportMeansType
 {
     private List<TransportMeansBaseType> transportMeanList = new ArrayList<TransportMeansBaseType>();
 
     /** 
-     * Get the list of 'TransportMeans' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ  СЃСЂРµРґСЃС‚РІР°
+     * Get the list of 'TransportMeans' element items. Транспортные  средства
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class InspTransportMeanType extends CUTransportMeansType
     }
 
     /** 
-     * Set the list of 'TransportMeans' element items. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ  СЃСЂРµРґСЃС‚РІР°
+     * Set the list of 'TransportMeans' element items. Транспортные  средства
      * 
      * @param list
      */

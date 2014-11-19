@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р РµС€РµРЅРёРµ РѕР± РёР·РјРµРЅРµРЅРёРё СЂРµС€РµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂР°
+ * Решение об изменении решения по классификации товара
  */
 public class ClassDecisionChangeType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class ClassDecisionChangeType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё СЂРµС€РµРЅРёСЏ РѕР± РёР·РјРµРЅРµРЅРёРё СЂРµС€РµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂР°
+     * Get the 'Date' element value. Дата регистрации решения об изменении решения по классификации товара
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё СЂРµС€РµРЅРёСЏ РѕР± РёР·РјРµРЅРµРЅРёРё СЂРµС€РµРЅРёСЏ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё С‚РѕРІР°СЂР°
+     * Set the 'Date' element value. Дата регистрации решения об изменении решения по классификации товара
      * 
      * @param date
      */
@@ -38,7 +38,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @param registrationNumber
      */
@@ -56,7 +56,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Р”РµРєР»Р°СЂР°РЅС‚
+     * Get the 'Declarant' element value. Декларант
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Р”РµРєР»Р°СЂР°РЅС‚
+     * Set the 'Declarant' element value. Декларант
      * 
      * @param declarant
      */
@@ -74,7 +74,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'Customs' element value. Наименование таможенного органа
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'Customs' element value. Наименование таможенного органа
      * 
      * @param customs
      */
@@ -92,7 +92,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'Goods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the 'Goods' element value. Сведения о товарах
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'Goods' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the 'Goods' element value. Сведения о товарах
      * 
      * @param goods
      */
@@ -110,7 +110,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
+     * Get the 'CustomsPerson' element value. Подпись должностного лица
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°
+     * Set the 'CustomsPerson' element value. Подпись должностного лица
      * 
      * @param customsPerson
      */
@@ -128,7 +128,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class ClassDecisionChangeType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

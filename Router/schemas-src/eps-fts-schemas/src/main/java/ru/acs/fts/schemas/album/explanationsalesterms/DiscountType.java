@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * РћС‚Р»РёС‡РёРµ РІС‹Р·РІР°РЅРѕ СЃРєРёРґРєРѕР№
+ * Отличие вызвано скидкой
  */
 public class DiscountType
 {
@@ -13,7 +13,7 @@ public class DiscountType
     private String comments;
 
     /** 
-     * Get the 'QuantityGoods' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЃРєРёРґРєРё РЅР° РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ
+     * Get the 'QuantityGoods' element value. Признак наличия скидки на количество товаров
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class DiscountType
     }
 
     /** 
-     * Set the 'QuantityGoods' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЃРєРёРґРєРё РЅР° РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ
+     * Set the 'QuantityGoods' element value. Признак наличия скидки на количество товаров
      * 
      * @param quantityGoods
      */
@@ -31,7 +31,7 @@ public class DiscountType
     }
 
     /** 
-     * Get the 'RepaymentTerms' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЃРєРёРґРєРё РЅР° СѓСЃР»РѕРІРёСЏ РѕРїР»Р°С‚С‹
+     * Get the 'RepaymentTerms' element value. Признак наличия скидки на условия оплаты
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DiscountType
     }
 
     /** 
-     * Set the 'RepaymentTerms' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЃРєРёРґРєРё РЅР° СѓСЃР»РѕРІРёСЏ РѕРїР»Р°С‚С‹
+     * Set the 'RepaymentTerms' element value. Признак наличия скидки на условия оплаты
      * 
      * @param repaymentTerms
      */
@@ -49,7 +49,7 @@ public class DiscountType
     }
 
     /** 
-     * Get the 'Seasonal' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЃРµР·РѕРЅРЅРѕР№ СЃРєРёРґРєРё
+     * Get the 'Seasonal' element value. Признак наличия сезонной скидки
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DiscountType
     }
 
     /** 
-     * Set the 'Seasonal' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЃРµР·РѕРЅРЅРѕР№ СЃРєРёРґРєРё
+     * Set the 'Seasonal' element value. Признак наличия сезонной скидки
      * 
      * @param seasonal
      */
@@ -67,7 +67,7 @@ public class DiscountType
     }
 
     /** 
-     * Get the 'Other' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РёРЅРѕР№ СЃРєРёРґРєРё
+     * Get the 'Other' element value. Признак наличия иной скидки
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class DiscountType
     }
 
     /** 
-     * Set the 'Other' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РёРЅРѕР№ СЃРєРёРґРєРё
+     * Set the 'Other' element value. Признак наличия иной скидки
      * 
      * @param other
      */
@@ -85,7 +85,7 @@ public class DiscountType
     }
 
     /** 
-     * Get the 'Comments' element value. РРЅС‹Рµ (СѓРєР°Р·Р°С‚СЊ РІРёРґ)
+     * Get the 'Comments' element value. Иные (указать вид)
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class DiscountType
     }
 
     /** 
-     * Set the 'Comments' element value. РРЅС‹Рµ (СѓРєР°Р·Р°С‚СЊ РІРёРґ)
+     * Set the 'Comments' element value. Иные (указать вид)
      * 
      * @param comments
      */

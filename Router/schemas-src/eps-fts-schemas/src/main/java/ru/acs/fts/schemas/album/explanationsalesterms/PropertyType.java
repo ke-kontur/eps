@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * РљРѕРіРґР° РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РїРµСЂРµС…РѕРґ РїСЂР°РІР° СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё РѕС‚ РџСЂРѕРґР°РІС†Р° Рє РџРѕРєСѓРїР°С‚РµР»СЋ
+ * Когда осуществляется переход права собственности от Продавца к Покупателю
  */
 public class PropertyType
 {
@@ -12,7 +12,7 @@ public class PropertyType
     private String commentsOtherDay;
 
     /** 
-     * Get the 'DayShipping' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° РїСЂР°РІР° СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё РѕС‚ РїСЂРѕРґР°РІС†Р° Рє РїРѕРєСѓРїР°С‚РµР»СЋ РЅР° РґРµРЅСЊ РѕС‚РіСЂСѓР·РєРё
+     * Get the 'DayShipping' element value. Признак перехода права собственности от продавца к покупателю на день отгрузки
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PropertyType
     }
 
     /** 
-     * Set the 'DayShipping' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° РїСЂР°РІР° СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё РѕС‚ РїСЂРѕРґР°РІС†Р° Рє РїРѕРєСѓРїР°С‚РµР»СЋ РЅР° РґРµРЅСЊ РѕС‚РіСЂСѓР·РєРё
+     * Set the 'DayShipping' element value. Признак перехода права собственности от продавца к покупателю на день отгрузки
      * 
      * @param dayShipping
      */
@@ -30,7 +30,7 @@ public class PropertyType
     }
 
     /** 
-     * Get the 'DayPayment' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° РїСЂР°РІР° СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё РѕС‚ РїСЂРѕРґР°РІС†Р° Рє РїРѕРєСѓРїР°С‚РµР»СЋ РЅР° РґРµРЅСЊ РѕРїР»Р°С‚С‹
+     * Get the 'DayPayment' element value. Признак перехода права собственности от продавца к покупателю на день оплаты
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PropertyType
     }
 
     /** 
-     * Set the 'DayPayment' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° РїСЂР°РІР° СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё РѕС‚ РїСЂРѕРґР°РІС†Р° Рє РїРѕРєСѓРїР°С‚РµР»СЋ РЅР° РґРµРЅСЊ РѕРїР»Р°С‚С‹
+     * Set the 'DayPayment' element value. Признак перехода права собственности от продавца к покупателю на день оплаты
      * 
      * @param dayPayment
      */
@@ -48,7 +48,7 @@ public class PropertyType
     }
 
     /** 
-     * Get the 'OtherDay' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° РїСЂР°РІР° СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё РѕС‚ РїСЂРѕРґР°РІС†Р° Рє РїРѕРєСѓРїР°С‚РµР»СЋ РІ РёРЅРѕР№ РґРµРЅСЊ
+     * Get the 'OtherDay' element value. Признак перехода права собственности от продавца к покупателю в иной день
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class PropertyType
     }
 
     /** 
-     * Set the 'OtherDay' element value. РџСЂРёР·РЅР°Рє РїРµСЂРµС…РѕРґР° РїСЂР°РІР° СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚Рё РѕС‚ РїСЂРѕРґР°РІС†Р° Рє РїРѕРєСѓРїР°С‚РµР»СЋ РІ РёРЅРѕР№ РґРµРЅСЊ
+     * Set the 'OtherDay' element value. Признак перехода права собственности от продавца к покупателю в иной день
      * 
      * @param otherDay
      */
@@ -66,7 +66,7 @@ public class PropertyType
     }
 
     /** 
-     * Get the 'CommentsOtherDay' element value. РРЅРѕР№ РґРµРЅСЊ(РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
+     * Get the 'CommentsOtherDay' element value. Иной день(подробности)
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class PropertyType
     }
 
     /** 
-     * Set the 'CommentsOtherDay' element value. РРЅРѕР№ РґРµРЅСЊ(РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
+     * Set the 'CommentsOtherDay' element value. Иной день(подробности)
      * 
      * @param commentsOtherDay
      */

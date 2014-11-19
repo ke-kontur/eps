@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUTransportMeansType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚Рµ
+ * Сведения о транспорте
  */
 public class TransportInfoType extends CUTransportMeansType
 {
@@ -15,7 +15,7 @@ public class TransportInfoType extends CUTransportMeansType
     private List<TransportType> transportMeanList = new ArrayList<TransportType>();
 
     /** 
-     * Get the 'TransportSign' element value. РџСЂРёР·РЅР°Рє С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°: 0 - РїСЂРё РѕС‚РїСЂР°РІР»РµРЅРёРё/РїСЂРёР±С‹С‚РёРё (18); 1 - РЅР° РіСЂР°РЅРёС†Рµ (21)
+     * Get the 'TransportSign' element value. Признак транспортного средства: 0 - при отправлении/прибытии (18); 1 - на границе (21)
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class TransportInfoType extends CUTransportMeansType
     }
 
     /** 
-     * Set the 'TransportSign' element value. РџСЂРёР·РЅР°Рє С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°: 0 - РїСЂРё РѕС‚РїСЂР°РІР»РµРЅРёРё/РїСЂРёР±С‹С‚РёРё (18); 1 - РЅР° РіСЂР°РЅРёС†Рµ (21)
+     * Set the 'TransportSign' element value. Признак транспортного средства: 0 - при отправлении/прибытии (18); 1 - на границе (21)
      * 
      * @param transportSign
      */
@@ -33,7 +33,7 @@ public class TransportInfoType extends CUTransportMeansType
     }
 
     /** 
-     * Get the 'Quantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the 'Quantity' element value. Общее количество транспортных средств
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class TransportInfoType extends CUTransportMeansType
     }
 
     /** 
-     * Set the 'Quantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the 'Quantity' element value. Общее количество транспортных средств
      * 
      * @param quantity
      */
@@ -51,7 +51,7 @@ public class TransportInfoType extends CUTransportMeansType
     }
 
     /** 
-     * Get the list of 'TransportMeans' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the list of 'TransportMeans' element items. Описание транспортного средства
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class TransportInfoType extends CUTransportMeansType
     }
 
     /** 
-     * Set the list of 'TransportMeans' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the list of 'TransportMeans' element items. Описание транспортного средства
      * 
      * @param list
      */

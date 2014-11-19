@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.sertifst1form;
 import org.joda.time.LocalDate;
 
 /** 
- * Р”РµРєР»Р°СЂР°С†РёСЏ Р·Р°СЏРІРёС‚РµР»СЏ
+ * Декларация заявителя
  */
 public class AppDeclarationType
 {
@@ -14,7 +14,7 @@ public class AppDeclarationType
     private String signPlace;
 
     /** 
-     * Get the 'DateInf' element value. Р”Р°С‚Р° СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DateInf' element value. Дата удостоверения документа
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class AppDeclarationType
     }
 
     /** 
-     * Set the 'DateInf' element value. Р”Р°С‚Р° СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DateInf' element value. Дата удостоверения документа
      * 
      * @param dateInf
      */
@@ -32,7 +32,7 @@ public class AppDeclarationType
     }
 
     /** 
-     * Get the 'AppCountry' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ РґРµРєР»Р°СЂР°С†РёРё Р·Р°СЏРІРёС‚РµР»СЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'AppCountry' element value. Наименование страны в декларации заявителя сертификата
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class AppDeclarationType
     }
 
     /** 
-     * Set the 'AppCountry' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ РґРµРєР»Р°СЂР°С†РёРё Р·Р°СЏРІРёС‚РµР»СЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'AppCountry' element value. Наименование страны в декларации заявителя сертификата
      * 
      * @param appCountry
      */
@@ -50,7 +50,7 @@ public class AppDeclarationType
     }
 
     /** 
-     * Get the 'FIO' element value. Р¤РРћ Р·Р°СЏРІРёС‚РµР»СЏ
+     * Get the 'FIO' element value. ФИО заявителя
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class AppDeclarationType
     }
 
     /** 
-     * Set the 'FIO' element value. Р¤РРћ Р·Р°СЏРІРёС‚РµР»СЏ
+     * Set the 'FIO' element value. ФИО заявителя
      * 
      * @param FIO
      */
@@ -68,7 +68,7 @@ public class AppDeclarationType
     }
 
     /** 
-     * Get the 'SignPlace' element value. РњРµСЃС‚Рѕ  РїРѕРґРїРёСЃРё
+     * Get the 'SignPlace' element value. Место  подписи
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class AppDeclarationType
     }
 
     /** 
-     * Set the 'SignPlace' element value. РњРµСЃС‚Рѕ  РїРѕРґРїРёСЃРё
+     * Set the 'SignPlace' element value. Место  подписи
      * 
      * @param signPlace
      */

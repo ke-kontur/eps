@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUTransportMeansType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІР°С…
+ * Сведения о транспортных средствах
  */
 public class ESADoutTransportPType extends CUTransportMeansType
 {
     private List<TransportMeansType> transportMeanList = new ArrayList<TransportMeansType>();
 
     /** 
-     * Get the list of 'TransportMeans' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІР°С…
+     * Get the list of 'TransportMeans' element items. Сведения о транспортных средствах
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class ESADoutTransportPType extends CUTransportMeansType
     }
 
     /** 
-     * Set the list of 'TransportMeans' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІР°С…
+     * Set the list of 'TransportMeans' element items. Сведения о транспортных средствах
      * 
      * @param list
      */

@@ -12,7 +12,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ProcessingGoodsDe
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.RUESADDecisionType;
 
 /** 
- * Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ Р”Рў. Р“СЂ. 31-47.
+ * ДТ и ТД. Внутренний формат. Товарная часть ДТ. Гр. 31-47.
  */
 public class ESADinGoodsType extends ESADGoodsType
 {
@@ -35,7 +35,7 @@ public class ESADinGoodsType extends ESADGoodsType
     private List<ESADExciseType> ESADExciseList = new ArrayList<ESADExciseType>();
 
     /** 
-     * Get the 'OriginDigitCountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ.
+     * Get the 'OriginDigitCountryCode' element value. Цифровой код страны происхождения.
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the 'OriginDigitCountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ.
+     * Set the 'OriginDigitCountryCode' element value. Цифровой код страны происхождения.
      * 
      * @param originDigitCountryCode
      */
@@ -53,7 +53,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the 'DestinationDigitCountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ.
+     * Get the 'DestinationDigitCountryCode' element value. Цифровой код страны назначения.
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the 'DestinationDigitCountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ.
+     * Set the 'DestinationDigitCountryCode' element value. Цифровой код страны назначения.
      * 
      * @param destinationDigitCountryCode
      */
@@ -72,7 +72,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the 'CustomsCostCorrectMark' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
+     * Get the 'CustomsCostCorrectMark' element value. Признак корректировки таможенной стоимости.
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the 'CustomsCostCorrectMark' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
+     * Set the 'CustomsCostCorrectMark' element value. Признак корректировки таможенной стоимости.
      * 
      * @param customsCostCorrectMark
      */
@@ -90,7 +90,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the 'STAT' element value. РџСЂРёР·РЅР°Рє СѓС‡РµС‚Р° РІ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё (0 -  С‚РѕРІР°СЂ РЅРµ СѓС‡РёС‚С‹РІР°СЋС‚СЃСЏ  РІ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё, 1 - С‚РѕРІР°СЂ СѓС‡РёС‚С‹РІР°РµС‚СЃСЏ РІ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё)
+     * Get the 'STAT' element value. Признак учета в таможенной статистике внешней торговли (0 -  товар не учитываются  в статистике внешней торговли, 1 - товар учитывается в статистике внешней торговли)
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the 'STAT' element value. РџСЂРёР·РЅР°Рє СѓС‡РµС‚Р° РІ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё (0 -  С‚РѕРІР°СЂ РЅРµ СѓС‡РёС‚С‹РІР°СЋС‚СЃСЏ  РІ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё, 1 - С‚РѕРІР°СЂ СѓС‡РёС‚С‹РІР°РµС‚СЃСЏ РІ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё)
+     * Set the 'STAT' element value. Признак учета в таможенной статистике внешней торговли (0 -  товар не учитываются  в статистике внешней торговли, 1 - товар учитывается в статистике внешней торговли)
      * 
      * @param STAT
      */
@@ -108,7 +108,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the 'KOD_STR' element value. Р Р°СЃС‡РµС‚РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ / РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р¤РѕСЂРјРёСЂСѓРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Рј Р°Р»РіРѕСЂРёС‚РјРѕРј РґР»СЏ С†РµР»РµР№ СЃС‚Р°С‚РёСЃС‚РёРєРё. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ.
+     * Get the 'KOD_STR' element value. Расчетное значение страны происхождения / назначения. Формируется в соответствии с установленным алгоритмом для целей статистики. Буквенный код.
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the 'KOD_STR' element value. Р Р°СЃС‡РµС‚РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ / РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р¤РѕСЂРјРёСЂСѓРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Рј Р°Р»РіРѕСЂРёС‚РјРѕРј РґР»СЏ С†РµР»РµР№ СЃС‚Р°С‚РёСЃС‚РёРєРё. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ.
+     * Set the 'KOD_STR' element value. Расчетное значение страны происхождения / назначения. Формируется в соответствии с установленным алгоритмом для целей статистики. Буквенный код.
      * 
      * @param KODSTR
      */
@@ -126,7 +126,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the 'KOD_STRC' element value. Р Р°СЃС‡РµС‚РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ / РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р¤РѕСЂРјРёСЂСѓРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Рј Р°Р»РіРѕСЂРёС‚РјРѕРј РґР»СЏ С†РµР»РµР№ СЃС‚Р°С‚РёСЃС‚РёРєРё. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ.
+     * Get the 'KOD_STRC' element value. Расчетное значение страны происхождения / назначения. Формируется в соответствии с установленным алгоритмом для целей статистики. Цифровой код.
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the 'KOD_STRC' element value. Р Р°СЃС‡РµС‚РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ СЃС‚СЂР°РЅС‹ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ / РЅР°Р·РЅР°С‡РµРЅРёСЏ. Р¤РѕСЂРјРёСЂСѓРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Рј Р°Р»РіРѕСЂРёС‚РјРѕРј РґР»СЏ С†РµР»РµР№ СЃС‚Р°С‚РёСЃС‚РёРєРё. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ.
+     * Set the 'KOD_STRC' element value. Расчетное значение страны происхождения / назначения. Формируется в соответствии с установленным алгоритмом для целей статистики. Цифровой код.
      * 
      * @param KODSTRC
      */
@@ -144,7 +144,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the 'DSTAT' element value. Р”Р°С‚Р° СѓС‡РµС‚Р° (РЅРµ СѓС‡РµС‚Р°) С‚РѕРІР°СЂР° РІ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё.
+     * Get the 'DSTAT' element value. Дата учета (не учета) товара в статистике внешней торговли.
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the 'DSTAT' element value. Р”Р°С‚Р° СѓС‡РµС‚Р° (РЅРµ СѓС‡РµС‚Р°) С‚РѕРІР°СЂР° РІ СЃС‚Р°С‚РёСЃС‚РёРєРµ РІРЅРµС€РЅРµР№ С‚РѕСЂРіРѕРІР»Рё.
+     * Set the 'DSTAT' element value. Дата учета (не учета) товара в статистике внешней торговли.
      * 
      * @param DSTAT
      */
@@ -162,7 +162,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the 'CustomsCostMethodCode' element value. РљРѕРґ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
+     * Get the 'CustomsCostMethodCode' element value. Код метода определения таможенной стоимости. В соответствии с Классификатором методов определения таможенной стоимости.
      * 
      * @return value
      */
@@ -171,7 +171,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the 'CustomsCostMethodCode' element value. РљРѕРґ РјРµС‚РѕРґР° РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. Р’ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РјРµС‚РѕРґРѕРІ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.
+     * Set the 'CustomsCostMethodCode' element value. Код метода определения таможенной стоимости. В соответствии с Классификатором методов определения таможенной стоимости.
      * 
      * @param customsCostMethodCode
      */
@@ -180,7 +180,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the list of 'ESADinPresentedDocument' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ РіСЂ. 44.
+     * Get the list of 'ESADinPresentedDocument' element items. ДТ и ТД. Внутренний формат. Представленные документы гр. 44.
      * 
      * @return list
      */
@@ -189,7 +189,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the list of 'ESADinPresentedDocument' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ РіСЂ. 44.
+     * Set the list of 'ESADinPresentedDocument' element items. ДТ и ТД. Внутренний формат. Представленные документы гр. 44.
      * 
      * @param list
      */
@@ -199,7 +199,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the list of 'ESADinPrecedingDocument' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ РґРѕРєСѓРјРµРЅС‚С‹.
+     * Get the list of 'ESADinPrecedingDocument' element items. ДТ и ТД. Внутренний формат. Предшествующие документы.
      * 
      * @return list
      */
@@ -208,7 +208,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the list of 'ESADinPrecedingDocument' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ РґРѕРєСѓРјРµРЅС‚С‹.
+     * Set the list of 'ESADinPrecedingDocument' element items. ДТ и ТД. Внутренний формат. Предшествующие документы.
      * 
      * @param list
      */
@@ -218,7 +218,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the list of 'ESADinCustomsPaymentCalculation' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№.
+     * Get the list of 'ESADinCustomsPaymentCalculation' element items. ДТ и ТД. Внутренний формат. Исчисление таможенных платежей.
      * 
      * @return list
      */
@@ -227,7 +227,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the list of 'ESADinCustomsPaymentCalculation' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№.
+     * Set the list of 'ESADinCustomsPaymentCalculation' element items. ДТ и ТД. Внутренний формат. Исчисление таможенных платежей.
      * 
      * @param list
      */
@@ -237,7 +237,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the list of 'ESADinAutomobile' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ  РѕР± Р°РІС‚РѕРјРѕР±РёР»СЏС…. Р“СЂ. 31
+     * Get the list of 'ESADinAutomobile' element items. ДТ и ТД. Внутренний формат. Сведения  об автомобилях. Гр. 31
      * 
      * @return list
      */
@@ -246,7 +246,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the list of 'ESADinAutomobile' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ  РѕР± Р°РІС‚РѕРјРѕР±РёР»СЏС…. Р“СЂ. 31
+     * Set the list of 'ESADinAutomobile' element items. ДТ и ТД. Внутренний формат. Сведения  об автомобилях. Гр. 31
      * 
      * @param list
      */
@@ -255,7 +255,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the 'ESADinGoodsOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё РІ С‚РѕРІР°СЂРЅРѕР№ С‡Р°СЃС‚Рё Р”Рў
+     * Get the 'ESADinGoodsOrganization' element value. Сведения об организации в товарной части ДТ
      * 
      * @return value
      */
@@ -264,7 +264,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the 'ESADinGoodsOrganization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё РІ С‚РѕРІР°СЂРЅРѕР№ С‡Р°СЃС‚Рё Р”Рў
+     * Set the 'ESADinGoodsOrganization' element value. Сведения об организации в товарной части ДТ
      * 
      * @param ESADinGoodsOrganization
      */
@@ -274,7 +274,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the 'CustomConditionDocuments' element value. РЎРІРµРґРµРЅРёСЏ, СѓРєР°Р·С‹РІР°РµРјС‹Рµ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё Р”Рў РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ РєР°С‡РµСЃС‚РІРµ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° РїРѕР»СѓС‡РµРЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІСЌР»РµРјРµРЅС‚ 6 РіСЂ 31, РіСЂ 44
+     * Get the 'CustomConditionDocuments' element value. Сведения, указываемые в случае, если ДТ используется в качестве заявления на получение разрешения на переработку товаровэлемент 6 гр 31, гр 44
      * 
      * @return value
      */
@@ -283,7 +283,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the 'CustomConditionDocuments' element value. РЎРІРµРґРµРЅРёСЏ, СѓРєР°Р·С‹РІР°РµРјС‹Рµ РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё Р”Рў РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ РєР°С‡РµСЃС‚РІРµ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° РїРѕР»СѓС‡РµРЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ С‚РѕРІР°СЂРѕРІСЌР»РµРјРµРЅС‚ 6 РіСЂ 31, РіСЂ 44
+     * Set the 'CustomConditionDocuments' element value. Сведения, указываемые в случае, если ДТ используется в качестве заявления на получение разрешения на переработку товаровэлемент 6 гр 31, гр 44
      * 
      * @param customConditionDocuments
      */
@@ -293,7 +293,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the 'ESADinGoodsDecision' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјС‚. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ РїРѕ С‚РѕРІР°СЂСѓ.
+     * Get the 'ESADinGoodsDecision' element value. ДТ и ТД. Внутренний формт. Принятое решение по товару.
      * 
      * @return value
      */
@@ -302,7 +302,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the 'ESADinGoodsDecision' element value. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјС‚. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ РїРѕ С‚РѕРІР°СЂСѓ.
+     * Set the 'ESADinGoodsDecision' element value. ДТ и ТД. Внутренний формт. Принятое решение по товару.
      * 
      * @param ESADinGoodsDecision
      */
@@ -311,7 +311,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the list of 'ESADinGoodsOfficialMark' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂСѓ.
+     * Get the list of 'ESADinGoodsOfficialMark' element items. ДТ и ТД. Внутренний формат. Служебные отметки по товару.
      * 
      * @return list
      */
@@ -320,7 +320,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the list of 'ESADinGoodsOfficialMark' element items. Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂСѓ.
+     * Set the list of 'ESADinGoodsOfficialMark' element items. ДТ и ТД. Внутренний формат. Служебные отметки по товару.
      * 
      * @param list
      */
@@ -330,7 +330,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Get the list of 'ESADExcise' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РєС†РёР·РЅС‹С… РјР°СЂРєР°С….
+     * Get the list of 'ESADExcise' element items. Сведения об акцизных марках.
      * 
      * @return list
      */
@@ -339,7 +339,7 @@ public class ESADinGoodsType extends ESADGoodsType
     }
 
     /** 
-     * Set the list of 'ESADExcise' element items. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РєС†РёР·РЅС‹С… РјР°СЂРєР°С….
+     * Set the list of 'ESADExcise' element items. Сведения об акцизных марках.
      * 
      * @param list
      */

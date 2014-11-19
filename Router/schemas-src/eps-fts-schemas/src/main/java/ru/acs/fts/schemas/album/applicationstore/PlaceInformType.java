@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.applicationstore;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РјРµСЃС‚Рµ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+ * Сведения о месте назначения
  */
 public class PlaceInformType
 {
@@ -12,7 +12,7 @@ public class PlaceInformType
     private String airportIATACode;
 
     /** 
-     * Get the 'PlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЂС‚Р°/Р°СЌСЂРѕРїРѕСЂС‚Р°/СЃС‚Р°РЅС†РёРё
+     * Get the 'PlaceName' element value. Наименование порта/аэропорта/станции
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PlaceInformType
     }
 
     /** 
-     * Set the 'PlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕСЂС‚Р°/Р°СЌСЂРѕРїРѕСЂС‚Р°/СЃС‚Р°РЅС†РёРё
+     * Set the 'PlaceName' element value. Наименование порта/аэропорта/станции
      * 
      * @param placeName
      */
@@ -30,7 +30,7 @@ public class PlaceInformType
     }
 
     /** 
-     * Get the 'CountryName' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ (РЅР°Р·РІР°РЅРёРµ) 
+     * Get the 'CountryName' element value. Страна назначения (название) 
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PlaceInformType
     }
 
     /** 
-     * Set the 'CountryName' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ (РЅР°Р·РІР°РЅРёРµ) 
+     * Set the 'CountryName' element value. Страна назначения (название) 
      * 
      * @param countryName
      */
@@ -48,7 +48,7 @@ public class PlaceInformType
     }
 
     /** 
-     * Get the 'CountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ (РєРѕРґ)
+     * Get the 'CountryCode' element value. Страна назначения (код)
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class PlaceInformType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ (РєРѕРґ)
+     * Set the 'CountryCode' element value. Страна назначения (код)
      * 
      * @param countryCode
      */
@@ -66,7 +66,7 @@ public class PlaceInformType
     }
 
     /** 
-     * Get the 'AirportIATACode' element value. РљРѕРґ РРђРўРђ Р°СЌСЂРѕРїРѕСЂС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'AirportIATACode' element value. Код ИАТА аэропорта назначения
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class PlaceInformType
     }
 
     /** 
-     * Set the 'AirportIATACode' element value. РљРѕРґ РРђРўРђ Р°СЌСЂРѕРїРѕСЂС‚Р° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'AirportIATACode' element value. Код ИАТА аэропорта назначения
      * 
      * @param airportIATACode
      */

@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.eps_inforequest;
 
 /** 
- * Р—Р°РїСЂРѕСЃ Рє РїСЂРѕС†РµРґСѓСЂРµ/РїСЂРѕС†РµСЃСЃСѓ
+ * Запрос к процедуре/процессу
  */
 public class ProcessRequestType
 {
     private String processID;
 
     /** 
-     * Get the 'ProcessID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°
+     * Get the 'ProcessID' element value. Идентификатор процесса
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class ProcessRequestType
     }
 
     /** 
-     * Set the 'ProcessID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°
+     * Set the 'ProcessID' element value. Идентификатор процесса
      * 
      * @param processID
      */

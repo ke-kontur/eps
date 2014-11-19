@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust;
 
 /** 
- * Р’РµСЃ РЅРµС‚С‚Рѕ,Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂР° РІ РєРі.
+ * Вес нетто,брутто товара в кг.
  */
 public class GoodsWeightType
 {
@@ -10,7 +10,7 @@ public class GoodsWeightType
     private String grossWeightQuantity;
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° РЅРµС‚С‚Рѕ (РєРі)
+     * Get the 'NetWeightQuantity' element value. Вес товара нетто (кг)
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class GoodsWeightType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° РЅРµС‚С‚Рѕ (РєРі)
+     * Set the 'NetWeightQuantity' element value. Вес товара нетто (кг)
      * 
      * @param netWeightQuantity
      */
@@ -28,7 +28,7 @@ public class GoodsWeightType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Вес товара брутто (кг)
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class GoodsWeightType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Вес товара брутто (кг)
      * 
      * @param grossWeightQuantity
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.admin.statusupdaterequest;
 
 /** 
- * РЎРїРёСЃРѕРє СЃС‚Р°С‚СѓСЃРѕРІ 
+ * Список статусов 
  */
 public class StatusesType
 {
@@ -10,7 +10,7 @@ public class StatusesType
     private String statusDescription;
 
     /** 
-     * Get the 'StateCode' element value. РљРѕРґ СЃС‚Р°С‚СѓСЃР°
+     * Get the 'StateCode' element value. Код статуса
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class StatusesType
     }
 
     /** 
-     * Set the 'StateCode' element value. РљРѕРґ СЃС‚Р°С‚СѓСЃР°
+     * Set the 'StateCode' element value. Код статуса
      * 
      * @param stateCode
      */
@@ -28,7 +28,7 @@ public class StatusesType
     }
 
     /** 
-     * Get the 'StatusDescription' element value. РћРїРёСЃР°РЅРёРµ СЃС‚Р°С‚СѓСЃР°
+     * Get the 'StatusDescription' element value. Описание статуса
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class StatusesType
     }
 
     /** 
-     * Set the 'StatusDescription' element value. РћРїРёСЃР°РЅРёРµ СЃС‚Р°С‚СѓСЃР°
+     * Set the 'StatusDescription' element value. Описание статуса
      * 
      * @param statusDescription
      */

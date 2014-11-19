@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃСЂР°Р±Р°С‚С‹РІР°РЅРёРё РїРѕ С‚РѕРІР°СЂР°Рј РєРѕРЅРєСЂРµС‚РЅРѕРіРѕ РёРЅРґРёРєР°С‚РѕСЂР° РџР 
+ * Информация о срабатывании по товарам конкретного индикатора ПР
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -22,7 +22,7 @@ public class RevealingProtocolAlertedInfo
     private String alertedSign;
 
     /** 
-     * Get the 'GoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ, РµСЃР»Рё РёРЅРґРёРєР°С‚РѕСЂ РїРѕРґС‡РёРЅРµРЅ РіСЂСѓРїРїРµ С‚РѕРІР°СЂРѕРІ)
+     * Get the 'GoodsNumber' element value. Номер товара (заполняется, если индикатор подчинен группе товаров)
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class RevealingProtocolAlertedInfo
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ, РµСЃР»Рё РёРЅРґРёРєР°С‚РѕСЂ РїРѕРґС‡РёРЅРµРЅ РіСЂСѓРїРїРµ С‚РѕРІР°СЂРѕРІ)
+     * Set the 'GoodsNumber' element value. Номер товара (заполняется, если индикатор подчинен группе товаров)
      * 
      * @param goodsNumber
      */
@@ -40,7 +40,7 @@ public class RevealingProtocolAlertedInfo
     }
 
     /** 
-     * Get the 'DocumentValue' element value. Р—РЅР°С‡РµРЅРёРµ РёР· РґРѕРєСѓРјРµРЅС‚Р° СЃ РєРѕС‚РѕСЂС‹Рј РІС‹РїРѕР»РЅСЏР»РѕСЃСЊ СЃСЂР°РІРЅРµРЅРёРµ Р·РЅР°С‡РµРЅРёСЏ РёРЅРґРёРєР°С‚РѕСЂР° (Р”Рў, РўР” Рё С‚.Рґ.)
+     * Get the 'DocumentValue' element value. Значение из документа с которым выполнялось сравнение значения индикатора (ДТ, ТД и т.д.)
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class RevealingProtocolAlertedInfo
     }
 
     /** 
-     * Set the 'DocumentValue' element value. Р—РЅР°С‡РµРЅРёРµ РёР· РґРѕРєСѓРјРµРЅС‚Р° СЃ РєРѕС‚РѕСЂС‹Рј РІС‹РїРѕР»РЅСЏР»РѕСЃСЊ СЃСЂР°РІРЅРµРЅРёРµ Р·РЅР°С‡РµРЅРёСЏ РёРЅРґРёРєР°С‚РѕСЂР° (Р”Рў, РўР” Рё С‚.Рґ.)
+     * Set the 'DocumentValue' element value. Значение из документа с которым выполнялось сравнение значения индикатора (ДТ, ТД и т.д.)
      * 
      * @param documentValue
      */
@@ -58,7 +58,7 @@ public class RevealingProtocolAlertedInfo
     }
 
     /** 
-     * Get the 'AlertedSign' element value. РџСЂРёР·РЅР°Рє СЃСЂР°РІРЅРµРЅРёСЏ (true - СЃРѕРІРїР°РґРµРЅРёРµ, false - РЅРµСЃРѕРІРїР°РґРµРЅРёРµ)
+     * Get the 'AlertedSign' element value. Признак сравнения (true - совпадение, false - несовпадение)
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class RevealingProtocolAlertedInfo
     }
 
     /** 
-     * Set the 'AlertedSign' element value. РџСЂРёР·РЅР°Рє СЃСЂР°РІРЅРµРЅРёСЏ (true - СЃРѕРІРїР°РґРµРЅРёРµ, false - РЅРµСЃРѕРІРїР°РґРµРЅРёРµ)
+     * Set the 'AlertedSign' element value. Признак сравнения (true - совпадение, false - несовпадение)
      * 
      * @param alertedSign
      */

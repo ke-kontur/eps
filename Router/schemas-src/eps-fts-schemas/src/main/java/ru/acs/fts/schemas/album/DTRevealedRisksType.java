@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚ РІС‹СЏРІР»РµРЅРёСЏ СЂРёСЃРєРѕРІ РїРѕ Р”Рў
+ * Результат выявления рисков по ДТ
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -49,7 +49,7 @@ public class DTRevealedRisksType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SoftVersion' element value. РџРѕР»РЅР°СЏ РІРµСЂСЃРёСЏ РџР— "РЎРµСЂРІРёСЃ РІС‹СЏРІР»РµРЅРёРµ СЂРёСЃРєРѕРІ РЎРўРћ" СѓСЂРѕРІРЅСЏ Р РўРЈ
+     * Get the 'SoftVersion' element value. Полная версия ПЗ "Сервис выявление рисков СТО" уровня РТУ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'SoftVersion' element value. РџРѕР»РЅР°СЏ РІРµСЂСЃРёСЏ РџР— "РЎРµСЂРІРёСЃ РІС‹СЏРІР»РµРЅРёРµ СЂРёСЃРєРѕРІ РЎРўРћ" СѓСЂРѕРІРЅСЏ Р РўРЈ
+     * Set the 'SoftVersion' element value. Полная версия ПЗ "Сервис выявление рисков СТО" уровня РТУ
      * 
      * @param softVersion
      */
@@ -67,7 +67,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ProfileInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Get the list of 'ProfileInfo' element items. Информация профиля риска
      * 
      * @return list
      */
@@ -76,7 +76,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ProfileInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Set the list of 'ProfileInfo' element items. Информация профиля риска
      * 
      * @param list
      */
@@ -85,7 +85,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'HashInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РЅРµС„РѕСЂРј. РёРЅРґРёРєР°С‚РѕСЂСѓ
+     * Get the list of 'HashInfo' element items. Информация по неформ. индикатору
      * 
      * @return list
      */
@@ -94,7 +94,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'HashInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ РЅРµС„РѕСЂРј. РёРЅРґРёРєР°С‚РѕСЂСѓ
+     * Set the list of 'HashInfo' element items. Информация по неформ. индикатору
      * 
      * @param list
      */
@@ -128,7 +128,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'DTNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў/СЂРµРµСЃС‚СЂР° СЌРєСЃРїСЂРµСЃСЃ-РіСЂСѓР·РѕРІ
+     * Get the 'DTNumber' element value. Регистрационный номер ДТ/реестра экспресс-грузов
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'DTNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў/СЂРµРµСЃС‚СЂР° СЌРєСЃРїСЂРµСЃСЃ-РіСЂСѓР·РѕРІ
+     * Set the 'DTNumber' element value. Регистрационный номер ДТ/реестра экспресс-грузов
      * 
      * @param DTNumber
      */
@@ -156,7 +156,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'MPONumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РњРџРћ
+     * Get the 'MPONumber' element value. Регистрационный номер МПО
      * 
      * @return value
      */
@@ -165,7 +165,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'MPONumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РњРџРћ
+     * Set the 'MPONumber' element value. Регистрационный номер МПО
      * 
      * @param MPONumber
      */
@@ -184,7 +184,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'WHDocInventoryNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚РѕРІ, РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РґР»СЏ РїРѕРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РЅР° Р’РҐ
+     * Get the 'WHDocInventoryNumber' element value. Регистрационный номер документов, представленных для помещения товаров на ВХ
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'WHDocInventoryNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚РѕРІ, РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РґР»СЏ РїРѕРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ РЅР° Р’РҐ
+     * Set the 'WHDocInventoryNumber' element value. Регистрационный номер документов, представленных для помещения товаров на ВХ
      * 
      * @param WHDocInventoryNumber
      */
@@ -203,7 +203,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consigments' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІС‹СЏРІР»РµРЅРЅС‹С… СЂРёСЃРєР°С… РЅР° РїР°СЂС‚РёСЏС… (-Рё) С‚РѕРІР°СЂР° РІ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the 'Consigments' element value. Сведения о выявленных рисках на партиях (-и) товара в документе
      * 
      * @return value
      */
@@ -212,7 +212,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consigments' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІС‹СЏРІР»РµРЅРЅС‹С… СЂРёСЃРєР°С… РЅР° РїР°СЂС‚РёСЏС… (-Рё) С‚РѕРІР°СЂР° РІ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the 'Consigments' element value. Сведения о выявленных рисках на партиях (-и) товара в документе
      * 
      * @param consigments
      */
@@ -221,7 +221,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'BodySemantica' element value. РћС‚РІРµС‚ РѕС‚ РљРџРЎ "РЎРµРјР°РЅС‚РёРєР°" РїРѕ РёС‚РѕРіР°Рј СЃРµРјР°РЅС‚РёС‡РµСЃРєРѕРіРѕ Р°РЅР°Р»РёР·Р° СЃРѕРґРµСЂР¶РёРјРѕРіРѕ Р”Рў
+     * Get the 'BodySemantica' element value. Ответ от КПС "Семантика" по итогам семантического анализа содержимого ДТ
      * 
      * @return value
      */
@@ -230,7 +230,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'BodySemantica' element value. РћС‚РІРµС‚ РѕС‚ РљРџРЎ "РЎРµРјР°РЅС‚РёРєР°" РїРѕ РёС‚РѕРіР°Рј СЃРµРјР°РЅС‚РёС‡РµСЃРєРѕРіРѕ Р°РЅР°Р»РёР·Р° СЃРѕРґРµСЂР¶РёРјРѕРіРѕ Р”Рў
+     * Set the 'BodySemantica' element value. Ответ от КПС "Семантика" по итогам семантического анализа содержимого ДТ
      * 
      * @param bodySemantica
      */
@@ -239,7 +239,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
      * 
      * @return value
      */
@@ -248,7 +248,7 @@ public class DTRevealedRisksType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р° (РєРѕРґ РґРѕРєСѓРјРµРЅС‚Р° РІ РђР»СЊР±РѕРјРµ С„РѕСЂРјР°С‚РѕРІ РґР»СЏ Р Р¤)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа (код документа в Альбоме форматов для РФ)
      * 
      * @param documentModeID
      */

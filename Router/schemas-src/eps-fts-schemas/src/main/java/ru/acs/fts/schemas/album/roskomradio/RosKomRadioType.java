@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· Р·Р°РєР»СЋС‡РµРЅРёСЏ (СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°) РЅР° РІРІРѕР· СЂР°РґРёРѕСЌР»РµРєС‚СЂРѕРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ Рё РІС‹СЃРѕРєРѕС‡Р°СЃС‚РѕС‚РЅС‹С… СѓСЃС‚СЂРѕР№СЃС‚РІ, РІ С‚РѕРј С‡РёСЃР»Рµ РІСЃС‚СЂРѕРµРЅРЅС‹С… Р»РёР±Рѕ РІС…РѕРґСЏС‰РёС… РІ СЃРѕСЃС‚Р°РІ РґСЂСѓРіРёС… С‚РѕРІР°СЂРѕРІ
+ * Сведения из заключения (разрешительного документа) на ввоз радиоэлектронных средств и высокочастотных устройств, в том числе встроенных либо входящих в состав других товаров
  */
 public class RosKomRadioType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class RosKomRadioType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @param isCanceled
      */
@@ -47,7 +47,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -65,7 +65,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Get the 'OutDate' element value. Р”Р°С‚Р° РІС‹РІРѕР·Р° РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ
+     * Get the 'OutDate' element value. Дата вывоза оборудования
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the 'OutDate' element value. Р”Р°С‚Р° РІС‹РІРѕР·Р° РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ
+     * Set the 'OutDate' element value. Дата вывоза оборудования
      * 
      * @param outDate
      */
@@ -83,7 +83,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Get the 'ImportObjective' element value. Р¦РµР»СЊ РІРІРѕР·Р°
+     * Get the 'ImportObjective' element value. Цель ввоза
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the 'ImportObjective' element value. Р¦РµР»СЊ РІРІРѕР·Р°
+     * Set the 'ImportObjective' element value. Цель ввоза
      * 
      * @param importObjective
      */
@@ -101,7 +101,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Get the 'RequesterName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° РІРѕРµРЅРЅРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ РёР»Рё С„РµРґРµСЂР°Р»СЊРЅРѕРіРѕ РѕСЂРіР°РЅР° РёСЃРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РІР»Р°СЃС‚Рё, РѕР±СЂР°С‚РёРІС€РµРіРѕСЃСЏ Р·Р° РїРѕР»СѓС‡РµРЅРёРµРј СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РІРІРѕР· Р Р­РЎ
+     * Get the 'RequesterName' element value. Наименование органа военного управления или федерального органа исполнительной власти, обратившегося за получением разрешения на ввоз РЭС
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequesterName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° РІРѕРµРЅРЅРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ РёР»Рё С„РµРґРµСЂР°Р»СЊРЅРѕРіРѕ РѕСЂРіР°РЅР° РёСЃРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РІР»Р°СЃС‚Рё, РѕР±СЂР°С‚РёРІС€РµРіРѕСЃСЏ Р·Р° РїРѕР»СѓС‡РµРЅРёРµРј СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РІРІРѕР· Р Р­РЎ
+     * Set the 'RequesterName' element value. Наименование органа военного управления или федерального органа исполнительной власти, обратившегося за получением разрешения на ввоз РЭС
      * 
      * @param requesterName
      */
@@ -119,7 +119,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Get the 'PermissionOrganName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° РІРѕРµРЅРЅРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ РёР»Рё С„РµРґРµСЂР°Р»СЊРЅРѕРіРѕ РѕСЂРіР°РЅР° РёСЃРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РІР»Р°СЃС‚Рё, РєРѕС‚РѕСЂРѕРјСѓ СЂР°Р·СЂРµС€Р°РµС‚СЃСЏ РІРІРѕР· Р Р­РЎ
+     * Get the 'PermissionOrganName' element value. Наименование органа военного управления или федерального органа исполнительной власти, которому разрешается ввоз РЭС
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the 'PermissionOrganName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° РІРѕРµРЅРЅРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ РёР»Рё С„РµРґРµСЂР°Р»СЊРЅРѕРіРѕ РѕСЂРіР°РЅР° РёСЃРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РІР»Р°СЃС‚Рё, РєРѕС‚РѕСЂРѕРјСѓ СЂР°Р·СЂРµС€Р°РµС‚СЃСЏ РІРІРѕР· Р Р­РЎ
+     * Set the 'PermissionOrganName' element value. Наименование органа военного управления или федерального органа исполнительной власти, которому разрешается ввоз РЭС
      * 
      * @param permissionOrganName
      */
@@ -137,7 +137,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the 'DocumentInfo' element value. Сведения о документе
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the 'DocumentInfo' element value. Сведения о документе
      * 
      * @param documentInfo
      */
@@ -155,7 +155,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Get the 'Owner' element value. РџР°СЂР°РјРµС‚СЂС‹ РІР»Р°РґРµР»СЊС†Р°
+     * Get the 'Owner' element value. Параметры владельца
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the 'Owner' element value. РџР°СЂР°РјРµС‚СЂС‹ РІР»Р°РґРµР»СЊС†Р°
+     * Set the 'Owner' element value. Параметры владельца
      * 
      * @param owner
      */
@@ -173,7 +173,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ResItem' element items. РћР±РѕСЂСѓРґРѕРІР°РЅРёРµ (РўРёРї Р Р­РЎ, РµРіРѕ РєРѕРјРїР»РµРєС‚Р°С†РёСЏ)
+     * Get the list of 'ResItem' element items. Оборудование (Тип РЭС, его комплектация)
      * 
      * @return list
      */
@@ -182,7 +182,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ResItem' element items. РћР±РѕСЂСѓРґРѕРІР°РЅРёРµ (РўРёРї Р Р­РЎ, РµРіРѕ РєРѕРјРїР»РµРєС‚Р°С†РёСЏ)
+     * Set the list of 'ResItem' element items. Оборудование (Тип РЭС, его комплектация)
      * 
      * @param list
      */
@@ -191,7 +191,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Contract' element items. Р”РѕРіРѕРІРѕСЂ (РєРѕРЅС‚СЂР°РєС‚) РЅР° РїРѕСЃС‚Р°РІРєСѓ Р Р­РЎ
+     * Get the list of 'Contract' element items. Договор (контракт) на поставку РЭС
      * 
      * @return list
      */
@@ -200,7 +200,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Contract' element items. Р”РѕРіРѕРІРѕСЂ (РєРѕРЅС‚СЂР°РєС‚) РЅР° РїРѕСЃС‚Р°РІРєСѓ Р Р­РЎ
+     * Set the list of 'Contract' element items. Договор (контракт) на поставку РЭС
      * 
      * @param list
      */
@@ -209,7 +209,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РїРѕСЃС‚Р°РІР»СЏСЋС‰РµР№ Р Р­РЎ
+     * Get the 'OrganizationName' element value. Наименование организации, поставляющей РЭС
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РїРѕСЃС‚Р°РІР»СЏСЋС‰РµР№ Р Р­РЎ
+     * Set the 'OrganizationName' element value. Наименование организации, поставляющей РЭС
      * 
      * @param organizationName
      */
@@ -227,7 +227,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Get the 'Signer' element value. Р›РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'Signer' element value. Лицо, подписавшее документ
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the 'Signer' element value. Р›РёС†Рѕ, РїРѕРґРїРёСЃР°РІС€РµРµ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'Signer' element value. Лицо, подписавшее документ
      * 
      * @param signer
      */
@@ -245,7 +245,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class RosKomRadioType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

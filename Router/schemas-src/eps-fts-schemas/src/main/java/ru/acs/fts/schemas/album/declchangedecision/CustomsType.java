@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 
 /** 
- * РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+ * Таможенный орган
  */
 public class CustomsType extends CUCustomsType
 {
@@ -13,7 +13,7 @@ public class CustomsType extends CUCustomsType
     private AddressType postalAddress;
 
     /** 
-     * Get the 'Address' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
+     * Get the 'Address' element value. Юридический адрес
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class CustomsType extends CUCustomsType
     }
 
     /** 
-     * Set the 'Address' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
+     * Set the 'Address' element value. Юридический адрес
      * 
      * @param address
      */
@@ -31,7 +31,7 @@ public class CustomsType extends CUCustomsType
     }
 
     /** 
-     * Get the 'PostalAddress' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РѕС‚Р»РёС‡РёСЏ РїРѕС‡С‚РѕРІРѕРіРѕ Р°РґСЂРµСЃР° РѕС‚ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ)
+     * Get the 'PostalAddress' element value. Почтовый адрес (заполняется в случае отличия почтового адреса от юридического)
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class CustomsType extends CUCustomsType
     }
 
     /** 
-     * Set the 'PostalAddress' element value. РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ РѕС‚Р»РёС‡РёСЏ РїРѕС‡С‚РѕРІРѕРіРѕ Р°РґСЂРµСЃР° РѕС‚ СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ)
+     * Set the 'PostalAddress' element value. Почтовый адрес (заполняется в случае отличия почтового адреса от юридического)
      * 
      * @param postalAddress
      */

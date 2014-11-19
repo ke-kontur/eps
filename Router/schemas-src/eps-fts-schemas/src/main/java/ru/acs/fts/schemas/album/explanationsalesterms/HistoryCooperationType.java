@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * РСЃС‚РѕСЂРёСЏ СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР° РџСЂРѕРґР°РІС†Р° Рё РџРѕРєСѓРїР°С‚РµР»СЏ
+ * История сотрудничества Продавца и Покупателя
  */
 public class HistoryCooperationType
 {
@@ -16,7 +16,7 @@ public class HistoryCooperationType
     private ChoiceSellerType choiceSeller;
 
     /** 
-     * Get the 'AdditionalContract' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ Сѓ РїРѕРєСѓРїР°С‚РµР»СЏ (СЃРј. РіСЂР°С„Сѓ 1 Р”РўРЎ-1) РїРµСЂРµРґ РїСЂРѕРґР°РІС†РѕРј (СЃРј. РіСЂР°С„Сѓ 2 Р”РўРЎ-1) РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… (РѕС‚Р»РёС‡РЅС‹С… РѕС‚ РїРѕР»СѓС‡РµРЅРёСЏ С‚РѕРІР°СЂР° Рё СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕР№ С†РµРЅС‹ СЃРґРµР»РєРё) РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ
+     * Get the 'AdditionalContract' element value. Признак наличия у покупателя (см. графу 1 ДТС-1) перед продавцом (см. графу 2 ДТС-1) дополнительных (отличных от получения товара и установленной цены сделки) обязательств
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Set the 'AdditionalContract' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ Сѓ РїРѕРєСѓРїР°С‚РµР»СЏ (СЃРј. РіСЂР°С„Сѓ 1 Р”РўРЎ-1) РїРµСЂРµРґ РїСЂРѕРґР°РІС†РѕРј (СЃРј. РіСЂР°С„Сѓ 2 Р”РўРЎ-1) РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… (РѕС‚Р»РёС‡РЅС‹С… РѕС‚ РїРѕР»СѓС‡РµРЅРёСЏ С‚РѕРІР°СЂР° Рё СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕР№ С†РµРЅС‹ СЃРґРµР»РєРё) РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІ
+     * Set the 'AdditionalContract' element value. Признак наличия у покупателя (см. графу 1 ДТС-1) перед продавцом (см. графу 2 ДТС-1) дополнительных (отличных от получения товара и установленной цены сделки) обязательств
      * 
      * @param additionalContract
      */
@@ -34,7 +34,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Get the 'CooperationEarly' element value. РџСЂРёР·РЅР°Рє РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ СЂР°РЅРµРµ СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР° РјРµР¶РґСѓ РїСЂРѕРґР°РІС†РѕРј Рё РїРѕРєСѓРїР°С‚РµР»РµРј
+     * Get the 'CooperationEarly' element value. Признак осуществления ранее сотрудничества между продавцом и покупателем
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Set the 'CooperationEarly' element value. РџСЂРёР·РЅР°Рє РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёСЏ СЂР°РЅРµРµ СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР° РјРµР¶РґСѓ РїСЂРѕРґР°РІС†РѕРј Рё РїРѕРєСѓРїР°С‚РµР»РµРј
+     * Set the 'CooperationEarly' element value. Признак осуществления ранее сотрудничества между продавцом и покупателем
      * 
      * @param cooperationEarly
      */
@@ -52,7 +52,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Get the 'ConstantPartner' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРѕРєСѓРїР°С‚РµР»СЊ Рё РїСЂРѕРґР°РІРµС† СЏРІР»СЏСЋС‚СЃСЏ РїРѕСЃС‚РѕСЏРЅРЅС‹РјРё РїР°СЂС‚РЅРµСЂР°РјРё
+     * Get the 'ConstantPartner' element value. Признак того, что покупатель и продавец являются постоянными партнерами
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Set the 'ConstantPartner' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїРѕРєСѓРїР°С‚РµР»СЊ Рё РїСЂРѕРґР°РІРµС† СЏРІР»СЏСЋС‚СЃСЏ РїРѕСЃС‚РѕСЏРЅРЅС‹РјРё РїР°СЂС‚РЅРµСЂР°РјРё
+     * Set the 'ConstantPartner' element value. Признак того, что покупатель и продавец являются постоянными партнерами
      * 
      * @param constantPartner
      */
@@ -70,7 +70,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Get the 'PutInformationCost' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРёСЏ РїСЂРѕРґР°РІС†Р° РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РґР°РЅРЅС‹Рµ Рѕ Р·Р°С‚СЂР°С‚Р°С… РЅР° РїСЂРѕРёР·РІРѕРґСЃС‚РІРѕ (РїСЂРёРѕР±СЂРµС‚РµРЅРёРµ) С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) Р·Р°С‚СЂР°С‚Р°С… РЅР° РёС… РїСЂРѕРґР°Р¶Сѓ РЅР° СЌРєСЃРїРѕСЂС‚ РІ Р РѕСЃСЃРёР№СЃРєСѓСЋ Р¤РµРґРµСЂР°С†РёСЋ
+     * Get the 'PutInformationCost' element value. Признак согласия продавца предоставить данные о затратах на производство (приобретение) товаров и (или) затратах на их продажу на экспорт в Российскую Федерацию
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Set the 'PutInformationCost' element value. РџСЂРёР·РЅР°Рє СЃРѕРіР»Р°СЃРёСЏ РїСЂРѕРґР°РІС†Р° РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РґР°РЅРЅС‹Рµ Рѕ Р·Р°С‚СЂР°С‚Р°С… РЅР° РїСЂРѕРёР·РІРѕРґСЃС‚РІРѕ (РїСЂРёРѕР±СЂРµС‚РµРЅРёРµ) С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) Р·Р°С‚СЂР°С‚Р°С… РЅР° РёС… РїСЂРѕРґР°Р¶Сѓ РЅР° СЌРєСЃРїРѕСЂС‚ РІ Р РѕСЃСЃРёР№СЃРєСѓСЋ Р¤РµРґРµСЂР°С†РёСЋ
+     * Set the 'PutInformationCost' element value. Признак согласия продавца предоставить данные о затратах на производство (приобретение) товаров и (или) затратах на их продажу на экспорт в Российскую Федерацию
      * 
      * @param putInformationCost
      */
@@ -88,7 +88,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Get the 'CommentsPutInformationCos' element value. Р”Р°РЅРЅС‹Рµ Рѕ Р·Р°С‚СЂР°С‚Р°С… РЅР° РїСЂРѕРёР·РІРѕРґСЃС‚РІРѕ (РїСЂРёРѕР±СЂРµС‚РµРЅРёРµ) С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) Р·Р°С‚СЂР°С‚Р°С… РЅР° РёС… РїСЂРѕРґР°Р¶Сѓ РЅР° СЌРєСЃРїРѕСЂС‚ РІ Р РѕСЃСЃРёР№СЃРєСѓСЋ Р¤РµРґРµСЂР°С†РёСЋ
+     * Get the 'CommentsPutInformationCos' element value. Данные о затратах на производство (приобретение) товаров и (или) затратах на их продажу на экспорт в Российскую Федерацию
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Set the 'CommentsPutInformationCos' element value. Р”Р°РЅРЅС‹Рµ Рѕ Р·Р°С‚СЂР°С‚Р°С… РЅР° РїСЂРѕРёР·РІРѕРґСЃС‚РІРѕ (РїСЂРёРѕР±СЂРµС‚РµРЅРёРµ) С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) Р·Р°С‚СЂР°С‚Р°С… РЅР° РёС… РїСЂРѕРґР°Р¶Сѓ РЅР° СЌРєСЃРїРѕСЂС‚ РІ Р РѕСЃСЃРёР№СЃРєСѓСЋ Р¤РµРґРµСЂР°С†РёСЋ
+     * Set the 'CommentsPutInformationCos' element value. Данные о затратах на производство (приобретение) товаров и (или) затратах на их продажу на экспорт в Российскую Федерацию
      * 
      * @param commentsPutInformationCos
      */
@@ -106,7 +106,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Get the 'KindCooperation' element value. Р’РёРґ СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР°
+     * Get the 'KindCooperation' element value. Вид сотрудничества
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Set the 'KindCooperation' element value. Р’РёРґ СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР°
+     * Set the 'KindCooperation' element value. Вид сотрудничества
      * 
      * @param kindCooperation
      */
@@ -124,7 +124,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Get the 'SearchSeller' element value. РџРѕРёСЃРє РїСЂРѕРґР°РІС†Р° РґР»СЏ РїРѕРєСѓРїРєРё РґР°РЅРЅРѕРіРѕ С‚РѕРІР°СЂР° РёР»Рё СЂР°РЅРµРµ РґРѕ РЅР°С‡Р°Р»Р° СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР° РѕСЃСѓС‰РµСЃС‚РІР»СЏР»СЃСЏ
+     * Get the 'SearchSeller' element value. Поиск продавца для покупки данного товара или ранее до начала сотрудничества осуществлялся
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Set the 'SearchSeller' element value. РџРѕРёСЃРє РїСЂРѕРґР°РІС†Р° РґР»СЏ РїРѕРєСѓРїРєРё РґР°РЅРЅРѕРіРѕ С‚РѕРІР°СЂР° РёР»Рё СЂР°РЅРµРµ РґРѕ РЅР°С‡Р°Р»Р° СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІР° РѕСЃСѓС‰РµСЃС‚РІР»СЏР»СЃСЏ
+     * Set the 'SearchSeller' element value. Поиск продавца для покупки данного товара или ранее до начала сотрудничества осуществлялся
      * 
      * @param searchSeller
      */
@@ -142,7 +142,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Get the 'ChoiceSeller' element value. Р‘С‹Р» РІС‹Р±СЂР°РЅ РёРјРµРЅРЅРѕ СЌС‚РѕС‚ РїСЂРѕРґР°РІРµС†, РїРѕСЃРєРѕР»СЊРєСѓ
+     * Get the 'ChoiceSeller' element value. Был выбран именно этот продавец, поскольку
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class HistoryCooperationType
     }
 
     /** 
-     * Set the 'ChoiceSeller' element value. Р‘С‹Р» РІС‹Р±СЂР°РЅ РёРјРµРЅРЅРѕ СЌС‚РѕС‚ РїСЂРѕРґР°РІРµС†, РїРѕСЃРєРѕР»СЊРєСѓ
+     * Set the 'ChoiceSeller' element value. Был выбран именно этот продавец, поскольку
      * 
      * @param choiceSeller
      */

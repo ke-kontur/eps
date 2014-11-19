@@ -13,7 +13,7 @@ public class OrgDBLoadType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'LoadDateTime' element value. Р”Р°С‚Р°  Рё РІСЂРµРјСЏ Р·Р°РіСЂСѓР·РєРё
+     * Get the 'LoadDateTime' element value. Дата  и время загрузки
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class OrgDBLoadType extends BaseDocType
     }
 
     /** 
-     * Set the 'LoadDateTime' element value. Р”Р°С‚Р°  Рё РІСЂРµРјСЏ Р·Р°РіСЂСѓР·РєРё
+     * Set the 'LoadDateTime' element value. Дата  и время загрузки
      * 
      * @param loadDateTime
      */
@@ -31,7 +31,7 @@ public class OrgDBLoadType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'OrgInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ  РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the list of 'OrgInfo' element items. Информация  об организации
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class OrgDBLoadType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'OrgInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ  РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the list of 'OrgInfo' element items. Информация  об организации
      * 
      * @param list
      */
@@ -49,7 +49,7 @@ public class OrgDBLoadType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class OrgDBLoadType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

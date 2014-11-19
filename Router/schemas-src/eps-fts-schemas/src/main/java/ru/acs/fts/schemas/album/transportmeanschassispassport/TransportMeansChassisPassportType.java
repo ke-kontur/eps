@@ -13,7 +13,7 @@ import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.TransportManufact
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.TransportOwnerType;
 
 /** 
- * РџР°СЃРїРѕСЂС‚ С€Р°СЃСЃРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+ * Паспорт шасси транспортного средства
  */
 public class TransportMeansChassisPassportType extends BaseDocType
 {
@@ -39,7 +39,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РїР°СЃРїРѕСЂС‚Р°
+     * Get the 'IssueDate' element value. Дата выдачи паспорта
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РїР°СЃРїРѕСЂС‚Р°
+     * Set the 'IssueDate' element value. Дата выдачи паспорта
      * 
      * @param issueDate
      */
@@ -57,7 +57,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РїР°СЃРїРѕСЂС‚
+     * Get the 'OrganizationName' element value. Наименование организации, выдавшей паспорт
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РїР°СЃРїРѕСЂС‚
+     * Set the 'OrganizationName' element value. Наименование организации, выдавшей паспорт
      * 
      * @param organizationName
      */
@@ -75,7 +75,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РІРІРѕР·Р°/РІС‹РІРѕР·Р° С€Р°СЃСЃРё РўРЎ
+     * Get the 'CountryCode' element value. Код страны ввоза/вывоза шасси ТС
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РІРІРѕР·Р°/РІС‹РІРѕР·Р° С€Р°СЃСЃРё РўРЎ
+     * Set the 'CountryCode' element value. Код страны ввоза/вывоза шасси ТС
      * 
      * @param countryCode
      */
@@ -93,7 +93,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsRestriction' element value. РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Рµ С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РїРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЋ Рё СЂР°СЃРїРѕСЂСЏР¶РµРЅРёСЋ С€Р°СЃСЃРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, РІРІРѕР·РёРјС‹РјРё РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё 
+     * Get the 'CustomsRestriction' element value. Установленные таможенными органами ограничения по использованию и распоряжению шасси транспортных средств, ввозимыми на территорию Российской Федерации 
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsRestriction' element value. РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Рµ С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РїРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЋ Рё СЂР°СЃРїРѕСЂСЏР¶РµРЅРёСЋ С€Р°СЃСЃРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ, РІРІРѕР·РёРјС‹РјРё РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё 
+     * Set the 'CustomsRestriction' element value. Установленные таможенными органами ограничения по использованию и распоряжению шасси транспортных средств, ввозимыми на территорию Российской Федерации 
      * 
      * @param customsRestriction
      */
@@ -111,7 +111,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'SpecialMark' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
+     * Get the 'SpecialMark' element value. Особые отметки
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'SpecialMark' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
+     * Set the 'SpecialMark' element value. Особые отметки
      * 
      * @param specialMark
      */
@@ -154,7 +154,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ImportCertification' element value. Р”РѕРєСѓРјРµРЅС‚ РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРѕРІРµРґРµРЅРѕ РѕР±СЂР°С‰РµРЅРёРµ РўРЎ РІ С„РµРґРµСЂР°Р»СЊРЅСѓСЋ  СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚СЊ.
+     * Get the 'ImportCertification' element value. Документ по которому проведено обращение ТС в федеральную  собственность.
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ImportCertification' element value. Р”РѕРєСѓРјРµРЅС‚ РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРѕРІРµРґРµРЅРѕ РѕР±СЂР°С‰РµРЅРёРµ РўРЎ РІ С„РµРґРµСЂР°Р»СЊРЅСѓСЋ  СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚СЊ.
+     * Set the 'ImportCertification' element value. Документ по которому проведено обращение ТС в федеральную  собственность.
      * 
      * @param importCertification
      */
@@ -182,7 +182,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsProfitOrder' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРёС…РѕРґРЅРѕРіРѕ РѕСЂРґРµСЂР° (РўРџРћ)
+     * Get the 'CustomsProfitOrder' element value. Номер таможенного приходного ордера (ТПО)
      * 
      * @return value
      */
@@ -191,7 +191,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsProfitOrder' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРёС…РѕРґРЅРѕРіРѕ РѕСЂРґРµСЂР° (РўРџРћ)
+     * Set the 'CustomsProfitOrder' element value. Номер таможенного приходного ордера (ТПО)
      * 
      * @param customsProfitOrder
      */
@@ -210,7 +210,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў
+     * Get the 'GTDID' element value. Номер ДТ
      * 
      * @return value
      */
@@ -219,7 +219,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. РќРѕРјРµСЂ Р”Рў
+     * Set the 'GTDID' element value. Номер ДТ
      * 
      * @param GTDID
      */
@@ -229,7 +229,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'Manufacturer' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё - РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ С€Р°СЃСЃРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'Manufacturer' element value. Сведения об организации - изготовителя шасси транспортного средства
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё - РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ С€Р°СЃСЃРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'Manufacturer' element value. Сведения об организации - изготовителя шасси транспортного средства
      * 
      * @param manufacturer
      */
@@ -247,7 +247,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'PShTSData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С€Р°СЃСЃРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'PShTSData' element value. Сведения о шасси транспортного средства
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'PShTSData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С€Р°СЃСЃРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'PShTSData' element value. Сведения о шасси транспортного средства
      * 
      * @param PShTSData
      */
@@ -265,7 +265,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportMeansChassisOwner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ С€Р°СЃСЃРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° (Р°РґСЂРµСЃ, РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё РёР»Рё С„Р°РјРёР»РёСЏ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°)
+     * Get the 'TransportMeansChassisOwner' element value. Сведения о собственнике шасси транспортного средства (адрес, наименование организации или фамилия физического лица)
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportMeansChassisOwner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕР±СЃС‚РІРµРЅРЅРёРєРµ С€Р°СЃСЃРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° (Р°РґСЂРµСЃ, РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё РёР»Рё С„Р°РјРёР»РёСЏ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°)
+     * Set the 'TransportMeansChassisOwner' element value. Сведения о собственнике шасси транспортного средства (адрес, наименование организации или фамилия физического лица)
      * 
      * @param transportMeansChassisOwner
      */
@@ -284,7 +284,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrganizationLegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё (РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ, С‚Р°РјРѕР¶РЅРё РёР»Рё РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ Р“РѕСЃР°РІС‚РѕРёРЅСЃРїРµРєС†РёРё), РІС‹РґР°РІС€РµР№ РїР°СЃРїРѕСЂС‚
+     * Get the 'OrganizationLegalAddress' element value. Юридический адрес организации (изготовителя, таможни или подразделения Госавтоинспекции), выдавшей паспорт
      * 
      * @return value
      */
@@ -293,7 +293,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrganizationLegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё (РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ, С‚Р°РјРѕР¶РЅРё РёР»Рё РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ Р“РѕСЃР°РІС‚РѕРёРЅСЃРїРµРєС†РёРё), РІС‹РґР°РІС€РµР№ РїР°СЃРїРѕСЂС‚
+     * Set the 'OrganizationLegalAddress' element value. Юридический адрес организации (изготовителя, таможни или подразделения Госавтоинспекции), выдавшей паспорт
      * 
      * @param organizationLegalAddress
      */
@@ -302,7 +302,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'PShTSSerialNumber' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ РџР°СЃРїРѕСЂС‚Р° С€Р°СЃСЃРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'PShTSSerialNumber' element value. Серия и номер Паспорта шасси транспортного средства
      * 
      * @return value
      */
@@ -311,7 +311,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'PShTSSerialNumber' element value. РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ РџР°СЃРїРѕСЂС‚Р° С€Р°СЃСЃРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'PShTSSerialNumber' element value. Серия и номер Паспорта шасси транспортного средства
      * 
      * @param PShTSSerialNumber
      */
@@ -321,7 +321,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonSign' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, РІС‹РґР°РІС€РµРіРѕ РїР°СЃРїРѕСЂС‚
+     * Get the 'PersonSign' element value. Подпись лица, выдавшего паспорт
      * 
      * @return value
      */
@@ -330,7 +330,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonSign' element value. РџРѕРґРїРёСЃСЊ Р»РёС†Р°, РІС‹РґР°РІС€РµРіРѕ РїР°СЃРїРѕСЂС‚
+     * Set the 'PersonSign' element value. Подпись лица, выдавшего паспорт
      * 
      * @param personSign
      */
@@ -339,7 +339,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ChassicBargain' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРґРµР»РєР°С…  СЃ С€Р°СЃСЃРё  РўРЎ
+     * Get the list of 'ChassicBargain' element items. Сведения о сделках  с шасси  ТС
      * 
      * @return list
      */
@@ -348,7 +348,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ChassicBargain' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРґРµР»РєР°С…  СЃ С€Р°СЃСЃРё  РўРЎ
+     * Set the list of 'ChassicBargain' element items. Сведения о сделках  с шасси  ТС
      * 
      * @param list
      */
@@ -357,7 +357,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -366,7 +366,7 @@ public class TransportMeansChassisPassportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

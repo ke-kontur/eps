@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.paymenttransactionresult;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Рµ
+ * Сведения о платеже
  */
 public class PaymentInformationType
 {
@@ -18,7 +18,7 @@ public class PaymentInformationType
     private String cardNumber;
 
     /** 
-     * Get the 'ProcessingDate' element value. Р”Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё РѕРїРµСЂР°С‚РѕСЂРѕРј С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РѕРїРµСЂР°С†РёРё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Get the 'ProcessingDate' element value. Дата обработки оператором таможенных платежей операции уплаты таможенных и иных платежей
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'ProcessingDate' element value. Р”Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё РѕРїРµСЂР°С‚РѕСЂРѕРј С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РѕРїРµСЂР°С†РёРё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№
+     * Set the 'ProcessingDate' element value. Дата обработки оператором таможенных платежей операции уплаты таможенных и иных платежей
      * 
      * @param processingDate
      */
@@ -36,7 +36,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
+     * Get the 'CurrencyCode' element value. Код валюты платежа
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
+     * Set the 'CurrencyCode' element value. Код валюты платежа
      * 
      * @param currencyCode
      */
@@ -54,7 +54,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'Amount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Get the 'Amount' element value. Сумма платежа
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'Amount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Set the 'Amount' element value. Сумма платежа
      * 
      * @param amount
      */
@@ -72,7 +72,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'BankTransactionID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р±Р°РЅРєРѕРІСЃРєРѕР№ РѕРїРµСЂР°С†РёРё
+     * Get the 'BankTransactionID' element value. Уникальный идентификатор банковской операции
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'BankTransactionID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р±Р°РЅРєРѕРІСЃРєРѕР№ РѕРїРµСЂР°С†РёРё
+     * Set the 'BankTransactionID' element value. Уникальный идентификатор банковской операции
      * 
      * @param bankTransactionID
      */
@@ -90,7 +90,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° - РїРѕР»СѓС‡Р°С‚РµР»СЏ РїР»Р°С‚РµР¶Р°
+     * Get the 'CustomsCode' element value. Код таможенного органа - получателя платежа
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° - РїРѕР»СѓС‡Р°С‚РµР»СЏ РїР»Р°С‚РµР¶Р°
+     * Set the 'CustomsCode' element value. Код таможенного органа - получателя платежа
      * 
      * @param customsCode
      */
@@ -108,7 +108,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'PaymentDate' element value. Р”Р°С‚Р° СЃРѕРІРµСЂС€РµРЅРёСЏ РїР»Р°С‚РµР¶Р°
+     * Get the 'PaymentDate' element value. Дата совершения платежа
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'PaymentDate' element value. Р”Р°С‚Р° СЃРѕРІРµСЂС€РµРЅРёСЏ РїР»Р°С‚РµР¶Р°
+     * Set the 'PaymentDate' element value. Дата совершения платежа
      * 
      * @param paymentDate
      */
@@ -126,7 +126,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'PaymentTime' element value. Р’СЂРµРјСЏ СЃРѕРІРµСЂС€РµРЅРёСЏ РїР»Р°С‚РµР¶Р°
+     * Get the 'PaymentTime' element value. Время совершения платежа
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'PaymentTime' element value. Р’СЂРµРјСЏ СЃРѕРІРµСЂС€РµРЅРёСЏ РїР»Р°С‚РµР¶Р°
+     * Set the 'PaymentTime' element value. Время совершения платежа
      * 
      * @param paymentTime
      */
@@ -144,7 +144,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Get the 'CardNumber' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїР»Р°С‚РµР¶РЅРѕР№ РєР°СЂС‚С‹, СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РєРѕС‚РѕСЂРѕР№ Р±С‹Р» РѕСЃСѓС‰РµСЃС‚РІР»РµРЅ РїР»Р°С‚РµР¶
+     * Get the 'CardNumber' element value. Номер таможенной платежной карты, с использованием которой был осуществлен платеж
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class PaymentInformationType
     }
 
     /** 
-     * Set the 'CardNumber' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїР»Р°С‚РµР¶РЅРѕР№ РєР°СЂС‚С‹, СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РєРѕС‚РѕСЂРѕР№ Р±С‹Р» РѕСЃСѓС‰РµСЃС‚РІР»РµРЅ РїР»Р°С‚РµР¶
+     * Set the 'CardNumber' element value. Номер таможенной платежной карты, с использованием которой был осуществлен платеж
      * 
      * @param cardNumber
      */

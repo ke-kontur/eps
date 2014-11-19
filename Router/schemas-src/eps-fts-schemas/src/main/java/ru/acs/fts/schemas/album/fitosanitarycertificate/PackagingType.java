@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.fitosanitarycertificate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµ РјРµСЃС‚ Рё РѕРїРёСЃР°РЅРёРµ СѓРїР°РєРѕРІРєРё
+ * Сведения о количестве мест и описание упаковки
  */
 public class PackagingType
 {
@@ -11,7 +11,7 @@ public class PackagingType
     private String pakingQuantity;
 
     /** 
-     * Get the 'PlacesQiantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚
+     * Get the 'PlacesQiantity' element value. Количество мест
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PackagingType
     }
 
     /** 
-     * Set the 'PlacesQiantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚
+     * Set the 'PlacesQiantity' element value. Количество мест
      * 
      * @param placesQiantity
      */
@@ -29,7 +29,7 @@ public class PackagingType
     }
 
     /** 
-     * Get the 'PackingCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ.
+     * Get the 'PackingCode' element value. Код вида упаковки товаров в соответствии с  классификатором видов груза, упаковки и упаковочных материалов.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PackagingType
     }
 
     /** 
-     * Set the 'PackingCode' element value. РљРѕРґ РІРёРґР° СѓРїР°РєРѕРІРєРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ  РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ.
+     * Set the 'PackingCode' element value. Код вида упаковки товаров в соответствии с  классификатором видов груза, упаковки и упаковочных материалов.
      * 
      * @param packingCode
      */
@@ -47,7 +47,7 @@ public class PackagingType
     }
 
     /** 
-     * Get the 'PakingQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРѕРє.
+     * Get the 'PakingQuantity' element value. Количество упаковок.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PackagingType
     }
 
     /** 
-     * Set the 'PakingQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРѕРє.
+     * Set the 'PakingQuantity' element value. Количество упаковок.
      * 
      * @param pakingQuantity
      */

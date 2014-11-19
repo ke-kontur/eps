@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Р›РёС†РµРЅР·РёСЏ Р¤РЎР’РўРЎ Р РѕСЃСЃРёРё/РЅР° РІРІРѕР· (РІС‹РІРѕР·) С‚РѕРІР°СЂРѕРІ Рё С‚РµС…РЅРѕР»РѕРіРёР№, РїРѕРґР»РµР¶Р°С‰РёС… СЌРєСЃРїРѕСЂС‚РЅРѕРјСѓ РєРѕРЅС‚СЂРѕР»СЋ
+ * Лицензия ФСВТС России/на ввоз (вывоз) товаров и технологий, подлежащих экспортному контролю
  */
 public class FsVtsTekLicenseType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -43,7 +43,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'CountryDeparture' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ/РЅР°Р·РЅР°С‡РµРЅРёСЏ (РїСЂРѕРґР°РІС†Р°/РїРѕРєСѓРїР°С‚РµР»СЏ)
+     * Get the 'CountryDeparture' element value. Страна отправления/назначения (продавца/покупателя)
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'CountryDeparture' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ/РЅР°Р·РЅР°С‡РµРЅРёСЏ (РїСЂРѕРґР°РІС†Р°/РїРѕРєСѓРїР°С‚РµР»СЏ)
+     * Set the 'CountryDeparture' element value. Страна отправления/назначения (продавца/покупателя)
      * 
      * @param countryDeparture
      */
@@ -61,7 +61,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'CountryOrigin' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Get the 'CountryOrigin' element value. Страна происхождения
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'CountryOrigin' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Set the 'CountryOrigin' element value. Страна происхождения
      * 
      * @param countryOrigin
      */
@@ -79,7 +79,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'CountryEndUse' element value. РЎС‚СЂР°РЅР° РєРѕРЅРµС‡РЅРѕРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ
+     * Get the 'CountryEndUse' element value. Страна конечного использования
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'CountryEndUse' element value. РЎС‚СЂР°РЅР° РєРѕРЅРµС‡РЅРѕРіРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ
+     * Set the 'CountryEndUse' element value. Страна конечного использования
      * 
      * @param countryEndUse
      */
@@ -97,7 +97,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'LisenceIssue' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РІС‹РґР°С‡Рё Р»РёС†РµРЅР·РёРё
+     * Get the 'LisenceIssue' element value. Основание для выдачи лицензии
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'LisenceIssue' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РІС‹РґР°С‡Рё Р»РёС†РµРЅР·РёРё
+     * Set the 'LisenceIssue' element value. Основание для выдачи лицензии
      * 
      * @param lisenceIssue
      */
@@ -115,7 +115,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'AdditionalInfo' element value. Дополнительная информация
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalInfo' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'AdditionalInfo' element value. Дополнительная информация
      * 
      * @param additionalInfo
      */
@@ -133,7 +133,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractCurrency' element value. Р’Р°Р»СЋС‚Р° РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ContractCurrency' element value. Валюта контракта
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractCurrency' element value. Р’Р°Р»СЋС‚Р° РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ContractCurrency' element value. Валюта контракта
      * 
      * @param contractCurrency
      */
@@ -151,7 +151,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'License' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё
+     * Get the 'License' element value. Сведения о лицензии
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'License' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё
+     * Set the 'License' element value. Сведения о лицензии
      * 
      * @param license
      */
@@ -169,7 +169,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'LicenseOwner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ Р»РёС†РµРЅР·РёРё
+     * Get the 'LicenseOwner' element value. Сведения о владельце лицензии
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'LicenseOwner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІР»Р°РґРµР»СЊС†Рµ Р»РёС†РµРЅР·РёРё
+     * Set the 'LicenseOwner' element value. Сведения о владельце лицензии
      * 
      * @param licenseOwner
      */
@@ -187,7 +187,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractDetails' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ContractDetails' element value. Реквизиты контракта
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractDetails' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ContractDetails' element value. Реквизиты контракта
      * 
      * @param contractDetails
      */
@@ -205,7 +205,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the 'GoodsDescription' element value. Сведения о товарах
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the 'GoodsDescription' element value. Сведения о товарах
      * 
      * @param goodsDescription
      */
@@ -223,7 +223,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
+     * Get the 'AuthorizedPerson' element value. Уполномоченное лицо
      * 
      * @return value
      */
@@ -232,7 +232,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ Р»РёС†Рѕ
+     * Set the 'AuthorizedPerson' element value. Уполномоченное лицо
      * 
      * @param authorizedPerson
      */
@@ -241,7 +241,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -250,7 +250,7 @@ public class FsVtsTekLicenseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

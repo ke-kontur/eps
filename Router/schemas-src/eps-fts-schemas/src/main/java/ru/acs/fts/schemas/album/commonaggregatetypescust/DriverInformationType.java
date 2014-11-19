@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРѕРґРёС‚РµР»СЏС… С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё С‚СЂР°РЅР·РёС‚Рµ С‚РѕРІР°СЂРѕРІ Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹Рј С‚СЂР°РЅСЃРїРѕСЂС‚РѕРј
+ * Информация о водителях транспортных средств. Заполняется при транзите товаров автомобильным транспортом
  */
 public class DriverInformationType extends PersonBaseType
 {
@@ -10,7 +10,7 @@ public class DriverInformationType extends PersonBaseType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'RegCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё РІРѕРґРёС‚РµР»СЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'RegCountryCode' element value. Код страны регистрации водителя транспортного средства
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DriverInformationType extends PersonBaseType
     }
 
     /** 
-     * Set the 'RegCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё РІРѕРґРёС‚РµР»СЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'RegCountryCode' element value. Код страны регистрации водителя транспортного средства
      * 
      * @param regCountryCode
      */
@@ -28,7 +28,7 @@ public class DriverInformationType extends PersonBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DriverInformationType extends PersonBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @param identityCard
      */

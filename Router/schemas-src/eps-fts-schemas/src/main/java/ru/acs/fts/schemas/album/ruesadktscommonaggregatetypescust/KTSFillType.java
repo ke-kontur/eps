@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADFilledPersonT
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.CustomsBrokerType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё Рё Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РљРўРЎ.
+ * Сведения об организации и лице, заполнившем КТС.
  */
 public class KTSFillType
 {
@@ -15,7 +15,7 @@ public class KTSFillType
     private CustomsBrokerType KTSFilledBroker;
 
     /** 
-     * Get the 'KTSFilledDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РљРўРЎ.
+     * Get the 'KTSFilledDate' element value. Дата составления КТС.
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class KTSFillType
     }
 
     /** 
-     * Set the 'KTSFilledDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РљРўРЎ.
+     * Set the 'KTSFilledDate' element value. Дата составления КТС.
      * 
      * @param KTSFilledDate
      */
@@ -33,7 +33,7 @@ public class KTSFillType
     }
 
     /** 
-     * Get the 'KTSFilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РљРўРЎ.
+     * Get the 'KTSFilledPerson' element value. Сведения о лице, заполнившем КТС.
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class KTSFillType
     }
 
     /** 
-     * Set the 'KTSFilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РљРўРЎ.
+     * Set the 'KTSFilledPerson' element value. Сведения о лице, заполнившем КТС.
      * 
      * @param KTSFilledPerson
      */
@@ -51,7 +51,7 @@ public class KTSFillType
     }
 
     /** 
-     * Get the 'KTSFilledBroker' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»Рµ (Р±СЂРѕРєРµСЂРµ).
+     * Get the 'KTSFilledBroker' element value. Сведения о таможенном представителе (брокере).
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class KTSFillType
     }
 
     /** 
-     * Set the 'KTSFilledBroker' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»Рµ (Р±СЂРѕРєРµСЂРµ).
+     * Set the 'KTSFilledBroker' element value. Сведения о таможенном представителе (брокере).
      * 
      * @param KTSFilledBroker
      */

@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDID6Type;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕРїРµСЂР°С†РёРё
+ * Информация о технологической операции
  */
 public class TechOperationType
 {
@@ -14,7 +14,7 @@ public class TechOperationType
     private GTDID6Type modifiedATDNum;
 
     /** 
-     * Get the 'TechOperationDate' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё Рѕ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕРїРµСЂР°С†РёРё
+     * Get the 'TechOperationDate' element value. Дата внесения информации о технологической операции
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class TechOperationType
     }
 
     /** 
-     * Set the 'TechOperationDate' element value. Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё Рѕ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕРїРµСЂР°С†РёРё
+     * Set the 'TechOperationDate' element value. Дата внесения информации о технологической операции
      * 
      * @param techOperationDate
      */
@@ -32,7 +32,7 @@ public class TechOperationType
     }
 
     /** 
-     * Get the 'ATDOperationInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕРїРµСЂР°С†РёРё (РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ РўРћ)
+     * Get the 'ATDOperationInfo' element value. Информация об операции (номер документа, должностное лицо ТО)
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class TechOperationType
     }
 
     /** 
-     * Set the 'ATDOperationInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕРїРµСЂР°С†РёРё (РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ РўРћ)
+     * Set the 'ATDOperationInfo' element value. Информация об операции (номер документа, должностное лицо ТО)
      * 
      * @param ATDOperationInfo
      */
@@ -50,7 +50,7 @@ public class TechOperationType
     }
 
     /** 
-     * Get the 'ModifiedATDNum' element value. РСЃРїСЂР°РІР»РµРЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РЅРѕРјРµСЂР° РђРўР”
+     * Get the 'ModifiedATDNum' element value. Исправленное значение номера АТД
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class TechOperationType
     }
 
     /** 
-     * Set the 'ModifiedATDNum' element value. РСЃРїСЂР°РІР»РµРЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РЅРѕРјРµСЂР° РђРўР”
+     * Set the 'ModifiedATDNum' element value. Исправленное значение номера АТД
      * 
      * @param modifiedATDNum
      */

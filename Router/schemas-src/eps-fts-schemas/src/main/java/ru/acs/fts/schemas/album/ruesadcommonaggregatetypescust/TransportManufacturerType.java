@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РР·РіРѕС‚РѕРІРёС‚РµР»СЊ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°.
+ * Изготовитель транспортного средства.
  */
 public class TransportManufacturerType
 {
@@ -14,7 +14,7 @@ public class TransportManufacturerType
     private AddressType address;
 
     /** 
-     * Get the 'TransportManufacturerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ.
+     * Get the 'TransportManufacturerName' element value. Наименование изготовителя.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class TransportManufacturerType
     }
 
     /** 
-     * Set the 'TransportManufacturerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ.
+     * Set the 'TransportManufacturerName' element value. Наименование изготовителя.
      * 
      * @param transportManufacturerName
      */
@@ -32,7 +32,7 @@ public class TransportManufacturerType
     }
 
     /** 
-     * Get the 'TransportManufacturerCode' element value. РљРѕРґ РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ.
+     * Get the 'TransportManufacturerCode' element value. Код изготовителя.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class TransportManufacturerType
     }
 
     /** 
-     * Set the 'TransportManufacturerCode' element value. РљРѕРґ РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ.
+     * Set the 'TransportManufacturerCode' element value. Код изготовителя.
      * 
      * @param transportManufacturerCode
      */
@@ -50,7 +50,7 @@ public class TransportManufacturerType
     }
 
     /** 
-     * Get the 'ManufacturerCountryCode' element value. РљРѕРґ Р°Р»СЊС„Р°-2 СЃС‚СЂР°РЅС‹ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ
+     * Get the 'ManufacturerCountryCode' element value. Код альфа-2 страны изготовления
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class TransportManufacturerType
     }
 
     /** 
-     * Set the 'ManufacturerCountryCode' element value. РљРѕРґ Р°Р»СЊС„Р°-2 СЃС‚СЂР°РЅС‹ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ
+     * Set the 'ManufacturerCountryCode' element value. Код альфа-2 страны изготовления
      * 
      * @param manufacturerCountryCode
      */
@@ -68,7 +68,7 @@ public class TransportManufacturerType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Get the 'Address' element value. Адрес организации.
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class TransportManufacturerType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Set the 'Address' element value. Адрес организации.
      * 
      * @param address
      */

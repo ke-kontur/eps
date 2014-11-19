@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ 
+ * Сопровождение 
  */
 public class EscortType
 {
@@ -13,7 +13,7 @@ public class EscortType
     private List<String> personList = new ArrayList<String>();
 
     /** 
-     * Get the 'Purpose' element value. Р¦РµР»СЊ СЃРѕРїСЂРѕРІРѕР¶РґРµРЅРёСЏ 
+     * Get the 'Purpose' element value. Цель сопровождения 
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class EscortType
     }
 
     /** 
-     * Set the 'Purpose' element value. Р¦РµР»СЊ СЃРѕРїСЂРѕРІРѕР¶РґРµРЅРёСЏ 
+     * Set the 'Purpose' element value. Цель сопровождения 
      * 
      * @param purpose
      */
@@ -31,7 +31,7 @@ public class EscortType
     }
 
     /** 
-     * Get the list of 'Person' element items. РЎРѕРїСЂРѕРІРѕР¶РґР°СЋС‰РёРµ Р»РёС†Р° 
+     * Get the list of 'Person' element items. Сопровождающие лица 
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class EscortType
     }
 
     /** 
-     * Set the list of 'Person' element items. РЎРѕРїСЂРѕРІРѕР¶РґР°СЋС‰РёРµ Р»РёС†Р° 
+     * Set the list of 'Person' element items. Сопровождающие лица 
      * 
      * @param list
      */

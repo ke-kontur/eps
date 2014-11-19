@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.staticform;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚СЂР°РЅРµ
+ * Сведения о стране
  */
 public class CountryInfoType
 {
@@ -10,7 +10,7 @@ public class CountryInfoType
     private String countryCode;
 
     /** 
-     * Get the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryName' element value. Наименование страны
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CountryInfoType
     }
 
     /** 
-     * Set the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryName' element value. Наименование страны
      * 
      * @param countryName
      */
@@ -28,7 +28,7 @@ public class CountryInfoType
     }
 
     /** 
-     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј
+     * Get the 'CountryCode' element value. Код страны в соответствии с классификатором
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CountryInfoType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј
+     * Set the 'CountryCode' element value. Код страны в соответствии с классификатором
      * 
      * @param countryCode
      */

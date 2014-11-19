@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.licensesubsoiluse;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёР»РѕР¶РµРЅРёСЏС…, РІ РєРѕС‚РѕСЂС‹С… РєРѕРїРёРё РґРѕРєСѓРјРµРЅС‚РѕРІ Рё РѕРїРёСЃР°РЅРёРµ РіСЂР°РЅРёС† Р·РµРјРµР»СЊРЅРѕРіРѕ СѓС‡Р°СЃС‚РєР°/РіСЂР°РЅРёС† СѓС‡Р°СЃС‚РєР° РЅРµРґСЂ
+ * Сведения о приложениях, в которых копии документов и описание границ земельного участка/границ участка недр
  */
 public class ApplicationType
 {
@@ -11,7 +11,7 @@ public class ApplicationType
     private String sheetApplication;
 
     /** 
-     * Get the 'KIndApplication' element value. РўРёРї РїСЂРёР»РѕР¶РµРЅРёСЏ: true - РїСЂРёР»РѕР¶РµРЅРёРµ, РѕРїРёСЃС‹РІР°СЋС‰РµРµ РіСЂР°РЅРёС†С‹ Р·РµРјРµР»СЊРЅРѕРіРѕ СѓС‡Р°СЃС‚РєР°; false- РїСЂРёР»РѕР¶РµРЅРёРµ, РѕРїРёСЃС‹РІР°СЋС‰РµРµ РіСЂР°РЅРёС†С‹ СѓС‡Р°СЃС‚РєР° РЅРµРґСЂ 
+     * Get the 'KIndApplication' element value. Тип приложения: true - приложение, описывающее границы земельного участка; false- приложение, описывающее границы участка недр 
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ApplicationType
     }
 
     /** 
-     * Set the 'KIndApplication' element value. РўРёРї РїСЂРёР»РѕР¶РµРЅРёСЏ: true - РїСЂРёР»РѕР¶РµРЅРёРµ, РѕРїРёСЃС‹РІР°СЋС‰РµРµ РіСЂР°РЅРёС†С‹ Р·РµРјРµР»СЊРЅРѕРіРѕ СѓС‡Р°СЃС‚РєР°; false- РїСЂРёР»РѕР¶РµРЅРёРµ, РѕРїРёСЃС‹РІР°СЋС‰РµРµ РіСЂР°РЅРёС†С‹ СѓС‡Р°СЃС‚РєР° РЅРµРґСЂ 
+     * Set the 'KIndApplication' element value. Тип приложения: true - приложение, описывающее границы земельного участка; false- приложение, описывающее границы участка недр 
      * 
      * @param KIndApplication
      */
@@ -29,7 +29,7 @@ public class ApplicationType
     }
 
     /** 
-     * Get the 'NumberApplication' element value. РќРѕРјРµСЂ РїСЂРёР»РѕР¶РµРЅРёСЏ 
+     * Get the 'NumberApplication' element value. Номер приложения 
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ApplicationType
     }
 
     /** 
-     * Set the 'NumberApplication' element value. РќРѕРјРµСЂ РїСЂРёР»РѕР¶РµРЅРёСЏ 
+     * Set the 'NumberApplication' element value. Номер приложения 
      * 
      * @param numberApplication
      */
@@ -47,7 +47,7 @@ public class ApplicationType
     }
 
     /** 
-     * Get the 'SheetApplication' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІ РїСЂРёР»РѕР¶РµРЅРёРё
+     * Get the 'SheetApplication' element value. Количество листов в приложении
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ApplicationType
     }
 
     /** 
-     * Set the 'SheetApplication' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІ РїСЂРёР»РѕР¶РµРЅРёРё
+     * Set the 'SheetApplication' element value. Количество листов в приложении
      * 
      * @param sheetApplication
      */

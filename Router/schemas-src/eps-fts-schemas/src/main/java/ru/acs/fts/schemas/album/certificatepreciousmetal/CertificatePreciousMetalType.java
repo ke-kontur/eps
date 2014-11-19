@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЎРµСЂС‚РёС„РёРєР°С‚ С…РёРјРёС‡РµСЃРєРѕРіРѕ СЃРѕСЃС‚Р°РІР° РЅР° СЃРѕРґРµСЂР¶Р°РЅРёРµ РґСЂР°РіРјРµС‚Р°Р»Р»РѕРІ
+ * Сертификат химического состава на содержание драгметаллов
  */
 public class CertificatePreciousMetalType extends BaseDocType
 {
@@ -30,7 +30,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё
+     * Get the 'IssueDate' element value. Дата выдачи
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё
+     * Set the 'IssueDate' element value. Дата выдачи
      * 
      * @param issueDate
      */
@@ -48,7 +48,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @param registrationNumber
      */
@@ -66,7 +66,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'ExpirationDate' element value. Дата окончания действия сертификата
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExpirationDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'ExpirationDate' element value. Дата окончания действия сертификата
      * 
      * @param expirationDate
      */
@@ -84,7 +84,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the 'NamePreciousMetal' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґСЂР°РіРјРµС‚Р°Р»Р»Р°
+     * Get the 'NamePreciousMetal' element value. Наименование драгметалла
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the 'NamePreciousMetal' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґСЂР°РіРјРµС‚Р°Р»Р»Р°
+     * Set the 'NamePreciousMetal' element value. Наименование драгметалла
      * 
      * @param namePreciousMetal
      */
@@ -102,7 +102,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContentPercent' element value. РЎРѕРґРµСЂР¶Р°РЅРёРµ РІ % РґСЂР°РіРјРµС‚Р°Р»Р»Р°
+     * Get the 'ContentPercent' element value. Содержание в % драгметалла
      * 
      * @return value
      */
@@ -111,7 +111,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContentPercent' element value. РЎРѕРґРµСЂР¶Р°РЅРёРµ РІ % РґСЂР°РіРјРµС‚Р°Р»Р»Р°
+     * Set the 'ContentPercent' element value. Содержание в % драгметалла
      * 
      * @param contentPercent
      */
@@ -120,7 +120,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the 'RecalculatedContent' element value. РЎРѕРґРµСЂР¶Р°РЅРёРµ РІ РіСЂР°РјРјР°С…/С‚РѕРЅРЅР°С… РґСЂР°РіРјРµС‚Р°Р»Р»Р° 
+     * Get the 'RecalculatedContent' element value. Содержание в граммах/тоннах драгметалла 
      * 
      * @return value
      */
@@ -129,7 +129,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the 'RecalculatedContent' element value. РЎРѕРґРµСЂР¶Р°РЅРёРµ РІ РіСЂР°РјРјР°С…/С‚РѕРЅРЅР°С… РґСЂР°РіРјРµС‚Р°Р»Р»Р° 
+     * Set the 'RecalculatedContent' element value. Содержание в граммах/тоннах драгметалла 
      * 
      * @param recalculatedContent
      */
@@ -138,7 +138,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarantInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Get the 'DeclarantInfo' element value. Сведения о заявителе
      * 
      * @return value
      */
@@ -147,7 +147,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarantInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Set the 'DeclarantInfo' element value. Сведения о заявителе
      * 
      * @param declarantInfo
      */
@@ -156,7 +156,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
+     * Get the list of 'GoodsInfo' element items. Сведения о продукции
      * 
      * @return list
      */
@@ -165,7 +165,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
+     * Set the list of 'GoodsInfo' element items. Сведения о продукции
      * 
      * @param list
      */
@@ -174,7 +174,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ExperimentAccordanceDocuments' element items. РСЃРїС‹С‚Р°РЅ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚СЂРµР±РѕРІР°РЅРёСЏРјРё, СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹РјРё РІ РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Get the list of 'ExperimentAccordanceDocuments' element items. Испытан в соответствии с требованиями, установленными в документах
      * 
      * @return list
      */
@@ -183,7 +183,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ExperimentAccordanceDocuments' element items. РСЃРїС‹С‚Р°РЅ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚СЂРµР±РѕРІР°РЅРёСЏРјРё, СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹РјРё РІ РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Set the list of 'ExperimentAccordanceDocuments' element items. Испытан в соответствии с требованиями, установленными в документах
      * 
      * @param list
      */
@@ -192,7 +192,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the 'Laboratory' element value. Р›Р°Р±РѕСЂР°С‚РѕСЂРёСЏ
+     * Get the 'Laboratory' element value. Лаборатория
      * 
      * @return value
      */
@@ -201,7 +201,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the 'Laboratory' element value. Р›Р°Р±РѕСЂР°С‚РѕСЂРёСЏ
+     * Set the 'Laboratory' element value. Лаборатория
      * 
      * @param laboratory
      */
@@ -210,7 +210,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TestReport' element items. РџСЂРѕС‚РѕРєРѕР» РёСЃРїС‹С‚Р°РЅРёР№
+     * Get the list of 'TestReport' element items. Протокол испытаний
      * 
      * @return list
      */
@@ -219,7 +219,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TestReport' element items. РџСЂРѕС‚РѕРєРѕР» РёСЃРїС‹С‚Р°РЅРёР№
+     * Set the list of 'TestReport' element items. Протокол испытаний
      * 
      * @param list
      */
@@ -228,7 +228,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueOrganization' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РІС‹РґР°РІС€Р°СЏ СЃРµСЂС‚РёС„РёРєР°С‚ С…РёРјРёС‡РµСЃРєРѕРіРѕ СЃРѕСЃС‚Р°РІР° РЅР° СЃРѕРґРµСЂР¶Р°РЅРёРµ РґСЂР°РіРјРµС‚Р°Р»Р»РѕРІ
+     * Get the 'IssueOrganization' element value. Организация, выдавшая сертификат химического состава на содержание драгметаллов
      * 
      * @return value
      */
@@ -237,7 +237,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueOrganization' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РІС‹РґР°РІС€Р°СЏ СЃРµСЂС‚РёС„РёРєР°С‚ С…РёРјРёС‡РµСЃРєРѕРіРѕ СЃРѕСЃС‚Р°РІР° РЅР° СЃРѕРґРµСЂР¶Р°РЅРёРµ РґСЂР°РіРјРµС‚Р°Р»Р»РѕРІ
+     * Set the 'IssueOrganization' element value. Организация, выдавшая сертификат химического состава на содержание драгметаллов
      * 
      * @param issueOrganization
      */
@@ -246,7 +246,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssuePersonSignature' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'IssuePersonSignature' element value. Подпись руководителя организации, выдавшей сертификат
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssuePersonSignature' element value. РџРѕРґРїРёСЃСЊ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'IssuePersonSignature' element value. Подпись руководителя организации, выдавшей сертификат
      * 
      * @param issuePersonSignature
      */
@@ -264,7 +264,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -273,7 +273,7 @@ public class CertificatePreciousMetalType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

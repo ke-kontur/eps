@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.airwaybill;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё РёР·  Р°РІРёР°РЅР°РєР»Р°РґРЅРѕР№.
+ * Сведения об организации из  авианакладной.
  */
 public class AirOrganizationType extends OrganizationType
 {
     private String accountNumber;
 
     /** 
-     * Get the 'AccountNumber' element value. РќРѕРјРµСЂ СЃС‡РµС‚Р°
+     * Get the 'AccountNumber' element value. Номер счета
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AirOrganizationType extends OrganizationType
     }
 
     /** 
-     * Set the 'AccountNumber' element value. РќРѕРјРµСЂ СЃС‡РµС‚Р°
+     * Set the 'AccountNumber' element value. Номер счета
      * 
      * @param accountNumber
      */

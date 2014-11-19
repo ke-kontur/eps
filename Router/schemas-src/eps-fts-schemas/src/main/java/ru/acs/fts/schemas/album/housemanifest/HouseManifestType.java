@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РљРѕРЅСЃРѕР»РёРґРёСЂРѕРІР°РЅРЅС‹Р№ РјР°РЅРёС„РµСЃС‚
+ * Консолидированный манифест
  */
 public class HouseManifestType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class HouseManifestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'LinesNumberTotal' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
+     * Get the 'LinesNumberTotal' element value. Общее количество наименований товаров
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class HouseManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'LinesNumberTotal' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РЅР°РёРјРµРЅРѕРІР°РЅРёР№ С‚РѕРІР°СЂРѕРІ
+     * Set the 'LinesNumberTotal' element value. Общее количество наименований товаров
      * 
      * @param linesNumberTotal
      */
@@ -37,7 +37,7 @@ public class HouseManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalNumberOfPieces' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ
+     * Get the 'TotalNumberOfPieces' element value. Общее количество товаров
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class HouseManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalNumberOfPieces' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ
+     * Set the 'TotalNumberOfPieces' element value. Общее количество товаров
      * 
      * @param totalNumberOfPieces
      */
@@ -55,7 +55,7 @@ public class HouseManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalGrossWeight' element value. РћР±С‰РёР№ РІРµСЃ С‚РѕРІР°СЂРѕРІ
+     * Get the 'TotalGrossWeight' element value. Общий вес товаров
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class HouseManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalGrossWeight' element value. РћР±С‰РёР№ РІРµСЃ С‚РѕРІР°СЂРѕРІ
+     * Set the 'TotalGrossWeight' element value. Общий вес товаров
      * 
      * @param totalGrossWeight
      */
@@ -73,7 +73,7 @@ public class HouseManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Header' element value. Р—Р°РіРѕР»РѕРІРѕРє РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'Header' element value. Заголовок документа
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class HouseManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Header' element value. Р—Р°РіРѕР»РѕРІРѕРє РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'Header' element value. Заголовок документа
      * 
      * @param header
      */
@@ -91,7 +91,7 @@ public class HouseManifestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ItemDetails' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'ItemDetails' element items. Описание товара
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class HouseManifestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ItemDetails' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'ItemDetails' element items. Описание товара
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class HouseManifestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class HouseManifestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

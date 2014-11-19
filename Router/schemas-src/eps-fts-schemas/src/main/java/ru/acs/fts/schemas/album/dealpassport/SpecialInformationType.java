@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРїРµС†РёР°Р»СЊРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РєС‚Рµ
+ * Специальные сведения о контракте
  */
 public class SpecialInformationType
 {
@@ -15,7 +15,7 @@ public class SpecialInformationType
     private LocalDate list2IssueDate;
 
     /** 
-     * Get the list of 'ContractTerms' element items. РЈСЃР»РѕРІРёСЏ Рѕ СЃСЂРѕРєР°С… Рё РїРѕСЂСЏРґРєРµ СЂР°СЃС‡РµС‚РѕРІ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Get the list of 'ContractTerms' element items. Условия о сроках и порядке расчетов по контракту
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class SpecialInformationType
     }
 
     /** 
-     * Set the list of 'ContractTerms' element items. РЈСЃР»РѕРІРёСЏ Рѕ СЃСЂРѕРєР°С… Рё РїРѕСЂСЏРґРєРµ СЂР°СЃС‡РµС‚РѕРІ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Set the list of 'ContractTerms' element items. Условия о сроках и порядке расчетов по контракту
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class SpecialInformationType
     }
 
     /** 
-     * Get the 'Term' element value. РћС‚СЃСЂРѕС‡РєР° РїР»Р°С‚РµР¶Р°/РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РѕРїР»Р°С‚Р° (0000, РќР”РђРќ, Р»РёР±Рѕ РєРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№)
+     * Get the 'Term' element value. Отсрочка платежа/предварительная оплата (0000, НДАН, либо количество дней)
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class SpecialInformationType
     }
 
     /** 
-     * Set the 'Term' element value. РћС‚СЃСЂРѕС‡РєР° РїР»Р°С‚РµР¶Р°/РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РѕРїР»Р°С‚Р° (0000, РќР”РђРќ, Р»РёР±Рѕ РєРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№)
+     * Set the 'Term' element value. Отсрочка платежа/предварительная оплата (0000, НДАН, либо количество дней)
      * 
      * @param term
      */
@@ -51,7 +51,7 @@ public class SpecialInformationType
     }
 
     /** 
-     * Get the 'List2IssueDate' element value. Р”Р°С‚Р° РѕС„РѕСЂРјР»РµРЅРёСЏ Р»РёСЃС‚Р° 2
+     * Get the 'List2IssueDate' element value. Дата оформления листа 2
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class SpecialInformationType
     }
 
     /** 
-     * Set the 'List2IssueDate' element value. Р”Р°С‚Р° РѕС„РѕСЂРјР»РµРЅРёСЏ Р»РёСЃС‚Р° 2
+     * Set the 'List2IssueDate' element value. Дата оформления листа 2
      * 
      * @param list2IssueDate
      */

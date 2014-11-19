@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ РѕР± РѕС€РёР±РѕС‡РЅРѕ РЅР°РїСЂР°РІР»РµРЅРЅРѕР№(РѕРј) Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІРµ РЅР° РїРѕРґР°С‡Сѓ Р”Рў
+ * Уведомление об ошибочно направленной(ом) ДТ/Обязательстве на подачу ДТ
  */
 public class MistakenlySentDTType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class MistakenlySentDTType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ProcedureID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµРґСѓСЂС‹, РІ РєРѕС‚РѕСЂРѕР№ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅР° Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІРѕ РЅР° РїРѕРґР°С‡Сѓ Р”Рў
+     * Get the 'ProcedureID' element value. Идентификатор процедуры, в которой зарегистрирована ДТ/Обязательство на подачу ДТ
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcedureID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµРґСѓСЂС‹, РІ РєРѕС‚РѕСЂРѕР№ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅР° Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІРѕ РЅР° РїРѕРґР°С‡Сѓ Р”Рў
+     * Set the 'ProcedureID' element value. Идентификатор процедуры, в которой зарегистрирована ДТ/Обязательство на подачу ДТ
      * 
      * @param procedureID
      */
@@ -37,7 +37,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarationID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РЅР° РїРѕРґР°С‡Сѓ Р”Рў (DocumentID)
+     * Get the 'DeclarationID' element value. Уникальный идентификатор ДТ/Обязательства на подачу ДТ (DocumentID)
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РЅР° РїРѕРґР°С‡Сѓ Р”Рў (DocumentID)
+     * Set the 'DeclarationID' element value. Уникальный идентификатор ДТ/Обязательства на подачу ДТ (DocumentID)
      * 
      * @param declarationID
      */
@@ -55,7 +55,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'CreateDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'CreateDate' element value. Дата создания сообщения
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'CreateDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'CreateDate' element value. Дата создания сообщения
      * 
      * @param createDate
      */
@@ -73,7 +73,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'CreateTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'CreateTime' element value. Время создания сообщения
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'CreateTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'CreateTime' element value. Время создания сообщения
      * 
      * @param createTime
      */
@@ -91,7 +91,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'Decision' element value. Р РµС€РµРЅРёРµ
+     * Get the 'Decision' element value. Решение
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'Decision' element value. Р РµС€РµРЅРёРµ
+     * Set the 'Decision' element value. Решение
      * 
      * @param decision
      */
@@ -109,7 +109,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionCustoms' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ, РїСЂРёРЅСЏРІС€РµРіРѕ СЂРµС€РµРЅРёРµ
+     * Get the 'DecisionCustoms' element value. Сведения о таможенном органе, принявшего решение
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionCustoms' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ, РїСЂРёРЅСЏРІС€РµРіРѕ СЂРµС€РµРЅРёРµ
+     * Set the 'DecisionCustoms' element value. Сведения о таможенном органе, принявшего решение
      * 
      * @param decisionCustoms
      */
@@ -127,7 +127,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class MistakenlySentDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

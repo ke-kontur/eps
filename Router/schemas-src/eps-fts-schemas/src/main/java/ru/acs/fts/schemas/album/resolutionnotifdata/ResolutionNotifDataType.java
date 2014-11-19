@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.resolutionnotifdata;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРёРЅСЏС‚РѕРј СЂРµС€РµРЅРёРё
+ * Сведения о принятом решении
  */
 public class ResolutionNotifDataType extends BaseDocType
 {
@@ -13,7 +13,7 @@ public class ResolutionNotifDataType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RequestId' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїСЂРѕСЃР°
+     * Get the 'RequestId' element value. Уникальный идентификатор запроса
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ResolutionNotifDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'RequestId' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїСЂРѕСЃР°
+     * Set the 'RequestId' element value. Уникальный идентификатор запроса
      * 
      * @param requestId
      */
@@ -31,7 +31,7 @@ public class ResolutionNotifDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'Action' element value. Р РµС€РµРЅРёРµ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°: 1 - РџСЂРѕРїСѓС‰РµРЅРѕ; 2 - РџСЂРѕРїСѓС‰РµРЅРѕ СЃ СѓРІРµРґРѕРјР»РµРЅРёРµРј РЅР° РІРЅРµС€РЅРµР№ РіСЂР°РЅРёС†Рµ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р° (Р‘РµР»Р°СЂСѓСЃСЊ); 3 - РџСЂРѕРїСѓС‰РµРЅРѕ СЃ СѓРІРµРґРѕРјР»РµРЅРёРµРј РЅР° РІРЅРµС€РЅРµР№ РіСЂР°РЅРёС†Рµ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р° (РљР°Р·Р°С…СЃС‚Р°РЅ); 4 - Р—Р°РґРµСЂР¶Р°РЅРѕ
+     * Get the 'Action' element value. Решение ответственного должностного лица: 1 - Пропущено; 2 - Пропущено с уведомлением на внешней границе Таможенного союза (Беларусь); 3 - Пропущено с уведомлением на внешней границе Таможенного союза (Казахстан); 4 - Задержано
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ResolutionNotifDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'Action' element value. Р РµС€РµРЅРёРµ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р°: 1 - РџСЂРѕРїСѓС‰РµРЅРѕ; 2 - РџСЂРѕРїСѓС‰РµРЅРѕ СЃ СѓРІРµРґРѕРјР»РµРЅРёРµРј РЅР° РІРЅРµС€РЅРµР№ РіСЂР°РЅРёС†Рµ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р° (Р‘РµР»Р°СЂСѓСЃСЊ); 3 - РџСЂРѕРїСѓС‰РµРЅРѕ СЃ СѓРІРµРґРѕРјР»РµРЅРёРµРј РЅР° РІРЅРµС€РЅРµР№ РіСЂР°РЅРёС†Рµ РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р° (РљР°Р·Р°С…СЃС‚Р°РЅ); 4 - Р—Р°РґРµСЂР¶Р°РЅРѕ
+     * Set the 'Action' element value. Решение ответственного должностного лица: 1 - Пропущено; 2 - Пропущено с уведомлением на внешней границе Таможенного союза (Беларусь); 3 - Пропущено с уведомлением на внешней границе Таможенного союза (Казахстан); 4 - Задержано
      * 
      * @param action
      */
@@ -49,7 +49,7 @@ public class ResolutionNotifDataType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ResolutionNotifDataType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

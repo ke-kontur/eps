@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.actthievingsampling;
 
 /** 
- * РџСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚СЊ РїСЂРµРґРјРµС‚РѕРІ РїСЂРѕР±Сѓ РёР»Рё РѕР±СЂР°Р·С†РѕРІ, РєРѕС‚РѕСЂС‹С… Р±РµСЂСѓС‚
+ * Принадлежность предметов пробу или образцов, которых берут
  */
 public class AccessoriesType
 {
@@ -13,7 +13,7 @@ public class AccessoriesType
     private AccessoriesPersonType accessoriesPerson;
 
     /** 
-     * Get the 'LocationObject' element value. РќР°С…РѕР¶РґРµРЅРёРµ РїСЂРµРґРјРµС‚РѕРІ (РІ СЂСѓС‡РЅРѕР№ РєР»Р°РґРё, Р±Р°РіР°Р¶Рµ, РїРѕС‡С‚РѕРІРѕРј РѕС‚РїСЂР°РІР»РµРЅРёРё в„–, РІР°РіРѕРЅ Рё С‚.Рґ.)
+     * Get the 'LocationObject' element value. Нахождение предметов (в ручной клади, багаже, почтовом отправлении №, вагон и т.д.)
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AccessoriesType
     }
 
     /** 
-     * Set the 'LocationObject' element value. РќР°С…РѕР¶РґРµРЅРёРµ РїСЂРµРґРјРµС‚РѕРІ (РІ СЂСѓС‡РЅРѕР№ РєР»Р°РґРё, Р±Р°РіР°Р¶Рµ, РїРѕС‡С‚РѕРІРѕРј РѕС‚РїСЂР°РІР»РµРЅРёРё в„–, РІР°РіРѕРЅ Рё С‚.Рґ.)
+     * Set the 'LocationObject' element value. Нахождение предметов (в ручной клади, багаже, почтовом отправлении №, вагон и т.д.)
      * 
      * @param locationObject
      */
@@ -31,7 +31,7 @@ public class AccessoriesType
     }
 
     /** 
-     * Get the 'Departure' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'Departure' element value. Страна отправления
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class AccessoriesType
     }
 
     /** 
-     * Set the 'Departure' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'Departure' element value. Страна отправления
      * 
      * @param departure
      */
@@ -49,7 +49,7 @@ public class AccessoriesType
     }
 
     /** 
-     * Get the 'Arrival' element value. РЎС‚СЂР°РЅР° РїСЂРёР±С‹С‚РёСЏ
+     * Get the 'Arrival' element value. Страна прибытия
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class AccessoriesType
     }
 
     /** 
-     * Set the 'Arrival' element value. РЎС‚СЂР°РЅР° РїСЂРёР±С‹С‚РёСЏ
+     * Set the 'Arrival' element value. Страна прибытия
      * 
      * @param arrival
      */
@@ -67,7 +67,7 @@ public class AccessoriesType
     }
 
     /** 
-     * Get the 'AccessoriesOrganization' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РєРѕС‚РѕСЂРѕР№  РїСЂРёРЅР°РґР»РµР¶Р°С‚ РїСЂРµРґРјРµС‚С‹. 
+     * Get the 'AccessoriesOrganization' element value. Организация, которой  принадлежат предметы. 
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class AccessoriesType
     }
 
     /** 
-     * Set the 'AccessoriesOrganization' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РєРѕС‚РѕСЂРѕР№  РїСЂРёРЅР°РґР»РµР¶Р°С‚ РїСЂРµРґРјРµС‚С‹. 
+     * Set the 'AccessoriesOrganization' element value. Организация, которой  принадлежат предметы. 
      * 
      * @param accessoriesOrganization
      */
@@ -86,7 +86,7 @@ public class AccessoriesType
     }
 
     /** 
-     * Get the 'AccessoriesPerson' element value. Р›РёС†Рѕ, РєРѕС‚РѕСЂРѕРјСѓ  РїСЂРёРЅР°РґР»РµР¶Р°С‚ РїСЂРµРґРјРµС‚С‹ 
+     * Get the 'AccessoriesPerson' element value. Лицо, которому  принадлежат предметы 
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class AccessoriesType
     }
 
     /** 
-     * Set the 'AccessoriesPerson' element value. Р›РёС†Рѕ, РєРѕС‚РѕСЂРѕРјСѓ  РїСЂРёРЅР°РґР»РµР¶Р°С‚ РїСЂРµРґРјРµС‚С‹ 
+     * Set the 'AccessoriesPerson' element value. Лицо, которому  принадлежат предметы 
      * 
      * @param accessoriesPerson
      */

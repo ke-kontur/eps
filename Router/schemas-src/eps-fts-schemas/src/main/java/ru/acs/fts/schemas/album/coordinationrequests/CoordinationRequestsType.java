@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РќР°РїСЂР°РІР»РµРЅРёРµ РЅР° СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ
+ * Направление на согласование
  */
 public class CoordinationRequestsType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class CoordinationRequestsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CoordReqDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РќР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'CoordReqDate' element value. Дата создания Направления
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Set the 'CoordReqDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РќР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'CoordReqDate' element value. Дата создания Направления
      * 
      * @param coordReqDate
      */
@@ -44,7 +44,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Get the 'CoordReqTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РќР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'CoordReqTime' element value. Время создания Направления
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Set the 'CoordReqTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РќР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'CoordReqTime' element value. Время создания Направления
      * 
      * @param coordReqTime
      */
@@ -62,7 +62,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Get the 'Doc_ID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (DocumentID) С‚РѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ Р±С‹Р»Рѕ СЃРѕР·РґР°РЅРѕ РќР°РїСЂР°РІР»РµРЅРёРµ (РїРѕСЃР»Рµ СЃРѕР·РґР°РЅРёСЏ 1 РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРµРєР»Р°СЂР°РЅС‚РѕРј РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСЂРёСЃР»Р°РЅР° РёР·РјРµРЅРµРЅРЅР°СЏ Р”Рў,  РґР»СЏ РќР°РїСЂР°РІР»РµРЅРёСЏ РїРѕ РЅРµР№ РР” Р”Рў Р±СѓРґРµС‚ СѓР¶Рµ РґСЂСѓРіРёРј)
+     * Get the 'Doc_ID' element value. Уникальный идентификатор (DocumentID) того состояния ДТ, по которому было создано Направление (после создания 1 направления декларантом может быть прислана измененная ДТ,  для Направления по ней ИД ДТ будет уже другим)
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Set the 'Doc_ID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (DocumentID) С‚РѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕРјСѓ Р±С‹Р»Рѕ СЃРѕР·РґР°РЅРѕ РќР°РїСЂР°РІР»РµРЅРёРµ (РїРѕСЃР»Рµ СЃРѕР·РґР°РЅРёСЏ 1 РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРµРєР»Р°СЂР°РЅС‚РѕРј РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСЂРёСЃР»Р°РЅР° РёР·РјРµРЅРµРЅРЅР°СЏ Р”Рў,  РґР»СЏ РќР°РїСЂР°РІР»РµРЅРёСЏ РїРѕ РЅРµР№ РР” Р”Рў Р±СѓРґРµС‚ СѓР¶Рµ РґСЂСѓРіРёРј)
+     * Set the 'Doc_ID' element value. Уникальный идентификатор (DocumentID) того состояния ДТ, по которому было создано Направление (после создания 1 направления декларантом может быть прислана измененная ДТ,  для Направления по ней ИД ДТ будет уже другим)
      * 
      * @param docID
      */
@@ -80,7 +80,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Get the 'CoordReqNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РќР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'CoordReqNumber' element value. Порядковый номер Направления
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Set the 'CoordReqNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РќР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'CoordReqNumber' element value. Порядковый номер Направления
      * 
      * @param coordReqNumber
      */
@@ -98,7 +98,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Get the 'FarINN' element value. РРќРќ Р»РёС†Р°, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ, РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ С‚Р°РјРѕР¶РЅРµ РґР»СЏ РїРµС‡Р°С‚Рё Р¶СѓСЂРЅР°Р»Р° РЅР°РїСЂР°РІР»РµРЅРёРµ РЅР° СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ
+     * Get the 'FarINN' element value. ИНН лица, ответственного за финансовое урегулирование, используется в таможне для печати журнала направление на согласование
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Set the 'FarINN' element value. РРќРќ Р»РёС†Р°, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ, РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ С‚Р°РјРѕР¶РЅРµ РґР»СЏ РїРµС‡Р°С‚Рё Р¶СѓСЂРЅР°Р»Р° РЅР°РїСЂР°РІР»РµРЅРёРµ РЅР° СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ
+     * Set the 'FarINN' element value. ИНН лица, ответственного за финансовое урегулирование, используется в таможне для печати журнала направление на согласование
      * 
      * @param farINN
      */
@@ -116,7 +116,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Get the 'FarKPP' element value. РљРџРџ Р»РёС†Р°, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ, РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ С‚Р°РјРѕР¶РЅРµ РґР»СЏ РїРµС‡Р°С‚Рё Р¶СѓСЂРЅР°Р»Р° РЅР°РїСЂР°РІР»РµРЅРёРµ РЅР° СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ
+     * Get the 'FarKPP' element value. КПП лица, ответственного за финансовое урегулирование, используется в таможне для печати журнала направление на согласование
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Set the 'FarKPP' element value. РљРџРџ Р»РёС†Р°, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° С„РёРЅР°РЅСЃРѕРІРѕРµ СѓСЂРµРіСѓР»РёСЂРѕРІР°РЅРёРµ, РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ С‚Р°РјРѕР¶РЅРµ РґР»СЏ РїРµС‡Р°С‚Рё Р¶СѓСЂРЅР°Р»Р° РЅР°РїСЂР°РІР»РµРЅРёРµ РЅР° СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ
+     * Set the 'FarKPP' element value. КПП лица, ответственного за финансовое урегулирование, используется в таможне для печати журнала направление на согласование
      * 
      * @param farKPP
      */
@@ -134,7 +134,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Get the 'CreateUserNameFIO' element value. Р¤РРћ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, СЃРѕР·РґР°РІС€РµРіРѕ РќР°РїСЂР°РІР»РµРЅРёРµ
+     * Get the 'CreateUserNameFIO' element value. ФИО пользователя, создавшего Направление
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Set the 'CreateUserNameFIO' element value. Р¤РРћ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, СЃРѕР·РґР°РІС€РµРіРѕ РќР°РїСЂР°РІР»РµРЅРёРµ
+     * Set the 'CreateUserNameFIO' element value. ФИО пользователя, создавшего Направление
      * 
      * @param createUserNameFIO
      */
@@ -152,7 +152,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'GTDID' element value. Регистрационный номер ДТ
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'GTDID' element value. Регистрационный номер ДТ
      * 
      * @param GTDID
      */
@@ -170,7 +170,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'MeasureList' element items. РњРµСЂС‹ РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… Р±С‹Р»Рѕ СЃС„РѕСЂРјРёСЂРѕРІР°РЅРѕ РЅР°РїСЂР°РІР»РµРЅРёРµ РІ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅС‹Рµ РѕС‚РґРµР»С‹ С‚Р°РјРѕР¶РµРЅ РґР»СЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёР№
+     * Get the list of 'MeasureList' element items. Меры на основании которых было сформировано направление в функциональные отделы таможен для принятия решений
      * 
      * @return list
      */
@@ -179,7 +179,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'MeasureList' element items. РњРµСЂС‹ РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… Р±С‹Р»Рѕ СЃС„РѕСЂРјРёСЂРѕРІР°РЅРѕ РЅР°РїСЂР°РІР»РµРЅРёРµ РІ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅС‹Рµ РѕС‚РґРµР»С‹ С‚Р°РјРѕР¶РµРЅ РґР»СЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёР№
+     * Set the list of 'MeasureList' element items. Меры на основании которых было сформировано направление в функциональные отделы таможен для принятия решений
      * 
      * @param list
      */
@@ -188,7 +188,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ С‚РѕРІР°СЂР°Рј, РїРѕ РєРѕС‚РѕСЂС‹Рј С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРёРЅСЏС‚СЊ СЂРµС€РµРЅРёРµ. Р•СЃР»Рё РјРµСЂС‹ СѓРєР°Р·Р°РЅС‹ РЅР° РІСЃСЋ С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ РІ С†РµР»РѕРј, С‚Рѕ РЅРµ РїРѕРґР»РµР¶РёС‚ Р·Р°РїРѕР»РЅРµРЅРёСЋ
+     * Get the list of 'GoodsInfo' element items. Информация по товарам, по которым требуется принять решение. Если меры указаны на всю товарную партию в целом, то не подлежит заполнению
      * 
      * @return list
      */
@@ -197,7 +197,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ С‚РѕРІР°СЂР°Рј, РїРѕ РєРѕС‚РѕСЂС‹Рј С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРёРЅСЏС‚СЊ СЂРµС€РµРЅРёРµ. Р•СЃР»Рё РјРµСЂС‹ СѓРєР°Р·Р°РЅС‹ РЅР° РІСЃСЋ С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ РІ С†РµР»РѕРј, С‚Рѕ РЅРµ РїРѕРґР»РµР¶РёС‚ Р·Р°РїРѕР»РЅРµРЅРёСЋ
+     * Set the list of 'GoodsInfo' element items. Информация по товарам, по которым требуется принять решение. Если меры указаны на всю товарную партию в целом, то не подлежит заполнению
      * 
      * @param list
      */
@@ -206,7 +206,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class CoordinationRequestsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

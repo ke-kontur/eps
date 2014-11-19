@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsType
 {
@@ -17,7 +17,7 @@ public class GoodsType
     private List<SupplementaryQuantityType> supplementaryQuantityList = new ArrayList<SupplementaryQuantityType>();
 
     /** 
-     * Get the 'GoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Get the 'GoodsNumber' element value. Номер товара по ДТ
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Set the 'GoodsNumber' element value. Номер товара по ДТ
      * 
      * @param goodsNumber
      */
@@ -35,7 +35,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё С‚РѕРІР°СЂР° РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'Numeric' element value. Номер позиции товара по приложению разрешительного документа
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё С‚РѕРІР°СЂР° РїРѕ РїСЂРёР»РѕР¶РµРЅРёСЋ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'Numeric' element value. Номер позиции товара по приложению разрешительного документа
      * 
      * @param numeric
      */
@@ -53,7 +53,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Get the list of 'GoodsDescription' element items. Описание товара по ДТ
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Set the list of 'GoodsDescription' element items. Описание товара по ДТ
      * 
      * @param list
      */
@@ -71,7 +71,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -89,7 +89,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'SupplementaryQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Get the list of 'SupplementaryQuantity' element items. Количество товара по ДТ
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'SupplementaryQuantity' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Set the list of 'SupplementaryQuantity' element items. Количество товара по ДТ
      * 
      * @param list
      */

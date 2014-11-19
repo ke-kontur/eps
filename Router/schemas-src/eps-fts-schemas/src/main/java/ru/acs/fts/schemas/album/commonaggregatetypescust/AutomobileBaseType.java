@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Р”Р°РЅРЅС‹Рµ РѕР± Р°РІС‚РѕРјРѕР±РёР»СЏС…. Р‘Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ РґР»СЏ 31Р№ РіСЂ. Рё  РљР°СЂС‚РѕС‡РєРё С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+ * Данные об автомобилях. Базовый класс для 31й гр. и  Карточки транспортного средства
  */
 public class AutomobileBaseType
 {
@@ -18,7 +18,7 @@ public class AutomobileBaseType
     private String cabID;
 
     /** 
-     * Get the 'Model' element value. РњР°СЂРєР°, РјРѕРґРµР»СЊ
+     * Get the 'Model' element value. Марка, модель
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Set the 'Model' element value. РњР°СЂРєР°, РјРѕРґРµР»СЊ
+     * Set the 'Model' element value. Марка, модель
      * 
      * @param model
      */
@@ -36,7 +36,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Get the 'Mark' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјР°СЂРєРё РІ РѕСЂРёРіРёРЅР°Р»Рµ
+     * Get the 'Mark' element value. Наименование марки в оригинале
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Set the 'Mark' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјР°СЂРєРё РІ РѕСЂРёРіРёРЅР°Р»Рµ
+     * Set the 'Mark' element value. Наименование марки в оригинале
      * 
      * @param mark
      */
@@ -54,7 +54,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Get the 'MarkCode' element value. РљРѕРґ РјР°СЂРєРё 
+     * Get the 'MarkCode' element value. Код марки 
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Set the 'MarkCode' element value. РљРѕРґ РјР°СЂРєРё 
+     * Set the 'MarkCode' element value. Код марки 
      * 
      * @param markCode
      */
@@ -72,7 +72,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Get the 'OfftakeYear' element value. Р“РѕРґ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'OfftakeYear' element value. Год изготовления транспортного средства
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Set the 'OfftakeYear' element value. Р“РѕРґ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'OfftakeYear' element value. Год изготовления транспортного средства
      * 
      * @param offtakeYear
      */
@@ -90,7 +90,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Get the 'EngineVolumeQuanity' element value. Р Р°Р±РѕС‡РёР№ РѕР±СЉРµРј РґРІРёРіР°С‚РµР»СЏ, РєСѓР±. СЃРј
+     * Get the 'EngineVolumeQuanity' element value. Рабочий объем двигателя, куб. см
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Set the 'EngineVolumeQuanity' element value. Р Р°Р±РѕС‡РёР№ РѕР±СЉРµРј РґРІРёРіР°С‚РµР»СЏ, РєСѓР±. СЃРј
+     * Set the 'EngineVolumeQuanity' element value. Рабочий объем двигателя, куб. см
      * 
      * @param engineVolumeQuanity
      */
@@ -108,7 +108,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Get the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (VIN)
+     * Get the 'VINID' element value. Идентификационный номер (VIN)
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Set the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (VIN)
+     * Set the 'VINID' element value. Идентификационный номер (VIN)
      * 
      * @param VINID
      */
@@ -126,7 +126,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Get the 'BodyID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РєСѓР·РѕРІР° (РїСЂРёС†РµРїР°), РїСЂРёСЃРІРѕРµРЅРЅС‹Рµ Рё РЅР°РЅРµСЃРµРЅРЅС‹Рµ РЅР° РЅРёС…  РѕСЂРіР°РЅРёР·Р°С†РёРµР№-РёР·РіРѕС‚РѕРІРёС‚РµР»РµРј
+     * Get the 'BodyID' element value. Идентификационный номер кузова (прицепа), присвоенные и нанесенные на них  организацией-изготовителем
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Set the 'BodyID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РєСѓР·РѕРІР° (РїСЂРёС†РµРїР°), РїСЂРёСЃРІРѕРµРЅРЅС‹Рµ Рё РЅР°РЅРµСЃРµРЅРЅС‹Рµ РЅР° РЅРёС…  РѕСЂРіР°РЅРёР·Р°С†РёРµР№-РёР·РіРѕС‚РѕРІРёС‚РµР»РµРј
+     * Set the 'BodyID' element value. Идентификационный номер кузова (прицепа), присвоенные и нанесенные на них  организацией-изготовителем
      * 
      * @param bodyID
      */
@@ -144,7 +144,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Get the 'EngineID' element value. РџСЂРёСЃРІРѕРµРЅРЅС‹Р№ РѕСЂРіР°РЅРёР·Р°С†РёРµР№ - РёР·РіРѕС‚РѕРІРёС‚РµР»РµРј РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРІРёРіР°С‚РµР»СЏ, РЅР°РЅРµСЃРµРЅРЅС‹Р№ РЅР° Р±Р»РѕРєРµ РґРІРёРіР°С‚РµР»СЏ. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РјРѕР¶РµС‚ СЃРѕСЃС‚РѕСЏС‚СЊ РёР· РіСЂСѓРїРї СЂР°Р·РґРµР»СЊРЅС‹С… С†РёС„СЂ, РёР· РєРѕС‚РѕСЂС‹С… РїРѕСЃР»РµРґРЅСЏСЏ РіСЂСѓРїРїР°, СЃРѕСЃС‚РѕСЏС‰Р°СЏ РёР· РґРІСѓС… С†РёС„СЂ, СѓРєР°Р·С‹РІР°РµС‚ РіРѕРґ РІС‹РїСѓСЃРєР° РґРІРёРіР°С‚РµР»СЏ
+     * Get the 'EngineID' element value. Присвоенный организацией - изготовителем идентификационный номер двигателя, нанесенный на блоке двигателя. Идентификационный номер может состоять из групп раздельных цифр, из которых последняя группа, состоящая из двух цифр, указывает год выпуска двигателя
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Set the 'EngineID' element value. РџСЂРёСЃРІРѕРµРЅРЅС‹Р№ РѕСЂРіР°РЅРёР·Р°С†РёРµР№ - РёР·РіРѕС‚РѕРІРёС‚РµР»РµРј РёРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРІРёРіР°С‚РµР»СЏ, РЅР°РЅРµСЃРµРЅРЅС‹Р№ РЅР° Р±Р»РѕРєРµ РґРІРёРіР°С‚РµР»СЏ. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РјРѕР¶РµС‚ СЃРѕСЃС‚РѕСЏС‚СЊ РёР· РіСЂСѓРїРї СЂР°Р·РґРµР»СЊРЅС‹С… С†РёС„СЂ, РёР· РєРѕС‚РѕСЂС‹С… РїРѕСЃР»РµРґРЅСЏСЏ РіСЂСѓРїРїР°, СЃРѕСЃС‚РѕСЏС‰Р°СЏ РёР· РґРІСѓС… С†РёС„СЂ, СѓРєР°Р·С‹РІР°РµС‚ РіРѕРґ РІС‹РїСѓСЃРєР° РґРІРёРіР°С‚РµР»СЏ
+     * Set the 'EngineID' element value. Присвоенный организацией - изготовителем идентификационный номер двигателя, нанесенный на блоке двигателя. Идентификационный номер может состоять из групп раздельных цифр, из которых последняя группа, состоящая из двух цифр, указывает год выпуска двигателя
      * 
      * @param engineID
      */
@@ -162,7 +162,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Get the 'ChassisID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С€Р°СЃСЃРё (СЂР°РјС‹), РїСЂРёСЃРІРѕРµРЅРЅС‹Рµ Рё РЅР°РЅРµСЃРµРЅРЅС‹Рµ РЅР° РЅРёС… РѕСЂРіР°РЅРёР·Р°С†РёРµР№-РёР·РіРѕС‚РѕРІРёС‚РµР»РµРј
+     * Get the 'ChassisID' element value. Идентификационный номер шасси (рамы), присвоенные и нанесенные на них организацией-изготовителем
      * 
      * @return value
      */
@@ -171,7 +171,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Set the 'ChassisID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С€Р°СЃСЃРё (СЂР°РјС‹), РїСЂРёСЃРІРѕРµРЅРЅС‹Рµ Рё РЅР°РЅРµСЃРµРЅРЅС‹Рµ РЅР° РЅРёС… РѕСЂРіР°РЅРёР·Р°С†РёРµР№-РёР·РіРѕС‚РѕРІРёС‚РµР»РµРј
+     * Set the 'ChassisID' element value. Идентификационный номер шасси (рамы), присвоенные и нанесенные на них организацией-изготовителем
      * 
      * @param chassisID
      */
@@ -180,7 +180,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Get the 'CabID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РєР°Р±РёРЅС‹
+     * Get the 'CabID' element value. Идентификационный номер кабины
      * 
      * @return value
      */
@@ -189,7 +189,7 @@ public class AutomobileBaseType
     }
 
     /** 
-     * Set the 'CabID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РєР°Р±РёРЅС‹
+     * Set the 'CabID' element value. Идентификационный номер кабины
      * 
      * @param cabID
      */

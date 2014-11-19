@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.atdclosecontrol;
 
 /** 
- * РџСЂРѕРІРµСЂРµРЅРЅС‹Р№ СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+ * Проверенный электронный таможенный документ
  */
 public class DocumentType
 {
@@ -11,7 +11,7 @@ public class DocumentType
     private String EDRef;
 
     /** 
-     * Get the 'Kind' element value. РЎРїРѕСЃРѕР± СѓРєР°Р·Р°РЅРёСЏ РїСЂРѕРІРµСЂСЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'Kind' element value. Способ указания проверяемого документа
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'Kind' element value. РЎРїРѕСЃРѕР± СѓРєР°Р·Р°РЅРёСЏ РїСЂРѕРІРµСЂСЏРµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'Kind' element value. Способ указания проверяемого документа
      * 
      * @param kind
      */
@@ -29,7 +29,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'EDCode' element value. РљРѕРґ С‚РёРїР° СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (2 -РђРўР”)
+     * Get the 'EDCode' element value. Код типа электронного таможенного документа (2 -АТД)
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'EDCode' element value. РљРѕРґ С‚РёРїР° СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (2 -РђРўР”)
+     * Set the 'EDCode' element value. Код типа электронного таможенного документа (2 -АТД)
      * 
      * @param EDCode
      */
@@ -47,7 +47,7 @@ public class DocumentType
     }
 
     /** 
-     * Get the 'EDRef' element value. РЎСЃС‹Р»РєР° РЅР° РґРѕРєСѓРјРµРЅС‚: GUID | РІР°Р»РѕРІС‹Р№ РЅРѕРјРµСЂ | С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'EDRef' element value. Ссылка на документ: GUID | валовый номер | таможенный номер
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'EDRef' element value. РЎСЃС‹Р»РєР° РЅР° РґРѕРєСѓРјРµРЅС‚: GUID | РІР°Р»РѕРІС‹Р№ РЅРѕРјРµСЂ | С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'EDRef' element value. Ссылка на документ: GUID | валовый номер | таможенный номер
      * 
      * @param EDRef
      */

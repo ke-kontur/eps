@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.realestateresponse;
 
 /** 
- * РђРґСЂРµСЃРЅС‹Р№ СЌР»РµРјРµРЅС‚
+ * Адресный элемент
  */
 public class AddressElementType
 {
@@ -10,7 +10,7 @@ public class AddressElementType
     private String name;
 
     /** 
-     * Get the 'Type' element value. РўРёРї Р°РґСЂРµСЃРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р°
+     * Get the 'Type' element value. Тип адресного элемента
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AddressElementType
     }
 
     /** 
-     * Set the 'Type' element value. РўРёРї Р°РґСЂРµСЃРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р°
+     * Set the 'Type' element value. Тип адресного элемента
      * 
      * @param type
      */
@@ -28,7 +28,7 @@ public class AddressElementType
     }
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р°РґСЂРµСЃРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р°
+     * Get the 'Name' element value. Наименование адресного элемента
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AddressElementType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р°РґСЂРµСЃРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р°
+     * Set the 'Name' element value. Наименование адресного элемента
      * 
      * @param name
      */

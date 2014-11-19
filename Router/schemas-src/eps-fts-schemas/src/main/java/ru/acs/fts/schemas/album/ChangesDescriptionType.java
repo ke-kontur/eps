@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РІРЅРѕСЃРёРјС‹С… РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№)
+ * Описание вносимых изменений (дополнений)
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -25,7 +25,7 @@ public class ChangesDescriptionType
     private List<String> correctDataList = new ArrayList<String>();
 
     /** 
-     * Get the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹)
+     * Get the 'GRNumber' element value. Обозначение графы (подраздела графы)
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Set the 'GRNumber' element value. РћР±РѕР·РЅР°С‡РµРЅРёРµ РіСЂР°С„С‹ (РїРѕРґСЂР°Р·РґРµР»Р° РіСЂР°С„С‹)
+     * Set the 'GRNumber' element value. Обозначение графы (подраздела графы)
      * 
      * @param GRNumber
      */
@@ -43,7 +43,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Get the list of 'PreviousData' element items. Р Р°РЅРµРµ СѓРєР°Р·Р°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Get the list of 'PreviousData' element items. Ранее указанные сведения
      * 
      * @return list
      */
@@ -52,7 +52,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Set the list of 'PreviousData' element items. Р Р°РЅРµРµ СѓРєР°Р·Р°РЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Set the list of 'PreviousData' element items. Ранее указанные сведения
      * 
      * @param list
      */
@@ -61,7 +61,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Get the list of 'CorrectData' element items. РР·РјРµРЅРµРЅРЅС‹Рµ Рё (РёР»Рё) РґРѕРїРѕР»РЅРµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Get the list of 'CorrectData' element items. Измененные и (или) дополненные сведения
      * 
      * @return list
      */
@@ -70,7 +70,7 @@ public class ChangesDescriptionType
     }
 
     /** 
-     * Set the list of 'CorrectData' element items. РР·РјРµРЅРµРЅРЅС‹Рµ Рё (РёР»Рё) РґРѕРїРѕР»РЅРµРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ
+     * Set the list of 'CorrectData' element items. Измененные и (или) дополненные сведения
      * 
      * @param list
      */

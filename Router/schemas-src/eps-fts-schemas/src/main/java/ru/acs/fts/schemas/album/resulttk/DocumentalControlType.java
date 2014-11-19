@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+ * Сведения из документального контроля
  */
 public class DocumentalControlType
 {
@@ -37,7 +37,7 @@ public class DocumentalControlType
     private TahogDataType tahogData;
 
     /** 
-     * Get the 'AccountCode' element value. РќРѕРјРµСЂ СѓС‡РµС‚РЅРѕРіРѕ С‚Р°Р»РѕРЅР°
+     * Get the 'AccountCode' element value. Номер учетного талона
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'AccountCode' element value. РќРѕРјРµСЂ СѓС‡РµС‚РЅРѕРіРѕ С‚Р°Р»РѕРЅР°
+     * Set the 'AccountCode' element value. Номер учетного талона
      * 
      * @param accountCode
      */
@@ -55,7 +55,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'StartDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'StartDateTime' element value. Дата/время начала документального контроля
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'StartDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'StartDateTime' element value. Дата/время начала документального контроля
      * 
      * @param startDateTime
      */
@@ -73,7 +73,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'NumberUNO' element value. РќРѕРјРµСЂ/РєРѕРґ РѕРїР°СЃРЅРѕРіРѕ РіСЂСѓР·Р° РїРѕ РћРћРќ
+     * Get the 'NumberUNO' element value. Номер/код опасного груза по ООН
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'NumberUNO' element value. РќРѕРјРµСЂ/РєРѕРґ РѕРїР°СЃРЅРѕРіРѕ РіСЂСѓР·Р° РїРѕ РћРћРќ
+     * Set the 'NumberUNO' element value. Номер/код опасного груза по ООН
      * 
      * @param numberUNO
      */
@@ -91,7 +91,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'MassTSFull' element value. РџРѕР»РЅР°СЏ РјР°СЃСЃР° РўРЎ / СЃРѕСЃС‚Р°РІР° РўРЎ, С‚РѕРЅРЅ
+     * Get the 'MassTSFull' element value. Полная масса ТС / состава ТС, тонн
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'MassTSFull' element value. РџРѕР»РЅР°СЏ РјР°СЃСЃР° РўРЎ / СЃРѕСЃС‚Р°РІР° РўРЎ, С‚РѕРЅРЅ
+     * Set the 'MassTSFull' element value. Полная масса ТС / состава ТС, тонн
      * 
      * @param massTSFull
      */
@@ -109,7 +109,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'IsRoadPayment' element value. Р“СЂСѓР·РѕРїРѕРґСЉРµРјРЅРѕСЃС‚СЊ (Р±РѕР»СЊС€Рµ 3.5 С‚РѕРЅРЅ - 1, РјРµРЅСЊС€Рµ 3.5 С‚РѕРЅРЅ - 0)
+     * Get the 'IsRoadPayment' element value. Грузоподъемность (больше 3.5 тонн - 1, меньше 3.5 тонн - 0)
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'IsRoadPayment' element value. Р“СЂСѓР·РѕРїРѕРґСЉРµРјРЅРѕСЃС‚СЊ (Р±РѕР»СЊС€Рµ 3.5 С‚РѕРЅРЅ - 1, РјРµРЅСЊС€Рµ 3.5 С‚РѕРЅРЅ - 0)
+     * Set the 'IsRoadPayment' element value. Грузоподъемность (больше 3.5 тонн - 1, меньше 3.5 тонн - 0)
      * 
      * @param isRoadPayment
      */
@@ -127,7 +127,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'DangerClass' element value. РљР»Р°СЃСЃ РѕРїР°СЃРЅРѕРіРѕ РіСЂСѓР·Р°
+     * Get the 'DangerClass' element value. Класс опасного груза
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'DangerClass' element value. РљР»Р°СЃСЃ РѕРїР°СЃРЅРѕРіРѕ РіСЂСѓР·Р°
+     * Set the 'DangerClass' element value. Класс опасного груза
      * 
      * @param dangerClass
      */
@@ -145,7 +145,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'IsRoadPayed' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕРїР»Р°С‚С‹ РґРѕСЂРѕР¶РЅРѕРіРѕ СЃР±РѕСЂР°
+     * Get the 'IsRoadPayed' element value. Признак наличия оплаты дорожного сбора
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'IsRoadPayed' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕРїР»Р°С‚С‹ РґРѕСЂРѕР¶РЅРѕРіРѕ СЃР±РѕСЂР°
+     * Set the 'IsRoadPayed' element value. Признак наличия оплаты дорожного сбора
      * 
      * @param isRoadPayed
      */
@@ -163,7 +163,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'DocumentalEmployee' element value. РРЅСЃРїРµРєС‚РѕСЂ, РїСЂРѕРІРѕРґРёРІС€РёР№ РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅС‹Р№ РєРѕРЅС‚СЂРѕР»СЊ
+     * Get the 'DocumentalEmployee' element value. Инспектор, проводивший инструментальный контроль
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'DocumentalEmployee' element value. РРЅСЃРїРµРєС‚РѕСЂ, РїСЂРѕРІРѕРґРёРІС€РёР№ РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅС‹Р№ РєРѕРЅС‚СЂРѕР»СЊ
+     * Set the 'DocumentalEmployee' element value. Инспектор, проводивший инструментальный контроль
      * 
      * @param documentalEmployee
      */
@@ -181,7 +181,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'FirstDriver' element value. Р’РѕРґРёС‚РµР»СЊ
+     * Get the 'FirstDriver' element value. Водитель
      * 
      * @return value
      */
@@ -190,7 +190,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'FirstDriver' element value. Р’РѕРґРёС‚РµР»СЊ
+     * Set the 'FirstDriver' element value. Водитель
      * 
      * @param firstDriver
      */
@@ -199,7 +199,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the list of 'Requirement' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё/РІС‹РїРѕР»РЅРµРЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЋ/СѓСЃР»РѕРІРёСЏ
+     * Get the list of 'Requirement' element items. Сведения о соответствии/выполнении требованию/условия
      * 
      * @return list
      */
@@ -208,7 +208,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the list of 'Requirement' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё/РІС‹РїРѕР»РЅРµРЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЋ/СѓСЃР»РѕРІРёСЏ
+     * Set the list of 'Requirement' element items. Сведения о соответствии/выполнении требованию/условия
      * 
      * @param list
      */
@@ -217,7 +217,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Get the 'Carrier' element value. Перевозчик
      * 
      * @return value
      */
@@ -226,7 +226,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Set the 'Carrier' element value. Перевозчик
      * 
      * @param carrier
      */
@@ -235,7 +235,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Consignor' element value. Отправитель
      * 
      * @return value
      */
@@ -244,7 +244,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Consignor' element value. Отправитель
      * 
      * @param consignor
      */
@@ -253,7 +253,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Consignee' element value. Получатель
      * 
      * @return value
      */
@@ -262,7 +262,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Consignee' element value. Получатель
      * 
      * @param consignee
      */
@@ -271,7 +271,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'PassTG' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РўР“
+     * Get the 'PassTG' element value. Наличие разрешения на перевозку ТГ
      * 
      * @return value
      */
@@ -280,7 +280,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'PassTG' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РўР“
+     * Set the 'PassTG' element value. Наличие разрешения на перевозку ТГ
      * 
      * @param passTG
      */
@@ -289,7 +289,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'PassKG' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РљР“
+     * Get the 'PassKG' element value. Наличие разрешения на перевозку КГ
      * 
      * @return value
      */
@@ -298,7 +298,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'PassKG' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РљР“
+     * Set the 'PassKG' element value. Наличие разрешения на перевозку КГ
      * 
      * @param passKG
      */
@@ -307,7 +307,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'PassOG' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РћР“
+     * Get the 'PassOG' element value. Наличие разрешения на перевозку ОГ
      * 
      * @return value
      */
@@ -316,7 +316,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'PassOG' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РћР“
+     * Set the 'PassOG' element value. Наличие разрешения на перевозку ОГ
      * 
      * @param passOG
      */
@@ -325,7 +325,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'PassSPS' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РЎРџРЎ
+     * Get the 'PassSPS' element value. Наличие разрешения на перевозку СПС
      * 
      * @return value
      */
@@ -334,7 +334,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'PassSPS' element value. РќР°Р»РёС‡РёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРµСЂРµРІРѕР·РєСѓ РЎРџРЎ
+     * Set the 'PassSPS' element value. Наличие разрешения на перевозку СПС
      * 
      * @param passSPS
      */
@@ -343,7 +343,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'PassCard' element value. РљР°СЂС‚РѕС‡РєР° РґРѕРїСѓСЃРєР°
+     * Get the 'PassCard' element value. Карточка допуска
      * 
      * @return value
      */
@@ -352,7 +352,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'PassCard' element value. РљР°СЂС‚РѕС‡РєР° РґРѕРїСѓСЃРєР°
+     * Set the 'PassCard' element value. Карточка допуска
      * 
      * @param passCard
      */
@@ -361,7 +361,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'LicenceCard' element value. Р›РёС†РµРЅР·РёРѕРЅРЅР°СЏ РєР°СЂС‚РѕС‡РєР°
+     * Get the 'LicenceCard' element value. Лицензионная карточка
      * 
      * @return value
      */
@@ -370,7 +370,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'LicenceCard' element value. Р›РёС†РµРЅР·РёРѕРЅРЅР°СЏ РєР°СЂС‚РѕС‡РєР°
+     * Set the 'LicenceCard' element value. Лицензионная карточка
      * 
      * @param licenceCard
      */
@@ -379,7 +379,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'TransitPermit' element value. РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРѕРµР·РґРєСѓ
+     * Get the 'TransitPermit' element value. Использование разрешения на поездку
      * 
      * @return value
      */
@@ -388,7 +388,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'TransitPermit' element value. РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РїРѕРµР·РґРєСѓ
+     * Set the 'TransitPermit' element value. Использование разрешения на поездку
      * 
      * @param transitPermit
      */
@@ -397,7 +397,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'DispatchLocation' element value. РњРµСЃС‚Рѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DispatchLocation' element value. Место отправления
      * 
      * @return value
      */
@@ -406,7 +406,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'DispatchLocation' element value. РњРµСЃС‚Рѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DispatchLocation' element value. Место отправления
      * 
      * @param dispatchLocation
      */
@@ -415,7 +415,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'DestinationLocation' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationLocation' element value. Место назначения
      * 
      * @return value
      */
@@ -424,7 +424,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'DestinationLocation' element value. РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationLocation' element value. Место назначения
      * 
      * @param destinationLocation
      */
@@ -433,7 +433,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Get the 'TahogData' element value. Р”Р°РЅРЅС‹Рµ С†РёС„СЂРѕРІРѕРіРѕ С‚Р°С…РѕРіСЂР°С„Р°
+     * Get the 'TahogData' element value. Данные цифрового тахографа
      * 
      * @return value
      */
@@ -442,7 +442,7 @@ public class DocumentalControlType
     }
 
     /** 
-     * Set the 'TahogData' element value. Р”Р°РЅРЅС‹Рµ С†РёС„СЂРѕРІРѕРіРѕ С‚Р°С…РѕРіСЂР°С„Р°
+     * Set the 'TahogData' element value. Данные цифрового тахографа
      * 
      * @param tahogData
      */

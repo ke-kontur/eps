@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂРµ СЂРµРєРІРёР·РёС‚Р° РґРѕРєСѓРјРµРЅС‚Р°.
+ * Информация об идентификаторе реквизита документа.
  */
 public class AUDDocumentAttributeIdInfoType
 {
     private String attributeId;
 
     /** 
-     * Get the 'AttributeId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂРµРєРІРёР·РёС‚Р°.
+     * Get the 'AttributeId' element value. Идентификатор реквизита.
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class AUDDocumentAttributeIdInfoType
     }
 
     /** 
-     * Set the 'AttributeId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂРµРєРІРёР·РёС‚Р°.
+     * Set the 'AttributeId' element value. Идентификатор реквизита.
      * 
      * @param attributeId
      */

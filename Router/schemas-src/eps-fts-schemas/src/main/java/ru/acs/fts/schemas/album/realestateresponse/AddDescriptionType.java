@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.realestateresponse;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє
+ * Описание характеристик
  */
 public class AddDescriptionType
 {
@@ -10,7 +10,7 @@ public class AddDescriptionType
     private String textDescription;
 
     /** 
-     * Get the 'Code' element value. РљРѕРґ
+     * Get the 'Code' element value. Код
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AddDescriptionType
     }
 
     /** 
-     * Set the 'Code' element value. РљРѕРґ
+     * Set the 'Code' element value. Код
      * 
      * @param code
      */
@@ -28,7 +28,7 @@ public class AddDescriptionType
     }
 
     /** 
-     * Get the 'TextDescription' element value. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ (Р’РёРґ)
+     * Get the 'TextDescription' element value. Текстовое описание (Вид)
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AddDescriptionType
     }
 
     /** 
-     * Set the 'TextDescription' element value. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ (Р’РёРґ)
+     * Set the 'TextDescription' element value. Текстовое описание (Вид)
      * 
      * @param textDescription
      */

@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHCustomInspec
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WarehouseCertificateType;
 
 /** 
- * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+ * Подтверждение о регистрации представленных документов
  */
 public class ConfirmWHDocRegType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RegDate' element value. Дата регистрации документа
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RegDate' element value. Дата регистрации документа
      * 
      * @param regDate
      */
@@ -46,7 +46,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegTime' element value. Р’СЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RegTime' element value. Время регистрации документа
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegTime' element value. Р’СЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RegTime' element value. Время регистрации документа
      * 
      * @param regTime
      */
@@ -64,7 +64,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'PresentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'PresentDate' element value. Дата представления документа
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'PresentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'PresentDate' element value. Дата представления документа
      * 
      * @param presentDate
      */
@@ -82,7 +82,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'PresentTime' element value. Р’СЂРµРјСЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'PresentTime' element value. Время представления документа
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'PresentTime' element value. Р’СЂРµРјСЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'PresentTime' element value. Время представления документа
      * 
      * @param presentTime
      */
@@ -100,7 +100,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'Deadline' element value. РЎСЂРѕРє РїРѕРґР°С‡Рё Р”Рћ
+     * Get the 'Deadline' element value. Срок подачи ДО
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'Deadline' element value. РЎСЂРѕРє РїРѕРґР°С‡Рё Р”Рћ
+     * Set the 'Deadline' element value. Срок подачи ДО
      * 
      * @param deadline
      */
@@ -118,7 +118,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'MeasuresEnsure' element value. РњРµСЂР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Get the 'MeasuresEnsure' element value. Мера обеспечения
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'MeasuresEnsure' element value. РњРµСЂР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Set the 'MeasuresEnsure' element value. Мера обеспечения
      * 
      * @param measuresEnsure
      */
@@ -136,7 +136,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -154,7 +154,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, РїСЂРµРґСЃС‚Р°РІРёРІС€Р°СЏ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the 'Organization' element value. Сведения об организации, представившая документы
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, РїСЂРµРґСЃС‚Р°РІРёРІС€Р°СЏ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the 'Organization' element value. Сведения об организации, представившая документы
      * 
      * @param organization
      */
@@ -172,7 +172,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -190,7 +190,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberDoc' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RegNumberDoc' element value. Регистрационный номер документа
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDoc' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RegNumberDoc' element value. Регистрационный номер документа
      * 
      * @param regNumberDoc
      */
@@ -208,7 +208,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'WarehouseLicense' element value. Р Р°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚ (СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ, СЂР°Р·СЂРµС€РµРЅРёРµ) СЃРєР»Р°РґР°, РЅР° РєРѕС‚РѕСЂС‹Р№ РїРѕРјРµС‰Р°СЋС‚СЃСЏ С‚РѕРІР°СЂС‹
+     * Get the 'WarehouseLicense' element value. Разрешительный документ (свидетельство, разрешение) склада, на который помещаются товары
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'WarehouseLicense' element value. Р Р°Р·СЂРµС€РёС‚РµР»СЊРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚ (СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ, СЂР°Р·СЂРµС€РµРЅРёРµ) СЃРєР»Р°РґР°, РЅР° РєРѕС‚РѕСЂС‹Р№ РїРѕРјРµС‰Р°СЋС‚СЃСЏ С‚РѕРІР°СЂС‹
+     * Set the 'WarehouseLicense' element value. Разрешительный документ (свидетельство, разрешение) склада, на который помещаются товары
      * 
      * @param warehouseLicense
      */
@@ -226,7 +226,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class ConfirmWHDocRegType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

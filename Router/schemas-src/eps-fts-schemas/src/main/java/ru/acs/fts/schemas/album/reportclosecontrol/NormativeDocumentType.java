@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.reportclosecontrol;
 import org.joda.time.LocalDate;
 
 /** 
- * РќРѕСЂРјР°С‚РёРІРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+ * Нормативный документ
  */
 public class NormativeDocumentType
 {
@@ -14,7 +14,7 @@ public class NormativeDocumentType
     private String documentNumber;
 
     /** 
-     * Get the 'DocumentType' element value. РЎСЃС‹Р»РєР° РЅР° С‚РёРї РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentType' element value. Ссылка на тип нормативного документа
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class NormativeDocumentType
     }
 
     /** 
-     * Set the 'DocumentType' element value. РЎСЃС‹Р»РєР° РЅР° С‚РёРї РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentType' element value. Ссылка на тип нормативного документа
      * 
      * @param documentType
      */
@@ -32,7 +32,7 @@ public class NormativeDocumentType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РћСЂРіР°РЅ, РїСЂРёРЅСЏРІС€РёР№ РЅРѕСЂРјР°С‚РёРІРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'OrganizationName' element value. Орган, принявший нормативный документ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class NormativeDocumentType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РћСЂРіР°РЅ, РїСЂРёРЅСЏРІС€РёР№ РЅРѕСЂРјР°С‚РёРІРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'OrganizationName' element value. Орган, принявший нормативный документ
      * 
      * @param organizationName
      */
@@ -50,7 +50,7 @@ public class NormativeDocumentType
     }
 
     /** 
-     * Get the 'DocumentDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentDate' element value. Дата принятия нормативного документа
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class NormativeDocumentType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentDate' element value. Дата принятия нормативного документа
      * 
      * @param documentDate
      */
@@ -68,7 +68,7 @@ public class NormativeDocumentType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер нормативного документа
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class NormativeDocumentType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер нормативного документа
      * 
      * @param documentNumber
      */

@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РѕСЂРіР°РЅРёР·Р°С†РёРё-РїРµСЂРµРІРѕР·С‡РёРєР°
+ * Комплексный тип для описания организации-перевозчика
  */
 public class WHCarrierType extends OrganizationBaseType
 {
@@ -14,7 +14,7 @@ public class WHCarrierType extends OrganizationBaseType
     private PersonBaseType carrierPerson;
 
     /** 
-     * Get the 'CountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїРµСЂРµРІРѕР·С‡РёРєР° (РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ РћРљРЎРњ)
+     * Get the 'CountryCode' element value. Цифровой код страны перевозчика (по справочнику ОКСМ)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class WHCarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїРµСЂРµРІРѕР·С‡РёРєР° (РїРѕ СЃРїСЂР°РІРѕС‡РЅРёРєСѓ РћРљРЎРњ)
+     * Set the 'CountryCode' element value. Цифровой код страны перевозчика (по справочнику ОКСМ)
      * 
      * @param countryCode
      */
@@ -32,7 +32,7 @@ public class WHCarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ Р»РёС†Р°, РїРѕРјРµС‰Р°СЋС‰РµРіРѕ  С‚РѕРІР°СЂС‹ РЅР° Р’РҐ
+     * Get the 'Address' element value. Адрес лица, помещающего  товары на ВХ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class WHCarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ Р»РёС†Р°, РїРѕРјРµС‰Р°СЋС‰РµРіРѕ  С‚РѕРІР°СЂС‹ РЅР° Р’РҐ
+     * Set the 'Address' element value. Адрес лица, помещающего  товары на ВХ
      * 
      * @param address
      */
@@ -50,7 +50,7 @@ public class WHCarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'CarrierPerson' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ РїРµСЂРµРІРѕР·С‡РёРєР°
+     * Get the 'CarrierPerson' element value. Представитель перевозчика
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class WHCarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'CarrierPerson' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ РїРµСЂРµРІРѕР·С‡РёРєР°
+     * Set the 'CarrierPerson' element value. Представитель перевозчика
      * 
      * @param carrierPerson
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РўР°РјРѕР¶РµРЅРЅС‹Рµ РѕС‚РјРµС‚РєРё Рє Р°РєС‚Сѓ РѕР± СѓРЅРёС‡С‚РѕР¶РµРЅРёРё
+ * Таможенные отметки к акту об уничтожении
  */
 public class LiquidationActCustomsMarkType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CustomsMark' element value. РћС‚РјРµС‚РєР° РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°: 0 - СЃРІРµРґРµРЅРёСЏ РЅРµ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‚; 1 - С‚РѕРІР°СЂ СЃРЅСЏС‚ СЃ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'CustomsMark' element value. Отметка должностного лица таможенного органа: 0 - сведения не соответствуют; 1 - товар снят с контроля
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsMark' element value. РћС‚РјРµС‚РєР° РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°: 0 - СЃРІРµРґРµРЅРёСЏ РЅРµ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‚; 1 - С‚РѕРІР°СЂ СЃРЅСЏС‚ СЃ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'CustomsMark' element value. Отметка должностного лица таможенного органа: 0 - сведения не соответствуют; 1 - товар снят с контроля
      * 
      * @param customsMark
      */
@@ -38,7 +38,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'NeededActions' element value. Р”РµР№СЃС‚РІРёРµ, РєРѕС‚РѕСЂРѕРµ РЅРµРѕР±С…РѕРґРёРјРѕ СЃРѕРІРµСЂС€РёС‚СЊ РґР»СЏ СѓСЃС‚СЂР°РЅРµРЅРёСЏ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№
+     * Get the 'NeededActions' element value. Действие, которое необходимо совершить для устранения несоответствий
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'NeededActions' element value. Р”РµР№СЃС‚РІРёРµ, РєРѕС‚РѕСЂРѕРµ РЅРµРѕР±С…РѕРґРёРјРѕ СЃРѕРІРµСЂС€РёС‚СЊ РґР»СЏ СѓСЃС‚СЂР°РЅРµРЅРёСЏ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№
+     * Set the 'NeededActions' element value. Действие, которое необходимо совершить для устранения несоответствий
      * 
      * @param neededActions
      */
@@ -56,7 +56,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'ActPresentDate' element value. РЎСЂРѕРє РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ Р°РєС‚Р° РѕР± СѓРЅРёС‡С‚РѕР¶РµРЅРёРё
+     * Get the 'ActPresentDate' element value. Срок представления акта об уничтожении
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'ActPresentDate' element value. РЎСЂРѕРє РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ Р°РєС‚Р° РѕР± СѓРЅРёС‡С‚РѕР¶РµРЅРёРё
+     * Set the 'ActPresentDate' element value. Срок представления акта об уничтожении
      * 
      * @param actPresentDate
      */
@@ -74,7 +74,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'ActRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°РєС‚Р° РѕР± СѓРЅРёС‡С‚РѕР¶РµРЅРёРё
+     * Get the 'ActRegNumber' element value. Регистрационный номер акта об уничтожении
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'ActRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°РєС‚Р° РѕР± СѓРЅРёС‡С‚РѕР¶РµРЅРёРё
+     * Set the 'ActRegNumber' element value. Регистрационный номер акта об уничтожении
      * 
      * @param actRegNumber
      */
@@ -92,7 +92,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Подпись уполномоченного лица таможенного органа
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Подпись уполномоченного лица таможенного органа
      * 
      * @param customsPerson
      */
@@ -110,7 +110,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -128,7 +128,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class LiquidationActCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

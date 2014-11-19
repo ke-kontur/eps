@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WareHouseRepor
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WarehouseOwnerType;
 
 /** 
- * РљРѕРјРјРµСЂС‡РµСЃРєРёР№ Р°РєС‚ - РґРѕРєСѓРјРµРЅС‚, СЃРѕСЃС‚Р°РІР»РµРЅРЅС‹Р№ РІР»Р°РґРµР»СЊС†РµРј РЎР’РҐ РІ СЃРІСЏР·Рё СЃ РІС‹СЏРІР»РµРЅРёРµРј РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёР№ С‚РѕРІР°СЂРѕРІ, РЅР°С…РѕРґСЏС‰РёС…СЃСЏ РЅР° РІСЂРµРјРµРЅРЅРѕРј С…СЂР°РЅРµРЅРёРё, СЃРІРµРґРµРЅРёСЏРј РёР· С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+ * Коммерческий акт - документ, составленный владельцем СВХ в связи с выявлением несоответствий товаров, находящихся на временном хранении, сведениям из товаросопроводительных документов
  */
 public class CommercialActType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class CommercialActType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DO1ReportLinkData' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚С‡РµС‚Рµ Рѕ РїСЂРёРЅСЏС‚РёРё РїРѕ С„РѕСЂРјРµ Р”Рћ-1, РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ РєРѕС‚РѕСЂРѕРіРѕ СЃРѕСЃС‚Р°РІР»РµРЅ РЅР°СЃС‚РѕСЏС‰РёР№ РђРєС‚
+     * Get the 'DO1ReportLinkData' element value. Сведения об отчете о принятии по форме ДО-1, в отношении товаров которого составлен настоящий Акт
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Set the 'DO1ReportLinkData' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚С‡РµС‚Рµ Рѕ РїСЂРёРЅСЏС‚РёРё РїРѕ С„РѕСЂРјРµ Р”Рћ-1, РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ РєРѕС‚РѕСЂРѕРіРѕ СЃРѕСЃС‚Р°РІР»РµРЅ РЅР°СЃС‚РѕСЏС‰РёР№ РђРєС‚
+     * Set the 'DO1ReportLinkData' element value. Сведения об отчете о принятии по форме ДО-1, в отношении товаров которого составлен настоящий Акт
      * 
      * @param DO1ReportLinkData
      */
@@ -40,7 +40,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Get the 'ActDetails' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РєС‚Рµ
+     * Get the 'ActDetails' element value. Сведения об акте
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Set the 'ActDetails' element value. РЎРІРµРґРµРЅРёСЏ РѕР± Р°РєС‚Рµ
+     * Set the 'ActDetails' element value. Сведения об акте
      * 
      * @param actDetails
      */
@@ -58,7 +58,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Get the 'WarehouseOwner' element value. Р”Р°РЅРЅС‹Рµ Рѕ РІР»Р°РґРµР»СЊС†Рµ СЃРєР»Р°РґР°
+     * Get the 'WarehouseOwner' element value. Данные о владельце склада
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Set the 'WarehouseOwner' element value. Р”Р°РЅРЅС‹Рµ Рѕ РІР»Р°РґРµР»СЊС†Рµ СЃРєР»Р°РґР°
+     * Set the 'WarehouseOwner' element value. Данные о владельце склада
      * 
      * @param warehouseOwner
      */
@@ -76,7 +76,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Get the 'DiscrepancyInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІС‹СЏРІР»РµРЅРЅС‹С… РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏС…
+     * Get the 'DiscrepancyInfo' element value. Сведения о выявленных несоответствиях
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Set the 'DiscrepancyInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІС‹СЏРІР»РµРЅРЅС‹С… РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏС…
+     * Set the 'DiscrepancyInfo' element value. Сведения о выявленных несоответствиях
      * 
      * @param discrepancyInfo
      */
@@ -94,7 +94,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Get the 'WareHousePerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЃРѕС‚СЂСѓРґРЅРёРє, РїРѕРґРїРёСЃР°РІС€РёР№ РЅР°СЃС‚РѕСЏС‰РёР№ Р°РєС‚ РѕС‚ СЃРєР»Р°РґР°
+     * Get the 'WareHousePerson' element value. Уполномоченный сотрудник, подписавший настоящий акт от склада
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Set the 'WareHousePerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЃРѕС‚СЂСѓРґРЅРёРє, РїРѕРґРїРёСЃР°РІС€РёР№ РЅР°СЃС‚РѕСЏС‰РёР№ Р°РєС‚ РѕС‚ СЃРєР»Р°РґР°
+     * Set the 'WareHousePerson' element value. Уполномоченный сотрудник, подписавший настоящий акт от склада
      * 
      * @param wareHousePerson
      */
@@ -112,7 +112,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Get the 'CarrierPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЃРѕС‚СЂСѓРґРЅРёРє, РїРѕРґРїРёСЃР°РІС€РёР№ РЅР°СЃС‚РѕСЏС‰РёР№ Р°РєС‚ РѕС‚ РїРµСЂРµРІРѕР·С‡РёРєР°
+     * Get the 'CarrierPerson' element value. Уполномоченный сотрудник, подписавший настоящий акт от перевозчика
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Set the 'CarrierPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЃРѕС‚СЂСѓРґРЅРёРє, РїРѕРґРїРёСЃР°РІС€РёР№ РЅР°СЃС‚РѕСЏС‰РёР№ Р°РєС‚ РѕС‚ РїРµСЂРµРІРѕР·С‡РёРєР°
+     * Set the 'CarrierPerson' element value. Уполномоченный сотрудник, подписавший настоящий акт от перевозчика
      * 
      * @param carrierPerson
      */
@@ -130,7 +130,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Get the 'RecipientPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЃРѕС‚СЂСѓРґРЅРёРє, РїРѕРґРїРёСЃР°РІС€РёР№ РЅР°СЃС‚РѕСЏС‰РёР№ Р°РєС‚ РѕС‚ РїРѕР»СѓС‡Р°С‚РµР»СЏ
+     * Get the 'RecipientPerson' element value. Уполномоченный сотрудник, подписавший настоящий акт от получателя
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Set the 'RecipientPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЃРѕС‚СЂСѓРґРЅРёРє, РїРѕРґРїРёСЃР°РІС€РёР№ РЅР°СЃС‚РѕСЏС‰РёР№ Р°РєС‚ РѕС‚ РїРѕР»СѓС‡Р°С‚РµР»СЏ
+     * Set the 'RecipientPerson' element value. Уполномоченный сотрудник, подписавший настоящий акт от получателя
      * 
      * @param recipientPerson
      */
@@ -148,7 +148,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class CommercialActType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

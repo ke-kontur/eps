@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р±Р°РЅРєРѕРІСЃРєРёС… СЃС‡РµС‚Р°С…
+ * Информация о банковских счетах
  */
 public class BankInformationType
 {
@@ -21,7 +21,7 @@ public class BankInformationType
     private List<String> specialTransitCurrencyAccountList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'BankAccount' element items. РќРѕРјРµСЂ Р±Р°РЅРєРѕРІСЃРєРѕРіРѕ СЃС‡РµС‚Р°
+     * Get the list of 'BankAccount' element items. Номер банковского счета
      * 
      * @return list
      */
@@ -30,7 +30,7 @@ public class BankInformationType
     }
 
     /** 
-     * Set the list of 'BankAccount' element items. РќРѕРјРµСЂ Р±Р°РЅРєРѕРІСЃРєРѕРіРѕ СЃС‡РµС‚Р°
+     * Set the list of 'BankAccount' element items. Номер банковского счета
      * 
      * @param list
      */
@@ -39,7 +39,7 @@ public class BankInformationType
     }
 
     /** 
-     * Get the list of 'BankAccountDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РёРїР° СЃС‡РµС‚Р°: СЂР°СЃС‡РµС‚РЅС‹Р№, РІР°Р»СЋС‚РЅС‹Р№
+     * Get the list of 'BankAccountDescription' element items. Описание типа счета: расчетный, валютный
      * 
      * @return list
      */
@@ -48,7 +48,7 @@ public class BankInformationType
     }
 
     /** 
-     * Set the list of 'BankAccountDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РёРїР° СЃС‡РµС‚Р°: СЂР°СЃС‡РµС‚РЅС‹Р№, РІР°Р»СЋС‚РЅС‹Р№
+     * Set the list of 'BankAccountDescription' element items. Описание типа счета: расчетный, валютный
      * 
      * @param list
      */
@@ -57,7 +57,7 @@ public class BankInformationType
     }
 
     /** 
-     * Get the 'BankName' element value. РќР°Р·РІР°РЅРёРµ Р±Р°РЅРєР°
+     * Get the 'BankName' element value. Название банка
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class BankInformationType
     }
 
     /** 
-     * Set the 'BankName' element value. РќР°Р·РІР°РЅРёРµ Р±Р°РЅРєР°
+     * Set the 'BankName' element value. Название банка
      * 
      * @param bankName
      */
@@ -75,7 +75,7 @@ public class BankInformationType
     }
 
     /** 
-     * Get the 'BankMFO' element value. РњР¤Рћ Р±Р°РЅРєР°
+     * Get the 'BankMFO' element value. МФО банка
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class BankInformationType
     }
 
     /** 
-     * Set the 'BankMFO' element value. РњР¤Рћ Р±Р°РЅРєР°
+     * Set the 'BankMFO' element value. МФО банка
      * 
      * @param bankMFO
      */
@@ -93,7 +93,7 @@ public class BankInformationType
     }
 
     /** 
-     * Get the 'OKPOID' element value. РљРѕРґ Р±Р°РЅРєР° РїРѕ РћРљРџРћ
+     * Get the 'OKPOID' element value. Код банка по ОКПО
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class BankInformationType
     }
 
     /** 
-     * Set the 'OKPOID' element value. РљРѕРґ Р±Р°РЅРєР° РїРѕ РћРљРџРћ
+     * Set the 'OKPOID' element value. Код банка по ОКПО
      * 
      * @param OKPOID
      */
@@ -111,7 +111,7 @@ public class BankInformationType
     }
 
     /** 
-     * Get the 'BICID' element value. Р‘РРљ Р±Р°РЅРєР°
+     * Get the 'BICID' element value. БИК банка
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class BankInformationType
     }
 
     /** 
-     * Set the 'BICID' element value. Р‘РРљ Р±Р°РЅРєР°
+     * Set the 'BICID' element value. БИК банка
      * 
      * @param BICID
      */
@@ -129,7 +129,7 @@ public class BankInformationType
     }
 
     /** 
-     * Get the 'SWIFTID' element value. SWIFT РєРѕРґ Р±Р°РЅРєР°
+     * Get the 'SWIFTID' element value. SWIFT код банка
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class BankInformationType
     }
 
     /** 
-     * Set the 'SWIFTID' element value. SWIFT РєРѕРґ Р±Р°РЅРєР°
+     * Set the 'SWIFTID' element value. SWIFT код банка
      * 
      * @param SWIFTID
      */
@@ -147,7 +147,7 @@ public class BankInformationType
     }
 
     /** 
-     * Get the 'CorrAccount' element value. РќРѕРјРµСЂ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС‚СЃРєРѕРіРѕ СЃС‡РµС‚Р° Р±Р°РЅРєР°
+     * Get the 'CorrAccount' element value. Номер корреспондентского счета банка
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class BankInformationType
     }
 
     /** 
-     * Set the 'CorrAccount' element value. РќРѕРјРµСЂ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС‚СЃРєРѕРіРѕ СЃС‡РµС‚Р° Р±Р°РЅРєР°
+     * Set the 'CorrAccount' element value. Номер корреспондентского счета банка
      * 
      * @param corrAccount
      */
@@ -165,7 +165,7 @@ public class BankInformationType
     }
 
     /** 
-     * Get the list of 'TransitCurrencyAccount' element items. Р’Р°Р»СЋС‚РЅС‹Р№ СЃС‡РµС‚ РѕСЂРіР°РЅРёР·Р°С†РёРё (С‚СЂР°РЅР·РёС‚РЅС‹Р№)
+     * Get the list of 'TransitCurrencyAccount' element items. Валютный счет организации (транзитный)
      * 
      * @return list
      */
@@ -174,7 +174,7 @@ public class BankInformationType
     }
 
     /** 
-     * Set the list of 'TransitCurrencyAccount' element items. Р’Р°Р»СЋС‚РЅС‹Р№ СЃС‡РµС‚ РѕСЂРіР°РЅРёР·Р°С†РёРё (С‚СЂР°РЅР·РёС‚РЅС‹Р№)
+     * Set the list of 'TransitCurrencyAccount' element items. Валютный счет организации (транзитный)
      * 
      * @param list
      */
@@ -183,7 +183,7 @@ public class BankInformationType
     }
 
     /** 
-     * Get the list of 'SpecialTransitCurrencyAccount' element items. Р’Р°Р»СЋС‚РЅС‹Р№ СЃС‡РµС‚ РѕСЂРіР°РЅРёР·Р°С†РёРё (СЃРїРµС†РёР°Р»СЊРЅС‹Р№ С‚СЂР°РЅР·РёС‚РЅС‹Р№)
+     * Get the list of 'SpecialTransitCurrencyAccount' element items. Валютный счет организации (специальный транзитный)
      * 
      * @return list
      */
@@ -192,7 +192,7 @@ public class BankInformationType
     }
 
     /** 
-     * Set the list of 'SpecialTransitCurrencyAccount' element items. Р’Р°Р»СЋС‚РЅС‹Р№ СЃС‡РµС‚ РѕСЂРіР°РЅРёР·Р°С†РёРё (СЃРїРµС†РёР°Р»СЊРЅС‹Р№ С‚СЂР°РЅР·РёС‚РЅС‹Р№)
+     * Set the list of 'SpecialTransitCurrencyAccount' element items. Валютный счет организации (специальный транзитный)
      * 
      * @param list
      */

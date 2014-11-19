@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Р”Р°РЅРЅС‹Рµ РїРѕ СЂР°Р·СЂРµС€РµРЅРёСЋ
+ * Данные по разрешению
  */
 public class PermissionInfoType
 {
@@ -26,7 +26,7 @@ public class PermissionInfoType
     private List<CarrierType> carrierList = new ArrayList<CarrierType>();
 
     /** 
-     * Get the 'MinNumber' element value. РќР°С‡Р°Р»Рѕ РґРёР°РїР°Р·РѕРЅР° РЅРѕРјРµСЂРѕРІ
+     * Get the 'MinNumber' element value. Начало диапазона номеров
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'MinNumber' element value. РќР°С‡Р°Р»Рѕ РґРёР°РїР°Р·РѕРЅР° РЅРѕРјРµСЂРѕРІ
+     * Set the 'MinNumber' element value. Начало диапазона номеров
      * 
      * @param minNumber
      */
@@ -44,7 +44,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the 'MaxNumber' element value. РљРѕРЅРµС† РґРёР°РїР°Р·РѕРЅР° РЅРѕРјРµСЂРѕРІ
+     * Get the 'MaxNumber' element value. Конец диапазона номеров
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'MaxNumber' element value. РљРѕРЅРµС† РґРёР°РїР°Р·РѕРЅР° РЅРѕРјРµСЂРѕРІ
+     * Set the 'MaxNumber' element value. Конец диапазона номеров
      * 
      * @param maxNumber
      */
@@ -62,7 +62,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РЅРѕРјРµСЂРѕРІ РІ РґРёР°РїР°Р·РѕРЅРµ
+     * Get the 'Count' element value. Количество номеров в диапазоне
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'Count' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РЅРѕРјРµСЂРѕРІ РІ РґРёР°РїР°Р·РѕРЅРµ
+     * Set the 'Count' element value. Количество номеров в диапазоне
      * 
      * @param count
      */
@@ -80,7 +80,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the 'Country' element value. РЎС‚СЂР°РЅР°
+     * Get the 'Country' element value. Страна
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'Country' element value. РЎС‚СЂР°РЅР°
+     * Set the 'Country' element value. Страна
      * 
      * @param country
      */
@@ -98,7 +98,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the 'Information' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the 'Information' element value. Примечание
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'Information' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the 'Information' element value. Примечание
      * 
      * @param information
      */
@@ -116,7 +116,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the 'RestrictCondition' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ, РѕСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ РїРѕ СЌРєРѕР»РѕРіРёС‡РµСЃРєРёРј РЅРѕСЂРјР°Рј 
+     * Get the 'RestrictCondition' element value. Ограничения, особые условия по экологическим нормам 
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'RestrictCondition' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ, РѕСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ РїРѕ СЌРєРѕР»РѕРіРёС‡РµСЃРєРёРј РЅРѕСЂРјР°Рј 
+     * Set the 'RestrictCondition' element value. Ограничения, особые условия по экологическим нормам 
      * 
      * @param restrictCondition
      */
@@ -134,7 +134,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the 'ShipmentKind' element value. Р’РёРґ РїРµСЂРµРІРѕР·РєРё: 1 - РґРІСѓСЃС‚РѕСЂРѕРЅРЅРёРµ РїРµСЂРµРІРѕР·РєРё  (РµСЃР»Рё РІРёРґ СЂР°Р·СЂРµС€РµРЅРёСЏ "РјРЅРѕРіРѕСЃС‚РѕСЂРѕРЅРЅРёРµ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ"); 2 - С‚СЂР°РЅР·РёС‚РЅС‹Р№ РїСЂРѕРµР·Рґ (РµСЃР»Рё РІРёРґ СЂР°Р·СЂРµС€РµРЅРёСЏ "РјРЅРѕРіРѕСЃС‚РѕСЂРѕРЅРЅРёРµ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ"); 3 - РїРµСЂРµРІРѕР·РєРё РІ/РёР· С‚СЂРµС‚СЊРёС… СЃС‚СЂР°РЅ (РµСЃР»Рё РІРёРґ СЂР°Р·СЂРµС€РµРЅРёСЏ "РјРЅРѕРіРѕСЃС‚РѕСЂРѕРЅРЅРёРµ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ")
+     * Get the 'ShipmentKind' element value. Вид перевозки: 1 - двусторонние перевозки  (если вид разрешения "многосторонние перевозки грузов"); 2 - транзитный проезд (если вид разрешения "многосторонние перевозки грузов"); 3 - перевозки в/из третьих стран (если вид разрешения "многосторонние перевозки грузов")
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'ShipmentKind' element value. Р’РёРґ РїРµСЂРµРІРѕР·РєРё: 1 - РґРІСѓСЃС‚РѕСЂРѕРЅРЅРёРµ РїРµСЂРµРІРѕР·РєРё  (РµСЃР»Рё РІРёРґ СЂР°Р·СЂРµС€РµРЅРёСЏ "РјРЅРѕРіРѕСЃС‚РѕСЂРѕРЅРЅРёРµ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ"); 2 - С‚СЂР°РЅР·РёС‚РЅС‹Р№ РїСЂРѕРµР·Рґ (РµСЃР»Рё РІРёРґ СЂР°Р·СЂРµС€РµРЅРёСЏ "РјРЅРѕРіРѕСЃС‚РѕСЂРѕРЅРЅРёРµ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ"); 3 - РїРµСЂРµРІРѕР·РєРё РІ/РёР· С‚СЂРµС‚СЊРёС… СЃС‚СЂР°РЅ (РµСЃР»Рё РІРёРґ СЂР°Р·СЂРµС€РµРЅРёСЏ "РјРЅРѕРіРѕСЃС‚РѕСЂРѕРЅРЅРёРµ РїРµСЂРµРІРѕР·РєРё РіСЂСѓР·РѕРІ")
+     * Set the 'ShipmentKind' element value. Вид перевозки: 1 - двусторонние перевозки  (если вид разрешения "многосторонние перевозки грузов"); 2 - транзитный проезд (если вид разрешения "многосторонние перевозки грузов"); 3 - перевозки в/из третьих стран (если вид разрешения "многосторонние перевозки грузов")
      * 
      * @param shipmentKind
      */
@@ -152,7 +152,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the 'CountryRestriction' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ, РѕСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ РїРѕ СЃС‚СЂР°РЅР°Рј, РїРµСЂРµРІРѕР·РєР° РІ/РёР· РєРѕС‚РѕСЂС‹С… РЅРµ СЂР°Р·СЂРµС€РµРЅР° 
+     * Get the 'CountryRestriction' element value. Ограничения, особые условия по странам, перевозка в/из которых не разрешена 
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'CountryRestriction' element value. РћРіСЂР°РЅРёС‡РµРЅРёСЏ, РѕСЃРѕР±С‹Рµ СѓСЃР»РѕРІРёСЏ РїРѕ СЃС‚СЂР°РЅР°Рј, РїРµСЂРµРІРѕР·РєР° РІ/РёР· РєРѕС‚РѕСЂС‹С… РЅРµ СЂР°Р·СЂРµС€РµРЅР° 
+     * Set the 'CountryRestriction' element value. Ограничения, особые условия по странам, перевозка в/из которых не разрешена 
      * 
      * @param countryRestriction
      */
@@ -170,7 +170,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the 'TransitTransportation' element value. РџСЂРёР·РЅР°Рє С‚РѕР»СЊРєРѕ С‚СЂР°РЅР·РёС‚РЅРѕРіРѕ РїСЂРѕРµР·РґР°
+     * Get the 'TransitTransportation' element value. Признак только транзитного проезда
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'TransitTransportation' element value. РџСЂРёР·РЅР°Рє С‚РѕР»СЊРєРѕ С‚СЂР°РЅР·РёС‚РЅРѕРіРѕ РїСЂРѕРµР·РґР°
+     * Set the 'TransitTransportation' element value. Признак только транзитного проезда
      * 
      * @param transitTransportation
      */
@@ -188,7 +188,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the 'IsTransit' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕС‚РјРµС‚РєРё "РўСЂР°РЅР·РёС‚"
+     * Get the 'IsTransit' element value. Признак наличия отметки "Транзит"
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'IsTransit' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕС‚РјРµС‚РєРё "РўСЂР°РЅР·РёС‚"
+     * Set the 'IsTransit' element value. Признак наличия отметки "Транзит"
      * 
      * @param isTransit
      */
@@ -206,7 +206,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the 'TSRoute' element value. РњР°СЂС€СЂСѓС‚ РўРЎ 
+     * Get the 'TSRoute' element value. Маршрут ТС 
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'TSRoute' element value. РњР°СЂС€СЂСѓС‚ РўРЎ 
+     * Set the 'TSRoute' element value. Маршрут ТС 
      * 
      * @param TSRoute
      */
@@ -224,7 +224,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the 'PermitDocument' element value. Р Р°Р·СЂРµС€РµРЅРёРµ
+     * Get the 'PermitDocument' element value. Разрешение
      * 
      * @return value
      */
@@ -233,7 +233,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'PermitDocument' element value. Р Р°Р·СЂРµС€РµРЅРёРµ
+     * Set the 'PermitDocument' element value. Разрешение
      * 
      * @param permitDocument
      */
@@ -242,7 +242,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the 'APP' element value. РђРџРџ, С‡РµСЂРµР· РєРѕС‚РѕСЂС‹Рµ РїСЂРѕС…РѕРґРёС‚ РјР°СЂС€СЂСѓС‚ РўРЎ
+     * Get the 'APP' element value. АПП, через которые проходит маршрут ТС
      * 
      * @return value
      */
@@ -251,7 +251,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the 'APP' element value. РђРџРџ, С‡РµСЂРµР· РєРѕС‚РѕСЂС‹Рµ РїСЂРѕС…РѕРґРёС‚ РјР°СЂС€СЂСѓС‚ РўРЎ
+     * Set the 'APP' element value. АПП, через которые проходит маршрут ТС
      * 
      * @param APP
      */
@@ -260,7 +260,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Get the list of 'Carrier' element items. РџРµСЂРµРІРѕР·С‡РёРє
+     * Get the list of 'Carrier' element items. Перевозчик
      * 
      * @return list
      */
@@ -269,7 +269,7 @@ public class PermissionInfoType
     }
 
     /** 
-     * Set the list of 'Carrier' element items. РџРµСЂРµРІРѕР·С‡РёРє
+     * Set the list of 'Carrier' element items. Перевозчик
      * 
      * @param list
      */

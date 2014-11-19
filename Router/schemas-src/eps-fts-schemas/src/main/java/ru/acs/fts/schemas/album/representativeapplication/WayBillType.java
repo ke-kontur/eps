@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.representativeapplication;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°РєР»Р°РґРЅРѕР№
+ * Сведения о накладной
  */
 public class WayBillType extends DocumentBaseType
 {
     private String wayBillKind;
 
     /** 
-     * Get the 'WayBillKind' element value. РўРёРї: 2 - РѕР±С‰Р°СЏ Р°РІРёР°РЅР°РєР»Р°РґРЅР°СЏ; 3 - С‚СЂР°РЅСЃРїРѕСЂС‚РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ
+     * Get the 'WayBillKind' element value. Тип: 2 - общая авианакладная; 3 - транспортная накладная
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class WayBillType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'WayBillKind' element value. РўРёРї: 2 - РѕР±С‰Р°СЏ Р°РІРёР°РЅР°РєР»Р°РґРЅР°СЏ; 3 - С‚СЂР°РЅСЃРїРѕСЂС‚РЅР°СЏ РЅР°РєР»Р°РґРЅР°СЏ
+     * Set the 'WayBillKind' element value. Тип: 2 - общая авианакладная; 3 - транспортная накладная
      * 
      * @param wayBillKind
      */

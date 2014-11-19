@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.passengermanifest;
 
 /** 
- * РџР°СЃСЃР°Р¶РёСЂРѕРІРјРµСЃС‚РёРјРѕСЃС‚СЊ СЃСѓРґРЅР°
+ * Пассажировместимость судна
  */
 public class PassengerCapacityType
 {
@@ -11,7 +11,7 @@ public class PassengerCapacityType
     private String YClassNumber;
 
     /** 
-     * Get the 'FClassNumber' element value. Р§РёСЃР»Рѕ  РјРµСЃС‚ РґР»СЏ РїР°СЃСЃР°Р¶РёСЂРѕРІ РїРµСЂРІРѕРіРѕ РєР»Р°СЃСЃР°
+     * Get the 'FClassNumber' element value. Число  мест для пассажиров первого класса
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PassengerCapacityType
     }
 
     /** 
-     * Set the 'FClassNumber' element value. Р§РёСЃР»Рѕ  РјРµСЃС‚ РґР»СЏ РїР°СЃСЃР°Р¶РёСЂРѕРІ РїРµСЂРІРѕРіРѕ РєР»Р°СЃСЃР°
+     * Set the 'FClassNumber' element value. Число  мест для пассажиров первого класса
      * 
      * @param FClassNumber
      */
@@ -29,7 +29,7 @@ public class PassengerCapacityType
     }
 
     /** 
-     * Get the 'JClassNumber' element value. Р§РёСЃР»Рѕ  РјРµСЃС‚ РґР»СЏ РїР°СЃСЃР°Р¶РёСЂРѕРІ Р±РёР·РЅРµСЃ-РєР»Р°СЃСЃР°
+     * Get the 'JClassNumber' element value. Число  мест для пассажиров бизнес-класса
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PassengerCapacityType
     }
 
     /** 
-     * Set the 'JClassNumber' element value. Р§РёСЃР»Рѕ  РјРµСЃС‚ РґР»СЏ РїР°СЃСЃР°Р¶РёСЂРѕРІ Р±РёР·РЅРµСЃ-РєР»Р°СЃСЃР°
+     * Set the 'JClassNumber' element value. Число  мест для пассажиров бизнес-класса
      * 
      * @param JClassNumber
      */
@@ -47,7 +47,7 @@ public class PassengerCapacityType
     }
 
     /** 
-     * Get the 'YClassNumber' element value. Р§РёСЃР»Рѕ  РјРµСЃС‚ РґР»СЏ РїР°СЃСЃР°Р¶РёСЂРѕРІ СЌРєРѕРЅРѕРј-РєР»Р°СЃСЃР°
+     * Get the 'YClassNumber' element value. Число  мест для пассажиров эконом-класса
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PassengerCapacityType
     }
 
     /** 
-     * Set the 'YClassNumber' element value. Р§РёСЃР»Рѕ  РјРµСЃС‚ РґР»СЏ РїР°СЃСЃР°Р¶РёСЂРѕРІ СЌРєРѕРЅРѕРј-РєР»Р°СЃСЃР°
+     * Set the 'YClassNumber' element value. Число  мест для пассажиров эконом-класса
      * 
      * @param YClassNumber
      */

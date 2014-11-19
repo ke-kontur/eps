@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.resulttk;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р”Р°РЅРЅС‹Рµ РєР°СЂС‚РѕС‡РєРё РґРѕРїСѓСЃРєР°/Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё
+ * Данные карточки допуска/лицензионной карточки
  */
 public class LicenceCardType
 {
@@ -16,7 +16,7 @@ public class LicenceCardType
     private DocumentBaseType certificate;
 
     /** 
-     * Get the 'PassKind' element value. Р’РёРґ СЃРїРµС†СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'PassKind' element value. Вид спецразрешения
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class LicenceCardType
     }
 
     /** 
-     * Set the 'PassKind' element value. Р’РёРґ СЃРїРµС†СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'PassKind' element value. Вид спецразрешения
      * 
      * @param passKind
      */
@@ -34,7 +34,7 @@ public class LicenceCardType
     }
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ РєР°СЂС‚РѕС‡РєРё РґРѕРїСѓСЃРєР°/Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё
+     * Get the 'Number' element value. Номер карточки допуска/лицензионной карточки
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class LicenceCardType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ РєР°СЂС‚РѕС‡РєРё РґРѕРїСѓСЃРєР°/Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё
+     * Set the 'Number' element value. Номер карточки допуска/лицензионной карточки
      * 
      * @param number
      */
@@ -52,7 +52,7 @@ public class LicenceCardType
     }
 
     /** 
-     * Get the 'ControlStatusName' element value. РЎС‚Р°С‚СѓСЃ РїСЂРѕРІРµСЂРєРё РєР°СЂС‚РѕС‡РєРё РґРѕРїСѓСЃРєР°/Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё (YES - Р”Р°; NO - РќРµС‚; NOTREQUIRED - РќРµ С‚СЂРµР±СѓРµС‚СЃСЏ; NOTVERIFIED - РќРµ РїСЂРѕРІРµСЂСЏР»РѕСЃСЊ)
+     * Get the 'ControlStatusName' element value. Статус проверки карточки допуска/лицензионной карточки (YES - Да; NO - Нет; NOTREQUIRED - Не требуется; NOTVERIFIED - Не проверялось)
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class LicenceCardType
     }
 
     /** 
-     * Set the 'ControlStatusName' element value. РЎС‚Р°С‚СѓСЃ РїСЂРѕРІРµСЂРєРё РєР°СЂС‚РѕС‡РєРё РґРѕРїСѓСЃРєР°/Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё (YES - Р”Р°; NO - РќРµС‚; NOTREQUIRED - РќРµ С‚СЂРµР±СѓРµС‚СЃСЏ; NOTVERIFIED - РќРµ РїСЂРѕРІРµСЂСЏР»РѕСЃСЊ)
+     * Set the 'ControlStatusName' element value. Статус проверки карточки допуска/лицензионной карточки (YES - Да; NO - Нет; NOTREQUIRED - Не требуется; NOTVERIFIED - Не проверялось)
      * 
      * @param controlStatusName
      */
@@ -70,7 +70,7 @@ public class LicenceCardType
     }
 
     /** 
-     * Get the 'Duration' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РєР°СЂС‚РѕС‡РєРё РґРѕРїСѓСЃРєР°/Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё
+     * Get the 'Duration' element value. Срок действия карточки допуска/лицензионной карточки
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class LicenceCardType
     }
 
     /** 
-     * Set the 'Duration' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РєР°СЂС‚РѕС‡РєРё РґРѕРїСѓСЃРєР°/Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё
+     * Set the 'Duration' element value. Срок действия карточки допуска/лицензионной карточки
      * 
      * @param duration
      */
@@ -88,7 +88,7 @@ public class LicenceCardType
     }
 
     /** 
-     * Get the 'LicenceStatusName' element value. РЎС‚Р°С‚СѓСЃ РєР°СЂС‚РѕС‡РєРё РґРѕРїСѓСЃРєР°/Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё (РСЃС‚РµРє СЃСЂРѕРє РґРµР№СЃС‚РІРёСЏ / РџСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРѕ / РђРЅРЅСѓР»РёСЂРѕРІР°РЅРѕ)
+     * Get the 'LicenceStatusName' element value. Статус карточки допуска/лицензионной карточки (Истек срок действия / Приостановлено / Аннулировано)
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class LicenceCardType
     }
 
     /** 
-     * Set the 'LicenceStatusName' element value. РЎС‚Р°С‚СѓСЃ РєР°СЂС‚РѕС‡РєРё РґРѕРїСѓСЃРєР°/Р»РёС†РµРЅР·РёРѕРЅРЅРѕР№ РєР°СЂС‚РѕС‡РєРё (РСЃС‚РµРє СЃСЂРѕРє РґРµР№СЃС‚РІРёСЏ / РџСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРѕ / РђРЅРЅСѓР»РёСЂРѕРІР°РЅРѕ)
+     * Set the 'LicenceStatusName' element value. Статус карточки допуска/лицензионной карточки (Истек срок действия / Приостановлено / Аннулировано)
      * 
      * @param licenceStatusName
      */
@@ -106,7 +106,7 @@ public class LicenceCardType
     }
 
     /** 
-     * Get the 'Certificate' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р° РЅР° РєР°СЂС‚РѕС‡РєСѓ РґРѕРїСѓСЃРєР°/Р»РёС†РµРЅР·РёРѕРЅРЅСѓСЋ РєР°СЂС‚РѕС‡РєРё
+     * Get the 'Certificate' element value. Номер сертификата на карточку допуска/лицензионную карточки
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class LicenceCardType
     }
 
     /** 
-     * Set the 'Certificate' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р° РЅР° РєР°СЂС‚РѕС‡РєСѓ РґРѕРїСѓСЃРєР°/Р»РёС†РµРЅР·РёРѕРЅРЅСѓСЋ РєР°СЂС‚РѕС‡РєРё
+     * Set the 'Certificate' element value. Номер сертификата на карточку допуска/лицензионную карточки
      * 
      * @param certificate
      */

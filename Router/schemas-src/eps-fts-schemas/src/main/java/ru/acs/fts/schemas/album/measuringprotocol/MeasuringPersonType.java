@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.measuringprotocol;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РµРј/РїСЂРѕРІРѕРґРёРІС€РµРј РёР·РјРµСЂРµРЅРёСЏ
+ * Сведения о лице, присутствующем/проводившем измерения
  */
 public class MeasuringPersonType extends PersonSignatureType
 {
     private String personSign;
 
     /** 
-     * Get the 'PersonSign' element value. РџСЂРёР·РЅР°Рє Р»РёС†Р°: 0 - РїСЂРѕРІРѕРґРёРІС€РёР№ РёР·РјРµСЂРµРЅРёСЏ; 1 - РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РёР№ РїСЂРё РїСЂРѕРІРµРґРµРЅРёРё РёР·РјРµСЂРµРЅРёР№
+     * Get the 'PersonSign' element value. Признак лица: 0 - проводивший измерения; 1 - присутствующий при проведении измерений
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class MeasuringPersonType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'PersonSign' element value. РџСЂРёР·РЅР°Рє Р»РёС†Р°: 0 - РїСЂРѕРІРѕРґРёРІС€РёР№ РёР·РјРµСЂРµРЅРёСЏ; 1 - РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РёР№ РїСЂРё РїСЂРѕРІРµРґРµРЅРёРё РёР·РјРµСЂРµРЅРёР№
+     * Set the 'PersonSign' element value. Признак лица: 0 - проводивший измерения; 1 - присутствующий при проведении измерений
      * 
      * @param personSign
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commissioninspection;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+ * Сведения о товаре
  */
 public class InfoGoodsType
 {
@@ -12,7 +12,7 @@ public class InfoGoodsType
     private String grossWeightQuantity;
 
     /** 
-     * Get the 'NameDepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'NameDepartureCountry' element value. Страна отправления
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class InfoGoodsType
     }
 
     /** 
-     * Set the 'NameDepartureCountry' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'NameDepartureCountry' element value. Страна отправления
      * 
      * @param nameDepartureCountry
      */
@@ -30,7 +30,7 @@ public class InfoGoodsType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ 
+     * Get the 'Quantity' element value. Количество мест 
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class InfoGoodsType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ 
+     * Set the 'Quantity' element value. Количество мест 
      * 
      * @param quantity
      */
@@ -48,7 +48,7 @@ public class InfoGoodsType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂРѕРІ, РЅРµС‚С‚Рѕ  (РєРі)
+     * Get the 'NetWeightQuantity' element value. Вес товаров, нетто  (кг)
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class InfoGoodsType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂРѕРІ, РЅРµС‚С‚Рѕ  (РєРі)
+     * Set the 'NetWeightQuantity' element value. Вес товаров, нетто  (кг)
      * 
      * @param netWeightQuantity
      */
@@ -66,7 +66,7 @@ public class InfoGoodsType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂРѕРІ, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Вес товаров, брутто (кг)
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class InfoGoodsType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂРѕРІ, Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Вес товаров, брутто (кг)
      * 
      * @param grossWeightQuantity
      */

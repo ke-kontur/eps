@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРµ, РІС‹РґР°РІС€РµРј СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ, Рё РїРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° СЌС‚РѕРіРѕ РѕСЂРіР°РЅР° 
+ * Сведения об органе, выдавшем свидетельство, и подпись уполномоченного лица этого органа 
  */
 public class RegistratorAuthorityType
 {
@@ -13,7 +13,7 @@ public class RegistratorAuthorityType
     private PersonSignatureType authorisdPersonSignature;
 
     /** 
-     * Get the 'Organisation' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё 
+     * Get the 'Organisation' element value. Реквизиты организации 
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RegistratorAuthorityType
     }
 
     /** 
-     * Set the 'Organisation' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё 
+     * Set the 'Organisation' element value. Реквизиты организации 
      * 
      * @param organisation
      */
@@ -31,7 +31,7 @@ public class RegistratorAuthorityType
     }
 
     /** 
-     * Get the 'AuthorisdPersonSignature' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРµ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ 
+     * Get the 'AuthorisdPersonSignature' element value. Подпись уполномоченного лица органа, выдавшее свидетельство 
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class RegistratorAuthorityType
     }
 
     /** 
-     * Set the 'AuthorisdPersonSignature' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРµ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ 
+     * Set the 'AuthorisdPersonSignature' element value. Подпись уполномоченного лица органа, выдавшее свидетельство 
      * 
      * @param authorisdPersonSignature
      */

@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РѕСЃС‚Р°С‚РєРѕРІ РЅР° РїР»Р°С‚РµР¶РЅС‹С… РїРѕСЂСѓС‡РµРЅРёСЏС… СѓС‡Р°СЃС‚РЅРёРєР° Р’Р­Р”
+ * Запрос остатков на платежных поручениях участника ВЭД
  */
 public class AccBalanceReqType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class AccBalanceReqType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
+     * Get the 'CurrencyCode' element value. Код валюты
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹
+     * Set the 'CurrencyCode' element value. Код валюты
      * 
      * @param currencyCode
      */
@@ -36,7 +36,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ Р·Р°РїСЂРѕСЃ.
+     * Get the 'CustomsCode' element value. Код таможенного органа, осуществляющего запрос.
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРіРѕ Р·Р°РїСЂРѕСЃ.
+     * Set the 'CustomsCode' element value. Код таможенного органа, осуществляющего запрос.
      * 
      * @param customsCode
      */
@@ -54,7 +54,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'INN' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР° 
+     * Get the 'INN' element value. Индивидуальный номер налогоплательщика 
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'INN' element value. РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР° 
+     * Set the 'INN' element value. Индивидуальный номер налогоплательщика 
      * 
      * @param INN
      */
@@ -72,7 +72,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'KPP' element value. РљРџРџ РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Get the 'KPP' element value. КПП плательщика
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'KPP' element value. РљРџРџ РїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Set the 'KPP' element value. КПП плательщика
      * 
      * @param KPP
      */
@@ -90,7 +90,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -108,7 +108,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶РЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ (РµСЃР»Рё Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РѕСЃС‚Р°С‚РѕРє РЅР° РєРѕРЅРєСЂРµС‚РЅРѕР№ РџРџ)
+     * Get the 'PaymentInfo' element value. Сведения о платежном документе (если запрашивается остаток на конкретной ПП)
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶РЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ (РµСЃР»Рё Р·Р°РїСЂР°С€РёРІР°РµС‚СЃСЏ РѕСЃС‚Р°С‚РѕРє РЅР° РєРѕРЅРєСЂРµС‚РЅРѕР№ РџРџ)
+     * Set the 'PaymentInfo' element value. Сведения о платежном документе (если запрашивается остаток на конкретной ПП)
      * 
      * @param paymentInfo
      */
@@ -126,7 +126,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class AccBalanceReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

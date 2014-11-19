@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚С‹ РїСЂРѕРІРµСЂРєРё РїРѕ РўР”
+ * Результаты проверки по ТД
  */
 public class TDCheckResultType
 {
@@ -16,7 +16,7 @@ public class TDCheckResultType
     private CustomsType deliveryPlace;
 
     /** 
-     * Get the 'Result' element value. РџСЂРёР·РЅР°Рє СѓСЃРїРµС€РЅРѕРіРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р° РїСЂРѕРІРµСЂРєРё РїРѕ РўР” (РєРѕСЂСЂРµРєС‚РЅРѕ)
+     * Get the 'Result' element value. Признак успешного результата проверки по ТД (корректно)
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class TDCheckResultType
     }
 
     /** 
-     * Set the 'Result' element value. РџСЂРёР·РЅР°Рє СѓСЃРїРµС€РЅРѕРіРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р° РїСЂРѕРІРµСЂРєРё РїРѕ РўР” (РєРѕСЂСЂРµРєС‚РЅРѕ)
+     * Set the 'Result' element value. Признак успешного результата проверки по ТД (корректно)
      * 
      * @param result
      */
@@ -34,7 +34,7 @@ public class TDCheckResultType
     }
 
     /** 
-     * Get the 'Comment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Get the 'Comment' element value. Комментарии
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class TDCheckResultType
     }
 
     /** 
-     * Set the 'Comment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Set the 'Comment' element value. Комментарии
      * 
      * @param comment
      */
@@ -52,7 +52,7 @@ public class TDCheckResultType
     }
 
     /** 
-     * Get the 'OperatorDeliveryPlace' element value. РњРµСЃС‚Рѕ РґРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ РЈР­Рћ 
+     * Get the 'OperatorDeliveryPlace' element value. Место доставки товаров УЭО 
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class TDCheckResultType
     }
 
     /** 
-     * Set the 'OperatorDeliveryPlace' element value. РњРµСЃС‚Рѕ РґРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ РЈР­Рћ 
+     * Set the 'OperatorDeliveryPlace' element value. Место доставки товаров УЭО 
      * 
      * @param operatorDeliveryPlace
      */
@@ -70,7 +70,7 @@ public class TDCheckResultType
     }
 
     /** 
-     * Get the 'TDNumber' element value. РќРѕРјРµСЂ РўР”
+     * Get the 'TDNumber' element value. Номер ТД
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class TDCheckResultType
     }
 
     /** 
-     * Set the 'TDNumber' element value. РќРѕРјРµСЂ РўР”
+     * Set the 'TDNumber' element value. Номер ТД
      * 
      * @param TDNumber
      */
@@ -88,7 +88,7 @@ public class TDCheckResultType
     }
 
     /** 
-     * Get the 'DeliveryPlace' element value. РњРµСЃС‚Рѕ РґРѕСЃС‚Р°РІРєРё: РїР»Р°РЅРёСЂСѓРµРјС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DeliveryPlace' element value. Место доставки: планируемый таможенный орган назначения
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class TDCheckResultType
     }
 
     /** 
-     * Set the 'DeliveryPlace' element value. РњРµСЃС‚Рѕ РґРѕСЃС‚Р°РІРєРё: РїР»Р°РЅРёСЂСѓРµРјС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DeliveryPlace' element value. Место доставки: планируемый таможенный орган назначения
      * 
      * @param deliveryPlace
      */

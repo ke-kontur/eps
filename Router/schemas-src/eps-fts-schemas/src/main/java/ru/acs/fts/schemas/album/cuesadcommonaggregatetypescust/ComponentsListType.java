@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РџРѕСЃС‚Р°РІРєР° РєРѕРјРїРѕРЅРµРЅС‚Р°РјРё - РЎРїРёСЃРѕРє РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
+ * Поставка компонентами - Список компонентов
  */
 public class ComponentsListType
 {
     private List<MechanismUnitType> mechanismUnitList = new ArrayList<MechanismUnitType>();
 
     /** 
-     * Get the list of 'MechanismUnit' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕРј Р±Р»РѕРєРµ РёР»Рё РєРѕРјРїРѕРЅРµРЅС‚Рµ С‚РѕРІР°СЂР°
+     * Get the list of 'MechanismUnit' element items. Сведения о функциональном блоке или компоненте товара
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class ComponentsListType
     }
 
     /** 
-     * Set the list of 'MechanismUnit' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕРј Р±Р»РѕРєРµ РёР»Рё РєРѕРјРїРѕРЅРµРЅС‚Рµ С‚РѕРІР°СЂР°
+     * Set the list of 'MechanismUnit' element items. Сведения о функциональном блоке или компоненте товара
      * 
      * @param list
      */

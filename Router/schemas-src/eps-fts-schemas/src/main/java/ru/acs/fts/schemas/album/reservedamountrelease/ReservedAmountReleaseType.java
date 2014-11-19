@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРЅРѕР№ СЃСѓРјРјРµ РїРѕ РґРѕРїРѕР»РЅРµРЅРёСЋ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
+ * Информация о зарезервированной сумме по дополнению к договору поручительства
  */
 public class ReservedAmountReleaseType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ReserveDate' element value. Р”Р°С‚Р° СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёСЏ  СЃСѓРјРјС‹
+     * Get the 'ReserveDate' element value. Дата резервирования  суммы
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReserveDate' element value. Р”Р°С‚Р° СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёСЏ  СЃСѓРјРјС‹
+     * Set the 'ReserveDate' element value. Дата резервирования  суммы
      * 
      * @param reserveDate
      */
@@ -36,7 +36,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReserveAmount' element value. РЎСѓРјРјР°, РєРѕС‚РѕСЂР°СЏ Р±С‹Р»Р° Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅР°/ РІС‹СЃРІРѕР±РѕР¶РґРµРЅР°.
+     * Get the 'ReserveAmount' element value. Сумма, которая была зарезервирована/ высвобождена.
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReserveAmount' element value. РЎСѓРјРјР°, РєРѕС‚РѕСЂР°СЏ Р±С‹Р»Р° Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅР°/ РІС‹СЃРІРѕР±РѕР¶РґРµРЅР°.
+     * Set the 'ReserveAmount' element value. Сумма, которая была зарезервирована/ высвобождена.
      * 
      * @param reserveAmount
      */
@@ -54,7 +54,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReleaseReserveDate' element value. Р”Р°С‚Р° РІС‹СЃРІРѕР±РѕР¶РґРµРЅРёСЏ Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРЅРѕР№ СЃСѓРјРјС‹.
+     * Get the 'ReleaseReserveDate' element value. Дата высвобождения зарезервированной суммы.
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReleaseReserveDate' element value. Р”Р°С‚Р° РІС‹СЃРІРѕР±РѕР¶РґРµРЅРёСЏ Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРЅРѕР№ СЃСѓРјРјС‹.
+     * Set the 'ReleaseReserveDate' element value. Дата высвобождения зарезервированной суммы.
      * 
      * @param releaseReserveDate
      */
@@ -72,7 +72,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReleaseReason' element value. РџСЂРёС‡РёРЅР° РІС‹СЃРІРѕР±РѕР¶РґРµРЅРёСЏ Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРЅРѕР№ СЃСѓРјРјС‹.
+     * Get the 'ReleaseReason' element value. Причина высвобождения зарезервированной суммы.
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReleaseReason' element value. РџСЂРёС‡РёРЅР° РІС‹СЃРІРѕР±РѕР¶РґРµРЅРёСЏ Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРЅРѕР№ СЃСѓРјРјС‹.
+     * Set the 'ReleaseReason' element value. Причина высвобождения зарезервированной суммы.
      * 
      * @param releaseReason
      */
@@ -90,7 +90,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Get the 'OperationIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ С‚РёРїР° СЃРѕРІРµСЂС€Р°РµРјРѕР№ РѕРїРµСЂР°С†РёРё: 1 - СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёРµ СЃСѓРјРјС‹, 0 - РІС‹СЃРІРѕР±РѕР¶РґРµРЅРёРµ Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРЅРѕР№ СЃСѓРјРјС‹
+     * Get the 'OperationIndicator' element value. Индикатор типа совершаемой операции: 1 - резервирование суммы, 0 - высвобождение зарезервированной суммы
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Set the 'OperationIndicator' element value. РРЅРґРёРєР°С‚РѕСЂ С‚РёРїР° СЃРѕРІРµСЂС€Р°РµРјРѕР№ РѕРїРµСЂР°С†РёРё: 1 - СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРёРµ СЃСѓРјРјС‹, 0 - РІС‹СЃРІРѕР±РѕР¶РґРµРЅРёРµ Р·Р°СЂРµР·РµСЂРІРёСЂРѕРІР°РЅРЅРѕР№ СЃСѓРјРјС‹
+     * Set the 'OperationIndicator' element value. Индикатор типа совершаемой операции: 1 - резервирование суммы, 0 - высвобождение зарезервированной суммы
      * 
      * @param operationIndicator
      */
@@ -108,7 +108,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Get the 'AdditionalInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРїРѕР»РЅРµРЅРёРё Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
+     * Get the 'AdditionalInfo' element value. Сведения о дополнении к договору поручительства
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРїРѕР»РЅРµРЅРёРё Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°
+     * Set the 'AdditionalInfo' element value. Сведения о дополнении к договору поручительства
      * 
      * @param additionalInfo
      */
@@ -126,7 +126,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class ReservedAmountReleaseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

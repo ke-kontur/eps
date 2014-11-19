@@ -5,14 +5,14 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р Р°Р·СЂРµС€РµРЅРёРµ
+ * Разрешение
  */
 public class PermissionType extends DocumentBaseType
 {
     private LocalDate endDate;
 
     /** 
-     * Get the 'EndDate' element value. Р”РµР№СЃС‚РІРёС‚РµР»СЊРЅРѕ РґРѕ
+     * Get the 'EndDate' element value. Действительно до
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PermissionType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”РµР№СЃС‚РІРёС‚РµР»СЊРЅРѕ РґРѕ
+     * Set the 'EndDate' element value. Действительно до
      * 
      * @param endDate
      */

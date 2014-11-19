@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * РџСЂРёР·РЅР°РєРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚РґРµР»СЊРЅС‹С… РґР°РЅРЅС‹С…, СЃРІСЏР·Р°РЅРЅС‹С… СЃ РґРѕРєСѓРјРµРЅС‚РѕРј.
+ * Признаки необходимости предоставления отдельных данных, связанных с документом.
  */
 public class AUDDocumentDataPresenceInfoType
 {
@@ -10,7 +10,7 @@ public class AUDDocumentDataPresenceInfoType
     private boolean signatureEvidencePresenceIndicator;
 
     /** 
-     * Get the 'BodyPresenceIndicator' element value. РџСЂРёР·РЅР°Рє - С‚СЂРµР±СѓРµС‚СЃСЏ Р»Рё РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ С‚РµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°: 0 (false) - РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ; 1 (true) - С‚СЂРµР±СѓРµС‚СЃСЏ.
+     * Get the 'BodyPresenceIndicator' element value. Признак - требуется ли предоставить тело документа: 0 (false) - не требуется; 1 (true) - требуется.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class AUDDocumentDataPresenceInfoType
     }
 
     /** 
-     * Set the 'BodyPresenceIndicator' element value. РџСЂРёР·РЅР°Рє - С‚СЂРµР±СѓРµС‚СЃСЏ Р»Рё РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ С‚РµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°: 0 (false) - РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ; 1 (true) - С‚СЂРµР±СѓРµС‚СЃСЏ.
+     * Set the 'BodyPresenceIndicator' element value. Признак - требуется ли предоставить тело документа: 0 (false) - не требуется; 1 (true) - требуется.
      * 
      * @param bodyPresenceIndicator
      */
@@ -28,7 +28,7 @@ public class AUDDocumentDataPresenceInfoType
     }
 
     /** 
-     * Get the 'SignatureEvidencePresenceIndicator' element value. РџСЂРёР·РЅР°Рє - С‚СЂРµР±СѓРµС‚СЃСЏ Р»Рё РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РґРѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІР° РїРѕРґР»РёРЅРЅРѕСЃС‚Рё Р­Р¦Рџ РЅР° РґРѕРєСѓРјРµРЅС‚: 0 (false) - РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ; 1 (true) - С‚СЂРµР±СѓРµС‚СЃСЏ.
+     * Get the 'SignatureEvidencePresenceIndicator' element value. Признак - требуется ли предоставить доказательства подлинности ЭЦП на документ: 0 (false) - не требуется; 1 (true) - требуется.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class AUDDocumentDataPresenceInfoType
     }
 
     /** 
-     * Set the 'SignatureEvidencePresenceIndicator' element value. РџСЂРёР·РЅР°Рє - С‚СЂРµР±СѓРµС‚СЃСЏ Р»Рё РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РґРѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІР° РїРѕРґР»РёРЅРЅРѕСЃС‚Рё Р­Р¦Рџ РЅР° РґРѕРєСѓРјРµРЅС‚: 0 (false) - РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ; 1 (true) - С‚СЂРµР±СѓРµС‚СЃСЏ.
+     * Set the 'SignatureEvidencePresenceIndicator' element value. Признак - требуется ли предоставить доказательства подлинности ЭЦП на документ: 0 (false) - не требуется; 1 (true) - требуется.
      * 
      * @param signatureEvidencePresenceIndicator
      */

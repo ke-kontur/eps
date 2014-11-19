@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cardcommonaggregatetypes;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+ * Сведения об организации. Особенности Российской Федерации
  */
 public class RFOrganizationFeaturesType
 {
@@ -10,7 +10,7 @@ public class RFOrganizationFeaturesType
     private String KPP;
 
     /** 
-     * Get the 'INN' element value. РРќРќ - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Get the 'INN' element value. ИНН - Индивидуальный номер налогоплательщика
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class RFOrganizationFeaturesType
     }
 
     /** 
-     * Set the 'INN' element value. РРќРќ - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°
+     * Set the 'INN' element value. ИНН - Индивидуальный номер налогоплательщика
      * 
      * @param INN
      */
@@ -28,7 +28,7 @@ public class RFOrganizationFeaturesType
     }
 
     /** 
-     * Get the 'KPP' element value. РљРџРџ - РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚
+     * Get the 'KPP' element value. КПП - Код причины постановки на учет
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class RFOrganizationFeaturesType
     }
 
     /** 
-     * Set the 'KPP' element value. РљРџРџ - РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚
+     * Set the 'KPP' element value. КПП - Код причины постановки на учет
      * 
      * @param KPP
      */

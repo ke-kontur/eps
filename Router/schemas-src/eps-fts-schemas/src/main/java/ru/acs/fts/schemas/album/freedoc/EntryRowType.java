@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎС‚СЂРѕРєР° РІР»РѕР¶РµРЅРЅРѕР№ С‚Р°Р±Р»РёС†С‹
+ * Строка вложенной таблицы
  */
 public class EntryRowType
 {
     private List<TableCellType> tableCellList = new ArrayList<TableCellType>();
 
     /** 
-     * Get the list of 'TableCell' element items. РЇС‡РµР№РєР° С‚Р°Р±Р»РёС†С‹
+     * Get the list of 'TableCell' element items. Ячейка таблицы
      * 
      * @return list
      */
@@ -21,7 +21,7 @@ public class EntryRowType
     }
 
     /** 
-     * Set the list of 'TableCell' element items. РЇС‡РµР№РєР° С‚Р°Р±Р»РёС†С‹
+     * Set the list of 'TableCell' element items. Ячейка таблицы
      * 
      * @param list
      */

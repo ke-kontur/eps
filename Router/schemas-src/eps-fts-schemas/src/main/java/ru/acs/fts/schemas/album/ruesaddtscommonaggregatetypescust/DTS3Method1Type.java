@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust;
 import ru.acs.fts.schemas.album.cuesaddtscommonaggregatetypescust.Method1CalculationBasisType;
 
 /** 
- * РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 1. Р”РўРЎ3
+ * Подробности расчета таможенной стоимости по методу 1. ДТС3
  */
 public class DTS3Method1Type
 {
@@ -12,7 +12,7 @@ public class DTS3Method1Type
     private DTS3Method1AdditionalSumType DTS3Method1AdditionalSum;
 
     /** 
-     * Get the 'Method1CalculationBasis' element value. РћСЃРЅРѕРІР° СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 1
+     * Get the 'Method1CalculationBasis' element value. Основа расчета таможенной стоимости по методу 1
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DTS3Method1Type
     }
 
     /** 
-     * Set the 'Method1CalculationBasis' element value. РћСЃРЅРѕРІР° СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 1
+     * Set the 'Method1CalculationBasis' element value. Основа расчета таможенной стоимости по методу 1
      * 
      * @param method1CalculationBasis
      */
@@ -31,7 +31,7 @@ public class DTS3Method1Type
     }
 
     /** 
-     * Get the 'DTS3Method1AdditionalSum' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РЅР°С‡РёСЃР»РµРЅРёСЏ. Р“СЂ. Р‘ (13-17)
+     * Get the 'DTS3Method1AdditionalSum' element value. Дополнительные начисления. Гр. Б (13-17)
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DTS3Method1Type
     }
 
     /** 
-     * Set the 'DTS3Method1AdditionalSum' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РЅР°С‡РёСЃР»РµРЅРёСЏ. Р“СЂ. Р‘ (13-17)
+     * Set the 'DTS3Method1AdditionalSum' element value. Дополнительные начисления. Гр. Б (13-17)
      * 
      * @param DTS3Method1AdditionalSum
      */

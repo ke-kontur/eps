@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUTransportMeansType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+ * Сведения о транспортном средстве
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -38,7 +38,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     private String comments;
 
     /** 
-     * Get the 'TransportID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'TransportID' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Set the 'TransportID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'TransportID' element value. Регистрационный номер
      * 
      * @param transportID
      */
@@ -56,7 +56,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Get the 'TransitDirection' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРјРµС‰РµРЅРёСЏ: 1 - РРјРїРѕСЂС‚, 2 - Р­РєСЃРїРѕСЂС‚, 3 - РўСЂР°РЅР·РёС‚ 
+     * Get the 'TransitDirection' element value. Направление пермещения: 1 - Импорт, 2 - Экспорт, 3 - Транзит 
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Set the 'TransitDirection' element value. РќР°РїСЂР°РІР»РµРЅРёРµ РїРµСЂРјРµС‰РµРЅРёСЏ: 1 - РРјРїРѕСЂС‚, 2 - Р­РєСЃРїРѕСЂС‚, 3 - РўСЂР°РЅР·РёС‚ 
+     * Set the 'TransitDirection' element value. Направление пермещения: 1 - Импорт, 2 - Экспорт, 3 - Транзит 
      * 
      * @param transitDirection
      */
@@ -92,7 +92,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Get the 'FirstTrailerNumber' element value. РќРѕРјРµСЂ РїРµСЂРІРѕРіРѕ РїСЂРёС†РµРїР°
+     * Get the 'FirstTrailerNumber' element value. Номер первого прицепа
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Set the 'FirstTrailerNumber' element value. РќРѕРјРµСЂ РїРµСЂРІРѕРіРѕ РїСЂРёС†РµРїР°
+     * Set the 'FirstTrailerNumber' element value. Номер первого прицепа
      * 
      * @param firstTrailerNumber
      */
@@ -110,7 +110,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Get the 'SecondTrailerNumber' element value. РќРѕРјРµСЂ РІС‚РѕСЂРѕРіРѕ РїСЂРёС†РµРїР°
+     * Get the 'SecondTrailerNumber' element value. Номер второго прицепа
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Set the 'SecondTrailerNumber' element value. РќРѕРјРµСЂ РІС‚РѕСЂРѕРіРѕ РїСЂРёС†РµРїР°
+     * Set the 'SecondTrailerNumber' element value. Номер второго прицепа
      * 
      * @param secondTrailerNumber
      */
@@ -128,7 +128,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Get the 'Weight' element value. Р’РµСЃ Р°РІС‚РѕРјРѕР±РёР»СЏ СЃ С‚РѕРІР°СЂРѕРІ, РєРі. 
+     * Get the 'Weight' element value. Вес автомобиля с товаров, кг. 
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Set the 'Weight' element value. Р’РµСЃ Р°РІС‚РѕРјРѕР±РёР»СЏ СЃ С‚РѕРІР°СЂРѕРІ, РєРі. 
+     * Set the 'Weight' element value. Вес автомобиля с товаров, кг. 
      * 
      * @param weight
      */
@@ -146,7 +146,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Get the 'TransportDocuments' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Get the 'TransportDocuments' element value. Сведения о документах
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Set the 'TransportDocuments' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Р°С…
+     * Set the 'TransportDocuments' element value. Сведения о документах
      * 
      * @param transportDocuments
      */
@@ -164,7 +164,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Get the 'Comments' element value. Комментарии
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class IDKTransportMeansType extends CUTransportMeansType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Set the 'Comments' element value. Комментарии
      * 
      * @param comments
      */

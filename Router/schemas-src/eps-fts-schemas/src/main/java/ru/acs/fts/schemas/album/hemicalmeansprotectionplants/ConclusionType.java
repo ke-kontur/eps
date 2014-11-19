@@ -5,14 +5,14 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р—Р°РєР»СЋС‡РµРЅРёРµ
+ * Заключение
  */
 public class ConclusionType extends DocumentBaseType
 {
     private LocalDate conclusionDeadLine;
 
     /** 
-     * Get the 'ConclusionDeadLine' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ Р·Р°РєР»СЋС‡РµРЅРёСЏ
+     * Get the 'ConclusionDeadLine' element value. Срок действия заключения
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ConclusionType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'ConclusionDeadLine' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ Р·Р°РєР»СЋС‡РµРЅРёСЏ
+     * Set the 'ConclusionDeadLine' element value. Срок действия заключения
      * 
      * @param conclusionDeadLine
      */

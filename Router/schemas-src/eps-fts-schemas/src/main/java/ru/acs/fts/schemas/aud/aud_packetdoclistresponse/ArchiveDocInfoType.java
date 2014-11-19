@@ -5,7 +5,7 @@ import java.math.BigInteger;
 import org.joda.time.DateTime;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Р°СЂС…РёРІР°
+ * Информация о документе архива
  */
 public class ArchiveDocInfoType
 {
@@ -16,7 +16,7 @@ public class ArchiveDocInfoType
     private BigInteger docVersion;
 
     /** 
-     * Get the 'ArchiveDocID' element value. РђСЂС…РёРІРЅС‹Р№  РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'ArchiveDocID' element value. Архивный  идентификатор документа
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ArchiveDocInfoType
     }
 
     /** 
-     * Set the 'ArchiveDocID' element value. РђСЂС…РёРІРЅС‹Р№  РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'ArchiveDocID' element value. Архивный  идентификатор документа
      * 
      * @param archiveDocID
      */
@@ -34,7 +34,7 @@ public class ArchiveDocInfoType
     }
 
     /** 
-     * Get the 'AppliedDocID' element value. РџСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'AppliedDocID' element value. Прикладной идентификатор документа
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ArchiveDocInfoType
     }
 
     /** 
-     * Set the 'AppliedDocID' element value. РџСЂРёРєР»Р°РґРЅРѕР№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'AppliedDocID' element value. Прикладной идентификатор документа
      * 
      * @param appliedDocID
      */
@@ -52,7 +52,7 @@ public class ArchiveDocInfoType
     }
 
     /** 
-     * Get the 'DocDescription' element value. РћРїРёСЃР°РЅРѕРµ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocDescription' element value. Описаное документа
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ArchiveDocInfoType
     }
 
     /** 
-     * Set the 'DocDescription' element value. РћРїРёСЃР°РЅРѕРµ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocDescription' element value. Описаное документа
      * 
      * @param docDescription
      */
@@ -70,7 +70,7 @@ public class ArchiveDocInfoType
     }
 
     /** 
-     * Get the 'CreateDateTime' element value. Р”Р°С‚Р° РІСЂРµРјСЏ СЂР°Р·РјРµС‰РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
+     * Get the 'CreateDateTime' element value. Дата время размещения документа в архиве
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ArchiveDocInfoType
     }
 
     /** 
-     * Set the 'CreateDateTime' element value. Р”Р°С‚Р° РІСЂРµРјСЏ СЂР°Р·РјРµС‰РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РІ Р°СЂС…РёРІРµ
+     * Set the 'CreateDateTime' element value. Дата время размещения документа в архиве
      * 
      * @param createDateTime
      */
@@ -88,7 +88,7 @@ public class ArchiveDocInfoType
     }
 
     /** 
-     * Get the 'DocVersion' element value. РќРѕРјРµСЂ РІРµСЂСЃРёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocVersion' element value. Номер версии документа
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ArchiveDocInfoType
     }
 
     /** 
-     * Set the 'DocVersion' element value. РќРѕРјРµСЂ РІРµСЂСЃРёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocVersion' element value. Номер версии документа
      * 
      * @param docVersion
      */

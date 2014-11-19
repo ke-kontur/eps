@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.result;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё РґРѕРєСѓРјРµРЅС‚Р°
+ * Результат обработки документа
  */
 public class DocumentResultType
 {
@@ -10,7 +10,7 @@ public class DocumentResultType
     private String documentID;
 
     /** 
-     * Get the 'ResultCode' element value. РљРѕРґ РѕР±СЂР°Р±РѕС‚РєРё СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Get the 'ResultCode' element value. Код обработки сообщения
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DocumentResultType
     }
 
     /** 
-     * Set the 'ResultCode' element value. РљРѕРґ РѕР±СЂР°Р±РѕС‚РєРё СЃРѕРѕР±С‰РµРЅРёСЏ
+     * Set the 'ResultCode' element value. Код обработки сообщения
      * 
      * @param resultCode
      */
@@ -28,7 +28,7 @@ public class DocumentResultType
     }
 
     /** 
-     * Get the 'DocumentID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° - СЂРµР·СѓР»СЊС‚Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё.
+     * Get the 'DocumentID' element value. Идентификатор документа - результата обработки.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DocumentResultType
     }
 
     /** 
-     * Set the 'DocumentID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° - СЂРµР·СѓР»СЊС‚Р°С‚Р° РѕР±СЂР°Р±РѕС‚РєРё.
+     * Set the 'DocumentID' element value. Идентификатор документа - результата обработки.
      * 
      * @param documentID
      */

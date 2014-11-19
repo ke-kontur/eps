@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РїРѕ РЅРµРєРІРѕС‚РёСЂСѓРµРјРѕРјСѓ РґРѕРєСѓРјРµРЅС‚Сѓ
+ * Сведения по неквотируемому документу
  */
 public class DetailDataRDType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class DetailDataRDType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Уникальный номер по БД РД
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Уникальный номер по БД РД
      * 
      * @param BDRDID
      */
@@ -44,7 +44,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер документа
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер документа
      * 
      * @param documentNumber
      */
@@ -62,7 +62,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IssueDate' element value. Дата выдачи документа
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IssueDate' element value. Дата выдачи документа
      * 
      * @param issueDate
      */
@@ -80,7 +80,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'Term' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ
+     * Get the 'Term' element value. Срок действия
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'Term' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ
+     * Set the 'Term' element value. Срок действия
      * 
      * @param term
      */
@@ -98,7 +98,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentCode' element value. Код вида документа
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentCode' element value. Код вида документа
      * 
      * @param documentCode
      */
@@ -116,7 +116,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'Status' element value. РЎС‚Р°С‚СѓСЃ
+     * Get the 'Status' element value. Статус
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'Status' element value. РЎС‚Р°С‚СѓСЃ
+     * Set the 'Status' element value. Статус
      * 
      * @param status
      */
@@ -134,7 +134,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'StatusDate' element value. Р”Р°С‚Р° СѓСЃС‚Р°РЅРѕРІРєРё СЃС‚Р°С‚СѓСЃР°
+     * Get the 'StatusDate' element value. Дата установки статуса
      * 
      * @return value
      */
@@ -143,7 +143,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'StatusDate' element value. Р”Р°С‚Р° СѓСЃС‚Р°РЅРѕРІРєРё СЃС‚Р°С‚СѓСЃР°
+     * Set the 'StatusDate' element value. Дата установки статуса
      * 
      * @param statusDate
      */
@@ -152,7 +152,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Get the 'FormNumber' element value. Номер бланка
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР°
+     * Set the 'FormNumber' element value. Номер бланка
      * 
      * @param formNumber
      */
@@ -170,7 +170,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DatePlacement' element value. Р”Р°С‚Р° РїРѕРјРµС‰РµРЅРёСЏ РІ Р‘Р” Р Р”
+     * Get the 'DatePlacement' element value. Дата помещения в БД РД
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DatePlacement' element value. Р”Р°С‚Р° РїРѕРјРµС‰РµРЅРёСЏ РІ Р‘Р” Р Р”
+     * Set the 'DatePlacement' element value. Дата помещения в БД РД
      * 
      * @param datePlacement
      */
@@ -188,7 +188,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'Manufacturer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С„РёСЂРјРµ РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ
+     * Get the 'Manufacturer' element value. Сведения о фирме изготовителя
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'Manufacturer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С„РёСЂРјРµ РёР·РіРѕС‚РѕРІРёС‚РµР»СЏ
+     * Set the 'Manufacturer' element value. Сведения о фирме изготовителя
      * 
      * @param manufacturer
      */
@@ -206,7 +206,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'Receiver' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С„РёСЂРјРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ
+     * Get the 'Receiver' element value. Сведения о фирме получателя
      * 
      * @return value
      */
@@ -215,7 +215,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'Receiver' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С„РёСЂРјРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ
+     * Set the 'Receiver' element value. Сведения о фирме получателя
      * 
      * @param receiver
      */
@@ -224,7 +224,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
+     * Get the list of 'GoodsInfo' element items. Сведения о продукции
      * 
      * @return list
      */
@@ -233,7 +233,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
+     * Set the list of 'GoodsInfo' element items. Сведения о продукции
      * 
      * @param list
      */
@@ -242,7 +242,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -251,7 +251,7 @@ public class DetailDataRDType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

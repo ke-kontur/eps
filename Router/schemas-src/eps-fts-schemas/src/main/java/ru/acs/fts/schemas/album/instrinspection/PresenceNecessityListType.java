@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РџРµСЂРµС‡РµРЅСЊ Р»РёС†, РїСЂРёСЃСѓС‚СЃС‚РІРёРµ (СѓС‡Р°СЃС‚РёРµ) РєРѕС‚РѕСЂС‹С… РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРё (РІ) РїСЂРѕРІРµРґРµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР°
+ * Перечень лиц, присутствие (участие) которых необходимо при (в) проведении таможенного досмотра
  */
 public class PresenceNecessityListType
 {
@@ -14,7 +14,7 @@ public class PresenceNecessityListType
     private List<ControlPersonType> controlPersonList = new ArrayList<ControlPersonType>();
 
     /** 
-     * Get the 'ControlOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° (РёРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»РёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР° Рё (РёР»Рё) РѕСЂРіР°РЅРёР·Р°С†РёРё)
+     * Get the 'ControlOrganization' element value. Наименование таможенного органа (иного контролирующего органа и (или) организации)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class PresenceNecessityListType
     }
 
     /** 
-     * Set the 'ControlOrganization' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° (РёРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»РёСЂСѓСЋС‰РµРіРѕ РѕСЂРіР°РЅР° Рё (РёР»Рё) РѕСЂРіР°РЅРёР·Р°С†РёРё)
+     * Set the 'ControlOrganization' element value. Наименование таможенного органа (иного контролирующего органа и (или) организации)
      * 
      * @param controlOrganization
      */
@@ -32,7 +32,7 @@ public class PresenceNecessityListType
     }
 
     /** 
-     * Get the list of 'ControlPerson' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ
+     * Get the list of 'ControlPerson' element items. Сведения о должностном лице
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class PresenceNecessityListType
     }
 
     /** 
-     * Set the list of 'ControlPerson' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ
+     * Set the list of 'ControlPerson' element items. Сведения о должностном лице
      * 
      * @param list
      */

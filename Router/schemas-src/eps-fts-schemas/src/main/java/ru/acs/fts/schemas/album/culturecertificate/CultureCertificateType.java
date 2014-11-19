@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ РЅР° РїСЂР°РІРѕ РІС‹РІРѕР·Р° РєСѓР»СЊС‚СѓСЂРЅС‹С… С†РµРЅРЅРѕСЃС‚РµР№
+ * Свидетельство на право вывоза культурных ценностей
  */
 public class CultureCertificateType extends BaseDocType
 {
@@ -32,7 +32,7 @@ public class CultureCertificateType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -50,7 +50,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Get the 'RegNumber' element value. Номер свидетельства
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumber' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Set the 'RegNumber' element value. Номер свидетельства
      * 
      * @param regNumber
      */
@@ -68,7 +68,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExportType' element value. Р’РёРґ РІС‹РІРѕР·Р°: 0 - РІСЂРµРјРµРЅРЅС‹Р№, 1 - РїРѕСЃС‚РѕСЏРЅРЅС‹Р№
+     * Get the 'ExportType' element value. Вид вывоза: 0 - временный, 1 - постоянный
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExportType' element value. Р’РёРґ РІС‹РІРѕР·Р°: 0 - РІСЂРµРјРµРЅРЅС‹Р№, 1 - РїРѕСЃС‚РѕСЏРЅРЅС‹Р№
+     * Set the 'ExportType' element value. Вид вывоза: 0 - временный, 1 - постоянный
      * 
      * @param exportType
      */
@@ -86,7 +86,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'NumSheets' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ, РїСЂРёР»Р°РіР°РµРјС‹С… СЃРѕ СЃРїРёСЃРєРѕРј РїСЂРµРґРјРµС‚РѕРІ
+     * Get the 'NumSheets' element value. Количество листов, прилагаемых со списком предметов
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'NumSheets' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ, РїСЂРёР»Р°РіР°РµРјС‹С… СЃРѕ СЃРїРёСЃРєРѕРј РїСЂРµРґРјРµС‚РѕРІ
+     * Set the 'NumSheets' element value. Количество листов, прилагаемых со списком предметов
      * 
      * @param numSheets
      */
@@ -104,7 +104,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'NumFoto' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С„РѕС‚РѕРіСЂР°С„РёР№ РїСЂРµРґРјРµС‚РѕРІ.
+     * Get the 'NumFoto' element value. Количество фотографий предметов.
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'NumFoto' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С„РѕС‚РѕРіСЂР°С„РёР№ РїСЂРµРґРјРµС‚РѕРІ.
+     * Set the 'NumFoto' element value. Количество фотографий предметов.
      * 
      * @param numFoto
      */
@@ -122,7 +122,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'CountryName' element value. РќР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІРІРѕР·Р° РєСѓР»СЊС‚СѓСЂРЅС‹С… С†РµРЅРЅРѕСЃС‚РµР№
+     * Get the 'CountryName' element value. Название страны ввоза культурных ценностей
      * 
      * @return value
      */
@@ -131,7 +131,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'CountryName' element value. РќР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІРІРѕР·Р° РєСѓР»СЊС‚СѓСЂРЅС‹С… С†РµРЅРЅРѕСЃС‚РµР№
+     * Set the 'CountryName' element value. Название страны ввоза культурных ценностей
      * 
      * @param countryName
      */
@@ -140,7 +140,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Target' element value. Р¦РµР»СЊ РІС‹РІРѕР·Р°
+     * Get the 'Target' element value. Цель вывоза
      * 
      * @return value
      */
@@ -149,7 +149,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Target' element value. Р¦РµР»СЊ РІС‹РІРѕР·Р°
+     * Set the 'Target' element value. Цель вывоза
      * 
      * @param target
      */
@@ -158,7 +158,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'Term' element value. РЎСЂРѕРє РІС‹РІРѕР·Р°
+     * Get the 'Term' element value. Срок вывоза
      * 
      * @return value
      */
@@ -167,7 +167,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'Term' element value. РЎСЂРѕРє РІС‹РІРѕР·Р°
+     * Set the 'Term' element value. Срок вывоза
      * 
      * @param term
      */
@@ -176,7 +176,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'UnitTime' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РІСЂРµРјРµРЅРё
+     * Get the 'UnitTime' element value. Единица измерения времени
      * 
      * @return value
      */
@@ -185,7 +185,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'UnitTime' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ РІСЂРµРјРµРЅРё
+     * Set the 'UnitTime' element value. Единица измерения времени
      * 
      * @param unitTime
      */
@@ -194,7 +194,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateIssued' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Get the 'DateIssued' element value. Дата выдачи свидетельства
      * 
      * @return value
      */
@@ -203,7 +203,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateIssued' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Set the 'DateIssued' element value. Дата выдачи свидетельства
      * 
      * @param dateIssued
      */
@@ -212,7 +212,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'PlaceIssued' element value. РњРµСЃС‚Рѕ РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Get the 'PlaceIssued' element value. Место выдачи свидетельства
      * 
      * @return value
      */
@@ -221,7 +221,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'PlaceIssued' element value. РњРµСЃС‚Рѕ РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°
+     * Set the 'PlaceIssued' element value. Место выдачи свидетельства
      * 
      * @param placeIssued
      */
@@ -230,7 +230,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CustomsMark' element items. РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РЅРё
+     * Get the list of 'CustomsMark' element items. Отметки таможни
      * 
      * @return list
      */
@@ -239,7 +239,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CustomsMark' element items. РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РЅРё
+     * Set the list of 'CustomsMark' element items. Отметки таможни
      * 
      * @param list
      */
@@ -248,7 +248,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'OrganizationIssued' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ РёР»Рё РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, РєРѕС‚РѕСЂРѕРјСѓ(Р№) РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'OrganizationIssued' element value. Сведения о лице или об организации, которому(й) выдан сертификат
      * 
      * @return value
      */
@@ -257,7 +257,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'OrganizationIssued' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ РёР»Рё РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё, РєРѕС‚РѕСЂРѕРјСѓ(Р№) РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'OrganizationIssued' element value. Сведения о лице или об организации, которому(й) выдан сертификат
      * 
      * @param organizationIssued
      */
@@ -266,7 +266,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionInf' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµС€РµРЅРёРё, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ СЂР°Р·СЂРµС€РµРЅ РІС‹РІРѕР·
+     * Get the 'DecisionInf' element value. Сведения о решении, на основании которого разрешен вывоз
      * 
      * @return value
      */
@@ -275,7 +275,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionInf' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµС€РµРЅРёРё, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ СЂР°Р·СЂРµС€РµРЅ РІС‹РІРѕР·
+     * Set the 'DecisionInf' element value. Сведения о решении, на основании которого разрешен вывоз
      * 
      * @param decisionInf
      */
@@ -284,7 +284,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'PersonIssued' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ, РІС‹РґР°РІС€РµРј СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+     * Get the 'PersonIssued' element value. Сведения о должностном лице, выдавшем свидетельство
      * 
      * @return value
      */
@@ -293,7 +293,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'PersonIssued' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ, РІС‹РґР°РІС€РµРј СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+     * Set the 'PersonIssued' element value. Сведения о должностном лице, выдавшем свидетельство
      * 
      * @param personIssued
      */
@@ -302,7 +302,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CulturalValuesList' element items. РЎРїРёСЃРѕРє РєСѓР»СЊС‚СѓСЂРЅС‹С… С†РµРЅРЅРѕСЃС‚РµР№
+     * Get the list of 'CulturalValuesList' element items. Список культурных ценностей
      * 
      * @return list
      */
@@ -311,7 +311,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CulturalValuesList' element items. РЎРїРёСЃРѕРє РєСѓР»СЊС‚СѓСЂРЅС‹С… С†РµРЅРЅРѕСЃС‚РµР№
+     * Set the list of 'CulturalValuesList' element items. Список культурных ценностей
      * 
      * @param list
      */
@@ -320,7 +320,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -329,7 +329,7 @@ public class CultureCertificateType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

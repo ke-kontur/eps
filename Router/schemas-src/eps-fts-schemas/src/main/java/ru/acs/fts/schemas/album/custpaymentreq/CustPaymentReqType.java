@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.cardcommonaggregatetypes.BaseDocType;
 import ru.acs.fts.schemas.album.cardcommonaggregatetypes.OrganizationBaseType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ Рѕ СЃСѓРјРјР°С… РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ, РїРѕРґР»РµР¶Р°С‰РёС… СѓРїР»Р°С‚Рµ РїРѕ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
+ * Запрос сведений о суммах денежных средств, подлежащих уплате по декларации на товары
  */
 public class CustPaymentReqType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class CustPaymentReqType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ProcessID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµРґСѓСЂС‹ Р­Р” (GUID)
+     * Get the 'ProcessID' element value. Уникальный идентификатор процедуры ЭД (GUID)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class CustPaymentReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcessID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµРґСѓСЂС‹ Р­Р” (GUID)
+     * Set the 'ProcessID' element value. Уникальный идентификатор процедуры ЭД (GUID)
      * 
      * @param processID
      */
@@ -32,7 +32,7 @@ public class CustPaymentReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'Payer' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
+     * Get the 'Payer' element value. Информация о плательщике
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class CustPaymentReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'Payer' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
+     * Set the 'Payer' element value. Информация о плательщике
      * 
      * @param payer
      */
@@ -50,7 +50,7 @@ public class CustPaymentReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class CustPaymentReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

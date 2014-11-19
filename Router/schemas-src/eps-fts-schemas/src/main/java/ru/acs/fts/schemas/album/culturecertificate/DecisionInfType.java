@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.culturecertificate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµС€РµРЅРёРё, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ СЂР°Р·СЂРµС€РµРЅ РІС‹РІРѕР·
+ * Сведения о решении, на основании которого разрешен вывоз
  */
 public class DecisionInfType extends DocumentBaseType
 {
     private String stateStructure;
 
     /** 
-     * Get the 'StateStructure' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+     * Get the 'StateStructure' element value. Наименование государственного органа, выдавшего свидетельство
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DecisionInfType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'StateStructure' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ
+     * Set the 'StateStructure' element value. Наименование государственного органа, выдавшего свидетельство
      * 
      * @param stateStructure
      */

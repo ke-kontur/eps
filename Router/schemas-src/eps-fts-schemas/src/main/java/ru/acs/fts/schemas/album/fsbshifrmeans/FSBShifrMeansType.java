@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityTy
 import ru.acs.fts.schemas.album.sqcommonaggregatetypescust.DocumentType;
 
 /** 
- * РћС‚РІРµС‚ РЅР° Р·Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ РёР· Р·Р°РєР»СЋС‡РµРЅРёР№ (СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ) РЅР° РІРІРѕР·, РІС‹РІРѕР· Рё С‚СЂР°РЅР·РёС‚ СЃРїРµС†РёР°Р»СЊРЅС‹С… С‚РµС…РЅРёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ, РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹С… РґР»СЏ РЅРµРіР»Р°СЃРЅРѕРіРѕ РїРѕР»СѓС‡РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё, С€РёС„СЂРѕРІР°Р»СЊРЅС‹С… (РєСЂРёРїС‚РѕРіСЂР°С„РёС‡РµСЃРєРёС…) СЃСЂРµРґСЃС‚РІ
+ * Ответ на запрос сведений из заключений (разрешительных документов) на ввоз, вывоз и транзит специальных технических средств, предназначенных для негласного получения информации, шифровальных (криптографических) средств
  */
 public class FSBShifrMeansType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class FSBShifrMeansType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'IsCanceled' element value. РџСЂРёР·РЅР°Рє РїСЂРµРєСЂР°С‰РµРЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IsCanceled' element value. Признак прекращения действия документа
      * 
      * @param isCanceled
      */
@@ -46,7 +46,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Get the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р‘Р” Р Р”
+     * Set the 'BDRDID' element value. Идентификатор документа по БД РД
      * 
      * @param BDRDID
      */
@@ -64,7 +64,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - Р·Р°РєР»СЋС‡РµРЅРёРµ РЅР° РІРІРѕР·, РІС‹РІРѕР· Рё С‚СЂР°РЅР·РёС‚ СЃРїРµС†РёР°Р»СЊРЅС‹С… С‚РµС…РЅРёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ, РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹С… РґР»СЏ РЅРµРіР»Р°СЃРЅРѕРіРѕ РїРѕР»СѓС‡РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё ; 1 - Р·Р°РєР»СЋС‡РµРЅРёРµ РЅР° РІРІРѕР·, РІС‹РІРѕР· Рё С‚СЂР°РЅР·РёС‚ С€РёС„СЂРѕРІР°Р»СЊРЅС‹С… (РєСЂРёРїС‚РѕРіСЂР°С„РёС‡РµСЃРєРёС…) СЃСЂРµРґСЃС‚РІ
+     * Get the 'DocSign' element value. Признак документа: 0 - заключение на ввоз, вывоз и транзит специальных технических средств, предназначенных для негласного получения информации ; 1 - заключение на ввоз, вывоз и транзит шифровальных (криптографических) средств
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - Р·Р°РєР»СЋС‡РµРЅРёРµ РЅР° РІРІРѕР·, РІС‹РІРѕР· Рё С‚СЂР°РЅР·РёС‚ СЃРїРµС†РёР°Р»СЊРЅС‹С… С‚РµС…РЅРёС‡РµСЃРєРёС… СЃСЂРµРґСЃС‚РІ, РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅРЅС‹С… РґР»СЏ РЅРµРіР»Р°СЃРЅРѕРіРѕ РїРѕР»СѓС‡РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё ; 1 - Р·Р°РєР»СЋС‡РµРЅРёРµ РЅР° РІРІРѕР·, РІС‹РІРѕР· Рё С‚СЂР°РЅР·РёС‚ С€РёС„СЂРѕРІР°Р»СЊРЅС‹С… (РєСЂРёРїС‚РѕРіСЂР°С„РёС‡РµСЃРєРёС…) СЃСЂРµРґСЃС‚РІ
+     * Set the 'DocSign' element value. Признак документа: 0 - заключение на ввоз, вывоз и транзит специальных технических средств, предназначенных для негласного получения информации ; 1 - заключение на ввоз, вывоз и транзит шифровальных (криптографических) средств
      * 
      * @param docSign
      */
@@ -82,7 +82,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sign' element value. РџСЂРёР·РЅР°Рє (РІСЂРµРјРµРЅРЅС‹Р№ РІРІРѕР· /РІС‹РІРѕР·, С‚СЂР°РЅР·РёС‚, РІРІРѕР· РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ СЂРµРјРѕРЅС‚Р° РЎРўРЎ РќРџР Рё С‚.Рґ.)
+     * Get the 'Sign' element value. Признак (временный ввоз /вывоз, транзит, ввоз для проведения ремонта СТС НПИ и т.д.)
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sign' element value. РџСЂРёР·РЅР°Рє (РІСЂРµРјРµРЅРЅС‹Р№ РІРІРѕР· /РІС‹РІРѕР·, С‚СЂР°РЅР·РёС‚, РІРІРѕР· РґР»СЏ РїСЂРѕРІРµРґРµРЅРёСЏ СЂРµРјРѕРЅС‚Р° РЎРўРЎ РќРџР Рё С‚.Рґ.)
+     * Set the 'Sign' element value. Признак (временный ввоз /вывоз, транзит, ввоз для проведения ремонта СТС НПИ и т.д.)
      * 
      * @param sign
      */
@@ -100,7 +100,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'CountryOrigin' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ / РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'CountryOrigin' element value. Страна отправления / назначения
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'CountryOrigin' element value. РЎС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ / РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'CountryOrigin' element value. Страна отправления / назначения
      * 
      * @param countryOrigin
      */
@@ -118,7 +118,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'Info' element value. РћРїРёСЃР°РЅРёРµ РЎРўРЎ РќРџР
+     * Get the 'Info' element value. Описание СТС НПИ
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'Info' element value. РћРїРёСЃР°РЅРёРµ РЎРўРЎ РќРџР
+     * Set the 'Info' element value. Описание СТС НПИ
      * 
      * @param info
      */
@@ -136,7 +136,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ (Р¤РРћ, РґРѕР»Р¶РЅРѕСЃС‚СЊ), РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Get the 'AuthorizedPerson' element value. Уполномоченное должностное лицо (ФИО, должность), подписавшее заключение
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ (Р¤РРћ, РґРѕР»Р¶РЅРѕСЃС‚СЊ), РїРѕРґРїРёСЃР°РІС€РµРµ Р·Р°РєР»СЋС‡РµРЅРёРµ
+     * Set the 'AuthorizedPerson' element value. Уполномоченное должностное лицо (ФИО, должность), подписавшее заключение
      * 
      * @param authorizedPerson
      */
@@ -154,7 +154,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'ConclusionDescription' element value. Р РµРєРІРёР·РёС‚С‹ Р·Р°РєР»СЋС‡РµРЅРёСЏ
+     * Get the 'ConclusionDescription' element value. Реквизиты заключения
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'ConclusionDescription' element value. Р РµРєРІРёР·РёС‚С‹ Р·Р°РєР»СЋС‡РµРЅРёСЏ
+     * Set the 'ConclusionDescription' element value. Реквизиты заключения
      * 
      * @param conclusionDescription
      */
@@ -172,7 +172,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ Р·Р°РєР»СЋС‡РµРЅРёСЏ (СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°) (РРќРќ, Р¤РРћ, СЋСЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ)
+     * Get the 'Name' element value. Наименование получателя заключения (разрешительного документа) (ИНН, ФИО, юридический адрес)
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ Р·Р°РєР»СЋС‡РµРЅРёСЏ (СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°) (РРќРќ, Р¤РРћ, СЋСЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ)
+     * Set the 'Name' element value. Наименование получателя заключения (разрешительного документа) (ИНН, ФИО, юридический адрес)
      * 
      * @param name
      */
@@ -190,7 +190,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'ManufacturerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С„РёСЂРјС‹ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ
+     * Get the 'ManufacturerName' element value. Наименование фирмы производителя
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'ManufacturerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С„РёСЂРјС‹ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ
+     * Set the 'ManufacturerName' element value. Наименование фирмы производителя
      * 
      * @param manufacturerName
      */
@@ -208,7 +208,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Get the 'Quantity' element value. Количество товара
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Set the 'Quantity' element value. Количество товара
      * 
      * @param quantity
      */
@@ -226,7 +226,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractDescription' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ContractDescription' element value. Реквизиты контракта
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractDescription' element value. Р РµРєРІРёР·РёС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ContractDescription' element value. Реквизиты контракта
      * 
      * @param contractDescription
      */
@@ -244,7 +244,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'AddQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'AddQuantity' element value. Количество в дополнительной единице измерения
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'AddQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'AddQuantity' element value. Количество в дополнительной единице измерения
      * 
      * @param addQuantity
      */
@@ -262,7 +262,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -271,7 +271,7 @@ public class FSBShifrMeansType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

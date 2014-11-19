@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.actregistrationmining;
 import org.joda.time.LocalDate;
 
 /** 
- * Р Р°Р·СЂРµС€РµРЅРёРµ
+ * Разрешение
  */
 public class ResolutionType
 {
@@ -13,7 +13,7 @@ public class ResolutionType
     private String issued;
 
     /** 
-     * Get the 'ResolutionNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'ResolutionNumber' element value. Номер разрешения
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ResolutionType
     }
 
     /** 
-     * Set the 'ResolutionNumber' element value. РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'ResolutionNumber' element value. Номер разрешения
      * 
      * @param resolutionNumber
      */
@@ -31,7 +31,7 @@ public class ResolutionType
     }
 
     /** 
-     * Get the 'ResolutionDate' element value. Р”Р°С‚Р° СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'ResolutionDate' element value. Дата разрешения
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ResolutionType
     }
 
     /** 
-     * Set the 'ResolutionDate' element value. Р”Р°С‚Р° СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'ResolutionDate' element value. Дата разрешения
      * 
      * @param resolutionDate
      */
@@ -49,7 +49,7 @@ public class ResolutionType
     }
 
     /** 
-     * Get the 'Issued' element value. РљРµРј РІС‹РґР°РЅРѕ
+     * Get the 'Issued' element value. Кем выдано
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ResolutionType
     }
 
     /** 
-     * Set the 'Issued' element value. РљРµРј РІС‹РґР°РЅРѕ
+     * Set the 'Issued' element value. Кем выдано
      * 
      * @param issued
      */

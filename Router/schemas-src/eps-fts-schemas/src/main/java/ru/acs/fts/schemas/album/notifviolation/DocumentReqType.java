@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚С‹ Рё СЃРІРµРґРµРЅРёСЏ, РєРѕС‚РѕСЂС‹Рµ РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РґР»СЏ СѓСЃС‚СЂР°РЅРµРЅРёСЏ РІС‹СЏРІР»РµРЅРЅС‹С… РЅР°СЂСѓС€РµРЅРёР№, СЃРѕР±Р»СЋРґРµРЅРёСЏ СѓСЃР»РѕРІРёР№ РІС‹РїСѓСЃРєР°.
+ * Документы и сведения, которые необходимо предоставить для устранения выявленных нарушений, соблюдения условий выпуска.
  */
 public class DocumentReqType
 {
@@ -13,7 +13,7 @@ public class DocumentReqType
     private String docDateLimit;
 
     /** 
-     * Get the list of 'DocsDescription' element items. РћРїРёСЃР°РЅРёРµ СЃРІРµРґРµРЅРёР№
+     * Get the list of 'DocsDescription' element items. Описание сведений
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class DocumentReqType
     }
 
     /** 
-     * Set the list of 'DocsDescription' element items. РћРїРёСЃР°РЅРёРµ СЃРІРµРґРµРЅРёР№
+     * Set the list of 'DocsDescription' element items. Описание сведений
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class DocumentReqType
     }
 
     /** 
-     * Get the 'DocDateLimit' element value. РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ С‚СЂРµР±СѓРµРјС‹С… СЃРІРµРґРµРЅРёР№
+     * Get the 'DocDateLimit' element value. Срок предоставления требуемых сведений
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class DocumentReqType
     }
 
     /** 
-     * Set the 'DocDateLimit' element value. РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ С‚СЂРµР±СѓРµРјС‹С… СЃРІРµРґРµРЅРёР№
+     * Set the 'DocDateLimit' element value. Срок предоставления требуемых сведений
      * 
      * @param docDateLimit
      */

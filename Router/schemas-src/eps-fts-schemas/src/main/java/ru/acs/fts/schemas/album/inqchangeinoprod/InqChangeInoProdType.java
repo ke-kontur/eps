@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 import ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust.TreatProductsType;
 
 /** 
- * Р—Р°СЏРІР»РµРЅРёРµ РЅР° РїСЂРѕРІРµРґРµРЅРёРµ Р·Р°РјРµРЅС‹ РїСЂРѕРґСѓРєС‚РѕРІ РїРµСЂРµСЂР°Р±РѕС‚РєРё РёРЅРѕСЃС‚СЂР°РЅРЅС‹РјРё С‚РѕРІР°СЂР°РјРё
+ * Заявление на проведение замены продуктов переработки иностранными товарами
  */
 public class InqChangeInoProdType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class InqChangeInoProdType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SendDate' element value. Дата направления
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class InqChangeInoProdType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SendDate' element value. Дата направления
      * 
      * @param sendDate
      */
@@ -39,7 +39,7 @@ public class InqChangeInoProdType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'SendTime' element value. Время направления
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class InqChangeInoProdType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'SendTime' element value. Время направления
      * 
      * @param sendTime
      */
@@ -57,7 +57,7 @@ public class InqChangeInoProdType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Get the 'Applicant' element value. Сведения о заявителе
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class InqChangeInoProdType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Set the 'Applicant' element value. Сведения о заявителе
      * 
      * @param applicant
      */
@@ -75,7 +75,7 @@ public class InqChangeInoProdType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'InoProdacts' element items. РРЅРѕСЃС‚СЂР°РЅРЅС‹Рµ С‚РѕРІР°СЂС‹, РєРѕС‚РѕСЂС‹РјРё РїСЂРµРґР»Р°РіР°РµС‚СЃСЏ Р·Р°РјРµРЅРёС‚СЊ РїСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё.
+     * Get the list of 'InoProdacts' element items. Иностранные товары, которыми предлагается заменить продукты переработки.
      * 
      * @return list
      */
@@ -84,7 +84,7 @@ public class InqChangeInoProdType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'InoProdacts' element items. РРЅРѕСЃС‚СЂР°РЅРЅС‹Рµ С‚РѕРІР°СЂС‹, РєРѕС‚РѕСЂС‹РјРё РїСЂРµРґР»Р°РіР°РµС‚СЃСЏ Р·Р°РјРµРЅРёС‚СЊ РїСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё.
+     * Set the list of 'InoProdacts' element items. Иностранные товары, которыми предлагается заменить продукты переработки.
      * 
      * @param list
      */
@@ -93,7 +93,7 @@ public class InqChangeInoProdType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TreatProducts' element items. РџСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё, РєРѕС‚РѕСЂС‹Рµ РїРѕРґР»РµР¶Р°С‚ Р·Р°РјРµРЅРµ.
+     * Get the list of 'TreatProducts' element items. Продукты переработки, которые подлежат замене.
      * 
      * @return list
      */
@@ -102,7 +102,7 @@ public class InqChangeInoProdType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TreatProducts' element items. РџСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё, РєРѕС‚РѕСЂС‹Рµ РїРѕРґР»РµР¶Р°С‚ Р·Р°РјРµРЅРµ.
+     * Set the list of 'TreatProducts' element items. Продукты переработки, которые подлежат замене.
      * 
      * @param list
      */
@@ -111,7 +111,7 @@ public class InqChangeInoProdType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class InqChangeInoProdType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

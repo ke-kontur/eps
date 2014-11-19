@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.dtsin;
 import ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust.DTSOfficialMarkType;
 
 /** 
- * Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚  Р”РўРЎ. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё.
+ * Внутренний формат  ДТС. Служебные отметки.
  */
 public class DTSinOfficialMarksType extends DTSOfficialMarkType
 {
     private String recordSerialNumber;
 
     /** 
-     * Get the 'RecordSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё
+     * Get the 'RecordSerialNumber' element value. Порядковый номер записи
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DTSinOfficialMarksType extends DTSOfficialMarkType
     }
 
     /** 
-     * Set the 'RecordSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё
+     * Set the 'RecordSerialNumber' element value. Порядковый номер записи
      * 
      * @param recordSerialNumber
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°С‚РµР¶Р°С… 
+ * Информация о платежах 
  */
 public class PaymentType
 {
@@ -19,7 +19,7 @@ public class PaymentType
     private List<String> commentList = new ArrayList<String>();
 
     /** 
-     * Get the 'PaymentMode' element value. Р’РёРґ РїР»Р°С‚РµР¶Р°.
+     * Get the 'PaymentMode' element value. Вид платежа.
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'PaymentMode' element value. Р’РёРґ РїР»Р°С‚РµР¶Р°.
+     * Set the 'PaymentMode' element value. Вид платежа.
      * 
      * @param paymentMode
      */
@@ -37,7 +37,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'Amount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Get the 'Amount' element value. Сумма платежа
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'Amount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Set the 'Amount' element value. Сумма платежа
      * 
      * @param amount
      */
@@ -55,7 +55,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
+     * Get the 'CurrencyCode' element value. Код иностранной валюты платежа
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р°
+     * Set the 'CurrencyCode' element value. Код иностранной валюты платежа
      * 
      * @param currencyCode
      */
@@ -73,7 +73,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'Place' element value. РњРµСЃС‚Рѕ РїР»Р°С‚РµР¶Р°
+     * Get the 'Place' element value. Место платежа
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'Place' element value. РњРµСЃС‚Рѕ РїР»Р°С‚РµР¶Р°
+     * Set the 'Place' element value. Место платежа
      * 
      * @param place
      */
@@ -91,7 +91,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'DateInf' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶Р°
+     * Get the 'DateInf' element value. Дата платежа
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'DateInf' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶Р°
+     * Set the 'DateInf' element value. Дата платежа
      * 
      * @param dateInf
      */
@@ -109,7 +109,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the 'NameInf' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РєРѕС‚РѕСЂРѕРµ РґРѕР»Р¶РЅРѕ 
+     * Get the 'NameInf' element value. Наименование лица, которое должно 
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the 'NameInf' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р»РёС†Р°, РєРѕС‚РѕСЂРѕРµ РґРѕР»Р¶РЅРѕ 
+     * Set the 'NameInf' element value. Наименование лица, которое должно 
      * 
      * @param nameInf
      */
@@ -127,7 +127,7 @@ public class PaymentType
     }
 
     /** 
-     * Get the list of 'Comments' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the list of 'Comments' element items. Дополнительная информация
      * 
      * @return list
      */
@@ -136,7 +136,7 @@ public class PaymentType
     }
 
     /** 
-     * Set the list of 'Comments' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the list of 'Comments' element items. Дополнительная информация
      * 
      * @param list
      */

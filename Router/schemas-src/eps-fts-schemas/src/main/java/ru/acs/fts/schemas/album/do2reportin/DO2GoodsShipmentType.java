@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhCustomDocumentType;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂРѕРІ, РІС‹РїСѓСЃРєР°РµРјС‹С… СЃРѕ СЃРєР»Р°РґР° РїРѕ РѕС‚С‡РµС‚Сѓ Р”Рћ2
+ * Комплексный тип для описания товаров, выпускаемых со склада по отчету ДО2
  */
 public class DO2GoodsShipmentType
 {
@@ -16,7 +16,7 @@ public class DO2GoodsShipmentType
     private List<DO2GoodCustomDocLinkType> goodsCustomDocsLinkList = new ArrayList<DO2GoodCustomDocLinkType>();
 
     /** 
-     * Get the 'MPOSign' element value. РџСЂРёР·РЅР°Рє РѕС„РѕСЂРјР»РµРЅРёСЏ РњРџРћ
+     * Get the 'MPOSign' element value. Признак оформления МПО
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class DO2GoodsShipmentType
     }
 
     /** 
-     * Set the 'MPOSign' element value. РџСЂРёР·РЅР°Рє РѕС„РѕСЂРјР»РµРЅРёСЏ РњРџРћ
+     * Set the 'MPOSign' element value. Признак оформления МПО
      * 
      * @param MPOSign
      */
@@ -34,7 +34,7 @@ public class DO2GoodsShipmentType
     }
 
     /** 
-     * Get the list of 'CustomsDocs' element items. РўР°РјРѕР¶РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РІС‹РґР°С‡Р°
+     * Get the list of 'CustomsDocs' element items. Таможенные документы, на основании которых осуществляется выдача
      * 
      * @return list
      */
@@ -43,7 +43,7 @@ public class DO2GoodsShipmentType
     }
 
     /** 
-     * Set the list of 'CustomsDocs' element items. РўР°РјРѕР¶РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РІС‹РґР°С‡Р°
+     * Set the list of 'CustomsDocs' element items. Таможенные документы, на основании которых осуществляется выдача
      * 
      * @param list
      */
@@ -52,7 +52,7 @@ public class DO2GoodsShipmentType
     }
 
     /** 
-     * Get the list of 'Goods' element items. Р’С‹РґР°РІР°РµРјС‹Рµ С‚РѕРІР°СЂС‹
+     * Get the list of 'Goods' element items. Выдаваемые товары
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class DO2GoodsShipmentType
     }
 
     /** 
-     * Set the list of 'Goods' element items. Р’С‹РґР°РІР°РµРјС‹Рµ С‚РѕРІР°СЂС‹
+     * Set the list of 'Goods' element items. Выдаваемые товары
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class DO2GoodsShipmentType
     }
 
     /** 
-     * Get the list of 'GoodsCustomDocsLinks' element items. Р”Р°РЅРЅС‹Рµ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё РІС‹РґР°РІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ РІС‹РґР°СЋС‰РёРј С‚Р°РјРѕР¶РµРЅРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
+     * Get the list of 'GoodsCustomDocsLinks' element items. Данные о соответствии выдаваемых товаров выдающим таможенным документам
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class DO2GoodsShipmentType
     }
 
     /** 
-     * Set the list of 'GoodsCustomDocsLinks' element items. Р”Р°РЅРЅС‹Рµ Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё РІС‹РґР°РІР°РµРјС‹С… С‚РѕРІР°СЂРѕРІ РІС‹РґР°СЋС‰РёРј С‚Р°РјРѕР¶РµРЅРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
+     * Set the list of 'GoodsCustomDocsLinks' element items. Данные о соответствии выдаваемых товаров выдающим таможенным документам
      * 
      * @param list
      */

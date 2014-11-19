@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ СЃС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё.
+ * Описание стоимость доставки.
  */
 public class DescriptionCostDeliveryType
 {
@@ -11,7 +11,7 @@ public class DescriptionCostDeliveryType
     private String currency;
 
     /** 
-     * Get the 'Value' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: true РёР»Рё 1 - РґР°; false РёР»Рё 0 - РЅРµС‚
+     * Get the 'Value' element value. Если значение поля: true или 1 - да; false или 0 - нет
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DescriptionCostDeliveryType
     }
 
     /** 
-     * Set the 'Value' element value. Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: true РёР»Рё 1 - РґР°; false РёР»Рё 0 - РЅРµС‚
+     * Set the 'Value' element value. Если значение поля: true или 1 - да; false или 0 - нет
      * 
      * @param value
      */
@@ -29,7 +29,7 @@ public class DescriptionCostDeliveryType
     }
 
     /** 
-     * Get the 'Quantity' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё
+     * Get the 'Quantity' element value. Стоимость доставки
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class DescriptionCostDeliveryType
     }
 
     /** 
-     * Set the 'Quantity' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ РґРѕСЃС‚Р°РІРєРё
+     * Set the 'Quantity' element value. Стоимость доставки
      * 
      * @param quantity
      */
@@ -47,7 +47,7 @@ public class DescriptionCostDeliveryType
     }
 
     /** 
-     * Get the 'Currency' element value. Р’Р°Р»СЋС‚Р° 
+     * Get the 'Currency' element value. Валюта 
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class DescriptionCostDeliveryType
     }
 
     /** 
-     * Set the 'Currency' element value. Р’Р°Р»СЋС‚Р° 
+     * Set the 'Currency' element value. Валюта 
      * 
      * @param currency
      */

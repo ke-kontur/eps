@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.permitinotreatment;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+ * Описание переработки
  */
 public class TreatmentInfType
 {
     private String country;
 
     /** 
-     * Get the 'Country' element value. РЎС‚СЂР°РЅР°.
+     * Get the 'Country' element value. Страна.
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class TreatmentInfType
     }
 
     /** 
-     * Set the 'Country' element value. РЎС‚СЂР°РЅР°.
+     * Set the 'Country' element value. Страна.
      * 
      * @param country
      */

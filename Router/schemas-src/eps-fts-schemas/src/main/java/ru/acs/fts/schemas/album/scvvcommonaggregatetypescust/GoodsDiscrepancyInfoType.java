@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.scvvcommonaggregatetypescust;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р№РґРµРЅРЅС‹С… СЂР°СЃС…РѕР¶РґРµРЅРёСЏС… РІ С‚РѕРІР°СЂРµ
+ * Информация о найденных расхождениях в товаре
  */
 public class GoodsDiscrepancyInfoType
 {
@@ -11,7 +11,7 @@ public class GoodsDiscrepancyInfoType
     private SCVVGoodsType balance;
 
     /** 
-     * Get the 'GoodsDiscrepancyIndicator' element value. РљРѕРґ РЅР°Р№РґРµРЅРЅС‹С… СЂР°СЃС…РѕР¶РґРµРЅРёР№ (РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРѕ РЎРїРµС†РёС„РёРєР°С†РёРµР№ РѕР±РјРµРЅР°)
+     * Get the 'GoodsDiscrepancyIndicator' element value. Код найденных расхождений (в соответствии со Спецификацией обмена)
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class GoodsDiscrepancyInfoType
     }
 
     /** 
-     * Set the 'GoodsDiscrepancyIndicator' element value. РљРѕРґ РЅР°Р№РґРµРЅРЅС‹С… СЂР°СЃС…РѕР¶РґРµРЅРёР№ (РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃРѕ РЎРїРµС†РёС„РёРєР°С†РёРµР№ РѕР±РјРµРЅР°)
+     * Set the 'GoodsDiscrepancyIndicator' element value. Код найденных расхождений (в соответствии со Спецификацией обмена)
      * 
      * @param goodsDiscrepancyIndicator
      */
@@ -29,7 +29,7 @@ public class GoodsDiscrepancyInfoType
     }
 
     /** 
-     * Get the 'PlanFactGoodsInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°РЅРёСЂСѓРµРјС‹С… Рє РІС‹РІРѕР·Сѓ С‚РѕРІР°СЂР°С…
+     * Get the 'PlanFactGoodsInfo' element value. Информация о планируемых к вывозу товарах
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class GoodsDiscrepancyInfoType
     }
 
     /** 
-     * Set the 'PlanFactGoodsInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°РЅРёСЂСѓРµРјС‹С… Рє РІС‹РІРѕР·Сѓ С‚РѕРІР°СЂР°С…
+     * Set the 'PlanFactGoodsInfo' element value. Информация о планируемых к вывозу товарах
      * 
      * @param planFactGoodsInfo
      */
@@ -47,7 +47,7 @@ public class GoodsDiscrepancyInfoType
     }
 
     /** 
-     * Get the 'Balance' element value. РћСЃС‚Р°С‚РєРё РїРѕ Р”Рў РїРѕ РґР°РЅРЅРѕРјСѓ С‚РѕРІР°СЂСѓ.
+     * Get the 'Balance' element value. Остатки по ДТ по данному товару.
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class GoodsDiscrepancyInfoType
     }
 
     /** 
-     * Set the 'Balance' element value. РћСЃС‚Р°С‚РєРё РїРѕ Р”Рў РїРѕ РґР°РЅРЅРѕРјСѓ С‚РѕРІР°СЂСѓ.
+     * Set the 'Balance' element value. Остатки по ДТ по данному товару.
      * 
      * @param balance
      */

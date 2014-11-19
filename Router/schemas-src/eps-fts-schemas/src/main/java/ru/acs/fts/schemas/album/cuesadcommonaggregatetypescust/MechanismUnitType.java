@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕРј Р±Р»РѕРєРµ
+ * Сведения о функциональном блоке
  */
 public class MechanismUnitType extends ComponentDescriptionType
 {
@@ -13,7 +13,7 @@ public class MechanismUnitType extends ComponentDescriptionType
     private List<MechUnitPartType> mechUnitPartList = new ArrayList<MechUnitPartType>();
 
     /** 
-     * Get the 'UnitDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¤Р‘ / Р Р°Р·РґРµР»Р° СЃРїРёСЃРєР° (РџР РћР§РР• РљРћРњРџРћРќР•РќРўР«)
+     * Get the 'UnitDescription' element value. Наименование ФБ / Раздела списка (ПРОЧИЕ КОМПОНЕНТЫ)
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class MechanismUnitType extends ComponentDescriptionType
     }
 
     /** 
-     * Set the 'UnitDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¤Р‘ / Р Р°Р·РґРµР»Р° СЃРїРёСЃРєР° (РџР РћР§РР• РљРћРњРџРћРќР•РќРўР«)
+     * Set the 'UnitDescription' element value. Наименование ФБ / Раздела списка (ПРОЧИЕ КОМПОНЕНТЫ)
      * 
      * @param unitDescription
      */
@@ -31,7 +31,7 @@ public class MechanismUnitType extends ComponentDescriptionType
     }
 
     /** 
-     * Get the list of 'MechUnitPart' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРјРїРѕРЅРµРЅС‚Рµ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕРіРѕ Р±Р»РѕРєР°
+     * Get the list of 'MechUnitPart' element items. Сведения о компоненте функционального блока
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class MechanismUnitType extends ComponentDescriptionType
     }
 
     /** 
-     * Set the list of 'MechUnitPart' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРјРїРѕРЅРµРЅС‚Рµ С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕРіРѕ Р±Р»РѕРєР°
+     * Set the list of 'MechUnitPart' element items. Сведения о компоненте функционального блока
      * 
      * @param list
      */

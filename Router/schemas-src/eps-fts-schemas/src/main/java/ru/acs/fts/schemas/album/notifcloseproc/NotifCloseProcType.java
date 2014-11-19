@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.notifcloseproc;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ Р·Р°РєСЂС‹С‚РёРё РїСЂРѕС†РµРґСѓСЂС‹ 
+ * Уведомление о закрытии процедуры 
  */
 public class NotifCloseProcType extends BaseDocType
 {
@@ -13,7 +13,7 @@ public class NotifCloseProcType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'CloseProcedureID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РєСЂС‹С‚РѕР№ РїСЂРѕС†РµРґСѓСЂС‹.
+     * Get the 'CloseProcedureID' element value. Уникальный идентификатор закрытой процедуры.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class NotifCloseProcType extends BaseDocType
     }
 
     /** 
-     * Set the 'CloseProcedureID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РєСЂС‹С‚РѕР№ РїСЂРѕС†РµРґСѓСЂС‹.
+     * Set the 'CloseProcedureID' element value. Уникальный идентификатор закрытой процедуры.
      * 
      * @param closeProcedureID
      */
@@ -31,7 +31,7 @@ public class NotifCloseProcType extends BaseDocType
     }
 
     /** 
-     * Get the 'CloseDateTime' element value. Р”Р°С‚Р° / РІСЂРµРјСЏ Р·Р°РєСЂС‹С‚РёСЏ РїСЂРѕС†РµРґСѓСЂС‹
+     * Get the 'CloseDateTime' element value. Дата / время закрытия процедуры
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class NotifCloseProcType extends BaseDocType
     }
 
     /** 
-     * Set the 'CloseDateTime' element value. Р”Р°С‚Р° / РІСЂРµРјСЏ Р·Р°РєСЂС‹С‚РёСЏ РїСЂРѕС†РµРґСѓСЂС‹
+     * Set the 'CloseDateTime' element value. Дата / время закрытия процедуры
      * 
      * @param closeDateTime
      */
@@ -49,7 +49,7 @@ public class NotifCloseProcType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Уникальный идентификатор документа
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class NotifCloseProcType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Уникальный идентификатор документа
      * 
      * @param documentModeID
      */

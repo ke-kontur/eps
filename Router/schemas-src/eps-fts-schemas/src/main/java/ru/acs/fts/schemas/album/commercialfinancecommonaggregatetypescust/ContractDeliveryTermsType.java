@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РІ РєРѕРЅС‚СЂР°РєС‚Рµ
+ * Описание условий поставки в контракте
  */
 public class ContractDeliveryTermsType
 {
@@ -16,7 +16,7 @@ public class ContractDeliveryTermsType
     private List<InvoiceSaleTermsType> invoiceSaleTermList = new ArrayList<InvoiceSaleTermsType>();
 
     /** 
-     * Get the list of 'DeliveryPlace' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р° РїРѕСЃС‚Р°РІРєРё
+     * Get the list of 'DeliveryPlace' element items. Наименование пункта поставки
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class ContractDeliveryTermsType
     }
 
     /** 
-     * Set the list of 'DeliveryPlace' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р° РїРѕСЃС‚Р°РІРєРё
+     * Set the list of 'DeliveryPlace' element items. Наименование пункта поставки
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class ContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'DeliveryTermsNumericCode' element value. Р§РёСЃР»РѕРІРѕР№ РєРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё
+     * Get the 'DeliveryTermsNumericCode' element value. Числовой код условий поставки
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'DeliveryTermsNumericCode' element value. Р§РёСЃР»РѕРІРѕР№ РєРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё
+     * Set the 'DeliveryTermsNumericCode' element value. Числовой код условий поставки
      * 
      * @param deliveryTermsNumericCode
      */
@@ -52,7 +52,7 @@ public class ContractDeliveryTermsType
     }
 
     /** 
-     * Get the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РїРѕ РРЅРєРѕС‚РµСЂРјСЃ
+     * Get the 'DeliveryTermsStringCode' element value. Код условий поставки по Инкотермс
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ContractDeliveryTermsType
     }
 
     /** 
-     * Set the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РїРѕ РРЅРєРѕС‚РµСЂРјСЃ
+     * Set the 'DeliveryTermsStringCode' element value. Код условий поставки по Инкотермс
      * 
      * @param deliveryTermsStringCode
      */
@@ -70,7 +70,7 @@ public class ContractDeliveryTermsType
     }
 
     /** 
-     * Get the list of 'TermsDescription' element items. РћРїРёСЃР°РЅРёРµ, РєРѕРјРјРµРЅС‚Р°СЂРёРё РїРѕ СѓСЃР»РѕРІРёСЏРј РїРѕСЃС‚Р°РІРєРё
+     * Get the list of 'TermsDescription' element items. Описание, комментарии по условиям поставки
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class ContractDeliveryTermsType
     }
 
     /** 
-     * Set the list of 'TermsDescription' element items. РћРїРёСЃР°РЅРёРµ, РєРѕРјРјРµРЅС‚Р°СЂРёРё РїРѕ СѓСЃР»РѕРІРёСЏРј РїРѕСЃС‚Р°РІРєРё
+     * Set the list of 'TermsDescription' element items. Описание, комментарии по условиям поставки
      * 
      * @param list
      */
@@ -88,7 +88,7 @@ public class ContractDeliveryTermsType
     }
 
     /** 
-     * Get the list of 'InvoiceSaleTerms' element items. РЎСЂРѕРє РѕРїР»Р°С‚С‹ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Get the list of 'InvoiceSaleTerms' element items. Срок оплаты по инвойсу
      * 
      * @return list
      */
@@ -97,7 +97,7 @@ public class ContractDeliveryTermsType
     }
 
     /** 
-     * Set the list of 'InvoiceSaleTerms' element items. РЎСЂРѕРє РѕРїР»Р°С‚С‹ РїРѕ РёРЅРІРѕР№СЃСѓ
+     * Set the list of 'InvoiceSaleTerms' element items. Срок оплаты по инвойсу
      * 
      * @param list
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р“Р°СЂР°РЅС‚РёСЏ
+ * Гарантия
  */
 public class GuaranteeType
 {
@@ -13,7 +13,7 @@ public class GuaranteeType
     private List<GuaranteeDocumentType> guaranteeDocumentList = new ArrayList<GuaranteeDocumentType>();
 
     /** 
-     * Get the 'MeasureCode' element value. РљРѕРґ РјРµСЂС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Get the 'MeasureCode' element value. Код меры обеспечения
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GuaranteeType
     }
 
     /** 
-     * Set the 'MeasureCode' element value. РљРѕРґ РјРµСЂС‹ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Set the 'MeasureCode' element value. Код меры обеспечения
      * 
      * @param measureCode
      */
@@ -31,7 +31,7 @@ public class GuaranteeType
     }
 
     /** 
-     * Get the list of 'GuaranteeDocument' element items. Р РµРєРІРёР·РёС‚С‹ РіР°СЂР°РЅС‚РёРё
+     * Get the list of 'GuaranteeDocument' element items. Реквизиты гарантии
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class GuaranteeType
     }
 
     /** 
-     * Set the list of 'GuaranteeDocument' element items. Р РµРєРІРёР·РёС‚С‹ РіР°СЂР°РЅС‚РёРё
+     * Set the list of 'GuaranteeDocument' element items. Реквизиты гарантии
      * 
      * @param list
      */

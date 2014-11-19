@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РЈС‡Р°СЃС‚РѕРє РјР°СЂС€СЂСѓС‚Р° 
+ * Участок маршрута 
  */
 public class RouteType
 {
@@ -17,7 +17,7 @@ public class RouteType
     private OrganizationBaseType client;
 
     /** 
-     * Get the 'From' element value. Р“РґРµ РІР·СЏС‚СЊ 
+     * Get the 'From' element value. Где взять 
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class RouteType
     }
 
     /** 
-     * Set the 'From' element value. Р“РґРµ РІР·СЏС‚СЊ 
+     * Set the 'From' element value. Где взять 
      * 
      * @param from
      */
@@ -35,7 +35,7 @@ public class RouteType
     }
 
     /** 
-     * Get the 'To' element value. РљСѓРґР° РґРѕСЃС‚Р°РІРёС‚СЊ 
+     * Get the 'To' element value. Куда доставить 
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class RouteType
     }
 
     /** 
-     * Set the 'To' element value. РљСѓРґР° РґРѕСЃС‚Р°РІРёС‚СЊ 
+     * Set the 'To' element value. Куда доставить 
      * 
      * @param to
      */
@@ -53,7 +53,7 @@ public class RouteType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіСЂСѓР·Р° 
+     * Get the 'GoodsDescription' element value. Наименование груза 
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class RouteType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РіСЂСѓР·Р° 
+     * Set the 'GoodsDescription' element value. Наименование груза 
      * 
      * @param goodsDescription
      */
@@ -71,7 +71,7 @@ public class RouteType
     }
 
     /** 
-     * Get the list of 'TTNNumber' element items. РќРѕРјРµСЂ РїСЂРёР»РѕР¶РµРЅРЅРѕР№ С‚РѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№ 
+     * Get the list of 'TTNNumber' element items. Номер приложенной товарно-транспортной накладной 
      * 
      * @return list
      */
@@ -80,7 +80,7 @@ public class RouteType
     }
 
     /** 
-     * Set the list of 'TTNNumber' element items. РќРѕРјРµСЂ РїСЂРёР»РѕР¶РµРЅРЅРѕР№ С‚РѕРІР°СЂРЅРѕ-С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕР№ РЅР°РєР»Р°РґРЅРѕР№ 
+     * Set the list of 'TTNNumber' element items. Номер приложенной товарно-транспортной накладной 
      * 
      * @param list
      */
@@ -89,7 +89,7 @@ public class RouteType
     }
 
     /** 
-     * Get the 'Client' element value. Р—Р°РєР°Р·С‡РёРє 
+     * Get the 'Client' element value. Заказчик 
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class RouteType
     }
 
     /** 
-     * Set the 'Client' element value. Р—Р°РєР°Р·С‡РёРє 
+     * Set the 'Client' element value. Заказчик 
      * 
      * @param client
      */

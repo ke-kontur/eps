@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+ * Контактная информация
  */
 public class ContactType
 {
@@ -15,7 +15,7 @@ public class ContactType
     private List<String> EMailList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'Phone' element items. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°
+     * Get the list of 'Phone' element items. Номер телефона
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class ContactType
     }
 
     /** 
-     * Set the list of 'Phone' element items. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°
+     * Set the list of 'Phone' element items. Номер телефона
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class ContactType
     }
 
     /** 
-     * Get the 'Fax' element value. РќРѕРјРµСЂ С„Р°РєСЃР°
+     * Get the 'Fax' element value. Номер факса
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ContactType
     }
 
     /** 
-     * Set the 'Fax' element value. РќРѕРјРµСЂ С„Р°РєСЃР°
+     * Set the 'Fax' element value. Номер факса
      * 
      * @param fax
      */
@@ -51,7 +51,7 @@ public class ContactType
     }
 
     /** 
-     * Get the 'Telex' element value. РќРѕРјРµСЂ С‚РµР»РµРєСЃР°
+     * Get the 'Telex' element value. Номер телекса
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ContactType
     }
 
     /** 
-     * Set the 'Telex' element value. РќРѕРјРµСЂ С‚РµР»РµРєСЃР°
+     * Set the 'Telex' element value. Номер телекса
      * 
      * @param telex
      */
@@ -69,7 +69,7 @@ public class ContactType
     }
 
     /** 
-     * Get the list of 'E_mail' element items. РђРґСЂРµСЃ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹
+     * Get the list of 'E_mail' element items. Адрес электронной почты
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class ContactType
     }
 
     /** 
-     * Set the list of 'E_mail' element items. РђРґСЂРµСЃ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹
+     * Set the list of 'E_mail' element items. Адрес электронной почты
      * 
      * @param list
      */

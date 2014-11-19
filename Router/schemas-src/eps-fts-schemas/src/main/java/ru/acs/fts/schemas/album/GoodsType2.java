@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -28,7 +28,7 @@ public class GoodsType2
     private SupplementaryQuantityType goodsQuantity;
 
     /** 
-     * Get the list of 'GoodDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodDescription' element items. Наименование товара
      * 
      * @return list
      */
@@ -37,7 +37,7 @@ public class GoodsType2
     }
 
     /** 
-     * Set the list of 'GoodDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodDescription' element items. Наименование товара
      * 
      * @param list
      */
@@ -46,7 +46,7 @@ public class GoodsType2
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class GoodsType2
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -64,7 +64,7 @@ public class GoodsType2
     }
 
     /** 
-     * Get the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
+     * Get the 'Cost' element value. Стоимость товара
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class GoodsType2
     }
 
     /** 
-     * Set the 'Cost' element value. РЎС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
+     * Set the 'Cost' element value. Стоимость товара
      * 
      * @param cost
      */
@@ -82,7 +82,7 @@ public class GoodsType2
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Get the 'GoodsQuantity' element value. Количество товара
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class GoodsType2
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Set the 'GoodsQuantity' element value. Количество товара
      * 
      * @param goodsQuantity
      */

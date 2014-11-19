@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.resulttk;
 
 /** 
- * РљРѕРґ СЃС‚СЂР°РЅС‹, РєРѕРґ СЂРµРіРёРѕРЅР°, РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р°
+ * Код страны, код региона, наименование пункта
  */
 public class CountryRegionType
 {
@@ -11,7 +11,7 @@ public class CountryRegionType
     private String placeName;
 
     /** 
-     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryCode' element value. Код страны
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class CountryRegionType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryCode' element value. Код страны
      * 
      * @param countryCode
      */
@@ -29,7 +29,7 @@ public class CountryRegionType
     }
 
     /** 
-     * Get the 'RegionCode' element value. РљРѕРґ СЂРµРіРёРѕРЅР°
+     * Get the 'RegionCode' element value. Код региона
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class CountryRegionType
     }
 
     /** 
-     * Set the 'RegionCode' element value. РљРѕРґ СЂРµРіРёРѕРЅР°
+     * Set the 'RegionCode' element value. Код региона
      * 
      * @param regionCode
      */
@@ -47,7 +47,7 @@ public class CountryRegionType
     }
 
     /** 
-     * Get the 'PlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р°
+     * Get the 'PlaceName' element value. Наименование пункта
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class CountryRegionType
     }
 
     /** 
-     * Set the 'PlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСѓРЅРєС‚Р°
+     * Set the 'PlaceName' element value. Наименование пункта
      * 
      * @param placeName
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.automobileinsurancepolicy;
 import org.joda.time.LocalDate;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ СЃС‚СЂР°С…РѕРІРѕРіРѕ РїРѕР»РёСЃР° РіСЂР°Р¶РґР°РЅСЃРєРѕРіРѕ Р°РІС‚РѕСЃС‚СЂР°С…РѕРІР°РЅРёСЏ 
+ * Регистрационные данные страхового полиса гражданского автострахования 
  */
 public class RegistrationType
 {
@@ -14,7 +14,7 @@ public class RegistrationType
     private LocalDate insurContractDate;
 
     /** 
-     * Get the 'SeriesCode' element value. РЎРµСЂРёСЏ РїРѕР»РёСЃР°
+     * Get the 'SeriesCode' element value. Серия полиса
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'SeriesCode' element value. РЎРµСЂРёСЏ РїРѕР»РёСЃР°
+     * Set the 'SeriesCode' element value. Серия полиса
      * 
      * @param seriesCode
      */
@@ -32,7 +32,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'PolNumber' element value. РќРѕРјРµСЂ РїРѕР»РёСЃР°
+     * Get the 'PolNumber' element value. Номер полиса
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'PolNumber' element value. РќРѕРјРµСЂ РїРѕР»РёСЃР°
+     * Set the 'PolNumber' element value. Номер полиса
      * 
      * @param polNumber
      */
@@ -50,7 +50,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РїРѕР»РёСЃР°
+     * Get the 'IssueDate' element value. Дата выдачи полиса
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РїРѕР»РёСЃР°
+     * Set the 'IssueDate' element value. Дата выдачи полиса
      * 
      * @param issueDate
      */
@@ -68,7 +68,7 @@ public class RegistrationType
     }
 
     /** 
-     * Get the 'InsurContractDate' element value. Р”Р°С‚Р° РґРѕРіРѕРІРѕСЂР° СЃС‚СЂР°С…РѕРІР°РЅРёСЏ
+     * Get the 'InsurContractDate' element value. Дата договора страхования
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class RegistrationType
     }
 
     /** 
-     * Set the 'InsurContractDate' element value. Р”Р°С‚Р° РґРѕРіРѕРІРѕСЂР° СЃС‚СЂР°С…РѕРІР°РЅРёСЏ
+     * Set the 'InsurContractDate' element value. Дата договора страхования
      * 
      * @param insurContractDate
      */

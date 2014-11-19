@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadktscommonaggregatetypescust;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.CustomsPaymentCalculationType;
 
 /** 
- * РљРўРЎ. РСЃС‡РёСЃР»РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№.
+ * КТС. Исчисление таможенных платежей.
  */
 public class KTSCustomsPaymentCalculationType
         extends
@@ -15,7 +15,7 @@ public class KTSCustomsPaymentCalculationType
     private String precedingPaymentCurrencyCode;
 
     /** 
-     * Get the 'PrecedingPaymentAmount' element value. РџСЂРµРґС‹РґСѓС‰Р°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Get the 'PrecedingPaymentAmount' element value. Предыдущая сумма платежа
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class KTSCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'PrecedingPaymentAmount' element value. РџСЂРµРґС‹РґСѓС‰Р°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Set the 'PrecedingPaymentAmount' element value. Предыдущая сумма платежа
      * 
      * @param precedingPaymentAmount
      */
@@ -33,7 +33,7 @@ public class KTSCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'ChangeAmount' element value. РР·РјРµРЅРµРЅРёРµ (РІ СЂСѓР±Р»СЏС…)
+     * Get the 'ChangeAmount' element value. Изменение (в рублях)
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class KTSCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'ChangeAmount' element value. РР·РјРµРЅРµРЅРёРµ (РІ СЂСѓР±Р»СЏС…)
+     * Set the 'ChangeAmount' element value. Изменение (в рублях)
      * 
      * @param changeAmount
      */
@@ -51,7 +51,7 @@ public class KTSCustomsPaymentCalculationType
     }
 
     /** 
-     * Get the 'PrecedingPaymentCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїСЂРµРґС‹РґСѓС‰РµР№ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°
+     * Get the 'PrecedingPaymentCurrencyCode' element value. Код валюты предыдущей суммы платежа
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class KTSCustomsPaymentCalculationType
     }
 
     /** 
-     * Set the 'PrecedingPaymentCurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РїСЂРµРґС‹РґСѓС‰РµР№ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°
+     * Set the 'PrecedingPaymentCurrencyCode' element value. Код валюты предыдущей суммы платежа
      * 
      * @param precedingPaymentCurrencyCode
      */

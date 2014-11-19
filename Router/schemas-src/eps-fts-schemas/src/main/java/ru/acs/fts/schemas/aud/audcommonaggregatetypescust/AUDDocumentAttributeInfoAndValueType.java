@@ -8,7 +8,7 @@ import org.joda.time.LocalDate;
 import org.joda.time.LocalTime;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµРєРІРёР·РёС‚Рµ РґРѕРєСѓРјРµРЅС‚Р° Рё Р·РЅР°С‡РµРЅРёРµ СЂРµРєРІРёР·РёС‚Р°.
+ * Информация о реквизите документа и значение реквизита.
  */
 public class AUDDocumentAttributeInfoAndValueType
         extends
@@ -58,7 +58,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Get the 'StringValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°).
+     * Get the 'StringValue' element value. Значение типа "string" (строка).
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Set the 'StringValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°).
+     * Set the 'StringValue' element value. Значение типа "string" (строка).
      * 
      * @param stringValue
      */
@@ -86,7 +86,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Get the 'TimeValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "time" (РІСЂРµРјСЏ).
+     * Get the 'TimeValue' element value. Значение типа "time" (время).
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Set the 'TimeValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "time" (РІСЂРµРјСЏ).
+     * Set the 'TimeValue' element value. Значение типа "time" (время).
      * 
      * @param timeValue
      */
@@ -114,7 +114,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Get the 'DateValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "date" (РґР°С‚Р°).
+     * Get the 'DateValue' element value. Значение типа "date" (дата).
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Set the 'DateValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "date" (РґР°С‚Р°).
+     * Set the 'DateValue' element value. Значение типа "date" (дата).
      * 
      * @param dateValue
      */
@@ -142,7 +142,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Get the 'DateTimeValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "datetime" (РґР°С‚Р° Рё РІСЂРµРјСЏ).
+     * Get the 'DateTimeValue' element value. Значение типа "datetime" (дата и время).
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Set the 'DateTimeValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "datetime" (РґР°С‚Р° Рё РІСЂРµРјСЏ).
+     * Set the 'DateTimeValue' element value. Значение типа "datetime" (дата и время).
      * 
      * @param dateTimeValue
      */
@@ -170,7 +170,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Get the 'DurationValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "duration" (РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ).
+     * Get the 'DurationValue' element value. Значение типа "duration" (длительность).
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Set the 'DurationValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "duration" (РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ).
+     * Set the 'DurationValue' element value. Значение типа "duration" (длительность).
      * 
      * @param durationValue
      */
@@ -198,7 +198,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Get the 'RealNumberValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "real" (РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ)
+     * Get the 'RealNumberValue' element value. Значение типа "real" (вещественное число)
      * 
      * @return value
      */
@@ -207,7 +207,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Set the 'RealNumberValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "real" (РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ)
+     * Set the 'RealNumberValue' element value. Значение типа "real" (вещественное число)
      * 
      * @param realNumberValue
      */
@@ -226,7 +226,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Get the 'IntegerNumberValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "integer" (С†РµР»РѕРµ С‡РёСЃР»Рѕ).
+     * Get the 'IntegerNumberValue' element value. Значение типа "integer" (целое число).
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Set the 'IntegerNumberValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "integer" (С†РµР»РѕРµ С‡РёСЃР»Рѕ).
+     * Set the 'IntegerNumberValue' element value. Значение типа "integer" (целое число).
      * 
      * @param integerNumberValue
      */
@@ -254,7 +254,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Get the 'BooleanValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "boolean" (Р±СѓР»РµРІРѕРµ).
+     * Get the 'BooleanValue' element value. Значение типа "boolean" (булевое).
      * 
      * @return value
      */
@@ -263,7 +263,7 @@ public class AUDDocumentAttributeInfoAndValueType
     }
 
     /** 
-     * Set the 'BooleanValue' element value. Р—РЅР°С‡РµРЅРёРµ С‚РёРїР° "boolean" (Р±СѓР»РµРІРѕРµ).
+     * Set the 'BooleanValue' element value. Значение типа "boolean" (булевое).
      * 
      * @param booleanValue
      */

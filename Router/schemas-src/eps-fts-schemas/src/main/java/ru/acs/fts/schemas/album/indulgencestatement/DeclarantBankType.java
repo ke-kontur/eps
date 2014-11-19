@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р±Р°РЅРєРµ Р·Р°СЏРІРёС‚РµР»СЏ 
+ * Сведения о банке заявителя 
  */
 public class DeclarantBankType extends OrganizationBaseType
 {
@@ -19,7 +19,7 @@ public class DeclarantBankType extends OrganizationBaseType
     private AddressType legalAddress;
 
     /** 
-     * Get the 'BICID' element value. Р‘РРљ Р±Р°РЅРєР°
+     * Get the 'BICID' element value. БИК банка
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'BICID' element value. Р‘РРљ Р±Р°РЅРєР°
+     * Set the 'BICID' element value. БИК банка
      * 
      * @param BICID
      */
@@ -37,7 +37,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'AccountNumeric' element value. РќРѕРјРµСЂ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС‚СЃРєРѕРіРѕ СЃС‡РµС‚Р° Р±Р°РЅРєР°
+     * Get the 'AccountNumeric' element value. Номер корреспондентского счета банка
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'AccountNumeric' element value. РќРѕРјРµСЂ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС‚СЃРєРѕРіРѕ СЃС‡РµС‚Р° Р±Р°РЅРєР°
+     * Set the 'AccountNumeric' element value. Номер корреспондентского счета банка
      * 
      * @param accountNumeric
      */
@@ -55,7 +55,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Phone' element value. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°.
+     * Get the 'Phone' element value. Номер телефона.
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Phone' element value. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°.
+     * Set the 'Phone' element value. Номер телефона.
      * 
      * @param phone
      */
@@ -73,7 +73,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Fax' element value. РќРѕРјРµСЂ С„Р°РєСЃР°.
+     * Get the 'Fax' element value. Номер факса.
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Fax' element value. РќРѕРјРµСЂ С„Р°РєСЃР°.
+     * Set the 'Fax' element value. Номер факса.
      * 
      * @param fax
      */
@@ -91,7 +91,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Telex' element value. РќРѕРјРµСЂ С‚РµР»РµРєСЃР°.
+     * Get the 'Telex' element value. Номер телекса.
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Telex' element value. РќРѕРјРµСЂ С‚РµР»РµРєСЃР°.
+     * Set the 'Telex' element value. Номер телекса.
      * 
      * @param telex
      */
@@ -109,7 +109,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ.
+     * Get the 'OKPOID' element value. Код организации по ОКПО.
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OKPOID' element value. РљРѕРґ РѕСЂРіР°РЅРёР·Р°С†РёРё РїРѕ РћРљРџРћ.
+     * Set the 'OKPOID' element value. Код организации по ОКПО.
      * 
      * @param OKPOID
      */
@@ -127,7 +127,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OKATOCode' element value. РљРѕРґ РћРљРђРўРћ.
+     * Get the 'OKATOCode' element value. Код ОКАТО.
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OKATOCode' element value. РљРѕРґ РћРљРђРўРћ.
+     * Set the 'OKATOCode' element value. Код ОКАТО.
      * 
      * @param OKATOCode
      */
@@ -145,7 +145,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ Р±Р°РЅРєР°
+     * Get the 'LegalAddress' element value. Юридический адрес банка
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class DeclarantBankType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ Р±Р°РЅРєР°
+     * Set the 'LegalAddress' element value. Юридический адрес банка
      * 
      * @param legalAddress
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * Р—Р°СЏРІР»РµРЅРёРµ РЅР° РїРѕР»СѓС‡РµРЅРёРµ СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° РІРІРѕР·/РІС‹РІРѕР· С‚РѕРІР°СЂРѕРІ РЅР° (СЃ) С‚РµСЂСЂРёС‚РѕСЂРёСЋ (РёРё) РџРћР­Р—
+ * Заявление на получение разрешения на ввоз/вывоз товаров на (с) территорию (ии) ПОЭЗ
  */
 public class OEZPermitApplicationType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class OEZPermitApplicationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ApplicationDetails' element value. РЎРІРµРґРµРЅРёСЏ, СЃРѕРґРµСЂР¶Р°С‰РёРµСЃСЏ РІ Р·Р°СЏРІР»РµРЅРёРё РЅР° РЅРѕРІРѕРµ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Get the 'ApplicationDetails' element value. Сведения, содержащиеся в заявлении на новое разрешение
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class OEZPermitApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationDetails' element value. РЎРІРµРґРµРЅРёСЏ, СЃРѕРґРµСЂР¶Р°С‰РёРµСЃСЏ РІ Р·Р°СЏРІР»РµРЅРёРё РЅР° РЅРѕРІРѕРµ СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Set the 'ApplicationDetails' element value. Сведения, содержащиеся в заявлении на новое разрешение
      * 
      * @param applicationDetails
      */
@@ -36,7 +36,7 @@ public class OEZPermitApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'PlanDate' element value. РџР»Р°РЅРёСЂСѓРµРјР°СЏ РґР°С‚Р° РІРІРѕР·Р°/РІС‹РІРѕР·Р° С‚РѕРІР°СЂРѕРІ
+     * Get the 'PlanDate' element value. Планируемая дата ввоза/вывоза товаров
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class OEZPermitApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'PlanDate' element value. РџР»Р°РЅРёСЂСѓРµРјР°СЏ РґР°С‚Р° РІРІРѕР·Р°/РІС‹РІРѕР·Р° С‚РѕРІР°СЂРѕРІ
+     * Set the 'PlanDate' element value. Планируемая дата ввоза/вывоза товаров
      * 
      * @param planDate
      */
@@ -54,7 +54,7 @@ public class OEZPermitApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Applicant' element value. Р—Р°СЏРІРёС‚РµР»СЊ (Р РµР·РёРґРµРЅС‚ РџРћР­Р— Р»РёР±Рѕ Р»РёС†Рѕ, РґРµР№СЃС‚РІСѓСЋС‰РµРµ РїРѕ РµРіРѕ РїРѕСЂСѓС‡РµРЅРёСЋ)
+     * Get the 'Applicant' element value. Заявитель (Резидент ПОЭЗ либо лицо, действующее по его поручению)
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class OEZPermitApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Applicant' element value. Р—Р°СЏРІРёС‚РµР»СЊ (Р РµР·РёРґРµРЅС‚ РџРћР­Р— Р»РёР±Рѕ Р»РёС†Рѕ, РґРµР№СЃС‚РІСѓСЋС‰РµРµ РїРѕ РµРіРѕ РїРѕСЂСѓС‡РµРЅРёСЋ)
+     * Set the 'Applicant' element value. Заявитель (Резидент ПОЭЗ либо лицо, действующее по его поручению)
      * 
      * @param applicant
      */
@@ -72,7 +72,7 @@ public class OEZPermitApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class OEZPermitApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -90,7 +90,7 @@ public class OEZPermitApplicationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class OEZPermitApplicationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.TIRForwarder
 import ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust.TIRIdentifierType;
 
 /** 
- * Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ РєРѕРїРёСЏ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё, РІ РєР°С‡РµСЃС‚РІРµ РєРѕС‚РѕСЂРѕР№ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РєРЅРёР¶РєР° РњР”Рџ СЃ РїСЂРёР»Р°РіР°РµРјС‹РјРё Рє РЅРµР№ С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹РјРё (РїРµСЂРµРІРѕР·РѕС‡РЅС‹РјРё) Рё РєРѕРјРјРµСЂС‡РµСЃРєРёРјРё РґРѕРєСѓРјРµРЅС‚Р°РјРё
+ * Электронная копия транзитной декларации, в качестве которой используется книжка МДП с прилагаемыми к ней транспортными (перевозочными) и коммерческими документами
  */
 public class CUTIRCarnetType extends BaseDocType
 {
@@ -43,7 +43,7 @@ public class CUTIRCarnetType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'TransitDirectionCode' element value.  РРњ, Р­Рљ, РўР , Р’Рў, РўРЎ. Р“СЂ. 1 РўР”. РўСЂРµС‚РёР№ РїРѕРґСЂР°Р·РґРµР»
+     * Get the 'TransitDirectionCode' element value.  ИМ, ЭК, ТР, ВТ, ТС. Гр. 1 ТД. Третий подраздел
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransitDirectionCode' element value.  РРњ, Р­Рљ, РўР , Р’Рў, РўРЎ. Р“СЂ. 1 РўР”. РўСЂРµС‚РёР№ РїРѕРґСЂР°Р·РґРµР»
+     * Set the 'TransitDirectionCode' element value.  ИМ, ЭК, ТР, ВТ, ТС. Гр. 1 ТД. Третий подраздел
      * 
      * @param transitDirectionCode
      */
@@ -61,7 +61,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsProcedure' element value. РњР”Рџ. РџРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.1 РўР”
+     * Get the 'CustomsProcedure' element value. МДП. Первый подраздел гр.1 ТД
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsProcedure' element value. РњР”Рџ. РџРµСЂРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.1 РўР”
+     * Set the 'CustomsProcedure' element value. МДП. Первый подраздел гр.1 ТД
      * 
      * @param customsProcedure
      */
@@ -79,7 +79,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. РћР±С‰РµРµ С‡РёСЃР»Рѕ  С‚РѕРІР°СЂРѕРІ РїРѕ РєРЅРёР¶РєРµ РњР”Рџ
+     * Get the 'GoodsQuantity' element value. Общее число  товаров по книжке МДП
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. РћР±С‰РµРµ С‡РёСЃР»Рѕ  С‚РѕРІР°СЂРѕРІ РїРѕ РєРЅРёР¶РєРµ РњР”Рџ
+     * Set the 'GoodsQuantity' element value. Общее число  товаров по книжке МДП
      * 
      * @param goodsQuantity
      */
@@ -97,7 +97,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'SpecificationNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№
+     * Get the 'SpecificationNumber' element value. Общее количество отгрузочных спецификаций
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'SpecificationNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹С… СЃРїРµС†РёС„РёРєР°С†РёР№
+     * Set the 'SpecificationNumber' element value. Общее количество отгрузочных спецификаций
      * 
      * @param specificationNumber
      */
@@ -115,7 +115,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'ShipSpecifGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РїРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹Рј СЃРїРµС†РёС„РёРєР°С†РёСЏРј
+     * Get the 'ShipSpecifGoodsQuantity' element value. Количество товаров по отгрузочным спецификациям
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'ShipSpecifGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РїРѕ РѕС‚РіСЂСѓР·РѕС‡РЅС‹Рј СЃРїРµС†РёС„РёРєР°С†РёСЏРј
+     * Set the 'ShipSpecifGoodsQuantity' element value. Количество товаров по отгрузочным спецификациям
      * 
      * @param shipSpecifGoodsQuantity
      */
@@ -133,7 +133,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'DispatchCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DispatchCountryCode' element value. Буквенный код страны отправления
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'DispatchCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DispatchCountryCode' element value. Буквенный код страны отправления
      * 
      * @param dispatchCountryCode
      */
@@ -151,7 +151,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationCountryCode' element value. Буквенный код страны назначения
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationCountryCode' element value. Буквенный код страны назначения
      * 
      * @param destinationCountryCode
      */
@@ -169,7 +169,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalInvoicedCost' element value. РћР±С‰Р°СЏ С„Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Get the 'TotalInvoicedCost' element value. Общая фактурная стоимость
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalInvoicedCost' element value. РћР±С‰Р°СЏ С„Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Set the 'TotalInvoicedCost' element value. Общая фактурная стоимость
      * 
      * @param totalInvoicedCost
      */
@@ -187,7 +187,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'InvoicedCostCurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚
+     * Get the 'InvoicedCostCurrencyCode' element value. Буквенный код валюты фактурной стоимости в соответствии с классификатором валют
      * 
      * @return value
      */
@@ -196,7 +196,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'InvoicedCostCurrencyCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ РІР°Р»СЋС‚С‹ С„Р°РєС‚СѓСЂРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІР°Р»СЋС‚
+     * Set the 'InvoicedCostCurrencyCode' element value. Буквенный код валюты фактурной стоимости в соответствии с классификатором валют
      * 
      * @param invoicedCostCurrencyCode
      */
@@ -205,7 +205,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalPageQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІСЃРµС… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'TotalPageQuantity' element value. Количество листов всех документов
      * 
      * @return value
      */
@@ -214,7 +214,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalPageQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РІСЃРµС… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'TotalPageQuantity' element value. Количество листов всех документов
      * 
      * @param totalPageQuantity
      */
@@ -223,7 +223,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationCountryName' element value. Наименование страны назначения
      * 
      * @return value
      */
@@ -232,7 +232,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationCountryName' element value. Наименование страны назначения
      * 
      * @param destinationCountryName
      */
@@ -241,7 +241,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'DispatchCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DispatchCountryName' element value. Наименование страны отправления
      * 
      * @return value
      */
@@ -250,7 +250,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'DispatchCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DispatchCountryName' element value. Наименование страны отправления
      * 
      * @param dispatchCountryName
      */
@@ -259,7 +259,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalPackageNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Get the 'TotalPackageNumber' element value. Общее количество грузовых мест
      * 
      * @return value
      */
@@ -268,7 +268,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalPackageNumber' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Set the 'TotalPackageNumber' element value. Общее количество грузовых мест
      * 
      * @param totalPackageNumber
      */
@@ -277,7 +277,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'Language' element value. РљРѕРґ СЏР·С‹РєР° Р·Р°РїРѕР»РЅРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'Language' element value. Код языка заполнения документа
      * 
      * @return value
      */
@@ -286,7 +286,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'Language' element value. РљРѕРґ СЏР·С‹РєР° Р·Р°РїРѕР»РЅРµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'Language' element value. Код языка заполнения документа
      * 
      * @param language
      */
@@ -295,7 +295,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateExpectedArrival' element value. Р”Р°С‚Р° РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
+     * Get the 'DateExpectedArrival' element value. Дата ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
      * 
      * @return value
      */
@@ -304,7 +304,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateExpectedArrival' element value. Р”Р°С‚Р° РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
+     * Set the 'DateExpectedArrival' element value. Дата ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
      * 
      * @param dateExpectedArrival
      */
@@ -313,7 +313,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'TimeExpectedArrival' element value. Р’СЂРµРјСЏ РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
+     * Get the 'TimeExpectedArrival' element value. Время ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
      * 
      * @return value
      */
@@ -322,7 +322,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'TimeExpectedArrival' element value. Р’СЂРµРјСЏ РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
+     * Set the 'TimeExpectedArrival' element value. Время ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
      * 
      * @param timeExpectedArrival
      */
@@ -331,7 +331,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'TIRIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIRIdentifier' element value. Идентификатор книжки МДП
      * 
      * @return value
      */
@@ -340,7 +340,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'TIRIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIRIdentifier' element value. Идентификатор книжки МДП
      * 
      * @param TIRIdentifier
      */
@@ -349,7 +349,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє / Р”РµСЂР¶Р°С‚РµР»СЊ РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'Carrier' element value. Перевозчик / Держатель книжки МДП
      * 
      * @return value
      */
@@ -358,7 +358,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє / Р”РµСЂР¶Р°С‚РµР»СЊ РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'Carrier' element value. Перевозчик / Держатель книжки МДП
      * 
      * @param carrier
      */
@@ -367,7 +367,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'Forwarder' element value. Р­РєСЃРїРµРґРёС‚РѕСЂ
+     * Get the 'Forwarder' element value. Экспедитор
      * 
      * @return value
      */
@@ -376,7 +376,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'Forwarder' element value. Р­РєСЃРїРµРґРёС‚РѕСЂ
+     * Set the 'Forwarder' element value. Экспедитор
      * 
      * @param forwarder
      */
@@ -385,7 +385,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'CUTransport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° 
+     * Get the 'CUTransport' element value. Транспортные средства 
      * 
      * @return value
      */
@@ -394,7 +394,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'CUTransport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° 
+     * Set the 'CUTransport' element value. Транспортные средства 
      * 
      * @param CUTransport
      */
@@ -403,7 +403,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PrecedingDocument' element items. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚
+     * Get the list of 'PrecedingDocument' element items. Предшествующий документ
      * 
      * @return list
      */
@@ -412,7 +412,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PrecedingDocument' element items. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚
+     * Set the list of 'PrecedingDocument' element items. Предшествующий документ
      * 
      * @param list
      */
@@ -421,7 +421,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'CUPresentedDocuments' element items. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the list of 'CUPresentedDocuments' element items. Представленные документы
      * 
      * @return list
      */
@@ -430,7 +430,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'CUPresentedDocuments' element items. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the list of 'CUPresentedDocuments' element items. Представленные документы
      * 
      * @param list
      */
@@ -439,7 +439,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'TIRDeclarant' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
+     * Get the 'TIRDeclarant' element value. Информация о декларанте
      * 
      * @return value
      */
@@ -448,7 +448,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'TIRDeclarant' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
+     * Set the 'TIRDeclarant' element value. Информация о декларанте
      * 
      * @param TIRDeclarant
      */
@@ -457,7 +457,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TIRShipment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the list of 'TIRShipment' element items. Сведения о товарной партии
      * 
      * @return list
      */
@@ -466,7 +466,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TIRShipment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the list of 'TIRShipment' element items. Сведения о товарной партии
      * 
      * @param list
      */
@@ -475,7 +475,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'BorderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ (РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РІ РєРѕС‚РѕСЂС‹Р№ РѕР¶РёРґР°РµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the 'BorderCustoms' element value. Таможенный орган (пограничный пункт пропуска), в который ожидается прибытие товаров и транспортных средств
      * 
      * @return value
      */
@@ -484,7 +484,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'BorderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ (РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РІ РєРѕС‚РѕСЂС‹Р№ РѕР¶РёРґР°РµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the 'BorderCustoms' element value. Таможенный орган (пограничный пункт пропуска), в который ожидается прибытие товаров и транспортных средств
      * 
      * @param borderCustoms
      */
@@ -493,7 +493,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -502,7 +502,7 @@ public class CUTIRCarnetType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

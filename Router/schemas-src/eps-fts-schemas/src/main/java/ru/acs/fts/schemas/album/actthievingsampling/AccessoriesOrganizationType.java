@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РћСЂРіР°РЅРёР·Р°С†РёСЏ, РєРѕС‚РѕСЂРѕР№  РїСЂРёРЅР°РґР»РµР¶Р°С‚ РїСЂРµРґРјРµС‚С‹. 
+ * Организация, которой  принадлежат предметы. 
  */
 public class AccessoriesOrganizationType
 {
@@ -15,7 +15,7 @@ public class AccessoriesOrganizationType
     private PersonSignatureType organizationPerson;
 
     /** 
-     * Get the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'Organization' element value. Сведения о организации
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class AccessoriesOrganizationType
     }
 
     /** 
-     * Set the 'Organization' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'Organization' element value. Сведения о организации
      * 
      * @param organization
      */
@@ -33,7 +33,7 @@ public class AccessoriesOrganizationType
     }
 
     /** 
-     * Get the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'LegalAddress' element value. Юридический адрес организации
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class AccessoriesOrganizationType
     }
 
     /** 
-     * Set the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'LegalAddress' element value. Юридический адрес организации
      * 
      * @param legalAddress
      */
@@ -51,7 +51,7 @@ public class AccessoriesOrganizationType
     }
 
     /** 
-     * Get the 'OrganizationPerson' element value. РџСЂРµРґСЃС‚Р°РІРёС‚СЊ РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Get the 'OrganizationPerson' element value. Представить организации.
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class AccessoriesOrganizationType
     }
 
     /** 
-     * Set the 'OrganizationPerson' element value. РџСЂРµРґСЃС‚Р°РІРёС‚СЊ РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Set the 'OrganizationPerson' element value. Представить организации.
      * 
      * @param organizationPerson
      */

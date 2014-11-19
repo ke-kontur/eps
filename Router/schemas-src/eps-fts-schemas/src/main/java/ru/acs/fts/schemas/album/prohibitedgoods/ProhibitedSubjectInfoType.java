@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.prohibitedgoods;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ, РЅР° РєРѕС‚РѕСЂС‹Р№ РЅР°РєР»Р°РґС‹РІР°РµС‚СЃСЏ Р·Р°РїСЂРµС‚ РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРёРµ
+ * Информация о товаре, на который накладывается запрет или ограничение
  */
 public class ProhibitedSubjectInfoType extends SupplementaryQuantityType
 {
@@ -12,7 +12,7 @@ public class ProhibitedSubjectInfoType extends SupplementaryQuantityType
     private String description;
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
+     * Get the 'Name' element value. Наименование
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ProhibitedSubjectInfoType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ
+     * Set the 'Name' element value. Наименование
      * 
      * @param name
      */
@@ -30,7 +30,7 @@ public class ProhibitedSubjectInfoType extends SupplementaryQuantityType
     }
 
     /** 
-     * Get the 'Description' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'Description' element value. Описание товара
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ProhibitedSubjectInfoType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'Description' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'Description' element value. Описание товара
      * 
      * @param description
      */

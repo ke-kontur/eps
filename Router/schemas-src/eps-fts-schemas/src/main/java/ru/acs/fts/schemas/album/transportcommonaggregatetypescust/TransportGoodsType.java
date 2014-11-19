@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportGoodsBaseType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+ * Описание товара
  */
 public class TransportGoodsType extends TransportGoodsBaseType
 {
@@ -16,7 +16,7 @@ public class TransportGoodsType extends TransportGoodsBaseType
     private String volumeQuantity;
 
     /** 
-     * Get the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Get the 'GoodsNumeric' element value. Порядковый номер товара
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class TransportGoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Set the 'GoodsNumeric' element value. Порядковый номер товара
      * 
      * @param goodsNumeric
      */
@@ -34,7 +34,7 @@ public class TransportGoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsNomenclatureCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsNomenclatureCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class TransportGoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsNomenclatureCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsNomenclatureCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsNomenclatureCode
      */
@@ -52,7 +52,7 @@ public class TransportGoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the list of 'HazardousCargoCode' element items. РљРѕРґ РєР»Р°СЃСЃР° РѕРїР°СЃРЅРѕСЃС‚Рё РіСЂСѓР·Р° РїРѕ РњРћРџРћР“/Р”РћРџРћР“ РґР»СЏ РѕРїР°СЃРЅС‹С… РіСЂСѓР·РѕРІ
+     * Get the list of 'HazardousCargoCode' element items. Код класса опасности груза по МОПОГ/ДОПОГ для опасных грузов
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class TransportGoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the list of 'HazardousCargoCode' element items. РљРѕРґ РєР»Р°СЃСЃР° РѕРїР°СЃРЅРѕСЃС‚Рё РіСЂСѓР·Р° РїРѕ РњРћРџРћР“/Р”РћРџРћР“ РґР»СЏ РѕРїР°СЃРЅС‹С… РіСЂСѓР·РѕРІ
+     * Set the list of 'HazardousCargoCode' element items. Код класса опасности груза по МОПОГ/ДОПОГ для опасных грузов
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class TransportGoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Get the 'VolumeQuantity' element value. РћР±СЉРµРј С‚РѕРІР°СЂР° (РіСЂСѓР·Р°) РІ РєСѓР±РѕРјРµС‚СЂР°С…
+     * Get the 'VolumeQuantity' element value. Объем товара (груза) в кубометрах
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class TransportGoodsType extends TransportGoodsBaseType
     }
 
     /** 
-     * Set the 'VolumeQuantity' element value. РћР±СЉРµРј С‚РѕРІР°СЂР° (РіСЂСѓР·Р°) РІ РєСѓР±РѕРјРµС‚СЂР°С…
+     * Set the 'VolumeQuantity' element value. Объем товара (груза) в кубометрах
      * 
      * @param volumeQuantity
      */

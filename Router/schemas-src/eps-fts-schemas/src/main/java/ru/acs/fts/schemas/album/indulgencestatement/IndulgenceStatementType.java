@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р—Р°СЏРІР»РµРЅРёРµ РЅР° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕС‚СЃСЂРѕС‡РєРё (СЂР°СЃСЃСЂРѕС‡РєРё) СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ 
+ * Заявление на предоставление отсрочки (рассрочки) уплаты таможенных платежей 
  */
 public class IndulgenceStatementType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class IndulgenceStatementType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IndulgenceStatementRegistration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ Р·Р°СЏРІР»РµРЅРёСЏ
+     * Get the 'IndulgenceStatementRegistration' element value. Регистрационные данные заявления
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Set the 'IndulgenceStatementRegistration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ Р·Р°СЏРІР»РµРЅРёСЏ
+     * Set the 'IndulgenceStatementRegistration' element value. Регистрационные данные заявления
      * 
      * @param indulgenceStatementRegistration
      */
@@ -40,7 +40,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractRegistration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ContractRegistration' element value. Регистрационные данные контракта
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractRegistration' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ContractRegistration' element value. Регистрационные данные контракта
      * 
      * @param contractRegistration
      */
@@ -58,7 +58,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Get the 'ContractTerms' element value. РЈСЃР»РѕРІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ContractTerms' element value. Условия контракта
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Set the 'ContractTerms' element value. РЈСЃР»РѕРІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ContractTerms' element value. Условия контракта
      * 
      * @param contractTerms
      */
@@ -76,7 +76,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Get the 'Declarant' element value. Сведения о заявителе
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+     * Set the 'Declarant' element value. Сведения о заявителе
      * 
      * @param declarant
      */
@@ -94,7 +94,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclarantBank' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р±Р°РЅРєРµ Р·Р°СЏРІРёС‚РµР»СЏ 
+     * Get the 'DeclarantBank' element value. Сведения о банке заявителя 
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarantBank' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р±Р°РЅРєРµ Р·Р°СЏРІРёС‚РµР»СЏ 
+     * Set the 'DeclarantBank' element value. Сведения о банке заявителя 
      * 
      * @param declarantBank
      */
@@ -112,7 +112,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Get the 'IndulgenceStatementContractor' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Рµ
+     * Get the 'IndulgenceStatementContractor' element value. Сведения о контрагенте
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Set the 'IndulgenceStatementContractor' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Рµ
+     * Set the 'IndulgenceStatementContractor' element value. Сведения о контрагенте
      * 
      * @param indulgenceStatementContractor
      */
@@ -131,7 +131,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Payment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Р°С…
+     * Get the list of 'Payment' element items. Сведения о платежах
      * 
      * @return list
      */
@@ -140,7 +140,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Payment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР¶Р°С…
+     * Set the list of 'Payment' element items. Сведения о платежах
      * 
      * @param list
      */
@@ -149,7 +149,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class IndulgenceStatementType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

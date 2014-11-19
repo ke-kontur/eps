@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћР±РѕСЂРѕС‚РЅР°СЏ СЃС‚РѕСЂРѕРЅР°
+ * Оборотная сторона
  */
 public class VersoType
 {
@@ -20,7 +20,7 @@ public class VersoType
     private List<OtherApplicationsType> otherApplicationList = new ArrayList<OtherApplicationsType>();
 
     /** 
-     * Get the 'TermsSubsoil' element value. РЈСЃР»РѕРІРёСЏ РїРѕР»СЊР·РѕРІР°РЅРёСЏ РЅРµРґСЂР°РјРё
+     * Get the 'TermsSubsoil' element value. Условия пользования недрами
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class VersoType
     }
 
     /** 
-     * Set the 'TermsSubsoil' element value. РЈСЃР»РѕРІРёСЏ РїРѕР»СЊР·РѕРІР°РЅРёСЏ РЅРµРґСЂР°РјРё
+     * Set the 'TermsSubsoil' element value. Условия пользования недрами
      * 
      * @param termsSubsoil
      */
@@ -38,7 +38,7 @@ public class VersoType
     }
 
     /** 
-     * Get the 'CopySolutions' element value. РљРѕРїРёСЏ  СЂРµС€РµРЅРёСЏ,  СЏРІР»СЏСЋС‰РµРіРѕСЃСЏ  РѕСЃРЅРѕРІР°РЅРёРµРј  РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ  Р»РёС†РµРЅР·РёРё,
+     * Get the 'CopySolutions' element value. Копия  решения,  являющегося  основанием  предоставления  лицензии,
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class VersoType
     }
 
     /** 
-     * Set the 'CopySolutions' element value. РљРѕРїРёСЏ  СЂРµС€РµРЅРёСЏ,  СЏРІР»СЏСЋС‰РµРіРѕСЃСЏ  РѕСЃРЅРѕРІР°РЅРёРµРј  РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ  Р»РёС†РµРЅР·РёРё,
+     * Set the 'CopySolutions' element value. Копия  решения,  являющегося  основанием  предоставления  лицензии,
      * 
      * @param copySolutions
      */
@@ -56,7 +56,7 @@ public class VersoType
     }
 
     /** 
-     * Get the 'LocationPlot' element value. РЎС…РµРјР° СЂР°СЃРїРѕР»РѕР¶РµРЅРёСЏ СѓС‡Р°СЃС‚РєР° РЅРµРґСЂ 
+     * Get the 'LocationPlot' element value. Схема расположения участка недр 
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class VersoType
     }
 
     /** 
-     * Set the 'LocationPlot' element value. РЎС…РµРјР° СЂР°СЃРїРѕР»РѕР¶РµРЅРёСЏ СѓС‡Р°СЃС‚РєР° РЅРµРґСЂ 
+     * Set the 'LocationPlot' element value. Схема расположения участка недр 
      * 
      * @param locationPlot
      */
@@ -74,7 +74,7 @@ public class VersoType
     }
 
     /** 
-     * Get the 'CopyJuridicalPersonRegistrationCertificate' element value. РљРѕРїРёСЏ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'CopyJuridicalPersonRegistrationCertificate' element value. Копия свидетельства о государственной регистрации юридического лица
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class VersoType
     }
 
     /** 
-     * Set the 'CopyJuridicalPersonRegistrationCertificate' element value. РљРѕРїРёСЏ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕР№ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'CopyJuridicalPersonRegistrationCertificate' element value. Копия свидетельства о государственной регистрации юридического лица
      * 
      * @param copyJuridicalPersonRegistrationCertificate
      */
@@ -93,7 +93,7 @@ public class VersoType
     }
 
     /** 
-     * Get the 'CopyTaxOrganRegistrationCertificate' element value. РљРѕРїРёСЏ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РїРѕСЃС‚Р°РЅРѕРІРєРµ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ РЅРµРґСЂ РЅР° РЅР°Р»РѕРіРѕРІС‹Р№ СѓС‡РµС‚
+     * Get the 'CopyTaxOrganRegistrationCertificate' element value. Копия свидетельства о постановке пользователя недр на налоговый учет
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class VersoType
     }
 
     /** 
-     * Set the 'CopyTaxOrganRegistrationCertificate' element value. РљРѕРїРёСЏ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РїРѕСЃС‚Р°РЅРѕРІРєРµ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ РЅРµРґСЂ РЅР° РЅР°Р»РѕРіРѕРІС‹Р№ СѓС‡РµС‚
+     * Set the 'CopyTaxOrganRegistrationCertificate' element value. Копия свидетельства о постановке пользователя недр на налоговый учет
      * 
      * @param copyTaxOrganRegistrationCertificate
      */
@@ -112,7 +112,7 @@ public class VersoType
     }
 
     /** 
-     * Get the 'AreaInfo' element value. Р”РѕРєСѓРјРµРЅС‚, СЃРѕРґРµСЂР¶Р°С‰РёР№  СЃРІРµРґРµРЅРёСЏ  РѕР±   СѓС‡Р°СЃС‚РєРµ  РЅРµРґСЂ
+     * Get the 'AreaInfo' element value. Документ, содержащий  сведения  об   участке  недр
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class VersoType
     }
 
     /** 
-     * Set the 'AreaInfo' element value. Р”РѕРєСѓРјРµРЅС‚, СЃРѕРґРµСЂР¶Р°С‰РёР№  СЃРІРµРґРµРЅРёСЏ  РѕР±   СѓС‡Р°СЃС‚РєРµ  РЅРµРґСЂ
+     * Set the 'AreaInfo' element value. Документ, содержащий  сведения  об   участке  недр
      * 
      * @param areaInfo
      */
@@ -130,7 +130,7 @@ public class VersoType
     }
 
     /** 
-     * Get the 'ListPreviousUser' element value. РџРµСЂРµС‡РёСЃР»РµРЅРёРµ  РїСЂРµРґС‹РґСѓС‰РёС…  РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№  РґР°РЅРЅС‹Рј СѓС‡Р°СЃС‚РєРѕРј РЅРµРґСЂ 
+     * Get the 'ListPreviousUser' element value. Перечисление  предыдущих  пользователей  данным участком недр 
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class VersoType
     }
 
     /** 
-     * Set the 'ListPreviousUser' element value. РџРµСЂРµС‡РёСЃР»РµРЅРёРµ  РїСЂРµРґС‹РґСѓС‰РёС…  РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№  РґР°РЅРЅС‹Рј СѓС‡Р°СЃС‚РєРѕРј РЅРµРґСЂ 
+     * Set the 'ListPreviousUser' element value. Перечисление  предыдущих  пользователей  данным участком недр 
      * 
      * @param listPreviousUser
      */
@@ -148,7 +148,7 @@ public class VersoType
     }
 
     /** 
-     * Get the 'UserInfo' element value. РљСЂР°С‚РєР°СЏ  СЃРїСЂР°РІРєР° Рѕ РїРѕР»СЊР·РѕРІР°С‚РµР»Рµ РЅРµРґСЂ
+     * Get the 'UserInfo' element value. Краткая  справка о пользователе недр
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class VersoType
     }
 
     /** 
-     * Set the 'UserInfo' element value. РљСЂР°С‚РєР°СЏ  СЃРїСЂР°РІРєР° Рѕ РїРѕР»СЊР·РѕРІР°С‚РµР»Рµ РЅРµРґСЂ
+     * Set the 'UserInfo' element value. Краткая  справка о пользователе недр
      * 
      * @param userInfo
      */
@@ -166,7 +166,7 @@ public class VersoType
     }
 
     /** 
-     * Get the list of 'OtherApplications' element items. РРЅС‹Рµ РїСЂРёР»РѕР¶РµРЅРёСЏ 
+     * Get the list of 'OtherApplications' element items. Иные приложения 
      * 
      * @return list
      */
@@ -175,7 +175,7 @@ public class VersoType
     }
 
     /** 
-     * Set the list of 'OtherApplications' element items. РРЅС‹Рµ РїСЂРёР»РѕР¶РµРЅРёСЏ 
+     * Set the list of 'OtherApplications' element items. Иные приложения 
      * 
      * @param list
      */

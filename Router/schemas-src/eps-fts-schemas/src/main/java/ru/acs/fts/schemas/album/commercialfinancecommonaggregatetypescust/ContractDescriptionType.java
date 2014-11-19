@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ СѓСЃР»РѕРІРёР№ РєРѕРЅС‚СЂР°РєС‚Р°
+ * Описание условий контракта
  */
 public class ContractDescriptionType extends ImportContractTermsType
 {
@@ -27,7 +27,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     private List<DocumentBaseType> changeContractList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the list of 'ExchangeClause' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅРѕРј СѓСЃР»РѕРІРёСЏРјРё РљРѕРЅС‚СЂР°РєС‚Р° РїРѕСЂСЏРґРєРµ РїРµСЂРµСЃС‡РµС‚Р° РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р° РІ РІР°Р»СЋС‚Сѓ С†РµРЅС‹ 
+     * Get the list of 'ExchangeClause' element items. Сведения о предусмотренном условиями Контракта порядке пересчета валюты платежа в валюту цены 
      * 
      * @return list
      */
@@ -36,7 +36,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the list of 'ExchangeClause' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРЅРѕРј СѓСЃР»РѕРІРёСЏРјРё РљРѕРЅС‚СЂР°РєС‚Р° РїРѕСЂСЏРґРєРµ РїРµСЂРµСЃС‡РµС‚Р° РІР°Р»СЋС‚С‹ РїР»Р°С‚РµР¶Р° РІ РІР°Р»СЋС‚Сѓ С†РµРЅС‹ 
+     * Set the list of 'ExchangeClause' element items. Сведения о предусмотренном условиями Контракта порядке пересчета валюты платежа в валюту цены 
      * 
      * @param list
      */
@@ -45,7 +45,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the list of 'ContractSubject' element items. РџСЂРµРґРјРµС‚ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the list of 'ContractSubject' element items. Предмет контракта
      * 
      * @return list
      */
@@ -54,7 +54,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the list of 'ContractSubject' element items. РџСЂРµРґРјРµС‚ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the list of 'ContractSubject' element items. Предмет контракта
      * 
      * @param list
      */
@@ -63,7 +63,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the 'ContractTime' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р° 
+     * Get the 'ContractTime' element value. Срок действия контракта 
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the 'ContractTime' element value. РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р° 
+     * Set the 'ContractTime' element value. Срок действия контракта 
      * 
      * @param contractTime
      */
@@ -81,7 +81,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the 'AdditionalContractTime' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ СЃСЂРѕРє РґРµР№СЃС‚РІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р° (РїСЂРёРјРµРЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРѕРіРѕ РїСЂРѕР»РѕРЅРіРёСЂРѕРІР°РЅРёСЏ)
+     * Get the 'AdditionalContractTime' element value. Дополнительный срок действия контракта (применяется в случае автоматического пролонгирования)
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the 'AdditionalContractTime' element value. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ СЃСЂРѕРє РґРµР№СЃС‚РІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р° (РїСЂРёРјРµРЅСЏРµС‚СЃСЏ РІ СЃР»СѓС‡Р°Рµ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРѕРіРѕ РїСЂРѕР»РѕРЅРіРёСЂРѕРІР°РЅРёСЏ)
+     * Set the 'AdditionalContractTime' element value. Дополнительный срок действия контракта (применяется в случае автоматического пролонгирования)
      * 
      * @param additionalContractTime
      */
@@ -99,7 +99,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the list of 'OtherTerms' element items. РџСЂРѕС‡РёРµ СѓСЃР»РѕРІРёСЏ СЃРґРµР»РєРё.
+     * Get the list of 'OtherTerms' element items. Прочие условия сделки.
      * 
      * @return list
      */
@@ -108,7 +108,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the list of 'OtherTerms' element items. РџСЂРѕС‡РёРµ СѓСЃР»РѕРІРёСЏ СЃРґРµР»РєРё.
+     * Set the list of 'OtherTerms' element items. Прочие условия сделки.
      * 
      * @param list
      */
@@ -117,7 +117,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the list of 'ContractText' element items. РўРµРєСЃС‚ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the list of 'ContractText' element items. Текст контракта
      * 
      * @return list
      */
@@ -126,7 +126,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the list of 'ContractText' element items. РўРµРєСЃС‚ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the list of 'ContractText' element items. Текст контракта
      * 
      * @param list
      */
@@ -135,7 +135,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the 'DiscountPercentage' element value. Р Р°Р·РјРµСЂ СЃРєРёРґРєРё РІ РїСЂРѕС†РµРЅС‚Р°С…
+     * Get the 'DiscountPercentage' element value. Размер скидки в процентах
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the 'DiscountPercentage' element value. Р Р°Р·РјРµСЂ СЃРєРёРґРєРё РІ РїСЂРѕС†РµРЅС‚Р°С…
+     * Set the 'DiscountPercentage' element value. Размер скидки в процентах
      * 
      * @param discountPercentage
      */
@@ -153,7 +153,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the 'PaymentPeriod' element value. РЎСЂРѕРє РѕРїР»Р°С‚С‹
+     * Get the 'PaymentPeriod' element value. Срок оплаты
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the 'PaymentPeriod' element value. РЎСЂРѕРє РѕРїР»Р°С‚С‹
+     * Set the 'PaymentPeriod' element value. Срок оплаты
      * 
      * @param paymentPeriod
      */
@@ -171,7 +171,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the 'DealSign' element value. РџСЂРёР·РЅР°Рє СЃРґРµР»РєРё РєСѓРїР»Рё/РїСЂРѕРґР°Р¶Рё (1 - РєСѓРїР»СЏ, 0 - РїСЂРѕРґР°Р¶Р°)
+     * Get the 'DealSign' element value. Признак сделки купли/продажи (1 - купля, 0 - продажа)
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the 'DealSign' element value. РџСЂРёР·РЅР°Рє СЃРґРµР»РєРё РєСѓРїР»Рё/РїСЂРѕРґР°Р¶Рё (1 - РєСѓРїР»СЏ, 0 - РїСЂРѕРґР°Р¶Р°)
+     * Set the 'DealSign' element value. Признак сделки купли/продажи (1 - купля, 0 - продажа)
      * 
      * @param dealSign
      */
@@ -189,7 +189,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the 'PrepaySign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРµРґРѕРїР»Р°С‚С‹
+     * Get the 'PrepaySign' element value. Признак наличия предоплаты
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the 'PrepaySign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РїСЂРµРґРѕРїР»Р°С‚С‹
+     * Set the 'PrepaySign' element value. Признак наличия предоплаты
      * 
      * @param prepaySign
      */
@@ -207,7 +207,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the 'StockCategorySign' element value. РџСЂРёР·РЅР°Рє РѕС‚РЅРµСЃРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ (РїСЂРµРґРјРµС‚Р° РєРѕРЅС‚СЂР°РєС‚Р°) Рє РєР°С‚РµРіРѕСЂРёРё Р±РёСЂР¶РµРІС‹С…
+     * Get the 'StockCategorySign' element value. Признак отнесения товаров (предмета контракта) к категории биржевых
      * 
      * @return value
      */
@@ -216,7 +216,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the 'StockCategorySign' element value. РџСЂРёР·РЅР°Рє РѕС‚РЅРµСЃРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ (РїСЂРµРґРјРµС‚Р° РєРѕРЅС‚СЂР°РєС‚Р°) Рє РєР°С‚РµРіРѕСЂРёРё Р±РёСЂР¶РµРІС‹С…
+     * Set the 'StockCategorySign' element value. Признак отнесения товаров (предмета контракта) к категории биржевых
      * 
      * @param stockCategorySign
      */
@@ -225,7 +225,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the 'BuyerLimitationSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕРіСЂР°РЅРёС‡РµРЅРёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё РїСЂР°РІ РїРѕРєСѓРїР°С‚РµР»СЏ
+     * Get the 'BuyerLimitationSign' element value. Признак наличия ограничений в отношении прав покупателя
      * 
      * @return value
      */
@@ -234,7 +234,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the 'BuyerLimitationSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ РѕРіСЂР°РЅРёС‡РµРЅРёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё РїСЂР°РІ РїРѕРєСѓРїР°С‚РµР»СЏ
+     * Set the 'BuyerLimitationSign' element value. Признак наличия ограничений в отношении прав покупателя
      * 
      * @param buyerLimitationSign
      */
@@ -243,7 +243,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the 'InsuranceSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЃС‚СЂР°С…РѕРІРєРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'InsuranceSign' element value. Признак наличия страховки товаров
      * 
      * @return value
      */
@@ -252,7 +252,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the 'InsuranceSign' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЃС‚СЂР°С…РѕРІРєРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'InsuranceSign' element value. Признак наличия страховки товаров
      * 
      * @param insuranceSign
      */
@@ -261,7 +261,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Get the list of 'ChangeContract' element items. РќРѕРјРµСЂР° Рё РґР°С‚С‹ РёР·РјРµРЅРµРЅРёР№/РґРѕРїРѕР»РЅРµРЅРёР№ Рє РєРѕРЅС‚СЂР°РєС‚Сѓ.  
+     * Get the list of 'ChangeContract' element items. Номера и даты изменений/дополнений к контракту.  
      * 
      * @return list
      */
@@ -270,7 +270,7 @@ public class ContractDescriptionType extends ImportContractTermsType
     }
 
     /** 
-     * Set the list of 'ChangeContract' element items. РќРѕРјРµСЂР° Рё РґР°С‚С‹ РёР·РјРµРЅРµРЅРёР№/РґРѕРїРѕР»РЅРµРЅРёР№ Рє РєРѕРЅС‚СЂР°РєС‚Сѓ.  
+     * Set the list of 'ChangeContract' element items. Номера и даты изменений/дополнений к контракту.  
      * 
      * @param list
      */

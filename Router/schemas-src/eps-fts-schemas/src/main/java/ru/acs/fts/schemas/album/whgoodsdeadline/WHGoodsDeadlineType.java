@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WarehouseOwner
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhPresentDocType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ/РђРєС‚  РѕР± РёСЃС‚РµС‡РµРЅРёРё СЃСЂРѕРєРѕРІ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+ * Уведомление/Акт  об истечении сроков временного хранения товаров
  */
 public class WHGoodsDeadlineType extends BaseDocType
 {
@@ -28,7 +28,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'WHSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°. 1- РЈРІРµРґРѕРјР»РµРЅРёРµ РѕР± РёСЃС‚РµС‡РµРЅРёРё СЃСЂРѕРєРѕРІ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ; 2 - РђРєС‚  РѕР± РёСЃС‚РµС‡РµРЅРёРё СЃСЂРѕРєРѕРІ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ.
+     * Get the 'WHSign' element value. Признак документа. 1- Уведомление об истечении сроков временного хранения товаров; 2 - Акт  об истечении сроков временного хранения товаров.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'WHSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°. 1- РЈРІРµРґРѕРјР»РµРЅРёРµ РѕР± РёСЃС‚РµС‡РµРЅРёРё СЃСЂРѕРєРѕРІ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ; 2 - РђРєС‚  РѕР± РёСЃС‚РµС‡РµРЅРёРё СЃСЂРѕРєРѕРІ РІСЂРµРјРµРЅРЅРѕРіРѕ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ.
+     * Set the 'WHSign' element value. Признак документа. 1- Уведомление об истечении сроков временного хранения товаров; 2 - Акт  об истечении сроков временного хранения товаров.
      * 
      * @param WHSign
      */
@@ -46,7 +46,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentDate' element value. Дата документа
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentDate' element value. Дата документа
      * 
      * @param documentDate
      */
@@ -64,7 +64,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер документа
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер документа
      * 
      * @param documentNumber
      */
@@ -82,7 +82,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Get the 'TIRTDNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё (РєРЅРёР¶РєРё РњР”Рџ)
+     * Get the 'TIRTDNumber' element value. Номер транзитной декларации (книжки МДП)
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'TIRTDNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё (РєРЅРёР¶РєРё РњР”Рџ)
+     * Set the 'TIRTDNumber' element value. Номер транзитной декларации (книжки МДП)
      * 
      * @param TIRTDNumber
      */
@@ -100,7 +100,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Get the 'PlacementDate' element value. Р”Р°С‚Р° РїРѕРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР° РЅР° РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ
+     * Get the 'PlacementDate' element value. Дата помещения товара на временное хранение
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'PlacementDate' element value. Р”Р°С‚Р° РїРѕРјРµС‰РµРЅРёСЏ С‚РѕРІР°СЂР° РЅР° РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ
+     * Set the 'PlacementDate' element value. Дата помещения товара на временное хранение
      * 
      * @param placementDate
      */
@@ -118,7 +118,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° РёСЃС‚РµС‡РµРЅРёСЏ СЃСЂРѕРєР°
+     * Get the 'EndDate' element value. Дата истечения срока
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° РёСЃС‚РµС‡РµРЅРёСЏ СЃСЂРѕРєР°
+     * Set the 'EndDate' element value. Дата истечения срока
      * 
      * @param endDate
      */
@@ -136,7 +136,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -154,7 +154,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Get the 'TransportDoc' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'TransportDoc' element value. Транспортный документ
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'TransportDoc' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'TransportDoc' element value. Транспортный документ
      * 
      * @param transportDoc
      */
@@ -172,7 +172,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Get the 'Carrier' element value. Перевозчик
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Set the 'Carrier' element value. Перевозчик
      * 
      * @param carrier
      */
@@ -190,7 +190,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Get the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Receiver' element value. Получатель
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'Receiver' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Receiver' element value. Получатель
      * 
      * @param receiver
      */
@@ -208,7 +208,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Get the 'Warehouse' element value. РћРїРёСЃР°РЅРёРµ СЃРєР»Р°РґР°, РЅР° РєРѕС‚РѕСЂРѕРј РЅР°С…РѕРґСЏС‚СЃСЏ С‚РѕРІР°СЂС‹
+     * Get the 'Warehouse' element value. Описание склада, на котором находятся товары
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'Warehouse' element value. РћРїРёСЃР°РЅРёРµ СЃРєР»Р°РґР°, РЅР° РєРѕС‚РѕСЂРѕРј РЅР°С…РѕРґСЏС‚СЃСЏ С‚РѕРІР°СЂС‹
+     * Set the 'Warehouse' element value. Описание склада, на котором находятся товары
      * 
      * @param warehouse
      */
@@ -226,7 +226,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomInspector' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomInspector' element value. Подпись должностного лица таможенного органа
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomInspector' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomInspector' element value. Подпись должностного лица таможенного органа
      * 
      * @param customInspector
      */
@@ -244,7 +244,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class WHGoodsDeadlineType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

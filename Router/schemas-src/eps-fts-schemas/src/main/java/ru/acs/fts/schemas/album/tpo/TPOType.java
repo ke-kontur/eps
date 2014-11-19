@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРёС…РѕРґРЅС‹Р№ РѕСЂРґРµСЂ (РўРџРћ)
+ * Таможенный приходный ордер (ТПО)
  */
 public class TPOType extends BaseDocType
 {
@@ -31,7 +31,7 @@ public class TPOType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'AdditionalSheetNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРѕР±Р°РІРѕС‡РЅС‹С… Р»РёСЃС‚РѕРІ
+     * Get the 'AdditionalSheetNumber' element value. Количество добавочных листов
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'AdditionalSheetNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРѕР±Р°РІРѕС‡РЅС‹С… Р»РёСЃС‚РѕРІ
+     * Set the 'AdditionalSheetNumber' element value. Количество добавочных листов
      * 
      * @param additionalSheetNumber
      */
@@ -49,7 +49,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalWeight' element value. РћР±С‰РёР№ РІРµСЃ РІСЃРµС… РїРµСЂРµРјРµС‰Р°РµРјС‹С… С‚РѕРІР°СЂРѕРІ, РєРі
+     * Get the 'TotalWeight' element value. Общий вес всех перемещаемых товаров, кг
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalWeight' element value. РћР±С‰РёР№ РІРµСЃ РІСЃРµС… РїРµСЂРµРјРµС‰Р°РµРјС‹С… С‚РѕРІР°СЂРѕРІ, РєРі
+     * Set the 'TotalWeight' element value. Общий вес всех перемещаемых товаров, кг
      * 
      * @param totalWeight
      */
@@ -67,7 +67,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'TotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ РІР°Р»СЋС‚Рµ РїР»Р°С‚РµР¶Р°
+     * Get the 'TotalCost' element value. Общая стоимость в валюте платежа
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'TotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ РІР°Р»СЋС‚Рµ РїР»Р°С‚РµР¶Р°
+     * Set the 'TotalCost' element value. Общая стоимость в валюте платежа
      * 
      * @param totalCost
      */
@@ -85,7 +85,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'DollarTotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ РґРѕР»Р»Р°СЂР°С… РЎРЁРђ
+     * Get the 'DollarTotalCost' element value. Общая стоимость в долларах США
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'DollarTotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ РґРѕР»Р»Р°СЂР°С… РЎРЁРђ
+     * Set the 'DollarTotalCost' element value. Общая стоимость в долларах США
      * 
      * @param dollarTotalCost
      */
@@ -103,7 +103,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'EuroTotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ РµРІСЂРѕ
+     * Get the 'EuroTotalCost' element value. Общая стоимость в евро
      * 
      * @return value
      */
@@ -112,7 +112,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'EuroTotalCost' element value. РћР±С‰Р°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ РІ РµРІСЂРѕ
+     * Set the 'EuroTotalCost' element value. Общая стоимость в евро
      * 
      * @param euroTotalCost
      */
@@ -121,7 +121,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїРѕРґР»РµР¶Р°С‰РёС… СѓРїР»Р°С‚Рµ РїР»Р°С‚РµР¶РµР№
+     * Get the 'Amount' element value. Общая сумма подлежащих уплате платежей
      * 
      * @return value
      */
@@ -130,7 +130,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'Amount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїРѕРґР»РµР¶Р°С‰РёС… СѓРїР»Р°С‚Рµ РїР»Р°С‚РµР¶РµР№
+     * Set the 'Amount' element value. Общая сумма подлежащих уплате платежей
      * 
      * @param amount
      */
@@ -139,7 +139,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'AmountLetter' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїРѕРґР»РµР¶Р°С‰РёС… СѓРїР»Р°С‚Рµ РїР»Р°С‚РµР¶РµР№ (РїСЂРѕРїРёСЃСЊСЋ)
+     * Get the 'AmountLetter' element value. Общая сумма подлежащих уплате платежей (прописью)
      * 
      * @return value
      */
@@ -148,7 +148,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'AmountLetter' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїРѕРґР»РµР¶Р°С‰РёС… СѓРїР»Р°С‚Рµ РїР»Р°С‚РµР¶РµР№ (РїСЂРѕРїРёСЃСЊСЋ)
+     * Set the 'AmountLetter' element value. Общая сумма подлежащих уплате платежей (прописью)
      * 
      * @param amountLetter
      */
@@ -157,7 +157,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'TPOTypeCode' element value. РўРёРї РѕСЂРґРµСЂР°
+     * Get the 'TPOTypeCode' element value. Тип ордера
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'TPOTypeCode' element value. РўРёРї РѕСЂРґРµСЂР°
+     * Set the 'TPOTypeCode' element value. Тип ордера
      * 
      * @param TPOTypeCode
      */
@@ -175,7 +175,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'TPORegNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўРџРћ
+     * Get the 'TPORegNumber' element value. Справочный номер ТПО
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'TPORegNumber' element value. РЎРїСЂР°РІРѕС‡РЅС‹Р№ РЅРѕРјРµСЂ РўРџРћ
+     * Set the 'TPORegNumber' element value. Справочный номер ТПО
      * 
      * @param TPORegNumber
      */
@@ -193,7 +193,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'Payer' element value. РџР»Р°С‚РµР»СЊС‰РёРє
+     * Get the 'Payer' element value. Плательщик
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'Payer' element value. РџР»Р°С‚РµР»СЊС‰РёРє
+     * Set the 'Payer' element value. Плательщик
      * 
      * @param payer
      */
@@ -211,7 +211,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'Goods' element items. Описание товара
      * 
      * @return list
      */
@@ -220,7 +220,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'Goods' element items. Описание товара
      * 
      * @param list
      */
@@ -229,7 +229,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReceiverPerson' element value. Р›РёС†Рѕ, РїСЂРёРЅСЏРІС€РµРµ РїР»Р°С‚РµР¶
+     * Get the 'ReceiverPerson' element value. Лицо, принявшее платеж
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceiverPerson' element value. Р›РёС†Рѕ, РїСЂРёРЅСЏРІС€РµРµ РїР»Р°С‚РµР¶
+     * Set the 'ReceiverPerson' element value. Лицо, принявшее платеж
      * 
      * @param receiverPerson
      */
@@ -247,7 +247,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -265,7 +265,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'PaymentCurrency' element value. Р’Р°Р»СЋС‚Р° РїР»Р°С‚РµР¶Р°
+     * Get the 'PaymentCurrency' element value. Валюта платежа
      * 
      * @return value
      */
@@ -274,7 +274,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'PaymentCurrency' element value. Р’Р°Р»СЋС‚Р° РїР»Р°С‚РµР¶Р°
+     * Set the 'PaymentCurrency' element value. Валюта платежа
      * 
      * @param paymentCurrency
      */
@@ -283,7 +283,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'PresentedDocument' element items. РџСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹/Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the list of 'PresentedDocument' element items. Представляемые документы/Дополнительная информация
      * 
      * @return list
      */
@@ -292,7 +292,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PresentedDocument' element items. РџСЂРµРґСЃС‚Р°РІР»СЏРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹/Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the list of 'PresentedDocument' element items. Представляемые документы/Дополнительная информация
      * 
      * @param list
      */
@@ -301,7 +301,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -310,7 +310,7 @@ public class TPOType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

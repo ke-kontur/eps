@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transportdeclaration;
 
 /** 
- * РњР°СЂС€СЂСѓС‚
+ * Маршрут
  */
 public class RouteType
 {
@@ -11,7 +11,7 @@ public class RouteType
     private String destinationPlace;
 
     /** 
-     * Get the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationCountry' element value. Страна назначения
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class RouteType
     }
 
     /** 
-     * Set the 'DestinationCountry' element value. РЎС‚СЂР°РЅР° РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationCountry' element value. Страна назначения
      * 
      * @param destinationCountry
      */
@@ -29,7 +29,7 @@ public class RouteType
     }
 
     /** 
-     * Get the 'DestinationCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationCountryCode' element value. Код страны назначения
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RouteType
     }
 
     /** 
-     * Set the 'DestinationCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationCountryCode' element value. Код страны назначения
      * 
      * @param destinationCountryCode
      */
@@ -47,7 +47,7 @@ public class RouteType
     }
 
     /** 
-     * Get the 'DestinationPlace' element value. РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ (РЅРѕРјРµСЂ СЂРµР№СЃР°)
+     * Get the 'DestinationPlace' element value. Пункт назначения (номер рейса)
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RouteType
     }
 
     /** 
-     * Set the 'DestinationPlace' element value. РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ (РЅРѕРјРµСЂ СЂРµР№СЃР°)
+     * Set the 'DestinationPlace' element value. Пункт назначения (номер рейса)
      * 
      * @param destinationPlace
      */

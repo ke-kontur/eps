@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.bartertransactionpasport;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
+ * Реквизиты иностранного контрагента
  */
 public class ForeignContractorType
 {
@@ -13,7 +13,7 @@ public class ForeignContractorType
     private AddressType legalAddress;
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
+     * Get the 'Name' element value. Наименование иностранного контрагента
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ForeignContractorType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРѕСЃС‚СЂР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
+     * Set the 'Name' element value. Наименование иностранного контрагента
      * 
      * @param name
      */
@@ -31,7 +31,7 @@ public class ForeignContractorType
     }
 
     /** 
-     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
+     * Get the 'CountryCode' element value. Код страны регистрации контрагента
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ForeignContractorType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё РєРѕРЅС‚СЂР°РіРµРЅС‚Р°
+     * Set the 'CountryCode' element value. Код страны регистрации контрагента
      * 
      * @param countryCode
      */
@@ -49,7 +49,7 @@ public class ForeignContractorType
     }
 
     /** 
-     * Get the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
+     * Get the 'LegalAddress' element value. Юридический адрес
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ForeignContractorType
     }
 
     /** 
-     * Set the 'LegalAddress' element value. Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ
+     * Set the 'LegalAddress' element value. Юридический адрес
      * 
      * @param legalAddress
      */

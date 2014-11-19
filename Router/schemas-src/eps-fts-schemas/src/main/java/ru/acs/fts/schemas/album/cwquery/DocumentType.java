@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cwquery;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·Р°РїСЂР°С€РёРІР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚Р°С… 
+ * Информация о запрашиваемых документах 
  */
 public class DocumentType
 {
@@ -10,7 +10,7 @@ public class DocumentType
     private Choice choice;
 
     /** 
-     * Get the 'DocumentModeID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' element value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DocumentType
     }
 
     /** 
-     * Set the 'DocumentModeID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' element value. Идентификатор вида документа
      * 
      * @param documentModeID
      */
@@ -78,7 +78,7 @@ public class DocumentType
         }
 
         /** 
-         * Get the 'Period' element value. РџРµСЂРёРѕРґ, Р·Р° РєРѕС‚РѕСЂС‹Р№ Р·Р°РїСЂР°С€РёРІР°СЋС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚С‹
+         * Get the 'Period' element value. Период, за который запрашиваются документы
          * 
          * @return value
          */
@@ -87,7 +87,7 @@ public class DocumentType
         }
 
         /** 
-         * Set the 'Period' element value. РџРµСЂРёРѕРґ, Р·Р° РєРѕС‚РѕСЂС‹Р№ Р·Р°РїСЂР°С€РёРІР°СЋС‚СЃСЏ РґРѕРєСѓРјРµРЅС‚С‹
+         * Set the 'Period' element value. Период, за который запрашиваются документы
          * 
          * @param period
          */
@@ -106,7 +106,7 @@ public class DocumentType
         }
 
         /** 
-         * Get the 'Numbers' element value. РќРѕРјРµСЂР° Р·Р°РїСЂР°С€РёРІР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+         * Get the 'Numbers' element value. Номера запрашиваемых документов
          * 
          * @return value
          */
@@ -115,7 +115,7 @@ public class DocumentType
         }
 
         /** 
-         * Set the 'Numbers' element value. РќРѕРјРµСЂР° Р·Р°РїСЂР°С€РёРІР°РµРјС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ
+         * Set the 'Numbers' element value. Номера запрашиваемых документов
          * 
          * @param numbers
          */

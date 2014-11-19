@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РћС‚РіСЂСѓР·РѕС‡РЅР°СЏ СЃРїРµС†РёС„РёРєР°С†РёСЏ
+ * Отгрузочная спецификация
  */
 public class ShippingSpecificationType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class ShippingSpecificationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Specification' element value. РќРѕРјРµСЂ Рё РґР°С‚Р° СЃРїРµС†РёС„РёРєР°С†РёРё
+     * Get the 'Specification' element value. Номер и дата спецификации
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class ShippingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Specification' element value. РќРѕРјРµСЂ Рё РґР°С‚Р° СЃРїРµС†РёС„РёРєР°С†РёРё
+     * Set the 'Specification' element value. Номер и дата спецификации
      * 
      * @param specification
      */
@@ -38,7 +38,7 @@ public class ShippingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ActivitiesAgreement' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРіРѕРІРѕСЂРµ РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ СЃРґРµР»РєРё
+     * Get the 'ActivitiesAgreement' element value. Сведения о договоре внешнеэкономической сделки
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ShippingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ActivitiesAgreement' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРіРѕРІРѕСЂРµ РІРЅРµС€РЅРµСЌРєРѕРЅРѕРјРёС‡РµСЃРєРѕР№ СЃРґРµР»РєРё
+     * Set the 'ActivitiesAgreement' element value. Сведения о договоре внешнеэкономической сделки
      * 
      * @param activitiesAgreement
      */
@@ -56,7 +56,7 @@ public class ShippingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Sender' element value. РџСЂРѕРґР°РІРµС†/РѕС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Sender' element value. Продавец/отправитель
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class ShippingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Sender' element value. РџСЂРѕРґР°РІРµС†/РѕС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Sender' element value. Продавец/отправитель
      * 
      * @param sender
      */
@@ -74,7 +74,7 @@ public class ShippingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Receiver' element value. РџРѕРєСѓРїР°С‚РµР»СЊ/РїРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Receiver' element value. Покупатель/получатель
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class ShippingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Receiver' element value. РџРѕРєСѓРїР°С‚РµР»СЊ/РїРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Receiver' element value. Покупатель/получатель
      * 
      * @param receiver
      */
@@ -92,7 +92,7 @@ public class ShippingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РўРѕРІР°СЂ РѕС‚РіСЂСѓР·РѕС‡РЅРѕР№ СЃРїРµС†РёС„РёРєР°С†РёРё
+     * Get the list of 'Goods' element items. Товар отгрузочной спецификации
      * 
      * @return list
      */
@@ -101,7 +101,7 @@ public class ShippingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РўРѕРІР°СЂ РѕС‚РіСЂСѓР·РѕС‡РЅРѕР№ СЃРїРµС†РёС„РёРєР°С†РёРё
+     * Set the list of 'Goods' element items. Товар отгрузочной спецификации
      * 
      * @param list
      */
@@ -110,7 +110,7 @@ public class ShippingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class ShippingSpecificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

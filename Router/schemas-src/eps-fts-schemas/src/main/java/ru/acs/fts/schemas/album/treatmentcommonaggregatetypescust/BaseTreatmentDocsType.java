@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.treatmentcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РљРѕРЅС‚СЂР°РєС‚ РёР»Рё РёРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹РјРё С‚РѕРІР°СЂС‹ РІРІРѕР·СЏС‚СЃСЏ   РЅР° РїРµСЂРµСЂР°Р±РѕС‚РєСѓ
+ * Контракт или иные документы, в соответствии с которыми товары ввозятся   на переработку
  */
 public class BaseTreatmentDocsType extends DocumentBaseType
 {
     private String companyName;
 
     /** 
-     * Get the 'CompanyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'CompanyName' element value. Наименование иностранной организации
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class BaseTreatmentDocsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'CompanyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РёРЅРѕСЃС‚СЂР°РЅРЅРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'CompanyName' element value. Наименование иностранной организации
      * 
      * @param companyName
      */

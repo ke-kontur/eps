@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 
 /** 
- * РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ РІ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+ * Транспортное средство в транзитной декларации
  */
 public class TDTransportMeansType
 {
@@ -12,7 +12,7 @@ public class TDTransportMeansType
     private String nationalityCode;
 
     /** 
-     * Get the 'TMNumber' element value. РќРѕРјРµСЂ (РІРµРґСѓС‰РµРіРѕ) С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'TMNumber' element value. Номер (ведущего) транспортного средства
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class TDTransportMeansType
     }
 
     /** 
-     * Set the 'TMNumber' element value. РќРѕРјРµСЂ (РІРµРґСѓС‰РµРіРѕ) С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'TMNumber' element value. Номер (ведущего) транспортного средства
      * 
      * @param TMNumber
      */
@@ -30,7 +30,7 @@ public class TDTransportMeansType
     }
 
     /** 
-     * Get the 'VINID' element value. РќРѕРјРµСЂ VIN С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'VINID' element value. Номер VIN транспортного средства
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class TDTransportMeansType
     }
 
     /** 
-     * Set the 'VINID' element value. РќРѕРјРµСЂ VIN С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'VINID' element value. Номер VIN транспортного средства
      * 
      * @param VINID
      */
@@ -48,7 +48,7 @@ public class TDTransportMeansType
     }
 
     /** 
-     * Get the 'ModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°.
+     * Get the 'ModeCode' element value. Код вида транспортного средства.
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class TDTransportMeansType
     }
 
     /** 
-     * Set the 'ModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°.
+     * Set the 'ModeCode' element value. Код вида транспортного средства.
      * 
      * @param modeCode
      */
@@ -66,7 +66,7 @@ public class TDTransportMeansType
     }
 
     /** 
-     * Get the 'NationalityCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚Р°.
+     * Get the 'NationalityCode' element value. Код страны принадлежности транспорта.
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class TDTransportMeansType
     }
 
     /** 
-     * Set the 'NationalityCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё С‚СЂР°РЅСЃРїРѕСЂС‚Р°.
+     * Set the 'NationalityCode' element value. Код страны принадлежности транспорта.
      * 
      * @param nationalityCode
      */

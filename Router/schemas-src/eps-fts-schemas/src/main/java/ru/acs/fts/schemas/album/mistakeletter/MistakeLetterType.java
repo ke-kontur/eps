@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WareHouseRepor
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WarehouseOwnerType;
 
 /** 
- * РџРёСЃСЊРјРѕ РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ Рѕ СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕ РІС‹СЏРІР»РµРЅРЅС‹С… РѕС€РёР±РєР°С… РІ РѕС‚С‡РµС‚РЅРѕСЃС‚Рё РїРѕ С„РѕСЂРјРµ Р”Рћ-1
+ * Письмо владельца СВХ о самостоятельно выявленных ошибках в отчетности по форме ДО-1
  */
 public class MistakeLetterType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class MistakeLetterType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'LetterDetails' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРёСЃСЊРјРµ
+     * Get the 'LetterDetails' element value. Сведения о письме
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class MistakeLetterType extends BaseDocType
     }
 
     /** 
-     * Set the 'LetterDetails' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРёСЃСЊРјРµ
+     * Set the 'LetterDetails' element value. Сведения о письме
      * 
      * @param letterDetails
      */
@@ -37,7 +37,7 @@ public class MistakeLetterType extends BaseDocType
     }
 
     /** 
-     * Get the 'DO1Report' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚С‡РµС‚Рµ Рѕ РїСЂРёРЅСЏС‚РёРё РїРѕ С„РѕСЂРјРµ Р”Рћ-1, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂРѕРіРѕ СЃРѕСЃС‚Р°РІР»РµРЅРѕ РЅР°СЃС‚РѕСЏС‰РµРµ РџРёСЃСЊРјРѕ
+     * Get the 'DO1Report' element value. Сведения об отчете о принятии по форме ДО-1, в отношении которого составлено настоящее Письмо
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class MistakeLetterType extends BaseDocType
     }
 
     /** 
-     * Set the 'DO1Report' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚С‡РµС‚Рµ Рѕ РїСЂРёРЅСЏС‚РёРё РїРѕ С„РѕСЂРјРµ Р”Рћ-1, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂРѕРіРѕ СЃРѕСЃС‚Р°РІР»РµРЅРѕ РЅР°СЃС‚РѕСЏС‰РµРµ РџРёСЃСЊРјРѕ
+     * Set the 'DO1Report' element value. Сведения об отчете о принятии по форме ДО-1, в отношении которого составлено настоящее Письмо
      * 
      * @param DO1Report
      */
@@ -55,7 +55,7 @@ public class MistakeLetterType extends BaseDocType
     }
 
     /** 
-     * Get the 'WarehouseOwner' element value. Р”Р°РЅРЅС‹Рµ Рѕ РІР»Р°РґРµР»СЊС†Рµ СЃРєР»Р°РґР°
+     * Get the 'WarehouseOwner' element value. Данные о владельце склада
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class MistakeLetterType extends BaseDocType
     }
 
     /** 
-     * Set the 'WarehouseOwner' element value. Р”Р°РЅРЅС‹Рµ Рѕ РІР»Р°РґРµР»СЊС†Рµ СЃРєР»Р°РґР°
+     * Set the 'WarehouseOwner' element value. Данные о владельце склада
      * 
      * @param warehouseOwner
      */
@@ -73,7 +73,7 @@ public class MistakeLetterType extends BaseDocType
     }
 
     /** 
-     * Get the 'MistakesInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІС‹СЏРІР»РµРЅРЅС‹С… РѕС€РёР±РєР°С…
+     * Get the 'MistakesInfo' element value. Сведения о выявленных ошибках
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class MistakeLetterType extends BaseDocType
     }
 
     /** 
-     * Set the 'MistakesInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІС‹СЏРІР»РµРЅРЅС‹С… РѕС€РёР±РєР°С…
+     * Set the 'MistakesInfo' element value. Сведения о выявленных ошибках
      * 
      * @param mistakesInfo
      */
@@ -91,7 +91,7 @@ public class MistakeLetterType extends BaseDocType
     }
 
     /** 
-     * Get the 'WareHousePerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЃРѕС‚СЂСѓРґРЅРёРє СЃРєР»Р°РґР°, РїРѕРґРїРёСЃР°РІС€РёР№ РЅР°СЃС‚РѕСЏС‰РµРµ РџРёСЃСЊРјРѕ
+     * Get the 'WareHousePerson' element value. Уполномоченный сотрудник склада, подписавший настоящее Письмо
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class MistakeLetterType extends BaseDocType
     }
 
     /** 
-     * Set the 'WareHousePerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЃРѕС‚СЂСѓРґРЅРёРє СЃРєР»Р°РґР°, РїРѕРґРїРёСЃР°РІС€РёР№ РЅР°СЃС‚РѕСЏС‰РµРµ РџРёСЃСЊРјРѕ
+     * Set the 'WareHousePerson' element value. Уполномоченный сотрудник склада, подписавший настоящее Письмо
      * 
      * @param wareHousePerson
      */
@@ -109,7 +109,7 @@ public class MistakeLetterType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class MistakeLetterType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

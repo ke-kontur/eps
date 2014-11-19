@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.semcommonaggregatetypescust;
 
 /** 
- * Р Р°Р·РјРµС‚РєР° СЃР»РѕРІР° РІ С‚РµРєСЃС‚Рµ
+ * Разметка слова в тексте
  */
 public class MarkUpType
 {
@@ -11,7 +11,7 @@ public class MarkUpType
     private String weight;
 
     /** 
-     * Get the 'Delimiter' element value. Р Р°Р·РґРµР»РёС‚РµР»СЊ, РІСЃС‚Р°РІР»СЏРµС‚СЃСЏ РїРѕСЃР»Рµ Word. РњРѕР¶РµС‚ РѕС‚СЃСѓС‚СЃС‚РІРѕРІР°С‚СЊ
+     * Get the 'Delimiter' element value. Разделитель, вставляется после Word. Может отсутствовать
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class MarkUpType
     }
 
     /** 
-     * Set the 'Delimiter' element value. Р Р°Р·РґРµР»РёС‚РµР»СЊ, РІСЃС‚Р°РІР»СЏРµС‚СЃСЏ РїРѕСЃР»Рµ Word. РњРѕР¶РµС‚ РѕС‚СЃСѓС‚СЃС‚РІРѕРІР°С‚СЊ
+     * Set the 'Delimiter' element value. Разделитель, вставляется после Word. Может отсутствовать
      * 
      * @param delimiter
      */
@@ -29,7 +29,7 @@ public class MarkUpType
     }
 
     /** 
-     * Get the 'Word' element value. РџРѕРґСЃРІРµС‡РёРІР°РµРјРѕРµ СЃР»РѕРІРѕ
+     * Get the 'Word' element value. Подсвечиваемое слово
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class MarkUpType
     }
 
     /** 
-     * Set the 'Word' element value. РџРѕРґСЃРІРµС‡РёРІР°РµРјРѕРµ СЃР»РѕРІРѕ
+     * Set the 'Word' element value. Подсвечиваемое слово
      * 
      * @param word
      */
@@ -47,7 +47,7 @@ public class MarkUpType
     }
 
     /** 
-     * Get the 'Weight' element value. Р—РЅР°С‡РёРјРѕСЃС‚СЊ СЃР»РѕРІР°. Р—РЅР°С‡РµРЅРёРµ РѕС‚ 0 РґРѕ 16. Р’Р»РёСЏРµС‚ РЅР° СЃРёР»Сѓ РІС‹РґРµР»РµРЅРёСЏ СЃР»РѕРІР° РІ РѕР±С‰РµРј СЂР°Р·РјРµС‡РµРЅРЅРѕРј С‚РµРєСЃС‚Рµ
+     * Get the 'Weight' element value. Значимость слова. Значение от 0 до 16. Влияет на силу выделения слова в общем размеченном тексте
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class MarkUpType
     }
 
     /** 
-     * Set the 'Weight' element value. Р—РЅР°С‡РёРјРѕСЃС‚СЊ СЃР»РѕРІР°. Р—РЅР°С‡РµРЅРёРµ РѕС‚ 0 РґРѕ 16. Р’Р»РёСЏРµС‚ РЅР° СЃРёР»Сѓ РІС‹РґРµР»РµРЅРёСЏ СЃР»РѕРІР° РІ РѕР±С‰РµРј СЂР°Р·РјРµС‡РµРЅРЅРѕРј С‚РµРєСЃС‚Рµ
+     * Set the 'Weight' element value. Значимость слова. Значение от 0 до 16. Влияет на силу выделения слова в общем размеченном тексте
      * 
      * @param weight
      */

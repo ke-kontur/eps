@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РЅР°С‡Р°Р»Рµ СЃРєР°РЅРёСЂРѕРІР°РЅРёСЏ
+ * Уведомление о начале сканирования
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -31,7 +31,7 @@ public class ScanStartNotificationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ControlStartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° СЃРєР°РЅРёСЂРѕРІР°РЅРёСЏ
+     * Get the 'ControlStartDate' element value. Дата начала сканирования
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ScanStartNotificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ControlStartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° СЃРєР°РЅРёСЂРѕРІР°РЅРёСЏ
+     * Set the 'ControlStartDate' element value. Дата начала сканирования
      * 
      * @param controlStartDate
      */
@@ -49,7 +49,7 @@ public class ScanStartNotificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'ControlStartTime' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° СЃРєР°РЅРёСЂРѕРІР°РЅРёСЏ
+     * Get the 'ControlStartTime' element value. Время начала сканирования
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ScanStartNotificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'ControlStartTime' element value. Р’СЂРµРјСЏ РЅР°С‡Р°Р»Р° СЃРєР°РЅРёСЂРѕРІР°РЅРёСЏ
+     * Set the 'ControlStartTime' element value. Время начала сканирования
      * 
      * @param controlStartTime
      */
@@ -67,7 +67,7 @@ public class ScanStartNotificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'GTDID' element value. Регистрационный номер направления
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class ScanStartNotificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'GTDID' element value. Регистрационный номер направления
      * 
      * @param GTDID
      */
@@ -85,7 +85,7 @@ public class ScanStartNotificationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class ScanStartNotificationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

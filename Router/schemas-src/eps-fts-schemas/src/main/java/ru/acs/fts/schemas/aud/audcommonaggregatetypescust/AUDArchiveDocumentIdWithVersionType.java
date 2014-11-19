@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 import java.math.BigInteger;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°СЂС…РёРІРЅРѕРј РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂРµ РґРѕРєСѓРјРµРЅС‚Р° Рё РЅРѕРјРµСЂРµ РІРµСЂСЃРёРё.
+ * Информация об архивном идентификаторе документа и номере версии.
  */
 public class AUDArchiveDocumentIdWithVersionType
 {
@@ -12,7 +12,7 @@ public class AUDArchiveDocumentIdWithVersionType
     private BigInteger documentVersionNumber;
 
     /** 
-     * Get the 'ArchiveDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'ArchiveDocumentId' element value. Архивный идентификатор документа.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class AUDArchiveDocumentIdWithVersionType
     }
 
     /** 
-     * Set the 'ArchiveDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'ArchiveDocumentId' element value. Архивный идентификатор документа.
      * 
      * @param archiveDocumentId
      */
@@ -30,7 +30,7 @@ public class AUDArchiveDocumentIdWithVersionType
     }
 
     /** 
-     * Get the 'DocumentVersionNumber' element value. РќРѕРјРµСЂ РІРµСЂСЃРёРё РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentVersionNumber' element value. Номер версии документа.
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class AUDArchiveDocumentIdWithVersionType
     }
 
     /** 
-     * Set the 'DocumentVersionNumber' element value. РќРѕРјРµСЂ РІРµСЂСЃРёРё РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentVersionNumber' element value. Номер версии документа.
      * 
      * @param documentVersionNumber
      */

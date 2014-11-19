@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * Р‘Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ РґР»СЏ СѓРєР°Р·Р°РЅРёСЏ СЃРІРµРґРµРЅРёР№ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ. Р¤РРћ, РґРѕР»Р¶РЅРѕСЃС‚СЊ
+ * Базовый класс для указания сведений о должностном лице. ФИО, должность
  */
 public class PersonBaseType
 {
@@ -12,7 +12,7 @@ public class PersonBaseType
     private String personPost;
 
     /** 
-     * Get the 'PersonSurname' element value. Р¤Р°РјРёР»РёСЏ
+     * Get the 'PersonSurname' element value. Фамилия
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PersonBaseType
     }
 
     /** 
-     * Set the 'PersonSurname' element value. Р¤Р°РјРёР»РёСЏ
+     * Set the 'PersonSurname' element value. Фамилия
      * 
      * @param personSurname
      */
@@ -30,7 +30,7 @@ public class PersonBaseType
     }
 
     /** 
-     * Get the 'PersonName' element value. РРјСЏ
+     * Get the 'PersonName' element value. Имя
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PersonBaseType
     }
 
     /** 
-     * Set the 'PersonName' element value. РРјСЏ
+     * Set the 'PersonName' element value. Имя
      * 
      * @param personName
      */
@@ -48,7 +48,7 @@ public class PersonBaseType
     }
 
     /** 
-     * Get the 'PersonMiddleName' element value. РћС‚С‡РµСЃС‚РІРѕ
+     * Get the 'PersonMiddleName' element value. Отчество
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class PersonBaseType
     }
 
     /** 
-     * Set the 'PersonMiddleName' element value. РћС‚С‡РµСЃС‚РІРѕ
+     * Set the 'PersonMiddleName' element value. Отчество
      * 
      * @param personMiddleName
      */
@@ -66,7 +66,7 @@ public class PersonBaseType
     }
 
     /** 
-     * Get the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
+     * Get the 'PersonPost' element value. Должность
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class PersonBaseType
     }
 
     /** 
-     * Set the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
+     * Set the 'PersonPost' element value. Должность
      * 
      * @param personPost
      */

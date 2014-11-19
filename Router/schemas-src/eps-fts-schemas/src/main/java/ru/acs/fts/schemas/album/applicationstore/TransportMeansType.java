@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.applicationstore;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+ * Сведения о транспортном средстве
  */
 public class TransportMeansType
 {
@@ -14,7 +14,7 @@ public class TransportMeansType
     private String transportIdentifier;
 
     /** 
-     * Get the 'TransportName' element value. РќР°Р·РІР°РЅРёРµ РјРѕСЂСЃРєРѕРіРѕ СЃСѓРґРЅР°/Р±РѕСЂС‚РѕРІРѕР№ РЅРѕРјРµСЂ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°/РЅРѕРјРµСЂ РїРѕРµР·РґР°.
+     * Get the 'TransportName' element value. Название морского судна/бортовой номер воздушного судна/номер поезда.
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'TransportName' element value. РќР°Р·РІР°РЅРёРµ РјРѕСЂСЃРєРѕРіРѕ СЃСѓРґРЅР°/Р±РѕСЂС‚РѕРІРѕР№ РЅРѕРјРµСЂ РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°/РЅРѕРјРµСЂ РїРѕРµР·РґР°.
+     * Set the 'TransportName' element value. Название морского судна/бортовой номер воздушного судна/номер поезда.
      * 
      * @param transportName
      */
@@ -32,7 +32,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР° РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+     * Get the 'FlightNumber' element value. Номер рейса воздушного судна
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'FlightNumber' element value. РќРѕРјРµСЂ СЂРµР№СЃР° РІРѕР·РґСѓС€РЅРѕРіРѕ СЃСѓРґРЅР°
+     * Set the 'FlightNumber' element value. Номер рейса воздушного судна
      * 
      * @param flightNumber
      */
@@ -50,7 +50,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'CountryRegTrans' element value. РЎС‚СЂР°РЅР°  СЂРµРіРёСЃС‚СЂР°С†РёРё  С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'CountryRegTrans' element value. Страна  регистрации  транспортного средства
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'CountryRegTrans' element value. РЎС‚СЂР°РЅР°  СЂРµРіРёСЃС‚СЂР°С†РёРё  С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'CountryRegTrans' element value. Страна  регистрации  транспортного средства
      * 
      * @param countryRegTrans
      */
@@ -68,7 +68,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'CodeCountryRegTrans' element value. РљРѕРґ СЃС‚СЂР°РЅС‹, РіРґРµ СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРѕ  С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'CodeCountryRegTrans' element value. Код страны, где регистрировано  транспортного средства
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'CodeCountryRegTrans' element value. РљРѕРґ СЃС‚СЂР°РЅС‹, РіРґРµ СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРѕ  С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'CodeCountryRegTrans' element value. Код страны, где регистрировано  транспортного средства
      * 
      * @param codeCountryRegTrans
      */
@@ -86,7 +86,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'TransportType' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°, РЅР° РєРѕС‚РѕСЂРѕРј РїРµСЂРµРјРµС‰Р°РµС‚СЃСЏ С‚РѕРІР°СЂ. "1"- РІРѕР·РґСѓС€РЅРѕРµ СЃСѓРґРЅРѕ; "2" - РјРѕСЂСЃРєРѕРµ СЃСѓРґРЅРѕ; "3" - Р–Р” С‚СЂР°РЅСЃРїРѕСЂС‚.
+     * Get the 'TransportType' element value. Тип транспортного средства, на котором перемещается товар. "1"- воздушное судно; "2" - морское судно; "3" - ЖД транспорт.
      * 
      * @return value
      */
@@ -95,7 +95,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'TransportType' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°, РЅР° РєРѕС‚РѕСЂРѕРј РїРµСЂРµРјРµС‰Р°РµС‚СЃСЏ С‚РѕРІР°СЂ. "1"- РІРѕР·РґСѓС€РЅРѕРµ СЃСѓРґРЅРѕ; "2" - РјРѕСЂСЃРєРѕРµ СЃСѓРґРЅРѕ; "3" - Р–Р” С‚СЂР°РЅСЃРїРѕСЂС‚.
+     * Set the 'TransportType' element value. Тип транспортного средства, на котором перемещается товар. "1"- воздушное судно; "2" - морское судно; "3" - ЖД транспорт.
      * 
      * @param transportType
      */
@@ -104,7 +104,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Get the 'TransportIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Get the 'TransportIdentifier' element value. Идентификационные сведения о транспортном средстве
      * 
      * @return value
      */
@@ -113,7 +113,7 @@ public class TransportMeansType
     }
 
     /** 
-     * Set the 'TransportIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Рµ СЃРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Set the 'TransportIdentifier' element value. Идентификационные сведения о транспортном средстве
      * 
      * @param transportIdentifier
      */

@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.transportcommonaggregatetypescust.AirportType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂРµ
+ * Информация о пассажире
  */
 public class PassengerInfoType
 {
@@ -29,7 +29,7 @@ public class PassengerInfoType
     private AirportType departureAirport;
 
     /** 
-     * Get the 'Sex' element value. РџРѕР»
+     * Get the 'Sex' element value. Пол
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'Sex' element value. РџРѕР»
+     * Set the 'Sex' element value. Пол
      * 
      * @param sex
      */
@@ -47,7 +47,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'SeatNumber' element value. РќРѕРјРµСЂ РјРµСЃС‚Р°
+     * Get the 'SeatNumber' element value. Номер места
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'SeatNumber' element value. РќРѕРјРµСЂ РјРµСЃС‚Р°
+     * Set the 'SeatNumber' element value. Номер места
      * 
      * @param seatNumber
      */
@@ -65,7 +65,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'PersonName' element value. Р¤РРћ РїР°СЃСЃР°Р¶РёСЂР°
+     * Get the 'PersonName' element value. ФИО пассажира
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'PersonName' element value. Р¤РРћ РїР°СЃСЃР°Р¶РёСЂР°
+     * Set the 'PersonName' element value. ФИО пассажира
      * 
      * @param personName
      */
@@ -83,7 +83,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'PlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ Р±Р°РіР°Р¶Р°
+     * Get the 'PlacesQuantity' element value. Количество мест багажа
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'PlacesQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ Р±Р°РіР°Р¶Р°
+     * Set the 'PlacesQuantity' element value. Количество мест багажа
      * 
      * @param placesQuantity
      */
@@ -101,7 +101,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'WeightUnitQualifierCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РІРµСЃР° Р±Р°РіР°Р¶Р° (РєРёР»РѕРіСЂР°РјРјС‹ РёР»Рё С„СѓРЅС‚С‹)
+     * Get the 'WeightUnitQualifierCode' element value. Код измерения веса багажа (килограммы или фунты)
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'WeightUnitQualifierCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РІРµСЃР° Р±Р°РіР°Р¶Р° (РєРёР»РѕРіСЂР°РјРјС‹ РёР»Рё С„СѓРЅС‚С‹)
+     * Set the 'WeightUnitQualifierCode' element value. Код измерения веса багажа (килограммы или фунты)
      * 
      * @param weightUnitQualifierCode
      */
@@ -119,7 +119,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ Р±Р°РіР°Р¶Р° Р±СЂСѓС‚С‚Рѕ
+     * Get the 'GrossWeightQuantity' element value. Вес багажа брутто
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ Р±Р°РіР°Р¶Р° Р±СЂСѓС‚С‚Рѕ
+     * Set the 'GrossWeightQuantity' element value. Вес багажа брутто
      * 
      * @param grossWeightQuantity
      */
@@ -137,7 +137,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'LuggageTag' element value. Р‘Р°РіР°Р¶РЅС‹Рµ Р±РёСЂРєРё РїР°СЃСЃР°Р¶РёСЂР°
+     * Get the 'LuggageTag' element value. Багажные бирки пассажира
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'LuggageTag' element value. Р‘Р°РіР°Р¶РЅС‹Рµ Р±РёСЂРєРё РїР°СЃСЃР°Р¶РёСЂР°
+     * Set the 'LuggageTag' element value. Багажные бирки пассажира
      * 
      * @param luggageTag
      */
@@ -155,7 +155,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'Comment' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the 'Comment' element value. Примечание
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'Comment' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the 'Comment' element value. Примечание
      * 
      * @param comment
      */
@@ -173,7 +173,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'PassClass' element value. РљР»Р°СЃСЃ РјРµСЃС‚Р°
+     * Get the 'PassClass' element value. Класс места
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'PassClass' element value. РљР»Р°СЃСЃ РјРµСЃС‚Р°
+     * Set the 'PassClass' element value. Класс места
      * 
      * @param passClass
      */
@@ -191,7 +191,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'BirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
+     * Get the 'BirthDate' element value. Дата рождения
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'BirthDate' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
+     * Set the 'BirthDate' element value. Дата рождения
      * 
      * @param birthDate
      */
@@ -209,7 +209,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'BirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
+     * Get the 'BirthPlace' element value. Место рождения
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'BirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
+     * Set the 'BirthPlace' element value. Место рождения
      * 
      * @param birthPlace
      */
@@ -227,7 +227,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'Nationality' element value. Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ (Р°Р»СЊС„Р° РєРѕРґ СЃС‚СЂР°РЅС‹)
+     * Get the 'Nationality' element value. Гражданство (альфа код страны)
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'Nationality' element value. Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ (Р°Р»СЊС„Р° РєРѕРґ СЃС‚СЂР°РЅС‹)
+     * Set the 'Nationality' element value. Гражданство (альфа код страны)
      * 
      * @param nationality
      */
@@ -245,7 +245,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'DeparturePort' element value. РџРѕСЂС‚ РїРѕСЃР°РґРєРё РїР°СЃСЃР°Р¶РёСЂР°
+     * Get the 'DeparturePort' element value. Порт посадки пассажира
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'DeparturePort' element value. РџРѕСЂС‚ РїРѕСЃР°РґРєРё РїР°СЃСЃР°Р¶РёСЂР°
+     * Set the 'DeparturePort' element value. Порт посадки пассажира
      * 
      * @param departurePort
      */
@@ -263,7 +263,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'DestinationPort' element value. РџРѕСЂС‚ РІС‹СЃР°РґРєРё РїР°СЃСЃР°Р¶РёСЂР°
+     * Get the 'DestinationPort' element value. Порт высадки пассажира
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'DestinationPort' element value. РџРѕСЂС‚ РІС‹СЃР°РґРєРё РїР°СЃСЃР°Р¶РёСЂР°
+     * Set the 'DestinationPort' element value. Порт высадки пассажира
      * 
      * @param destinationPort
      */
@@ -281,7 +281,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ РїР°СЃСЃР°Р¶РёСЂР°
+     * Get the 'DestinationAirport' element value. Аэропорт назначения пассажира
      * 
      * @return value
      */
@@ -290,7 +290,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'DestinationAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ РїР°СЃСЃР°Р¶РёСЂР°
+     * Set the 'DestinationAirport' element value. Аэропорт назначения пассажира
      * 
      * @param destinationAirport
      */
@@ -299,7 +299,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚ СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ удостоверяющий личность
      * 
      * @return value
      */
@@ -308,7 +308,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚ СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ удостоверяющий личность
      * 
      * @param identityCard
      */
@@ -317,7 +317,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Get the 'DepartureAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РїР°СЃСЃР°Р¶РёСЂР°
+     * Get the 'DepartureAirport' element value. Аэропорт отправления пассажира
      * 
      * @return value
      */
@@ -326,7 +326,7 @@ public class PassengerInfoType
     }
 
     /** 
-     * Set the 'DepartureAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ РїР°СЃСЃР°Р¶РёСЂР°
+     * Set the 'DepartureAirport' element value. Аэропорт отправления пассажира
      * 
      * @param departureAirport
      */

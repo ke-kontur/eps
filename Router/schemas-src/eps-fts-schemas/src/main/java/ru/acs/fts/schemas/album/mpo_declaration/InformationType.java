@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.mpo_declaration;
 
 /** 
- * Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+ * Дополнительная информация
  */
 public class InformationType
 {
@@ -10,7 +10,7 @@ public class InformationType
     private PackingStateType packingState;
 
     /** 
-     * Get the 'WeightDifference' element value. Р Р°Р·РЅРёС†Р° РІ РІРµСЃРµ
+     * Get the 'WeightDifference' element value. Разница в весе
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class InformationType
     }
 
     /** 
-     * Set the 'WeightDifference' element value. Р Р°Р·РЅРёС†Р° РІ РІРµСЃРµ
+     * Set the 'WeightDifference' element value. Разница в весе
      * 
      * @param weightDifference
      */
@@ -28,7 +28,7 @@ public class InformationType
     }
 
     /** 
-     * Get the 'PackingState' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С†РµР»РѕСЃС‚РЅРѕСЃС‚Рё СѓРїР°РєРѕРІРєРё
+     * Get the 'PackingState' element value. Сведения о целостности упаковки
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class InformationType
     }
 
     /** 
-     * Set the 'PackingState' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С†РµР»РѕСЃС‚РЅРѕСЃС‚Рё СѓРїР°РєРѕРІРєРё
+     * Set the 'PackingState' element value. Сведения о целостности упаковки
      * 
      * @param packingState
      */

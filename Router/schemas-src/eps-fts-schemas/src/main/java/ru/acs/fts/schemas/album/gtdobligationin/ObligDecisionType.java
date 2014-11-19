@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Р РµС€РµРЅРёРµ РїРѕ РІС‹РїСѓСЃРєСѓ С‚РѕРІР°СЂРѕРІ
+ * Решение по выпуску товаров
  */
 public class ObligDecisionType
 {
@@ -18,7 +18,7 @@ public class ObligDecisionType
     private CustomsPersonType authorizedPerson;
 
     /** 
-     * Get the 'Decision' element value. Р РµС€РµРЅРёСЏ РїРѕ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІСѓ
+     * Get the 'Decision' element value. Решения по обязательству
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Set the 'Decision' element value. Р РµС€РµРЅРёСЏ РїРѕ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІСѓ
+     * Set the 'Decision' element value. Решения по обязательству
      * 
      * @param decision
      */
@@ -36,7 +36,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Get the 'Code' element value. РљРѕРґ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
+     * Get the 'Code' element value. Код принятого решения
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Set the 'Code' element value. РљРѕРґ РїСЂРёРЅСЏС‚РѕРіРѕ СЂРµС€РµРЅРёСЏ
+     * Set the 'Code' element value. Код принятого решения
      * 
      * @param code
      */
@@ -54,7 +54,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Get the 'Foundation' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
+     * Get the 'Foundation' element value. Обоснование
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Set the 'Foundation' element value. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
+     * Set the 'Foundation' element value. Обоснование
      * 
      * @param foundation
      */
@@ -72,7 +72,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Get the 'DecDate' element value. Р”Р°С‚Р°
+     * Get the 'DecDate' element value. Дата
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Set the 'DecDate' element value. Р”Р°С‚Р°
+     * Set the 'DecDate' element value. Дата
      * 
      * @param decDate
      */
@@ -90,7 +90,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Get the 'DecTime' element value. Р’СЂРµРјСЏ
+     * Get the 'DecTime' element value. Время
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Set the 'DecTime' element value. Р’СЂРµРјСЏ
+     * Set the 'DecTime' element value. Время
      * 
      * @param decTime
      */
@@ -108,7 +108,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Get the 'DateLimit' element value. РЎСЂРѕРє РїРѕРґР°С‡Рё Р”Рў, РґРѕРєСѓРјРµРЅС‚РѕРІ, СЃРІРµРґРµРЅРёР№
+     * Get the 'DateLimit' element value. Срок подачи ДТ, документов, сведений
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Set the 'DateLimit' element value. РЎСЂРѕРє РїРѕРґР°С‡Рё Р”Рў, РґРѕРєСѓРјРµРЅС‚РѕРІ, СЃРІРµРґРµРЅРёР№
+     * Set the 'DateLimit' element value. Срок подачи ДТ, документов, сведений
      * 
      * @param dateLimit
      */
@@ -126,7 +126,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Get the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ
+     * Get the 'AuthorizedPerson' element value. Уполномоченное должностное лицо
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class ObligDecisionType
     }
 
     /** 
-     * Set the 'AuthorizedPerson' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ
+     * Set the 'AuthorizedPerson' element value. Уполномоченное должностное лицо
      * 
      * @param authorizedPerson
      */

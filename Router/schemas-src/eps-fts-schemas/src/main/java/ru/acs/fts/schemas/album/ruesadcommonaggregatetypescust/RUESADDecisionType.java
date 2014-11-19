@@ -6,7 +6,7 @@ import java.util.List;
 import org.joda.time.LocalDate;
 
 /** 
- * Р”Рў Рё РўР”. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ
+ * ДТ и ТД. Принятое решение
  */
 public class RUESADDecisionType
 {
@@ -17,7 +17,7 @@ public class RUESADDecisionType
     private List<String> foundationList = new ArrayList<String>();
 
     /** 
-     * Get the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЂРµС€РµРЅРёР№,  РїСЂРёРЅРёРјР°РµРјС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё (**) - СЂР°Р·Р»РёС‡РЅРѕ РїРѕ С‚РѕРІР°СЂР°Рј (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё СѓРєР°Р·Р°РЅРёРё СЂРµС€РµРЅРёСЏ РїРѕ РґРµРєР»Р°СЂР°С†РёРё)
+     * Get the 'DecisionCode' element value. Код решения в соответствии с классификатором решений,  принимаемых таможенными органами (**) - различно по товарам (заполняется при указании решения по декларации)
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class RUESADDecisionType
     }
 
     /** 
-     * Set the 'DecisionCode' element value. РљРѕРґ СЂРµС€РµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЂРµС€РµРЅРёР№,  РїСЂРёРЅРёРјР°РµРјС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РѕСЂРіР°РЅР°РјРё (**) - СЂР°Р·Р»РёС‡РЅРѕ РїРѕ С‚РѕРІР°СЂР°Рј (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё СѓРєР°Р·Р°РЅРёРё СЂРµС€РµРЅРёСЏ РїРѕ РґРµРєР»Р°СЂР°С†РёРё)
+     * Set the 'DecisionCode' element value. Код решения в соответствии с классификатором решений,  принимаемых таможенными органами (**) - различно по товарам (заполняется при указании решения по декларации)
      * 
      * @param decisionCode
      */
@@ -35,7 +35,7 @@ public class RUESADDecisionType
     }
 
     /** 
-     * Get the 'DateInf' element value. Р”Р°С‚Р°
+     * Get the 'DateInf' element value. Дата
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class RUESADDecisionType
     }
 
     /** 
-     * Set the 'DateInf' element value. Р”Р°С‚Р°
+     * Set the 'DateInf' element value. Дата
      * 
      * @param dateInf
      */
@@ -53,7 +53,7 @@ public class RUESADDecisionType
     }
 
     /** 
-     * Get the 'TimeInf' element value. Р’СЂРµРјСЏ
+     * Get the 'TimeInf' element value. Время
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class RUESADDecisionType
     }
 
     /** 
-     * Set the 'TimeInf' element value. Р’СЂРµРјСЏ
+     * Set the 'TimeInf' element value. Время
      * 
      * @param timeInf
      */
@@ -71,7 +71,7 @@ public class RUESADDecisionType
     }
 
     /** 
-     * Get the 'LNP' element value. Р›РќРџ
+     * Get the 'LNP' element value. ЛНП
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class RUESADDecisionType
     }
 
     /** 
-     * Set the 'LNP' element value. Р›РќРџ
+     * Set the 'LNP' element value. ЛНП
      * 
      * @param LNP
      */
@@ -89,7 +89,7 @@ public class RUESADDecisionType
     }
 
     /** 
-     * Get the list of 'Foundation' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
+     * Get the list of 'Foundation' element items. Обоснование
      * 
      * @return list
      */
@@ -98,7 +98,7 @@ public class RUESADDecisionType
     }
 
     /** 
-     * Set the list of 'Foundation' element items. РћР±РѕСЃРЅРѕРІР°РЅРёРµ
+     * Set the list of 'Foundation' element items. Обоснование
      * 
      * @param list
      */

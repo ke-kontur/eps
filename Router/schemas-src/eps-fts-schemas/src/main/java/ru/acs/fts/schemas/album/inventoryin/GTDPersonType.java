@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.inventoryin;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїРѕРґР°СЋС‰РµРј Р”Рў
+ * Сведения о лице, подающем ДТ
  */
 public class GTDPersonType extends OrganizationBaseType
 {
     private String branchOrganizationName;
 
     /** 
-     * Get the 'BranchOrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ.
+     * Get the 'BranchOrganizationName' element value. Наименование обособленного подразделения.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class GTDPersonType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'BranchOrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ.
+     * Set the 'BranchOrganizationName' element value. Наименование обособленного подразделения.
      * 
      * @param branchOrganizationName
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.decisionclassgood;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РЅРѕРјРµСЂРµ С‚РѕРІР°СЂР° РїРѕ Р”Рў Рё Р·Р°СЏРІР»РµРЅРЅРѕРј РєРѕРґРµ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+ * Сведения о номере товара по ДТ и заявленном коде товара по ТН ВЭД ТС
  */
 public class NumericTNVEDCodeType
 {
@@ -10,7 +10,7 @@ public class NumericTNVEDCodeType
     private String goodsNumeric;
 
     /** 
-     * Get the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ, Р·Р°СЏРІР»РµРЅРЅС‹Р№ РІ Р”Рў
+     * Get the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС, заявленный в ДТ
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class NumericTNVEDCodeType
     }
 
     /** 
-     * Set the 'TNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ, Р·Р°СЏРІР»РµРЅРЅС‹Р№ РІ Р”Рў
+     * Set the 'TNVEDCode' element value. Код товара по ТН ВЭД ТС, заявленный в ДТ
      * 
      * @param TNVEDCode
      */
@@ -28,7 +28,7 @@ public class NumericTNVEDCodeType
     }
 
     /** 
-     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Get the 'GoodsNumeric' element value. Номер товара по ДТ
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class NumericTNVEDCodeType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Set the 'GoodsNumeric' element value. Номер товара по ДТ
      * 
      * @param goodsNumeric
      */

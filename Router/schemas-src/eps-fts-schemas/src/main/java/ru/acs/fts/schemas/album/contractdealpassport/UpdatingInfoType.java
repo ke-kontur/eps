@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.contractdealpassport;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРё РџРЎ
+ * Сведения о переоформлении ПС
  */
 public class UpdatingInfoType
 {
@@ -12,7 +12,7 @@ public class UpdatingInfoType
     private DocumentBaseType reasonsDocuments;
 
     /** 
-     * Get the 'Restructuring' element value. РџРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРµ РџРЎ (РїРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Рё РґР°С‚Р° РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёСЏ)
+     * Get the 'Restructuring' element value. Переоформление ПС (порядковый номер и дата переоформления)
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class UpdatingInfoType
     }
 
     /** 
-     * Set the 'Restructuring' element value. РџРµСЂРµРѕС„РѕСЂРјР»РµРЅРёРµ РџРЎ (РїРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Рё РґР°С‚Р° РїРµСЂРµРѕС„РѕСЂРјР»РµРЅРёСЏ)
+     * Set the 'Restructuring' element value. Переоформление ПС (порядковый номер и дата переоформления)
      * 
      * @param restructuring
      */
@@ -30,7 +30,7 @@ public class UpdatingInfoType
     }
 
     /** 
-     * Get the 'ReasonsDocuments' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РІРЅРµСЃРµРЅС‹ РёР·РјРµРЅРµРЅРёСЏ РІ РџРЎ (РЅРѕРјРµСЂ Рё РґР°С‚Р°)
+     * Get the 'ReasonsDocuments' element value. Сведения о документе, на основании которого внесены изменения в ПС (номер и дата)
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class UpdatingInfoType
     }
 
     /** 
-     * Set the 'ReasonsDocuments' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ РІРЅРµСЃРµРЅС‹ РёР·РјРµРЅРµРЅРёСЏ РІ РџРЎ (РЅРѕРјРµСЂ Рё РґР°С‚Р°)
+     * Set the 'ReasonsDocuments' element value. Сведения о документе, на основании которого внесены изменения в ПС (номер и дата)
      * 
      * @param reasonsDocuments
      */

@@ -16,7 +16,7 @@ public class PaymentOrderType
     private PaymentIndicationType paymentIndication;
 
     /** 
-     * Get the 'PaymentID' element value. РќРѕРјРµСЂ РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
+     * Get the 'PaymentID' element value. Номер платежного поручения
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'PaymentID' element value. РќРѕРјРµСЂ РїР»Р°С‚РµР¶РЅРѕРіРѕ РїРѕСЂСѓС‡РµРЅРёСЏ
+     * Set the 'PaymentID' element value. Номер платежного поручения
      * 
      * @param paymentID
      */
@@ -34,7 +34,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IssueDate' element value. Дата платежного документа
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IssueDate' element value. Дата платежного документа
      * 
      * @param issueDate
      */
@@ -52,7 +52,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Get the 'PaymentAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'PaymentAmount' element value. Общая сумма платежного документа
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'PaymentAmount' element value. Общая сумма платежного документа
      * 
      * @param paymentAmount
      */
@@ -70,7 +70,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РџРџ
+     * Get the 'CurrencyCode' element value. Код валюты ПП
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РџРџ
+     * Set the 'CurrencyCode' element value. Код валюты ПП
      * 
      * @param currencyCode
      */
@@ -88,7 +88,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Get the 'Balance' element value. РќРµРёСЃРїРѕР»СЊР·РѕРІР°РЅРЅС‹Р№ РѕСЃС‚Р°С‚РѕРє СЃСЂРµРґСЃС‚РІ РЅР° РџРџ
+     * Get the 'Balance' element value. Неиспользованный остаток средств на ПП
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'Balance' element value. РќРµРёСЃРїРѕР»СЊР·РѕРІР°РЅРЅС‹Р№ РѕСЃС‚Р°С‚РѕРє СЃСЂРµРґСЃС‚РІ РЅР° РџРџ
+     * Set the 'Balance' element value. Неиспользованный остаток средств на ПП
      * 
      * @param balance
      */
@@ -106,7 +106,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° 
+     * Get the 'PaymentModeCode' element value. Код вида платежа 
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р° 
+     * Set the 'PaymentModeCode' element value. Код вида платежа 
      * 
      * @param paymentModeCode
      */
@@ -124,7 +124,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Get the 'ReceiptDate' element value. РЎСЂРѕРє РїРѕСЃС‚СѓРїР»РµРЅРёСЏ СЃСЂРµРґСЃС‚РІ
+     * Get the 'ReceiptDate' element value. Срок поступления средств
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'ReceiptDate' element value. РЎСЂРѕРє РїРѕСЃС‚СѓРїР»РµРЅРёСЏ СЃСЂРµРґСЃС‚РІ
+     * Set the 'ReceiptDate' element value. Срок поступления средств
      * 
      * @param receiptDate
      */
@@ -142,7 +142,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Get the 'PaymentIndication' element value. РџСЂРёР·РЅР°РєРё РџРџ
+     * Get the 'PaymentIndication' element value. Признаки ПП
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class PaymentOrderType
     }
 
     /** 
-     * Set the 'PaymentIndication' element value. РџСЂРёР·РЅР°РєРё РџРџ
+     * Set the 'PaymentIndication' element value. Признаки ПП
      * 
      * @param paymentIndication
      */

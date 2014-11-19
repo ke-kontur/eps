@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
+ * Сведения о контейнерах
  */
 public class ESADContainerType
 {
@@ -14,7 +14,7 @@ public class ESADContainerType
     private List<ContainerNumberType> containerNumberList = new ArrayList<ContainerNumberType>();
 
     /** 
-     * Get the 'ContainerQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РєРѕРЅС‚РµР№РЅРµСЂРѕРІ
+     * Get the 'ContainerQuantity' element value. Количество контейнеров
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ESADContainerType
     }
 
     /** 
-     * Set the 'ContainerQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РєРѕРЅС‚РµР№РЅРµСЂРѕРІ
+     * Set the 'ContainerQuantity' element value. Количество контейнеров
      * 
      * @param containerQuantity
      */
@@ -32,7 +32,7 @@ public class ESADContainerType
     }
 
     /** 
-     * Get the 'ContainerKind' element value. РўРёРї РєРѕРЅС‚РµР№РЅРµСЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ
+     * Get the 'ContainerKind' element value. Тип контейнера в соответствии с классификатором видов груза, упаковки и упаковочных материалов
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ESADContainerType
     }
 
     /** 
-     * Set the 'ContainerKind' element value. РўРёРї РєРѕРЅС‚РµР№РЅРµСЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ
+     * Set the 'ContainerKind' element value. Тип контейнера в соответствии с классификатором видов груза, упаковки и упаковочных материалов
      * 
      * @param containerKind
      */
@@ -50,7 +50,7 @@ public class ESADContainerType
     }
 
     /** 
-     * Get the list of 'ContainerNumber' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the list of 'ContainerNumber' element items. Номер контейнера
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class ESADContainerType
     }
 
     /** 
-     * Set the list of 'ContainerNumber' element items. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the list of 'ContainerNumber' element items. Номер контейнера
      * 
      * @param list
      */

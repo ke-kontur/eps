@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+ * Номер контейнера
  */
 public class ContainerNumberType
 {
@@ -10,7 +10,7 @@ public class ContainerNumberType
     private String fullIndicator;
 
     /** 
-     * Get the 'ContainerIdentificaror' element value. РќРѕРјРµСЂ (РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ) РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'ContainerIdentificaror' element value. Номер (идентификатор) контейнера
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ContainerNumberType
     }
 
     /** 
-     * Set the 'ContainerIdentificaror' element value. РќРѕРјРµСЂ (РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ) РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'ContainerIdentificaror' element value. Номер (идентификатор) контейнера
      * 
      * @param containerIdentificaror
      */
@@ -28,7 +28,7 @@ public class ContainerNumberType
     }
 
     /** 
-     * Get the 'FullIndicator' element value. РџСЂРёР·РЅР°Рє Р·Р°РїРѕР»РЅРµРЅРёСЏ РєРѕРЅС‚РµР№РЅРµСЂР°. 1 - С‚РѕРІР°СЂ Р·Р°РЅРёРјР°РµС‚ РІРµСЃСЊ РєРѕРЅС‚РµР№РЅРµСЂ  2- С‚РѕРІР°СЂ Р·Р°РЅРёРјР°РµС‚ С‡Р°СЃС‚СЊ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'FullIndicator' element value. Признак заполнения контейнера. 1 - товар занимает весь контейнер  2- товар занимает часть контейнера
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ContainerNumberType
     }
 
     /** 
-     * Set the 'FullIndicator' element value. РџСЂРёР·РЅР°Рє Р·Р°РїРѕР»РЅРµРЅРёСЏ РєРѕРЅС‚РµР№РЅРµСЂР°. 1 - С‚РѕРІР°СЂ Р·Р°РЅРёРјР°РµС‚ РІРµСЃСЊ РєРѕРЅС‚РµР№РЅРµСЂ  2- С‚РѕРІР°СЂ Р·Р°РЅРёРјР°РµС‚ С‡Р°СЃС‚СЊ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'FullIndicator' element value. Признак заполнения контейнера. 1 - товар занимает весь контейнер  2- товар занимает часть контейнера
      * 
      * @param fullIndicator
      */

@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * Р›РёС†Рѕ, РѕР±Р»Р°РґР°СЋС‰РµРµ РїРѕР»РЅРѕРјРѕС‡РёСЏРјРё РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ.
+ * Лицо, обладающее полномочиями в отношении товаров.
  */
 public class AccessoriesPersonType extends PersonSignatureType
 {
@@ -16,7 +16,7 @@ public class AccessoriesPersonType extends PersonSignatureType
     private AddressType address;
 
     /** 
-     * Get the 'YearBirth' element value. Р“РѕРґ СЂРѕР¶РґРµРЅРёСЏ
+     * Get the 'YearBirth' element value. Год рождения
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class AccessoriesPersonType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'YearBirth' element value. Р“РѕРґ СЂРѕР¶РґРµРЅРёСЏ
+     * Set the 'YearBirth' element value. Год рождения
      * 
      * @param yearBirth
      */
@@ -34,7 +34,7 @@ public class AccessoriesPersonType extends PersonSignatureType
     }
 
     /** 
-     * Get the 'BirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
+     * Get the 'BirthPlace' element value. Место рождения
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class AccessoriesPersonType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'BirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
+     * Set the 'BirthPlace' element value. Место рождения
      * 
      * @param birthPlace
      */
@@ -52,7 +52,7 @@ public class AccessoriesPersonType extends PersonSignatureType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class AccessoriesPersonType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @param identityCard
      */
@@ -70,7 +70,7 @@ public class AccessoriesPersonType extends PersonSignatureType
     }
 
     /** 
-     * Get the 'Address' element value. Р”РѕРјР°С€РЅРёР№ Р°РґСЂРµСЃ
+     * Get the 'Address' element value. Домашний адрес
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class AccessoriesPersonType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'Address' element value. Р”РѕРјР°С€РЅРёР№ Р°РґСЂРµСЃ
+     * Set the 'Address' element value. Домашний адрес
      * 
      * @param address
      */

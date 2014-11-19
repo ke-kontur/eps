@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ContainerNumberType;
 
 /** 
- * РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР°/РєРѕРЅС‚РµР№РЅРµСЂС‹
+ * Транспортные средства/контейнеры
  */
 public class InspTransportMeansType
 {
@@ -14,7 +14,7 @@ public class InspTransportMeansType
     private List<ContainerNumberType> inspContainerList = new ArrayList<ContainerNumberType>();
 
     /** 
-     * Get the 'TransportMeans' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Get the 'TransportMeans' element value. Сведения о транспортном средстве
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class InspTransportMeansType
     }
 
     /** 
-     * Set the 'TransportMeans' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Set the 'TransportMeans' element value. Сведения о транспортном средстве
      * 
      * @param transportMeans
      */
@@ -32,7 +32,7 @@ public class InspTransportMeansType
     }
 
     /** 
-     * Get the list of 'InspContainer' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
+     * Get the list of 'InspContainer' element items. Сведения о контейнерах
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class InspTransportMeansType
     }
 
     /** 
-     * Set the list of 'InspContainer' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
+     * Set the list of 'InspContainer' element items. Сведения о контейнерах
      * 
      * @param list
      */

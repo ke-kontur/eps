@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.veterinarycertificate;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё
+ * Сведения о регистрации
  */
 public class RegistrationInfoType
 {
@@ -15,7 +15,7 @@ public class RegistrationInfoType
     private String issueCountry;
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class RegistrationInfoType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'RegistrationNumber' element value. Регистрационный номер
      * 
      * @param registrationNumber
      */
@@ -33,7 +33,7 @@ public class RegistrationInfoType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Сѓ РІС‹РґР°С‡Рё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'IssueDate' element value. Дату выдачи сертификата
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class RegistrationInfoType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Сѓ РІС‹РґР°С‡Рё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'IssueDate' element value. Дату выдачи сертификата
      * 
      * @param issueDate
      */
@@ -51,7 +51,7 @@ public class RegistrationInfoType
     }
 
     /** 
-     * Get the 'TerritorialAuthority' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РѕСЂРіР°РЅР° Р РѕСЃСЃРµР»СЊС…РѕР·РЅР°РґР·РѕСЂР° / РЈС‡СЂРµР¶РґРµРЅРёРµ СЃС‚СЂР°РЅС‹ - СЌРєСЃРїРѕСЂС‚РµСЂР°, РІС‹РґР°РІС€РµРµ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'TerritorialAuthority' element value. Наименование территориального органа Россельхознадзора / Учреждение страны - экспортера, выдавшее сертификат
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class RegistrationInfoType
     }
 
     /** 
-     * Set the 'TerritorialAuthority' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РµСЂСЂРёС‚РѕСЂРёР°Р»СЊРЅРѕРіРѕ РѕСЂРіР°РЅР° Р РѕСЃСЃРµР»СЊС…РѕР·РЅР°РґР·РѕСЂР° / РЈС‡СЂРµР¶РґРµРЅРёРµ СЃС‚СЂР°РЅС‹ - СЌРєСЃРїРѕСЂС‚РµСЂР°, РІС‹РґР°РІС€РµРµ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'TerritorialAuthority' element value. Наименование территориального органа Россельхознадзора / Учреждение страны - экспортера, выдавшее сертификат
      * 
      * @param territorialAuthority
      */
@@ -69,7 +69,7 @@ public class RegistrationInfoType
     }
 
     /** 
-     * Get the 'CompetentAuthority' element value. РљРѕРјРїРµС‚РµРЅС‚РЅРѕРµ РІРµРґРѕРјСЃС‚РІРѕ СЃС‚СЂР°РЅС‹ - СЌРєСЃРїРѕСЂС‚РµСЂР°
+     * Get the 'CompetentAuthority' element value. Компетентное ведомство страны - экспортера
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class RegistrationInfoType
     }
 
     /** 
-     * Set the 'CompetentAuthority' element value. РљРѕРјРїРµС‚РµРЅС‚РЅРѕРµ РІРµРґРѕРјСЃС‚РІРѕ СЃС‚СЂР°РЅС‹ - СЌРєСЃРїРѕСЂС‚РµСЂР°
+     * Set the 'CompetentAuthority' element value. Компетентное ведомство страны - экспортера
      * 
      * @param competentAuthority
      */
@@ -87,7 +87,7 @@ public class RegistrationInfoType
     }
 
     /** 
-     * Get the 'IssueCountry' element value. РЎС‚СЂР°РЅР°, РІС‹РґР°РІС€Р°СЏ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Get the 'IssueCountry' element value. Страна, выдавшая сертификат
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class RegistrationInfoType
     }
 
     /** 
-     * Set the 'IssueCountry' element value. РЎС‚СЂР°РЅР°, РІС‹РґР°РІС€Р°СЏ СЃРµСЂС‚РёС„РёРєР°С‚
+     * Set the 'IssueCountry' element value. Страна, выдавшая сертификат
      * 
      * @param issueCountry
      */

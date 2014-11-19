@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РїРѕР»СѓС‡РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+ * Подтверждение получения документа
  */
 public class PIConfirmDocsType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class PIConfirmDocsType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
+     * Get the 'SendDate' element value. Дата создания подтверждения
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class PIConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° СЃРѕР·РґР°РЅРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
+     * Set the 'SendDate' element value. Дата создания подтверждения
      * 
      * @param sendDate
      */
@@ -37,7 +37,7 @@ public class PIConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
+     * Get the 'SendTime' element value. Время создания подтверждения
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class PIConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
+     * Set the 'SendTime' element value. Время создания подтверждения
      * 
      * @param sendTime
      */
@@ -55,7 +55,7 @@ public class PIConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RecipDocument' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С….
+     * Get the list of 'RecipDocument' element items. Информация о полученных документах.
      * 
      * @return list
      */
@@ -64,7 +64,7 @@ public class PIConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RecipDocument' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С….
+     * Set the list of 'RecipDocument' element items. Информация о полученных документах.
      * 
      * @param list
      */
@@ -73,7 +73,7 @@ public class PIConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeclPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, СЃРѕР·РґР°РІС€РµРј РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ
+     * Get the 'DeclPerson' element value. Сведения о лице, создавшем подтверждение
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class PIConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, СЃРѕР·РґР°РІС€РµРј РїРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ
+     * Set the 'DeclPerson' element value. Сведения о лице, создавшем подтверждение
      * 
      * @param declPerson
      */
@@ -91,7 +91,7 @@ public class PIConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class PIConfirmDocsType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

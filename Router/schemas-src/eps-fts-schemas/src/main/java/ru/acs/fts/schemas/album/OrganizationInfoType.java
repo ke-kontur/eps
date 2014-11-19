@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ/РїРѕР»СѓС‡Р°С‚РµР»Рµ/Р»РёС†Рµ, РѕС‚РІ. Р·Р° С„РёРЅ. СЂРµРі/РґРµРєР»Р°СЂР°РЅС‚Рµ
+ * Сведения об отправителе/получателе/лице, отв. за фин. рег/декларанте
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -28,7 +28,7 @@ public class OrganizationInfoType
     private String OKATO;
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё / Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'OrganizationName' element value. Наименование организации / ФИО физического лица
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё / Р¤РРћ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'OrganizationName' element value. Наименование организации / ФИО физического лица
      * 
      * @param organizationName
      */
@@ -46,7 +46,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Get the 'OGRN' element value. РћР“Р Рќ/РћР“Р РќРРџ. РћСЃРЅРѕРІРЅРѕР№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ.
+     * Get the 'OGRN' element value. ОГРН/ОГРНИП. Основной государственный регистрационный номер.
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Set the 'OGRN' element value. РћР“Р Рќ/РћР“Р РќРРџ. РћСЃРЅРѕРІРЅРѕР№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ.
+     * Set the 'OGRN' element value. ОГРН/ОГРНИП. Основной государственный регистрационный номер.
      * 
      * @param OGRN
      */
@@ -64,7 +64,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Get the 'INN' element value. РРќРќ - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°.
+     * Get the 'INN' element value. ИНН - Индивидуальный номер налогоплательщика.
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Set the 'INN' element value. РРќРќ - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РЅР°Р»РѕРіРѕРїР»Р°С‚РµР»СЊС‰РёРєР°.
+     * Set the 'INN' element value. ИНН - Индивидуальный номер налогоплательщика.
      * 
      * @param INN
      */
@@ -82,7 +82,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Get the 'KPP' element value. РљРџРџ - РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚.
+     * Get the 'KPP' element value. КПП - Код причины постановки на учет.
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Set the 'KPP' element value. РљРџРџ - РљРѕРґ РїСЂРёС‡РёРЅС‹ РїРѕСЃС‚Р°РЅРѕРІРєРё РЅР° СѓС‡РµС‚.
+     * Set the 'KPP' element value. КПП - Код причины постановки на учет.
      * 
      * @param KPP
      */
@@ -100,7 +100,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Get the 'ITN' element value. РРўРќ
+     * Get the 'ITN' element value. ИТН
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Set the 'ITN' element value. РРўРќ
+     * Set the 'ITN' element value. ИТН
      * 
      * @param ITN
      */
@@ -118,7 +118,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Get the 'OKATO' element value. РљРѕРґ РћРљРђРўРћ (С„РѕСЂРјРёСЂСѓРµС‚СЃСЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РїСЂРёРєР°Р·РѕРј Р¤РўРЎ Р РѕСЃСЃРёРё РѕС‚ 10.10.2007 Рі. в„– 1246)
+     * Get the 'OKATO' element value. Код ОКАТО (формируется автоматически в соответствии с приказом ФТС России от 10.10.2007 г. № 1246)
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class OrganizationInfoType
     }
 
     /** 
-     * Set the 'OKATO' element value. РљРѕРґ РћРљРђРўРћ (С„РѕСЂРјРёСЂСѓРµС‚СЃСЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РїСЂРёРєР°Р·РѕРј Р¤РўРЎ Р РѕСЃСЃРёРё РѕС‚ 10.10.2007 Рі. в„– 1246)
+     * Set the 'OKATO' element value. Код ОКАТО (формируется автоматически в соответствии с приказом ФТС России от 10.10.2007 г. № 1246)
      * 
      * @param OKATO
      */

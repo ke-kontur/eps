@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album;
 
 /** 
- * РџР»Р°С‚РµР¶
+ * Платеж
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -20,7 +20,7 @@ public class PayingType
     private String amount;
 
     /** 
-     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°
+     * Get the 'PaymentModeCode' element value. Код вида таможенного платежа
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class PayingType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїР»Р°С‚РµР¶Р°
+     * Set the 'PaymentModeCode' element value. Код вида таможенного платежа
      * 
      * @param paymentModeCode
      */
@@ -38,7 +38,7 @@ public class PayingType
     }
 
     /** 
-     * Get the 'Amount' element value. РЎСѓРјРјР°, РїРѕРґР»РµР¶Р°С‰Р°СЏ СѓРїР»Р°С‚Рµ
+     * Get the 'Amount' element value. Сумма, подлежащая уплате
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class PayingType
     }
 
     /** 
-     * Set the 'Amount' element value. РЎСѓРјРјР°, РїРѕРґР»РµР¶Р°С‰Р°СЏ СѓРїР»Р°С‚Рµ
+     * Set the 'Amount' element value. Сумма, подлежащая уплате
      * 
      * @param amount
      */

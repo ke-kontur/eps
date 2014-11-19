@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * РљР°РєРёРј РѕР±СЂР°Р·РѕРј Р±С‹Р»Р° РІС‹СЂР°Р¶РµРЅР° РїСѓР±Р»РёС‡РЅР°СЏ РѕС„РµСЂС‚Р° РџСЂРѕРґР°РІС†Р°.
+ * Каким образом была выражена публичная оферта Продавца.
  */
 public class ExpressPubliclyOfferType
 {
@@ -18,7 +18,7 @@ public class ExpressPubliclyOfferType
     private String otherwiseComments;
 
     /** 
-     * Get the 'PriceList' element value. РџСЂРёР·РЅР°Рє РІС‹СЂР°Р¶РµРЅРёСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚С‹ РІ РїСЂР°Р№СЃ-Р»РёСЃС‚Рµ РІ РѕС„РёСЃРµ РїСЂРѕРґР°РІС†Р°
+     * Get the 'PriceList' element value. Признак выражения публичной оферты в прайс-листе в офисе продавца
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Set the 'PriceList' element value. РџСЂРёР·РЅР°Рє РІС‹СЂР°Р¶РµРЅРёСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚С‹ РІ РїСЂР°Р№СЃ-Р»РёСЃС‚Рµ РІ РѕС„РёСЃРµ РїСЂРѕРґР°РІС†Р°
+     * Set the 'PriceList' element value. Признак выражения публичной оферты в прайс-листе в офисе продавца
      * 
      * @param priceList
      */
@@ -36,7 +36,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Get the 'PriceListAddressOffice' element value. Р’ РїСЂР°Р№СЃ-Р»РёСЃС‚Рµ РІ РѕС„РёСЃРµ РїСЂРѕРґР°РІС†Р° (СѓРєР°Р·Р°С‚СЊ С„Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ)
+     * Get the 'PriceListAddressOffice' element value. В прайс-листе в офисе продавца (указать фактический адрес)
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Set the 'PriceListAddressOffice' element value. Р’ РїСЂР°Р№СЃ-Р»РёСЃС‚Рµ РІ РѕС„РёСЃРµ РїСЂРѕРґР°РІС†Р° (СѓРєР°Р·Р°С‚СЊ С„Р°РєС‚РёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ)
+     * Set the 'PriceListAddressOffice' element value. В прайс-листе в офисе продавца (указать фактический адрес)
      * 
      * @param priceListAddressOffice
      */
@@ -54,7 +54,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Get the 'PublicSourcePrinting' element value. РџСЂРёР·РЅР°Рє РІС‹СЂР°Р¶РµРЅРёСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚С‹ РІ РѕС‚РєСЂС‹С‚РѕРј РёСЃС‚РѕС‡РЅРёРєРµ РїРµС‡Р°С‚Рё
+     * Get the 'PublicSourcePrinting' element value. Признак выражения публичной оферты в открытом источнике печати
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Set the 'PublicSourcePrinting' element value. РџСЂРёР·РЅР°Рє РІС‹СЂР°Р¶РµРЅРёСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚С‹ РІ РѕС‚РєСЂС‹С‚РѕРј РёСЃС‚РѕС‡РЅРёРєРµ РїРµС‡Р°С‚Рё
+     * Set the 'PublicSourcePrinting' element value. Признак выражения публичной оферты в открытом источнике печати
      * 
      * @param publicSourcePrinting
      */
@@ -72,7 +72,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Get the 'PublicSourcePrintingComments' element value. Р’ РѕС‚РєСЂС‹С‚РѕРј РёСЃС‚РѕС‡РЅРёРєРµ РїРµС‡Р°С‚Рё (СѓРєР°Р·Р°С‚СЊ РєР°РєРѕРј, РіРґРµ Рё РєРѕРіРґР° РёР·РґР°РЅ)
+     * Get the 'PublicSourcePrintingComments' element value. В открытом источнике печати (указать каком, где и когда издан)
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Set the 'PublicSourcePrintingComments' element value. Р’ РѕС‚РєСЂС‹С‚РѕРј РёСЃС‚РѕС‡РЅРёРєРµ РїРµС‡Р°С‚Рё (СѓРєР°Р·Р°С‚СЊ РєР°РєРѕРј, РіРґРµ Рё РєРѕРіРґР° РёР·РґР°РЅ)
+     * Set the 'PublicSourcePrintingComments' element value. В открытом источнике печати (указать каком, где и когда издан)
      * 
      * @param publicSourcePrintingComments
      */
@@ -91,7 +91,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Get the 'Media' element value. РџСЂРёР·РЅР°Рє РІС‹СЂР°Р¶РµРЅРёСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚С‹ РІ РґСЂСѓРіРёС… СЃСЂРµРґСЃС‚РІР°С… РјР°СЃСЃРѕРІРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'Media' element value. Признак выражения публичной оферты в других средствах массовой информации
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Set the 'Media' element value. РџСЂРёР·РЅР°Рє РІС‹СЂР°Р¶РµРЅРёСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚С‹ РІ РґСЂСѓРіРёС… СЃСЂРµРґСЃС‚РІР°С… РјР°СЃСЃРѕРІРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'Media' element value. Признак выражения публичной оферты в других средствах массовой информации
      * 
      * @param media
      */
@@ -109,7 +109,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Get the 'MediaComments' element value. Р’ РґСЂСѓРіРёС… СЃСЂРµРґСЃС‚РІР°С… РјР°СЃСЃРѕРІРѕР№ РёРЅС„РѕСЂРјР°С†РёРё (СѓРєР°Р·Р°С‚СЊ, РІ РєР°РєРёС… Рё РєРѕРіРґР°)
+     * Get the 'MediaComments' element value. В других средствах массовой информации (указать, в каких и когда)
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Set the 'MediaComments' element value. Р’ РґСЂСѓРіРёС… СЃСЂРµРґСЃС‚РІР°С… РјР°СЃСЃРѕРІРѕР№ РёРЅС„РѕСЂРјР°С†РёРё (СѓРєР°Р·Р°С‚СЊ, РІ РєР°РєРёС… Рё РєРѕРіРґР°)
+     * Set the 'MediaComments' element value. В других средствах массовой информации (указать, в каких и когда)
      * 
      * @param mediaComments
      */
@@ -127,7 +127,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Get the 'Site' element value. РџСЂРёР·РЅР°Рє РІС‹СЂР°Р¶РµРЅРёСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚С‹ РЅР° РѕС‚РєСЂС‹С‚РѕРј СЃР°Р№С‚Рµ РїСЂРѕРґР°РІС†Р° РІ РёРЅС‚РµСЂРЅРµС‚Рµ
+     * Get the 'Site' element value. Признак выражения публичной оферты на открытом сайте продавца в интернете
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Set the 'Site' element value. РџСЂРёР·РЅР°Рє РІС‹СЂР°Р¶РµРЅРёСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚С‹ РЅР° РѕС‚РєСЂС‹С‚РѕРј СЃР°Р№С‚Рµ РїСЂРѕРґР°РІС†Р° РІ РёРЅС‚РµСЂРЅРµС‚Рµ
+     * Set the 'Site' element value. Признак выражения публичной оферты на открытом сайте продавца в интернете
      * 
      * @param site
      */
@@ -145,7 +145,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Get the 'SiteAddress' element value. РќР° РѕС‚РєСЂС‹С‚РѕРј СЃР°Р№С‚Рµ РџСЂРѕРґР°РІС†Р° РІ РРЅС‚РµСЂРЅРµС‚Рµ (СѓРєР°Р·Р°С‚СЊ Р°РґСЂРµСЃ)
+     * Get the 'SiteAddress' element value. На открытом сайте Продавца в Интернете (указать адрес)
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Set the 'SiteAddress' element value. РќР° РѕС‚РєСЂС‹С‚РѕРј СЃР°Р№С‚Рµ РџСЂРѕРґР°РІС†Р° РІ РРЅС‚РµСЂРЅРµС‚Рµ (СѓРєР°Р·Р°С‚СЊ Р°РґСЂРµСЃ)
+     * Set the 'SiteAddress' element value. На открытом сайте Продавца в Интернете (указать адрес)
      * 
      * @param siteAddress
      */
@@ -163,7 +163,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Get the 'Otherwise' element value. РџСЂРёР·РЅР°Рє РІС‹СЂР°Р¶РµРЅРёСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚С‹ РёРЅС‹Рј РѕР±СЂР°Р·РѕРј
+     * Get the 'Otherwise' element value. Признак выражения публичной оферты иным образом
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Set the 'Otherwise' element value. РџСЂРёР·РЅР°Рє РІС‹СЂР°Р¶РµРЅРёСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚С‹ РёРЅС‹Рј РѕР±СЂР°Р·РѕРј
+     * Set the 'Otherwise' element value. Признак выражения публичной оферты иным образом
      * 
      * @param otherwise
      */
@@ -181,7 +181,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Get the 'OtherwiseComments' element value. РРЅС‹Рµ РѕР±СЂР°Р·РѕРј (СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
+     * Get the 'OtherwiseComments' element value. Иные образом (указать подробности)
      * 
      * @return value
      */
@@ -190,7 +190,7 @@ public class ExpressPubliclyOfferType
     }
 
     /** 
-     * Set the 'OtherwiseComments' element value. РРЅС‹Рµ РѕР±СЂР°Р·РѕРј (СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
+     * Set the 'OtherwiseComments' element value. Иные образом (указать подробности)
      * 
      * @param otherwiseComments
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.postalmanifest;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РёРїРµ РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РµРјРєРѕСЃС‚РµР№
+ * Сведения о типе возвращаемых емкостей
  */
 public class ReturnedContainersKindType
 {
@@ -12,7 +12,7 @@ public class ReturnedContainersKindType
     private String EMSKind;
 
     /** 
-     * Get the 'PriorityAviaKind' element value. РџСЂРёР·РЅР°Рє РїСЂРёРѕСЂРёС‚РµС‚РЅС‹С…/Р°РІРёР° РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РµРјРєРѕСЃС‚РµР№
+     * Get the 'PriorityAviaKind' element value. Признак приоритетных/авиа возвращаемых емкостей
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ReturnedContainersKindType
     }
 
     /** 
-     * Set the 'PriorityAviaKind' element value. РџСЂРёР·РЅР°Рє РїСЂРёРѕСЂРёС‚РµС‚РЅС‹С…/Р°РІРёР° РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РµРјРєРѕСЃС‚РµР№
+     * Set the 'PriorityAviaKind' element value. Признак приоритетных/авиа возвращаемых емкостей
      * 
      * @param priorityAviaKind
      */
@@ -30,7 +30,7 @@ public class ReturnedContainersKindType
     }
 
     /** 
-     * Get the 'UnpriorityLandKind' element value. РџСЂРёР·РЅР°Рє РЅРµРїСЂРёРѕСЂРёС‚РµС‚РЅС‹С…/РЅР°Р·РµРјРЅС‹С… РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РµРјРєРѕСЃС‚РµР№
+     * Get the 'UnpriorityLandKind' element value. Признак неприоритетных/наземных возвращаемых емкостей
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ReturnedContainersKindType
     }
 
     /** 
-     * Set the 'UnpriorityLandKind' element value. РџСЂРёР·РЅР°Рє РЅРµРїСЂРёРѕСЂРёС‚РµС‚РЅС‹С…/РЅР°Р·РµРјРЅС‹С… РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РµРјРєРѕСЃС‚РµР№
+     * Set the 'UnpriorityLandKind' element value. Признак неприоритетных/наземных возвращаемых емкостей
      * 
      * @param unpriorityLandKind
      */
@@ -48,7 +48,7 @@ public class ReturnedContainersKindType
     }
 
     /** 
-     * Get the 'ParcelKind' element value. РџСЂРёР·РЅР°Рє РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РµРјРєРѕСЃС‚РµР№, РѕС‚РЅРѕСЃСЏС‰РёС…СЃСЏ Рє РїРѕСЃС‹Р»РєР°Рј
+     * Get the 'ParcelKind' element value. Признак возвращаемых емкостей, относящихся к посылкам
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ReturnedContainersKindType
     }
 
     /** 
-     * Set the 'ParcelKind' element value. РџСЂРёР·РЅР°Рє РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РµРјРєРѕСЃС‚РµР№, РѕС‚РЅРѕСЃСЏС‰РёС…СЃСЏ Рє РїРѕСЃС‹Р»РєР°Рј
+     * Set the 'ParcelKind' element value. Признак возвращаемых емкостей, относящихся к посылкам
      * 
      * @param parcelKind
      */
@@ -66,7 +66,7 @@ public class ReturnedContainersKindType
     }
 
     /** 
-     * Get the 'EMSKind' element value. РџСЂРёР·РЅР°Рє РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РµРјРєРѕСЃС‚РµР№, РѕС‚РЅРѕСЃСЏС‰РёС…СЃСЏ Рє EMS
+     * Get the 'EMSKind' element value. Признак возвращаемых емкостей, относящихся к EMS
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ReturnedContainersKindType
     }
 
     /** 
-     * Set the 'EMSKind' element value. РџСЂРёР·РЅР°Рє РІРѕР·РІСЂР°С‰Р°РµРјС‹С… РµРјРєРѕСЃС‚РµР№, РѕС‚РЅРѕСЃСЏС‰РёС…СЃСЏ Рє EMS
+     * Set the 'EMSKind' element value. Признак возвращаемых емкостей, относящихся к EMS
      * 
      * @param EMSKind
      */

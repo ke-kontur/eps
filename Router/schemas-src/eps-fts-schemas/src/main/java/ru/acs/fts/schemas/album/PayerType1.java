@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ РїР»Р°С‚РµР»СЊС‰РёРєР°
+ * Реквизиты плательщика
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -24,7 +24,7 @@ public class PayerType1 extends CUOrganizationType
     private String cardNumber;
 
     /** 
-     * Get the 'CardNumber' element value. РќРѕРјРµСЂ СѓРЅРёРІРµСЂСЃР°Р»СЊРЅРѕР№ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєР°СЂС‚С‹
+     * Get the 'CardNumber' element value. Номер универсальной электронной карты
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class PayerType1 extends CUOrganizationType
     }
 
     /** 
-     * Set the 'CardNumber' element value. РќРѕРјРµСЂ СѓРЅРёРІРµСЂСЃР°Р»СЊРЅРѕР№ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РєР°СЂС‚С‹
+     * Set the 'CardNumber' element value. Номер универсальной электронной карты
      * 
      * @param cardNumber
      */

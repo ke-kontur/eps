@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РїСЂРёРєР»Р°РґРЅРѕР№ СЃРёСЃС‚РµРјС‹ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ Рё, РІРѕР·РјРѕР¶РЅРѕ, С‚РµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°.
+ * Информация прикладной системы о документе и, возможно, тело документа.
  */
 public class AUDAppliedDocumentWithBodyType extends AUDAppliedDocumentInfoType
 {
     private AUDDocumentBodyType documentBody;
 
     /** 
-     * Get the 'DocumentBody' element value. РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentBody' element value. Тело документа.
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class AUDAppliedDocumentWithBodyType extends AUDAppliedDocumentInfoType
     }
 
     /** 
-     * Set the 'DocumentBody' element value. РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentBody' element value. Тело документа.
      * 
      * @param documentBody
      */

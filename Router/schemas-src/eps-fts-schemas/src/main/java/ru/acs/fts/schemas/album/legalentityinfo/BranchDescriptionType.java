@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUBranchDescriptionType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
+ * Сведения об обособленном подразделении
  */
 public class BranchDescriptionType extends CUBranchDescriptionType
 {
@@ -14,7 +14,7 @@ public class BranchDescriptionType extends CUBranchDescriptionType
     private RecordDataType recordData;
 
     /** 
-     * Get the 'BranchKind' element value. Р’РёРґ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ: 0 - С„РёР»РёР°Р»; 1 - РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊСЃС‚РІРѕ
+     * Get the 'BranchKind' element value. Вид подразделения: 0 - филиал; 1 - представительство
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class BranchDescriptionType extends CUBranchDescriptionType
     }
 
     /** 
-     * Set the 'BranchKind' element value. Р’РёРґ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ: 0 - С„РёР»РёР°Р»; 1 - РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊСЃС‚РІРѕ
+     * Set the 'BranchKind' element value. Вид подразделения: 0 - филиал; 1 - представительство
      * 
      * @param branchKind
      */
@@ -32,7 +32,7 @@ public class BranchDescriptionType extends CUBranchDescriptionType
     }
 
     /** 
-     * Get the 'ForeignAddress' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° СЂР°СЃРїРѕР»РѕР¶РµРЅРёСЏ Р·Р° РїСЂРµРґРµР»Р°РјРё С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤
+     * Get the 'ForeignAddress' element value. Адрес места расположения за пределами территории РФ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class BranchDescriptionType extends CUBranchDescriptionType
     }
 
     /** 
-     * Set the 'ForeignAddress' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° СЂР°СЃРїРѕР»РѕР¶РµРЅРёСЏ Р·Р° РїСЂРµРґРµР»Р°РјРё С‚РµСЂСЂРёС‚РѕСЂРёРё Р Р¤
+     * Set the 'ForeignAddress' element value. Адрес места расположения за пределами территории РФ
      * 
      * @param foreignAddress
      */
@@ -50,7 +50,7 @@ public class BranchDescriptionType extends CUBranchDescriptionType
     }
 
     /** 
-     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Get the 'RecordData' element value. Сведения о записи
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class BranchDescriptionType extends CUBranchDescriptionType
     }
 
     /** 
-     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Set the 'RecordData' element value. Сведения о записи
      * 
      * @param recordData
      */

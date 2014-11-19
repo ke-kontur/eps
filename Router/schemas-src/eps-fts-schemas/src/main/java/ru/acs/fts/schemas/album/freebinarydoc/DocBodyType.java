@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.freebinarydoc;
 
 /** 
- * РўРµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р° СЃ Р±РёРЅР°СЂРЅС‹РјРё РґР°РЅРЅС‹РјРё
+ * Тело документа с бинарными данными
  */
 public class DocBodyType
 {
@@ -10,7 +10,7 @@ public class DocBodyType
     private String fileData;
 
     /** 
-     * Get the 'FileName' element value. РРјСЏ С„Р°Р№Р»Р°
+     * Get the 'FileName' element value. Имя файла
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class DocBodyType
     }
 
     /** 
-     * Set the 'FileName' element value. РРјСЏ С„Р°Р№Р»Р°
+     * Set the 'FileName' element value. Имя файла
      * 
      * @param fileName
      */
@@ -28,7 +28,7 @@ public class DocBodyType
     }
 
     /** 
-     * Get the 'FileData' element value. Р”Р°РЅРЅС‹Рµ С„Р°Р№Р»Р°  РІ РєРѕРґРёСЂРѕРІРєРµ BASE64
+     * Get the 'FileData' element value. Данные файла  в кодировке BASE64
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class DocBodyType
     }
 
     /** 
-     * Set the 'FileData' element value. Р”Р°РЅРЅС‹Рµ С„Р°Р№Р»Р°  РІ РєРѕРґРёСЂРѕРІРєРµ BASE64
+     * Set the 'FileData' element value. Данные файла  в кодировке BASE64
      * 
      * @param fileData
      */

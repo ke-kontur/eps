@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РњРµСЂС‹ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°
+ * Меры по минимизации риска
  */
 public class MinimizeMeasuresType
 {
@@ -13,7 +13,7 @@ public class MinimizeMeasuresType
     private List<MinimizeMeasuresInfoType> minimizeMeasuresInfoList = new ArrayList<MinimizeMeasuresInfoType>();
 
     /** 
-     * Get the 'MinimizeMeasuresNote' element value. РџСЂРёРјРµС‡Р°РЅРёРµ Рє РјРµСЂР°Рј
+     * Get the 'MinimizeMeasuresNote' element value. Примечание к мерам
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class MinimizeMeasuresType
     }
 
     /** 
-     * Set the 'MinimizeMeasuresNote' element value. РџСЂРёРјРµС‡Р°РЅРёРµ Рє РјРµСЂР°Рј
+     * Set the 'MinimizeMeasuresNote' element value. Примечание к мерам
      * 
      * @param minimizeMeasuresNote
      */
@@ -31,7 +31,7 @@ public class MinimizeMeasuresType
     }
 
     /** 
-     * Get the list of 'MinimizeMeasuresInfo' element items. РќР°Р±РѕСЂ РёРЅС„РѕСЂРјР°С†РёРё Рѕ РєР°Р¶РґРѕР№ РјРµСЂРµ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ
+     * Get the list of 'MinimizeMeasuresInfo' element items. Набор информации о каждой мере по минимизации рисков
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class MinimizeMeasuresType
     }
 
     /** 
-     * Set the list of 'MinimizeMeasuresInfo' element items. РќР°Р±РѕСЂ РёРЅС„РѕСЂРјР°С†РёРё Рѕ РєР°Р¶РґРѕР№ РјРµСЂРµ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ
+     * Set the list of 'MinimizeMeasuresInfo' element items. Набор информации о каждой мере по минимизации рисков
      * 
      * @param list
      */

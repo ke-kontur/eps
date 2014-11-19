@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.detailquotadatard;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РљРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё
+ * Количественные характеристики
  */
 public class QuantitativeCharactType extends SupplementaryQuantityType
 {
@@ -17,7 +17,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     private String currencyCode;
 
     /** 
-     * Get the 'RestQuota' element value. РћСЃС‚Р°С‚РѕРє РїРѕ РєРІРѕС‚Рµ
+     * Get the 'RestQuota' element value. Остаток по квоте
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'RestQuota' element value. РћСЃС‚Р°С‚РѕРє РїРѕ РєРІРѕС‚Рµ
+     * Set the 'RestQuota' element value. Остаток по квоте
      * 
      * @param restQuota
      */
@@ -35,7 +35,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Get the 'Packing' element value. Р¤Р°СЃРѕРІРєР°
+     * Get the 'Packing' element value. Фасовка
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'Packing' element value. Р¤Р°СЃРѕРІРєР°
+     * Set the 'Packing' element value. Фасовка
      * 
      * @param packing
      */
@@ -53,7 +53,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Get the 'QuantityPacking' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРѕРє
+     * Get the 'QuantityPacking' element value. Количество упаковок
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'QuantityPacking' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ СѓРїР°РєРѕРІРѕРє
+     * Set the 'QuantityPacking' element value. Количество упаковок
      * 
      * @param quantityPacking
      */
@@ -71,7 +71,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Get the 'RegForm' element value. Р¤РѕСЂРјР° РІС‹РїСѓСЃРєР°, РґРѕР·РёСЂРѕРІРєР° Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Get the 'RegForm' element value. Форма выпуска, дозировка лекарственных средств
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'RegForm' element value. Р¤РѕСЂРјР° РІС‹РїСѓСЃРєР°, РґРѕР·РёСЂРѕРІРєР° Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹С… СЃСЂРµРґСЃС‚РІ
+     * Set the 'RegForm' element value. Форма выпуска, дозировка лекарственных средств
      * 
      * @param regForm
      */
@@ -89,7 +89,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Get the 'StatisticalCost' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ 
+     * Get the 'StatisticalCost' element value. Статистическая стоимость 
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'StatisticalCost' element value. РЎС‚Р°С‚РёСЃС‚РёС‡РµСЃРєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ 
+     * Set the 'StatisticalCost' element value. Статистическая стоимость 
      * 
      * @param statisticalCost
      */
@@ -107,7 +107,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Get the 'Invoice' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Get the 'Invoice' element value. Фактурная стоимость
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'Invoice' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Set the 'Invoice' element value. Фактурная стоимость
      * 
      * @param invoice
      */
@@ -125,7 +125,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ 
+     * Get the 'CurrencyCode' element value. Код валюты 
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class QuantitativeCharactType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ 
+     * Set the 'CurrencyCode' element value. Код валюты 
      * 
      * @param currencyCode
      */

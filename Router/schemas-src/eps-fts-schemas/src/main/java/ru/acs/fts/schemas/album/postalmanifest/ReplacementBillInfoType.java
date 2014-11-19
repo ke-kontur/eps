@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РјРµРЅСЏСЋС‰РµР№ РЅР°РєР»Р°РґРЅРѕР№
+ * Сведения о заменяющей накладной
  */
 public class ReplacementBillInfoType
 {
@@ -15,7 +15,7 @@ public class ReplacementBillInfoType
     private String operatorSupplyCountry;
 
     /** 
-     * Get the 'FormingAircompany' element value. РђРІРёР°РєРѕРјРїР°РЅРёСЏ, СЃРѕСЃС‚Р°РІР»СЏСЋС‰Р°СЏ Р·Р°РјРµРЅСЏСЋС‰СѓСЋ РЅР°РєР»Р°РґРЅСѓСЋ
+     * Get the 'FormingAircompany' element value. Авиакомпания, составляющая заменяющую накладную
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ReplacementBillInfoType
     }
 
     /** 
-     * Set the 'FormingAircompany' element value. РђРІРёР°РєРѕРјРїР°РЅРёСЏ, СЃРѕСЃС‚Р°РІР»СЏСЋС‰Р°СЏ Р·Р°РјРµРЅСЏСЋС‰СѓСЋ РЅР°РєР»Р°РґРЅСѓСЋ
+     * Set the 'FormingAircompany' element value. Авиакомпания, составляющая заменяющую накладную
      * 
      * @param formingAircompany
      */
@@ -33,7 +33,7 @@ public class ReplacementBillInfoType
     }
 
     /** 
-     * Get the 'SubmitAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РїРѕРґР°С‡Рё Р·Р°РјРµРЅСЏСЋС‰РµР№ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'SubmitAirport' element value. Аэропорт подачи заменяющей накладной
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ReplacementBillInfoType
     }
 
     /** 
-     * Set the 'SubmitAirport' element value. РђСЌСЂРѕРїРѕСЂС‚ РїРѕРґР°С‡Рё Р·Р°РјРµРЅСЏСЋС‰РµР№ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'SubmitAirport' element value. Аэропорт подачи заменяющей накладной
      * 
      * @param submitAirport
      */
@@ -51,7 +51,7 @@ public class ReplacementBillInfoType
     }
 
     /** 
-     * Get the list of 'Remarks' element items. Р—Р°РјРµС‡Р°РЅРёСЏ, РєР°СЃР°СЋС‰РёРµСЃСЏ РЅР°Р№РґРµРЅРЅС‹С… РґРµРїРµС€
+     * Get the list of 'Remarks' element items. Замечания, касающиеся найденных депеш
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class ReplacementBillInfoType
     }
 
     /** 
-     * Set the list of 'Remarks' element items. Р—Р°РјРµС‡Р°РЅРёСЏ, РєР°СЃР°СЋС‰РёРµСЃСЏ РЅР°Р№РґРµРЅРЅС‹С… РґРµРїРµС€
+     * Set the list of 'Remarks' element items. Замечания, касающиеся найденных депеш
      * 
      * @param list
      */
@@ -69,7 +69,7 @@ public class ReplacementBillInfoType
     }
 
     /** 
-     * Get the 'OperatorSupplyCountry' element value. РќР°Р·РЅР°С‡РµРЅРЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂ СЃС‚СЂР°РЅС‹ РїРѕРґР°С‡Рё РґРµРїРµС€
+     * Get the 'OperatorSupplyCountry' element value. Назначенный оператор страны подачи депеш
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class ReplacementBillInfoType
     }
 
     /** 
-     * Set the 'OperatorSupplyCountry' element value. РќР°Р·РЅР°С‡РµРЅРЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂ СЃС‚СЂР°РЅС‹ РїРѕРґР°С‡Рё РґРµРїРµС€
+     * Set the 'OperatorSupplyCountry' element value. Назначенный оператор страны подачи депеш
      * 
      * @param operatorSupplyCountry
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.veterinarycertificate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё/Р¶РёРІРѕС‚РЅРѕРј
+ * Сведения о продукции/животном
  */
 public class ProductInfoType
 {
@@ -21,7 +21,7 @@ public class ProductInfoType
     private SupplementaryQuantityType productQuantity;
 
     /** 
-     * Get the 'ProductName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
+     * Get the 'ProductName' element value. Наименование продукции
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Set the 'ProductName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
+     * Set the 'ProductName' element value. Наименование продукции
      * 
      * @param productName
      */
@@ -39,7 +39,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Get the 'ProductMark' element value. РњР°СЂРєРёСЂРѕРІРєР°
+     * Get the 'ProductMark' element value. Маркировка
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Set the 'ProductMark' element value. РњР°СЂРєРёСЂРѕРІРєР°
+     * Set the 'ProductMark' element value. Маркировка
      * 
      * @param productMark
      */
@@ -57,7 +57,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Get the 'ProductPacking' element value. РЈРїР°РєРѕРІРєР°
+     * Get the 'ProductPacking' element value. Упаковка
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Set the 'ProductPacking' element value. РЈРїР°РєРѕРІРєР°
+     * Set the 'ProductPacking' element value. Упаковка
      * 
      * @param productPacking
      */
@@ -75,7 +75,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Get the 'Sex' element value. РџРѕР»
+     * Get the 'Sex' element value. Пол
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Set the 'Sex' element value. РџРѕР»
+     * Set the 'Sex' element value. Пол
      * 
      * @param sex
      */
@@ -93,7 +93,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Get the 'Breed' element value. РџРѕСЂРѕРґР°
+     * Get the 'Breed' element value. Порода
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Set the 'Breed' element value. РџРѕСЂРѕРґР°
+     * Set the 'Breed' element value. Порода
      * 
      * @param breed
      */
@@ -111,7 +111,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Get the 'Age' element value. Р’РѕР·СЂР°СЃС‚
+     * Get the 'Age' element value. Возраст
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Set the 'Age' element value. Р’РѕР·СЂР°СЃС‚
+     * Set the 'Age' element value. Возраст
      * 
      * @param age
      */
@@ -129,7 +129,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Get the 'IDNumber' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'IDNumber' element value. Идентификационный номер
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Set the 'IDNumber' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'IDNumber' element value. Идентификационный номер
      * 
      * @param IDNumber
      */
@@ -147,7 +147,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Get the 'Brand' element value. РљР»РµР№РјРѕ (РЅРѕРјРµСЂ, С„РѕСЂРјР°)
+     * Get the 'Brand' element value. Клеймо (номер, форма)
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Set the 'Brand' element value. РљР»РµР№РјРѕ (РЅРѕРјРµСЂ, С„РѕСЂРјР°)
+     * Set the 'Brand' element value. Клеймо (номер, форма)
      * 
      * @param brand
      */
@@ -165,7 +165,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Get the 'NickName' element value. РљР»РёС‡РєР°
+     * Get the 'NickName' element value. Кличка
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Set the 'NickName' element value. РљР»РёС‡РєР°
+     * Set the 'NickName' element value. Кличка
      * 
      * @param nickName
      */
@@ -183,7 +183,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Get the 'Weight' element value. Р’РµСЃ, РєРі
+     * Get the 'Weight' element value. Вес, кг
      * 
      * @return value
      */
@@ -192,7 +192,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Set the 'Weight' element value. Р’РµСЃ, РєРі
+     * Set the 'Weight' element value. Вес, кг
      * 
      * @param weight
      */
@@ -201,7 +201,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Get the 'ProductQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРґСѓРєС†РёРё
+     * Get the 'ProductQuantity' element value. Количество продукции
      * 
      * @return value
      */
@@ -210,7 +210,7 @@ public class ProductInfoType
     }
 
     /** 
-     * Set the 'ProductQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРґСѓРєС†РёРё
+     * Set the 'ProductQuantity' element value. Количество продукции
      * 
      * @param productQuantity
      */

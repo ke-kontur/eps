@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎС‚РµРїРµРЅСЊ РґРѕСЃРјРѕС‚СЂР°
+ * Степень досмотра
  */
 public class InspLavelType
 {
@@ -17,7 +17,7 @@ public class InspLavelType
     private FeatureFindingType featureFinding;
 
     /** 
-     * Get the 'WithdrWeight' element value. Р’Р·РІРµС€РёРІР°РЅРёРµ (РїРѕР»РЅРѕРµ/РІС‹Р±РѕСЂРѕС‡РЅРѕРµ/Р±РµР· РІР·РІРµС€РёРІР°РЅРёСЏ).Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: 1 - РїРѕР»РЅРѕРµ; 2 - РІС‹Р±РѕСЂРѕС‡РЅРѕРµ; 3 - Р±РµР· РІР·РІРµС€РёРІР°РЅРёСЏ.
+     * Get the 'WithdrWeight' element value. Взвешивание (полное/выборочное/без взвешивания).Если значение поля: 1 - полное; 2 - выборочное; 3 - без взвешивания.
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class InspLavelType
     }
 
     /** 
-     * Set the 'WithdrWeight' element value. Р’Р·РІРµС€РёРІР°РЅРёРµ (РїРѕР»РЅРѕРµ/РІС‹Р±РѕСЂРѕС‡РЅРѕРµ/Р±РµР· РІР·РІРµС€РёРІР°РЅРёСЏ).Р•СЃР»Рё Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ: 1 - РїРѕР»РЅРѕРµ; 2 - РІС‹Р±РѕСЂРѕС‡РЅРѕРµ; 3 - Р±РµР· РІР·РІРµС€РёРІР°РЅРёСЏ.
+     * Set the 'WithdrWeight' element value. Взвешивание (полное/выборочное/без взвешивания).Если значение поля: 1 - полное; 2 - выборочное; 3 - без взвешивания.
      * 
      * @param withdrWeight
      */
@@ -35,7 +35,7 @@ public class InspLavelType
     }
 
     /** 
-     * Get the 'OtherLevel' element value. РџСЂРѕС‡РµРµ
+     * Get the 'OtherLevel' element value. Прочее
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class InspLavelType
     }
 
     /** 
-     * Set the 'OtherLevel' element value. РџСЂРѕС‡РµРµ
+     * Set the 'OtherLevel' element value. Прочее
      * 
      * @param otherLevel
      */
@@ -53,7 +53,7 @@ public class InspLavelType
     }
 
     /** 
-     * Get the list of 'LevelDescription' element items. РћРїРёСЃР°РЅРёРµ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С…  СѓСЃР»РѕРІРёР№
+     * Get the list of 'LevelDescription' element items. Описание дополнительных  условий
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class InspLavelType
     }
 
     /** 
-     * Set the list of 'LevelDescription' element items. РћРїРёСЃР°РЅРёРµ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С…  СѓСЃР»РѕРІРёР№
+     * Set the list of 'LevelDescription' element items. Описание дополнительных  условий
      * 
      * @param list
      */
@@ -71,7 +71,7 @@ public class InspLavelType
     }
 
     /** 
-     * Get the 'ReCountPack' element value. РџРµСЂРµСЃС‡РµС‚ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Get the 'ReCountPack' element value. Пересчет грузовых мест
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class InspLavelType
     }
 
     /** 
-     * Set the 'ReCountPack' element value. РџРµСЂРµСЃС‡РµС‚ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Set the 'ReCountPack' element value. Пересчет грузовых мест
      * 
      * @param reCountPack
      */
@@ -89,7 +89,7 @@ public class InspLavelType
     }
 
     /** 
-     * Get the 'ReCountItem' element value. РџРµСЂРµСЃС‡РµС‚ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРµРґРјРµС‚РѕРІ РІ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
+     * Get the 'ReCountItem' element value. Пересчет количества предметов в грузовых местах
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class InspLavelType
     }
 
     /** 
-     * Set the 'ReCountItem' element value. РџРµСЂРµСЃС‡РµС‚ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРµРґРјРµС‚РѕРІ РІ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…
+     * Set the 'ReCountItem' element value. Пересчет количества предметов в грузовых местах
      * 
      * @param reCountItem
      */
@@ -107,7 +107,7 @@ public class InspLavelType
     }
 
     /** 
-     * Get the 'FeatureFinding' element value. РР·РјРµСЂРµРЅРёРµ Рё РѕРїСЂРµРґРµР»РµРЅРёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє С‚РѕРІР°СЂРѕРІ (СЃ С‡Р°СЃС‚РёС‡РЅРѕР№ СЂР°Р·Р±РѕСЂРєРѕР№/СЃ РїРѕР»РЅРѕР№ СЂР°Р·Р±РѕСЂРєРѕР№)
+     * Get the 'FeatureFinding' element value. Измерение и определение характеристик товаров (с частичной разборкой/с полной разборкой)
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class InspLavelType
     }
 
     /** 
-     * Set the 'FeatureFinding' element value. РР·РјРµСЂРµРЅРёРµ Рё РѕРїСЂРµРґРµР»РµРЅРёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРє С‚РѕРІР°СЂРѕРІ (СЃ С‡Р°СЃС‚РёС‡РЅРѕР№ СЂР°Р·Р±РѕСЂРєРѕР№/СЃ РїРѕР»РЅРѕР№ СЂР°Р·Р±РѕСЂРєРѕР№)
+     * Set the 'FeatureFinding' element value. Измерение и определение характеристик товаров (с частичной разборкой/с полной разборкой)
      * 
      * @param featureFinding
      */

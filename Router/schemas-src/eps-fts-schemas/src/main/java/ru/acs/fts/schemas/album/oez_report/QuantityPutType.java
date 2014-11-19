@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.oez_report;
 
 /** 
- * РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РїРѕРјРµС‰С‘РЅРЅРѕРµ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј РЎРўР—
+ * Количество товара, помещённое под таможенный режим СТЗ
  */
 public class QuantityPutType
 {
@@ -11,7 +11,7 @@ public class QuantityPutType
     private String quantityTotal;
 
     /** 
-     * Get the 'QuantityAtTheBeginning' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РЅР°С‡Р°Р»Рµ РѕС‚С‡С‘С‚РЅРѕРіРѕ РїРµСЂРёРѕРґР°
+     * Get the 'QuantityAtTheBeginning' element value. Количество товара в начале отчётного периода
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class QuantityPutType
     }
 
     /** 
-     * Set the 'QuantityAtTheBeginning' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РЅР°С‡Р°Р»Рµ РѕС‚С‡С‘С‚РЅРѕРіРѕ РїРµСЂРёРѕРґР°
+     * Set the 'QuantityAtTheBeginning' element value. Количество товара в начале отчётного периода
      * 
      * @param quantityAtTheBeginning
      */
@@ -29,7 +29,7 @@ public class QuantityPutType
     }
 
     /** 
-     * Get the 'QuantityInTheEnd' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РЅР° РєРѕРЅРµС† РѕС‚С‡РµС‚РЅРѕРіРѕ РїРµСЂРёРѕРґР°
+     * Get the 'QuantityInTheEnd' element value. Количество товара, на конец отчетного периода
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class QuantityPutType
     }
 
     /** 
-     * Set the 'QuantityInTheEnd' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°, РЅР° РєРѕРЅРµС† РѕС‚С‡РµС‚РЅРѕРіРѕ РїРµСЂРёРѕРґР°
+     * Set the 'QuantityInTheEnd' element value. Количество товара, на конец отчетного периода
      * 
      * @param quantityInTheEnd
      */
@@ -47,7 +47,7 @@ public class QuantityPutType
     }
 
     /** 
-     * Get the 'QuantityTotal' element value. Р’СЃРµРіРѕ Р·Р° РѕС‚С‡С‘С‚РЅС‹Р№ РїРµСЂРёРѕРґ
+     * Get the 'QuantityTotal' element value. Всего за отчётный период
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class QuantityPutType
     }
 
     /** 
-     * Set the 'QuantityTotal' element value. Р’СЃРµРіРѕ Р·Р° РѕС‚С‡С‘С‚РЅС‹Р№ РїРµСЂРёРѕРґ
+     * Set the 'QuantityTotal' element value. Всего за отчётный период
      * 
      * @param quantityTotal
      */

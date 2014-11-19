@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import org.joda.time.LocalDate;
 
 /** 
- * РўРёРї, РѕРїРёСЃС‹РІР°СЋС‰РёР№ С„РѕСЂРјР°С‚ СЂРµРі. РЅРѕРјРµСЂР° РњРџРћ
+ * Тип, описывающий формат рег. номера МПО
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -24,7 +24,7 @@ public class MPORegNumberType
     private String MPONumber;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class MPORegNumberType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
      * 
      * @param customsCode
      */
@@ -42,7 +42,7 @@ public class MPORegNumberType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RegistrationDate' element value. Дата регистрации документа
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class MPORegNumberType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RegistrationDate' element value. Дата регистрации документа
      * 
      * @param registrationDate
      */
@@ -60,7 +60,7 @@ public class MPORegNumberType
     }
 
     /** 
-     * Get the 'MPO_Number' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РњРџРћ
+     * Get the 'MPO_Number' element value. Уникальный номер МПО
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class MPORegNumberType
     }
 
     /** 
-     * Set the 'MPO_Number' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ РњРџРћ
+     * Set the 'MPO_Number' element value. Уникальный номер МПО
      * 
      * @param MPONumber
      */

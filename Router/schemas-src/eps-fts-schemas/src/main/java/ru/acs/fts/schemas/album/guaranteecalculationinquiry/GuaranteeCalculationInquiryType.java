@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.guaranteecommonaggregatetypescust.TotalAmountType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° СЂР°СЃС‡РµС‚ СЃСѓРјРј РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
+ * Запрос на расчет сумм обеспечения уплаты таможенных пошлин, налогов
  */
 public class GuaranteeCalculationInquiryType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentDateTime' element value. Дата и время формирования электронного документа
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentDateTime' element value. Дата и время формирования электронного документа
      * 
      * @param documentDateTime
      */
@@ -43,7 +43,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsProcedure' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРѕС†РµРґСѓСЂ)
+     * Get the 'CustomsProcedure' element value. Код таможенной процедуры (заполняется в соответствии с Классификатором видов таможенных процедур)
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsProcedure' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРѕС†РµРґСѓСЂ)
+     * Set the 'CustomsProcedure' element value. Код таможенной процедуры (заполняется в соответствии с Классификатором видов таможенных процедур)
      * 
      * @param customsProcedure
      */
@@ -61,7 +61,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Get the 'CheckDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµСЂРєРё
+     * Get the 'CheckDate' element value. Дата проверки
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Set the 'CheckDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµСЂРєРё
+     * Set the 'CheckDate' element value. Дата проверки
      * 
      * @param checkDate
      */
@@ -79,7 +79,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє: 0 - Р±РµР· РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№; 1 - С„РёР·. Р»РёС†Р°
+     * Get the 'DocSign' element value. Признак: 0 - без особенностей; 1 - физ. лица
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє: 0 - Р±РµР· РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№; 1 - С„РёР·. Р»РёС†Р°
+     * Set the 'DocSign' element value. Признак: 0 - без особенностей; 1 - физ. лица
      * 
      * @param docSign
      */
@@ -97,7 +97,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOffice' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РµРіРѕ Р·Р°РїСЂРѕСЃ РЅР° СЂР°СЃС‡РµС‚ СЃСѓРјРј РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Get the 'CustomsOffice' element value. Код таможенного органа, сформировавшего запрос на расчет сумм обеспечения
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOffice' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РµРіРѕ Р·Р°РїСЂРѕСЃ РЅР° СЂР°СЃС‡РµС‚ СЃСѓРјРј РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Set the 'CustomsOffice' element value. Код таможенного органа, сформировавшего запрос на расчет сумм обеспечения
      * 
      * @param customsOffice
      */
@@ -115,7 +115,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOfficial' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РµРµ Р·Р°РїСЂРѕСЃ
+     * Get the 'CustomsOfficial' element value. Должностное лицо таможенного органа, сформировавшее запрос
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOfficial' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РµРµ Р·Р°РїСЂРѕСЃ
+     * Set the 'CustomsOfficial' element value. Должностное лицо таможенного органа, сформировавшее запрос
      * 
      * @param customsOfficial
      */
@@ -133,7 +133,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Get the 'AmountPaid' element value. РЈРїР»Р°С‡РµРЅРЅС‹Рµ СЂР°РЅРµРµ СЃСѓРјРјС‹
+     * Get the 'AmountPaid' element value. Уплаченные ранее суммы
      * 
      * @return value
      */
@@ -142,7 +142,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Set the 'AmountPaid' element value. РЈРїР»Р°С‡РµРЅРЅС‹Рµ СЂР°РЅРµРµ СЃСѓРјРјС‹
+     * Set the 'AmountPaid' element value. Уплаченные ранее суммы
      * 
      * @param amountPaid
      */
@@ -151,7 +151,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'GoodsInfo' element items. РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ Р·Р°РїСЂРѕСЃР°
+     * Get the list of 'GoodsInfo' element items. Товарная часть запроса
      * 
      * @return list
      */
@@ -160,7 +160,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'GoodsInfo' element items. РўРѕРІР°СЂРЅР°СЏ С‡Р°СЃС‚СЊ Р·Р°РїСЂРѕСЃР°
+     * Set the list of 'GoodsInfo' element items. Товарная часть запроса
      * 
      * @param list
      */
@@ -169,7 +169,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -178,7 +178,7 @@ public class GuaranteeCalculationInquiryType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

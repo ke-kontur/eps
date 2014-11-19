@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHCargoPlaceTy
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHSuppQuantityType;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР° РІ РіСЂР°С„Рµ СЂР°СЃС…РѕРґ РїРѕ РѕС‚С‡РµС‚Сѓ Р”Рћ2
+ * Комплексный тип для описания товара в графе расход по отчету ДО2
  */
 public class DO2GoodOutputType
 {
@@ -20,7 +20,7 @@ public class DO2GoodOutputType
     private WHCargoPlaceType cargoPlace;
 
     /** 
-     * Get the 'Cost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
+     * Get the 'Cost' element value. Фактурная стоимость товара
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Set the 'Cost' element value. Р¤Р°РєС‚СѓСЂРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
+     * Set the 'Cost' element value. Фактурная стоимость товара
      * 
      * @param cost
      */
@@ -38,7 +38,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ 
+     * Get the 'CurrencyCode' element value. Код валюты 
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ 
+     * Set the 'CurrencyCode' element value. Код валюты 
      * 
      * @param currencyCode
      */
@@ -56,7 +56,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Get the 'OutputDate' element value. Р”Р°С‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕР№ РІС‹РґР°С‡Рё РњРџРћ/ СЃРѕ СЃРєР»Р°РґР°
+     * Get the 'OutputDate' element value. Дата фактической выдачи МПО/ со склада
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Set the 'OutputDate' element value. Р”Р°С‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕР№ РІС‹РґР°С‡Рё РњРџРћ/ СЃРѕ СЃРєР»Р°РґР°
+     * Set the 'OutputDate' element value. Дата фактической выдачи МПО/ со склада
      * 
      * @param outputDate
      */
@@ -74,7 +74,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Get the 'OutputTime' element value. Р’СЂРµРјСЏ С„Р°РєС‚РёС‡РµСЃРєРѕР№ РІС‹РґР°С‡Рё РњРџРћ/ СЃРѕ СЃРєР»Р°РґР°
+     * Get the 'OutputTime' element value. Время фактической выдачи МПО/ со склада
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Set the 'OutputTime' element value. Р’СЂРµРјСЏ С„Р°РєС‚РёС‡РµСЃРєРѕР№ РІС‹РґР°С‡Рё РњРџРћ/ СЃРѕ СЃРєР»Р°РґР°
+     * Set the 'OutputTime' element value. Время фактической выдачи МПО/ со склада
      * 
      * @param outputTime
      */
@@ -92,7 +92,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Consignee' element value. Получатель
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Consignee' element value. Получатель
      * 
      * @param consignee
      */
@@ -110,7 +110,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Get the 'BruttoVolQuant' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ / РѕР±СЉРµРј
+     * Get the 'BruttoVolQuant' element value. Вес брутто / объем
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Set the 'BruttoVolQuant' element value. Р’РµСЃ Р±СЂСѓС‚С‚Рѕ / РѕР±СЉРµРј
+     * Set the 'BruttoVolQuant' element value. Вес брутто / объем
      * 
      * @param bruttoVolQuant
      */
@@ -128,7 +128,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Get the 'MeasureQuantity' element value. РљРѕР»-РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С…  РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'MeasureQuantity' element value. Кол-во в дополнительных  единицах измерения
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Set the 'MeasureQuantity' element value. РљРѕР»-РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С…  РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'MeasureQuantity' element value. Кол-во в дополнительных  единицах измерения
      * 
      * @param measureQuantity
      */
@@ -146,7 +146,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Get the 'CargoPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚Р°С…
+     * Get the 'CargoPlace' element value. Сведения о грузовых  местах
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class DO2GoodOutputType
     }
 
     /** 
-     * Set the 'CargoPlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С…  РјРµСЃС‚Р°С…
+     * Set the 'CargoPlace' element value. Сведения о грузовых  местах
      * 
      * @param cargoPlace
      */

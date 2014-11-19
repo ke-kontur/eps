@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.indulgencestatement;
 import org.joda.time.LocalDate;
 
 /** 
- * РЈСЃР»РѕРІРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
+ * Условия контракта
  */
 public class ContractTermsType
 {
@@ -12,7 +12,7 @@ public class ContractTermsType
     private String currencyCode;
 
     /** 
-     * Get the 'LastDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ СЂР°СЃС‡РµС‚РѕРІ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Get the 'LastDate' element value. Дата окончания расчетов по контракту
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Set the 'LastDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ СЂР°СЃС‡РµС‚РѕРІ РїРѕ РєРѕРЅС‚СЂР°РєС‚Сѓ
+     * Set the 'LastDate' element value. Дата окончания расчетов по контракту
      * 
      * @param lastDate
      */
@@ -30,7 +30,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'CurrencyCode' element value. Код валюты контракта
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ContractTermsType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'CurrencyCode' element value. Код валюты контракта
      * 
      * @param currencyCode
      */

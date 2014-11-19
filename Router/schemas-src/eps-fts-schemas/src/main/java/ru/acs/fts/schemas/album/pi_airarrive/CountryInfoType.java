@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.pi_airarrive;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃС‚СЂР°РЅРµ
+ * Сведения о стране
  */
 public class CountryInfoType
 {
@@ -10,7 +10,7 @@ public class CountryInfoType
     private String countryCode;
 
     /** 
-     * Get the 'CountryName' element value. РќР°Р·РІР°РЅРёРµ 
+     * Get the 'CountryName' element value. Название 
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CountryInfoType
     }
 
     /** 
-     * Set the 'CountryName' element value. РќР°Р·РІР°РЅРёРµ 
+     * Set the 'CountryName' element value. Название 
      * 
      * @param countryName
      */
@@ -28,7 +28,7 @@ public class CountryInfoType
     }
 
     /** 
-     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryCode' element value. Код страны
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CountryInfoType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryCode' element value. Код страны
      * 
      * @param countryCode
      */

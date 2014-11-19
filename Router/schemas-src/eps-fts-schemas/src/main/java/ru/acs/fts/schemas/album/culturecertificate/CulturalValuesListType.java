@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.culturecertificate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРїРёСЃРѕРє РєСѓР»СЊС‚СѓСЂРЅС‹С… С†РµРЅРЅРѕСЃС‚РµР№
+ * Список культурных ценностей
  */
 public class CulturalValuesListType
 {
@@ -12,7 +12,7 @@ public class CulturalValuesListType
     private SupplementaryQuantityType quantity;
 
     /** 
-     * Get the 'CulturalName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєСѓР»СЊС‚СѓСЂРЅРѕР№ С†РµРЅРЅРѕСЃС‚Рё
+     * Get the 'CulturalName' element value. Наименование культурной ценности
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class CulturalValuesListType
     }
 
     /** 
-     * Set the 'CulturalName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РєСѓР»СЊС‚СѓСЂРЅРѕР№ С†РµРЅРЅРѕСЃС‚Рё
+     * Set the 'CulturalName' element value. Наименование культурной ценности
      * 
      * @param culturalName
      */
@@ -30,7 +30,7 @@ public class CulturalValuesListType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
+     * Get the 'Quantity' element value. Количество
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class CulturalValuesListType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
+     * Set the 'Quantity' element value. Количество
      * 
      * @param quantity
      */

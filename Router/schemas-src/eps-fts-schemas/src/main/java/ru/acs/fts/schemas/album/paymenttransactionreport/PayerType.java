@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.paymenttransactionreport;
 import ru.acs.fts.schemas.album.cardcommonaggregatetypes.IdentityCardType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
+ * Информация о плательщике
  */
 public class PayerType extends OrganizationInfoType
 {
@@ -13,7 +13,7 @@ public class PayerType extends OrganizationInfoType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'CardNumber' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїР»Р°С‚РµР¶РЅРѕР№ РєР°СЂС‚С‹, СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РєРѕС‚РѕСЂС‹Р№ Р±С‹Р» РѕСЃСѓС‰РµСЃС‚РІР»РµРЅ РїР»Р°С‚РµР¶.
+     * Get the 'CardNumber' element value. Номер таможенной платежной карты, с использованием который был осуществлен платеж.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PayerType extends OrganizationInfoType
     }
 
     /** 
-     * Set the 'CardNumber' element value. РќРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїР»Р°С‚РµР¶РЅРѕР№ РєР°СЂС‚С‹, СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РєРѕС‚РѕСЂС‹Р№ Р±С‹Р» РѕСЃСѓС‰РµСЃС‚РІР»РµРЅ РїР»Р°С‚РµР¶.
+     * Set the 'CardNumber' element value. Номер таможенной платежной карты, с использованием который был осуществлен платеж.
      * 
      * @param cardNumber
      */
@@ -31,7 +31,7 @@ public class PayerType extends OrganizationInfoType
     }
 
     /** 
-     * Get the 'OKPO' element value. РћРљРџРћ
+     * Get the 'OKPO' element value. ОКПО
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class PayerType extends OrganizationInfoType
     }
 
     /** 
-     * Set the 'OKPO' element value. РћРљРџРћ
+     * Set the 'OKPO' element value. ОКПО
      * 
      * @param OKPO
      */
@@ -49,7 +49,7 @@ public class PayerType extends OrganizationInfoType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class PayerType extends OrganizationInfoType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @param identityCard
      */

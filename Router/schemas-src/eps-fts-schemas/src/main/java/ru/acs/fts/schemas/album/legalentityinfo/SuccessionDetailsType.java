@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.legalentityinfo;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РїСЂР°РІРѕРїСЂРµРµРјСЃС‚РІР°
+ * Описание правопреемства
  */
 public class SuccessionDetailsType extends ReferenceInfoType
 {
@@ -12,7 +12,7 @@ public class SuccessionDetailsType extends ReferenceInfoType
     private OrganizationBaseType orgInfo;
 
     /** 
-     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Get the 'RecordData' element value. Сведения о записи
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class SuccessionDetailsType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Set the 'RecordData' element value. Сведения о записи
      * 
      * @param recordData
      */
@@ -30,7 +30,7 @@ public class SuccessionDetailsType extends ReferenceInfoType
     }
 
     /** 
-     * Get the 'OrgInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЋСЂРёРґРёС‡РµСЃРєРѕРј Р»РёС†Рµ
+     * Get the 'OrgInfo' element value. Сведения о юридическом лице
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class SuccessionDetailsType extends ReferenceInfoType
     }
 
     /** 
-     * Set the 'OrgInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЋСЂРёРґРёС‡РµСЃРєРѕРј Р»РёС†Рµ
+     * Set the 'OrgInfo' element value. Сведения о юридическом лице
      * 
      * @param orgInfo
      */

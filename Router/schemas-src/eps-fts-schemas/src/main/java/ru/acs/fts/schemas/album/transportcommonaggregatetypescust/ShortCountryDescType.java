@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 
 /** 
- * РљСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ СЃС‚СЂР°РЅС‹
+ * Краткое описание страны
  */
 public class ShortCountryDescType
 {
@@ -10,7 +10,7 @@ public class ShortCountryDescType
     private String code;
 
     /** 
-     * Get the 'ShortName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
+     * Get the 'ShortName' element value. Краткое наименование страны
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ShortCountryDescType
     }
 
     /** 
-     * Set the 'ShortName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
+     * Set the 'ShortName' element value. Краткое наименование страны
      * 
      * @param shortName
      */
@@ -28,7 +28,7 @@ public class ShortCountryDescType
     }
 
     /** 
-     * Get the 'Code' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Get the 'Code' element value. Код страны
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ShortCountryDescType
     }
 
     /** 
-     * Set the 'Code' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Set the 'Code' element value. Код страны
      * 
      * @param code
      */

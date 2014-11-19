@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°. 
+ * Описание места проведения досмотра. 
  */
 public class InspectionPlaceType extends CustomsType
 {
@@ -18,7 +18,7 @@ public class InspectionPlaceType extends CustomsType
     private AddressType inspAddress;
 
     /** 
-     * Get the 'InformationTypeCode' element value. РўРёРї РёРЅС„РѕСЂРјР°С†РёРё: 11- РЎР’РҐ;  21- РўРЎ; 25 - РЎРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ; 31- РЎРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ; 41 - РЎРєР»Р°Рґ С…СЂР°РЅРµРЅРёСЏ СЃРѕР±СЃС‚РІРµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ (РґР»СЏ Р Рљ); 52 - РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (РґР»СЏ Р Рљ); 60 - РџРѕРјРµС‰РµРЅРёРµ (РїР»РѕС‰Р°РґРєРё) РЈР­Рћ; 72 - Р—РўРљ (РґР»СЏ Р Р‘); 91 - РђРґСЂРµСЃ РјРµСЃС‚Р° С…СЂР°РЅРµРЅРёСЏ  (РґР»СЏ Р Р‘); 99 - РРЅРѕРµ РјРµСЃС‚Рѕ Р’РҐ
+     * Get the 'InformationTypeCode' element value. Тип информации: 11- СВХ;  21- ТС; 25 - Свободный склад; 31- Склад получателя; 41 - Склад хранения собственных товаров (для РК); 52 - Транспортное средство (для РК); 60 - Помещение (площадки) УЭО; 72 - ЗТК (для РБ); 91 - Адрес места хранения  (для РБ); 99 - Иное место ВХ
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class InspectionPlaceType extends CustomsType
     }
 
     /** 
-     * Set the 'InformationTypeCode' element value. РўРёРї РёРЅС„РѕСЂРјР°С†РёРё: 11- РЎР’РҐ;  21- РўРЎ; 25 - РЎРІРѕР±РѕРґРЅС‹Р№ СЃРєР»Р°Рґ; 31- РЎРєР»Р°Рґ РїРѕР»СѓС‡Р°С‚РµР»СЏ; 41 - РЎРєР»Р°Рґ С…СЂР°РЅРµРЅРёСЏ СЃРѕР±СЃС‚РІРµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ (РґР»СЏ Р Рљ); 52 - РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ (РґР»СЏ Р Рљ); 60 - РџРѕРјРµС‰РµРЅРёРµ (РїР»РѕС‰Р°РґРєРё) РЈР­Рћ; 72 - Р—РўРљ (РґР»СЏ Р Р‘); 91 - РђРґСЂРµСЃ РјРµСЃС‚Р° С…СЂР°РЅРµРЅРёСЏ  (РґР»СЏ Р Р‘); 99 - РРЅРѕРµ РјРµСЃС‚Рѕ Р’РҐ
+     * Set the 'InformationTypeCode' element value. Тип информации: 11- СВХ;  21- ТС; 25 - Свободный склад; 31- Склад получателя; 41 - Склад хранения собственных товаров (для РК); 52 - Транспортное средство (для РК); 60 - Помещение (площадки) УЭО; 72 - ЗТК (для РБ); 91 - Адрес места хранения  (для РБ); 99 - Иное место ВХ
      * 
      * @param informationTypeCode
      */
@@ -36,7 +36,7 @@ public class InspectionPlaceType extends CustomsType
     }
 
     /** 
-     * Get the 'InspPlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РґРѕСЃРјРѕС‚СЂР°, РЎР’РҐ, Р¶/Рґ СЃС‚Р°РЅС†РёРё
+     * Get the 'InspPlaceName' element value. Наименование места досмотра, СВХ, ж/д станции
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class InspectionPlaceType extends CustomsType
     }
 
     /** 
-     * Set the 'InspPlaceName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РјРµСЃС‚Р° РґРѕСЃРјРѕС‚СЂР°, РЎР’РҐ, Р¶/Рґ СЃС‚Р°РЅС†РёРё
+     * Set the 'InspPlaceName' element value. Наименование места досмотра, СВХ, ж/д станции
      * 
      * @param inspPlaceName
      */
@@ -54,7 +54,7 @@ public class InspectionPlaceType extends CustomsType
     }
 
     /** 
-     * Get the list of 'InspPlaceDesc' element items. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°. РРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјРµСЃС‚Рµ РґРѕСЃРјРѕС‚СЂР°
+     * Get the list of 'InspPlaceDesc' element items. Описание места проведения досмотра. Иная информация о месте досмотра
      * 
      * @return list
      */
@@ -63,7 +63,7 @@ public class InspectionPlaceType extends CustomsType
     }
 
     /** 
-     * Set the list of 'InspPlaceDesc' element items. РћРїРёСЃР°РЅРёРµ РјРµСЃС‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РґРѕСЃРјРѕС‚СЂР°. РРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РјРµСЃС‚Рµ РґРѕСЃРјРѕС‚СЂР°
+     * Set the list of 'InspPlaceDesc' element items. Описание места проведения досмотра. Иная информация о месте досмотра
      * 
      * @param list
      */
@@ -72,7 +72,7 @@ public class InspectionPlaceType extends CustomsType
     }
 
     /** 
-     * Get the 'WarehousePlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЎР’РҐ
+     * Get the 'WarehousePlace' element value. Сведения о СВХ
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class InspectionPlaceType extends CustomsType
     }
 
     /** 
-     * Set the 'WarehousePlace' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЎР’РҐ
+     * Set the 'WarehousePlace' element value. Сведения о СВХ
      * 
      * @param warehousePlace
      */
@@ -90,7 +90,7 @@ public class InspectionPlaceType extends CustomsType
     }
 
     /** 
-     * Get the 'InspAddress' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° РґРѕСЃРјРѕС‚СЂР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ, РІ СЃР»СѓС‡Р°Рµ РґРѕСЃРјРѕС‚СЂР° РІРЅРµ РЎР’РҐ)
+     * Get the 'InspAddress' element value. Адрес места досмотра (заполняется, в случае досмотра вне СВХ)
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class InspectionPlaceType extends CustomsType
     }
 
     /** 
-     * Set the 'InspAddress' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° РґРѕСЃРјРѕС‚СЂР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ, РІ СЃР»СѓС‡Р°Рµ РґРѕСЃРјРѕС‚СЂР° РІРЅРµ РЎР’РҐ)
+     * Set the 'InspAddress' element value. Адрес места досмотра (заполняется, в случае досмотра вне СВХ)
      * 
      * @param inspAddress
      */

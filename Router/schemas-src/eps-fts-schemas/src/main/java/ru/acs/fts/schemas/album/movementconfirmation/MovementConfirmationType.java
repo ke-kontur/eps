@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ С„Р°РєС‚РёС‡РµСЃРєРѕРј РІРІРѕР·Рµ/РІС‹РІРѕР·Рµ С‚РѕРІР°СЂР°
+ * Уведомление о фактическом ввозе/вывозе товара
  */
 public class MovementConfirmationType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class MovementConfirmationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРёР·РЅР°Рє СѓРІРµРґРѕРјР»РµРЅРёСЏ: 0 - Рѕ РІРІРѕР·Рµ; 1 - РѕР± СѓР±С‹С‚РёРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'DocSign' element value. Признак уведомления: 0 - о ввозе; 1 - об убытии товаров
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class MovementConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРёР·РЅР°Рє СѓРІРµРґРѕРјР»РµРЅРёСЏ: 0 - Рѕ РІРІРѕР·Рµ; 1 - РѕР± СѓР±С‹С‚РёРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'DocSign' element value. Признак уведомления: 0 - о ввозе; 1 - об убытии товаров
      * 
      * @param docSign
      */
@@ -34,7 +34,7 @@ public class MovementConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'MovementDate' element value. Р”Р°С‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІРІРѕР·Р°/РІС‹РІРѕР·Р° С‚РѕРІР°СЂРѕРІ
+     * Get the 'MovementDate' element value. Дата фактического ввоза/вывоза товаров
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class MovementConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'MovementDate' element value. Р”Р°С‚Р° С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РІРІРѕР·Р°/РІС‹РІРѕР·Р° С‚РѕРІР°СЂРѕРІ
+     * Set the 'MovementDate' element value. Дата фактического ввоза/вывоза товаров
      * 
      * @param movementDate
      */
@@ -52,7 +52,7 @@ public class MovementConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the 'Comments' element value. Примечание
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class MovementConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the 'Comments' element value. Примечание
      * 
      * @param comments
      */
@@ -70,7 +70,7 @@ public class MovementConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІРІРѕР·Рµ/РІС‹РІРѕР·Рµ
+     * Get the 'RegistrationNumber' element value. Регистрационный номер уведомления о ввозе/вывозе
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class MovementConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СѓРІРµРґРѕРјР»РµРЅРёСЏ Рѕ РІРІРѕР·Рµ/РІС‹РІРѕР·Рµ
+     * Set the 'RegistrationNumber' element value. Регистрационный номер уведомления о ввозе/вывозе
      * 
      * @param registrationNumber
      */
@@ -88,7 +88,7 @@ public class MovementConfirmationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class MovementConfirmationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

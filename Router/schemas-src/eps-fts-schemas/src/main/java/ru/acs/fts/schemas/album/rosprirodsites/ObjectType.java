@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * Р–РёРІРѕС‚РЅРѕРµ РёР»Рё СЂР°СЃС‚РµРЅРёРµ, РІРєР»СЋС‡РµРЅРЅРѕРµ РІ РїСЂРёР»РѕР¶РµРЅРёРµ РЎРРўР•РЎ, РЅР° РІРІРѕР·/РІС‹РІРѕР· РєРѕС‚РѕСЂРѕРіРѕ РІС‹РґР°РЅРѕ СЂР°Р·СЂРµС€РµРЅРёРµ
+ * Животное или растение, включенное в приложение СИТЕС, на ввоз/вывоз которого выдано разрешение
  */
 public class ObjectType
 {
@@ -20,7 +20,7 @@ public class ObjectType
     private SupplementaryQuantityType quantity;
 
     /** 
-     * Get the list of 'Name' element items. Р СѓСЃСЃРєРѕРµ Рё Р»Р°С‚РёРЅСЃРєРѕРµ РЅР°Р·РІР°РЅРёРµ Р¶РёРІРѕС‚РЅРѕРіРѕ РёР»Рё СЂР°СЃС‚РµРЅРёСЏ, РІРєР»СЋС‡РµРЅРЅРѕРіРѕ РІ РїСЂРёР»РѕР¶РµРЅРёСЏ РЎРРўР•РЎ
+     * Get the list of 'Name' element items. Русское и латинское название животного или растения, включенного в приложения СИТЕС
      * 
      * @return list
      */
@@ -29,7 +29,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the list of 'Name' element items. Р СѓСЃСЃРєРѕРµ Рё Р»Р°С‚РёРЅСЃРєРѕРµ РЅР°Р·РІР°РЅРёРµ Р¶РёРІРѕС‚РЅРѕРіРѕ РёР»Рё СЂР°СЃС‚РµРЅРёСЏ, РІРєР»СЋС‡РµРЅРЅРѕРіРѕ РІ РїСЂРёР»РѕР¶РµРЅРёСЏ РЎРРўР•РЎ
+     * Set the list of 'Name' element items. Русское и латинское название животного или растения, включенного в приложения СИТЕС
      * 
      * @param list
      */
@@ -38,7 +38,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'SampleInfo' element value. РћРїРёСЃР°РЅРёРµ РѕР±СЂР°Р·С†РѕРІ, РІРєР»СЋС‡Р°СЏ РјРµС‚РєРё
+     * Get the 'SampleInfo' element value. Описание образцов, включая метки
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'SampleInfo' element value. РћРїРёСЃР°РЅРёРµ РѕР±СЂР°Р·С†РѕРІ, РІРєР»СЋС‡Р°СЏ РјРµС‚РєРё
+     * Set the 'SampleInfo' element value. Описание образцов, включая метки
      * 
      * @param sampleInfo
      */
@@ -56,7 +56,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'AppNumber' element value. РќРѕРјРµСЂ РїСЂРёР»РѕР¶РµРЅРёСЏ РЎРРўР•РЎ
+     * Get the 'AppNumber' element value. Номер приложения СИТЕС
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'AppNumber' element value. РќРѕРјРµСЂ РїСЂРёР»РѕР¶РµРЅРёСЏ РЎРРўР•РЎ
+     * Set the 'AppNumber' element value. Номер приложения СИТЕС
      * 
      * @param appNumber
      */
@@ -74,7 +74,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'CountryOrigin' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Get the 'CountryOrigin' element value. Страна происхождения
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'CountryOrigin' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ
+     * Set the 'CountryOrigin' element value. Страна происхождения
      * 
      * @param countryOrigin
      */
@@ -92,7 +92,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Get the 'IssueDate' element value. Дата выдачи разрешения
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЂР°Р·СЂРµС€РµРЅРёСЏ
+     * Set the 'IssueDate' element value. Дата выдачи разрешения
      * 
      * @param issueDate
      */
@@ -110,7 +110,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё 
+     * Get the 'Numeric' element value. Номер позиции 
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Numeric' element value. РќРѕРјРµСЂ РїРѕР·РёС†РёРё 
+     * Set the 'Numeric' element value. Номер позиции 
      * 
      * @param numeric
      */
@@ -128,7 +128,7 @@ public class ObjectType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
+     * Get the 'Quantity' element value. Количество
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class ObjectType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ
+     * Set the 'Quantity' element value. Количество
      * 
      * @param quantity
      */

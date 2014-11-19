@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.realestateresponse;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚С‹ - РѕСЃРЅРѕРІР°РЅРёСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё РїСЂР°РІР°
+ * Документы - основания регистрации права
  */
 public class FoundationDocType extends DocumentBaseType
 {
@@ -13,7 +13,7 @@ public class FoundationDocType extends DocumentBaseType
     private String organizationName;
 
     /** 
-     * Get the 'DocType' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocType' element value. Тип документа
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class FoundationDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocType' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocType' element value. Тип документа
      * 
      * @param docType
      */
@@ -31,7 +31,7 @@ public class FoundationDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'DocSeries' element value. РЎРµСЂРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocSeries' element value. Серия документа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class FoundationDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocSeries' element value. РЎРµСЂРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocSeries' element value. Серия документа
      * 
      * @param docSeries
      */
@@ -49,7 +49,7 @@ public class FoundationDocType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'OrganizationName' element value. Наименование организации, выдавшей документ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class FoundationDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РІС‹РґР°РІС€РµР№ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'OrganizationName' element value. Наименование организации, выдавшей документ
      * 
      * @param organizationName
      */

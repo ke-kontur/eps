@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.customsregistrycertificate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РµСЃРїРµС‡РµРЅРёРё СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№
+ * Сведения об обеспечении уплаты таможенных платежей
  */
 public class AmountCustomsPaymentType
 {
@@ -11,7 +11,7 @@ public class AmountCustomsPaymentType
     private String currency;
 
     /** 
-     * Get the 'PaymentWayCode' element value. РљРѕРґ СЃРїРѕСЃРѕР±Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
+     * Get the 'PaymentWayCode' element value. Код способа обеспечения уплаты таможенных платежей в соответствии с классификатором способов обеспечения уплаты таможенных пошлин, налогов
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AmountCustomsPaymentType
     }
 
     /** 
-     * Set the 'PaymentWayCode' element value. РљРѕРґ СЃРїРѕСЃРѕР±Р° РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ
+     * Set the 'PaymentWayCode' element value. Код способа обеспечения уплаты таможенных платежей в соответствии с классификатором способов обеспечения уплаты таможенных пошлин, налогов
      * 
      * @param paymentWayCode
      */
@@ -29,7 +29,7 @@ public class AmountCustomsPaymentType
     }
 
     /** 
-     * Get the 'Amount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Get the 'Amount' element value. Сумма обеспечения
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class AmountCustomsPaymentType
     }
 
     /** 
-     * Set the 'Amount' element value. РЎСѓРјРјР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Set the 'Amount' element value. Сумма обеспечения
      * 
      * @param amount
      */
@@ -47,7 +47,7 @@ public class AmountCustomsPaymentType
     }
 
     /** 
-     * Get the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹
+     * Get the 'Currency' element value. Код валюты
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class AmountCustomsPaymentType
     }
 
     /** 
-     * Set the 'Currency' element value. РљРѕРґ РІР°Р»СЋС‚С‹
+     * Set the 'Currency' element value. Код валюты
      * 
      * @param currency
      */

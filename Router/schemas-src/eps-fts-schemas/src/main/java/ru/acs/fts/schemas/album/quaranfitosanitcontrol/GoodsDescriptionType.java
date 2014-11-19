@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРєР°СЂР°РЅС‚РёРЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
+ * Сведения о подкарантинной продукции
  */
 public class GoodsDescriptionType
 {
@@ -15,7 +15,7 @@ public class GoodsDescriptionType
     private SupplementaryQuantityType quantity;
 
     /** 
-     * Get the list of 'ProductName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕРґРєР°СЂР°РЅС‚РёРЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
+     * Get the list of 'ProductName' element items. Наименование подкарантинной продукции
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the list of 'ProductName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїРѕРґРєР°СЂР°РЅС‚РёРЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
+     * Set the list of 'ProductName' element items. Наименование подкарантинной продукции
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'TNVED' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'TNVED' element value. Код ТН ВЭД ТС
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'TNVED' element value. РљРѕРґ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'TNVED' element value. Код ТН ВЭД ТС
      * 
      * @param TNVED
      */
@@ -51,7 +51,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ (РІРµСЃ) РїРѕРґРєР°СЂР°РЅС‚РёРЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
+     * Get the 'Quantity' element value. Количество (вес) подкарантинной продукции
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class GoodsDescriptionType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ (РІРµСЃ) РїРѕРґРєР°СЂР°РЅС‚РёРЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
+     * Set the 'Quantity' element value. Количество (вес) подкарантинной продукции
      * 
      * @param quantity
      */

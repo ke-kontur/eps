@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.conformancesertif;
 
 /** 
- * РќРѕРјРµСЂ Р±Р»Р°РЅРєР° СЃРµСЂС‚РёС„РёРєР°С‚Р°
+ * Номер бланка сертификата
  */
 public class FormNumberType
 {
@@ -10,7 +10,7 @@ public class FormNumberType
     private String customsCountryCode;
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ
+     * Get the 'Number' element value. Номер
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class FormNumberType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ
+     * Set the 'Number' element value. Номер
      * 
      * @param number
      */
@@ -28,7 +28,7 @@ public class FormNumberType
     }
 
     /** 
-     * Get the 'CustomsCountryCode' element value. РљРѕРґ РіРѕСЃСѓРґР°СЂСЃС‚РІР° С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. 
+     * Get the 'CustomsCountryCode' element value. Код государства члена Таможенного союза. 
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class FormNumberType
     }
 
     /** 
-     * Set the 'CustomsCountryCode' element value. РљРѕРґ РіРѕСЃСѓРґР°СЂСЃС‚РІР° С‡Р»РµРЅР° РўР°РјРѕР¶РµРЅРЅРѕРіРѕ СЃРѕСЋР·Р°. 
+     * Set the 'CustomsCountryCode' element value. Код государства члена Таможенного союза. 
      * 
      * @param customsCountryCode
      */

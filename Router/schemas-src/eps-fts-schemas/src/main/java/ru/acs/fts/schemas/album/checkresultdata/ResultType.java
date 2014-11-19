@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.checkresultdata;
 
 /** 
- * РћС€РёР±РєРё РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј РїСЂРѕРІРµСЂРєРё
+ * Ошибки по результатам проверки
  */
 public class ResultType
 {
@@ -10,7 +10,7 @@ public class ResultType
     private String description;
 
     /** 
-     * Get the 'Code' element value. РљРѕРґ РѕС€РёР±РєРё
+     * Get the 'Code' element value. Код ошибки
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ResultType
     }
 
     /** 
-     * Set the 'Code' element value. РљРѕРґ РѕС€РёР±РєРё
+     * Set the 'Code' element value. Код ошибки
      * 
      * @param code
      */
@@ -28,7 +28,7 @@ public class ResultType
     }
 
     /** 
-     * Get the 'Description' element value. РћРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё
+     * Get the 'Description' element value. Описание ошибки
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ResultType
     }
 
     /** 
-     * Set the 'Description' element value. РћРїРёСЃР°РЅРёРµ РѕС€РёР±РєРё
+     * Set the 'Description' element value. Описание ошибки
      * 
      * @param description
      */

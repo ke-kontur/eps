@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AutomobileBaseType;
 import ru.acs.fts.schemas.album.commonleaftypescust.TransportCategoryCodeType;
 
 /** 
- * РљР°СЂС‚РѕС‡РєР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+ * Карточка транспортного средства. Сведения о транспортном средстве
  */
 public class TransportMeanCardType extends AutomobileBaseType
 {
@@ -16,7 +16,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     private String stateRegNumber;
 
     /** 
-     * Get the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
+     * Get the 'CountryCode' element value. Буквенный код страны в соответствии с классификатором стран мира
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
+     * Set the 'CountryCode' element value. Буквенный код страны в соответствии с классификатором стран мира
      * 
      * @param countryCode
      */
@@ -34,7 +34,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'CountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
+     * Get the 'CountryName' element value. Краткое название страны в соответствии с классификатором стран мира
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'CountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°
+     * Set the 'CountryName' element value. Краткое название страны в соответствии с классификатором стран мира
      * 
      * @param countryName
      */
@@ -52,7 +52,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'TransportMeansTypeCode' element value. РљРѕРґ С‚РёРїР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'TransportMeansTypeCode' element value. Код типа транспортного средства
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'TransportMeansTypeCode' element value. РљРѕРґ С‚РёРїР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'TransportMeansTypeCode' element value. Код типа транспортного средства
      * 
      * @param transportMeansTypeCode
      */
@@ -70,7 +70,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'TransportCategoryCode' element value. РљРѕРґ РєР°С‚РµРіРѕСЂРёРё РўРЎ
+     * Get the 'TransportCategoryCode' element value. Код категории ТС
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'TransportCategoryCode' element value. РљРѕРґ РєР°С‚РµРіРѕСЂРёРё РўРЎ
+     * Set the 'TransportCategoryCode' element value. Код категории ТС
      * 
      * @param transportCategoryCode
      */
@@ -89,7 +89,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Get the 'StateRegNumber' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Get the 'StateRegNumber' element value. Государственный регистрационный номер
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class TransportMeanCardType extends AutomobileBaseType
     }
 
     /** 
-     * Set the 'StateRegNumber' element value. Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ
+     * Set the 'StateRegNumber' element value. Государственный регистрационный номер
      * 
      * @param stateRegNumber
      */

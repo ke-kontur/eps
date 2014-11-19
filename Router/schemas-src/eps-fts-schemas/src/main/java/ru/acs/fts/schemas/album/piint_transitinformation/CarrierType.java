@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.DriverInformationType;
 
 /** 
- * РџРµСЂРµРІРѕР·С‡РёРє
+ * Перевозчик
  */
 public class CarrierType extends OrganizationBaseType
 {
@@ -19,7 +19,7 @@ public class CarrierType extends OrganizationBaseType
     private AddressType address;
 
     /** 
-     * Get the 'ITN' element value. РРўРќ
+     * Get the 'ITN' element value. ИТН
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'ITN' element value. РРўРќ
+     * Set the 'ITN' element value. ИТН
      * 
      * @param ITN
      */
@@ -37,7 +37,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Get the list of 'DriverInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРѕРґРёС‚РµР»СЏС…
+     * Get the list of 'DriverInformation' element items. Информация о водителях
      * 
      * @return list
      */
@@ -46,7 +46,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the list of 'DriverInformation' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІРѕРґРёС‚РµР»СЏС…
+     * Set the list of 'DriverInformation' element items. Информация о водителях
      * 
      * @param list
      */
@@ -55,7 +55,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @param identityCard
      */
@@ -73,7 +73,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'Address' element value. Адрес организации / физического лица
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class CarrierType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'Address' element value. Адрес организации / физического лица
      * 
      * @param address
      */

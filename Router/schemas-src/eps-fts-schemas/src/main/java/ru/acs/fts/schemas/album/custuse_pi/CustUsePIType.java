@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.TIRIDType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ РѕР± РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+ * Уведомление об использовании предварительной информации
  */
 public class CustUsePIType extends BaseDocType
 {
@@ -22,7 +22,7 @@ public class CustUsePIType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'UseDocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ РєРѕС‚РѕСЂРѕРј РёСЃРїРѕР»СЊР·РѕРІР°РЅР° РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'UseDocumentNumber' element value. Номер документа в котором использована предварительная информация
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Set the 'UseDocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РІ РєРѕС‚РѕСЂРѕРј РёСЃРїРѕР»СЊР·РѕРІР°РЅР° РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'UseDocumentNumber' element value. Номер документа в котором использована предварительная информация
      * 
      * @param useDocumentNumber
      */
@@ -40,7 +40,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Get the 'UseDocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р° РІ РєРѕС‚РѕСЂРѕРј РёСЃРїРѕР»СЊР·РѕРІР°РЅР° РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the 'UseDocumentDate' element value. Дата документа в котором использована предварительная информация
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Set the 'UseDocumentDate' element value. Р”Р°С‚Р° РґРѕРєСѓРјРµРЅС‚Р° РІ РєРѕС‚РѕСЂРѕРј РёСЃРїРѕР»СЊР·РѕРІР°РЅР° РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the 'UseDocumentDate' element value. Дата документа в котором использована предварительная информация
      * 
      * @param useDocumentDate
      */
@@ -58,7 +58,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Get the 'UseDocDscrepancy' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЂР°СЃС…РѕР¶РґРµРЅРёР№ РІ РџР Рё РѕС„РѕСЂРјР»РµРЅРЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the 'UseDocDscrepancy' element value. Признак наличия расхождений в ПИ и оформленном документе
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Set the 'UseDocDscrepancy' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЂР°СЃС…РѕР¶РґРµРЅРёР№ РІ РџР Рё РѕС„РѕСЂРјР»РµРЅРЅРѕРј РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the 'UseDocDscrepancy' element value. Признак наличия расхождений в ПИ и оформленном документе
      * 
      * @param useDocDscrepancy
      */
@@ -76,7 +76,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Get the 'UseDocumentKind' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р° РІ РєРѕС‚РѕСЂРѕРј РёСЃРїРѕР»СЊР·РѕРІР°РЅР° РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ - РўР” / Р”Рў
+     * Get the 'UseDocumentKind' element value. Тип документа в котором использована предварительная информация - ТД / ДТ
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Set the 'UseDocumentKind' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р° РІ РєРѕС‚РѕСЂРѕРј РёСЃРїРѕР»СЊР·РѕРІР°РЅР° РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ - РўР” / Р”Рў
+     * Set the 'UseDocumentKind' element value. Тип документа в котором использована предварительная информация - ТД / ДТ
      * 
      * @param useDocumentKind
      */
@@ -119,7 +119,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Get the 'TIR_ID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIR_ID' element value. Номер книжки МДП
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Set the 'TIR_ID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIR_ID' element value. Номер книжки МДП
      * 
      * @param TIRID
      */
@@ -147,7 +147,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Get the 'PI_RegID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїСЂР°С€РёРІР°РµРјРѕР№ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё.
+     * Get the 'PI_RegID' element value. Идентификатор запрашиваемой предварительной информации.
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Set the 'PI_RegID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїСЂР°С€РёРІР°РµРјРѕР№ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё.
+     * Set the 'PI_RegID' element value. Идентификатор запрашиваемой предварительной информации.
      * 
      * @param PIRegID
      */
@@ -166,7 +166,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class CustUsePIType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

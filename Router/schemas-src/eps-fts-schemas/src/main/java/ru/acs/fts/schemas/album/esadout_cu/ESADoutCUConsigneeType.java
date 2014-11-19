@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUBranchDescriptionType
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ С‚РѕРІР°СЂРѕРІ
+ * Сведения о получателе товаров
  */
 public class ESADoutCUConsigneeType extends CUOrganizationType
 {
@@ -14,7 +14,7 @@ public class ESADoutCUConsigneeType extends CUOrganizationType
     private CUBranchDescriptionType branchDescription;
 
     /** 
-     * Get the 'OfficesExchangeCode' element value. РљРѕРґ СѓС‡СЂРµР¶РґРµРЅРёСЏ РѕР±РјРµРЅР° РїРѕРґР°С‡Рё РјРµР¶РґСѓРЅР°СЂРѕРґРЅС‹С… РїРѕС‡С‚РѕРІС‹С… РѕС‚РїСЂР°РІР»РµРЅРёР№ 
+     * Get the 'OfficesExchangeCode' element value. Код учреждения обмена подачи международных почтовых отправлений 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ESADoutCUConsigneeType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'OfficesExchangeCode' element value. РљРѕРґ СѓС‡СЂРµР¶РґРµРЅРёСЏ РѕР±РјРµРЅР° РїРѕРґР°С‡Рё РјРµР¶РґСѓРЅР°СЂРѕРґРЅС‹С… РїРѕС‡С‚РѕРІС‹С… РѕС‚РїСЂР°РІР»РµРЅРёР№ 
+     * Set the 'OfficesExchangeCode' element value. Код учреждения обмена подачи международных почтовых отправлений 
      * 
      * @param officesExchangeCode
      */
@@ -32,7 +32,7 @@ public class ESADoutCUConsigneeType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'ContractorIndicator' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№:1-РљРћРќРўР РђР“Р•РќРў; 2 - Р РђР—РќР«Р• РџРћ РЎРџРРЎРљРЈ
+     * Get the 'ContractorIndicator' element value. Особенность указанных сведений:1-КОНТРАГЕНТ; 2 - РАЗНЫЕ ПО СПИСКУ
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ESADoutCUConsigneeType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'ContractorIndicator' element value. РћСЃРѕР±РµРЅРЅРѕСЃС‚СЊ СѓРєР°Р·Р°РЅРЅС‹С… СЃРІРµРґРµРЅРёР№:1-РљРћРќРўР РђР“Р•РќРў; 2 - Р РђР—РќР«Р• РџРћ РЎРџРРЎРљРЈ
+     * Set the 'ContractorIndicator' element value. Особенность указанных сведений:1-КОНТРАГЕНТ; 2 - РАЗНЫЕ ПО СПИСКУ
      * 
      * @param contractorIndicator
      */
@@ -50,7 +50,7 @@ public class ESADoutCUConsigneeType extends CUOrganizationType
     }
 
     /** 
-     * Get the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
+     * Get the 'BranchDescription' element value. Сведения об обособленном подразделении
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ESADoutCUConsigneeType extends CUOrganizationType
     }
 
     /** 
-     * Set the 'BranchDescription' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РѕСЃРѕР±Р»РµРЅРЅРѕРј РїРѕРґСЂР°Р·РґРµР»РµРЅРёРё
+     * Set the 'BranchDescription' element value. Сведения об обособленном подразделении
      * 
      * @param branchDescription
      */

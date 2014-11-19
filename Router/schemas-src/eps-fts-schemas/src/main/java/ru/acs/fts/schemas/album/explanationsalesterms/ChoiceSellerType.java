@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.explanationsalesterms;
 
 /** 
- * Р‘С‹Р» РІС‹Р±СЂР°РЅ РёРјРµРЅРЅРѕ СЌС‚РѕС‚ РїСЂРѕРґР°РІРµС†, РїРѕСЃРєРѕР»СЊРєСѓ
+ * Был выбран именно этот продавец, поскольку
  */
 public class ChoiceSellerType
 {
@@ -15,7 +15,7 @@ public class ChoiceSellerType
     private String otherwiseComments;
 
     /** 
-     * Get the 'Producer' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїСЂРѕРґР°РІРµС† СЏРІР»СЏРµС‚СЃСЏ РїСЂРѕРёР·РІРѕРґРёС‚РµР»РµРј С‚РѕРІР°СЂРѕРІ
+     * Get the 'Producer' element value. Признак того, что продавец является производителем товаров
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Set the 'Producer' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїСЂРѕРґР°РІРµС† СЏРІР»СЏРµС‚СЃСЏ РїСЂРѕРёР·РІРѕРґРёС‚РµР»РµРј С‚РѕРІР°СЂРѕРІ
+     * Set the 'Producer' element value. Признак того, что продавец является производителем товаров
      * 
      * @param producer
      */
@@ -33,7 +33,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Get the 'OfficialRepresentativeProducer' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїСЂРѕРґР°РІРµС† СЏРІР»СЏРµС‚СЃСЏ РѕС„РёС†РёР°Р»СЊРЅС‹Рј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµРј РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ
+     * Get the 'OfficialRepresentativeProducer' element value. Признак того, что продавец является официальным представителем производителя
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Set the 'OfficialRepresentativeProducer' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїСЂРѕРґР°РІРµС† СЏРІР»СЏРµС‚СЃСЏ РѕС„РёС†РёР°Р»СЊРЅС‹Рј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»РµРј РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ
+     * Set the 'OfficialRepresentativeProducer' element value. Признак того, что продавец является официальным представителем производителя
      * 
      * @param officialRepresentativeProducer
      */
@@ -52,7 +52,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Get the 'Guarantee' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїСЂРѕРґР°РІРµС† РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚ РіР°СЂР°РЅС‚РёР№РЅРѕРµ РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'Guarantee' element value. Признак того, что продавец предоставляет гарантийное обслуживание товаров
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Set the 'Guarantee' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ РїСЂРѕРґР°РІРµС† РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚ РіР°СЂР°РЅС‚РёР№РЅРѕРµ РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'Guarantee' element value. Признак того, что продавец предоставляет гарантийное обслуживание товаров
      * 
      * @param guarantee
      */
@@ -70,7 +70,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Get the 'ProfitableTerm' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ Р±С‹Р»Рё РїСЂРµРґР»РѕР¶РµРЅС‹ Р±РѕР»РµРµ РІС‹РіРѕРґРЅС‹Рµ СѓСЃР»РѕРІРёСЏ РїРѕРєСѓРїРєРё С‚РѕРІР°СЂРѕРІ, СЃСЂР°РІРЅРёС‚РµР»СЊРЅРѕ СЃ РґСЂСѓРіРёРјРё СѓС‡Р°СЃС‚РЅРёРєР°РјРё СЂС‹РЅРєР°
+     * Get the 'ProfitableTerm' element value. Признак того, что были предложены более выгодные условия покупки товаров, сравнительно с другими участниками рынка
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Set the 'ProfitableTerm' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ Р±С‹Р»Рё РїСЂРµРґР»РѕР¶РµРЅС‹ Р±РѕР»РµРµ РІС‹РіРѕРґРЅС‹Рµ СѓСЃР»РѕРІРёСЏ РїРѕРєСѓРїРєРё С‚РѕРІР°СЂРѕРІ, СЃСЂР°РІРЅРёС‚РµР»СЊРЅРѕ СЃ РґСЂСѓРіРёРјРё СѓС‡Р°СЃС‚РЅРёРєР°РјРё СЂС‹РЅРєР°
+     * Set the 'ProfitableTerm' element value. Признак того, что были предложены более выгодные условия покупки товаров, сравнительно с другими участниками рынка
      * 
      * @param profitableTerm
      */
@@ -88,7 +88,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Get the 'CommentsProfitableTerm' element value. Р‘С‹Р»Рё РїСЂРµРґР»РѕР¶РµРЅС‹ Р±РѕР»РµРµ РІС‹РіРѕРґРЅС‹Рµ СѓСЃР»РѕРІРёСЏ РїРѕРєСѓРїРєРё С‚РѕРІР°СЂРѕРІ, СЃСЂР°РІРЅРёС‚РµР»СЊРЅРѕ СЃ РґСЂСѓРіРёРјРё СѓС‡Р°СЃС‚РЅРёРєР°РјРё СЂС‹РЅРєР°.(СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
+     * Get the 'CommentsProfitableTerm' element value. Были предложены более выгодные условия покупки товаров, сравнительно с другими участниками рынка.(указать подробности)
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Set the 'CommentsProfitableTerm' element value. Р‘С‹Р»Рё РїСЂРµРґР»РѕР¶РµРЅС‹ Р±РѕР»РµРµ РІС‹РіРѕРґРЅС‹Рµ СѓСЃР»РѕРІРёСЏ РїРѕРєСѓРїРєРё С‚РѕРІР°СЂРѕРІ, СЃСЂР°РІРЅРёС‚РµР»СЊРЅРѕ СЃ РґСЂСѓРіРёРјРё СѓС‡Р°СЃС‚РЅРёРєР°РјРё СЂС‹РЅРєР°.(СѓРєР°Р·Р°С‚СЊ РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё)
+     * Set the 'CommentsProfitableTerm' element value. Были предложены более выгодные условия покупки товаров, сравнительно с другими участниками рынка.(указать подробности)
      * 
      * @param commentsProfitableTerm
      */
@@ -106,7 +106,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Get the 'Otherwise' element value. РџСЂРёР·РЅР°Рє РІС‹Р±РѕСЂР° РїСЂРѕРґР°РІС†Р° РїРѕ РёРЅС‹Рј РїСЂРёС‡РёРЅР°Рј
+     * Get the 'Otherwise' element value. Признак выбора продавца по иным причинам
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Set the 'Otherwise' element value. РџСЂРёР·РЅР°Рє РІС‹Р±РѕСЂР° РїСЂРѕРґР°РІС†Р° РїРѕ РёРЅС‹Рј РїСЂРёС‡РёРЅР°Рј
+     * Set the 'Otherwise' element value. Признак выбора продавца по иным причинам
      * 
      * @param otherwise
      */
@@ -124,7 +124,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Get the 'OtherwiseComments' element value. РРЅС‹Рµ РїСЂРёС‡РёРЅС‹ (СѓРєР°Р·Р°С‚СЊ)
+     * Get the 'OtherwiseComments' element value. Иные причины (указать)
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class ChoiceSellerType
     }
 
     /** 
-     * Set the 'OtherwiseComments' element value. РРЅС‹Рµ РїСЂРёС‡РёРЅС‹ (СѓРєР°Р·Р°С‚СЊ)
+     * Set the 'OtherwiseComments' element value. Иные причины (указать)
      * 
      * @param otherwiseComments
      */

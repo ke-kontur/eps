@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.kdtout_cu;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUConsigmentType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ РіСЂ. 15, 15Р°, 17,17Р°, 18, 19, 21, 25, 26, 29, 53, 55
+ * Сведения о перевозке товаров гр. 15, 15а, 17,17а, 18, 19, 21, 25, 26, 29, 53, 55
  */
 public class KDTConsigmentType extends CUConsigmentType
 {
@@ -12,7 +12,7 @@ public class KDTConsigmentType extends CUConsigmentType
     private KDTBorderTransportType KDToutBorderTransport;
 
     /** 
-     * Get the 'KDToutDepartureArrivalTransport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РїСЂРё РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё. Р“СЂ. 18,26  РљР”Рў
+     * Get the 'KDToutDepartureArrivalTransport' element value. Транспортные средства при прибытии/убытии. Гр. 18,26  КДТ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class KDTConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the 'KDToutDepartureArrivalTransport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РїСЂРё РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё. Р“СЂ. 18,26  РљР”Рў
+     * Set the 'KDToutDepartureArrivalTransport' element value. Транспортные средства при прибытии/убытии. Гр. 18,26  КДТ
      * 
      * @param KDToutDepartureArrivalTransport
      */
@@ -31,7 +31,7 @@ public class KDTConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Get the 'KDToutBorderTransport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РЅР° РіСЂР°РЅРёС†Рµ. Р“СЂ. 21, 25  РљР”Рў
+     * Get the 'KDToutBorderTransport' element value. Транспортные средства на границе. Гр. 21, 25  КДТ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class KDTConsigmentType extends CUConsigmentType
     }
 
     /** 
-     * Set the 'KDToutBorderTransport' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Рµ СЃСЂРµРґСЃС‚РІР° РЅР° РіСЂР°РЅРёС†Рµ. Р“СЂ. 21, 25  РљР”Рў
+     * Set the 'KDToutBorderTransport' element value. Транспортные средства на границе. Гр. 21, 25  КДТ
      * 
      * @param KDToutBorderTransport
      */

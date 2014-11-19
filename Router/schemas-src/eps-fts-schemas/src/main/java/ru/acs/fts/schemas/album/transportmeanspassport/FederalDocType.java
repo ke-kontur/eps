@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.transportmeanspassport;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚ РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РўРЎ РѕР±СЂР°С‰РµРЅРѕ РІ С„РµРґРµСЂР°Р»СЊРЅСѓСЋ  СЃРѕР±СЃС‚РІРµРЅРЅРѕСЃС‚СЊ
+ * Документ по которому ТС обращено в федеральную  собственность
  */
 public class FederalDocType extends DocumentBaseType
 {
     private String series;
 
     /** 
-     * Get the 'Series' element value. РЎРµСЂРёСЏ
+     * Get the 'Series' element value. Серия
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class FederalDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Series' element value. РЎРµСЂРёСЏ
+     * Set the 'Series' element value. Серия
      * 
      * @param series
      */

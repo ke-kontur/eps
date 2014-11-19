@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHCustomRegist
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WarehouseOwnerType;
 
 /** 
- * РћС‚С‡РµС‚ Рѕ РІС‹РґР°С‡Рµ С‚РѕРІР°СЂРѕРІ СЃ РЎР’РҐ РїРѕ С„РѕСЂРјРµ Р”Рћ3
+ * Отчет о выдаче товаров с СВХ по форме ДО3
  */
 public class DO3ReportType extends BaseDocType
 {
@@ -25,7 +25,7 @@ public class DO3ReportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ReportBegingDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РѕС‚С‡РµС‚РЅРѕРіРѕ РїРµСЂРёРѕРґР°
+     * Get the 'ReportBegingDate' element value. Дата начала отчетного периода
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReportBegingDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РѕС‚С‡РµС‚РЅРѕРіРѕ РїРµСЂРёРѕРґР°
+     * Set the 'ReportBegingDate' element value. Дата начала отчетного периода
      * 
      * @param reportBegingDate
      */
@@ -43,7 +43,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReportEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РѕС‚С‡РµС‚РЅРѕРіРѕ РїРµСЂРёРѕРґР°
+     * Get the 'ReportEndDate' element value. Дата окончания отчетного периода
      * 
      * @return value
      */
@@ -52,7 +52,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReportEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РѕС‚С‡РµС‚РЅРѕРіРѕ РїРµСЂРёРѕРґР°
+     * Set the 'ReportEndDate' element value. Дата окончания отчетного периода
      * 
      * @param reportEndDate
      */
@@ -61,7 +61,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'AddSheetsNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРѕР±Р°РІРѕС‡РЅС‹С… Р»РёСЃС‚РѕРІ РѕС‚С‡РµС‚Р°
+     * Get the 'AddSheetsNumber' element value. Количество добавочных листов отчета
      * 
      * @return value
      */
@@ -70,7 +70,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'AddSheetsNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РґРѕР±Р°РІРѕС‡РЅС‹С… Р»РёСЃС‚РѕРІ РѕС‚С‡РµС‚Р°
+     * Set the 'AddSheetsNumber' element value. Количество добавочных листов отчета
      * 
      * @param addSheetsNumber
      */
@@ -79,7 +79,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReportNumber' element value. РќРѕРјРµСЂ РѕС‚С‡РµС‚Р°. РџСЂРёСЃРІР°РёРІР°РµС‚СЃСЏ РѕС„РѕСЂРјР»СЏСЋС‰РµР№ СЃРёСЃС‚РµРјРѕР№ РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ
+     * Get the 'ReportNumber' element value. Номер отчета. Присваивается оформляющей системой владельца СВХ
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReportNumber' element value. РќРѕРјРµСЂ РѕС‚С‡РµС‚Р°. РџСЂРёСЃРІР°РёРІР°РµС‚СЃСЏ РѕС„РѕСЂРјР»СЏСЋС‰РµР№ СЃРёСЃС‚РµРјРѕР№ РІР»Р°РґРµР»СЊС†Р° РЎР’РҐ
+     * Set the 'ReportNumber' element value. Номер отчета. Присваивается оформляющей системой владельца СВХ
      * 
      * @param reportNumber
      */
@@ -97,7 +97,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReportDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р°
+     * Get the 'ReportDate' element value. Дата составления отчета
      * 
      * @return value
      */
@@ -106,7 +106,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReportDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р°
+     * Set the 'ReportDate' element value. Дата составления отчета
      * 
      * @param reportDate
      */
@@ -115,7 +115,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReportTime' element value. Р’СЂРµРјСЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р°
+     * Get the 'ReportTime' element value. Время составления отчета
      * 
      * @return value
      */
@@ -124,7 +124,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReportTime' element value. Р’СЂРµРјСЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РѕС‚С‡РµС‚Р°
+     * Set the 'ReportTime' element value. Время составления отчета
      * 
      * @param reportTime
      */
@@ -133,7 +133,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the list of 'Goods' element items. Сведения о товарах
      * 
      * @return list
      */
@@ -142,7 +142,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the list of 'Goods' element items. Сведения о товарах
      * 
      * @param list
      */
@@ -151,7 +151,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomRegistration' element value. Р”Р°РЅРЅС‹Рµ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕС‚С‡РµС‚Р° РІ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'CustomRegistration' element value. Данные о регистрации отчета в таможенном органе
      * 
      * @return value
      */
@@ -160,7 +160,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomRegistration' element value. Р”Р°РЅРЅС‹Рµ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РѕС‚С‡РµС‚Р° РІ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'CustomRegistration' element value. Данные о регистрации отчета в таможенном органе
      * 
      * @param customRegistration
      */
@@ -170,7 +170,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'WarehouseOwner' element value. Р”Р°РЅРЅС‹Рµ Рѕ РІР»Р°РґРµР»СЊС†Рµ СЃРєР»Р°РґР°
+     * Get the 'WarehouseOwner' element value. Данные о владельце склада
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'WarehouseOwner' element value. Р”Р°РЅРЅС‹Рµ Рѕ РІР»Р°РґРµР»СЊС†Рµ СЃРєР»Р°РґР°
+     * Set the 'WarehouseOwner' element value. Данные о владельце склада
      * 
      * @param warehouseOwner
      */
@@ -188,7 +188,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class DO3ReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

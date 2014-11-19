@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cutransportcommonaggregatetypescust;
 
 /** 
- * РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєРЅРёР¶РєРё РњР”Рџ
+ * Идентификатор книжки МДП
  */
 public class TIRIdentifierType
 {
@@ -11,7 +11,7 @@ public class TIRIdentifierType
     private String TIRWhitePageNumber;
 
     /** 
-     * Get the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIRID' element value. Номер книжки МДП
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TIRIdentifierType
     }
 
     /** 
-     * Set the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIRID' element value. Номер книжки МДП
      * 
      * @param TIRID
      */
@@ -29,7 +29,7 @@ public class TIRIdentifierType
     }
 
     /** 
-     * Get the 'TIRSeries' element value. РЎРµСЂРёСЏ РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIRSeries' element value. Серия книжки МДП
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class TIRIdentifierType
     }
 
     /** 
-     * Set the 'TIRSeries' element value. РЎРµСЂРёСЏ РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIRSeries' element value. Серия книжки МДП
      * 
      * @param TIRSeries
      */
@@ -47,7 +47,7 @@ public class TIRIdentifierType
     }
 
     /** 
-     * Get the 'TIRWhitePageNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р±РµР»РѕРіРѕ Р»РёСЃС‚Р° РєРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIRWhitePageNumber' element value. Порядковый номер белого листа книжки МДП
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class TIRIdentifierType
     }
 
     /** 
-     * Set the 'TIRWhitePageNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р±РµР»РѕРіРѕ Р»РёСЃС‚Р° РєРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIRWhitePageNumber' element value. Порядковый номер белого листа книжки МДП
      * 
      * @param TIRWhitePageNumber
      */

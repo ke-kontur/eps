@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * РџСЂРµС„РµСЂРµРЅС†РёРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј Р»СЊРіРѕС‚ РїРѕ СѓРїР»Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№. Р“СЂ.36
+ * Преференции в соответствии с классификатором льгот по уплате таможенных платежей. Гр.36
  */
 public class CUPreferenciiType
 {
@@ -12,7 +12,7 @@ public class CUPreferenciiType
     private String rate;
 
     /** 
-     * Get the 'CustomsTax' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ СЃР±РѕСЂС‹
+     * Get the 'CustomsTax' element value. Таможенные сборы
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class CUPreferenciiType
     }
 
     /** 
-     * Set the 'CustomsTax' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ СЃР±РѕСЂС‹
+     * Set the 'CustomsTax' element value. Таможенные сборы
      * 
      * @param customsTax
      */
@@ -30,7 +30,7 @@ public class CUPreferenciiType
     }
 
     /** 
-     * Get the 'CustomsDuty' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ РїРѕС€Р»РёРЅР°
+     * Get the 'CustomsDuty' element value. Таможенная пошлина
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class CUPreferenciiType
     }
 
     /** 
-     * Set the 'CustomsDuty' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ РїРѕС€Р»РёРЅР°
+     * Set the 'CustomsDuty' element value. Таможенная пошлина
      * 
      * @param customsDuty
      */
@@ -48,7 +48,7 @@ public class CUPreferenciiType
     }
 
     /** 
-     * Get the 'Excise' element value. РђРєС†РёР·С‹
+     * Get the 'Excise' element value. Акцизы
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class CUPreferenciiType
     }
 
     /** 
-     * Set the 'Excise' element value. РђРєС†РёР·С‹
+     * Set the 'Excise' element value. Акцизы
      * 
      * @param excise
      */
@@ -66,7 +66,7 @@ public class CUPreferenciiType
     }
 
     /** 
-     * Get the 'Rate' element value. РќР°Р»РѕРі РЅР° РґРѕР±Р°РІР»РµРЅРЅСѓСЋ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Get the 'Rate' element value. Налог на добавленную стоимость
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class CUPreferenciiType
     }
 
     /** 
-     * Set the 'Rate' element value. РќР°Р»РѕРі РЅР° РґРѕР±Р°РІР»РµРЅРЅСѓСЋ СЃС‚РѕРёРјРѕСЃС‚СЊ
+     * Set the 'Rate' element value. Налог на добавленную стоимость
      * 
      * @param rate
      */

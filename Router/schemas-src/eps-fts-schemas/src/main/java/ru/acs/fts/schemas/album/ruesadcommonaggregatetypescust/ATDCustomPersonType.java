@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Р”РѕР»Р¶РЅРѕСЃС‚РЅС‹Рµ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РёРµ Рё РїСЂРѕРІРѕРґРёРІС€РёРµ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РґРѕСЃРјРѕС‚СЂ
+ * Должностные лица таможенного органа, присутствующие и проводившие таможенный досмотр
  */
 public class ATDCustomPersonType extends PersonBaseType
 {
@@ -16,7 +16,7 @@ public class ATDCustomPersonType extends PersonBaseType
     private String recordNumber;
 
     /** 
-     * Get the 'SignatureFlag' element value. РџСЂРёР·РЅР°Рє, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ С„Р°РєС‚ РїРѕРґРїРёСЃРё РђРўР”
+     * Get the 'SignatureFlag' element value. Признак, подтверждающий факт подписи АТД
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ATDCustomPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'SignatureFlag' element value. РџСЂРёР·РЅР°Рє, РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№ С„Р°РєС‚ РїРѕРґРїРёСЃРё РђРўР”
+     * Set the 'SignatureFlag' element value. Признак, подтверждающий факт подписи АТД
      * 
      * @param signatureFlag
      */
@@ -34,7 +34,7 @@ public class ATDCustomPersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'LNP' element value. ЛНП должностного лица таможенного органа
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ATDCustomPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'LNP' element value. Р›РќРџ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'LNP' element value. ЛНП должностного лица таможенного органа
      * 
      * @param LNP
      */
@@ -52,7 +52,7 @@ public class ATDCustomPersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'OfficialStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РїСЂРё РїСЂРѕРІРµРґРµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° 1 -  РїСЂРѕРІРµРґРµРЅРёРµ РґРѕСЃРјРѕС‚СЂР°, 2 - РїСЂРёСЃСѓС‚СЃС‚РІРѕРІР°Р»Рѕ РїСЂРё РґРѕСЃРјРѕС‚СЂРµ
+     * Get the 'OfficialStatus' element value. Статус должностного лица при проведении таможенного досмотра 1 -  проведение досмотра, 2 - присутствовало при досмотре
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ATDCustomPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'OfficialStatus' element value. РЎС‚Р°С‚СѓСЃ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РїСЂРё РїСЂРѕРІРµРґРµРЅРёРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕСЃРјРѕС‚СЂР° 1 -  РїСЂРѕРІРµРґРµРЅРёРµ РґРѕСЃРјРѕС‚СЂР°, 2 - РїСЂРёСЃСѓС‚СЃС‚РІРѕРІР°Р»Рѕ РїСЂРё РґРѕСЃРјРѕС‚СЂРµ
+     * Set the 'OfficialStatus' element value. Статус должностного лица при проведении таможенного досмотра 1 -  проведение досмотра, 2 - присутствовало при досмотре
      * 
      * @param officialStatus
      */
@@ -70,7 +70,7 @@ public class ATDCustomPersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'OTOFlag' element value. РўРёРї РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РµРіРѕ Р»РёС†Р°: 1 - РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РЅРµ СЏРІР»СЏСЋС‰РµРµСЃСЏ РґРѕР»Р¶РЅРѕСЃС‚РЅС‹Рј Р»РёС†РѕРј С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р° (РћРўРћРёРўРљ); 2- СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р° (РћРўРћРёРўРљ);
+     * Get the 'OTOFlag' element value. Тип присутствующего лица: 1 - должностное лицо, не являющееся должностным лицом таможенного поста (ОТОиТК); 2- уполномоченное должностное лицо таможенного поста (ОТОиТК);
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ATDCustomPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'OTOFlag' element value. РўРёРї РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РµРіРѕ Р»РёС†Р°: 1 - РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ, РЅРµ СЏРІР»СЏСЋС‰РµРµСЃСЏ РґРѕР»Р¶РЅРѕСЃС‚РЅС‹Рј Р»РёС†РѕРј С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р° (РћРўРћРёРўРљ); 2- СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРµ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р° (РћРўРћРёРўРљ);
+     * Set the 'OTOFlag' element value. Тип присутствующего лица: 1 - должностное лицо, не являющееся должностным лицом таможенного поста (ОТОиТК); 2- уполномоченное должностное лицо таможенного поста (ОТОиТК);
      * 
      * @param OTOFlag
      */
@@ -88,7 +88,7 @@ public class ATDCustomPersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'LawAct' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїСЂРёСЃСѓС‚СЃС‚РІРёСЏ РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј РґРѕСЃРјРѕС‚СЂРµ РґРѕР»Р¶РЅРѕСЃС‚РЅС‹С… Р»РёС†, РЅРµ СЏРІР»СЏСЋС‰РёС…СЃСЏ РґРѕР»Р¶РЅРѕСЃС‚РЅС‹РјРё Р»РёС†Р°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р° (РћРўРћРёРўРљ)
+     * Get the 'LawAct' element value. Основание для присутствия при таможенном досмотре должностных лиц, не являющихся должностными лицами таможенного поста (ОТОиТК)
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class ATDCustomPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'LawAct' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїСЂРёСЃСѓС‚СЃС‚РІРёСЏ РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј РґРѕСЃРјРѕС‚СЂРµ РґРѕР»Р¶РЅРѕСЃС‚РЅС‹С… Р»РёС†, РЅРµ СЏРІР»СЏСЋС‰РёС…СЃСЏ РґРѕР»Р¶РЅРѕСЃС‚РЅС‹РјРё Р»РёС†Р°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р° (РћРўРћРёРўРљ)
+     * Set the 'LawAct' element value. Основание для присутствия при таможенном досмотре должностных лиц, не являющихся должностными лицами таможенного поста (ОТОиТК)
      * 
      * @param lawAct
      */
@@ -106,7 +106,7 @@ public class ATDCustomPersonType extends PersonBaseType
     }
 
     /** 
-     * Get the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
+     * Get the 'RecordNumber' element value. Порядковый номер записи в таблице БД
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class ATDCustomPersonType extends PersonBaseType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
+     * Set the 'RecordNumber' element value. Порядковый номер записи в таблице БД
      * 
      * @param recordNumber
      */

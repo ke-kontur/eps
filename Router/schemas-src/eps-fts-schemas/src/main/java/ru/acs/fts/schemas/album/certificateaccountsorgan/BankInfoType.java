@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.certificateaccountsorgan;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * –°–≤–µ–¥–µ–Ω–∏—è –æ –±–∞–Ω–∫–µ
+ * —‚Â‰ÂÌËˇ Ó ·‡ÌÍÂ
  */
 public class BankInfoType extends OrganizationBaseType
 {
     private String BIC;
 
     /** 
-     * Get the 'BIC' element value. –ë–ò–ö
+     * Get the 'BIC' element value. ¡» 
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class BankInfoType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'BIC' element value. –ë–ò–ö
+     * Set the 'BIC' element value. ¡» 
      * 
      * @param BIC
      */

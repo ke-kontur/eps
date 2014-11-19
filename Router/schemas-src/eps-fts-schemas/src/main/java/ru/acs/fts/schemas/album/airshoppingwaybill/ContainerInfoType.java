@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.airshoppingwaybill;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂРµ
+ * Сведения о контейнере
  */
 public class ContainerInfoType
 {
@@ -11,7 +11,7 @@ public class ContainerInfoType
     private String numberSeal;
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'Number' element value. Номер контейнера
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'Number' element value. Номер контейнера
      * 
      * @param number
      */
@@ -29,7 +29,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Get the 'NumberLock' element value. РќРѕРјРµСЂ Р·Р°РјРєР° РЅР° РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Get the 'NumberLock' element value. Номер замка на контейнере
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Set the 'NumberLock' element value. РќРѕРјРµСЂ Р·Р°РјРєР° РЅР° РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Set the 'NumberLock' element value. Номер замка на контейнере
      * 
      * @param numberLock
      */
@@ -47,7 +47,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Get the 'NumberSeal' element value. РќРѕРјРµСЂ РїР»РѕРјР±С‹ РЅР° РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Get the 'NumberSeal' element value. Номер пломбы на контейнере
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ContainerInfoType
     }
 
     /** 
-     * Set the 'NumberSeal' element value. РќРѕРјРµСЂ РїР»РѕРјР±С‹ РЅР° РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Set the 'NumberSeal' element value. Номер пломбы на контейнере
      * 
      * @param numberSeal
      */

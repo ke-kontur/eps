@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Информация о товарах
  */
 public class ResultGoodsType
 {
@@ -14,7 +14,7 @@ public class ResultGoodsType
     private List<MarkUpType> goodsDescriptionMarkupList = new ArrayList<MarkUpType>();
 
     /** 
-     * Get the 'GoodsDescription' element value. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'GoodsDescription' element value. Текстовое описание товара
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ResultGoodsType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'GoodsDescription' element value. Текстовое описание товара
      * 
      * @param goodsDescription
      */
@@ -32,7 +32,7 @@ public class ResultGoodsType
     }
 
     /** 
-     * Get the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°
+     * Get the 'GoodsNumeric' element value. Порядковый номер декларируемого товара
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ResultGoodsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°
+     * Set the 'GoodsNumeric' element value. Порядковый номер декларируемого товара
      * 
      * @param goodsNumeric
      */
@@ -50,7 +50,7 @@ public class ResultGoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescriptionMarkup' element items. Р Р°Р·РјРµС‡РµРЅРЅРѕРµ С‚РµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescriptionMarkup' element items. Размеченное текстовое описание товара
      * 
      * @return list
      */
@@ -59,7 +59,7 @@ public class ResultGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescriptionMarkup' element items. Р Р°Р·РјРµС‡РµРЅРЅРѕРµ С‚РµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescriptionMarkup' element items. Размеченное текстовое описание товара
      * 
      * @param list
      */

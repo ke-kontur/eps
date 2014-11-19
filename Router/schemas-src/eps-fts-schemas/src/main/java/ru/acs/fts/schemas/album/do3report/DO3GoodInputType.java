@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WhGoodType;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР° РІ РіСЂР°С„Рµ РїСЂРёС…РѕРґ РїРѕ РѕС‚С‡РµС‚Сѓ Р”Рћ3
+ * Комплексный тип для описания товара в графе приход по отчету ДО3
  */
 public class DO3GoodInputType extends WhGoodType
 {
@@ -17,7 +17,7 @@ public class DO3GoodInputType extends WhGoodType
     private DO3DO1GoodLinkType DO1GoodLink;
 
     /** 
-     * Get the 'GoodsWHNumber' element value. РЎРєР»Р°РґСЃРєРѕР№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Get the 'GoodsWHNumber' element value. Складской номер товара
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class DO3GoodInputType extends WhGoodType
     }
 
     /** 
-     * Set the 'GoodsWHNumber' element value. РЎРєР»Р°РґСЃРєРѕР№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР°
+     * Set the 'GoodsWHNumber' element value. Складской номер товара
      * 
      * @param goodsWHNumber
      */
@@ -35,7 +35,7 @@ public class DO3GoodInputType extends WhGoodType
     }
 
     /** 
-     * Get the 'KeepingLimit' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСЂРѕРєРµ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'KeepingLimit' element value. Сведения о сроке хранения товара
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class DO3GoodInputType extends WhGoodType
     }
 
     /** 
-     * Set the 'KeepingLimit' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСЂРѕРєРµ С…СЂР°РЅРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'KeepingLimit' element value. Сведения о сроке хранения товара
      * 
      * @param keepingLimit
      */
@@ -53,7 +53,7 @@ public class DO3GoodInputType extends WhGoodType
     }
 
     /** 
-     * Get the 'TransportDocument' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'TransportDocument' element value. Транспортный документ
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class DO3GoodInputType extends WhGoodType
     }
 
     /** 
-     * Set the 'TransportDocument' element value. РўСЂР°РЅСЃРїРѕСЂС‚РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'TransportDocument' element value. Транспортный документ
      * 
      * @param transportDocument
      */
@@ -71,7 +71,7 @@ public class DO3GoodInputType extends WhGoodType
     }
 
     /** 
-     * Get the 'Recipient' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Recipient' element value. Получатель
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class DO3GoodInputType extends WhGoodType
     }
 
     /** 
-     * Set the 'Recipient' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Recipient' element value. Получатель
      * 
      * @param recipient
      */
@@ -89,7 +89,7 @@ public class DO3GoodInputType extends WhGoodType
     }
 
     /** 
-     * Get the 'DO1GoodLink' element value. РЈРєР°Р·Р°РЅРёРµ РЅР° С‚РѕРІР°СЂ РѕС‚С‡РµС‚Р° Р”Рћ1,РєРѕС‚РѕСЂС‹Р№ РїРѕРјРµС‰РµРЅ РЅР° СЃРєР»Р°Рґ
+     * Get the 'DO1GoodLink' element value. Указание на товар отчета ДО1,который помещен на склад
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class DO3GoodInputType extends WhGoodType
     }
 
     /** 
-     * Set the 'DO1GoodLink' element value. РЈРєР°Р·Р°РЅРёРµ РЅР° С‚РѕРІР°СЂ РѕС‚С‡РµС‚Р° Р”Рћ1,РєРѕС‚РѕСЂС‹Р№ РїРѕРјРµС‰РµРЅ РЅР° СЃРєР»Р°Рґ
+     * Set the 'DO1GoodLink' element value. Указание на товар отчета ДО1,который помещен на склад
      * 
      * @param DO1GoodLink
      */

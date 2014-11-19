@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.revealedrisks;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚С‹ РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ
+ * Результаты применения мер по минимизации рисков
  */
 public class ActionResultType
 {
@@ -19,7 +19,7 @@ public class ActionResultType
     private GTDIDType GTDIDNew;
 
     /** 
-     * Get the 'ActionResultCode' element value. РљРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р° РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР° (Р·РЅР°С‡РµРЅРёРµ СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј "Р РµР·СѓР»СЊС‚Р°С‚РѕРІ РїСЂРёРјРµРЅРµРЅРёСЏ РїСЂСЏРјС‹С… РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ")
+     * Get the 'ActionResultCode' element value. Код результата применения меры по минимизации риска (значение указывается в соответствии с классификатором "Результатов применения прямых мер по минимизации рисков")
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class ActionResultType
     }
 
     /** 
-     * Set the 'ActionResultCode' element value. РљРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р° РїСЂРёРјРµРЅРµРЅРёСЏ РјРµСЂС‹ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР° (Р·РЅР°С‡РµРЅРёРµ СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј "Р РµР·СѓР»СЊС‚Р°С‚РѕРІ РїСЂРёРјРµРЅРµРЅРёСЏ РїСЂСЏРјС‹С… РјРµСЂ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєРѕРІ")
+     * Set the 'ActionResultCode' element value. Код результата применения меры по минимизации риска (значение указывается в соответствии с классификатором "Результатов применения прямых мер по минимизации рисков")
      * 
      * @param actionResultCode
      */
@@ -37,7 +37,7 @@ public class ActionResultType
     }
 
     /** 
-     * Get the 'InspectedGoodsWeight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ РґРѕСЃРјРѕС‚СЂРµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ (Р РµР·РµСЂРІ)
+     * Get the 'InspectedGoodsWeight' element value. Вес нетто досмотренных товаров (Резерв)
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ActionResultType
     }
 
     /** 
-     * Set the 'InspectedGoodsWeight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ РґРѕСЃРјРѕС‚СЂРµРЅРЅС‹С… С‚РѕРІР°СЂРѕРІ (Р РµР·РµСЂРІ)
+     * Set the 'InspectedGoodsWeight' element value. Вес нетто досмотренных товаров (Резерв)
      * 
      * @param inspectedGoodsWeight
      */
@@ -55,7 +55,7 @@ public class ActionResultType
     }
 
     /** 
-     * Get the 'DelictGoodsWeight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ, СЏРІР»СЏСЋС‰РёС…СЃСЏ РѕР±СЉРµРєС‚РѕРј РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏ (Р РµР·РµСЂРІ)
+     * Get the 'DelictGoodsWeight' element value. Вес нетто товаров, являющихся объектом правонарушения (Резерв)
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ActionResultType
     }
 
     /** 
-     * Set the 'DelictGoodsWeight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ С‚РѕРІР°СЂРѕРІ, СЏРІР»СЏСЋС‰РёС…СЃСЏ РѕР±СЉРµРєС‚РѕРј РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏ (Р РµР·РµСЂРІ)
+     * Set the 'DelictGoodsWeight' element value. Вес нетто товаров, являющихся объектом правонарушения (Резерв)
      * 
      * @param delictGoodsWeight
      */
@@ -73,7 +73,7 @@ public class ActionResultType
     }
 
     /** 
-     * Get the 'ChangeTNVEDMargin' element value. Р Р°Р·РЅРѕСЃС‚СЊ РјРµР¶РґСѓ СЃСѓРјРјРѕР№ РїРѕРґР»РµР¶Р°С‰РёС… Рє СѓРїР»Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РґРѕ Рё РїРѕСЃР»Рµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёР№ (СЂСѓР±.)
+     * Get the 'ChangeTNVEDMargin' element value. Разность между суммой подлежащих к уплате таможенных платежей до и после принятия решений (руб.)
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class ActionResultType
     }
 
     /** 
-     * Set the 'ChangeTNVEDMargin' element value. Р Р°Р·РЅРѕСЃС‚СЊ РјРµР¶РґСѓ СЃСѓРјРјРѕР№ РїРѕРґР»РµР¶Р°С‰РёС… Рє СѓРїР»Р°С‚Рµ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїР»Р°С‚РµР¶РµР№ РґРѕ Рё РїРѕСЃР»Рµ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёР№ (СЂСѓР±.)
+     * Set the 'ChangeTNVEDMargin' element value. Разность между суммой подлежащих к уплате таможенных платежей до и после принятия решений (руб.)
      * 
      * @param changeTNVEDMargin
      */
@@ -91,7 +91,7 @@ public class ActionResultType
     }
 
     /** 
-     * Get the 'KTSMargin' element value. Р Р°Р·РЅРѕСЃС‚СЊ РјРµР¶РґСѓ РїСЂРёС‡РёС‚Р°СЋС‰РёРјРёСЃСЏ С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РїР»Р°С‚РµР¶Р°РјРё РґРѕ Рё РїРѕСЃР»Рµ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ (Р РµР·РµСЂРІ)
+     * Get the 'KTSMargin' element value. Разность между причитающимися таможенными платежами до и после корректировки таможенной стоимости товаров (Резерв)
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class ActionResultType
     }
 
     /** 
-     * Set the 'KTSMargin' element value. Р Р°Р·РЅРѕСЃС‚СЊ РјРµР¶РґСѓ РїСЂРёС‡РёС‚Р°СЋС‰РёРјРёСЃСЏ С‚Р°РјРѕР¶РµРЅРЅС‹РјРё РїР»Р°С‚РµР¶Р°РјРё РґРѕ Рё РїРѕСЃР»Рµ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ (Р РµР·РµСЂРІ)
+     * Set the 'KTSMargin' element value. Разность между причитающимися таможенными платежами до и после корректировки таможенной стоимости товаров (Резерв)
      * 
      * @param KTSMargin
      */
@@ -109,7 +109,7 @@ public class ActionResultType
     }
 
     /** 
-     * Get the 'NewGoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РІРЅРѕРІСЊ РїРѕРґР°РЅРЅРѕР№ Р”Рў
+     * Get the 'NewGoodsNumeric' element value. Номер товара по вновь поданной ДТ
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ActionResultType
     }
 
     /** 
-     * Set the 'NewGoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РІРЅРѕРІСЊ РїРѕРґР°РЅРЅРѕР№ Р”Рў
+     * Set the 'NewGoodsNumeric' element value. Номер товара по вновь поданной ДТ
      * 
      * @param newGoodsNumeric
      */
@@ -127,7 +127,7 @@ public class ActionResultType
     }
 
     /** 
-     * Get the 'KodeksPunkt' element value. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё РљРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅС‹С… РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏС… (РљРѕРђРџ Р РѕСЃСЃРёРё) РёР»Рё РЈРіРѕР»РѕРІРЅРѕРіРѕ РєРѕРґРµРєСЃР° Р РѕСЃСЃРёРё (РЈРљ Р РѕСЃСЃРёРё) 
+     * Get the 'KodeksPunkt' element value. Номер статьи Кодекса Российской Федерации об административных правонарушениях (КоАП России) или Уголовного кодекса России (УК России) 
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class ActionResultType
     }
 
     /** 
-     * Set the 'KodeksPunkt' element value. РќРѕРјРµСЂ СЃС‚Р°С‚СЊРё РљРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё РѕР± Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅС‹С… РїСЂР°РІРѕРЅР°СЂСѓС€РµРЅРёСЏС… (РљРѕРђРџ Р РѕСЃСЃРёРё) РёР»Рё РЈРіРѕР»РѕРІРЅРѕРіРѕ РєРѕРґРµРєСЃР° Р РѕСЃСЃРёРё (РЈРљ Р РѕСЃСЃРёРё) 
+     * Set the 'KodeksPunkt' element value. Номер статьи Кодекса Российской Федерации об административных правонарушениях (КоАП России) или Уголовного кодекса России (УК России) 
      * 
      * @param kodeksPunkt
      */
@@ -145,7 +145,7 @@ public class ActionResultType
     }
 
     /** 
-     * Get the 'KodeksPartPunkt' element value. РќРѕРјРµСЂ С‡Р°СЃС‚Рё СЃС‚Р°С‚СЊРё РљРѕРђРџ Р РѕСЃСЃРёРё РёР»Рё РЈРљ Р РѕСЃСЃРёРё
+     * Get the 'KodeksPartPunkt' element value. Номер части статьи КоАП России или УК России
      * 
      * @return value
      */
@@ -154,7 +154,7 @@ public class ActionResultType
     }
 
     /** 
-     * Set the 'KodeksPartPunkt' element value. РќРѕРјРµСЂ С‡Р°СЃС‚Рё СЃС‚Р°С‚СЊРё РљРѕРђРџ Р РѕСЃСЃРёРё РёР»Рё РЈРљ Р РѕСЃСЃРёРё
+     * Set the 'KodeksPartPunkt' element value. Номер части статьи КоАП России или УК России
      * 
      * @param kodeksPartPunkt
      */
@@ -163,7 +163,7 @@ public class ActionResultType
     }
 
     /** 
-     * Get the 'GTDIDNew' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РІРЅРѕРІСЊ РїРѕРґР°РЅРЅРѕР№ Р”Рў
+     * Get the 'GTDIDNew' element value. Регистрационный номер вновь поданной ДТ
      * 
      * @return value
      */
@@ -172,7 +172,7 @@ public class ActionResultType
     }
 
     /** 
-     * Set the 'GTDIDNew' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РІРЅРѕРІСЊ РїРѕРґР°РЅРЅРѕР№ Р”Рў
+     * Set the 'GTDIDNew' element value. Регистрационный номер вновь поданной ДТ
      * 
      * @param GTDIDNew
      */

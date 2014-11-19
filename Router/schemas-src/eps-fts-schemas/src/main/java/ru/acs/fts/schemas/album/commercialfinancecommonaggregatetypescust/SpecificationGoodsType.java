@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ РёР· СЃРїРµС†РёС„РёРєР°С†РёРё Рє РєРѕРЅС‚СЂР°РєС‚Сѓ
+ * Описание товаров из спецификации к контракту
  */
 public class SpecificationGoodsType
 {
@@ -22,7 +22,7 @@ public class SpecificationGoodsType
     private GoodsWeightType goodsWeight;
 
     /** 
-     * Get the 'GoodMarking' element value. РђСЂС‚РёРєСѓР» С‚РѕРІР°СЂР°
+     * Get the 'GoodMarking' element value. Артикул товара
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Set the 'GoodMarking' element value. РђСЂС‚РёРєСѓР» С‚РѕРІР°СЂР°
+     * Set the 'GoodMarking' element value. Артикул товара
      * 
      * @param goodMarking
      */
@@ -40,7 +40,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С‚РµРєСЃС‚РѕРІРѕРµ
+     * Get the list of 'GoodsDescription' element items. Описание товара текстовое
      * 
      * @return list
      */
@@ -49,7 +49,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° С‚РµРєСЃС‚РѕРІРѕРµ
+     * Set the list of 'GoodsDescription' element items. Описание товара текстовое
      * 
      * @param list
      */
@@ -58,7 +58,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'GoodsQuantity' element value. Количество товара в единицах измерения
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'GoodsQuantity' element value. Количество товара в единицах измерения
      * 
      * @param goodsQuantity
      */
@@ -76,7 +76,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'MeasureUnitQualifierCode' element value. Код единицы измерения
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'MeasureUnitQualifierCode' element value. Код единицы измерения
      * 
      * @param measureUnitQualifierCode
      */
@@ -94,7 +94,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierName' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'MeasureUnitQualifierName' element value. Название единицы измерения
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierName' element value. РќР°Р·РІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'MeasureUnitQualifierName' element value. Название единицы измерения
      * 
      * @param measureUnitQualifierName
      */
@@ -112,7 +112,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Get the 'Price' element value. Р¦РµРЅР° С‚РѕРІР°СЂР°
+     * Get the 'Price' element value. Цена товара
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Set the 'Price' element value. Р¦РµРЅР° С‚РѕРІР°СЂР°
+     * Set the 'Price' element value. Цена товара
      * 
      * @param price
      */
@@ -130,7 +130,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Get the 'GCost' element value. CС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
+     * Get the 'GCost' element value. Cтоимость товара
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Set the 'GCost' element value. CС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°
+     * Set the 'GCost' element value. Cтоимость товара
      * 
      * @param GCost
      */
@@ -148,7 +148,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -166,7 +166,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р° (С†РµРЅС‹)
+     * Get the 'CurrencyCode' element value. Код валюты контракта (цены)
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІР°Р»СЋС‚С‹ РєРѕРЅС‚СЂР°РєС‚Р° (С†РµРЅС‹)
+     * Set the 'CurrencyCode' element value. Код валюты контракта (цены)
      * 
      * @param currencyCode
      */
@@ -184,7 +184,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Get the 'GoodsPlace' element value. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Get the 'GoodsPlace' element value. Описание грузовых мест
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Set the 'GoodsPlace' element value. РћРїРёСЃР°РЅРёРµ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚
+     * Set the 'GoodsPlace' element value. Описание грузовых мест
      * 
      * @param goodsPlace
      */
@@ -202,7 +202,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Get the 'GoodsWeight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ,Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂР° РІ РєРі.
+     * Get the 'GoodsWeight' element value. Вес нетто,брутто товара в кг.
      * 
      * @return value
      */
@@ -211,7 +211,7 @@ public class SpecificationGoodsType
     }
 
     /** 
-     * Set the 'GoodsWeight' element value. Р’РµСЃ РЅРµС‚С‚Рѕ,Р±СЂСѓС‚С‚Рѕ С‚РѕРІР°СЂР° РІ РєРі.
+     * Set the 'GoodsWeight' element value. Вес нетто,брутто товара в кг.
      * 
      * @param goodsWeight
      */

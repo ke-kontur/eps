@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * РЈСЃР»РѕРІРёРµ РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ
+ * Условие поставки товаров
  */
 public class DeliveryTermsType
 {
@@ -12,7 +12,7 @@ public class DeliveryTermsType
     private String transferPlace;
 
     /** 
-     * Get the 'DeliveryPlace' element value. РћРїРёСЃР°РЅРёРµ / РќР°Р·РІР°РЅРёРµ РіРµРѕРіСЂР°С„РёС‡РµСЃРєРѕРіРѕ РїСѓРЅРєС‚Р°
+     * Get the 'DeliveryPlace' element value. Описание / Название географического пункта
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DeliveryTermsType
     }
 
     /** 
-     * Set the 'DeliveryPlace' element value. РћРїРёСЃР°РЅРёРµ / РќР°Р·РІР°РЅРёРµ РіРµРѕРіСЂР°С„РёС‡РµСЃРєРѕРіРѕ РїСѓРЅРєС‚Р°
+     * Set the 'DeliveryPlace' element value. Описание / Название географического пункта
      * 
      * @param deliveryPlace
      */
@@ -30,7 +30,7 @@ public class DeliveryTermsType
     }
 
     /** 
-     * Get the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё
+     * Get the 'DeliveryTermsStringCode' element value. Код условий поставки в соответствии с классификатором условий поставки
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DeliveryTermsType
     }
 
     /** 
-     * Set the 'DeliveryTermsStringCode' element value. РљРѕРґ СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СѓСЃР»РѕРІРёР№ РїРѕСЃС‚Р°РІРєРё
+     * Set the 'DeliveryTermsStringCode' element value. Код условий поставки в соответствии с классификатором условий поставки
      * 
      * @param deliveryTermsStringCode
      */
@@ -48,7 +48,7 @@ public class DeliveryTermsType
     }
 
     /** 
-     * Get the 'DeliveryTermsRBCode' element value. РљРѕРґ РІРёРґР° РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РїРѕСЃС‚Р°РІРѕРє С‚РѕРІР°СЂРѕРІ, РїРѕРґР»РµР¶Р°С‰РёС… СѓС‡РµС‚Сѓ РїСЂРё РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёРё СЌРєСЃРїРѕСЂС‚РЅС‹С… РѕРїРµСЂР°С†РёР№, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ
+     * Get the 'DeliveryTermsRBCode' element value. Код вида поставки товаров в соответствии с классификатором видов поставок товаров, подлежащих учету при осуществлении экспортных операций, применяемым в Республике Беларусь
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class DeliveryTermsType
     }
 
     /** 
-     * Set the 'DeliveryTermsRBCode' element value. РљРѕРґ РІРёРґР° РїРѕСЃС‚Р°РІРєРё С‚РѕРІР°СЂРѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РїРѕСЃС‚Р°РІРѕРє С‚РѕРІР°СЂРѕРІ, РїРѕРґР»РµР¶Р°С‰РёС… СѓС‡РµС‚Сѓ РїСЂРё РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёРё СЌРєСЃРїРѕСЂС‚РЅС‹С… РѕРїРµСЂР°С†РёР№, РїСЂРёРјРµРЅСЏРµРјС‹Рј РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ
+     * Set the 'DeliveryTermsRBCode' element value. Код вида поставки товаров в соответствии с классификатором видов поставок товаров, подлежащих учету при осуществлении экспортных операций, применяемым в Республике Беларусь
      * 
      * @param deliveryTermsRBCode
      */
@@ -66,7 +66,7 @@ public class DeliveryTermsType
     }
 
     /** 
-     * Get the 'TransferPlace' element value. РњРµСЃС‚Рѕ РїРµСЂРµРґР°С‡Рё С‚РѕРІР°СЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃР»РѕРІРёСЏРјРё РґРѕРіРѕРІРѕСЂР° (РєРѕРЅС‚СЂР°РєС‚Р°)
+     * Get the 'TransferPlace' element value. Место передачи товара в соответствии с условиями договора (контракта)
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class DeliveryTermsType
     }
 
     /** 
-     * Set the 'TransferPlace' element value. РњРµСЃС‚Рѕ РїРµСЂРµРґР°С‡Рё С‚РѕРІР°СЂР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СѓСЃР»РѕРІРёСЏРјРё РґРѕРіРѕРІРѕСЂР° (РєРѕРЅС‚СЂР°РєС‚Р°)
+     * Set the 'TransferPlace' element value. Место передачи товара в соответствии с условиями договора (контракта)
      * 
      * @param transferPlace
      */

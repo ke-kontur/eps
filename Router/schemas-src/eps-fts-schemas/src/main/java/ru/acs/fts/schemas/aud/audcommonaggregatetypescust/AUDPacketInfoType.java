@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°РєРµС‚Рµ Р°СЂС…РёРІР° (Р±РµР· РёРЅС„РѕСЂРјР°С†РёРё Рѕ РґРѕРєСѓРјРµРЅС‚Р°С… РїР°РєРµС‚Р°).
+ * Информация о пакете архива (без информации о документах пакета).
  */
 public class AUDPacketInfoType extends AUDArchivePacketInfoType
 {
     private AUDAppliedPacketInfoType appliedPacketInfo;
 
     /** 
-     * Get the 'AppliedPacketInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°РєРµС‚Рµ Р°СЂС…РёРІР°, СѓРєР°Р·Р°РЅРЅР°СЏ РїСЂРёРєР»Р°РґРЅРѕР№ СЃРёСЃС‚РµРјРѕР№.
+     * Get the 'AppliedPacketInfo' element value. Информация о пакете архива, указанная прикладной системой.
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class AUDPacketInfoType extends AUDArchivePacketInfoType
     }
 
     /** 
-     * Set the 'AppliedPacketInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР°РєРµС‚Рµ Р°СЂС…РёРІР°, СѓРєР°Р·Р°РЅРЅР°СЏ РїСЂРёРєР»Р°РґРЅРѕР№ СЃРёСЃС‚РµРјРѕР№.
+     * Set the 'AppliedPacketInfo' element value. Информация о пакете архива, указанная прикладной системой.
      * 
      * @param appliedPacketInfo
      */

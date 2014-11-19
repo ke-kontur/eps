@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°РЅРёСЂСѓРµРјС‹С… РїРµСЂРµРіСЂСѓР·РєР°С… С‚РѕРІР°СЂРѕРІ РёР»Рё РёРЅС‹С… РіСЂСѓР·РѕРІС‹С… РѕРїРµСЂР°С†РёСЏС… РІ РїСѓС‚Рё
+ * Информация о планируемых перегрузках товаров или иных грузовых операциях в пути
  */
 public class ReloadingInfoType
 {
@@ -18,7 +18,7 @@ public class ReloadingInfoType
     private List<TransportMeansType> reloadTransportMeanList = new ArrayList<TransportMeansType>();
 
     /** 
-     * Get the 'ReloadCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'ReloadCountryCode' element value. Код страны перегрузки товаров
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Set the 'ReloadCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'ReloadCountryCode' element value. Код страны перегрузки товаров
      * 
      * @param reloadCountryCode
      */
@@ -36,7 +36,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Get the 'ReloadCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂР°
+     * Get the 'ReloadCountryName' element value. Наименование страны перегрузки товара
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Set the 'ReloadCountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂР°
+     * Set the 'ReloadCountryName' element value. Наименование страны перегрузки товара
      * 
      * @param reloadCountryName
      */
@@ -54,7 +54,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Get the 'ReloadCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'ReloadCustomsCode' element value. Код таможенного органа перегрузки товаров
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Set the 'ReloadCustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'ReloadCustomsCode' element value. Код таможенного органа перегрузки товаров
      * 
      * @param reloadCustomsCode
      */
@@ -72,7 +72,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Get the 'ReloadCustomsName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'ReloadCustomsName' element value. Наименование таможенного органа перегрузки товаров
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Set the 'ReloadCustomsName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РїРµСЂРµРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'ReloadCustomsName' element value. Наименование таможенного органа перегрузки товаров
      * 
      * @param reloadCustomsName
      */
@@ -90,7 +90,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Get the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє
+     * Get the 'ContainerIndicator' element value. Признак контейнерных перевозок
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Set the 'ContainerIndicator' element value. РџСЂРёР·РЅР°Рє РєРѕРЅС‚РµР№РЅРµСЂРЅС‹С… РїРµСЂРµРІРѕР·РѕРє
+     * Set the 'ContainerIndicator' element value. Признак контейнерных перевозок
      * 
      * @param containerIndicator
      */
@@ -108,7 +108,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Get the list of 'ContainerID' element items. РќРѕРјРµСЂ РЅРѕРІРѕРіРѕ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the list of 'ContainerID' element items. Номер нового контейнера
      * 
      * @return list
      */
@@ -117,7 +117,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Set the list of 'ContainerID' element items. РќРѕРјРµСЂ РЅРѕРІРѕРіРѕ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the list of 'ContainerID' element items. Номер нового контейнера
      * 
      * @param list
      */
@@ -126,7 +126,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Get the list of 'ReloadTransportMeans' element items. РќРѕРІРѕРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+     * Get the list of 'ReloadTransportMeans' element items. Новое транспортное средство
      * 
      * @return list
      */
@@ -135,7 +135,7 @@ public class ReloadingInfoType
     }
 
     /** 
-     * Set the list of 'ReloadTransportMeans' element items. РќРѕРІРѕРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+     * Set the list of 'ReloadTransportMeans' element items. Новое транспортное средство
      * 
      * @param list
      */

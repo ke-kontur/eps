@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РџРѕР»СѓС‡Р°С‚РµР»СЊ
+ * Получатель
  */
 public class ConsigneeType extends OrganizationBaseType
 {
@@ -15,7 +15,7 @@ public class ConsigneeType extends OrganizationBaseType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'SertificateNumberOEZ' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ СЂРµРіРёСЃС‚СЂР°С†РёСЋ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЂРµР·РёРґРµРЅС‚Р° РћР­Р—
+     * Get the 'SertificateNumberOEZ' element value. Номер свидетельства, удостоверяющего регистрацию лица в качестве резидента ОЭЗ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class ConsigneeType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'SertificateNumberOEZ' element value. РќРѕРјРµСЂ СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ СЂРµРіРёСЃС‚СЂР°С†РёСЋ Р»РёС†Р° РІ РєР°С‡РµСЃС‚РІРµ СЂРµР·РёРґРµРЅС‚Р° РћР­Р—
+     * Set the 'SertificateNumberOEZ' element value. Номер свидетельства, удостоверяющего регистрацию лица в качестве резидента ОЭЗ
      * 
      * @param sertificateNumberOEZ
      */
@@ -33,7 +33,7 @@ public class ConsigneeType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'Address' element value. Адрес организации / физического лица
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ConsigneeType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё / С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'Address' element value. Адрес организации / физического лица
      * 
      * @param address
      */
@@ -51,7 +51,7 @@ public class ConsigneeType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class ConsigneeType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность
      * 
      * @param identityCard
      */

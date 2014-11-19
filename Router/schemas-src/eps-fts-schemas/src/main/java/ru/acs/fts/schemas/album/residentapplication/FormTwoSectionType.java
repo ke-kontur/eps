@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р Р°Р·РґРµР» РІ С„РѕСЂРјРµ в„–2 
+ * Раздел в форме №2 
  */
 public class FormTwoSectionType
 {
@@ -15,7 +15,7 @@ public class FormTwoSectionType
     private List<ProductOfRecyclingType> wasteProductList = new ArrayList<ProductOfRecyclingType>();
 
     /** 
-     * Get the 'Name' element value. РќР°Р·РІР°РЅРёРµ СЂР°Р·РґРµР»Р° 
+     * Get the 'Name' element value. Название раздела 
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class FormTwoSectionType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°Р·РІР°РЅРёРµ СЂР°Р·РґРµР»Р° 
+     * Set the 'Name' element value. Название раздела 
      * 
      * @param name
      */
@@ -33,7 +33,7 @@ public class FormTwoSectionType
     }
 
     /** 
-     * Get the list of 'ProductForRecycling' element items. РўРѕРІР°СЂ РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Get the list of 'ProductForRecycling' element items. Товар для переработки
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class FormTwoSectionType
     }
 
     /** 
-     * Set the list of 'ProductForRecycling' element items. РўРѕРІР°СЂ РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё
+     * Set the list of 'ProductForRecycling' element items. Товар для переработки
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class FormTwoSectionType
     }
 
     /** 
-     * Get the list of 'ProductOfRecycling' element items. РџСЂРѕРґСѓРєС‚ РїРµСЂРµСЂР°Р±РѕС‚РєРё 
+     * Get the list of 'ProductOfRecycling' element items. Продукт переработки 
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class FormTwoSectionType
     }
 
     /** 
-     * Set the list of 'ProductOfRecycling' element items. РџСЂРѕРґСѓРєС‚ РїРµСЂРµСЂР°Р±РѕС‚РєРё 
+     * Set the list of 'ProductOfRecycling' element items. Продукт переработки 
      * 
      * @param list
      */
@@ -69,7 +69,7 @@ public class FormTwoSectionType
     }
 
     /** 
-     * Get the list of 'WasteProduct' element items. РћС‚С…РѕРґС‹ 
+     * Get the list of 'WasteProduct' element items. Отходы 
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class FormTwoSectionType
     }
 
     /** 
-     * Set the list of 'WasteProduct' element items. РћС‚С…РѕРґС‹ 
+     * Set the list of 'WasteProduct' element items. Отходы 
      * 
      * @param list
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.admin.int_dtrequest;
 import org.joda.time.LocalDate;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°.
+ * Регистрационный номер таможенного документа.
  */
 public class GTDIDType
 {
@@ -13,7 +13,7 @@ public class GTDIDType
     private String GTDNumber;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚.
+     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class GTDIDType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚.
+     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ.
      * 
      * @param customsCode
      */
@@ -31,7 +31,7 @@ public class GTDIDType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'RegistrationDate' element value. Дата регистрации документа.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class GTDIDType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'RegistrationDate' element value. Дата регистрации документа.
      * 
      * @param registrationDate
      */
@@ -49,7 +49,7 @@ public class GTDIDType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё.
+     * Get the 'GTDNumber' element value. Порядковый номер документа по журналу регистрации.
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class GTDIDType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ Р¶СѓСЂРЅР°Р»Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё.
+     * Set the 'GTDNumber' element value. Порядковый номер документа по журналу регистрации.
      * 
      * @param GTDNumber
      */

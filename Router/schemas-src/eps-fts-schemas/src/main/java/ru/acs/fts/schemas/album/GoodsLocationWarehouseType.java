@@ -6,7 +6,7 @@ package ru.acs.fts.schemas.album;
  * <pre>
  * &lt;xs:complexType xmlns:ns="urn:customs.ru:Information:CustomsDocuments:InfoDT:5.4.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" name="GoodsLocationWarehouseType">
  *   &lt;xs:sequence>
- *     &lt;xs:element name="Ñ€Ð¿Ñ€Ñ€"/>
+ *     &lt;xs:element name="ðïðð"/>
  *   &lt;/xs:sequence>
  * &lt;/xs:complexType>
  * </pre>

@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Р РµС€РµРЅРёРµ РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+ * Решение по таможенной стоимости
  */
 public class TSDecisionType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class TSDecisionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DecisionIndicator' element value. РџСЂРёР·РЅР°Рє РїСЂРёРЅСЏС‚РёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the 'DecisionIndicator' element value. Признак принятия таможенной стоимости
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class TSDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionIndicator' element value. РџСЂРёР·РЅР°Рє РїСЂРёРЅСЏС‚РёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the 'DecisionIndicator' element value. Признак принятия таможенной стоимости
      * 
      * @param decisionIndicator
      */
@@ -34,7 +34,7 @@ public class TSDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionText' element value. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ СЂРµС€РµРЅРёСЏ РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the 'DecisionText' element value. Текстовое описание решения по таможенной стоимости
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class TSDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionText' element value. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ СЂРµС€РµРЅРёСЏ РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the 'DecisionText' element value. Текстовое описание решения по таможенной стоимости
      * 
      * @param decisionText
      */
@@ -52,7 +52,7 @@ public class TSDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DecisionDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the 'DecisionDateTime' element value. Дата и время принятия решения по таможенной стоимости
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class TSDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the 'DecisionDateTime' element value. Дата и время принятия решения по таможенной стоимости
      * 
      * @param decisionDateTime
      */
@@ -70,7 +70,7 @@ public class TSDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РїСЂРёРЅСЏРІС€РµРіРѕ СЂРµС€РµРЅРёРµ РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа, принявшего решение по таможенной стоимости
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class TSDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, РїСЂРёРЅСЏРІС€РµРіРѕ СЂРµС€РµРЅРёРµ РїРѕ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа, принявшего решение по таможенной стоимости
      * 
      * @param customsPerson
      */
@@ -88,7 +88,7 @@ public class TSDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class TSDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

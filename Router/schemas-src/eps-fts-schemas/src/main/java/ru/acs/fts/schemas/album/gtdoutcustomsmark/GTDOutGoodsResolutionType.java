@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё Рё РїСЂРёРЅСЏС‚С‹Рµ СЂРµС€РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂР°Рј.
+ * Служебные отметки и принятые решения по товарам.
  */
 public class GTDOutGoodsResolutionType
 {
@@ -15,7 +15,7 @@ public class GTDOutGoodsResolutionType
     private CustCostMethodType custCostMethod;
 
     /** 
-     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Get the 'GoodsNumeric' element value. Номер товара по ДТ
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class GTDOutGoodsResolutionType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Set the 'GoodsNumeric' element value. Номер товара по ДТ
      * 
      * @param goodsNumeric
      */
@@ -33,7 +33,7 @@ public class GTDOutGoodsResolutionType
     }
 
     /** 
-     * Get the list of 'GTDOutGoodsResult' element items. РџСЂРёРЅСЏС‚С‹Рµ СЂРµС€РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂР°Рј
+     * Get the list of 'GTDOutGoodsResult' element items. Принятые решения по товарам
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class GTDOutGoodsResolutionType
     }
 
     /** 
-     * Set the list of 'GTDOutGoodsResult' element items. РџСЂРёРЅСЏС‚С‹Рµ СЂРµС€РµРЅРёСЏ РїРѕ С‚РѕРІР°СЂР°Рј
+     * Set the list of 'GTDOutGoodsResult' element items. Принятые решения по товарам
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class GTDOutGoodsResolutionType
     }
 
     /** 
-     * Get the list of 'GTDOutGoodsMark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј.
+     * Get the list of 'GTDOutGoodsMark' element items. Служебные отметки по товарам.
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class GTDOutGoodsResolutionType
     }
 
     /** 
-     * Set the list of 'GTDOutGoodsMark' element items. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂР°Рј.
+     * Set the list of 'GTDOutGoodsMark' element items. Служебные отметки по товарам.
      * 
      * @param list
      */
@@ -69,7 +69,7 @@ public class GTDOutGoodsResolutionType
     }
 
     /** 
-     * Get the 'CustCostMethod' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё Рё РјРµС‚РѕРґ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё (РіСЂ. 43 Р”Рў) 
+     * Get the 'CustCostMethod' element value. Признак корректировки и метод определения таможенной стоимости (гр. 43 ДТ) 
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class GTDOutGoodsResolutionType
     }
 
     /** 
-     * Set the 'CustCostMethod' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё Рё РјРµС‚РѕРґ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё (РіСЂ. 43 Р”Рў) 
+     * Set the 'CustCostMethod' element value. Признак корректировки и метод определения таможенной стоимости (гр. 43 ДТ) 
      * 
      * @param custCostMethod
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р’Р·Р°РёРјРѕСЃРІСЏР·СЊ РјРµР¶РґСѓ РїРѕРєСѓРїР°С‚РµР»РµРј Рё РїСЂРѕРґР°РІС†РѕРј. РіСЂ.7
+ * Взаимосвязь между покупателем и продавцом. гр.7
  */
 public class DTSBuyerSellerDependenceType
 {
@@ -15,7 +15,7 @@ public class DTSBuyerSellerDependenceType
     private List<String> column7CDescriptionList = new ArrayList<String>();
 
     /** 
-     * Get the 'Column7A' element value. Р“СЂР°С„Р° 7Р°
+     * Get the 'Column7A' element value. Графа 7а
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class DTSBuyerSellerDependenceType
     }
 
     /** 
-     * Set the 'Column7A' element value. Р“СЂР°С„Р° 7Р°
+     * Set the 'Column7A' element value. Графа 7а
      * 
      * @param column7A
      */
@@ -33,7 +33,7 @@ public class DTSBuyerSellerDependenceType
     }
 
     /** 
-     * Get the 'Column7B' element value. Р“СЂР°С„Р° 7Р±
+     * Get the 'Column7B' element value. Графа 7б
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class DTSBuyerSellerDependenceType
     }
 
     /** 
-     * Set the 'Column7B' element value. Р“СЂР°С„Р° 7Р±
+     * Set the 'Column7B' element value. Графа 7б
      * 
      * @param column7B
      */
@@ -51,7 +51,7 @@ public class DTSBuyerSellerDependenceType
     }
 
     /** 
-     * Get the 'Column7C' element value. Р“СЂР°С„Р° 7РІ
+     * Get the 'Column7C' element value. Графа 7в
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class DTSBuyerSellerDependenceType
     }
 
     /** 
-     * Set the 'Column7C' element value. Р“СЂР°С„Р° 7РІ
+     * Set the 'Column7C' element value. Графа 7в
      * 
      * @param column7C
      */
@@ -69,7 +69,7 @@ public class DTSBuyerSellerDependenceType
     }
 
     /** 
-     * Get the list of 'Column7CDescription' element items. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё СЃС‚РѕРёРјРѕСЃС‚СЊ СЃРґРµР»РєРё Р±Р»РёР·РєР° Рє РІРѕР·РјРѕР¶РЅС‹Рј РїСЂРѕРІРµСЂРѕС‡РЅС‹Рј РІРµР»РёС‡РёРЅР°Рј. РіСЂ. 7РІ - РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё
+     * Get the list of 'Column7CDescription' element items. Подробности в случае, если стоимость сделки близка к возможным проверочным величинам. гр. 7в - подробности
      * 
      * @return list
      */
@@ -78,7 +78,7 @@ public class DTSBuyerSellerDependenceType
     }
 
     /** 
-     * Set the list of 'Column7CDescription' element items. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РІ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё СЃС‚РѕРёРјРѕСЃС‚СЊ СЃРґРµР»РєРё Р±Р»РёР·РєР° Рє РІРѕР·РјРѕР¶РЅС‹Рј РїСЂРѕРІРµСЂРѕС‡РЅС‹Рј РІРµР»РёС‡РёРЅР°Рј. РіСЂ. 7РІ - РїРѕРґСЂРѕР±РЅРѕСЃС‚Рё
+     * Set the list of 'Column7CDescription' element items. Подробности в случае, если стоимость сделки близка к возможным проверочным величинам. гр. 7в - подробности
      * 
      * @param list
      */

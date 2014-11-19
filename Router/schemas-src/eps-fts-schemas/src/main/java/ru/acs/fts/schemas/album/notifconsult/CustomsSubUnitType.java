@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.notifconsult;
 
 /** 
- * РЎС‚СЂСѓРєС‚СѓСЂРЅРѕРµ РїРѕРґСЂР°Р·РґРµР»РµРЅРёРµ С‚Р°РјРѕР¶РЅРё
+ * Структурное подразделение таможни
  */
 public class CustomsSubUnitType
 {
@@ -10,7 +10,7 @@ public class CustomsSubUnitType
     private String action;
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РЅРё
+     * Get the 'Name' element value. Наименование структурного подразделения таможни
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CustomsSubUnitType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РЅРё
+     * Set the 'Name' element value. Наименование структурного подразделения таможни
      * 
      * @param name
      */
@@ -28,7 +28,7 @@ public class CustomsSubUnitType
     }
 
     /** 
-     * Get the 'Action' element value. РљРѕРґ РґРµР№СЃС‚РІРёСЏ СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ: "0" - СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ, "1" - РїСЂРёРЅСЏС‚РёРµ СЂРµС€РµРЅРёСЏ
+     * Get the 'Action' element value. Код действия структурного подразделения: "0" - согласование, "1" - принятие решения
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CustomsSubUnitType
     }
 
     /** 
-     * Set the 'Action' element value. РљРѕРґ РґРµР№СЃС‚РІРёСЏ СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ: "0" - СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ, "1" - РїСЂРёРЅСЏС‚РёРµ СЂРµС€РµРЅРёСЏ
+     * Set the 'Action' element value. Код действия структурного подразделения: "0" - согласование, "1" - принятие решения
      * 
      * @param action
      */

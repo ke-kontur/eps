@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADContractListType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsType
 {
@@ -14,7 +14,7 @@ public class GoodsType
     private List<ESADContractListType> contractList = new ArrayList<ESADContractListType>();
 
     /** 
-     * Get the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ  С‚РѕРІР°СЂР° / РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ СЃРїРёСЃРєСѓ
+     * Get the 'GoodsNumeric' element value. Порядковый номер декларируемого  товара / номер товара по списку
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ  С‚РѕРІР°СЂР° / РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ СЃРїРёСЃРєСѓ
+     * Set the 'GoodsNumeric' element value. Порядковый номер декларируемого  товара / номер товара по списку
      * 
      * @param goodsNumeric
      */
@@ -32,7 +32,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'ContractList' element items. РЎРІРµРґРµРЅРёСЏ РїРѕ РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІС‹Рј РєРѕРЅС‚СЂР°РєС‚Р°Рј. 
+     * Get the list of 'ContractList' element items. Сведения по внешнеторговым контрактам. 
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'ContractList' element items. РЎРІРµРґРµРЅРёСЏ РїРѕ РІРЅРµС€РЅРµС‚РѕСЂРіРѕРІС‹Рј РєРѕРЅС‚СЂР°РєС‚Р°Рј. 
+     * Set the list of 'ContractList' element items. Сведения по внешнеторговым контрактам. 
      * 
      * @param list
      */

@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ С‡Р»РµРЅРѕРІ СЌРєРёРїР°Р¶Р°
+ * Реквизиты членов экипажа
  */
 public class CockpitPersonnelType extends PersonBaseType
 {
@@ -17,7 +17,7 @@ public class CockpitPersonnelType extends PersonBaseType
     private IdentityCardType document;
 
     /** 
-     * Get the 'PersNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ (1- РЅРѕРјРµСЂ РєР°РїРёС‚Р°РЅР°)
+     * Get the 'PersNumeric' element value. Порядковый номер (1- номер капитана)
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class CockpitPersonnelType extends PersonBaseType
     }
 
     /** 
-     * Set the 'PersNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ (1- РЅРѕРјРµСЂ РєР°РїРёС‚Р°РЅР°)
+     * Set the 'PersNumeric' element value. Порядковый номер (1- номер капитана)
      * 
      * @param persNumeric
      */
@@ -35,7 +35,7 @@ public class CockpitPersonnelType extends PersonBaseType
     }
 
     /** 
-     * Get the 'Nationality' element value. Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ (Р°Р»СЊС„Р° РєРѕРґ СЃС‚СЂР°РЅС‹)
+     * Get the 'Nationality' element value. Гражданство (альфа код страны)
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class CockpitPersonnelType extends PersonBaseType
     }
 
     /** 
-     * Set the 'Nationality' element value. Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ (Р°Р»СЊС„Р° РєРѕРґ СЃС‚СЂР°РЅС‹)
+     * Set the 'Nationality' element value. Гражданство (альфа код страны)
      * 
      * @param nationality
      */
@@ -53,7 +53,7 @@ public class CockpitPersonnelType extends PersonBaseType
     }
 
     /** 
-     * Get the 'BirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
+     * Get the 'BirthPlace' element value. Место рождения
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class CockpitPersonnelType extends PersonBaseType
     }
 
     /** 
-     * Set the 'BirthPlace' element value. РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ
+     * Set the 'BirthPlace' element value. Место рождения
      * 
      * @param birthPlace
      */
@@ -71,7 +71,7 @@ public class CockpitPersonnelType extends PersonBaseType
     }
 
     /** 
-     * Get the 'DateofBirth' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
+     * Get the 'DateofBirth' element value. Дата рождения
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class CockpitPersonnelType extends PersonBaseType
     }
 
     /** 
-     * Set the 'DateofBirth' element value. Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
+     * Set the 'DateofBirth' element value. Дата рождения
      * 
      * @param dateofBirth
      */
@@ -89,7 +89,7 @@ public class CockpitPersonnelType extends PersonBaseType
     }
 
     /** 
-     * Get the 'Document' element value. Р’РёРґ Рё РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ С‡Р»РµРЅР° СЌРєРёРїР°Р¶Р°
+     * Get the 'Document' element value. Вид и номер документа, удостоверяющего личность члена экипажа
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class CockpitPersonnelType extends PersonBaseType
     }
 
     /** 
-     * Set the 'Document' element value. Р’РёРґ Рё РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµРіРѕ Р»РёС‡РЅРѕСЃС‚СЊ С‡Р»РµРЅР° СЌРєРёРїР°Р¶Р°
+     * Set the 'Document' element value. Вид и номер документа, удостоверяющего личность члена экипажа
      * 
      * @param document
      */

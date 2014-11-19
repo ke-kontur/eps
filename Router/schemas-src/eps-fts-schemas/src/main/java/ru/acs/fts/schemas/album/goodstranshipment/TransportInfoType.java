@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.goodstranshipment;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РќРѕРІРѕРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ РїСЂРё РѕС‚РїСЂР°РІР»РµРЅРёРё
+ * Новое транспортное средство при отправлении
  */
 public class TransportInfoType extends TransportMeansBaseType
 {
     private String mode;
 
     /** 
-     * Get the 'Mode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'Mode' element value. Код вида транспортного средства
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class TransportInfoType extends TransportMeansBaseType
     }
 
     /** 
-     * Set the 'Mode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'Mode' element value. Код вида транспортного средства
      * 
      * @param mode
      */

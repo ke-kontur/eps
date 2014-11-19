@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїРѕР»СѓС‡РµРЅРёРё Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рµ Р”Рў РІ С‚Р°РјРѕР¶РµРЅРЅС‹Р№  РѕСЂРіР°РЅ
+ * Уведомление о получении ДТ/Обязательства о подаче ДТ в таможенный  орган
  */
 public class NotifConfirmDTType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class NotifConfirmDTType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocRecieptTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїРѕРґР°С‡Рё РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СЃРёСЃС‚РµРјРµ РўРћ
+     * Get the 'DocRecieptTime' element value. Дата/время подачи документов в системе ТО
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class NotifConfirmDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocRecieptTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РїРѕРґР°С‡Рё РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СЃРёСЃС‚РµРјРµ РўРћ
+     * Set the 'DocRecieptTime' element value. Дата/время подачи документов в системе ТО
      * 
      * @param docRecieptTime
      */
@@ -33,7 +33,7 @@ public class NotifConfirmDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'ObligationDeadline' element value. РџСЂРµРґРµР»СЊРЅР°СЏ РґР°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РїРѕ СЃРЅСЏС‚РёСЋ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Get the 'ObligationDeadline' element value. Предельная дата и время принятия решения по снятию средств идентификации
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class NotifConfirmDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'ObligationDeadline' element value. РџСЂРµРґРµР»СЊРЅР°СЏ РґР°С‚Р° Рё РІСЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ РїРѕ СЃРЅСЏС‚РёСЋ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+     * Set the 'ObligationDeadline' element value. Предельная дата и время принятия решения по снятию средств идентификации
      * 
      * @param obligationDeadline
      */
@@ -51,7 +51,7 @@ public class NotifConfirmDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class NotifConfirmDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -69,7 +69,7 @@ public class NotifConfirmDTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class NotifConfirmDTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

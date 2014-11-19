@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.coordinationrequests;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ С‚РѕРІР°СЂР°Рј, РїРѕ РєРѕС‚РѕСЂС‹Рј С‚СЂРµР±СѓРµС‚СЃСЏ РїСЂРёРЅСЏС‚СЊ СЂРµС€РµРЅРёРµ. Р•СЃР»Рё РјРµСЂС‹ СѓРєР°Р·Р°РЅС‹ РЅР° РІСЃСЋ С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ РІ С†РµР»РѕРј, С‚Рѕ РЅРµ РїРѕРґР»РµР¶РёС‚ Р·Р°РїРѕР»РЅРµРЅРёСЋ
+ * Информация по товарам, по которым требуется принять решение. Если меры указаны на всю товарную партию в целом, то не подлежит заполнению
  */
 public class GoodsInfoType
 {
@@ -11,7 +11,7 @@ public class GoodsInfoType
     private String goodsTNVEDCode;
 
     /** 
-     * Get the 'GoodsNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ Р”Рў
+     * Get the 'GoodsNumber' element value. Порядковый номер товара в ДТ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ Р”Рў
+     * Set the 'GoodsNumber' element value. Порядковый номер товара в ДТ
      * 
      * @param goodsNumber
      */
@@ -29,7 +29,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the 'GoodsDescription' element value. Описание товара
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the 'GoodsDescription' element value. Описание товара
      * 
      * @param goodsDescription
      */
@@ -47,7 +47,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */

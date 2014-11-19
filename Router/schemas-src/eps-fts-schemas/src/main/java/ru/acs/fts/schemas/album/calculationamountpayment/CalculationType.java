@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.calculationamountpayment;
 
 /** 
- * Р Р°СЃС‡РµС‚ СЂР°Р·РјРµСЂР° РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+ * Расчет размера обеспечения
  */
 public class CalculationType
 {
@@ -17,7 +17,7 @@ public class CalculationType
     private String amount;
 
     /** 
-     * Get the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
+     * Get the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class CalculationType
     }
 
     /** 
-     * Set the 'PaymentModeCode' element value. РљРѕРґ РІРёРґР° РїР»Р°С‚РµР¶Р°  РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ РЅР°Р»РѕРіРѕРІ, СЃР±РѕСЂРѕРІ Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹.
+     * Set the 'PaymentModeCode' element value. Код вида платежа  по классификатору видов налогов, сборов и иных платежей, взимание которых возложено на таможенные органы.
      * 
      * @param paymentModeCode
      */
@@ -35,7 +35,7 @@ public class CalculationType
     }
 
     /** 
-     * Get the 'TaxBase' element value. РћСЃРЅРѕРІР° РЅР°С‡РёСЃР»РµРЅРёСЏ
+     * Get the 'TaxBase' element value. Основа начисления
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class CalculationType
     }
 
     /** 
-     * Set the 'TaxBase' element value. РћСЃРЅРѕРІР° РЅР°С‡РёСЃР»РµРЅРёСЏ
+     * Set the 'TaxBase' element value. Основа начисления
      * 
      * @param taxBase
      */
@@ -53,7 +53,7 @@ public class CalculationType
     }
 
     /** 
-     * Get the 'TaxBaseCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РѕСЃРЅРѕРІС‹ РЅР°С‡РёСЃР»РµРЅРёСЏ (Р°РґРІР°Р»РѕСЂРЅР°СЏ СЃС‚Р°РІРєР°)
+     * Get the 'TaxBaseCurrencyCode' element value. Цифровой код валюты основы начисления (адвалорная ставка)
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class CalculationType
     }
 
     /** 
-     * Set the 'TaxBaseCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ РѕСЃРЅРѕРІС‹ РЅР°С‡РёСЃР»РµРЅРёСЏ (Р°РґРІР°Р»РѕСЂРЅР°СЏ СЃС‚Р°РІРєР°)
+     * Set the 'TaxBaseCurrencyCode' element value. Цифровой код валюты основы начисления (адвалорная ставка)
      * 
      * @param taxBaseCurrencyCode
      */
@@ -71,7 +71,7 @@ public class CalculationType
     }
 
     /** 
-     * Get the 'Rate' element value. РЎС‚Р°РІРєР°.
+     * Get the 'Rate' element value. Ставка.
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class CalculationType
     }
 
     /** 
-     * Set the 'Rate' element value. РЎС‚Р°РІРєР°.
+     * Set the 'Rate' element value. Ставка.
      * 
      * @param rate
      */
@@ -89,7 +89,7 @@ public class CalculationType
     }
 
     /** 
-     * Get the 'RateTypeCode' element value. Р’РёРґ СЃС‚Р°РІРєРё (Р°РґРІР°Р»РѕСЂРЅР°СЏ -"%", СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ - "*")
+     * Get the 'RateTypeCode' element value. Вид ставки (адвалорная -"%", специфическая - "*")
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class CalculationType
     }
 
     /** 
-     * Set the 'RateTypeCode' element value. Р’РёРґ СЃС‚Р°РІРєРё (Р°РґРІР°Р»РѕСЂРЅР°СЏ -"%", СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ - "*")
+     * Set the 'RateTypeCode' element value. Вид ставки (адвалорная -"%", специфическая - "*")
      * 
      * @param rateTypeCode
      */
@@ -107,7 +107,7 @@ public class CalculationType
     }
 
     /** 
-     * Get the 'RateCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
+     * Get the 'RateCurrencyCode' element value. Цифровой код валюты ставки (специфическая ставка)
      * 
      * @return value
      */
@@ -116,7 +116,7 @@ public class CalculationType
     }
 
     /** 
-     * Set the 'RateCurrencyCode' element value. Р¦РёС„СЂРѕРІРѕР№ РєРѕРґ РІР°Р»СЋС‚С‹ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
+     * Set the 'RateCurrencyCode' element value. Цифровой код валюты ставки (специфическая ставка)
      * 
      * @param rateCurrencyCode
      */
@@ -125,7 +125,7 @@ public class CalculationType
     }
 
     /** 
-     * Get the 'WeightingFactor' element value. Р’РµСЃРѕРІРѕР№ РєРѕСЌС„С„РёС†РёРµРЅС‚ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
+     * Get the 'WeightingFactor' element value. Весовой коэффициент единицы измерения (специфическая ставка)
      * 
      * @return value
      */
@@ -134,7 +134,7 @@ public class CalculationType
     }
 
     /** 
-     * Set the 'WeightingFactor' element value. Р’РµСЃРѕРІРѕР№ РєРѕСЌС„С„РёС†РёРµРЅС‚ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
+     * Set the 'WeightingFactor' element value. Весовой коэффициент единицы измерения (специфическая ставка)
      * 
      * @param weightingFactor
      */
@@ -143,7 +143,7 @@ public class CalculationType
     }
 
     /** 
-     * Get the 'RateTNVEDQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
+     * Get the 'RateTNVEDQualifierCode' element value. Код единицы измерения ставки (специфическая ставка)
      * 
      * @return value
      */
@@ -152,7 +152,7 @@ public class CalculationType
     }
 
     /** 
-     * Set the 'RateTNVEDQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ СЃС‚Р°РІРєРё (СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ СЃС‚Р°РІРєР°)
+     * Set the 'RateTNVEDQualifierCode' element value. Код единицы измерения ставки (специфическая ставка)
      * 
      * @param rateTNVEDQualifierCode
      */
@@ -161,7 +161,7 @@ public class CalculationType
     }
 
     /** 
-     * Get the 'Amount' element value. РЎСѓРјРјР° 
+     * Get the 'Amount' element value. Сумма 
      * 
      * @return value
      */
@@ -170,7 +170,7 @@ public class CalculationType
     }
 
     /** 
-     * Set the 'Amount' element value. РЎСѓРјРјР° 
+     * Set the 'Amount' element value. Сумма 
      * 
      * @param amount
      */

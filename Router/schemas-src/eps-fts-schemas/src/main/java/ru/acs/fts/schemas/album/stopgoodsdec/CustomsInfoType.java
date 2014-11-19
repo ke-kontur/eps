@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+ * Сведения о таможенном органе
  */
 public class CustomsInfoType extends CustomsType
 {
@@ -16,7 +16,7 @@ public class CustomsInfoType extends CustomsType
     private AddressType customsAddress;
 
     /** 
-     * Get the 'Phone' element value. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°.
+     * Get the 'Phone' element value. Номер телефона.
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class CustomsInfoType extends CustomsType
     }
 
     /** 
-     * Set the 'Phone' element value. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°.
+     * Set the 'Phone' element value. Номер телефона.
      * 
      * @param phone
      */
@@ -34,7 +34,7 @@ public class CustomsInfoType extends CustomsType
     }
 
     /** 
-     * Get the 'Fax' element value. РќРѕРјРµСЂ С„Р°РєСЃР°.
+     * Get the 'Fax' element value. Номер факса.
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CustomsInfoType extends CustomsType
     }
 
     /** 
-     * Set the 'Fax' element value. РќРѕРјРµСЂ С„Р°РєСЃР°.
+     * Set the 'Fax' element value. Номер факса.
      * 
      * @param fax
      */
@@ -52,7 +52,7 @@ public class CustomsInfoType extends CustomsType
     }
 
     /** 
-     * Get the 'Telex' element value. РќРѕРјРµСЂ С‚РµР»РµРєСЃР°.
+     * Get the 'Telex' element value. Номер телекса.
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class CustomsInfoType extends CustomsType
     }
 
     /** 
-     * Set the 'Telex' element value. РќРѕРјРµСЂ С‚РµР»РµРєСЃР°.
+     * Set the 'Telex' element value. Номер телекса.
      * 
      * @param telex
      */
@@ -70,7 +70,7 @@ public class CustomsInfoType extends CustomsType
     }
 
     /** 
-     * Get the 'Email' element value. Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ РїРѕС‡С‚Р°
+     * Get the 'Email' element value. Электронная почта
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class CustomsInfoType extends CustomsType
     }
 
     /** 
-     * Set the 'Email' element value. Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ РїРѕС‡С‚Р°
+     * Set the 'Email' element value. Электронная почта
      * 
      * @param email
      */
@@ -88,7 +88,7 @@ public class CustomsInfoType extends CustomsType
     }
 
     /** 
-     * Get the 'CustomsAddress' element value. РђРґСЂРµСЃ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsAddress' element value. Адрес таможенного органа
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class CustomsInfoType extends CustomsType
     }
 
     /** 
-     * Set the 'CustomsAddress' element value. РђРґСЂРµСЃ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsAddress' element value. Адрес таможенного органа
      * 
      * @param customsAddress
      */

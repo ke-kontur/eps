@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РџСЂРѕС‚РѕРєРѕР» РІС‹РїРѕР»РЅРµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№ РєСЂСѓРіР»С‹С… Р»РµСЃРѕРјР°С‚РµСЂРёР°Р»РѕРІ
+ * Протокол выполнения измерений круглых лесоматериалов
  */
 public class MeasuringProtocolType extends BaseDocType
 {
@@ -40,7 +40,7 @@ public class MeasuringProtocolType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocSign' element value. РџСЂРѕС‚РѕРєРѕР» РІС‹РїРѕР»РЅРµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№ РјРµС‚РѕРґРѕРј: 1 - РєРѕРЅС†РµРІС‹С… СЃРµС‡РµРЅРёР№; 2 - СЃСЂРµРґРёРЅРЅРѕРіРѕ СЃРµС‡РµРЅРёСЏ; 3 - СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј С‚Р°Р±Р»РёС† РѕР±СЉРµРјРѕРІ Р“РћРЎРў 2708; 4 - РіРµРѕРјРµС‚СЂРёС‡РµСЃРєРёРј С€С‚Р°Р±РµР»СЊРЅС‹Рј
+     * Get the 'DocSign' element value. Протокол выполнения измерений методом: 1 - концевых сечений; 2 - срединного сечения; 3 - с использованием таблиц объемов ГОСТ 2708; 4 - геометрическим штабельным
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocSign' element value. РџСЂРѕС‚РѕРєРѕР» РІС‹РїРѕР»РЅРµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№ РјРµС‚РѕРґРѕРј: 1 - РєРѕРЅС†РµРІС‹С… СЃРµС‡РµРЅРёР№; 2 - СЃСЂРµРґРёРЅРЅРѕРіРѕ СЃРµС‡РµРЅРёСЏ; 3 - СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј С‚Р°Р±Р»РёС† РѕР±СЉРµРјРѕРІ Р“РћРЎРў 2708; 4 - РіРµРѕРјРµС‚СЂРёС‡РµСЃРєРёРј С€С‚Р°Р±РµР»СЊРЅС‹Рј
+     * Set the 'DocSign' element value. Протокол выполнения измерений методом: 1 - концевых сечений; 2 - срединного сечения; 3 - с использованием таблиц объемов ГОСТ 2708; 4 - геометрическим штабельным
      * 
      * @param docSign
      */
@@ -58,7 +58,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'MeasuringDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№
+     * Get the 'MeasuringDate' element value. Дата проведения измерений
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'MeasuringDate' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№
+     * Set the 'MeasuringDate' element value. Дата проведения измерений
      * 
      * @param measuringDate
      */
@@ -76,7 +76,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'WoodSortiment' element value. РЎРѕСЂС‚РёРјРµРЅС‚
+     * Get the 'WoodSortiment' element value. Сортимент
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'WoodSortiment' element value. РЎРѕСЂС‚РёРјРµРЅС‚
+     * Set the 'WoodSortiment' element value. Сортимент
      * 
      * @param woodSortiment
      */
@@ -94,7 +94,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'WoodKind' element value. РџРѕСЂРѕРґР°
+     * Get the 'WoodKind' element value. Порода
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'WoodKind' element value. РџРѕСЂРѕРґР°
+     * Set the 'WoodKind' element value. Порода
      * 
      * @param woodKind
      */
@@ -112,7 +112,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'LogPileQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р±СЂРµРІРµРЅ/С€С‚Р°Р±РµР»РµР№ РІ РїР°СЂС‚РёРё
+     * Get the 'LogPileQuantity' element value. Количество бревен/штабелей в партии
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'LogPileQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р±СЂРµРІРµРЅ/С€С‚Р°Р±РµР»РµР№ РІ РїР°СЂС‚РёРё
+     * Set the 'LogPileQuantity' element value. Количество бревен/штабелей в партии
      * 
      * @param logPileQuantity
      */
@@ -130,7 +130,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'NominalLength' element value. РќРѕРјРёРЅР°Р»СЊРЅР°СЏ РґР»РёРЅР° РїР°СЂС‚РёРё Р±СЂРµРІРµРЅ, СѓРєР°Р·Р°РЅРЅР°СЏ РІ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…, Рј
+     * Get the 'NominalLength' element value. Номинальная длина партии бревен, указанная в представленных документах, м
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'NominalLength' element value. РќРѕРјРёРЅР°Р»СЊРЅР°СЏ РґР»РёРЅР° РїР°СЂС‚РёРё Р±СЂРµРІРµРЅ, СѓРєР°Р·Р°РЅРЅР°СЏ РІ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…, Рј
+     * Set the 'NominalLength' element value. Номинальная длина партии бревен, указанная в представленных документах, м
      * 
      * @param nominalLength
      */
@@ -148,7 +148,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'Temperature' element value. РўРµРјРїРµСЂР°С‚СѓСЂР° РІРѕР·РґСѓС…Р° РїСЂРё РёР·РјРµСЂРµРЅРёСЏС…
+     * Get the 'Temperature' element value. Температура воздуха при измерениях
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'Temperature' element value. РўРµРјРїРµСЂР°С‚СѓСЂР° РІРѕР·РґСѓС…Р° РїСЂРё РёР·РјРµСЂРµРЅРёСЏС…
+     * Set the 'Temperature' element value. Температура воздуха при измерениях
      * 
      * @param temperature
      */
@@ -166,7 +166,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'MeasuringPlace' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№
+     * Get the 'MeasuringPlace' element value. Место проведения измерений
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'MeasuringPlace' element value. РњРµСЃС‚Рѕ РїСЂРѕРІРµРґРµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№
+     * Set the 'MeasuringPlace' element value. Место проведения измерений
      * 
      * @param measuringPlace
      */
@@ -184,7 +184,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Consignor' element value. Грузоотправитель
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. Р“СЂСѓР·РѕРѕС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Consignor' element value. Грузоотправитель
      * 
      * @param consignor
      */
@@ -202,7 +202,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Consignee' element value. Грузополучатель
      * 
      * @return value
      */
@@ -211,7 +211,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Consignee' element value. Грузополучатель
      * 
      * @param consignee
      */
@@ -220,7 +220,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'Seller' element value. РџСЂРѕРґР°РІРµС†
+     * Get the 'Seller' element value. Продавец
      * 
      * @return value
      */
@@ -229,7 +229,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'Seller' element value. РџСЂРѕРґР°РІРµС†
+     * Set the 'Seller' element value. Продавец
      * 
      * @param seller
      */
@@ -238,7 +238,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'Buyer' element value. РџРѕРєСѓРїР°С‚РµР»СЊ
+     * Get the 'Buyer' element value. Покупатель
      * 
      * @return value
      */
@@ -247,7 +247,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'Buyer' element value. РџРѕРєСѓРїР°С‚РµР»СЊ
+     * Set the 'Buyer' element value. Покупатель
      * 
      * @param buyer
      */
@@ -256,7 +256,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'DeparturePlace' element value. РџСѓРЅРєС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DeparturePlace' element value. Пункт отправления
      * 
      * @return value
      */
@@ -265,7 +265,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeparturePlace' element value. РџСѓРЅРєС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DeparturePlace' element value. Пункт отправления
      * 
      * @param departurePlace
      */
@@ -274,7 +274,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'DestinationPlace' element value. РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Get the 'DestinationPlace' element value. Пункт назначения
      * 
      * @return value
      */
@@ -283,7 +283,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'DestinationPlace' element value. РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+     * Set the 'DestinationPlace' element value. Пункт назначения
      * 
      * @param destinationPlace
      */
@@ -292,7 +292,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Get the 'RegNumberDT' element value. Регистрационный номер ДТ
      * 
      * @return value
      */
@@ -301,7 +301,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDT' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў
+     * Set the 'RegNumberDT' element value. Регистрационный номер ДТ
      * 
      * @param regNumberDT
      */
@@ -310,7 +310,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'Contract' element value. Р”РѕРіРѕРІРѕСЂ (РєРѕРЅС‚СЂР°РєС‚)
+     * Get the 'Contract' element value. Договор (контракт)
      * 
      * @return value
      */
@@ -319,7 +319,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'Contract' element value. Р”РѕРіРѕРІРѕСЂ (РєРѕРЅС‚СЂР°РєС‚)
+     * Set the 'Contract' element value. Договор (контракт)
      * 
      * @param contract
      */
@@ -328,7 +328,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TransportWayBillInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ Рё РўРўРќ
+     * Get the list of 'TransportWayBillInfo' element items. Сведения о транспортном средстве и ТТН
      * 
      * @return list
      */
@@ -337,7 +337,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TransportWayBillInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ Рё РўРўРќ
+     * Set the list of 'TransportWayBillInfo' element items. Сведения о транспортном средстве и ТТН
      * 
      * @param list
      */
@@ -346,7 +346,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'LogMeasuringInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РёР·РјРµСЂРµРЅРёСЏС… Р±СЂРµРІРЅР° РјРµС‚РѕРґРѕРј РєРѕРЅС†РµРІС‹С… СЃРµС‡РµРЅРёР№, СЃСЂРµРґРёРЅРЅРѕРіРѕ СЃРµС‡РµРЅРёСЏ, СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј С‚Р°Р±Р»РёС† РѕР±СЉРµРјРѕРІ Р“РћРЎРў 2708
+     * Get the list of 'LogMeasuringInfo' element items. Сведения об измерениях бревна методом концевых сечений, срединного сечения, с использованием таблиц объемов ГОСТ 2708
      * 
      * @return list
      */
@@ -355,7 +355,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'LogMeasuringInfo' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РёР·РјРµСЂРµРЅРёСЏС… Р±СЂРµРІРЅР° РјРµС‚РѕРґРѕРј РєРѕРЅС†РµРІС‹С… СЃРµС‡РµРЅРёР№, СЃСЂРµРґРёРЅРЅРѕРіРѕ СЃРµС‡РµРЅРёСЏ, СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј С‚Р°Р±Р»РёС† РѕР±СЉРµРјРѕРІ Р“РћРЎРў 2708
+     * Set the list of 'LogMeasuringInfo' element items. Сведения об измерениях бревна методом концевых сечений, срединного сечения, с использованием таблиц объемов ГОСТ 2708
      * 
      * @param list
      */
@@ -364,7 +364,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'MeasuringEquipment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСЂРµРґСЃС‚РІРµ РёР·РјРµСЂРµРЅРёР№
+     * Get the list of 'MeasuringEquipment' element items. Сведения о средстве измерений
      * 
      * @return list
      */
@@ -373,7 +373,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'MeasuringEquipment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСЂРµРґСЃС‚РІРµ РёР·РјРµСЂРµРЅРёР№
+     * Set the list of 'MeasuringEquipment' element items. Сведения о средстве измерений
      * 
      * @param list
      */
@@ -382,7 +382,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'MeasuringPerson' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РµРј/ РїСЂРѕРІРѕРґРёРІС€РµРј РёР·РјРµСЂРµРЅРёСЏ
+     * Get the list of 'MeasuringPerson' element items. Сведения о лице, присутствующем/ проводившем измерения
      * 
      * @return list
      */
@@ -391,7 +391,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'MeasuringPerson' element items. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‰РµРј/ РїСЂРѕРІРѕРґРёРІС€РµРј РёР·РјРµСЂРµРЅРёСЏ
+     * Set the list of 'MeasuringPerson' element items. Сведения о лице, присутствующем/ проводившем измерения
      * 
      * @param list
      */
@@ -400,7 +400,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'MeasuringResults' element items. РС‚РѕРіРѕРІС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№
+     * Get the list of 'MeasuringResults' element items. Итоговые значения измерений
      * 
      * @return list
      */
@@ -409,7 +409,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'MeasuringResults' element items. РС‚РѕРіРѕРІС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РёР·РјРµСЂРµРЅРёР№
+     * Set the list of 'MeasuringResults' element items. Итоговые значения измерений
      * 
      * @param list
      */
@@ -418,7 +418,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'MeasuringTransportLogs' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РёР·РјРµСЂРµРЅРёСЏС… РѕР±СЉРµРјР° С€С‚Р°Р±РµР»СЏ РєСЂСѓРіР»С‹С… Р»РµСЃРѕРјР°С‚РµСЂРёР°Р»РѕРІ, РїРѕРіСЂСѓР¶РµРЅРЅС‹С… РІ (РЅР°) РІР°РіРѕРЅС‹ (Р°РІС‚РѕРјРѕР±РёР»Рё)
+     * Get the list of 'MeasuringTransportLogs' element items. Сведения об измерениях объема штабеля круглых лесоматериалов, погруженных в (на) вагоны (автомобили)
      * 
      * @return list
      */
@@ -427,7 +427,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'MeasuringTransportLogs' element items. РЎРІРµРґРµРЅРёСЏ РѕР± РёР·РјРµСЂРµРЅРёСЏС… РѕР±СЉРµРјР° С€С‚Р°Р±РµР»СЏ РєСЂСѓРіР»С‹С… Р»РµСЃРѕРјР°С‚РµСЂРёР°Р»РѕРІ, РїРѕРіСЂСѓР¶РµРЅРЅС‹С… РІ (РЅР°) РІР°РіРѕРЅС‹ (Р°РІС‚РѕРјРѕР±РёР»Рё)
+     * Set the list of 'MeasuringTransportLogs' element items. Сведения об измерениях объема штабеля круглых лесоматериалов, погруженных в (на) вагоны (автомобили)
      * 
      * @param list
      */
@@ -437,7 +437,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -446,7 +446,7 @@ public class MeasuringProtocolType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

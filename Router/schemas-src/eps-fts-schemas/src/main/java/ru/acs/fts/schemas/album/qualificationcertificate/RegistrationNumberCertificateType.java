@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.qualificationcertificate;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РєРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅРѕРіРѕ Р°С‚С‚РµСЃС‚Р°С‚Р°.
+ * Регистрационный номер квалификационного аттестата.
  */
 public class RegistrationNumberCertificateType
 {
@@ -11,7 +11,7 @@ public class RegistrationNumberCertificateType
     private String serialNumber;
 
     /** 
-     * Get the 'NumberManagement' element value. РљРѕРґРѕРІ СЂРµРіРёРѕРЅР°Р»СЊРЅС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹С… СѓРїСЂР°РІР»РµРЅРёР№
+     * Get the 'NumberManagement' element value. Кодов региональных таможенных управлений
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class RegistrationNumberCertificateType
     }
 
     /** 
-     * Set the 'NumberManagement' element value. РљРѕРґРѕРІ СЂРµРіРёРѕРЅР°Р»СЊРЅС‹С… С‚Р°РјРѕР¶РµРЅРЅС‹С… СѓРїСЂР°РІР»РµРЅРёР№
+     * Set the 'NumberManagement' element value. Кодов региональных таможенных управлений
      * 
      * @param numberManagement
      */
@@ -29,7 +29,7 @@ public class RegistrationNumberCertificateType
     }
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РєРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅРѕРіРѕ СЌРєР·Р°РјРµРЅР°
+     * Get the 'Date' element value. Дата проведения квалификационного экзамена
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RegistrationNumberCertificateType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° РїСЂРѕРІРµРґРµРЅРёСЏ РєРІР°Р»РёС„РёРєР°С†РёРѕРЅРЅРѕРіРѕ СЌРєР·Р°РјРµРЅР°
+     * Set the 'Date' element value. Дата проведения квалификационного экзамена
      * 
      * @param date
      */
@@ -47,7 +47,7 @@ public class RegistrationNumberCertificateType
     }
 
     /** 
-     * Get the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р°С‚С‚РµСЃС‚Р°С‚Р°
+     * Get the 'SerialNumber' element value. Порядковый номер аттестата
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RegistrationNumberCertificateType
     }
 
     /** 
-     * Set the 'SerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р°С‚С‚РµСЃС‚Р°С‚Р°
+     * Set the 'SerialNumber' element value. Порядковый номер аттестата
      * 
      * @param serialNumber
      */

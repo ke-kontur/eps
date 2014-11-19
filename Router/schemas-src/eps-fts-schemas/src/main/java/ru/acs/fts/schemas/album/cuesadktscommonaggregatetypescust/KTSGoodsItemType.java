@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADGoodsItemTy
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADGoodsPackagingType;
 
 /** 
- * РљРўРЎ. РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕСЂСЂРµРєС‚РёСЂСѓРµРјРѕРј С‚РѕРІР°СЂРµ
+ * КТС. Сведения о корректируемом товаре
  */
 public class KTSGoodsItemType extends CUESADGoodsItemType
 {
@@ -27,7 +27,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     private SupplementaryQuantityType RBSupplementaryGoodsQuantity;
 
     /** 
-     * Get the 'GoodsSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РљРўРЎ РґР»СЏ Р Р‘ Рё Р Рљ
+     * Get the 'GoodsSerialNumber' element value. Порядковый номер товара в КТС для РБ и РК
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'GoodsSerialNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ С‚РѕРІР°СЂР° РІ РљРўРЎ РґР»СЏ Р Р‘ Рё Р Рљ
+     * Set the 'GoodsSerialNumber' element value. Порядковый номер товара в КТС для РБ и РК
      * 
      * @param goodsSerialNumber
      */
@@ -45,7 +45,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'Adjustment1TypeCode' element value. РўРёРї РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё - Р±Р»РѕРє 1
+     * Get the 'Adjustment1TypeCode' element value. Тип корректировки - блок 1
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'Adjustment1TypeCode' element value. РўРёРї РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё - Р±Р»РѕРє 1
+     * Set the 'Adjustment1TypeCode' element value. Тип корректировки - блок 1
      * 
      * @param adjustment1TypeCode
      */
@@ -63,7 +63,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'Adjustment3TypeCode' element value. РўРёРї РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё - Р±Р»РѕРє 3
+     * Get the 'Adjustment3TypeCode' element value. Тип корректировки - блок 3
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'Adjustment3TypeCode' element value. РўРёРї РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё - Р±Р»РѕРє 3
+     * Set the 'Adjustment3TypeCode' element value. Тип корректировки - блок 3
      * 
      * @param adjustment3TypeCode
      */
@@ -81,7 +81,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'AdditionalSheetNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕР±Р°РІРѕС‡РЅРѕРіРѕ Р»РёСЃС‚Р°
+     * Get the 'AdditionalSheetNumber' element value. Порядковый номер добавочного листа
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'AdditionalSheetNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРѕР±Р°РІРѕС‡РЅРѕРіРѕ Р»РёСЃС‚Р°
+     * Set the 'AdditionalSheetNumber' element value. Порядковый номер добавочного листа
      * 
      * @param additionalSheetNumber
      */
@@ -99,7 +99,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'SheetPartNumeric' element value. Р§Р°СЃС‚СЊ Р»РёСЃС‚Р° (1-2) РґР»СЏ Р Р¤
+     * Get the 'SheetPartNumeric' element value. Часть листа (1-2) для РФ
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'SheetPartNumeric' element value. Р§Р°СЃС‚СЊ Р»РёСЃС‚Р° (1-2) РґР»СЏ Р Р¤
+     * Set the 'SheetPartNumeric' element value. Часть листа (1-2) для РФ
      * 
      * @param sheetPartNumeric
      */
@@ -117,7 +117,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'PreviousCustomsCost' element value. РџСЂРµРґС‹РґСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.РіСЂ 45 РїСЂР°РІС‹Р№ РїРѕРґСЂР°Р·РґРµР»
+     * Get the 'PreviousCustomsCost' element value. Предыдущее значение таможенной стоимости.гр 45 правый подраздел
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'PreviousCustomsCost' element value. РџСЂРµРґС‹РґСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё.РіСЂ 45 РїСЂР°РІС‹Р№ РїРѕРґСЂР°Р·РґРµР»
+     * Set the 'PreviousCustomsCost' element value. Предыдущее значение таможенной стоимости.гр 45 правый подраздел
      * 
      * @param previousCustomsCost
      */
@@ -135,7 +135,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'TotalCorrectedCost' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РўРџ, РїРѕРґР»РµР¶. РІР·С‹СЃРєР°РЅРёСЋ/РІРѕР·РІСЂР°С‚Сѓ РїРѕ С‚РѕРІР°СЂСѓ
+     * Get the 'TotalCorrectedCost' element value. Общая сумма ТП, подлеж. взысканию/возврату по товару
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'TotalCorrectedCost' element value. РћР±С‰Р°СЏ СЃСѓРјРјР° РўРџ, РїРѕРґР»РµР¶. РІР·С‹СЃРєР°РЅРёСЋ/РІРѕР·РІСЂР°С‚Сѓ РїРѕ С‚РѕРІР°СЂСѓ
+     * Set the 'TotalCorrectedCost' element value. Общая сумма ТП, подлеж. взысканию/возврату по товару
      * 
      * @param totalCorrectedCost
      */
@@ -153,7 +153,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'KTSKind' element value. РўРёРї РљРўРЎ (1-2) РґР»СЏ Р Р¤
+     * Get the 'KTSKind' element value. Тип КТС (1-2) для РФ
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'KTSKind' element value. РўРёРї РљРўРЎ (1-2) РґР»СЏ Р Р¤
+     * Set the 'KTSKind' element value. Тип КТС (1-2) для РФ
      * 
      * @param KTSKind
      */
@@ -171,7 +171,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'Adjustment2TypeCode' element value. РўРёРї РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё - Р±Р»РѕРє 2
+     * Get the 'Adjustment2TypeCode' element value. Тип корректировки - блок 2
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'Adjustment2TypeCode' element value. РўРёРї РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё - Р±Р»РѕРє 2
+     * Set the 'Adjustment2TypeCode' element value. Тип корректировки - блок 2
      * 
      * @param adjustment2TypeCode
      */
@@ -190,7 +190,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РєРѕР»РёС‡РµСЃС‚РІРѕ.РіСЂ 41
+     * Get the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения. Заполняется только количество.гр 41
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'SupplementaryQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РєРѕР»РёС‡РµСЃС‚РІРѕ.РіСЂ 41
+     * Set the 'SupplementaryQuantity' element value. Количество в дополнительной единице измерения. Заполняется только количество.гр 41
      * 
      * @param supplementaryQuantity
      */
@@ -209,7 +209,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the list of 'SupplementaryQuantity1' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РѕСЃРЅРѕРІРЅРѕР№ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ (1,2) Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РєРѕР»РёС‡РµСЃС‚РІРѕ.РіСЂ 31 СЌР»РµРјРµРЅС‚ 1
+     * Get the list of 'SupplementaryQuantity1' element items. Количество в дополнительной единице измерения, отличной от основной и дополнительной (1,2) Заполняется только количество.гр 31 элемент 1
      * 
      * @return list
      */
@@ -218,7 +218,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the list of 'SupplementaryQuantity1' element items. РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ, РѕС‚Р»РёС‡РЅРѕР№ РѕС‚ РѕСЃРЅРѕРІРЅРѕР№ Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ (1,2) Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РєРѕР»РёС‡РµСЃС‚РІРѕ.РіСЂ 31 СЌР»РµРјРµРЅС‚ 1
+     * Set the list of 'SupplementaryQuantity1' element items. Количество в дополнительной единице измерения, отличной от основной и дополнительной (1,2) Заполняется только количество.гр 31 элемент 1
      * 
      * @param list
      */
@@ -228,7 +228,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'KTSGoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'KTSGoodsPackaging' element value. Сведения о грузовых местах, поддонах и упаковке товаров
      * 
      * @return value
      */
@@ -237,7 +237,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'KTSGoodsPackaging' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…, РїРѕРґРґРѕРЅР°С… Рё СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'KTSGoodsPackaging' element value. Сведения о грузовых местах, поддонах и упаковке товаров
      * 
      * @param KTSGoodsPackaging
      */
@@ -246,7 +246,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Get the 'RBSupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РїРѕРјРµС‰РµРЅРЅРѕРіРѕ РїРѕРґ РїСЂРѕС†РµРґСѓСЂСѓ РїРµСЂРµСЂР°Р±РѕС‚РєРё Рё СЃРІРѕР±РѕРґРЅСѓСЋ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ Р·РѕРЅСѓ РґР»СЏ Р Р‘
+     * Get the 'RBSupplementaryGoodsQuantity' element value. Количество товара помещенного под процедуру переработки и свободную таможенную зону для РБ
      * 
      * @return value
      */
@@ -255,7 +255,7 @@ public class KTSGoodsItemType extends CUESADGoodsItemType
     }
 
     /** 
-     * Set the 'RBSupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РїРѕРјРµС‰РµРЅРЅРѕРіРѕ РїРѕРґ РїСЂРѕС†РµРґСѓСЂСѓ РїРµСЂРµСЂР°Р±РѕС‚РєРё Рё СЃРІРѕР±РѕРґРЅСѓСЋ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ Р·РѕРЅСѓ РґР»СЏ Р Р‘
+     * Set the 'RBSupplementaryGoodsQuantity' element value. Количество товара помещенного под процедуру переработки и свободную таможенную зону для РБ
      * 
      * @param RBSupplementaryGoodsQuantity
      */

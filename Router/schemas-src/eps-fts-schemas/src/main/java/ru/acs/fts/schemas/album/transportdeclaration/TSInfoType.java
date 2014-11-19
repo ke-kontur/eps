@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transportdeclaration;
 
 /** 
- * РўСЂР°РЅСЃРїРѕСЂС‚РЅРѕРµ СЃСЂРµРґСЃС‚РІРѕ
+ * Транспортное средство
  */
 public class TSInfoType
 {
@@ -16,7 +16,7 @@ public class TSInfoType
     private String transportModeCode;
 
     /** 
-     * Get the 'Mark' element value. РњР°СЂРєР°
+     * Get the 'Mark' element value. Марка
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class TSInfoType
     }
 
     /** 
-     * Set the 'Mark' element value. РњР°СЂРєР°
+     * Set the 'Mark' element value. Марка
      * 
      * @param mark
      */
@@ -34,7 +34,7 @@ public class TSInfoType
     }
 
     /** 
-     * Get the 'Model' element value. РњРѕРґРµР»СЊ
+     * Get the 'Model' element value. Модель
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class TSInfoType
     }
 
     /** 
-     * Set the 'Model' element value. РњРѕРґРµР»СЊ
+     * Set the 'Model' element value. Модель
      * 
      * @param model
      */
@@ -52,7 +52,7 @@ public class TSInfoType
     }
 
     /** 
-     * Get the 'Kind' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the 'Kind' element value. Тип транспортного средства
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class TSInfoType
     }
 
     /** 
-     * Set the 'Kind' element value. РўРёРї С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the 'Kind' element value. Тип транспортного средства
      * 
      * @param kind
      */
@@ -70,7 +70,7 @@ public class TSInfoType
     }
 
     /** 
-     * Get the 'RegNumber' element value. РќРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'RegNumber' element value. Номер регистрации
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class TSInfoType
     }
 
     /** 
-     * Set the 'RegNumber' element value. РќРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'RegNumber' element value. Номер регистрации
      * 
      * @param regNumber
      */
@@ -88,7 +88,7 @@ public class TSInfoType
     }
 
     /** 
-     * Get the 'TransportNationalityCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё (СЂРµРіРёСЃС‚СЂР°С†РёРё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°. 00-РЅРµРёР·РІРµСЃС‚РЅР°
+     * Get the 'TransportNationalityCode' element value. Буквенный код страны принадлежности (регистрации) транспортных средств по классификатору стран мира. 00-неизвестна
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class TSInfoType
     }
 
     /** 
-     * Set the 'TransportNationalityCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё (СЂРµРіРёСЃС‚СЂР°С†РёРё) С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР°. 00-РЅРµРёР·РІРµСЃС‚РЅР°
+     * Set the 'TransportNationalityCode' element value. Буквенный код страны принадлежности (регистрации) транспортных средств по классификатору стран мира. 00-неизвестна
      * 
      * @param transportNationalityCode
      */
@@ -106,7 +106,7 @@ public class TSInfoType
     }
 
     /** 
-     * Get the 'CountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё РўРЎРњРџ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°.
+     * Get the 'CountryName' element value. Краткое наименование страны регистрации ТСМП в соответствии с классификатором стран мира.
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class TSInfoType
     }
 
     /** 
-     * Set the 'CountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё РўРЎРњРџ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃС‚СЂР°РЅ РјРёСЂР°.
+     * Set the 'CountryName' element value. Краткое наименование страны регистрации ТСМП в соответствии с классификатором стран мира.
      * 
      * @param countryName
      */
@@ -124,7 +124,7 @@ public class TSInfoType
     }
 
     /** 
-     * Get the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (VIN)
+     * Get the 'VINID' element value. Идентификационный номер (VIN)
      * 
      * @return value
      */
@@ -133,7 +133,7 @@ public class TSInfoType
     }
 
     /** 
-     * Set the 'VINID' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ (VIN)
+     * Set the 'VINID' element value. Идентификационный номер (VIN)
      * 
      * @param VINID
      */
@@ -142,7 +142,7 @@ public class TSInfoType
     }
 
     /** 
-     * Get the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров
      * 
      * @return value
      */
@@ -151,7 +151,7 @@ public class TSInfoType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР° РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё С‚СЂР°РЅСЃРїРѕСЂС‚РёСЂРѕРІРєРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'TransportModeCode' element value. Код вида транспортного средства по классификатору видов транспорта и транспортировки товаров
      * 
      * @param transportModeCode
      */

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+ * Сведения о товарах
  */
 public class GoodsType
 {
@@ -13,7 +13,7 @@ public class GoodsType
     private List<ChangesDescriptionType> changesDescriptionList = new ArrayList<ChangesDescriptionType>();
 
     /** 
-     * Get the list of 'GoodDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodDescription' element items. Наименование товара
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'GoodDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodDescription' element items. Наименование товара
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class GoodsType
     }
 
     /** 
-     * Get the list of 'ChangesDescription' element items. РћРїРёСЃР°РЅРёРµ РёР·РјРµРЅРµРЅРёР№
+     * Get the list of 'ChangesDescription' element items. Описание изменений
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class GoodsType
     }
 
     /** 
-     * Set the list of 'ChangesDescription' element items. РћРїРёСЃР°РЅРёРµ РёР·РјРµРЅРµРЅРёР№
+     * Set the list of 'ChangesDescription' element items. Описание изменений
      * 
      * @param list
      */

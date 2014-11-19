@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDID6Type;
 
 /** 
- * Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЃРјРѕС‚СЂР°
+ * Регистрационный номер акта таможенного осмотра
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -29,7 +29,7 @@ public class ActNumberInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ResultInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РѕСЃРјРѕС‚СЂР° , РґР»СЏ РєРѕС‚РѕСЂС‹С… С‚СЂРµР±СѓРµС‚СЃСЏ СЃС„РѕСЂРјРёСЂРѕРІР°С‚СЊ Р°РєС‚
+     * Get the 'ResultInfo' element value. Информация о результатах осмотра , для которых требуется сформировать акт
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ActNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResultInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°С… РѕСЃРјРѕС‚СЂР° , РґР»СЏ РєРѕС‚РѕСЂС‹С… С‚СЂРµР±СѓРµС‚СЃСЏ СЃС„РѕСЂРјРёСЂРѕРІР°С‚СЊ Р°РєС‚
+     * Set the 'ResultInfo' element value. Информация о результатах осмотра , для которых требуется сформировать акт
      * 
      * @param resultInfo
      */
@@ -47,7 +47,7 @@ public class ActNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'ActRegNumber' element value. РќРѕРјРµСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЃРјРѕС‚СЂР°
+     * Get the 'ActRegNumber' element value. Номер акта таможенного осмотра
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ActNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'ActRegNumber' element value. РќРѕРјРµСЂ Р°РєС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЃРјРѕС‚СЂР°
+     * Set the 'ActRegNumber' element value. Номер акта таможенного осмотра
      * 
      * @param actRegNumber
      */
@@ -65,7 +65,7 @@ public class ActNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class ActNumberInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

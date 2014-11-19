@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.archlistrequest;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° РїРѕР»СѓС‡РµРЅРёРµ СЃРїРёСЃРєР° Р°СЂС…РёРІРѕРІ РґРµРєР»Р°СЂР°РЅС‚Р°
+ * Запрос на получение списка архивов декларанта
  */
 public class ArchListRequestType extends BaseDocType
 {
@@ -12,7 +12,7 @@ public class ArchListRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ArchDeclID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р°СЂС…РёРІРµ
+     * Get the 'ArchDeclID' element value. Идентификатор декларанта в архиве
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ArchListRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ArchDeclID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРµРєР»Р°СЂР°РЅС‚Р° РІ Р°СЂС…РёРІРµ
+     * Set the 'ArchDeclID' element value. Идентификатор декларанта в архиве
      * 
      * @param archDeclID
      */
@@ -30,7 +30,7 @@ public class ArchListRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ArchListRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

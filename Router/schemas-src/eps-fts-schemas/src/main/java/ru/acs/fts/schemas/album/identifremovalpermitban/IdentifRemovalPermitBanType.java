@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Р Р°Р·СЂРµС€РµРЅРёРµ/Р—Р°РїСЂРµС‚ РЅР° СЃРЅСЏС‚РёРµ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё
+ * Разрешение/Запрет на снятие средств идентификации
  */
 public class IdentifRemovalPermitBanType extends BaseDocType
 {
@@ -21,7 +21,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'Date' element value. Дата принятия решения
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'Date' element value. Дата принятия решения
      * 
      * @param date
      */
@@ -39,7 +39,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Get the 'Time' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Get the 'Time' element value. Время принятия решения
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Set the 'Time' element value. Р’СЂРµРјСЏ РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+     * Set the 'Time' element value. Время принятия решения
      * 
      * @param time
      */
@@ -57,7 +57,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Get the 'Decision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ РїРѕ СЃРЅСЏС‚РёСЋ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё: 0 - Р·Р°РїСЂРµС‚; 1 - СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Get the 'Decision' element value. Принятое решение по снятию средств идентификации: 0 - запрет; 1 - разрешение
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Set the 'Decision' element value. РџСЂРёРЅСЏС‚РѕРµ СЂРµС€РµРЅРёРµ РїРѕ СЃРЅСЏС‚РёСЋ СЃСЂРµРґСЃС‚РІ РёРґРµРЅС‚РёС„РёРєР°С†РёРё: 0 - Р·Р°РїСЂРµС‚; 1 - СЂР°Р·СЂРµС€РµРЅРёРµ
+     * Set the 'Decision' element value. Принятое решение по снятию средств идентификации: 0 - запрет; 1 - разрешение
      * 
      * @param decision
      */
@@ -75,7 +75,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё/РќРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
+     * Get the 'DocumentNumber' element value. Номер обязательства о подаче таможенной декларации/Номер предварительной декларации на товары
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рµ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё/РќРѕРјРµСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
+     * Set the 'DocumentNumber' element value. Номер обязательства о подаче таможенной декларации/Номер предварительной декларации на товары
      * 
      * @param documentNumber
      */
@@ -93,7 +93,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё РїРѕ РїСЂРёРЅСЏС‚РѕРјСѓ СЂРµС€РµРЅРёСЋ
+     * Get the 'Comment' element value. Комментарии по принятому решению
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё РїРѕ РїСЂРёРЅСЏС‚РѕРјСѓ СЂРµС€РµРЅРёСЋ
+     * Set the 'Comment' element value. Комментарии по принятому решению
      * 
      * @param comment
      */
@@ -111,7 +111,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Get the 'EconomicOperator' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ РѕРїРµСЂР°С‚РѕСЂ
+     * Get the 'EconomicOperator' element value. Уполномоченный экономический оператор
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Set the 'EconomicOperator' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёР№ РѕРїРµСЂР°С‚РѕСЂ
+     * Set the 'EconomicOperator' element value. Уполномоченный экономический оператор
      * 
      * @param economicOperator
      */
@@ -129,7 +129,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsOfficer' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsOfficer' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -138,7 +138,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsOfficer' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsOfficer' element value. Должностное лицо таможенного органа
      * 
      * @param customsOfficer
      */
@@ -147,7 +147,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class IdentifRemovalPermitBanType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

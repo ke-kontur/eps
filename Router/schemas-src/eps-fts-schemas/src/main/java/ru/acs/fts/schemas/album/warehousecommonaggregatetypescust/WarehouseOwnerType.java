@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РѕСЂРіР°РЅРёР·Р°С†РёРё - РІР»Р°РґРµР»СЊС†Р° РјРµСЃС‚Р° С…СЂР°РЅРµРЅРёСЏ
+ * Комплексный тип для описания организации - владельца места хранения
  */
 public class WarehouseOwnerType extends OrganizationBaseType
 {
@@ -14,7 +14,7 @@ public class WarehouseOwnerType extends OrganizationBaseType
     private PersonBaseType warehousePerson;
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° С…СЂР°РЅРµРЅРёСЏ
+     * Get the 'Address' element value. Адрес места хранения
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class WarehouseOwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РјРµСЃС‚Р° С…СЂР°РЅРµРЅРёСЏ
+     * Set the 'Address' element value. Адрес места хранения
      * 
      * @param address
      */
@@ -32,7 +32,7 @@ public class WarehouseOwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'WarehouseLicense' element value. Р”РѕРєСѓРјРµРЅС‚, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРѕ РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ
+     * Get the 'WarehouseLicense' element value. Документ, на основании которого разрешено временное хранение
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class WarehouseOwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'WarehouseLicense' element value. Р”РѕРєСѓРјРµРЅС‚, РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂРѕРіРѕ СЂР°Р·СЂРµС€РµРЅРѕ РІСЂРµРјРµРЅРЅРѕРµ С…СЂР°РЅРµРЅРёРµ
+     * Set the 'WarehouseLicense' element value. Документ, на основании которого разрешено временное хранение
      * 
      * @param warehouseLicense
      */
@@ -50,7 +50,7 @@ public class WarehouseOwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'WarehousePerson' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ РЎР’РҐ
+     * Get the 'WarehousePerson' element value. Представитель СВХ
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class WarehouseOwnerType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'WarehousePerson' element value. РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ РЎР’РҐ
+     * Set the 'WarehousePerson' element value. Представитель СВХ
      * 
      * @param warehousePerson
      */

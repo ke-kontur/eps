@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.IdentityCardType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * ESAD. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚.
+ * ESAD. Сведения об организации. Внутренний формат.
  */
 public class ESADOrganizationInType extends OrganizationBaseType
 {
@@ -16,7 +16,7 @@ public class ESADOrganizationInType extends OrganizationBaseType
     private IdentityCardType identityCard;
 
     /** 
-     * Get the 'ITN' element value. РРўРќ СЃСѓР±СЉРµРєС‚Р° Р’Р­Р”
+     * Get the 'ITN' element value. ИТН субъекта ВЭД
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class ESADOrganizationInType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'ITN' element value. РРўРќ СЃСѓР±СЉРµРєС‚Р° Р’Р­Р”
+     * Set the 'ITN' element value. ИТН субъекта ВЭД
      * 
      * @param ITN
      */
@@ -34,7 +34,7 @@ public class ESADOrganizationInType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'OKATO' element value. РљРѕРґ РћРљРђРўРћ (С„РѕСЂРјРёСЂСѓРµС‚СЃСЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РїСЂРёРєР°Р·РѕРј Р¤РўРЎ Р РѕСЃСЃРёРё РѕС‚ 10.10.2007 Рі. в„– 1246)
+     * Get the 'OKATO' element value. Код ОКАТО (формируется автоматически в соответствии с приказом ФТС России от 10.10.2007 г. № 1246)
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ESADOrganizationInType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'OKATO' element value. РљРѕРґ РћРљРђРўРћ (С„РѕСЂРјРёСЂСѓРµС‚СЃСЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РїСЂРёРєР°Р·РѕРј Р¤РўРЎ Р РѕСЃСЃРёРё РѕС‚ 10.10.2007 Рі. в„– 1246)
+     * Set the 'OKATO' element value. Код ОКАТО (формируется автоматически в соответствии с приказом ФТС России от 10.10.2007 г. № 1246)
      * 
      * @param OKATO
      */
@@ -52,7 +52,7 @@ public class ESADOrganizationInType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Get the 'Address' element value. Адрес организации.
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class ESADOrganizationInType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Set the 'Address' element value. Адрес организации.
      * 
      * @param address
      */
@@ -70,7 +70,7 @@ public class ESADOrganizationInType extends OrganizationBaseType
     }
 
     /** 
-     * Get the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ.
+     * Get the 'IdentityCard' element value. Документ, удостоверяющий личность.
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class ESADOrganizationInType extends OrganizationBaseType
     }
 
     /** 
-     * Set the 'IdentityCard' element value. Р”РѕРєСѓРјРµРЅС‚, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№ Р»РёС‡РЅРѕСЃС‚СЊ.
+     * Set the 'IdentityCard' element value. Документ, удостоверяющий личность.
      * 
      * @param identityCard
      */

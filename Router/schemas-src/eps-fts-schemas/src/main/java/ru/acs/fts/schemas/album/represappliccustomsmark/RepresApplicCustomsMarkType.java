@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РўР°РјРѕР¶РµРЅРЅС‹Рµ РѕС‚РјРµС‚РєРё Р—Р°СЏРІР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ
+ * Таможенные отметки Заявления таможенного представителя
  */
 public class RepresApplicCustomsMarkType extends BaseDocType
 {
@@ -18,7 +18,7 @@ public class RepresApplicCustomsMarkType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
+     * Get the 'ApplicationRegNumber' element value. Регистрационный номер заявления
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class RepresApplicCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ
+     * Set the 'ApplicationRegNumber' element value. Регистрационный номер заявления
      * 
      * @param applicationRegNumber
      */
@@ -36,7 +36,7 @@ public class RepresApplicCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class RepresApplicCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -54,7 +54,7 @@ public class RepresApplicCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЂС‚РёРё
+     * Get the list of 'Consignment' element items. Сведения о партии
      * 
      * @return list
      */
@@ -63,7 +63,7 @@ public class RepresApplicCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Consignment' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЂС‚РёРё
+     * Set the list of 'Consignment' element items. Сведения о партии
      * 
      * @param list
      */
@@ -72,7 +72,7 @@ public class RepresApplicCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class RepresApplicCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

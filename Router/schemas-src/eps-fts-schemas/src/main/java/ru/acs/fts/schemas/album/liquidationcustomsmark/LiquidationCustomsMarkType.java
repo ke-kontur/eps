@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЅР° Р—Р°СЏРІР»РµРЅРёРё РѕР± СѓРЅРёС‡С‚РѕР¶РµРЅРёРё С‚РѕРІР°СЂРѕРІ Рё (РёР»Рё) СѓРїР°РєРѕРІРєРё, РїСЂРёС€РµРґС€РёС… РІ РЅРµРіРѕРґРЅРѕСЃС‚СЊ
+ * Отметки таможенного органа на Заявлении об уничтожении товаров и (или) упаковки, пришедших в негодность
  */
 public class LiquidationCustomsMarkType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ComposeDate' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕС‚РјРµС‚РѕРє
+     * Get the 'ComposeDate' element value. Дата проставления таможенных отметок
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'ComposeDate' element value. Р”Р°С‚Р° РїСЂРѕСЃС‚Р°РІР»РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕС‚РјРµС‚РѕРє
+     * Set the 'ComposeDate' element value. Дата проставления таможенных отметок
      * 
      * @param composeDate
      */
@@ -44,7 +44,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsDecision' element value. РўРёРї СЂРµС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°: 1 - СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ; 2 - РїСЂРѕРґР»РµРЅРёРµ СЃСЂРѕРєР° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ; 3 - РѕС‚РєР°Р· РІ РІС‹РґР°С‡Рµ СЂР°Р·СЂРµС€РµРЅРёСЏ; 4 - РѕС‚РєР°Р· РІ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+     * Get the 'CustomsDecision' element value. Тип решения таможенного органа: 1 - разрешение на уничтожение; 2 - продление срока уничтожения; 3 - отказ в выдаче разрешения; 4 - отказ в продлении срока уничтожения
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsDecision' element value. РўРёРї СЂРµС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°: 1 - СЂР°Р·СЂРµС€РµРЅРёРµ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ; 2 - РїСЂРѕРґР»РµРЅРёРµ СЃСЂРѕРєР° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ; 3 - РѕС‚РєР°Р· РІ РІС‹РґР°С‡Рµ СЂР°Р·СЂРµС€РµРЅРёСЏ; 4 - РѕС‚РєР°Р· РІ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+     * Set the 'CustomsDecision' element value. Тип решения таможенного органа: 1 - разрешение на уничтожение; 2 - продление срока уничтожения; 3 - отказ в выдаче разрешения; 4 - отказ в продлении срока уничтожения
      * 
      * @param customsDecision
      */
@@ -62,7 +62,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'LiquidationDate' element value. РЎСЂРѕРє СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+     * Get the 'LiquidationDate' element value. Срок уничтожения
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'LiquidationDate' element value. РЎСЂРѕРє СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+     * Set the 'LiquidationDate' element value. Срок уничтожения
      * 
      * @param liquidationDate
      */
@@ -80,7 +80,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsControl' element value. РџСЂРёР·РЅР°Рє РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРёРјРµРЅРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+     * Get the 'CustomsControl' element value. Признак необходимости применения таможенного наблюдения
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsControl' element value. РџСЂРёР·РЅР°Рє РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРёРјРµРЅРµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РЅР°Р±Р»СЋРґРµРЅРёСЏ
+     * Set the 'CustomsControl' element value. Признак необходимости применения таможенного наблюдения
      * 
      * @param customsControl
      */
@@ -98,7 +98,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'RefusalReasons' element items. РџСЂРёС‡РёРЅС‹ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РІС‹РґР°С‡Рё СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ/РѕС‚РєР°Р·Р° РІ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР°
+     * Get the list of 'RefusalReasons' element items. Причины невозможности выдачи разрешения на уничтожение/отказа в продлении срока
      * 
      * @return list
      */
@@ -107,7 +107,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'RefusalReasons' element items. РџСЂРёС‡РёРЅС‹ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РІС‹РґР°С‡Рё СЂР°Р·СЂРµС€РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ/РѕС‚РєР°Р·Р° РІ РїСЂРѕРґР»РµРЅРёРё СЃСЂРѕРєР°
+     * Set the list of 'RefusalReasons' element items. Причины невозможности выдачи разрешения на уничтожение/отказа в продлении срока
      * 
      * @param list
      */
@@ -116,7 +116,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ
+     * Get the 'ApplicationRegNumber' element value. Регистрационный номер заявления на уничтожение
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'ApplicationRegNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р·Р°СЏРІР»РµРЅРёСЏ РЅР° СѓРЅРёС‡С‚РѕР¶РµРЅРёРµ
+     * Set the 'ApplicationRegNumber' element value. Регистрационный номер заявления на уничтожение
      * 
      * @param applicationRegNumber
      */
@@ -135,7 +135,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -153,7 +153,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Уполномоченный таможенный орган
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЈРїРѕР»РЅРѕРјРѕС‡РµРЅРЅС‹Р№ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Уполномоченный таможенный орган
      * 
      * @param customs
      */
@@ -171,7 +171,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProlongFoundation' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+     * Get the 'ProlongFoundation' element value. Основание продления срока уничтожения
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProlongFoundation' element value. РћСЃРЅРѕРІР°РЅРёРµ РїСЂРѕРґР»РµРЅРёСЏ СЃСЂРѕРєР° СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ
+     * Set the 'ProlongFoundation' element value. Основание продления срока уничтожения
      * 
      * @param prolongFoundation
      */
@@ -189,7 +189,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class LiquidationCustomsMarkType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

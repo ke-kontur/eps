@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * Р РµС€РµРЅРёРµ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№) РІ СЃРІРµРґРµРЅРёСЏ, СѓРєР°Р·Р°РЅРЅС‹Рµ РІ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
+ * Решение о внесении изменений (дополнений) в сведения, указанные в декларации на товары
  */
 public class DeclChangeDecisionType extends BaseDocType
 {
@@ -29,7 +29,7 @@ public class DeclChangeDecisionType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DecisionDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ
+     * Get the 'DecisionDate' element value. Дата решения
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DecisionDate' element value. Р”Р°С‚Р° СЂРµС€РµРЅРёСЏ
+     * Set the 'DecisionDate' element value. Дата решения
      * 
      * @param decisionDate
      */
@@ -47,7 +47,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Paragraph' element value. РќРѕРјРµСЂ Р°Р±Р·Р°С†Р° РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'Paragraph' element value. Номер абзаца нормативного документа
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Paragraph' element value. РќРѕРјРµСЂ Р°Р±Р·Р°С†Р° РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'Paragraph' element value. Номер абзаца нормативного документа
      * 
      * @param paragraph
      */
@@ -65,7 +65,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Subparagraph' element value. РќРѕРјРµСЂ РїРѕРґРїСѓРЅРєС‚Р° РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'Subparagraph' element value. Номер подпункта нормативного документа
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Subparagraph' element value. РќРѕРјРµСЂ РїРѕРґРїСѓРЅРєС‚Р° РЅРѕСЂРјР°С‚РёРІРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'Subparagraph' element value. Номер подпункта нормативного документа
      * 
      * @param subparagraph
      */
@@ -83,7 +83,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DecisionFoundation' element items. РћСЃРЅРѕРІР°РЅРёСЏ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ Р”Рў
+     * Get the list of 'DecisionFoundation' element items. Основания внесения изменений в ДТ
      * 
      * @return list
      */
@@ -92,7 +92,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DecisionFoundation' element items. РћСЃРЅРѕРІР°РЅРёСЏ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№ РІ Р”Рў
+     * Set the list of 'DecisionFoundation' element items. Основания внесения изменений в ДТ
      * 
      * @param list
      */
@@ -101,7 +101,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DateLimit' element value. РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РґРµРєР»Р°СЂР°С†РёРё
+     * Get the 'DateLimit' element value. Срок предоставления корректировки декларации
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DateLimit' element value. РЎСЂРѕРє РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РґРµРєР»Р°СЂР°С†РёРё
+     * Set the 'DateLimit' element value. Срок предоставления корректировки декларации
      * 
      * @param dateLimit
      */
@@ -119,7 +119,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReleaseSign' element value. РџСЂРёР·РЅР°Рє РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ РґРµРєР»Р°СЂР°С†РёСЋ РЅР° С‚РѕРІР°СЂС‹ РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР° (1 - РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР°, 0 - РґРѕ РІС‹РїСѓСЃРєР°)
+     * Get the 'ReleaseSign' element value. Признак принятия решения о внесении изменений в декларацию на товары после выпуска (1 - после выпуска, 0 - до выпуска)
      * 
      * @return value
      */
@@ -128,7 +128,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReleaseSign' element value. РџСЂРёР·РЅР°Рє РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ РІРЅРµСЃРµРЅРёРё РёР·РјРµРЅРµРЅРёР№ РІ РґРµРєР»Р°СЂР°С†РёСЋ РЅР° С‚РѕРІР°СЂС‹ РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР° (1 - РїРѕСЃР»Рµ РІС‹РїСѓСЃРєР°, 0 - РґРѕ РІС‹РїСѓСЃРєР°)
+     * Set the 'ReleaseSign' element value. Признак принятия решения о внесении изменений в декларацию на товары после выпуска (1 - после выпуска, 0 - до выпуска)
      * 
      * @param releaseSign
      */
@@ -137,7 +137,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
+     * Get the 'Declarant' element value. Сведения о декларанте
      * 
      * @return value
      */
@@ -146,7 +146,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
+     * Set the 'Declarant' element value. Сведения о декларанте
      * 
      * @param declarant
      */
@@ -155,7 +155,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Get the 'Customs' element value. Таможенный орган
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ
+     * Set the 'Customs' element value. Таможенный орган
      * 
      * @param customs
      */
@@ -173,7 +173,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'KDTCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚, РЅР° РєРѕС‚РѕСЂС‹Р№ СЃР»РµРґСѓРµС‚ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РљР”Рў
+     * Get the 'KDTCustoms' element value. Таможенный пост, на который следует предоставить КДТ
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'KDTCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚, РЅР° РєРѕС‚РѕСЂС‹Р№ СЃР»РµРґСѓРµС‚ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ РљР”Рў
+     * Set the 'KDTCustoms' element value. Таможенный пост, на который следует предоставить КДТ
      * 
      * @param KDTCustoms
      */
@@ -191,7 +191,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ChangesDescription' element items. РћРїРёСЃР°РЅРёРµ РЅРµРѕР±С…РѕРґРёРјС‹С… РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№)
+     * Get the list of 'ChangesDescription' element items. Описание необходимых изменений (дополнений)
      * 
      * @return list
      */
@@ -200,7 +200,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ChangesDescription' element items. РћРїРёСЃР°РЅРёРµ РЅРµРѕР±С…РѕРґРёРјС‹С… РёР·РјРµРЅРµРЅРёР№ (РґРѕРїРѕР»РЅРµРЅРёР№)
+     * Set the list of 'ChangesDescription' element items. Описание необходимых изменений (дополнений)
      * 
      * @param list
      */
@@ -209,7 +209,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -227,7 +227,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°РїСЂР°РІР»РµРЅРёРё СЂРµС€РµРЅРёСЏ
+     * Get the 'SendInfo' element value. Сведения о направлении решения
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РЅР°РїСЂР°РІР»РµРЅРёРё СЂРµС€РµРЅРёСЏ
+     * Set the 'SendInfo' element value. Сведения о направлении решения
      * 
      * @param sendInfo
      */
@@ -245,7 +245,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReceiveInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡РµРЅРёРё СЂРµС€РµРЅРёСЏ
+     * Get the 'ReceiveInfo' element value. Сведения о получении решения
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReceiveInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕР»СѓС‡РµРЅРёРё СЂРµС€РµРЅРёСЏ
+     * Set the 'ReceiveInfo' element value. Сведения о получении решения
      * 
      * @param receiveInfo
      */
@@ -263,7 +263,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class DeclChangeDecisionType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

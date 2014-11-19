@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.archlist;
 
 /** 
- * Р­Р»РµРјРµРЅС‚ СЃРїРёСЃРєР° Р°СЂС…РёРІРѕРІ РґРµРєР»Р°СЂР°РЅС‚Р°
+ * Элемент списка архивов декларанта
  */
 public class ArchiveListType
 {
@@ -10,7 +10,7 @@ public class ArchiveListType
     private String archName;
 
     /** 
-     * Get the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР°
+     * Get the 'ArchID' element value. Идентификатор архива
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ArchiveListType
     }
 
     /** 
-     * Set the 'ArchID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р°СЂС…РёРІР°
+     * Set the 'ArchID' element value. Идентификатор архива
      * 
      * @param archID
      */
@@ -28,7 +28,7 @@ public class ArchiveListType
     }
 
     /** 
-     * Get the 'ArchName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р°СЂС…РёРІР°
+     * Get the 'ArchName' element value. Наименование архива
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ArchiveListType
     }
 
     /** 
-     * Set the 'ArchName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р°СЂС…РёРІР°
+     * Set the 'ArchName' element value. Наименование архива
      * 
      * @param archName
      */

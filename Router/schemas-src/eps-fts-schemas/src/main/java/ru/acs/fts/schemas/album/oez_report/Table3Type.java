@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.oez_report;
 
 /** 
- * РўР°Р±Р»РёС†Р° 3. РўРѕРІР°СЂС‹, РїРѕРјРµС‰РµРЅРЅС‹Рµ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Рµ СЂРµР¶РёРјС‹ Рё РІРІРµР·РµРЅРЅС‹Рµ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёСЋ
+ * Таблица 3. Товары, помещенные под таможенные режимы и ввезенные на территорию
  */
 public class Table3Type
 {
@@ -10,7 +10,7 @@ public class Table3Type
     private Table3Section2Type table3Section2;
 
     /** 
-     * Get the 'Table3Section1' element value. РўР°Р±Р»РёС†Р° 3. Р Р°Р·РґРµР» 1. 
+     * Get the 'Table3Section1' element value. Таблица 3. Раздел 1. 
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class Table3Type
     }
 
     /** 
-     * Set the 'Table3Section1' element value. РўР°Р±Р»РёС†Р° 3. Р Р°Р·РґРµР» 1. 
+     * Set the 'Table3Section1' element value. Таблица 3. Раздел 1. 
      * 
      * @param table3Section1
      */
@@ -28,7 +28,7 @@ public class Table3Type
     }
 
     /** 
-     * Get the 'Table3Section2' element value. РўР°Р±Р»РёС†Р° 3. Р Р°Р·РґРµР» 2. 
+     * Get the 'Table3Section2' element value. Таблица 3. Раздел 2. 
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class Table3Type
     }
 
     /** 
-     * Set the 'Table3Section2' element value. РўР°Р±Р»РёС†Р° 3. Р Р°Р·РґРµР» 2. 
+     * Set the 'Table3Section2' element value. Таблица 3. Раздел 2. 
      * 
      * @param table3Section2
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ
+ * Уведомление
  */
 public class NotificationType
 {
@@ -29,7 +29,7 @@ public class NotificationType
     private List<ViolationType> violationList = new ArrayList<ViolationType>();
 
     /** 
-     * Get the 'InspectionDate' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ  РїСЂРѕРІРµРґРµРЅРёСЏ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'InspectionDate' element value. Дата и время  проведения контроля
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class NotificationType
     }
 
     /** 
-     * Set the 'InspectionDate' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ  РїСЂРѕРІРµРґРµРЅРёСЏ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'InspectionDate' element value. Дата и время  проведения контроля
      * 
      * @param inspectionDate
      */
@@ -72,7 +72,7 @@ public class NotificationType
     }
 
     /** 
-     * Get the 'BelarusControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р»РёСЃС‚Р° РєРѕРЅС‚СЂРѕР»СЏ Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
+     * Get the 'BelarusControlID' element value. Идентификатор листа контроля Республики Беларусь
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class NotificationType
     }
 
     /** 
-     * Set the 'BelarusControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р»РёСЃС‚Р° РєРѕРЅС‚СЂРѕР»СЏ Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
+     * Set the 'BelarusControlID' element value. Идентификатор листа контроля Республики Беларусь
      * 
      * @param belarusControlID
      */
@@ -100,7 +100,7 @@ public class NotificationType
     }
 
     /** 
-     * Get the 'KazakhControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р»РёСЃС‚Р° РєРѕРЅС‚СЂРѕР»СЏ Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
+     * Get the 'KazakhControlID' element value. Идентификатор листа контроля Республики Казахстан
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class NotificationType
     }
 
     /** 
-     * Set the 'KazakhControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р»РёСЃС‚Р° РєРѕРЅС‚СЂРѕР»СЏ Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
+     * Set the 'KazakhControlID' element value. Идентификатор листа контроля Республики Казахстан
      * 
      * @param kazakhControlID
      */
@@ -128,7 +128,7 @@ public class NotificationType
     }
 
     /** 
-     * Get the 'DocumentalControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+     * Get the 'DocumentalControlID' element value. Идентификатор документального контроля Российской Федерации
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class NotificationType
     }
 
     /** 
-     * Set the 'DocumentalControlID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°Р»СЊРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+     * Set the 'DocumentalControlID' element value. Идентификатор документального контроля Российской Федерации
      * 
      * @param documentalControlID
      */
@@ -147,7 +147,7 @@ public class NotificationType
     }
 
     /** 
-     * Get the 'NotificationInfo' element value. РЈРІРµРґРѕРјР»РµРЅРёРµ
+     * Get the 'NotificationInfo' element value. Уведомление
      * 
      * @return value
      */
@@ -156,7 +156,7 @@ public class NotificationType
     }
 
     /** 
-     * Set the 'NotificationInfo' element value. РЈРІРµРґРѕРјР»РµРЅРёРµ
+     * Set the 'NotificationInfo' element value. Уведомление
      * 
      * @param notificationInfo
      */
@@ -165,7 +165,7 @@ public class NotificationType
     }
 
     /** 
-     * Get the 'Driver' element value. Р’РѕРґРёС‚РµР»СЊ
+     * Get the 'Driver' element value. Водитель
      * 
      * @return value
      */
@@ -174,7 +174,7 @@ public class NotificationType
     }
 
     /** 
-     * Set the 'Driver' element value. Р’РѕРґРёС‚РµР»СЊ
+     * Set the 'Driver' element value. Водитель
      * 
      * @param driver
      */
@@ -183,7 +183,7 @@ public class NotificationType
     }
 
     /** 
-     * Get the 'NotificationEmployee' element value. РРЅСЃРїРµРєС‚РѕСЂ, РІС‹РґР°РІС€РёР№ СѓРІРµРґРѕРјР»РµРЅРёРµ
+     * Get the 'NotificationEmployee' element value. Инспектор, выдавший уведомление
      * 
      * @return value
      */
@@ -192,7 +192,7 @@ public class NotificationType
     }
 
     /** 
-     * Set the 'NotificationEmployee' element value. РРЅСЃРїРµРєС‚РѕСЂ, РІС‹РґР°РІС€РёР№ СѓРІРµРґРѕРјР»РµРЅРёРµ
+     * Set the 'NotificationEmployee' element value. Инспектор, выдавший уведомление
      * 
      * @param notificationEmployee
      */
@@ -201,7 +201,7 @@ public class NotificationType
     }
 
     /** 
-     * Get the 'NotificationOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РїСЂРѕРІРѕРґРёРІС€Р°СЏ РєРѕРЅС‚СЂРѕР»СЊ
+     * Get the 'NotificationOrg' element value. Организация, проводившая контроль
      * 
      * @return value
      */
@@ -210,7 +210,7 @@ public class NotificationType
     }
 
     /** 
-     * Set the 'NotificationOrg' element value. РћСЂРіР°РЅРёР·Р°С†РёСЏ, РїСЂРѕРІРѕРґРёРІС€Р°СЏ РєРѕРЅС‚СЂРѕР»СЊ
+     * Set the 'NotificationOrg' element value. Организация, проводившая контроль
      * 
      * @param notificationOrg
      */
@@ -219,7 +219,7 @@ public class NotificationType
     }
 
     /** 
-     * Get the 'DestOrg' element value. РљРѕРЅС‚СЂРѕР»СЊРЅС‹Р№ РїСѓРЅРєС‚ РґР»СЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'DestOrg' element value. Контрольный пункт для представления недостающих документов
      * 
      * @return value
      */
@@ -228,7 +228,7 @@ public class NotificationType
     }
 
     /** 
-     * Set the 'DestOrg' element value. РљРѕРЅС‚СЂРѕР»СЊРЅС‹Р№ РїСѓРЅРєС‚ РґР»СЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РЅРµРґРѕСЃС‚Р°СЋС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'DestOrg' element value. Контрольный пункт для представления недостающих документов
      * 
      * @param destOrg
      */
@@ -237,7 +237,7 @@ public class NotificationType
     }
 
     /** 
-     * Get the 'TSInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Get the 'TSInfo' element value. Сведения о транспортном средстве
      * 
      * @return value
      */
@@ -246,7 +246,7 @@ public class NotificationType
     }
 
     /** 
-     * Set the 'TSInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Set the 'TSInfo' element value. Сведения о транспортном средстве
      * 
      * @param TSInfo
      */
@@ -255,7 +255,7 @@ public class NotificationType
     }
 
     /** 
-     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Get the 'Carrier' element value. Перевозчик
      * 
      * @return value
      */
@@ -264,7 +264,7 @@ public class NotificationType
     }
 
     /** 
-     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Set the 'Carrier' element value. Перевозчик
      * 
      * @param carrier
      */
@@ -273,7 +273,7 @@ public class NotificationType
     }
 
     /** 
-     * Get the list of 'Violation' element items. Р’С‹СЏРІР»РµРЅРЅРѕРµ РЅР°СЂСѓС€РµРЅРёРµ
+     * Get the list of 'Violation' element items. Выявленное нарушение
      * 
      * @return list
      */
@@ -282,7 +282,7 @@ public class NotificationType
     }
 
     /** 
-     * Set the list of 'Violation' element items. Р’С‹СЏРІР»РµРЅРЅРѕРµ РЅР°СЂСѓС€РµРЅРёРµ
+     * Set the list of 'Violation' element items. Выявленное нарушение
      * 
      * @param list
      */

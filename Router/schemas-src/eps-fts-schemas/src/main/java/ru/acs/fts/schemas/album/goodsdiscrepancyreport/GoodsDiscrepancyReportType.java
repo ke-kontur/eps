@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.scvvcommonaggregatetypescust.ShipmentDiscrepancyInfoType;
 
 /** 
- * РћС‚С‡РµС‚ Рѕ РЅР°Р№РґРµРЅРЅС‹С… СЂР°СЃС…РѕР¶РґРµРЅРёСЏС… Р·Р°СЏРІР»РµРЅРЅС‹С… Рє РІС‹РІРѕР·Сѓ С‚РѕРІР°СЂРѕРІ РЅР°Рґ Р·Р°СЏРІР»РµРЅРЅС‹РјРё РїРѕ Р”Рў
+ * Отчет о найденных расхождениях заявленных к вывозу товаров над заявленными по ДТ
  */
 public class GoodsDiscrepancyReportType extends BaseDocType
 {
@@ -17,7 +17,7 @@ public class GoodsDiscrepancyReportType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DiscrepancyIndicator' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЂР°СЃС…РѕР¶РґРµРЅРёР№ РІ СЃРѕРѕР±С‰РµРЅРёРё Рѕ РІС‹РІРѕР·Рµ
+     * Get the 'DiscrepancyIndicator' element value. Признак наличия расхождений в сообщении о вывозе
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class GoodsDiscrepancyReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DiscrepancyIndicator' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ СЂР°СЃС…РѕР¶РґРµРЅРёР№ РІ СЃРѕРѕР±С‰РµРЅРёРё Рѕ РІС‹РІРѕР·Рµ
+     * Set the 'DiscrepancyIndicator' element value. Признак наличия расхождений в сообщении о вывозе
      * 
      * @param discrepancyIndicator
      */
@@ -35,7 +35,7 @@ public class GoodsDiscrepancyReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProcessNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°.
+     * Get the 'ProcessNumber' element value. Уникальный идентификатор процесса.
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class GoodsDiscrepancyReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProcessNumber' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС†РµСЃСЃР°.
+     * Set the 'ProcessNumber' element value. Уникальный идентификатор процесса.
      * 
      * @param processNumber
      */
@@ -53,7 +53,7 @@ public class GoodsDiscrepancyReportType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'ShipmentDiscrepancyInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р№РґРµРЅРЅС‹С… СЂР°СЃС…РѕР¶РґРµРЅРёСЏС… РІ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the list of 'ShipmentDiscrepancyInfo' element items. Информация о найденных расхождениях в товарной партии
      * 
      * @return list
      */
@@ -62,7 +62,7 @@ public class GoodsDiscrepancyReportType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ShipmentDiscrepancyInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅР°Р№РґРµРЅРЅС‹С… СЂР°СЃС…РѕР¶РґРµРЅРёСЏС… РІ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the list of 'ShipmentDiscrepancyInfo' element items. Информация о найденных расхождениях в товарной партии
      * 
      * @param list
      */
@@ -72,7 +72,7 @@ public class GoodsDiscrepancyReportType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class GoodsDiscrepancyReportType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

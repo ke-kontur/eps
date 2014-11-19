@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.pp_revealedrisks;
 import org.joda.time.LocalDate;
 
 /** 
- * Р’С‹СЏРІР»РµРЅРЅС‹Рµ РџР /РЎРџР 
+ * Выявленные ПР/СПР
  */
 public class ProfilesType
 {
@@ -22,7 +22,7 @@ public class ProfilesType
     private String ID;
 
     /** 
-     * Get the 'DivisionCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СЂР°Р·СЂР°Р±РѕС‚Р°РІС€РµРіРѕ РџР /РЎРџР 
+     * Get the 'DivisionCode' element value. Код таможенного органа, разработавшего ПР/СПР
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class ProfilesType
     }
 
     /** 
-     * Set the 'DivisionCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СЂР°Р·СЂР°Р±РѕС‚Р°РІС€РµРіРѕ РџР /РЎРџР 
+     * Set the 'DivisionCode' element value. Код таможенного органа, разработавшего ПР/СПР
      * 
      * @param divisionCode
      */
@@ -40,7 +40,7 @@ public class ProfilesType
     }
 
     /** 
-     * Get the 'DocumentSignCode' element value. РљРѕРґ РїСЂРёР·РЅР°РєР° РґРѕРєСѓРјРµРЅС‚Р°. Р’РѕР·РјРѕР¶РЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ: 11 - РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРёР№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 12 - СЂРµРіРёРѕРЅР°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 13 - Р·РѕРЅР°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 55 - РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Р№ Рє РїСЂРёРјРµРЅРµРЅРёСЋ, 20 - СЃСЂРѕС‡РЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°.
+     * Get the 'DocumentSignCode' element value. Код признака документа. Возможные значения: 11 - общероссийский профиль риска, 12 - региональный профиль риска, 13 - зональный профиль риска, 55 - профиль риска, обязательный к применению, 20 - срочный профиль риска.
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class ProfilesType
     }
 
     /** 
-     * Set the 'DocumentSignCode' element value. РљРѕРґ РїСЂРёР·РЅР°РєР° РґРѕРєСѓРјРµРЅС‚Р°. Р’РѕР·РјРѕР¶РЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ: 11 - РѕР±С‰РµСЂРѕСЃСЃРёР№СЃРєРёР№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 12 - СЂРµРіРёРѕРЅР°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 13 - Р·РѕРЅР°Р»СЊРЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, 55 - РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°, РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Р№ Рє РїСЂРёРјРµРЅРµРЅРёСЋ, 20 - СЃСЂРѕС‡РЅС‹Р№ РїСЂРѕС„РёР»СЊ СЂРёСЃРєР°.
+     * Set the 'DocumentSignCode' element value. Код признака документа. Возможные значения: 11 - общероссийский профиль риска, 12 - региональный профиль риска, 13 - зональный профиль риска, 55 - профиль риска, обязательный к применению, 20 - срочный профиль риска.
      * 
      * @param documentSignCode
      */
@@ -58,7 +58,7 @@ public class ProfilesType
     }
 
     /** 
-     * Get the 'RegistryDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РџР /РЎРџР 
+     * Get the 'RegistryDate' element value. Дата регистрации ПР/СПР
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class ProfilesType
     }
 
     /** 
-     * Set the 'RegistryDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РџР /РЎРџР 
+     * Set the 'RegistryDate' element value. Дата регистрации ПР/СПР
      * 
      * @param registryDate
      */
@@ -76,7 +76,7 @@ public class ProfilesType
     }
 
     /** 
-     * Get the 'SequenceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РџР /РЎРџР 
+     * Get the 'SequenceNumber' element value. Порядковый номер ПР/СПР
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class ProfilesType
     }
 
     /** 
-     * Set the 'SequenceNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РџР /РЎРџР 
+     * Set the 'SequenceNumber' element value. Порядковый номер ПР/СПР
      * 
      * @param sequenceNumber
      */
@@ -94,7 +94,7 @@ public class ProfilesType
     }
 
     /** 
-     * Get the 'VersionNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РџР /РЎРџР 
+     * Get the 'VersionNumber' element value. Порядковый номер версии ПР/СПР
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class ProfilesType
     }
 
     /** 
-     * Set the 'VersionNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РІРµСЂСЃРёРё РџР /РЎРџР 
+     * Set the 'VersionNumber' element value. Порядковый номер версии ПР/СПР
      * 
      * @param versionNumber
      */
@@ -112,7 +112,7 @@ public class ProfilesType
     }
 
     /** 
-     * Get the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РІРµСЂСЃРёРё РџР /РЎРџР 
+     * Get the 'BeginDate' element value. Дата начала действия версии ПР/СПР
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class ProfilesType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РІРµСЂСЃРёРё РџР /РЎРџР 
+     * Set the 'BeginDate' element value. Дата начала действия версии ПР/СПР
      * 
      * @param beginDate
      */
@@ -130,7 +130,7 @@ public class ProfilesType
     }
 
     /** 
-     * Get the 'DocumentDescription' element value. РћРїРёСЃР°РЅРёРµ СЂРёСЃРєР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РґР»СЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРёС… РѕСЂРёРµРЅС‚РёСЂРѕРІРѕРє)
+     * Get the 'DocumentDescription' element value. Описание риска (заполняется только для автоматических ориентировок)
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class ProfilesType
     }
 
     /** 
-     * Set the 'DocumentDescription' element value. РћРїРёСЃР°РЅРёРµ СЂРёСЃРєР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РґР»СЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРёС… РѕСЂРёРµРЅС‚РёСЂРѕРІРѕРє)
+     * Set the 'DocumentDescription' element value. Описание риска (заполняется только для автоматических ориентировок)
      * 
      * @param documentDescription
      */
@@ -148,7 +148,7 @@ public class ProfilesType
     }
 
     /** 
-     * Get the 'PRNote' element value. РџСЂРёРјРµС‡Р°РЅРёРµ Рє РџР /РЎРџР 
+     * Get the 'PRNote' element value. Примечание к ПР/СПР
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class ProfilesType
     }
 
     /** 
-     * Set the 'PRNote' element value. РџСЂРёРјРµС‡Р°РЅРёРµ Рє РџР /РЎРџР 
+     * Set the 'PRNote' element value. Примечание к ПР/СПР
      * 
      * @param PRNote
      */
@@ -166,7 +166,7 @@ public class ProfilesType
     }
 
     /** 
-     * Get the 'ActivityCode' element value. РљРѕРґ РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ, РїРѕ РЅР°РїСЂР°РІР»РµРЅРёСЋ РєРѕС‚РѕСЂРѕРіРѕ РІС‹СЏРІР»РµРЅ СЂРёСЃРє
+     * Get the 'ActivityCode' element value. Код направления деятельности подразделения, по направлению которого выявлен риск
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class ProfilesType
     }
 
     /** 
-     * Set the 'ActivityCode' element value. РљРѕРґ РЅР°РїСЂР°РІР»РµРЅРёСЏ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ, РїРѕ РЅР°РїСЂР°РІР»РµРЅРёСЋ РєРѕС‚РѕСЂРѕРіРѕ РІС‹СЏРІР»РµРЅ СЂРёСЃРє
+     * Set the 'ActivityCode' element value. Код направления деятельности подразделения, по направлению которого выявлен риск
      * 
      * @param activityCode
      */
@@ -184,7 +184,7 @@ public class ProfilesType
     }
 
     /** 
-     * Get the 'CriterionCodeInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РёРїРѕРІРѕРј РєСЂРёС‚РµСЂРёРё
+     * Get the 'CriterionCodeInfo' element value. Информация о типовом критерии
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class ProfilesType
     }
 
     /** 
-     * Set the 'CriterionCodeInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РёРїРѕРІРѕРј РєСЂРёС‚РµСЂРёРё
+     * Set the 'CriterionCodeInfo' element value. Информация о типовом критерии
      * 
      * @param criterionCodeInfo
      */
@@ -202,7 +202,7 @@ public class ProfilesType
     }
 
     /** 
-     * Get the 'MinimizeMeasures' element value. РњРµСЂС‹ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°
+     * Get the 'MinimizeMeasures' element value. Меры по минимизации риска
      * 
      * @return value
      */
@@ -211,7 +211,7 @@ public class ProfilesType
     }
 
     /** 
-     * Set the 'MinimizeMeasures' element value. РњРµСЂС‹ РїРѕ РјРёРЅРёРјРёР·Р°С†РёРё СЂРёСЃРєР°
+     * Set the 'MinimizeMeasures' element value. Меры по минимизации риска
      * 
      * @param minimizeMeasures
      */
@@ -220,7 +220,7 @@ public class ProfilesType
     }
 
     /** 
-     * Get the 'ID' attribute value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РєРѕС‚РѕСЂС‹Р№ РїСЂРёСЃРІР°РёРІР°РµС‚СЃСЏ РїСЂРѕС„РёР»СЋ СЂРёСЃРєР° РІ РЎР’Р  "РџРџ"
+     * Get the 'ID' attribute value. Уникальный идентификатор, который присваивается профилю риска в СВР "ПП"
      * 
      * @return value
      */
@@ -229,7 +229,7 @@ public class ProfilesType
     }
 
     /** 
-     * Set the 'ID' attribute value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ, РєРѕС‚РѕСЂС‹Р№ РїСЂРёСЃРІР°РёРІР°РµС‚СЃСЏ РїСЂРѕС„РёР»СЋ СЂРёСЃРєР° РІ РЎР’Р  "РџРџ"
+     * Set the 'ID' attribute value. Уникальный идентификатор, который присваивается профилю риска в СВР "ПП"
      * 
      * @param ID
      */

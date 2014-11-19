@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РћР±С‰РёРµ СЃРІРµРґРµРЅРёСЏ РѕР± СѓС‡Р°СЃС‚РЅРёРєРµ
+ * Общие сведения об участнике
  */
 public class GeneralParticipantInfoType extends OrganizationBaseType
 {

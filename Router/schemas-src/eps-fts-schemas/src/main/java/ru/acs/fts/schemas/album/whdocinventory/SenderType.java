@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.whdocinventory;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHCarrierType;
 
 /** 
- * РћС‚РїСЂР°РІРёС‚РµР»СЊ
+ * Отправитель
  */
 public class SenderType
 {
@@ -40,7 +40,7 @@ public class SenderType
     }
 
     /** 
-     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Get the 'Carrier' element value. Перевозчик
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class SenderType
     }
 
     /** 
-     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Set the 'Carrier' element value. Перевозчик
      * 
      * @param carrier
      */
@@ -68,7 +68,7 @@ public class SenderType
     }
 
     /** 
-     * Get the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
+     * Get the 'Customs' element value. Таможенный пост
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class SenderType
     }
 
     /** 
-     * Set the 'Customs' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїРѕСЃС‚
+     * Set the 'Customs' element value. Таможенный пост
      * 
      * @param customs
      */

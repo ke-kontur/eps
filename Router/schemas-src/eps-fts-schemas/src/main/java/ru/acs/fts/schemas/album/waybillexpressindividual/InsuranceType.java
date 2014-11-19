@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.waybillexpressindividual;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃС‚СЂР°С…РѕРІРєРµ
+ * Информация о страховке
  */
 public class InsuranceType
 {
@@ -14,7 +14,7 @@ public class InsuranceType
     private OrganizationBaseType insuanceCompany;
 
     /** 
-     * Get the 'Amount' element value. РЎСѓРјРјР° СЃС‚СЂР°С…РѕРІРєРё
+     * Get the 'Amount' element value. Сумма страховки
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class InsuranceType
     }
 
     /** 
-     * Set the 'Amount' element value. РЎСѓРјРјР° СЃС‚СЂР°С…РѕРІРєРё
+     * Set the 'Amount' element value. Сумма страховки
      * 
      * @param amount
      */
@@ -32,7 +32,7 @@ public class InsuranceType
     }
 
     /** 
-     * Get the 'Account' element value. РќРѕРјРµСЂ СЃС‡С‘С‚Р°
+     * Get the 'Account' element value. Номер счёта
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class InsuranceType
     }
 
     /** 
-     * Set the 'Account' element value. РќРѕРјРµСЂ СЃС‡С‘С‚Р°
+     * Set the 'Account' element value. Номер счёта
      * 
      * @param account
      */
@@ -50,7 +50,7 @@ public class InsuranceType
     }
 
     /** 
-     * Get the 'PaymentType' element value. Р’РёРґ РѕРїР»Р°С‚С‹. 1 - РЅР°Р»РёС‡РЅС‹Рµ, 2 - С‡РµРє, 3 - РєСЂРµРґРёС‚РЅР°СЏ РєР°СЂС‚Р°
+     * Get the 'PaymentType' element value. Вид оплаты. 1 - наличные, 2 - чек, 3 - кредитная карта
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class InsuranceType
     }
 
     /** 
-     * Set the 'PaymentType' element value. Р’РёРґ РѕРїР»Р°С‚С‹. 1 - РЅР°Р»РёС‡РЅС‹Рµ, 2 - С‡РµРє, 3 - РєСЂРµРґРёС‚РЅР°СЏ РєР°СЂС‚Р°
+     * Set the 'PaymentType' element value. Вид оплаты. 1 - наличные, 2 - чек, 3 - кредитная карта
      * 
      * @param paymentType
      */
@@ -68,7 +68,7 @@ public class InsuranceType
     }
 
     /** 
-     * Get the 'InsuanceCompany' element value. РЎС‚СЂР°С…РѕРІР°СЏ РєРѕРјРїР°РЅРёСЏ
+     * Get the 'InsuanceCompany' element value. Страховая компания
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class InsuranceType
     }
 
     /** 
-     * Set the 'InsuanceCompany' element value. РЎС‚СЂР°С…РѕРІР°СЏ РєРѕРјРїР°РЅРёСЏ
+     * Set the 'InsuanceCompany' element value. Страховая компания
      * 
      * @param insuanceCompany
      */

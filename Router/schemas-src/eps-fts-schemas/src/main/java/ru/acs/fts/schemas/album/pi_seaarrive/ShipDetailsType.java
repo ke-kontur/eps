@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationType;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ Рё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё СЃСѓРґРЅР°
+ * Реквизиты и характеристики судна
  */
 public class ShipDetailsType
 {
@@ -27,7 +27,7 @@ public class ShipDetailsType
     private OrganizationType shipAgent;
 
     /** 
-     * Get the 'ShipIMONumber' element value. РРњРћ РЅРѕРјРµСЂ СЃСѓРґРЅР°
+     * Get the 'ShipIMONumber' element value. ИМО номер судна
      * 
      * @return value
      */
@@ -36,7 +36,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'ShipIMONumber' element value. РРњРћ РЅРѕРјРµСЂ СЃСѓРґРЅР°
+     * Set the 'ShipIMONumber' element value. ИМО номер судна
      * 
      * @param shipIMONumber
      */
@@ -45,7 +45,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'ShipName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°
+     * Get the 'ShipName' element value. Наименование судна
      * 
      * @return value
      */
@@ -54,7 +54,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'ShipName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°
+     * Set the 'ShipName' element value. Наименование судна
      * 
      * @param shipName
      */
@@ -63,7 +63,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'CapitainSurname' element value. Р¤Р°РјРёР»РёСЏ РєР°РїРёС‚Р°РЅР° СЃСѓРґРЅР°
+     * Get the 'CapitainSurname' element value. Фамилия капитана судна
      * 
      * @return value
      */
@@ -72,7 +72,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'CapitainSurname' element value. Р¤Р°РјРёР»РёСЏ РєР°РїРёС‚Р°РЅР° СЃСѓРґРЅР°
+     * Set the 'CapitainSurname' element value. Фамилия капитана судна
      * 
      * @param capitainSurname
      */
@@ -81,7 +81,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'ShipCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё СЃСѓРґРЅР°
+     * Get the 'ShipCountryCode' element value. Код страны принадлежности судна
      * 
      * @return value
      */
@@ -90,7 +90,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'ShipCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё СЃСѓРґРЅР°
+     * Set the 'ShipCountryCode' element value. Код страны принадлежности судна
      * 
      * @param shipCountryCode
      */
@@ -99,7 +99,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'ShipRegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
+     * Get the 'ShipRegDate' element value. Дата регистрации судна
      * 
      * @return value
      */
@@ -108,7 +108,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'ShipRegDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
+     * Set the 'ShipRegDate' element value. Дата регистрации судна
      * 
      * @param shipRegDate
      */
@@ -117,7 +117,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'ShipRegNum' element value. РќРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
+     * Get the 'ShipRegNum' element value. Номер регистрации судна
      * 
      * @return value
      */
@@ -126,7 +126,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'ShipRegNum' element value. РќРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
+     * Set the 'ShipRegNum' element value. Номер регистрации судна
      * 
      * @param shipRegNum
      */
@@ -135,7 +135,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'ShipRegPort' element value. РџРѕСЂС‚ СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
+     * Get the 'ShipRegPort' element value. Порт регистрации судна
      * 
      * @return value
      */
@@ -144,7 +144,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'ShipRegPort' element value. РџРѕСЂС‚ СЂРµРіРёСЃС‚СЂР°С†РёРё СЃСѓРґРЅР°
+     * Set the 'ShipRegPort' element value. Порт регистрации судна
      * 
      * @param shipRegPort
      */
@@ -153,7 +153,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'Flag' element value. Р¤Р»Р°Рі СЃСѓРґРЅР°
+     * Get the 'Flag' element value. Флаг судна
      * 
      * @return value
      */
@@ -162,7 +162,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'Flag' element value. Р¤Р»Р°Рі СЃСѓРґРЅР°
+     * Set the 'Flag' element value. Флаг судна
      * 
      * @param flag
      */
@@ -171,7 +171,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'Berth' element value. РњРµСЃС‚Рѕ СЃС‚РѕСЏРЅРєРё СЃСѓРґРЅР° РІ РїРѕСЂС‚Сѓ
+     * Get the 'Berth' element value. Место стоянки судна в порту
      * 
      * @return value
      */
@@ -180,7 +180,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'Berth' element value. РњРµСЃС‚Рѕ СЃС‚РѕСЏРЅРєРё СЃСѓРґРЅР° РІ РїРѕСЂС‚Сѓ
+     * Set the 'Berth' element value. Место стоянки судна в порту
      * 
      * @param berth
      */
@@ -189,7 +189,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'GrossTonnage' element value. Р’Р°Р»РѕРІР°СЏ РІРјРµСЃС‚РёРјРѕСЃС‚СЊ(С‚РѕРЅРЅР°Р¶)
+     * Get the 'GrossTonnage' element value. Валовая вместимость(тоннаж)
      * 
      * @return value
      */
@@ -198,7 +198,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'GrossTonnage' element value. Р’Р°Р»РѕРІР°СЏ РІРјРµСЃС‚РёРјРѕСЃС‚СЊ(С‚РѕРЅРЅР°Р¶)
+     * Set the 'GrossTonnage' element value. Валовая вместимость(тоннаж)
      * 
      * @param grossTonnage
      */
@@ -207,7 +207,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'NetTonnage' element value. Р§РёСЃС‚Р°СЏ РІРјРµСЃС‚РёРјРѕСЃС‚СЊ(С‚РѕРЅРЅР°Р¶)
+     * Get the 'NetTonnage' element value. Чистая вместимость(тоннаж)
      * 
      * @return value
      */
@@ -216,7 +216,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'NetTonnage' element value. Р§РёСЃС‚Р°СЏ РІРјРµСЃС‚РёРјРѕСЃС‚СЊ(С‚РѕРЅРЅР°Р¶)
+     * Set the 'NetTonnage' element value. Чистая вместимость(тоннаж)
      * 
      * @param netTonnage
      */
@@ -225,7 +225,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'ShipOwnerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРѕРІР»Р°РґРµР»СЊС†Р°
+     * Get the 'ShipOwnerName' element value. Наименование судовладельца
      * 
      * @return value
      */
@@ -234,7 +234,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'ShipOwnerName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРѕРІР»Р°РґРµР»СЊС†Р°
+     * Set the 'ShipOwnerName' element value. Наименование судовладельца
      * 
      * @param shipOwnerName
      */
@@ -243,7 +243,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'ShipType' element value. РўРёРї СЃСѓРґРЅР°
+     * Get the 'ShipType' element value. Тип судна
      * 
      * @return value
      */
@@ -252,7 +252,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'ShipType' element value. РўРёРї СЃСѓРґРЅР°
+     * Set the 'ShipType' element value. Тип судна
      * 
      * @param shipType
      */
@@ -261,7 +261,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'ArrivalPlace' element value. РџРѕСЂС‚ Рё СЃС‚СЂР°РЅР° РїСЂРёР±С‹С‚РёСЏ
+     * Get the 'ArrivalPlace' element value. Порт и страна прибытия
      * 
      * @return value
      */
@@ -270,7 +270,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'ArrivalPlace' element value. РџРѕСЂС‚ Рё СЃС‚СЂР°РЅР° РїСЂРёР±С‹С‚РёСЏ
+     * Set the 'ArrivalPlace' element value. Порт и страна прибытия
      * 
      * @param arrivalPlace
      */
@@ -279,7 +279,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'DepaturePlace' element value. РџРѕСЂС‚ Рё СЃС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DepaturePlace' element value. Порт и страна отправления
      * 
      * @return value
      */
@@ -288,7 +288,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'DepaturePlace' element value. РџРѕСЂС‚ Рё СЃС‚СЂР°РЅР° РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DepaturePlace' element value. Порт и страна отправления
      * 
      * @param depaturePlace
      */
@@ -297,7 +297,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Get the 'ShipAgent' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРѕРІРѕРј Р°РіРµРЅС‚Рµ
+     * Get the 'ShipAgent' element value. Сведения о судовом агенте
      * 
      * @return value
      */
@@ -306,7 +306,7 @@ public class ShipDetailsType
     }
 
     /** 
-     * Set the 'ShipAgent' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРѕРІРѕРј Р°РіРµРЅС‚Рµ
+     * Set the 'ShipAgent' element value. Сведения о судовом агенте
      * 
      * @param shipAgent
      */

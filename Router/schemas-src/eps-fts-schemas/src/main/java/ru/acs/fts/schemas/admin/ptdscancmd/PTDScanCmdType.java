@@ -5,7 +5,7 @@ import java.math.BigInteger;
 import ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType;
 
 /** 
- * РљРѕРјР°РЅРґС‹ РЅР° РїРѕРёСЃРє РїСЂРѕСЃСЂРѕС‡РµРЅРЅС‹С… РџРўР”
+ * Команды на поиск просроченных ПТД
  */
 public class PTDScanCmdType extends BaseDocType
 {
@@ -13,7 +13,7 @@ public class PTDScanCmdType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'IntervalDay' element value. РРЅС‚РµСЂРІР°Р» РІ РґРЅСЏС…
+     * Get the 'IntervalDay' element value. Интервал в днях
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PTDScanCmdType extends BaseDocType
     }
 
     /** 
-     * Set the 'IntervalDay' element value. РРЅС‚РµСЂРІР°Р» РІ РґРЅСЏС…
+     * Set the 'IntervalDay' element value. Интервал в днях
      * 
      * @param intervalDay
      */
@@ -31,7 +31,7 @@ public class PTDScanCmdType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class PTDScanCmdType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

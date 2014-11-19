@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.esadoutp;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РµРј РѕС‚РїСЂР°РІРєСѓ
+ * Сведения о лице, осуществившем отправку
  */
 public class PersonInfoType
 {
@@ -10,7 +10,7 @@ public class PersonInfoType
     private String personPost;
 
     /** 
-     * Get the 'PersonName' element value. Р¤РРћ Р»РёС†Р°, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РµРіРѕ РѕС‚РїСЂР°РІРєСѓ
+     * Get the 'PersonName' element value. ФИО лица, осуществившего отправку
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'PersonName' element value. Р¤РРћ Р»РёС†Р°, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РµРіРѕ РѕС‚РїСЂР°РІРєСѓ
+     * Set the 'PersonName' element value. ФИО лица, осуществившего отправку
      * 
      * @param personName
      */
@@ -28,7 +28,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Get the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
+     * Get the 'PersonPost' element value. Должность
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class PersonInfoType
     }
 
     /** 
-     * Set the 'PersonPost' element value. Р”РѕР»Р¶РЅРѕСЃС‚СЊ
+     * Set the 'PersonPost' element value. Должность
      * 
      * @param personPost
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.mediacertificate;
 
 /** 
- * РўРµСЂСЂРёС‚РѕСЂРёСЏ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅРµРЅРёСЏ
+ * Территория распространения
  */
 public class DistributionTerritoryType
 {
@@ -11,7 +11,7 @@ public class DistributionTerritoryType
     private String comment;
 
     /** 
-     * Get the 'RegionCode' element value. РљРѕРґ СЂРµРіРёРѕРЅР° Р Р¤
+     * Get the 'RegionCode' element value. Код региона РФ
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DistributionTerritoryType
     }
 
     /** 
-     * Set the 'RegionCode' element value. РљРѕРґ СЂРµРіРёРѕРЅР° Р Р¤
+     * Set the 'RegionCode' element value. Код региона РФ
      * 
      * @param regionCode
      */
@@ -29,7 +29,7 @@ public class DistributionTerritoryType
     }
 
     /** 
-     * Get the 'RegionName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёРѕРЅР° Р Р¤
+     * Get the 'RegionName' element value. Наименование региона РФ
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class DistributionTerritoryType
     }
 
     /** 
-     * Set the 'RegionName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёРѕРЅР° Р Р¤
+     * Set the 'RegionName' element value. Наименование региона РФ
      * 
      * @param regionName
      */
@@ -47,7 +47,7 @@ public class DistributionTerritoryType
     }
 
     /** 
-     * Get the 'Comment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
+     * Get the 'Comment' element value. Комментарий
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class DistributionTerritoryType
     }
 
     /** 
-     * Set the 'Comment' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
+     * Set the 'Comment' element value. Комментарий
      * 
      * @param comment
      */

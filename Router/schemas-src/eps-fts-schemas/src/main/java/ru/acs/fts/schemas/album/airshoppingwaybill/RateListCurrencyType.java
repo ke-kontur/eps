@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.airshoppingwaybill;
 
 /** 
- * РЎРїРёСЃРѕРє РєСѓСЂСЃРѕРІ РІР°Р»СЋС‚
+ * Список курсов валют
  */
 public class RateListCurrencyType
 {
@@ -11,7 +11,7 @@ public class RateListCurrencyType
     private String currencyRate;
 
     /** 
-     * Get the 'CurrencyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІР°Р»СЋС‚С‹
+     * Get the 'CurrencyName' element value. Наименование валюты
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class RateListCurrencyType
     }
 
     /** 
-     * Set the 'CurrencyName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РІР°Р»СЋС‚С‹
+     * Set the 'CurrencyName' element value. Наименование валюты
      * 
      * @param currencyName
      */
@@ -29,7 +29,7 @@ public class RateListCurrencyType
     }
 
     /** 
-     * Get the 'Currency' element value. Р’Р°Р»СЋС‚Р°
+     * Get the 'Currency' element value. Валюта
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RateListCurrencyType
     }
 
     /** 
-     * Set the 'Currency' element value. Р’Р°Р»СЋС‚Р°
+     * Set the 'Currency' element value. Валюта
      * 
      * @param currency
      */
@@ -47,7 +47,7 @@ public class RateListCurrencyType
     }
 
     /** 
-     * Get the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
+     * Get the 'CurrencyRate' element value. Курс валюты
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RateListCurrencyType
     }
 
     /** 
-     * Set the 'CurrencyRate' element value. РљСѓСЂСЃ РІР°Р»СЋС‚С‹
+     * Set the 'CurrencyRate' element value. Курс валюты
      * 
      * @param currencyRate
      */

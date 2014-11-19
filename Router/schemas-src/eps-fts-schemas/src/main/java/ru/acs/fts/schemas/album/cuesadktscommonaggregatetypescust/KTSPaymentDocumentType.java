@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.RFOrganizationFeaturesT
 import ru.acs.fts.schemas.album.commonaggregatetypescust.RKOrganizationFeaturesType;
 
 /** 
- * РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+ * Платежный документ
  */
 public class KTSPaymentDocumentType extends DocumentBaseType
 {
@@ -16,7 +16,7 @@ public class KTSPaymentDocumentType extends DocumentBaseType
     private Choice choice;
 
     /** 
-     * Get the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Get the 'PaymentAmount' element value. Сумма платежа
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class KTSPaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PaymentAmount' element value. РЎСѓРјРјР° РїР»Р°С‚РµР¶Р°
+     * Set the 'PaymentAmount' element value. Сумма платежа
      * 
      * @param paymentAmount
      */
@@ -34,7 +34,7 @@ public class KTSPaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PaymentWayCode' element value. РЎРїРѕСЃРѕР± СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
+     * Get the 'PaymentWayCode' element value. Способ уплаты в соответствии с классификатором способов уплаты таможенных и иных платежей, взимание которых возложено на таможенные органы
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class KTSPaymentDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PaymentWayCode' element value. РЎРїРѕСЃРѕР± СѓРїР»Р°С‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј СЃРїРѕСЃРѕР±РѕРІ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… Рё РёРЅС‹С… РїР»Р°С‚РµР¶РµР№, РІР·РёРјР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РІРѕР·Р»РѕР¶РµРЅРѕ РЅР° С‚Р°РјРѕР¶РµРЅРЅС‹Рµ РѕСЂРіР°РЅС‹
+     * Set the 'PaymentWayCode' element value. Способ уплаты в соответствии с классификатором способов уплаты таможенных и иных платежей, взимание которых возложено на таможенные органы
      * 
      * @param paymentWayCode
      */
@@ -104,7 +104,7 @@ public class KTSPaymentDocumentType extends DocumentBaseType
         }
 
         /** 
-         * Get the 'RFOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+         * Get the 'RFOrganizationFeatures' element value. Сведения об организации. Особенности Российской Федерации
          * 
          * @return value
          */
@@ -113,7 +113,7 @@ public class KTSPaymentDocumentType extends DocumentBaseType
         }
 
         /** 
-         * Set the 'RFOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё
+         * Set the 'RFOrganizationFeatures' element value. Сведения об организации. Особенности Российской Федерации
          * 
          * @param RFOrganizationFeatures
          */
@@ -133,7 +133,7 @@ public class KTSPaymentDocumentType extends DocumentBaseType
         }
 
         /** 
-         * Get the 'RKOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
+         * Get the 'RKOrganizationFeatures' element value. Сведения об организации. Особенности Республики Казахстан
          * 
          * @return value
          */
@@ -142,7 +142,7 @@ public class KTSPaymentDocumentType extends DocumentBaseType
         }
 
         /** 
-         * Set the 'RKOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё РљР°Р·Р°С…СЃС‚Р°РЅ
+         * Set the 'RKOrganizationFeatures' element value. Сведения об организации. Особенности Республики Казахстан
          * 
          * @param RKOrganizationFeatures
          */
@@ -162,7 +162,7 @@ public class KTSPaymentDocumentType extends DocumentBaseType
         }
 
         /** 
-         * Get the 'RBOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
+         * Get the 'RBOrganizationFeatures' element value. Сведения об организации. Особенности Республики Беларусь
          * 
          * @return value
          */
@@ -171,7 +171,7 @@ public class KTSPaymentDocumentType extends DocumentBaseType
         }
 
         /** 
-         * Set the 'RBOrganizationFeatures' element value. РЎРІРµРґРµРЅРёСЏ РѕР± РѕСЂРіР°РЅРёР·Р°С†РёРё. РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё Р РµСЃРїСѓР±Р»РёРєРё Р‘РµР»Р°СЂСѓСЃСЊ
+         * Set the 'RBOrganizationFeatures' element value. Сведения об организации. Особенности Республики Беларусь
          * 
          * @param RBOrganizationFeatures
          */

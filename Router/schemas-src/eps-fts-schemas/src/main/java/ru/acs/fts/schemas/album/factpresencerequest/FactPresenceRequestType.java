@@ -12,7 +12,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ Рѕ С„Р°РєС‚Рµ РЅР°Р»РёС‡РёСЏ С‚РѕРІР°СЂРѕРІ (Рѕ С„Р°РєС‚Рµ СЃРѕРІРµСЂС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РѕРїРµСЂР°С†РёР№, РЅРµРѕР±С…РѕРґРёРјС‹С… РґР»СЏ Р·Р°РІРµСЂС€РµРЅРёСЏ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ С‚СЂР°РЅР·РёС‚Р°/Р—Р°РїСЂРѕСЃ РёРЅС„РѕСЂРјР°С†РёРё Рѕ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…, СѓРєР°Р·Р°РЅРЅС‹С… РІ РіСЂР°С„Рµ 44)
+ * Запрос о факте наличия товаров (о факте совершения таможенных операций, необходимых для завершения таможенного транзита/Запрос информации о разрешительных документах, указанных в графе 44)
  */
 public class FactPresenceRequestType extends BaseDocType
 {
@@ -31,7 +31,7 @@ public class FactPresenceRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DepartureCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DepartureCountryCode' element value. Код страны отправления
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DepartureCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DepartureCountryCode' element value. Код страны отправления
      * 
      * @param departureCountryCode
      */
@@ -49,7 +49,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReqDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'ReqDate' element value. Дата формирования запроса
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqDate' element value. Р”Р°С‚Р° С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'ReqDate' element value. Дата формирования запроса
      * 
      * @param reqDate
      */
@@ -67,7 +67,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReqTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Get the 'ReqTime' element value. Время формирования запроса
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReqTime' element value. Р’СЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Р·Р°РїСЂРѕСЃР°
+     * Set the 'ReqTime' element value. Время формирования запроса
      * 
      * @param reqTime
      */
@@ -85,7 +85,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Get the 'Consignor' element value. Отправитель
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignor' element value. РћС‚РїСЂР°РІРёС‚РµР»СЊ
+     * Set the 'Consignor' element value. Отправитель
      * 
      * @param consignor
      */
@@ -103,7 +103,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Get the 'Consignee' element value. Получатель
      * 
      * @return value
      */
@@ -112,7 +112,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Consignee' element value. РџРѕР»СѓС‡Р°С‚РµР»СЊ
+     * Set the 'Consignee' element value. Получатель
      * 
      * @param consignee
      */
@@ -121,7 +121,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'GoodsLocationCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Get the 'GoodsLocationCustoms' element value. Таможенный орган местонахождения товаров
      * 
      * @return value
      */
@@ -130,7 +130,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'GoodsLocationCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Set the 'GoodsLocationCustoms' element value. Таможенный орган местонахождения товаров
      * 
      * @param goodsLocationCustoms
      */
@@ -139,7 +139,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Marks' element items. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the list of 'Marks' element items. Отметки о прохождении товарами таможенного и иных видов контроля
      * 
      * @return list
      */
@@ -148,7 +148,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Marks' element items. РћС‚РјРµС‚РєРё Рѕ РїСЂРѕС…РѕР¶РґРµРЅРёРё С‚РѕРІР°СЂР°РјРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ Рё РёРЅС‹С… РІРёРґРѕРІ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the list of 'Marks' element items. Отметки о прохождении товарами таможенного и иных видов контроля
      * 
      * @param list
      */
@@ -157,7 +157,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -166,7 +166,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -175,7 +175,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРј Р·Р°РїСЂРѕСЃ
+     * Get the 'Customs' element value. Сведения о таможенном органе, осуществляющем запрос
      * 
      * @return value
      */
@@ -184,7 +184,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµРј Р·Р°РїСЂРѕСЃ
+     * Set the 'Customs' element value. Сведения о таможенном органе, осуществляющем запрос
      * 
      * @param customs
      */
@@ -193,7 +193,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'TransportMeanArrive' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Get the list of 'TransportMeanArrive' element items. Описание транспортного средства
      * 
      * @return list
      */
@@ -202,7 +202,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TransportMeanArrive' element items. РћРїРёСЃР°РЅРёРµ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°
+     * Set the list of 'TransportMeanArrive' element items. Описание транспортного средства
      * 
      * @param list
      */
@@ -229,7 +229,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
+     * Get the 'Declarant' element value. Сведения о декларанте
      * 
      * @return value
      */
@@ -238,7 +238,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
+     * Set the 'Declarant' element value. Сведения о декларанте
      * 
      * @param declarant
      */
@@ -247,7 +247,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -256,7 +256,7 @@ public class FactPresenceRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */
@@ -299,7 +299,7 @@ public class FactPresenceRequestType extends BaseDocType
         }
 
         /** 
-         * Get the 'TransportDoc' element value. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ (РїРµСЂРµРІРѕР·РѕС‡РЅРѕРіРѕ) РґРѕРєСѓРјРµРЅС‚Р°
+         * Get the 'TransportDoc' element value. Номер транспортного (перевозочного) документа
          * 
          * @return value
          */
@@ -308,7 +308,7 @@ public class FactPresenceRequestType extends BaseDocType
         }
 
         /** 
-         * Set the 'TransportDoc' element value. РќРѕРјРµСЂ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ (РїРµСЂРµРІРѕР·РѕС‡РЅРѕРіРѕ) РґРѕРєСѓРјРµРЅС‚Р°
+         * Set the 'TransportDoc' element value. Номер транспортного (перевозочного) документа
          * 
          * @param transportDoc
          */
@@ -327,7 +327,7 @@ public class FactPresenceRequestType extends BaseDocType
         }
 
         /** 
-         * Get the 'TDNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+         * Get the 'TDNumber' element value. Номер транзитной декларации
          * 
          * @return value
          */
@@ -336,7 +336,7 @@ public class FactPresenceRequestType extends BaseDocType
         }
 
         /** 
-         * Set the 'TDNumber' element value. РќРѕРјРµСЂ С‚СЂР°РЅР·РёС‚РЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё
+         * Set the 'TDNumber' element value. Номер транзитной декларации
          * 
          * @param TDNumber
          */
@@ -355,7 +355,7 @@ public class FactPresenceRequestType extends BaseDocType
         }
 
         /** 
-         * Get the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+         * Get the 'TIRID' element value. Номер книжки МДП
          * 
          * @return value
          */
@@ -364,7 +364,7 @@ public class FactPresenceRequestType extends BaseDocType
         }
 
         /** 
-         * Set the 'TIRID' element value. РќРѕРјРµСЂ РєРЅРёР¶РєРё РњР”Рџ
+         * Set the 'TIRID' element value. Номер книжки МДП
          * 
          * @param TIRID
          */

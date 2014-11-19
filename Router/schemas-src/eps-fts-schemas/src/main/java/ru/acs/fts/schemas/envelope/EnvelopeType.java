@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.envelope;
 
 /** 
- * РљРѕРЅРІРµСЂС‚
+ * Конверт
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -20,7 +20,7 @@ public class EnvelopeType
     private BodyType body;
 
     /** 
-     * Get the 'Header' element value. РћР±С‰РёР№ Р·Р°РіРѕР»РѕРІРѕРє РєРѕРЅРІРµСЂС‚Р°
+     * Get the 'Header' element value. Общий заголовок конверта
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class EnvelopeType
     }
 
     /** 
-     * Set the 'Header' element value. РћР±С‰РёР№ Р·Р°РіРѕР»РѕРІРѕРє РєРѕРЅРІРµСЂС‚Р°
+     * Set the 'Header' element value. Общий заголовок конверта
      * 
      * @param header
      */
@@ -38,7 +38,7 @@ public class EnvelopeType
     }
 
     /** 
-     * Get the 'Body' element value. РўРµР»Рѕ РєРѕРЅРІРµСЂС‚Р°
+     * Get the 'Body' element value. Тело конверта
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class EnvelopeType
     }
 
     /** 
-     * Set the 'Body' element value. РўРµР»Рѕ РєРѕРЅРІРµСЂС‚Р°
+     * Set the 'Body' element value. Тело конверта
      * 
      * @param body
      */

@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ (Р¤РћРР’)
+ * Запрос (ФОИВ)
  */
 public class FOIVRequestType extends BaseDocType
 {
@@ -24,7 +24,7 @@ public class FOIVRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїСЂРѕСЃР°/Р·Р°РїРёСЃРё
+     * Get the 'ID' element value. Идентификатор запроса/записи
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°РїСЂРѕСЃР°/Р·Р°РїРёСЃРё
+     * Set the 'ID' element value. Идентификатор запроса/записи
      * 
      * @param ID
      */
@@ -42,7 +42,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'StartDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР° РїРѕРёСЃРєР°
+     * Get the 'StartDateTime' element value. Дата/время начала периода поиска
      * 
      * @return value
      */
@@ -51,7 +51,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'StartDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РЅР°С‡Р°Р»Р° РїРµСЂРёРѕРґР° РїРѕРёСЃРєР°
+     * Set the 'StartDateTime' element value. Дата/время начала периода поиска
      * 
      * @param startDateTime
      */
@@ -60,7 +60,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'EndDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР° РїРѕРёСЃРєР°
+     * Get the 'EndDateTime' element value. Дата/время окончания периода поиска
      * 
      * @return value
      */
@@ -69,7 +69,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'EndDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РѕРєРѕРЅС‡Р°РЅРёСЏ РїРµСЂРёРѕРґР° РїРѕРёСЃРєР°
+     * Set the 'EndDateTime' element value. Дата/время окончания периода поиска
      * 
      * @param endDateTime
      */
@@ -78,7 +78,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Period' element value. РџРµСЂРёРѕРґ РїРѕРёСЃРєР°: 1 - Р’РµСЃСЊ РїРµСЂРёРѕРґ; 2 - РџРѕР»РіРѕРґР°; 3 - 3 РјРµСЃСЏС†Р°; 4 - 2 РјРµСЃСЏС†Р°; 5 - 1 РјРµСЃСЏС†
+     * Get the 'Period' element value. Период поиска: 1 - Весь период; 2 - Полгода; 3 - 3 месяца; 4 - 2 месяца; 5 - 1 месяц
      * 
      * @return value
      */
@@ -87,7 +87,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Period' element value. РџРµСЂРёРѕРґ РїРѕРёСЃРєР°: 1 - Р’РµСЃСЊ РїРµСЂРёРѕРґ; 2 - РџРѕР»РіРѕРґР°; 3 - 3 РјРµСЃСЏС†Р°; 4 - 2 РјРµСЃСЏС†Р°; 5 - 1 РјРµСЃСЏС†
+     * Set the 'Period' element value. Период поиска: 1 - Весь период; 2 - Полгода; 3 - 3 месяца; 4 - 2 месяца; 5 - 1 месяц
      * 
      * @param period
      */
@@ -96,7 +96,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'PermitCode' element value. РџСЂРёР·РЅР°Рє: 1 - СЂР°Р·СЂРµС€РµРЅРёРµ; 2 - СЃРїРµС†СЂР°Р·СЂРµС€РµРЅРёРµ (РєР°СЂС‚РѕС‡РєР°)
+     * Get the 'PermitCode' element value. Признак: 1 - разрешение; 2 - спецразрешение (карточка)
      * 
      * @return value
      */
@@ -105,7 +105,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'PermitCode' element value. РџСЂРёР·РЅР°Рє: 1 - СЂР°Р·СЂРµС€РµРЅРёРµ; 2 - СЃРїРµС†СЂР°Р·СЂРµС€РµРЅРёРµ (РєР°СЂС‚РѕС‡РєР°)
+     * Set the 'PermitCode' element value. Признак: 1 - разрешение; 2 - спецразрешение (карточка)
      * 
      * @param permitCode
      */
@@ -114,7 +114,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResponseStatus' element value. РџСЂРёР·РЅР°Рє РїРѕР»СѓС‡РµРЅРёСЏ РѕС‚РІРµС‚Р° РЅР° Р·Р°РїСЂРѕСЃ
+     * Get the 'ResponseStatus' element value. Признак получения ответа на запрос
      * 
      * @return value
      */
@@ -123,7 +123,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResponseStatus' element value. РџСЂРёР·РЅР°Рє РїРѕР»СѓС‡РµРЅРёСЏ РѕС‚РІРµС‚Р° РЅР° Р·Р°РїСЂРѕСЃ
+     * Set the 'ResponseStatus' element value. Признак получения ответа на запрос
      * 
      * @param responseStatus
      */
@@ -132,7 +132,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'ResponseInfo' element value. РўРµРєСЃС‚ РѕС€РёР±РєРё, РІС‹СЏРІР»РµРЅРЅРѕР№ РїСЂРё РѕР±СЂР°Р±РѕС‚РєРµ РґР°РЅРЅС‹С…, РїРѕР»СѓС‡РµРЅРЅС‹С… РїРѕ Р·Р°РїСЂРѕСЃСѓ
+     * Get the 'ResponseInfo' element value. Текст ошибки, выявленной при обработке данных, полученных по запросу
      * 
      * @return value
      */
@@ -141,7 +141,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'ResponseInfo' element value. РўРµРєСЃС‚ РѕС€РёР±РєРё, РІС‹СЏРІР»РµРЅРЅРѕР№ РїСЂРё РѕР±СЂР°Р±РѕС‚РєРµ РґР°РЅРЅС‹С…, РїРѕР»СѓС‡РµРЅРЅС‹С… РїРѕ Р·Р°РїСЂРѕСЃСѓ
+     * Set the 'ResponseInfo' element value. Текст ошибки, выявленной при обработке данных, полученных по запросу
      * 
      * @param responseInfo
      */
@@ -150,7 +150,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Transport' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Get the list of 'Transport' element items. Сведения о транспортном средстве
      * 
      * @return list
      */
@@ -159,7 +159,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Transport' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Set the list of 'Transport' element items. Сведения о транспортном средстве
      * 
      * @param list
      */
@@ -168,7 +168,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'Document' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the 'Document' element value. Сведения о документе
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'Document' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the 'Document' element value. Сведения о документе
      * 
      * @param document
      */
@@ -204,7 +204,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -213,7 +213,7 @@ public class FOIVRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */
@@ -257,7 +257,7 @@ public class FOIVRequestType extends BaseDocType
         }
 
         /** 
-         * Get the 'InspectionInfo' element value. Р—Р°РїСЂРѕСЃ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… СЃРІРµРґРµРЅРёР№ Рё Рѕ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+         * Get the 'InspectionInfo' element value. Запрос о необходимости предоставления дополнительных сведений и о возможности принятия решения
          * 
          * @return value
          */
@@ -266,7 +266,7 @@ public class FOIVRequestType extends BaseDocType
         }
 
         /** 
-         * Set the 'InspectionInfo' element value. Р—Р°РїСЂРѕСЃ Рѕ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… СЃРІРµРґРµРЅРёР№ Рё Рѕ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ
+         * Set the 'InspectionInfo' element value. Запрос о необходимости предоставления дополнительных сведений и о возможности принятия решения
          * 
          * @param inspectionInfo
          */
@@ -285,7 +285,7 @@ public class FOIVRequestType extends BaseDocType
         }
 
         /** 
-         * Get the 'CheckRequestData' element value. Р”Р°РЅРЅС‹Рµ Р·Р°РїСЂРѕСЃР° РЅР° РїРѕРёСЃРє РёРЅС„РѕСЂРјР°С†РёРё Рѕ СЂР°Р·СЂРµС€РµРЅРёРё
+         * Get the 'CheckRequestData' element value. Данные запроса на поиск информации о разрешении
          * 
          * @return value
          */
@@ -294,7 +294,7 @@ public class FOIVRequestType extends BaseDocType
         }
 
         /** 
-         * Set the 'CheckRequestData' element value. Р”Р°РЅРЅС‹Рµ Р·Р°РїСЂРѕСЃР° РЅР° РїРѕРёСЃРє РёРЅС„РѕСЂРјР°С†РёРё Рѕ СЂР°Р·СЂРµС€РµРЅРёРё
+         * Set the 'CheckRequestData' element value. Данные запроса на поиск информации о разрешении
          * 
          * @param checkRequestData
          */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ СЃРєР»Р°РґР°, РЅР° РєРѕС‚РѕСЂРѕРј РЅР°С…РѕРґСЏС‚СЃСЏ С‚РѕРІР°СЂС‹
+ * Комплексный тип для описания склада, на котором находятся товары
  */
 public class WarehouseType extends WHOrganizationBaseType
 {
@@ -12,7 +12,7 @@ public class WarehouseType extends WHOrganizationBaseType
     private LocalDate certificateDate;
 
     /** 
-     * Get the 'CertificateNumber' element value. РќРѕРјРµСЂ РЎРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ / РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё / РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ С‚Р°РјРѕР¶РЅРё РЅР° РћРҐ / РќРѕРјРµСЂ РїСЂРёРєР°Р·Р° Рѕ СЃРѕР·РґР°РЅРёРё Р—РўРљ
+     * Get the 'CertificateNumber' element value. Номер Свидетельства о включении в Реестр / Номер лицензии / Номер разрешения таможни на ОХ / Номер приказа о создании ЗТК
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class WarehouseType extends WHOrganizationBaseType
     }
 
     /** 
-     * Set the 'CertificateNumber' element value. РќРѕРјРµСЂ РЎРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ / РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё / РќРѕРјРµСЂ СЂР°Р·СЂРµС€РµРЅРёСЏ С‚Р°РјРѕР¶РЅРё РЅР° РћРҐ / РќРѕРјРµСЂ РїСЂРёРєР°Р·Р° Рѕ СЃРѕР·РґР°РЅРёРё Р—РўРљ
+     * Set the 'CertificateNumber' element value. Номер Свидетельства о включении в Реестр / Номер лицензии / Номер разрешения таможни на ОХ / Номер приказа о создании ЗТК
      * 
      * @param certificateNumber
      */
@@ -30,7 +30,7 @@ public class WarehouseType extends WHOrganizationBaseType
     }
 
     /** 
-     * Get the 'CertificateDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ РІР»Р°РґРµР»СЊС†РµРІ РЎР’РҐ / РўРЎ / Р”Р°С‚Р° РІС‹РґР°С‡Рё Р»РёС†РµРЅР·РёРё 
+     * Get the 'CertificateDate' element value. Дата выдачи свидетельства о включении в Реестр владельцев СВХ / ТС / Дата выдачи лицензии 
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class WarehouseType extends WHOrganizationBaseType
     }
 
     /** 
-     * Set the 'CertificateDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СЃРІРёРґРµС‚РµР»СЊСЃС‚РІР° Рѕ РІРєР»СЋС‡РµРЅРёРё РІ Р РµРµСЃС‚СЂ РІР»Р°РґРµР»СЊС†РµРІ РЎР’РҐ / РўРЎ / Р”Р°С‚Р° РІС‹РґР°С‡Рё Р»РёС†РµРЅР·РёРё 
+     * Set the 'CertificateDate' element value. Дата выдачи свидетельства о включении в Реестр владельцев СВХ / ТС / Дата выдачи лицензии 
      * 
      * @param certificateDate
      */

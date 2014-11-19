@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.actregistrationmining;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРЅРµ
+ * Сведения о судне
  */
 public class VesselType
 {
@@ -14,7 +14,7 @@ public class VesselType
     private OrganizationBaseType shipowner;
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°
+     * Get the 'Name' element value. Наименование судна
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class VesselType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°
+     * Set the 'Name' element value. Наименование судна
      * 
      * @param name
      */
@@ -32,7 +32,7 @@ public class VesselType
     }
 
     /** 
-     * Get the 'Type' element value. РўРёРї СЃСѓРґРЅР°
+     * Get the 'Type' element value. Тип судна
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class VesselType
     }
 
     /** 
-     * Set the 'Type' element value. РўРёРї СЃСѓРґРЅР°
+     * Set the 'Type' element value. Тип судна
      * 
      * @param type
      */
@@ -50,7 +50,7 @@ public class VesselType
     }
 
     /** 
-     * Get the 'NumberBoard' element value. Р‘РѕСЂС‚РѕРІРѕР№ РЅРѕРјРµСЂ СЃСѓРґРЅР°
+     * Get the 'NumberBoard' element value. Бортовой номер судна
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class VesselType
     }
 
     /** 
-     * Set the 'NumberBoard' element value. Р‘РѕСЂС‚РѕРІРѕР№ РЅРѕРјРµСЂ СЃСѓРґРЅР°
+     * Set the 'NumberBoard' element value. Бортовой номер судна
      * 
      * @param numberBoard
      */
@@ -68,7 +68,7 @@ public class VesselType
     }
 
     /** 
-     * Get the 'Shipowner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРѕРІР»Р°РґРµР»СЊС†Рµ
+     * Get the 'Shipowner' element value. Сведения о судовладельце
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class VesselType
     }
 
     /** 
-     * Set the 'Shipowner' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЃСѓРґРѕРІР»Р°РґРµР»СЊС†Рµ
+     * Set the 'Shipowner' element value. Сведения о судовладельце
      * 
      * @param shipowner
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.esadoutp;
 import org.joda.time.LocalDate;
 
 /** 
- * РЈРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№
+ * Удостоверяющий
  */
 public class ConfirmingOrganizationType
 {
@@ -14,7 +14,7 @@ public class ConfirmingOrganizationType
     private PersonInfoType senderName;
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'Date' element value. Дата отправления информации
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class ConfirmingOrganizationType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° РѕС‚РїСЂР°РІР»РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'Date' element value. Дата отправления информации
      * 
      * @param date
      */
@@ -32,7 +32,7 @@ public class ConfirmingOrganizationType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµР№ РѕС‚РїСЂР°РІРєСѓ РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'OrganizationName' element value. Наименование организации, осуществляющей отправку информации
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ConfirmingOrganizationType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё, РѕСЃСѓС‰РµСЃС‚РІР»СЏСЋС‰РµР№ РѕС‚РїСЂР°РІРєСѓ РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'OrganizationName' element value. Наименование организации, осуществляющей отправку информации
      * 
      * @param organizationName
      */
@@ -50,7 +50,7 @@ public class ConfirmingOrganizationType
     }
 
     /** 
-     * Get the 'OrganizationSign' element value. РЈРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№: 0 - СЃ РўСѓСЂРµС†РєРѕР№ СЃС‚РѕСЂРѕРЅС‹; 1 - РѕС‚ СЌРєСЃРїРѕСЂС‚РµСЂР° С‚РѕРІР°СЂРѕРІ
+     * Get the 'OrganizationSign' element value. Удостоверяющий: 0 - с Турецкой стороны; 1 - от экспортера товаров
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class ConfirmingOrganizationType
     }
 
     /** 
-     * Set the 'OrganizationSign' element value. РЈРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РёР№: 0 - СЃ РўСѓСЂРµС†РєРѕР№ СЃС‚РѕСЂРѕРЅС‹; 1 - РѕС‚ СЌРєСЃРїРѕСЂС‚РµСЂР° С‚РѕРІР°СЂРѕРІ
+     * Set the 'OrganizationSign' element value. Удостоверяющий: 0 - с Турецкой стороны; 1 - от экспортера товаров
      * 
      * @param organizationSign
      */
@@ -68,7 +68,7 @@ public class ConfirmingOrganizationType
     }
 
     /** 
-     * Get the 'SenderName' element value. Р¤РРћ Р»РёС†Р°, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РµРіРѕ РѕС‚РїСЂР°РІРєСѓ
+     * Get the 'SenderName' element value. ФИО лица, осуществившего отправку
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class ConfirmingOrganizationType
     }
 
     /** 
-     * Set the 'SenderName' element value. Р¤РРћ Р»РёС†Р°, РѕСЃСѓС‰РµСЃС‚РІРёРІС€РµРіРѕ РѕС‚РїСЂР°РІРєСѓ
+     * Set the 'SenderName' element value. ФИО лица, осуществившего отправку
      * 
      * @param senderName
      */

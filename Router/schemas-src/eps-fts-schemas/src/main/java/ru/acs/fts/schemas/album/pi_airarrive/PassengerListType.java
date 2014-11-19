@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂР°С…
+ * Сведения о пассажирах
  */
 public class PassengerListType
 {
@@ -13,7 +13,7 @@ public class PassengerListType
     private List<PassengerInfoType> passengerInfoList = new ArrayList<PassengerInfoType>();
 
     /** 
-     * Get the 'Passengers' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ
+     * Get the 'Passengers' element value. Количество пассажиров
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PassengerListType
     }
 
     /** 
-     * Set the 'Passengers' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ
+     * Set the 'Passengers' element value. Количество пассажиров
      * 
      * @param passengers
      */
@@ -31,7 +31,7 @@ public class PassengerListType
     }
 
     /** 
-     * Get the list of 'PassengerInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂРµ
+     * Get the list of 'PassengerInfo' element items. Сведения о пассажире
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class PassengerListType
     }
 
     /** 
-     * Set the list of 'PassengerInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РїР°СЃСЃР°Р¶РёСЂРµ
+     * Set the list of 'PassengerInfo' element items. Сведения о пассажире
      * 
      * @param list
      */

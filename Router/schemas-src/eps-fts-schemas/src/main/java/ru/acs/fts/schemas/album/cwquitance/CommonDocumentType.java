@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cwquitance;
 
 /** 
- * РљР»Р°СЃСЃ РґРѕРєСѓРјРµРЅС‚Р°, С…Р°СЂР°РєС‚РµСЂРёР·СѓСЋС‰РёР№ РµРіРѕ РЅРѕРјРµСЂ Рё РІРµСЂСЃРёСЋ
+ * Класс документа, характеризующий его номер и версию
  */
 public class CommonDocumentType
 {
@@ -10,7 +10,7 @@ public class CommonDocumentType
     private String orderNumberOfEdition;
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РїРѕРґС‚РІРµСЂР¶РґР°РµРјРѕРіРѕ/РѕС€РёР±РѕС‡РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер подтверждаемого/ошибочного документа
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CommonDocumentType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РїРѕРґС‚РІРµСЂР¶РґР°РµРјРѕРіРѕ/РѕС€РёР±РѕС‡РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер подтверждаемого/ошибочного документа
      * 
      * @param documentNumber
      */
@@ -28,7 +28,7 @@ public class CommonDocumentType
     }
 
     /** 
-     * Get the 'OrderNumberOfEdition' element value. РќРѕРјРµСЂ РІРµСЂСЃРёРё РїРѕРґС‚РІРµСЂР¶РґР°РµРјРѕРіРѕ/РѕС€РёР±РѕС‡РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'OrderNumberOfEdition' element value. Номер версии подтверждаемого/ошибочного документа
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CommonDocumentType
     }
 
     /** 
-     * Set the 'OrderNumberOfEdition' element value. РќРѕРјРµСЂ РІРµСЂСЃРёРё РїРѕРґС‚РІРµСЂР¶РґР°РµРјРѕРіРѕ/РѕС€РёР±РѕС‡РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'OrderNumberOfEdition' element value. Номер версии подтверждаемого/ошибочного документа
      * 
      * @param orderNumberOfEdition
      */

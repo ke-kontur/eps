@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.commercialact;
 import ru.acs.fts.schemas.album.warehousecommonaggregatetypescust.WHSuppQuantityType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РєРѕР»РёС‡РµСЃС‚РІР° С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ СЃРІРµРґРµРЅРёСЏРј, Р·Р°СЏРІР»РµРЅРЅС‹Рј РІ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Описание несоответствия количества товара в дополнительной единице измерения сведениям, заявленным в товаросопроводительных документах
  */
 public class GoodsQuantityType
 {
@@ -12,7 +12,7 @@ public class GoodsQuantityType
     private WHSuppQuantityType goodsQuantityByFact;
 
     /** 
-     * Get the 'GoodsQuantityByDocs' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ СЃРѕРіР»Р°СЃРЅРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
+     * Get the 'GoodsQuantityByDocs' element value. Количество товара в дополнительной единице измерения согласно товаросопроводительным документам
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class GoodsQuantityType
     }
 
     /** 
-     * Set the 'GoodsQuantityByDocs' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ СЃРѕРіР»Р°СЃРЅРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
+     * Set the 'GoodsQuantityByDocs' element value. Количество товара в дополнительной единице измерения согласно товаросопроводительным документам
      * 
      * @param goodsQuantityByDocs
      */
@@ -30,7 +30,7 @@ public class GoodsQuantityType
     }
 
     /** 
-     * Get the 'GoodsQuantityByFact' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ С„Р°РєС‚РёС‡РµСЃРєРѕРµ
+     * Get the 'GoodsQuantityByFact' element value. Количество товара в дополнительной единице фактическое
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class GoodsQuantityType
     }
 
     /** 
-     * Set the 'GoodsQuantityByFact' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ С„Р°РєС‚РёС‡РµСЃРєРѕРµ
+     * Set the 'GoodsQuantityByFact' element value. Количество товара в дополнительной единице фактическое
      * 
      * @param goodsQuantityByFact
      */

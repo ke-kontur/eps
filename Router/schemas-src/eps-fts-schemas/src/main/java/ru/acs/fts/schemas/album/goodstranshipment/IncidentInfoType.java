@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsPersonType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕРёСЃС€РµСЃС‚РІРёРё (РѕР± Р°РІР°СЂРёРё РёР»Рё РґРµР№СЃС‚РІРёРё РЅРµРїСЂРµРѕРґРѕР»РёРјРѕР№ СЃРёР»С‹ РІРѕ РІСЂРµРјСЏ РїРµСЂРµРІРѕР·РєРё)
+ * Информация о происшествии (об аварии или действии непреодолимой силы во время перевозки)
  */
 public class IncidentInfoType
 {
@@ -21,7 +21,7 @@ public class IncidentInfoType
     private List<LostGoodsInfoType> lostGoodsInfoList = new ArrayList<LostGoodsInfoType>();
 
     /** 
-     * Get the 'IncidentDescription' element value. РћРїРёСЃР°РЅРёРµ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІР°, РїСЂРµРїСЏС‚СЃС‚РІСѓСЋС‰РµРіРѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'IncidentDescription' element value. Описание обстоятельства, препятствующего перевозке товаров
      * 
      * @return value
      */
@@ -30,7 +30,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Set the 'IncidentDescription' element value. РћРїРёСЃР°РЅРёРµ РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІР°, РїСЂРµРїСЏС‚СЃС‚РІСѓСЋС‰РµРіРѕ РїРµСЂРµРІРѕР·РєРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'IncidentDescription' element value. Описание обстоятельства, препятствующего перевозке товаров
      * 
      * @param incidentDescription
      */
@@ -39,7 +39,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° РїСЂРѕРёСЃС€РµСЃС‚РІРёСЏ
+     * Get the 'Date' element value. Дата происшествия
      * 
      * @return value
      */
@@ -48,7 +48,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° РїСЂРѕРёСЃС€РµСЃС‚РІРёСЏ
+     * Set the 'Date' element value. Дата происшествия
      * 
      * @param date
      */
@@ -57,7 +57,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Get the 'Measures' element value. РњРµСЂС‹, РїСЂРёРЅСЏС‚С‹Рµ РґР»СЏ РїСЂРѕРґРѕР»Р¶РµРЅРёСЏ РїРµСЂРµРІРѕР·РєРё С‚РѕРІР°СЂРѕРІ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Рј РєРѕРЅС‚СЂРѕР»РµРј.
+     * Get the 'Measures' element value. Меры, принятые для продолжения перевозки товаров под таможенным контролем.
      * 
      * @return value
      */
@@ -66,7 +66,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Set the 'Measures' element value. РњРµСЂС‹, РїСЂРёРЅСЏС‚С‹Рµ РґР»СЏ РїСЂРѕРґРѕР»Р¶РµРЅРёСЏ РїРµСЂРµРІРѕР·РєРё С‚РѕРІР°СЂРѕРІ РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Рј РєРѕРЅС‚СЂРѕР»РµРј.
+     * Set the 'Measures' element value. Меры, принятые для продолжения перевозки товаров под таможенным контролем.
      * 
      * @param measures
      */
@@ -75,7 +75,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Get the 'AccidentPlace' element value. РњРµСЃС‚Рѕ РїСЂРѕРёСЃС€РµСЃС‚РІРёСЏ
+     * Get the 'AccidentPlace' element value. Место происшествия
      * 
      * @return value
      */
@@ -84,7 +84,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Set the 'AccidentPlace' element value. РњРµСЃС‚Рѕ РїСЂРѕРёСЃС€РµСЃС‚РІРёСЏ
+     * Set the 'AccidentPlace' element value. Место происшествия
      * 
      * @param accidentPlace
      */
@@ -93,7 +93,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СЃРѕСЃС‚Р°РІРёРІС€РµРј Р°РєС‚ РѕР± Р°РІР°СЂРёРё.
+     * Get the 'CustomsPerson' element value. Сведения о должностном лице таможенного органа, составившем акт об аварии.
      * 
      * @return value
      */
@@ -102,7 +102,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРј Р»РёС†Рµ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, СЃРѕСЃС‚Р°РІРёРІС€РµРј Р°РєС‚ РѕР± Р°РІР°СЂРёРё.
+     * Set the 'CustomsPerson' element value. Сведения о должностном лице таможенного органа, составившем акт об аварии.
      * 
      * @param customsPerson
      */
@@ -111,7 +111,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Get the 'DamageIndicators' element value. РџСЂРёР·РЅР°РєРё РЅР°Р»РёС‡РёСЏ РїРѕРІСЂРµР¶РґРµРЅРёР№
+     * Get the 'DamageIndicators' element value. Признаки наличия повреждений
      * 
      * @return value
      */
@@ -120,7 +120,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Set the 'DamageIndicators' element value. РџСЂРёР·РЅР°РєРё РЅР°Р»РёС‡РёСЏ РїРѕРІСЂРµР¶РґРµРЅРёР№
+     * Set the 'DamageIndicators' element value. Признаки наличия повреждений
      * 
      * @param damageIndicators
      */
@@ -129,7 +129,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Get the list of 'LostGoodsInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓС‚СЂР°С‚Рµ (РѕС‚СЃСѓС‚СЃС‚РІРёРё/СѓРЅРёС‡С‚РѕР¶РµРЅРёРё) С‡Р°СЃС‚Рё С‚РѕРІР°СЂР°
+     * Get the list of 'LostGoodsInfo' element items. Информация об утрате (отсутствии/уничтожении) части товара
      * 
      * @return list
      */
@@ -138,7 +138,7 @@ public class IncidentInfoType
     }
 
     /** 
-     * Set the list of 'LostGoodsInfo' element items. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± СѓС‚СЂР°С‚Рµ (РѕС‚СЃСѓС‚СЃС‚РІРёРё/СѓРЅРёС‡С‚РѕР¶РµРЅРёРё) С‡Р°СЃС‚Рё С‚РѕРІР°СЂР°
+     * Set the list of 'LostGoodsInfo' element items. Информация об утрате (отсутствии/уничтожении) части товара
      * 
      * @param list
      */

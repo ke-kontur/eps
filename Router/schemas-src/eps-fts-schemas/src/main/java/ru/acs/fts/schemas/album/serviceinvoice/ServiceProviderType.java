@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.Paymen
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РџРѕСЃС‚Р°РІС‰РёРє СѓСЃР»СѓРі (СЃС‚СЂР°С…РѕРІС‰РёРє/СЌРєСЃРїРµРґРёС‚РѕСЂ/РїРµСЂРµРІРѕР·С‡РёРє)
+ * Поставщик услуг (страховщик/экспедитор/перевозчик)
  */
 public class ServiceProviderType extends InvoiceParticipantType
 {
@@ -16,7 +16,7 @@ public class ServiceProviderType extends InvoiceParticipantType
     private AddressType postalAddress;
 
     /** 
-     * Get the list of 'PaymentRequisitions' element items. Р‘Р°РЅРєРѕРІСЃРєРёРµ СЂРµРєРІРёР·РёС‚С‹
+     * Get the list of 'PaymentRequisitions' element items. Банковские реквизиты
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class ServiceProviderType extends InvoiceParticipantType
     }
 
     /** 
-     * Set the list of 'PaymentRequisitions' element items. Р‘Р°РЅРєРѕРІСЃРєРёРµ СЂРµРєРІРёР·РёС‚С‹
+     * Set the list of 'PaymentRequisitions' element items. Банковские реквизиты
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class ServiceProviderType extends InvoiceParticipantType
     }
 
     /** 
-     * Get the 'PostalAddress' element value. РђРґСЂРµСЃ РїРѕСЃС‚Р°РІС‰РёРєР° СѓСЃР»СѓРі
+     * Get the 'PostalAddress' element value. Адрес поставщика услуг
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class ServiceProviderType extends InvoiceParticipantType
     }
 
     /** 
-     * Set the 'PostalAddress' element value. РђРґСЂРµСЃ РїРѕСЃС‚Р°РІС‰РёРєР° СѓСЃР»СѓРі
+     * Set the 'PostalAddress' element value. Адрес поставщика услуг
      * 
      * @param postalAddress
      */

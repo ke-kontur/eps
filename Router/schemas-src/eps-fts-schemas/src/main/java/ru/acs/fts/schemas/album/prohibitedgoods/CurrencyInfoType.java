@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.prohibitedgoods;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РІР°Р»СЋС‚Рµ Рё РІР°Р»СЋС‚РЅС‹С… С†РµРЅРЅРѕСЃС‚СЏС…
+ * Информация о валюте и валютных ценностях
  */
 public class CurrencyInfoType
 {
@@ -10,7 +10,7 @@ public class CurrencyInfoType
     private String currencyCode;
 
     /** 
-     * Get the 'Amout' element value. РЎСѓРјРјР°
+     * Get the 'Amout' element value. Сумма
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CurrencyInfoType
     }
 
     /** 
-     * Set the 'Amout' element value. РЎСѓРјРјР°
+     * Set the 'Amout' element value. Сумма
      * 
      * @param amout
      */
@@ -28,7 +28,7 @@ public class CurrencyInfoType
     }
 
     /** 
-     * Get the 'CurrencyCode' element value. РљРѕРґ РІРёРґР° РІР°Р»СЋС‚С‹
+     * Get the 'CurrencyCode' element value. Код вида валюты
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CurrencyInfoType
     }
 
     /** 
-     * Set the 'CurrencyCode' element value. РљРѕРґ РІРёРґР° РІР°Р»СЋС‚С‹
+     * Set the 'CurrencyCode' element value. Код вида валюты
      * 
      * @param currencyCode
      */

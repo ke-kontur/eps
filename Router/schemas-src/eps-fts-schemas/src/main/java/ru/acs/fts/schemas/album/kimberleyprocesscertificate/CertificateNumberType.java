@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.kimberleyprocesscertificate;
 
 /** 
- * РЈРЅРёРєР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+ * Уникальный номер сертификата
  */
 public class CertificateNumberType
 {
@@ -10,7 +10,7 @@ public class CertificateNumberType
     private String number;
 
     /** 
-     * Get the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryCode' element value. Код страны
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CertificateNumberType
     }
 
     /** 
-     * Set the 'CountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryCode' element value. Код страны
      * 
      * @param countryCode
      */
@@ -28,7 +28,7 @@ public class CertificateNumberType
     }
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Get the 'Number' element value. Номер сертификата
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CertificateNumberType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ СЃРµСЂС‚РёС„РёРєР°С‚Р°
+     * Set the 'Number' element value. Номер сертификата
      * 
      * @param number
      */

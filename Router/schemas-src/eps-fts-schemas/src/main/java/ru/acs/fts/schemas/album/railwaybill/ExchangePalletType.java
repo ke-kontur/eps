@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.railwaybill;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕР±РјРµРЅРЅС‹С… РїРѕРґРґРѕРЅР°С…
+ * Сведения об обменных поддонах
  */
 public class ExchangePalletType
 {
@@ -11,7 +11,7 @@ public class ExchangePalletType
     private String exchangeMode;
 
     /** 
-     * Get the 'FlatPalletQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР»РѕСЃРєРёС… РїРѕРґРґРѕРЅРѕРІ 
+     * Get the 'FlatPalletQuantity' element value. Количество плоских поддонов 
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ExchangePalletType
     }
 
     /** 
-     * Set the 'FlatPalletQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїР»РѕСЃРєРёС… РїРѕРґРґРѕРЅРѕРІ 
+     * Set the 'FlatPalletQuantity' element value. Количество плоских поддонов 
      * 
      * @param flatPalletQuantity
      */
@@ -29,7 +29,7 @@ public class ExchangePalletType
     }
 
     /** 
-     * Get the 'BoxPalletQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґРґРѕРЅРѕРІ СЏС‰РёС‡РЅРѕРіРѕ С‚РёРїР°
+     * Get the 'BoxPalletQuantity' element value. Количество поддонов ящичного типа
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ExchangePalletType
     }
 
     /** 
-     * Set the 'BoxPalletQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґРґРѕРЅРѕРІ СЏС‰РёС‡РЅРѕРіРѕ С‚РёРїР°
+     * Set the 'BoxPalletQuantity' element value. Количество поддонов ящичного типа
      * 
      * @param boxPalletQuantity
      */
@@ -47,7 +47,7 @@ public class ExchangePalletType
     }
 
     /** 
-     * Get the 'ExchangeMode' element value. РљРѕРґ СЂРµР¶РёРј РѕР±РјРµРЅР° РїРѕРґРґРѕРЅРѕРІ. 
+     * Get the 'ExchangeMode' element value. Код режим обмена поддонов. 
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ExchangePalletType
     }
 
     /** 
-     * Set the 'ExchangeMode' element value. РљРѕРґ СЂРµР¶РёРј РѕР±РјРµРЅР° РїРѕРґРґРѕРЅРѕРІ. 
+     * Set the 'ExchangeMode' element value. Код режим обмена поддонов. 
      * 
      * @param exchangeMode
      */

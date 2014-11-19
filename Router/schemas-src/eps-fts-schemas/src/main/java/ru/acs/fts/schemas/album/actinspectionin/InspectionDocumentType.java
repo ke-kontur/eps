@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.actinspectionin;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РђРўР” - РґРѕРєСѓРјРµРЅС‚ РїРѕ РєРѕС‚РѕСЂРѕРјСѓ РїСЂРѕРІРµРґРµРЅ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ РґРѕСЃРјРѕС‚СЂ
+ * АТД - документ по которому проведен таможенный досмотр
  */
 public class InspectionDocumentType extends DocumentBaseType
 {
@@ -13,7 +13,7 @@ public class InspectionDocumentType extends DocumentBaseType
     private String recordNumber;
 
     /** 
-     * Get the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44.
+     * Get the 'PresentedDocumentModeCode' element value. Код вида документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class InspectionDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PresentedDocumentModeCode' element value. РљРѕРґ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РґРѕРєСѓРјРµРЅС‚РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РїСЂРё Р·Р°СЏРІР»РµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РіСЂР°С„Рµ 44.
+     * Set the 'PresentedDocumentModeCode' element value. Код вида документа. Заполняется в соответствии с классификатором видов документов, используемых при заявлении сведений в графе 44.
      * 
      * @param presentedDocumentModeCode
      */
@@ -31,7 +31,7 @@ public class InspectionDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'CustWaybillNumber' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'CustWaybillNumber' element value. Таможенный номер накладной
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class InspectionDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'CustWaybillNumber' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'CustWaybillNumber' element value. Таможенный номер накладной
      * 
      * @param custWaybillNumber
      */
@@ -49,7 +49,7 @@ public class InspectionDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
+     * Get the 'RecordNumber' element value. Порядковый номер записи в таблице БД
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class InspectionDocumentType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'RecordNumber' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Р·Р°РїРёСЃРё РІ С‚Р°Р±Р»РёС†Рµ Р‘Р”
+     * Set the 'RecordNumber' element value. Порядковый номер записи в таблице БД
      * 
      * @param recordNumber
      */

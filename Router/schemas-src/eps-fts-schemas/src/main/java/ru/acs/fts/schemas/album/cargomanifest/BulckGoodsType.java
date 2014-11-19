@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cargomanifest;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂРѕРІ РЅР°РІР°Р»РѕРј
+ * Описание товаров навалом
  */
 public class BulckGoodsType
 {

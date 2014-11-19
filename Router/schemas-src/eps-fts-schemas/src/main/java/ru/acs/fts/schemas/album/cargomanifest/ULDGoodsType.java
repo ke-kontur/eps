@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С…
+ * Сведения о контейнерах
  */
 public class ULDGoodsType
 {
@@ -22,7 +22,7 @@ public class ULDGoodsType
     private DTInfoType DTInfo;
 
     /** 
-     * Get the 'ULDType' element value. РўРёРї РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'ULDType' element value. Тип контейнера
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Set the 'ULDType' element value. РўРёРї РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'ULDType' element value. Тип контейнера
      * 
      * @param ULDType
      */
@@ -40,7 +40,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Get the 'ULDSerialNumber' element value. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'ULDSerialNumber' element value. Серийный номер контейнера
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Set the 'ULDSerialNumber' element value. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'ULDSerialNumber' element value. Серийный номер контейнера
      * 
      * @param ULDSerialNumber
      */
@@ -58,7 +58,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Get the 'ULDOwnerCode' element value. РљРѕРґ РІР»Р°РґРµР»СЊС†Р° РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'ULDOwnerCode' element value. Код владельца контейнера
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Set the 'ULDOwnerCode' element value. РљРѕРґ РІР»Р°РґРµР»СЊС†Р° РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'ULDOwnerCode' element value. Код владельца контейнера
      * 
      * @param ULDOwnerCode
      */
@@ -76,7 +76,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Get the 'ULDLoadIndicator' element value. РџСЂРёР·РЅР°Рє Р·Р°РіСЂСѓР·РєРё РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'ULDLoadIndicator' element value. Признак загрузки контейнера
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Set the 'ULDLoadIndicator' element value. РџСЂРёР·РЅР°Рє Р·Р°РіСЂСѓР·РєРё РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'ULDLoadIndicator' element value. Признак загрузки контейнера
      * 
      * @param ULDLoadIndicator
      */
@@ -94,7 +94,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Get the 'ULDComent' element value. РџСЂРёРјРµС‡Р°РЅРёРµ 
+     * Get the 'ULDComent' element value. Примечание 
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Set the 'ULDComent' element value. РџСЂРёРјРµС‡Р°РЅРёРµ 
+     * Set the 'ULDComent' element value. Примечание 
      * 
      * @param ULDComent
      */
@@ -112,7 +112,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Get the 'TotalULDPlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° РІ РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Get the 'TotalULDPlacesQuantity' element value. Общее количество мест товара в контейнере
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Set the 'TotalULDPlacesQuantity' element value. РћР±С‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РјРµСЃС‚ С‚РѕРІР°СЂР° РІ РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Set the 'TotalULDPlacesQuantity' element value. Общее количество мест товара в контейнере
      * 
      * @param totalULDPlacesQuantity
      */
@@ -130,7 +130,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Get the 'WeightUnitQualifierCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РІРµСЃР° С‚РѕРІР°СЂР° (РєРёР»РѕРіСЂР°РјРјС‹ РёР»Рё С„СѓРЅС‚С‹)
+     * Get the 'WeightUnitQualifierCode' element value. Код измерения веса товара (килограммы или фунты)
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Set the 'WeightUnitQualifierCode' element value. РљРѕРґ РёР·РјРµСЂРµРЅРёСЏ РІРµСЃР° С‚РѕРІР°СЂР° (РєРёР»РѕРіСЂР°РјРјС‹ РёР»Рё С„СѓРЅС‚С‹)
+     * Set the 'WeightUnitQualifierCode' element value. Код измерения веса товара (килограммы или фунты)
      * 
      * @param weightUnitQualifierCode
      */
@@ -148,7 +148,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ
+     * Get the 'GrossWeightQuantity' element value. Общий вес товара, брутто
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. РћР±С‰РёР№ РІРµСЃ С‚РѕРІР°СЂР°, Р±СЂСѓС‚С‚Рѕ
+     * Set the 'GrossWeightQuantity' element value. Общий вес товара, брутто
      * 
      * @param grossWeightQuantity
      */
@@ -166,7 +166,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Get the list of 'ULDGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… РІ РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Get the list of 'ULDGoods' element items. Сведения о товарах в контейнере
      * 
      * @return list
      */
@@ -175,7 +175,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Set the list of 'ULDGoods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… РІ РєРѕРЅС‚РµР№РЅРµСЂРµ
+     * Set the list of 'ULDGoods' element items. Сведения о товарах в контейнере
      * 
      * @param list
      */
@@ -184,7 +184,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Get the 'ULDMoveInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРјРµС‰РµРЅРёРё РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'ULDMoveInfo' element value. Информация о перемещении контейнера
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Set the 'ULDMoveInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРјРµС‰РµРЅРёРё РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'ULDMoveInfo' element value. Информация о перемещении контейнера
      * 
      * @param ULDMoveInfo
      */
@@ -202,7 +202,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Get the 'DTInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р”Рў
+     * Get the 'DTInfo' element value. Сведения о ДТ
      * 
      * @return value
      */
@@ -211,7 +211,7 @@ public class ULDGoodsType
     }
 
     /** 
-     * Set the 'DTInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р”Рў
+     * Set the 'DTInfo' element value. Сведения о ДТ
      * 
      * @param DTInfo
      */

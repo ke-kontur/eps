@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.generaldeclaration;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°РіРµРЅС‚Рµ
+ * Информация об агенте
  */
 public class AgentType
 {
@@ -13,7 +13,7 @@ public class AgentType
     private AddressType postalAddress;
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё РёР»Рё С„Р°РјРёР»РёСЏ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Get the 'Name' element value. Наименование организации или фамилия физического лица
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AgentType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРё РёР»Рё С„Р°РјРёР»РёСЏ С„РёР·РёС‡РµСЃРєРѕРіРѕ Р»РёС†Р°
+     * Set the 'Name' element value. Наименование организации или фамилия физического лица
      * 
      * @param name
      */
@@ -31,7 +31,7 @@ public class AgentType
     }
 
     /** 
-     * Get the 'Phone' element value. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°.
+     * Get the 'Phone' element value. Номер телефона.
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class AgentType
     }
 
     /** 
-     * Set the 'Phone' element value. РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°.
+     * Set the 'Phone' element value. Номер телефона.
      * 
      * @param phone
      */
@@ -49,7 +49,7 @@ public class AgentType
     }
 
     /** 
-     * Get the 'PostalAddress' element value. РћРїРёСЃР°РЅРёРµ Р°РґСЂРµСЃР° СѓС‡Р°СЃС‚РЅРёРєР° (Р°РґСЂРµСЃ РґРѕСЃС‚Р°РІРєРё РїРѕС‡С‚РѕРІРѕР№ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС†РёРё)
+     * Get the 'PostalAddress' element value. Описание адреса участника (адрес доставки почтовой корреспонденции)
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class AgentType
     }
 
     /** 
-     * Set the 'PostalAddress' element value. РћРїРёСЃР°РЅРёРµ Р°РґСЂРµСЃР° СѓС‡Р°СЃС‚РЅРёРєР° (Р°РґСЂРµСЃ РґРѕСЃС‚Р°РІРєРё РїРѕС‡С‚РѕРІРѕР№ РєРѕСЂСЂРµСЃРїРѕРЅРґРµРЅС†РёРё)
+     * Set the 'PostalAddress' element value. Описание адреса участника (адрес доставки почтовой корреспонденции)
      * 
      * @param postalAddress
      */

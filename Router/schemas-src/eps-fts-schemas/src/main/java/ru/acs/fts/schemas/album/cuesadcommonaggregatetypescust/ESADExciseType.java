@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± Р°РєС†РёР·РЅС‹С… РјР°СЂРєР°С…
+ * Сведения об акцизных марках
  */
 public class ESADExciseType
 {
@@ -12,7 +12,7 @@ public class ESADExciseType
     private String exciseQuantity;
 
     /** 
-     * Get the 'ExciseSerieses' element value. РќРѕРјРµСЂ СЃРµСЂРёРё Р°РєС†РёР·РЅС‹С… РјР°СЂРѕРє
+     * Get the 'ExciseSerieses' element value. Номер серии акцизных марок
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ESADExciseType
     }
 
     /** 
-     * Set the 'ExciseSerieses' element value. РќРѕРјРµСЂ СЃРµСЂРёРё Р°РєС†РёР·РЅС‹С… РјР°СЂРѕРє
+     * Set the 'ExciseSerieses' element value. Номер серии акцизных марок
      * 
      * @param exciseSerieses
      */
@@ -30,7 +30,7 @@ public class ESADExciseType
     }
 
     /** 
-     * Get the 'ExciseFirstNumber' element value. РџРµСЂРІС‹Р№ РЅРѕРјРµСЂ РґРёР°РїР°Р·РѕРЅР° РЅРѕРјРµСЂРѕРІ Р°РєС†РёР·РЅС‹С… РјР°СЂРѕРє
+     * Get the 'ExciseFirstNumber' element value. Первый номер диапазона номеров акцизных марок
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ESADExciseType
     }
 
     /** 
-     * Set the 'ExciseFirstNumber' element value. РџРµСЂРІС‹Р№ РЅРѕРјРµСЂ РґРёР°РїР°Р·РѕРЅР° РЅРѕРјРµСЂРѕРІ Р°РєС†РёР·РЅС‹С… РјР°СЂРѕРє
+     * Set the 'ExciseFirstNumber' element value. Первый номер диапазона номеров акцизных марок
      * 
      * @param exciseFirstNumber
      */
@@ -48,7 +48,7 @@ public class ESADExciseType
     }
 
     /** 
-     * Get the 'ExciseLastNumber' element value. РџРѕСЃР»РµРґРЅРёР№ РЅРѕРјРµСЂ РґРёР°РїР°Р·РѕРЅР° РЅРѕРјРµСЂРѕРІ Р°РєС†РёР·РЅС‹С… РјР°СЂРѕРє
+     * Get the 'ExciseLastNumber' element value. Последний номер диапазона номеров акцизных марок
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class ESADExciseType
     }
 
     /** 
-     * Set the 'ExciseLastNumber' element value. РџРѕСЃР»РµРґРЅРёР№ РЅРѕРјРµСЂ РґРёР°РїР°Р·РѕРЅР° РЅРѕРјРµСЂРѕРІ Р°РєС†РёР·РЅС‹С… РјР°СЂРѕРє
+     * Set the 'ExciseLastNumber' element value. Последний номер диапазона номеров акцизных марок
      * 
      * @param exciseLastNumber
      */
@@ -66,7 +66,7 @@ public class ESADExciseType
     }
 
     /** 
-     * Get the 'ExciseQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р°РєС†РёР·РЅС‹С… РјР°СЂРѕРє
+     * Get the 'ExciseQuantity' element value. Количество акцизных марок
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class ESADExciseType
     }
 
     /** 
-     * Set the 'ExciseQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р°РєС†РёР·РЅС‹С… РјР°СЂРѕРє
+     * Set the 'ExciseQuantity' element value. Количество акцизных марок
      * 
      * @param exciseQuantity
      */

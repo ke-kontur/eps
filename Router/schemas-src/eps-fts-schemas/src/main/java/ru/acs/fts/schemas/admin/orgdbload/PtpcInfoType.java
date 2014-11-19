@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.admin.orgdbload;
 import java.math.BigDecimal;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ  Рѕ С‚РѕС‡РєР°С…  РїРѕРґРєР»СЋС‡РµРЅРёСЏ
+ * Информация  о точках  подключения
  */
 public class PtpcInfoType
 {
@@ -22,7 +22,7 @@ public class PtpcInfoType
     private DocumentGroundConnectionType groundConnectionPtpc;
 
     /** 
-     * Get the 'ParticipantID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕС‡РєРё РїРѕРґРєР»СЋС‡РµРЅСЏ
+     * Get the 'ParticipantID' element value. Идентификатор точки подключеня
      * 
      * @return value
      */
@@ -31,7 +31,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Set the 'ParticipantID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ С‚РѕС‡РєРё РїРѕРґРєР»СЋС‡РµРЅСЏ
+     * Set the 'ParticipantID' element value. Идентификатор точки подключеня
      * 
      * @param participantID
      */
@@ -40,7 +40,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Get the 'E_mailFlag' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ СЏС‰РёРєР° РѕРїРµСЂР°С‚РѕСЂР°(0- РЅРµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ, 1- РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЌР»РµРє СЏС‰РёРє РѕРїРµСЂР°С‚РѕСЂР°)
+     * Get the 'E_mailFlag' element value. Признак использования электронного ящика оператора(0- не использовать, 1- использовать элек ящик оператора)
      * 
      * @return value
      */
@@ -49,7 +49,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Set the 'E_mailFlag' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ СЏС‰РёРєР° РѕРїРµСЂР°С‚РѕСЂР°(0- РЅРµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ, 1- РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЌР»РµРє СЏС‰РёРє РѕРїРµСЂР°С‚РѕСЂР°)
+     * Set the 'E_mailFlag' element value. Признак использования электронного ящика оператора(0- не использовать, 1- использовать элек ящик оператора)
      * 
      * @param EMailFlag
      */
@@ -58,7 +58,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Get the 'Protocol' element value. РџСЂРѕС‚РѕРєРѕР» РїРµСЂРµРґР°С‡Рё СЃРѕРѕР±С‰РµРЅРёР№('smtp'- smtp, 'mq'- MQ)
+     * Get the 'Protocol' element value. Протокол передачи сообщений('smtp'- smtp, 'mq'- MQ)
      * 
      * @return value
      */
@@ -67,7 +67,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Set the 'Protocol' element value. РџСЂРѕС‚РѕРєРѕР» РїРµСЂРµРґР°С‡Рё СЃРѕРѕР±С‰РµРЅРёР№('smtp'- smtp, 'mq'- MQ)
+     * Set the 'Protocol' element value. Протокол передачи сообщений('smtp'- smtp, 'mq'- MQ)
      * 
      * @param protocol
      */
@@ -76,7 +76,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Get the 'PTPC_Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ  С‚РѕС‡РєРё  РїРѕРґРєР»СЋС‡РµРЅРёСЏ
+     * Get the 'PTPC_Name' element value. Наименование  точки  подключения
      * 
      * @return value
      */
@@ -85,7 +85,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Set the 'PTPC_Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ  С‚РѕС‡РєРё  РїРѕРґРєР»СЋС‡РµРЅРёСЏ
+     * Set the 'PTPC_Name' element value. Наименование  точки  подключения
      * 
      * @param PTPCName
      */
@@ -94,7 +94,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Get the 'TransferType' element value. РўРёРї РїРµСЂРµРґР°С‡Рё  СЃРѕРѕР±С‰РµРЅРёР№ (XML/ZIP)
+     * Get the 'TransferType' element value. Тип передачи  сообщений (XML/ZIP)
      * 
      * @return value
      */
@@ -103,7 +103,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Set the 'TransferType' element value. РўРёРї РїРµСЂРµРґР°С‡Рё  СЃРѕРѕР±С‰РµРЅРёР№ (XML/ZIP)
+     * Set the 'TransferType' element value. Тип передачи  сообщений (XML/ZIP)
      * 
      * @param transferType
      */
@@ -112,7 +112,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
+     * Get the 'Comments' element value. Комментарий
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёР№
+     * Set the 'Comments' element value. Комментарий
      * 
      * @param comments
      */
@@ -130,7 +130,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Get the 'BrokerID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕРіРѕ Р±СЂРѕРєРµСЂР°
+     * Get the 'BrokerID' element value. Идентификатор информационного брокера
      * 
      * @return value
      */
@@ -139,7 +139,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Set the 'BrokerID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕРіРѕ Р±СЂРѕРєРµСЂР°
+     * Set the 'BrokerID' element value. Идентификатор информационного брокера
      * 
      * @param brokerID
      */
@@ -148,7 +148,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Get the 'IPSID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РРџРЎ Р’Р­Р”
+     * Get the 'IPSID' element value. Идентификатор ИПС ВЭД
      * 
      * @return value
      */
@@ -157,7 +157,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Set the 'IPSID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РРџРЎ Р’Р­Р”
+     * Set the 'IPSID' element value. Идентификатор ИПС ВЭД
      * 
      * @param IPSID
      */
@@ -166,7 +166,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ С‚РѕС‡РєРё РїРѕРґРєР»СЋС‡РµРЅРёСЏ
+     * Get the 'Address' element value. Адрес точки подключения
      * 
      * @return value
      */
@@ -175,7 +175,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ С‚РѕС‡РєРё РїРѕРґРєР»СЋС‡РµРЅРёСЏ
+     * Set the 'Address' element value. Адрес точки подключения
      * 
      * @param address
      */
@@ -184,7 +184,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Get the 'SVXSign' element value. РџСЂРёР·РЅР°Рє РЎР’РҐ.
+     * Get the 'SVXSign' element value. Признак СВХ.
      * 
      * @return value
      */
@@ -193,7 +193,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Set the 'SVXSign' element value. РџСЂРёР·РЅР°Рє РЎР’РҐ.
+     * Set the 'SVXSign' element value. Признак СВХ.
      * 
      * @param SVXSign
      */
@@ -202,7 +202,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Get the 'SVXID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёР· СЃРїСЂР°РІРѕС‡РЅРёРєР° СЃРІРёРґРµС‚РµР»СЊСЃС‚РІ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ РІР»Р°РґРµР»СЊС†РµРІ РЎР’РҐ
+     * Get the 'SVXID' element value. Идентификатор из справочника свидетельств о включении в реестр владельцев СВХ
      * 
      * @return value
      */
@@ -211,7 +211,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Set the 'SVXID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РёР· СЃРїСЂР°РІРѕС‡РЅРёРєР° СЃРІРёРґРµС‚РµР»СЊСЃС‚РІ Рѕ РІРєР»СЋС‡РµРЅРёРё РІ СЂРµРµСЃС‚СЂ РІР»Р°РґРµР»СЊС†РµРІ РЎР’РҐ
+     * Set the 'SVXID' element value. Идентификатор из справочника свидетельств о включении в реестр владельцев СВХ
      * 
      * @param SVXID
      */
@@ -220,7 +220,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Get the 'GroundConnectionPtpc' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїРѕРґРєР»СЋС‡РµРЅРёСЏ С‚РѕС‡РєРё 
+     * Get the 'GroundConnectionPtpc' element value. Основание для подключения точки 
      * 
      * @return value
      */
@@ -229,7 +229,7 @@ public class PtpcInfoType
     }
 
     /** 
-     * Set the 'GroundConnectionPtpc' element value. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РїРѕРґРєР»СЋС‡РµРЅРёСЏ С‚РѕС‡РєРё 
+     * Set the 'GroundConnectionPtpc' element value. Основание для подключения точки 
      * 
      * @param groundConnectionPtpc
      */

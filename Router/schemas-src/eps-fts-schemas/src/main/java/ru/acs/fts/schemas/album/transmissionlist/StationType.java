@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transmissionlist;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё Рё РґРѕСЂРѕРіРё
+ * Сведения о железнодорожной станции и дороги
  */
 public class StationType
 {
@@ -11,7 +11,7 @@ public class StationType
     private String railwayCode;
 
     /** 
-     * Get the 'StationCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё, СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РїСЂРё РїРµСЂРµРІРѕР·РєРµ  РіСЂСѓР·РѕРІ РёР·/РІ РљРќР”Р  
+     * Get the 'StationCode' element value. Код железнодорожной станции, указывается при перевозке  грузов из/в КНДР 
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class StationType
     }
 
     /** 
-     * Set the 'StationCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ СЃС‚Р°РЅС†РёРё, СѓРєР°Р·С‹РІР°РµС‚СЃСЏ РїСЂРё РїРµСЂРµРІРѕР·РєРµ  РіСЂСѓР·РѕРІ РёР·/РІ РљРќР”Р  
+     * Set the 'StationCode' element value. Код железнодорожной станции, указывается при перевозке  грузов из/в КНДР 
      * 
      * @param stationCode
      */
@@ -29,7 +29,7 @@ public class StationType
     }
 
     /** 
-     * Get the 'StationName' element value. РўР°СЂРёС„РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°РЅС†РёРё
+     * Get the 'StationName' element value. Тарифное наименование станции
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class StationType
     }
 
     /** 
-     * Set the 'StationName' element value. РўР°СЂРёС„РЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°РЅС†РёРё
+     * Set the 'StationName' element value. Тарифное наименование станции
      * 
      * @param stationName
      */
@@ -47,7 +47,7 @@ public class StationType
     }
 
     /** 
-     * Get the 'RailwayCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ РґРѕСЂРѕРіРё 
+     * Get the 'RailwayCode' element value. Код железнодорожной дороги 
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class StationType
     }
 
     /** 
-     * Set the 'RailwayCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅРѕР№ РґРѕСЂРѕРіРё 
+     * Set the 'RailwayCode' element value. Код железнодорожной дороги 
      * 
      * @param railwayCode
      */

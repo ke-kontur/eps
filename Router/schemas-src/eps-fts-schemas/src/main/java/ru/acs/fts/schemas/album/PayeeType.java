@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commercialfinancecommonaggregatetypescust.PayCus
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ РїРѕР»СѓС‡Р°С‚РµР»СЏ
+ * Реквизиты получателя
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -25,7 +25,7 @@ public class PayeeType extends PayCustomerType
     private AddressType address;
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ
+     * Get the 'Address' element value. Адрес
      * 
      * @return value
      */
@@ -34,7 +34,7 @@ public class PayeeType extends PayCustomerType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ
+     * Set the 'Address' element value. Адрес
      * 
      * @param address
      */

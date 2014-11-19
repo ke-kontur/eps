@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadktscommonaggregatetypescust;
 
 /** 
- * РўРёРї РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё - Р±Р»РѕРє 2
+ * Тип корректировки - блок 2
  */
 public class Adjustment2TypeCodeType
 {
@@ -12,7 +12,7 @@ public class Adjustment2TypeCodeType
     private String basisCompilationKTS;
 
     /** 
-     * Get the 'BasisCalculating' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РѕСЃРЅРѕРІС‹ РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ
+     * Get the 'BasisCalculating' element value. Признак корректировки основы для расчета таможенной стоимости товаров
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class Adjustment2TypeCodeType
     }
 
     /** 
-     * Set the 'BasisCalculating' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РѕСЃРЅРѕРІС‹ РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё С‚РѕРІР°СЂРѕРІ
+     * Set the 'BasisCalculating' element value. Признак корректировки основы для расчета таможенной стоимости товаров
      * 
      * @param basisCalculating
      */
@@ -30,7 +30,7 @@ public class Adjustment2TypeCodeType
     }
 
     /** 
-     * Get the 'AddAccrual' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РЅР°С‡РёСЃР»РµРЅРёР№ Рє РѕСЃРЅРѕРІРµ РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the 'AddAccrual' element value. Признак корректировки дополнительных начислений к основе для расчета таможенной стоимости
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class Adjustment2TypeCodeType
     }
 
     /** 
-     * Set the 'AddAccrual' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РЅР°С‡РёСЃР»РµРЅРёР№ Рє РѕСЃРЅРѕРІРµ РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the 'AddAccrual' element value. Признак корректировки дополнительных начислений к основе для расчета таможенной стоимости
      * 
      * @param addAccrual
      */
@@ -48,7 +48,7 @@ public class Adjustment2TypeCodeType
     }
 
     /** 
-     * Get the 'Cost' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РІРµР»РёС‡РёРЅС‹ Р·Р°С‚СЂР°С‚, СЂР°Р·СЂРµС€РµРЅРЅС‹С… Рє РІС‹С‡РµС‚Сѓ РёР· РѕСЃРЅРѕРІС‹ РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Get the 'Cost' element value. Признак корректировки величины затрат, разрешенных к вычету из основы для расчета таможенной стоимости
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class Adjustment2TypeCodeType
     }
 
     /** 
-     * Set the 'Cost' element value. РџСЂРёР·РЅР°Рє РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРё РІРµР»РёС‡РёРЅС‹ Р·Р°С‚СЂР°С‚, СЂР°Р·СЂРµС€РµРЅРЅС‹С… Рє РІС‹С‡РµС‚Сѓ РёР· РѕСЃРЅРѕРІС‹ РґР»СЏ СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+     * Set the 'Cost' element value. Признак корректировки величины затрат, разрешенных к вычету из основы для расчета таможенной стоимости
      * 
      * @param cost
      */
@@ -66,7 +66,7 @@ public class Adjustment2TypeCodeType
     }
 
     /** 
-     * Get the 'BasisCompilationKTS' element value. РџСЂРёР·РЅР°Рє РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ, РїРѕСЃР»СѓР¶РёРІС€РёС… РѕСЃРЅРѕРІР°РЅРёРµРј РґР»СЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РљРўРЎ
+     * Get the 'BasisCompilationKTS' element value. Признак обстоятельств, послуживших основанием для составления КТС
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class Adjustment2TypeCodeType
     }
 
     /** 
-     * Set the 'BasisCompilationKTS' element value. РџСЂРёР·РЅР°Рє РѕР±СЃС‚РѕСЏС‚РµР»СЊСЃС‚РІ, РїРѕСЃР»СѓР¶РёРІС€РёС… РѕСЃРЅРѕРІР°РЅРёРµРј РґР»СЏ СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ РљРўРЎ
+     * Set the 'BasisCompilationKTS' element value. Признак обстоятельств, послуживших основанием для составления КТС
      * 
      * @param basisCompilationKTS
      */

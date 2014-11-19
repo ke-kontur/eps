@@ -6,14 +6,14 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * Р”РѕРєСѓРјРµРЅС‚, РёСЃС‚РѕС‡РЅРёРє РёРЅС„РѕСЂРјР°С†РёРё Рѕ РІС‹СЏРІР»РµРЅРЅРѕРј РЅР°СЂСѓС€РµРЅРёРё. (РїСЂРѕС‚РѕРєРѕР», Р°РєС‚ РґРѕСЃРјРѕС‚СЂР° Рё С‚.Рї.)
+ * Документ, источник информации о выявленном нарушении. (протокол, акт досмотра и т.п.)
  */
 public class ViolationDocType extends DocumentBaseType
 {
     private List<String> commentList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Get the list of 'Comments' element items. Комментарии
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class ViolationDocType extends DocumentBaseType
     }
 
     /** 
-     * Set the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Set the list of 'Comments' element items. Комментарии
      * 
      * @param list
      */

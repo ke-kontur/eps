@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р—Р°РїСЂР°С€РёРІР°РµРјС‹Рµ СЃРІРµРґРµРЅРёСЏ
+ * Запрашиваемые сведения
  */
 public class RequestDataType
 {
@@ -17,7 +17,7 @@ public class RequestDataType
     private List<DocRequestType> docRequestList = new ArrayList<DocRequestType>();
 
     /** 
-     * Get the 'RequestSign' element value. Р’С‹РїРёСЃРєР° РёР· Р•РґРёРЅРѕРіРѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЂРµРµСЃС‚СЂР°: 1 - РѕР± РѕР±СЉРµРєС‚Рµ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё; 2 -  Рѕ РїСЂР°РІР°С… РѕС‚РґРµР»СЊРЅРѕРіРѕ Р»РёС†Р° РЅР° РёРјРµСЋС‰РёРµСЃСЏ Сѓ РЅРµРіРѕ РѕР±СЉРµРєС‚С‹ РЅРµРґРІРёР¶РёРјРѕРіРѕ РёРјСѓС‰РµСЃС‚РІР°; 3 - СЃРІРµРґРµРЅРёСЏ РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ; 4 - Рѕ РїСЂРёР·РЅР°РЅРёРё РїСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЏ РЅРµРґРµРµСЃРїРѕСЃРѕР±РЅС‹Рј РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅРѕ РґРµРµСЃРїРѕСЃРѕР±РЅС‹Рј
+     * Get the 'RequestSign' element value. Выписка из Единого государственного реестра: 1 - об объекте недвижимости; 2 -  о правах отдельного лица на имеющиеся у него объекты недвижимого имущества; 3 - сведения по документу; 4 - о признании правообладателя недееспособным или ограниченно дееспособным
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class RequestDataType
     }
 
     /** 
-     * Set the 'RequestSign' element value. Р’С‹РїРёСЃРєР° РёР· Р•РґРёРЅРѕРіРѕ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅРѕРіРѕ СЂРµРµСЃС‚СЂР°: 1 - РѕР± РѕР±СЉРµРєС‚Рµ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё; 2 -  Рѕ РїСЂР°РІР°С… РѕС‚РґРµР»СЊРЅРѕРіРѕ Р»РёС†Р° РЅР° РёРјРµСЋС‰РёРµСЃСЏ Сѓ РЅРµРіРѕ РѕР±СЉРµРєС‚С‹ РЅРµРґРІРёР¶РёРјРѕРіРѕ РёРјСѓС‰РµСЃС‚РІР°; 3 - СЃРІРµРґРµРЅРёСЏ РїРѕ РґРѕРєСѓРјРµРЅС‚Сѓ; 4 - Рѕ РїСЂРёР·РЅР°РЅРёРё РїСЂР°РІРѕРѕР±Р»Р°РґР°С‚РµР»СЏ РЅРµРґРµРµСЃРїРѕСЃРѕР±РЅС‹Рј РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅРѕ РґРµРµСЃРїРѕСЃРѕР±РЅС‹Рј
+     * Set the 'RequestSign' element value. Выписка из Единого государственного реестра: 1 - об объекте недвижимости; 2 -  о правах отдельного лица на имеющиеся у него объекты недвижимого имущества; 3 - сведения по документу; 4 - о признании правообладателя недееспособным или ограниченно дееспособным
      * 
      * @param requestSign
      */
@@ -35,7 +35,7 @@ public class RequestDataType
     }
 
     /** 
-     * Get the 'EstateObject' element value. РћР±СЉРµРєС‚ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
+     * Get the 'EstateObject' element value. Объект недвижимости
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class RequestDataType
     }
 
     /** 
-     * Set the 'EstateObject' element value. РћР±СЉРµРєС‚ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
+     * Set the 'EstateObject' element value. Объект недвижимости
      * 
      * @param estateObject
      */
@@ -53,7 +53,7 @@ public class RequestDataType
     }
 
     /** 
-     * Get the 'Owner' element value. Р’Р»Р°РґРµР»РµС† РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕРіРѕ РёРјСѓС‰РµСЃС‚РІР°
+     * Get the 'Owner' element value. Владелец объекта недвижимого имущества
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class RequestDataType
     }
 
     /** 
-     * Set the 'Owner' element value. Р’Р»Р°РґРµР»РµС† РѕР±СЉРµРєС‚Р° РЅРµРґРІРёР¶РёРјРѕРіРѕ РёРјСѓС‰РµСЃС‚РІР°
+     * Set the 'Owner' element value. Владелец объекта недвижимого имущества
      * 
      * @param owner
      */
@@ -71,7 +71,7 @@ public class RequestDataType
     }
 
     /** 
-     * Get the 'Territory' element value. РўРµСЂСЂРёС‚РѕСЂРёСЏ Р Р¤
+     * Get the 'Territory' element value. Территория РФ
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class RequestDataType
     }
 
     /** 
-     * Set the 'Territory' element value. РўРµСЂСЂРёС‚РѕСЂРёСЏ Р Р¤
+     * Set the 'Territory' element value. Территория РФ
      * 
      * @param territory
      */
@@ -89,7 +89,7 @@ public class RequestDataType
     }
 
     /** 
-     * Get the 'RequestPeriod' element value. РџРµСЂРёРѕРґ РІСЂРµРјРµРЅРё, Р·Р° РєРѕС‚РѕСЂС‹Р№ РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ СЃРІРµРґРµРЅРёСЏ
+     * Get the 'RequestPeriod' element value. Период времени, за который необходимо предоставить сведения
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class RequestDataType
     }
 
     /** 
-     * Set the 'RequestPeriod' element value. РџРµСЂРёРѕРґ РІСЂРµРјРµРЅРё, Р·Р° РєРѕС‚РѕСЂС‹Р№ РЅРµРѕР±С…РѕРґРёРјРѕ РїСЂРµРґРѕСЃС‚Р°РІРёС‚СЊ СЃРІРµРґРµРЅРёСЏ
+     * Set the 'RequestPeriod' element value. Период времени, за который необходимо предоставить сведения
      * 
      * @param requestPeriod
      */
@@ -107,7 +107,7 @@ public class RequestDataType
     }
 
     /** 
-     * Get the list of 'DocRequest' element items. Р—Р°РїСЂРѕСЃ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the list of 'DocRequest' element items. Запрос документа
      * 
      * @return list
      */
@@ -116,7 +116,7 @@ public class RequestDataType
     }
 
     /** 
-     * Set the list of 'DocRequest' element items. Р—Р°РїСЂРѕСЃ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the list of 'DocRequest' element items. Запрос документа
      * 
      * @param list
      */

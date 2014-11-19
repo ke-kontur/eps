@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.datard;
 import org.joda.time.LocalDate;
 
 /** 
- * РљРІРѕС‚РёСЂСѓРµРјС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+ * Квотируемые документы
  */
 public class QuotaType
 {
@@ -18,7 +18,7 @@ public class QuotaType
     private String goodsDescription;
 
     /** 
-     * Get the 'ConNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ConNumber' element value. Номер контракта
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class QuotaType
     }
 
     /** 
-     * Set the 'ConNumber' element value. РќРѕРјРµСЂ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ConNumber' element value. Номер контракта
      * 
      * @param conNumber
      */
@@ -36,7 +36,7 @@ public class QuotaType
     }
 
     /** 
-     * Get the 'ConDateSignature' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Get the 'ConDateSignature' element value. Дата подписания контракта
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class QuotaType
     }
 
     /** 
-     * Set the 'ConDateSignature' element value. Р”Р°С‚Р° РїРѕРґРїРёСЃР°РЅРёСЏ РєРѕРЅС‚СЂР°РєС‚Р°
+     * Set the 'ConDateSignature' element value. Дата подписания контракта
      * 
      * @param conDateSignature
      */
@@ -54,7 +54,7 @@ public class QuotaType
     }
 
     /** 
-     * Get the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° 
+     * Get the 'FormNumber' element value. Номер бланка 
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class QuotaType
     }
 
     /** 
-     * Set the 'FormNumber' element value. РќРѕРјРµСЂ Р±Р»Р°РЅРєР° 
+     * Set the 'FormNumber' element value. Номер бланка 
      * 
      * @param formNumber
      */
@@ -72,7 +72,7 @@ public class QuotaType
     }
 
     /** 
-     * Get the 'SeriesForm' element value. РЎРµСЂРёСЏ Р±Р»Р°РЅРєР° 
+     * Get the 'SeriesForm' element value. Серия бланка 
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class QuotaType
     }
 
     /** 
-     * Set the 'SeriesForm' element value. РЎРµСЂРёСЏ Р±Р»Р°РЅРєР° 
+     * Set the 'SeriesForm' element value. Серия бланка 
      * 
      * @param seriesForm
      */
@@ -90,7 +90,7 @@ public class QuotaType
     }
 
     /** 
-     * Get the 'OwnersLicense' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ  РІР»Р°РґРµР»СЊС†Р° Р»РёС†РµРЅР·РёРё
+     * Get the 'OwnersLicense' element value. Наименование  владельца лицензии
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class QuotaType
     }
 
     /** 
-     * Set the 'OwnersLicense' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ  РІР»Р°РґРµР»СЊС†Р° Р»РёС†РµРЅР·РёРё
+     * Set the 'OwnersLicense' element value. Наименование  владельца лицензии
      * 
      * @param ownersLicense
      */
@@ -108,7 +108,7 @@ public class QuotaType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґР°РІС†Р° (РїРѕРєСѓРїР°С‚РµР»СЏ)
+     * Get the 'OrganizationName' element value. Наименование продавца (покупателя)
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class QuotaType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґР°РІС†Р° (РїРѕРєСѓРїР°С‚РµР»СЏ)
+     * Set the 'OrganizationName' element value. Наименование продавца (покупателя)
      * 
      * @param organizationName
      */
@@ -126,7 +126,7 @@ public class QuotaType
     }
 
     /** 
-     * Get the 'GoodsTNVED' element value. РљРѕРґ РўРќР’Р­Р”
+     * Get the 'GoodsTNVED' element value. Код ТНВЭД
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class QuotaType
     }
 
     /** 
-     * Set the 'GoodsTNVED' element value. РљРѕРґ РўРќР’Р­Р”
+     * Set the 'GoodsTNVED' element value. Код ТНВЭД
      * 
      * @param goodsTNVED
      */
@@ -144,7 +144,7 @@ public class QuotaType
     }
 
     /** 
-     * Get the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂР°
+     * Get the 'GoodsDescription' element value. Описание (наименование) товара
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class QuotaType
     }
 
     /** 
-     * Set the 'GoodsDescription' element value. РћРїРёСЃР°РЅРёРµ (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ) С‚РѕРІР°СЂР°
+     * Set the 'GoodsDescription' element value. Описание (наименование) товара
      * 
      * @param goodsDescription
      */

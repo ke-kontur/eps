@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂР°С….
+ * Сведения о контейнерах.
  */
 public class ContainerType
 {
@@ -13,7 +13,7 @@ public class ContainerType
     private List<String> containerIdentificatorList = new ArrayList<String>();
 
     /** 
-     * Get the 'ContainerQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РєРѕРЅС‚РµР№РЅРµСЂРѕРІ. 
+     * Get the 'ContainerQuantity' element value. Количество контейнеров. 
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ContainerType
     }
 
     /** 
-     * Set the 'ContainerQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РєРѕРЅС‚РµР№РЅРµСЂРѕРІ. 
+     * Set the 'ContainerQuantity' element value. Количество контейнеров. 
      * 
      * @param containerQuantity
      */
@@ -31,7 +31,7 @@ public class ContainerType
     }
 
     /** 
-     * Get the list of 'ContainerIdentificator' element items. РќРѕРјРµСЂ (РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ) РєРѕРЅС‚РµР№РЅРµСЂР°.
+     * Get the list of 'ContainerIdentificator' element items. Номер (идентификатор) контейнера.
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class ContainerType
     }
 
     /** 
-     * Set the list of 'ContainerIdentificator' element items. РќРѕРјРµСЂ (РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ) РєРѕРЅС‚РµР№РЅРµСЂР°.
+     * Set the list of 'ContainerIdentificator' element items. Номер (идентификатор) контейнера.
      * 
      * @param list
      */

@@ -7,7 +7,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * Р”Р°РЅРЅС‹Рµ СЃСѓРґРЅР°
+ * Данные судна
  */
 public class ShipDataType
 {
@@ -28,7 +28,7 @@ public class ShipDataType
     private AddressType previousPlaceResidence;
 
     /** 
-     * Get the 'IDVessel' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЃСѓРґРЅР°
+     * Get the 'IDVessel' element value. Идентификационный номер судна
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'IDVessel' element value. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ СЃСѓРґРЅР°
+     * Set the 'IDVessel' element value. Идентификационный номер судна
      * 
      * @param IDVessel
      */
@@ -46,7 +46,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°
+     * Get the 'Name' element value. Наименование судна
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'Name' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°
+     * Set the 'Name' element value. Наименование судна
      * 
      * @param name
      */
@@ -64,7 +64,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'RegNumder' element value. РќРѕРјРµСЂ СЃСѓРґРЅР°
+     * Get the 'RegNumder' element value. Номер судна
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'RegNumder' element value. РќРѕРјРµСЂ СЃСѓРґРЅР°
+     * Set the 'RegNumder' element value. Номер судна
      * 
      * @param regNumder
      */
@@ -82,7 +82,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the list of 'TypeFunction' element items. РўРёРї Рё РЅР°Р·РЅР°С‡РµРЅРёРµ
+     * Get the list of 'TypeFunction' element items. Тип и назначение
      * 
      * @return list
      */
@@ -91,7 +91,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the list of 'TypeFunction' element items. РўРёРї Рё РЅР°Р·РЅР°С‡РµРЅРёРµ
+     * Set the list of 'TypeFunction' element items. Тип и назначение
      * 
      * @param list
      */
@@ -100,7 +100,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'Class' element value. РљР»Р°СЃСЃ СЃСѓРґРЅР°
+     * Get the 'Class' element value. Класс судна
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'Class' element value. РљР»Р°СЃСЃ СЃСѓРґРЅР°
+     * Set the 'Class' element value. Класс судна
      * 
      * @param _class
      */
@@ -118,7 +118,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'Project' element value. РќРѕРјРµСЂ РїСЂРѕРµРєС‚Р°
+     * Get the 'Project' element value. Номер проекта
      * 
      * @return value
      */
@@ -127,7 +127,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'Project' element value. РќРѕРјРµСЂ РїСЂРѕРµРєС‚Р°
+     * Set the 'Project' element value. Номер проекта
      * 
      * @param project
      */
@@ -136,7 +136,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'Year' element value. Р“РѕРґ РІС‹РїСѓСЃРєР°
+     * Get the 'Year' element value. Год выпуска
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'Year' element value. Р“РѕРґ РІС‹РїСѓСЃРєР°
+     * Set the 'Year' element value. Год выпуска
      * 
      * @param year
      */
@@ -154,7 +154,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'Place' element value. РњРµСЃС‚Рѕ РїРѕСЃС‚СЂРѕР№РєРё
+     * Get the 'Place' element value. Место постройки
      * 
      * @return value
      */
@@ -163,7 +163,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'Place' element value. РњРµСЃС‚Рѕ РїРѕСЃС‚СЂРѕР№РєРё
+     * Set the 'Place' element value. Место постройки
      * 
      * @param place
      */
@@ -172,7 +172,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'HousingMaterial' element value. РњР°С‚РµСЂРёР°Р» РєРѕСЂРїСѓСЃР°
+     * Get the 'HousingMaterial' element value. Материал корпуса
      * 
      * @return value
      */
@@ -181,7 +181,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'HousingMaterial' element value. РњР°С‚РµСЂРёР°Р» РєРѕСЂРїСѓСЃР°
+     * Set the 'HousingMaterial' element value. Материал корпуса
      * 
      * @param housingMaterial
      */
@@ -190,7 +190,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'Capacity' element value. Р“СЂСѓР·РѕРїРѕРґСЉРµРјРЅРѕСЃС‚СЊ
+     * Get the 'Capacity' element value. Грузоподъемность
      * 
      * @return value
      */
@@ -199,7 +199,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'Capacity' element value. Р“СЂСѓР·РѕРїРѕРґСЉРµРјРЅРѕСЃС‚СЊ
+     * Set the 'Capacity' element value. Грузоподъемность
      * 
      * @param capacity
      */
@@ -208,7 +208,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'Passenger' element value. РџР°СЃСЃР°Р¶РёСЂРѕРІРјРµСЃС‚РёРјРѕСЃС‚СЊ
+     * Get the 'Passenger' element value. Пассажировместимость
      * 
      * @return value
      */
@@ -217,7 +217,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'Passenger' element value. РџР°СЃСЃР°Р¶РёСЂРѕРІРјРµСЃС‚РёРјРѕСЃС‚СЊ
+     * Set the 'Passenger' element value. Пассажировместимость
      * 
      * @param passenger
      */
@@ -226,7 +226,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'PreviousName' element value. РџСЂРµР¶РЅРµРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°.
+     * Get the 'PreviousName' element value. Прежнее наименование судна.
      * 
      * @return value
      */
@@ -235,7 +235,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'PreviousName' element value. РџСЂРµР¶РЅРµРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ СЃСѓРґРЅР°.
+     * Set the 'PreviousName' element value. Прежнее наименование судна.
      * 
      * @param previousName
      */
@@ -244,7 +244,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'MainMachine' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіР»Р°РІРЅС‹С… РјР°С€РёРЅР°С…
+     * Get the 'MainMachine' element value. Сведения о главных машинах
      * 
      * @return value
      */
@@ -253,7 +253,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'MainMachine' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіР»Р°РІРЅС‹С… РјР°С€РёРЅР°С…
+     * Set the 'MainMachine' element value. Сведения о главных машинах
      * 
      * @param mainMachine
      */
@@ -262,7 +262,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'Dimensions' element value. Р“Р°Р±Р°СЂРёС‚РЅС‹Рµ СЂР°Р·РјРµСЂС‹ СЃСѓРґРЅР°
+     * Get the 'Dimensions' element value. Габаритные размеры судна
      * 
      * @return value
      */
@@ -271,7 +271,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'Dimensions' element value. Р“Р°Р±Р°СЂРёС‚РЅС‹Рµ СЂР°Р·РјРµСЂС‹ СЃСѓРґРЅР°
+     * Set the 'Dimensions' element value. Габаритные размеры судна
      * 
      * @param dimensions
      */
@@ -280,7 +280,7 @@ public class ShipDataType
     }
 
     /** 
-     * Get the 'PreviousPlaceResidence' element value. РџСЂРµР¶РЅРµРµ РјРµСЃС‚Рѕ РїСЂРёРїРёСЃРєРё
+     * Get the 'PreviousPlaceResidence' element value. Прежнее место приписки
      * 
      * @return value
      */
@@ -289,7 +289,7 @@ public class ShipDataType
     }
 
     /** 
-     * Set the 'PreviousPlaceResidence' element value. РџСЂРµР¶РЅРµРµ РјРµСЃС‚Рѕ РїСЂРёРїРёСЃРєРё
+     * Set the 'PreviousPlaceResidence' element value. Прежнее место приписки
      * 
      * @param previousPlaceResidence
      */

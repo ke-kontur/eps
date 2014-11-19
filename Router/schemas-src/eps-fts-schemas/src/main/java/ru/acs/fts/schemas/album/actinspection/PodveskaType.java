@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РџРѕРґРІРµСЃРєР° РєРѕР»РµСЃ
+ * Подвеска колес
  */
 public class PodveskaType
 {
@@ -13,7 +13,7 @@ public class PodveskaType
     private List<String> rearSuspensionList = new ArrayList<String>();
 
     /** 
-     * Get the 'FrontSuspension' element value. РўРёРї РїРµСЂРµРґРЅРµР№ РїРѕРґРІРµСЃРєРё РѕСЃРё: "1" - СЂРµСЃСЃРѕСЂРЅР°СЏ, "2" - РїРЅРµРІРјР°С‚РёС‡РµСЃРєР°СЏ, "3" - С‚РѕСЂСЃРёРѕРЅРЅР°СЏ
+     * Get the 'FrontSuspension' element value. Тип передней подвески оси: "1" - рессорная, "2" - пневматическая, "3" - торсионная
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class PodveskaType
     }
 
     /** 
-     * Set the 'FrontSuspension' element value. РўРёРї РїРµСЂРµРґРЅРµР№ РїРѕРґРІРµСЃРєРё РѕСЃРё: "1" - СЂРµСЃСЃРѕСЂРЅР°СЏ, "2" - РїРЅРµРІРјР°С‚РёС‡РµСЃРєР°СЏ, "3" - С‚РѕСЂСЃРёРѕРЅРЅР°СЏ
+     * Set the 'FrontSuspension' element value. Тип передней подвески оси: "1" - рессорная, "2" - пневматическая, "3" - торсионная
      * 
      * @param frontSuspension
      */
@@ -31,7 +31,7 @@ public class PodveskaType
     }
 
     /** 
-     * Get the list of 'RearSuspension' element items. РўРёРї Р·Р°РґРЅРµР№ РїРѕРґРІРµСЃРєРё РѕСЃРё: "1" - СЂРµСЃСЃРѕСЂРЅР°СЏ, "2" - РїРЅРµРІРјР°С‚РёС‡РµСЃРєР°СЏ, "3" - С‚РѕСЂСЃРёРѕРЅРЅР°СЏ
+     * Get the list of 'RearSuspension' element items. Тип задней подвески оси: "1" - рессорная, "2" - пневматическая, "3" - торсионная
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class PodveskaType
     }
 
     /** 
-     * Set the list of 'RearSuspension' element items. РўРёРї Р·Р°РґРЅРµР№ РїРѕРґРІРµСЃРєРё РѕСЃРё: "1" - СЂРµСЃСЃРѕСЂРЅР°СЏ, "2" - РїРЅРµРІРјР°С‚РёС‡РµСЃРєР°СЏ, "3" - С‚РѕСЂСЃРёРѕРЅРЅР°СЏ
+     * Set the list of 'RearSuspension' element items. Тип задней подвески оси: "1" - рессорная, "2" - пневматическая, "3" - торсионная
      * 
      * @param list
      */

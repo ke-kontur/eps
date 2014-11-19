@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё РњРџРћ
+ * Уведомление о регистрации МПО
  */
 public class NotifMPORegistrationType extends BaseDocType
 {
@@ -20,7 +20,7 @@ public class NotifMPORegistrationType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'RegistrationDate' element value. Дата регистрации
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'RegistrationDate' element value. Дата регистрации
      * 
      * @param registrationDate
      */
@@ -38,7 +38,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegistrationTime' element value. Р’СЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Get the 'RegistrationTime' element value. Время регистрации
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegistrationTime' element value. Р’СЂРµРјСЏ СЂРµРіРёСЃС‚СЂР°С†РёРё
+     * Set the 'RegistrationTime' element value. Время регистрации
      * 
      * @param registrationTime
      */
@@ -56,7 +56,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Get the 'Comments' element value. Комментарии
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Set the 'Comments' element value. Комментарии
      * 
      * @param comments
      */
@@ -74,7 +74,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'MPO_Registration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРј РЅРѕРјРµСЂРµ РњРџРћ
+     * Get the 'MPO_Registration' element value. Сведения о регистрационном номере МПО
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'MPO_Registration' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРј РЅРѕРјРµСЂРµ РњРџРћ
+     * Set the 'MPO_Registration' element value. Сведения о регистрационном номере МПО
      * 
      * @param MPORegistration
      */
@@ -92,7 +92,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -110,7 +110,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -128,7 +128,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class NotifMPORegistrationType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

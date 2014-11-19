@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album;
 
 /** 
- * РџР°СЂР°РјРµС‚СЂС‹ РѕСЃРјРѕС‚СЂР°
+ * Параметры осмотра
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -26,7 +26,7 @@ public class IDKMetadataType
     private IDKShippingDocumentsType directionDocuments;
 
     /** 
-     * Get the 'TransportMeans' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Get the 'TransportMeans' element value. Сведения о транспортном средстве
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class IDKMetadataType
     }
 
     /** 
-     * Set the 'TransportMeans' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Set the 'TransportMeans' element value. Сведения о транспортном средстве
      * 
      * @param transportMeans
      */
@@ -44,7 +44,7 @@ public class IDKMetadataType
     }
 
     /** 
-     * Get the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Get the 'Carrier' element value. Перевозчик
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class IDKMetadataType
     }
 
     /** 
-     * Set the 'Carrier' element value. РџРµСЂРµРІРѕР·С‡РёРє
+     * Set the 'Carrier' element value. Перевозчик
      * 
      * @param carrier
      */
@@ -62,7 +62,7 @@ public class IDKMetadataType
     }
 
     /** 
-     * Get the 'Principal' element value. РџСЂРёРЅС†РёРїР°Р»
+     * Get the 'Principal' element value. Принципал
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class IDKMetadataType
     }
 
     /** 
-     * Set the 'Principal' element value. РџСЂРёРЅС†РёРїР°Р»
+     * Set the 'Principal' element value. Принципал
      * 
      * @param principal
      */
@@ -80,7 +80,7 @@ public class IDKMetadataType
     }
 
     /** 
-     * Get the 'IDKShipmens' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·Рµ
+     * Get the 'IDKShipmens' element value. Сведения о грузе
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class IDKMetadataType
     }
 
     /** 
-     * Set the 'IDKShipmens' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·Рµ
+     * Set the 'IDKShipmens' element value. Сведения о грузе
      * 
      * @param IDKShipmens
      */
@@ -98,7 +98,7 @@ public class IDKMetadataType
     }
 
     /** 
-     * Get the 'DirectionDocuments' element value. РўРџРћ, РЎРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the 'DirectionDocuments' element value. ТПО, Сопроводительные документы
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class IDKMetadataType
     }
 
     /** 
-     * Set the 'DirectionDocuments' element value. РўРџРћ, РЎРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the 'DirectionDocuments' element value. ТПО, Сопроводительные документы
      * 
      * @param directionDocuments
      */

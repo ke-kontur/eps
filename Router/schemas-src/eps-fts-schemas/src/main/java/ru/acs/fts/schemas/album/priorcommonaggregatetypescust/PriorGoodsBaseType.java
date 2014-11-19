@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р‘Р°Р·РѕРІС‹Р№ С‚РёРї РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР° РґРѕРєСѓРјРµРЅС‚РѕРІ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ РёРЅС„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ
+ * Базовый тип описания товара документов предварительного информирования
  */
 public class PriorGoodsBaseType
 {
@@ -16,7 +16,7 @@ public class PriorGoodsBaseType
     private String netWeightQuantity;
 
     /** 
-     * Get the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Get the 'GoodsNumeric' element value. Номер товара по порядку
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class PriorGoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsNumeric' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Set the 'GoodsNumeric' element value. Номер товара по порядку
      * 
      * @param goodsNumeric
      */
@@ -34,7 +34,7 @@ public class PriorGoodsBaseType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class PriorGoodsBaseType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -52,7 +52,7 @@ public class PriorGoodsBaseType
     }
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Описание товара
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class PriorGoodsBaseType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Описание товара
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class PriorGoodsBaseType
     }
 
     /** 
-     * Get the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Get the 'GrossWeightQuantity' element value. Вес товара брутто (кг)
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class PriorGoodsBaseType
     }
 
     /** 
-     * Set the 'GrossWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° Р±СЂСѓС‚С‚Рѕ (РєРі)
+     * Set the 'GrossWeightQuantity' element value. Вес товара брутто (кг)
      * 
      * @param grossWeightQuantity
      */
@@ -88,7 +88,7 @@ public class PriorGoodsBaseType
     }
 
     /** 
-     * Get the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° РЅРµС‚С‚Рѕ (РєРі)
+     * Get the 'NetWeightQuantity' element value. Вес товара нетто (кг)
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class PriorGoodsBaseType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. Р’РµСЃ С‚РѕРІР°СЂР° РЅРµС‚С‚Рѕ (РєРі)
+     * Set the 'NetWeightQuantity' element value. Вес товара нетто (кг)
      * 
      * @param netWeightQuantity
      */

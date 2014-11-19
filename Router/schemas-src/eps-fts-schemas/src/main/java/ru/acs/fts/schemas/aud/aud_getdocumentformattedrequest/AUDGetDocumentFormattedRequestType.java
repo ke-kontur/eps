@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.aud.aud_getdocumentformattedrequest;
 import ru.acs.fts.schemas.aud.audcommonaggregatetypescust.AUDBaseEnvelopeType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ РЅР° РїРѕР»СѓС‡РµРЅРёРµ РґР°РЅРЅС‹С… РґР»СЏ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р° Р°СЂС…РёРІР°.
+ * Запрос на получение данных для отображения документа архива.
  */
 public class AUDGetDocumentFormattedRequestType extends AUDBaseEnvelopeType
 {
@@ -13,7 +13,7 @@ public class AUDGetDocumentFormattedRequestType extends AUDBaseEnvelopeType
     private String documentModeID;
 
     /** 
-     * Get the 'ArchiveDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'ArchiveDocumentId' element value. Архивный идентификатор документа.
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class AUDGetDocumentFormattedRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'ArchiveDocumentId' element value. РђСЂС…РёРІРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'ArchiveDocumentId' element value. Архивный идентификатор документа.
      * 
      * @param archiveDocumentId
      */
@@ -31,7 +31,7 @@ public class AUDGetDocumentFormattedRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'RepresentationKindId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ (РёСЃРїРѕР»СЊР·СѓРµРјРѕРіРѕ РґР»СЏ РІРёР·СѓР°Р»РёР·Р°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°).
+     * Get the 'RepresentationKindId' element value. Идентификатор вида представления (используемого для визуализации документа).
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class AUDGetDocumentFormattedRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'RepresentationKindId' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ (РёСЃРїРѕР»СЊР·СѓРµРјРѕРіРѕ РґР»СЏ РІРёР·СѓР°Р»РёР·Р°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°).
+     * Set the 'RepresentationKindId' element value. Идентификатор вида представления (используемого для визуализации документа).
      * 
      * @param representationKindId
      */
@@ -49,7 +49,7 @@ public class AUDGetDocumentFormattedRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class AUDGetDocumentFormattedRequestType extends AUDBaseEnvelopeType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (Р·Р°РїСЂРѕСЃР°, РѕС‚РІРµС‚Р°)
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида технологического документа (запроса, ответа)
      * 
      * @param documentModeID
      */

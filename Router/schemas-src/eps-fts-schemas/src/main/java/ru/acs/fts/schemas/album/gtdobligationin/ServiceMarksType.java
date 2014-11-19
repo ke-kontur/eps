@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.gtdobligationin;
 import ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust.RUESADCommonOfficialMarkType;
 
 /** 
- * РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё
+ * Служебные отметки
  */
 public class ServiceMarksType extends RUESADCommonOfficialMarkType
 {
@@ -12,7 +12,7 @@ public class ServiceMarksType extends RUESADCommonOfficialMarkType
     private String identifierDescription;
 
     /** 
-     * Get the 'StageDescription' element value. РћРїРёСЃР°РЅРёРµ СЌС‚Р°РїР°.
+     * Get the 'StageDescription' element value. Описание этапа.
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class ServiceMarksType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'StageDescription' element value. РћРїРёСЃР°РЅРёРµ СЌС‚Р°РїР°.
+     * Set the 'StageDescription' element value. Описание этапа.
      * 
      * @param stageDescription
      */
@@ -30,7 +30,7 @@ public class ServiceMarksType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Get the 'IdentifierDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РёРїР° РїСЂРёРјРµС‡Р°РЅРёСЏ
+     * Get the 'IdentifierDescription' element value. Описание типа примечания
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class ServiceMarksType extends RUESADCommonOfficialMarkType
     }
 
     /** 
-     * Set the 'IdentifierDescription' element value. РћРїРёСЃР°РЅРёРµ С‚РёРїР° РїСЂРёРјРµС‡Р°РЅРёСЏ
+     * Set the 'IdentifierDescription' element value. Описание типа примечания
      * 
      * @param identifierDescription
      */

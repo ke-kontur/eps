@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°СЏРІРёС‚РµР»Рµ
+ * Сведения о заявителе
  */
 public class DeclarantType extends OrganizationBackAddrType
 {
@@ -16,7 +16,7 @@ public class DeclarantType extends OrganizationBackAddrType
     private OrganizationBaseType orgRegAuthority;
 
     /** 
-     * Get the 'OrgRegistryDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РѕСЂРіР°РЅРёР·Р°С†РёРё РёР»Рё РРџ
+     * Get the 'OrgRegistryDate' element value. Дата регистрации организации или ИП
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class DeclarantType extends OrganizationBackAddrType
     }
 
     /** 
-     * Set the 'OrgRegistryDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РѕСЂРіР°РЅРёР·Р°С†РёРё РёР»Рё РРџ
+     * Set the 'OrgRegistryDate' element value. Дата регистрации организации или ИП
      * 
      * @param orgRegistryDate
      */
@@ -34,7 +34,7 @@ public class DeclarantType extends OrganizationBackAddrType
     }
 
     /** 
-     * Get the 'Chief' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'Chief' element value. Руководитель организации
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class DeclarantType extends OrganizationBackAddrType
     }
 
     /** 
-     * Set the 'Chief' element value. Р СѓРєРѕРІРѕРґРёС‚РµР»СЊ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'Chief' element value. Руководитель организации
      * 
      * @param chief
      */
@@ -52,7 +52,7 @@ public class DeclarantType extends OrganizationBackAddrType
     }
 
     /** 
-     * Get the 'OrgRegAuthority' element value. РћСЂРіР°РЅ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РёР»Рё РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ
+     * Get the 'OrgRegAuthority' element value. Орган регистрации юридического лица или индивидуального предпринимателя
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class DeclarantType extends OrganizationBackAddrType
     }
 
     /** 
-     * Set the 'OrgRegAuthority' element value. РћСЂРіР°РЅ СЂРµРіРёСЃС‚СЂР°С†РёРё СЋСЂРёРґРёС‡РµСЃРєРѕРіРѕ Р»РёС†Р° РёР»Рё РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ
+     * Set the 'OrgRegAuthority' element value. Орган регистрации юридического лица или индивидуального предпринимателя
      * 
      * @param orgRegAuthority
      */

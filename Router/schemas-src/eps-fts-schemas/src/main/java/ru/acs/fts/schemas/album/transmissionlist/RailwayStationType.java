@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transmissionlist;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р¶.Рґ. СЃС‚Р°РЅС†РёРё
+ * Сведения о ж.д. станции
  */
 public class RailwayStationType
 {
@@ -11,7 +11,7 @@ public class RailwayStationType
     private String railwayCode;
 
     /** 
-     * Get the 'RailwayStationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°РЅС†РёРё
+     * Get the 'RailwayStationName' element value. Наименование станции
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class RailwayStationType
     }
 
     /** 
-     * Set the 'RailwayStationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°РЅС†РёРё
+     * Set the 'RailwayStationName' element value. Наименование станции
      * 
      * @param railwayStationName
      */
@@ -29,7 +29,7 @@ public class RailwayStationType
     }
 
     /** 
-     * Get the 'RailwayStationCode' element value. РљРѕРґ СЃС‚Р°РЅС†РёРё
+     * Get the 'RailwayStationCode' element value. Код станции
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class RailwayStationType
     }
 
     /** 
-     * Set the 'RailwayStationCode' element value. РљРѕРґ СЃС‚Р°РЅС†РёРё
+     * Set the 'RailwayStationCode' element value. Код станции
      * 
      * @param railwayStationCode
      */
@@ -47,7 +47,7 @@ public class RailwayStationType
     }
 
     /** 
-     * Get the 'RailwayCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРё
+     * Get the 'RailwayCode' element value. Код железной дороги
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class RailwayStationType
     }
 
     /** 
-     * Set the 'RailwayCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРё
+     * Set the 'RailwayCode' element value. Код железной дороги
      * 
      * @param railwayCode
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.transportcommonaggregatetypescust;
 
 /** 
- * РќРѕРјРµСЂ Р°РІРёР°РЅР°РєР»Р°РґРЅРѕР№
+ * Номер авианакладной
  */
 public class AWBNumberType
 {
@@ -11,7 +11,7 @@ public class AWBNumberType
     private String airlineSign;
 
     /** 
-     * Get the 'AirlineIATACode' element value. IATA-РєРѕРґ Р°РІРёР°РєРѕРјРїР°РЅРёРё. Р¦РёС„СЂРѕРІРѕР№
+     * Get the 'AirlineIATACode' element value. IATA-код авиакомпании. Цифровой
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class AWBNumberType
     }
 
     /** 
-     * Set the 'AirlineIATACode' element value. IATA-РєРѕРґ Р°РІРёР°РєРѕРјРїР°РЅРёРё. Р¦РёС„СЂРѕРІРѕР№
+     * Set the 'AirlineIATACode' element value. IATA-код авиакомпании. Цифровой
      * 
      * @param airlineIATACode
      */
@@ -29,7 +29,7 @@ public class AWBNumberType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'DocumentNumber' element value. Серийный номер накладной
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class AWBNumberType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РЎРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'DocumentNumber' element value. Серийный номер накладной
      * 
      * @param documentNumber
      */
@@ -47,7 +47,7 @@ public class AWBNumberType
     }
 
     /** 
-     * Get the 'AirlineSign' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ Р°РІРёР°РїРµСЂРµРІРѕР·С‡РёРє, СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РёР№ РЅР°РєР»Р°РґРЅСѓСЋ, СЏРІР»СЏРµС‚СЃСЏ С‡Р»РµРЅРѕРј РРђРўРђ
+     * Get the 'AirlineSign' element value. Признак того, что авиаперевозчик, сформировавший накладную, является членом ИАТА
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class AWBNumberType
     }
 
     /** 
-     * Set the 'AirlineSign' element value. РџСЂРёР·РЅР°Рє С‚РѕРіРѕ, С‡С‚Рѕ Р°РІРёР°РїРµСЂРµРІРѕР·С‡РёРє, СЃС„РѕСЂРјРёСЂРѕРІР°РІС€РёР№ РЅР°РєР»Р°РґРЅСѓСЋ, СЏРІР»СЏРµС‚СЃСЏ С‡Р»РµРЅРѕРј РРђРўРђ
+     * Set the 'AirlineSign' element value. Признак того, что авиаперевозчик, сформировавший накладную, является членом ИАТА
      * 
      * @param airlineSign
      */

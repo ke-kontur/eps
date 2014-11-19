@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.pi_consignment;
 
 /** 
- * РЎС‚СЂР°РЅР°
+ * Страна
  */
 public class CountryType
 {
@@ -10,7 +10,7 @@ public class CountryType
     private String countryName;
 
     /** 
-     * Get the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / 00 (РЅРµРёР·РІРµСЃС‚РЅР°)
+     * Get the 'CountryCode' element value. Буквенный код страны по классификатору стран мира / 00 (неизвестна)
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class CountryType
     }
 
     /** 
-     * Set the 'CountryCode' element value. Р‘СѓРєРІРµРЅРЅС‹Р№ РєРѕРґ СЃС‚СЂР°РЅС‹ РїРѕ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ СЃС‚СЂР°РЅ РјРёСЂР° / 00 (РЅРµРёР·РІРµСЃС‚РЅР°)
+     * Set the 'CountryCode' element value. Буквенный код страны по классификатору стран мира / 00 (неизвестна)
      * 
      * @param countryCode
      */
@@ -28,7 +28,7 @@ public class CountryType
     }
 
     /** 
-     * Get the 'CountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryName' element value. Краткое название страны
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class CountryType
     }
 
     /** 
-     * Set the 'CountryName' element value. РљСЂР°С‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryName' element value. Краткое название страны
      * 
      * @param countryName
      */

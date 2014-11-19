@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.postalmanifest;
 
 /** 
- * Р”Р°РЅРЅС‹Рµ Рѕ РєРѕР»РёС‡РµСЃС‚РІРµРЅРЅС‹С… С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°С… РїРѕС‡С‚РѕРІРѕРіРѕ РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+ * Данные о количественных характеристиках почтового отправления
  */
 public class DespatchMeasuresType
 {
@@ -11,7 +11,7 @@ public class DespatchMeasuresType
     private String factWeight;
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ 
+     * Get the 'Quantity' element value. Количество 
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class DespatchMeasuresType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ 
+     * Set the 'Quantity' element value. Количество 
      * 
      * @param quantity
      */
@@ -29,7 +29,7 @@ public class DespatchMeasuresType
     }
 
     /** 
-     * Get the 'Weight' element value. Р’РµСЃ
+     * Get the 'Weight' element value. Вес
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class DespatchMeasuresType
     }
 
     /** 
-     * Set the 'Weight' element value. Р’РµСЃ
+     * Set the 'Weight' element value. Вес
      * 
      * @param weight
      */
@@ -47,7 +47,7 @@ public class DespatchMeasuresType
     }
 
     /** 
-     * Get the 'FactWeight' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ РІРµСЃ
+     * Get the 'FactWeight' element value. Фактический вес
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class DespatchMeasuresType
     }
 
     /** 
-     * Set the 'FactWeight' element value. Р¤Р°РєС‚РёС‡РµСЃРєРёР№ РІРµСЃ
+     * Set the 'FactWeight' element value. Фактический вес
      * 
      * @param factWeight
      */

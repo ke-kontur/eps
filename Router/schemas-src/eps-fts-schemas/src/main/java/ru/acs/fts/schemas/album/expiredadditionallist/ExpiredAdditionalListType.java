@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РџРµСЂРµС‡РµРЅСЊ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹С… РЅРѕРјРµСЂРѕРІ РґРѕРїРѕР»РЅРµРЅРёР№ Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РєРѕС‚РѕСЂС‹С… РґР»СЏ РѕР±РµСЃРїРµС‡РµРЅРёСЏ СѓРїР»Р°С‚С‹ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕС€Р»РёРЅ, РЅР°Р»РѕРіРѕРІ РїСЂРё С‚Р°РјРѕР¶РµРЅРЅРѕРј С‚СЂР°РЅР·РёС‚Рµ С‚РѕРІР°СЂРѕРІ РЅРµРІРѕР·РјРѕР¶РЅРѕ РІ СЃРІСЏР·Рё СЃ РёСЃС‚РµС‡РµРЅРёРµРј СЃСЂРѕРєР° РґРµР№СЃС‚РІРёСЏ РґРѕРїРѕР»РЅРµРЅРёР№.
+ * Перечень регистрационных номеров дополнений к договору поручительства, использование которых для обеспечения уплаты таможенных пошлин, налогов при таможенном транзите товаров невозможно в связи с истечением срока действия дополнений.
  */
 public class ExpiredAdditionalListType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class ExpiredAdditionalListType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'ExpiredAdditionalInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРїРѕР»РЅРµРЅРёРё Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РєРѕС‚РѕСЂРѕРіРѕ РІ РєР°С‡РµСЃС‚РІРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РЅРµРІРѕР·РјРѕР¶РЅРѕ РІ СЃРІСЏР·Рё СЃ РёСЃС‚РµС‡РµРЅРёРµРј СЃСЂРѕРєР° РґРµР№СЃС‚РІРёСЏ.
+     * Get the list of 'ExpiredAdditionalInfo' element items. Сведения о дополнении к договору поручительства, использование которого в качестве обеспечения невозможно в связи с истечением срока действия.
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class ExpiredAdditionalListType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'ExpiredAdditionalInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РґРѕРїРѕР»РЅРµРЅРёРё Рє РґРѕРіРѕРІРѕСЂСѓ РїРѕСЂСѓС‡РёС‚РµР»СЊСЃС‚РІР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РєРѕС‚РѕСЂРѕРіРѕ РІ РєР°С‡РµСЃС‚РІРµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ РЅРµРІРѕР·РјРѕР¶РЅРѕ РІ СЃРІСЏР·Рё СЃ РёСЃС‚РµС‡РµРЅРёРµРј СЃСЂРѕРєР° РґРµР№СЃС‚РІРёСЏ.
+     * Set the list of 'ExpiredAdditionalInfo' element items. Сведения о дополнении к договору поручительства, использование которого в качестве обеспечения невозможно в связи с истечением срока действия.
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class ExpiredAdditionalListType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class ExpiredAdditionalListType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

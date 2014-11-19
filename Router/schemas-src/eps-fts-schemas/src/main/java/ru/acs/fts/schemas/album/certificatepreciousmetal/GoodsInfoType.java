@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїСЂРѕРґСѓРєС†РёРё
+ * Сведения о продукции
  */
 public class GoodsInfoType
 {
@@ -16,7 +16,7 @@ public class GoodsInfoType
     private String goodsOKP;
 
     /** 
-     * Get the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
+     * Get the list of 'GoodsName' element items. Наименование продукции
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the list of 'GoodsName' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРґСѓРєС†РёРё
+     * Set the list of 'GoodsName' element items. Наименование продукции
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsKind' element value. Р’РёРґ РїСЂРѕРґСѓРєС†РёРё
+     * Get the 'GoodsKind' element value. Вид продукции
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsKind' element value. Р’РёРґ РїСЂРѕРґСѓРєС†РёРё
+     * Set the 'GoodsKind' element value. Вид продукции
      * 
      * @param goodsKind
      */
@@ -52,7 +52,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsMark' element value. РњР°СЂРєР° РїСЂРѕРґСѓРєС†РёРё
+     * Get the 'GoodsMark' element value. Марка продукции
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsMark' element value. РњР°СЂРєР° РїСЂРѕРґСѓРєС†РёРё
+     * Set the 'GoodsMark' element value. Марка продукции
      * 
      * @param goodsMark
      */
@@ -70,7 +70,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsTNVEDCode' element value. РљРѕРґ С‚РѕРІР°СЂР° РїРѕ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'GoodsTNVEDCode' element value. Код товара по ТН ВЭД ТС
      * 
      * @param goodsTNVEDCode
      */
@@ -88,7 +88,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Get the 'GoodsOKP' element value. РћРљРџ РїСЂРѕРґСѓРєС†РёРё
+     * Get the 'GoodsOKP' element value. ОКП продукции
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class GoodsInfoType
     }
 
     /** 
-     * Set the 'GoodsOKP' element value. РћРљРџ РїСЂРѕРґСѓРєС†РёРё
+     * Set the 'GoodsOKP' element value. ОКП продукции
      * 
      * @param goodsOKP
      */

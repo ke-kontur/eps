@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РљР°СЂС‚РѕС‡РєР° РўРЎ. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РћС‚РјРµС‚РєРё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°.
+ * Карточка ТС. Внутренний формат. Отметки таможенного органа.
  */
 public class TransportCardOfficialMarkType
 {
@@ -20,7 +20,7 @@ public class TransportCardOfficialMarkType
     private GTDIDType GTDNumber;
 
     /** 
-     * Get the 'ImportCertificate' element value. РЈРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ РІРІРѕР·Р° РўРЎ
+     * Get the 'ImportCertificate' element value. Удостоверение ввоза ТС
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Set the 'ImportCertificate' element value. РЈРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ РІРІРѕР·Р° РўРЎ
+     * Set the 'ImportCertificate' element value. Удостоверение ввоза ТС
      * 
      * @param importCertificate
      */
@@ -38,7 +38,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Get the 'ImportCertificateDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ РІРІРѕР·Р° РўРЎ.
+     * Get the 'ImportCertificateDate' element value. Дата выдачи удостоверения ввоза ТС.
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Set the 'ImportCertificateDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ РІРІРѕР·Р° РўРЎ.
+     * Set the 'ImportCertificateDate' element value. Дата выдачи удостоверения ввоза ТС.
      * 
      * @param importCertificateDate
      */
@@ -56,7 +56,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Get the 'LNPImportCertificate' element value. Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, РІС‹РґР°РІС€РµРіРѕ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ РІРІРѕР·Р°.
+     * Get the 'LNPImportCertificate' element value. ЛНП инспектора, выдавшего удостоверение ввоза.
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Set the 'LNPImportCertificate' element value. Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, РІС‹РґР°РІС€РµРіРѕ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёРµ РІРІРѕР·Р°.
+     * Set the 'LNPImportCertificate' element value. ЛНП инспектора, выдавшего удостоверение ввоза.
      * 
      * @param LNPImportCertificate
      */
@@ -74,7 +74,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Get the 'CustomsConditions' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ.
+     * Get the 'CustomsConditions' element value. Таможенные ограничения.
      * 
      * @return value
      */
@@ -83,7 +83,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Set the 'CustomsConditions' element value. РўР°РјРѕР¶РµРЅРЅС‹Рµ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ.
+     * Set the 'CustomsConditions' element value. Таможенные ограничения.
      * 
      * @param customsConditions
      */
@@ -92,7 +92,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Get the 'PTSNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р°
+     * Get the 'PTSNumber' element value. Номер паспорта
      * 
      * @return value
      */
@@ -101,7 +101,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Set the 'PTSNumber' element value. РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р°
+     * Set the 'PTSNumber' element value. Номер паспорта
      * 
      * @param PTSNumber
      */
@@ -110,7 +110,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Get the 'PTSDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РїР°СЃРїРѕСЂС‚Р°
+     * Get the 'PTSDate' element value. Дата выдачи паспорта
      * 
      * @return value
      */
@@ -119,7 +119,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Set the 'PTSDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РїР°СЃРїРѕСЂС‚Р°
+     * Set the 'PTSDate' element value. Дата выдачи паспорта
      * 
      * @param PTSDate
      */
@@ -128,7 +128,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Get the 'LNP' element value. Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, РІС‹РґР°РІС€РµРіРѕ РїР°СЃРїРѕСЂС‚
+     * Get the 'LNP' element value. ЛНП инспектора, выдавшего паспорт
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Set the 'LNP' element value. Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, РІС‹РґР°РІС€РµРіРѕ РїР°СЃРїРѕСЂС‚
+     * Set the 'LNP' element value. ЛНП инспектора, выдавшего паспорт
      * 
      * @param LNP
      */
@@ -146,7 +146,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Get the 'CustomsMark' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
+     * Get the 'CustomsMark' element value. Особые отметки
      * 
      * @return value
      */
@@ -155,7 +155,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Set the 'CustomsMark' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё
+     * Set the 'CustomsMark' element value. Особые отметки
      * 
      * @param customsMark
      */
@@ -164,7 +164,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
+     * Get the 'GTDNumber' element value. Регистрационный номер ДТ.
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class TransportCardOfficialMarkType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
+     * Set the 'GTDNumber' element value. Регистрационный номер ДТ.
      * 
      * @param GTDNumber
      */

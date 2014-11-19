@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.priorcommonaggregatetypescust;
 
 /** 
- * РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РµРґРёРЅРёС†Р°С… РёР·РјРµСЂРµРЅРёСЏ
+ * Количество товара в дополнительных единицах измерения
  */
 public class GoodsMeasureQuantityType
 {
@@ -11,7 +11,7 @@ public class GoodsMeasureQuantityType
     private String measureUnitQualifierCode;
 
     /** 
-     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.
+     * Get the 'GoodsQuantity' element value. Количество товара в единице измерения.
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class GoodsMeasureQuantityType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ.
+     * Set the 'GoodsQuantity' element value. Количество товара в единице измерения.
      * 
      * @param goodsQuantity
      */
@@ -29,7 +29,7 @@ public class GoodsMeasureQuantityType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ.
+     * Get the 'MeasureUnitQualifierName' element value. Краткое наименование единицы измерения.
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class GoodsMeasureQuantityType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierName' element value. РљСЂР°С‚РєРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ.
+     * Set the 'MeasureUnitQualifierName' element value. Краткое наименование единицы измерения.
      * 
      * @param measureUnitQualifierName
      */
@@ -47,7 +47,7 @@ public class GoodsMeasureQuantityType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РµРґРёРЅРёС†Р°РјРё РёР·РјРµСЂРµРЅРёСЏ, РїСЂРёРјРµРЅСЏРµРјС‹РјРё РІ РўР°РјРѕР¶РµРЅРЅРѕРј С‚Р°СЂРёС„Рµ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё..
+     * Get the 'MeasureUnitQualifierCode' element value. Код единицы измерения в соответствии с единицами измерения, применяемыми в Таможенном тарифе Российской Федерации..
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class GoodsMeasureQuantityType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РµРґРёРЅРёС†Р°РјРё РёР·РјРµСЂРµРЅРёСЏ, РїСЂРёРјРµРЅСЏРµРјС‹РјРё РІ РўР°РјРѕР¶РµРЅРЅРѕРј С‚Р°СЂРёС„Рµ Р РѕСЃСЃРёР№СЃРєРѕР№ Р¤РµРґРµСЂР°С†РёРё..
+     * Set the 'MeasureUnitQualifierCode' element value. Код единицы измерения в соответствии с единицами измерения, применяемыми в Таможенном тарифе Российской Федерации..
      * 
      * @param measureUnitQualifierCode
      */

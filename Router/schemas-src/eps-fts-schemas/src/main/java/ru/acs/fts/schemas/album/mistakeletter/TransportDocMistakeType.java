@@ -2,14 +2,14 @@
 package ru.acs.fts.schemas.album.mistakeletter;
 
 /** 
- * РљРѕРјРїР»РµРєСЃРЅС‹Р№ С‚РёРї РґР»СЏ РѕРїРёСЃР°РЅРёСЏ РІС‹СЏРІР»РµРЅРЅРѕР№ РѕС€РёР±РєРё РІ СЂРµРєРІРёР·РёС‚Р°С… С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+ * Комплексный тип для описания выявленной ошибки в реквизитах транспортного документа
  */
 public class TransportDocMistakeType extends PresentedDocMistakeType
 {
     private WaybillRegNumberMistakeType waybillRegNumberMistake;
 
     /** 
-     * Get the 'WaybillRegNumberMistake' element value. РћС€РёР±РєР° РІ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРј РЅРѕРјРµСЂРµ РЅР°РєР»Р°РґРЅРѕР№
+     * Get the 'WaybillRegNumberMistake' element value. Ошибка в регистрационном номере накладной
      * 
      * @return value
      */
@@ -18,7 +18,7 @@ public class TransportDocMistakeType extends PresentedDocMistakeType
     }
 
     /** 
-     * Set the 'WaybillRegNumberMistake' element value. РћС€РёР±РєР° РІ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅРѕРј РЅРѕРјРµСЂРµ РЅР°РєР»Р°РґРЅРѕР№
+     * Set the 'WaybillRegNumberMistake' element value. Ошибка в регистрационном номере накладной
      * 
      * @param waybillRegNumberMistake
      */

@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ  РґРѕРєСѓРјРµРЅС‚РѕРІ РЅР° РѕСЃРЅРѕРІР°РЅРёРё РєРѕС‚РѕСЂС‹С… РІС‹РґР°РЅ СЃРµСЂС‚РёС„РёРєР°С‚
+ * Описание  документов на основании которых выдан сертификат
  */
 public class GroundDocsType extends DocumentBaseType
 {
@@ -17,7 +17,7 @@ public class GroundDocsType extends DocumentBaseType
     private AddressType organizationAddress;
 
     /** 
-     * Get the 'OrganizationName' element value. РљРµРј РІС‹РґР°РЅ РґРѕРєСѓРјРµРЅС‚ (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° РїСЂРѕРёР·РІРѕРґРёРІС€РµРіРѕ РёСЃРїС‹С‚Р°РЅРёСЏ)
+     * Get the 'OrganizationName' element value. Кем выдан документ (наименование органа производившего испытания)
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class GroundDocsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РљРµРј РІС‹РґР°РЅ РґРѕРєСѓРјРµРЅС‚ (РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР° РїСЂРѕРёР·РІРѕРґРёРІС€РµРіРѕ РёСЃРїС‹С‚Р°РЅРёСЏ)
+     * Set the 'OrganizationName' element value. Кем выдан документ (наименование органа производившего испытания)
      * 
      * @param organizationName
      */
@@ -35,7 +35,7 @@ public class GroundDocsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'OrganizationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕСЂРіР°РЅР°, РїСЂРѕРёР·РІРѕРґРёРІС€РµРіРѕ РёСЃРїС‹С‚Р°РЅРёСЏ
+     * Get the 'OrganizationNumber' element value. Регистрационный номер органа, производившего испытания
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class GroundDocsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'OrganizationNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ РѕСЂРіР°РЅР°, РїСЂРѕРёР·РІРѕРґРёРІС€РµРіРѕ РёСЃРїС‹С‚Р°РЅРёСЏ
+     * Set the 'OrganizationNumber' element value. Регистрационный номер органа, производившего испытания
      * 
      * @param organizationNumber
      */
@@ -53,7 +53,7 @@ public class GroundDocsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'BeginDate' element value. Дата начала действия документа
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class GroundDocsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'BeginDate' element value. Дата начала действия документа
      * 
      * @param beginDate
      */
@@ -71,7 +71,7 @@ public class GroundDocsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'EndDate' element value. Дата окончания действия документа
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class GroundDocsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'EndDate' element value. Дата окончания действия документа
      * 
      * @param endDate
      */
@@ -89,7 +89,7 @@ public class GroundDocsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'OrganizationAddress' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'OrganizationAddress' element value. Адрес организации
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class GroundDocsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'OrganizationAddress' element value. РђРґСЂРµСЃ РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'OrganizationAddress' element value. Адрес организации
      * 
      * @param organizationAddress
      */

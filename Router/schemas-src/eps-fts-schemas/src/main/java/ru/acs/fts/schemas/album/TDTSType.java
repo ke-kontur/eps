@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р РµРі. РЅРѕРјРµСЂ РўР”РўРЎ
+ * Рег. номер ТДТС
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -24,7 +24,7 @@ public class TDTSType extends GTDIDType
     private String transportModeCode;
 
     /** 
-     * Get the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+     * Get the 'TransportModeCode' element value. Код вида транспорта
      * 
      * @return value
      */
@@ -33,7 +33,7 @@ public class TDTSType extends GTDIDType
     }
 
     /** 
-     * Set the 'TransportModeCode' element value. РљРѕРґ РІРёРґР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°
+     * Set the 'TransportModeCode' element value. Код вида транспорта
      * 
      * @param transportModeCode
      */

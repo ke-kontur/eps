@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust.DTS4Method236T
 import ru.acs.fts.schemas.album.ruesaddtscommonaggregatetypescust.DTS4Method56Type;
 
 /** 
- * Р Р°СЃС‡РµС‚ С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё
+ * Расчет таможенной стоимости
  */
 public class CustomsCostCalculationType
 {
@@ -56,7 +56,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTS3Method1' element value. Р”РўРЎ-3   РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 1
+     * Get the 'DTS3Method1' element value. ДТС-3   Подробности расчета таможенной стоимости по методу 1
      * 
      * @return value
      */
@@ -65,7 +65,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTS3Method1' element value. Р”РўРЎ-3   РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 1
+     * Set the 'DTS3Method1' element value. ДТС-3   Подробности расчета таможенной стоимости по методу 1
      * 
      * @param DTS3Method1
      */
@@ -84,7 +84,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTSMethod56' element value. Р РµР·РµСЂРІРЅС‹Р№ РјРµС‚РѕРґ РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. (5,6)
+     * Get the 'DTSMethod56' element value. Резервный метод на основе метода таможенной стоимости. (5,6)
      * 
      * @return value
      */
@@ -93,7 +93,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTSMethod56' element value. Р РµР·РµСЂРІРЅС‹Р№ РјРµС‚РѕРґ РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё. (5,6)
+     * Set the 'DTSMethod56' element value. Резервный метод на основе метода таможенной стоимости. (5,6)
      * 
      * @param DTSMethod56
      */
@@ -112,7 +112,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTS4Method236' element value. Р”РўРЎ 4 РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 2,3,6
+     * Get the 'DTS4Method236' element value. ДТС 4 Подробности расчета таможенной стоимости по методу 2,3,6
      * 
      * @return value
      */
@@ -121,7 +121,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTS4Method236' element value. Р”РўРЎ 4 РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 2,3,6
+     * Set the 'DTS4Method236' element value. ДТС 4 Подробности расчета таможенной стоимости по методу 2,3,6
      * 
      * @param DTS4Method236
      */
@@ -140,7 +140,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTSMethod236' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ  СЃС‚РѕРёРјРѕСЃС‚Рё СЃРґРµР»РєРё СЃ РёРґРµРЅС‚РёС‡РЅС‹РјРё С‚РѕРІР°СЂР°РјРё Рё СЂРµР·РµСЂРІРЅРѕРіРѕ РЅР° РёС… РѕСЃРЅРѕРІРµ.
+     * Get the 'DTSMethod236' element value. Подробности расчета таможенной стоимости по методу  стоимости сделки с идентичными товарами и резервного на их основе.
      * 
      * @return value
      */
@@ -149,7 +149,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTSMethod236' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ  СЃС‚РѕРёРјРѕСЃС‚Рё СЃРґРµР»РєРё СЃ РёРґРµРЅС‚РёС‡РЅС‹РјРё С‚РѕРІР°СЂР°РјРё Рё СЂРµР·РµСЂРІРЅРѕРіРѕ РЅР° РёС… РѕСЃРЅРѕРІРµ.
+     * Set the 'DTSMethod236' element value. Подробности расчета таможенной стоимости по методу  стоимости сделки с идентичными товарами и резервного на их основе.
      * 
      * @param DTSMethod236
      */
@@ -168,7 +168,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTSMethod46' element value. Р РµР·РµСЂРІРЅС‹Р№ РјРµС‚РѕРґ РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° РІС‹С‡РёС‚Р°РЅРёСЏ. (4,6)
+     * Get the 'DTSMethod46' element value. Резервный метод на основе метода вычитания. (4,6)
      * 
      * @return value
      */
@@ -177,7 +177,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTSMethod46' element value. Р РµР·РµСЂРІРЅС‹Р№ РјРµС‚РѕРґ РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° РІС‹С‡РёС‚Р°РЅРёСЏ. (4,6)
+     * Set the 'DTSMethod46' element value. Резервный метод на основе метода вычитания. (4,6)
      * 
      * @param DTSMethod46
      */
@@ -196,7 +196,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTS4Method56' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 5,6
+     * Get the 'DTS4Method56' element value. Подробности расчета таможенной стоимости по методу 5,6
      * 
      * @return value
      */
@@ -205,7 +205,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTS4Method56' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ РјРµС‚РѕРґСѓ 5,6
+     * Set the 'DTS4Method56' element value. Подробности расчета таможенной стоимости по методу 5,6
      * 
      * @param DTS4Method56
      */
@@ -224,7 +224,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Get the 'DTSMethod1' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ Р”РўРЎ-1 РјРµС‚РѕРґСѓ 1; Р”Рў-2 РјРµС‚РѕРґ 6 РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° 1
+     * Get the 'DTSMethod1' element value. Подробности расчета таможенной стоимости по ДТС-1 методу 1; ДТ-2 метод 6 на основе метода 1
      * 
      * @return value
      */
@@ -233,7 +233,7 @@ public class CustomsCostCalculationType
     }
 
     /** 
-     * Set the 'DTSMethod1' element value. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё СЂР°СЃС‡РµС‚Р° С‚Р°РјРѕР¶РµРЅРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё РїРѕ Р”РўРЎ-1 РјРµС‚РѕРґСѓ 1; Р”Рў-2 РјРµС‚РѕРґ 6 РЅР° РѕСЃРЅРѕРІРµ РјРµС‚РѕРґР° 1
+     * Set the 'DTSMethod1' element value. Подробности расчета таможенной стоимости по ДТС-1 методу 1; ДТ-2 метод 6 на основе метода 1
      * 
      * @param DTSMethod1
      */

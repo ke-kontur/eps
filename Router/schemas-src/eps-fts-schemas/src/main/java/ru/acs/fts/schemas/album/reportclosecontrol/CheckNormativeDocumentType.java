@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.reportclosecontrol;
 import org.joda.time.LocalDate;
 
 /** 
- * РќРѕСЂРјР°С‚РёРІРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚, РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєРѕС‚РѕСЂС‹Рј РІС‹РїРѕР»РЅСЏРµС‚СЃСЏ РєРѕРЅС‚СЂРѕР»СЊ
+ * Нормативный документ, в соответствии с которым выполняется контроль
  */
 public class CheckNormativeDocumentType extends NormativeDocumentType
 {
@@ -12,7 +12,7 @@ public class CheckNormativeDocumentType extends NormativeDocumentType
     private LocalDate endDate;
 
     /** 
-     * Get the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РґР»СЏ РґР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'BeginDate' element value. Дата начала действия документа для данного контроля
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class CheckNormativeDocumentType extends NormativeDocumentType
     }
 
     /** 
-     * Set the 'BeginDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РґР»СЏ РґР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'BeginDate' element value. Дата начала действия документа для данного контроля
      * 
      * @param beginDate
      */
@@ -30,7 +30,7 @@ public class CheckNormativeDocumentType extends NormativeDocumentType
     }
 
     /** 
-     * Get the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РґР»СЏ РґР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Get the 'EndDate' element value. Дата окончания действия документа для данного контроля
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class CheckNormativeDocumentType extends NormativeDocumentType
     }
 
     /** 
-     * Set the 'EndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРµР№СЃС‚РІРёСЏ РґРѕРєСѓРјРµРЅС‚Р° РґР»СЏ РґР°РЅРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЏ
+     * Set the 'EndDate' element value. Дата окончания действия документа для данного контроля
      * 
      * @param endDate
      */

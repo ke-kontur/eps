@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.utilizationtpoinfo;
 import org.joda.time.LocalDate;
 
 /** 
- * РРґРµРЅС‚РёС„РёС†РёСЂСѓСЋС‰РёРµ РїР°СЂР°РјРµС‚СЂС‹ РґРѕРєСѓРјРµРЅС‚Р° РўРџРћ
+ * Идентифицирующие параметры документа ТПО
  */
 public class TPOIDType
 {
@@ -13,7 +13,7 @@ public class TPOIDType
     private String orderNumber;
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class TPOIDType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'CustomsCode' element value. Код таможенного органа, зарегистрировавшего документ
      * 
      * @param customsCode
      */
@@ -31,7 +31,7 @@ public class TPOIDType
     }
 
     /** 
-     * Get the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'RegistrationDate' element value. Дата регистрации документа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class TPOIDType
     }
 
     /** 
-     * Set the 'RegistrationDate' element value. Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'RegistrationDate' element value. Дата регистрации документа
      * 
      * @param registrationDate
      */
@@ -49,7 +49,7 @@ public class TPOIDType
     }
 
     /** 
-     * Get the 'OrderNumber' element value. РўРёРїРѕРіСЂР°С„СЃРєРёР№ РЅРѕРјРµСЂ Р±Р»Р°РЅРєР° РўРџРћ
+     * Get the 'OrderNumber' element value. Типографский номер бланка ТПО
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class TPOIDType
     }
 
     /** 
-     * Set the 'OrderNumber' element value. РўРёРїРѕРіСЂР°С„СЃРєРёР№ РЅРѕРјРµСЂ Р±Р»Р°РЅРєР° РўРџРћ
+     * Set the 'OrderNumber' element value. Типографский номер бланка ТПО
      * 
      * @param orderNumber
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РїРѕРґРґРѕРЅР°С… Рё РїР°Р»Р»РµС‚Р°С…
+ * Сведения о поддонах и паллетах
  */
 public class PalleteInformationType
 {
@@ -11,7 +11,7 @@ public class PalleteInformationType
     private String palleteCode;
 
     /** 
-     * Get the 'PalleteQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґРґРѕРЅРѕРІ
+     * Get the 'PalleteQuantity' element value. Количество поддонов
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PalleteInformationType
     }
 
     /** 
-     * Set the 'PalleteQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґРґРѕРЅРѕРІ
+     * Set the 'PalleteQuantity' element value. Количество поддонов
      * 
      * @param palleteQuantity
      */
@@ -29,7 +29,7 @@ public class PalleteInformationType
     }
 
     /** 
-     * Get the 'PalleteDescription' element value. РћРїРёСЃР°РЅРёРµ РїРѕРґРґРѕРЅРѕРІ
+     * Get the 'PalleteDescription' element value. Описание поддонов
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PalleteInformationType
     }
 
     /** 
-     * Set the 'PalleteDescription' element value. РћРїРёСЃР°РЅРёРµ РїРѕРґРґРѕРЅРѕРІ
+     * Set the 'PalleteDescription' element value. Описание поддонов
      * 
      * @param palleteDescription
      */
@@ -47,7 +47,7 @@ public class PalleteInformationType
     }
 
     /** 
-     * Get the 'PalleteCode' element value. РљРѕРґ РІРёРґР° РїРѕРґРґРѕРЅР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ 
+     * Get the 'PalleteCode' element value. Код вида поддона в соответствии с классификатором видов груза, упаковки и упаковочных материалов 
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PalleteInformationType
     }
 
     /** 
-     * Set the 'PalleteCode' element value. РљРѕРґ РІРёРґР° РїРѕРґРґРѕРЅР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РєР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ РіСЂСѓР·Р°, СѓРїР°РєРѕРІРєРё Рё СѓРїР°РєРѕРІРѕС‡РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ 
+     * Set the 'PalleteCode' element value. Код вида поддона в соответствии с классификатором видов груза, упаковки и упаковочных материалов 
      * 
      * @param palleteCode
      */

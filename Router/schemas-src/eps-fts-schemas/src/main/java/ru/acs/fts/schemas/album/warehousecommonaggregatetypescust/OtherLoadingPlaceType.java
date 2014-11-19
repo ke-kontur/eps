@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.warehousecommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.AddressType;
 
 /** 
- * РРЅРѕРµ РјРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+ * Иное место нахождения товаров
  */
 public class OtherLoadingPlaceType
 {
@@ -14,7 +14,7 @@ public class OtherLoadingPlaceType
     private AddressType address;
 
     /** 
-     * Get the 'GoodsLocationPlaceDesc' element value. РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ/РЎРљР›РђР” РџРћР›РЈР§РђРўР•Р›РЇ (РєСЂРѕРјРµ РЅР°Р·РІР°РЅРёСЏ Р¶/Рґ cС‚Р°РЅС†РёРё)
+     * Get the 'GoodsLocationPlaceDesc' element value. Место нахождения товаров/СКЛАД ПОЛУЧАТЕЛЯ (кроме названия ж/д cтанции)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class OtherLoadingPlaceType
     }
 
     /** 
-     * Set the 'GoodsLocationPlaceDesc' element value. РњРµСЃС‚Рѕ РЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂРѕРІ/РЎРљР›РђР” РџРћР›РЈР§РђРўР•Р›РЇ (РєСЂРѕРјРµ РЅР°Р·РІР°РЅРёСЏ Р¶/Рґ cС‚Р°РЅС†РёРё)
+     * Set the 'GoodsLocationPlaceDesc' element value. Место нахождения товаров/СКЛАД ПОЛУЧАТЕЛЯ (кроме названия ж/д cтанции)
      * 
      * @param goodsLocationPlaceDesc
      */
@@ -32,7 +32,7 @@ public class OtherLoadingPlaceType
     }
 
     /** 
-     * Get the 'RailwayStationCode' element value. РљРѕРґ Р¶/Рґ СЃС‚Р°РЅС†РёРё РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°.
+     * Get the 'RailwayStationCode' element value. Код ж/д станции местонахождения товара.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class OtherLoadingPlaceType
     }
 
     /** 
-     * Set the 'RailwayStationCode' element value. РљРѕРґ Р¶/Рґ СЃС‚Р°РЅС†РёРё РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°.
+     * Set the 'RailwayStationCode' element value. Код ж/д станции местонахождения товара.
      * 
      * @param railwayStationCode
      */
@@ -50,7 +50,7 @@ public class OtherLoadingPlaceType
     }
 
     /** 
-     * Get the 'RailwayStationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¶/Рґ СЃС‚Р°РЅС†РёРё РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°.
+     * Get the 'RailwayStationName' element value. Наименование ж/д станции местонахождения товара.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class OtherLoadingPlaceType
     }
 
     /** 
-     * Set the 'RailwayStationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¶/Рґ СЃС‚Р°РЅС†РёРё РјРµСЃС‚РѕРЅР°С…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°.
+     * Set the 'RailwayStationName' element value. Наименование ж/д станции местонахождения товара.
      * 
      * @param railwayStationName
      */
@@ -68,7 +68,7 @@ public class OtherLoadingPlaceType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ
+     * Get the 'Address' element value. Адрес
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class OtherLoadingPlaceType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ
+     * Set the 'Address' element value. Адрес
      * 
      * @param address
      */

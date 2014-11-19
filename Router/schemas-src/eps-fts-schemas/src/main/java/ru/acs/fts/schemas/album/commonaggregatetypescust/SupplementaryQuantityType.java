@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commonaggregatetypescust;
 
 /** 
- * РљРѕР»РёС‡РµСЃС‚РІРѕ РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+ * Количество в дополнительной единице измерения
  */
 public class SupplementaryQuantityType
 {
@@ -11,7 +11,7 @@ public class SupplementaryQuantityType
     private String measureUnitQualifierCode;
 
     /** 
-     * Get the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'GoodsQuantity' element value. Количество товара в единице измерения
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'GoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'GoodsQuantity' element value. Количество товара в единице измерения
      * 
      * @param goodsQuantity
      */
@@ -29,7 +29,7 @@ public class SupplementaryQuantityType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierName' element value. РЈСЃР»РѕРІРЅРѕРµ РѕР±РѕР·РЅР°С‡РµРЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'MeasureUnitQualifierName' element value. Условное обозначение единицы измерения
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierName' element value. РЈСЃР»РѕРІРЅРѕРµ РѕР±РѕР·РЅР°С‡РµРЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'MeasureUnitQualifierName' element value. Условное обозначение единицы измерения
      * 
      * @param measureUnitQualifierName
      */
@@ -47,7 +47,7 @@ public class SupplementaryQuantityType
     }
 
     /** 
-     * Get the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РµРґРёРЅРёС†Р°РјРё РёР·РјРµСЂРµРЅРёСЏ, РїСЂРёРјРµРЅСЏРµРјС‹РјРё РІ РўРќ Р’Р­Р” РўРЎ
+     * Get the 'MeasureUnitQualifierCode' element value. Код единицы измерения в соответствии с единицами измерения, применяемыми в ТН ВЭД ТС
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'MeasureUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РµРґРёРЅРёС†Р°РјРё РёР·РјРµСЂРµРЅРёСЏ, РїСЂРёРјРµРЅСЏРµРјС‹РјРё РІ РўРќ Р’Р­Р” РўРЎ
+     * Set the 'MeasureUnitQualifierCode' element value. Код единицы измерения в соответствии с единицами измерения, применяемыми в ТН ВЭД ТС
      * 
      * @param measureUnitQualifierCode
      */

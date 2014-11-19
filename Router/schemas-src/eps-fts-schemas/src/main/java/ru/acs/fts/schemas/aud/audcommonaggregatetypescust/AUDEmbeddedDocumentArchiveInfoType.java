@@ -8,7 +8,7 @@ public class AUDEmbeddedDocumentArchiveInfoType
     private AUDArchiveDocumentIdWithVersionType archiveDocumentIdWithVersion;
 
     /** 
-     * Get the 'ArchiveDocumentIdWithVersion' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°СЂС…РёРІРЅРѕРј РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂРµ РґРѕРєСѓРјРµРЅС‚Р° Рё РЅРѕРјРµСЂРµ РІРµСЂСЃРёРё.
+     * Get the 'ArchiveDocumentIdWithVersion' element value. Информация об архивном идентификаторе документа и номере версии.
      * 
      * @return value
      */
@@ -17,7 +17,7 @@ public class AUDEmbeddedDocumentArchiveInfoType
     }
 
     /** 
-     * Set the 'ArchiveDocumentIdWithVersion' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± Р°СЂС…РёРІРЅРѕРј РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂРµ РґРѕРєСѓРјРµРЅС‚Р° Рё РЅРѕРјРµСЂРµ РІРµСЂСЃРёРё.
+     * Set the 'ArchiveDocumentIdWithVersion' element value. Информация об архивном идентификаторе документа и номере версии.
      * 
      * @param archiveDocumentIdWithVersion
      */

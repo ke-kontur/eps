@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.cargomanifest;
 
 /** 
- * РћР±СЉРµРј С‚РѕРІР°СЂР°
+ * Объем товара
  */
 public class VolumeInfoType
 {
@@ -11,7 +11,7 @@ public class VolumeInfoType
     private String volumeUnitQualifierName;
 
     /** 
-     * Get the 'GoodsVolume' element value. РћР±С‰РёР№ РѕР±СЉРµРј, Р·Р°РЅРёРјР°РµРјС‹Р№ РїРµСЂРµРІРѕР·РёРјС‹Рј С‚РѕРІР°СЂРѕРј Р±РµР· СѓРєР°Р·Р°РЅРёСЏ РµРґРёРЅРёС† РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'GoodsVolume' element value. Общий объем, занимаемый перевозимым товаром без указания единиц измерения
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class VolumeInfoType
     }
 
     /** 
-     * Set the 'GoodsVolume' element value. РћР±С‰РёР№ РѕР±СЉРµРј, Р·Р°РЅРёРјР°РµРјС‹Р№ РїРµСЂРµРІРѕР·РёРјС‹Рј С‚РѕРІР°СЂРѕРј Р±РµР· СѓРєР°Р·Р°РЅРёСЏ РµРґРёРЅРёС† РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'GoodsVolume' element value. Общий объем, занимаемый перевозимым товаром без указания единиц измерения
      * 
      * @param goodsVolume
      */
@@ -29,7 +29,7 @@ public class VolumeInfoType
     }
 
     /** 
-     * Get the 'VolumeUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РѕР±СЉРµРјР°
+     * Get the 'VolumeUnitQualifierCode' element value. Код единицы измерения объема
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class VolumeInfoType
     }
 
     /** 
-     * Set the 'VolumeUnitQualifierCode' element value. РљРѕРґ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РѕР±СЉРµРјР°
+     * Set the 'VolumeUnitQualifierCode' element value. Код единицы измерения объема
      * 
      * @param volumeUnitQualifierCode
      */
@@ -47,7 +47,7 @@ public class VolumeInfoType
     }
 
     /** 
-     * Get the 'VolumeUnitQualifierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РѕР±СЉРµРјР°
+     * Get the 'VolumeUnitQualifierName' element value. Наименование единицы измерения объема
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class VolumeInfoType
     }
 
     /** 
-     * Set the 'VolumeUnitQualifierName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РµРґРёРЅРёС†С‹ РёР·РјРµСЂРµРЅРёСЏ РѕР±СЉРµРјР°
+     * Set the 'VolumeUnitQualifierName' element value. Наименование единицы измерения объема
      * 
      * @param volumeUnitQualifierName
      */

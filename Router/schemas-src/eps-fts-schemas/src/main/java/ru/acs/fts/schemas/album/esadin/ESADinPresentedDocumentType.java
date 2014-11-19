@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.esadin;
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUPresentedDocumentsType;
 
 /** 
- * Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РџСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ РіСЂ. 44.
+ * ДТ и ТД. Внутренний формат. Представленные документы гр. 44.
  */
 public class ESADinPresentedDocumentType extends CUPresentedDocumentsType
 {
     private String BDRDID;
 
     /** 
-     * Get the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'BDRDID' element value. Уникальный идентификатор разрешительного документа
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class ESADinPresentedDocumentType extends CUPresentedDocumentsType
     }
 
     /** 
-     * Set the 'BDRDID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'BDRDID' element value. Уникальный идентификатор разрешительного документа
      * 
      * @param BDRDID
      */

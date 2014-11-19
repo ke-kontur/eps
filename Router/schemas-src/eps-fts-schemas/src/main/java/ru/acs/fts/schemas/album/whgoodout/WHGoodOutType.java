@@ -10,7 +10,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CustomsType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ РїСЂРёРЅСЏС‚РёРё СЂРµС€РµРЅРёСЏ Рѕ РІС‹РґР°С‡Рµ С‚РѕРІР°СЂРѕРІ СЃ РЎР’РҐ
+ * Уведомление о принятии решения о выдаче товаров с СВХ
  */
 public class WHGoodOutType extends BaseDocType
 {
@@ -26,7 +26,7 @@ public class WHGoodOutType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёРµ
+     * Get the 'SendDate' element value. Дата направления уведомление
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendDate' element value. Р”Р°С‚Р° РЅР°РїСЂР°РІР»РµРЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёРµ
+     * Set the 'SendDate' element value. Дата направления уведомление
      * 
      * @param sendDate
      */
@@ -44,7 +44,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёРµ
+     * Get the 'SendTime' element value. Время направления уведомление
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'SendTime' element value. Р’СЂРµРјСЏ РЅР°РїСЂР°РІР»РµРЅРёСЏ СѓРІРµРґРѕРјР»РµРЅРёРµ
+     * Set the 'SendTime' element value. Время направления уведомление
      * 
      * @param sendTime
      */
@@ -62,7 +62,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'ReleaseDate' element value. Р”Р°С‚Р° РІС‹РїСѓСЃРєР°
+     * Get the 'ReleaseDate' element value. Дата выпуска
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'ReleaseDate' element value. Р”Р°С‚Р° РІС‹РїСѓСЃРєР°
+     * Set the 'ReleaseDate' element value. Дата выпуска
      * 
      * @param releaseDate
      */
@@ -80,7 +80,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Get the 'Comments' element value. Комментарии
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'Comments' element value. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Set the 'Comments' element value. Комментарии
      * 
      * @param comments
      */
@@ -98,7 +98,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -116,7 +116,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @return value
      */
@@ -125,7 +125,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа
      * 
      * @param customsPerson
      */
@@ -134,7 +134,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'DeliveryGoods' element items. РћСЃРЅРѕРІР°РЅРёРµ РЅР° РІС‹РґР°С‡Сѓ С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'DeliveryGoods' element items. Основание на выдачу товаров
      * 
      * @return list
      */
@@ -143,7 +143,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'DeliveryGoods' element items. РћСЃРЅРѕРІР°РЅРёРµ РЅР° РІС‹РґР°С‡Сѓ С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'DeliveryGoods' element items. Основание на выдачу товаров
      * 
      * @param list
      */
@@ -152,7 +152,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'ProduceDocuments' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІС‹РїСѓСЃРєР°СЋС‰РµРј РґРѕРєСѓРјРµРЅС‚Рµ
+     * Get the 'ProduceDocuments' element value. Сведения о выпускающем документе
      * 
      * @return value
      */
@@ -161,7 +161,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'ProduceDocuments' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РІС‹РїСѓСЃРєР°СЋС‰РµРј РґРѕРєСѓРјРµРЅС‚Рµ
+     * Set the 'ProduceDocuments' element value. Сведения о выпускающем документе
      * 
      * @param produceDocuments
      */
@@ -170,7 +170,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'SVHLicenceNumber' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё РЎР’РҐ
+     * Get the 'SVHLicenceNumber' element value. Номер лицензии СВХ
      * 
      * @return value
      */
@@ -179,7 +179,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'SVHLicenceNumber' element value. РќРѕРјРµСЂ Р»РёС†РµРЅР·РёРё РЎР’РҐ
+     * Set the 'SVHLicenceNumber' element value. Номер лицензии СВХ
      * 
      * @param SVHLicenceNumber
      */
@@ -188,7 +188,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -197,7 +197,7 @@ public class WHGoodOutType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

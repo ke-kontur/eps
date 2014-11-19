@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р’РµСЃРѕРІС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ РўРЎ
+ * Весовые параметры ТС
  */
 public class WeightType
 {
@@ -16,7 +16,7 @@ public class WeightType
     private String cargo;
 
     /** 
-     * Get the list of 'Pin' element items. РЎРїРёСЃРѕРє РЅР°РіСЂСѓР·РѕРє РЅР° РєР°Р¶РґСѓСЋ РѕСЃСЊ, С‚
+     * Get the list of 'Pin' element items. Список нагрузок на каждую ось, т
      * 
      * @return list
      */
@@ -25,7 +25,7 @@ public class WeightType
     }
 
     /** 
-     * Set the list of 'Pin' element items. РЎРїРёСЃРѕРє РЅР°РіСЂСѓР·РѕРє РЅР° РєР°Р¶РґСѓСЋ РѕСЃСЊ, С‚
+     * Set the list of 'Pin' element items. Список нагрузок на каждую ось, т
      * 
      * @param list
      */
@@ -34,7 +34,7 @@ public class WeightType
     }
 
     /** 
-     * Get the 'Total' element value. РЎСѓРјРјР°СЂРЅР°СЏ РЅР°РіСЂСѓР·РєР° РЅР° РѕСЃРё РўРЎ
+     * Get the 'Total' element value. Суммарная нагрузка на оси ТС
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class WeightType
     }
 
     /** 
-     * Set the 'Total' element value. РЎСѓРјРјР°СЂРЅР°СЏ РЅР°РіСЂСѓР·РєР° РЅР° РѕСЃРё РўРЎ
+     * Set the 'Total' element value. Суммарная нагрузка на оси ТС
      * 
      * @param total
      */
@@ -52,7 +52,7 @@ public class WeightType
     }
 
     /** 
-     * Get the 'PinCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕСЃРµР№ РўРЎ
+     * Get the 'PinCount' element value. Количество осей ТС
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class WeightType
     }
 
     /** 
-     * Set the 'PinCount' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РѕСЃРµР№ РўРЎ
+     * Set the 'PinCount' element value. Количество осей ТС
      * 
      * @param pinCount
      */
@@ -70,7 +70,7 @@ public class WeightType
     }
 
     /** 
-     * Get the list of 'Distance' element items. РЎРїРёСЃРѕРє СЂР°СЃСЃС‚РѕСЏРЅРёР№ РјРµР¶РґСѓ РѕСЃСЏРјРё, Рј
+     * Get the list of 'Distance' element items. Список расстояний между осями, м
      * 
      * @return list
      */
@@ -79,7 +79,7 @@ public class WeightType
     }
 
     /** 
-     * Set the list of 'Distance' element items. РЎРїРёСЃРѕРє СЂР°СЃСЃС‚РѕСЏРЅРёР№ РјРµР¶РґСѓ РѕСЃСЏРјРё, Рј
+     * Set the list of 'Distance' element items. Список расстояний между осями, м
      * 
      * @param list
      */
@@ -88,7 +88,7 @@ public class WeightType
     }
 
     /** 
-     * Get the 'Cargo' element value. Р’РµСЃ РіСЂСѓР·Р°, С‚
+     * Get the 'Cargo' element value. Вес груза, т
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class WeightType
     }
 
     /** 
-     * Set the 'Cargo' element value. Р’РµСЃ РіСЂСѓР·Р°, С‚
+     * Set the 'Cargo' element value. Вес груза, т
      * 
      * @param cargo
      */

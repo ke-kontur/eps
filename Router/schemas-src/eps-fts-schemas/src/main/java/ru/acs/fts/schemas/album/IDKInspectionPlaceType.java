@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїСЂРѕРІРµРґРµРЅРёРё РѕСЃРјРѕС‚СЂР°
+ * Информация о проведении осмотра
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -26,7 +26,7 @@ public class IDKInspectionPlaceType
     private String messageNumber;
 
     /** 
-     * Get the 'InspectionDate' element value. Р”Р°С‚Р° РѕСЃРјРѕС‚СЂР°
+     * Get the 'InspectionDate' element value. Дата осмотра
      * 
      * @return value
      */
@@ -35,7 +35,7 @@ public class IDKInspectionPlaceType
     }
 
     /** 
-     * Set the 'InspectionDate' element value. Р”Р°С‚Р° РѕСЃРјРѕС‚СЂР°
+     * Set the 'InspectionDate' element value. Дата осмотра
      * 
      * @param inspectionDate
      */
@@ -44,7 +44,7 @@ public class IDKInspectionPlaceType
     }
 
     /** 
-     * Get the 'CustomsCode' element value. РљРѕРґ РўРћ, РїСЂРѕРІРѕРґРёРІС€РµРіРѕ РѕСЃРјРѕС‚СЂ
+     * Get the 'CustomsCode' element value. Код ТО, проводившего осмотр
      * 
      * @return value
      */
@@ -53,7 +53,7 @@ public class IDKInspectionPlaceType
     }
 
     /** 
-     * Set the 'CustomsCode' element value. РљРѕРґ РўРћ, РїСЂРѕРІРѕРґРёРІС€РµРіРѕ РѕСЃРјРѕС‚СЂ
+     * Set the 'CustomsCode' element value. Код ТО, проводившего осмотр
      * 
      * @param customsCode
      */
@@ -62,7 +62,7 @@ public class IDKInspectionPlaceType
     }
 
     /** 
-     * Get the 'IDKNumber' element value. РќРѕРјРµСЂ РР”Рљ/РњРР”Рљ
+     * Get the 'IDKNumber' element value. Номер ИДК/МИДК
      * 
      * @return value
      */
@@ -71,7 +71,7 @@ public class IDKInspectionPlaceType
     }
 
     /** 
-     * Set the 'IDKNumber' element value. РќРѕРјРµСЂ РР”Рљ/РњРР”Рљ
+     * Set the 'IDKNumber' element value. Номер ИДК/МИДК
      * 
      * @param IDKNumber
      */
@@ -80,7 +80,7 @@ public class IDKInspectionPlaceType
     }
 
     /** 
-     * Get the 'DirectionNumber' element value. РќРѕРјРµСЂ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Get the 'DirectionNumber' element value. Номер направления
      * 
      * @return value
      */
@@ -89,7 +89,7 @@ public class IDKInspectionPlaceType
     }
 
     /** 
-     * Set the 'DirectionNumber' element value. РќРѕРјРµСЂ РЅР°РїСЂР°РІР»РµРЅРёСЏ
+     * Set the 'DirectionNumber' element value. Номер направления
      * 
      * @param directionNumber
      */
@@ -98,7 +98,7 @@ public class IDKInspectionPlaceType
     }
 
     /** 
-     * Get the 'MessageNumber' element value. РќРѕРјРµСЂ СЃРѕРѕР±С‰РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё
+     * Get the 'MessageNumber' element value. Номер сообщения о прибытии/убытии
      * 
      * @return value
      */
@@ -107,7 +107,7 @@ public class IDKInspectionPlaceType
     }
 
     /** 
-     * Set the 'MessageNumber' element value. РќРѕРјРµСЂ СЃРѕРѕР±С‰РµРЅРёСЏ Рѕ РїСЂРёР±С‹С‚РёРё/СѓР±С‹С‚РёРё
+     * Set the 'MessageNumber' element value. Номер сообщения о прибытии/убытии
      * 
      * @param messageNumber
      */

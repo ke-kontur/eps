@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РџСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
+ * Причины отказа
  */
 public class RefuseReasonType
 {
@@ -13,7 +13,7 @@ public class RefuseReasonType
     private List<String> refusalReasonDescriptionList = new ArrayList<String>();
 
     /** 
-     * Get the 'RefusalReasonCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
+     * Get the 'RefusalReasonCode' element value. Код причины отказа
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class RefuseReasonType
     }
 
     /** 
-     * Set the 'RefusalReasonCode' element value. РљРѕРґ РїСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
+     * Set the 'RefusalReasonCode' element value. Код причины отказа
      * 
      * @param refusalReasonCode
      */
@@ -31,7 +31,7 @@ public class RefuseReasonType
     }
 
     /** 
-     * Get the list of 'RefusalReasonDescription' element items. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
+     * Get the list of 'RefusalReasonDescription' element items. Описание причины отказа
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class RefuseReasonType
     }
 
     /** 
-     * Set the list of 'RefusalReasonDescription' element items. РћРїРёСЃР°РЅРёРµ РїСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р°
+     * Set the list of 'RefusalReasonDescription' element items. Описание причины отказа
      * 
      * @param list
      */

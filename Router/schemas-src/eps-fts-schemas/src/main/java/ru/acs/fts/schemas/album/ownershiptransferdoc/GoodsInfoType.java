@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ
+ * Сведения о товаре
  */
 public class GoodsInfoType extends SupplementaryQuantityType
 {
@@ -15,7 +15,7 @@ public class GoodsInfoType extends SupplementaryQuantityType
     private String goodsCountry;
 
     /** 
-     * Get the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class GoodsInfoType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the list of 'GoodsDescription' element items. РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'GoodsDescription' element items. Наименование товара
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class GoodsInfoType extends SupplementaryQuantityType
     }
 
     /** 
-     * Get the 'GoodsCost' element value. Р¦РµРЅР° С‚РѕРІР°СЂР°
+     * Get the 'GoodsCost' element value. Цена товара
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class GoodsInfoType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'GoodsCost' element value. Р¦РµРЅР° С‚РѕРІР°СЂР°
+     * Set the 'GoodsCost' element value. Цена товара
      * 
      * @param goodsCost
      */
@@ -51,7 +51,7 @@ public class GoodsInfoType extends SupplementaryQuantityType
     }
 
     /** 
-     * Get the 'GoodsCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Get the 'GoodsCountry' element value. Страна происхождения товара
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class GoodsInfoType extends SupplementaryQuantityType
     }
 
     /** 
-     * Set the 'GoodsCountry' element value. РЎС‚СЂР°РЅР° РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёСЏ С‚РѕРІР°СЂР°
+     * Set the 'GoodsCountry' element value. Страна происхождения товара
      * 
      * @param goodsCountry
      */

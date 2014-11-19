@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.aud.audcommonaggregatetypescust;
 
 /** 
- * РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° (РѕРїРµСЂР°С‚РѕСЂ СѓРєР°Р·Р°РЅ РІ РєР°Р¶РґРѕРј С„РёР»СЊС‚СЂРµ).
+ * Параметры фильтра (оператор указан в каждом фильтре).
  */
 public class AUDUniversalFilterType
 {
@@ -50,7 +50,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Get the 'StringFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, like.
+     * Get the 'StringFilterParams' element value. Параметры фильтра для значения типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Set the 'StringFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "string" (СЃС‚СЂРѕРєР°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, like.
+     * Set the 'StringFilterParams' element value. Параметры фильтра для значения типа "string" (строка). Допустимые операторы: empty, not_empty, equal, not_equal, like.
      * 
      * @param stringFilterParams
      */
@@ -79,7 +79,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Get the 'BooleanFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "boolean" (Р±СѓР»РµРІРѕРµ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal.
+     * Get the 'BooleanFilterParams' element value. Параметры фильтра для значения типа "boolean" (булевое). Допустимые операторы: empty, not_empty, equal, not_equal.
      * 
      * @return value
      */
@@ -88,7 +88,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Set the 'BooleanFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "boolean" (Р±СѓР»РµРІРѕРµ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal.
+     * Set the 'BooleanFilterParams' element value. Параметры фильтра для значения типа "boolean" (булевое). Допустимые операторы: empty, not_empty, equal, not_equal.
      * 
      * @param booleanFilterParams
      */
@@ -108,7 +108,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Get the 'TimeFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "time" (РІСЂРµРјСЏ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+     * Get the 'TimeFilterParams' element value. Параметры фильтра для значения типа "time" (время). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Set the 'TimeFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "time" (РІСЂРµРјСЏ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+     * Set the 'TimeFilterParams' element value. Параметры фильтра для значения типа "time" (время). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
      * 
      * @param timeFilterParams
      */
@@ -136,7 +136,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Get the 'DateFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "date" (РґР°С‚Р°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+     * Get the 'DateFilterParams' element value. Параметры фильтра для значения типа "date" (дата). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
      * 
      * @return value
      */
@@ -145,7 +145,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Set the 'DateFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "date" (РґР°С‚Р°). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+     * Set the 'DateFilterParams' element value. Параметры фильтра для значения типа "date" (дата). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
      * 
      * @param dateFilterParams
      */
@@ -164,7 +164,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Get the 'DateTimeFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "datetime" (РґР°С‚Р° Рё РІСЂРµРјСЏ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+     * Get the 'DateTimeFilterParams' element value. Параметры фильтра для значения типа "datetime" (дата и время). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
      * 
      * @return value
      */
@@ -173,7 +173,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Set the 'DateTimeFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "datetime" (РґР°С‚Р° Рё РІСЂРµРјСЏ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+     * Set the 'DateTimeFilterParams' element value. Параметры фильтра для значения типа "datetime" (дата и время). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
      * 
      * @param dateTimeFilterParams
      */
@@ -193,7 +193,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Get the 'DurationFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "duration" (РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+     * Get the 'DurationFilterParams' element value. Параметры фильтра для значения типа "duration" (длительность). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
      * 
      * @return value
      */
@@ -202,7 +202,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Set the 'DurationFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "duration" (РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+     * Set the 'DurationFilterParams' element value. Параметры фильтра для значения типа "duration" (длительность). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
      * 
      * @param durationFilterParams
      */
@@ -222,7 +222,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Get the 'RealNumberFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "real" (РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+     * Get the 'RealNumberFilterParams' element value. Параметры фильтра для значения типа "real" (вещественное число). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
      * 
      * @return value
      */
@@ -231,7 +231,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Set the 'RealNumberFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "real" (РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+     * Set the 'RealNumberFilterParams' element value. Параметры фильтра для значения типа "real" (вещественное число). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
      * 
      * @param realNumberFilterParams
      */
@@ -251,7 +251,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Get the 'IntegerNumberFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "integer" (С†РµР»РѕРµ С‡РёСЃР»Рѕ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+     * Get the 'IntegerNumberFilterParams' element value. Параметры фильтра для значения типа "integer" (целое число). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
      * 
      * @return value
      */
@@ -260,7 +260,7 @@ public class AUDUniversalFilterType
     }
 
     /** 
-     * Set the 'IntegerNumberFilterParams' element value. РџР°СЂР°РјРµС‚СЂС‹ С„РёР»СЊС‚СЂР° РґР»СЏ Р·РЅР°С‡РµРЅРёСЏ С‚РёРїР° "integer" (С†РµР»РѕРµ С‡РёСЃР»Рѕ). Р”РѕРїСѓСЃС‚РёРјС‹Рµ РѕРїРµСЂР°С‚РѕСЂС‹: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
+     * Set the 'IntegerNumberFilterParams' element value. Параметры фильтра для значения типа "integer" (целое число). Допустимые операторы: empty, not_empty, equal, not_equal, more_than, more_than_or_equal, less_than, less_than_or_equal, between, between_or_equal.
      * 
      * @param integerNumberFilterParams
      */

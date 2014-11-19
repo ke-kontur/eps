@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.shippingmanifest;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РІРѕРґРёС‚РµР»Рµ 
+ * Сведения о водителе 
  */
 public class DriverType
 {
@@ -14,7 +14,7 @@ public class DriverType
     private MedCheckType postMedCheck;
 
     /** 
-     * Get the 'Name' element value. Р¤РРћ РІРѕРґРёС‚РµР»СЏ 
+     * Get the 'Name' element value. ФИО водителя 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DriverType
     }
 
     /** 
-     * Set the 'Name' element value. Р¤РРћ РІРѕРґРёС‚РµР»СЏ 
+     * Set the 'Name' element value. ФИО водителя 
      * 
      * @param name
      */
@@ -32,7 +32,7 @@ public class DriverType
     }
 
     /** 
-     * Get the 'DrivingLicenceSeries' element value. РЎРµСЂРёСЏ РІРѕРґРёС‚РµР»СЊСЃРєРѕРіРѕ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ 
+     * Get the 'DrivingLicenceSeries' element value. Серия водительского удостоверения 
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DriverType
     }
 
     /** 
-     * Set the 'DrivingLicenceSeries' element value. РЎРµСЂРёСЏ РІРѕРґРёС‚РµР»СЊСЃРєРѕРіРѕ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ 
+     * Set the 'DrivingLicenceSeries' element value. Серия водительского удостоверения 
      * 
      * @param drivingLicenceSeries
      */
@@ -50,7 +50,7 @@ public class DriverType
     }
 
     /** 
-     * Get the 'DrivingLicenceNumber' element value. РќРѕРјРµСЂ РІРѕРґРёС‚РµР»СЊСЃРєРѕРіРѕ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ 
+     * Get the 'DrivingLicenceNumber' element value. Номер водительского удостоверения 
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class DriverType
     }
 
     /** 
-     * Set the 'DrivingLicenceNumber' element value. РќРѕРјРµСЂ РІРѕРґРёС‚РµР»СЊСЃРєРѕРіРѕ СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёСЏ 
+     * Set the 'DrivingLicenceNumber' element value. Номер водительского удостоверения 
      * 
      * @param drivingLicenceNumber
      */
@@ -68,7 +68,7 @@ public class DriverType
     }
 
     /** 
-     * Get the 'DriverLicensingCard' element value. Р›РёС†РµРЅР·РёРѕРЅРЅР°СЏ РєР°СЂС‚РѕС‡РєР° РІРѕРґРёС‚РµР»СЏ 
+     * Get the 'DriverLicensingCard' element value. Лицензионная карточка водителя 
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class DriverType
     }
 
     /** 
-     * Set the 'DriverLicensingCard' element value. Р›РёС†РµРЅР·РёРѕРЅРЅР°СЏ РєР°СЂС‚РѕС‡РєР° РІРѕРґРёС‚РµР»СЏ 
+     * Set the 'DriverLicensingCard' element value. Лицензионная карточка водителя 
      * 
      * @param driverLicensingCard
      */
@@ -87,7 +87,7 @@ public class DriverType
     }
 
     /** 
-     * Get the 'PreMedCheck' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРµРґСЂРµР№СЃРѕРІРѕРіРѕ РјРµРґРёС†РёРЅСЃРєРѕРіРѕ РѕСЃРјРѕС‚СЂР° РІРѕРґРёС‚РµР»СЏ
+     * Get the 'PreMedCheck' element value. Дата и время проведения предрейсового медицинского осмотра водителя
      * 
      * @return value
      */
@@ -96,7 +96,7 @@ public class DriverType
     }
 
     /** 
-     * Set the 'PreMedCheck' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРѕРІРµРґРµРЅРёСЏ РїСЂРµРґСЂРµР№СЃРѕРІРѕРіРѕ РјРµРґРёС†РёРЅСЃРєРѕРіРѕ РѕСЃРјРѕС‚СЂР° РІРѕРґРёС‚РµР»СЏ
+     * Set the 'PreMedCheck' element value. Дата и время проведения предрейсового медицинского осмотра водителя
      * 
      * @param preMedCheck
      */
@@ -105,7 +105,7 @@ public class DriverType
     }
 
     /** 
-     * Get the 'PostMedCheck' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРѕРІРµРґРµРЅРёСЏ РїРѕСЃР»РµСЂРµР№СЃРѕРІРѕРіРѕ РјРµРґРёС†РёРЅСЃРєРѕРіРѕ РѕСЃРјРѕС‚СЂР° РІРѕРґРёС‚РµР»СЏ
+     * Get the 'PostMedCheck' element value. Дата и время проведения послерейсового медицинского осмотра водителя
      * 
      * @return value
      */
@@ -114,7 +114,7 @@ public class DriverType
     }
 
     /** 
-     * Set the 'PostMedCheck' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ РїСЂРѕРІРµРґРµРЅРёСЏ РїРѕСЃР»РµСЂРµР№СЃРѕРІРѕРіРѕ РјРµРґРёС†РёРЅСЃРєРѕРіРѕ РѕСЃРјРѕС‚СЂР° РІРѕРґРёС‚РµР»СЏ
+     * Set the 'PostMedCheck' element value. Дата и время проведения послерейсового медицинского осмотра водителя
      * 
      * @param postMedCheck
      */

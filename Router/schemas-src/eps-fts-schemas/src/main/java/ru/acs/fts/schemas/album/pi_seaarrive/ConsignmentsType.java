@@ -8,7 +8,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 import ru.acs.fts.schemas.album.priorcommonaggregatetypescust.GoodsPackagingType;
 
 /** 
- * РџРµСЂРµС‡РµРЅСЊ С‚РѕРІР°СЂРЅС‹С… РїР°СЂС‚РёР№
+ * Перечень товарных партий
  */
 public class ConsignmentsType
 {
@@ -29,7 +29,7 @@ public class ConsignmentsType
     private String PIRegID;
 
     /** 
-     * Get the 'TransportDocumentNum' element value. РќРѕРјРµСЂ РєРѕРЅРѕСЃСЃР°РјРµРЅС‚Р° (РёР»Рё РёРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РЅР° С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ)
+     * Get the 'TransportDocumentNum' element value. Номер коноссамента (или иного транспортного документа на товарную партию)
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'TransportDocumentNum' element value. РќРѕРјРµСЂ РєРѕРЅРѕСЃСЃР°РјРµРЅС‚Р° (РёР»Рё РёРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РЅР° С‚РѕРІР°СЂРЅСѓСЋ РїР°СЂС‚РёСЋ)
+     * Set the 'TransportDocumentNum' element value. Номер коноссамента (или иного транспортного документа на товарную партию)
      * 
      * @param transportDocumentNum
      */
@@ -47,7 +47,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'DateExpectedArrival' element value. Р”Р°С‚Р° РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
+     * Get the 'DateExpectedArrival' element value. Дата ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'DateExpectedArrival' element value. Р”Р°С‚Р° РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
+     * Set the 'DateExpectedArrival' element value. Дата ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
      * 
      * @param dateExpectedArrival
      */
@@ -65,7 +65,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'TimeExpectedArrival' element value. Р’СЂРµРјСЏ РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
+     * Get the 'TimeExpectedArrival' element value. Время ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
      * 
      * @return value
      */
@@ -74,7 +74,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'TimeExpectedArrival' element value. Р’СЂРµРјСЏ РѕР¶РёРґР°РµРјРѕРіРѕ РїСЂРёР±С‹С‚РёСЏ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ РІ РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°
+     * Set the 'TimeExpectedArrival' element value. Время ожидаемого прибытия товаров и транспортных средств в пограничный пункт пропуска
      * 
      * @param timeExpectedArrival
      */
@@ -83,7 +83,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'LoadingPort' element value. РџРѕСЂС‚ РїРѕРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'LoadingPort' element value. Порт погрузки товаров
      * 
      * @return value
      */
@@ -92,7 +92,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'LoadingPort' element value. РџРѕСЂС‚ РїРѕРіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'LoadingPort' element value. Порт погрузки товаров
      * 
      * @param loadingPort
      */
@@ -101,7 +101,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'UnloadingPort' element value. РџРѕСЂС‚ РІС‹РіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'UnloadingPort' element value. Порт выгрузки товаров
      * 
      * @return value
      */
@@ -110,7 +110,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'UnloadingPort' element value. РџРѕСЂС‚ РІС‹РіСЂСѓР·РєРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'UnloadingPort' element value. Порт выгрузки товаров
      * 
      * @param unloadingPort
      */
@@ -119,7 +119,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Get the list of 'Goods' element items. Сведения о товарах
      * 
      * @return list
      */
@@ -128,7 +128,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С…
+     * Set the list of 'Goods' element items. Сведения о товарах
      * 
      * @param list
      */
@@ -137,7 +137,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the list of 'GoodsPackingInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…/СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
+     * Get the list of 'GoodsPackingInfo' element items. Сведения о грузовых местах/упаковке товаров
      * 
      * @return list
      */
@@ -146,7 +146,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the list of 'GoodsPackingInfo' element items. РЎРІРµРґРµРЅРёСЏ Рѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚Р°С…/СѓРїР°РєРѕРІРєРµ С‚РѕРІР°СЂРѕРІ
+     * Set the list of 'GoodsPackingInfo' element items. Сведения о грузовых местах/упаковке товаров
      * 
      * @param list
      */
@@ -155,7 +155,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'ProhibitedGoods' element value. Р—Р°РїСЂРµС‰РµРЅРЅС‹Рµ РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅС‹Рµ Рє РІРІРѕР·Сѓ С‚РѕРІР°СЂС‹ С‚РѕРІР°СЂС‹
+     * Get the 'ProhibitedGoods' element value. Запрещенные или ограниченные к ввозу товары товары
      * 
      * @return value
      */
@@ -164,7 +164,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'ProhibitedGoods' element value. Р—Р°РїСЂРµС‰РµРЅРЅС‹Рµ РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅС‹Рµ Рє РІРІРѕР·Сѓ С‚РѕРІР°СЂС‹ С‚РѕРІР°СЂС‹
+     * Set the 'ProhibitedGoods' element value. Запрещенные или ограниченные к ввозу товары товары
      * 
      * @param prohibitedGoods
      */
@@ -173,7 +173,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'Consignor' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂР°
+     * Get the 'Consignor' element value. Информация об отправителе товара
      * 
      * @return value
      */
@@ -182,7 +182,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'Consignor' element value. РРЅС„РѕСЂРјР°С†РёСЏ РѕР± РѕС‚РїСЂР°РІРёС‚РµР»Рµ С‚РѕРІР°СЂР°
+     * Set the 'Consignor' element value. Информация об отправителе товара
      * 
      * @param consignor
      */
@@ -191,7 +191,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'Carrier' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
+     * Get the 'Carrier' element value. Информация о перевозчике
      * 
      * @return value
      */
@@ -200,7 +200,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'Carrier' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРµСЂРµРІРѕР·С‡РёРєРµ
+     * Set the 'Carrier' element value. Информация о перевозчике
      * 
      * @param carrier
      */
@@ -209,7 +209,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'Consignee' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Get the 'Consignee' element value. Информация о получателе
      * 
      * @return value
      */
@@ -218,7 +218,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'Consignee' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СѓС‡Р°С‚РµР»Рµ
+     * Set the 'Consignee' element value. Информация о получателе
      * 
      * @param consignee
      */
@@ -227,7 +227,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'BorderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ (РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РІ РєРѕС‚РѕСЂС‹Р№ РѕР¶РёРґР°РµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ.
+     * Get the 'BorderCustoms' element value. Таможенный орган (пограничный пункт пропуска), в который ожидается прибытие товаров и транспортных средств.
      * 
      * @return value
      */
@@ -236,7 +236,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'BorderCustoms' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РѕСЂРіР°РЅ (РїРѕРіСЂР°РЅРёС‡РЅС‹Р№ РїСѓРЅРєС‚ РїСЂРѕРїСѓСЃРєР°), РІ РєРѕС‚РѕСЂС‹Р№ РѕР¶РёРґР°РµС‚СЃСЏ РїСЂРёР±С‹С‚РёРµ С‚РѕРІР°СЂРѕРІ Рё С‚СЂР°РЅСЃРїРѕСЂС‚РЅС‹С… СЃСЂРµРґСЃС‚РІ.
+     * Set the 'BorderCustoms' element value. Таможенный орган (пограничный пункт пропуска), в который ожидается прибытие товаров и транспортных средств.
      * 
      * @param borderCustoms
      */
@@ -245,7 +245,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'PrimaryDeparturePort' element value. РџРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅС‹Р№ РїРѕСЂС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Get the 'PrimaryDeparturePort' element value. Первоначальный порт отправления товаров
      * 
      * @return value
      */
@@ -254,7 +254,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'PrimaryDeparturePort' element value. РџРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅС‹Р№ РїРѕСЂС‚ РѕС‚РїСЂР°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРѕРІ
+     * Set the 'PrimaryDeparturePort' element value. Первоначальный порт отправления товаров
      * 
      * @param primaryDeparturePort
      */
@@ -263,7 +263,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'RemainGoodsUnloadPort' element value. РџРѕСЂС‚ РІС‹РіСЂСѓР·РєРё РѕСЃС‚Р°СЋС‰РёС…СЃСЏ РЅР° Р±РѕСЂС‚Сѓ С‚РѕРІР°СЂРѕРІ
+     * Get the 'RemainGoodsUnloadPort' element value. Порт выгрузки остающихся на борту товаров
      * 
      * @return value
      */
@@ -272,7 +272,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'RemainGoodsUnloadPort' element value. РџРѕСЂС‚ РІС‹РіСЂСѓР·РєРё РѕСЃС‚Р°СЋС‰РёС…СЃСЏ РЅР° Р±РѕСЂС‚Сѓ С‚РѕРІР°СЂРѕРІ
+     * Set the 'RemainGoodsUnloadPort' element value. Порт выгрузки остающихся на борту товаров
      * 
      * @param remainGoodsUnloadPort
      */
@@ -282,7 +282,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Get the 'PI_RegID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Get the 'PI_RegID' element value. Регистрационный идентификатор предварительной информации
      * 
      * @return value
      */
@@ -291,7 +291,7 @@ public class ConsignmentsType
     }
 
     /** 
-     * Set the 'PI_RegID' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё
+     * Set the 'PI_RegID' element value. Регистрационный идентификатор предварительной информации
      * 
      * @param PIRegID
      */

@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.resultrd;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ СЌР»РµРјРµРЅС‚Р° РґРѕРєСѓРјРµРЅС‚Р°, РІ РєРѕС‚РѕСЂРѕРј РґРѕРїСѓС‰РµРЅР° РѕС€РёР±РєР°
+ * Описание элемента документа, в котором допущена ошибка
  */
 public class ItemInfoType
 {
@@ -10,7 +10,7 @@ public class ItemInfoType
     private String recommendValue;
 
     /** 
-     * Get the 'RefItem' element value. РЎСЃС‹Р»РєР° РЅР° СЌР»РµРјРµРЅС‚ СЃ РѕС€РёР±РєРѕР№.
+     * Get the 'RefItem' element value. Ссылка на элемент с ошибкой.
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ItemInfoType
     }
 
     /** 
-     * Set the 'RefItem' element value. РЎСЃС‹Р»РєР° РЅР° СЌР»РµРјРµРЅС‚ СЃ РѕС€РёР±РєРѕР№.
+     * Set the 'RefItem' element value. Ссылка на элемент с ошибкой.
      * 
      * @param refItem
      */
@@ -28,7 +28,7 @@ public class ItemInfoType
     }
 
     /** 
-     * Get the 'RecommendValue' element value. Р РµРєРѕРјРµРЅРґСѓРµРјРѕРµ Р·РЅР°С‡РµРЅРёРµ.
+     * Get the 'RecommendValue' element value. Рекомендуемое значение.
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ItemInfoType
     }
 
     /** 
-     * Set the 'RecommendValue' element value. Р РµРєРѕРјРµРЅРґСѓРµРјРѕРµ Р·РЅР°С‡РµРЅРёРµ.
+     * Set the 'RecommendValue' element value. Рекомендуемое значение.
      * 
      * @param recommendValue
      */

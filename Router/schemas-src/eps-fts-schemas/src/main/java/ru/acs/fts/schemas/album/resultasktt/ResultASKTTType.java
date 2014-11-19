@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * Р РµР·СѓР»СЊС‚Р°С‚ РїСЂРѕРІРµСЂРєРё РђРЎРљРўРў-2
+ * Результат проверки АСКТТ-2
  */
 public class ResultASKTTType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class ResultASKTTType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'TDCheckResult' element items. Р РµР·СѓР»СЊС‚Р°С‚С‹ РїСЂРѕРІРµСЂРєРё РїРѕ РўР”
+     * Get the list of 'TDCheckResult' element items. Результаты проверки по ТД
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class ResultASKTTType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'TDCheckResult' element items. Р РµР·СѓР»СЊС‚Р°С‚С‹ РїСЂРѕРІРµСЂРєРё РїРѕ РўР”
+     * Set the list of 'TDCheckResult' element items. Результаты проверки по ТД
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class ResultASKTTType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class ResultASKTTType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

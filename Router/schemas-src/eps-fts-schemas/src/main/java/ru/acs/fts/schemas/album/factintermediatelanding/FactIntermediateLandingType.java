@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.CUCustomsType;
 
 /** 
- * РЈРІРµРґРѕРјР»РµРЅРёРµ Рѕ С„Р°РєС‚Рµ СЃРѕРІРµСЂС€РµРЅРёСЏ РїРѕСЃР°РґРєРё
+ * Уведомление о факте совершения посадки
  */
 public class FactIntermediateLandingType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class FactIntermediateLandingType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'UIN' element value. РЈРРќ
+     * Get the 'UIN' element value. УИН
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class FactIntermediateLandingType extends BaseDocType
     }
 
     /** 
-     * Set the 'UIN' element value. РЈРРќ
+     * Set the 'UIN' element value. УИН
      * 
      * @param UIN
      */
@@ -33,7 +33,7 @@ public class FactIntermediateLandingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Get the 'Customs' element value. Сведения о таможенном органе
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class FactIntermediateLandingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Customs' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РѕСЂРіР°РЅРµ
+     * Set the 'Customs' element value. Сведения о таможенном органе
      * 
      * @param customs
      */
@@ -51,7 +51,7 @@ public class FactIntermediateLandingType extends BaseDocType
     }
 
     /** 
-     * Get the 'Flight' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
+     * Get the 'Flight' element value. Сведения о рейсе
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class FactIntermediateLandingType extends BaseDocType
     }
 
     /** 
-     * Set the 'Flight' element value. РЎРІРµРґРµРЅРёСЏ Рѕ СЂРµР№СЃРµ
+     * Set the 'Flight' element value. Сведения о рейсе
      * 
      * @param flight
      */
@@ -69,7 +69,7 @@ public class FactIntermediateLandingType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class FactIntermediateLandingType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

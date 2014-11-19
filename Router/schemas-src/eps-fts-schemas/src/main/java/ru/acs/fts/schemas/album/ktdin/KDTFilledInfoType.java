@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADCustomsRepr
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADFilledPersonType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРѕР»РЅРµРЅРёРё РљР”Рў
+ * Сведения о заполнении КДТ
  */
 public class KDTFilledInfoType
 {
@@ -13,7 +13,7 @@ public class KDTFilledInfoType
     private CUESADCustomsRepresentativeType customsRepresentative;
 
     /** 
-     * Get the 'FilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РљР”Рў
+     * Get the 'FilledPerson' element value. Сведения о лице, заполнившем КДТ
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class KDTFilledInfoType
     }
 
     /** 
-     * Set the 'FilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РљР”Рў
+     * Set the 'FilledPerson' element value. Сведения о лице, заполнившем КДТ
      * 
      * @param filledPerson
      */
@@ -31,7 +31,7 @@ public class KDTFilledInfoType
     }
 
     /** 
-     * Get the 'CustomsRepresentative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Get the 'CustomsRepresentative' element value. Таможенный представитель
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class KDTFilledInfoType
     }
 
     /** 
-     * Set the 'CustomsRepresentative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Set the 'CustomsRepresentative' element value. Таможенный представитель
      * 
      * @param customsRepresentative
      */

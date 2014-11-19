@@ -5,7 +5,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± СѓРґРѕСЃС‚РѕРІРµСЂРµРЅРёРё СЃРµСЂС‚РёС„РёРєР°С‚Р°
+ * Сведения об удостоверении сертификата
  */
 public class AuthenticationType extends DocumentBaseType
 {
@@ -14,7 +14,7 @@ public class AuthenticationType extends DocumentBaseType
     private PersonSignatureType authSign;
 
     /** 
-     * Get the 'Agency' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РЅР°С†РёРѕРЅР°Р»СЊРЅС‹Рј Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІРѕРј СѓРґРѕСЃС‚РѕРІРµСЂСЏС‚СЊ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'Agency' element value. Наименование органа, уполномоченного в соответствии с национальным законодательством удостоверять происхождение товаров
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class AuthenticationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Agency' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РЅР°С†РёРѕРЅР°Р»СЊРЅС‹Рј Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІРѕРј СѓРґРѕСЃС‚РѕРІРµСЂСЏС‚СЊ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'Agency' element value. Наименование органа, уполномоченного в соответствии с национальным законодательством удостоверять происхождение товаров
      * 
      * @param agency
      */
@@ -32,7 +32,7 @@ public class AuthenticationType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'Place' element value. РњРµСЃС‚Рѕ РІС‹РґР°С‡Рё.
+     * Get the 'Place' element value. Место выдачи.
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class AuthenticationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'Place' element value. РњРµСЃС‚Рѕ РІС‹РґР°С‡Рё.
+     * Set the 'Place' element value. Место выдачи.
      * 
      * @param place
      */
@@ -50,7 +50,7 @@ public class AuthenticationType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'AuthSign' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅРёР·Р°С†РёРё, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµР№ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Get the 'AuthSign' element value. Подпись должностного лица организации, удостоверяющей происхождение товаров
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class AuthenticationType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'AuthSign' element value. РџРѕРґРїРёСЃСЊ РґРѕР»Р¶РЅРѕСЃС‚РЅРѕРіРѕ Р»РёС†Р° РѕСЂРіР°РЅРёР·Р°С†РёРё, СѓРґРѕСЃС‚РѕРІРµСЂСЏСЋС‰РµР№ РїСЂРѕРёСЃС…РѕР¶РґРµРЅРёРµ С‚РѕРІР°СЂРѕРІ
+     * Set the 'AuthSign' element value. Подпись должностного лица организации, удостоверяющей происхождение товаров
      * 
      * @param authSign
      */

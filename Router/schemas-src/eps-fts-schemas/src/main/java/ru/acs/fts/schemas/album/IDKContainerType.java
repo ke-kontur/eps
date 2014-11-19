@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РєРѕРЅС‚РµР№РЅРµСЂРµ
+ * Сведения о контейнере
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -20,7 +20,7 @@ public class IDKContainerType
     private String containerNumeric;
 
     /** 
-     * Get the 'Number' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'Number' element value. Номер контейнера
      * 
      * @return value
      */
@@ -29,7 +29,7 @@ public class IDKContainerType
     }
 
     /** 
-     * Set the 'Number' element value. РќРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'Number' element value. Номер контейнера
      * 
      * @param number
      */
@@ -38,7 +38,7 @@ public class IDKContainerType
     }
 
     /** 
-     * Get the 'ContainerNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Get the 'ContainerNumeric' element value. Порядковый номер контейнера
      * 
      * @return value
      */
@@ -47,7 +47,7 @@ public class IDKContainerType
     }
 
     /** 
-     * Set the 'ContainerNumeric' element value. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РєРѕРЅС‚РµР№РЅРµСЂР°
+     * Set the 'ContainerNumeric' element value. Порядковый номер контейнера
      * 
      * @param containerNumeric
      */

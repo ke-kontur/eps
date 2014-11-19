@@ -28,7 +28,7 @@ public class IDKInspectionInfoType extends IDKInspectionPlaceType
     private String notes;
 
     /** 
-     * Get the 'IDResult' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РѕСЃРјРѕС‚СЂР° РІ Р‘Р” 
+     * Get the 'IDResult' element value. Уникальный идентификатор результатов осмотра в БД 
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class IDKInspectionInfoType extends IDKInspectionPlaceType
     }
 
     /** 
-     * Set the 'IDResult' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РѕСЃРјРѕС‚СЂР° РІ Р‘Р” 
+     * Set the 'IDResult' element value. Уникальный идентификатор результатов осмотра в БД 
      * 
      * @param IDResult
      */
@@ -46,7 +46,7 @@ public class IDKInspectionInfoType extends IDKInspectionPlaceType
     }
 
     /** 
-     * Get the 'InspectionResult' element value. Р РµС€РµРЅРёРµ РѕРїРµСЂР°С‚РѕСЂР° РђР: 0 - РћР±СЉРµРєС‚ Р±РµР· РїРѕРґРѕР·СЂРµРЅРёСЏ; 1 - РћР±СЉРµРєС‚ РїРѕРґ РїРѕРґРѕР·СЂРµРЅРёРµРј
+     * Get the 'InspectionResult' element value. Решение оператора АИ: 0 - Объект без подозрения; 1 - Объект под подозрением
      * 
      * @return value
      */
@@ -55,7 +55,7 @@ public class IDKInspectionInfoType extends IDKInspectionPlaceType
     }
 
     /** 
-     * Set the 'InspectionResult' element value. Р РµС€РµРЅРёРµ РѕРїРµСЂР°С‚РѕСЂР° РђР: 0 - РћР±СЉРµРєС‚ Р±РµР· РїРѕРґРѕР·СЂРµРЅРёСЏ; 1 - РћР±СЉРµРєС‚ РїРѕРґ РїРѕРґРѕР·СЂРµРЅРёРµРј
+     * Set the 'InspectionResult' element value. Решение оператора АИ: 0 - Объект без подозрения; 1 - Объект под подозрением
      * 
      * @param inspectionResult
      */
@@ -64,7 +64,7 @@ public class IDKInspectionInfoType extends IDKInspectionPlaceType
     }
 
     /** 
-     * Get the 'OperatorID' element value. РљРѕРґ РѕРїРµСЂР°С‚РѕСЂР° РђР
+     * Get the 'OperatorID' element value. Код оператора АИ
      * 
      * @return value
      */
@@ -73,7 +73,7 @@ public class IDKInspectionInfoType extends IDKInspectionPlaceType
     }
 
     /** 
-     * Set the 'OperatorID' element value. РљРѕРґ РѕРїРµСЂР°С‚РѕСЂР° РђР
+     * Set the 'OperatorID' element value. Код оператора АИ
      * 
      * @param operatorID
      */
@@ -82,7 +82,7 @@ public class IDKInspectionInfoType extends IDKInspectionPlaceType
     }
 
     /** 
-     * Get the 'LNP' element value. Р›РќРџ
+     * Get the 'LNP' element value. ЛНП
      * 
      * @return value
      */
@@ -91,7 +91,7 @@ public class IDKInspectionInfoType extends IDKInspectionPlaceType
     }
 
     /** 
-     * Set the 'LNP' element value. Р›РќРџ
+     * Set the 'LNP' element value. ЛНП
      * 
      * @param LNP
      */
@@ -100,7 +100,7 @@ public class IDKInspectionInfoType extends IDKInspectionPlaceType
     }
 
     /** 
-     * Get the 'Notes' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Get the 'Notes' element value. Примечание
      * 
      * @return value
      */
@@ -109,7 +109,7 @@ public class IDKInspectionInfoType extends IDKInspectionPlaceType
     }
 
     /** 
-     * Set the 'Notes' element value. РџСЂРёРјРµС‡Р°РЅРёРµ
+     * Set the 'Notes' element value. Примечание
      * 
      * @param notes
      */

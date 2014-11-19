@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.semcommonaggregatetypescust.ResultGoodsType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… Рё РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂР°С… РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+ * Сведения о товарах и неформализованных индикаторах профиля риска
  */
 public class GoodsType extends ResultGoodsType
 {
@@ -18,7 +18,7 @@ public class GoodsType extends ResultGoodsType
     private List<RiskProfileDescriptionMarkUpType> riskProfileDescriptionMarkUpList = new ArrayList<RiskProfileDescriptionMarkUpType>();
 
     /** 
-     * Get the 'ProfileIndex' element value. РЎРёСЃС‚РµРјРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Get the 'ProfileIndex' element value. Системный идентификатор профиля риска
      * 
      * @return value
      */
@@ -27,7 +27,7 @@ public class GoodsType extends ResultGoodsType
     }
 
     /** 
-     * Set the 'ProfileIndex' element value. РЎРёСЃС‚РµРјРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Set the 'ProfileIndex' element value. Системный идентификатор профиля риска
      * 
      * @param profileIndex
      */
@@ -36,7 +36,7 @@ public class GoodsType extends ResultGoodsType
     }
 
     /** 
-     * Get the 'Relevance' element value. Р§РёСЃР»РѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ, С…Р°СЂР°РєС‚РµСЂРёР·СѓСЋС‰РµРµ СЃС‚РµРїРµРЅСЊ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂРѕРІ РѕРїРёСЃР°РЅРёСЋ С‚РѕРІР°СЂР° (РѕС†РµРЅРєР° РґРѕСЃС‚РѕРІРµСЂРЅРѕСЃС‚Рё)
+     * Get the 'Relevance' element value. Числовое значение, характеризующее степень соответствия неформализованных индикаторов описанию товара (оценка достоверности)
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class GoodsType extends ResultGoodsType
     }
 
     /** 
-     * Set the 'Relevance' element value. Р§РёСЃР»РѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ, С…Р°СЂР°РєС‚РµСЂРёР·СѓСЋС‰РµРµ СЃС‚РµРїРµРЅСЊ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂРѕРІ РѕРїРёСЃР°РЅРёСЋ С‚РѕРІР°СЂР° (РѕС†РµРЅРєР° РґРѕСЃС‚РѕРІРµСЂРЅРѕСЃС‚Рё)
+     * Set the 'Relevance' element value. Числовое значение, характеризующее степень соответствия неформализованных индикаторов описанию товара (оценка достоверности)
      * 
      * @param relevance
      */
@@ -54,7 +54,7 @@ public class GoodsType extends ResultGoodsType
     }
 
     /** 
-     * Get the 'RiskDetected' element value. РџСЂРёР·РЅР°Рє РЅР°Р№РґРµРЅРЅРѕРіРѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР° РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹Рј РёРЅРґРёРєР°С‚РѕСЂР°Рј РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Get the 'RiskDetected' element value. Признак найденного соответствия описания товара неформализованным индикаторам профиля риска
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class GoodsType extends ResultGoodsType
     }
 
     /** 
-     * Set the 'RiskDetected' element value. РџСЂРёР·РЅР°Рє РЅР°Р№РґРµРЅРЅРѕРіРѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РѕРїРёСЃР°РЅРёСЏ С‚РѕРІР°СЂР° РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹Рј РёРЅРґРёРєР°С‚РѕСЂР°Рј РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Set the 'RiskDetected' element value. Признак найденного соответствия описания товара неформализованным индикаторам профиля риска
      * 
      * @param riskDetected
      */
@@ -72,7 +72,7 @@ public class GoodsType extends ResultGoodsType
     }
 
     /** 
-     * Get the 'Threshold' element value. РџРѕСЂРѕРіРѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ СЃС‚РµРїРµРЅРё СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ  РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂРѕРІ РѕРїРёСЃР°РЅРёСЋ С‚РѕРІР°СЂР°
+     * Get the 'Threshold' element value. Пороговое значение степени соответствия  неформализованных индикаторов описанию товара
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class GoodsType extends ResultGoodsType
     }
 
     /** 
-     * Set the 'Threshold' element value. РџРѕСЂРѕРіРѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ СЃС‚РµРїРµРЅРё СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ  РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂРѕРІ РѕРїРёСЃР°РЅРёСЋ С‚РѕРІР°СЂР°
+     * Set the 'Threshold' element value. Пороговое значение степени соответствия  неформализованных индикаторов описанию товара
      * 
      * @param threshold
      */
@@ -90,7 +90,7 @@ public class GoodsType extends ResultGoodsType
     }
 
     /** 
-     * Get the list of 'DTFieldDescriptionMarkUp' element items. Р Р°Р·РјРµС‡РµРЅРЅС‹Рµ С‚РµРєСЃС‚РѕРІС‹Рµ РѕРїРёСЃР°РЅРёСЏ РіСЂР°С„ Р”Рў
+     * Get the list of 'DTFieldDescriptionMarkUp' element items. Размеченные текстовые описания граф ДТ
      * 
      * @return list
      */
@@ -99,7 +99,7 @@ public class GoodsType extends ResultGoodsType
     }
 
     /** 
-     * Set the list of 'DTFieldDescriptionMarkUp' element items. Р Р°Р·РјРµС‡РµРЅРЅС‹Рµ С‚РµРєСЃС‚РѕРІС‹Рµ РѕРїРёСЃР°РЅРёСЏ РіСЂР°С„ Р”Рў
+     * Set the list of 'DTFieldDescriptionMarkUp' element items. Размеченные текстовые описания граф ДТ
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class GoodsType extends ResultGoodsType
     }
 
     /** 
-     * Get the list of 'RiskProfileDescriptionMarkUp' element items. Р Р°Р·РјРµС‡РµРЅРЅС‹Рµ С‚РµРєСЃС‚РѕРІС‹Рµ РѕРїРёСЃР°РЅРёСЏ РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂРѕРІ  РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Get the list of 'RiskProfileDescriptionMarkUp' element items. Размеченные текстовые описания неформализованных индикаторов  профиля риска
      * 
      * @return list
      */
@@ -118,7 +118,7 @@ public class GoodsType extends ResultGoodsType
     }
 
     /** 
-     * Set the list of 'RiskProfileDescriptionMarkUp' element items. Р Р°Р·РјРµС‡РµРЅРЅС‹Рµ С‚РµРєСЃС‚РѕРІС‹Рµ РѕРїРёСЃР°РЅРёСЏ РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂРѕРІ  РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+     * Set the list of 'RiskProfileDescriptionMarkUp' element items. Размеченные текстовые описания неформализованных индикаторов  профиля риска
      * 
      * @param list
      */

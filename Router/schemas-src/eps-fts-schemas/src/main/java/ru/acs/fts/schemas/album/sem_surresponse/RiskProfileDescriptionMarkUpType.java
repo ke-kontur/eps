@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.semcommonaggregatetypescust.MarkUpType;
 
 /** 
- * Р Р°Р·РјРµС‡РµРЅРЅРѕРµ С‚РµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅС‹С… РёРЅРґРёРєР°С‚РѕСЂРѕРІ РїСЂРѕС„РёР»СЏ СЂРёСЃРєР°
+ * Размеченное текстовое описание неформализованных индикаторов профиля риска
  */
 public class RiskProfileDescriptionMarkUpType
 {
@@ -14,7 +14,7 @@ public class RiskProfileDescriptionMarkUpType
     private List<MarkUpType> markupList = new ArrayList<MarkUpType>();
 
     /** 
-     * Get the 'Code' element value. РљРѕРґ РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅРѕРіРѕ РёРЅРґРёРєР°С‚РѕСЂР°
+     * Get the 'Code' element value. Код неформализованного индикатора
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class RiskProfileDescriptionMarkUpType
     }
 
     /** 
-     * Set the 'Code' element value. РљРѕРґ РЅРµС„РѕСЂРјР°Р»РёР·РѕРІР°РЅРЅРѕРіРѕ РёРЅРґРёРєР°С‚РѕСЂР°
+     * Set the 'Code' element value. Код неформализованного индикатора
      * 
      * @param code
      */
@@ -32,7 +32,7 @@ public class RiskProfileDescriptionMarkUpType
     }
 
     /** 
-     * Get the list of 'Markup' element items. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ
+     * Get the list of 'Markup' element items. Текстовое описание
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class RiskProfileDescriptionMarkUpType
     }
 
     /** 
-     * Set the list of 'Markup' element items. РўРµРєСЃС‚РѕРІРѕРµ РѕРїРёСЃР°РЅРёРµ
+     * Set the list of 'Markup' element items. Текстовое описание
      * 
      * @param list
      */

@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.contractdealpassport;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРїСЂР°РІРѕС‡РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+ * Справочная информация
  */
 public class SupplementalInformationType
 {
@@ -12,7 +12,7 @@ public class SupplementalInformationType
     private LocalDate date;
 
     /** 
-     * Get the 'DocumentType' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р° (1 - Р±СѓРјР°Р¶РЅС‹Рµ РЅРѕСЃРёС‚РµР»Рё, 2 - СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ РЅРѕСЃРёС‚РµР»СЊ)
+     * Get the 'DocumentType' element value. Вид документа (1 - бумажные носители, 2 - электронный носитель)
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class SupplementalInformationType
     }
 
     /** 
-     * Set the 'DocumentType' element value. Р’РёРґ РґРѕРєСѓРјРµРЅС‚Р° (1 - Р±СѓРјР°Р¶РЅС‹Рµ РЅРѕСЃРёС‚РµР»Рё, 2 - СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ РЅРѕСЃРёС‚РµР»СЊ)
+     * Set the 'DocumentType' element value. Вид документа (1 - бумажные носители, 2 - электронный носитель)
      * 
      * @param documentType
      */
@@ -30,7 +30,7 @@ public class SupplementalInformationType
     }
 
     /** 
-     * Get the 'Date' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Get the 'Date' element value. Дата подачи документов
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class SupplementalInformationType
     }
 
     /** 
-     * Set the 'Date' element value. Р”Р°С‚Р° РїРѕРґР°С‡Рё РґРѕРєСѓРјРµРЅС‚РѕРІ
+     * Set the 'Date' element value. Дата подачи документов
      * 
      * @param date
      */

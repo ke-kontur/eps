@@ -9,7 +9,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationWBankType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonBaseType;
 
 /** 
- * РџРёСЃСЊРјРѕ РЅР° СЃРїРёСЃР°РЅРёРµ РґРµРЅРµР¶РЅС‹С… СЃСЂРµРґСЃС‚РІ СЃРѕ СЃС‡РµС‚РѕРІ Р±СЂРѕРєРµСЂР°
+ * Письмо на списание денежных средств со счетов брокера
  */
 public class ChargeOffLetterType extends BaseDocType
 {
@@ -23,7 +23,7 @@ public class ChargeOffLetterType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'LetterText' element items. РўРµРєСЃС‚ РїРёСЃСЊРјР° (РєСЂРѕРјРµ С€Р°Р±Р»РѕРЅРЅС‹С… Р·РЅР°С‡РµРЅРёР№)
+     * Get the list of 'LetterText' element items. Текст письма (кроме шаблонных значений)
      * 
      * @return list
      */
@@ -32,7 +32,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'LetterText' element items. РўРµРєСЃС‚ РїРёСЃСЊРјР° (РєСЂРѕРјРµ С€Р°Р±Р»РѕРЅРЅС‹С… Р·РЅР°С‡РµРЅРёР№)
+     * Set the list of 'LetterText' element items. Текст письма (кроме шаблонных значений)
      * 
      * @param list
      */
@@ -41,7 +41,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentReference' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentReference' element value. Реквизиты документа
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentReference' element value. Р РµРєРІРёР·РёС‚С‹ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentReference' element value. Реквизиты документа
      * 
      * @param documentReference
      */
@@ -59,7 +59,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Get the 'Broker' element value. РџСЂРµРґРїСЂРёСЏС‚РёРµ РїР»Р°С‚РµР»СЊС‰РёРє
+     * Get the 'Broker' element value. Предприятие плательщик
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Set the 'Broker' element value. РџСЂРµРґРїСЂРёСЏС‚РёРµ РїР»Р°С‚РµР»СЊС‰РёРє
+     * Set the 'Broker' element value. Предприятие плательщик
      * 
      * @param broker
      */
@@ -77,7 +77,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. Р—Р° РєРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РїР»Р°С‚РµР¶ (РґРµРєР»Р°СЂР°РЅС‚)
+     * Get the 'Declarant' element value. За кого осуществляется платеж (декларант)
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. Р—Р° РєРѕРіРѕ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РїР»Р°С‚РµР¶ (РґРµРєР»Р°СЂР°РЅС‚)
+     * Set the 'Declarant' element value. За кого осуществляется платеж (декларант)
      * 
      * @param declarant
      */
@@ -95,7 +95,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Payments' element items. РџР»Р°С‚РµР¶Рё
+     * Get the list of 'Payments' element items. Платежи
      * 
      * @return list
      */
@@ -104,7 +104,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Payments' element items. РџР»Р°С‚РµР¶Рё
+     * Set the list of 'Payments' element items. Платежи
      * 
      * @param list
      */
@@ -113,7 +113,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Signatures' element items. РџРѕРґРїРёСЃРё (РґРѕР»Р¶РЅРѕСЃС‚РЅС‹Рµ Р»РёС†Р° Р±СЂРѕРєРµСЂР°)
+     * Get the list of 'Signatures' element items. Подписи (должностные лица брокера)
      * 
      * @return list
      */
@@ -122,7 +122,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Signatures' element items. РџРѕРґРїРёСЃРё (РґРѕР»Р¶РЅРѕСЃС‚РЅС‹Рµ Р»РёС†Р° Р±СЂРѕРєРµСЂР°)
+     * Set the list of 'Signatures' element items. Подписи (должностные лица брокера)
      * 
      * @param list
      */
@@ -131,7 +131,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЅР° РёРјСЏ РєРѕС‚РѕСЂРѕРіРѕ С„РѕСЂРјРёСЂСѓРµС‚СЃСЏ РїРёСЃСЊРјРѕ
+     * Get the 'CustomsPerson' element value. Должностное лицо таможенного органа на имя которого формируется письмо
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsPerson' element value. Р”РѕР»Р¶РЅРѕСЃС‚РЅРѕРµ Р»РёС†Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° РЅР° РёРјСЏ РєРѕС‚РѕСЂРѕРіРѕ С„РѕСЂРјРёСЂСѓРµС‚СЃСЏ РїРёСЃСЊРјРѕ
+     * Set the 'CustomsPerson' element value. Должностное лицо таможенного органа на имя которого формируется письмо
      * 
      * @param customsPerson
      */
@@ -149,7 +149,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class ChargeOffLetterType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

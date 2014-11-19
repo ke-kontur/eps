@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.admin.intexchcommonaggregatetypescust.BaseDocType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ СЃРІРµРґРµРЅРёР№ Рѕ СЃРѕСЃС‚РѕСЏРЅРёСЏС… (СЃС‚Р°С‚СѓСЃР°С…) РїСЂРѕС†РµРґСѓСЂС‹
+ * Запрос сведений о состояниях (статусах) процедуры
  */
 public class StatusUpdateRequestType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class StatusUpdateRequestType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'StateTransmissions' element items. РЎРїРёСЃРѕРє СЃС‚Р°С‚СѓСЃРЅС‹С… РїРµСЂРµС…РѕРґРѕРІ
+     * Get the list of 'StateTransmissions' element items. Список статусных переходов
      * 
      * @return list
      */
@@ -24,7 +24,7 @@ public class StatusUpdateRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'StateTransmissions' element items. РЎРїРёСЃРѕРє СЃС‚Р°С‚СѓСЃРЅС‹С… РїРµСЂРµС…РѕРґРѕРІ
+     * Set the list of 'StateTransmissions' element items. Список статусных переходов
      * 
      * @param list
      */
@@ -33,7 +33,7 @@ public class StatusUpdateRequestType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Statuses' element items. РЎРїРёСЃРѕРє СЃС‚Р°С‚СѓСЃРѕРІ 
+     * Get the list of 'Statuses' element items. Список статусов 
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class StatusUpdateRequestType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Statuses' element items. РЎРїРёСЃРѕРє СЃС‚Р°С‚СѓСЃРѕРІ 
+     * Set the list of 'Statuses' element items. Список статусов 
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class StatusUpdateRequestType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class StatusUpdateRequestType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

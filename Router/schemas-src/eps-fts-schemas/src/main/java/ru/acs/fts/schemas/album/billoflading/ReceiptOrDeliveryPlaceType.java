@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.billoflading;
 
 /** 
- * РњРµСЃС‚Рѕ РїРѕР»СѓС‡РµРЅРёСЏ/РґРѕСЃС‚Р°РІРєРё РіСЂСѓР·Р°
+ * Место получения/доставки груза
  */
 public class ReceiptOrDeliveryPlaceType
 {
@@ -10,7 +10,7 @@ public class ReceiptOrDeliveryPlaceType
     private String countryName;
 
     /** 
-     * Get the 'City' element value. Р“РѕСЂРѕРґ
+     * Get the 'City' element value. Город
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class ReceiptOrDeliveryPlaceType
     }
 
     /** 
-     * Set the 'City' element value. Р“РѕСЂРѕРґ
+     * Set the 'City' element value. Город
      * 
      * @param city
      */
@@ -28,7 +28,7 @@ public class ReceiptOrDeliveryPlaceType
     }
 
     /** 
-     * Get the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
+     * Get the 'CountryName' element value. Наименование страны
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class ReceiptOrDeliveryPlaceType
     }
 
     /** 
-     * Set the 'CountryName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚СЂР°РЅС‹
+     * Set the 'CountryName' element value. Наименование страны
      * 
      * @param countryName
      */

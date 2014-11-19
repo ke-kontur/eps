@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.SupplementaryQuantityType;
 
 /** 
- * РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёРµ РґРѕРєСѓРјРµРЅС‚С‹
+ * Предшествующие документы
  */
 public class CUPrecedingDocumentType extends PrecedingDocumentType
 {
@@ -16,7 +16,7 @@ public class CUPrecedingDocumentType extends PrecedingDocumentType
     private SupplementaryQuantityType supplementaryGoodsQuantity;
 
     /** 
-     * Get the 'NetWeightQuantity' element value. РњР°СЃСЃР° РЅРµС‚С‚Рѕ С‚РѕРІР°СЂР°, РІРѕС€РµРґС€РµРіРѕ РІ СЃРѕСЃС‚Р°РІ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°. РґР»СЏ Р Р‘/РњР°СЃСЃР° РЅРµС‚С‚Рѕ С‚РѕРІР°СЂР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРіРѕ РїСЂРё РёР·РіРѕС‚РѕРІР»РµРЅРёРё РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°
+     * Get the 'NetWeightQuantity' element value. Масса нетто товара, вошедшего в состав декларируемого товара. для РБ/Масса нетто товара, использованного при изготовлении декларируемого товара
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class CUPrecedingDocumentType extends PrecedingDocumentType
     }
 
     /** 
-     * Set the 'NetWeightQuantity' element value. РњР°СЃСЃР° РЅРµС‚С‚Рѕ С‚РѕРІР°СЂР°, РІРѕС€РµРґС€РµРіРѕ РІ СЃРѕСЃС‚Р°РІ РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°. РґР»СЏ Р Р‘/РњР°СЃСЃР° РЅРµС‚С‚Рѕ С‚РѕРІР°СЂР°, РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРіРѕ РїСЂРё РёР·РіРѕС‚РѕРІР»РµРЅРёРё РґРµРєР»Р°СЂРёСЂСѓРµРјРѕРіРѕ С‚РѕРІР°СЂР°
+     * Set the 'NetWeightQuantity' element value. Масса нетто товара, вошедшего в состав декларируемого товара. для РБ/Масса нетто товара, использованного при изготовлении декларируемого товара
      * 
      * @param netWeightQuantity
      */
@@ -34,7 +34,7 @@ public class CUPrecedingDocumentType extends PrecedingDocumentType
     }
 
     /** 
-     * Get the 'CustomsCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Get the 'CustomsCountryCode' element value. Код страны таможенного органа
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class CUPrecedingDocumentType extends PrecedingDocumentType
     }
 
     /** 
-     * Set the 'CustomsCountryCode' element value. РљРѕРґ СЃС‚СЂР°РЅС‹ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР°
+     * Set the 'CustomsCountryCode' element value. Код страны таможенного органа
      * 
      * @param customsCountryCode
      */
@@ -52,7 +52,7 @@ public class CUPrecedingDocumentType extends PrecedingDocumentType
     }
 
     /** 
-     * Get the 'AddNumberPart' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ - РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ СЃРѕСЃС‚Р°РІР»СЏСЋС‰Р°СЏ РЅРѕРјРµСЂР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё СѓРєР°Р·Р°РЅРёРё РЅРѕРјРµСЂР° РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рё С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё ("РћР‘") ). Р”Р»СЏ Р Р¤
+     * Get the 'AddNumberPart' element value. Предшествующий документ - дополнительная составляющая номера (заполняется при указании номера обязательства о подачи таможенной декларации ("ОБ") ). Для РФ
      * 
      * @return value
      */
@@ -61,7 +61,7 @@ public class CUPrecedingDocumentType extends PrecedingDocumentType
     }
 
     /** 
-     * Set the 'AddNumberPart' element value. РџСЂРµРґС€РµСЃС‚РІСѓСЋС‰РёР№ РґРѕРєСѓРјРµРЅС‚ - РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ СЃРѕСЃС‚Р°РІР»СЏСЋС‰Р°СЏ РЅРѕРјРµСЂР° (Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё СѓРєР°Р·Р°РЅРёРё РЅРѕРјРµСЂР° РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° Рѕ РїРѕРґР°С‡Рё С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё ("РћР‘") ). Р”Р»СЏ Р Р¤
+     * Set the 'AddNumberPart' element value. Предшествующий документ - дополнительная составляющая номера (заполняется при указании номера обязательства о подачи таможенной декларации ("ОБ") ). Для РФ
      * 
      * @param addNumberPart
      */
@@ -70,7 +70,7 @@ public class CUPrecedingDocumentType extends PrecedingDocumentType
     }
 
     /** 
-     * Get the 'CustomsCost' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°, СѓРєР°Р·Р°РЅРЅР°СЏ РІ РіСЂ 45 РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµР№ Р”Рў
+     * Get the 'CustomsCost' element value. Таможенная стоимость товара, указанная в гр 45 предшествующей ДТ
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class CUPrecedingDocumentType extends PrecedingDocumentType
     }
 
     /** 
-     * Set the 'CustomsCost' element value. РўР°РјРѕР¶РµРЅРЅР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ С‚РѕРІР°СЂР°, СѓРєР°Р·Р°РЅРЅР°СЏ РІ РіСЂ 45 РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµР№ Р”Рў
+     * Set the 'CustomsCost' element value. Таможенная стоимость товара, указанная в гр 45 предшествующей ДТ
      * 
      * @param customsCost
      */
@@ -88,7 +88,7 @@ public class CUPrecedingDocumentType extends PrecedingDocumentType
     }
 
     /** 
-     * Get the 'NetWeight' element value. РњР°СЃСЃР° РЅРµС‚С‚Рѕ С‚РѕРІР°СЂР°, СѓРєР°Р·Р°РЅРЅР°СЏ РІ РіСЂ 38 РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµР№ Р”Рў
+     * Get the 'NetWeight' element value. Масса нетто товара, указанная в гр 38 предшествующей ДТ
      * 
      * @return value
      */
@@ -97,7 +97,7 @@ public class CUPrecedingDocumentType extends PrecedingDocumentType
     }
 
     /** 
-     * Set the 'NetWeight' element value. РњР°СЃСЃР° РЅРµС‚С‚Рѕ С‚РѕРІР°СЂР°, СѓРєР°Р·Р°РЅРЅР°СЏ РІ РіСЂ 38 РїСЂРµРґС€РµСЃС‚РІСѓСЋС‰РµР№ Р”Рў
+     * Set the 'NetWeight' element value. Масса нетто товара, указанная в гр 38 предшествующей ДТ
      * 
      * @param netWeight
      */
@@ -106,7 +106,7 @@ public class CUPrecedingDocumentType extends PrecedingDocumentType
     }
 
     /** 
-     * Get the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Get the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения
      * 
      * @return value
      */
@@ -115,7 +115,7 @@ public class CUPrecedingDocumentType extends PrecedingDocumentType
     }
 
     /** 
-     * Set the 'SupplementaryGoodsQuantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РІ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РµРґРёРЅРёС†Рµ РёР·РјРµСЂРµРЅРёСЏ
+     * Set the 'SupplementaryGoodsQuantity' element value. Количество товара в дополнительной единице измерения
      * 
      * @param supplementaryGoodsQuantity
      */

@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕРј РЅР°РїСЂР°РІР»РµРЅРёРё РґРѕРєСѓРјРµРЅС‚РѕРІ, СѓРєР°Р·Р°РЅРЅС‹С… РІ Р·Р°СЏРІР»РµРЅРёРё
+ * Информация о дополнительном направлении документов, указанных в заявлении
  */
 public class AttachedDocumentsType extends DocumentBaseType
 {
@@ -14,7 +14,7 @@ public class AttachedDocumentsType extends DocumentBaseType
     private String sheetsNumber;
 
     /** 
-     * Get the 'DocForm' element value. РџСЂРёР·РЅР°Рє СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјС‹ РґРѕРєСѓРјРµРЅС‚Р°, РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ СЃ Р·Р°СЏРІР»РµРЅРёРµРј Рѕ РїСЂРёРЅСЏС‚РёРё РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ
+     * Get the 'DocForm' element value. Признак электронной формы документа, представляемого с заявлением о принятии предварительного решения
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class AttachedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'DocForm' element value. РџСЂРёР·РЅР°Рє СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ С„РѕСЂРјС‹ РґРѕРєСѓРјРµРЅС‚Р°, РїСЂРµРґСЃС‚Р°РІР»СЏРµРјРѕРіРѕ СЃ Р·Р°СЏРІР»РµРЅРёРµРј Рѕ РїСЂРёРЅСЏС‚РёРё РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ
+     * Set the 'DocForm' element value. Признак электронной формы документа, представляемого с заявлением о принятии предварительного решения
      * 
      * @param docForm
      */
@@ -32,7 +32,7 @@ public class AttachedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'PresentationDate' element value. РЎСЂРѕРє РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'PresentationDate' element value. Срок представления документа
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class AttachedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'PresentationDate' element value. РЎСЂРѕРє РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'PresentationDate' element value. Срок представления документа
      * 
      * @param presentationDate
      */
@@ -50,7 +50,7 @@ public class AttachedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Get the 'SheetsNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РїСЂРёР»РѕР¶РµРЅРёСЏ (РєСЂРѕРјРµ СЃР±СЂРѕС€СЋСЂРѕРІР°РЅРЅС‹С… РїСЂРёР»РѕР¶РµРЅРёР№)
+     * Get the 'SheetsNumber' element value. Количество листов приложения (кроме сброшюрованных приложений)
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class AttachedDocumentsType extends DocumentBaseType
     }
 
     /** 
-     * Set the 'SheetsNumber' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ Р»РёСЃС‚РѕРІ РїСЂРёР»РѕР¶РµРЅРёСЏ (РєСЂРѕРјРµ СЃР±СЂРѕС€СЋСЂРѕРІР°РЅРЅС‹С… РїСЂРёР»РѕР¶РµРЅРёР№)
+     * Set the 'SheetsNumber' element value. Количество листов приложения (кроме сброшюрованных приложений)
      * 
      * @param sheetsNumber
      */

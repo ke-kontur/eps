@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Р”Рў Рё РўР”. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ С‚РѕРІР°СЂСѓ
+ * ДТ и ТД. Внутренний формат. Служебные отметки по товару
  */
 public class ESADGoodsOfficialMarkType
 {
@@ -23,7 +23,7 @@ public class ESADGoodsOfficialMarkType
     private String deadlineMonth;
 
     /** 
-     * Get the 'StageMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё - 1 (РЅРѕРјРµСЂ СЌС‚Р°РїР°)
+     * Get the 'StageMarkIdentifier' element value. Идентификатор проставленной технологической отметки - 1 (номер этапа)
      * 
      * @return value
      */
@@ -32,7 +32,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'StageMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё - 1 (РЅРѕРјРµСЂ СЌС‚Р°РїР°)
+     * Set the 'StageMarkIdentifier' element value. Идентификатор проставленной технологической отметки - 1 (номер этапа)
      * 
      * @param stageMarkIdentifier
      */
@@ -41,7 +41,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'NoteMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё  -  2 (С‚РёРї РїСЂРёРјРµС‡Р°РЅРёСЏ)
+     * Get the 'NoteMarkIdentifier' element value. Идентификатор проставленной технологической отметки  -  2 (тип примечания)
      * 
      * @return value
      */
@@ -50,7 +50,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'NoteMarkIdentifier' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРѕР№ РѕС‚РјРµС‚РєРё  -  2 (С‚РёРї РїСЂРёРјРµС‡Р°РЅРёСЏ)
+     * Set the 'NoteMarkIdentifier' element value. Идентификатор проставленной технологической отметки  -  2 (тип примечания)
      * 
      * @param noteMarkIdentifier
      */
@@ -59,7 +59,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'InformationTypeCode' element value. РљРѕРґ С‚РёРїР° РёРЅС„РѕСЂРјР°С†РёРё  (SKRECC)
+     * Get the 'InformationTypeCode' element value. Код типа информации  (SKRECC)
      * 
      * @return value
      */
@@ -68,7 +68,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'InformationTypeCode' element value. РљРѕРґ С‚РёРїР° РёРЅС„РѕСЂРјР°С†РёРё  (SKRECC)
+     * Set the 'InformationTypeCode' element value. Код типа информации  (SKRECC)
      * 
      * @param informationTypeCode
      */
@@ -77,7 +77,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ / РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° 
+     * Get the 'MarkDescription' element value. Служебная запись / номер документа 
      * 
      * @return value
      */
@@ -86,7 +86,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'MarkDescription' element value. РЎР»СѓР¶РµР±РЅР°СЏ Р·Р°РїРёСЃСЊ / РЅРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р° 
+     * Set the 'MarkDescription' element value. Служебная запись / номер документа 
      * 
      * @param markDescription
      */
@@ -95,7 +95,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'DateInf' element value. Р”Р°С‚Р° / Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ РЅР°РїСЂР°РІР»РµРЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЏ / РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРё РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ 
+     * Get the 'DateInf' element value. Дата / Дата принятия решения о направлении требования / приостановлении выпуска товаров 
      * 
      * @return value
      */
@@ -104,7 +104,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'DateInf' element value. Р”Р°С‚Р° / Р”Р°С‚Р° РїСЂРёРЅСЏС‚РёСЏ СЂРµС€РµРЅРёСЏ Рѕ РЅР°РїСЂР°РІР»РµРЅРёРё С‚СЂРµР±РѕРІР°РЅРёСЏ / РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРё РІС‹РїСѓСЃРєР° С‚РѕРІР°СЂРѕРІ 
+     * Set the 'DateInf' element value. Дата / Дата принятия решения о направлении требования / приостановлении выпуска товаров 
      * 
      * @param dateInf
      */
@@ -113,7 +113,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'TimeInf' element value. Р’СЂРµРјСЏ
+     * Get the 'TimeInf' element value. Время
      * 
      * @return value
      */
@@ -122,7 +122,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'TimeInf' element value. Р’СЂРµРјСЏ
+     * Set the 'TimeInf' element value. Время
      * 
      * @param timeInf
      */
@@ -131,7 +131,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'PersonName' element value. Р¤РРћ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
+     * Get the 'PersonName' element value. ФИО инспектора, заверившего запись
      * 
      * @return value
      */
@@ -140,7 +140,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'PersonName' element value. Р¤РРћ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
+     * Set the 'PersonName' element value. ФИО инспектора, заверившего запись
      * 
      * @param personName
      */
@@ -149,7 +149,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'LNP' element value. РќРѕРјРµСЂ Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
+     * Get the 'LNP' element value. Номер ЛНП инспектора, заверившего запись
      * 
      * @return value
      */
@@ -158,7 +158,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'LNP' element value. РќРѕРјРµСЂ Р›РќРџ РёРЅСЃРїРµРєС‚РѕСЂР°, Р·Р°РІРµСЂРёРІС€РµРіРѕ Р·Р°РїРёСЃСЊ
+     * Set the 'LNP' element value. Номер ЛНП инспектора, заверившего запись
      * 
      * @param LNP
      */
@@ -167,7 +167,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'ReqCompletionDate' element value. Р”Р°С‚Р° РІС‹РїРѕР»РЅРµРЅРёСЏ С‚СЂРµР±РѕРІР°РЅРёР№ (РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ) Р”РµРєР»Р°СЂР°РЅС‚РѕРј / Р”Р°С‚Р°, РїРѕ РєРѕС‚РѕСЂРѕР№ РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅ РІС‹РїСѓСЃРє С‚РѕРІР°СЂРѕРІ
+     * Get the 'ReqCompletionDate' element value. Дата выполнения требований (предоставления документов) Декларантом / Дата, по которой приостановлен выпуск товаров
      * 
      * @return value
      */
@@ -176,7 +176,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'ReqCompletionDate' element value. Р”Р°С‚Р° РІС‹РїРѕР»РЅРµРЅРёСЏ С‚СЂРµР±РѕРІР°РЅРёР№ (РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёСЏ РґРѕРєСѓРјРµРЅС‚РѕРІ) Р”РµРєР»Р°СЂР°РЅС‚РѕРј / Р”Р°С‚Р°, РїРѕ РєРѕС‚РѕСЂРѕР№ РїСЂРёРѕСЃС‚Р°РЅРѕРІР»РµРЅ РІС‹РїСѓСЃРє С‚РѕРІР°СЂРѕРІ
+     * Set the 'ReqCompletionDate' element value. Дата выполнения требований (предоставления документов) Декларантом / Дата, по которой приостановлен выпуск товаров
      * 
      * @param reqCompletionDate
      */
@@ -185,7 +185,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'ReqCompletionTime' element value. Р’СЂРµРјСЏ
+     * Get the 'ReqCompletionTime' element value. Время
      * 
      * @return value
      */
@@ -194,7 +194,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'ReqCompletionTime' element value. Р’СЂРµРјСЏ
+     * Set the 'ReqCompletionTime' element value. Время
      * 
      * @param reqCompletionTime
      */
@@ -203,7 +203,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'DocumentIndicator' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р° / СЃР»СѓР¶РµР±РЅРѕР№ Р·Р°РїРёСЃРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РїСЂРѕСЃС‚Р°РІР»РµРЅРёРё РѕС‚РјРµС‚РєРё РІ РіСЂР°С„Рµ C РїРѕРґ РЅРѕРјРµСЂРѕРј 12 (C 2 12)   ("0"-СЃРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ СЃРѕРІРїР°РґР°СЋС‚; "1"-СЃРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ РЅРµ СЃРѕРІРїР°РґР°СЋС‚)
+     * Get the 'DocumentIndicator' element value. Признак документа / служебной записи. Заполняется при проставлении отметки в графе C под номером 12 (C 2 12)   ("0"-сведения о товаре совпадают; "1"-сведения о товаре не совпадают)
      * 
      * @return value
      */
@@ -212,7 +212,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'DocumentIndicator' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р° / СЃР»СѓР¶РµР±РЅРѕР№ Р·Р°РїРёСЃРё. Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїСЂРё РїСЂРѕСЃС‚Р°РІР»РµРЅРёРё РѕС‚РјРµС‚РєРё РІ РіСЂР°С„Рµ C РїРѕРґ РЅРѕРјРµСЂРѕРј 12 (C 2 12)   ("0"-СЃРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ СЃРѕРІРїР°РґР°СЋС‚; "1"-СЃРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРµ РЅРµ СЃРѕРІРїР°РґР°СЋС‚)
+     * Set the 'DocumentIndicator' element value. Признак документа / служебной записи. Заполняется при проставлении отметки в графе C под номером 12 (C 2 12)   ("0"-сведения о товаре совпадают; "1"-сведения о товаре не совпадают)
      * 
      * @param documentIndicator
      */
@@ -221,7 +221,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'Deadline' element value. РЎСЂРѕРє
+     * Get the 'Deadline' element value. Срок
      * 
      * @return value
      */
@@ -230,7 +230,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'Deadline' element value. РЎСЂРѕРє
+     * Set the 'Deadline' element value. Срок
      * 
      * @param deadline
      */
@@ -239,7 +239,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Get the 'DeadlineMonth' element value. РЎСЂРѕРє РїСЂРѕРґР»РµРЅРёСЏ / РѕР±С‰РёР№ РІ РјРµСЃСЏС†Р°С…
+     * Get the 'DeadlineMonth' element value. Срок продления / общий в месяцах
      * 
      * @return value
      */
@@ -248,7 +248,7 @@ public class ESADGoodsOfficialMarkType
     }
 
     /** 
-     * Set the 'DeadlineMonth' element value. РЎСЂРѕРє РїСЂРѕРґР»РµРЅРёСЏ / РѕР±С‰РёР№ РІ РјРµСЃСЏС†Р°С…
+     * Set the 'DeadlineMonth' element value. Срок продления / общий в месяцах
      * 
      * @param deadlineMonth
      */

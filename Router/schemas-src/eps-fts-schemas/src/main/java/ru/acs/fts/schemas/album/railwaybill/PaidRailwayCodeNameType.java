@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.railwaybill;
 
 /** 
- * РќР°РёРјРµРЅРѕРІР°РЅРёСЏ Рё РєРѕРґС‹ С‚СЂР°РЅР·РёС‚РЅС‹С… Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹С… РґРѕСЂРѕРі, Р·Р° РїРµСЂРµРІРѕР·РєСѓ РїРѕ РєРѕС‚РѕСЂС‹Рј РѕС‚РїСЂР°РІРёС‚РµР»СЊ РїСЂРёРЅРёРјР°РµС‚ РЅР° СЃРµР±СЏ РїР»Р°С‚РµР¶Рё 
+ * Наименования и коды транзитных железнодорожных дорог, за перевозку по которым отправитель принимает на себя платежи 
  */
 public class PaidRailwayCodeNameType
 {
@@ -12,7 +12,7 @@ public class PaidRailwayCodeNameType
     private InfoPayerType infoPayer;
 
     /** 
-     * Get the 'PaidRailwayCode' element value. РљРѕРґС‹ С‚СЂР°РЅР·РёС‚РЅС‹С… Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹С… РґРѕСЂРѕРі
+     * Get the 'PaidRailwayCode' element value. Коды транзитных железнодорожных дорог
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class PaidRailwayCodeNameType
     }
 
     /** 
-     * Set the 'PaidRailwayCode' element value. РљРѕРґС‹ С‚СЂР°РЅР·РёС‚РЅС‹С… Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹С… РґРѕСЂРѕРі
+     * Set the 'PaidRailwayCode' element value. Коды транзитных железнодорожных дорог
      * 
      * @param paidRailwayCode
      */
@@ -30,7 +30,7 @@ public class PaidRailwayCodeNameType
     }
 
     /** 
-     * Get the 'PaidRailwayName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёСЏ С‚СЂР°РЅР·РёС‚РЅС‹С… Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹С… РґРѕСЂРѕРі
+     * Get the 'PaidRailwayName' element value. Наименования транзитных железнодорожных дорог
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class PaidRailwayCodeNameType
     }
 
     /** 
-     * Set the 'PaidRailwayName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёСЏ С‚СЂР°РЅР·РёС‚РЅС‹С… Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹С… РґРѕСЂРѕРі
+     * Set the 'PaidRailwayName' element value. Наименования транзитных железнодорожных дорог
      * 
      * @param paidRailwayName
      */
@@ -48,7 +48,7 @@ public class PaidRailwayCodeNameType
     }
 
     /** 
-     * Get the 'PaidRailwayShortName' element value. РЎРѕРєСЂР°С‰РµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚СЂР°РЅР·РёС‚РЅС‹С… Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹С… РґРѕСЂРѕРі
+     * Get the 'PaidRailwayShortName' element value. Сокращенное наименование транзитных железнодорожных дорог
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class PaidRailwayCodeNameType
     }
 
     /** 
-     * Set the 'PaidRailwayShortName' element value. РЎРѕРєСЂР°С‰РµРЅРЅРѕРµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ С‚СЂР°РЅР·РёС‚РЅС‹С… Р¶РµР»РµР·РЅРѕРґРѕСЂРѕР¶РЅС‹С… РґРѕСЂРѕРі
+     * Set the 'PaidRailwayShortName' element value. Сокращенное наименование транзитных железнодорожных дорог
      * 
      * @param paidRailwayShortName
      */
@@ -66,7 +66,7 @@ public class PaidRailwayCodeNameType
     }
 
     /** 
-     * Get the 'InfoPayer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
+     * Get the 'InfoPayer' element value. Сведения о плательщике
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class PaidRailwayCodeNameType
     }
 
     /** 
-     * Set the 'InfoPayer' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РїР»Р°С‚РµР»СЊС‰РёРєРµ
+     * Set the 'InfoPayer' element value. Сведения о плательщике
      * 
      * @param infoPayer
      */

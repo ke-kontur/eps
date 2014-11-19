@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.commercialact;
 
 /** 
- * РћРїРёСЃР°РЅРёРµ РЅРµСЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РєРѕР»РёС‡РµСЃС‚РІР° РјРµСЃС‚ С‚РѕРІР°СЂР° СЃРІРµРґРµРЅРёСЏРј, Р·Р°СЏРІР»РµРЅРЅС‹Рј РІ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Описание несоответствия количества мест товара сведениям, заявленным в товаросопроводительных документах
  */
 public class PlaceNumberType
 {
@@ -10,7 +10,7 @@ public class PlaceNumberType
     private String placeNumberByFact;
 
     /** 
-     * Get the 'PlaceNumberByDocs' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ СЃРѕРіР»Р°СЃРЅРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
+     * Get the 'PlaceNumberByDocs' element value. Количество грузовых мест согласно товаросопроводительным документам
      * 
      * @return value
      */
@@ -19,7 +19,7 @@ public class PlaceNumberType
     }
 
     /** 
-     * Set the 'PlaceNumberByDocs' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ СЃРѕРіР»Р°СЃРЅРѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹Рј РґРѕРєСѓРјРµРЅС‚Р°Рј
+     * Set the 'PlaceNumberByDocs' element value. Количество грузовых мест согласно товаросопроводительным документам
      * 
      * @param placeNumberByDocs
      */
@@ -28,7 +28,7 @@ public class PlaceNumberType
     }
 
     /** 
-     * Get the 'PlaceNumberByFact' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С„Р°РєС‚РёС‡РµСЃРєРѕРµ
+     * Get the 'PlaceNumberByFact' element value. Количество грузовых мест фактическое
      * 
      * @return value
      */
@@ -37,7 +37,7 @@ public class PlaceNumberType
     }
 
     /** 
-     * Set the 'PlaceNumberByFact' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ РіСЂСѓР·РѕРІС‹С… РјРµСЃС‚ С„Р°РєС‚РёС‡РµСЃРєРѕРµ
+     * Set the 'PlaceNumberByFact' element value. Количество грузовых мест фактическое
      * 
      * @param placeNumberByFact
      */

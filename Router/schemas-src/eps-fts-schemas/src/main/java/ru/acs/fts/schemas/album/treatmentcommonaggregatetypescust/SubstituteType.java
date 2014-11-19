@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РРЅС„РѕСЂРјР°С†РёСЏ Рѕ Р·Р°РјРµРЅРµ С‚РѕРІР°СЂРѕРІ РґР»СЏ РїРµСЂРµСЂР°Р±РѕС‚РєРё СЌРєРІРёРІР°Р»РµРЅС‚РЅС‹РјРё С‚РѕРІР°СЂР°РјРё
+ * Информация о замене товаров для переработки эквивалентными товарами
  */
 public class SubstituteType
 {
@@ -13,7 +13,7 @@ public class SubstituteType
     private List<TreatProductsType> substituteItemList = new ArrayList<TreatProductsType>();
 
     /** 
-     * Get the list of 'Substitute' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Get the list of 'Substitute' element items. Дополнительная информация
      * 
      * @return list
      */
@@ -22,7 +22,7 @@ public class SubstituteType
     }
 
     /** 
-     * Set the list of 'Substitute' element items. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ
+     * Set the list of 'Substitute' element items. Дополнительная информация
      * 
      * @param list
      */
@@ -31,7 +31,7 @@ public class SubstituteType
     }
 
     /** 
-     * Get the list of 'SubstituteItem' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Get the list of 'SubstituteItem' element items. Описание товара
      * 
      * @return list
      */
@@ -40,7 +40,7 @@ public class SubstituteType
     }
 
     /** 
-     * Set the list of 'SubstituteItem' element items. РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР°
+     * Set the list of 'SubstituteItem' element items. Описание товара
      * 
      * @param list
      */

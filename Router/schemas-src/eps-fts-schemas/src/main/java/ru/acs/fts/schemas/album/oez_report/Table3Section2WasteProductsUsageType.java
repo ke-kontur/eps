@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * РўР°Р±Р»РёС†Р° 3. Р Р°Р·РґРµР» 2. Р Р°СЃРїРѕСЂСЏР¶РµРЅРёРµ РїСЂРѕРґСѓРєС‚Р°РјРё РїРµСЂРµСЂР°Р±РѕС‚РєРё Рё РѕС‚С…РѕРґР°РјРё 
+ * Таблица 3. Раздел 2. Распоряжение продуктами переработки и отходами 
  */
 public class Table3Section2WasteProductsUsageType
 {
@@ -14,7 +14,7 @@ public class Table3Section2WasteProductsUsageType
     private List<GoodsUsageType> otherGoodsUsingList = new ArrayList<GoodsUsageType>();
 
     /** 
-     * Get the 'QuantityTotal' element value. РџРѕР»СЊР·РѕРІР°РЅРёРµ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р— (РєРѕР»РёС‡РµСЃС‚РІРѕ). Р’СЃРµРіРѕ 
+     * Get the 'QuantityTotal' element value. Пользование на территории ОЭЗ (количество). Всего 
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class Table3Section2WasteProductsUsageType
     }
 
     /** 
-     * Set the 'QuantityTotal' element value. РџРѕР»СЊР·РѕРІР°РЅРёРµ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р— (РєРѕР»РёС‡РµСЃС‚РІРѕ). Р’СЃРµРіРѕ 
+     * Set the 'QuantityTotal' element value. Пользование на территории ОЭЗ (количество). Всего 
      * 
      * @param quantityTotal
      */
@@ -32,7 +32,7 @@ public class Table3Section2WasteProductsUsageType
     }
 
     /** 
-     * Get the list of 'CustomsProcedurePlaced' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ
+     * Get the list of 'CustomsProcedurePlaced' element items. Сведения о товарах помещенных под таможенную процедуру
      * 
      * @return list
      */
@@ -41,7 +41,7 @@ public class Table3Section2WasteProductsUsageType
     }
 
     /** 
-     * Set the list of 'CustomsProcedurePlaced' element items. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂР°С… РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ
+     * Set the list of 'CustomsProcedurePlaced' element items. Сведения о товарах помещенных под таможенную процедуру
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class Table3Section2WasteProductsUsageType
     }
 
     /** 
-     * Get the list of 'OtherGoodsUsing' element items. РЎРІРµРґРµРЅРёРµ Рѕ С‚РѕРІР°СЂР°С…, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РІ РёРЅС‹С… С†РµР»СЏС…
+     * Get the list of 'OtherGoodsUsing' element items. Сведение о товарах, используемых в иных целях
      * 
      * @return list
      */
@@ -60,7 +60,7 @@ public class Table3Section2WasteProductsUsageType
     }
 
     /** 
-     * Set the list of 'OtherGoodsUsing' element items. РЎРІРµРґРµРЅРёРµ Рѕ С‚РѕРІР°СЂР°С…, РёСЃРїРѕР»СЊР·СѓРµРјС‹С… РІ РёРЅС‹С… С†РµР»СЏС…
+     * Set the list of 'OtherGoodsUsing' element items. Сведение о товарах, используемых в иных целях
      * 
      * @param list
      */

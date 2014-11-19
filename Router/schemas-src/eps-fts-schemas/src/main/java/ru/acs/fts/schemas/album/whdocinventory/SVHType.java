@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 import ru.acs.fts.schemas.album.warehousecommonleaftypescust.WareHouseCertificateKind;
 
 /** 
- * РЎР’РҐ
+ * СВХ
  */
 public class SVHType
 {
@@ -15,7 +15,7 @@ public class SVHType
     private String DO1PresentDocumentTime;
 
     /** 
-     * Get the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeCode' element value. Тип документа.
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class SVHType
     }
 
     /** 
-     * Set the 'DocumentModeCode' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeCode' element value. Тип документа.
      * 
      * @param documentModeCode
      */
@@ -33,7 +33,7 @@ public class SVHType
     }
 
     /** 
-     * Get the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentNumber' element value. Номер документа
      * 
      * @return value
      */
@@ -42,7 +42,7 @@ public class SVHType
     }
 
     /** 
-     * Set the 'DocumentNumber' element value. РќРѕРјРµСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentNumber' element value. Номер документа
      * 
      * @param documentNumber
      */
@@ -51,7 +51,7 @@ public class SVHType
     }
 
     /** 
-     * Get the 'DO1PresentDocumentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ Р”Рћ1
+     * Get the 'DO1PresentDocumentDate' element value. Дата представления ДО1
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class SVHType
     }
 
     /** 
-     * Set the 'DO1PresentDocumentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ Р”Рћ1
+     * Set the 'DO1PresentDocumentDate' element value. Дата представления ДО1
      * 
      * @param DO1PresentDocumentDate
      */
@@ -69,7 +69,7 @@ public class SVHType
     }
 
     /** 
-     * Get the 'DO1PresentDocumentTime' element value. Р’СЂРµРјСЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ Р”Рћ1
+     * Get the 'DO1PresentDocumentTime' element value. Время представления ДО1
      * 
      * @return value
      */
@@ -78,7 +78,7 @@ public class SVHType
     }
 
     /** 
-     * Set the 'DO1PresentDocumentTime' element value. Р’СЂРµРјСЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ Р”Рћ1
+     * Set the 'DO1PresentDocumentTime' element value. Время представления ДО1
      * 
      * @param DO1PresentDocumentTime
      */

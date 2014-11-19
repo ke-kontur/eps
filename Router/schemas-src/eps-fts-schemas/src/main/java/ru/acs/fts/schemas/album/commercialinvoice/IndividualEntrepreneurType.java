@@ -8,7 +8,7 @@ public class IndividualEntrepreneurType extends PersonSignatureType
     private String OGRNID;
 
     /** 
-     * Get the 'OGRNID' element value. РћСЃРЅРѕРІРЅРѕР№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ (РћР“Р Рќ) С‡Р°СЃС‚РЅРѕРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ РёР»Рё РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Get the 'OGRNID' element value. Основной государственный регистрационный  номер (ОГРН) частного предпринимателя или организации
      * 
      * @return value
      */
@@ -17,7 +17,7 @@ public class IndividualEntrepreneurType extends PersonSignatureType
     }
 
     /** 
-     * Set the 'OGRNID' element value. РћСЃРЅРѕРІРЅРѕР№ РіРѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ СЂРµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№  РЅРѕРјРµСЂ (РћР“Р Рќ) С‡Р°СЃС‚РЅРѕРіРѕ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЏ РёР»Рё РѕСЂРіР°РЅРёР·Р°С†РёРё
+     * Set the 'OGRNID' element value. Основной государственный регистрационный  номер (ОГРН) частного предпринимателя или организации
      * 
      * @param OGRNID
      */

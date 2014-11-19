@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.legalentityinfo;
 import org.joda.time.LocalDate;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ РґРёСЃРєРІР°Р»РёС„РёРєР°С†РёРё
+ * Сведения о дисквалификации
  */
 public class DisqualificationType
 {
@@ -14,7 +14,7 @@ public class DisqualificationType
     private RecordDataType recordData;
 
     /** 
-     * Get the 'DisqualifTerm' element value. РЎСЂРѕРє РґРёСЃРєРІР°Р»РёС„РёРєР°С†РёРё (РІ РјРµСЃСЏС†Р°С…)
+     * Get the 'DisqualifTerm' element value. Срок дисквалификации (в месяцах)
      * 
      * @return value
      */
@@ -23,7 +23,7 @@ public class DisqualificationType
     }
 
     /** 
-     * Set the 'DisqualifTerm' element value. РЎСЂРѕРє РґРёСЃРєРІР°Р»РёС„РёРєР°С†РёРё (РІ РјРµСЃСЏС†Р°С…)
+     * Set the 'DisqualifTerm' element value. Срок дисквалификации (в месяцах)
      * 
      * @param disqualifTerm
      */
@@ -32,7 +32,7 @@ public class DisqualificationType
     }
 
     /** 
-     * Get the 'DisqualifStartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРёСЃРєРІР°Р»РёС„РёРєР°С†РёРё
+     * Get the 'DisqualifStartDate' element value. Дата начала дисквалификации
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DisqualificationType
     }
 
     /** 
-     * Set the 'DisqualifStartDate' element value. Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РґРёСЃРєРІР°Р»РёС„РёРєР°С†РёРё
+     * Set the 'DisqualifStartDate' element value. Дата начала дисквалификации
      * 
      * @param disqualifStartDate
      */
@@ -50,7 +50,7 @@ public class DisqualificationType
     }
 
     /** 
-     * Get the 'DisqualifEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРёСЃРєРІР°Р»РёС„РёРєР°С†РёРё
+     * Get the 'DisqualifEndDate' element value. Дата окончания дисквалификации
      * 
      * @return value
      */
@@ -59,7 +59,7 @@ public class DisqualificationType
     }
 
     /** 
-     * Set the 'DisqualifEndDate' element value. Р”Р°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РґРёСЃРєРІР°Р»РёС„РёРєР°С†РёРё
+     * Set the 'DisqualifEndDate' element value. Дата окончания дисквалификации
      * 
      * @param disqualifEndDate
      */
@@ -68,7 +68,7 @@ public class DisqualificationType
     }
 
     /** 
-     * Get the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Get the 'RecordData' element value. Сведения о записи
      * 
      * @return value
      */
@@ -77,7 +77,7 @@ public class DisqualificationType
     }
 
     /** 
-     * Set the 'RecordData' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРёСЃРё
+     * Set the 'RecordData' element value. Сведения о записи
      * 
      * @param recordData
      */

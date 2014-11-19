@@ -4,14 +4,14 @@ package ru.acs.fts.schemas.album.inventory;
 import org.joda.time.LocalDate;
 
 /** 
- * Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+ * Дата представления товарной партии
  */
 public class GoodsPresentDateType
 {
     private LocalDate presentDate;
 
     /** 
-     * Get the 'PresentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ С‚РѕРІР°СЂР°/С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the 'PresentDate' element value. Дата представления товара/товарной партии
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class GoodsPresentDateType
     }
 
     /** 
-     * Set the 'PresentDate' element value. Р”Р°С‚Р° РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ С‚РѕРІР°СЂР°/С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the 'PresentDate' element value. Дата представления товара/товарной партии
      * 
      * @param presentDate
      */

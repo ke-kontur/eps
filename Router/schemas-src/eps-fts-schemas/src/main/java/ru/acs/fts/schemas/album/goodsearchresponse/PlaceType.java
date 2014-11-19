@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.goodsearchresponse;
 
 /** 
- * РњРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ/РѕС‚РїСЂР°РІР»РµРЅРёСЏ
+ * Место назначения/отправления
  */
 public class PlaceType
 {
@@ -11,7 +11,7 @@ public class PlaceType
     private String railwayCode;
 
     /** 
-     * Get the 'StationCode' element value. РљРѕРґ СЃС‚Р°РЅС†РёРё
+     * Get the 'StationCode' element value. Код станции
      * 
      * @return value
      */
@@ -20,7 +20,7 @@ public class PlaceType
     }
 
     /** 
-     * Set the 'StationCode' element value. РљРѕРґ СЃС‚Р°РЅС†РёРё
+     * Set the 'StationCode' element value. Код станции
      * 
      * @param stationCode
      */
@@ -29,7 +29,7 @@ public class PlaceType
     }
 
     /** 
-     * Get the 'StationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°РЅС†РёРё
+     * Get the 'StationName' element value. Наименование станции
      * 
      * @return value
      */
@@ -38,7 +38,7 @@ public class PlaceType
     }
 
     /** 
-     * Set the 'StationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЃС‚Р°РЅС†РёРё
+     * Set the 'StationName' element value. Наименование станции
      * 
      * @param stationName
      */
@@ -47,7 +47,7 @@ public class PlaceType
     }
 
     /** 
-     * Get the 'RailwayCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРё
+     * Get the 'RailwayCode' element value. Код железной дороги
      * 
      * @return value
      */
@@ -56,7 +56,7 @@ public class PlaceType
     }
 
     /** 
-     * Set the 'RailwayCode' element value. РљРѕРґ Р¶РµР»РµР·РЅРѕР№ РґРѕСЂРѕРіРё
+     * Set the 'RailwayCode' element value. Код железной дороги
      * 
      * @param railwayCode
      */

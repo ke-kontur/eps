@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.sq_docresponse;
 
 /** 
- * Р—Р°РїСЂРѕС€РµРЅРЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+ * Запрошенный документ
  */
 public class DocResponseType
 {
@@ -12,7 +12,7 @@ public class DocResponseType
     private DocResponseBodyType docResponseBody;
 
     /** 
-     * Get the 'NameAuthority' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¤РћРР’
+     * Get the 'NameAuthority' element value. Наименование ФОИВ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DocResponseType
     }
 
     /** 
-     * Set the 'NameAuthority' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ Р¤РћРР’
+     * Set the 'NameAuthority' element value. Наименование ФОИВ
      * 
      * @param nameAuthority
      */
@@ -30,7 +30,7 @@ public class DocResponseType
     }
 
     /** 
-     * Get the 'SearchResult' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ Р·Р°РїСЂР°С€РёРІР°РµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј РїРѕРёСЃРєР°
+     * Get the 'SearchResult' element value. Признак наличия запрашиваемого документа по результатам поиска
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DocResponseType
     }
 
     /** 
-     * Set the 'SearchResult' element value. РџСЂРёР·РЅР°Рє РЅР°Р»РёС‡РёСЏ Р·Р°РїСЂР°С€РёРІР°РµРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° РїРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°Рј РїРѕРёСЃРєР°
+     * Set the 'SearchResult' element value. Признак наличия запрашиваемого документа по результатам поиска
      * 
      * @param searchResult
      */
@@ -48,7 +48,7 @@ public class DocResponseType
     }
 
     /** 
-     * Get the 'ResultDescription' element value. РћРїРёСЃР°РЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РїРѕРёСЃРєР°
+     * Get the 'ResultDescription' element value. Описание результата поиска
      * 
      * @return value
      */
@@ -57,7 +57,7 @@ public class DocResponseType
     }
 
     /** 
-     * Set the 'ResultDescription' element value. РћРїРёСЃР°РЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РїРѕРёСЃРєР°
+     * Set the 'ResultDescription' element value. Описание результата поиска
      * 
      * @param resultDescription
      */
@@ -66,7 +66,7 @@ public class DocResponseType
     }
 
     /** 
-     * Get the 'DocResponseBody' element value. РўРµР»Рѕ Р·Р°РїСЂРѕС€РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocResponseBody' element value. Тело запрошенного документа
      * 
      * @return value
      */
@@ -75,7 +75,7 @@ public class DocResponseType
     }
 
     /** 
-     * Set the 'DocResponseBody' element value. РўРµР»Рѕ Р·Р°РїСЂРѕС€РµРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocResponseBody' element value. Тело запрошенного документа
      * 
      * @param docResponseBody
      */

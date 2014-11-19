@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.CUOrganizationType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * Р—Р°РїСЂРѕСЃ/РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+ * Запрос/Информация о документе обеспечения
  */
 public class GuaranteeDocReqResType extends BaseDocType
 {
@@ -19,7 +19,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentDateTime' element value. Дата и время формирования электронного документа
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentDateTime' element value. Р”Р°С‚Р° Рё РІСЂРµРјСЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentDateTime' element value. Дата и время формирования электронного документа
      * 
      * @param documentDateTime
      */
@@ -37,7 +37,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - Р—Р°РїСЂРѕСЃ РёРЅС„РѕСЂРјР°С†РёРё Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ; 1 - РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Get the 'DocumentSign' element value. Признак документа: 0 - Запрос информации о документе обеспечения; 1 - Информация о документе обеспечения
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentSign' element value. РџСЂРёР·РЅР°Рє РґРѕРєСѓРјРµРЅС‚Р°: 0 - Р—Р°РїСЂРѕСЃ РёРЅС„РѕСЂРјР°С†РёРё Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ; 1 - РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Set the 'DocumentSign' element value. Признак документа: 0 - Запрос информации о документе обеспечения; 1 - Информация о документе обеспечения
      * 
      * @param documentSign
      */
@@ -55,7 +55,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Get the 'DocumentInfo' element value. Информация о документе обеспечения
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentInfo' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ РѕР±РµСЃРїРµС‡РµРЅРёСЏ
+     * Set the 'DocumentInfo' element value. Информация о документе обеспечения
      * 
      * @param documentInfo
      */
@@ -73,7 +73,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Get the 'GuaranteeUseDocument' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, РІ РєРѕС‚РѕСЂРѕРј РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РѕР±РµСЃРїРµС‡РµРЅРёРµ
+     * Get the 'GuaranteeUseDocument' element value. Информация о документе, в котором используется обеспечение
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Set the 'GuaranteeUseDocument' element value. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РґРѕРєСѓРјРµРЅС‚Рµ, РІ РєРѕС‚РѕСЂРѕРј РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РѕР±РµСЃРїРµС‡РµРЅРёРµ
+     * Set the 'GuaranteeUseDocument' element value. Информация о документе, в котором используется обеспечение
      * 
      * @param guaranteeUseDocument
      */
@@ -91,7 +91,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Get the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
+     * Get the 'Declarant' element value. Сведения о декларанте
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Set the 'Declarant' element value. РЎРІРµРґРµРЅРёСЏ Рѕ РґРµРєР»Р°СЂР°РЅС‚Рµ
+     * Set the 'Declarant' element value. Сведения о декларанте
      * 
      * @param declarant
      */
@@ -109,7 +109,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsRepresentative' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»Рµ
+     * Get the 'CustomsRepresentative' element value. Сведения о таможенном представителе
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsRepresentative' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚Р°РјРѕР¶РµРЅРЅРѕРј РїСЂРµРґСЃС‚Р°РІРёС‚РµР»Рµ
+     * Set the 'CustomsRepresentative' element value. Сведения о таможенном представителе
      * 
      * @param customsRepresentative
      */
@@ -128,7 +128,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -137,7 +137,7 @@ public class GuaranteeDocReqResType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

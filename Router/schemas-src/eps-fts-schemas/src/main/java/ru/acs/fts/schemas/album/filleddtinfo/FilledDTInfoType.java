@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * OС‚РІРµС‚ РЅР° СѓРІРµРґРѕРјР»РµРЅРёРµ Рѕ РґСѓР±Р»РёСЂРѕРІР°РЅРёРё Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РЅР° РїРѕРґР°С‡Сѓ Р”Рў
+ * Oтвет на уведомление о дублировании ДТ/Обязательства на подачу ДТ
  */
 public class FilledDTInfoType extends BaseDocType
 {
@@ -16,7 +16,7 @@ public class FilledDTInfoType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DeclarationID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РЅР° РїРѕРґР°С‡Сѓ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕР№(РѕРјСѓ) РЅР°Р№РґРµРЅРѕ СЃРѕРІРїР°РґРµРЅРёРµ.
+     * Get the 'DeclarationID' element value. Уникальный идентификатор ДТ/Обязательства на подачу ДТ, по которой(ому) найдено совпадение.
      * 
      * @return value
      */
@@ -25,7 +25,7 @@ public class FilledDTInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationID' element value. РЈРЅРёРєР°Р»СЊРЅС‹Р№ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р”Рў/РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РЅР° РїРѕРґР°С‡Сѓ Р”Рў, РїРѕ РєРѕС‚РѕСЂРѕР№(РѕРјСѓ) РЅР°Р№РґРµРЅРѕ СЃРѕРІРїР°РґРµРЅРёРµ.
+     * Set the 'DeclarationID' element value. Уникальный идентификатор ДТ/Обязательства на подачу ДТ, по которой(ому) найдено совпадение.
      * 
      * @param declarationID
      */
@@ -34,7 +34,7 @@ public class FilledDTInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'SignDouble' element value. РџСЂРёР·РЅР°Рє РґСѓР±Р»РёСЂРѕРІР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'SignDouble' element value. Признак дублирования документа
      * 
      * @return value
      */
@@ -43,7 +43,7 @@ public class FilledDTInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'SignDouble' element value. РџСЂРёР·РЅР°Рє РґСѓР±Р»РёСЂРѕРІР°РЅРёСЏ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'SignDouble' element value. Признак дублирования документа
      * 
      * @param signDouble
      */
@@ -52,7 +52,7 @@ public class FilledDTInfoType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Get the list of 'Comments' element items. Комментарии
      * 
      * @return list
      */
@@ -61,7 +61,7 @@ public class FilledDTInfoType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Comments' element items. РљРѕРјРјРµРЅС‚Р°СЂРёРё
+     * Set the list of 'Comments' element items. Комментарии
      * 
      * @param list
      */
@@ -70,7 +70,7 @@ public class FilledDTInfoType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -79,7 +79,7 @@ public class FilledDTInfoType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

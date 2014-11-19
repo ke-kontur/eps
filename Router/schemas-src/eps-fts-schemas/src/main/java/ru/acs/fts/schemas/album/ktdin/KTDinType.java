@@ -11,7 +11,7 @@ import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.CUESADCustomsRepr
 import ru.acs.fts.schemas.album.cuesadcommonaggregatetypescust.ESADFilledPersonType;
 
 /** 
- * РљРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹.Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚
+ * Корректировка декларации на товары.Внутренний формат
  */
 public class KTDinType extends BaseDocType
 {
@@ -36,7 +36,7 @@ public class KTDinType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'DeclarationKind' element value. Р’РёРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё РїРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РґРµРєР»Р°СЂР°С†РёР№.
+     * Get the 'DeclarationKind' element value. Вид таможенной декларации по Классификатору видов таможенных деклараций.
      * 
      * @return value
      */
@@ -45,7 +45,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'DeclarationKind' element value. Р’РёРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РґРµРєР»Р°СЂР°С†РёРё РїРѕ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂСѓ РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РґРµРєР»Р°СЂР°С†РёР№.
+     * Set the 'DeclarationKind' element value. Вид таможенной декларации по Классификатору видов таможенных деклараций.
      * 
      * @param declarationKind
      */
@@ -54,7 +54,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'COMPLECTBL' element value. Р РµР·РµСЂРІ. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РґР»СЏ Р”Рў РєРѕРјРїР»РµРєС‚РѕРІ Р±Р»Р°РЅРєРѕРІ. 1 -РљР”Рў1, 2 - РљР”Рў2
+     * Get the 'COMPLECTBL' element value. Резерв. Признак использования для ДТ комплектов бланков. 1 -КДТ1, 2 - КДТ2
      * 
      * @return value
      */
@@ -63,7 +63,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'COMPLECTBL' element value. Р РµР·РµСЂРІ. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РґР»СЏ Р”Рў РєРѕРјРїР»РµРєС‚РѕРІ Р±Р»Р°РЅРєРѕРІ. 1 -РљР”Рў1, 2 - РљР”Рў2
+     * Set the 'COMPLECTBL' element value. Резерв. Признак использования для ДТ комплектов бланков. 1 -КДТ1, 2 - КДТ2
      * 
      * @param COMPLECTBL
      */
@@ -72,7 +72,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'G0131' element value. Р РµР·РµСЂРІ. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РїСЂРёР·РЅР°Рє.
+     * Get the 'G0131' element value. Резерв. Дополнительный признак.
      * 
      * @return value
      */
@@ -81,7 +81,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'G0131' element value. Р РµР·РµСЂРІ. Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РїСЂРёР·РЅР°Рє.
+     * Set the 'G0131' element value. Резерв. Дополнительный признак.
      * 
      * @param g0131
      */
@@ -90,7 +90,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'KTDNumber' element value. РќРѕРјРµСЂ РљР”Рў РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Get the 'KTDNumber' element value. Номер КДТ по порядку
      * 
      * @return value
      */
@@ -99,7 +99,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'KTDNumber' element value. РќРѕРјРµСЂ РљР”Рў РїРѕ РїРѕСЂСЏРґРєСѓ
+     * Set the 'KTDNumber' element value. Номер КДТ по порядку
      * 
      * @param KTDNumber
      */
@@ -108,7 +108,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРѕС†РµРґСѓСЂ.  РіСЂ. 1. РІС‚РѕСЂРѕР№ РїРѕРґСЂР°Р·РґРµР» Р”Рў. РџРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ РїРµСЂРІРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»Р° РіСЂ. 37./ "00" - РґР»СЏ РїСЂРёРїР°СЃРѕРІ
+     * Get the 'CustomsModeCode' element value. Код таможенной процедуры в соответствии с Классификатором видов таможенных процедур.  гр. 1. второй подраздел ДТ. Первый элемент первого подраздела гр. 37./ "00" - для припасов
      * 
      * @return value
      */
@@ -117,7 +117,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsModeCode' element value. РљРѕРґ С‚Р°РјРѕР¶РµРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РљР»Р°СЃСЃРёС„РёРєР°С‚РѕСЂРѕРј РІРёРґРѕРІ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїСЂРѕС†РµРґСѓСЂ.  РіСЂ. 1. РІС‚РѕСЂРѕР№ РїРѕРґСЂР°Р·РґРµР» Р”Рў. РџРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ РїРµСЂРІРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»Р° РіСЂ. 37./ "00" - РґР»СЏ РїСЂРёРїР°СЃРѕРІ
+     * Set the 'CustomsModeCode' element value. Код таможенной процедуры в соответствии с Классификатором видов таможенных процедур.  гр. 1. второй подраздел ДТ. Первый элемент первого подраздела гр. 37./ "00" - для припасов
      * 
      * @param customsModeCode
      */
@@ -126,7 +126,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'ElectronicDocumentSign' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РљР”Рў РІ С„РѕСЂРјРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° "Р­Р”". 
+     * Get the 'ElectronicDocumentSign' element value. Признак использования КДТ в форме электронного документа "ЭД". 
      * 
      * @return value
      */
@@ -135,7 +135,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'ElectronicDocumentSign' element value. РџСЂРёР·РЅР°Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РљР”Рў РІ С„РѕСЂРјРµ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р° "Р­Р”". 
+     * Set the 'ElectronicDocumentSign' element value. Признак использования КДТ в форме электронного документа "ЭД". 
      * 
      * @param electronicDocumentSign
      */
@@ -144,7 +144,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'RegNumberDoc' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СЃРёСЃС‚РµРјРѕР№ (СЂРµРіР»Р°РјРµРЅС‚РѕРј) СѓС‡РµС‚Р° РёСЃС…РѕРґСЏС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ  РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ
+     * Get the 'RegNumberDoc' element value. Исходящий номер регистрации документов в соответствии с системой (регламентом) учета исходящих документов декларанта или таможенного представителя  в Республике Беларусь
      * 
      * @return value
      */
@@ -153,7 +153,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'RegNumberDoc' element value. РСЃС…РѕРґСЏС‰РёР№ РЅРѕРјРµСЂ СЂРµРіРёСЃС‚СЂР°С†РёРё РґРѕРєСѓРјРµРЅС‚РѕРІ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ СЃРёСЃС‚РµРјРѕР№ (СЂРµРіР»Р°РјРµРЅС‚РѕРј) СѓС‡РµС‚Р° РёСЃС…РѕРґСЏС‰РёС… РґРѕРєСѓРјРµРЅС‚РѕРІ РґРµРєР»Р°СЂР°РЅС‚Р° РёР»Рё С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ  РІ Р РµСЃРїСѓР±Р»РёРєРµ Р‘РµР»Р°СЂСѓСЃСЊ
+     * Set the 'RegNumberDoc' element value. Исходящий номер регистрации документов в соответствии с системой (регламентом) учета исходящих документов декларанта или таможенного представителя  в Республике Беларусь
      * 
      * @param regNumberDoc
      */
@@ -162,7 +162,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'ExecutionDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ (РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ)
+     * Get the 'ExecutionDate' element value. Дата составления (представления)
      * 
      * @return value
      */
@@ -171,7 +171,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'ExecutionDate' element value. Р”Р°С‚Р° СЃРѕСЃС‚Р°РІР»РµРЅРёСЏ (РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ)
+     * Set the 'ExecutionDate' element value. Дата составления (представления)
      * 
      * @param executionDate
      */
@@ -180,7 +180,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'SecurityLabelCode' element value. РљРѕРґ Р·Р°С‰РёС‚РЅРѕР№ РЅР°РєР»РµР№РєРё РґР»СЏ Р Рљ
+     * Get the 'SecurityLabelCode' element value. Код защитной наклейки для РК
      * 
      * @return value
      */
@@ -189,7 +189,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'SecurityLabelCode' element value. РљРѕРґ Р·Р°С‰РёС‚РЅРѕР№ РЅР°РєР»РµР№РєРё РґР»СЏ Р Рљ
+     * Set the 'SecurityLabelCode' element value. Код защитной наклейки для РК
      * 
      * @param securityLabelCode
      */
@@ -198,7 +198,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsProcedure' element value. РРњ, Р­Рљ. Р›РµРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.1 РљР”Рў
+     * Get the 'CustomsProcedure' element value. ИМ, ЭК. Левый подраздел гр.1 КДТ
      * 
      * @return value
      */
@@ -207,7 +207,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsProcedure' element value. РРњ, Р­Рљ. Р›РµРІС‹Р№ РїРѕРґСЂР°Р·РґРµР» РіСЂ.1 РљР”Рў
+     * Set the 'CustomsProcedure' element value. ИМ, ЭК. Левый подраздел гр.1 КДТ
      * 
      * @param customsProcedure
      */
@@ -216,7 +216,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'Reason' element value. Р РµР·РµСЂРІ. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№: РјРѕС‚РёРІРёСЂРѕРІР°РЅРЅРѕРµ РѕР±СЂР°С‰РµРЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° (С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)/СЂРµС€РµРЅРёРµ РЅР°С‡Р°Р»СЊРЅРёРєР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р°/СЂРµС€РµРЅРёРµ РЅР°С‡Р°Р»СЊРЅРёРєР° С‚Р°РјРѕР¶РЅРё РёР»Рё Р»РёС†Р°, РёРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ/СЂРµС€РµРЅРёРµ РЅР°С‡Р°Р»СЊРЅРёРє СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РЅРё/СЂРµС€РµРЅРёРµ РІС‹С€РµСЃС‚РѕСЏС‰РµРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° (Р РўРЈ, Р¤РўРЎ Р РѕСЃСЃРёРё)/ СЂРµС€РµРЅРёРµ РЅР°С‡Р°Р»СЊРЅРёРє СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ  РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ Р РўРЈ, Р¤РўРЎ Р РѕСЃСЃРёРё
+     * Get the 'Reason' element value. Резерв. Основание для внесения изменений: мотивированное обращение декларанта (таможенного представителя)/решение начальника таможенного поста/решение начальника таможни или лица, им уполномоченного/решение начальник структурного подразделения таможни/решение вышестоящего таможенного органа (РТУ, ФТС России)/ решение начальник структурного  подразделения РТУ, ФТС России
      * 
      * @return value
      */
@@ -225,7 +225,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'Reason' element value. Р РµР·РµСЂРІ. РћСЃРЅРѕРІР°РЅРёРµ РґР»СЏ РІРЅРµСЃРµРЅРёСЏ РёР·РјРµРЅРµРЅРёР№: РјРѕС‚РёРІРёСЂРѕРІР°РЅРЅРѕРµ РѕР±СЂР°С‰РµРЅРёРµ РґРµРєР»Р°СЂР°РЅС‚Р° (С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЏ)/СЂРµС€РµРЅРёРµ РЅР°С‡Р°Р»СЊРЅРёРєР° С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РїРѕСЃС‚Р°/СЂРµС€РµРЅРёРµ РЅР°С‡Р°Р»СЊРЅРёРєР° С‚Р°РјРѕР¶РЅРё РёР»Рё Р»РёС†Р°, РёРј СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ/СЂРµС€РµРЅРёРµ РЅР°С‡Р°Р»СЊРЅРёРє СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ С‚Р°РјРѕР¶РЅРё/СЂРµС€РµРЅРёРµ РІС‹С€РµСЃС‚РѕСЏС‰РµРіРѕ С‚Р°РјРѕР¶РµРЅРЅРѕРіРѕ РѕСЂРіР°РЅР° (Р РўРЈ, Р¤РўРЎ Р РѕСЃСЃРёРё)/ СЂРµС€РµРЅРёРµ РЅР°С‡Р°Р»СЊРЅРёРє СЃС‚СЂСѓРєС‚СѓСЂРЅРѕРіРѕ  РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ Р РўРЈ, Р¤РўРЎ Р РѕСЃСЃРёРё
+     * Set the 'Reason' element value. Резерв. Основание для внесения изменений: мотивированное обращение декларанта (таможенного представителя)/решение начальника таможенного поста/решение начальника таможни или лица, им уполномоченного/решение начальник структурного подразделения таможни/решение вышестоящего таможенного органа (РТУ, ФТС России)/ решение начальник структурного  подразделения РТУ, ФТС России
      * 
      * @param reason
      */
@@ -234,7 +234,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'KTDinGoodsShipment' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Get the 'KTDinGoodsShipment' element value. КДТ. Внутренний формат. Сведения о товарной партии
      * 
      * @return value
      */
@@ -243,7 +243,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'KTDinGoodsShipment' element value. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРЅРѕР№ РїР°СЂС‚РёРё
+     * Set the 'KTDinGoodsShipment' element value. КДТ. Внутренний формат. Сведения о товарной партии
      * 
      * @param KTDinGoodsShipment
      */
@@ -252,7 +252,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'KTDinCommonOfficialMark' element items. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ РљР”Рў.
+     * Get the list of 'KTDinCommonOfficialMark' element items. КДТ. Внутренний формат. Служебные отметки по КДТ.
      * 
      * @return list
      */
@@ -261,7 +261,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'KTDinCommonOfficialMark' element items. РљР”Рў. Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РѕСЂРјР°С‚. РЎР»СѓР¶РµР±РЅС‹Рµ РѕС‚РјРµС‚РєРё РїРѕ РљР”Рў.
+     * Set the list of 'KTDinCommonOfficialMark' element items. КДТ. Внутренний формат. Служебные отметки по КДТ.
      * 
      * @param list
      */
@@ -271,7 +271,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'GTDNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
+     * Get the 'GTDNumber' element value. Регистрационный номер ДТ.
      * 
      * @return value
      */
@@ -280,7 +280,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'GTDNumber' element value. Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ Р”Рў.
+     * Set the 'GTDNumber' element value. Регистрационный номер ДТ.
      * 
      * @param GTDNumber
      */
@@ -289,7 +289,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'FilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РґРѕРєСѓРјРµРЅС‚ (Р”Рў)
+     * Get the 'FilledPerson' element value. Сведения о лице, заполнившем документ (ДТ)
      * 
      * @return value
      */
@@ -298,7 +298,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'FilledPerson' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†Рµ, Р·Р°РїРѕР»РЅРёРІС€РµРј РґРѕРєСѓРјРµРЅС‚ (Р”Рў)
+     * Set the 'FilledPerson' element value. Сведения о лице, заполнившем документ (ДТ)
      * 
      * @param filledPerson
      */
@@ -307,7 +307,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'CustomsRepresentative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Get the 'CustomsRepresentative' element value. Таможенный представитель
      * 
      * @return value
      */
@@ -316,7 +316,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'CustomsRepresentative' element value. РўР°РјРѕР¶РµРЅРЅС‹Р№ РїСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊ
+     * Set the 'CustomsRepresentative' element value. Таможенный представитель
      * 
      * @param customsRepresentative
      */
@@ -326,7 +326,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'ChangeCode' element value. РљРѕРґ РёР·РјРµРЅРµРЅРёР№ РіСЂ 45Р° РїСЂРё РѕС‚СЃСѓС‚СЃС‚РІРёРё РёР·РјРµРЅРµРЅРёР№ Рё (РёР»Рё) РґРѕРїРѕР»РЅРµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ
+     * Get the 'ChangeCode' element value. Код изменений гр 45а при отсутствии изменений и (или) дополнении сведений в отношении товаров
      * 
      * @return value
      */
@@ -335,7 +335,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'ChangeCode' element value. РљРѕРґ РёР·РјРµРЅРµРЅРёР№ РіСЂ 45Р° РїСЂРё РѕС‚СЃСѓС‚СЃС‚РІРёРё РёР·РјРµРЅРµРЅРёР№ Рё (РёР»Рё) РґРѕРїРѕР»РЅРµРЅРёРё СЃРІРµРґРµРЅРёР№ РІ РѕС‚РЅРѕС€РµРЅРёРё С‚РѕРІР°СЂРѕРІ
+     * Set the 'ChangeCode' element value. Код изменений гр 45а при отсутствии изменений и (или) дополнении сведений в отношении товаров
      * 
      * @param changeCode
      */
@@ -344,7 +344,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'KDTFilledInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРѕР»РЅРµРЅРёРё РљР”Рў
+     * Get the 'KDTFilledInfo' element value. Сведения о заполнении КДТ
      * 
      * @return value
      */
@@ -353,7 +353,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'KDTFilledInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ Р·Р°РїРѕР»РЅРµРЅРёРё РљР”Рў
+     * Set the 'KDTFilledInfo' element value. Сведения о заполнении КДТ
      * 
      * @param KDTFilledInfo
      */
@@ -362,7 +362,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @return value
      */
@@ -371,7 +371,7 @@ public class KTDinType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°.
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа.
      * 
      * @param documentModeID
      */

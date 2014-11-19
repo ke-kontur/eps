@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * Р›РёСЃС‚ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРЅРѕР№ РїСЂРѕРґСѓРєС†РёРё
+ * Лист зарегистрированной продукции
  */
 public class ProductListType
 {
@@ -19,7 +19,7 @@ public class ProductListType
     private List<String> consigneeList = new ArrayList<String>();
 
     /** 
-     * Get the list of 'ProductType' element items. Р’РёРґ РїСЂРѕРґСѓРєС†РёРё
+     * Get the list of 'ProductType' element items. Вид продукции
      * 
      * @return list
      */
@@ -28,7 +28,7 @@ public class ProductListType
     }
 
     /** 
-     * Set the list of 'ProductType' element items. Р’РёРґ РїСЂРѕРґСѓРєС†РёРё
+     * Set the list of 'ProductType' element items. Вид продукции
      * 
      * @param list
      */
@@ -37,7 +37,7 @@ public class ProductListType
     }
 
     /** 
-     * Get the 'Weigh' element value. Р’РµСЃ (РЅРµС‚С‚Рѕ), РєРі
+     * Get the 'Weigh' element value. Вес (нетто), кг
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class ProductListType
     }
 
     /** 
-     * Set the 'Weigh' element value. Р’РµСЃ (РЅРµС‚С‚Рѕ), РєРі
+     * Set the 'Weigh' element value. Вес (нетто), кг
      * 
      * @param weigh
      */
@@ -55,7 +55,7 @@ public class ProductListType
     }
 
     /** 
-     * Get the 'ConversionFactor' element value. РљРѕСЌС„С„РёС†РёРµРЅС‚ РїРµСЂРµСЃС‡РµС‚Р° РіРѕС‚РѕРІРѕР№ РїСЂРѕРґСѓРєС†РёРё РІ СЃС‹СЂРµС†
+     * Get the 'ConversionFactor' element value. Коэффициент пересчета готовой продукции в сырец
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class ProductListType
     }
 
     /** 
-     * Set the 'ConversionFactor' element value. РљРѕСЌС„С„РёС†РёРµРЅС‚ РїРµСЂРµСЃС‡РµС‚Р° РіРѕС‚РѕРІРѕР№ РїСЂРѕРґСѓРєС†РёРё РІ СЃС‹СЂРµС†
+     * Set the 'ConversionFactor' element value. Коэффициент пересчета готовой продукции в сырец
      * 
      * @param conversionFactor
      */
@@ -73,7 +73,7 @@ public class ProductListType
     }
 
     /** 
-     * Get the 'Quantity' element value. РћР±СЉРµРј РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРіРѕ СЃС‹СЂС†Р°, РєРі
+     * Get the 'Quantity' element value. Объем использованного сырца, кг
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class ProductListType
     }
 
     /** 
-     * Set the 'Quantity' element value. РћР±СЉРµРј РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРіРѕ СЃС‹СЂС†Р°, РєРі
+     * Set the 'Quantity' element value. Объем использованного сырца, кг
      * 
      * @param quantity
      */
@@ -91,7 +91,7 @@ public class ProductListType
     }
 
     /** 
-     * Get the list of 'AreaMining' element items. Р Р°Р№РѕРЅ РґРѕР±С‹С‡Рё (Р·РѕРЅР°, РїРѕРґР·РѕРЅР°)
+     * Get the list of 'AreaMining' element items. Район добычи (зона, подзона)
      * 
      * @return list
      */
@@ -100,7 +100,7 @@ public class ProductListType
     }
 
     /** 
-     * Set the list of 'AreaMining' element items. Р Р°Р№РѕРЅ РґРѕР±С‹С‡Рё (Р·РѕРЅР°, РїРѕРґР·РѕРЅР°)
+     * Set the list of 'AreaMining' element items. Район добычи (зона, подзона)
      * 
      * @param list
      */
@@ -109,7 +109,7 @@ public class ProductListType
     }
 
     /** 
-     * Get the 'TimingExtraction' element value. РЎСЂРѕРєРё РґРѕР±С‹С‡Рё
+     * Get the 'TimingExtraction' element value. Сроки добычи
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class ProductListType
     }
 
     /** 
-     * Set the 'TimingExtraction' element value. РЎСЂРѕРєРё РґРѕР±С‹С‡Рё
+     * Set the 'TimingExtraction' element value. Сроки добычи
      * 
      * @param timingExtraction
      */
@@ -127,7 +127,7 @@ public class ProductListType
     }
 
     /** 
-     * Get the 'MeasurementUnitTime' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ СЃСЂРѕРєР° РґРѕР±С‹С‡Рё
+     * Get the 'MeasurementUnitTime' element value. Единица измерения срока добычи
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class ProductListType
     }
 
     /** 
-     * Set the 'MeasurementUnitTime' element value. Р•РґРёРЅРёС†Р° РёР·РјРµСЂРµРЅРёСЏ СЃСЂРѕРєР° РґРѕР±С‹С‡Рё
+     * Set the 'MeasurementUnitTime' element value. Единица измерения срока добычи
      * 
      * @param measurementUnitTime
      */
@@ -145,7 +145,7 @@ public class ProductListType
     }
 
     /** 
-     * Get the list of 'Consignee' element items. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ (РєСѓРґР° РЅР°РїСЂР°РІР»РµРЅР° РёР»Рё РєРѕРјСѓ РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅР° РїСЂРѕРґСѓРєС†РёСЏ)
+     * Get the list of 'Consignee' element items. Грузополучатель (куда направлена или кому предназначена продукция)
      * 
      * @return list
      */
@@ -154,7 +154,7 @@ public class ProductListType
     }
 
     /** 
-     * Set the list of 'Consignee' element items. Р“СЂСѓР·РѕРїРѕР»СѓС‡Р°С‚РµР»СЊ (РєСѓРґР° РЅР°РїСЂР°РІР»РµРЅР° РёР»Рё РєРѕРјСѓ РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅР° РїСЂРѕРґСѓРєС†РёСЏ)
+     * Set the list of 'Consignee' element items. Грузополучатель (куда направлена или кому предназначена продукция)
      * 
      * @param list
      */

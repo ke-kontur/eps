@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.OrganizationBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.PersonSignatureType;
 
 /** 
- * РћС‚РїСЂР°РІРёС‚РµР»СЊ 
+ * Отправитель 
  */
 public class SenderType
 {
@@ -17,7 +17,7 @@ public class SenderType
     private PersonSignatureType signature;
 
     /** 
-     * Get the 'Account' element value. РќРѕРјРµСЂ СЃС‡С‘С‚Р° 
+     * Get the 'Account' element value. Номер счёта 
      * 
      * @return value
      */
@@ -26,7 +26,7 @@ public class SenderType
     }
 
     /** 
-     * Set the 'Account' element value. РќРѕРјРµСЂ СЃС‡С‘С‚Р° 
+     * Set the 'Account' element value. Номер счёта 
      * 
      * @param account
      */
@@ -35,7 +35,7 @@ public class SenderType
     }
 
     /** 
-     * Get the 'Notes' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё 
+     * Get the 'Notes' element value. Особые отметки 
      * 
      * @return value
      */
@@ -44,7 +44,7 @@ public class SenderType
     }
 
     /** 
-     * Set the 'Notes' element value. РћСЃРѕР±С‹Рµ РѕС‚РјРµС‚РєРё 
+     * Set the 'Notes' element value. Особые отметки 
      * 
      * @param notes
      */
@@ -53,7 +53,7 @@ public class SenderType
     }
 
     /** 
-     * Get the 'Organisation' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Get the 'Organisation' element value. Реквизиты организации.
      * 
      * @return value
      */
@@ -62,7 +62,7 @@ public class SenderType
     }
 
     /** 
-     * Set the 'Organisation' element value. Р РµРєРІРёР·РёС‚С‹ РѕСЂРіР°РЅРёР·Р°С†РёРё.
+     * Set the 'Organisation' element value. Реквизиты организации.
      * 
      * @param organisation
      */
@@ -71,7 +71,7 @@ public class SenderType
     }
 
     /** 
-     * Get the 'Address' element value. РђРґСЂРµСЃ 
+     * Get the 'Address' element value. Адрес 
      * 
      * @return value
      */
@@ -80,7 +80,7 @@ public class SenderType
     }
 
     /** 
-     * Set the 'Address' element value. РђРґСЂРµСЃ 
+     * Set the 'Address' element value. Адрес 
      * 
      * @param address
      */
@@ -89,7 +89,7 @@ public class SenderType
     }
 
     /** 
-     * Get the 'Signature' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕС‚РїСЂР°РІРёС‚РµР»СЏ 
+     * Get the 'Signature' element value. Подпись уполномоченного лица отправителя 
      * 
      * @return value
      */
@@ -98,7 +98,7 @@ public class SenderType
     }
 
     /** 
-     * Set the 'Signature' element value. РџРѕРґРїРёСЃСЊ СѓРїРѕР»РЅРѕРјРѕС‡РµРЅРЅРѕРіРѕ Р»РёС†Р° РѕС‚РїСЂР°РІРёС‚РµР»СЏ 
+     * Set the 'Signature' element value. Подпись уполномоченного лица отправителя 
      * 
      * @param signature
      */

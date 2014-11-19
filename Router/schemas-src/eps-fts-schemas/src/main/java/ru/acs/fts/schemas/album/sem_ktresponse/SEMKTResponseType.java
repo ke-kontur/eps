@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РљР°С‚РµРіРѕСЂРёРё С‚РѕРІР°СЂРѕРІ РІРєР»СЋС‡РµРЅРЅС‹С… РІРѕ РІРЅСѓС‚СЂРёСЃРёСЃС‚РµРјРЅС‹Р№ СЃРїРёСЃРѕРє С‚РѕРІР°СЂРѕРІ, Р·Р°РїСЂРµС‰РµРЅРЅС‹С… РёР»Рё РѕРіСЂР°РЅРёС‡РµРЅРЅС‹С… Рє РїРµСЂРµРјРµС‰РµРЅРёСЋ С‡РµСЂРµР· С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РіСЂР°РЅРёС†Сѓ Р Р¤
+ * Категории товаров включенных во внутрисистемный список товаров, запрещенных или ограниченных к перемещению через таможенную границу РФ
  */
 public class SEMKTResponseType extends BaseDocType
 {
@@ -15,7 +15,7 @@ public class SEMKTResponseType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the 'Status' element value. CРѕСЃС‚РѕСЏРЅРёРµ РѕС‚СЂР°Р±РѕС‚РєРё
+     * Get the 'Status' element value. Cостояние отработки
      * 
      * @return value
      */
@@ -24,7 +24,7 @@ public class SEMKTResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'Status' element value. CРѕСЃС‚РѕСЏРЅРёРµ РѕС‚СЂР°Р±РѕС‚РєРё
+     * Set the 'Status' element value. Cостояние отработки
      * 
      * @param status
      */
@@ -33,7 +33,7 @@ public class SEMKTResponseType extends BaseDocType
     }
 
     /** 
-     * Get the list of 'Goods' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…. Р’ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ С‚РѕРІР°СЂР°Рј РЅРµ РЅР°Р№РґРµРЅР°
+     * Get the list of 'Goods' element items. Информация о товарах. В случае отсутствия информация по товарам не найдена
      * 
      * @return list
      */
@@ -42,7 +42,7 @@ public class SEMKTResponseType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'Goods' element items. РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂР°С…. Р’ СЃР»СѓС‡Р°Рµ РѕС‚СЃСѓС‚СЃС‚РІРёСЏ РёРЅС„РѕСЂРјР°С†РёСЏ РїРѕ С‚РѕРІР°СЂР°Рј РЅРµ РЅР°Р№РґРµРЅР°
+     * Set the list of 'Goods' element items. Информация о товарах. В случае отсутствия информация по товарам не найдена
      * 
      * @param list
      */
@@ -51,7 +51,7 @@ public class SEMKTResponseType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -60,7 +60,7 @@ public class SEMKTResponseType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

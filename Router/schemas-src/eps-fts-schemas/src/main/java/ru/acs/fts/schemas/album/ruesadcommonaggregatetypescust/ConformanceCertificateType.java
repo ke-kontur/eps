@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.ruesadcommonaggregatetypescust;
 import org.joda.time.LocalDate;
 
 /** 
- * Р РµРєРІРёР·РёС‚С‹ РћРґРѕР±СЂРµРЅРёСЏ С‚РёРїР° РўРЎ /РЎРµСЂС‚РёС„РёРєР°С‚Р° СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ
+ * Реквизиты Одобрения типа ТС /Сертификата соответствия
  */
 public class ConformanceCertificateType
 {
@@ -13,7 +13,7 @@ public class ConformanceCertificateType
     private String organizationName;
 
     /** 
-     * Get the 'DocumentID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentID' element value. Идентификатор документа
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class ConformanceCertificateType
     }
 
     /** 
-     * Set the 'DocumentID' element value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentID' element value. Идентификатор документа
      * 
      * @param documentID
      */
@@ -31,7 +31,7 @@ public class ConformanceCertificateType
     }
 
     /** 
-     * Get the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'IssueDate' element value. Дата выдачи документа
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class ConformanceCertificateType
     }
 
     /** 
-     * Set the 'IssueDate' element value. Р”Р°С‚Р° РІС‹РґР°С‡Рё РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'IssueDate' element value. Дата выдачи документа
      * 
      * @param issueDate
      */
@@ -49,7 +49,7 @@ public class ConformanceCertificateType
     }
 
     /** 
-     * Get the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'OrganizationName' element value. Наименование органа, выдавшего документ
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class ConformanceCertificateType
     }
 
     /** 
-     * Set the 'OrganizationName' element value. РќР°РёРјРµРЅРѕРІР°РЅРёРµ РѕСЂРіР°РЅР°, РІС‹РґР°РІС€РµРіРѕ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'OrganizationName' element value. Наименование органа, выдавшего документ
      * 
      * @param organizationName
      */

@@ -6,7 +6,7 @@ import java.util.List;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.BaseDocType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РёР· СЂРµРµСЃС‚СЂР° СЂР°Р·СЂРµС€РёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚РѕРІ 
+ * Сведения из реестра разрешительных документов 
  */
 public class DocReestrReqType extends BaseDocType
 {
@@ -14,7 +14,7 @@ public class DocReestrReqType extends BaseDocType
     private String documentModeID;
 
     /** 
-     * Get the list of 'PermissionInfo' element items. Р”Р°РЅРЅС‹Рµ РїРѕ СЂР°Р·СЂРµС€РµРЅРёСЋ
+     * Get the list of 'PermissionInfo' element items. Данные по разрешению
      * 
      * @return list
      */
@@ -23,7 +23,7 @@ public class DocReestrReqType extends BaseDocType
     }
 
     /** 
-     * Set the list of 'PermissionInfo' element items. Р”Р°РЅРЅС‹Рµ РїРѕ СЂР°Р·СЂРµС€РµРЅРёСЋ
+     * Set the list of 'PermissionInfo' element items. Данные по разрешению
      * 
      * @param list
      */
@@ -32,7 +32,7 @@ public class DocReestrReqType extends BaseDocType
     }
 
     /** 
-     * Get the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Get the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @return value
      */
@@ -41,7 +41,7 @@ public class DocReestrReqType extends BaseDocType
     }
 
     /** 
-     * Set the 'DocumentModeID' attribute value. РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РІРёРґР° РґРѕРєСѓРјРµРЅС‚Р°
+     * Set the 'DocumentModeID' attribute value. Идентификатор вида документа
      * 
      * @param documentModeID
      */

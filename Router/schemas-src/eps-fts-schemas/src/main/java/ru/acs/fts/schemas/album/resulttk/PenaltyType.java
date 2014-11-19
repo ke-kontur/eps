@@ -6,7 +6,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.TransportMeansBaseType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ РѕР± РѕРїР»Р°С‚Рµ С€С‚СЂР°С„Р°
+ * Сведения об оплате штрафа
  */
 public class PenaltyType
 {
@@ -19,7 +19,7 @@ public class PenaltyType
     private TransportMeansBaseType TSInfo;
 
     /** 
-     * Get the 'PenaltyCreateDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РІРЅРµСЃРµРЅРёСЏ РїР»Р°С‚РµР¶Р°
+     * Get the 'PenaltyCreateDateTime' element value. Дата/время внесения платежа
      * 
      * @return value
      */
@@ -28,7 +28,7 @@ public class PenaltyType
     }
 
     /** 
-     * Set the 'PenaltyCreateDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РІРЅРµСЃРµРЅРёСЏ РїР»Р°С‚РµР¶Р°
+     * Set the 'PenaltyCreateDateTime' element value. Дата/время внесения платежа
      * 
      * @param penaltyCreateDateTime
      */
@@ -37,7 +37,7 @@ public class PenaltyType
     }
 
     /** 
-     * Get the 'PayDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РѕРїР»Р°С‚С‹
+     * Get the 'PayDateTime' element value. Дата/время оплаты
      * 
      * @return value
      */
@@ -46,7 +46,7 @@ public class PenaltyType
     }
 
     /** 
-     * Set the 'PayDateTime' element value. Р”Р°С‚Р°/РІСЂРµРјСЏ РѕРїР»Р°С‚С‹
+     * Set the 'PayDateTime' element value. Дата/время оплаты
      * 
      * @param payDateTime
      */
@@ -55,7 +55,7 @@ public class PenaltyType
     }
 
     /** 
-     * Get the 'Organization' element value. РљРѕРґ РљРџ, РіРґРµ Р±С‹Р»Рё РІРЅРµСЃРµРЅС‹ РґР°РЅРЅС‹Рµ РѕР± РѕРїР»Р°С‚Рµ
+     * Get the 'Organization' element value. Код КП, где были внесены данные об оплате
      * 
      * @return value
      */
@@ -64,7 +64,7 @@ public class PenaltyType
     }
 
     /** 
-     * Set the 'Organization' element value. РљРѕРґ РљРџ, РіРґРµ Р±С‹Р»Рё РІРЅРµСЃРµРЅС‹ РґР°РЅРЅС‹Рµ РѕР± РѕРїР»Р°С‚Рµ
+     * Set the 'Organization' element value. Код КП, где были внесены данные об оплате
      * 
      * @param organization
      */
@@ -73,7 +73,7 @@ public class PenaltyType
     }
 
     /** 
-     * Get the 'PayDoc' element value. РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Get the 'PayDoc' element value. Платежный документ
      * 
      * @return value
      */
@@ -82,7 +82,7 @@ public class PenaltyType
     }
 
     /** 
-     * Set the 'PayDoc' element value. РџР»Р°С‚РµР¶РЅС‹Р№ РґРѕРєСѓРјРµРЅС‚
+     * Set the 'PayDoc' element value. Платежный документ
      * 
      * @param payDoc
      */
@@ -91,7 +91,7 @@ public class PenaltyType
     }
 
     /** 
-     * Get the 'Payer' element value. РџР»Р°С‚РµР»СЊС‰РёРє
+     * Get the 'Payer' element value. Плательщик
      * 
      * @return value
      */
@@ -100,7 +100,7 @@ public class PenaltyType
     }
 
     /** 
-     * Set the 'Payer' element value. РџР»Р°С‚РµР»СЊС‰РёРє
+     * Set the 'Payer' element value. Плательщик
      * 
      * @param payer
      */
@@ -109,7 +109,7 @@ public class PenaltyType
     }
 
     /** 
-     * Get the 'BankRequis' element value. Р РµРєРІРёР·РёС‚С‹ Р±Р°РЅРєР°
+     * Get the 'BankRequis' element value. Реквизиты банка
      * 
      * @return value
      */
@@ -118,7 +118,7 @@ public class PenaltyType
     }
 
     /** 
-     * Set the 'BankRequis' element value. Р РµРєРІРёР·РёС‚С‹ Р±Р°РЅРєР°
+     * Set the 'BankRequis' element value. Реквизиты банка
      * 
      * @param bankRequis
      */
@@ -127,7 +127,7 @@ public class PenaltyType
     }
 
     /** 
-     * Get the 'TSInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Get the 'TSInfo' element value. Сведения о транспортном средстве
      * 
      * @return value
      */
@@ -136,7 +136,7 @@ public class PenaltyType
     }
 
     /** 
-     * Set the 'TSInfo' element value. РЎРІРµРґРµРЅРёСЏ Рѕ С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ
+     * Set the 'TSInfo' element value. Сведения о транспортном средстве
      * 
      * @param TSInfo
      */

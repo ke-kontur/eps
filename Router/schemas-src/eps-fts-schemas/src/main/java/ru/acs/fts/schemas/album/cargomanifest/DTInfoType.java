@@ -4,7 +4,7 @@ package ru.acs.fts.schemas.album.cargomanifest;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ Р”Рў
+ * Сведения о ДТ
  */
 public class DTInfoType
 {
@@ -12,7 +12,7 @@ public class DTInfoType
     private GTDIDType DTNumber;
 
     /** 
-     * Get the 'GoodNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Get the 'GoodNumber' element value. Номер товара по ДТ
      * 
      * @return value
      */
@@ -21,7 +21,7 @@ public class DTInfoType
     }
 
     /** 
-     * Set the 'GoodNumber' element value. РќРѕРјРµСЂ С‚РѕРІР°СЂР° РїРѕ Р”Рў
+     * Set the 'GoodNumber' element value. Номер товара по ДТ
      * 
      * @param goodNumber
      */
@@ -30,7 +30,7 @@ public class DTInfoType
     }
 
     /** 
-     * Get the 'DTNumber' element value. РќРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
+     * Get the 'DTNumber' element value. Номер декларации на товары
      * 
      * @return value
      */
@@ -39,7 +39,7 @@ public class DTInfoType
     }
 
     /** 
-     * Set the 'DTNumber' element value. РќРѕРјРµСЂ РґРµРєР»Р°СЂР°С†РёРё РЅР° С‚РѕРІР°СЂС‹
+     * Set the 'DTNumber' element value. Номер декларации на товары
      * 
      * @param DTNumber
      */

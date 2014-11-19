@@ -2,7 +2,7 @@
 package ru.acs.fts.schemas.album.oez_report;
 
 /** 
- * РўР°Р±Р»РёС†Р° 3. Р Р°Р·РґРµР» 2. РўРѕРІР°СЂ, РїРѕР»СѓС‡РµРЅРЅС‹Р№ РІ СЂРµР·СѓР»СЊС‚Р°С‚Рµ РїРµСЂРµСЂР°Р±РѕС‚РєРё С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅС‹Р№ СЂРµР¶РёРј СЃРІРѕР±РѕРґРЅРѕР№ С‚Р°РјРѕР¶РµРЅРЅРѕР№ Р·РѕРЅС‹, Рё СЂР°СЃРїРѕСЂСЏР¶РµРЅРёРµ С‚Р°РєРёРјРё С‚РѕРІР°СЂР°РјРё
+ * Таблица 3. Раздел 2. Товар, полученный в результате переработки товаров, помещенных под таможенный режим свободной таможенной зоны, и распоряжение такими товарами
  */
 public class Table3Section2GoodsType extends GoodsWithoutStatusBaseType
 {
@@ -13,7 +13,7 @@ public class Table3Section2GoodsType extends GoodsWithoutStatusBaseType
     private Table3Section2WasteProductsUsageType wasteProductsUsage;
 
     /** 
-     * Get the 'GoodsSign' element value. РўРёРї: 1 - С‚РѕРІР°СЂС‹ РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹Рµ(РїРѕР»СѓС‡РµРЅРЅС‹Рµ) РёР· РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… С‚РѕРІР°СЂРѕРІ, 2 - С‚РѕРІР°СЂС‹ РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹Рµ(РїРѕР»СѓС‡РµРЅРЅС‹Рµ) СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… С‚РѕРІР°СЂРѕРІ, 3 - С‚РѕРІР°СЂС‹ РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹Рµ(РїРѕР»СѓС‡РµРЅРЅС‹Рµ) РёР· С‚РѕРІР°СЂРѕРІ РўРЎ
+     * Get the 'GoodsSign' element value. Тип: 1 - товары изготовленные(полученные) из иностранных товаров, 2 - товары изготовленные(полученные) с использованием иностранных товаров, 3 - товары изготовленные(полученные) из товаров ТС
      * 
      * @return value
      */
@@ -22,7 +22,7 @@ public class Table3Section2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the 'GoodsSign' element value. РўРёРї: 1 - С‚РѕРІР°СЂС‹ РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹Рµ(РїРѕР»СѓС‡РµРЅРЅС‹Рµ) РёР· РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… С‚РѕРІР°СЂРѕРІ, 2 - С‚РѕРІР°СЂС‹ РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹Рµ(РїРѕР»СѓС‡РµРЅРЅС‹Рµ) СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… С‚РѕРІР°СЂРѕРІ, 3 - С‚РѕРІР°СЂС‹ РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹Рµ(РїРѕР»СѓС‡РµРЅРЅС‹Рµ) РёР· С‚РѕРІР°СЂРѕРІ РўРЎ
+     * Set the 'GoodsSign' element value. Тип: 1 - товары изготовленные(полученные) из иностранных товаров, 2 - товары изготовленные(полученные) с использованием иностранных товаров, 3 - товары изготовленные(полученные) из товаров ТС
      * 
      * @param goodsSign
      */
@@ -31,7 +31,7 @@ public class Table3Section2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Get the 'STZGoodsProduct' element value. РўРѕРІР°СЂС‹, РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹Рµ РёР· С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РЎРўР—
+     * Get the 'STZGoodsProduct' element value. Товары, изготовленные из товаров, помещенных под таможенную процедуру СТЗ
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class Table3Section2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the 'STZGoodsProduct' element value. РўРѕРІР°СЂС‹, РёР·РіРѕС‚РѕРІР»РµРЅРЅС‹Рµ РёР· С‚РѕРІР°СЂРѕРІ, РїРѕРјРµС‰РµРЅРЅС‹С… РїРѕРґ С‚Р°РјРѕР¶РµРЅРЅСѓСЋ РїСЂРѕС†РµРґСѓСЂСѓ РЎРўР—
+     * Set the 'STZGoodsProduct' element value. Товары, изготовленные из товаров, помещенных под таможенную процедуру СТЗ
      * 
      * @param STZGoodsProduct
      */
@@ -49,7 +49,7 @@ public class Table3Section2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Get the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Get the 'Quantity' element value. Количество товара
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class Table3Section2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the 'Quantity' element value. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР°
+     * Set the 'Quantity' element value. Количество товара
      * 
      * @param quantity
      */
@@ -67,7 +67,7 @@ public class Table3Section2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Get the 'ResidentsGoodsQuantity' element value. РўРѕРІР°СЂС‹ РЅР°С…РѕРґСЏС‰РёРµСЃСЏ Сѓ СЂРµР·РёРґРµРЅС‚Р° РћР­Р— РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С…СЂР°РЅРµРЅРёРµ(СЃРєР»Р°РґРёСЂРѕРІР°РЅРёРµ) РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—
+     * Get the 'ResidentsGoodsQuantity' element value. Товары находящиеся у резидента ОЭЗ в отношении которых осуществляется хранение(складирование) на территории ОЭЗ
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class Table3Section2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the 'ResidentsGoodsQuantity' element value. РўРѕРІР°СЂС‹ РЅР°С…РѕРґСЏС‰РёРµСЃСЏ Сѓ СЂРµР·РёРґРµРЅС‚Р° РћР­Р— РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ С…СЂР°РЅРµРЅРёРµ(СЃРєР»Р°РґРёСЂРѕРІР°РЅРёРµ) РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РћР­Р—
+     * Set the 'ResidentsGoodsQuantity' element value. Товары находящиеся у резидента ОЭЗ в отношении которых осуществляется хранение(складирование) на территории ОЭЗ
      * 
      * @param residentsGoodsQuantity
      */
@@ -85,7 +85,7 @@ public class Table3Section2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Get the 'WasteProductsUsage' element value. Р Р°СЃРїРѕСЂСЏР¶РµРЅРёРµ РїСЂРѕРґСѓРєС‚Р°РјРё РїРµСЂРµСЂР°Р±РѕС‚РєРё Рё РѕС‚С…РѕРґР°РјРё
+     * Get the 'WasteProductsUsage' element value. Распоряжение продуктами переработки и отходами
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class Table3Section2GoodsType extends GoodsWithoutStatusBaseType
     }
 
     /** 
-     * Set the 'WasteProductsUsage' element value. Р Р°СЃРїРѕСЂСЏР¶РµРЅРёРµ РїСЂРѕРґСѓРєС‚Р°РјРё РїРµСЂРµСЂР°Р±РѕС‚РєРё Рё РѕС‚С…РѕРґР°РјРё
+     * Set the 'WasteProductsUsage' element value. Распоряжение продуктами переработки и отходами
      * 
      * @param wasteProductsUsage
      */

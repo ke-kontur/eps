@@ -7,7 +7,7 @@ import ru.acs.fts.schemas.album.commonaggregatetypescust.DocumentBaseType;
 import ru.acs.fts.schemas.album.commonaggregatetypescust.GTDIDType;
 
 /** 
- * РЎРІРµРґРµРЅРёСЏ Рѕ С‚РѕРІР°СЂРѕСЃРѕРїСЂРѕРІРѕРґРёС‚РµР»СЊРЅС‹С… РґРѕРєСѓРјРµРЅС‚Р°С…
+ * Сведения о товаросопроводительных документах
  * 
  * Schema fragment(s) for this class:
  * <pre>
@@ -31,7 +31,7 @@ public class IDKShippingDocumentsType
     private List<DocumentBaseType> documentList = new ArrayList<DocumentBaseType>();
 
     /** 
-     * Get the 'DocumentType' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°.  1 - РњР”Рџ, 2 - РљР°СЂРЅРµС‚-РђРўРђ, 3 - РўР”
+     * Get the 'DocumentType' element value. Тип документа.  1 - МДП, 2 - Карнет-АТА, 3 - ТД
      * 
      * @return value
      */
@@ -40,7 +40,7 @@ public class IDKShippingDocumentsType
     }
 
     /** 
-     * Set the 'DocumentType' element value. РўРёРї РґРѕРєСѓРјРµРЅС‚Р°.  1 - РњР”Рџ, 2 - РљР°СЂРЅРµС‚-РђРўРђ, 3 - РўР”
+     * Set the 'DocumentType' element value. Тип документа.  1 - МДП, 2 - Карнет-АТА, 3 - ТД
      * 
      * @param documentType
      */
@@ -49,7 +49,7 @@ public class IDKShippingDocumentsType
     }
 
     /** 
-     * Get the 'TIR_Carnet' element value. РќРѕРјРµСЂ РљРЅРёР¶РєРё РњР”Рџ
+     * Get the 'TIR_Carnet' element value. Номер Книжки МДП
      * 
      * @return value
      */
@@ -58,7 +58,7 @@ public class IDKShippingDocumentsType
     }
 
     /** 
-     * Set the 'TIR_Carnet' element value. РќРѕРјРµСЂ РљРЅРёР¶РєРё РњР”Рџ
+     * Set the 'TIR_Carnet' element value. Номер Книжки МДП
      * 
      * @param TIRCarnet
      */
@@ -67,7 +67,7 @@ public class IDKShippingDocumentsType
     }
 
     /** 
-     * Get the 'CarnetATA' element value. РќРѕРјРµСЂ РљР°СЂРЅРµС‚-РђРўРђ
+     * Get the 'CarnetATA' element value. Номер Карнет-АТА
      * 
      * @return value
      */
@@ -76,7 +76,7 @@ public class IDKShippingDocumentsType
     }
 
     /** 
-     * Set the 'CarnetATA' element value. РќРѕРјРµСЂ РљР°СЂРЅРµС‚-РђРўРђ
+     * Set the 'CarnetATA' element value. Номер Карнет-АТА
      * 
      * @param carnetATA
      */
@@ -85,7 +85,7 @@ public class IDKShippingDocumentsType
     }
 
     /** 
-     * Get the 'DTID' element value. РќРѕРјРµСЂ Р”Рў/РўР”
+     * Get the 'DTID' element value. Номер ДТ/ТД
      * 
      * @return value
      */
@@ -94,7 +94,7 @@ public class IDKShippingDocumentsType
     }
 
     /** 
-     * Set the 'DTID' element value. РќРѕРјРµСЂ Р”Рў/РўР”
+     * Set the 'DTID' element value. Номер ДТ/ТД
      * 
      * @param DTID
      */
@@ -103,7 +103,7 @@ public class IDKShippingDocumentsType
     }
 
     /** 
-     * Get the list of 'Document' element items. РџСЂРѕС‡РёРµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Get the list of 'Document' element items. Прочие документы
      * 
      * @return list
      */
@@ -112,7 +112,7 @@ public class IDKShippingDocumentsType
     }
 
     /** 
-     * Set the list of 'Document' element items. РџСЂРѕС‡РёРµ РґРѕРєСѓРјРµРЅС‚С‹
+     * Set the list of 'Document' element items. Прочие документы
      * 
      * @param list
      */
