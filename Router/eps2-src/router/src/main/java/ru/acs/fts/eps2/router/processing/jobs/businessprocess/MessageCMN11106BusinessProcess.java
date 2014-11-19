@@ -123,6 +123,12 @@ public class MessageCMN11106BusinessProcess extends BusinessProcess
         EnvelopeService envelopeService = getServiceHolder( ).getEnvelopeService( );
 
         cmn11106.setIncomeEnvelopeID( recvEnv.getEnvelopeID( ) );
+        if(!StringUtil.isNullOrEmpty(regType.getRefDocumentID())){
+            String initialEnvId = envelopeService.getEnvelopeWithNullIncomeForDocument(regType.getRefDocumentID());
+            if(initialEnvId!=null){
+                cmn11106.setInitialEnvelopeID(initialEnvId);
+            }
+        }
         /*if(!StringUtil.isNullOrEmpty(recvEnv.getInitialEnvelopeID())) {
             Edecl_Messages initialMsg=envelopeService.getEnvelope(recvEnv.getInitialEnvelopeID());
             if(initialMsg!=null) {

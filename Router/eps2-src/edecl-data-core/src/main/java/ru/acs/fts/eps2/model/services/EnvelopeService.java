@@ -613,4 +613,21 @@ public class EnvelopeService implements IGenericService
 		
 		return res.get( 0 );
 	}
+
+	public String getEnvelopeWithNullIncomeForDocument(String refDocumentID) throws DatabaseException {
+		StringBuilder q = new StringBuilder( );
+
+		q.append( "select msg from Edecl_Messages msg " );
+		q.append( "where msg.documentId = :documentId" );
+		q.append( " and msg.incomeEnvelopeId is null " );
+
+		Map< String, Object > args = new HashMap< String, Object >( );
+		args.put( "documentId", refDocumentID );
+
+		List< Edecl_Messages > msgs = _edeclMessages.select( q.toString( ), args );
+		if ( null == msgs || msgs.size()==0)
+			return null;
+
+		return msgs.get(0).getEnvelopeId();
+	}
 }
