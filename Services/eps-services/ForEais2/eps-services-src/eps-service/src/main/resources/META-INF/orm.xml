@@ -1,0 +1,21 @@
+<entity-mappings
+		version="1.0" 
+		xmlns="http://java.sun.com/xml/ns/persistence/orm" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm 
+							http://java.sun.com/xml/ns/persistence/orm_1_0.xsd" >
+	
+	<entity class="ru.acs.fts.eps2.ws.data.model.entities.Envelope" />
+	<entity class="ru.acs.fts.eps2.ws.data.model.entities.Document" />
+	<entity class="ru.acs.fts.eps2.ws.data.model.entities.ProcedureInformation" />
+	<entity class="ru.acs.fts.eps2.ws.data.model.entities.ProcedureState" />
+	<entity class="ru.acs.fts.eps2.ws.data.model.entities.RzdCommand" />
+	<entity class="ru.acs.fts.eps2.ws.data.model.entities.StateTransmission" />
+	<entity class="ru.acs.fts.eps2.ws.data.model.entities.Event" />	
+	<entity class="ru.acs.fts.eps2.ws.data.model.entities.AudProcInfo" />
+	<entity class="ru.acs.fts.eps2.ws.data.model.entities.AudIntCommand" />
+	<entity class="ru.acs.fts.eps2.ws.data.model.entities.AudCommand" />
+	<entity class="ru.acs.fts.eps2.ws.data.model.entities.AudMessage" />
+	<entity class="ru.acs.fts.eps2.ws.data.model.entities.AudDocInfo" />
+	
+</entity-mappings>

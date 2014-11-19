@@ -1,0 +1,129 @@
+<project 
+		xmlns="http://maven.apache.org/POM/4.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+							http://maven.apache.org/xsd/maven-4.0.0.xsd" >
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ru.acs.fts.eps2.ws</groupId>
+	<artifactId>parent</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	<name>EPS2 WebServices</name>
+	
+	<properties>	
+		<!-- versions -->
+		<java-version>1.6</java-version>
+		<javax.inject-version>1</javax.inject-version>
+		<javax.servlet.api-version>2.5</javax.servlet.api-version>
+		<javax.servlet.jsp-version>2.2</javax.servlet.jsp-version>
+		<javax.servlet.jstl-version>1.2</javax.servlet.jstl-version>
+		<org.springframework-version>3.2.2.RELEASE</org.springframework-version>
+		<org.springframework.security-version>3.1.4.RELEASE</org.springframework.security-version>
+		<junit-version>4.11</junit-version>
+		<jackson.json-version>1.7.1</jackson.json-version>
+		<org.slf4j-version>1.7.2</org.slf4j-version>
+		<log4j-version>1.2.15</log4j-version>
+		<joda.time-version>2.0</joda.time-version>
+		<com.fasterxml.jackson-version>2.1.1</com.fasterxml.jackson-version>
+		
+		<!--<ru.quorus.cryptography-version>1.0.5</ru.quorus.cryptography-version>-->
+		 <ru.quorus.cryptography-version>2.0.1</ru.quorus.cryptography-version>
+		
+		
+		<!-- maven versions -->
+		<maven.shade-version>1.5</maven.shade-version>
+		<maven.compiler-version>2.3.2</maven.compiler-version>
+		<maven.resource-version>2.4</maven.resource-version>
+		<maven.eclipse-version>2.9</maven.eclipse-version>
+		<maven.exec-version>1.2.1</maven.exec-version>
+		
+		<!-- params -->
+		<work.encoding>UTF-8</work.encoding>
+		<project-version>1.0</project-version>		
+	</properties>
+	
+	<modules>
+		<module>utils</module>
+		<module>event-service</module>
+		<module>strcontrol-service</module>
+		<module>eps-services-deploy</module>
+		<module>model</module>
+		<module>crypto-service</module>
+		<module>data-model</module>
+		<module>eps-service</module>
+		<module>eps-aux-services-deploy</module>
+	</modules>
+	
+	<profiles>
+		<profile>
+			<id>oas</id>
+			<properties>
+				<bindingsPrefix>java:comp/resource/</bindingsPrefix>
+				<profileName>oas</profileName>
+				<jndiFactoryBean>springJNDIPropertyFactory</jndiFactoryBean>
+				
+				<eclipseLinkTargetServer>OC4J</eclipseLinkTargetServer>
+			</properties>
+		</profile>
+		
+		<profile>
+			<id>wls</id>
+			<properties>
+				<bindingsPrefix></bindingsPrefix>
+				<profileName>wls</profileName>
+				<jndiFactoryBean>jndiPropertyExtractor</jndiFactoryBean>
+				
+				<eclipseLinkTargetServer>Weblogic_10</eclipseLinkTargetServer>
+			</properties>
+		</profile>
+	</profiles>
+	
+	<repositories>
+        <repository>
+            <id>internal</id>
+            <name>Quorus repository for Maven2</name>
+            <url>http://hudson:8082/repository/internal</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>quorus-repo</id>
+            <name>Quorus repository for Maven2</name>
+            <url>http://hudson:8082/repository/quorus-repo</url>
+            <releases>
+            	<enabled>true</enabled>
+                <!-- <updatePolicy>never</updatePolicy> -->
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>snapshots</id>
+            <name>Quorus repository for Maven2</name>
+            <url>http://hudson:8082/repository/snapshots</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>nexus-public</id>
+            <name>nexus public repository for Maven2</name>
+            <url>http://repository/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+</project>

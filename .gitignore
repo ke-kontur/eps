@@ -2,3 +2,4 @@ target
 .settings
 .svn
 *.iml
+/JDevProject/EPS/balancer/classes

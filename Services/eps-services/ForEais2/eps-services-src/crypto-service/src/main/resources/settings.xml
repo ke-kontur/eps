@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+    <import resource="oas-related.xml" />
+
+    <bean id="springJNDIPropertyFactory" class="ru.acs.fts.eps2.ws.utils.jndi.SpringJNDIPropertyFactory" />
+
+    <bean id="restEventSrvUrl" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/RestEventSrvUrl" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoCertificateId" class="java.lang.String">
+        <constructor-arg value="Бородин Анатолий Анатольевич" />
+    </bean>
+
+    <bean id="cryptoNeedUseCCSForSign" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoNeedUseCCSForSign" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoNeedUseCCSForCheck" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoNeedUseCCSForCheck" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoNeedUseTTS" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoNeedUseTTS" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoCCSAddress" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoCCSAddress" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoCCSUserName" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoCCSUserName" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoCCSPassword" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoCCSPassword" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoCCSProxyAddress" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoCCSProxyAddress" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoCCSProxyUserName" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoCCSProxyUserName" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoCCSProxyPassword" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoCCSProxyPassword" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoTimeServerAddress" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoTimeServerAddress" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoTimeServerProxyAddress" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoTimeServerProxyAddress" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoTimeServerProxyUserName" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoTimeServerProxyUserName" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="cryptoTimeServerProxyUserPassword" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoTimerServerProxyUserPassword" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+</beans>

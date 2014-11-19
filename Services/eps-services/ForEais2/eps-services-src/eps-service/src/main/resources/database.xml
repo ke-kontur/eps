@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns:tx="http://www.springframework.org/schema/tx"
+		xmlns:jee="http://www.springframework.org/schema/jee" 
+		xmlns:p="http://www.springframework.org/schema/p"
+		xmlns:util="http://www.springframework.org/schema/util"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/tx
+							http://www.springframework.org/schema/tx/spring-tx.xsd 
+							http://www.springframework.org/schema/jee 
+							http://www.springframework.org/schema/jee/spring-jee.xsd
+							http://www.springframework.org/schema/util 
+							http://www.springframework.org/schema/util/spring-util.xsd" >
+							
+	<!--Подключение к БД-->
+	
+	<bean id="pum" class="org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager" >
+		<property name="persistenceXmlLocations">
+			<list>
+				<value>classpath:spring-persistence.xml</value>
+			</list>
+		</property>
+		<property name="defaultDataSource" ref="businessProcessOracleConnection" />
+	</bean>
+	
+	<jee:jndi-lookup id="businessProcessOracleConnection" jndi-name="epsBusinessProcess" />
+
+	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean" >
+		<property name="persistenceUnitManager" ref="pum" />
+		<property name="dataSource" ref="businessProcessOracleConnection" />
+		<property name="jpaProperties">
+			<props>
+				<prop key="eclipselink.ddl-generation">none</prop>
+				<prop key="javax.persistence.jdbc.driver">oracle.jdbc.OracleDriver</prop>
+				<prop key="eclipselink.weaving">false</prop>
+				<prop key="eclipselink.target-server">${eclipseLinkTargetServer}</prop>
+				<prop key="eclipselink.target-database">org.eclipse.persistence.platform.database.oracle.Oracle10Platform</prop>
+			</props>
+		</property>
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter">
+				<property name="databasePlatform" value="org.eclipse.persistence.platform.database.OraclePlatform" />
+				<property name="showSql" value="true" />
+			</bean>
+		</property>
+	</bean>
+	
+	<tx:annotation-driven transaction-manager="transactionManager" />
+
+	<bean id="transactionManager" class="org.springframework.transaction.jta.JtaTransactionManager" />
+	
+	<bean id="jpaTemplate" class="org.springframework.orm.jpa.JpaTemplate" lazy-init="true" >
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+	</bean>
+	   
+	<!-- Новые сервисы для работы с БД -->
+
+	<bean id="envelopeService" class="ru.acs.fts.eps2.ws.data.model.services.EnvelopeService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="documentService" class="ru.acs.fts.eps2.ws.data.model.services.DocumentService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="procedureService" class="ru.acs.fts.eps2.ws.data.model.services.ProcedureService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="audService" class="ru.acs.fts.eps2.ws.data.model.services.AudService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="rzdCommandService" class="ru.acs.fts.eps2.ws.data.model.services.RzdCommandService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>	
+	
+	<bean id="eventService" class="ru.acs.fts.eps2.ws.data.model.services.EventService" >
+		<property name="jpaTemplate" ref="jpaTemplate" />
+	</bean>	
+		
+	<util:list id="innNumbers" >
+		<value>5321029508</value>
+		<value>7740000100</value>
+		<value>4708007089</value>
+		<value>4707017905</value>
+		<value>7813321236</value>
+		<value>1658008723</value>
+		<value>6330017677</value>
+		<value>0268015226</value>
+		<value>475001850</value>
+		<value>4715011103</value>
+		<value>7810925261</value>
+		<value>1005060090</value>
+		<value>4711002404</value>
+		<value>4715778325</value>
+		<value>5306006224</value>
+		<value>7841001397</value>
+		<value>7709640099</value>
+		<value>4323002620</value>
+		<value>7401000473</value>
+		<value>2124009521</value>
+		<value>7708008440</value>
+		<value>0256006322</value>
+		<value>1004001744</value>
+		<value>0323341897</value>
+		<value>3801072394</value>
+		<value>0323827817</value>
+		<value>1234567890</value>
+    </util:list>
+    
+    <util:list id="decisionCodes" >
+		<value>10</value>
+		<value>20</value>
+    </util:list>
+    
+    <util:list id="transportCodeModes" >
+		<value>20</value>
+    </util:list>
+</beans>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+		xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:oxm="http://www.springframework.org/schema/oxm"		
+		xmlns:jee="http://www.springframework.org/schema/jee"
+		xmlns:util="http://www.springframework.org/schema/util"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans 
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/oxm 
+							http://www.springframework.org/schema/oxm/spring-oxm-1.5.xsd
+							http://www.springframework.org/schema/jee
+							http://www.springframework.org/schema/jee/spring-jee.xsd
+							http://www.springframework.org/schema/util 
+							http://www.springframework.org/schema/util/spring-util.xsd" >
+
+	<oxm:jibx-marshaller id="jibx" target-class="ru.acs.fts.schemas.envelope.EnvelopeType" />
+
+	<jee:jndi-lookup id="rtuCodesRef" jndi-name="${bindingsPrefix}eps2jconfig/Config/rtuCodes" />
+	<jee:jndi-lookup id="extGateQueueManagerRef" jndi-name="${bindingsPrefix}eps2jconfig/Config/extGateTransmitionRemoteManager" />
+	<jee:jndi-lookup id="extGateQueueRef" jndi-name="${bindingsPrefix}eps2jconfig/Config/extGateTransmitionRemoteQueue" />
+	
+	<bean id="rtuCodesProp" class="ru.acs.fts.eps2.util.jndi.JNDIProperty" factory-method="fromReference" >
+		<constructor-arg ref="rtuCodesRef" />
+	</bean>
+	
+	<bean id="extGateQueueManagerProp" class="ru.acs.fts.eps2.util.jndi.JNDIProperty" factory-method="fromReference" >
+		<constructor-arg ref="extGateQueueManagerRef" />
+	</bean>
+	
+	<bean id="extGateQueueProp" class="ru.acs.fts.eps2.util.jndi.JNDIProperty" factory-method="fromReference" >
+		<constructor-arg ref="extGateQueueRef" />
+	</bean>
+	
+	<bean id="rtuCodes" class="java.lang.String"
+			factory-bean="rtuCodesProp" factory-method="getValue" />
+	
+	<bean id="extGateQueueManager" class="java.lang.String"
+			factory-bean="extGateQueueManagerProp" factory-method="getValue" />
+			
+	<bean id="extGateQueue" class="java.lang.String" 
+			factory-bean="extGateQueueProp" factory-method="getValue" />
+
+</beans>
