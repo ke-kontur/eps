@@ -4,9 +4,15 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.StringWriter;
+import java.util.Collection;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
+import java.security.cert.CertificateFactory;
+import java.security.cert.X509Certificate;
+import org.apache.commons.lang.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.OutputKeys;
@@ -50,6 +56,8 @@ import ru.quorus.helpers.SignedDocumentObject;
 
 public class CryptoService
 {
+	private static final Logger log = LoggerFactory.getLogger(CryptoService.class);
+
 	// private String _certificateId = "EPSTest2011";
 	private String _certificateId = "Скворцова Наталья Александровна";
     
@@ -63,11 +71,23 @@ public class CryptoService
 	private String _ccsProxyAddress = "";
 	private String _ccsProxyUserName = "";
 	private String _ccsProxyPassword = "";
-	
+	private String _needCheckCertOids = "true";
+
+
 	private String _timeServerAddress = "";
 	private String _timeServerProxyAddress = "";
 	private String _timeServerProxyUserName = "";
 	private String _timeServerProxyUserPassword= "";
+
+	public void setNeedCheckCertOids(String needCheckCertOids)
+	{
+		this._needCheckCertOids = needCheckCertOids;
+	}
+
+	public String getNeedCheckCertOids()
+	{
+		return this._needCheckCertOids;
+	}
 
 	// @formatter:off
 	public void setCertificateId( String certificateId ) { _certificateId = certificateId; }
@@ -215,6 +235,18 @@ public class CryptoService
 
 			SignedDocumentParser parser = f.newSignedDocumentParser( );
 			SignedDocument signedDocument = parser.parse( SignedDocumentObject.getSignedDocumentObject( xmlDocStr.getBytes( "UTF-8" ) ) );
+
+			if(this._needCheckCertOids.equals("true")) {
+				ByteArrayInputStream bas = new ByteArrayInputStream(signedDocument.getCertificateBytes());
+
+				CertificateFactory cf = CertificateFactory.getInstance("X.509");
+				java.security.cert.Certificate c = cf.generateCertificate(bas);
+
+				X509Certificate t = (X509Certificate) c;
+				Collection keys = t.getExtendedKeyUsage();
+				String result = StringUtils.join(keys, ", ");
+				log.info("Проверка документа подписанного сертификатом " + result + " " + t.getSubjectDN());
+			}
 
 			int verify = signedDocument.verifyCert( );
 			f.getSignatureCheckerFactory( ).destroy( );

@@ -10,6 +10,7 @@
 
         <property name="needUseCCSForSign" ref="cryptoNeedUseCCSForSign" />
         <property name="needUseCCSForCheck" ref="cryptoNeedUseCCSForCheck" />
+        <property name="needCheckCertOids" ref="cryptoNeedCheckCertOids" />
         <property name="needUseTTS" ref="cryptoNeedUseTTS" />
 
         <property name="ccsAddress" ref="cryptoCCSAddress" />

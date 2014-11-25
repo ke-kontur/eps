@@ -40,6 +40,15 @@
         </constructor-arg>
     </bean>
 
+    <bean id="cryptoNeedCheckCertOids" class="java.lang.String"
+          factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
+        <constructor-arg>
+            <bean class="org.springframework.jndi.JndiObjectFactoryBean" >
+                <property name="jndiName" value="java:comp/resource/eps2wsconfig/Config/CryptoNeedCheckCertOids" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
     <bean id="cryptoNeedUseTTS" class="java.lang.String"
           factory-bean="springJNDIPropertyFactory" factory-method="getStringPropertyValue" >
         <constructor-arg>

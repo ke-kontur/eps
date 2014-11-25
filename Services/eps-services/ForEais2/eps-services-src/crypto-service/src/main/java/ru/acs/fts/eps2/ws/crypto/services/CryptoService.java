@@ -8,6 +8,7 @@ import java.io.StringWriter;
 import java.io.UnsupportedEncodingException;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -61,6 +62,7 @@ public class CryptoService
     private static final Logger log = LoggerFactory.getLogger(CryptoService.class);
     private String _certificateId = "Скворцова Наталья Александровна";
     private String _needUseCCSForSign = "true";
+    private String _needCheckCertOids = "true";
     private String _needUseCCSForCheck = "true";
     private String _needUseTTS = "true";
     private String _ccsAddress = "";
@@ -92,6 +94,16 @@ public class CryptoService
     public String getNeedUserCCSForSign()
     {
         return this._needUseCCSForSign;
+    }
+
+    public void setNeedCheckCertOids(String needCheckCertOids)
+    {
+        this._needCheckCertOids = needCheckCertOids;
+    }
+
+    public String getNeedCheckCertOids()
+    {
+        return this._needCheckCertOids;
     }
 
     public void setNeedUseCCSForCheck(String needUseCCSForCheck)
@@ -298,35 +310,33 @@ public class CryptoService
         }
         String[] props = getVerifierProps(this._needUseCCSForCheck);
 
-        try{
-            //TODO: переделать
-            new CertificateCheckerFactoryImpl( );
+        if(this._needCheckCertOids.equals("true")) {
+            try {
+                //TODO: переделать
+                new CertificateCheckerFactoryImpl();
 
-            SignatureFactory f = SignatureFactory.newInstance( SignatureFactory.URN_QUORUS_SIGNATURE_1_0 );
-            new SignedDocumentReader( (SignatureFactoryImpl)f );
+                SignatureFactory f = SignatureFactory.newInstance(SignatureFactory.URN_QUORUS_SIGNATURE_1_0);
+                new SignedDocumentReader((SignatureFactoryImpl) f);
 
-            SignedDocumentParser parser = f.newSignedDocumentParser( );
-            SignedDocument signedDocument = parser.parse( SignedDocumentObject.getSignedDocumentObject(xmlDocStr.getBytes("UTF-8")) );
-            ByteArrayInputStream bas=new ByteArrayInputStream(signedDocument.getCertificateBytes());
+                SignedDocumentParser parser = f.newSignedDocumentParser();
+                SignedDocument signedDocument = parser.parse(SignedDocumentObject.getSignedDocumentObject(xmlDocStr.getBytes("UTF-8")));
+                ByteArrayInputStream bas = new ByteArrayInputStream(signedDocument.getCertificateBytes());
 
-            CertificateFactory cf = CertificateFactory.getInstance("X.509");
-            java.security.cert.Certificate c = cf.generateCertificate(bas);
+                CertificateFactory cf = CertificateFactory.getInstance("X.509");
+                java.security.cert.Certificate c = cf.generateCertificate(bas);
 
-            X509Certificate t = (X509Certificate) c;
-            Collection keys=t.getExtendedKeyUsage();
-            String result = StringUtils.join(keys, ", ");
-            log.info("Проверка документа подписанного сертификатом " + result + " " + t.getSubjectDN());
-            //TODO: обрабатываем
-        }
-        catch(Throwable t){
-            if ((t instanceof CryptographyException))
-            {
-                CryptographyException ex = (CryptographyException)t;
-                results.add(ResultProcessor.createResult(ResultProcessor.parseCheckSignCryptoCode(ex.getCode()), documentId));
-            }
-            else
-            {
-                results.add(ResultProcessor.createResult("01.00051.01", documentId));
+                X509Certificate t = (X509Certificate) c;
+                Collection keys = t.getExtendedKeyUsage();
+                String result = StringUtils.join(keys, ", ");
+                log.info("Проверка документа подписанного сертификатом " + result + " " + t.getSubjectDN());
+                //TODO: обрабатываем
+            } catch (Throwable t) {
+                if ((t instanceof CryptographyException)) {
+                    CryptographyException ex = (CryptographyException) t;
+                    results.add(ResultProcessor.createResult(ResultProcessor.parseCheckSignCryptoCode(ex.getCode()), documentId));
+                } else {
+                    results.add(ResultProcessor.createResult("01.00051.01", documentId));
+                }
             }
         }
 
