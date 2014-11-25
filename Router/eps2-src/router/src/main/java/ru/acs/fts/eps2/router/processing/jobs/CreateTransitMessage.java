@@ -95,14 +95,14 @@ public class CreateTransitMessage extends EDJob
 				recipientSystem = bs;
 				if ( BusinessSystems.isSuchSystem( bs, BusinessSystems.CUSTOMS ) ||
 					 BusinessSystems.isSuchSystem( bs, BusinessSystems.EPS ) ||					 
-					 /*BusinessSystems.isSuchSystem( bs, BusinessSystems.MALAKHIT ) ||*/
+					 BusinessSystems.isSuchSystem( bs, BusinessSystems.MALAKHIT ) ||
                         BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.ORDER ) ||
                         BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT1 ) ||
                         BusinessSystems.isSuchSystem( recipientSystem, BusinessSystems.PAYMENT2 ))
 				{
 					receivingCustoms = recvEnv.getReceiverCustoms( );
 				}
-				else if(BusinessSystems.isSuchSystem( bs, BusinessSystems.MALAKHIT )){
+				/*else if(BusinessSystems.isSuchSystem( bs, BusinessSystems.MALAKHIT )){
 					String exchType = ( null != recvEnv.getSenderCustoms( ) )
 							? recvEnv.getSenderCustoms( ).getExchType( )
 							: recvEnv.getReceiverCustoms( ).getExchType( );
@@ -110,7 +110,7 @@ public class CreateTransitMessage extends EDJob
 					receivingCustoms = new CustomsType( );
 					receivingCustoms.setCustomsCode( jobBatchContext.getConfigurator( ).getMalakhitCustomsCode( ) );
 					receivingCustoms.setExchType( exchType );
-				}
+				}*/
 				else if ( BusinessSystems.isSuchSystem( bs, BusinessSystems.ASKTT2 ) )
 				{
 					String exchType = ( null != recvEnv.getSenderCustoms( ) ) 
