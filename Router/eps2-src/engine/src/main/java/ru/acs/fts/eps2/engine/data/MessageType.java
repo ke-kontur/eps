@@ -178,6 +178,8 @@ public class MessageType
     public static final String CMN_11145 = "CMN.11145";
 
     public static final String CMN_11146 = "CMN.11146";
+
+	public static final String CMN_11156 = "CMN.11156";
 	
 	public static final String CMN_12002 = "CMN.12002";
 	
