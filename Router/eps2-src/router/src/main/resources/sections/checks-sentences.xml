@@ -2186,8 +2186,8 @@
 				<id1006078E>1</id1006078E>  <!-- GTDOutCustomsMark -->
 				<id1006089E>-3</id1006089E> <!-- GoodsComponentList  -->
 				<id1006123E>-3</id1006123E> <!-- AddInfoForeignTradeContract -->
-				<id1006112E>-3</id1006112E> <!-- DTSout_CU  -->
-				<id1006079E>-3</id1006079E> <!-- DTSOutCustomsMark -->
+				<id1006112E>-1</id1006112E> <!-- DTSout_CU  -->
+				<id1006079E>-1</id1006079E> <!-- DTSOutCustomsMark -->
 			</ch:containerCheck>
 		</ch:clause>
 	</ch:checksSentence>	
