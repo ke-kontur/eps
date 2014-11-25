@@ -354,7 +354,7 @@ public class ImportExportMessagesBusinessProcess extends BusinessProcess
 		 * DTSout_CU (1006112E), DTSOut (1006044E), KTSout_CU (1006113E), 
 		 * AddInfoForeignTradeContract (1006123E), GoodsComponentsList (1006089E).
 		 */
-		if ( complete )
+		if ( complete && !recvEnv.getMessageType( ).equals( MessageType.CMN_11156 ))
 		{
 			EnvelopeService envelopeService = _serviceHolder.getEnvelopeService( );
 			String currentContainerId = envelopeService.getDocument( 
