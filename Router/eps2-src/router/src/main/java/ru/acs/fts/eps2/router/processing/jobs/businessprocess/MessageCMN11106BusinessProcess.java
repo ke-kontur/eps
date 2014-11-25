@@ -59,11 +59,14 @@ public class MessageCMN11106BusinessProcess extends BusinessProcess
         transitMessage.setInitialEnvelopeID(null);
         EDEnvelope recvEnv = jobBatchContext.getReceivedEnvelope( );
 
+
         CustomsType senderCustoms=new CustomsType();
         String processId = recvEnv.getProcessID();
         Edecl_Proc_Information procInfo=getServiceHolder().getProcedureService().getProcInformation(processId);
         senderCustoms.setCustomsCode(procInfo.getCustCode());
         senderCustoms.setExchType(transitMessage.getSenderCustoms().getExchType());
+        List<String> recieverInfoes = EnvelopeCreator.getReceiverInformation(BusinessSystems.CUSTOMS,senderCustoms,recvEnv.getParticipantID( ));
+        transitMessage.getRoutingInfo().setReceiverInformationList(recieverInfoes);
 
         EDDocument declarationType = transitMessage.getDocument().getDocumentInContainer(MPODeclarationType.class);
         NotifMPORegistrationType regType = transitMessage.getDocument().getDocumentInContainer(NotifMPORegistrationType.class).getDocumentAsClass(NotifMPORegistrationType.class);
