@@ -29,7 +29,9 @@ public class SpecialProcedureStates
 	/**
 	 * 
 	 */
-	public static final String UD_TR_ARRIVE_CH_FINISH = "UD_Tr_Arrive_Ch_Finish";	
+	public static final String UD_TR_ARRIVE_CH_FINISH = "UD_Tr_Arrive_Ch_Finish";
+
+	public static final String UD_DECL_DUBLICATION_REQ_CH = "UD_Decl_DuplicationReq_Ch";
 	
 	/**
 	 * Статусы при решении о корректировке таможенной стоимости после выпуска товаров 

@@ -86,7 +86,8 @@ public class MessageCMN11062BusinessProcess extends BusinessProcess
 			}
 			else
 			{
-				if ( isStateUdTrArriveChFinish( process ) )
+				if ( isStateUdTrArriveChFinish( process ) ||
+						( MessageType.CMN_11075.equalsIgnoreCase( recvEnv.getMessageType( ) ) && isStateUDDeclDuplicationReqCh(process)))
 				{
 					if ( isOneEps( process ) ) // UD_FLAG == 2
 					{
@@ -235,6 +236,14 @@ public class MessageCMN11062BusinessProcess extends BusinessProcess
 		return SpecialProcedureStates.isSuchState( 
 			process.getCurrentState( ), 
 			SpecialProcedureStates.UD_TR_ARRIVE_CH_FINISH 
+		);
+	}
+
+	private boolean isStateUDDeclDuplicationReqCh( Edecl_Proc_Information process )
+	{
+		return SpecialProcedureStates.isSuchState(
+				process.getCurrentState( ),
+				SpecialProcedureStates.UD_DECL_DUBLICATION_REQ_CH
 		);
 	}
 	
